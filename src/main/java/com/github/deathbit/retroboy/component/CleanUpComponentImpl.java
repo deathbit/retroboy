@@ -13,13 +13,13 @@ import java.util.List;
 
 /**
  * 清理组件实现
- * 用于删除指定目录下的所有内容
+ * 用于删除指定目录列表下的所有内容
  */
 @Slf4j
 @Component
 public class CleanUpComponentImpl implements CleanUpComponent {
 
-    @Value("${cleanup.directories:}")
+    @Value("${cleanup.directories:#{T(java.util.Collections).emptyList()}}")
     private List<String> cleanupDirectories;
 
     @Override
