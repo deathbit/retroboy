@@ -3,4 +3,5 @@ spring:
     name: retroboy
 
 cleanup:
-  directory: /tmp/retroboy-cleanup
+  directories:
+    - /tmp/retroboy-cleanup
