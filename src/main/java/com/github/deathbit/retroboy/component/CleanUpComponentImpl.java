@@ -9,6 +9,7 @@ import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 /**
  * 清理组件实现
@@ -18,34 +19,41 @@ import java.nio.file.Paths;
 @Component
 public class CleanUpComponentImpl implements CleanUpComponent {
 
-    @Value("${cleanup.directory}")
-    private String cleanupDirectory;
+    @Value("${cleanup.directories:}")
+    private List<String> cleanupDirectories;
 
     @Override
     public void clean() {
-        if (cleanupDirectory == null || cleanupDirectory.trim().isEmpty()) {
+        if (cleanupDirectories == null || cleanupDirectories.isEmpty()) {
             log.warn("清理目录未配置，跳过清理操作");
             return;
         }
 
-        Path dirPath = Paths.get(cleanupDirectory);
-        
-        if (!Files.exists(dirPath)) {
-            log.info("清理目录不存在: {}", cleanupDirectory);
-            return;
-        }
+        for (String cleanupDirectory : cleanupDirectories) {
+            if (cleanupDirectory == null || cleanupDirectory.trim().isEmpty()) {
+                log.warn("跳过空的清理目录配置");
+                continue;
+            }
 
-        if (!Files.isDirectory(dirPath)) {
-            log.warn("指定的路径不是目录: {}", cleanupDirectory);
-            return;
-        }
+            Path dirPath = Paths.get(cleanupDirectory);
+            
+            if (!Files.exists(dirPath)) {
+                log.info("清理目录不存在: {}", cleanupDirectory);
+                continue;
+            }
 
-        try {
-            log.info("开始清理目录: {}", cleanupDirectory);
-            deleteDirectoryContents(dirPath);
-            log.info("目录清理完成: {}", cleanupDirectory);
-        } catch (IOException e) {
-            log.error("清理目录时发生错误: {}", cleanupDirectory, e);
+            if (!Files.isDirectory(dirPath)) {
+                log.warn("指定的路径不是目录: {}", cleanupDirectory);
+                continue;
+            }
+
+            try {
+                log.info("开始清理目录: {}", cleanupDirectory);
+                deleteDirectoryContents(dirPath);
+                log.info("目录清理完成: {}", cleanupDirectory);
+            } catch (IOException e) {
+                log.error("清理目录时发生错误: {}", cleanupDirectory, e);
+            }
         }
     }
 

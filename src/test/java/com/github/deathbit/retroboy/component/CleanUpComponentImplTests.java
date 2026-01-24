@@ -9,12 +9,15 @@ import org.springframework.test.context.TestPropertySource;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
 @TestPropertySource(properties = {
-    "cleanup.directory=${java.io.tmpdir}/test-cleanup"
+    "cleanup.directories[0]=${java.io.tmpdir}/test-cleanup"
 })
 class CleanUpComponentImplTests {
 
@@ -48,9 +51,9 @@ class CleanUpComponentImplTests {
 
         // Create a CleanUpComponentImpl with the temp directory
         CleanUpComponentImpl cleanUpComponent = new CleanUpComponentImpl();
-        java.lang.reflect.Field field = CleanUpComponentImpl.class.getDeclaredField("cleanupDirectory");
+        java.lang.reflect.Field field = CleanUpComponentImpl.class.getDeclaredField("cleanupDirectories");
         field.setAccessible(true);
-        field.set(cleanUpComponent, tempDir.toString());
+        field.set(cleanUpComponent, Collections.singletonList(tempDir.toString()));
 
         // Execute clean
         cleanUpComponent.clean();
@@ -66,9 +69,9 @@ class CleanUpComponentImplTests {
     @Test
     void cleanShouldHandleNonExistentDirectory() throws Exception {
         CleanUpComponentImpl cleanUpComponent = new CleanUpComponentImpl();
-        java.lang.reflect.Field field = CleanUpComponentImpl.class.getDeclaredField("cleanupDirectory");
+        java.lang.reflect.Field field = CleanUpComponentImpl.class.getDeclaredField("cleanupDirectories");
         field.setAccessible(true);
-        field.set(cleanUpComponent, "/tmp/non-existent-directory-12345");
+        field.set(cleanUpComponent, Collections.singletonList("/tmp/non-existent-directory-12345"));
 
         // Should not throw exception
         cleanUpComponent.clean();
@@ -77,13 +80,74 @@ class CleanUpComponentImplTests {
     @Test
     void cleanShouldHandleEmptyDirectory(@TempDir Path tempDir) throws Exception {
         CleanUpComponentImpl cleanUpComponent = new CleanUpComponentImpl();
-        java.lang.reflect.Field field = CleanUpComponentImpl.class.getDeclaredField("cleanupDirectory");
+        java.lang.reflect.Field field = CleanUpComponentImpl.class.getDeclaredField("cleanupDirectories");
         field.setAccessible(true);
-        field.set(cleanUpComponent, tempDir.toString());
+        field.set(cleanUpComponent, Collections.singletonList(tempDir.toString()));
 
         // Should not throw exception on empty directory
         cleanUpComponent.clean();
         
         assertThat(Files.exists(tempDir)).isTrue();
+    }
+
+    @Test
+    void cleanShouldDeleteAllFilesInMultipleDirectories(@TempDir Path tempDir1, @TempDir Path tempDir2) throws Exception {
+        // Create test files in first directory
+        Path file1 = tempDir1.resolve("file1.txt");
+        Path subDir1 = tempDir1.resolve("subdir1");
+        Files.createFile(file1);
+        Files.createDirectory(subDir1);
+
+        // Create test files in second directory
+        Path file2 = tempDir2.resolve("file2.txt");
+        Path subDir2 = tempDir2.resolve("subdir2");
+        Files.createFile(file2);
+        Files.createDirectory(subDir2);
+
+        // Verify files exist
+        assertThat(Files.exists(file1)).isTrue();
+        assertThat(Files.exists(subDir1)).isTrue();
+        assertThat(Files.exists(file2)).isTrue();
+        assertThat(Files.exists(subDir2)).isTrue();
+
+        // Create a CleanUpComponentImpl with multiple directories
+        CleanUpComponentImpl cleanUpComponent = new CleanUpComponentImpl();
+        java.lang.reflect.Field field = CleanUpComponentImpl.class.getDeclaredField("cleanupDirectories");
+        field.setAccessible(true);
+        field.set(cleanUpComponent, Arrays.asList(tempDir1.toString(), tempDir2.toString()));
+
+        // Execute clean
+        cleanUpComponent.clean();
+
+        // Verify all contents are deleted from both directories
+        assertThat(Files.exists(tempDir1)).isTrue();
+        assertThat(Files.exists(file1)).isFalse();
+        assertThat(Files.exists(subDir1)).isFalse();
+        
+        assertThat(Files.exists(tempDir2)).isTrue();
+        assertThat(Files.exists(file2)).isFalse();
+        assertThat(Files.exists(subDir2)).isFalse();
+    }
+
+    @Test
+    void cleanShouldHandleEmptyListOfDirectories() throws Exception {
+        CleanUpComponentImpl cleanUpComponent = new CleanUpComponentImpl();
+        java.lang.reflect.Field field = CleanUpComponentImpl.class.getDeclaredField("cleanupDirectories");
+        field.setAccessible(true);
+        field.set(cleanUpComponent, Collections.emptyList());
+
+        // Should not throw exception
+        cleanUpComponent.clean();
+    }
+
+    @Test
+    void cleanShouldHandleNullListOfDirectories() throws Exception {
+        CleanUpComponentImpl cleanUpComponent = new CleanUpComponentImpl();
+        java.lang.reflect.Field field = CleanUpComponentImpl.class.getDeclaredField("cleanupDirectories");
+        field.setAccessible(true);
+        field.set(cleanUpComponent, null);
+
+        // Should not throw exception
+        cleanUpComponent.clean();
     }
 }
