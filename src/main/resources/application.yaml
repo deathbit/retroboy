@@ -1,3 +1,6 @@
 spring:
   application:
     name: retroboy
+
+cleanup:
+  directory: /tmp/retroboy-cleanup
