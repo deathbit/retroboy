@@ -105,7 +105,7 @@ public class ConfigComponentImpl implements ConfigComponent {
             Files.write(configPath, lines, StandardCharsets.UTF_8);
             
         } catch (IOException e) {
-            System.err.println("Failed to modify config file: " + e.getMessage());
+            System.err.println("Failed to modify config file " + configFile + ": " + e.getMessage());
         }
     }
 
