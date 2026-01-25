@@ -104,4 +104,76 @@ class NesHandlerTest {
         assertTrue(result.getLicensed().contains("Game 1"));
         assertTrue(result.getLicensed().contains("Game 2"));
     }
+
+    @Test
+    void testBuildFileContext_shouldParseSimpleFileName() {
+        // Arrange
+        NesHandler handler = new NesHandler();
+        
+        // Act
+        var result = handler.buildFileContext("'89 Dennou Kyuusei Uranai (Japan).nes");
+        
+        // Assert
+        assertNotNull(result);
+        assertEquals("'89 Dennou Kyuusei Uranai (Japan).nes", result.getFileName());
+        assertEquals("'89 Dennou Kyuusei Uranai (Japan)", result.getFullName());
+        assertEquals("'89 Dennou Kyuusei Uranai", result.getNamePart());
+        assertEquals("(Japan)", result.getTagPart());
+        assertEquals(1, result.getTags().size());
+        assertEquals("Japan", result.getTags().get(0));
+    }
+
+    @Test
+    void testBuildFileContext_shouldParseFileNameWithMultipleTags() {
+        // Arrange
+        NesHandler handler = new NesHandler();
+        
+        // Act
+        var result = handler.buildFileContext("10-Yard Fight (Japan) (En).nes");
+        
+        // Assert
+        assertNotNull(result);
+        assertEquals("10-Yard Fight (Japan) (En).nes", result.getFileName());
+        assertEquals("10-Yard Fight (Japan) (En)", result.getFullName());
+        assertEquals("10-Yard Fight", result.getNamePart());
+        assertEquals("(Japan) (En)", result.getTagPart());
+        assertEquals(2, result.getTags().size());
+        assertEquals("Japan", result.getTags().get(0));
+        assertEquals("En", result.getTags().get(1));
+    }
+
+    @Test
+    void testBuildFileContext_shouldHandleFileNameWithoutTags() {
+        // Arrange
+        NesHandler handler = new NesHandler();
+        
+        // Act
+        var result = handler.buildFileContext("Simple Game.nes");
+        
+        // Assert
+        assertNotNull(result);
+        assertEquals("Simple Game.nes", result.getFileName());
+        assertEquals("Simple Game", result.getFullName());
+        assertEquals("Simple Game", result.getNamePart());
+        assertEquals("", result.getTagPart());
+        assertEquals(0, result.getTags().size());
+    }
+
+    @Test
+    void testBuildFileContext_shouldHandleFileNameWithoutExtension() {
+        // Arrange
+        NesHandler handler = new NesHandler();
+        
+        // Act
+        var result = handler.buildFileContext("Game (World)");
+        
+        // Assert
+        assertNotNull(result);
+        assertEquals("Game (World)", result.getFileName());
+        assertEquals("Game (World)", result.getFullName());
+        assertEquals("Game", result.getNamePart());
+        assertEquals("(World)", result.getTagPart());
+        assertEquals(1, result.getTags().size());
+        assertEquals("World", result.getTags().get(0));
+    }
 }
