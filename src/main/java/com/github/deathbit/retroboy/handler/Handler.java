@@ -11,7 +11,7 @@ public interface Handler {
     RuleContext buildRuleContext(RuleConfig ruleConfig);
     FileContext buildFileContext(String fileName);
     List<Rule> buildJapanRuleChain();
-    List<Rule> buildUSARuleChain();
+    List<Rule> buildUsaRuleChain();
     List<Rule> buildEuropeRuleChain();
     void handle();
 }

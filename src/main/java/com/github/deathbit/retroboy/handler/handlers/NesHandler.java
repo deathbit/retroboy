@@ -109,7 +109,7 @@ public class NesHandler implements Handler {
     }
 
     @Override
-    public List<Rule> buildUSARuleChain() {
+    public List<Rule> buildUsaRuleChain() {
         return List.of(
                 Rules.IS_USA_LICENSED
         );
@@ -133,6 +133,8 @@ public class NesHandler implements Handler {
 
         // Initialize the japanFinal set
         Set<String> japanFinal = new HashSet<>();
+        Set<String> usaFinal = new HashSet<>();
+        Set<String> europeFinal = new HashSet<>();
         
         // Read all files from romDir
         File romDir = new File(ruleConfig.getRomDir());
@@ -141,6 +143,8 @@ public class NesHandler implements Handler {
             if (files != null) {
                 // Get the Japan rule chain (same for all files)
                 List<Rule> japanRuleChain = buildJapanRuleChain();
+                List<Rule> usaRuleChain = buildUsaRuleChain();
+                List<Rule> europeRuleChain = buildEuropeRuleChain();
                 
                 for (File file : files) {
                     if (file.isFile()) {
@@ -152,17 +156,28 @@ public class NesHandler implements Handler {
                         // Apply Japan rule chain to determine if file should be added to japanFinal
                         boolean passJapanRules = japanRuleChain.stream()
                                 .allMatch(rule -> rule.pass(ruleContext, fileContext));
-                        
+                        boolean passUsaRules = usaRuleChain.stream()
+                                .allMatch(rule -> rule.pass(ruleContext, fileContext));
+                        boolean passEuropeRules = europeRuleChain.stream()
+                                .allMatch(rule -> rule.pass(ruleContext, fileContext));
                         if (passJapanRules) {
                             japanFinal.add(fileName);
+                        }
+                        if (passUsaRules) {
+                            usaFinal.add(fileName);
+                        }
+                        if (passEuropeRules) {
+                            europeFinal.add(fileName);
                         }
                     }
                 }
             }
         }
-        
+
         // Update the RuleContext with japanFinal
         ruleContext.setJapanFinal(japanFinal);
+        ruleContext.setUsaFinal(usaFinal);
+        ruleContext.setEuropeFinal(europeFinal);
 
         System.out.println();
     }
