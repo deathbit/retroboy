@@ -72,7 +72,7 @@ public class NesHandler implements Handler {
         // Parse name part and tag part
         String namePart = fullName;
         String tagPart = "";
-        List<String> tags = List.of();
+        List<String> tags = new ArrayList<>();
         
         int firstParen = fullName.indexOf('(');
         if (firstParen != -1) {
@@ -152,13 +152,8 @@ public class NesHandler implements Handler {
                         FileContext fileContext = buildFileContext(fileName);
                         
                         // Apply Japan rule chain to determine if file should be added to japanFinal
-                        boolean passJapanRules = true;
-                        for (Rule rule : japanRuleChain) {
-                            if (!rule.pass(ruleContext, fileContext)) {
-                                passJapanRules = false;
-                                break;
-                            }
-                        }
+                        boolean passJapanRules = japanRuleChain.stream()
+                                .allMatch(rule -> rule.pass(ruleContext, fileContext));
                         
                         if (passJapanRules) {
                             japanFinal.add(fileName);
