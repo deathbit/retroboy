@@ -95,6 +95,8 @@ public class NesHandler implements Handler {
         createComponent.createDir(ruleConfig.getUsaTargetDir());
         createComponent.createDir(ruleConfig.getEuropeTargetDir());
 
+
+
         System.out.println();
     }
 }
