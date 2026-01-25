@@ -1,6 +1,7 @@
 package com.github.deathbit.retroboy.component.impl;
 
 import com.github.deathbit.retroboy.component.CleanUpComponent;
+import com.github.deathbit.retroboy.component.ProgressBarComponent;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
@@ -16,6 +17,12 @@ import java.util.stream.Stream;
 @Slf4j
 @Component
 public class CleanUpComponentImpl implements CleanUpComponent {
+    
+    private final ProgressBarComponent progressBarComponent;
+    
+    public CleanUpComponentImpl(ProgressBarComponent progressBarComponent) {
+        this.progressBarComponent = progressBarComponent;
+    }
 
     @Override
     public void deleteDir(String dir) {
@@ -92,11 +99,35 @@ public class CleanUpComponentImpl implements CleanUpComponent {
 
     @Override
     public void batchDeleteDir(List<String> dirs) {
-
+        if (dirs == null || dirs.isEmpty()) {
+            log.info("No directories to delete");
+            return;
+        }
+        
+        progressBarComponent.start("Batch Delete Directories", dirs.size());
+        
+        for (String dir : dirs) {
+            deleteDir(dir);
+            progressBarComponent.update(dir);
+        }
+        
+        progressBarComponent.finish();
     }
 
     @Override
     public void batchDeleteFile(List<String> files) {
-
+        if (files == null || files.isEmpty()) {
+            log.info("No files to delete");
+            return;
+        }
+        
+        progressBarComponent.start("Batch Delete Files", files.size());
+        
+        for (String file : files) {
+            deleteFile(file);
+            progressBarComponent.update(file);
+        }
+        
+        progressBarComponent.finish();
     }
 }
