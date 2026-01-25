@@ -9,6 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Stream;
@@ -44,7 +45,7 @@ public class CleanUpComponentImpl implements CleanUpComponent {
         try {
             // Delete directory recursively by walking the file tree in reverse order
             try (Stream<Path> walk = Files.walk(dirPath)) {
-                List<Path> failedPaths = new ArrayList<>();
+                List<Path> failedPaths = Collections.synchronizedList(new ArrayList<>());
                 walk.sorted(Comparator.reverseOrder())
                     .forEach(path -> {
                         try {
@@ -151,7 +152,7 @@ public class CleanUpComponentImpl implements CleanUpComponent {
         try {
             // Delete directory contents but not the directory itself
             try (Stream<Path> walk = Files.walk(dirPath)) {
-                List<Path> failedPaths = new ArrayList<>();
+                List<Path> failedPaths = Collections.synchronizedList(new ArrayList<>());
                 walk.filter(path -> !path.equals(dirPath)) // Skip the directory itself
                     .sorted(Comparator.reverseOrder())
                     .forEach(path -> {
