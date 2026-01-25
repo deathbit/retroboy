@@ -3,6 +3,7 @@ package com.github.deathbit.retroboy.config;
 import com.github.deathbit.retroboy.config.domain.Cleanup;
 import com.github.deathbit.retroboy.config.domain.ConfigDefault;
 import com.github.deathbit.retroboy.config.domain.CopyDefault;
+import com.github.deathbit.retroboy.config.domain.RuleConfig;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
@@ -15,4 +16,5 @@ public class AppConfig {
     private CopyDefault copyDefault;
     private ConfigDefault configDefault;
     private String retroArchConfig;
+    private RuleConfig nesRuleConfig;
 }
