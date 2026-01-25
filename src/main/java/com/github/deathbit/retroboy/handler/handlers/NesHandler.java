@@ -1,6 +1,7 @@
 package com.github.deathbit.retroboy.handler.handlers;
 
 import com.github.deathbit.retroboy.component.CreateComponent;
+import com.github.deathbit.retroboy.component.ProgressBarComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.config.domain.RuleConfig;
 import com.github.deathbit.retroboy.handler.Handler;
@@ -30,6 +31,9 @@ public class NesHandler implements Handler {
 
     @Autowired
     private CreateComponent createComponent;
+
+    @Autowired
+    private ProgressBarComponent progressBarComponent;
 
     @Override
     public RuleContext buildRuleContext(RuleConfig ruleConfig) {
@@ -145,7 +149,9 @@ public class NesHandler implements Handler {
                 List<Rule> japanRuleChain = buildJapanRuleChain();
                 List<Rule> usaRuleChain = buildUsaRuleChain();
                 List<Rule> europeRuleChain = buildEuropeRuleChain();
-                
+
+                progressBarComponent.start("计算FC规则", files.length);
+
                 for (File file : files) {
                     if (file.isFile()) {
                         String fileName = file.getName();
@@ -169,8 +175,10 @@ public class NesHandler implements Handler {
                         if (passEuropeRules) {
                             europeFinal.add(fileName);
                         }
+                        progressBarComponent.update("计算规则：" + fileName);
                     }
                 }
+                progressBarComponent.finish();
             }
         }
 
