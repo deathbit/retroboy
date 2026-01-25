@@ -7,5 +7,6 @@ import java.util.List;
 @Data
 public class Cleanup {
     private List<String> cleanupDirs;
-    private List<String> cleanupFiles;
+    private List<String> deleteDirs;
+    private List<String> deleteFiles;
 }

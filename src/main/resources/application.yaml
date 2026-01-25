@@ -6,6 +6,17 @@ app:
   config:
     cleanup:
       cleanupDirs:
-        - 'D:\ES-DE\ROMs'
-      cleanupFiles:
-        - 'D:\ES-DE\ES-DE.exe'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\info' # 核心信息文件
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\assets' # 素材
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\autoconfig' # 手柄配置
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\cheats' # 金手指
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\database' # 数据库
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\overlays' # 遮罩
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\shaders' # 着色器
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\cores' # 核心
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\system' # BIOS
+        - 'D:\ES-DE\ROMs' # ROMs
+      deleteDirs:
+        - ''
+      deleteFiles:
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg' # RA默认配置文件

@@ -9,5 +9,4 @@ public class RetroboyApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RetroboyApplication.class, args);
 	}
-
 }

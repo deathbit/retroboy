@@ -79,7 +79,6 @@ public class CleanUpComponentImpl implements CleanUpComponent {
         Path filePath = Paths.get(file);
         
         if (!Files.exists(filePath)) {
-            System.out.println("File does not exist: " + file);
             return;
         }
 
@@ -124,7 +123,7 @@ public class CleanUpComponentImpl implements CleanUpComponent {
         
         for (String file : files) {
             deleteFile(file);
-            progressBarComponent.update(file);
+            progressBarComponent.update("删除文件：" + file);
         }
         
         progressBarComponent.finish();
@@ -158,18 +157,14 @@ public class CleanUpComponentImpl implements CleanUpComponent {
                     .forEach(path -> {
                         try {
                             Files.delete(path);
-                            System.out.println("Deleted: " + path);
                         } catch (IOException e) {
                             System.err.println("Failed to delete: " + path + " - " + e.getMessage());
                             failedPaths.add(path);
                         }
                     });
-                
                 if (!failedPaths.isEmpty()) {
                     System.out.println("Directory cleanup completed with " + failedPaths.size() + 
                                       " failure(s). Failed paths: " + failedPaths);
-                } else {
-                    System.out.println("Successfully cleaned up directory: " + dir);
                 }
             }
         } catch (IOException e) {
@@ -188,7 +183,7 @@ public class CleanUpComponentImpl implements CleanUpComponent {
         
         for (String dir : dirs) {
             cleanupDir(dir);
-            progressBarComponent.update(dir);
+            progressBarComponent.update("清理目录：" + dir);
         }
         
         progressBarComponent.finish();

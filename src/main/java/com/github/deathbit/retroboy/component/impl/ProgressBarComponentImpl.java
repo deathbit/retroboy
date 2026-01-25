@@ -24,34 +24,20 @@ public class ProgressBarComponentImpl implements ProgressBarComponent {
         this.taskName = taskName;
         this.totalItems = totalItems;
         this.currentItem = 0;
-        
-        System.out.println();
-        System.out.println("=".repeat(60));
-        System.out.println(taskName);
-        System.out.println("=".repeat(60));
-        printProgressBar();
     }
     
     @Override
     public void update(String itemName) {
         currentItem++;
-        printProgressBar();
-        // Print a newline and the item name after the progress bar
-        if (itemName != null && !itemName.isEmpty()) {
-            System.out.println();
-            System.out.println("  Processing: " + itemName);
-        }
+        printProgressBar(itemName);
     }
     
     @Override
     public void finish() {
         System.out.println();
-        System.out.println("✓ " + taskName + " completed!");
-        System.out.println("=".repeat(60));
-        System.out.println();
     }
     
-    private void printProgressBar() {
+    private void printProgressBar(String itemName) {
         if (totalItems <= 0) {
             return;
         }
@@ -66,9 +52,9 @@ public class ProgressBarComponentImpl implements ProgressBarComponent {
         bar.append("] ");
         
         int percentage = (int) ((double) currentItem / totalItems * 100);
-        bar.append(String.format("%3d%% (%d/%d)", percentage, currentItem, totalItems));
+        bar.append(String.format("%3d%% (%d/%d) %s", percentage, currentItem, totalItems, itemName));
         
-        System.out.print(bar.toString());
+        System.out.print("\r" + bar);
         System.out.flush();
     }
 }
