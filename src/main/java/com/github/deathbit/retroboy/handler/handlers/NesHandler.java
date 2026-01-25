@@ -41,7 +41,7 @@ public class NesHandler implements Handler {
                     licensed.add(name);
                 }
             }
-        } catch (Exception e) {
+        } catch (javax.xml.parsers.ParserConfigurationException | org.xml.sax.SAXException | java.io.IOException e) {
             throw new RuntimeException("Failed to parse DAT file: " + ruleConfig.getDatFile(), e);
         }
         
