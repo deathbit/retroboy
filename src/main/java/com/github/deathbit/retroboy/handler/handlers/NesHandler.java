@@ -17,6 +17,7 @@ import org.w3c.dom.NodeList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -79,7 +80,7 @@ public class NesHandler implements Handler {
             tagPart = fullName.substring(firstParen);
             
             // Extract individual tags
-            List<String> tagList = new java.util.ArrayList<>();
+            List<String> tagList = new ArrayList<>();
             int start = 0;
             while ((start = tagPart.indexOf('(', start)) != -1) {
                 int end = tagPart.indexOf(')', start);
@@ -132,7 +133,7 @@ public class NesHandler implements Handler {
         createComponent.createDir(ruleConfig.getUsaTargetDir());
         createComponent.createDir(ruleConfig.getEuropeTargetDir());
 
-        // Initialize the final sets
+        // Initialize the japanFinal set
         Set<String> japanFinal = new HashSet<>();
         
         // Read all files from romDir
