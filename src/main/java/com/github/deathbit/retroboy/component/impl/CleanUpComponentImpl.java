@@ -2,7 +2,6 @@ package com.github.deathbit.retroboy.component.impl;
 
 import com.github.deathbit.retroboy.component.CleanUpComponent;
 import com.github.deathbit.retroboy.component.ProgressBarComponent;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -14,7 +13,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Stream;
 
-@Slf4j
 @Component
 public class CleanUpComponentImpl implements CleanUpComponent {
     
@@ -27,19 +25,19 @@ public class CleanUpComponentImpl implements CleanUpComponent {
     @Override
     public void deleteDir(String dir) {
         if (dir == null || dir.trim().isEmpty()) {
-            log.warn("Directory path is null or empty, skipping deletion");
+            System.out.println("Directory path is null or empty, skipping deletion");
             return;
         }
 
         Path dirPath = Paths.get(dir);
         
         if (!Files.exists(dirPath)) {
-            log.info("Directory does not exist: {}", dir);
+            System.out.println("Directory does not exist: " + dir);
             return;
         }
 
         if (!Files.isDirectory(dirPath)) {
-            log.warn("Path is not a directory: {}", dir);
+            System.out.println("Path is not a directory: " + dir);
             return;
         }
 
@@ -51,56 +49,56 @@ public class CleanUpComponentImpl implements CleanUpComponent {
                     .forEach(path -> {
                         try {
                             Files.delete(path);
-                            log.debug("Deleted: {}", path);
+                            System.out.println("Deleted: " + path);
                         } catch (IOException e) {
-                            log.error("Failed to delete: {}", path, e);
+                            System.err.println("Failed to delete: " + path + " - " + e.getMessage());
                             failedPaths.add(path);
                         }
                     });
                 
                 if (!failedPaths.isEmpty()) {
-                    log.warn("Directory deletion completed with {} failure(s). Failed paths: {}", 
-                             failedPaths.size(), failedPaths);
+                    System.out.println("Directory deletion completed with " + failedPaths.size() + 
+                                      " failure(s). Failed paths: " + failedPaths);
                 } else {
-                    log.info("Successfully deleted directory: {}", dir);
+                    System.out.println("Successfully deleted directory: " + dir);
                 }
             }
         } catch (IOException e) {
-            log.error("Failed to delete directory: {}", dir, e);
+            System.err.println("Failed to delete directory: " + dir + " - " + e.getMessage());
         }
     }
 
     @Override
     public void deleteFile(String file) {
         if (file == null || file.trim().isEmpty()) {
-            log.warn("File path is null or empty, skipping deletion");
+            System.out.println("File path is null or empty, skipping deletion");
             return;
         }
 
         Path filePath = Paths.get(file);
         
         if (!Files.exists(filePath)) {
-            log.info("File does not exist: {}", file);
+            System.out.println("File does not exist: " + file);
             return;
         }
 
         if (Files.isDirectory(filePath)) {
-            log.warn("Path is a directory, not a file: {}", file);
+            System.out.println("Path is a directory, not a file: " + file);
             return;
         }
 
         try {
             Files.delete(filePath);
-            log.info("Successfully deleted file: {}", file);
+            System.out.println("Successfully deleted file: " + file);
         } catch (IOException e) {
-            log.error("Failed to delete file: {}", file, e);
+            System.err.println("Failed to delete file: " + file + " - " + e.getMessage());
         }
     }
 
     @Override
     public void batchDeleteDir(List<String> dirs) {
         if (dirs == null || dirs.isEmpty()) {
-            log.info("No directories to delete");
+            System.out.println("No directories to delete");
             return;
         }
         
@@ -117,7 +115,7 @@ public class CleanUpComponentImpl implements CleanUpComponent {
     @Override
     public void batchDeleteFile(List<String> files) {
         if (files == null || files.isEmpty()) {
-            log.info("No files to delete");
+            System.out.println("No files to delete");
             return;
         }
         
@@ -133,11 +131,65 @@ public class CleanUpComponentImpl implements CleanUpComponent {
 
     @Override
     public void cleanupDir(String dir) {
+        if (dir == null || dir.trim().isEmpty()) {
+            System.out.println("Directory path is null or empty, skipping cleanup");
+            return;
+        }
 
+        Path dirPath = Paths.get(dir);
+        
+        if (!Files.exists(dirPath)) {
+            System.out.println("Directory does not exist: " + dir);
+            return;
+        }
+
+        if (!Files.isDirectory(dirPath)) {
+            System.out.println("Path is not a directory: " + dir);
+            return;
+        }
+
+        try {
+            // Delete directory contents but not the directory itself
+            try (Stream<Path> walk = Files.walk(dirPath)) {
+                List<Path> failedPaths = new ArrayList<>();
+                walk.sorted(Comparator.reverseOrder())
+                    .filter(path -> !path.equals(dirPath)) // Skip the directory itself
+                    .forEach(path -> {
+                        try {
+                            Files.delete(path);
+                            System.out.println("Deleted: " + path);
+                        } catch (IOException e) {
+                            System.err.println("Failed to delete: " + path + " - " + e.getMessage());
+                            failedPaths.add(path);
+                        }
+                    });
+                
+                if (!failedPaths.isEmpty()) {
+                    System.out.println("Directory cleanup completed with " + failedPaths.size() + 
+                                      " failure(s). Failed paths: " + failedPaths);
+                } else {
+                    System.out.println("Successfully cleaned up directory: " + dir);
+                }
+            }
+        } catch (IOException e) {
+            System.err.println("Failed to cleanup directory: " + dir + " - " + e.getMessage());
+        }
     }
 
     @Override
-    public void batchCleanupDir(String dir) {
-
+    public void batchCleanupDir(List<String> dirs) {
+        if (dirs == null || dirs.isEmpty()) {
+            System.out.println("No directories to cleanup");
+            return;
+        }
+        
+        progressBarComponent.start("Batch Cleanup Directories", dirs.size());
+        
+        for (String dir : dirs) {
+            cleanupDir(dir);
+            progressBarComponent.update(dir);
+        }
+        
+        progressBarComponent.finish();
     }
 }

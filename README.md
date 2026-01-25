@@ -15,8 +15,8 @@ Retro collection builder - A Spring Boot application.
 ```java
 @Override
 public void run(ApplicationArguments args) throws Exception {
-    log.info("=== 执行一次性启动代码 ===");
-    log.info("应用程序启动完成，开始执行初始化逻辑...");
+    System.out.println("=== 执行一次性启动代码 ===");
+    System.out.println("应用程序启动完成，开始执行初始化逻辑...");
     
     // 在这里添加需要在启动时执行的一次性代码
     // 例如：
@@ -25,7 +25,7 @@ public void run(ApplicationArguments args) throws Exception {
     // - 预热缓存
     // - 建立连接
     
-    log.info("初始化完成！");
+    System.out.println("初始化完成！");
 }
 ```
 

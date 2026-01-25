@@ -8,5 +8,5 @@ public interface CleanUpComponent {
     void cleanupDir(String dir);
     void batchDeleteDir(List<String> dirs);
     void batchDeleteFile(List<String> files);
-    void batchCleanupDir(String dir);
+    void batchCleanupDir(List<String> dirs);
 }
