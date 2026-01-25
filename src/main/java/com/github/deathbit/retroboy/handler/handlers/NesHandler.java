@@ -62,7 +62,44 @@ public class NesHandler implements Handler {
 
     @Override
     public FileContext buildFileContext(String fileName) {
-        return null;
+        // Extract full name (without extension)
+        String fullName = fileName;
+        if (fileName.contains(".")) {
+            fullName = fileName.substring(0, fileName.lastIndexOf('.'));
+        }
+        
+        // Parse name part and tag part
+        String namePart = fullName;
+        String tagPart = "";
+        List<String> tags = List.of();
+        
+        int firstParen = fullName.indexOf('(');
+        if (firstParen != -1) {
+            namePart = fullName.substring(0, firstParen).trim();
+            tagPart = fullName.substring(firstParen);
+            
+            // Extract individual tags
+            List<String> tagList = new java.util.ArrayList<>();
+            int start = 0;
+            while ((start = tagPart.indexOf('(', start)) != -1) {
+                int end = tagPart.indexOf(')', start);
+                if (end != -1) {
+                    tagList.add(tagPart.substring(start + 1, end));
+                    start = end + 1;
+                } else {
+                    break;
+                }
+            }
+            tags = tagList;
+        }
+        
+        return FileContext.builder()
+                .fileName(fileName)
+                .fullName(fullName)
+                .namePart(namePart)
+                .tagPart(tagPart)
+                .tags(tags)
+                .build();
     }
 
     @Override
@@ -95,7 +132,43 @@ public class NesHandler implements Handler {
         createComponent.createDir(ruleConfig.getUsaTargetDir());
         createComponent.createDir(ruleConfig.getEuropeTargetDir());
 
-
+        // Initialize the final sets
+        Set<String> japanFinal = new HashSet<>();
+        
+        // Read all files from romDir
+        File romDir = new File(ruleConfig.getRomDir());
+        if (romDir.exists() && romDir.isDirectory()) {
+            File[] files = romDir.listFiles();
+            if (files != null) {
+                // Get the Japan rule chain
+                List<Rule> japanRuleChain = buildJapanRuleChain();
+                
+                for (File file : files) {
+                    if (file.isFile()) {
+                        String fileName = file.getName();
+                        
+                        // Build FileContext for the file
+                        FileContext fileContext = buildFileContext(fileName);
+                        
+                        // Apply Japan rule chain to determine if file should be added to japanFinal
+                        boolean passJapanRules = true;
+                        for (Rule rule : japanRuleChain) {
+                            if (!rule.pass(ruleContext, fileContext)) {
+                                passJapanRules = false;
+                                break;
+                            }
+                        }
+                        
+                        if (passJapanRules) {
+                            japanFinal.add(fileName);
+                        }
+                    }
+                }
+            }
+        }
+        
+        // Update the RuleContext with japanFinal
+        ruleContext.setJapanFinal(japanFinal);
 
         System.out.println();
     }
