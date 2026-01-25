@@ -77,23 +77,21 @@ public class ConfigComponentImpl implements ConfigComponent {
                 
                 // Check if this line contains the key we're looking for
                 // Format: key = "value" or key = value
-                if (trimmedLine.startsWith(key + " ")) {
-                    int equalsIndex = line.indexOf('=');
-                    if (equalsIndex != -1) {
-                        String lineKey = line.substring(0, equalsIndex).trim();
-                        if (lineKey.equals(key)) {
-                            // Update the line with new value
-                            // Check if value should be quoted
-                            String newValue;
-                            if (value.startsWith("\"") && value.endsWith("\"")) {
-                                newValue = value;
-                            } else {
-                                newValue = "\"" + value + "\"";
-                            }
-                            lines.set(i, key + " = " + newValue);
-                            keyFound = true;
-                            break;
+                int equalsIndex = line.indexOf('=');
+                if (equalsIndex != -1) {
+                    String lineKey = line.substring(0, equalsIndex).trim();
+                    if (lineKey.equals(key)) {
+                        // Update the line with new value
+                        // Check if value should be quoted
+                        String newValue;
+                        if (value.startsWith("\"") && value.endsWith("\"")) {
+                            newValue = value;
+                        } else {
+                            newValue = "\"" + value + "\"";
                         }
+                        lines.set(i, key + " = " + newValue);
+                        keyFound = true;
+                        break;
                     }
                 }
             }
