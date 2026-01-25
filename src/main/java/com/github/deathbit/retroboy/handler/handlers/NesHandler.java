@@ -193,43 +193,37 @@ public class NesHandler implements Handler {
         ruleContext.setEuropeFinal(europeFinal);
 
         // Copy files to their respective target directories
-        int totalFiles = japanFinal.size() + usaFinal.size() + europeFinal.size();
-        progressBarComponent.start("复制FC文件", totalFiles);
-
-        // Copy Japan files
+        List<CopyFile> allCopyFiles = new ArrayList<>();
+        
+        // Prepare Japan files for copying
         for (String fileName : japanFinal) {
             String srcFilePath = new File(ruleConfig.getRomDir(), fileName).getAbsolutePath();
-            CopyFile copyFile = CopyFile.builder()
+            allCopyFiles.add(CopyFile.builder()
                     .srcFile(srcFilePath)
                     .destDir(ruleConfig.getJapanTargetDir())
-                    .build();
-            copyComponent.copyFile(copyFile);
-            progressBarComponent.update("复制文件：" + fileName);
+                    .build());
         }
-
-        // Copy USA files
+        
+        // Prepare USA files for copying
         for (String fileName : usaFinal) {
             String srcFilePath = new File(ruleConfig.getRomDir(), fileName).getAbsolutePath();
-            CopyFile copyFile = CopyFile.builder()
+            allCopyFiles.add(CopyFile.builder()
                     .srcFile(srcFilePath)
                     .destDir(ruleConfig.getUsaTargetDir())
-                    .build();
-            copyComponent.copyFile(copyFile);
-            progressBarComponent.update("复制文件：" + fileName);
+                    .build());
         }
-
-        // Copy Europe files
+        
+        // Prepare Europe files for copying
         for (String fileName : europeFinal) {
             String srcFilePath = new File(ruleConfig.getRomDir(), fileName).getAbsolutePath();
-            CopyFile copyFile = CopyFile.builder()
+            allCopyFiles.add(CopyFile.builder()
                     .srcFile(srcFilePath)
                     .destDir(ruleConfig.getEuropeTargetDir())
-                    .build();
-            copyComponent.copyFile(copyFile);
-            progressBarComponent.update("复制文件：" + fileName);
+                    .build());
         }
-
-        progressBarComponent.finish();
+        
+        // Batch copy all files
+        copyComponent.batchCopyFile(allCopyFiles);
 
         System.out.println();
     }
