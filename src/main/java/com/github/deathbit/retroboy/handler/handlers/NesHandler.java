@@ -80,18 +80,16 @@ public class NesHandler implements Handler {
             tagPart = fullName.substring(firstParen);
             
             // Extract individual tags
-            List<String> tagList = new ArrayList<>();
             int start = 0;
             while ((start = tagPart.indexOf('(', start)) != -1) {
                 int end = tagPart.indexOf(')', start);
                 if (end != -1) {
-                    tagList.add(tagPart.substring(start + 1, end));
+                    tags.add(tagPart.substring(start + 1, end));
                     start = end + 1;
                 } else {
                     break;
                 }
             }
-            tags = tagList;
         }
         
         return FileContext.builder()
