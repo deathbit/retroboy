@@ -1,6 +1,7 @@
 package com.github.deathbit.retroboy.config;
 
 import com.github.deathbit.retroboy.config.domain.Cleanup;
+import com.github.deathbit.retroboy.config.domain.CopyDefault;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
@@ -10,4 +11,5 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "app.config")
 public class AppConfig {
     private Cleanup cleanup;
+    private CopyDefault copyDefault;
 }

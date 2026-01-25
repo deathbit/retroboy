@@ -20,3 +20,28 @@ app:
         - ''
       deleteFiles:
         - 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg' # RA默认配置文件
+    copyDefault:
+      copyDirs:
+        - src: 'D:\Resources\RetroArch-Win64\info'
+          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\info'
+        - src: 'D:\Resources\RetroArch-Win64\assets'
+          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\assets'
+        - src: 'D:\Resources\RetroArch-Win64\autoconfig'
+          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\autoconfig'
+        - src: 'D:\Resources\RetroArch-Win64\cheats'
+          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\cheats'
+        - src: 'D:\Resources\RetroArch-Win64\database'
+          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\database'
+        - src: 'D:\Resources\RetroArch-Win64\overlays'
+          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\overlays'
+        - src: 'D:\Resources\RetroArch-Win64\shaders'
+          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\shaders'
+        - src: 'D:\Resources\RetroArch-Win64\cores'
+          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\cores'
+        - src: 'D:\Resources\RetroArch-Win64\system'
+          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\system'
+        - src: 'D:\ES-DE\ROMs_ALL'
+          dest: 'D:\ES-DE\ROMs'
+      copyFiles:
+        - srcFile: 'D:\Resources\retroarch.cfg'
+          destDir: 'D:\ES-DE\Emulators\RetroArch-Win64'

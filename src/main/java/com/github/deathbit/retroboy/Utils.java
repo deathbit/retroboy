@@ -17,7 +17,7 @@ public class Utils {
 
         if (subTaskNames != null && !subTaskNames.isEmpty()) {
             for (int i = 0; i < subTaskNames.size(); i++) {
-                String index = i >= 10 ? String.valueOf(i) : " " + i;
+                String index = i + 1 >= 10 ? String.valueOf(i + 1) : " " + (i + 1);
                 String line = index + ". " + subTaskNames.get(i);
                 System.out.println("| " + line);
             }

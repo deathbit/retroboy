@@ -76,15 +76,12 @@ public class CopyComponentImpl implements CopyComponent {
                         } else {
                             // Copy file, overwriting if it exists
                             Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
-                            System.out.println("Copied: " + source + " to " + destination);
                         }
                     } catch (IOException e) {
                         System.err.println("Failed to copy: " + source + " - " + e.getMessage());
                     }
                 });
             }
-            
-            System.out.println("Successfully copied directory content from " + src + " to " + dest);
         } catch (IOException e) {
             System.err.println("Failed to copy directory content: " + e.getMessage());
         }
@@ -152,7 +149,6 @@ public class CopyComponentImpl implements CopyComponent {
             
             // Copy file, overwriting if it exists
             Files.copy(srcPath, destFilePath, StandardCopyOption.REPLACE_EXISTING);
-            System.out.println("Successfully copied file from " + srcFile + " to " + destFilePath);
         } catch (IOException e) {
             System.err.println("Failed to copy file: " + e.getMessage());
         }
