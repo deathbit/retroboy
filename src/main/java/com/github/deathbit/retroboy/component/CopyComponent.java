@@ -10,4 +10,6 @@ public interface CopyComponent {
     void batchCopyDirContent(List<CopyDir> copyDirs);
     void copyFile(CopyFile copyFile);
     void batchCopyFile(List<CopyFile> copyFiles);
+    void copyDir(CopyDir copyDir);
+    void batchCopyDir(List<CopyDir> copyDirs);
 }

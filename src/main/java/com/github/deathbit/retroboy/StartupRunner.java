@@ -3,8 +3,10 @@ package com.github.deathbit.retroboy;
 import com.github.deathbit.retroboy.component.CleanUpComponent;
 import com.github.deathbit.retroboy.component.ConfigComponent;
 import com.github.deathbit.retroboy.component.CopyComponent;
+import com.github.deathbit.retroboy.component.CreateComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.config.domain.Config;
+import com.github.deathbit.retroboy.config.domain.CopyDir;
 import com.github.deathbit.retroboy.config.domain.CopyFile;
 import org.jspecify.annotations.NonNull;
 import org.springframework.boot.ApplicationArguments;
@@ -22,16 +24,19 @@ public class StartupRunner implements ApplicationRunner {
     private final CleanUpComponent cleanUpComponent;
     private final CopyComponent copyComponent;
     private final ConfigComponent configComponent;
+    private final CreateComponent createComponent;
 
     public StartupRunner(
             AppConfig appConfig,
             CleanUpComponent cleanUpComponent,
             CopyComponent copyComponent,
-            ConfigComponent configComponent) {
+            ConfigComponent configComponent,
+            CreateComponent createComponent) {
         this.appConfig = appConfig;
         this.cleanUpComponent = cleanUpComponent;
         this.copyComponent = copyComponent;
         this.configComponent = configComponent;
+        this.createComponent = createComponent;
     }
 
     @Override
@@ -96,6 +101,7 @@ public class StartupRunner implements ApplicationRunner {
                 "设置选项：video_rotation = \"0\"",
                 "设置选项：video_allow_rotate = \"false\"",
                 "设置选项：video_shader_enable = \"true\"",
+                "拷贝目录；D:\\Resources\\Mega_Bezel_Packs\\*",
                 "拷贝文件：D:\\Resources\\global.slangp",
                 "拷贝文件：D:\\Resources\\retroarch.slangp"
         ));
@@ -107,6 +113,7 @@ public class StartupRunner implements ApplicationRunner {
                 Config.builder().configFile(appConfig.getRetroArchConfig()).key("video_allow_rotate").value("false").build(),
                 Config.builder().configFile(appConfig.getRetroArchConfig()).key("video_shader_enable").value("true").build()
         ));
+        copyComponent.copyDir(CopyDir.builder().src("D:\\Resources\\Mega_Bezel_Packs").dest("D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders").build());
         copyComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\global.slangp").destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\config").build());
         copyComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\retroarch.slangp").destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders").build());
         printTaskDone("设置Mega Bezel着色器");

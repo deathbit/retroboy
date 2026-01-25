@@ -170,4 +170,14 @@ public class CopyComponentImpl implements CopyComponent {
         
         progressBarComponent.finish();
     }
+
+    @Override
+    public void copyDir(CopyDir copyDir) {
+
+    }
+
+    @Override
+    public void batchCopyDir(List<CopyDir> copyDirs) {
+
+    }
 }
