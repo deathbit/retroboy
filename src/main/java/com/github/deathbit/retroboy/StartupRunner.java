@@ -9,7 +9,6 @@ import com.github.deathbit.retroboy.config.domain.Config;
 import com.github.deathbit.retroboy.config.domain.CopyDir;
 import com.github.deathbit.retroboy.config.domain.CopyFile;
 import com.github.deathbit.retroboy.handler.handlers.NesHandler;
-import com.github.deathbit.retroboy.rule.domain.RuleContext;
 import org.jspecify.annotations.NonNull;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -17,7 +16,8 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-import static com.github.deathbit.retroboy.Utils.*;
+import static com.github.deathbit.retroboy.Utils.printTask;
+import static com.github.deathbit.retroboy.Utils.printTaskDone;
 
 @Component
 public class StartupRunner implements ApplicationRunner {
@@ -46,11 +46,7 @@ public class StartupRunner implements ApplicationRunner {
 
     @Override
     public void run(@NonNull ApplicationArguments args) {
-        RuleContext ruleContext = nesHandler.buildRuleContext(appConfig.getNesRuleConfig());
-
-
-        System.out.println();
-
+        nesHandler.handle();
 
         printTask("清理目录", List.of(
                 "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\info",

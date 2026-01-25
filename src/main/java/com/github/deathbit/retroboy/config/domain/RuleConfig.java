@@ -7,4 +7,8 @@ import lombok.Data;
 @Builder
 public class RuleConfig {
     private String datFile;
+    private String romDir;
+    private String japanTargetDir;
+    private String usaTargetDir;
+    private String europeTargetDir;
 }

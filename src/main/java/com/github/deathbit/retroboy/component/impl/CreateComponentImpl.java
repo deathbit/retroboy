@@ -30,11 +30,6 @@ public class CreateComponentImpl implements CreateComponent {
         
         try {
             if (Files.exists(dirPath)) {
-                if (Files.isDirectory(dirPath)) {
-                    System.out.println("Directory already exists: " + dir);
-                } else {
-                    System.out.println("Path exists but is not a directory: " + dir);
-                }
                 return;
             }
             

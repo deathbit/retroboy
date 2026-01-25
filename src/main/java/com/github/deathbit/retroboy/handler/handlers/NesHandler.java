@@ -1,11 +1,14 @@
 package com.github.deathbit.retroboy.handler.handlers;
 
+import com.github.deathbit.retroboy.component.CreateComponent;
+import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.config.domain.RuleConfig;
 import com.github.deathbit.retroboy.handler.Handler;
 import com.github.deathbit.retroboy.rule.Rule;
 import com.github.deathbit.retroboy.rule.Rules;
 import com.github.deathbit.retroboy.rule.domain.FileContext;
 import com.github.deathbit.retroboy.rule.domain.RuleContext;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -20,6 +23,12 @@ import java.util.Set;
 
 @Component
 public class NesHandler implements Handler {
+
+    @Autowired
+    private AppConfig appConfig;
+
+    @Autowired
+    private CreateComponent createComponent;
 
     @Override
     public RuleContext buildRuleContext(RuleConfig ruleConfig) {
@@ -79,6 +88,13 @@ public class NesHandler implements Handler {
 
     @Override
     public void handle() {
+        RuleConfig ruleConfig = appConfig.getNesRuleConfig();
+        RuleContext ruleContext = buildRuleContext(ruleConfig);
 
+        createComponent.createDir(ruleConfig.getJapanTargetDir());
+        createComponent.createDir(ruleConfig.getUsaTargetDir());
+        createComponent.createDir(ruleConfig.getEuropeTargetDir());
+
+        System.out.println();
     }
 }
