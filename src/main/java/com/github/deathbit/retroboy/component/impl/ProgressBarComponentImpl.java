@@ -18,6 +18,11 @@ public class ProgressBarComponentImpl implements ProgressBarComponent {
     
     @Override
     public void start(String taskName, int totalItems) {
+        if (totalItems < 0) {
+            log.warn("Total items cannot be negative: {}, using 0 instead", totalItems);
+            totalItems = 0;
+        }
+        
         this.taskName = taskName;
         this.totalItems = totalItems;
         this.currentItem = 0;
@@ -33,7 +38,9 @@ public class ProgressBarComponentImpl implements ProgressBarComponent {
     public void update(String itemName) {
         currentItem++;
         printProgressBar();
+        // Print a newline and the item name after the progress bar
         if (itemName != null && !itemName.isEmpty()) {
+            System.out.println();
             System.out.println("  Processing: " + itemName);
         }
     }
