@@ -89,4 +89,14 @@ public class CleanUpComponentImpl implements CleanUpComponent {
             log.error("Failed to delete file: {}", file, e);
         }
     }
+
+    @Override
+    public void batchDeleteDir(List<String> dirs) {
+
+    }
+
+    @Override
+    public void batchDdeleteFile(List<String> files) {
+
+    }
 }
