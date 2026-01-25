@@ -45,3 +45,15 @@ app:
       copyFiles:
         - srcFile: 'D:\Resources\retroarch.cfg'
           destDir: 'D:\ES-DE\Emulators\RetroArch-Win64'
+    configDefault:
+      retroArchConfigs:
+        - configFile: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
+          key: 'video_fullscreen'
+          value: 'true'
+        - configFile: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
+          key: 'rgui_browser_directory'
+          value: 'D:\ES-DE\ROMs'
+        - configFile: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
+          key: 'input_player1_analog_dpad_mode'
+          value: '1'
+    retroArchConfig: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'

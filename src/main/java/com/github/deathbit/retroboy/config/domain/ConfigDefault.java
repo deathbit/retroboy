@@ -7,7 +7,6 @@ import java.util.List;
 
 @Data
 @Builder
-public class CopyDefault {
-    private List<CopyDir> copyDirs;
-    private List<CopyFile> copyFiles;
+public class ConfigDefault {
+    private List<Config> retroArchConfigs;
 }

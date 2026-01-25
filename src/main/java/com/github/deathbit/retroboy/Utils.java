@@ -4,11 +4,11 @@ import java.util.List;
 
 public class Utils {
 
-    public static void printTaskArt(String mainTaskName, List<String> subTaskNames) {
+    public static void printTask(String mainTaskName, List<String> subTaskNames) {
         String title = "主任务: " + mainTaskName;
         String subTitle = "子任务";
 
-        String border = "+" + "-".repeat(100) + "+";
+        String border = "+" + "-".repeat(120) + "+";
         System.out.println();
         System.out.println(border);
         System.out.println("| " + title);
@@ -23,6 +23,13 @@ public class Utils {
             }
         }
 
+        System.out.println(border);
+    }
+
+    public static void printTaskDone(String taskName) {
+        String border = "+" + "-".repeat(120) + "+";
+        System.out.println(border);
+        System.out.println("| " + taskName + " 完成");
         System.out.println(border);
     }
 }

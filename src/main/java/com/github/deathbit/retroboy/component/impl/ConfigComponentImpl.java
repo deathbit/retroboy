@@ -102,8 +102,8 @@ public class ConfigComponentImpl implements ConfigComponent {
             }
             
             // Write the updated content back to the file
-            Files.write(configPath, lines, StandardCharsets.UTF_8);
-            
+            String content = String.join("\n", lines) + "\n";
+            Files.writeString(configPath, content, StandardCharsets.UTF_8);
         } catch (IOException e) {
             System.err.println("Failed to modify config file " + configFile + ": " + e.getMessage());
         }
@@ -120,7 +120,8 @@ public class ConfigComponentImpl implements ConfigComponent {
         
         for (Config config : configs) {
             changeConfig(config);
-            progressBarComponent.update("修改配置：" + config.getConfigFile() + " [" + config.getKey() + " = " + config.getValue() + "]");
+            String fileName = config.getConfigFile().substring(config.getConfigFile().lastIndexOf("\\") + 1);
+            progressBarComponent.update("设置选项：" + fileName + " [" + config.getKey() + " = " + config.getValue() + "]");
         }
         
         progressBarComponent.finish();

@@ -89,7 +89,6 @@ public class CleanUpComponentImpl implements CleanUpComponent {
 
         try {
             Files.delete(filePath);
-            System.out.println("Successfully deleted file: " + file);
         } catch (IOException e) {
             System.err.println("Failed to delete file: " + file + " - " + e.getMessage());
         }
