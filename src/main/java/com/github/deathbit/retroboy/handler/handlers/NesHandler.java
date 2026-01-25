@@ -1,8 +1,10 @@
 package com.github.deathbit.retroboy.handler.handlers;
 
+import com.github.deathbit.retroboy.component.CopyComponent;
 import com.github.deathbit.retroboy.component.CreateComponent;
 import com.github.deathbit.retroboy.component.ProgressBarComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
+import com.github.deathbit.retroboy.config.domain.CopyFile;
 import com.github.deathbit.retroboy.config.domain.RuleConfig;
 import com.github.deathbit.retroboy.handler.Handler;
 import com.github.deathbit.retroboy.rule.Rule;
@@ -34,6 +36,9 @@ public class NesHandler implements Handler {
 
     @Autowired
     private ProgressBarComponent progressBarComponent;
+
+    @Autowired
+    private CopyComponent copyComponent;
 
     @Override
     public RuleContext buildRuleContext(RuleConfig ruleConfig) {
@@ -186,6 +191,45 @@ public class NesHandler implements Handler {
         ruleContext.setJapanFinal(japanFinal);
         ruleContext.setUsaFinal(usaFinal);
         ruleContext.setEuropeFinal(europeFinal);
+
+        // Copy files to their respective target directories
+        int totalFiles = japanFinal.size() + usaFinal.size() + europeFinal.size();
+        progressBarComponent.start("复制FC文件", totalFiles);
+
+        // Copy Japan files
+        for (String fileName : japanFinal) {
+            String srcFilePath = new File(ruleConfig.getRomDir(), fileName).getAbsolutePath();
+            CopyFile copyFile = CopyFile.builder()
+                    .srcFile(srcFilePath)
+                    .destDir(ruleConfig.getJapanTargetDir())
+                    .build();
+            copyComponent.copyFile(copyFile);
+            progressBarComponent.update("复制文件：" + fileName);
+        }
+
+        // Copy USA files
+        for (String fileName : usaFinal) {
+            String srcFilePath = new File(ruleConfig.getRomDir(), fileName).getAbsolutePath();
+            CopyFile copyFile = CopyFile.builder()
+                    .srcFile(srcFilePath)
+                    .destDir(ruleConfig.getUsaTargetDir())
+                    .build();
+            copyComponent.copyFile(copyFile);
+            progressBarComponent.update("复制文件：" + fileName);
+        }
+
+        // Copy Europe files
+        for (String fileName : europeFinal) {
+            String srcFilePath = new File(ruleConfig.getRomDir(), fileName).getAbsolutePath();
+            CopyFile copyFile = CopyFile.builder()
+                    .srcFile(srcFilePath)
+                    .destDir(ruleConfig.getEuropeTargetDir())
+                    .build();
+            copyComponent.copyFile(copyFile);
+            progressBarComponent.update("复制文件：" + fileName);
+        }
+
+        progressBarComponent.finish();
 
         System.out.println();
     }
