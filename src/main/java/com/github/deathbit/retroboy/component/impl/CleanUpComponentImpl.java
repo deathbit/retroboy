@@ -152,8 +152,8 @@ public class CleanUpComponentImpl implements CleanUpComponent {
             // Delete directory contents but not the directory itself
             try (Stream<Path> walk = Files.walk(dirPath)) {
                 List<Path> failedPaths = new ArrayList<>();
-                walk.sorted(Comparator.reverseOrder())
-                    .filter(path -> !path.equals(dirPath)) // Skip the directory itself
+                walk.filter(path -> !path.equals(dirPath)) // Skip the directory itself
+                    .sorted(Comparator.reverseOrder())
                     .forEach(path -> {
                         try {
                             Files.delete(path);
