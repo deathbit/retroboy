@@ -8,6 +8,8 @@ import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.config.domain.Config;
 import com.github.deathbit.retroboy.config.domain.CopyDir;
 import com.github.deathbit.retroboy.config.domain.CopyFile;
+import com.github.deathbit.retroboy.handler.handlers.NesHandler;
+import com.github.deathbit.retroboy.rule.domain.RuleContext;
 import org.jspecify.annotations.NonNull;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -25,22 +27,31 @@ public class StartupRunner implements ApplicationRunner {
     private final CopyComponent copyComponent;
     private final ConfigComponent configComponent;
     private final CreateComponent createComponent;
+    private final NesHandler nesHandler;
 
     public StartupRunner(
             AppConfig appConfig,
             CleanUpComponent cleanUpComponent,
             CopyComponent copyComponent,
             ConfigComponent configComponent,
-            CreateComponent createComponent) {
+            CreateComponent createComponent,
+            NesHandler nesHandler) {
         this.appConfig = appConfig;
         this.cleanUpComponent = cleanUpComponent;
         this.copyComponent = copyComponent;
         this.configComponent = configComponent;
         this.createComponent = createComponent;
+        this.nesHandler = nesHandler;
     }
 
     @Override
     public void run(@NonNull ApplicationArguments args) {
+        RuleContext ruleContext = nesHandler.buildRuleContext(appConfig.getNesRuleConfig());
+
+
+        System.out.println();
+
+
         printTask("清理目录", List.of(
                 "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\info",
                 "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets",

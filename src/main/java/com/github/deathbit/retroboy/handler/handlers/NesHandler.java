@@ -3,6 +3,7 @@ package com.github.deathbit.retroboy.handler.handlers;
 import com.github.deathbit.retroboy.config.domain.RuleConfig;
 import com.github.deathbit.retroboy.handler.Handler;
 import com.github.deathbit.retroboy.rule.Rule;
+import com.github.deathbit.retroboy.rule.Rules;
 import com.github.deathbit.retroboy.rule.domain.FileContext;
 import com.github.deathbit.retroboy.rule.domain.RuleContext;
 import org.springframework.stereotype.Component;
@@ -37,7 +38,7 @@ public class NesHandler implements Handler {
             for (int i = 0; i < gameNodes.getLength(); i++) {
                 Element gameElement = (Element) gameNodes.item(i);
                 String name = gameElement.getAttribute("name");
-                if (name != null && !name.isEmpty()) {
+                if (!name.isEmpty()) {
                     licensed.add(name);
                 }
             }
@@ -57,17 +58,23 @@ public class NesHandler implements Handler {
 
     @Override
     public List<Rule> buildJapanRuleChain() {
-        return List.of();
+        return List.of(
+                Rules.IS_JAPAN_LICENSED
+        );
     }
 
     @Override
     public List<Rule> buildUSARuleChain() {
-        return List.of();
+        return List.of(
+                Rules.IS_USA_LICENSED
+        );
     }
 
     @Override
     public List<Rule> buildEuropeRuleChain() {
-        return List.of();
+        return List.of(
+                Rules.IS_EUROPE_LICENSED
+        );
     }
 
     @Override
