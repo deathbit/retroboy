@@ -139,7 +139,7 @@ public class NesHandler implements Handler {
         if (romDir.exists() && romDir.isDirectory()) {
             File[] files = romDir.listFiles();
             if (files != null) {
-                // Get the Japan rule chain
+                // Get the Japan rule chain (same for all files)
                 List<Rule> japanRuleChain = buildJapanRuleChain();
                 
                 for (File file : files) {
