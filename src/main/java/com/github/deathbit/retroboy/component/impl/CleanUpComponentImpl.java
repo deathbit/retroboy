@@ -1,7 +1,9 @@
-package com.github.deathbit.retroboy.component;
+package com.github.deathbit.retroboy.component.impl;
 
+import com.github.deathbit.retroboy.component.CleanUpComponent;
+import com.github.deathbit.retroboy.config.AppConfig;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -9,7 +11,6 @@ import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.List;
 
 /**
  * 清理组件实现
@@ -19,24 +20,25 @@ import java.util.List;
 @Component
 public class CleanUpComponentImpl implements CleanUpComponent {
 
-    @Value("${cleanup.directories:#{T(java.util.Collections).emptyList()}}")
-    private List<String> cleanupDirectories;
+    @Autowired
+    private AppConfig appConfig;
 
     @Override
-    public void clean() {
-        if (cleanupDirectories == null || cleanupDirectories.isEmpty()) {
+    public void cleanup() {
+        var cleanupDirs = appConfig.getCleanup().getCleanupDirs();
+        if (cleanupDirs == null || cleanupDirs.isEmpty()) {
             log.warn("清理目录未配置，跳过清理操作");
             return;
         }
 
-        for (String cleanupDirectory : cleanupDirectories) {
+        for (String cleanupDirectory : cleanupDirs) {
             if (cleanupDirectory == null || cleanupDirectory.trim().isEmpty()) {
                 log.warn("跳过空的清理目录配置");
                 continue;
             }
 
             Path dirPath = Paths.get(cleanupDirectory);
-            
+
             if (!Files.exists(dirPath)) {
                 log.info("清理目录不存在: {}", cleanupDirectory);
                 continue;

@@ -9,5 +9,5 @@ public interface CleanUpComponent {
     /**
      * 清理指定目录下的所有内容
      */
-    void clean();
+    void cleanup();
 }

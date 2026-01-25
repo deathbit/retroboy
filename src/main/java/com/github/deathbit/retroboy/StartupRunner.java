@@ -22,7 +22,7 @@ public class StartupRunner implements ApplicationRunner {
         log.info("应用程序启动完成，开始执行初始化逻辑...");
         
         // 执行清理操作
-        cleanUpComponent.clean();
+        cleanUpComponent.cleanup();
         
         // 在这里添加需要在启动时执行的一次性代码
         // 例如：初始化数据、加载配置、预热缓存等
