@@ -35,7 +35,7 @@ public class StartupRunner implements ApplicationRunner {
     }
 
     @Override
-    public void run(@NonNull ApplicationArguments args) throws Exception {
+    public void run(@NonNull ApplicationArguments args) {
         printTask("清理目录", List.of(
                 "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\info",
                 "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets",
