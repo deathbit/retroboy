@@ -173,11 +173,93 @@ public class CopyComponentImpl implements CopyComponent {
 
     @Override
     public void copyDir(CopyDir copyDir) {
-
+        if (copyDir == null) {
+            System.out.println("CopyDir is null, skipping copy");
+            return;
+        }
+        
+        String src = copyDir.getSrc();
+        String dest = copyDir.getDest();
+        
+        if (src == null || src.trim().isEmpty()) {
+            System.out.println("Source directory path is null or empty, skipping copy");
+            return;
+        }
+        
+        if (dest == null || dest.trim().isEmpty()) {
+            System.out.println("Destination directory path is null or empty, skipping copy");
+            return;
+        }
+        
+        Path srcPath = Paths.get(src);
+        Path destPath = Paths.get(dest);
+        
+        if (!Files.exists(srcPath)) {
+            System.out.println("Source directory does not exist: " + src);
+            return;
+        }
+        
+        if (!Files.isDirectory(srcPath)) {
+            System.out.println("Source path is not a directory: " + src);
+            return;
+        }
+        
+        try {
+            // Get the name of the source directory
+            String srcDirName = srcPath.getFileName().toString();
+            
+            // The target directory is destination + source directory name
+            Path targetPath = destPath.resolve(srcDirName);
+            
+            // Create parent directories if they don't exist
+            if (!Files.exists(destPath)) {
+                Files.createDirectories(destPath);
+            }
+            
+            // Create the target directory if it doesn't exist
+            if (!Files.exists(targetPath)) {
+                Files.createDirectories(targetPath);
+            }
+            
+            // Copy all contents from source to target
+            try (Stream<Path> walk = Files.walk(srcPath)) {
+                walk.forEach(source -> {
+                    try {
+                        Path destination = targetPath.resolve(srcPath.relativize(source));
+                        
+                        if (Files.isDirectory(source)) {
+                            // Create directory if it doesn't exist
+                            if (!Files.exists(destination)) {
+                                Files.createDirectories(destination);
+                            }
+                        } else {
+                            // Copy file, overwriting if it exists
+                            Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
+                        }
+                    } catch (IOException e) {
+                        System.err.println("Failed to copy: " + source + " - " + e.getMessage());
+                    }
+                });
+            }
+        } catch (IOException e) {
+            System.err.println("Failed to copy directory: " + e.getMessage());
+        }
     }
 
     @Override
     public void batchCopyDir(List<CopyDir> copyDirs) {
-
+        if (copyDirs == null || copyDirs.isEmpty()) {
+            System.out.println("No directories to copy");
+            return;
+        }
+        
+        progressBarComponent.start("Batch Copy Directories", copyDirs.size());
+        
+        for (CopyDir copyDir : copyDirs) {
+            copyDir(copyDir);
+            progressBarComponent.update("拷贝目录：" + copyDir.getSrc() + " -> " + copyDir.getDest());
+        }
+        
+        progressBarComponent.finish();
     }
 }
