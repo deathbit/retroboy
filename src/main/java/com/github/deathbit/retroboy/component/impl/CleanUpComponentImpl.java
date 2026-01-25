@@ -130,4 +130,14 @@ public class CleanUpComponentImpl implements CleanUpComponent {
         
         progressBarComponent.finish();
     }
+
+    @Override
+    public void cleanupDir(String dir) {
+
+    }
+
+    @Override
+    public void batchCleanupDir(String dir) {
+
+    }
 }

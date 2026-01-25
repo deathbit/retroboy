@@ -5,6 +5,8 @@ import java.util.List;
 public interface CleanUpComponent {
     void deleteDir(String dir);
     void deleteFile(String file);
+    void cleanupDir(String dir);
     void batchDeleteDir(List<String> dirs);
     void batchDeleteFile(List<String> files);
+    void batchCleanupDir(String dir);
 }
