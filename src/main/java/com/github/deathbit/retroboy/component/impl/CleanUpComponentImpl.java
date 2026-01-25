@@ -8,7 +8,9 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
 import java.util.stream.Stream;
 
 @Slf4j
@@ -37,7 +39,7 @@ public class CleanUpComponentImpl implements CleanUpComponent {
         try {
             // Delete directory recursively by walking the file tree in reverse order
             try (Stream<Path> walk = Files.walk(dirPath)) {
-                boolean[] hasFailures = {false};
+                List<Path> failedPaths = new ArrayList<>();
                 walk.sorted(Comparator.reverseOrder())
                     .forEach(path -> {
                         try {
@@ -45,12 +47,13 @@ public class CleanUpComponentImpl implements CleanUpComponent {
                             log.debug("Deleted: {}", path);
                         } catch (IOException e) {
                             log.error("Failed to delete: {}", path, e);
-                            hasFailures[0] = true;
+                            failedPaths.add(path);
                         }
                     });
                 
-                if (hasFailures[0]) {
-                    log.warn("Directory deletion completed with some failures: {}", dir);
+                if (!failedPaths.isEmpty()) {
+                    log.warn("Directory deletion completed with {} failure(s). Failed paths: {}", 
+                             failedPaths.size(), failedPaths);
                 } else {
                     log.info("Successfully deleted directory: {}", dir);
                 }
