@@ -63,16 +63,16 @@ public class StartupRunner implements ApplicationRunner {
         printTaskDone("删除文件");
 
         printTask("默认配置", List.of(
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\info",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\assets",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\autoconfig",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\cheats",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\database",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\overlays",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\shaders",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\cores",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\system",
-                "拷贝文件：D:\\Resources\\retroarch.cfg",
+                "拷贝目录：D:\\Resources\\RetroArch-Win64\\info -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\info",
+                "拷贝目录：D:\\Resources\\RetroArch-Win64\\assets -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets",
+                "拷贝目录：D:\\Resources\\RetroArch-Win64\\autoconfig -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\autoconfig",
+                "拷贝目录：D:\\Resources\\RetroArch-Win64\\cheats -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\cheats",
+                "拷贝目录：D:\\Resources\\RetroArch-Win64\\database -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\database",
+                "拷贝目录：D:\\Resources\\RetroArch-Win64\\overlays -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\overlays",
+                "拷贝目录：D:\\Resources\\RetroArch-Win64\\shaders -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders",
+                "拷贝目录：D:\\Resources\\RetroArch-Win64\\cores -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\cores",
+                "拷贝目录：D:\\Resources\\RetroArch-Win64\\system -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\system",
+                "拷贝文件：D:\\Resources\\retroarch.cfg -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\retroarch.cfg",
                 "设置选项：video_fullscreen = \"true\"",
                 "设置选项：rgui_browser_directory = \"D:\\ES-DE\\ROMs\"",
                 "设置选项：input_player1_analog_dpad_mode = \"1\""
@@ -84,7 +84,7 @@ public class StartupRunner implements ApplicationRunner {
 
         printTask("修复中文字体", List.of(
                 "删除文件：D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets\\pkg\\chinese-fallback-font.ttf",
-                "拷贝文件：D:\\Resources\\chinese-fallback-font.ttf",
+                "拷贝文件：D:\\Resources\\chinese-fallback-font.ttf -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets\\pkg\\chinese-fallback-font.ttf",
                 "设置选项：video_font_path = \":\\assets\\pkg\\chinese-fallback-font.ttf\""
         ));
         cleanUpComponent.deleteFile("D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets\\pkg\\chinese-fallback-font.ttf");
@@ -101,9 +101,9 @@ public class StartupRunner implements ApplicationRunner {
                 "设置选项：video_rotation = \"0\"",
                 "设置选项：video_allow_rotate = \"false\"",
                 "设置选项：video_shader_enable = \"true\"",
-                "拷贝目录；D:\\Resources\\Mega_Bezel_Packs\\*",
-                "拷贝文件：D:\\Resources\\global.slangp",
-                "拷贝文件：D:\\Resources\\retroarch.slangp"
+                "拷贝目录；D:\\Resources\\Mega_Bezel_Packs -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders\\Mega_Bezel_Packs",
+                "拷贝文件：D:\\Resources\\global.slangp -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\config\\global.slangp",
+                "拷贝文件：D:\\Resources\\retroarch.slangp -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders\\retroarch.slangp"
         ));
         configComponent.batchChangeConfig(List.of(
                 Config.builder().configFile(appConfig.getRetroArchConfig()).key("video_driver").value("vulkan").build(),

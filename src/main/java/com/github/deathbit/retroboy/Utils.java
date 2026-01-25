@@ -8,7 +8,7 @@ public class Utils {
         String title = "主任务: " + mainTaskName;
         String subTitle = "子任务";
 
-        String border = "+" + "-".repeat(120) + "+";
+        String border = "+" + "-".repeat(200) + "+";
         System.out.println();
         System.out.println(border);
         System.out.println("| " + title);
@@ -27,7 +27,7 @@ public class Utils {
     }
 
     public static void printTaskDone(String taskName) {
-        String border = "+" + "-".repeat(120) + "+";
+        String border = "+" + "-".repeat(200) + "+";
         System.out.println(border);
         System.out.println("| " + taskName + " 完成");
         System.out.println(border);
