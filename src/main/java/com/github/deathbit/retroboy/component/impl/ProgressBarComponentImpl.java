@@ -1,10 +1,8 @@
 package com.github.deathbit.retroboy.component.impl;
 
 import com.github.deathbit.retroboy.component.ProgressBarComponent;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
-@Slf4j
 @Component
 public class ProgressBarComponentImpl implements ProgressBarComponent {
     
@@ -19,7 +17,7 @@ public class ProgressBarComponentImpl implements ProgressBarComponent {
     @Override
     public void start(String taskName, int totalItems) {
         if (totalItems < 0) {
-            log.warn("Total items cannot be negative: {}, using 0 instead", totalItems);
+            System.out.println("Total items cannot be negative: " + totalItems + ", using 0 instead");
             totalItems = 0;
         }
         
