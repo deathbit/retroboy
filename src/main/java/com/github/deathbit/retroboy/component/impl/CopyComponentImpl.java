@@ -101,9 +101,7 @@ public class CopyComponentImpl implements CopyComponent {
         
         for (CopyDir copyDir : copyDirs) {
             copyDirContent(copyDir);
-            if (copyDir != null) {
-                progressBarComponent.update("拷贝目录：" + copyDir.getSrc() + " -> " + copyDir.getDest());
-            }
+            progressBarComponent.update("拷贝目录：" + copyDir.getSrc() + " -> " + copyDir.getDest());
         }
         
         progressBarComponent.finish();
@@ -171,9 +169,7 @@ public class CopyComponentImpl implements CopyComponent {
         
         for (CopyFile copyFile : copyFiles) {
             copyFile(copyFile);
-            if (copyFile != null) {
-                progressBarComponent.update("拷贝文件：" + copyFile.getSrcFile() + " -> " + copyFile.getDestDir());
-            }
+            progressBarComponent.update("拷贝文件：" + copyFile.getSrcFile() + " -> " + copyFile.getDestDir());
         }
         
         progressBarComponent.finish();
