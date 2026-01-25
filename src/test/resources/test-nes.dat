@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<datafile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://datomatic.no-intro.org/stuff https://datomatic.no-intro.org/stuff/schema_nointro_datfile_v3.xsd">
+	<header>
+		<id>45</id>
+		<name>Nintendo - Nintendo Entertainment System (Headered)</name>
+		<description>Nintendo - Nintendo Entertainment System (Headered)</description>
+		<version>20260122-064936</version>
+		<author>Test Author</author>
+		<homepage>No-Intro</homepage>
+		<url>https://www.no-intro.org</url>
+		<clrmamepro forcenodump="required"/>
+	</header>
+	<game name="'89 Dennou Kyuusei Uranai (Japan)" id="0001">
+		<description>'89 Dennou Kyuusei Uranai (Japan)</description>
+		<rom name="'89 Dennou Kyuusei Uranai (Japan).nes" size="262160" crc="3577ab04" md5="44091221ff27af8f274f210dec670bb1" sha1="b4cbebec2a49f8bf5454a39424dff567c50d901c" sha256="e528c956eab225ad74b83d0eae2f280de8e4849e0341cf1d081b2b1ba5d787b3" status="verified" header="4E 45 53 1A 10 00 10 08 00 00 00 07 00 00 00 01"/>
+	</game>
+	<game name="10-Yard Fight (Japan) (En)" id="0002" cloneofid="0003">
+		<category>Games</category>
+		<description>10-Yard Fight (Japan) (En)</description>
+		<rom name="10-Yard Fight (Japan) (En).nes" size="24592" crc="44aa3eeb" md5="1378270f6cf90095b7fea1e6648503a4" sha1="2a91760c828b26adc765ba9b0322fb770089e391" sha256="82e8e0cc827e061ff9d5707ec60a2658acbd47814b29ab58b122e526bc949149" status="verified" header="4E 45 53 1A 01 01 00 08 00 00 00 00 00 00 00 01"/>
+	</game>
+	<game name="Super Mario Bros. (World)" id="0003">
+		<category>Games</category>
+		<description>Super Mario Bros. (World)</description>
+		<rom name="Super Mario Bros. (World).nes" size="40976" status="verified"/>
+	</game>
+</datafile>
