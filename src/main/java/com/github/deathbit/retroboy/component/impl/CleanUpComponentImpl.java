@@ -96,7 +96,7 @@ public class CleanUpComponentImpl implements CleanUpComponent {
     }
 
     @Override
-    public void batchDdeleteFile(List<String> files) {
+    public void batchDeleteFile(List<String> files) {
 
     }
 }
