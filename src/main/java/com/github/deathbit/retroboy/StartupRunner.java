@@ -22,6 +22,6 @@ public class StartupRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
         cleanUpComponent.batchDeleteDir(appConfig.getCleanup().getCleanupDirs());
-        cleanUpComponent.batchDdeleteFile(appConfig.getCleanup().getCleanupFiles());
+        cleanUpComponent.batchDeleteFile(appConfig.getCleanup().getCleanupFiles());
     }
 }
