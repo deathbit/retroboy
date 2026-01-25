@@ -37,6 +37,7 @@ public class CleanUpComponentImpl implements CleanUpComponent {
         try {
             // Delete directory recursively by walking the file tree in reverse order
             try (Stream<Path> walk = Files.walk(dirPath)) {
+                boolean[] hasFailures = {false};
                 walk.sorted(Comparator.reverseOrder())
                     .forEach(path -> {
                         try {
@@ -44,10 +45,16 @@ public class CleanUpComponentImpl implements CleanUpComponent {
                             log.debug("Deleted: {}", path);
                         } catch (IOException e) {
                             log.error("Failed to delete: {}", path, e);
+                            hasFailures[0] = true;
                         }
                     });
+                
+                if (hasFailures[0]) {
+                    log.warn("Directory deletion completed with some failures: {}", dir);
+                } else {
+                    log.info("Successfully deleted directory: {}", dir);
+                }
             }
-            log.info("Successfully deleted directory: {}", dir);
         } catch (IOException e) {
             log.error("Failed to delete directory: {}", dir, e);
         }
