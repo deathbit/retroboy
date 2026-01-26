@@ -46,7 +46,7 @@ public class ConfigComponentImpl implements ConfigComponent {
         }
         String content = String.join("\n", lines) + "\n";
         Files.writeString(configPath, content, StandardCharsets.UTF_8);
-        System.out.print("\r" + "设置选项[" + fileName + "]: " + key + " = " + value);
+        System.out.println("设置选项[" + fileName + "]: " + key + " = " + value);
     }
 
     @Override

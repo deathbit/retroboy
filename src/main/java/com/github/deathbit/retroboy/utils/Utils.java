@@ -25,7 +25,6 @@ public class Utils {
     }
 
     public static void printTaskDone(String taskName) {
-        System.out.println();
         System.out.println(border);
         System.out.println("| " + taskName + " 完成");
         System.out.println(border);

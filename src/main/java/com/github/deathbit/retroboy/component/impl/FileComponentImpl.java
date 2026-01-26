@@ -77,8 +77,8 @@ public class FileComponentImpl implements FileComponent {
 
     @Override
     public void createDir(String dir) throws IOException {
+        System.out.println("创建目录: " + dir);
         Files.createDirectories(Paths.get(dir));
-        System.out.print("\r" + "创建目录: " + dir);
     }
 
     @Override
@@ -90,12 +90,12 @@ public class FileComponentImpl implements FileComponent {
 
     @Override
     public void copyFile(CopyFileInput copyFileInput) throws IOException {
+        System.out.println("拷贝文件: " + copyFileInput.getSrcFile() + " -> " + copyFileInput.getDestDir());
         Path srcPath = Paths.get(copyFileInput.getSrcFile());
         Path destDirPath = Paths.get(copyFileInput.getDestDir());
         Files.createDirectories(destDirPath);
         Path destFilePath = destDirPath.resolve(srcPath.getFileName());
         Files.copy(srcPath, destFilePath, StandardCopyOption.REPLACE_EXISTING);
-        System.out.print("\r" + "拷贝文件: " + copyFileInput.getSrcFile() + " -> " + copyFileInput.getDestDir());
     }
 
     @Override
@@ -175,13 +175,14 @@ public class FileComponentImpl implements FileComponent {
         }
         Path destPath = parentDir.resolve(renameFileInput.getNewName());
         Files.move(srcPath, destPath, StandardCopyOption.REPLACE_EXISTING);
-        System.out.print("\r" + "重命名文件: " + renameFileInput.getSrcFile() + " -> " + renameFileInput.getNewName());
     }
 
     @Override
     public void batchRenameFile(List<RenameFileInput> renameFileInputs) throws IOException {
-        for (RenameFileInput renameFileInput : renameFileInputs) {
-            renameFile(renameFileInput);
+        System.out.println("批量重命名文件: ");
+        for (int i = 0; i < renameFileInputs.size(); i++) {
+            renameFile(renameFileInputs.get(i));
+            Utils.printProgressBar(i, renameFileInputs.size());
         }
     }
 }
