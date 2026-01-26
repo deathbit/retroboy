@@ -1,13 +1,5 @@
 package com.github.deathbit.retroboy.component.impl;
 
-import com.github.deathbit.retroboy.component.FileComponent;
-import com.github.deathbit.retroboy.component.ProgressBarComponent;
-import com.github.deathbit.retroboy.domain.CopyDirContentInput;
-import com.github.deathbit.retroboy.domain.CopyDirInput;
-import com.github.deathbit.retroboy.domain.CopyFileInput;
-import com.github.deathbit.retroboy.domain.RenameFileInput;
-import org.springframework.stereotype.Component;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -16,6 +8,13 @@ import java.nio.file.StandardCopyOption;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Stream;
+
+import com.github.deathbit.retroboy.component.FileComponent;
+import com.github.deathbit.retroboy.domain.CopyDirContentInput;
+import com.github.deathbit.retroboy.domain.CopyDirInput;
+import com.github.deathbit.retroboy.domain.CopyFileInput;
+import com.github.deathbit.retroboy.domain.RenameFileInput;
+import org.springframework.stereotype.Component;
 
 @Component
 public class FileComponentImpl implements FileComponent {
