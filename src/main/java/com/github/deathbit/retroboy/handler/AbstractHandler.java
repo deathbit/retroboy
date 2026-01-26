@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.github.deathbit.retroboy.config.AppConfig;
-import com.github.deathbit.retroboy.config.domain.RuleConfig;
+import com.github.deathbit.retroboy.domain.RuleConfig;
 import com.github.deathbit.retroboy.rule.Rule;
 import com.github.deathbit.retroboy.rule.Rules;
 import com.github.deathbit.retroboy.rule.domain.FileContext;

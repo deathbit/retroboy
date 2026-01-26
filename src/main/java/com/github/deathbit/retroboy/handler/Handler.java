@@ -1,7 +1,7 @@
 package com.github.deathbit.retroboy.handler;
 
 import com.github.deathbit.retroboy.config.AppConfig;
-import com.github.deathbit.retroboy.config.domain.RuleConfig;
+import com.github.deathbit.retroboy.domain.RuleConfig;
 import com.github.deathbit.retroboy.rule.Rule;
 import com.github.deathbit.retroboy.rule.domain.FileContext;
 import com.github.deathbit.retroboy.rule.domain.RuleContext;

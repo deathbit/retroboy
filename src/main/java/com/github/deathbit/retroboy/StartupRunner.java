@@ -1,20 +1,18 @@
 package com.github.deathbit.retroboy;
 
+import java.util.List;
+
+import static com.github.deathbit.retroboy.Utils.printTask;
+import static com.github.deathbit.retroboy.Utils.printTaskDone;
+
 import com.github.deathbit.retroboy.component.ConfigComponent;
 import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
-import com.github.deathbit.retroboy.domain.Config;
-import com.github.deathbit.retroboy.handler.handlers.NesHandler;
 import org.jspecify.annotations.NonNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
-
-import java.util.List;
-
-import static com.github.deathbit.retroboy.Utils.printTask;
-import static com.github.deathbit.retroboy.Utils.printTaskDone;
 
 @Component
 public class StartupRunner implements ApplicationRunner {
@@ -27,9 +25,6 @@ public class StartupRunner implements ApplicationRunner {
 
     @Autowired
     private FileComponent fileComponent;
-
-    @Autowired
-    private NesHandler nesHandler;
 
     @Override
     public void run(@NonNull ApplicationArguments args) throws Exception {
@@ -91,19 +86,9 @@ public class StartupRunner implements ApplicationRunner {
                 "设置RA选项：video_allow_rotate = \"false\"",
                 "设置RA选项：video_shader_enable = \"true\""
         ));
-        fileComponent.copyDir(CopyDir.builder().src("D:\\Resources\\Mega_Bezel_Packs").dest("D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders").build());
-        fileComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\global.slangp").destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\config").build());
-        fileComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\retroarch.slangp").destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders").build());
-        configComponent.batchChangeConfig(List.of(
-                Config.builder().configFile(appConfig.getRetroArchConfig()).key("video_driver").value("vulkan").build(),
-                Config.builder().configFile(appConfig.getRetroArchConfig()).key("aspect_ratio_index").value("24").build(),
-                Config.builder().configFile(appConfig.getRetroArchConfig()).key("video_scale_integer").value("false").build(),
-                Config.builder().configFile(appConfig.getRetroArchConfig()).key("video_rotation").value("0").build(),
-                Config.builder().configFile(appConfig.getRetroArchConfig()).key("video_allow_rotate").value("false").build(),
-                Config.builder().configFile(appConfig.getRetroArchConfig()).key("video_shader_enable").value("true").build()
-        ));
+        fileComponent.copyDir(appConfig.getSetMegaBezelShaderTask().getCopyMegaBezelPacks());
+        fileComponent.batchCopyFile(appConfig.getSetMegaBezelShaderTask().getCopyDefaultMegaBezelShader());
+        configComponent.batchChangeConfig(appConfig.getSetMegaBezelShaderTask().getSetMegaBezelShaderConfigs());
         printTaskDone("设置Mega Bezel着色器");
-
-        nesHandler.handle();
     }
 }
