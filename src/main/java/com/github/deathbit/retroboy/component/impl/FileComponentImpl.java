@@ -29,30 +29,8 @@ public class FileComponentImpl implements FileComponent {
     }
 
     @Override
-    public void deleteFile(String filePath) {
-        if (filePath == null || filePath.trim().isEmpty()) {
-            System.out.println("File path is null or empty, skipping deletion");
-            return;
-        }
-
-        Path path = Paths.get(filePath);
-
-        if (!Files.exists(path)) {
-            System.out.println("File does not exist: " + filePath);
-            return;
-        }
-
-        if (Files.isDirectory(path)) {
-            System.out.println("Path is a directory, not a file: " + filePath);
-            return;
-        }
-
-        try {
-            Files.delete(path);
-            System.out.println("Deleted file: " + filePath);
-        } catch (IOException e) {
-            System.err.println("Failed to delete file: " + filePath + " - " + e.getMessage());
-        }
+    public void deleteFile(String filePath) throws IOException {
+        Files.delete(Paths.get(filePath));
     }
 
     @Override
