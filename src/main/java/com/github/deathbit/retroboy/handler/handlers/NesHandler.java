@@ -1,14 +1,22 @@
 package com.github.deathbit.retroboy.handler.handlers;
 
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
 import com.github.deathbit.retroboy.component.CopyComponent;
 import com.github.deathbit.retroboy.component.CreateComponent;
 import com.github.deathbit.retroboy.component.ProgressBarComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.config.domain.CopyFile;
 import com.github.deathbit.retroboy.config.domain.RuleConfig;
-import com.github.deathbit.retroboy.handler.Handler;
+import com.github.deathbit.retroboy.handler.AbstractHandler;
 import com.github.deathbit.retroboy.rule.Rule;
-import com.github.deathbit.retroboy.rule.Rules;
 import com.github.deathbit.retroboy.rule.domain.FileContext;
 import com.github.deathbit.retroboy.rule.domain.RuleContext;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,16 +25,8 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import java.io.File;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
 @Component
-public class NesHandler implements Handler {
+public class NesHandler extends AbstractHandler {
 
     @Autowired
     private AppConfig appConfig;
@@ -72,67 +72,6 @@ public class NesHandler implements Handler {
     }
 
     @Override
-    public FileContext buildFileContext(String fileName) {
-        // Extract full name (without extension)
-        String fullName = fileName;
-        if (fileName.contains(".")) {
-            fullName = fileName.substring(0, fileName.lastIndexOf('.'));
-        }
-        
-        // Parse name part and tag part
-        String namePart = fullName;
-        String tagPart = "";
-        List<String> tags = new ArrayList<>();
-        
-        int firstParen = fullName.indexOf('(');
-        if (firstParen != -1) {
-            namePart = fullName.substring(0, firstParen).trim();
-            tagPart = fullName.substring(firstParen);
-            
-            // Extract individual tags
-            int start = 0;
-            while ((start = tagPart.indexOf('(', start)) != -1) {
-                int end = tagPart.indexOf(')', start);
-                if (end != -1) {
-                    tags.add(tagPart.substring(start + 1, end));
-                    start = end + 1;
-                } else {
-                    break;
-                }
-            }
-        }
-        
-        return FileContext.builder()
-                .fileName(fileName)
-                .fullName(fullName)
-                .namePart(namePart)
-                .tagPart(tagPart)
-                .tags(tags)
-                .build();
-    }
-
-    @Override
-    public List<Rule> buildJapanRuleChain() {
-        return List.of(
-                Rules.IS_JAPAN_LICENSED
-        );
-    }
-
-    @Override
-    public List<Rule> buildUsaRuleChain() {
-        return List.of(
-                Rules.IS_USA_LICENSED
-        );
-    }
-
-    @Override
-    public List<Rule> buildEuropeRuleChain() {
-        return List.of(
-                Rules.IS_EUROPE_LICENSED
-        );
-    }
-
-    @Override
     public void handle() {
         RuleConfig ruleConfig = appConfig.getNesRuleConfig();
         RuleContext ruleContext = buildRuleContext(ruleConfig, appConfig);
@@ -145,33 +84,30 @@ public class NesHandler implements Handler {
         Set<String> japanFinal = new HashSet<>();
         Set<String> usaFinal = new HashSet<>();
         Set<String> europeFinal = new HashSet<>();
-        
+
         // Read all files from romDir
         File romDir = new File(ruleConfig.getRomDir());
         if (romDir.exists() && romDir.isDirectory()) {
             File[] files = romDir.listFiles();
             if (files != null) {
                 // Get the Japan rule chain (same for all files)
-                List<Rule> japanRuleChain = buildJapanRuleChain();
-                List<Rule> usaRuleChain = buildUsaRuleChain();
-                List<Rule> europeRuleChain = buildEuropeRuleChain();
+                Rule japanRule = buildJapanRule();
+                Rule usaRule = buildUsaRule();
+                Rule europeRule = buildEuropeRule();
 
                 progressBarComponent.start("计算FC规则", files.length);
 
                 for (File file : files) {
                     if (file.isFile()) {
                         String fileName = file.getName();
-                        
+
                         // Build FileContext for the file
                         FileContext fileContext = buildFileContext(fileName);
-                        
+
                         // Apply Japan rule chain to determine if file should be added to japanFinal
-                        boolean passJapanRules = japanRuleChain.stream()
-                                .allMatch(rule -> rule.pass(ruleContext, fileContext));
-                        boolean passUsaRules = usaRuleChain.stream()
-                                .allMatch(rule -> rule.pass(ruleContext, fileContext));
-                        boolean passEuropeRules = europeRuleChain.stream()
-                                .allMatch(rule -> rule.pass(ruleContext, fileContext));
+                        boolean passJapanRules = japanRule.pass(ruleContext, fileContext);
+                        boolean passUsaRules = usaRule.pass(ruleContext, fileContext);
+                        boolean passEuropeRules = europeRule.pass(ruleContext, fileContext);
                         if (passJapanRules) {
                             japanFinal.add(fileName);
                         }
@@ -195,37 +131,35 @@ public class NesHandler implements Handler {
 
         // Copy files to their respective target directories
         List<CopyFile> allCopyFiles = new ArrayList<>();
-        
+
         // Prepare Japan files for copying
         for (String fileName : japanFinal) {
             String srcFilePath = new File(ruleConfig.getRomDir(), fileName).getAbsolutePath();
             allCopyFiles.add(CopyFile.builder()
-                    .srcFile(srcFilePath)
-                    .destDir(ruleConfig.getJapanTargetDir())
-                    .build());
+                                     .srcFile(srcFilePath)
+                                     .destDir(ruleConfig.getJapanTargetDir())
+                                     .build());
         }
-        
+
         // Prepare USA files for copying
         for (String fileName : usaFinal) {
             String srcFilePath = new File(ruleConfig.getRomDir(), fileName).getAbsolutePath();
             allCopyFiles.add(CopyFile.builder()
-                    .srcFile(srcFilePath)
-                    .destDir(ruleConfig.getUsaTargetDir())
-                    .build());
+                                     .srcFile(srcFilePath)
+                                     .destDir(ruleConfig.getUsaTargetDir())
+                                     .build());
         }
-        
+
         // Prepare Europe files for copying
         for (String fileName : europeFinal) {
             String srcFilePath = new File(ruleConfig.getRomDir(), fileName).getAbsolutePath();
             allCopyFiles.add(CopyFile.builder()
-                    .srcFile(srcFilePath)
-                    .destDir(ruleConfig.getEuropeTargetDir())
-                    .build());
+                                     .srcFile(srcFilePath)
+                                     .destDir(ruleConfig.getEuropeTargetDir())
+                                     .build());
         }
-        
+
         // Batch copy all files
         copyComponent.batchCopyFile(allCopyFiles);
-
-        System.out.println();
     }
 }

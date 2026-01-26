@@ -6,13 +6,11 @@ import com.github.deathbit.retroboy.rule.Rule;
 import com.github.deathbit.retroboy.rule.domain.FileContext;
 import com.github.deathbit.retroboy.rule.domain.RuleContext;
 
-import java.util.List;
-
 public interface Handler {
     RuleContext buildRuleContext(RuleConfig ruleConfig, AppConfig appConfig);
     FileContext buildFileContext(String fileName);
-    List<Rule> buildJapanRuleChain();
-    List<Rule> buildUsaRuleChain();
-    List<Rule> buildEuropeRuleChain();
+    Rule buildJapanRule();
+    Rule buildUsaRule();
+    Rule buildEuropeRule();
     void handle();
 }
