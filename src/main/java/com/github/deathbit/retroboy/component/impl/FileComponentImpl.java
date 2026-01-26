@@ -22,6 +22,7 @@ public class FileComponentImpl implements FileComponent {
     @Override
     public void deleteFile(String filePath) throws IOException {
         Files.delete(Paths.get(filePath));
+        System.out.print("\r" + "删除文件: " + filePath);
     }
 
     @Override
@@ -33,6 +34,7 @@ public class FileComponentImpl implements FileComponent {
                 Files.delete(p);
             }
         }
+        System.out.print("\r" + "删除目录: " + dirPath);
     }
 
     @Override
@@ -46,6 +48,7 @@ public class FileComponentImpl implements FileComponent {
                 Files.delete(p);
             }
         }
+        System.out.print("\r" + "清空目录: " + dirPath);
     }
 
     @Override
@@ -72,6 +75,7 @@ public class FileComponentImpl implements FileComponent {
     @Override
     public void createDir(String dirPath) throws IOException {
         Files.createDirectories(Paths.get(dirPath));
+        System.out.print("\r" + "创建目录: " + dirPath);
     }
 
     @Override
@@ -88,6 +92,7 @@ public class FileComponentImpl implements FileComponent {
         Files.createDirectories(destDirPath);
         Path destFilePath = destDirPath.resolve(srcPath.getFileName());
         Files.copy(srcPath, destFilePath, StandardCopyOption.REPLACE_EXISTING);
+        System.out.print("\r" + "拷贝文件: " + copyFileInput.getSrcFilePath() + " -> " + copyFileInput.getDestDirPath());
     }
 
     @Override
@@ -109,6 +114,7 @@ public class FileComponentImpl implements FileComponent {
                 }
             }
         }
+        System.out.print("\r" + "拷贝目录: " + copyDirInput.getSrcDirPath() + " -> " + copyDirInput.getDestDirPath());
     }
 
     @Override
@@ -129,6 +135,7 @@ public class FileComponentImpl implements FileComponent {
                 }
             }
         }
+        System.out.print("\r" + "拷贝目录内容: " + copyDirContentInput.getSrcDirPath() + " -> " + copyDirContentInput.getDestDirPath());
     }
 
     @Override
@@ -161,6 +168,7 @@ public class FileComponentImpl implements FileComponent {
         }
         Path destPath = parentDir.resolve(renameFileInput.getNewFileName());
         Files.move(srcPath, destPath, StandardCopyOption.REPLACE_EXISTING);
+        System.out.print("\r" + "重命名文件: " + renameFileInput.getSrcFilePath() + " -> " + renameFileInput.getNewFileName());
     }
 
     @Override

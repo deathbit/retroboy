@@ -1,10 +1,11 @@
 package com.github.deathbit.retroboy.component;
 
-import com.github.deathbit.retroboy.config.domain.Config;
-
+import java.io.IOException;
 import java.util.List;
 
+import com.github.deathbit.retroboy.domain.Config;
+
 public interface ConfigComponent {
-    void changeConfig(Config config);
-    void batchChangeConfig(List<Config> configs);
+    void changeConfig(Config config) throws IOException;
+    void batchChangeConfig(List<Config> configs) throws IOException;
 }

@@ -1,15 +1,12 @@
 package com.github.deathbit.retroboy;
 
-import com.github.deathbit.retroboy.component.CleanUpComponent;
 import com.github.deathbit.retroboy.component.ConfigComponent;
-import com.github.deathbit.retroboy.component.CopyComponent;
-import com.github.deathbit.retroboy.component.CreateComponent;
+import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
-import com.github.deathbit.retroboy.config.domain.Config;
-import com.github.deathbit.retroboy.config.domain.CopyDir;
-import com.github.deathbit.retroboy.config.domain.CopyFile;
+import com.github.deathbit.retroboy.domain.Config;
 import com.github.deathbit.retroboy.handler.handlers.NesHandler;
 import org.jspecify.annotations.NonNull;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
@@ -22,33 +19,21 @@ import static com.github.deathbit.retroboy.Utils.printTaskDone;
 @Component
 public class StartupRunner implements ApplicationRunner {
 
-    private final AppConfig appConfig;
-    private final CleanUpComponent cleanUpComponent;
-    private final CopyComponent copyComponent;
-    private final ConfigComponent configComponent;
-    private final CreateComponent createComponent;
-    private final NesHandler nesHandler;
+    @Autowired
+    private AppConfig appConfig;
 
-    public StartupRunner(
-            AppConfig appConfig,
-            CleanUpComponent cleanUpComponent,
-            CopyComponent copyComponent,
-            ConfigComponent configComponent,
-            CreateComponent createComponent,
-            NesHandler nesHandler) {
-        this.appConfig = appConfig;
-        this.cleanUpComponent = cleanUpComponent;
-        this.copyComponent = copyComponent;
-        this.configComponent = configComponent;
-        this.createComponent = createComponent;
-        this.nesHandler = nesHandler;
-    }
+    @Autowired
+    private ConfigComponent configComponent;
+
+    @Autowired
+    private NesHandler nesHandler;
+
+    @Autowired
+    private FileComponent fileComponent;
 
     @Override
-    public void run(@NonNull ApplicationArguments args) {
-
-
-        printTask("清理目录", List.of(
+    public void run(@NonNull ApplicationArguments args) throws Exception {
+        printTask("删除目录和文件", List.of(
                 "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\info",
                 "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets",
                 "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\autoconfig",
@@ -58,35 +43,31 @@ public class StartupRunner implements ApplicationRunner {
                 "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders",
                 "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\cores",
                 "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\system",
-                "清理目录：D:\\ES-DE\\ROMs"
-        ));
-        cleanUpComponent.batchCleanupDir(appConfig.getCleanup().getCleanupDirs());
-        printTaskDone("清理目录");
-
-        printTask("删除文件", List.of(
+                "清理目录：D:\\ES-DE\\ROMs",
                 "删除文件：D:\\ES-DE\\Emulators\\RetroArch-Win64\\retroarch.cfg"
         ));
-        cleanUpComponent.batchDeleteFile(appConfig.getCleanup().getDeleteFiles());
-        printTaskDone("删除文件");
+        fileComponent.batchDeleteDirContent(appConfig.getCleanUpTask().getDeleteContentDirs());
+        fileComponent.batchDeleteFile(appConfig.getCleanUpTask().getDeleteFiles());
+        printTaskDone("删除目录和文件");
 
         printTask("默认配置", List.of(
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\info -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\info",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\assets -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\autoconfig -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\autoconfig",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\cheats -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\cheats",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\database -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\database",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\overlays -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\overlays",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\shaders -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\cores -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\cores",
-                "拷贝目录：D:\\Resources\\RetroArch-Win64\\system -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\system",
+                "拷贝目录内容：D:\\Resources\\RetroArch-Win64\\info\\* -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\info",
+                "拷贝目录内容：D:\\Resources\\RetroArch-Win64\\assets\\* -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets",
+                "拷贝目录内容：D:\\Resources\\RetroArch-Win64\\autoconfig\\* -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\autoconfig",
+                "拷贝目录内容：D:\\Resources\\RetroArch-Win64\\cheats\\* -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\cheats",
+                "拷贝目录内容：D:\\Resources\\RetroArch-Win64\\database\\* -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\database",
+                "拷贝目录内容：D:\\Resources\\RetroArch-Win64\\overlays\\* -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\overlays",
+                "拷贝目录内容：D:\\Resources\\RetroArch-Win64\\shaders\\* -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders",
+                "拷贝目录内容：D:\\Resources\\RetroArch-Win64\\cores\\* -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\cores",
+                "拷贝目录内容：D:\\Resources\\RetroArch-Win64\\system\\* -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\system",
                 "拷贝文件：D:\\Resources\\retroarch.cfg -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\retroarch.cfg",
-                "设置选项：video_fullscreen = \"true\"",
-                "设置选项：rgui_browser_directory = \"D:\\ES-DE\\ROMs\"",
-                "设置选项：input_player1_analog_dpad_mode = \"1\""
+                "设置RA选项：video_fullscreen = \"true\"",
+                "设置RA选项：rgui_browser_directory = \"D:\\ES-DE\\ROMs\"",
+                "设置RA选项：input_player1_analog_dpad_mode = \"1\""
         ));
-        copyComponent.batchCopyDirContent(appConfig.getCopyDefault().getCopyDirs());
-        copyComponent.batchCopyFile(appConfig.getCopyDefault().getCopyFiles());
-        configComponent.batchChangeConfig(appConfig.getConfigDefault().getRetroArchConfigs());
+        fileComponent.batchCopyDirContent(appConfig.getDefaultConfigTask().getCopyContentDirs());
+        fileComponent.batchCopyFile(appConfig.getDefaultConfigTask().getCopyFiles());
+        configComponent.batchChangeConfig(appConfig.getDefaultConfigTask().getRaConfigs());
         printTaskDone("默认配置");
 
         printTask("修复中文字体", List.of(
@@ -94,8 +75,8 @@ public class StartupRunner implements ApplicationRunner {
                 "拷贝文件：D:\\Resources\\chinese-fallback-font.ttf -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets\\pkg\\chinese-fallback-font.ttf",
                 "设置选项：video_font_path = \":\\assets\\pkg\\chinese-fallback-font.ttf\""
         ));
-        cleanUpComponent.deleteFile("D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets\\pkg\\chinese-fallback-font.ttf");
-        copyComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\chinese-fallback-font.ttf")
+        fileComponent.deleteFile("D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets\\pkg\\chinese-fallback-font.ttf");
+        fileComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\chinese-fallback-font.ttf")
                 .destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets\\pkg").build());
         configComponent.changeConfig(Config.builder().configFile(appConfig.getRetroArchConfig())
                 .key("video_font_path").value(":\\assets\\pkg\\chinese-fallback-font.ttf").build());
@@ -120,9 +101,9 @@ public class StartupRunner implements ApplicationRunner {
                 Config.builder().configFile(appConfig.getRetroArchConfig()).key("video_allow_rotate").value("false").build(),
                 Config.builder().configFile(appConfig.getRetroArchConfig()).key("video_shader_enable").value("true").build()
         ));
-        copyComponent.copyDir(CopyDir.builder().src("D:\\Resources\\Mega_Bezel_Packs").dest("D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders").build());
-        copyComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\global.slangp").destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\config").build());
-        copyComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\retroarch.slangp").destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders").build());
+        fileComponent.copyDir(CopyDir.builder().src("D:\\Resources\\Mega_Bezel_Packs").dest("D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders").build());
+        fileComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\global.slangp").destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\config").build());
+        fileComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\retroarch.slangp").destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders").build());
         printTaskDone("设置Mega Bezel着色器");
 
         nesHandler.handle();

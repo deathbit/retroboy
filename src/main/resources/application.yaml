@@ -4,49 +4,49 @@ spring:
 
 app:
   config:
-    cleanup:
-      cleanupDirs:
-        - 'D:\ES-DE\Emulators\RetroArch-Win64\info' # 核心信息文件
-        - 'D:\ES-DE\Emulators\RetroArch-Win64\assets' # 素材
-        - 'D:\ES-DE\Emulators\RetroArch-Win64\autoconfig' # 手柄配置
-        - 'D:\ES-DE\Emulators\RetroArch-Win64\cheats' # 金手指
-        - 'D:\ES-DE\Emulators\RetroArch-Win64\database' # 数据库
-        - 'D:\ES-DE\Emulators\RetroArch-Win64\overlays' # 遮罩
-        - 'D:\ES-DE\Emulators\RetroArch-Win64\shaders' # 着色器
-        - 'D:\ES-DE\Emulators\RetroArch-Win64\cores' # 核心
-        - 'D:\ES-DE\Emulators\RetroArch-Win64\system' # BIOS
-        - 'D:\ES-DE\ROMs' # ROMs
-      deleteDirs:
-        - ''
+    globalConfig:
+      raMainConfig: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
+    cleanUpTask:
+      deleteDirs: []
       deleteFiles:
-        - 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg' # RA默认配置文件
-    copyDefault:
-      copyDirs:
-        - src: 'D:\Resources\RetroArch-Win64\info'
-          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\info'
-        - src: 'D:\Resources\RetroArch-Win64\assets'
-          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\assets'
-        - src: 'D:\Resources\RetroArch-Win64\autoconfig'
-          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\autoconfig'
-        - src: 'D:\Resources\RetroArch-Win64\cheats'
-          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\cheats'
-        - src: 'D:\Resources\RetroArch-Win64\database'
-          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\database'
-        - src: 'D:\Resources\RetroArch-Win64\overlays'
-          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\overlays'
-        - src: 'D:\Resources\RetroArch-Win64\shaders'
-          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\shaders'
-        - src: 'D:\Resources\RetroArch-Win64\cores'
-          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\cores'
-        - src: 'D:\Resources\RetroArch-Win64\system'
-          dest: 'D:\ES-DE\Emulators\RetroArch-Win64\system'
-        - src: 'D:\ES-DE\ROMs_ALL'
-          dest: 'D:\ES-DE\ROMs'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
+      deleteContentDirs:
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\info'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\assets'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\autoconfig'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\cheats'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\database'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\overlays'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\shaders'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\cores'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\system'
+        - 'D:\ES-DE\ROMs'
+    defaultConfigTask:
+      copyContentDirs:
+        - srcDirPath: 'D:\Resources\RetroArch-Win64\info'
+          destDirPath: 'D:\ES-DE\Emulators\RetroArch-Win64\info'
+        - srcDirPath: 'D:\Resources\RetroArch-Win64\assets'
+          destDirPath: 'D:\ES-DE\Emulators\RetroArch-Win64\assets'
+        - srcDirPath: 'D:\Resources\RetroArch-Win64\autoconfig'
+          destDirPath: 'D:\ES-DE\Emulators\RetroArch-Win64\autoconfig'
+        - srcDirPath: 'D:\Resources\RetroArch-Win64\cheats'
+          destDirPath: 'D:\ES-DE\Emulators\RetroArch-Win64\cheats'
+        - srcDirPath: 'D:\Resources\RetroArch-Win64\database'
+          destDirPath: 'D:\ES-DE\Emulators\RetroArch-Win64\database'
+        - srcDirPath: 'D:\Resources\RetroArch-Win64\overlays'
+          destDirPath: 'D:\ES-DE\Emulators\RetroArch-Win64\overlays'
+        - srcDirPath: 'D:\Resources\RetroArch-Win64\shaders'
+          destDirPath: 'D:\ES-DE\Emulators\RetroArch-Win64\shaders'
+        - srcDirPath: 'D:\Resources\RetroArch-Win64\cores'
+          destDirPath: 'D:\ES-DE\Emulators\RetroArch-Win64\cores'
+        - srcDirPath: 'D:\Resources\RetroArch-Win64\system'
+          destDirPath: 'D:\ES-DE\Emulators\RetroArch-Win64\system'
+        - srcDirPath: 'D:\ES-DE\ROMs_ALL'
+          destDirPath: 'D:\ES-DE\ROMs'
       copyFiles:
         - srcFile: 'D:\Resources\retroarch.cfg'
           destDir: 'D:\ES-DE\Emulators\RetroArch-Win64'
-    configDefault:
-      retroArchConfigs:
+      raConfigs:
         - configFile: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
           key: 'video_fullscreen'
           value: 'true'
@@ -56,7 +56,15 @@ app:
         - configFile: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
           key: 'input_player1_analog_dpad_mode'
           value: '1'
-    retroArchConfig: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
+    fixChineseFontTask:
+      deleteFontFile: 'D:\ES-DE\Emulators\RetroArch-Win64\assets\pkg\chinese-fallback-font.ttf'
+      copyFontFile:
+        srcFilePath: 'D:\Resources\chinese-fallback-font.ttf'
+        destDirPath: 'D:\ES-DE\Emulators\RetroArch-Win64\assets\pkg'
+      setNotificationFont:
+        configFile: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
+        key: 'video_font_path'
+        value: ':\assets\pkg\chinese-fallback-font.ttf'
     globalTagBlackList:
       - '3DS Virtual Console'
       - '8-bit Adventure Anthology - Volume I'

@@ -9,8 +9,7 @@ import java.util.Set;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-import com.github.deathbit.retroboy.component.CopyComponent;
-import com.github.deathbit.retroboy.component.CreateComponent;
+import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.component.ProgressBarComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.config.domain.CopyFile;
@@ -32,13 +31,10 @@ public class NesHandler extends AbstractHandler {
     private AppConfig appConfig;
 
     @Autowired
-    private CreateComponent createComponent;
-
-    @Autowired
     private ProgressBarComponent progressBarComponent;
 
     @Autowired
-    private CopyComponent copyComponent;
+    private FileComponent fileComponent;
 
     @Override
     public RuleContext buildRuleContext(RuleConfig ruleConfig, AppConfig appConfig) {
@@ -76,9 +72,9 @@ public class NesHandler extends AbstractHandler {
         RuleConfig ruleConfig = appConfig.getNesRuleConfig();
         RuleContext ruleContext = buildRuleContext(ruleConfig, appConfig);
 
-        createComponent.createDir(ruleConfig.getJapanTargetDir());
-        createComponent.createDir(ruleConfig.getUsaTargetDir());
-        createComponent.createDir(ruleConfig.getEuropeTargetDir());
+        fileComponent.createDir(ruleConfig.getJapanTargetDir());
+        fileComponent.createDir(ruleConfig.getUsaTargetDir());
+        fileComponent.createDir(ruleConfig.getEuropeTargetDir());
 
         // Initialize the japanFinal set
         Set<String> japanFinal = new HashSet<>();
@@ -160,6 +156,6 @@ public class NesHandler extends AbstractHandler {
         }
 
         // Batch copy all files
-        copyComponent.batchCopyFile(allCopyFiles);
+        fileComponent.batchCopyFile(allCopyFiles);
     }
 }
