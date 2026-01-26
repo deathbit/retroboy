@@ -10,22 +10,22 @@ import com.github.deathbit.retroboy.domain.RenameFileInput;
 
 public interface FileComponent {
     void deleteFile(String filePath) throws IOException;
-    void deleteDir(String dirPath);
-    void deleteDirContent(String dirPath);
-    void batchDeleteFile(List<String> filePaths);
-    void batchDeleteDir(List<String> dirPaths);
-    void batchDeleteDirContent(List<String> dirPaths);
+    void deleteDir(String dirPath) throws IOException;
+    void deleteDirContent(String dirPath) throws IOException;
+    void batchDeleteFile(List<String> filePaths) throws IOException;
+    void batchDeleteDir(List<String> dirPaths) throws IOException;
+    void batchDeleteDirContent(List<String> dirPaths) throws IOException;
 
-    void createDir(String dirPath);
-    void batchCreateDir(List<String> dirPaths);
+    void createDir(String dirPath) throws IOException;
+    void batchCreateDir(List<String> dirPaths) throws IOException;
 
-    void copyFile(CopyFileInput copyFileInput);
-    void copyDir(CopyDirInput copyDirInput);
-    void copyDirContent(CopyDirContentInput copyDirContentInput);
-    void batchCopyFile(List<CopyFileInput> copyFileInputs);
-    void batchCopyDir(List<CopyDirInput> copyDirInputs);
-    void batchCopyDirContent(List<CopyDirContentInput> copyDirContentInputs);
+    void copyFile(CopyFileInput copyFileInput) throws IOException;
+    void copyDir(CopyDirInput copyDirInput) throws IOException;
+    void copyDirContent(CopyDirContentInput copyDirContentInput) throws IOException;
+    void batchCopyFile(List<CopyFileInput> copyFileInputs) throws IOException;
+    void batchCopyDir(List<CopyDirInput> copyDirInputs) throws IOException;
+    void batchCopyDirContent(List<CopyDirContentInput> copyDirContentInputs) throws IOException;
 
-    void renameFile(RenameFileInput renameFileInput);
-    void batchRenameFile(List<RenameFileInput> renameFileInputs);
+    void renameFile(RenameFileInput renameFileInput) throws IOException;
+    void batchRenameFile(List<RenameFileInput> renameFileInputs) throws IOException;
 }
