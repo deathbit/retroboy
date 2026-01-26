@@ -1,16 +1,81 @@
 package com.github.deathbit.retroboy.handler;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.github.deathbit.retroboy.config.AppConfig;
+import com.github.deathbit.retroboy.domain.FileContext;
+import com.github.deathbit.retroboy.domain.HandlerInput;
 import com.github.deathbit.retroboy.domain.RuleConfig;
+import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.rule.Rule;
 import com.github.deathbit.retroboy.rule.Rules;
-import com.github.deathbit.retroboy.domain.FileContext;
-import com.github.deathbit.retroboy.domain.RuleContext;
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public abstract class AbstractHandler implements Handler {
+
+    @Override
+    public void handle(HandlerInput handlerInput) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+    private RuleContext buildRuleContext(HandlerInput handlerInput) {
+        Set<String> licensed = new HashSet<>();
+
+        try {
+            File datFile = new File(ruleConfig.getDatFile());
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            Document document = builder.parse(datFile);
+
+            // Get all game elements
+            NodeList gameNodes = document.getElementsByTagName("game");
+
+            // Extract name attribute from each game element
+            for (int i = 0; i < gameNodes.getLength(); i++) {
+                Element gameElement = (Element) gameNodes.item(i);
+                String name = gameElement.getAttribute("name");
+                if (!name.isEmpty()) {
+                    licensed.add(name);
+                }
+            }
+        } catch (javax.xml.parsers.ParserConfigurationException | org.xml.sax.SAXException | java.io.IOException e) {
+            throw new RuntimeException("Failed to parse DAT file: " + ruleConfig.getDatFile(), e);
+        }
+
+        return RuleContext.builder()
+                .licensed(licensed)
+                .globalTagBlackList(appConfig.getGlobalTagBlackList())
+                .build();
+
+    }
 
     @Override
     public RuleContext buildRuleContext(RuleConfig ruleConfig, AppConfig appConfig) {
@@ -70,10 +135,5 @@ public abstract class AbstractHandler implements Handler {
     @Override
     public Rule buildEuropeRule() {
         return Rules.IS_EUROPE_BASE;
-    }
-
-    @Override
-    public void handle() {
-
     }
 }

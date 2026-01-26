@@ -90,5 +90,7 @@ public class StartupRunner implements ApplicationRunner {
         fileComponent.batchCopyFile(appConfig.getSetMegaBezelShaderTask().getCopyDefaultMegaBezelShader());
         configComponent.batchChangeConfig(appConfig.getSetMegaBezelShaderTask().getSetMegaBezelShaderConfigs());
         printTaskDone("设置Mega Bezel着色器");
+
+
     }
 }

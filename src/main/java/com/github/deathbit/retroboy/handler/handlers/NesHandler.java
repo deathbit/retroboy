@@ -33,33 +33,7 @@
 //
 //    @Override
 //    public RuleContext buildRuleContext(RuleConfig ruleConfig, AppConfig appConfig) {
-//        Set<String> licensed = new HashSet<>();
-//
-//        try {
-//            File datFile = new File(ruleConfig.getDatFile());
-//            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-//            DocumentBuilder builder = factory.newDocumentBuilder();
-//            Document document = builder.parse(datFile);
-//
-//            // Get all game elements
-//            NodeList gameNodes = document.getElementsByTagName("game");
-//
-//            // Extract name attribute from each game element
-//            for (int i = 0; i < gameNodes.getLength(); i++) {
-//                Element gameElement = (Element) gameNodes.item(i);
-//                String name = gameElement.getAttribute("name");
-//                if (!name.isEmpty()) {
-//                    licensed.add(name);
-//                }
-//            }
-//        } catch (javax.xml.parsers.ParserConfigurationException | org.xml.sax.SAXException | java.io.IOException e) {
-//            throw new RuntimeException("Failed to parse DAT file: " + ruleConfig.getDatFile(), e);
-//        }
-//
-//        return RuleContext.builder()
-//                .licensed(licensed)
-//                .globalTagBlackList(appConfig.getGlobalTagBlackList())
-//                .build();
+
 //    }
 //
 //    @Override
