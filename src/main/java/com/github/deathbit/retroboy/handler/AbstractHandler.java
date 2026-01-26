@@ -1,13 +1,9 @@
 package com.github.deathbit.retroboy.handler;
 
-import java.io.File;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 import com.github.deathbit.retroboy.config.AppConfig;
-import com.github.deathbit.retroboy.config.domain.CopyFile;
 import com.github.deathbit.retroboy.config.domain.RuleConfig;
 import com.github.deathbit.retroboy.rule.Rule;
 import com.github.deathbit.retroboy.rule.Rules;
