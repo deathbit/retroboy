@@ -35,14 +35,10 @@ public class FileComponentImpl implements FileComponent {
     public void deleteDir(String dirPath) throws IOException {
         Path path = Paths.get(dirPath);
         try (Stream<Path> walk = Files.walk(path)) {
-            walk.sorted(Comparator.reverseOrder())
-                .forEach(p -> {
-                    try {
-                        Files.delete(p);
-                    } catch (IOException e) {
-                        throw new RuntimeException(e);
-                    }
-                });
+            List<Path> paths = walk.sorted(Comparator.reverseOrder()).toList();
+            for (Path p : paths) {
+                Files.delete(p);
+            }
         }
     }
 
@@ -50,15 +46,12 @@ public class FileComponentImpl implements FileComponent {
     public void deleteDirContent(String dirPath) throws IOException {
         Path path = Paths.get(dirPath);
         try (Stream<Path> walk = Files.walk(path)) {
-            walk.filter(p -> !p.equals(path))
+            List<Path> paths = walk.filter(p -> !p.equals(path))
                 .sorted(Comparator.reverseOrder())
-                .forEach(p -> {
-                    try {
-                        Files.delete(p);
-                    } catch (IOException e) {
-                        throw new RuntimeException(e);
-                    }
-                });
+                .toList();
+            for (Path p : paths) {
+                Files.delete(p);
+            }
         }
     }
 
@@ -125,18 +118,15 @@ public class FileComponentImpl implements FileComponent {
         Files.createDirectories(targetPath);
         
         try (Stream<Path> walk = Files.walk(srcPath)) {
-            walk.forEach(source -> {
-                try {
-                    Path destination = targetPath.resolve(srcPath.relativize(source));
-                    if (Files.isDirectory(source)) {
-                        Files.createDirectories(destination);
-                    } else {
-                        Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
-                    }
-                } catch (IOException e) {
-                    throw new RuntimeException(e);
+            List<Path> sources = walk.toList();
+            for (Path source : sources) {
+                Path destination = targetPath.resolve(srcPath.relativize(source));
+                if (Files.isDirectory(source)) {
+                    Files.createDirectories(destination);
+                } else {
+                    Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
                 }
-            });
+            }
         }
     }
 
@@ -148,19 +138,15 @@ public class FileComponentImpl implements FileComponent {
         Files.createDirectories(destPath);
         
         try (Stream<Path> walk = Files.walk(srcPath)) {
-            walk.filter(source -> !source.equals(srcPath))
-                .forEach(source -> {
-                    try {
-                        Path destination = destPath.resolve(srcPath.relativize(source));
-                        if (Files.isDirectory(source)) {
-                            Files.createDirectories(destination);
-                        } else {
-                            Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
-                        }
-                    } catch (IOException e) {
-                        throw new RuntimeException(e);
-                    }
-                });
+            List<Path> sources = walk.filter(source -> !source.equals(srcPath)).toList();
+            for (Path source : sources) {
+                Path destination = destPath.resolve(srcPath.relativize(source));
+                if (Files.isDirectory(source)) {
+                    Files.createDirectories(destination);
+                } else {
+                    Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
+                }
+            }
         }
     }
 
