@@ -1,10 +1,5 @@
 package com.github.deathbit.retroboy;
 
-import java.util.List;
-
-import static com.github.deathbit.retroboy.Utils.printTask;
-import static com.github.deathbit.retroboy.Utils.printTaskDone;
-
 import com.github.deathbit.retroboy.component.ConfigComponent;
 import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
@@ -13,6 +8,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
+
+import java.util.List;
+
+import static com.github.deathbit.retroboy.utils.Utils.printTask;
+import static com.github.deathbit.retroboy.utils.Utils.printTaskDone;
 
 @Component
 public class StartupRunner implements ApplicationRunner {
@@ -28,22 +28,22 @@ public class StartupRunner implements ApplicationRunner {
 
     @Override
     public void run(@NonNull ApplicationArguments args) throws Exception {
-        printTask("删除目录和文件", List.of(
-                "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\info",
-                "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets",
-                "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\autoconfig",
-                "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\cheats",
-                "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\database",
-                "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\overlays",
-                "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders",
-                "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\cores",
-                "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\system",
-                "清理目录：D:\\ES-DE\\ROMs",
+        printTask("清理目录和文件", List.of(
+                "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\info",
+                "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets",
+                "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\autoconfig",
+                "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\cheats",
+                "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\database",
+                "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\overlays",
+                "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders",
+                "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\cores",
+                "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\system",
+                "清空目录：D:\\ES-DE\\ROMs",
                 "删除文件：D:\\ES-DE\\Emulators\\RetroArch-Win64\\retroarch.cfg"
         ));
         fileComponent.batchDeleteDirContent(appConfig.getCleanUpTask().getDeleteContentDirs());
         fileComponent.batchDeleteFile(appConfig.getCleanUpTask().getDeleteFiles());
-        printTaskDone("删除目录和文件");
+        printTaskDone("清理目录和文件");
 
         printTask("默认配置", List.of(
                 "拷贝目录内容：D:\\Resources\\RetroArch-Win64\\info\\* -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\info",

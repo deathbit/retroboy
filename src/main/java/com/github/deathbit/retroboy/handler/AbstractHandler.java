@@ -7,8 +7,8 @@ import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.domain.RuleConfig;
 import com.github.deathbit.retroboy.rule.Rule;
 import com.github.deathbit.retroboy.rule.Rules;
-import com.github.deathbit.retroboy.rule.domain.FileContext;
-import com.github.deathbit.retroboy.rule.domain.RuleContext;
+import com.github.deathbit.retroboy.domain.FileContext;
+import com.github.deathbit.retroboy.domain.RuleContext;
 
 public abstract class AbstractHandler implements Handler {
 

@@ -1,10 +1,11 @@
-package com.github.deathbit.retroboy;
+package com.github.deathbit.retroboy.utils;
 
 import java.util.List;
 
 public class Utils {
 
     private static final String border = "+" + "-".repeat(200) + "+";
+    private static final int barLength = 100;
 
     public static void printTask(String mainTaskName, List<String> subTaskNames) {
         System.out.println();
@@ -24,8 +25,20 @@ public class Utils {
     }
 
     public static void printTaskDone(String taskName) {
+        System.out.println();
         System.out.println(border);
         System.out.println("| " + taskName + " 完成");
         System.out.println(border);
+    }
+
+    public static void printProgressBar(int current, int total) {
+        int value = current + 1;
+        double percent = (double) value / total;
+        int filled = (int) (percent * barLength);
+
+        String bar = "\r" + "█".repeat(filled) + "░".repeat(barLength - filled) + String.format(" %3d%% [%d/%d]", (int) (percent * 100), value, total);
+
+        if (value == total) System.out.println(bar);
+        else System.out.print(bar);
     }
 }

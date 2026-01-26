@@ -6,6 +6,6 @@ import lombok.Data;
 @Data
 @Builder
 public class RenameFileInput {
-    private String srcFilePath;
-    private String newFileName;
+    private String srcFile;
+    private String newName;
 }

@@ -1,4 +1,4 @@
-package com.github.deathbit.retroboy.rule.domain;
+package com.github.deathbit.retroboy.domain;
 
 import lombok.Builder;
 import lombok.Data;

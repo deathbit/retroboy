@@ -14,8 +14,8 @@
 //import com.github.deathbit.retroboy.domain.RuleConfig;
 //import com.github.deathbit.retroboy.handler.AbstractHandler;
 //import com.github.deathbit.retroboy.rule.Rule;
-//import com.github.deathbit.retroboy.rule.domain.FileContext;
-//import com.github.deathbit.retroboy.rule.domain.RuleContext;
+//import com.github.deathbit.retroboy.domain.FileContext;
+//import com.github.deathbit.retroboy.domain.RuleContext;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.stereotype.Component;
 //import org.w3c.dom.Document;

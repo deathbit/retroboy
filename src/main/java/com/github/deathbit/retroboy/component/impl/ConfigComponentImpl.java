@@ -1,5 +1,9 @@
 package com.github.deathbit.retroboy.component.impl;
 
+import com.github.deathbit.retroboy.component.ConfigComponent;
+import com.github.deathbit.retroboy.domain.Config;
+import org.springframework.stereotype.Component;
+
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -7,19 +11,15 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
-import com.github.deathbit.retroboy.component.ConfigComponent;
-import com.github.deathbit.retroboy.domain.Config;
-import org.springframework.stereotype.Component;
-
 @Component
 public class ConfigComponentImpl implements ConfigComponent {
 
     @Override
     public void changeConfig(Config config) throws IOException {
-        String configFile = config.getConfigFile();
+        String configFile = config.getFile();
         String key = config.getKey();
         String value = config.getValue();
-        String fileName = config.getConfigFile().substring(config.getConfigFile().lastIndexOf("\\") + 1);
+        String fileName = config.getFile().substring(config.getFile().lastIndexOf("\\") + 1);
 
         Path configPath = Paths.get(configFile);
         List<String> lines = Files.readAllLines(configPath, StandardCharsets.UTF_8);
@@ -53,7 +53,6 @@ public class ConfigComponentImpl implements ConfigComponent {
     public void batchChangeConfig(List<Config> configs) throws IOException {
         for (Config config : configs) {
             changeConfig(config);
-
         }
     }
 }

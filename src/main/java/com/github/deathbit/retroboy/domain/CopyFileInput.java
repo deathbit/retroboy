@@ -6,6 +6,6 @@ import lombok.Data;
 @Data
 @Builder
 public class CopyFileInput {
-    private String srcFilePath;
-    private String destDirPath;
+    private String srcFile;
+    private String destDir;
 }
