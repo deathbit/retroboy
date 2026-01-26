@@ -409,23 +409,24 @@ public class FileComponentImpl implements FileComponent {
 
             // Copy all contents from source to destination
             try (Stream<Path> walk = Files.walk(srcPath)) {
-                walk.forEach(source -> {
-                    try {
-                        Path destination = destPath.resolve(srcPath.relativize(source));
+                walk.filter(source -> !source.equals(srcPath)) // Skip the source directory itself
+                    .forEach(source -> {
+                        try {
+                            Path destination = destPath.resolve(srcPath.relativize(source));
 
-                        if (Files.isDirectory(source)) {
-                            // Create directory if it doesn't exist
-                            if (!Files.exists(destination)) {
-                                Files.createDirectories(destination);
+                            if (Files.isDirectory(source)) {
+                                // Create directory if it doesn't exist
+                                if (!Files.exists(destination)) {
+                                    Files.createDirectories(destination);
+                                }
+                            } else {
+                                // Copy file, overwriting if it exists
+                                Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
                             }
-                        } else {
-                            // Copy file, overwriting if it exists
-                            Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
+                        } catch (IOException e) {
+                            System.err.println("Failed to copy: " + source + " - " + e.getMessage());
                         }
-                    } catch (IOException e) {
-                        System.err.println("Failed to copy: " + source + " - " + e.getMessage());
-                    }
-                });
+                    });
             }
             System.out.println("Copied directory content: " + srcDirPath + " -> " + destDirPath);
         } catch (IOException e) {
@@ -444,7 +445,9 @@ public class FileComponentImpl implements FileComponent {
 
         for (CopyFileInput copyFileInput : copyFileInputs) {
             copyFile(copyFileInput);
-            progressBarComponent.update("Copied file: " + copyFileInput.getSrcFilePath());
+            String srcPath = copyFileInput != null && copyFileInput.getSrcFilePath() != null 
+                ? copyFileInput.getSrcFilePath() : "unknown";
+            progressBarComponent.update("Copied file: " + srcPath);
         }
 
         progressBarComponent.finish();
@@ -461,7 +464,9 @@ public class FileComponentImpl implements FileComponent {
 
         for (CopyDirInput copyDirInput : copyDirInputs) {
             copyDir(copyDirInput);
-            progressBarComponent.update("Copied directory: " + copyDirInput.getSrcDirPath());
+            String srcPath = copyDirInput != null && copyDirInput.getSrcDirPath() != null 
+                ? copyDirInput.getSrcDirPath() : "unknown";
+            progressBarComponent.update("Copied directory: " + srcPath);
         }
 
         progressBarComponent.finish();
@@ -478,7 +483,9 @@ public class FileComponentImpl implements FileComponent {
 
         for (CopyDirContentInput copyDirContentInput : copyDirContentInputs) {
             copyDirContent(copyDirContentInput);
-            progressBarComponent.update("Copied directory content: " + copyDirContentInput.getSrcDirPath());
+            String srcPath = copyDirContentInput != null && copyDirContentInput.getSrcDirPath() != null 
+                ? copyDirContentInput.getSrcDirPath() : "unknown";
+            progressBarComponent.update("Copied directory content: " + srcPath);
         }
 
         progressBarComponent.finish();
@@ -540,7 +547,9 @@ public class FileComponentImpl implements FileComponent {
 
         for (RenameFileInput renameFileInput : renameFileInputs) {
             renameFile(renameFileInput);
-            progressBarComponent.update("Renamed file: " + renameFileInput.getSrcFilePath());
+            String srcPath = renameFileInput != null && renameFileInput.getSrcFilePath() != null 
+                ? renameFileInput.getSrcFilePath() : "unknown";
+            progressBarComponent.update("Renamed file: " + srcPath);
         }
 
         progressBarComponent.finish();
