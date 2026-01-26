@@ -26,10 +26,10 @@ public class StartupRunner implements ApplicationRunner {
     private ConfigComponent configComponent;
 
     @Autowired
-    private NesHandler nesHandler;
+    private FileComponent fileComponent;
 
     @Autowired
-    private FileComponent fileComponent;
+    private NesHandler nesHandler;
 
     @Override
     public void run(@NonNull ApplicationArguments args) throws Exception {
@@ -73,26 +73,27 @@ public class StartupRunner implements ApplicationRunner {
         printTask("修复中文字体", List.of(
                 "删除文件：D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets\\pkg\\chinese-fallback-font.ttf",
                 "拷贝文件：D:\\Resources\\chinese-fallback-font.ttf -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets\\pkg\\chinese-fallback-font.ttf",
-                "设置选项：video_font_path = \":\\assets\\pkg\\chinese-fallback-font.ttf\""
+                "设置RA选项：video_font_path = \":\\assets\\pkg\\chinese-fallback-font.ttf\""
         ));
-        fileComponent.deleteFile("D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets\\pkg\\chinese-fallback-font.ttf");
-        fileComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\chinese-fallback-font.ttf")
-                .destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets\\pkg").build());
-        configComponent.changeConfig(Config.builder().configFile(appConfig.getRetroArchConfig())
-                .key("video_font_path").value(":\\assets\\pkg\\chinese-fallback-font.ttf").build());
+        fileComponent.deleteFile(appConfig.getFixChineseFontTask().getDeleteFontFile());
+        fileComponent.copyFile(appConfig.getFixChineseFontTask().getCopyFontFile());
+        configComponent.changeConfig(appConfig.getFixChineseFontTask().getSetNotificationFont());
         printTaskDone("修复中文字体");
 
         printTask("设置Mega Bezel着色器", List.of(
-                "设置选项：video_driver = \"vulkan\"",
-                "设置选项：aspect_ratio_index = \"24\"",
-                "设置选项：video_scale_integer = \"false\"",
-                "设置选项：video_rotation = \"0\"",
-                "设置选项：video_allow_rotate = \"false\"",
-                "设置选项：video_shader_enable = \"true\"",
                 "拷贝目录；D:\\Resources\\Mega_Bezel_Packs -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders\\Mega_Bezel_Packs",
                 "拷贝文件：D:\\Resources\\global.slangp -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\config\\global.slangp",
-                "拷贝文件：D:\\Resources\\retroarch.slangp -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders\\retroarch.slangp"
+                "拷贝文件：D:\\Resources\\retroarch.slangp -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders\\retroarch.slangp",
+                "设置RA选项：video_driver = \"vulkan\"",
+                "设置RA选项：aspect_ratio_index = \"24\"",
+                "设置RA选项：video_scale_integer = \"false\"",
+                "设置RA选项：video_rotation = \"0\"",
+                "设置RA选项：video_allow_rotate = \"false\"",
+                "设置RA选项：video_shader_enable = \"true\""
         ));
+        fileComponent.copyDir(CopyDir.builder().src("D:\\Resources\\Mega_Bezel_Packs").dest("D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders").build());
+        fileComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\global.slangp").destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\config").build());
+        fileComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\retroarch.slangp").destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders").build());
         configComponent.batchChangeConfig(List.of(
                 Config.builder().configFile(appConfig.getRetroArchConfig()).key("video_driver").value("vulkan").build(),
                 Config.builder().configFile(appConfig.getRetroArchConfig()).key("aspect_ratio_index").value("24").build(),
@@ -101,9 +102,6 @@ public class StartupRunner implements ApplicationRunner {
                 Config.builder().configFile(appConfig.getRetroArchConfig()).key("video_allow_rotate").value("false").build(),
                 Config.builder().configFile(appConfig.getRetroArchConfig()).key("video_shader_enable").value("true").build()
         ));
-        fileComponent.copyDir(CopyDir.builder().src("D:\\Resources\\Mega_Bezel_Packs").dest("D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders").build());
-        fileComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\global.slangp").destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\config").build());
-        fileComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\retroarch.slangp").destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders").build());
         printTaskDone("设置Mega Bezel着色器");
 
         nesHandler.handle();
