@@ -46,7 +46,7 @@ public class StartupRunner implements ApplicationRunner {
 
     @Override
     public void run(@NonNull ApplicationArguments args) {
-        nesHandler.handle();
+
 
         printTask("清理目录", List.of(
                 "清理目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\info",
@@ -124,5 +124,7 @@ public class StartupRunner implements ApplicationRunner {
         copyComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\global.slangp").destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\config").build());
         copyComponent.copyFile(CopyFile.builder().srcFile("D:\\Resources\\retroarch.slangp").destDir("D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders").build());
         printTaskDone("设置Mega Bezel着色器");
+
+        nesHandler.handle();
     }
 }

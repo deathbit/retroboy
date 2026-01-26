@@ -41,7 +41,7 @@ public class NesHandler implements Handler {
     private CopyComponent copyComponent;
 
     @Override
-    public RuleContext buildRuleContext(RuleConfig ruleConfig) {
+    public RuleContext buildRuleContext(RuleConfig ruleConfig, AppConfig appConfig) {
         Set<String> licensed = new HashSet<>();
         
         try {
@@ -67,6 +67,7 @@ public class NesHandler implements Handler {
         
         return RuleContext.builder()
                 .licensed(licensed)
+                .globalTagBlackList(appConfig.getGlobalTagBlackList())
                 .build();
     }
 
@@ -134,7 +135,7 @@ public class NesHandler implements Handler {
     @Override
     public void handle() {
         RuleConfig ruleConfig = appConfig.getNesRuleConfig();
-        RuleContext ruleContext = buildRuleContext(ruleConfig);
+        RuleContext ruleContext = buildRuleContext(ruleConfig, appConfig);
 
         createComponent.createDir(ruleConfig.getJapanTargetDir());
         createComponent.createDir(ruleConfig.getUsaTargetDir());

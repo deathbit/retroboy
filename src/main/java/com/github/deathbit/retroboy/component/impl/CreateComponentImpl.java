@@ -34,7 +34,6 @@ public class CreateComponentImpl implements CreateComponent {
             }
             
             Files.createDirectories(dirPath);
-            System.out.println("Created directory: " + dir);
         } catch (IOException e) {
             System.err.println("Failed to create directory: " + dir + " - " + e.getMessage());
         }

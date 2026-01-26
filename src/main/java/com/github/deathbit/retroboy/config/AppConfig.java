@@ -8,6 +8,8 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+import java.util.Set;
+
 @Data
 @Component
 @ConfigurationProperties(prefix = "app.config")
@@ -17,4 +19,5 @@ public class AppConfig {
     private ConfigDefault configDefault;
     private String retroArchConfig;
     private RuleConfig nesRuleConfig;
+    private Set<String> globalTagBlackList;
 }
