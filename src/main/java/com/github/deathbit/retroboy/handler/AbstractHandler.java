@@ -1,10 +1,14 @@
 package com.github.deathbit.retroboy.handler;
 
 import java.io.File;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 
@@ -20,6 +24,8 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
 public abstract class AbstractHandler implements Handler {
+
+    private static final Pattern REV_TAG = Pattern.compile("\\(Rev\\s+(\\d+)\\)");
 
     @Override
     public void handle(HandlerInput handlerInput) throws Exception {
@@ -82,8 +88,13 @@ public abstract class AbstractHandler implements Handler {
     private void populateFileContextMap(RuleContext ruleContext, String romDirPath) throws Exception {
         File[] files = new File(romDirPath).listFiles();
         if (files != null) {
+            Arrays.sort(files, Comparator.comparing(File::getName));
             for (File file : files) {
                 ruleContext.getFileContextMap().put(file.getName(), buildFileContext(file.getName()));
+                String previousRevision = previousRevision(file.getName());
+                if (previousRevision != null) {
+                    ruleContext.getFileContextMap().remove(previousRevision);
+                }
             }
         }
     }
@@ -121,6 +132,28 @@ public abstract class AbstractHandler implements Handler {
                           .tagPart(tagPart)
                           .tags(tags)
                           .build();
+    }
+
+    private String previousRevision(String filename) {
+        Matcher matcher = REV_TAG.matcher(filename);
+        if (!matcher.find()) {
+            return null;
+        }
+
+        try {
+            int revision = Integer.parseInt(matcher.group(1));
+            if (revision == 1) {
+                return filename.substring(0, matcher.start())
+                               .concat(filename.substring(matcher.end()))
+                               .replaceAll("\\s{2,}", " ")
+                               .trim();
+            }
+            return filename.substring(0, matcher.start())
+                           .concat("(Rev " + (revision - 1) + ")")
+                           .concat(filename.substring(matcher.end()));
+        } catch (NumberFormatException e) {
+            return null;
+        }
     }
 
     public abstract Map<Area, Rule> getRuleMap();
