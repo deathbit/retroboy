@@ -1,18 +1,20 @@
 package com.github.deathbit.retroboy;
 
+import java.util.List;
+
+import static com.github.deathbit.retroboy.utils.Utils.printTask;
+import static com.github.deathbit.retroboy.utils.Utils.printTaskDone;
+
 import com.github.deathbit.retroboy.component.ConfigComponent;
 import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
+import com.github.deathbit.retroboy.enums.Platform;
+import com.github.deathbit.retroboy.handler.handlers.nintendo.NesHandler;
 import org.jspecify.annotations.NonNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
-
-import java.util.List;
-
-import static com.github.deathbit.retroboy.utils.Utils.printTask;
-import static com.github.deathbit.retroboy.utils.Utils.printTaskDone;
 
 @Component
 public class StartupRunner implements ApplicationRunner {
@@ -25,6 +27,9 @@ public class StartupRunner implements ApplicationRunner {
 
     @Autowired
     private FileComponent fileComponent;
+
+    @Autowired
+    private NesHandler nesHandler;
 
     @Override
     public void run(@NonNull ApplicationArguments args) throws Exception {
@@ -91,6 +96,10 @@ public class StartupRunner implements ApplicationRunner {
         configComponent.batchChangeConfig(appConfig.getSetMegaBezelShaderTask().getSetMegaBezelShaderConfigs());
         printTaskDone("设置Mega Bezel着色器");
 
-
+        printTask("设置平台", List.of());
+        for (int i = 0; i < Platform.values().length; i++) {
+            System.out.println();
+        }
+        printTaskDone("设置平台");
     }
 }
