@@ -1,6 +1,7 @@
 package com.github.deathbit.retroboy.domain;
 
 import java.util.List;
+import java.util.Set;
 
 import com.github.deathbit.retroboy.enums.Platform;
 import lombok.Builder;
@@ -14,4 +15,6 @@ public class RuleConfig {
     private String romDir;
     private String targetDirBase;
     private List<AreaConfig> targetAreaConfigs;
+    private Set<String> tagBlackList;
+    private Set<String> fileNameBlackList;
 }
