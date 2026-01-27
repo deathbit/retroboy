@@ -1,23 +1,12 @@
 package com.github.deathbit.retroboy.handler;
 
-import com.github.deathbit.retroboy.config.AppConfig;
+import java.util.Map;
+
 import com.github.deathbit.retroboy.domain.HandlerInput;
-import com.github.deathbit.retroboy.domain.RuleConfig;
+import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.rule.Rule;
-import com.github.deathbit.retroboy.domain.FileContext;
-import com.github.deathbit.retroboy.domain.RuleContext;
 
 public interface Handler {
-    void handle(HandlerInput handlerInput);
-
-
-
-
-
-
-    RuleContext buildRuleContext(RuleConfig ruleConfig, AppConfig appConfig);
-    FileContext buildFileContext(String fileName);
-    Rule buildJapanRule();
-    Rule buildUsaRule();
-    Rule buildEuropeRule();
+    void handle(HandlerInput handlerInput) throws Exception;
+    Map<Area, Rule> getRuleMap();
 }

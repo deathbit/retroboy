@@ -1,13 +1,13 @@
 package com.github.deathbit.retroboy.config;
 
+import java.util.Set;
+
 import lombok.Builder;
 import lombok.Data;
-
-import java.util.List;
 
 @Data
 @Builder
 public class GlobalConfig {
     private String raConfigFile;
-    private List<String> tagBlacklist;
+    private Set<String> tagBlacklist;
 }

@@ -1,106 +1,87 @@
 package com.github.deathbit.retroboy.handler;
 
-import com.github.deathbit.retroboy.config.AppConfig;
+import java.io.File;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+import javax.xml.parsers.DocumentBuilderFactory;
+
 import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.HandlerInput;
-import com.github.deathbit.retroboy.domain.RuleConfig;
 import com.github.deathbit.retroboy.domain.RuleContext;
+import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.rule.Rule;
-import com.github.deathbit.retroboy.rule.Rules;
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import java.io.File;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
 
 public abstract class AbstractHandler implements Handler {
 
     @Override
-    public void handle(HandlerInput handlerInput) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public void handle(HandlerInput handlerInput) throws Exception {
+        RuleContext ruleContext = buildRuleContext(handlerInput);
     }
 
-    private RuleContext buildRuleContext(HandlerInput handlerInput) {
+    private RuleContext buildRuleContext(HandlerInput handlerInput) throws Exception {
+        RuleContext ruleContext = initializeRuleContext(handlerInput);
+        ruleContext.setLicensed(parseLicensedGames(handlerInput.getRuleConfig().getDatFile()));
+        populateFileContextMap(ruleContext, handlerInput.getRuleConfig().getRomDir());
+
+        return ruleContext;
+    }
+
+    private RuleContext initializeRuleContext(HandlerInput handlerInput) {
+        RuleContext ruleContext = new RuleContext();
+        ruleContext.setFileContextMap(new HashMap<>());
+        ruleContext.setJapanFinal(new HashSet<>());
+        ruleContext.setUsaFinal(new HashSet<>());
+        ruleContext.setEuropeFinal(new HashSet<>());
+        ruleContext.setGlobalTagBlackList(handlerInput.getAppConfig().getGlobalConfig().getTagBlacklist());
+
+        return ruleContext;
+    }
+
+    private Set<String> parseLicensedGames(String datFilePath) throws Exception {
         Set<String> licensed = new HashSet<>();
-
-        try {
-            File datFile = new File(ruleConfig.getDatFile());
-            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder builder = factory.newDocumentBuilder();
-            Document document = builder.parse(datFile);
-
-            // Get all game elements
-            NodeList gameNodes = document.getElementsByTagName("game");
-
-            // Extract name attribute from each game element
-            for (int i = 0; i < gameNodes.getLength(); i++) {
-                Element gameElement = (Element) gameNodes.item(i);
-                String name = gameElement.getAttribute("name");
-                if (!name.isEmpty()) {
-                    licensed.add(name);
-                }
+        Document document = DocumentBuilderFactory.newInstance()
+                                                  .newDocumentBuilder()
+                                                  .parse(new File(datFilePath));
+        NodeList gameNodes = document.getElementsByTagName("game");
+        for (int i = 0; i < gameNodes.getLength(); i++) {
+            String name = ((Element) gameNodes.item(i)).getAttribute("name");
+            if (!name.isEmpty()) {
+                licensed.add(name);
             }
-        } catch (javax.xml.parsers.ParserConfigurationException | org.xml.sax.SAXException | java.io.IOException e) {
-            throw new RuntimeException("Failed to parse DAT file: " + ruleConfig.getDatFile(), e);
         }
 
-        return RuleContext.builder()
-                .licensed(licensed)
-                .globalTagBlackList(appConfig.getGlobalTagBlackList())
-                .build();
-
+        return licensed;
     }
 
-    @Override
-    public RuleContext buildRuleContext(RuleConfig ruleConfig, AppConfig appConfig) {
-        return null;
+    private void populateFileContextMap(RuleContext ruleContext, String romDirPath) throws Exception {
+        File[] files = new File(romDirPath).listFiles();
+        if (files != null) {
+            for (File file : files) {
+                ruleContext.getFileContextMap().put(file.getName(), buildFileContext(file.getName()));
+            }
+        }
     }
 
-    @Override
-    public FileContext buildFileContext(String fileName) {
-        // Extract full name (without extension)
+    private FileContext buildFileContext(String fileName) throws Exception {
         String fullName = fileName;
         if (fileName.contains(".")) {
             fullName = fileName.substring(0, fileName.lastIndexOf('.'));
         }
 
-        // Parse name part and tag part
         String namePart = fullName;
         String tagPart = "";
-        List<String> tags = new ArrayList<>();
+        Set<String> tags = new HashSet<>();
 
         int firstParen = fullName.indexOf('(');
         if (firstParen != -1) {
             namePart = fullName.substring(0, firstParen).trim();
             tagPart = fullName.substring(firstParen);
-
-            // Extract individual tags
             int start = 0;
             while ((start = tagPart.indexOf('(', start)) != -1) {
                 int end = tagPart.indexOf(')', start);
@@ -114,26 +95,13 @@ public abstract class AbstractHandler implements Handler {
         }
 
         return FileContext.builder()
-            .fileName(fileName)
-            .fullName(fullName)
-            .namePart(namePart)
-            .tagPart(tagPart)
-            .tags(tags)
-            .build();
+                          .fileName(fileName)
+                          .fullName(fullName)
+                          .namePart(namePart)
+                          .tagPart(tagPart)
+                          .tags(tags)
+                          .build();
     }
 
-    @Override
-    public Rule buildJapanRule() {
-        return Rules.IS_JAPAN_BASE;
-    }
-
-    @Override
-    public Rule buildUsaRule() {
-        return Rules.IS_USA_BASE;
-    }
-
-    @Override
-    public Rule buildEuropeRule() {
-        return Rules.IS_EUROPE_BASE;
-    }
+    public abstract Map<Area, Rule> getRuleMap();
 }
