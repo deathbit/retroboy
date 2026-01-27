@@ -8,6 +8,7 @@ import java.util.Set;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import com.github.deathbit.retroboy.domain.AreaConfig;
 import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.HandlerInput;
 import com.github.deathbit.retroboy.domain.RuleContext;
@@ -23,6 +24,21 @@ public abstract class AbstractHandler implements Handler {
     @Override
     public void handle(HandlerInput handlerInput) throws Exception {
         RuleContext ruleContext = buildRuleContext(handlerInput);
+        Map<Area, Rule> ruleMap = getRuleMap();
+
+        for (Map.Entry<String, FileContext> entry : ruleContext.getFileContextMap().entrySet()) {
+            String fileName = entry.getKey();
+            FileContext fileContext = entry.getValue();
+
+            for (AreaConfig areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
+                Area area = areaConfig.getArea();
+                Rule rule = ruleMap.get(area);
+
+                if (rule.pass(ruleContext, fileContext)) {
+                    ruleContext.getAreaFinalMap().get(area).add(fileName);
+                }
+            }
+        }
     }
 
     private RuleContext buildRuleContext(HandlerInput handlerInput) throws Exception {
@@ -38,9 +54,10 @@ public abstract class AbstractHandler implements Handler {
         ruleContext.setPlatform(getPlatform());
         ruleContext.setRuleConfig(handlerInput.getAppConfig().getRuleConfigMap().get(ruleContext.getPlatform()));
         ruleContext.setFileContextMap(new HashMap<>());
-        ruleContext.setJapanFinal(new HashSet<>());
-        ruleContext.setUsaFinal(new HashSet<>());
-        ruleContext.setEuropeFinal(new HashSet<>());
+        ruleContext.setAreaFinalMap(new HashMap<>());
+        for (AreaConfig areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
+            ruleContext.getAreaFinalMap().put(areaConfig.getArea(), new HashSet<>());
+        }
         ruleContext.setGlobalTagBlackList(handlerInput.getAppConfig().getGlobalConfig().getTagBlacklist());
 
         return ruleContext;
@@ -107,5 +124,6 @@ public abstract class AbstractHandler implements Handler {
     }
 
     public abstract Map<Area, Rule> getRuleMap();
+
     public abstract Platform getPlatform();
 }
