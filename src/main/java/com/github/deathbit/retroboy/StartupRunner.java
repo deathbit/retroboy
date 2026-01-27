@@ -8,7 +8,7 @@ import static com.github.deathbit.retroboy.utils.Utils.printTaskDone;
 import com.github.deathbit.retroboy.component.ConfigComponent;
 import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
-import com.github.deathbit.retroboy.enums.Platform;
+import com.github.deathbit.retroboy.domain.HandlerInput;
 import com.github.deathbit.retroboy.handler.handlers.nintendo.NesHandler;
 import org.jspecify.annotations.NonNull;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -97,9 +97,7 @@ public class StartupRunner implements ApplicationRunner {
         printTaskDone("设置Mega Bezel着色器");
 
         printTask("设置平台", List.of());
-        for (int i = 0; i < Platform.values().length; i++) {
-            System.out.println();
-        }
+        nesHandler.handle(HandlerInput.builder().appConfig(appConfig).fileComponent(fileComponent).build());
         printTaskDone("设置平台");
     }
 }

@@ -1,12 +1,13 @@
 package com.github.deathbit.retroboy.config;
 
-import java.util.List;
+import java.util.Map;
 
 import com.github.deathbit.retroboy.config.tasks.CleanUpTask;
 import com.github.deathbit.retroboy.config.tasks.DefaultConfigTask;
 import com.github.deathbit.retroboy.config.tasks.FixChineseFontTask;
 import com.github.deathbit.retroboy.config.tasks.SetMegaBezelShaderTask;
 import com.github.deathbit.retroboy.domain.RuleConfig;
+import com.github.deathbit.retroboy.enums.Platform;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
@@ -20,5 +21,5 @@ public class AppConfig {
     private DefaultConfigTask defaultConfigTask;
     private FixChineseFontTask fixChineseFontTask;
     private SetMegaBezelShaderTask setMegaBezelShaderTask;
-    private List<RuleConfig> ruleConfigs;
+    private Map<Platform, RuleConfig> ruleConfigMap;
 }

@@ -3,6 +3,7 @@ package com.github.deathbit.retroboy.handler.handlers.nintendo;
 import java.util.Map;
 
 import com.github.deathbit.retroboy.enums.Area;
+import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.handler.AbstractHandler;
 import com.github.deathbit.retroboy.rule.Rule;
 import com.github.deathbit.retroboy.rule.Rules;
@@ -18,5 +19,10 @@ public class NesHandler extends AbstractHandler {
             Area.USA, Rules.IS_USA_BASE,
             Area.EUR, Rules.IS_EUROPE_BASE
         );
+    }
+
+    @Override
+    public Platform getPlatform() {
+        return Platform.NES;
     }
 }

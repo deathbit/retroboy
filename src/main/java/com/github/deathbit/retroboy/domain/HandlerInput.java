@@ -9,6 +9,5 @@ import lombok.Data;
 @Builder
 public class HandlerInput {
     private AppConfig appConfig;
-    private RuleConfig ruleConfig;
     private FileComponent fileComponent;
 }

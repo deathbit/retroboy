@@ -12,6 +12,7 @@ import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.HandlerInput;
 import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.enums.Area;
+import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.rule.Rule;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -26,14 +27,16 @@ public abstract class AbstractHandler implements Handler {
 
     private RuleContext buildRuleContext(HandlerInput handlerInput) throws Exception {
         RuleContext ruleContext = initializeRuleContext(handlerInput);
-        ruleContext.setLicensed(parseLicensedGames(handlerInput.getRuleConfig().getDatFile()));
-        populateFileContextMap(ruleContext, handlerInput.getRuleConfig().getRomDir());
+        ruleContext.setLicensed(parseLicensedGames(ruleContext.getRuleConfig().getDatFile()));
+        populateFileContextMap(ruleContext, ruleContext.getRuleConfig().getRomDir());
 
         return ruleContext;
     }
 
     private RuleContext initializeRuleContext(HandlerInput handlerInput) {
         RuleContext ruleContext = new RuleContext();
+        ruleContext.setPlatform(getPlatform());
+        ruleContext.setRuleConfig(handlerInput.getAppConfig().getRuleConfigMap().get(ruleContext.getPlatform()));
         ruleContext.setFileContextMap(new HashMap<>());
         ruleContext.setJapanFinal(new HashSet<>());
         ruleContext.setUsaFinal(new HashSet<>());
@@ -104,4 +107,5 @@ public abstract class AbstractHandler implements Handler {
     }
 
     public abstract Map<Area, Rule> getRuleMap();
+    public abstract Platform getPlatform();
 }

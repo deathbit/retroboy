@@ -119,8 +119,9 @@ app:
         - file: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
           key: 'video_shader_enable'
           value: 'true'
-    ruleConfigs:
-      - platform: 'nes'
+    ruleConfigMap:
+      NES:
+        platform: 'NES'
         datFile: 'D:\Resources\dats\Nintendo - Nintendo Entertainment System.dat'
         romDir: 'D:\Resources\roms\nes'
         targetDirBase: 'D:\ES-DE\ROMs\nes'
