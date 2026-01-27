@@ -15,6 +15,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import com.github.deathbit.retroboy.domain.AreaConfig;
 import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.HandlerInput;
+import com.github.deathbit.retroboy.domain.RuleConfig;
 import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.Platform;
@@ -58,7 +59,23 @@ public abstract class AbstractHandler implements Handler {
     private RuleContext initializeRuleContext(HandlerInput handlerInput) {
         RuleContext ruleContext = new RuleContext();
         ruleContext.setPlatform(getPlatform());
-        ruleContext.setRuleConfig(handlerInput.getAppConfig().getRuleConfigMap().get(ruleContext.getPlatform()));
+        
+        // Get original rule config
+        RuleConfig originalConfig = handlerInput.getAppConfig().getRuleConfigMap().get(ruleContext.getPlatform());
+        
+        // Resolve paths using GlobalConfig
+        var globalConfig = handlerInput.getAppConfig().getGlobalConfig();
+        RuleConfig resolvedConfig = RuleConfig.builder()
+                .platform(originalConfig.getPlatform())
+                .datFile(java.nio.file.Paths.get(globalConfig.getResourcesHome(), originalConfig.getDatFile()).toString())
+                .romDir(java.nio.file.Paths.get(globalConfig.getResourcesHome(), originalConfig.getRomDir()).toString())
+                .targetDirBase(java.nio.file.Paths.get(globalConfig.getEsdeHome(), originalConfig.getTargetDirBase()).toString())
+                .targetAreaConfigs(originalConfig.getTargetAreaConfigs())
+                .tagBlackList(originalConfig.getTagBlackList())
+                .fileNameBlackList(originalConfig.getFileNameBlackList())
+                .build();
+        
+        ruleContext.setRuleConfig(resolvedConfig);
         ruleContext.setFileContextMap(new HashMap<>());
         ruleContext.setAreaFinalMap(new HashMap<>());
         for (AreaConfig areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
