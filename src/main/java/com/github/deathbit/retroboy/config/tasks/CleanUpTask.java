@@ -8,7 +8,7 @@ import lombok.Data;
 @Data
 @Builder
 public class CleanUpTask {
-    private List<String> deleteDirs;
+
     private List<String> deleteFiles;
     private List<String> deleteContentDirs;
 }

@@ -1,7 +1,7 @@
 package com.github.deathbit.retroboy.config.tasks;
 
-import com.github.deathbit.retroboy.domain.Config;
-import com.github.deathbit.retroboy.domain.CopyFileInput;
+import com.github.deathbit.retroboy.component.domain.ConfigInput;
+import com.github.deathbit.retroboy.component.domain.CopyFileInput;
 import lombok.Builder;
 import lombok.Data;
 
@@ -10,5 +10,5 @@ import lombok.Data;
 public class FixChineseFontTask {
     private String deleteFontFile;
     private CopyFileInput copyFontFile;
-    private Config setNotificationFont;
+    private ConfigInput setNotificationFont;
 }

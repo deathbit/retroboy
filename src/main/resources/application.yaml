@@ -8,8 +8,7 @@ app:
       esdeHome: 'D:\ES-DE\'
       raHome: 'D:\ES-DE\Emulators\RetroArch-Win64\'
       resourcesHome: 'D:\Resources\'
-      raConfigFile: 'retroarch.cfg'
-      tagBlacklist:
+      globalTagBlacklist:
         - '3DS Virtual Console'
         - '8-bit Adventure Anthology - Volume I'
         - 'Animal Crossing'
@@ -36,7 +35,6 @@ app:
         - 'Wii Virtual Console'
         - 'Wii and Wii U Virtual Console'
     cleanUpTask:
-      deleteDirs: []
       deleteFiles:
         - 'retroarch.cfg'
       deleteContentDirs:

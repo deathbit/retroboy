@@ -68,7 +68,7 @@ Retroboy 提供了一套完整的自动化解决方案，用于：
 
 ```
 retroboy/
-├── config/                     # 配置相关
+├── configInput/                     # 配置相关
 │   ├── AppConfig.java          # 主配置类
 │   ├── GlobalConfig.java       # 全局配置
 │   └── tasks/                  # 配置任务
@@ -107,7 +107,7 @@ retroboy/
 
 #### 全局配置
 ```yaml
-app.config.globalConfig:
+app.configInput.globalConfig:
   raConfigFile: RetroArch 配置文件路径
   tagBlacklist: ROM 标签黑名单
 ```
@@ -120,7 +120,7 @@ app.config.globalConfig:
 
 #### 平台规则配置
 ```yaml
-app.config.ruleConfigMap:
+app.configInput.ruleConfigMap:
   NES:
     platform: NES
     datFile: DAT 文件路径

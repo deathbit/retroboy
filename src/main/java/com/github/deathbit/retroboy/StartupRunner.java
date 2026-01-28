@@ -5,18 +5,19 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.github.deathbit.retroboy.utils.Utils.printTask;
-import static com.github.deathbit.retroboy.utils.Utils.printTaskDone;
+import static com.github.deathbit.retroboy.utils.CommonUtils.printTask;
+import static com.github.deathbit.retroboy.utils.CommonUtils.printTaskDone;
 
 import com.github.deathbit.retroboy.component.ConfigComponent;
 import com.github.deathbit.retroboy.component.FileComponent;
+import com.github.deathbit.retroboy.component.domain.CopyDirInput;
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.config.GlobalConfig;
-import com.github.deathbit.retroboy.domain.Config;
-import com.github.deathbit.retroboy.domain.CopyDirContentsInput;
-import com.github.deathbit.retroboy.domain.CopyFileInput;
-import com.github.deathbit.retroboy.domain.HandlerInput;
-import com.github.deathbit.retroboy.handler.handlers.nintendo.NesHandler;
+import com.github.deathbit.retroboy.component.domain.ConfigInput;
+import com.github.deathbit.retroboy.component.domain.CopyDirContentsInput;
+import com.github.deathbit.retroboy.component.domain.CopyFileInput;
+import com.github.deathbit.retroboy.component.domain.HandlerInput;
+import com.github.deathbit.retroboy.component.impl.handlers.nintendo.NesHandlerComponent;
 import org.jspecify.annotations.NonNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -36,7 +37,7 @@ public class StartupRunner implements ApplicationRunner {
     private FileComponent fileComponent;
 
     @Autowired
-    private NesHandler nesHandler;
+    private NesHandlerComponent nesHandler;
 
     @Override
     public void run(@NonNull ApplicationArguments args) throws Exception {
@@ -134,8 +135,8 @@ public class StartupRunner implements ApplicationRunner {
                 .collect(Collectors.toList());
         
         // Resolve paths for RA configs
-        List<Config> resolvedRaConfigs = appConfig.getDefaultConfigTask().getRaConfigs().stream()
-                .map(config -> {
+        List<ConfigInput> resolvedRaConfigInputs = appConfig.getDefaultConfigTask().getRaConfigInputs().stream()
+                                                            .map(config -> {
                     String file = Paths.get(globalConfig.getRaHome(), config.getFile()).toString();
                     String value = config.getValue();
                     
@@ -144,17 +145,17 @@ public class StartupRunner implements ApplicationRunner {
                         value = Paths.get(globalConfig.getEsdeHome(), config.getValue()).toString();
                     }
                     
-                    return Config.builder()
-                            .file(file)
-                            .key(config.getKey())
-                            .value(value)
-                            .build();
+                    return ConfigInput.builder()
+                                      .file(file)
+                                      .key(config.getKey())
+                                      .value(value)
+                                      .build();
                 })
-                .collect(Collectors.toList());
+                                                            .collect(Collectors.toList());
         
         fileComponent.batchCopyDirContentsToDirs(resolvedCopyContentDirs);
         fileComponent.batchCopyFiles(resolvedCopyFiles);
-        configComponent.batchChangeConfigs(resolvedRaConfigs);
+        configComponent.batchChangeConfigs(resolvedRaConfigInputs);
         printTaskDone("默认配置");
 
         printTask("修复中文字体", List.of(
@@ -174,12 +175,12 @@ public class StartupRunner implements ApplicationRunner {
                         appConfig.getFixChineseFontTask().getCopyFontFile().getDestDir()))
                 .build();
         
-        Config setNotificationFont = Config.builder()
-                .file(Paths.get(globalConfig.getRaHome(), 
+        ConfigInput setNotificationFont = ConfigInput.builder()
+                                                     .file(Paths.get(globalConfig.getRaHome(),
                         appConfig.getFixChineseFontTask().getSetNotificationFont().getFile()).toString())
-                .key(appConfig.getFixChineseFontTask().getSetNotificationFont().getKey())
-                .value(appConfig.getFixChineseFontTask().getSetNotificationFont().getValue())
-                .build();
+                                                     .key(appConfig.getFixChineseFontTask().getSetNotificationFont().getKey())
+                                                     .value(appConfig.getFixChineseFontTask().getSetNotificationFont().getValue())
+                                                     .build();
         
         fileComponent.batchDeleteFiles(List.of(deleteFontFile));
         fileComponent.batchCopyFiles(List.of(copyFontFile));
@@ -200,10 +201,10 @@ public class StartupRunner implements ApplicationRunner {
         
         // Resolve paths for Mega Bezel shader task
         var copyMegaBezelPacks = appConfig.getSetMegaBezelShaderTask().getCopyMegaBezelPacks();
-        var resolvedCopyMegaBezelPacks = com.github.deathbit.retroboy.domain.CopyDirInput.builder()
-                .srcDir(Paths.get(globalConfig.getResourcesHome()).resolve(copyMegaBezelPacks.getSrcDir()))
-                .destDir(Paths.get(globalConfig.getRaHome()).resolve(copyMegaBezelPacks.getDestDir()))
-                .build();
+        var resolvedCopyMegaBezelPacks = CopyDirInput.builder()
+                                                     .srcDir(Paths.get(globalConfig.getResourcesHome()).resolve(copyMegaBezelPacks.getSrcDir()))
+                                                     .destDir(Paths.get(globalConfig.getRaHome()).resolve(copyMegaBezelPacks.getDestDir()))
+                                                     .build();
         
         List<CopyFileInput> resolvedCopyDefaultMegaBezelShader = appConfig.getSetMegaBezelShaderTask()
                 .getCopyDefaultMegaBezelShader().stream()
@@ -213,18 +214,18 @@ public class StartupRunner implements ApplicationRunner {
                         .build())
                 .collect(Collectors.toList());
         
-        List<Config> resolvedSetMegaBezelShaderConfigs = appConfig.getSetMegaBezelShaderTask()
-                .getSetMegaBezelShaderConfigs().stream()
-                .map(config -> Config.builder()
-                        .file(Paths.get(globalConfig.getRaHome(), config.getFile()).toString())
-                        .key(config.getKey())
-                        .value(config.getValue())
-                        .build())
-                .collect(Collectors.toList());
+        List<ConfigInput> resolvedSetMegaBezelShaderConfigInputs = appConfig.getSetMegaBezelShaderTask()
+                                                                            .getSetMegaBezelShaderConfigInputs().stream()
+                                                                            .map(config -> ConfigInput.builder()
+                                                                                                      .file(Paths.get(globalConfig.getRaHome(), config.getFile()).toString())
+                                                                                                      .key(config.getKey())
+                                                                                                      .value(config.getValue())
+                                                                                                      .build())
+                                                                            .collect(Collectors.toList());
         
         fileComponent.batchCopyDirs(List.of(resolvedCopyMegaBezelPacks));
         fileComponent.batchCopyFiles(resolvedCopyDefaultMegaBezelShader);
-        configComponent.batchChangeConfigs(resolvedSetMegaBezelShaderConfigs);
+        configComponent.batchChangeConfigs(resolvedSetMegaBezelShaderConfigInputs);
         printTaskDone("设置Mega Bezel着色器");
 
         printTask("设置平台", List.of());

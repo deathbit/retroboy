@@ -1,4 +1,4 @@
-package com.github.deathbit.retroboy.domain;
+package com.github.deathbit.retroboy.component.domain;
 
 import java.util.Set;
 

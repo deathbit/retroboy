@@ -2,7 +2,7 @@ package com.github.deathbit.retroboy.utils;
 
 import java.util.List;
 
-public class Utils {
+public class CommonUtils {
 
     private static final String border = "+" + "-".repeat(200) + "+";
     private static final int barLength = 100;

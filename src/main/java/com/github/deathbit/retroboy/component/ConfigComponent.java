@@ -2,9 +2,8 @@ package com.github.deathbit.retroboy.component;
 
 import java.util.List;
 
-import com.github.deathbit.retroboy.domain.Config;
+import com.github.deathbit.retroboy.component.domain.ConfigInput;
 
 public interface ConfigComponent {
-    void changeConfig(Config config) throws Exception;
-    void batchChangeConfigs(List<Config> configs) throws Exception;
+    void batchChangeConfigs(List<ConfigInput> configInputs) throws Exception;
 }

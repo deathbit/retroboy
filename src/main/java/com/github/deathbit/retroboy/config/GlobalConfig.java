@@ -11,6 +11,5 @@ public class GlobalConfig {
     private String esdeHome;
     private String raHome;
     private String resourcesHome;
-    private String raConfigFile;
-    private Set<String> tagBlacklist;
+    private Set<String> globalTagBlacklist;
 }

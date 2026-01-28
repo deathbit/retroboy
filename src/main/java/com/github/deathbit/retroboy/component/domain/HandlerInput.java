@@ -1,4 +1,4 @@
-package com.github.deathbit.retroboy.domain;
+package com.github.deathbit.retroboy.component.domain;
 
 import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.config.AppConfig;

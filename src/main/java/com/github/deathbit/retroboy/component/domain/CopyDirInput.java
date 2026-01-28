@@ -1,13 +1,13 @@
-package com.github.deathbit.retroboy.domain;
+package com.github.deathbit.retroboy.component.domain;
+
+import java.nio.file.Path;
 
 import lombok.Builder;
 import lombok.Data;
 
-import java.nio.file.Path;
-
 @Data
 @Builder
-public class CopyDirContentsInput {
+public class CopyDirInput {
     private Path srcDir;
     private Path destDir;
 }

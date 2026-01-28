@@ -57,7 +57,7 @@ public class ProgressBar {
 
     private void renderProgressBar() {
         double totalPercentage = (double) finishedTasks / subTaskCount;
-        String line = String.format("\r%s %s %5s | %s %10s",
+        String line = String.format("\r| %s %s %5s | %s %10s",
             mainTaskName,
             bar(totalPercentage, barWidth),
             String.format("%d/%d", finishedTasks, subTaskCount),

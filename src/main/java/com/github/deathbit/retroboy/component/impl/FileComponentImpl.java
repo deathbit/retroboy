@@ -10,11 +10,11 @@ import java.util.List;
 import java.util.stream.Stream;
 
 import com.github.deathbit.retroboy.component.FileComponent;
-import com.github.deathbit.retroboy.domain.CopyDirContentsInput;
-import com.github.deathbit.retroboy.domain.CopyDirInput;
-import com.github.deathbit.retroboy.domain.CopyFileInput;
+import com.github.deathbit.retroboy.component.domain.CopyDirContentsInput;
+import com.github.deathbit.retroboy.component.domain.CopyDirInput;
+import com.github.deathbit.retroboy.component.domain.CopyFileInput;
 import com.github.deathbit.retroboy.domain.ProgressBar;
-import com.github.deathbit.retroboy.domain.RenameFileInput;
+import com.github.deathbit.retroboy.component.domain.RenameFileInput;
 import org.springframework.stereotype.Component;
 
 @Component

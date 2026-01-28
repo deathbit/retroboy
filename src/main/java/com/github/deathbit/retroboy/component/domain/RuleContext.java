@@ -1,8 +1,9 @@
-package com.github.deathbit.retroboy.domain;
+package com.github.deathbit.retroboy.component.domain;
 
 import java.util.Map;
 import java.util.Set;
 
+import com.github.deathbit.retroboy.config.domain.RuleConfig;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.Platform;
 import lombok.AllArgsConstructor;

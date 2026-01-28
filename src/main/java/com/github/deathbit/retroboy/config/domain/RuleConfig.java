@@ -1,4 +1,4 @@
-package com.github.deathbit.retroboy.domain;
+package com.github.deathbit.retroboy.config.domain;
 
 import java.util.List;
 import java.util.Set;

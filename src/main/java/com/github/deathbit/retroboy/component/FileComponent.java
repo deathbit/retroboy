@@ -3,10 +3,10 @@ package com.github.deathbit.retroboy.component;
 import java.nio.file.Path;
 import java.util.List;
 
-import com.github.deathbit.retroboy.domain.CopyDirContentsInput;
-import com.github.deathbit.retroboy.domain.CopyDirInput;
-import com.github.deathbit.retroboy.domain.CopyFileInput;
-import com.github.deathbit.retroboy.domain.RenameFileInput;
+import com.github.deathbit.retroboy.component.domain.CopyDirContentsInput;
+import com.github.deathbit.retroboy.component.domain.CopyDirInput;
+import com.github.deathbit.retroboy.component.domain.CopyFileInput;
+import com.github.deathbit.retroboy.component.domain.RenameFileInput;
 
 public interface FileComponent {
     void batchDeleteFiles(List<Path> files) throws Exception;
