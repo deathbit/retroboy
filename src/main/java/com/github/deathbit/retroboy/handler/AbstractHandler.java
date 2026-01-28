@@ -1,28 +1,19 @@
 package com.github.deathbit.retroboy.handler;
 
-import java.io.File;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import javax.xml.parsers.DocumentBuilderFactory;
-
-import com.github.deathbit.retroboy.domain.AreaConfig;
-import com.github.deathbit.retroboy.domain.FileContext;
-import com.github.deathbit.retroboy.domain.HandlerInput;
-import com.github.deathbit.retroboy.domain.RuleConfig;
-import com.github.deathbit.retroboy.domain.RuleContext;
+import com.github.deathbit.retroboy.domain.*;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.rule.Rule;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
+
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.File;
+import java.nio.file.Paths;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public abstract class AbstractHandler implements Handler {
 
@@ -46,6 +37,20 @@ public abstract class AbstractHandler implements Handler {
                 }
             }
         }
+
+        handlerInput.getFileComponent().deleteDirContent(Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase()).toString());
+        for (Map.Entry<Area, Set<String>> entry : ruleContext.getAreaFinalMap().entrySet()) {
+            handlerInput.getFileComponent().createDir(Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase(), entry.getKey().name()).toString());
+        }
+
+        for (Map.Entry<Area, Set<String>> entry : ruleContext.getAreaFinalMap().entrySet()) {
+            for (String fileName : entry.getValue()) {
+                handlerInput.getFileComponent().copyFile(CopyFileInput.builder()
+                        .srcFile()
+                        .destDir()
+                        .build());
+            }
+        }
     }
 
     private RuleContext buildRuleContext(HandlerInput handlerInput) throws Exception {
@@ -59,10 +64,10 @@ public abstract class AbstractHandler implements Handler {
     private RuleContext initializeRuleContext(HandlerInput handlerInput) {
         RuleContext ruleContext = new RuleContext();
         ruleContext.setPlatform(getPlatform());
-        
+
         // Get original rule config
         RuleConfig originalConfig = handlerInput.getAppConfig().getRuleConfigMap().get(ruleContext.getPlatform());
-        
+
         // Resolve paths using GlobalConfig
         var globalConfig = handlerInput.getAppConfig().getGlobalConfig();
         RuleConfig resolvedConfig = RuleConfig.builder()
@@ -74,7 +79,7 @@ public abstract class AbstractHandler implements Handler {
                 .tagBlackList(originalConfig.getTagBlackList())
                 .fileNameBlackList(originalConfig.getFileNameBlackList())
                 .build();
-        
+
         ruleContext.setRuleConfig(resolvedConfig);
         ruleContext.setFileContextMap(new HashMap<>());
         ruleContext.setAreaFinalMap(new HashMap<>());
@@ -89,8 +94,8 @@ public abstract class AbstractHandler implements Handler {
     private Set<String> parseLicensedGames(String datFilePath) throws Exception {
         Set<String> licensed = new HashSet<>();
         Document document = DocumentBuilderFactory.newInstance()
-                                                  .newDocumentBuilder()
-                                                  .parse(new File(datFilePath));
+                .newDocumentBuilder()
+                .parse(new File(datFilePath));
         NodeList gameNodes = document.getElementsByTagName("game");
         for (int i = 0; i < gameNodes.getLength(); i++) {
             String name = ((Element) gameNodes.item(i)).getAttribute("name");
@@ -143,12 +148,12 @@ public abstract class AbstractHandler implements Handler {
         }
 
         return FileContext.builder()
-                          .fileName(fileName)
-                          .fullName(fullName)
-                          .namePart(namePart)
-                          .tagPart(tagPart)
-                          .tags(tags)
-                          .build();
+                .fileName(fileName)
+                .fullName(fullName)
+                .namePart(namePart)
+                .tagPart(tagPart)
+                .tags(tags)
+                .build();
     }
 
     private String previousRevision(String filename) {
@@ -161,13 +166,13 @@ public abstract class AbstractHandler implements Handler {
             int revision = Integer.parseInt(matcher.group(1));
             if (revision == 1) {
                 return filename.substring(0, matcher.start())
-                               .concat(filename.substring(matcher.end()))
-                               .replaceAll("\\s{2,}", " ")
-                               .trim();
+                        .concat(filename.substring(matcher.end()))
+                        .replaceAll("\\s{2,}", " ")
+                        .trim();
             }
             return filename.substring(0, matcher.start())
-                           .concat("(Rev " + (revision - 1) + ")")
-                           .concat(filename.substring(matcher.end()));
+                    .concat("(Rev " + (revision - 1) + ")")
+                    .concat(filename.substring(matcher.end()));
         } catch (NumberFormatException e) {
             return null;
         }
