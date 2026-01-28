@@ -19,17 +19,14 @@ import org.springframework.stereotype.Component;
 @Component
 public class FileComponentImpl implements FileComponent {
 
-    @Override
-    public void deleteFile(String file) throws Exception {
+    private void deleteFile(Path file) throws Exception {
         System.out.println("删除文件: " + file);
-        Files.deleteIfExists(Paths.get(file));
+        Files.deleteIfExists(file);
     }
 
-    @Override
-    public void deleteDir(String dir) throws Exception {
+    private void deleteDir(Path dir) throws Exception {
         System.out.println("删除目录: " + dir);
-        Path path = Paths.get(dir);
-        try (Stream<Path> walk = Files.walk(path)) {
+        try (Stream<Path> walk = Files.walk(dir)) {
             List<Path> paths = walk.sorted(Comparator.reverseOrder()).toList();
             for (int i = 0; i < paths.size(); i++) {
                 Files.delete(paths.get(i));
@@ -38,12 +35,10 @@ public class FileComponentImpl implements FileComponent {
         }
     }
 
-    @Override
-    public void deleteDirContent(String dir) throws Exception {
+    private void deleteDirContent(Path dir) throws Exception {
         System.out.println("清空目录: " + dir);
-        Path path = Paths.get(dir);
-        try (Stream<Path> walk = Files.walk(path)) {
-            List<Path> paths = walk.filter(p -> !p.equals(path))
+        try (Stream<Path> walk = Files.walk(dir)) {
+            List<Path> paths = walk.filter(p -> !p.equals(dir))
                 .sorted(Comparator.reverseOrder())
                 .toList();
             for (int i = 0; i < paths.size(); i++) {
@@ -56,52 +51,49 @@ public class FileComponentImpl implements FileComponent {
     @Override
     public void batchDeleteFile(List<String> files) throws Exception {
         for (String filePath : files) {
-            deleteFile(filePath);
+            deleteFile(Paths.get(filePath));
         }
     }
 
     @Override
     public void batchDeleteDir(List<String> dirs) throws Exception {
         for (String dirPath : dirs) {
-            deleteDir(dirPath);
+            deleteDir(Paths.get(dirPath));
         }
     }
 
     @Override
     public void batchDeleteDirContent(List<String> dirs) throws Exception {
         for (String dirPath : dirs) {
-            deleteDirContent(dirPath);
+            deleteDirContent(Paths.get(dirPath));
         }
     }
 
-    @Override
-    public void createDir(String dir) throws Exception {
+    private void createDir(Path dir) throws Exception {
         System.out.println("创建目录: " + dir);
-        Files.createDirectories(Paths.get(dir));
+        Files.createDirectories(dir);
     }
 
     @Override
     public void batchCreateDir(List<String> dirs) throws Exception {
         for (String dirPath : dirs) {
-            createDir(dirPath);
+            createDir(Paths.get(dirPath));
         }
     }
 
-    @Override
-    public void copyFile(CopyFileInput copyFileInput) throws Exception {
-        System.out.println("拷贝文件: " + copyFileInput.getSrcFile() + " -> " + copyFileInput.getDestDir());
+    private void copyFile(CopyFileInput copyFileInput) throws Exception {
         Path srcPath = Paths.get(copyFileInput.getSrcFile());
         Path destDirPath = Paths.get(copyFileInput.getDestDir());
+        System.out.println("拷贝文件: " + srcPath + " -> " + destDirPath);
         Files.createDirectories(destDirPath);
         Path destFilePath = destDirPath.resolve(srcPath.getFileName());
         Files.copy(srcPath, destFilePath, StandardCopyOption.REPLACE_EXISTING);
     }
 
-    @Override
-    public void copyDir(CopyDirInput copyDirInput) throws Exception {
-        System.out.println("拷贝目录: " + copyDirInput.getSrcDir() + " -> " + copyDirInput.getDestDir());
+    private void copyDir(CopyDirInput copyDirInput) throws Exception {
         Path srcPath = Paths.get(copyDirInput.getSrcDir());
         Path destPath = Paths.get(copyDirInput.getDestDir());
+        System.out.println("拷贝目录: " + srcPath + " -> " + destPath);
         Path targetPath = destPath.resolve(srcPath.getFileName());
 
         Files.createDirectories(targetPath);
@@ -121,11 +113,10 @@ public class FileComponentImpl implements FileComponent {
         }
     }
 
-    @Override
-    public void copyDirContent(CopyDirContentInput copyDirContentInput) throws Exception {
-        System.out.println("拷贝目录内容: " + copyDirContentInput.getSrcDir() + " -> " + copyDirContentInput.getDestDir());
+    private void copyDirContent(CopyDirContentInput copyDirContentInput) throws Exception {
         Path srcPath = Paths.get(copyDirContentInput.getSrcDir());
         Path destPath = Paths.get(copyDirContentInput.getDestDir());
+        System.out.println("拷贝目录内容: " + srcPath + " -> " + destPath);
 
         Files.createDirectories(destPath);
 
@@ -165,12 +156,11 @@ public class FileComponentImpl implements FileComponent {
         }
     }
 
-    @Override
-    public void renameFile(RenameFileInput renameFileInput) throws Exception {
+    private void renameFile(RenameFileInput renameFileInput) throws Exception {
         Path srcPath = Paths.get(renameFileInput.getSrcFile());
         Path parentDir = srcPath.getParent();
         if (parentDir == null) {
-            parentDir = Paths.get(".");
+            parentDir = Path.of(".");
         }
         Path destPath = parentDir.resolve(renameFileInput.getNewName());
         Files.move(srcPath, destPath, StandardCopyOption.REPLACE_EXISTING);
