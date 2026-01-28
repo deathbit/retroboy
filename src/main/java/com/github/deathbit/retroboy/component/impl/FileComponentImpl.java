@@ -19,158 +19,143 @@ import org.springframework.stereotype.Component;
 @Component
 public class FileComponentImpl implements FileComponent {
 
-    private void deleteFile(Path file) throws Exception {
-        System.out.println("删除文件: " + file);
-        Files.deleteIfExists(file);
-    }
-
-    private void deleteDir(Path dir) throws Exception {
-        System.out.println("删除目录: " + dir);
-        try (Stream<Path> walk = Files.walk(dir)) {
-            List<Path> paths = walk.sorted(Comparator.reverseOrder()).toList();
-            for (int i = 0; i < paths.size(); i++) {
-                Files.delete(paths.get(i));
-                Utils.printProgressBar(i, paths.size());
-            }
-        }
-    }
-
-    private void deleteDirContent(Path dir) throws Exception {
-        System.out.println("清空目录: " + dir);
-        try (Stream<Path> walk = Files.walk(dir)) {
-            List<Path> paths = walk.filter(p -> !p.equals(dir))
-                .sorted(Comparator.reverseOrder())
-                .toList();
-            for (int i = 0; i < paths.size(); i++) {
-                Files.delete(paths.get(i));
-                Utils.printProgressBar(i, paths.size());
-            }
-        }
-    }
-
     @Override
     public void batchDeleteFiles(List<Path> files) throws Exception {
-        for (Path filePath : files) {
-            deleteFile(filePath);
+        for (Path file : files) {
+            System.out.println("删除文件: " + file);
+            Files.deleteIfExists(file);
         }
     }
 
     @Override
     public void batchDeleteDirs(List<Path> dirs) throws Exception {
-        for (Path dirPath : dirs) {
-            deleteDir(dirPath);
+        for (Path dir : dirs) {
+            System.out.println("删除目录: " + dir);
+            try (Stream<Path> walk = Files.walk(dir)) {
+                List<Path> paths = walk.sorted(Comparator.reverseOrder()).toList();
+                for (int i = 0; i < paths.size(); i++) {
+                    Files.delete(paths.get(i));
+                    Utils.printProgressBar(i, paths.size());
+                }
+            }
         }
     }
 
     @Override
     public void batchCleanDirs(List<Path> dirs) throws Exception {
-        for (Path dirPath : dirs) {
-            deleteDirContent(dirPath);
+        for (Path dir : dirs) {
+            System.out.println("清空目录: " + dir);
+            try (Stream<Path> walk = Files.walk(dir)) {
+                List<Path> paths = walk
+                    .filter(p -> !p.equals(dir))
+                    .sorted(Comparator.reverseOrder())
+                    .toList();
+                for (int i = 0; i < paths.size(); i++) {
+                    Files.delete(paths.get(i));
+                    Utils.printProgressBar(i, paths.size());
+                }
+            }
         }
-    }
-
-    private void createDir(Path dir) throws Exception {
-        System.out.println("创建目录: " + dir);
-        Files.createDirectories(dir);
     }
 
     @Override
     public void batchCreateDirs(List<Path> dirs) throws Exception {
-        for (Path dirPath : dirs) {
-            createDir(dirPath);
-        }
-    }
-
-    private void copyFile(CopyFileInput copyFileInput) throws Exception {
-        Path srcPath = copyFileInput.getSrcFile();
-        Path destDirPath = copyFileInput.getDestDir();
-        System.out.println("拷贝文件: " + srcPath + " -> " + destDirPath);
-        Files.createDirectories(destDirPath);
-        Path destFilePath = destDirPath.resolve(srcPath.getFileName());
-        Files.copy(srcPath, destFilePath, StandardCopyOption.REPLACE_EXISTING);
-    }
-
-    private void copyDir(CopyDirInput copyDirInput) throws Exception {
-        Path srcPath = copyDirInput.getSrcDir();
-        Path destPath = copyDirInput.getDestDir();
-        System.out.println("拷贝目录: " + srcPath + " -> " + destPath);
-        Path targetPath = destPath.resolve(srcPath.getFileName());
-
-        Files.createDirectories(targetPath);
-
-        try (Stream<Path> walk = Files.walk(srcPath)) {
-            List<Path> sources = walk.toList();
-            for (int i = 0; i < sources.size(); i++) {
-                Path source = sources.get(i);
-                Path destination = targetPath.resolve(srcPath.relativize(source));
-                if (Files.isDirectory(source)) {
-                    Files.createDirectories(destination);
-                } else {
-                    Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
-                }
-                Utils.printProgressBar(i, sources.size());
-            }
-        }
-    }
-
-    private void copyDirContent(CopyDirContentsInput copyDirContentsInput) throws Exception {
-        Path srcPath = copyDirContentsInput.getSrcDir();
-        Path destPath = copyDirContentsInput.getDestDir();
-        System.out.println("拷贝目录内容: " + srcPath + " -> " + destPath);
-
-        Files.createDirectories(destPath);
-
-        try (Stream<Path> walk = Files.walk(srcPath)) {
-            List<Path> sources = walk.filter(source -> !source.equals(srcPath)).toList();
-            for (int i = 0; i < sources.size(); i++) {
-                Path source = sources.get(i);
-                Path destination = destPath.resolve(srcPath.relativize(source));
-                if (Files.isDirectory(source)) {
-                    Files.createDirectories(destination);
-                } else {
-                    Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
-                }
-                Utils.printProgressBar(i, sources.size());
-            }
+        for (Path dir : dirs) {
+            System.out.println("创建目录: " + dir);
+            Files.createDirectories(dir);
         }
     }
 
     @Override
     public void batchCopyFiles(List<CopyFileInput> copyFileInputs) throws Exception {
-        for (CopyFileInput copyFileInput : copyFileInputs) {
-            copyFile(copyFileInput);
+        for (CopyFileInput input : copyFileInputs) {
+            Path srcPath = input.getSrcFile();
+            Path destDirPath = input.getDestDir();
+
+            System.out.println("拷贝文件: " + srcPath + " -> " + destDirPath);
+
+            Files.createDirectories(destDirPath);
+
+            Path destFilePath = destDirPath.resolve(srcPath.getFileName());
+            Files.copy(srcPath, destFilePath, StandardCopyOption.REPLACE_EXISTING);
         }
     }
 
     @Override
     public void batchCopyDirs(List<CopyDirInput> copyDirInputs) throws Exception {
-        for (CopyDirInput copyDirInput : copyDirInputs) {
-            copyDir(copyDirInput);
+        for (CopyDirInput input : copyDirInputs) {
+            Path srcPath = input.getSrcDir();
+            Path destPath = input.getDestDir();
+
+            System.out.println("拷贝目录: " + srcPath + " -> " + destPath);
+
+            Path targetPath = destPath.resolve(srcPath.getFileName());
+            Files.createDirectories(targetPath);
+
+            try (Stream<Path> walk = Files.walk(srcPath)) {
+                List<Path> sources = walk.toList();
+                for (int i = 0; i < sources.size(); i++) {
+                    Path source = sources.get(i);
+                    Path destination = targetPath.resolve(srcPath.relativize(source));
+
+                    if (Files.isDirectory(source)) {
+                        Files.createDirectories(destination);
+                    } else {
+                        Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
+                    }
+
+                    Utils.printProgressBar(i, sources.size());
+                }
+            }
         }
     }
 
     @Override
     public void batchCopyDirContentsToDirs(List<CopyDirContentsInput> copyDirContentsInputs) throws Exception {
-        for (CopyDirContentsInput copyDirContentsInput : copyDirContentsInputs) {
-            copyDirContent(copyDirContentsInput);
-        }
-    }
+        for (CopyDirContentsInput input : copyDirContentsInputs) {
+            Path srcPath = input.getSrcDir();
+            Path destPath = input.getDestDir();
 
-    private void renameFile(RenameFileInput renameFileInput) throws Exception {
-        Path srcPath = renameFileInput.getSrcFile();
-        Path parentDir = srcPath.getParent();
-        if (parentDir == null) {
-            parentDir = Paths.get(".");
+            System.out.println("拷贝目录内容: " + srcPath + " -> " + destPath);
+
+            Files.createDirectories(destPath);
+
+            try (Stream<Path> walk = Files.walk(srcPath)) {
+                List<Path> sources = walk
+                    .filter(source -> !source.equals(srcPath))
+                    .toList();
+
+                for (int i = 0; i < sources.size(); i++) {
+                    Path source = sources.get(i);
+                    Path destination = destPath.resolve(srcPath.relativize(source));
+
+                    if (Files.isDirectory(source)) {
+                        Files.createDirectories(destination);
+                    } else {
+                        Files.copy(source, destination, StandardCopyOption.REPLACE_EXISTING);
+                    }
+
+                    Utils.printProgressBar(i, sources.size());
+                }
+            }
         }
-        Path destPath = parentDir.resolve(renameFileInput.getNewName());
-        Files.move(srcPath, destPath, StandardCopyOption.REPLACE_EXISTING);
     }
 
     @Override
     public void batchRenameFiles(List<RenameFileInput> renameFileInputs) throws Exception {
         System.out.println("批量重命名文件: ");
         for (int i = 0; i < renameFileInputs.size(); i++) {
-            renameFile(renameFileInputs.get(i));
+            RenameFileInput input = renameFileInputs.get(i);
+
+            Path srcPath = input.getSrcFile();
+            Path parentDir = srcPath.getParent();
+            if (parentDir == null) {
+                parentDir = Paths.get(".");
+            }
+
+            Path destPath = parentDir.resolve(input.getNewName());
+            Files.move(srcPath, destPath, StandardCopyOption.REPLACE_EXISTING);
+
             Utils.printProgressBar(i, renameFileInputs.size());
         }
     }
