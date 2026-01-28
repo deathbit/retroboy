@@ -1,11 +1,11 @@
 package com.github.deathbit.retroboy.config.domain;
 
-import java.util.List;
-import java.util.Set;
-
 import com.github.deathbit.retroboy.enums.Platform;
 import lombok.Builder;
 import lombok.Data;
+
+import java.util.List;
+import java.util.Set;
 
 @Data
 @Builder

@@ -1,16 +1,16 @@
 package com.github.deathbit.retroboy.config;
 
-import java.util.Map;
-
+import com.github.deathbit.retroboy.config.domain.RuleConfig;
 import com.github.deathbit.retroboy.config.tasks.CleanUpTask;
 import com.github.deathbit.retroboy.config.tasks.DefaultConfigTask;
 import com.github.deathbit.retroboy.config.tasks.FixChineseFontTask;
 import com.github.deathbit.retroboy.config.tasks.SetMegaBezelShaderTask;
-import com.github.deathbit.retroboy.config.domain.RuleConfig;
 import com.github.deathbit.retroboy.enums.Platform;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
+
+import java.util.Map;
 
 @Data
 @Component

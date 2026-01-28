@@ -1,7 +1,7 @@
 package com.github.deathbit.retroboy.rule;
 
-import com.github.deathbit.retroboy.component.domain.FileContext;
-import com.github.deathbit.retroboy.component.domain.RuleContext;
+import com.github.deathbit.retroboy.domain.FileContext;
+import com.github.deathbit.retroboy.domain.RuleContext;
 
 public interface Rule {
     boolean pass(RuleContext ruleContext, FileContext fileContext);

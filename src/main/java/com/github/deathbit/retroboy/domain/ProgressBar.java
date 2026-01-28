@@ -26,6 +26,19 @@ public class ProgressBar {
         this.barWidth = 20;
     }
 
+    private static String bar(double percentage, int width) {
+        percentage = clamp(percentage);
+        int filled = (int) Math.floor(width * percentage);
+        int empty = width - filled;
+
+        return "█".repeat(Math.max(0, filled)) + "░".repeat(Math.max(0, empty)) +
+                String.format(" %6.2f%%", percentage * 100);
+    }
+
+    private static double clamp(double v) {
+        return Math.max(0.0, Math.min(1.0, v));
+    }
+
     public void startTask(Integer currentSubTaskTotal) {
         this.currentSubTaskTotal = currentSubTaskTotal;
         currentPercentage = 0.0;
@@ -58,26 +71,13 @@ public class ProgressBar {
     private void renderProgressBar() {
         double totalPercentage = (double) finishedTasks / subTaskCount;
         String line = String.format("\r| %s %s %5s | %s %10s",
-            mainTaskName,
-            bar(totalPercentage, barWidth),
-            String.format("%d/%d", finishedTasks, subTaskCount),
-            bar(currentPercentage, barWidth),
-            String.format("%d/%d", currentSubTaskIndex + 1, currentSubTaskTotal)
+                mainTaskName,
+                bar(totalPercentage, barWidth),
+                String.format("%d/%d", finishedTasks, subTaskCount),
+                bar(currentPercentage, barWidth),
+                String.format("%d/%d", currentSubTaskIndex + 1, currentSubTaskTotal)
         );
         System.out.print(line);
         System.out.flush();
-    }
-
-    private static String bar(double percentage, int width) {
-        percentage = clamp(percentage);
-        int filled = (int) Math.floor(width * percentage);
-        int empty = width - filled;
-
-        return "█".repeat(Math.max(0, filled)) + "░".repeat(Math.max(0, empty)) +
-            String.format(" %6.2f%%", percentage * 100);
-    }
-
-    private static double clamp(double v) {
-        return Math.max(0.0, Math.min(1.0, v));
     }
 }

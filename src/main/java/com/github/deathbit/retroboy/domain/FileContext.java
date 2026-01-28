@@ -1,9 +1,9 @@
-package com.github.deathbit.retroboy.component.domain;
-
-import java.util.Set;
+package com.github.deathbit.retroboy.domain;
 
 import lombok.Builder;
 import lombok.Data;
+
+import java.util.Set;
 
 @Data
 @Builder

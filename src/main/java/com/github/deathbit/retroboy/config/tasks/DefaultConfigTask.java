@@ -1,12 +1,12 @@
 package com.github.deathbit.retroboy.config.tasks;
 
-import java.util.List;
-
-import com.github.deathbit.retroboy.component.domain.ConfigInput;
-import com.github.deathbit.retroboy.component.domain.CopyDirContentsInput;
-import com.github.deathbit.retroboy.component.domain.CopyFileInput;
+import com.github.deathbit.retroboy.domain.ConfigInput;
+import com.github.deathbit.retroboy.domain.CopyDirContentsInput;
+import com.github.deathbit.retroboy.domain.CopyFileInput;
 import lombok.Builder;
 import lombok.Data;
+
+import java.util.List;
 
 @Data
 @Builder

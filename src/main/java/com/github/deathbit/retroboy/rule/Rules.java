@@ -15,11 +15,11 @@ public class Rules {
     public static final Rule IS_USA_OR_WORLD = IS_USA.or(IS_WORLD);
     public static final Rule IS_EUROPE_OR_WORLD = IS_EUROPE.or(IS_WORLD);
     public static final Rule IS_BASE = IS_LICENSED
-        .and(IS_NOT_BAD)
-        .and(IS_NOT_BIOS)
-        .and(IS_NOT_HIT_GLOBAL_TAG_BLACKLIST)
-        .and(IS_NOT_HIT_PLATFORM_TAG_BLACKLIST)
-        .and(IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST);
+            .and(IS_NOT_BAD)
+            .and(IS_NOT_BIOS)
+            .and(IS_NOT_HIT_GLOBAL_TAG_BLACKLIST)
+            .and(IS_NOT_HIT_PLATFORM_TAG_BLACKLIST)
+            .and(IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST);
     public static final Rule IS_JAPAN_BASE = IS_BASE.and(IS_JAPAN_OR_WORLD);
     public static final Rule IS_USA_BASE = IS_BASE.and(IS_USA_OR_WORLD);
     public static final Rule IS_EUROPE_BASE = IS_BASE.and(IS_EUROPE_OR_WORLD);

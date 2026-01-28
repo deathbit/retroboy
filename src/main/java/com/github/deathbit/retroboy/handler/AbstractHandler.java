@@ -1,27 +1,11 @@
-package com.github.deathbit.retroboy.component.impl.handlers;
+package com.github.deathbit.retroboy.handler;
 
-import java.io.File;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import javax.xml.parsers.DocumentBuilderFactory;
-
-import com.github.deathbit.retroboy.component.HandlerComponent;
 import com.github.deathbit.retroboy.config.domain.AreaConfig;
-import com.github.deathbit.retroboy.component.domain.CopyFileInput;
-import com.github.deathbit.retroboy.component.domain.FileContext;
-import com.github.deathbit.retroboy.component.domain.HandlerInput;
 import com.github.deathbit.retroboy.config.domain.RuleConfig;
-import com.github.deathbit.retroboy.component.domain.RuleContext;
+import com.github.deathbit.retroboy.domain.CopyFileInput;
+import com.github.deathbit.retroboy.domain.FileContext;
+import com.github.deathbit.retroboy.domain.HandlerInput;
+import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.rule.Rule;
@@ -30,7 +14,15 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
-public abstract class AbstractHandlerComponent implements HandlerComponent {
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.File;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public abstract class AbstractHandler implements Handler {
 
     private static final Pattern REV_TAG = Pattern.compile("\\(Rev\\s+(\\d+)\\)");
 
@@ -54,7 +46,7 @@ public abstract class AbstractHandlerComponent implements HandlerComponent {
         }
 
         handlerInput.getFileComponent().batchCleanDirs(List.of(Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase())));
-        
+
         List<Path> dirsToCreate = ruleContext.getAreaFinalMap().entrySet().stream()
                 .map(entry -> Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase(), entry.getKey().name()))
                 .collect(java.util.stream.Collectors.toList());
@@ -200,9 +192,9 @@ public abstract class AbstractHandlerComponent implements HandlerComponent {
     @Override
     public Map<Area, Rule> getRuleMap() {
         return Map.of(
-            Area.JPN, Rules.IS_JAPAN_BASE,
-            Area.USA, Rules.IS_USA_BASE,
-            Area.EUR, Rules.IS_EUROPE_BASE
+                Area.JPN, Rules.IS_JAPAN_BASE,
+                Area.USA, Rules.IS_USA_BASE,
+                Area.EUR, Rules.IS_EUROPE_BASE
         );
     }
 

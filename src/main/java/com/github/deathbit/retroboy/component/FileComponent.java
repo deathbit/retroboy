@@ -1,20 +1,26 @@
 package com.github.deathbit.retroboy.component;
 
-import java.nio.file.Path;
+import com.github.deathbit.retroboy.domain.CopyDirContentsInput;
+import com.github.deathbit.retroboy.domain.CopyDirInput;
+import com.github.deathbit.retroboy.domain.CopyFileInput;
+import com.github.deathbit.retroboy.domain.RenameFileInput;
+
 import java.util.List;
 
-import com.github.deathbit.retroboy.component.domain.CopyDirContentsInput;
-import com.github.deathbit.retroboy.component.domain.CopyDirInput;
-import com.github.deathbit.retroboy.component.domain.CopyFileInput;
-import com.github.deathbit.retroboy.component.domain.RenameFileInput;
-
 public interface FileComponent {
-    void batchDeleteFiles(List<Path> files) throws Exception;
-    void batchDeleteDirs(List<Path> dirs) throws Exception;
-    void batchCleanDirs(List<Path> dirs) throws Exception;
-    void batchCreateDirs(List<Path> dirs) throws Exception;
+    void batchDeleteFiles(List<String> files) throws Exception;
+
+    void batchDeleteDirs(List<String> dirs) throws Exception;
+
+    void batchCleanDirs(List<String> dirs) throws Exception;
+
+    void batchCreateDirs(List<String> dirs) throws Exception;
+
     void batchCopyFiles(List<CopyFileInput> copyFileInputs) throws Exception;
+
     void batchCopyDirs(List<CopyDirInput> copyDirInputs) throws Exception;
+
     void batchCopyDirContentsToDirs(List<CopyDirContentsInput> copyDirContentsInputs) throws Exception;
+
     void batchRenameFiles(List<RenameFileInput> renameFileInputs) throws Exception;
 }

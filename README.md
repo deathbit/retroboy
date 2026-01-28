@@ -5,6 +5,7 @@
 ## 项目简介
 
 Retroboy 提供了一套完整的自动化解决方案，用于：
+
 - 清理和初始化 RetroArch 模拟器环境
 - 配置 RetroArch 的各项设置（着色器、字体、控制器等）
 - 根据地区和平台规则自动筛选和组织 ROM 文件
@@ -17,22 +18,26 @@ Retroboy 提供了一套完整的自动化解决方案，用于：
 应用启动时会自动执行以下任务：
 
 #### 目录清理（CleanUpTask）
+
 - 清空 RetroArch 的核心目录（info、assets、autoconfig、cheats、database、overlays、shaders、cores、system）
 - 清空 ROM 目录
 - 删除旧的配置文件
 
 #### 默认配置部署（DefaultConfigTask）
+
 - 批量复制 RetroArch 必需的资源文件
 - 自动配置 RetroArch 参数：
-  - 全屏模式
-  - ROM 浏览目录
-  - 控制器模拟摇杆模式
+    - 全屏模式
+    - ROM 浏览目录
+    - 控制器模拟摇杆模式
 
 #### 中文字体修复（FixChineseFontTask）
+
 - 替换 RetroArch 的中文回退字体
 - 配置字体路径以正确显示中文
 
 #### Mega Bezel 着色器设置（SetMegaBezelShaderTask）
+
 - 部署 Mega Bezel 着色器包
 - 配置着色器相关参数（Vulkan 驱动、宽高比、旋转设置等）
 - 启用全局着色器
@@ -42,25 +47,31 @@ Retroboy 提供了一套完整的自动化解决方案，用于：
 基于规则引擎的 ROM 文件筛选和分类系统：
 
 #### 规则引擎
+
 - **许可验证**：通过 DAT 文件验证 ROM 的合法性
 - **质量过滤**：排除损坏版本（[b] 标签）和 BIOS 文件
 - **标签黑名单**：过滤虚拟主机版本、合集版本等不需要的版本
 - **地区筛选**：根据地区（日本、美国、欧洲）和 World 版本进行智能筛选
 
 #### 支持的平台
+
 - **NES**（Nintendo Entertainment System）：已实现完整支持
 - 可扩展至其他平台（通过实现 `AbstractHandler`）
 
 ### 3. 配置组件
 
 #### FileComponent
+
 提供文件和目录操作的统一接口：
+
 - 批量文件/目录操作（创建、删除、复制、重命名）
 - 目录内容复制
 - 文件批量处理
 
 #### ConfigComponent
+
 管理 RetroArch 配置文件：
+
 - 配置项的读取和修改
 - 批量配置更新
 
@@ -101,11 +112,13 @@ retroboy/
 ## 配置说明
 
 ### 配置文件位置
+
 `src/main/resources/application.yaml`
 
 ### 主要配置项
 
 #### 全局配置
+
 ```yaml
 app.configInput.globalConfig:
   raConfigFile: RetroArch 配置文件路径
@@ -113,12 +126,14 @@ app.configInput.globalConfig:
 ```
 
 #### 任务配置
+
 - `cleanUpTask`: 清理任务配置
 - `defaultConfigTask`: 默认配置任务
 - `fixChineseFontTask`: 字体修复任务
 - `setMegaBezelShaderTask`: 着色器配置任务
 
 #### 平台规则配置
+
 ```yaml
 app.configInput.ruleConfigMap:
   NES:
@@ -132,20 +147,24 @@ app.configInput.ruleConfigMap:
 ## 快速开始
 
 ### 环境要求
+
 - Java 17+
 - Maven 3.6+
 
 ### 编译项目
+
 ```bash
 ./mvnw clean compile
 ```
 
 ### 运行应用
+
 ```bash
 ./mvnw spring-boot:run
 ```
 
 ### 运行测试
+
 ```bash
 ./mvnw test
 ```
@@ -163,10 +182,11 @@ app.configInput.ruleConfigMap:
 ### 自定义规则
 
 在 `Rules` 类中定义新规则，或组合现有规则：
+
 ```java
 public static final Rule CUSTOM_RULE = IS_LICENSED
-    .and(IS_NOT_BAD)
-    .and(customCondition);
+        .and(IS_NOT_BAD)
+        .and(customCondition);
 ```
 
 ### 修改启动任务
@@ -184,6 +204,7 @@ public static final Rule CUSTOM_RULE = IS_LICENSED
 ## 依赖项
 
 ```xml
+
 <dependencies>
     <dependency>
         <groupId>org.springframework.boot</groupId>

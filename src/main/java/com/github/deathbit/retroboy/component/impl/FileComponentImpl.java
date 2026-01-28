@@ -1,5 +1,9 @@
 package com.github.deathbit.retroboy.component.impl;
 
+import com.github.deathbit.retroboy.component.FileComponent;
+import com.github.deathbit.retroboy.domain.*;
+import org.springframework.stereotype.Component;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -9,33 +13,25 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Stream;
 
-import com.github.deathbit.retroboy.component.FileComponent;
-import com.github.deathbit.retroboy.component.domain.CopyDirContentsInput;
-import com.github.deathbit.retroboy.component.domain.CopyDirInput;
-import com.github.deathbit.retroboy.component.domain.CopyFileInput;
-import com.github.deathbit.retroboy.domain.ProgressBar;
-import com.github.deathbit.retroboy.component.domain.RenameFileInput;
-import org.springframework.stereotype.Component;
-
 @Component
 public class FileComponentImpl implements FileComponent {
 
     @Override
-    public void batchDeleteFiles(List<Path> files) throws Exception {
+    public void batchDeleteFiles(List<String> files) throws Exception {
         ProgressBar pb = new ProgressBar("删除文件");
         pb.startTask(files.size());
         for (int i = 0; i < files.size(); i++) {
-            Files.deleteIfExists(files.get(i));
+            Files.deleteIfExists(Paths.get(files.get(i)));
             pb.updateTask(i);
         }
         pb.finishTaskAndClose();
     }
 
     @Override
-    public void batchDeleteDirs(List<Path> dirs) throws Exception {
+    public void batchDeleteDirs(List<String> dirs) throws Exception {
         ProgressBar pb = new ProgressBar("删除目录", dirs.size());
-        for (Path dir : dirs) {
-            try (Stream<Path> walk = Files.walk(dir)) {
+        for (String dir : dirs) {
+            try (Stream<Path> walk = Files.walk(Paths.get(dir))) {
                 List<Path> paths = walk.sorted(Comparator.reverseOrder()).toList();
                 pb.startTask(paths.size());
                 for (int i = 0; i < paths.size(); i++) {
@@ -49,14 +45,12 @@ public class FileComponentImpl implements FileComponent {
     }
 
     @Override
-    public void batchCleanDirs(List<Path> dirs) throws Exception {
+    public void batchCleanDirs(List<String> dirs) throws Exception {
         ProgressBar pb = new ProgressBar("清空目录", dirs.size());
-        for (Path dir : dirs) {
-            try (Stream<Path> walk = Files.walk(dir)) {
-                List<Path> paths = walk
-                    .filter(p -> !p.equals(dir))
-                    .sorted(Comparator.reverseOrder())
-                    .toList();
+        for (String dir : dirs) {
+            Path dirPath = Paths.get(dir);
+            try (Stream<Path> walk = Files.walk(dirPath)) {
+                List<Path> paths = walk.filter(p -> !p.equals(dirPath)).sorted(Comparator.reverseOrder()).toList();
                 pb.startTask(paths.size());
                 for (int i = 0; i < paths.size(); i++) {
                     Files.delete(paths.get(i));
@@ -69,11 +63,11 @@ public class FileComponentImpl implements FileComponent {
     }
 
     @Override
-    public void batchCreateDirs(List<Path> dirs) throws Exception {
+    public void batchCreateDirs(List<String> dirs) throws Exception {
         ProgressBar pb = new ProgressBar("创建目录");
         pb.startTask(dirs.size());
         for (int i = 0; i < dirs.size(); i++) {
-            Files.createDirectories(dirs.get(i));
+            Files.createDirectories(Paths.get(dirs.get(i)));
             pb.updateTask(i);
         }
         pb.finishTaskAndClose();
@@ -85,8 +79,8 @@ public class FileComponentImpl implements FileComponent {
         pb.startTask(copyFileInputs.size());
         for (int i = 0; i < copyFileInputs.size(); i++) {
             CopyFileInput input = copyFileInputs.get(i);
-            Path srcPath = input.getSrcFile();
-            Path destDirPath = input.getDestDir();
+            Path srcPath = Paths.get(input.getSrcFile());
+            Path destDirPath = Paths.get(input.getDestDir());
             Files.createDirectories(destDirPath);
             Path destFilePath = destDirPath.resolve(srcPath.getFileName());
             Files.copy(srcPath, destFilePath, StandardCopyOption.REPLACE_EXISTING);
@@ -99,8 +93,8 @@ public class FileComponentImpl implements FileComponent {
     public void batchCopyDirs(List<CopyDirInput> copyDirInputs) throws Exception {
         ProgressBar pb = new ProgressBar("拷贝目录", copyDirInputs.size());
         for (CopyDirInput input : copyDirInputs) {
-            Path srcPath = input.getSrcDir();
-            Path destPath = input.getDestDir();
+            Path srcPath = Paths.get(input.getSrcDir());
+            Path destPath = Paths.get(input.getDestDir());
             Path targetPath = destPath.resolve(srcPath.getFileName());
             Files.createDirectories(targetPath);
             try (Stream<Path> walk = Files.walk(srcPath)) {
@@ -115,13 +109,11 @@ public class FileComponentImpl implements FileComponent {
     public void batchCopyDirContentsToDirs(List<CopyDirContentsInput> copyDirContentsInputs) throws Exception {
         ProgressBar pb = new ProgressBar("拷贝内容", copyDirContentsInputs.size());
         for (CopyDirContentsInput input : copyDirContentsInputs) {
-            Path srcPath = input.getSrcDir();
-            Path destPath = input.getDestDir();
+            Path srcPath = Paths.get(input.getSrcDir());
+            Path destPath = Paths.get(input.getDestDir());
             Files.createDirectories(destPath);
             try (Stream<Path> walk = Files.walk(srcPath)) {
-                List<Path> sources = walk
-                    .filter(source -> !source.equals(srcPath))
-                    .toList();
+                List<Path> sources = walk.filter(source -> !source.equals(srcPath)).toList();
                 copy(pb, srcPath, destPath, sources);
             }
         }
