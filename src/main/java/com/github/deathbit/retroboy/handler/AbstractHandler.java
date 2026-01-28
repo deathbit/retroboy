@@ -10,6 +10,7 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 import java.util.regex.Matcher;
@@ -38,10 +39,10 @@ public abstract class AbstractHandler implements Handler {
             }
         }
 
-        handlerInput.getFileComponent().batchDeleteDirContent(List.of(Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase()).toString()));
+        handlerInput.getFileComponent().batchDeleteDirContent(List.of(Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase())));
         
-        List<String> dirsToCreate = ruleContext.getAreaFinalMap().entrySet().stream()
-                .map(entry -> Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase(), entry.getKey().name()).toString())
+        List<Path> dirsToCreate = ruleContext.getAreaFinalMap().entrySet().stream()
+                .map(entry -> Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase(), entry.getKey().name()))
                 .collect(java.util.stream.Collectors.toList());
         handlerInput.getFileComponent().batchCreateDir(dirsToCreate);
 
@@ -49,8 +50,8 @@ public abstract class AbstractHandler implements Handler {
         for (Map.Entry<Area, Set<String>> entry : ruleContext.getAreaFinalMap().entrySet()) {
             for (String fileName : entry.getValue()) {
                 filesToCopy.add(CopyFileInput.builder()
-                        .srcFile(Paths.get(ruleContext.getRuleConfig().getRomDir(), fileName).toString())
-                        .destDir(Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase(), entry.getKey().name()).toString())
+                        .srcFile(Paths.get(ruleContext.getRuleConfig().getRomDir(), fileName))
+                        .destDir(Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase(), entry.getKey().name()))
                         .build());
             }
         }

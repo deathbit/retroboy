@@ -49,23 +49,23 @@ public class FileComponentImpl implements FileComponent {
     }
 
     @Override
-    public void batchDeleteFile(List<String> files) throws Exception {
-        for (String filePath : files) {
-            deleteFile(Paths.get(filePath));
+    public void batchDeleteFile(List<Path> files) throws Exception {
+        for (Path filePath : files) {
+            deleteFile(filePath);
         }
     }
 
     @Override
-    public void batchDeleteDir(List<String> dirs) throws Exception {
-        for (String dirPath : dirs) {
-            deleteDir(Paths.get(dirPath));
+    public void batchDeleteDir(List<Path> dirs) throws Exception {
+        for (Path dirPath : dirs) {
+            deleteDir(dirPath);
         }
     }
 
     @Override
-    public void batchDeleteDirContent(List<String> dirs) throws Exception {
-        for (String dirPath : dirs) {
-            deleteDirContent(Paths.get(dirPath));
+    public void batchDeleteDirContent(List<Path> dirs) throws Exception {
+        for (Path dirPath : dirs) {
+            deleteDirContent(dirPath);
         }
     }
 
@@ -75,15 +75,15 @@ public class FileComponentImpl implements FileComponent {
     }
 
     @Override
-    public void batchCreateDir(List<String> dirs) throws Exception {
-        for (String dirPath : dirs) {
-            createDir(Paths.get(dirPath));
+    public void batchCreateDir(List<Path> dirs) throws Exception {
+        for (Path dirPath : dirs) {
+            createDir(dirPath);
         }
     }
 
     private void copyFile(CopyFileInput copyFileInput) throws Exception {
-        Path srcPath = Paths.get(copyFileInput.getSrcFile());
-        Path destDirPath = Paths.get(copyFileInput.getDestDir());
+        Path srcPath = copyFileInput.getSrcFile();
+        Path destDirPath = copyFileInput.getDestDir();
         System.out.println("拷贝文件: " + srcPath + " -> " + destDirPath);
         Files.createDirectories(destDirPath);
         Path destFilePath = destDirPath.resolve(srcPath.getFileName());
@@ -91,8 +91,8 @@ public class FileComponentImpl implements FileComponent {
     }
 
     private void copyDir(CopyDirInput copyDirInput) throws Exception {
-        Path srcPath = Paths.get(copyDirInput.getSrcDir());
-        Path destPath = Paths.get(copyDirInput.getDestDir());
+        Path srcPath = copyDirInput.getSrcDir();
+        Path destPath = copyDirInput.getDestDir();
         System.out.println("拷贝目录: " + srcPath + " -> " + destPath);
         Path targetPath = destPath.resolve(srcPath.getFileName());
 
@@ -114,8 +114,8 @@ public class FileComponentImpl implements FileComponent {
     }
 
     private void copyDirContent(CopyDirContentInput copyDirContentInput) throws Exception {
-        Path srcPath = Paths.get(copyDirContentInput.getSrcDir());
-        Path destPath = Paths.get(copyDirContentInput.getDestDir());
+        Path srcPath = copyDirContentInput.getSrcDir();
+        Path destPath = copyDirContentInput.getDestDir();
         System.out.println("拷贝目录内容: " + srcPath + " -> " + destPath);
 
         Files.createDirectories(destPath);
@@ -157,7 +157,7 @@ public class FileComponentImpl implements FileComponent {
     }
 
     private void renameFile(RenameFileInput renameFileInput) throws Exception {
-        Path srcPath = Paths.get(renameFileInput.getSrcFile());
+        Path srcPath = renameFileInput.getSrcFile();
         Path parentDir = srcPath.getParent();
         if (parentDir == null) {
             parentDir = Paths.get(".");
