@@ -1,6 +1,8 @@
 package com.github.deathbit.retroboy;
 
+import java.nio.file.Paths;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static com.github.deathbit.retroboy.utils.Utils.printTask;
 import static com.github.deathbit.retroboy.utils.Utils.printTaskDone;
@@ -8,6 +10,10 @@ import static com.github.deathbit.retroboy.utils.Utils.printTaskDone;
 import com.github.deathbit.retroboy.component.ConfigComponent;
 import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
+import com.github.deathbit.retroboy.config.GlobalConfig;
+import com.github.deathbit.retroboy.domain.Config;
+import com.github.deathbit.retroboy.domain.CopyDirContentInput;
+import com.github.deathbit.retroboy.domain.CopyFileInput;
 import com.github.deathbit.retroboy.domain.HandlerInput;
 import com.github.deathbit.retroboy.handler.handlers.nintendo.NesHandler;
 import org.jspecify.annotations.NonNull;
@@ -33,6 +39,8 @@ public class StartupRunner implements ApplicationRunner {
 
     @Override
     public void run(@NonNull ApplicationArguments args) throws Exception {
+        GlobalConfig globalConfig = appConfig.getGlobalConfig();
+        
         printTask("清理目录和文件", List.of(
                 "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\info",
                 "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets",
@@ -42,12 +50,29 @@ public class StartupRunner implements ApplicationRunner {
                 "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\overlays",
                 "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders",
                 "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\cores",
-                "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\system",
+                "清空目录：D\\ES-DE\\Emulators\\RetroArch-Win64\\system",
                 "清空目录：D:\\ES-DE\\ROMs",
                 "删除文件：D:\\ES-DE\\Emulators\\RetroArch-Win64\\retroarch.cfg"
         ));
-        fileComponent.batchDeleteDirContent(appConfig.getCleanUpTask().getDeleteContentDirs());
-        fileComponent.batchDeleteFile(appConfig.getCleanUpTask().getDeleteFiles());
+        
+        // Resolve paths for cleanup task
+        List<String> resolvedDeleteFiles = appConfig.getCleanUpTask().getDeleteFiles().stream()
+                .map(file -> Paths.get(globalConfig.getRaHome(), file).toString())
+                .collect(Collectors.toList());
+        
+        List<String> resolvedDeleteContentDirs = appConfig.getCleanUpTask().getDeleteContentDirs().stream()
+                .map(dir -> {
+                    // ROMs is under esdeHome, others under raHome
+                    if ("ROMs".equals(dir)) {
+                        return Paths.get(globalConfig.getEsdeHome(), dir).toString();
+                    } else {
+                        return Paths.get(globalConfig.getRaHome(), dir).toString();
+                    }
+                })
+                .collect(Collectors.toList());
+        
+        fileComponent.batchDeleteDirContent(resolvedDeleteContentDirs);
+        fileComponent.batchDeleteFile(resolvedDeleteFiles);
         printTaskDone("清理目录和文件");
 
         printTask("默认配置", List.of(
@@ -65,9 +90,70 @@ public class StartupRunner implements ApplicationRunner {
                 "设置RA选项：rgui_browser_directory = \"D:\\ES-DE\\ROMs\"",
                 "设置RA选项：input_player1_analog_dpad_mode = \"1\""
         ));
-        fileComponent.batchCopyDirContent(appConfig.getDefaultConfigTask().getCopyContentDirs());
-        fileComponent.batchCopyFile(appConfig.getDefaultConfigTask().getCopyFiles());
-        configComponent.batchChangeConfig(appConfig.getDefaultConfigTask().getRaConfigs());
+        
+        // Resolve paths for copy content dirs
+        List<CopyDirContentInput> resolvedCopyContentDirs = appConfig.getDefaultConfigTask().getCopyContentDirs().stream()
+                .map(input -> {
+                    String srcDir;
+                    String destDir;
+                    
+                    // ROMs_ALL is under esdeHome
+                    if ("ROMs_ALL".equals(input.getSrcDir())) {
+                        srcDir = Paths.get(globalConfig.getEsdeHome(), input.getSrcDir()).toString();
+                    } else {
+                        srcDir = Paths.get(globalConfig.getResourcesHome(), input.getSrcDir()).toString();
+                    }
+                    
+                    // ROMs dest is under esdeHome, others under raHome
+                    if ("ROMs".equals(input.getDestDir())) {
+                        destDir = Paths.get(globalConfig.getEsdeHome(), input.getDestDir()).toString();
+                    } else {
+                        destDir = Paths.get(globalConfig.getRaHome(), input.getDestDir()).toString();
+                    }
+                    
+                    return CopyDirContentInput.builder()
+                            .srcDir(srcDir)
+                            .destDir(destDir)
+                            .build();
+                })
+                .collect(Collectors.toList());
+        
+        // Resolve paths for copy files
+        List<CopyFileInput> resolvedCopyFiles = appConfig.getDefaultConfigTask().getCopyFiles().stream()
+                .map(input -> {
+                    String srcFile = Paths.get(globalConfig.getResourcesHome(), input.getSrcFile()).toString();
+                    String destDir = input.getDestDir().isEmpty() 
+                            ? globalConfig.getRaHome() 
+                            : Paths.get(globalConfig.getRaHome(), input.getDestDir()).toString();
+                    return CopyFileInput.builder()
+                            .srcFile(srcFile)
+                            .destDir(destDir)
+                            .build();
+                })
+                .collect(Collectors.toList());
+        
+        // Resolve paths for RA configs
+        List<Config> resolvedRaConfigs = appConfig.getDefaultConfigTask().getRaConfigs().stream()
+                .map(config -> {
+                    String file = Paths.get(globalConfig.getRaHome(), config.getFile()).toString();
+                    String value = config.getValue();
+                    
+                    // Special handling for rgui_browser_directory - it needs full esdeHome path
+                    if ("rgui_browser_directory".equals(config.getKey())) {
+                        value = Paths.get(globalConfig.getEsdeHome(), config.getValue()).toString();
+                    }
+                    
+                    return Config.builder()
+                            .file(file)
+                            .key(config.getKey())
+                            .value(value)
+                            .build();
+                })
+                .collect(Collectors.toList());
+        
+        fileComponent.batchCopyDirContent(resolvedCopyContentDirs);
+        fileComponent.batchCopyFile(resolvedCopyFiles);
+        configComponent.batchChangeConfig(resolvedRaConfigs);
         printTaskDone("默认配置");
 
         printTask("修复中文字体", List.of(
@@ -75,9 +161,28 @@ public class StartupRunner implements ApplicationRunner {
                 "拷贝文件：D:\\Resources\\chinese-fallback-font.ttf -> D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets\\pkg\\chinese-fallback-font.ttf",
                 "设置RA选项：video_font_path = \":\\assets\\pkg\\chinese-fallback-font.ttf\""
         ));
-        fileComponent.deleteFile(appConfig.getFixChineseFontTask().getDeleteFontFile());
-        fileComponent.copyFile(appConfig.getFixChineseFontTask().getCopyFontFile());
-        configComponent.changeConfig(appConfig.getFixChineseFontTask().getSetNotificationFont());
+        
+        // Resolve paths for fix chinese font task
+        String deleteFontFile = Paths.get(globalConfig.getRaHome(), 
+                appConfig.getFixChineseFontTask().getDeleteFontFile()).toString();
+        
+        CopyFileInput copyFontFile = CopyFileInput.builder()
+                .srcFile(Paths.get(globalConfig.getResourcesHome(), 
+                        appConfig.getFixChineseFontTask().getCopyFontFile().getSrcFile()).toString())
+                .destDir(Paths.get(globalConfig.getRaHome(), 
+                        appConfig.getFixChineseFontTask().getCopyFontFile().getDestDir()).toString())
+                .build();
+        
+        Config setNotificationFont = Config.builder()
+                .file(Paths.get(globalConfig.getRaHome(), 
+                        appConfig.getFixChineseFontTask().getSetNotificationFont().getFile()).toString())
+                .key(appConfig.getFixChineseFontTask().getSetNotificationFont().getKey())
+                .value(appConfig.getFixChineseFontTask().getSetNotificationFont().getValue())
+                .build();
+        
+        fileComponent.deleteFile(deleteFontFile);
+        fileComponent.copyFile(copyFontFile);
+        configComponent.changeConfig(setNotificationFont);
         printTaskDone("修复中文字体");
 
         printTask("设置Mega Bezel着色器", List.of(
@@ -91,9 +196,34 @@ public class StartupRunner implements ApplicationRunner {
                 "设置RA选项：video_allow_rotate = \"false\"",
                 "设置RA选项：video_shader_enable = \"true\""
         ));
-        fileComponent.copyDir(appConfig.getSetMegaBezelShaderTask().getCopyMegaBezelPacks());
-        fileComponent.batchCopyFile(appConfig.getSetMegaBezelShaderTask().getCopyDefaultMegaBezelShader());
-        configComponent.batchChangeConfig(appConfig.getSetMegaBezelShaderTask().getSetMegaBezelShaderConfigs());
+        
+        // Resolve paths for Mega Bezel shader task
+        var copyMegaBezelPacks = appConfig.getSetMegaBezelShaderTask().getCopyMegaBezelPacks();
+        var resolvedCopyMegaBezelPacks = com.github.deathbit.retroboy.domain.CopyDirInput.builder()
+                .srcDir(Paths.get(globalConfig.getResourcesHome(), copyMegaBezelPacks.getSrcDir()).toString())
+                .destDir(Paths.get(globalConfig.getRaHome(), copyMegaBezelPacks.getDestDir()).toString())
+                .build();
+        
+        List<CopyFileInput> resolvedCopyDefaultMegaBezelShader = appConfig.getSetMegaBezelShaderTask()
+                .getCopyDefaultMegaBezelShader().stream()
+                .map(input -> CopyFileInput.builder()
+                        .srcFile(Paths.get(globalConfig.getResourcesHome(), input.getSrcFile()).toString())
+                        .destDir(Paths.get(globalConfig.getRaHome(), input.getDestDir()).toString())
+                        .build())
+                .collect(Collectors.toList());
+        
+        List<Config> resolvedSetMegaBezelShaderConfigs = appConfig.getSetMegaBezelShaderTask()
+                .getSetMegaBezelShaderConfigs().stream()
+                .map(config -> Config.builder()
+                        .file(Paths.get(globalConfig.getRaHome(), config.getFile()).toString())
+                        .key(config.getKey())
+                        .value(config.getValue())
+                        .build())
+                .collect(Collectors.toList());
+        
+        fileComponent.copyDir(resolvedCopyMegaBezelPacks);
+        fileComponent.batchCopyFile(resolvedCopyDefaultMegaBezelShader);
+        configComponent.batchChangeConfig(resolvedSetMegaBezelShaderConfigs);
         printTaskDone("设置Mega Bezel着色器");
 
         printTask("设置平台", List.of());
