@@ -29,15 +29,4 @@ public class Utils {
         System.out.println("| " + taskName + " 完成");
         System.out.println(border);
     }
-
-    public static void printProgressBar(int current, int total) {
-        int value = current + 1;
-        double percent = (double) value / total;
-        int filled = (int) (percent * barLength);
-
-        String bar = "\r" + "█".repeat(filled) + "░".repeat(barLength - filled) + String.format(" %3d%% [%d/%d]", (int) (percent * 100), value, total);
-
-        if (value == total) System.out.println(bar);
-        else System.out.print(bar);
-    }
 }
