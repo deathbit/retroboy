@@ -100,16 +100,16 @@ public class StartupRunner implements ApplicationRunner {
                     
                     // ROMs_ALL is under esdeHome
                     if ("ROMs_ALL".equals(input.getSrcDir().toString())) {
-                        srcDir = Paths.get(globalConfig.getEsdeHome(), input.getSrcDir().toString());
+                        srcDir = Paths.get(globalConfig.getEsdeHome()).resolve(input.getSrcDir());
                     } else {
-                        srcDir = Paths.get(globalConfig.getResourcesHome(), input.getSrcDir().toString());
+                        srcDir = Paths.get(globalConfig.getResourcesHome()).resolve(input.getSrcDir());
                     }
                     
                     // ROMs dest is under esdeHome, others under raHome
                     if ("ROMs".equals(input.getDestDir().toString())) {
-                        destDir = Paths.get(globalConfig.getEsdeHome(), input.getDestDir().toString());
+                        destDir = Paths.get(globalConfig.getEsdeHome()).resolve(input.getDestDir());
                     } else {
-                        destDir = Paths.get(globalConfig.getRaHome(), input.getDestDir().toString());
+                        destDir = Paths.get(globalConfig.getRaHome()).resolve(input.getDestDir());
                     }
                     
                     return CopyDirContentInput.builder()
@@ -122,10 +122,10 @@ public class StartupRunner implements ApplicationRunner {
         // Resolve paths for copy files
         List<CopyFileInput> resolvedCopyFiles = appConfig.getDefaultConfigTask().getCopyFiles().stream()
                 .map(input -> {
-                    Path srcFile = Paths.get(globalConfig.getResourcesHome(), input.getSrcFile().toString());
+                    Path srcFile = Paths.get(globalConfig.getResourcesHome()).resolve(input.getSrcFile());
                     Path destDir = input.getDestDir().toString().isEmpty() 
                             ? Paths.get(globalConfig.getRaHome()) 
-                            : Paths.get(globalConfig.getRaHome(), input.getDestDir().toString());
+                            : Paths.get(globalConfig.getRaHome()).resolve(input.getDestDir());
                     return CopyFileInput.builder()
                             .srcFile(srcFile)
                             .destDir(destDir)
@@ -168,10 +168,10 @@ public class StartupRunner implements ApplicationRunner {
                 appConfig.getFixChineseFontTask().getDeleteFontFile());
         
         CopyFileInput copyFontFile = CopyFileInput.builder()
-                .srcFile(Paths.get(globalConfig.getResourcesHome(), 
-                        appConfig.getFixChineseFontTask().getCopyFontFile().getSrcFile().toString()))
-                .destDir(Paths.get(globalConfig.getRaHome(), 
-                        appConfig.getFixChineseFontTask().getCopyFontFile().getDestDir().toString()))
+                .srcFile(Paths.get(globalConfig.getResourcesHome()).resolve(
+                        appConfig.getFixChineseFontTask().getCopyFontFile().getSrcFile()))
+                .destDir(Paths.get(globalConfig.getRaHome()).resolve(
+                        appConfig.getFixChineseFontTask().getCopyFontFile().getDestDir()))
                 .build();
         
         Config setNotificationFont = Config.builder()
@@ -201,15 +201,15 @@ public class StartupRunner implements ApplicationRunner {
         // Resolve paths for Mega Bezel shader task
         var copyMegaBezelPacks = appConfig.getSetMegaBezelShaderTask().getCopyMegaBezelPacks();
         var resolvedCopyMegaBezelPacks = com.github.deathbit.retroboy.domain.CopyDirInput.builder()
-                .srcDir(Paths.get(globalConfig.getResourcesHome(), copyMegaBezelPacks.getSrcDir().toString()))
-                .destDir(Paths.get(globalConfig.getRaHome(), copyMegaBezelPacks.getDestDir().toString()))
+                .srcDir(Paths.get(globalConfig.getResourcesHome()).resolve(copyMegaBezelPacks.getSrcDir()))
+                .destDir(Paths.get(globalConfig.getRaHome()).resolve(copyMegaBezelPacks.getDestDir()))
                 .build();
         
         List<CopyFileInput> resolvedCopyDefaultMegaBezelShader = appConfig.getSetMegaBezelShaderTask()
                 .getCopyDefaultMegaBezelShader().stream()
                 .map(input -> CopyFileInput.builder()
-                        .srcFile(Paths.get(globalConfig.getResourcesHome(), input.getSrcFile().toString()))
-                        .destDir(Paths.get(globalConfig.getRaHome(), input.getDestDir().toString()))
+                        .srcFile(Paths.get(globalConfig.getResourcesHome()).resolve(input.getSrcFile()))
+                        .destDir(Paths.get(globalConfig.getRaHome()).resolve(input.getDestDir()))
                         .build())
                 .collect(Collectors.toList());
         
