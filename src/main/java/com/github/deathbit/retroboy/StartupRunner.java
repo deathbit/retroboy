@@ -180,8 +180,8 @@ public class StartupRunner implements ApplicationRunner {
                 .value(appConfig.getFixChineseFontTask().getSetNotificationFont().getValue())
                 .build();
         
-        fileComponent.deleteFile(deleteFontFile);
-        fileComponent.copyFile(copyFontFile);
+        fileComponent.batchDeleteFile(List.of(deleteFontFile));
+        fileComponent.batchCopyFile(List.of(copyFontFile));
         configComponent.changeConfig(setNotificationFont);
         printTaskDone("修复中文字体");
 
@@ -221,7 +221,7 @@ public class StartupRunner implements ApplicationRunner {
                         .build())
                 .collect(Collectors.toList());
         
-        fileComponent.copyDir(resolvedCopyMegaBezelPacks);
+        fileComponent.batchCopyDir(List.of(resolvedCopyMegaBezelPacks));
         fileComponent.batchCopyFile(resolvedCopyDefaultMegaBezelShader);
         configComponent.batchChangeConfig(resolvedSetMegaBezelShaderConfigs);
         printTaskDone("设置Mega Bezel着色器");

@@ -38,19 +38,23 @@ public abstract class AbstractHandler implements Handler {
             }
         }
 
-        handlerInput.getFileComponent().deleteDirContent(Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase()).toString());
-        for (Map.Entry<Area, Set<String>> entry : ruleContext.getAreaFinalMap().entrySet()) {
-            handlerInput.getFileComponent().createDir(Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase(), entry.getKey().name()).toString());
-        }
+        handlerInput.getFileComponent().batchDeleteDirContent(List.of(Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase()).toString()));
+        
+        List<String> dirsToCreate = ruleContext.getAreaFinalMap().entrySet().stream()
+                .map(entry -> Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase(), entry.getKey().name()).toString())
+                .collect(java.util.stream.Collectors.toList());
+        handlerInput.getFileComponent().batchCreateDir(dirsToCreate);
 
+        List<CopyFileInput> filesToCopy = new java.util.ArrayList<>();
         for (Map.Entry<Area, Set<String>> entry : ruleContext.getAreaFinalMap().entrySet()) {
             for (String fileName : entry.getValue()) {
-                handlerInput.getFileComponent().copyFile(CopyFileInput.builder()
-                        .srcFile()
-                        .destDir()
+                filesToCopy.add(CopyFileInput.builder()
+                        .srcFile(Paths.get(ruleContext.getRuleConfig().getRomDir(), fileName).toString())
+                        .destDir(Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase(), entry.getKey().name()).toString())
                         .build());
             }
         }
+        handlerInput.getFileComponent().batchCopyFile(filesToCopy);
     }
 
     private RuleContext buildRuleContext(HandlerInput handlerInput) throws Exception {
