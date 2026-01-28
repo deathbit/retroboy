@@ -49,7 +49,7 @@ public class ConfigComponentImpl implements ConfigComponent {
     }
 
     @Override
-    public void batchChangeConfig(List<Config> configs) throws Exception {
+    public void batchChangeConfigs(List<Config> configs) throws Exception {
         for (Config config : configs) {
             changeConfig(config);
         }

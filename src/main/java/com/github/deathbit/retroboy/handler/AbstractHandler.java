@@ -39,12 +39,12 @@ public abstract class AbstractHandler implements Handler {
             }
         }
 
-        handlerInput.getFileComponent().batchDeleteDirContent(List.of(Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase())));
+        handlerInput.getFileComponent().batchCleanDirs(List.of(Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase())));
         
         List<Path> dirsToCreate = ruleContext.getAreaFinalMap().entrySet().stream()
                 .map(entry -> Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase(), entry.getKey().name()))
                 .collect(java.util.stream.Collectors.toList());
-        handlerInput.getFileComponent().batchCreateDir(dirsToCreate);
+        handlerInput.getFileComponent().batchCreateDirs(dirsToCreate);
 
         List<CopyFileInput> filesToCopy = new java.util.ArrayList<>();
         for (Map.Entry<Area, Set<String>> entry : ruleContext.getAreaFinalMap().entrySet()) {
@@ -55,7 +55,7 @@ public abstract class AbstractHandler implements Handler {
                         .build());
             }
         }
-        handlerInput.getFileComponent().batchCopyFile(filesToCopy);
+        handlerInput.getFileComponent().batchCopyFiles(filesToCopy);
     }
 
     private RuleContext buildRuleContext(HandlerInput handlerInput) throws Exception {

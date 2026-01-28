@@ -13,7 +13,7 @@ import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.config.GlobalConfig;
 import com.github.deathbit.retroboy.domain.Config;
-import com.github.deathbit.retroboy.domain.CopyDirContentInput;
+import com.github.deathbit.retroboy.domain.CopyDirContentsInput;
 import com.github.deathbit.retroboy.domain.CopyFileInput;
 import com.github.deathbit.retroboy.domain.HandlerInput;
 import com.github.deathbit.retroboy.handler.handlers.nintendo.NesHandler;
@@ -72,8 +72,8 @@ public class StartupRunner implements ApplicationRunner {
                 })
                 .collect(Collectors.toList());
         
-        fileComponent.batchDeleteDirContent(resolvedDeleteContentDirs);
-        fileComponent.batchDeleteFile(resolvedDeleteFiles);
+        fileComponent.batchCleanDirs(resolvedDeleteContentDirs);
+        fileComponent.batchDeleteFiles(resolvedDeleteFiles);
         printTaskDone("清理目录和文件");
 
         printTask("默认配置", List.of(
@@ -93,8 +93,8 @@ public class StartupRunner implements ApplicationRunner {
         ));
         
         // Resolve paths for copy content dirs
-        List<CopyDirContentInput> resolvedCopyContentDirs = appConfig.getDefaultConfigTask().getCopyContentDirs().stream()
-                .map(input -> {
+        List<CopyDirContentsInput> resolvedCopyContentDirs = appConfig.getDefaultConfigTask().getCopyContentDirs().stream()
+                                                                      .map(input -> {
                     Path srcDir;
                     Path destDir;
                     
@@ -112,12 +112,12 @@ public class StartupRunner implements ApplicationRunner {
                         destDir = Paths.get(globalConfig.getRaHome()).resolve(input.getDestDir());
                     }
                     
-                    return CopyDirContentInput.builder()
-                            .srcDir(srcDir)
-                            .destDir(destDir)
-                            .build();
+                    return CopyDirContentsInput.builder()
+                                               .srcDir(srcDir)
+                                               .destDir(destDir)
+                                               .build();
                 })
-                .collect(Collectors.toList());
+                                                                      .collect(Collectors.toList());
         
         // Resolve paths for copy files
         List<CopyFileInput> resolvedCopyFiles = appConfig.getDefaultConfigTask().getCopyFiles().stream()
@@ -152,9 +152,9 @@ public class StartupRunner implements ApplicationRunner {
                 })
                 .collect(Collectors.toList());
         
-        fileComponent.batchCopyDirContent(resolvedCopyContentDirs);
-        fileComponent.batchCopyFile(resolvedCopyFiles);
-        configComponent.batchChangeConfig(resolvedRaConfigs);
+        fileComponent.batchCopyDirContentsToDirs(resolvedCopyContentDirs);
+        fileComponent.batchCopyFiles(resolvedCopyFiles);
+        configComponent.batchChangeConfigs(resolvedRaConfigs);
         printTaskDone("默认配置");
 
         printTask("修复中文字体", List.of(
@@ -181,8 +181,8 @@ public class StartupRunner implements ApplicationRunner {
                 .value(appConfig.getFixChineseFontTask().getSetNotificationFont().getValue())
                 .build();
         
-        fileComponent.batchDeleteFile(List.of(deleteFontFile));
-        fileComponent.batchCopyFile(List.of(copyFontFile));
+        fileComponent.batchDeleteFiles(List.of(deleteFontFile));
+        fileComponent.batchCopyFiles(List.of(copyFontFile));
         configComponent.changeConfig(setNotificationFont);
         printTaskDone("修复中文字体");
 
@@ -222,9 +222,9 @@ public class StartupRunner implements ApplicationRunner {
                         .build())
                 .collect(Collectors.toList());
         
-        fileComponent.batchCopyDir(List.of(resolvedCopyMegaBezelPacks));
-        fileComponent.batchCopyFile(resolvedCopyDefaultMegaBezelShader);
-        configComponent.batchChangeConfig(resolvedSetMegaBezelShaderConfigs);
+        fileComponent.batchCopyDirs(List.of(resolvedCopyMegaBezelPacks));
+        fileComponent.batchCopyFiles(resolvedCopyDefaultMegaBezelShader);
+        configComponent.batchChangeConfigs(resolvedSetMegaBezelShaderConfigs);
         printTaskDone("设置Mega Bezel着色器");
 
         printTask("设置平台", List.of());

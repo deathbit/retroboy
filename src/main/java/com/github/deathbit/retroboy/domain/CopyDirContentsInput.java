@@ -7,7 +7,7 @@ import java.nio.file.Path;
 
 @Data
 @Builder
-public class CopyDirContentInput {
+public class CopyDirContentsInput {
     private Path srcDir;
     private Path destDir;
 }

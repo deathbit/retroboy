@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 import com.github.deathbit.retroboy.component.FileComponent;
-import com.github.deathbit.retroboy.domain.CopyDirContentInput;
+import com.github.deathbit.retroboy.domain.CopyDirContentsInput;
 import com.github.deathbit.retroboy.domain.CopyDirInput;
 import com.github.deathbit.retroboy.domain.CopyFileInput;
 import com.github.deathbit.retroboy.domain.RenameFileInput;
@@ -49,21 +49,21 @@ public class FileComponentImpl implements FileComponent {
     }
 
     @Override
-    public void batchDeleteFile(List<Path> files) throws Exception {
+    public void batchDeleteFiles(List<Path> files) throws Exception {
         for (Path filePath : files) {
             deleteFile(filePath);
         }
     }
 
     @Override
-    public void batchDeleteDir(List<Path> dirs) throws Exception {
+    public void batchDeleteDirs(List<Path> dirs) throws Exception {
         for (Path dirPath : dirs) {
             deleteDir(dirPath);
         }
     }
 
     @Override
-    public void batchDeleteDirContent(List<Path> dirs) throws Exception {
+    public void batchCleanDirs(List<Path> dirs) throws Exception {
         for (Path dirPath : dirs) {
             deleteDirContent(dirPath);
         }
@@ -75,7 +75,7 @@ public class FileComponentImpl implements FileComponent {
     }
 
     @Override
-    public void batchCreateDir(List<Path> dirs) throws Exception {
+    public void batchCreateDirs(List<Path> dirs) throws Exception {
         for (Path dirPath : dirs) {
             createDir(dirPath);
         }
@@ -113,9 +113,9 @@ public class FileComponentImpl implements FileComponent {
         }
     }
 
-    private void copyDirContent(CopyDirContentInput copyDirContentInput) throws Exception {
-        Path srcPath = copyDirContentInput.getSrcDir();
-        Path destPath = copyDirContentInput.getDestDir();
+    private void copyDirContent(CopyDirContentsInput copyDirContentsInput) throws Exception {
+        Path srcPath = copyDirContentsInput.getSrcDir();
+        Path destPath = copyDirContentsInput.getDestDir();
         System.out.println("拷贝目录内容: " + srcPath + " -> " + destPath);
 
         Files.createDirectories(destPath);
@@ -136,23 +136,23 @@ public class FileComponentImpl implements FileComponent {
     }
 
     @Override
-    public void batchCopyFile(List<CopyFileInput> copyFileInputs) throws Exception {
+    public void batchCopyFiles(List<CopyFileInput> copyFileInputs) throws Exception {
         for (CopyFileInput copyFileInput : copyFileInputs) {
             copyFile(copyFileInput);
         }
     }
 
     @Override
-    public void batchCopyDir(List<CopyDirInput> copyDirInputs) throws Exception {
+    public void batchCopyDirs(List<CopyDirInput> copyDirInputs) throws Exception {
         for (CopyDirInput copyDirInput : copyDirInputs) {
             copyDir(copyDirInput);
         }
     }
 
     @Override
-    public void batchCopyDirContent(List<CopyDirContentInput> copyDirContentInputs) throws Exception {
-        for (CopyDirContentInput copyDirContentInput : copyDirContentInputs) {
-            copyDirContent(copyDirContentInput);
+    public void batchCopyDirContentsToDirs(List<CopyDirContentsInput> copyDirContentsInputs) throws Exception {
+        for (CopyDirContentsInput copyDirContentsInput : copyDirContentsInputs) {
+            copyDirContent(copyDirContentsInput);
         }
     }
 
@@ -167,7 +167,7 @@ public class FileComponentImpl implements FileComponent {
     }
 
     @Override
-    public void batchRenameFile(List<RenameFileInput> renameFileInputs) throws Exception {
+    public void batchRenameFiles(List<RenameFileInput> renameFileInputs) throws Exception {
         System.out.println("批量重命名文件: ");
         for (int i = 0; i < renameFileInputs.size(); i++) {
             renameFile(renameFileInputs.get(i));
