@@ -160,7 +160,7 @@ public class FileComponentImpl implements FileComponent {
         Path srcPath = Paths.get(renameFileInput.getSrcFile());
         Path parentDir = srcPath.getParent();
         if (parentDir == null) {
-            parentDir = Path.of(".");
+            parentDir = Paths.get(".");
         }
         Path destPath = parentDir.resolve(renameFileInput.getNewName());
         Files.move(srcPath, destPath, StandardCopyOption.REPLACE_EXISTING);
