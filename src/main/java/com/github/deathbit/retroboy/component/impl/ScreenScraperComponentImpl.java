@@ -294,6 +294,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return GetUserLevelsOutput.builder().userLevels(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode levelsNode = root.path("response").path("userlevels");
 
         List<UserLevel> levels = new ArrayList<>();
@@ -318,6 +319,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return GetPlayerCountsOutput.builder().playerCounts(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode playersNode = root.path("response").path("nbjoueurs");
 
         List<PlayerCount> counts = new ArrayList<>();
@@ -343,6 +345,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return GetSupportTypesOutput.builder().supportTypes(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode typesNode = root.path("response").path("supporttypes");
 
         List<SupportType> types = new ArrayList<>();
@@ -366,6 +369,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return GetRomTypesOutput.builder().romTypes(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode typesNode = root.path("response").path("romtypes");
 
         List<RomType> types = new ArrayList<>();
@@ -389,6 +393,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return GetRegionsOutput.builder().regions(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode regionsNode = root.path("response").path("regions");
 
         List<Region> regions = new ArrayList<>();
@@ -421,6 +426,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return GetLanguagesOutput.builder().languages(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode languagesNode = root.path("response").path("langues");
 
         List<Language> languages = new ArrayList<>();
@@ -453,6 +459,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return GetGenresOutput.builder().genres(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode genresNode = root.path("response").path("genres");
 
         List<Genre> genres = new ArrayList<>();
@@ -484,6 +491,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return GetFamiliesOutput.builder().families(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode familiesNode = root.path("response").path("familles");
 
         List<Family> families = new ArrayList<>();
@@ -509,6 +517,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return GetClassificationsOutput.builder().classifications(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode classificationsNode = root.path("response").path("classifications");
 
         List<Classification> classifications = new ArrayList<>();
@@ -541,6 +550,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return GetSystemMediaListOutput.builder().systemMediaList(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode mediasNode = root.path("response").path("medias");
 
         List<SystemMediaInfo> mediaList = new ArrayList<>();
@@ -577,6 +587,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return GetGameMediaListOutput.builder().gameMediaList(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode mediasNode = root.path("response").path("medias");
 
         List<GameMediaInfo> mediaList = new ArrayList<>();
@@ -613,6 +624,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return GetGameInfoListOutput.builder().gameInfoList(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode infosNode = root.path("response").path("infos");
 
         List<GameInfo> infoList = new ArrayList<>();
@@ -647,6 +659,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return GetRomInfoListOutput.builder().romInfoList(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode infosNode = root.path("response").path("infos");
 
         List<RomInfo> infoList = new ArrayList<>();
@@ -733,6 +746,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return GetSystemListOutput.builder().systems(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode systemsNode = root.path("response").path("systemes");
 
         List<GameSystem> systems = new ArrayList<>();
@@ -822,6 +836,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return SearchGamesOutput.builder().games(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode gamesNode = root.path("response").path("jeux");
 
         List<Game> games = new ArrayList<>();
@@ -864,6 +879,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (response == null) return GetGameInfoOutput.builder().build();
 
         JsonNode root = objectMapper.readTree(response);
+        System.out.println(root.toPrettyString());
         JsonNode gameNode = root.path("response").path("jeu");
 
         Game game = parseGame(gameNode);
