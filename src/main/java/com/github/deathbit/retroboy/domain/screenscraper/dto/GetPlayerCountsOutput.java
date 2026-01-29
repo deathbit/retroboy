@@ -1,5 +1,6 @@
 package com.github.deathbit.retroboy.domain.screenscraper.dto;
 
+import com.github.deathbit.retroboy.domain.screenscraper.ApiResponseHeader;
 import com.github.deathbit.retroboy.domain.screenscraper.PlayerCount;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,5 +14,6 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class GetPlayerCountsOutput {
+    private ApiResponseHeader header;
     private List<PlayerCount> playerCounts;
 }
