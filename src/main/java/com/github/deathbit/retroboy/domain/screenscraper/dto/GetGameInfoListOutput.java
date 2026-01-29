@@ -1,13 +1,11 @@
 package com.github.deathbit.retroboy.domain.screenscraper.dto;
 
 import com.github.deathbit.retroboy.domain.screenscraper.ApiResponseHeader;
-import com.github.deathbit.retroboy.domain.screenscraper.GameInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.GameInfoListResponse;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
 
 @Data
 @Builder
@@ -15,5 +13,5 @@ import java.util.List;
 @AllArgsConstructor
 public class GetGameInfoListOutput {
     private ApiResponseHeader header;
-    private List<GameInfo> gameInfoList;
+    private GameInfoListResponse response;
 }
