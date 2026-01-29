@@ -8,7 +8,7 @@ import lombok.Data;
 @Data
 @Builder
 public class FixChineseFontTask {
-    private String deleteFontFile;
-    private CopyFileInput copyFontFile;
+    private String deleteOriginalFontFile;
+    private CopyFileInput copyNewFontFile;
     private ConfigInput setNotificationFont;
 }

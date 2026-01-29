@@ -1,6 +1,5 @@
 package com.github.deathbit.retroboy.domain;
 
-import com.github.deathbit.retroboy.config.domain.RuleConfig;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.Platform;
 import lombok.AllArgsConstructor;

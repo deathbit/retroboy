@@ -11,7 +11,7 @@ import java.util.List;
 @Data
 @Builder
 public class DefaultConfigTask {
-    private List<CopyDirContentsInput> copyContentDirs;
-    private List<CopyFileInput> copyFiles;
+    private List<CopyDirContentsInput> copyDirContentsInputs;
+    private List<CopyFileInput> copyFileInputs;
     private List<ConfigInput> raConfigInputs;
 }

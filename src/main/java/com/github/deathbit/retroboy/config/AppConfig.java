@@ -1,6 +1,6 @@
 package com.github.deathbit.retroboy.config;
 
-import com.github.deathbit.retroboy.config.domain.RuleConfig;
+import com.github.deathbit.retroboy.domain.RuleConfig;
 import com.github.deathbit.retroboy.config.tasks.CleanUpTask;
 import com.github.deathbit.retroboy.config.tasks.DefaultConfigTask;
 import com.github.deathbit.retroboy.config.tasks.FixChineseFontTask;

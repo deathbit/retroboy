@@ -1,4 +1,4 @@
-package com.github.deathbit.retroboy.config.domain;
+package com.github.deathbit.retroboy.domain;
 
 import com.github.deathbit.retroboy.enums.Platform;
 import lombok.Builder;

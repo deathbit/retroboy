@@ -1,34 +1,38 @@
 package com.github.deathbit.retroboy.handler;
 
-import com.github.deathbit.retroboy.config.domain.AreaConfig;
-import com.github.deathbit.retroboy.config.domain.RuleConfig;
-import com.github.deathbit.retroboy.domain.CopyFileInput;
-import com.github.deathbit.retroboy.domain.FileContext;
-import com.github.deathbit.retroboy.domain.HandlerInput;
-import com.github.deathbit.retroboy.domain.RuleContext;
+import com.github.deathbit.retroboy.component.FileComponent;
+import com.github.deathbit.retroboy.config.AppConfig;
+import com.github.deathbit.retroboy.domain.*;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.rule.Rule;
 import com.github.deathbit.retroboy.rule.Rules;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public abstract class AbstractHandler implements Handler {
+
+    @Autowired
+    private AppConfig appConfig;
+
+    @Autowired
+    private FileComponent fileComponent;
 
     private static final Pattern REV_TAG = Pattern.compile("\\(Rev\\s+(\\d+)\\)");
 
     @Override
-    public void handle(HandlerInput handlerInput) throws Exception {
-        RuleContext ruleContext = buildRuleContext(handlerInput);
+    public void handle() throws Exception {
+        RuleContext ruleContext = buildRuleContext();
         Map<Area, Rule> ruleMap = getRuleMap();
 
         for (Map.Entry<String, FileContext> entry : ruleContext.getFileContextMap().entrySet()) {
@@ -45,59 +49,43 @@ public abstract class AbstractHandler implements Handler {
             }
         }
 
-        handlerInput.getFileComponent().batchCleanDirs(List.of(Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase())));
+        fileComponent.batchCleanDirs(List.of(ruleContext.getRuleConfig().getTargetDirBase()));
 
-        List<Path> dirsToCreate = ruleContext.getAreaFinalMap().entrySet().stream()
-                .map(entry -> Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase(), entry.getKey().name()))
-                .collect(java.util.stream.Collectors.toList());
-        handlerInput.getFileComponent().batchCreateDirs(dirsToCreate);
+        List<String> dirsToCreate = ruleContext.getAreaFinalMap().keySet().stream()
+                .map(strings -> Paths.get(ruleContext.getRuleConfig().getTargetDirBase(), strings.name()).toString())
+                .collect(Collectors.toList());
+        fileComponent.batchCreateDirs(dirsToCreate);
 
-        List<CopyFileInput> filesToCopy = new java.util.ArrayList<>();
+        List<CopyFileInput> filesToCopy = new ArrayList<>();
         for (Map.Entry<Area, Set<String>> entry : ruleContext.getAreaFinalMap().entrySet()) {
             for (String fileName : entry.getValue()) {
                 filesToCopy.add(CopyFileInput.builder()
-                        .srcFile(Paths.get(ruleContext.getRuleConfig().getRomDir(), fileName))
-                        .destDir(Paths.get(handlerInput.getAppConfig().getGlobalConfig().getEsdeHome(), ruleContext.getRuleConfig().getTargetDirBase(), entry.getKey().name()))
+                        .srcFile(Paths.get(ruleContext.getRuleConfig().getRomDir(), fileName).toString())
+                        .destDir(Paths.get(ruleContext.getRuleConfig().getTargetDirBase(), entry.getKey().name()).toString())
                         .build());
             }
         }
-        handlerInput.getFileComponent().batchCopyFiles(filesToCopy);
+        fileComponent.batchCopyFiles(filesToCopy);
     }
 
-    private RuleContext buildRuleContext(HandlerInput handlerInput) throws Exception {
-        RuleContext ruleContext = initializeRuleContext(handlerInput);
+    private RuleContext buildRuleContext() throws Exception {
+        RuleContext ruleContext = initializeRuleContext();
         ruleContext.setLicensed(parseLicensedGames(ruleContext.getRuleConfig().getDatFile()));
         populateFileContextMap(ruleContext, ruleContext.getRuleConfig().getRomDir());
 
         return ruleContext;
     }
 
-    private RuleContext initializeRuleContext(HandlerInput handlerInput) {
+    private RuleContext initializeRuleContext() {
         RuleContext ruleContext = new RuleContext();
         ruleContext.setPlatform(getPlatform());
-
-        // Get original rule config
-        RuleConfig originalConfig = handlerInput.getAppConfig().getRuleConfigMap().get(ruleContext.getPlatform());
-
-        // Resolve paths using GlobalConfig
-        var globalConfig = handlerInput.getAppConfig().getGlobalConfig();
-        RuleConfig resolvedConfig = RuleConfig.builder()
-                .platform(originalConfig.getPlatform())
-                .datFile(java.nio.file.Paths.get(globalConfig.getResourcesHome(), originalConfig.getDatFile()).toString())
-                .romDir(java.nio.file.Paths.get(globalConfig.getResourcesHome(), originalConfig.getRomDir()).toString())
-                .targetDirBase(java.nio.file.Paths.get(globalConfig.getEsdeHome(), originalConfig.getTargetDirBase()).toString())
-                .targetAreaConfigs(originalConfig.getTargetAreaConfigs())
-                .tagBlackList(originalConfig.getTagBlackList())
-                .fileNameBlackList(originalConfig.getFileNameBlackList())
-                .build();
-
-        ruleContext.setRuleConfig(resolvedConfig);
+        ruleContext.setRuleConfig(appConfig.getRuleConfigMap().get(ruleContext.getPlatform()));
         ruleContext.setFileContextMap(new HashMap<>());
         ruleContext.setAreaFinalMap(new HashMap<>());
         for (AreaConfig areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
             ruleContext.getAreaFinalMap().put(areaConfig.getArea(), new HashSet<>());
         }
-        ruleContext.setGlobalTagBlackList(handlerInput.getAppConfig().getGlobalConfig().getGlobalTagBlacklist());
+        ruleContext.setGlobalTagBlackList(appConfig.getGlobalConfig().getGlobalTagBlacklist());
 
         return ruleContext;
     }
