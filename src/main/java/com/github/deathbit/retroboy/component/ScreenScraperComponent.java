@@ -1,6 +1,23 @@
 package com.github.deathbit.retroboy.component;
 
-import com.github.deathbit.retroboy.domain.screenscraper.*;
+import com.github.deathbit.retroboy.domain.screenscraper.ApiCredentials;
+import com.github.deathbit.retroboy.domain.screenscraper.Classification;
+import com.github.deathbit.retroboy.domain.screenscraper.Family;
+import com.github.deathbit.retroboy.domain.screenscraper.Game;
+import com.github.deathbit.retroboy.domain.screenscraper.GameInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.GameMediaInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.GameSystem;
+import com.github.deathbit.retroboy.domain.screenscraper.Genre;
+import com.github.deathbit.retroboy.domain.screenscraper.Language;
+import com.github.deathbit.retroboy.domain.screenscraper.PlayerCount;
+import com.github.deathbit.retroboy.domain.screenscraper.Region;
+import com.github.deathbit.retroboy.domain.screenscraper.RomInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.RomType;
+import com.github.deathbit.retroboy.domain.screenscraper.ServerInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.SupportType;
+import com.github.deathbit.retroboy.domain.screenscraper.SystemMediaInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.UserInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.UserLevel;
 
 import java.util.List;
 import java.util.Map;
@@ -314,10 +331,10 @@ public interface ScreenScraperComponent {
      * Submit information or media proposal to ScreenScraper
      * Note: This method requires multipart/form-data POST request
      *
-     * @param credentials   API credentials with user ID and password
-     * @param gameId        Numeric ID of the game (or use romId)
-     * @param romId         Numeric ID of the ROM (optional, alternative to gameId)
-     * @param proposalData  Map containing proposal data (type, region, language, text, media file, etc.)
+     * @param credentials  API credentials with user ID and password
+     * @param gameId       Numeric ID of the game (or use romId)
+     * @param romId        Numeric ID of the ROM (optional, alternative to gameId)
+     * @param proposalData Map containing proposal data (type, region, language, text, media file, etc.)
      * @return Response message indicating success or failure
      * @throws Exception if the API request fails
      */

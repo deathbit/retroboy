@@ -17,22 +17,22 @@ public class ApiCredentials {
      * Developer ID provided by ScreenScraper
      */
     private String devId;
-    
+
     /**
      * Developer password provided by ScreenScraper
      */
     private String devPassword;
-    
+
     /**
      * Name of the calling software
      */
     private String softName;
-    
+
     /**
      * ScreenScraper user ID (optional)
      */
     private String ssId;
-    
+
     /**
      * ScreenScraper user password (optional)
      */

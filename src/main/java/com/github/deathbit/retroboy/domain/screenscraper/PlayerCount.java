@@ -17,12 +17,12 @@ public class PlayerCount {
      * Numeric identifier of the number of players
      */
     private Integer id;
-    
+
     /**
      * Designation of the number of players
      */
     private String name;
-    
+
     /**
      * Numeric identifier of the parent (0 if no parent)
      */

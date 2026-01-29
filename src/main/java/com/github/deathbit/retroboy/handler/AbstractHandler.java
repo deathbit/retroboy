@@ -2,7 +2,10 @@ package com.github.deathbit.retroboy.handler;
 
 import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
-import com.github.deathbit.retroboy.domain.*;
+import com.github.deathbit.retroboy.domain.AreaConfig;
+import com.github.deathbit.retroboy.domain.CopyFileInput;
+import com.github.deathbit.retroboy.domain.FileContext;
+import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.rule.Rule;
@@ -15,20 +18,25 @@ import org.w3c.dom.NodeList;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.nio.file.Paths;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public abstract class AbstractHandler implements Handler {
 
+    private static final Pattern REV_TAG = Pattern.compile("\\(Rev\\s+(\\d+)\\)");
     @Autowired
     private AppConfig appConfig;
-
     @Autowired
     private FileComponent fileComponent;
-
-    private static final Pattern REV_TAG = Pattern.compile("\\(Rev\\s+(\\d+)\\)");
 
     @Override
     public void handle() throws Exception {

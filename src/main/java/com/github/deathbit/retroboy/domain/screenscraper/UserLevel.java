@@ -17,7 +17,7 @@ public class UserLevel {
      * Numeric identifier of the level
      */
     private Integer id;
-    
+
     /**
      * Name of the level in French
      */

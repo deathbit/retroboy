@@ -1,7 +1,11 @@
 package com.github.deathbit.retroboy.component.impl;
 
 import com.github.deathbit.retroboy.component.FileComponent;
-import com.github.deathbit.retroboy.domain.*;
+import com.github.deathbit.retroboy.domain.CopyDirContentsInput;
+import com.github.deathbit.retroboy.domain.CopyDirInput;
+import com.github.deathbit.retroboy.domain.CopyFileInput;
+import com.github.deathbit.retroboy.domain.ProgressBar;
+import com.github.deathbit.retroboy.domain.RenameFileInput;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
