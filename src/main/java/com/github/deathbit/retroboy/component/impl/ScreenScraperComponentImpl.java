@@ -397,14 +397,15 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         JsonNode playersNode = root.path("response").path("nbjoueurs");
 
         List<PlayerCount> counts = new ArrayList<>();
-        if (playersNode.isArray()) {
-            for (JsonNode node : playersNode) {
+        if (playersNode.isObject()) {
+            playersNode.properties().forEach(entry -> {
+                JsonNode node = entry.getValue();
                 counts.add(PlayerCount.builder()
                         .id(node.path("id").asInt())
                         .name(node.path("nom").asString())
                         .parent(node.path("parent").asInt())
                         .build());
-            }
+            });
         }
 
         PlayerCountsResponse playerCountsResponse = PlayerCountsResponse.builder()
