@@ -397,7 +397,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         JsonNode playersNode = root.path("response").path("nbjoueurs");
 
         List<PlayerCount> counts = new ArrayList<>();
-        if (playersNode.isObject()) {
+        if (playersNode != null && !playersNode.isMissingNode() && playersNode.isObject()) {
             playersNode.properties().forEach(entry -> {
                 JsonNode node = entry.getValue();
                 counts.add(PlayerCount.builder()
