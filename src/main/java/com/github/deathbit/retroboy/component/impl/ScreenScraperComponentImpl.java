@@ -218,9 +218,13 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
     /**
      * Parse API response header from JSON
+     * Returns null if header node is missing from the response
      */
     private ApiResponseHeader parseHeader(JsonNode root) {
         JsonNode headerNode = root.path("header");
+        if (headerNode.isMissingNode() || headerNode.isNull()) {
+            return null;
+        }
         return ApiResponseHeader.builder()
                 .apiVersion(headerNode.path("APIversion").asText())
                 .dateTime(headerNode.path("dateTime").asText())
@@ -235,7 +239,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("ssinfraInfos.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetInfrastructureInfoOutput.builder().build();
+        if (response == null) return GetInfrastructureInfoOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -267,7 +271,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("ssuserInfos.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetUserInfoOutput.builder().build();
+        if (response == null) return GetUserInfoOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -308,7 +312,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("userlevelsListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetUserLevelsOutput.builder().userLevels(Collections.emptyList()).build();
+        if (response == null) return GetUserLevelsOutput.builder().header(null).userLevels(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -334,7 +338,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("nbJoueursListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetPlayerCountsOutput.builder().playerCounts(Collections.emptyList()).build();
+        if (response == null) return GetPlayerCountsOutput.builder().header(null).playerCounts(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -361,7 +365,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("supportTypesListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetSupportTypesOutput.builder().supportTypes(Collections.emptyList()).build();
+        if (response == null) return GetSupportTypesOutput.builder().header(null).supportTypes(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -386,7 +390,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("romTypesListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetRomTypesOutput.builder().romTypes(Collections.emptyList()).build();
+        if (response == null) return GetRomTypesOutput.builder().header(null).romTypes(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -411,7 +415,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("regionsListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetRegionsOutput.builder().regions(Collections.emptyList()).build();
+        if (response == null) return GetRegionsOutput.builder().header(null).regions(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -445,7 +449,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("languesListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetLanguagesOutput.builder().languages(Collections.emptyList()).build();
+        if (response == null) return GetLanguagesOutput.builder().header(null).languages(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -479,7 +483,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("genresListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetGenresOutput.builder().genres(Collections.emptyList()).build();
+        if (response == null) return GetGenresOutput.builder().header(null).genres(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -512,7 +516,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("famillesListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetFamiliesOutput.builder().families(Collections.emptyList()).build();
+        if (response == null) return GetFamiliesOutput.builder().header(null).families(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -539,7 +543,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("classificationsListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetClassificationsOutput.builder().classifications(Collections.emptyList()).build();
+        if (response == null) return GetClassificationsOutput.builder().header(null).classifications(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -573,7 +577,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("mediasSystemeListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetSystemMediaListOutput.builder().systemMediaList(Collections.emptyList()).build();
+        if (response == null) return GetSystemMediaListOutput.builder().header(null).systemMediaList(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -611,7 +615,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("mediasJeuListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetGameMediaListOutput.builder().gameMediaList(Collections.emptyList()).build();
+        if (response == null) return GetGameMediaListOutput.builder().header(null).gameMediaList(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -649,7 +653,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("infosJeuListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetGameInfoListOutput.builder().gameInfoList(Collections.emptyList()).build();
+        if (response == null) return GetGameInfoListOutput.builder().header(null).gameInfoList(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -685,7 +689,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("infosRomListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetRomInfoListOutput.builder().romInfoList(Collections.emptyList()).build();
+        if (response == null) return GetRomInfoListOutput.builder().header(null).romInfoList(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -775,7 +779,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("systemesListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetSystemListOutput.builder().systems(Collections.emptyList()).build();
+        if (response == null) return GetSystemListOutput.builder().header(null).systems(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -868,7 +872,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         }
 
         String response = executeGetRequest(builder.toUriString());
-        if (response == null) return SearchGamesOutput.builder().games(Collections.emptyList()).build();
+        if (response == null) return SearchGamesOutput.builder().header(null).games(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -912,7 +916,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         }
 
         String response = executeGetRequest(builder.toUriString());
-        if (response == null) return GetGameInfoOutput.builder().build();
+        if (response == null) return GetGameInfoOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
