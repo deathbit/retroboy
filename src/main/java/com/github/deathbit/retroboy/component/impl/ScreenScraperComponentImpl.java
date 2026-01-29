@@ -1,8 +1,63 @@
 package com.github.deathbit.retroboy.component.impl;
 
 import com.github.deathbit.retroboy.component.ScreenScraperComponent;
-import com.github.deathbit.retroboy.domain.screenscraper.*;
-import com.github.deathbit.retroboy.domain.screenscraper.dto.*;
+import com.github.deathbit.retroboy.domain.screenscraper.ApiCredentials;
+import com.github.deathbit.retroboy.domain.screenscraper.Classification;
+import com.github.deathbit.retroboy.domain.screenscraper.Family;
+import com.github.deathbit.retroboy.domain.screenscraper.Game;
+import com.github.deathbit.retroboy.domain.screenscraper.GameInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.GameMediaInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.GameSystem;
+import com.github.deathbit.retroboy.domain.screenscraper.Genre;
+import com.github.deathbit.retroboy.domain.screenscraper.Language;
+import com.github.deathbit.retroboy.domain.screenscraper.PlayerCount;
+import com.github.deathbit.retroboy.domain.screenscraper.Region;
+import com.github.deathbit.retroboy.domain.screenscraper.Rom;
+import com.github.deathbit.retroboy.domain.screenscraper.RomInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.RomType;
+import com.github.deathbit.retroboy.domain.screenscraper.ServerInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.SupportType;
+import com.github.deathbit.retroboy.domain.screenscraper.SystemMediaInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.UserInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.UserLevel;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadCompanyMediaInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadCompanyMediaOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameManualInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameManualOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameMediaInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameMediaOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameVideoInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameVideoOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGroupMediaInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGroupMediaOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadSystemMediaInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadSystemMediaOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadSystemVideoInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadSystemVideoOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetClassificationsOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetFamiliesOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetGameInfoInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetGameInfoListOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetGameInfoOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetGameMediaListOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetGenresOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetInfrastructureInfoOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetLanguagesOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetPlayerCountsOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetRegionsOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetRomInfoListOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetRomTypesOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetSupportTypesOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetSystemListOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetSystemMediaListOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetUserInfoOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetUserLevelsOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SearchGamesInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SearchGamesOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SubmitGameRatingInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SubmitGameRatingOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SubmitProposalInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SubmitProposalOutput;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -35,14 +90,15 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
     /**
      * Static API credentials for ScreenScraper authentication
-     * TODO: Configure these credentials from application properties or environment variables
+     * TODO: Configure these credentials from application.properties or environment variables
+     * instead of hardcoding them. Consider using @Value or @ConfigurationProperties.
      */
     private static final ApiCredentials API_CREDENTIALS = ApiCredentials.builder()
             .devId("your_dev_id")
             .devPassword("your_dev_password")
             .softName("retroboy")
-            .ssId("")
-            .ssPassword("")
+            .ssId(null)  // Optional: User ID (null if not using user-specific features)
+            .ssPassword(null)  // Optional: User password (null if not using user-specific features)
             .build();
 
     private final RestTemplate restTemplate;

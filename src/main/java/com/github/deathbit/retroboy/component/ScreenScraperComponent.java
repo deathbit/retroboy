@@ -1,6 +1,43 @@
 package com.github.deathbit.retroboy.component;
 
-import com.github.deathbit.retroboy.domain.screenscraper.dto.*;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadCompanyMediaInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadCompanyMediaOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameManualInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameManualOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameMediaInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameMediaOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameVideoInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameVideoOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGroupMediaInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGroupMediaOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadSystemMediaInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadSystemMediaOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadSystemVideoInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadSystemVideoOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetClassificationsOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetFamiliesOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetGameInfoInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetGameInfoListOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetGameInfoOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetGameMediaListOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetGenresOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetInfrastructureInfoOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetLanguagesOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetPlayerCountsOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetRegionsOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetRomInfoListOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetRomTypesOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetSupportTypesOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetSystemListOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetSystemMediaListOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetUserInfoOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetUserLevelsOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SearchGamesInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SearchGamesOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SubmitGameRatingInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SubmitGameRatingOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SubmitProposalInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SubmitProposalOutput;
 
 /**
  * ScreenScraper API component for accessing game database information and media
