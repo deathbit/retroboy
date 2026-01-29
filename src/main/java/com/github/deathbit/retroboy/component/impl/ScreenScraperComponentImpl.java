@@ -364,7 +364,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         JsonNode levelsNode = root.path("response").path("userlevels");
 
         List<UserLevel> levels = new ArrayList<>();
-        if (levelsNode.isObject()) {
+        if (levelsNode != null && !levelsNode.isMissingNode() && levelsNode.isObject()) {
             levelsNode.properties().forEach(entry -> {
                 JsonNode node = entry.getValue();
                 levels.add(UserLevel.builder()
