@@ -4,24 +4,43 @@ import com.github.deathbit.retroboy.component.ScreenScraperComponent;
 import com.github.deathbit.retroboy.domain.screenscraper.ApiCredentials;
 import com.github.deathbit.retroboy.domain.screenscraper.ApiResponseHeader;
 import com.github.deathbit.retroboy.domain.screenscraper.Classification;
+import com.github.deathbit.retroboy.domain.screenscraper.ClassificationsResponse;
+import com.github.deathbit.retroboy.domain.screenscraper.DownloadMediaResponse;
+import com.github.deathbit.retroboy.domain.screenscraper.FamiliesResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.Family;
 import com.github.deathbit.retroboy.domain.screenscraper.Game;
 import com.github.deathbit.retroboy.domain.screenscraper.GameInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.GameInfoListResponse;
+import com.github.deathbit.retroboy.domain.screenscraper.GameInfoResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.GameMediaInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.GameMediaListResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.GameSystem;
 import com.github.deathbit.retroboy.domain.screenscraper.Genre;
+import com.github.deathbit.retroboy.domain.screenscraper.GenresResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.InfrastructureInfoResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.Language;
+import com.github.deathbit.retroboy.domain.screenscraper.LanguagesResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.PlayerCount;
+import com.github.deathbit.retroboy.domain.screenscraper.PlayerCountsResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.Region;
+import com.github.deathbit.retroboy.domain.screenscraper.RegionsResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.Rom;
 import com.github.deathbit.retroboy.domain.screenscraper.RomInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.RomInfoListResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.RomType;
+import com.github.deathbit.retroboy.domain.screenscraper.RomTypesResponse;
+import com.github.deathbit.retroboy.domain.screenscraper.SearchGamesResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.ServerInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.SubmitResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.SupportType;
+import com.github.deathbit.retroboy.domain.screenscraper.SupportTypesResponse;
+import com.github.deathbit.retroboy.domain.screenscraper.SystemListResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.SystemMediaInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.SystemMediaListResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.UserInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.UserInfoResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.UserLevel;
+import com.github.deathbit.retroboy.domain.screenscraper.UserLevelsResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadCompanyMediaInput;
 import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadCompanyMediaOutput;
 import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameManualInput;
@@ -308,9 +327,13 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                 .favRegion(userNode.path("favregion").asString())
                 .build();
 
+        UserInfoResponse userInfoResponse = UserInfoResponse.builder()
+                .ssuser(userInfo)
+                .build();
+
         return GetUserInfoOutput.builder()
                 .header(header)
-                .userInfo(userInfo)
+                .response(userInfoResponse)
                 .build();
     }
 
@@ -319,7 +342,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("userlevelsListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetUserLevelsOutput.builder().header(null).userLevels(Collections.emptyList()).build();
+        if (response == null) return GetUserLevelsOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -335,9 +358,14 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
+
+        UserLevelsResponse userLevelsResponse = UserLevelsResponse.builder()
+                .niveaux(levels)
+                .build();
+
         return GetUserLevelsOutput.builder()
                 .header(header)
-                .userLevels(levels)
+                .response(userLevelsResponse)
                 .build();
     }
 
@@ -346,7 +374,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("nbJoueursListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetPlayerCountsOutput.builder().header(null).playerCounts(Collections.emptyList()).build();
+        if (response == null) return GetPlayerCountsOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -363,9 +391,14 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
+
+        PlayerCountsResponse playerCountsResponse = PlayerCountsResponse.builder()
+                .joueurs(counts)
+                .build();
+
         return GetPlayerCountsOutput.builder()
                 .header(header)
-                .playerCounts(counts)
+                .response(playerCountsResponse)
                 .build();
     }
 
@@ -374,7 +407,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("supportTypesListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetSupportTypesOutput.builder().header(null).supportTypes(Collections.emptyList()).build();
+        if (response == null) return GetSupportTypesOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -389,9 +422,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
+        SupportTypesResponse responseObj = SupportTypesResponse.builder()
+                .supportstypes(types)
+                .build();
         return GetSupportTypesOutput.builder()
                 .header(header)
-                .supportTypes(types)
+                .response(responseObj)
                 .build();
     }
 
@@ -400,7 +436,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("romTypesListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetRomTypesOutput.builder().header(null).romTypes(Collections.emptyList()).build();
+        if (response == null) return GetRomTypesOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -415,9 +451,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
+        RomTypesResponse responseObj = RomTypesResponse.builder()
+                .romstypes(types)
+                .build();
         return GetRomTypesOutput.builder()
                 .header(header)
-                .romTypes(types)
+                .response(responseObj)
                 .build();
     }
 
@@ -426,7 +465,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("regionsListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetRegionsOutput.builder().header(null).regions(Collections.emptyList()).build();
+        if (response == null) return GetRegionsOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -450,9 +489,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
+        RegionsResponse responseObj = RegionsResponse.builder()
+                .regions(regions)
+                .build();
         return GetRegionsOutput.builder()
                 .header(header)
-                .regions(regions)
+                .response(responseObj)
                 .build();
     }
 
@@ -461,7 +503,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("languesListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetLanguagesOutput.builder().header(null).languages(Collections.emptyList()).build();
+        if (response == null) return GetLanguagesOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -485,9 +527,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
+        LanguagesResponse responseObj = LanguagesResponse.builder()
+                .langues(languages)
+                .build();
         return GetLanguagesOutput.builder()
                 .header(header)
-                .languages(languages)
+                .response(responseObj)
                 .build();
     }
 
@@ -496,7 +541,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("genresListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetGenresOutput.builder().header(null).genres(Collections.emptyList()).build();
+        if (response == null) return GetGenresOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -519,9 +564,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
+        GenresResponse responseObj = GenresResponse.builder()
+                .genres(genres)
+                .build();
         return GetGenresOutput.builder()
                 .header(header)
-                .genres(genres)
+                .response(responseObj)
                 .build();
     }
 
@@ -530,7 +578,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("famillesListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetFamiliesOutput.builder().header(null).families(Collections.emptyList()).build();
+        if (response == null) return GetFamiliesOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -547,9 +595,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
+        FamiliesResponse responseObj = FamiliesResponse.builder()
+                .familles(families)
+                .build();
         return GetFamiliesOutput.builder()
                 .header(header)
-                .families(families)
+                .response(responseObj)
                 .build();
     }
 
@@ -558,7 +609,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("classificationsListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetClassificationsOutput.builder().header(null).classifications(Collections.emptyList()).build();
+        if (response == null) return GetClassificationsOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -582,9 +633,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
+        ClassificationsResponse responseObj = ClassificationsResponse.builder()
+                .classifications(classifications)
+                .build();
         return GetClassificationsOutput.builder()
                 .header(header)
-                .classifications(classifications)
+                .response(responseObj)
                 .build();
     }
 
@@ -593,7 +647,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("mediasSystemeListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetSystemMediaListOutput.builder().header(null).systemMediaList(Collections.emptyList()).build();
+        if (response == null) return GetSystemMediaListOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -621,9 +675,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
+        SystemMediaListResponse responseObj = SystemMediaListResponse.builder()
+                .medias(mediaList)
+                .build();
         return GetSystemMediaListOutput.builder()
                 .header(header)
-                .systemMediaList(mediaList)
+                .response(responseObj)
                 .build();
     }
 
@@ -632,7 +689,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("mediasJeuListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetGameMediaListOutput.builder().header(null).gameMediaList(Collections.emptyList()).build();
+        if (response == null) return GetGameMediaListOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -660,9 +717,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
+        GameMediaListResponse responseObj = GameMediaListResponse.builder()
+                .medias(mediaList)
+                .build();
         return GetGameMediaListOutput.builder()
                 .header(header)
-                .gameMediaList(mediaList)
+                .response(responseObj)
                 .build();
     }
 
@@ -671,7 +731,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("infosJeuListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetGameInfoListOutput.builder().header(null).gameInfoList(Collections.emptyList()).build();
+        if (response == null) return GetGameInfoListOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -697,9 +757,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
+        GameInfoListResponse responseObj = GameInfoListResponse.builder()
+                .jeuinfos(infoList)
+                .build();
         return GetGameInfoListOutput.builder()
                 .header(header)
-                .gameInfoList(infoList)
+                .response(responseObj)
                 .build();
     }
 
@@ -708,7 +771,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("infosRomListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetRomInfoListOutput.builder().header(null).romInfoList(Collections.emptyList()).build();
+        if (response == null) return GetRomInfoListOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -734,9 +797,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
+        RomInfoListResponse responseObj = RomInfoListResponse.builder()
+                .rominfos(infoList)
+                .build();
         return GetRomInfoListOutput.builder()
                 .header(header)
-                .romInfoList(infoList)
+                .response(responseObj)
                 .build();
     }
 
@@ -761,9 +827,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (maxHeight != null) builder.queryParam("maxheight", maxHeight);
 
         byte[] data = executeGetBinaryRequest(builder.toUriString());
+        DownloadMediaResponse responseObj = DownloadMediaResponse.builder()
+                .data(data)
+                .build();
         return DownloadGroupMediaOutput.builder()
                 .header(null)
-                .data(data)
+                .response(responseObj)
                 .build();
     }
 
@@ -788,9 +857,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (maxHeight != null) builder.queryParam("maxheight", maxHeight);
 
         byte[] data = executeGetBinaryRequest(builder.toUriString());
+        DownloadMediaResponse responseObj = DownloadMediaResponse.builder()
+                .data(data)
+                .build();
         return DownloadCompanyMediaOutput.builder()
                 .header(null)
-                .data(data)
+                .response(responseObj)
                 .build();
     }
 
@@ -799,7 +871,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         String url = buildBaseUrl("systemesListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return GetSystemListOutput.builder().header(null).systems(Collections.emptyList()).build();
+        if (response == null) return GetSystemListOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -824,9 +896,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
+        SystemListResponse responseObj = SystemListResponse.builder()
+                .systemes(systems)
+                .build();
         return GetSystemListOutput.builder()
                 .header(header)
-                .systems(systems)
+                .response(responseObj)
                 .build();
     }
 
@@ -851,9 +926,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (maxHeight != null) builder.queryParam("maxheight", maxHeight);
 
         byte[] data = executeGetBinaryRequest(builder.toUriString());
+        DownloadMediaResponse responseObj = DownloadMediaResponse.builder()
+                .data(data)
+                .build();
         return DownloadSystemMediaOutput.builder()
                 .header(null)
-                .data(data)
+                .response(responseObj)
                 .build();
     }
 
@@ -874,9 +952,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (sha1 != null && !sha1.isEmpty()) builder.queryParam("sha1", sha1);
 
         byte[] data = executeGetBinaryRequest(builder.toUriString());
+        DownloadMediaResponse responseObj = DownloadMediaResponse.builder()
+                .data(data)
+                .build();
         return DownloadSystemVideoOutput.builder()
                 .header(null)
-                .data(data)
+                .response(responseObj)
                 .build();
     }
 
@@ -893,7 +974,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         }
 
         String response = executeGetRequest(builder.toUriString());
-        if (response == null) return SearchGamesOutput.builder().header(null).games(Collections.emptyList()).build();
+        if (response == null) return SearchGamesOutput.builder().header(null).build();
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
@@ -906,9 +987,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                 games.add(parseGame(node));
             }
         }
+        SearchGamesResponse responseObj = SearchGamesResponse.builder()
+                .jeux(games)
+                .build();
         return SearchGamesOutput.builder()
                 .header(header)
-                .games(games)
+                .response(responseObj)
                 .build();
     }
 
@@ -946,9 +1030,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         JsonNode gameNode = root.path("response").path("jeu");
 
         Game game = parseGame(gameNode);
+        GameInfoResponse responseObj = GameInfoResponse.builder()
+                .jeu(game)
+                .build();
         return GetGameInfoOutput.builder()
                 .header(header)
-                .game(game)
+                .response(responseObj)
                 .build();
     }
 
@@ -975,9 +1062,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (maxHeight != null) builder.queryParam("maxheight", maxHeight);
 
         byte[] data = executeGetBinaryRequest(builder.toUriString());
+        DownloadMediaResponse responseObj = DownloadMediaResponse.builder()
+                .data(data)
+                .build();
         return DownloadGameMediaOutput.builder()
                 .header(null)
-                .data(data)
+                .response(responseObj)
                 .build();
     }
 
@@ -1000,9 +1090,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (sha1 != null && !sha1.isEmpty()) builder.queryParam("sha1", sha1);
 
         byte[] data = executeGetBinaryRequest(builder.toUriString());
+        DownloadMediaResponse responseObj = DownloadMediaResponse.builder()
+                .data(data)
+                .build();
         return DownloadGameVideoOutput.builder()
                 .header(null)
-                .data(data)
+                .response(responseObj)
                 .build();
     }
 
@@ -1025,9 +1118,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (sha1 != null && !sha1.isEmpty()) builder.queryParam("sha1", sha1);
 
         byte[] data = executeGetBinaryRequest(builder.toUriString());
+        DownloadMediaResponse responseObj = DownloadMediaResponse.builder()
+                .data(data)
+                .build();
         return DownloadGameManualOutput.builder()
                 .header(null)
-                .data(data)
+                .response(responseObj)
                 .build();
     }
 
@@ -1045,9 +1141,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                 .queryParam("note", rating);
 
         String message = executeGetRequest(builder.toUriString());
+        SubmitResponse responseObj = SubmitResponse.builder()
+                .message(message)
+                .build();
         return SubmitGameRatingOutput.builder()
                 .header(null)
-                .message(message)
+                .response(responseObj)
                 .build();
     }
 
@@ -1087,9 +1186,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         try {
             ResponseEntity<String> response = restTemplate.postForEntity(builder.toUriString(), requestEntity, String.class);
+            SubmitResponse responseObj = SubmitResponse.builder()
+                    .message(response.getBody())
+                    .build();
             return SubmitProposalOutput.builder()
                     .header(null)
-                    .message(response.getBody())
+                    .response(responseObj)
                     .build();
         } catch (HttpClientErrorException | HttpServerErrorException ex) {
             handleApiError(ex);
