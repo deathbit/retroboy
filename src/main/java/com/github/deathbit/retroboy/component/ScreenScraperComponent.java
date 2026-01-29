@@ -1,26 +1,43 @@
 package com.github.deathbit.retroboy.component;
 
-import com.github.deathbit.retroboy.domain.screenscraper.ApiCredentials;
-import com.github.deathbit.retroboy.domain.screenscraper.Classification;
-import com.github.deathbit.retroboy.domain.screenscraper.Family;
-import com.github.deathbit.retroboy.domain.screenscraper.Game;
-import com.github.deathbit.retroboy.domain.screenscraper.GameInfo;
-import com.github.deathbit.retroboy.domain.screenscraper.GameMediaInfo;
-import com.github.deathbit.retroboy.domain.screenscraper.GameSystem;
-import com.github.deathbit.retroboy.domain.screenscraper.Genre;
-import com.github.deathbit.retroboy.domain.screenscraper.Language;
-import com.github.deathbit.retroboy.domain.screenscraper.PlayerCount;
-import com.github.deathbit.retroboy.domain.screenscraper.Region;
-import com.github.deathbit.retroboy.domain.screenscraper.RomInfo;
-import com.github.deathbit.retroboy.domain.screenscraper.RomType;
-import com.github.deathbit.retroboy.domain.screenscraper.ServerInfo;
-import com.github.deathbit.retroboy.domain.screenscraper.SupportType;
-import com.github.deathbit.retroboy.domain.screenscraper.SystemMediaInfo;
-import com.github.deathbit.retroboy.domain.screenscraper.UserInfo;
-import com.github.deathbit.retroboy.domain.screenscraper.UserLevel;
-
-import java.util.List;
-import java.util.Map;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadCompanyMediaInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadCompanyMediaOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameManualInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameManualOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameMediaInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameMediaOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameVideoInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGameVideoOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGroupMediaInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadGroupMediaOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadSystemMediaInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadSystemMediaOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadSystemVideoInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.DownloadSystemVideoOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetClassificationsOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetFamiliesOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetGameInfoInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetGameInfoListOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetGameInfoOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetGameMediaListOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetGenresOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetInfrastructureInfoOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetLanguagesOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetPlayerCountsOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetRegionsOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetRomInfoListOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetRomTypesOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetSupportTypesOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetSystemListOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetSystemMediaListOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetUserInfoOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.GetUserLevelsOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SearchGamesInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SearchGamesOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SubmitGameRatingInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SubmitGameRatingOutput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SubmitProposalInput;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.SubmitProposalOutput;
 
 /**
  * ScreenScraper API component for accessing game database information and media
@@ -30,314 +47,228 @@ public interface ScreenScraperComponent {
     /**
      * Get ScreenScraper infrastructure information including server status and quotas
      *
-     * @param credentials API credentials containing developer ID, password, and software name
-     * @return ServerInfo containing CPU usage, threads, and quota information
+     * @return Output containing ServerInfo with CPU usage, threads, and quota information
      * @throws Exception if the API request fails
      */
-    ServerInfo getInfrastructureInfo(ApiCredentials credentials) throws Exception;
+    GetInfrastructureInfoOutput getInfrastructureInfo() throws Exception;
 
     /**
      * Get ScreenScraper user information including contribution stats and quotas
      *
-     * @param credentials API credentials with user ID and password
-     * @return UserInfo containing user level, contributions, threads, and quotas
+     * @return Output containing UserInfo with user level, contributions, threads, and quotas
      * @throws Exception if the API request fails
      */
-    UserInfo getUserInfo(ApiCredentials credentials) throws Exception;
+    GetUserInfoOutput getUserInfo() throws Exception;
 
     /**
      * Get list of ScreenScraper user levels
      *
-     * @param credentials API credentials
-     * @return List of user levels with IDs and names
+     * @return Output containing list of user levels with IDs and names
      * @throws Exception if the API request fails
      */
-    List<UserLevel> getUserLevels(ApiCredentials credentials) throws Exception;
+    GetUserLevelsOutput getUserLevels() throws Exception;
 
     /**
      * Get list of number of players options
      *
-     * @param credentials API credentials
-     * @return List of player count options
+     * @return Output containing list of player count options
      * @throws Exception if the API request fails
      */
-    List<PlayerCount> getPlayerCounts(ApiCredentials credentials) throws Exception;
+    GetPlayerCountsOutput getPlayerCounts() throws Exception;
 
     /**
      * Get list of media support types
      *
-     * @param credentials API credentials
-     * @return List of support types (CD, DVD, Cartridge, etc.)
+     * @return Output containing list of support types (CD, DVD, Cartridge, etc.)
      * @throws Exception if the API request fails
      */
-    List<SupportType> getSupportTypes(ApiCredentials credentials) throws Exception;
+    GetSupportTypesOutput getSupportTypes() throws Exception;
 
     /**
      * Get list of ROM types
      *
-     * @param credentials API credentials
-     * @return List of ROM types (rom, iso, folder, etc.)
+     * @return Output containing list of ROM types (rom, iso, folder, etc.)
      * @throws Exception if the API request fails
      */
-    List<RomType> getRomTypes(ApiCredentials credentials) throws Exception;
+    GetRomTypesOutput getRomTypes() throws Exception;
 
     /**
      * Get list of regions with multilingual names and media
      *
-     * @param credentials API credentials
-     * @return List of regions (France, USA, Japan, etc.)
+     * @return Output containing list of regions (France, USA, Japan, etc.)
      * @throws Exception if the API request fails
      */
-    List<Region> getRegions(ApiCredentials credentials) throws Exception;
+    GetRegionsOutput getRegions() throws Exception;
 
     /**
      * Get list of languages with multilingual names and media
      *
-     * @param credentials API credentials
-     * @return List of languages
+     * @return Output containing list of languages
      * @throws Exception if the API request fails
      */
-    List<Language> getLanguages(ApiCredentials credentials) throws Exception;
+    GetLanguagesOutput getLanguages() throws Exception;
 
     /**
      * Get list of game genres with multilingual names and media
      *
-     * @param credentials API credentials
-     * @return List of genres (Action, Adventure, RPG, etc.)
+     * @return Output containing list of genres (Action, Adventure, RPG, etc.)
      * @throws Exception if the API request fails
      */
-    List<Genre> getGenres(ApiCredentials credentials) throws Exception;
+    GetGenresOutput getGenres() throws Exception;
 
     /**
      * Get list of game families with media
      *
-     * @param credentials API credentials
-     * @return List of game families (Mario, Sonic, etc.)
+     * @return Output containing list of game families (Mario, Sonic, etc.)
      * @throws Exception if the API request fails
      */
-    List<Family> getFamilies(ApiCredentials credentials) throws Exception;
+    GetFamiliesOutput getFamilies() throws Exception;
 
     /**
      * Get list of game classifications/ratings with multilingual names and media
      *
-     * @param credentials API credentials
-     * @return List of classifications (ESRB, PEGI, etc.)
+     * @return Output containing list of classifications (ESRB, PEGI, etc.)
      * @throws Exception if the API request fails
      */
-    List<Classification> getClassifications(ApiCredentials credentials) throws Exception;
+    GetClassificationsOutput getClassifications() throws Exception;
 
     /**
      * Get list of system media types
      *
-     * @param credentials API credentials
-     * @return List of system media types (logos, screenshots, etc.)
+     * @return Output containing list of system media types (logos, screenshots, etc.)
      * @throws Exception if the API request fails
      */
-    List<SystemMediaInfo> getSystemMediaList(ApiCredentials credentials) throws Exception;
+    GetSystemMediaListOutput getSystemMediaList() throws Exception;
 
     /**
      * Get list of game media types
      *
-     * @param credentials API credentials
-     * @return List of game media types (box art, screenshots, videos, etc.)
+     * @return Output containing list of game media types (box art, screenshots, videos, etc.)
      * @throws Exception if the API request fails
      */
-    List<GameMediaInfo> getGameMediaList(ApiCredentials credentials) throws Exception;
+    GetGameMediaListOutput getGameMediaList() throws Exception;
 
     /**
      * Get list of game information types
      *
-     * @param credentials API credentials
-     * @return List of game information types
+     * @return Output containing list of game information types
      * @throws Exception if the API request fails
      */
-    List<GameInfo> getGameInfoList(ApiCredentials credentials) throws Exception;
+    GetGameInfoListOutput getGameInfoList() throws Exception;
 
     /**
      * Get list of ROM information types
      *
-     * @param credentials API credentials
-     * @return List of ROM information types
+     * @return Output containing list of ROM information types
      * @throws Exception if the API request fails
      */
-    List<RomInfo> getRomInfoList(ApiCredentials credentials) throws Exception;
+    GetRomInfoListOutput getRomInfoList() throws Exception;
 
     /**
      * Download game group media image (genre, family, etc.)
      *
-     * @param credentials API credentials
-     * @param groupId     Numeric ID of the group
-     * @param media       Text ID of the media to return
-     * @param crc         CRC hash of existing local image (optional, for optimization)
-     * @param md5         MD5 hash of existing local image (optional, for optimization)
-     * @param sha1        SHA1 hash of existing local image (optional, for optimization)
-     * @param maxWidth    Maximum width in pixels (optional)
-     * @param maxHeight   Maximum height in pixels (optional)
-     * @return Byte array of the image or null if not modified
+     * @param input Input containing groupId, media type, and optional hashes and dimensions
+     * @return Output containing byte array of the image or null if not modified
      * @throws Exception if the API request fails
      */
-    byte[] downloadGroupMedia(ApiCredentials credentials, Integer groupId, String media,
-                              String crc, String md5, String sha1, Integer maxWidth, Integer maxHeight) throws Exception;
+    DownloadGroupMediaOutput downloadGroupMedia(DownloadGroupMediaInput input) throws Exception;
 
     /**
      * Download company media images (publisher/developer logos)
      *
-     * @param credentials API credentials
-     * @param companyId   Numeric ID of the company
-     * @param media       Text ID of the media to return
-     * @param crc         CRC hash of existing local image (optional, for optimization)
-     * @param md5         MD5 hash of existing local image (optional, for optimization)
-     * @param sha1        SHA1 hash of existing local image (optional, for optimization)
-     * @param maxWidth    Maximum width in pixels (optional)
-     * @param maxHeight   Maximum height in pixels (optional)
-     * @return Byte array of the image or null if not modified
+     * @param input Input containing companyId, media type, and optional hashes and dimensions
+     * @return Output containing byte array of the image or null if not modified
      * @throws Exception if the API request fails
      */
-    byte[] downloadCompanyMedia(ApiCredentials credentials, Integer companyId, String media,
-                                String crc, String md5, String sha1, Integer maxWidth, Integer maxHeight) throws Exception;
+    DownloadCompanyMediaOutput downloadCompanyMedia(DownloadCompanyMediaInput input) throws Exception;
 
     /**
      * Get list of systems with full information and media
      *
-     * @param credentials API credentials
-     * @return List of gaming systems (NES, SNES, PlayStation, etc.)
+     * @return Output containing list of gaming systems (NES, SNES, PlayStation, etc.)
      * @throws Exception if the API request fails
      */
-    List<GameSystem> getSystemList(ApiCredentials credentials) throws Exception;
+    GetSystemListOutput getSystemList() throws Exception;
 
     /**
      * Download system image media
      *
-     * @param credentials API credentials
-     * @param systemId    Numeric ID of the system
-     * @param media       Text ID of the media to return
-     * @param crc         CRC hash of existing local image (optional, for optimization)
-     * @param md5         MD5 hash of existing local image (optional, for optimization)
-     * @param sha1        SHA1 hash of existing local image (optional, for optimization)
-     * @param maxWidth    Maximum width in pixels (optional)
-     * @param maxHeight   Maximum height in pixels (optional)
-     * @return Byte array of the image or null if not modified
+     * @param input Input containing systemId, media type, and optional hashes and dimensions
+     * @return Output containing byte array of the image or null if not modified
      * @throws Exception if the API request fails
      */
-    byte[] downloadSystemMedia(ApiCredentials credentials, Integer systemId, String media,
-                               String crc, String md5, String sha1, Integer maxWidth, Integer maxHeight) throws Exception;
+    DownloadSystemMediaOutput downloadSystemMedia(DownloadSystemMediaInput input) throws Exception;
 
     /**
      * Download system video media
      *
-     * @param credentials API credentials
-     * @param systemId    Numeric ID of the system
-     * @param media       Text ID of the media to return
-     * @param crc         CRC hash of existing local video (optional, for optimization)
-     * @param md5         MD5 hash of existing local video (optional, for optimization)
-     * @param sha1        SHA1 hash of existing local video (optional, for optimization)
-     * @return Byte array of the video or null if not modified
+     * @param input Input containing systemId, media type, and optional hashes
+     * @return Output containing byte array of the video or null if not modified
      * @throws Exception if the API request fails
      */
-    byte[] downloadSystemVideo(ApiCredentials credentials, Integer systemId, String media,
-                               String crc, String md5, String sha1) throws Exception;
+    DownloadSystemVideoOutput downloadSystemVideo(DownloadSystemVideoInput input) throws Exception;
 
     /**
      * Search for games by name (returns up to 30 games sorted by probability)
      *
-     * @param credentials API credentials
-     * @param systemId    Numeric ID of the system (optional)
-     * @param searchTerm  Name of the game to search for
-     * @return List of games matching the search term
+     * @param input Input containing optional systemId and searchTerm
+     * @return Output containing list of games matching the search term
      * @throws Exception if the API request fails
      */
-    List<Game> searchGames(ApiCredentials credentials, Integer systemId, String searchTerm) throws Exception;
+    SearchGamesOutput searchGames(SearchGamesInput input) throws Exception;
 
     /**
      * Get detailed information about a game including ROM data and media
      *
-     * @param credentials API credentials
-     * @param systemId    Numeric ID of the system
-     * @param crc         CRC hash of the ROM (required unless gameId is provided)
-     * @param md5         MD5 hash of the ROM (optional but recommended)
-     * @param sha1        SHA1 hash of the ROM (optional but recommended)
-     * @param romType     Type of ROM (rom, iso, folder)
-     * @param romName     File name with extension or folder name
-     * @param romSize     Size in bytes of the file or folder
-     * @param gameId      Force search by game ID (optional, ignores ROM hashes)
-     * @return Game information with full metadata and media
+     * @param input Input containing systemId, ROM hashes, romType, romName, romSize, and optional gameId
+     * @return Output containing game information with full metadata and media
      * @throws Exception if the API request fails or game not found
      */
-    Game getGameInfo(ApiCredentials credentials, Integer systemId, String crc, String md5, String sha1,
-                     String romType, String romName, Long romSize, Integer gameId) throws Exception;
+    GetGameInfoOutput getGameInfo(GetGameInfoInput input) throws Exception;
 
     /**
      * Download game image media
      *
-     * @param credentials API credentials
-     * @param systemId    Numeric ID of the system
-     * @param gameId      Numeric ID of the game
-     * @param media       Text ID of the media to return
-     * @param crc         CRC hash of existing local image (optional, for optimization)
-     * @param md5         MD5 hash of existing local image (optional, for optimization)
-     * @param sha1        SHA1 hash of existing local image (optional, for optimization)
-     * @param maxWidth    Maximum width in pixels (optional)
-     * @param maxHeight   Maximum height in pixels (optional)
-     * @return Byte array of the image or null if not modified
+     * @param input Input containing systemId, gameId, media type, and optional hashes and dimensions
+     * @return Output containing byte array of the image or null if not modified
      * @throws Exception if the API request fails
      */
-    byte[] downloadGameMedia(ApiCredentials credentials, Integer systemId, Integer gameId, String media,
-                             String crc, String md5, String sha1, Integer maxWidth, Integer maxHeight) throws Exception;
+    DownloadGameMediaOutput downloadGameMedia(DownloadGameMediaInput input) throws Exception;
 
     /**
      * Download game video media
      *
-     * @param credentials API credentials
-     * @param systemId    Numeric ID of the system
-     * @param gameId      Numeric ID of the game
-     * @param media       Text ID of the media to return
-     * @param crc         CRC hash of existing local video (optional, for optimization)
-     * @param md5         MD5 hash of existing local video (optional, for optimization)
-     * @param sha1        SHA1 hash of existing local video (optional, for optimization)
-     * @return Byte array of the video or null if not modified
+     * @param input Input containing systemId, gameId, media type, and optional hashes
+     * @return Output containing byte array of the video or null if not modified
      * @throws Exception if the API request fails
      */
-    byte[] downloadGameVideo(ApiCredentials credentials, Integer systemId, Integer gameId, String media,
-                             String crc, String md5, String sha1) throws Exception;
+    DownloadGameVideoOutput downloadGameVideo(DownloadGameVideoInput input) throws Exception;
 
     /**
      * Download game manual (PDF format)
      *
-     * @param credentials API credentials
-     * @param systemId    Numeric ID of the system
-     * @param gameId      Numeric ID of the game
-     * @param media       Text ID of the media to return
-     * @param crc         CRC hash of existing local manual (optional, for optimization)
-     * @param md5         MD5 hash of existing local manual (optional, for optimization)
-     * @param sha1        SHA1 hash of existing local manual (optional, for optimization)
-     * @return Byte array of the PDF manual or null if not modified
+     * @param input Input containing systemId, gameId, media type, and optional hashes
+     * @return Output containing byte array of the PDF manual or null if not modified
      * @throws Exception if the API request fails
      */
-    byte[] downloadGameManual(ApiCredentials credentials, Integer systemId, Integer gameId, String media,
-                              String crc, String md5, String sha1) throws Exception;
+    DownloadGameManualOutput downloadGameManual(DownloadGameManualInput input) throws Exception;
 
     /**
      * Submit a game rating as a ScreenScraper member
      *
-     * @param credentials API credentials with user ID and password
-     * @param gameId      Numeric ID of the game
-     * @param rating      Game score out of 20 (1-20)
-     * @return Response message indicating success or failure
+     * @param input Input containing gameId and rating (1-20)
+     * @return Output containing response message indicating success or failure
      * @throws Exception if the API request fails
      */
-    String submitGameRating(ApiCredentials credentials, Integer gameId, Integer rating) throws Exception;
+    SubmitGameRatingOutput submitGameRating(SubmitGameRatingInput input) throws Exception;
 
     /**
      * Submit information or media proposal to ScreenScraper
      * Note: This method requires multipart/form-data POST request
      *
-     * @param credentials  API credentials with user ID and password
-     * @param gameId       Numeric ID of the game (or use romId)
-     * @param romId        Numeric ID of the ROM (optional, alternative to gameId)
-     * @param proposalData Map containing proposal data (type, region, language, text, media file, etc.)
-     * @return Response message indicating success or failure
+     * @param input Input containing gameId or romId and proposal data
+     * @return Output containing response message indicating success or failure
      * @throws Exception if the API request fails
      */
-    String submitProposal(ApiCredentials credentials, Integer gameId, Integer romId,
-                          Map<String, Object> proposalData) throws Exception;
+    SubmitProposalOutput submitProposal(SubmitProposalInput input) throws Exception;
 }
