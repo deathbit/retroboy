@@ -95,11 +95,11 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
      * instead of hardcoding them. Consider using @Value or @ConfigurationProperties.
      */
     private static final ApiCredentials API_CREDENTIALS = ApiCredentials.builder()
-            .devId("your_dev_id")
-            .devPassword("your_dev_password")
-            .softName("retroboy")
-            .ssId(null)  // Optional: User ID (null if not using user-specific features)
-            .ssPassword(null)  // Optional: User password (null if not using user-specific features)
+            .devId("xxx")
+            .devPassword("yyy")
+            .softName("zzz")
+            .ssId("zjkiki")  // Optional: User ID (null if not using user-specific features)
+            .ssPassword("zjkiki225")  // Optional: User password (null if not using user-specific features)
             .build();
 
     private final RestTemplate restTemplate;
@@ -243,6 +243,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode serverNode = root.path("response").path("serveurs");
 
         ServerInfo serverInfo = ServerInfo.builder()
@@ -275,6 +276,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode userNode = root.path("response").path("ssuser");
 
         UserInfo userInfo = UserInfo.builder()
