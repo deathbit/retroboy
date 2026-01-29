@@ -301,7 +301,23 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
         System.out.println(root.toPrettyString());
+        JsonNode serverNode = root.path("response").path("serveurs");
         JsonNode userNode = root.path("response").path("ssuser");
+
+        ServerInfo serverInfo = ServerInfo.builder()
+                .cpu1(serverNode.path("cpu1").asDouble())
+                .cpu2(serverNode.path("cpu2").asDouble())
+                .cpu3(serverNode.path("cpu3").asDouble())
+                .threadsMin(serverNode.path("threadsmin").asInt())
+                .nbScrapeurs(serverNode.path("nbscrapeurs").asInt())
+                .apiAcces(serverNode.path("apiacces").asInt())
+                .closeForNoMember(serverNode.path("closefornomember").asInt())
+                .closeForLeecher(serverNode.path("closeforleecher").asInt())
+                .maxThreadForNonMember(serverNode.path("maxthreadfornonmember").asInt())
+                .threadForNonMember(serverNode.path("threadfornonmember").asInt())
+                .maxThreadForMember(serverNode.path("maxthreadformember").asInt())
+                .threadForMember(serverNode.path("threadformember").asInt())
+                .build();
 
         UserInfo userInfo = UserInfo.builder()
                 .id(userNode.path("id").asString())
@@ -328,6 +344,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                 .build();
 
         UserInfoResponse userInfoResponse = UserInfoResponse.builder()
+                .serveurs(serverInfo)
                 .ssuser(userInfo)
                 .build();
 

@@ -6,12 +6,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * Response wrapper for user info containing user information
+ * Response wrapper for user info containing server and user information
  */
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserInfoResponse {
+    private ServerInfo serveurs;
     private UserInfo ssuser;
 }
