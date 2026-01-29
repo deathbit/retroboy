@@ -2,6 +2,7 @@ package com.github.deathbit.retroboy;
 
 import com.github.deathbit.retroboy.component.ConfigComponent;
 import com.github.deathbit.retroboy.component.FileComponent;
+import com.github.deathbit.retroboy.component.ScreenScraperComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.handler.handlers.nintendo.NesHandler;
 import org.jspecify.annotations.NonNull;
@@ -29,6 +30,9 @@ public class StartupRunner implements ApplicationRunner {
 
     @Autowired
     private NesHandler nesHandler;
+
+    @Autowired
+    private ScreenScraperComponent screenScraperComponent;
 
     @Override
     public void run(@NonNull ApplicationArguments args) throws Exception {
