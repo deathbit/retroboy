@@ -28,9 +28,16 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
     private final RestTemplate restTemplate;
     private final ObjectMapper objectMapper;
 
+    public ScreenScraperComponentImpl(RestTemplate restTemplate, ObjectMapper objectMapper) {
+        this.restTemplate = restTemplate;
+        this.objectMapper = objectMapper;
+    }
+    
+    /**
+     * Default constructor for Spring autowiring
+     */
     public ScreenScraperComponentImpl() {
-        this.restTemplate = new RestTemplate();
-        this.objectMapper = new ObjectMapper();
+        this(new RestTemplate(), new ObjectMapper());
     }
 
     /**
@@ -65,9 +72,8 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         } else {
             throw ex;
         }
-        int finalStatusCode = statusCode;
         
-        switch (finalStatusCode) {
+        switch (statusCode) {
             case 400:
                 throw new Exception("Bad Request: Problem with the URL or missing required fields - " + ex.getMessage());
             case 401:
@@ -87,7 +93,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
             case 431:
                 throw new Exception("Quota Exceeded: Too many unrecognized ROMs - Sort through your files - " + ex.getMessage());
             default:
-                throw new Exception("API Error: " + finalStatusCode + " - " + ex.getMessage());
+                throw new Exception("API Error: " + statusCode + " - " + ex.getMessage());
         }
     }
 
@@ -100,7 +106,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
             return response.getBody();
         } catch (HttpClientErrorException | HttpServerErrorException ex) {
             handleApiError(ex);
-            return null;
+            throw ex; // This line is unreachable but required for compilation
         }
     }
 
@@ -122,7 +128,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
             return response.getBody();
         } catch (HttpClientErrorException | HttpServerErrorException ex) {
             handleApiError(ex);
-            return null;
+            throw ex; // This line is unreachable but required for compilation
         }
     }
 
@@ -754,10 +760,13 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
     @Override
     public String submitProposal(ApiCredentials credentials, Integer gameId, Integer romId,
                                  Map<String, Object> proposalData) throws Exception {
-        // Build URL with basic parameters
+        // Build URL with basic parameters including developer credentials
         String baseUrl = BASE_URL + "/botProposition.php";
         
         UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(baseUrl)
+                .queryParam("devid", credentials.getDevId())
+                .queryParam("devpassword", credentials.getDevPassword())
+                .queryParam("softname", credentials.getSoftName())
                 .queryParam("ssid", credentials.getSsId())
                 .queryParam("sspassword", credentials.getSsPassword());
         
@@ -784,7 +793,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
             return response.getBody();
         } catch (HttpClientErrorException | HttpServerErrorException ex) {
             handleApiError(ex);
-            return null;
+            throw ex; // This line is unreachable but required for compilation
         }
     }
 

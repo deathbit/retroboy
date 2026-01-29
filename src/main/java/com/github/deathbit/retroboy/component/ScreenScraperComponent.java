@@ -3,6 +3,7 @@ package com.github.deathbit.retroboy.component;
 import com.github.deathbit.retroboy.domain.screenscraper.*;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * ScreenScraper API component for accessing game database information and media
@@ -321,5 +322,5 @@ public interface ScreenScraperComponent {
      * @throws Exception if the API request fails
      */
     String submitProposal(ApiCredentials credentials, Integer gameId, Integer romId,
-                          java.util.Map<String, Object> proposalData) throws Exception;
+                          Map<String, Object> proposalData) throws Exception;
 }
