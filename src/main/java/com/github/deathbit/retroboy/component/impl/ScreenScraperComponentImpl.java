@@ -10,6 +10,7 @@ import com.github.deathbit.retroboy.domain.screenscraper.GameInfo;
 import com.github.deathbit.retroboy.domain.screenscraper.GameMediaInfo;
 import com.github.deathbit.retroboy.domain.screenscraper.GameSystem;
 import com.github.deathbit.retroboy.domain.screenscraper.Genre;
+import com.github.deathbit.retroboy.domain.screenscraper.InfrastructureInfoResponse;
 import com.github.deathbit.retroboy.domain.screenscraper.Language;
 import com.github.deathbit.retroboy.domain.screenscraper.PlayerCount;
 import com.github.deathbit.retroboy.domain.screenscraper.Region;
@@ -261,9 +262,13 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                 .threadForMember(serverNode.path("threadformember").asInt())
                 .build();
 
+        InfrastructureInfoResponse infrastructureInfoResponse = InfrastructureInfoResponse.builder()
+                .serveurs(serverInfo)
+                .build();
+
         return GetInfrastructureInfoOutput.builder()
                 .header(header)
-                .serverInfo(serverInfo)
+                .response(infrastructureInfoResponse)
                 .build();
     }
 

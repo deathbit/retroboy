@@ -1,7 +1,7 @@
 package com.github.deathbit.retroboy.domain.screenscraper.dto;
 
 import com.github.deathbit.retroboy.domain.screenscraper.ApiResponseHeader;
-import com.github.deathbit.retroboy.domain.screenscraper.ServerInfo;
+import com.github.deathbit.retroboy.domain.screenscraper.InfrastructureInfoResponse;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,5 +13,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class GetInfrastructureInfoOutput {
     private ApiResponseHeader header;
-    private ServerInfo serverInfo;
+    private InfrastructureInfoResponse response;
 }

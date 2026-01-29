@@ -1,13 +1,11 @@
 package com.github.deathbit.retroboy.domain.screenscraper.dto;
 
 import com.github.deathbit.retroboy.domain.screenscraper.ApiResponseHeader;
-import com.github.deathbit.retroboy.domain.screenscraper.RomType;
+import com.github.deathbit.retroboy.domain.screenscraper.RomTypesResponse;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.List;
 
 @Data
 @Builder
@@ -15,5 +13,5 @@ import java.util.List;
 @AllArgsConstructor
 public class GetRomTypesOutput {
     private ApiResponseHeader header;
-    private List<RomType> romTypes;
+    private RomTypesResponse response;
 }
