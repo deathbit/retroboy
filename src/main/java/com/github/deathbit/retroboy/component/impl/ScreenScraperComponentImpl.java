@@ -318,6 +318,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode levelsNode = root.path("response").path("userlevels");
 
         List<UserLevel> levels = new ArrayList<>();
@@ -344,6 +345,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode playersNode = root.path("response").path("nbjoueurs");
 
         List<PlayerCount> counts = new ArrayList<>();
@@ -371,6 +373,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode typesNode = root.path("response").path("supporttypes");
 
         List<SupportType> types = new ArrayList<>();
@@ -396,6 +399,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode typesNode = root.path("response").path("romtypes");
 
         List<RomType> types = new ArrayList<>();
@@ -421,6 +425,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode regionsNode = root.path("response").path("regions");
 
         List<Region> regions = new ArrayList<>();
@@ -455,6 +460,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode languagesNode = root.path("response").path("langues");
 
         List<Language> languages = new ArrayList<>();
@@ -489,6 +495,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode genresNode = root.path("response").path("genres");
 
         List<Genre> genres = new ArrayList<>();
@@ -522,6 +529,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode familiesNode = root.path("response").path("familles");
 
         List<Family> families = new ArrayList<>();
@@ -549,6 +557,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode classificationsNode = root.path("response").path("classifications");
 
         List<Classification> classifications = new ArrayList<>();
@@ -583,6 +592,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode mediasNode = root.path("response").path("medias");
 
         List<SystemMediaInfo> mediaList = new ArrayList<>();
@@ -621,6 +631,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode mediasNode = root.path("response").path("medias");
 
         List<GameMediaInfo> mediaList = new ArrayList<>();
@@ -659,6 +670,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode infosNode = root.path("response").path("infos");
 
         List<GameInfo> infoList = new ArrayList<>();
@@ -695,6 +707,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode infosNode = root.path("response").path("infos");
 
         List<RomInfo> infoList = new ArrayList<>();
@@ -785,6 +798,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode systemsNode = root.path("response").path("systemes");
 
         List<GameSystem> systems = new ArrayList<>();
@@ -878,6 +892,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode gamesNode = root.path("response").path("jeux");
 
         List<Game> games = new ArrayList<>();
@@ -922,6 +937,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
         JsonNode gameNode = root.path("response").path("jeu");
 
         Game game = parseGame(gameNode);
