@@ -254,6 +254,12 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                 .build();
     }
 
+    /**
+     * Parse server information from JSON response node
+     *
+     * @param serverNode JSON node containing serveurs data
+     * @return ServerInfo object with parsed server infrastructure information
+     */
     private ServerInfo parseServerInfo(JsonNode serverNode) {
         return ServerInfo.builder()
                 .cpu1(serverNode.path("cpu1").asDouble())
