@@ -55,7 +55,7 @@ public interface ScreenScraperComponent {
     /**
      * Get ScreenScraper user information including contribution stats and quotas
      *
-     * @return Output containing UserInfo with user level, contributions, threads, and quotas
+     * @return Output containing ServerInfo and UserInfo with server status, user level, contributions, threads, and quotas
      * @throws Exception if the API request fails
      */
     GetUserInfoOutput getUserInfo() throws Exception;

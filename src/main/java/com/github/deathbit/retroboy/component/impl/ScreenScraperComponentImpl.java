@@ -254,19 +254,14 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                 .build();
     }
 
-    @Override
-    public GetInfrastructureInfoOutput getInfrastructureInfo() throws Exception {
-        String url = buildBaseUrl("ssinfraInfos.php");
-        String response = executeGetRequest(url);
-
-        if (response == null) return GetInfrastructureInfoOutput.builder().header(null).build();
-
-        JsonNode root = objectMapper.readTree(response);
-        ApiResponseHeader header = parseHeader(root);
-        System.out.println(root.toPrettyString());
-        JsonNode serverNode = root.path("response").path("serveurs");
-
-        ServerInfo serverInfo = ServerInfo.builder()
+    /**
+     * Parse server information from JSON response node
+     *
+     * @param serverNode JSON node containing serveurs data
+     * @return ServerInfo object with parsed server infrastructure information
+     */
+    private ServerInfo parseServerInfo(JsonNode serverNode) {
+        return ServerInfo.builder()
                 .cpu1(serverNode.path("cpu1").asDouble())
                 .cpu2(serverNode.path("cpu2").asDouble())
                 .cpu3(serverNode.path("cpu3").asDouble())
@@ -280,6 +275,21 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                 .maxThreadForMember(serverNode.path("maxthreadformember").asInt())
                 .threadForMember(serverNode.path("threadformember").asInt())
                 .build();
+    }
+
+    @Override
+    public GetInfrastructureInfoOutput getInfrastructureInfo() throws Exception {
+        String url = buildBaseUrl("ssinfraInfos.php");
+        String response = executeGetRequest(url);
+
+        if (response == null) return GetInfrastructureInfoOutput.builder().header(null).build();
+
+        JsonNode root = objectMapper.readTree(response);
+        ApiResponseHeader header = parseHeader(root);
+        System.out.println(root.toPrettyString());
+        JsonNode serverNode = root.path("response").path("serveurs");
+
+        ServerInfo serverInfo = parseServerInfo(serverNode);
 
         InfrastructureInfoResponse infrastructureInfoResponse = InfrastructureInfoResponse.builder()
                 .serveurs(serverInfo)
@@ -301,7 +311,10 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         JsonNode root = objectMapper.readTree(response);
         ApiResponseHeader header = parseHeader(root);
         System.out.println(root.toPrettyString());
+        JsonNode serverNode = root.path("response").path("serveurs");
         JsonNode userNode = root.path("response").path("ssuser");
+
+        ServerInfo serverInfo = parseServerInfo(serverNode);
 
         UserInfo userInfo = UserInfo.builder()
                 .id(userNode.path("id").asString())
@@ -328,6 +341,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                 .build();
 
         UserInfoResponse userInfoResponse = UserInfoResponse.builder()
+                .serveurs(serverInfo)
                 .ssuser(userInfo)
                 .build();
 
