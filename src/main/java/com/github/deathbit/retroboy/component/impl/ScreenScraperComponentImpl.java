@@ -1,25 +1,8 @@
 package com.github.deathbit.retroboy.component.impl;
 
 import com.github.deathbit.retroboy.component.ScreenScraperComponent;
-import com.github.deathbit.retroboy.domain.screenscraper.ApiCredentials;
-import com.github.deathbit.retroboy.domain.screenscraper.Classification;
-import com.github.deathbit.retroboy.domain.screenscraper.Family;
-import com.github.deathbit.retroboy.domain.screenscraper.Game;
-import com.github.deathbit.retroboy.domain.screenscraper.GameInfo;
-import com.github.deathbit.retroboy.domain.screenscraper.GameMediaInfo;
-import com.github.deathbit.retroboy.domain.screenscraper.GameSystem;
-import com.github.deathbit.retroboy.domain.screenscraper.Genre;
-import com.github.deathbit.retroboy.domain.screenscraper.Language;
-import com.github.deathbit.retroboy.domain.screenscraper.PlayerCount;
-import com.github.deathbit.retroboy.domain.screenscraper.Region;
-import com.github.deathbit.retroboy.domain.screenscraper.Rom;
-import com.github.deathbit.retroboy.domain.screenscraper.RomInfo;
-import com.github.deathbit.retroboy.domain.screenscraper.RomType;
-import com.github.deathbit.retroboy.domain.screenscraper.ServerInfo;
-import com.github.deathbit.retroboy.domain.screenscraper.SupportType;
-import com.github.deathbit.retroboy.domain.screenscraper.SystemMediaInfo;
-import com.github.deathbit.retroboy.domain.screenscraper.UserInfo;
-import com.github.deathbit.retroboy.domain.screenscraper.UserLevel;
+import com.github.deathbit.retroboy.domain.screenscraper.*;
+import com.github.deathbit.retroboy.domain.screenscraper.dto.*;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -50,6 +33,18 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
     private static final String BASE_URL = "https://api.screenscraper.fr/api2";
     private static final String OUTPUT_FORMAT = "json";
 
+    /**
+     * Static API credentials for ScreenScraper authentication
+     * TODO: Configure these credentials from application properties or environment variables
+     */
+    private static final ApiCredentials API_CREDENTIALS = ApiCredentials.builder()
+            .devId("your_dev_id")
+            .devPassword("your_dev_password")
+            .softName("retroboy")
+            .ssId("")
+            .ssPassword("")
+            .build();
+
     private final RestTemplate restTemplate;
     private final ObjectMapper objectMapper;
 
@@ -63,6 +58,13 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
      */
     public ScreenScraperComponentImpl() {
         this(new RestTemplate(), new ObjectMapper());
+    }
+
+    /**
+     * Build base URL with common authentication parameters using static API credentials
+     */
+    private String buildBaseUrl(String endpoint) {
+        return buildBaseUrl(endpoint, API_CREDENTIALS);
     }
 
     /**
@@ -158,16 +160,16 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
     }
 
     @Override
-    public ServerInfo getInfrastructureInfo(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("ssinfraInfos.php", credentials);
+    public GetInfrastructureInfoOutput getInfrastructureInfo() throws Exception {
+        String url = buildBaseUrl("ssinfraInfos.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return null;
+        if (response == null) return GetInfrastructureInfoOutput.builder().build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode serverNode = root.path("response").path("serveurs");
 
-        return ServerInfo.builder()
+        ServerInfo serverInfo = ServerInfo.builder()
                 .cpu1(serverNode.path("cpu1").asDouble())
                 .cpu2(serverNode.path("cpu2").asDouble())
                 .cpu3(serverNode.path("cpu3").asDouble())
@@ -181,19 +183,23 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                 .maxThreadForMember(serverNode.path("maxthreadformember").asInt())
                 .threadForMember(serverNode.path("threadformember").asInt())
                 .build();
+
+        return GetInfrastructureInfoOutput.builder()
+                .serverInfo(serverInfo)
+                .build();
     }
 
     @Override
-    public UserInfo getUserInfo(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("ssuserInfos.php", credentials);
+    public GetUserInfoOutput getUserInfo() throws Exception {
+        String url = buildBaseUrl("ssuserInfos.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return null;
+        if (response == null) return GetUserInfoOutput.builder().build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode userNode = root.path("response").path("ssuser");
 
-        return UserInfo.builder()
+        UserInfo userInfo = UserInfo.builder()
                 .id(userNode.path("id").asString())
                 .numId(userNode.path("numid").asLong())
                 .level(userNode.path("niveau").asInt())
@@ -216,14 +222,18 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                 .lastVisitDate(userNode.path("datedernierevisite").asString())
                 .favRegion(userNode.path("favregion").asString())
                 .build();
+
+        return GetUserInfoOutput.builder()
+                .userInfo(userInfo)
+                .build();
     }
 
     @Override
-    public List<UserLevel> getUserLevels(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("userlevelsListe.php", credentials);
+    public GetUserLevelsOutput getUserLevels() throws Exception {
+        String url = buildBaseUrl("userlevelsListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return Collections.emptyList();
+        if (response == null) return GetUserLevelsOutput.builder().userLevels(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode levelsNode = root.path("response").path("userlevels");
@@ -237,15 +247,17 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
-        return levels;
+        return GetUserLevelsOutput.builder()
+                .userLevels(levels)
+                .build();
     }
 
     @Override
-    public List<PlayerCount> getPlayerCounts(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("nbJoueursListe.php", credentials);
+    public GetPlayerCountsOutput getPlayerCounts() throws Exception {
+        String url = buildBaseUrl("nbJoueursListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return Collections.emptyList();
+        if (response == null) return GetPlayerCountsOutput.builder().playerCounts(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode playersNode = root.path("response").path("nbjoueurs");
@@ -260,15 +272,17 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
-        return counts;
+        return GetPlayerCountsOutput.builder()
+                .playerCounts(counts)
+                .build();
     }
 
     @Override
-    public List<SupportType> getSupportTypes(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("supportTypesListe.php", credentials);
+    public GetSupportTypesOutput getSupportTypes() throws Exception {
+        String url = buildBaseUrl("supportTypesListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return Collections.emptyList();
+        if (response == null) return GetSupportTypesOutput.builder().supportTypes(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode typesNode = root.path("response").path("supporttypes");
@@ -281,15 +295,17 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
-        return types;
+        return GetSupportTypesOutput.builder()
+                .supportTypes(types)
+                .build();
     }
 
     @Override
-    public List<RomType> getRomTypes(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("romTypesListe.php", credentials);
+    public GetRomTypesOutput getRomTypes() throws Exception {
+        String url = buildBaseUrl("romTypesListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return Collections.emptyList();
+        if (response == null) return GetRomTypesOutput.builder().romTypes(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode typesNode = root.path("response").path("romtypes");
@@ -302,15 +318,17 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
-        return types;
+        return GetRomTypesOutput.builder()
+                .romTypes(types)
+                .build();
     }
 
     @Override
-    public List<Region> getRegions(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("regionsListe.php", credentials);
+    public GetRegionsOutput getRegions() throws Exception {
+        String url = buildBaseUrl("regionsListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return Collections.emptyList();
+        if (response == null) return GetRegionsOutput.builder().regions(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode regionsNode = root.path("response").path("regions");
@@ -332,15 +350,17 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
-        return regions;
+        return GetRegionsOutput.builder()
+                .regions(regions)
+                .build();
     }
 
     @Override
-    public List<Language> getLanguages(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("languesListe.php", credentials);
+    public GetLanguagesOutput getLanguages() throws Exception {
+        String url = buildBaseUrl("languesListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return Collections.emptyList();
+        if (response == null) return GetLanguagesOutput.builder().languages(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode languagesNode = root.path("response").path("langues");
@@ -362,15 +382,17 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
-        return languages;
+        return GetLanguagesOutput.builder()
+                .languages(languages)
+                .build();
     }
 
     @Override
-    public List<Genre> getGenres(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("genresListe.php", credentials);
+    public GetGenresOutput getGenres() throws Exception {
+        String url = buildBaseUrl("genresListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return Collections.emptyList();
+        if (response == null) return GetGenresOutput.builder().genres(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode genresNode = root.path("response").path("genres");
@@ -391,15 +413,17 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
-        return genres;
+        return GetGenresOutput.builder()
+                .genres(genres)
+                .build();
     }
 
     @Override
-    public List<Family> getFamilies(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("famillesListe.php", credentials);
+    public GetFamiliesOutput getFamilies() throws Exception {
+        String url = buildBaseUrl("famillesListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return Collections.emptyList();
+        if (response == null) return GetFamiliesOutput.builder().families(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode familiesNode = root.path("response").path("familles");
@@ -414,15 +438,17 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
-        return families;
+        return GetFamiliesOutput.builder()
+                .families(families)
+                .build();
     }
 
     @Override
-    public List<Classification> getClassifications(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("classificationsListe.php", credentials);
+    public GetClassificationsOutput getClassifications() throws Exception {
+        String url = buildBaseUrl("classificationsListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return Collections.emptyList();
+        if (response == null) return GetClassificationsOutput.builder().classifications(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode classificationsNode = root.path("response").path("classifications");
@@ -444,15 +470,17 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
-        return classifications;
+        return GetClassificationsOutput.builder()
+                .classifications(classifications)
+                .build();
     }
 
     @Override
-    public List<SystemMediaInfo> getSystemMediaList(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("mediasSystemeListe.php", credentials);
+    public GetSystemMediaListOutput getSystemMediaList() throws Exception {
+        String url = buildBaseUrl("mediasSystemeListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return Collections.emptyList();
+        if (response == null) return GetSystemMediaListOutput.builder().systemMediaList(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode mediasNode = root.path("response").path("medias");
@@ -478,15 +506,17 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
-        return mediaList;
+        return GetSystemMediaListOutput.builder()
+                .systemMediaList(mediaList)
+                .build();
     }
 
     @Override
-    public List<GameMediaInfo> getGameMediaList(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("mediasJeuListe.php", credentials);
+    public GetGameMediaListOutput getGameMediaList() throws Exception {
+        String url = buildBaseUrl("mediasJeuListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return Collections.emptyList();
+        if (response == null) return GetGameMediaListOutput.builder().gameMediaList(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode mediasNode = root.path("response").path("medias");
@@ -512,15 +542,17 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
-        return mediaList;
+        return GetGameMediaListOutput.builder()
+                .gameMediaList(mediaList)
+                .build();
     }
 
     @Override
-    public List<GameInfo> getGameInfoList(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("infosJeuListe.php", credentials);
+    public GetGameInfoListOutput getGameInfoList() throws Exception {
+        String url = buildBaseUrl("infosJeuListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return Collections.emptyList();
+        if (response == null) return GetGameInfoListOutput.builder().gameInfoList(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode infosNode = root.path("response").path("infos");
@@ -544,15 +576,17 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
-        return infoList;
+        return GetGameInfoListOutput.builder()
+                .gameInfoList(infoList)
+                .build();
     }
 
     @Override
-    public List<RomInfo> getRomInfoList(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("infosRomListe.php", credentials);
+    public GetRomInfoListOutput getRomInfoList() throws Exception {
+        String url = buildBaseUrl("infosRomListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return Collections.emptyList();
+        if (response == null) return GetRomInfoListOutput.builder().romInfoList(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode infosNode = root.path("response").path("infos");
@@ -576,13 +610,22 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
-        return infoList;
+        return GetRomInfoListOutput.builder()
+                .romInfoList(infoList)
+                .build();
     }
 
     @Override
-    public byte[] downloadGroupMedia(ApiCredentials credentials, Integer groupId, String media,
-                                     String crc, String md5, String sha1, Integer maxWidth, Integer maxHeight) throws Exception {
-        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("mediaGroup.php", credentials))
+    public DownloadGroupMediaOutput downloadGroupMedia(DownloadGroupMediaInput input) throws Exception {
+        Integer groupId = input.getGroupId();
+        String media = input.getMedia();
+        String crc = input.getCrc();
+        String md5 = input.getMd5();
+        String sha1 = input.getSha1();
+        Integer maxWidth = input.getMaxWidth();
+        Integer maxHeight = input.getMaxHeight();
+
+        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("mediaGroup.php"))
                 .queryParam("groupid", groupId)
                 .queryParam("media", media);
 
@@ -592,13 +635,23 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (maxWidth != null) builder.queryParam("maxwidth", maxWidth);
         if (maxHeight != null) builder.queryParam("maxheight", maxHeight);
 
-        return executeGetBinaryRequest(builder.toUriString());
+        byte[] data = executeGetBinaryRequest(builder.toUriString());
+        return DownloadGroupMediaOutput.builder()
+                .data(data)
+                .build();
     }
 
     @Override
-    public byte[] downloadCompanyMedia(ApiCredentials credentials, Integer companyId, String media,
-                                       String crc, String md5, String sha1, Integer maxWidth, Integer maxHeight) throws Exception {
-        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("mediaCompagnie.php", credentials))
+    public DownloadCompanyMediaOutput downloadCompanyMedia(DownloadCompanyMediaInput input) throws Exception {
+        Integer companyId = input.getCompanyId();
+        String media = input.getMedia();
+        String crc = input.getCrc();
+        String md5 = input.getMd5();
+        String sha1 = input.getSha1();
+        Integer maxWidth = input.getMaxWidth();
+        Integer maxHeight = input.getMaxHeight();
+
+        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("mediaCompagnie.php"))
                 .queryParam("companyid", companyId)
                 .queryParam("media", media);
 
@@ -608,15 +661,18 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (maxWidth != null) builder.queryParam("maxwidth", maxWidth);
         if (maxHeight != null) builder.queryParam("maxheight", maxHeight);
 
-        return executeGetBinaryRequest(builder.toUriString());
+        byte[] data = executeGetBinaryRequest(builder.toUriString());
+        return DownloadCompanyMediaOutput.builder()
+                .data(data)
+                .build();
     }
 
     @Override
-    public List<GameSystem> getSystemList(ApiCredentials credentials) throws Exception {
-        String url = buildBaseUrl("systemesListe.php", credentials);
+    public GetSystemListOutput getSystemList() throws Exception {
+        String url = buildBaseUrl("systemesListe.php");
         String response = executeGetRequest(url);
 
-        if (response == null) return Collections.emptyList();
+        if (response == null) return GetSystemListOutput.builder().systems(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode systemsNode = root.path("response").path("systemes");
@@ -639,13 +695,22 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .build());
             }
         }
-        return systems;
+        return GetSystemListOutput.builder()
+                .systems(systems)
+                .build();
     }
 
     @Override
-    public byte[] downloadSystemMedia(ApiCredentials credentials, Integer systemId, String media,
-                                      String crc, String md5, String sha1, Integer maxWidth, Integer maxHeight) throws Exception {
-        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("mediaSysteme.php", credentials))
+    public DownloadSystemMediaOutput downloadSystemMedia(DownloadSystemMediaInput input) throws Exception {
+        Integer systemId = input.getSystemId();
+        String media = input.getMedia();
+        String crc = input.getCrc();
+        String md5 = input.getMd5();
+        String sha1 = input.getSha1();
+        Integer maxWidth = input.getMaxWidth();
+        Integer maxHeight = input.getMaxHeight();
+
+        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("mediaSysteme.php"))
                 .queryParam("systemeid", systemId)
                 .queryParam("media", media);
 
@@ -655,13 +720,21 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (maxWidth != null) builder.queryParam("maxwidth", maxWidth);
         if (maxHeight != null) builder.queryParam("maxheight", maxHeight);
 
-        return executeGetBinaryRequest(builder.toUriString());
+        byte[] data = executeGetBinaryRequest(builder.toUriString());
+        return DownloadSystemMediaOutput.builder()
+                .data(data)
+                .build();
     }
 
     @Override
-    public byte[] downloadSystemVideo(ApiCredentials credentials, Integer systemId, String media,
-                                      String crc, String md5, String sha1) throws Exception {
-        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("mediaVideoSysteme.php", credentials))
+    public DownloadSystemVideoOutput downloadSystemVideo(DownloadSystemVideoInput input) throws Exception {
+        Integer systemId = input.getSystemId();
+        String media = input.getMedia();
+        String crc = input.getCrc();
+        String md5 = input.getMd5();
+        String sha1 = input.getSha1();
+
+        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("mediaVideoSysteme.php"))
                 .queryParam("systemeid", systemId)
                 .queryParam("media", media);
 
@@ -669,12 +742,18 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (md5 != null && !md5.isEmpty()) builder.queryParam("md5", md5);
         if (sha1 != null && !sha1.isEmpty()) builder.queryParam("sha1", sha1);
 
-        return executeGetBinaryRequest(builder.toUriString());
+        byte[] data = executeGetBinaryRequest(builder.toUriString());
+        return DownloadSystemVideoOutput.builder()
+                .data(data)
+                .build();
     }
 
     @Override
-    public List<Game> searchGames(ApiCredentials credentials, Integer systemId, String searchTerm) throws Exception {
-        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("jeuRecherche.php", credentials))
+    public SearchGamesOutput searchGames(SearchGamesInput input) throws Exception {
+        Integer systemId = input.getSystemId();
+        String searchTerm = input.getSearchTerm();
+
+        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("jeuRecherche.php"))
                 .queryParam("recherche", searchTerm);
 
         if (systemId != null) {
@@ -682,7 +761,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         }
 
         String response = executeGetRequest(builder.toUriString());
-        if (response == null) return Collections.emptyList();
+        if (response == null) return SearchGamesOutput.builder().games(Collections.emptyList()).build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode gamesNode = root.path("response").path("jeux");
@@ -693,13 +772,23 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                 games.add(parseGame(node));
             }
         }
-        return games;
+        return SearchGamesOutput.builder()
+                .games(games)
+                .build();
     }
 
     @Override
-    public Game getGameInfo(ApiCredentials credentials, Integer systemId, String crc, String md5, String sha1,
-                            String romType, String romName, Long romSize, Integer gameId) throws Exception {
-        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("jeuInfos.php", credentials))
+    public GetGameInfoOutput getGameInfo(GetGameInfoInput input) throws Exception {
+        Integer systemId = input.getSystemId();
+        String crc = input.getCrc();
+        String md5 = input.getMd5();
+        String sha1 = input.getSha1();
+        String romType = input.getRomType();
+        String romName = input.getRomName();
+        Long romSize = input.getRomSize();
+        Integer gameId = input.getGameId();
+
+        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("jeuInfos.php"))
                 .queryParam("systemeid", systemId);
 
         if (gameId != null) {
@@ -714,18 +803,29 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         }
 
         String response = executeGetRequest(builder.toUriString());
-        if (response == null) return null;
+        if (response == null) return GetGameInfoOutput.builder().build();
 
         JsonNode root = objectMapper.readTree(response);
         JsonNode gameNode = root.path("response").path("jeu");
 
-        return parseGame(gameNode);
+        Game game = parseGame(gameNode);
+        return GetGameInfoOutput.builder()
+                .game(game)
+                .build();
     }
 
     @Override
-    public byte[] downloadGameMedia(ApiCredentials credentials, Integer systemId, Integer gameId, String media,
-                                    String crc, String md5, String sha1, Integer maxWidth, Integer maxHeight) throws Exception {
-        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("mediaJeu.php", credentials))
+    public DownloadGameMediaOutput downloadGameMedia(DownloadGameMediaInput input) throws Exception {
+        Integer systemId = input.getSystemId();
+        Integer gameId = input.getGameId();
+        String media = input.getMedia();
+        String crc = input.getCrc();
+        String md5 = input.getMd5();
+        String sha1 = input.getSha1();
+        Integer maxWidth = input.getMaxWidth();
+        Integer maxHeight = input.getMaxHeight();
+
+        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("mediaJeu.php"))
                 .queryParam("systemeid", systemId)
                 .queryParam("jeuid", gameId)
                 .queryParam("media", media);
@@ -736,13 +836,22 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (maxWidth != null) builder.queryParam("maxwidth", maxWidth);
         if (maxHeight != null) builder.queryParam("maxheight", maxHeight);
 
-        return executeGetBinaryRequest(builder.toUriString());
+        byte[] data = executeGetBinaryRequest(builder.toUriString());
+        return DownloadGameMediaOutput.builder()
+                .data(data)
+                .build();
     }
 
     @Override
-    public byte[] downloadGameVideo(ApiCredentials credentials, Integer systemId, Integer gameId, String media,
-                                    String crc, String md5, String sha1) throws Exception {
-        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("mediaVideoJeu.php", credentials))
+    public DownloadGameVideoOutput downloadGameVideo(DownloadGameVideoInput input) throws Exception {
+        Integer systemId = input.getSystemId();
+        Integer gameId = input.getGameId();
+        String media = input.getMedia();
+        String crc = input.getCrc();
+        String md5 = input.getMd5();
+        String sha1 = input.getSha1();
+
+        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("mediaVideoJeu.php"))
                 .queryParam("systemeid", systemId)
                 .queryParam("jeuid", gameId)
                 .queryParam("media", media);
@@ -751,13 +860,22 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (md5 != null && !md5.isEmpty()) builder.queryParam("md5", md5);
         if (sha1 != null && !sha1.isEmpty()) builder.queryParam("sha1", sha1);
 
-        return executeGetBinaryRequest(builder.toUriString());
+        byte[] data = executeGetBinaryRequest(builder.toUriString());
+        return DownloadGameVideoOutput.builder()
+                .data(data)
+                .build();
     }
 
     @Override
-    public byte[] downloadGameManual(ApiCredentials credentials, Integer systemId, Integer gameId, String media,
-                                     String crc, String md5, String sha1) throws Exception {
-        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("mediaManuelJeu.php", credentials))
+    public DownloadGameManualOutput downloadGameManual(DownloadGameManualInput input) throws Exception {
+        Integer systemId = input.getSystemId();
+        Integer gameId = input.getGameId();
+        String media = input.getMedia();
+        String crc = input.getCrc();
+        String md5 = input.getMd5();
+        String sha1 = input.getSha1();
+
+        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("mediaManuelJeu.php"))
                 .queryParam("systemeid", systemId)
                 .queryParam("jeuid", gameId)
                 .queryParam("media", media);
@@ -766,34 +884,46 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (md5 != null && !md5.isEmpty()) builder.queryParam("md5", md5);
         if (sha1 != null && !sha1.isEmpty()) builder.queryParam("sha1", sha1);
 
-        return executeGetBinaryRequest(builder.toUriString());
+        byte[] data = executeGetBinaryRequest(builder.toUriString());
+        return DownloadGameManualOutput.builder()
+                .data(data)
+                .build();
     }
 
     @Override
-    public String submitGameRating(ApiCredentials credentials, Integer gameId, Integer rating) throws Exception {
+    public SubmitGameRatingOutput submitGameRating(SubmitGameRatingInput input) throws Exception {
+        Integer gameId = input.getGameId();
+        Integer rating = input.getRating();
+
         if (rating < 1 || rating > 20) {
             throw new Exception("Rating must be between 1 and 20");
         }
 
-        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("botNote.php", credentials))
+        UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(buildBaseUrl("botNote.php"))
                 .queryParam("gameid", gameId)
                 .queryParam("note", rating);
 
-        return executeGetRequest(builder.toUriString());
+        String message = executeGetRequest(builder.toUriString());
+        return SubmitGameRatingOutput.builder()
+                .message(message)
+                .build();
     }
 
     @Override
-    public String submitProposal(ApiCredentials credentials, Integer gameId, Integer romId,
-                                 Map<String, Object> proposalData) throws Exception {
+    public SubmitProposalOutput submitProposal(SubmitProposalInput input) throws Exception {
+        Integer gameId = input.getGameId();
+        Integer romId = input.getRomId();
+        Map<String, Object> proposalData = input.getProposalData();
+
         // Build URL with basic parameters including developer credentials
         String baseUrl = BASE_URL + "/botProposition.php";
 
         UriComponentsBuilder builder = UriComponentsBuilder.fromUriString(baseUrl)
-                .queryParam("devid", credentials.getDevId())
-                .queryParam("devpassword", credentials.getDevPassword())
-                .queryParam("softname", credentials.getSoftName())
-                .queryParam("ssid", credentials.getSsId())
-                .queryParam("sspassword", credentials.getSsPassword());
+                .queryParam("devid", API_CREDENTIALS.getDevId())
+                .queryParam("devpassword", API_CREDENTIALS.getDevPassword())
+                .queryParam("softname", API_CREDENTIALS.getSoftName())
+                .queryParam("ssid", API_CREDENTIALS.getSsId())
+                .queryParam("sspassword", API_CREDENTIALS.getSsPassword());
 
         if (gameId != null) {
             builder.queryParam("gameid", gameId);
@@ -815,7 +945,9 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
 
         try {
             ResponseEntity<String> response = restTemplate.postForEntity(builder.toUriString(), requestEntity, String.class);
-            return response.getBody();
+            return SubmitProposalOutput.builder()
+                    .message(response.getBody())
+                    .build();
         } catch (HttpClientErrorException | HttpServerErrorException ex) {
             handleApiError(ex);
             throw ex; // This line is unreachable but required for compilation
