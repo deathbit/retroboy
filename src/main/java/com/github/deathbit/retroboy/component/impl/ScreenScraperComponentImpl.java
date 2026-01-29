@@ -364,13 +364,14 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         JsonNode levelsNode = root.path("response").path("userlevels");
 
         List<UserLevel> levels = new ArrayList<>();
-        if (levelsNode.isArray()) {
-            for (JsonNode node : levelsNode) {
+        if (levelsNode != null && !levelsNode.isMissingNode() && levelsNode.isObject()) {
+            levelsNode.properties().forEach(entry -> {
+                JsonNode node = entry.getValue();
                 levels.add(UserLevel.builder()
                         .id(node.path("id").asInt())
                         .nomFr(node.path("nom_fr").asString())
                         .build());
-            }
+            });
         }
 
         UserLevelsResponse userLevelsResponse = UserLevelsResponse.builder()
