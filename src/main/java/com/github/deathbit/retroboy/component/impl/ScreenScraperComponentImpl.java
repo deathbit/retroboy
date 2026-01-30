@@ -463,7 +463,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (typesNode.isArray()) {
             for (JsonNode node : typesNode) {
                 types.add(RomType.builder()
-                        .name(node.path("nom").asString())
+                        .name(node.asText())
                         .build());
             }
         }
