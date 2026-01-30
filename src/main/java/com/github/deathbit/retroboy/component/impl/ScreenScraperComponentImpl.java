@@ -489,8 +489,9 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         JsonNode regionsNode = root.path("response").path("regions");
 
         List<Region> regions = new ArrayList<>();
-        if (regionsNode.isArray()) {
-            for (JsonNode node : regionsNode) {
+        if (regionsNode != null && !regionsNode.isMissingNode() && regionsNode.isObject()) {
+            regionsNode.properties().forEach(entry -> {
+                JsonNode node = entry.getValue();
                 regions.add(Region.builder()
                         .id(node.path("id").asInt())
                         .shortName(node.path("nomcourt").asString())
@@ -503,7 +504,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .parent(node.path("parent").asInt())
                         .medias(parseMedias(node.path("medias")))
                         .build());
-            }
+            });
         }
         RegionsResponse responseObj = RegionsResponse.builder()
                 .regions(regions)
