@@ -5,7 +5,6 @@ import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.component.ScreenScraperComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.handler.handlers.nintendo.NesHandler;
-import com.github.deathbit.retroboy.utils.CommonUtils;
 import org.jspecify.annotations.NonNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -37,10 +36,10 @@ public class StartupRunner implements ApplicationRunner {
 
     @Override
     public void run(@NonNull ApplicationArguments args) throws Exception {
-        CommonUtils.configureTrustAllSSL();
-        var x1 = screenScraperComponent.getInfrastructureInfo();
-
-        System.out.println();
+//        CommonUtils.configureTrustAllSSL();
+//        var x1 = screenScraperComponent.getInfrastructureInfo();
+//
+//        System.out.println();
 
 
 
