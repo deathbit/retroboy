@@ -528,8 +528,9 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         JsonNode languagesNode = root.path("response").path("langues");
 
         List<Language> languages = new ArrayList<>();
-        if (languagesNode.isArray()) {
-            for (JsonNode node : languagesNode) {
+        if (languagesNode != null && !languagesNode.isMissingNode() && languagesNode.isObject()) {
+            languagesNode.properties().forEach(entry -> {
+                JsonNode node = entry.getValue();
                 languages.add(Language.builder()
                         .id(safeAsInt(node.path("id")))
                         .shortName(safeAsString(node.path("nomcourt")))
@@ -542,7 +543,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
                         .parent(safeAsInt(node.path("parent")))
                         .medias(parseMedias(node.path("medias")))
                         .build());
-            }
+            });
         }
         LanguagesResponse responseObj = LanguagesResponse.builder()
                 .langues(languages)
