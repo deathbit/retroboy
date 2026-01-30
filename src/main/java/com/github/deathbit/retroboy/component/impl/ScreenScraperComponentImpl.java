@@ -262,18 +262,18 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
      */
     private ServerInfo parseServerInfo(JsonNode serverNode) {
         return ServerInfo.builder()
-                .cpu1(serverNode.path("cpu1").asDouble())
-                .cpu2(serverNode.path("cpu2").asDouble())
-                .cpu3(serverNode.path("cpu3").asDouble())
-                .threadsMin(serverNode.path("threadsmin").asInt())
-                .nbScrapeurs(serverNode.path("nbscrapeurs").asInt())
-                .apiAcces(serverNode.path("apiacces").asInt())
-                .closeForNoMember(serverNode.path("closefornomember").asInt())
-                .closeForLeecher(serverNode.path("closeforleecher").asInt())
-                .maxThreadForNonMember(serverNode.path("maxthreadfornonmember").asInt())
-                .threadForNonMember(serverNode.path("threadfornonmember").asInt())
-                .maxThreadForMember(serverNode.path("maxthreadformember").asInt())
-                .threadForMember(serverNode.path("threadformember").asInt())
+                .cpu1(safeAsDouble(serverNode.path("cpu1")))
+                .cpu2(safeAsDouble(serverNode.path("cpu2")))
+                .cpu3(safeAsDouble(serverNode.path("cpu3")))
+                .threadsMin(safeAsInt(serverNode.path("threadsmin")))
+                .nbScrapeurs(safeAsInt(serverNode.path("nbscrapeurs")))
+                .apiAcces(safeAsInt(serverNode.path("apiacces")))
+                .closeForNoMember(safeAsInt(serverNode.path("closefornomember")))
+                .closeForLeecher(safeAsInt(serverNode.path("closeforleecher")))
+                .maxThreadForNonMember(safeAsInt(serverNode.path("maxthreadfornonmember")))
+                .threadForNonMember(safeAsInt(serverNode.path("threadfornonmember")))
+                .maxThreadForMember(safeAsInt(serverNode.path("maxthreadformember")))
+                .threadForMember(safeAsInt(serverNode.path("threadformember")))
                 .build();
     }
 
@@ -317,27 +317,27 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         ServerInfo serverInfo = parseServerInfo(serverNode);
 
         UserInfo userInfo = UserInfo.builder()
-                .id(userNode.path("id").asString())
-                .numId(userNode.path("numid").asLong())
-                .level(userNode.path("niveau").asInt())
-                .contribution(userNode.path("contribution").asInt())
-                .uploadSysteme(userNode.path("uploadsysteme").asInt())
-                .uploadInfos(userNode.path("uploadinfos").asInt())
-                .romAsso(userNode.path("romasso").asInt())
-                .uploadMedia(userNode.path("uploadmedia").asInt())
-                .propositionOk(userNode.path("propositionok").asInt())
-                .propositionKo(userNode.path("propositionko").asInt())
-                .quotaRefu(userNode.path("quotarefu").asDouble())
-                .maxThreads(userNode.path("maxthreads").asInt())
-                .maxDownloadSpeed(userNode.path("maxdownloadspeed").asInt())
-                .requestsToday(userNode.path("requeststoday").asInt())
-                .requestsKoToday(userNode.path("requestskotoday").asInt())
-                .maxRequestsPerMin(userNode.path("maxrequestspermin").asInt())
-                .maxRequestsPerDay(userNode.path("maxrequestsperday").asInt())
-                .maxRequestsKoPerDay(userNode.path("maxrequestskoperday").asInt())
-                .visits(userNode.path("visites").asInt())
-                .lastVisitDate(userNode.path("datedernierevisite").asString())
-                .favRegion(userNode.path("favregion").asString())
+                .id(safeAsString(userNode.path("id")))
+                .numId(safeAsLong(userNode.path("numid")))
+                .level(safeAsInt(userNode.path("niveau")))
+                .contribution(safeAsInt(userNode.path("contribution")))
+                .uploadSysteme(safeAsInt(userNode.path("uploadsysteme")))
+                .uploadInfos(safeAsInt(userNode.path("uploadinfos")))
+                .romAsso(safeAsInt(userNode.path("romasso")))
+                .uploadMedia(safeAsInt(userNode.path("uploadmedia")))
+                .propositionOk(safeAsInt(userNode.path("propositionok")))
+                .propositionKo(safeAsInt(userNode.path("propositionko")))
+                .quotaRefu(safeAsDouble(userNode.path("quotarefu")))
+                .maxThreads(safeAsInt(userNode.path("maxthreads")))
+                .maxDownloadSpeed(safeAsInt(userNode.path("maxdownloadspeed")))
+                .requestsToday(safeAsInt(userNode.path("requeststoday")))
+                .requestsKoToday(safeAsInt(userNode.path("requestskotoday")))
+                .maxRequestsPerMin(safeAsInt(userNode.path("maxrequestspermin")))
+                .maxRequestsPerDay(safeAsInt(userNode.path("maxrequestsperday")))
+                .maxRequestsKoPerDay(safeAsInt(userNode.path("maxrequestskoperday")))
+                .visits(safeAsInt(userNode.path("visites")))
+                .lastVisitDate(safeAsString(userNode.path("datedernierevisite")))
+                .favRegion(safeAsString(userNode.path("favregion")))
                 .build();
 
         UserInfoResponse userInfoResponse = UserInfoResponse.builder()
@@ -368,8 +368,8 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
             levelsNode.properties().forEach(entry -> {
                 JsonNode node = entry.getValue();
                 levels.add(UserLevel.builder()
-                        .id(node.path("id").asInt())
-                        .nomFr(node.path("nom_fr").asString())
+                        .id(safeAsInt(node.path("id")))
+                        .nomFr(safeAsString(node.path("nom_fr")))
                         .build());
             });
         }
@@ -401,9 +401,9 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
             playersNode.properties().forEach(entry -> {
                 JsonNode node = entry.getValue();
                 counts.add(PlayerCount.builder()
-                        .id(node.path("id").asInt())
-                        .name(node.path("nom").asString())
-                        .parent(node.path("parent").asInt())
+                        .id(safeAsInt(node.path("id")))
+                        .name(safeAsString(node.path("nom")))
+                        .parent(safeAsInt(node.path("parent")))
                         .build());
             });
         }
@@ -493,15 +493,15 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
             regionsNode.properties().forEach(entry -> {
                 JsonNode node = entry.getValue();
                 regions.add(Region.builder()
-                        .id(node.path("id").asInt())
-                        .shortName(node.path("nomcourt").asString())
-                        .nameDe(node.path("nom_de").asString())
-                        .nameEn(node.path("nom_en").asString())
-                        .nameEs(node.path("nom_es").asString())
-                        .nameFr(node.path("nom_fr").asString())
-                        .nameIt(node.path("nom_it").asString())
-                        .namePt(node.path("nom_pt").asString())
-                        .parent(node.path("parent").asInt())
+                        .id(safeAsInt(node.path("id")))
+                        .shortName(safeAsString(node.path("nomcourt")))
+                        .nameDe(safeAsString(node.path("nom_de")))
+                        .nameEn(safeAsString(node.path("nom_en")))
+                        .nameEs(safeAsString(node.path("nom_es")))
+                        .nameFr(safeAsString(node.path("nom_fr")))
+                        .nameIt(safeAsString(node.path("nom_it")))
+                        .namePt(safeAsString(node.path("nom_pt")))
+                        .parent(safeAsInt(node.path("parent")))
                         .medias(parseMedias(node.path("medias")))
                         .build());
             });
@@ -531,15 +531,15 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (languagesNode.isArray()) {
             for (JsonNode node : languagesNode) {
                 languages.add(Language.builder()
-                        .id(node.path("id").asInt())
-                        .shortName(node.path("nomcourt").asString())
-                        .nameDe(node.path("nom_de").asString())
-                        .nameEn(node.path("nom_en").asString())
-                        .nameEs(node.path("nom_es").asString())
-                        .nameFr(node.path("nom_fr").asString())
-                        .nameIt(node.path("nom_it").asString())
-                        .namePt(node.path("nom_pt").asString())
-                        .parent(node.path("parent").asInt())
+                        .id(safeAsInt(node.path("id")))
+                        .shortName(safeAsString(node.path("nomcourt")))
+                        .nameDe(safeAsString(node.path("nom_de")))
+                        .nameEn(safeAsString(node.path("nom_en")))
+                        .nameEs(safeAsString(node.path("nom_es")))
+                        .nameFr(safeAsString(node.path("nom_fr")))
+                        .nameIt(safeAsString(node.path("nom_it")))
+                        .namePt(safeAsString(node.path("nom_pt")))
+                        .parent(safeAsInt(node.path("parent")))
                         .medias(parseMedias(node.path("medias")))
                         .build());
             }
@@ -569,14 +569,14 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (genresNode.isArray()) {
             for (JsonNode node : genresNode) {
                 genres.add(Genre.builder()
-                        .id(node.path("id").asInt())
-                        .nameDe(node.path("nom_de").asString())
-                        .nameEn(node.path("nom_en").asString())
-                        .nameEs(node.path("nom_es").asString())
-                        .nameFr(node.path("nom_fr").asString())
-                        .nameIt(node.path("nom_it").asString())
-                        .namePt(node.path("nom_pt").asString())
-                        .parent(node.path("parent").asInt())
+                        .id(safeAsInt(node.path("id")))
+                        .nameDe(safeAsString(node.path("nom_de")))
+                        .nameEn(safeAsString(node.path("nom_en")))
+                        .nameEs(safeAsString(node.path("nom_es")))
+                        .nameFr(safeAsString(node.path("nom_fr")))
+                        .nameIt(safeAsString(node.path("nom_it")))
+                        .namePt(safeAsString(node.path("nom_pt")))
+                        .parent(safeAsInt(node.path("parent")))
                         .medias(parseMedias(node.path("medias")))
                         .build());
             }
@@ -606,8 +606,8 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (familiesNode.isArray()) {
             for (JsonNode node : familiesNode) {
                 families.add(Family.builder()
-                        .id(node.path("id").asInt())
-                        .name(node.path("nom").asString())
+                        .id(safeAsInt(node.path("id")))
+                        .name(safeAsString(node.path("nom")))
                         .medias(parseMedias(node.path("medias")))
                         .build());
             }
@@ -637,15 +637,15 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (classificationsNode.isArray()) {
             for (JsonNode node : classificationsNode) {
                 classifications.add(Classification.builder()
-                        .id(node.path("id").asInt())
-                        .shortName(node.path("nomcourt").asString())
-                        .nameDe(node.path("nom_de").asString())
-                        .nameEn(node.path("nom_en").asString())
-                        .nameEs(node.path("nom_es").asString())
-                        .nameFr(node.path("nom_fr").asString())
-                        .nameIt(node.path("nom_it").asString())
-                        .namePt(node.path("nom_pt").asString())
-                        .parent(node.path("parent").asInt())
+                        .id(safeAsInt(node.path("id")))
+                        .shortName(safeAsString(node.path("nomcourt")))
+                        .nameDe(safeAsString(node.path("nom_de")))
+                        .nameEn(safeAsString(node.path("nom_en")))
+                        .nameEs(safeAsString(node.path("nom_es")))
+                        .nameFr(safeAsString(node.path("nom_fr")))
+                        .nameIt(safeAsString(node.path("nom_it")))
+                        .namePt(safeAsString(node.path("nom_pt")))
+                        .parent(safeAsInt(node.path("parent")))
                         .medias(parseMedias(node.path("medias")))
                         .build());
             }
@@ -675,20 +675,20 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (mediasNode.isArray()) {
             for (JsonNode node : mediasNode) {
                 mediaList.add(SystemMediaInfo.builder()
-                        .id(node.path("id").asInt())
-                        .shortName(node.path("nomcourt").asString())
-                        .name(node.path("nom").asString())
-                        .category(node.path("categorie").asString())
-                        .platformTypes(node.path("platformtypes").asString())
-                        .platforms(node.path("platforms").asString())
-                        .type(node.path("type").asString())
-                        .fileFormat(node.path("format").asString())
-                        .fileFormat2(node.path("format2").asString())
-                        .autoGen(node.path("autogen").asInt())
-                        .multiRegions(node.path("multiregions").asInt())
-                        .multiPlatforms(node.path("multiplatforms").asInt())
-                        .multiVersions(node.path("multiversions").asInt())
-                        .extraInfosTxt(node.path("extrainfostxt").asString())
+                        .id(safeAsInt(node.path("id")))
+                        .shortName(safeAsString(node.path("nomcourt")))
+                        .name(safeAsString(node.path("nom")))
+                        .category(safeAsString(node.path("categorie")))
+                        .platformTypes(safeAsString(node.path("platformtypes")))
+                        .platforms(safeAsString(node.path("platforms")))
+                        .type(safeAsString(node.path("type")))
+                        .fileFormat(safeAsString(node.path("format")))
+                        .fileFormat2(safeAsString(node.path("format2")))
+                        .autoGen(safeAsInt(node.path("autogen")))
+                        .multiRegions(safeAsInt(node.path("multiregions")))
+                        .multiPlatforms(safeAsInt(node.path("multiplatforms")))
+                        .multiVersions(safeAsInt(node.path("multiversions")))
+                        .extraInfosTxt(safeAsString(node.path("extrainfostxt")))
                         .build());
             }
         }
@@ -717,20 +717,20 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (mediasNode.isArray()) {
             for (JsonNode node : mediasNode) {
                 mediaList.add(GameMediaInfo.builder()
-                        .id(node.path("id").asInt())
-                        .shortName(node.path("nomcourt").asString())
-                        .name(node.path("nom").asString())
-                        .category(node.path("categorie").asString())
-                        .platformTypes(node.path("platformtypes").asString())
-                        .platforms(node.path("platforms").asString())
-                        .type(node.path("type").asString())
-                        .fileFormat(node.path("format").asString())
-                        .fileFormat2(node.path("format2").asString())
-                        .autoGen(node.path("autogen").asInt())
-                        .multiRegions(node.path("multiregions").asInt())
-                        .multiPlatforms(node.path("multiplatforms").asInt())
-                        .multiVersions(node.path("multiversions").asInt())
-                        .extraInfosTxt(node.path("extrainfostxt").asString())
+                        .id(safeAsInt(node.path("id")))
+                        .shortName(safeAsString(node.path("nomcourt")))
+                        .name(safeAsString(node.path("nom")))
+                        .category(safeAsString(node.path("categorie")))
+                        .platformTypes(safeAsString(node.path("platformtypes")))
+                        .platforms(safeAsString(node.path("platforms")))
+                        .type(safeAsString(node.path("type")))
+                        .fileFormat(safeAsString(node.path("format")))
+                        .fileFormat2(safeAsString(node.path("format2")))
+                        .autoGen(safeAsInt(node.path("autogen")))
+                        .multiRegions(safeAsInt(node.path("multiregions")))
+                        .multiPlatforms(safeAsInt(node.path("multiplatforms")))
+                        .multiVersions(safeAsInt(node.path("multiversions")))
+                        .extraInfosTxt(safeAsString(node.path("extrainfostxt")))
                         .build());
             }
         }
@@ -759,18 +759,18 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (infosNode.isArray()) {
             for (JsonNode node : infosNode) {
                 infoList.add(GameInfo.builder()
-                        .id(node.path("id").asInt())
-                        .shortName(node.path("nomcourt").asString())
-                        .name(node.path("nom").asString())
-                        .category(node.path("categorie").asString())
-                        .platformTypes(node.path("platformtypes").asString())
-                        .platforms(node.path("platforms").asString())
-                        .type(node.path("type").asString())
-                        .autoGen(node.path("autogen").asInt())
-                        .multiRegions(node.path("multiregions").asInt())
-                        .multiSupports(node.path("multisupports").asInt())
-                        .multiVersions(node.path("multiversions").asInt())
-                        .multiChoice(node.path("multichoice").asInt())
+                        .id(safeAsInt(node.path("id")))
+                        .shortName(safeAsString(node.path("nomcourt")))
+                        .name(safeAsString(node.path("nom")))
+                        .category(safeAsString(node.path("categorie")))
+                        .platformTypes(safeAsString(node.path("platformtypes")))
+                        .platforms(safeAsString(node.path("platforms")))
+                        .type(safeAsString(node.path("type")))
+                        .autoGen(safeAsInt(node.path("autogen")))
+                        .multiRegions(safeAsInt(node.path("multiregions")))
+                        .multiSupports(safeAsInt(node.path("multisupports")))
+                        .multiVersions(safeAsInt(node.path("multiversions")))
+                        .multiChoice(safeAsInt(node.path("multichoice")))
                         .build());
             }
         }
@@ -799,18 +799,18 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (infosNode.isArray()) {
             for (JsonNode node : infosNode) {
                 infoList.add(RomInfo.builder()
-                        .id(node.path("id").asInt())
-                        .shortName(node.path("nomcourt").asString())
-                        .name(node.path("nom").asString())
-                        .category(node.path("categorie").asString())
-                        .platformTypes(node.path("platformtypes").asString())
-                        .platforms(node.path("platforms").asString())
-                        .type(node.path("type").asString())
-                        .autoGen(node.path("autogen").asInt())
-                        .multiRegions(node.path("multiregions").asInt())
-                        .multiSupports(node.path("multisupports").asInt())
-                        .multiVersions(node.path("multiversions").asInt())
-                        .multiChoice(node.path("multichoice").asInt())
+                        .id(safeAsInt(node.path("id")))
+                        .shortName(safeAsString(node.path("nomcourt")))
+                        .name(safeAsString(node.path("nom")))
+                        .category(safeAsString(node.path("categorie")))
+                        .platformTypes(safeAsString(node.path("platformtypes")))
+                        .platforms(safeAsString(node.path("platforms")))
+                        .type(safeAsString(node.path("type")))
+                        .autoGen(safeAsInt(node.path("autogen")))
+                        .multiRegions(safeAsInt(node.path("multiregions")))
+                        .multiSupports(safeAsInt(node.path("multisupports")))
+                        .multiVersions(safeAsInt(node.path("multiversions")))
+                        .multiChoice(safeAsInt(node.path("multichoice")))
                         .build());
             }
         }
@@ -899,16 +899,16 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (systemsNode.isArray()) {
             for (JsonNode node : systemsNode) {
                 systems.add(GameSystem.builder()
-                        .id(node.path("id").asInt())
-                        .parentId(node.path("parentid").asInt())
+                        .id(safeAsInt(node.path("id")))
+                        .parentId(safeAsInt(node.path("parentid")))
                         .names(parseNames(node.path("noms")))
-                        .extensions(node.path("extensions").asString())
-                        .company(node.path("compagnie").asString())
-                        .type(node.path("type").asString())
-                        .startDate(node.path("datedebut").asString())
-                        .endDate(node.path("datefin").asString())
-                        .romType(node.path("romtype").asString())
-                        .supportType(node.path("supporttype").asString())
+                        .extensions(safeAsString(node.path("extensions")))
+                        .company(safeAsString(node.path("compagnie")))
+                        .type(safeAsString(node.path("type")))
+                        .startDate(safeAsString(node.path("datedebut")))
+                        .endDate(safeAsString(node.path("datefin")))
+                        .romType(safeAsString(node.path("romtype")))
+                        .supportType(safeAsString(node.path("supporttype")))
                         .medias(parseNestedMedias(node.path("medias")))
                         .build());
             }
@@ -1217,6 +1217,56 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
     }
 
     /**
+     * Helper method to safely extract string value from JsonNode
+     */
+    private String safeAsString(JsonNode node) {
+        if (node == null || node.isMissingNode() || node.isNull()) {
+            return null;
+        }
+        return node.asString();
+    }
+
+    /**
+     * Helper method to safely extract integer value from JsonNode
+     */
+    private Integer safeAsInt(JsonNode node) {
+        if (node == null || node.isMissingNode() || node.isNull()) {
+            return null;
+        }
+        return node.asInt();
+    }
+
+    /**
+     * Helper method to safely extract long value from JsonNode
+     */
+    private Long safeAsLong(JsonNode node) {
+        if (node == null || node.isMissingNode() || node.isNull()) {
+            return null;
+        }
+        return node.asLong();
+    }
+
+    /**
+     * Helper method to safely extract double value from JsonNode
+     */
+    private Double safeAsDouble(JsonNode node) {
+        if (node == null || node.isMissingNode() || node.isNull()) {
+            return null;
+        }
+        return node.asDouble();
+    }
+
+    /**
+     * Helper method to safely extract boolean value from JsonNode
+     */
+    private Boolean safeAsBoolean(JsonNode node) {
+        if (node == null || node.isMissingNode() || node.isNull()) {
+            return null;
+        }
+        return node.asBoolean();
+    }
+
+    /**
      * Helper method to parse medias from JSON node
      */
     private Map<String, String> parseMedias(JsonNode mediasNode) {
@@ -1266,19 +1316,19 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (node == null || node.isMissingNode()) return null;
 
         Game.GameBuilder builder = Game.builder()
-                .id(node.path("id").asInt())
-                .romId(node.path("romid").asInt())
-                .notGame(node.path("notgame").asBoolean())
-                .name(node.path("nom").asString())
+                .id(safeAsInt(node.path("id")))
+                .romId(safeAsInt(node.path("romid")))
+                .notGame(safeAsBoolean(node.path("notgame")))
+                .name(safeAsString(node.path("nom")))
                 .names(parseNames(node.path("noms")))
-                .cloneOf(node.path("cloneof").asInt())
-                .editor(node.path("editeur").asString())
-                .developer(node.path("developpeur").asString())
-                .players(node.path("joueurs").asString())
-                .score(node.path("note").asDouble())
-                .topStaff(node.path("topstaff").asInt())
-                .rotation(node.path("rotation").asString())
-                .resolution(node.path("resolution").asString())
+                .cloneOf(safeAsInt(node.path("cloneof")))
+                .editor(safeAsString(node.path("editeur")))
+                .developer(safeAsString(node.path("developpeur")))
+                .players(safeAsString(node.path("joueurs")))
+                .score(safeAsDouble(node.path("note")))
+                .topStaff(safeAsInt(node.path("topstaff")))
+                .rotation(safeAsString(node.path("rotation")))
+                .resolution(safeAsString(node.path("resolution")))
                 .synopsis(parseNames(node.path("synopsis")))
                 .dates(parseNames(node.path("dates")))
                 .medias(parseNestedMedias(node.path("medias")));
@@ -1287,11 +1337,11 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         JsonNode systemNode = node.path("systeme");
         if (!systemNode.isMissingNode()) {
             Map<String, String> systemNames = new HashMap<>();
-            systemNames.put("nom", systemNode.path("nom").asString());
+            systemNames.put("nom", safeAsString(systemNode.path("nom")));
             builder.system(GameSystem.builder()
-                    .id(systemNode.path("id").asInt())
+                    .id(safeAsInt(systemNode.path("id")))
                     .names(systemNames)
-                    .parentId(systemNode.path("parentid").asInt())
+                    .parentId(safeAsInt(systemNode.path("parentid")))
                     .build());
         }
 
@@ -1321,34 +1371,34 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         if (node == null || node.isMissingNode()) return null;
 
         return Rom.builder()
-                .id(node.path("id").asInt())
-                .romNumSupport(node.path("romnumsupport").asInt())
-                .romTotalSupport(node.path("romtotalsupport").asInt())
-                .romFileName(node.path("romfilename").asString())
-                .romSerial(node.path("romserial").asString())
-                .romRegions(node.path("romregions").asString())
-                .romLangues(node.path("romlangues").asString())
-                .romType(node.path("romtype").asString())
-                .romSupportType(node.path("romsupporttype").asString())
-                .romSize(node.path("romsize").asLong())
-                .romCrc(node.path("romcrc").asString())
-                .romMd5(node.path("rommd5").asString())
-                .romSha1(node.path("romsha1").asString())
-                .romCloneOf(node.path("romcloneof").asInt())
-                .beta(node.path("beta").asInt())
-                .demo(node.path("demo").asInt())
-                .trad(node.path("trad").asInt())
-                .hack(node.path("hack").asInt())
-                .unl(node.path("unl").asInt())
-                .alt(node.path("alt").asInt())
-                .best(node.path("best").asInt())
-                .netplay(node.path("netplay").asInt())
-                .gamelink(node.path("gamelink").asInt())
-                .nbScrap(node.path("nbscrap").asInt())
-                .players(node.path("joueurs").asString())
+                .id(safeAsInt(node.path("id")))
+                .romNumSupport(safeAsInt(node.path("romnumsupport")))
+                .romTotalSupport(safeAsInt(node.path("romtotalsupport")))
+                .romFileName(safeAsString(node.path("romfilename")))
+                .romSerial(safeAsString(node.path("romserial")))
+                .romRegions(safeAsString(node.path("romregions")))
+                .romLangues(safeAsString(node.path("romlangues")))
+                .romType(safeAsString(node.path("romtype")))
+                .romSupportType(safeAsString(node.path("romsupporttype")))
+                .romSize(safeAsLong(node.path("romsize")))
+                .romCrc(safeAsString(node.path("romcrc")))
+                .romMd5(safeAsString(node.path("rommd5")))
+                .romSha1(safeAsString(node.path("romsha1")))
+                .romCloneOf(safeAsInt(node.path("romcloneof")))
+                .beta(safeAsInt(node.path("beta")))
+                .demo(safeAsInt(node.path("demo")))
+                .trad(safeAsInt(node.path("trad")))
+                .hack(safeAsInt(node.path("hack")))
+                .unl(safeAsInt(node.path("unl")))
+                .alt(safeAsInt(node.path("alt")))
+                .best(safeAsInt(node.path("best")))
+                .netplay(safeAsInt(node.path("netplay")))
+                .gamelink(safeAsInt(node.path("gamelink")))
+                .nbScrap(safeAsInt(node.path("nbscrap")))
+                .players(safeAsString(node.path("joueurs")))
                 .dates(parseNames(node.path("dates")))
-                .publisher(node.path("editeur").asString())
-                .developer(node.path("developpeur").asString())
+                .publisher(safeAsString(node.path("editeur")))
+                .developer(safeAsString(node.path("developpeur")))
                 .synopsis(parseNames(node.path("synopsis")))
                 .build();
     }
