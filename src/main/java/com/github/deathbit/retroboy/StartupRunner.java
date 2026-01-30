@@ -2,10 +2,8 @@ package com.github.deathbit.retroboy;
 
 import com.github.deathbit.retroboy.component.ConfigComponent;
 import com.github.deathbit.retroboy.component.FileComponent;
-import com.github.deathbit.retroboy.component.ScreenScraperComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.handler.handlers.nintendo.NesHandler;
-import com.github.deathbit.retroboy.utils.CommonUtils;
 import org.jspecify.annotations.NonNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -32,16 +30,8 @@ public class StartupRunner implements ApplicationRunner {
     @Autowired
     private NesHandler nesHandler;
 
-    @Autowired
-    private ScreenScraperComponent screenScraperComponent;
-
     @Override
     public void run(@NonNull ApplicationArguments args) throws Exception {
-        CommonUtils.configureTrustAllSSL();
-        var x1 = screenScraperComponent.getPlayerCounts();
-
-        System.out.println();
-
         printTask("清理目录和文件", List.of(
                 "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\info",
                 "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets",

@@ -120,6 +120,8 @@ public abstract class AbstractHandler implements Handler {
             Arrays.sort(files, Comparator.comparing(File::getName));
             for (File file : files) {
                 ruleContext.getFileContextMap().put(file.getName(), buildFileContext(file.getName()));
+            }
+            for (File file : files) {
                 String previousRevision = previousRevision(file.getName());
                 if (previousRevision != null) {
                     ruleContext.getFileContextMap().remove(previousRevision);
