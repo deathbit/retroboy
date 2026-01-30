@@ -604,14 +604,16 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         JsonNode familiesNode = root.path("response").path("familles");
 
         List<Family> families = new ArrayList<>();
-        if (familiesNode.isArray()) {
-            for (JsonNode node : familiesNode) {
+        if (familiesNode.isObject()) {
+            // Iterate over object properties (keys are family IDs)
+            familiesNode.properties().forEach(entry -> {
+                JsonNode node = entry.getValue();
                 families.add(Family.builder()
                         .id(safeAsInt(node.path("id")))
                         .name(safeAsString(node.path("nom")))
                         .medias(parseMedias(node.path("medias")))
                         .build());
-            }
+            });
         }
         FamiliesResponse responseObj = FamiliesResponse.builder()
                 .familles(families)
@@ -1273,9 +1275,21 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
     private Map<String, String> parseMedias(JsonNode mediasNode) {
         Map<String, String> medias = new HashMap<>();
         if (mediasNode != null && !mediasNode.isMissingNode()) {
-            mediasNode.properties().forEach(entry ->
-                    medias.put(entry.getKey(), entry.getValue().asString())
-            );
+            if (mediasNode.isArray()) {
+                // Handle array format (e.g., from families API)
+                for (JsonNode mediaNode : mediasNode) {
+                    String type = safeAsString(mediaNode.path("type"));
+                    String url = safeAsString(mediaNode.path("url"));
+                    if (type != null && url != null) {
+                        medias.put(type, url);
+                    }
+                }
+            } else {
+                // Handle object format
+                mediasNode.properties().forEach(entry ->
+                        medias.put(entry.getKey(), entry.getValue().asString())
+                );
+            }
         }
         return medias;
     }
