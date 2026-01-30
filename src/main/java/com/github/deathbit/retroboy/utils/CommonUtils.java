@@ -36,6 +36,17 @@ public class CommonUtils {
         System.out.println(border);
     }
 
+    public static void printAsciiArt() {
+        System.out.println(border);
+        System.out.print("""
+                ▗▄▄▖ ▗▄▄▄▖▗▄▄▄▖▗▄▄▖  ▗▄▖ ▗▄▄▖  ▗▄▖▗▖  ▗▖
+                ▐▌ ▐▌▐▌     █  ▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌▝▚▞▘\s
+                ▐▛▀▚▖▐▛▀▀▘  █  ▐▛▀▚▖▐▌ ▐▌▐▛▀▚▖▐▌ ▐▌ ▐▌ \s
+                ▐▌ ▐▌▐▙▄▄▖  █  ▐▌ ▐▌▝▚▄▞▘▐▙▄▞▘▝▚▄▞▘ ▐▌  by deathbit\s
+                """);
+        System.out.println(border);
+    }
+
     public static void configureTrustAllSSL() throws Exception {
         TrustManager[] trustAllCerts = new TrustManager[]{
                 new X509TrustManager() {

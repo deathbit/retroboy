@@ -12,6 +12,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+import static com.github.deathbit.retroboy.utils.CommonUtils.printAsciiArt;
 import static com.github.deathbit.retroboy.utils.CommonUtils.printTask;
 import static com.github.deathbit.retroboy.utils.CommonUtils.printTaskDone;
 
@@ -32,6 +33,7 @@ public class StartupRunner implements ApplicationRunner {
 
     @Override
     public void run(@NonNull ApplicationArguments args) throws Exception {
+        printAsciiArt();
         printTask("清理目录和文件", List.of(
                 "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\info",
                 "清空目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\assets",
