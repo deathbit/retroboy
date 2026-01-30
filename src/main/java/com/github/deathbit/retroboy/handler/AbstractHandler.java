@@ -33,6 +33,7 @@ import java.util.stream.Collectors;
 public abstract class AbstractHandler implements Handler {
 
     private static final Pattern REV_TAG = Pattern.compile("\\(Rev\\s+(\\d+)\\)");
+
     @Autowired
     private AppConfig appConfig;
     @Autowired
