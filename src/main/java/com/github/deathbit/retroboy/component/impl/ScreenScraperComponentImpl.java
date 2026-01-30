@@ -489,7 +489,7 @@ public class ScreenScraperComponentImpl implements ScreenScraperComponent {
         JsonNode regionsNode = root.path("response").path("regions");
 
         List<Region> regions = new ArrayList<>();
-        if (regionsNode.isObject()) {
+        if (regionsNode != null && !regionsNode.isMissingNode() && regionsNode.isObject()) {
             regionsNode.properties().forEach(entry -> {
                 JsonNode node = entry.getValue();
                 regions.add(Region.builder()
