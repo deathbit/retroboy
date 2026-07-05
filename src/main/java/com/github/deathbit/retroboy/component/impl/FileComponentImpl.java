@@ -53,6 +53,12 @@ public class FileComponentImpl implements FileComponent {
         ProgressBar pb = new ProgressBar("清空目录", dirs.size());
         for (String dir : dirs) {
             Path dirPath = Paths.get(dir);
+            if (Files.notExists(dirPath)) {
+                pb.startTask(1);
+                pb.updateTask(0);
+                pb.finishTask();
+                continue;
+            }
             try (Stream<Path> walk = Files.walk(dirPath)) {
                 List<Path> paths = walk.filter(p -> !p.equals(dirPath)).sorted(Comparator.reverseOrder()).toList();
                 pb.startTask(paths.size());

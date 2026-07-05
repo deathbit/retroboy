@@ -6,10 +6,15 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Map;
+import java.util.Set;
+
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class AreaConfig {
     private Area area;
+    private Set<String> fileNameBlackList;
+    private Map<String, String> renameOptions;
 }

@@ -20,5 +20,6 @@ public class RuleContext {
     private Set<String> licensed;
     private Set<String> globalTagBlackList;
     private Map<String, FileContext> fileContextMap;
+    private Map<String, String> skippedFileReasonMap;
     private Map<Area, Set<String>> areaFinalMap;
 }
