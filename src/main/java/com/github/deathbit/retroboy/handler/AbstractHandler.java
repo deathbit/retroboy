@@ -152,7 +152,7 @@ public abstract class AbstractHandler implements Handler {
             }
 
             for (RenamePlan renamePlan : renamePlans) {
-                String renameOption = areaConfig.getRenameOptions().get(renamePlan.fileContext().getFileName());
+                String renameOption = findRenameOption(areaConfig.getRenameOptions(), renamePlan.fileContext().getFileName());
                 if (renameOption != null && !renameOption.isBlank()) {
                     addRenameFileInput(ruleContext, areaConfig.getArea(), renamePlan, withOriginalExtension(renameOption, renamePlan.fileContext().getFileName()), renameReportLines, true, filesToRename);
                 }
@@ -162,7 +162,19 @@ public abstract class AbstractHandler implements Handler {
         return filesToRename;
     }
 
-    private void addDuplicateNameReport(List<RenamePlan> renamePlans, List<String> duplicateNameReportLines, Map<String, String> renameOptions) {
+    private String findRenameOption(List<AreaConfig.RenameOption> renameOptions, String fileName) {
+        if (renameOptions == null || renameOptions.isEmpty()) {
+            return null;
+        }
+
+        return renameOptions.stream()
+                .filter(renameOption -> fileName.equals(renameOption.getOldName()))
+                .map(AreaConfig.RenameOption::getNewName)
+                .findFirst()
+                .orElse(null);
+    }
+
+    private void addDuplicateNameReport(List<RenamePlan> renamePlans, List<String> duplicateNameReportLines, List<AreaConfig.RenameOption> renameOptions) {
         String targetFileName = renamePlans.get(0).targetFileName();
         String duplicateFileNames = renamePlans.stream()
                 .map(renamePlan -> renamePlan.fileContext().getFileName())
