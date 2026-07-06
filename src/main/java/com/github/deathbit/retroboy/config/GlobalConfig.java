@@ -9,6 +9,6 @@ import java.util.Set;
 @Builder
 public class GlobalConfig {
     private String raConfig;
-    private long startupTaskMask;
+    private String startupTaskMask;
     private Set<String> globalTagBlacklist;
 }
