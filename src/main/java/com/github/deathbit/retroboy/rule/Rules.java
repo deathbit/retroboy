@@ -1,9 +1,20 @@
 package com.github.deathbit.retroboy.rule;
 
+import com.github.deathbit.retroboy.domain.AreaConfig;
+import com.github.deathbit.retroboy.domain.FileContext;
+import com.github.deathbit.retroboy.domain.RuleContext;
+import com.github.deathbit.retroboy.enums.Area;
+
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Set;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class Rules {
+    private static final Pattern REV_TAG = Pattern.compile("\\(Rev\\s+(\\d+)\\)");
+
     public static final Rule IS_LICENSED = Rule.named(
             "IS_LICENSED",
             (rc, fc) -> rc.getLicensed().contains(fc.getFullName()),
@@ -73,9 +84,101 @@ public class Rules {
     public static final Rule IS_USA_BASE = IS_BASE.and(IS_USA_OR_WORLD);
     public static final Rule IS_EUROPE_BASE = IS_BASE.and(IS_EUROPE_OR_WORLD);
 
+    public static Rule isNotHitAreaFileNameBlackList(AreaConfig areaConfig) {
+        return Rule.named(
+                "IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST",
+                (rc, fc) -> areaConfig.getFileNameBlackList() == null
+                        || !areaConfig.getFileNameBlackList().contains(fc.getFileName()),
+                (rc, fc) -> "命中地区文件名黑名单: " + fc.getFileName());
+    }
+
+    public static void applyPreviousRevisionRule(RuleContext ruleContext) {
+        var revisionRules = ruleContext.getFileContextMap().keySet().stream()
+                .map(fileName -> new PreviousRevisionRule(fileName, previousRevision(fileName)))
+                .filter(rule -> rule.previousFileName() != null)
+                .toList();
+        for (var revisionRule : revisionRules) {
+            var previousRevision = revisionRule.previousFileName();
+            var removedFileContext = ruleContext.getFileContextMap().remove(previousRevision);
+            if (removedFileContext != null) {
+                ruleContext.getSkippedFileReasonMap().put(previousRevision, "存在新版修订，已被替代: " + revisionRule.fileName());
+            }
+        }
+    }
+
+    public static void preferEuropeVersionForEuropeArea(RuleContext ruleContext) {
+        var europeFinalFiles = ruleContext.getAreaFinalMap().get(Area.EUR);
+        var europeRuleResultMap = ruleContext.getAreaRuleResultMap().get(Area.EUR);
+        if (europeFinalFiles == null || europeRuleResultMap == null || europeFinalFiles.isEmpty()) {
+            return;
+        }
+
+        var passedFileContextMap = new LinkedHashMap<String, List<FileContext>>();
+        for (var fileName : europeFinalFiles) {
+            var fileContext = ruleContext.getFileContextMap().get(fileName);
+            if (fileContext != null) {
+                passedFileContextMap.computeIfAbsent(fileContext.getNamePart(), ignored -> new ArrayList<>()).add(fileContext);
+            }
+        }
+
+        var filesToRemove = new ArrayList<String>();
+        for (var fileContexts : passedFileContextMap.values()) {
+            var europeVersions = fileContexts.stream()
+                    .filter(Rules::isEuropeVersion)
+                    .map(FileContext::getFileName)
+                    .toList();
+            if (europeVersions.isEmpty()) {
+                continue;
+            }
+
+            for (var fileContext : fileContexts) {
+                if (!isEuropeVersion(fileContext)) {
+                    filesToRemove.add(fileContext.getFileName());
+                    europeRuleResultMap.put(fileContext.getFileName(), RuleResult.fail(
+                            "PREFER_EUROPE_VERSION",
+                            "存在同名 Europe 版本，已排除地区版本，保留: " + String.join(", ", europeVersions)));
+                }
+            }
+        }
+
+        europeFinalFiles.removeAll(filesToRemove);
+    }
+
+    private static boolean isEuropeVersion(FileContext fileContext) {
+        return fileContext.getTags().contains("Europe");
+    }
+
+    private static String previousRevision(String filename) {
+        var matcher = REV_TAG.matcher(filename);
+        if (!matcher.find()) {
+            return null;
+        }
+
+        try {
+            var revision = Integer.parseInt(matcher.group(1));
+            if (revision == 1) {
+                return filename.substring(0, matcher.start())
+                        .concat(filename.substring(matcher.end()))
+                        .replaceAll("\\s+\\.", ".")
+                        .replaceAll("\\s{2,}", " ")
+                        .trim();
+            }
+            return filename.substring(0, matcher.start())
+                    .concat("(Rev " + (revision - 1) + ")")
+                    .concat(filename.substring(matcher.end()));
+        } catch (NumberFormatException e) {
+            // Leave revision tags that cannot be parsed as an integer untouched.
+            return null;
+        }
+    }
+
     private static String matchingTags(Set<String> tags, Set<String> blacklist) {
         return tags.stream()
                 .filter(blacklist::contains)
                 .collect(Collectors.joining(", "));
+    }
+
+    // Maps a revision file to the previous file it replaces.
+    private record PreviousRevisionRule(String fileName, String previousFileName) {
     }
 }
