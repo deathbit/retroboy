@@ -112,13 +112,11 @@ public class StartupRunner implements ApplicationRunner {
 
     private List<String> describeSetMegaBezelShaderTask() {
         SetMegaBezelShaderTask task = appConfig.getSetMegaBezelShaderTask();
-        return Stream.concat(
-                Stream.concat(
-                        Stream.of(describeCopyDir(task.getCopyMegaBezelPacks())),
-                        task.getCopyDefaultMegaBezelShader().stream().map(this::describeCopyFile)
-                ),
+        return Stream.of(
+                Stream.of(describeCopyDir(task.getCopyMegaBezelPacks())),
+                task.getCopyDefaultMegaBezelShader().stream().map(this::describeCopyFile),
                 task.getSetMegaBezelShaderConfigInputs().stream().map(this::describeRaConfig)
-        ).toList();
+        ).flatMap(stream -> stream).toList();
     }
 
     private String describeCopyDir(CopyDirInput input) {
