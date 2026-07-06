@@ -6,11 +6,9 @@ app:
   config:
     globalConfig:
       raConfig: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
-      # Startup task bitmask:
-      # 1 = CLEAN_UP, 2 = DEFAULT_CONFIG, 4 = FIX_CHINESE_FONT,
-      # 8 = SET_MEGA_BEZEL_SHADER, 16 = SET_PLATFORM
-      # 31 = all startup tasks enabled (binary 11111)
-      startupTaskMask: 31
+      # Startup tasks: join task names with |. Prefix ! to explicitly skip a task.
+      # Tasks not listed here are skipped by default.
+      startupTaskMask: 'CLEAN_UP|DEFAULT_CONFIG|FIX_CHINESE_FONT|SET_MEGA_BEZEL_SHADER|SET_PLATFORM'
       globalTagBlacklist:
         - '3DS Virtual Console'
         - '8-bit Adventure Anthology - Volume I'

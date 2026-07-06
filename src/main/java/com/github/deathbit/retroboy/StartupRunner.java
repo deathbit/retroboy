@@ -78,7 +78,7 @@ public class StartupRunner implements ApplicationRunner {
     }
 
     private boolean isTaskEnabled(StartupTask startupTask) {
-        return (appConfig.getGlobalConfig().getStartupTaskMask() & startupTask.getMask()) != 0;
+        return StartupTask.isEnabled(startupTask, appConfig.getGlobalConfig().getStartupTaskMask());
     }
 
     private List<String> describeCleanUpTask() {
