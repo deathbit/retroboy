@@ -19,6 +19,7 @@ import java.util.Set;
 @AllArgsConstructor
 public class RuleContext {
     private Platform platform;
+    private Area currentArea;
     private RuleConfig ruleConfig;
     private Set<String> licensed;
     private Set<String> globalTagBlackList;

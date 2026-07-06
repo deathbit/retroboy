@@ -34,6 +34,31 @@ class RulesTest {
     }
 
     @Test
+    void shouldUseCurrentAreaForAreaFileNameBlackList() {
+        var fileContext = fileContext("Blocked.nes", "Blocked", Set.of("World"));
+        var ruleContext = ruleContext(
+                Map.of(fileContext.getFileName(), fileContext),
+                List.of(
+                        AreaConfig.builder()
+                                .area(Area.JPN)
+                                .fileNameBlackList(Set.of("Blocked.nes"))
+                                .build(),
+                        AreaConfig.builder()
+                                .area(Area.USA)
+                                .fileNameBlackList(Set.of())
+                                .build()));
+
+        ruleContext.setCurrentArea(Area.USA);
+        var usaResult = Rules.IS_USA_BASE.evaluate(ruleContext, fileContext);
+        ruleContext.setCurrentArea(Area.JPN);
+        var japanResult = Rules.IS_JAPAN_BASE.evaluate(ruleContext, fileContext);
+
+        assertThat(usaResult.isPassed()).isTrue();
+        assertThat(japanResult.isPassed()).isFalse();
+        assertThat(japanResult.getFailures()).contains("IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST: 命中地区文件名黑名单: Blocked.nes");
+    }
+
+    @Test
     void shouldEvaluatePreviousRevisionRule() {
         var fileContextMap = new LinkedHashMap<String, FileContext>();
         fileContextMap.put("Game (USA).nes", fileContext("Game (USA).nes", "Game", Set.of("USA")));
@@ -96,6 +121,7 @@ class RulesTest {
                         .collect(Collectors.toSet()))
                 .globalTagBlackList(Set.of())
                 .fileContextMap(fileContextMap)
+                .currentArea(areaConfigs.size() == 1 ? areaConfigs.get(0).getArea() : null)
                 .build();
     }
 
