@@ -87,7 +87,7 @@ public abstract class AbstractHandler implements Handler {
 
     private void createAreaDirectories(RuleContext ruleContext) throws Exception {
         ruleContext.setDirsToCreate(ruleContext.getAreaFinalMap().keySet().stream()
-                .map(area -> Paths.get(ruleContext.getRuleConfig().getTargetDirBase(), area.name()).toString())
+                .map(areaKey -> Paths.get(ruleContext.getRuleConfig().getTargetDirBase(), areaKey.name()).toString())
                 .toList());
         fileComponent.batchCreateDirs(ruleContext.getDirsToCreate());
     }
