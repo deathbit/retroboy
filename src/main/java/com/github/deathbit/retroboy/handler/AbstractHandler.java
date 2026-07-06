@@ -10,7 +10,6 @@ import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.rule.Rule;
-import com.github.deathbit.retroboy.rule.RuleResult;
 import com.github.deathbit.retroboy.rule.Rules;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.w3c.dom.Element;
@@ -54,7 +53,7 @@ public abstract class AbstractHandler implements Handler {
 
     private void initializeRuleState(RuleContext ruleContext) {
         ruleContext.setRuleMap(getRuleMap());
-        ruleContext.setAreaRuleResultMap(initializeAreaRuleResultMap(ruleContext));
+        ruleContext.setAreaRuleFailureMap(initializeAreaRuleFailureMap(ruleContext));
         ruleContext.setAreaRenameReportMap(createEmptyAreaReportMap(ruleContext));
         ruleContext.setAreaDuplicateNameReportMap(createEmptyAreaReportMap(ruleContext));
     }
@@ -63,15 +62,14 @@ public abstract class AbstractHandler implements Handler {
         for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
             var area = areaConfig.getArea();
             ruleContext.setCurrentArea(area);
-            var rule = ruleContext.getRuleMap().get(area);
 
             for (var entry : ruleContext.getFileContextMap().entrySet()) {
                 var fileName = entry.getKey();
                 var fileContext = entry.getValue();
-                var ruleResult = rule.evaluate(ruleContext, fileContext);
-                ruleContext.getAreaRuleResultMap().get(area).put(fileName, ruleResult);
+                var failedRuleNames = Rules.failedRuleNames(area, ruleContext, fileContext);
+                ruleContext.getAreaRuleFailureMap().get(area).put(fileName, failedRuleNames);
 
-                if (ruleResult.isPassed()) {
+                if (failedRuleNames.isEmpty()) {
                     ruleContext.getAreaFinalMap().get(area).add(fileName);
                 }
             }
@@ -268,23 +266,23 @@ public abstract class AbstractHandler implements Handler {
         return fileName.substring(dotIndex);
     }
 
-    private Map<Area, Map<String, RuleResult>> initializeAreaRuleResultMap(RuleContext ruleContext) {
-        var areaRuleResultMap = new LinkedHashMap<Area, Map<String, RuleResult>>();
+    private Map<Area, Map<String, List<String>>> initializeAreaRuleFailureMap(RuleContext ruleContext) {
+        var areaRuleFailureMap = new LinkedHashMap<Area, Map<String, List<String>>>();
         for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
-            var ruleResultMap = new LinkedHashMap<String, RuleResult>();
+            var ruleFailureMap = new LinkedHashMap<String, List<String>>();
             for (var skippedEntry : ruleContext.getSkippedFileReasonMap().entrySet()) {
-                ruleResultMap.put(skippedEntry.getKey(), RuleResult.fail("PREVIOUS_REVISION", skippedEntry.getValue()));
+                ruleFailureMap.put(skippedEntry.getKey(), List.of("PREVIOUS_REVISION"));
             }
-            areaRuleResultMap.put(areaConfig.getArea(), ruleResultMap);
+            areaRuleFailureMap.put(areaConfig.getArea(), ruleFailureMap);
         }
 
-        return areaRuleResultMap;
+        return areaRuleFailureMap;
     }
 
     private void writeProcessingReports(RuleContext ruleContext) throws Exception {
         var reportDir = Paths.get("report");
         Files.createDirectories(reportDir);
-        for (var entry : ruleContext.getAreaRuleResultMap().entrySet()) {
+        for (var entry : ruleContext.getAreaRuleFailureMap().entrySet()) {
             var area = entry.getKey();
             var lines = buildProcessingReportLines(
                     ruleContext,
@@ -299,21 +297,21 @@ public abstract class AbstractHandler implements Handler {
 
     private List<String> buildProcessingReportLines(RuleContext ruleContext,
                                                     Area area,
-                                                    Map<String, RuleResult> ruleResultMap,
+                                                    Map<String, List<String>> ruleFailureMap,
                                                     List<String> renameReportLines,
                                                     List<String> duplicateNameReportLines) {
-        var passedCount = ruleResultMap.values().stream().filter(RuleResult::isPassed).count();
+        var passedCount = ruleFailureMap.values().stream().filter(List::isEmpty).count();
         var lines = new ArrayList<String>();
         lines.add("平台: " + ruleContext.getPlatform().name());
         lines.add("地区: " + area.name());
         lines.add("ROM目录: " + ruleContext.getRuleConfig().getRomDir());
-        lines.add("文件总数: " + ruleResultMap.size());
+        lines.add("文件总数: " + ruleFailureMap.size());
         lines.add("通过校验: " + passedCount);
-        lines.add("未通过校验: " + (ruleResultMap.size() - passedCount));
+        lines.add("未通过校验: " + (ruleFailureMap.size() - passedCount));
         lines.add("");
         lines.add("通过:");
-        for (var entry : ruleResultMap.entrySet()) {
-            if (entry.getValue().isPassed()) {
+        for (var entry : ruleFailureMap.entrySet()) {
+            if (entry.getValue().isEmpty()) {
                 lines.add(entry.getKey());
             }
         }
@@ -332,10 +330,10 @@ public abstract class AbstractHandler implements Handler {
 
         lines.add("");
         lines.add("未通过:");
-        for (var entry : ruleResultMap.entrySet()) {
-            var ruleResult = entry.getValue();
-            if (!ruleResult.isPassed()) {
-                lines.add(entry.getKey() + " - " + String.join("; ", ruleResult.getFailures()));
+        for (var entry : ruleFailureMap.entrySet()) {
+            var failedRuleNames = entry.getValue();
+            if (!failedRuleNames.isEmpty()) {
+                lines.add(entry.getKey() + " - " + String.join("|", failedRuleNames));
             }
         }
 

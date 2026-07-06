@@ -21,32 +21,30 @@ class RulesTest {
     @Test
     void shouldShortCircuitAndEvaluationWhenLeftRuleFails() {
         var rightEvaluations = new AtomicInteger();
-        var left = Rule.named("LEFT", (rc, fc) -> false, "left failed");
-        var right = Rule.named("RIGHT", (rc, fc) -> {
+        Rule left = (rc, fc) -> false;
+        Rule right = (rc, fc) -> {
             rightEvaluations.incrementAndGet();
             return true;
-        }, "right failed");
+        };
 
-        var result = left.and(right).evaluate(null, null);
+        var result = left.and(right).pass(null, null);
 
-        assertThat(result.isPassed()).isFalse();
-        assertThat(result.getFailures()).containsExactly("LEFT: left failed");
+        assertThat(result).isFalse();
         assertThat(rightEvaluations).hasValue(0);
     }
 
     @Test
     void shouldShortCircuitOrEvaluationWhenLeftRulePasses() {
         var rightEvaluations = new AtomicInteger();
-        var left = Rule.named("LEFT", (rc, fc) -> true, "left failed");
-        var right = Rule.named("RIGHT", (rc, fc) -> {
+        Rule left = (rc, fc) -> true;
+        Rule right = (rc, fc) -> {
             rightEvaluations.incrementAndGet();
             return false;
-        }, "right failed");
+        };
 
-        var result = left.or(right).evaluate(null, null);
+        var result = left.or(right).pass(null, null);
 
-        assertThat(result.isPassed()).isTrue();
-        assertThat(result.getFailures()).isEmpty();
+        assertThat(result).isTrue();
         assertThat(rightEvaluations).hasValue(0);
     }
 
@@ -60,10 +58,9 @@ class RulesTest {
                         .fileNameBlackList(Set.of("Blocked.nes"))
                         .build()));
 
-        var result = Rules.IS_JAPAN_BASE.evaluate(ruleContext, fileContext);
+        var result = Rules.failedRuleNames(Area.JPN, ruleContext, fileContext);
 
-        assertThat(result.isPassed()).isFalse();
-        assertThat(result.getFailures()).contains("IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST: 命中地区文件名黑名单: Blocked.nes");
+        assertThat(result).containsExactly("IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST");
     }
 
     @Test
@@ -82,13 +79,12 @@ class RulesTest {
                                 .build()));
 
         ruleContext.setCurrentArea(Area.USA);
-        var usaResult = Rules.IS_USA_BASE.evaluate(ruleContext, fileContext);
+        var usaResult = Rules.failedRuleNames(Area.USA, ruleContext, fileContext);
         ruleContext.setCurrentArea(Area.JPN);
-        var japanResult = Rules.IS_JAPAN_BASE.evaluate(ruleContext, fileContext);
+        var japanResult = Rules.failedRuleNames(Area.JPN, ruleContext, fileContext);
 
-        assertThat(usaResult.isPassed()).isTrue();
-        assertThat(japanResult.isPassed()).isFalse();
-        assertThat(japanResult.getFailures()).contains("IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST: 命中地区文件名黑名单: Blocked.nes");
+        assertThat(usaResult).isEmpty();
+        assertThat(japanResult).containsExactly("IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST");
     }
 
     @Test
@@ -99,17 +95,13 @@ class RulesTest {
         fileContextMap.put("Game (USA) (Rev 2).nes", fileContext("Game (USA) (Rev 2).nes", "Game", Set.of("USA", "Rev 2")));
         var ruleContext = ruleContext(fileContextMap, List.of(areaConfig(Area.USA)));
 
-        var originalResult = Rules.IS_USA_BASE.evaluate(ruleContext, fileContextMap.get("Game (USA).nes"));
-        var rev1Result = Rules.IS_USA_BASE.evaluate(ruleContext, fileContextMap.get("Game (USA) (Rev 1).nes"));
-        var rev2Result = Rules.IS_USA_BASE.evaluate(ruleContext, fileContextMap.get("Game (USA) (Rev 2).nes"));
+        var originalResult = Rules.failedRuleNames(Area.USA, ruleContext, fileContextMap.get("Game (USA).nes"));
+        var rev1Result = Rules.failedRuleNames(Area.USA, ruleContext, fileContextMap.get("Game (USA) (Rev 1).nes"));
+        var rev2Result = Rules.failedRuleNames(Area.USA, ruleContext, fileContextMap.get("Game (USA) (Rev 2).nes"));
 
-        assertThat(originalResult.isPassed()).isFalse();
-        assertThat(originalResult.getFailures())
-                .contains("IS_NOT_PREVIOUS_REVISION: 存在新版修订，已被替代: Game (USA) (Rev 1).nes");
-        assertThat(rev1Result.isPassed()).isFalse();
-        assertThat(rev1Result.getFailures())
-                .contains("IS_NOT_PREVIOUS_REVISION: 存在新版修订，已被替代: Game (USA) (Rev 2).nes");
-        assertThat(rev2Result.isPassed()).isTrue();
+        assertThat(originalResult).containsExactly("IS_NOT_PREVIOUS_REVISION");
+        assertThat(rev1Result).containsExactly("IS_NOT_PREVIOUS_REVISION");
+        assertThat(rev2Result).isEmpty();
     }
 
     @Test
@@ -121,15 +113,34 @@ class RulesTest {
         );
         var ruleContext = ruleContext(fileContextMap, List.of(areaConfig(Area.EUR)));
 
-        var europeResult = Rules.IS_EUROPE_BASE.evaluate(ruleContext, fileContextMap.get("Game (Europe).nes"));
-        var germanyResult = Rules.IS_EUROPE_BASE.evaluate(ruleContext, fileContextMap.get("Game (Germany).nes"));
-        var otherResult = Rules.IS_EUROPE_BASE.evaluate(ruleContext, fileContextMap.get("Other (Germany).nes"));
+        var europeResult = Rules.failedRuleNames(Area.EUR, ruleContext, fileContextMap.get("Game (Europe).nes"));
+        var germanyResult = Rules.failedRuleNames(Area.EUR, ruleContext, fileContextMap.get("Game (Germany).nes"));
+        var otherResult = Rules.failedRuleNames(Area.EUR, ruleContext, fileContextMap.get("Other (Germany).nes"));
 
-        assertThat(europeResult.isPassed()).isTrue();
-        assertThat(germanyResult.isPassed()).isFalse();
-        assertThat(germanyResult.getFailures())
-                .contains("PREFER_EUROPE_VERSION: 存在同名 Europe 版本，已排除地区版本，保留: Game (Europe).nes");
-        assertThat(otherResult.isPassed()).isTrue();
+        assertThat(europeResult).isEmpty();
+        assertThat(germanyResult).containsExactly("PREFER_EUROPE_VERSION");
+        assertThat(otherResult).isEmpty();
+    }
+
+    @Test
+    void shouldCollectAllFailedRuleNamesWhenOrRuleFails() {
+        var fileContext = fileContext("Game (Australia).nes", "Game", Set.of("Australia"));
+        var ruleContext = ruleContext(Map.of(fileContext.getFileName(), fileContext), List.of(areaConfig(Area.JPN)));
+
+        var result = Rules.failedRuleNames(Area.JPN, ruleContext, fileContext);
+
+        assertThat(result).containsExactly("IS_JAPAN", "IS_WORLD");
+    }
+
+    @Test
+    void shouldCollectAllFailedRuleNamesWhenAndRuleFails() {
+        var fileContext = fileContext("Game (Australia).nes", "Game", Set.of("Australia"));
+        var ruleContext = ruleContext(Map.of(fileContext.getFileName(), fileContext), List.of(areaConfig(Area.JPN)));
+        ruleContext.setLicensed(Set.of());
+
+        var result = Rules.failedRuleNames(Area.JPN, ruleContext, fileContext);
+
+        assertThat(result).containsExactly("IS_LICENSED", "IS_JAPAN", "IS_WORLD");
     }
 
     private FileContext fileContext(String fileName, String namePart, Set<String> tags) {
