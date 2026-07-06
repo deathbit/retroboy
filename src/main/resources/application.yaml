@@ -142,9 +142,9 @@ app:
             fileNameBlackList: ['Kung Fu (Japan, USA) (En).nes']
             renameOptions:
               - oldName: 'Star Wars (Japan) (Namco).nes'
-                newName: 'Star Wars Namco Version.nes'
+                newName: 'Star Wars (Namco).nes'
               - oldName: 'Star Wars (Japan) (Victor).nes'
-                newName: 'Star Wars Victor Version.nes'
+                newName: 'Star Wars (Victor).nes'
           - area: 'USA'
           - area: 'EUR'
             fileNameBlackList:
