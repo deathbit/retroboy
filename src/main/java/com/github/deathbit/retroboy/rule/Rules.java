@@ -7,101 +7,94 @@ import com.github.deathbit.retroboy.enums.Area;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.Set;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Rules {
     private static final Pattern REV_TAG = Pattern.compile("\\(Rev\\s+(\\d+)\\)");
 
-    private static final Rule IS_LICENSED = Rule.named(
+    private static final RuleNode IS_LICENSED = rule(
             "IS_LICENSED",
-            (rc, fc) -> rc.getLicensed().contains(fc.getFullName()),
-            (rc, fc) -> "DAT授权列表中不存在该游戏: " + fc.getFullName());
-    private static final Rule IS_NOT_BAD = Rule.named(
+            (rc, fc) -> rc.getLicensed().contains(fc.getFullName()));
+    private static final RuleNode IS_NOT_BAD = rule(
             "IS_NOT_BAD",
-            (rc, fc) -> !fc.getFullName().contains("[b]"),
-            "文件名包含坏档标记 [b]");
-    private static final Rule IS_NOT_HIT_GLOBAL_TAG_BLACKLIST = Rule.named(
+            (rc, fc) -> !fc.getFullName().contains("[b]"));
+    private static final RuleNode IS_NOT_HIT_GLOBAL_TAG_BLACKLIST = rule(
             "IS_NOT_HIT_GLOBAL_TAG_BLACKLIST",
-            (rc, fc) -> fc.getTags().stream().noneMatch(tag -> rc.getGlobalTagBlackList().contains(tag)),
-            (rc, fc) -> "命中全局标签黑名单: " + matchingTags(fc.getTags(), rc.getGlobalTagBlackList()));
-    private static final Rule IS_NOT_HIT_PLATFORM_TAG_BLACKLIST = Rule.named(
+            (rc, fc) -> fc.getTags().stream().noneMatch(tag -> rc.getGlobalTagBlackList().contains(tag)));
+    private static final RuleNode IS_NOT_HIT_PLATFORM_TAG_BLACKLIST = rule(
             "IS_NOT_HIT_PLATFORM_TAG_BLACKLIST",
-            (rc, fc) -> fc.getTags().stream().noneMatch(tag -> rc.getRuleConfig().getTagBlackList().contains(tag)),
-            (rc, fc) -> "命中平台标签黑名单: " + matchingTags(fc.getTags(), rc.getRuleConfig().getTagBlackList()));
-    private static final Rule IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST = Rule.named(
+            (rc, fc) -> fc.getTags().stream().noneMatch(tag -> rc.getRuleConfig().getTagBlackList().contains(tag)));
+    private static final RuleNode IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST = rule(
             "IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST",
-            (rc, fc) -> !rc.getRuleConfig().getFileNameBlackList().contains(fc.getFileName()),
-            (rc, fc) -> "命中平台文件名黑名单: " + fc.getFileName());
-    private static final Rule IS_NOT_PREVIOUS_REVISION = Rule.named(
+            (rc, fc) -> !rc.getRuleConfig().getFileNameBlackList().contains(fc.getFileName()));
+    private static final RuleNode IS_NOT_PREVIOUS_REVISION = rule(
             "IS_NOT_PREVIOUS_REVISION",
-            (rc, fc) -> newerRevisionFileName(rc, fc.getFileName()).isEmpty(),
-            (rc, fc) -> "存在新版修订，已被替代: " + newerRevisionFileName(rc, fc.getFileName()).orElse(""));
-    private static final Rule IS_JAPAN = Rule.named(
+            (rc, fc) -> newerRevisionFileName(rc, fc.getFileName()).isEmpty());
+    private static final RuleNode IS_JAPAN = rule(
             "IS_JAPAN",
-            (rc, fc) -> fc.getTagPart().contains("Japan"),
-            "标签不包含 Japan");
-    private static final Rule IS_USA = Rule.named(
+            (rc, fc) -> fc.getTagPart().contains("Japan"));
+    private static final RuleNode IS_USA = rule(
             "IS_USA",
-            (rc, fc) -> fc.getTagPart().contains("USA"),
-            "标签不包含 USA");
-    private static final Rule IS_EUROPE = Rule.named(
+            (rc, fc) -> fc.getTagPart().contains("USA"));
+    private static final RuleNode IS_EUROPE = rule(
             "IS_EUROPE",
-            (rc, fc) -> fc.getTagPart().contains("Europe"),
-            "标签不包含 Europe");
-    private static final Rule IS_AUSTRALIA = Rule.named(
+            (rc, fc) -> fc.getTagPart().contains("Europe"));
+    private static final RuleNode IS_AUSTRALIA = rule(
             "IS_AUSTRALIA",
-            (rc, fc) -> fc.getTagPart().contains("Australia"),
-            "标签不包含 Australia");
-    private static final Rule IS_GERMANY = Rule.named(
+            (rc, fc) -> fc.getTagPart().contains("Australia"));
+    private static final RuleNode IS_GERMANY = rule(
             "IS_GERMANY",
-            (rc, fc) -> fc.getTagPart().contains("Germany"),
-            "标签不包含 Germany");
-    private static final Rule IS_SWEDEN = Rule.named(
+            (rc, fc) -> fc.getTagPart().contains("Germany"));
+    private static final RuleNode IS_SWEDEN = rule(
             "IS_SWEDEN",
-            (rc, fc) -> fc.getTagPart().contains("Sweden"),
-            "标签不包含 Sweden");
-    private static final Rule IS_FRANCE = Rule.named(
+            (rc, fc) -> fc.getTagPart().contains("Sweden"));
+    private static final RuleNode IS_FRANCE = rule(
             "IS_FRANCE",
-            (rc, fc) -> fc.getTagPart().contains("France"),
-            "标签不包含 France");
-    private static final Rule IS_SPAIN = Rule.named(
+            (rc, fc) -> fc.getTagPart().contains("France"));
+    private static final RuleNode IS_SPAIN = rule(
             "IS_SPAIN",
-            (rc, fc) -> fc.getTagPart().contains("Spain"),
-            "标签不包含 Spain");
-    private static final Rule IS_PAL = IS_EUROPE.or(IS_AUSTRALIA).or(IS_GERMANY).or(IS_SWEDEN).or(IS_FRANCE).or(IS_SPAIN);
-    private static final Rule IS_WORLD = Rule.named(
+            (rc, fc) -> fc.getTagPart().contains("Spain"));
+    private static final RuleNode IS_PAL = IS_EUROPE.or(IS_AUSTRALIA).or(IS_GERMANY).or(IS_SWEDEN).or(IS_FRANCE).or(IS_SPAIN);
+    private static final RuleNode IS_WORLD = rule(
             "IS_WORLD",
-            (rc, fc) -> fc.getTagPart().contains("World"),
-            "标签不包含 World");
-    private static final Rule IS_JAPAN_OR_WORLD = IS_JAPAN.or(IS_WORLD);
-    private static final Rule IS_USA_OR_WORLD = IS_USA.or(IS_WORLD);
-    private static final Rule IS_EUROPE_OR_WORLD = IS_PAL.or(IS_WORLD);
-    private static final Rule IS_BASE = IS_LICENSED
+            (rc, fc) -> fc.getTagPart().contains("World"));
+    private static final RuleNode IS_JAPAN_OR_WORLD = IS_JAPAN.or(IS_WORLD);
+    private static final RuleNode IS_USA_OR_WORLD = IS_USA.or(IS_WORLD);
+    private static final RuleNode IS_EUROPE_OR_WORLD = IS_PAL.or(IS_WORLD);
+    private static final RuleNode IS_BASE = IS_LICENSED
             .and(IS_NOT_BAD)
             .and(IS_NOT_HIT_GLOBAL_TAG_BLACKLIST)
             .and(IS_NOT_HIT_PLATFORM_TAG_BLACKLIST)
             .and(IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST)
             .and(IS_NOT_PREVIOUS_REVISION);
-    private static final Rule IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST = Rule.named(
+    private static final RuleNode IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST = rule(
             "IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST",
             (rc, fc) -> areaConfig(rc)
                     .map(AreaConfig::getFileNameBlackList)
                     .map(fileNameBlackList -> !fileNameBlackList.contains(fc.getFileName()))
-                    .orElse(true),
-            (rc, fc) -> "命中地区文件名黑名单: " + fc.getFileName());
-    public static final Rule IS_JAPAN_BASE = IS_BASE.and(IS_JAPAN_OR_WORLD).and(IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST);
-    public static final Rule IS_USA_BASE = IS_BASE.and(IS_USA_OR_WORLD).and(IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST);
-    private static final Rule IS_EUROPE_BASE_WITHOUT_PREFERENCE = IS_BASE.and(IS_EUROPE_OR_WORLD).and(IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST);
-    private static final Rule PREFER_EUROPE_VERSION = Rule.named(
+                    .orElse(true));
+    private static final RuleNode IS_JAPAN_BASE_NODE = IS_BASE.and(IS_JAPAN_OR_WORLD).and(IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST);
+    private static final RuleNode IS_USA_BASE_NODE = IS_BASE.and(IS_USA_OR_WORLD).and(IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST);
+    private static final RuleNode IS_EUROPE_BASE_WITHOUT_PREFERENCE = IS_BASE.and(IS_EUROPE_OR_WORLD).and(IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST);
+    private static final RuleNode PREFER_EUROPE_VERSION = rule(
             "PREFER_EUROPE_VERSION",
-            (rc, fc) -> !IS_EUROPE_BASE_WITHOUT_PREFERENCE.pass(rc, fc)
+            (rc, fc) -> !IS_EUROPE_BASE_WITHOUT_PREFERENCE.asRule().pass(rc, fc)
                     || isEuropeVersion(fc)
-                    || preferredEuropeVersionFileNames(rc, fc).isEmpty(),
-            (rc, fc) -> "存在同名 Europe 版本，已排除地区版本，保留: "
-                    + String.join(", ", preferredEuropeVersionFileNames(rc, fc)));
-    public static final Rule IS_EUROPE_BASE = IS_EUROPE_BASE_WITHOUT_PREFERENCE.and(PREFER_EUROPE_VERSION);
+                    || preferredEuropeVersionFileNames(rc, fc).isEmpty());
+    private static final RuleNode IS_EUROPE_BASE_NODE = IS_EUROPE_BASE_WITHOUT_PREFERENCE.and(PREFER_EUROPE_VERSION);
+
+    public static final Rule IS_JAPAN_BASE = IS_JAPAN_BASE_NODE.asRule();
+    public static final Rule IS_USA_BASE = IS_USA_BASE_NODE.asRule();
+    public static final Rule IS_EUROPE_BASE = IS_EUROPE_BASE_NODE.asRule();
+
+    public static List<String> failedRuleNames(Area area, RuleContext ruleContext, FileContext fileContext) {
+        return switch (area) {
+            case JPN -> IS_JAPAN_BASE_NODE.failedRuleNames(ruleContext, fileContext);
+            case USA -> IS_USA_BASE_NODE.failedRuleNames(ruleContext, fileContext);
+            case EUR -> IS_EUROPE_BASE_NODE.failedRuleNames(ruleContext, fileContext);
+        };
+    }
 
     private static String previousRevision(String filename) {
         var matcher = REV_TAG.matcher(filename);
@@ -125,12 +118,6 @@ public class Rules {
             // Leave revision tags that cannot be parsed as an integer untouched.
             return null;
         }
-    }
-
-    private static String matchingTags(Set<String> tags, Set<String> blacklist) {
-        return tags.stream()
-                .filter(blacklist::contains)
-                .collect(Collectors.joining(", "));
     }
 
     private static Optional<AreaConfig> areaConfig(RuleContext ruleContext) {
@@ -161,12 +148,67 @@ public class Rules {
         return ruleContext.getFileContextMap().values().stream()
                 .filter(other -> other.getNamePart().equals(fileContext.getNamePart()))
                 .filter(Rules::isEuropeVersion)
-                .filter(other -> IS_EUROPE_BASE_WITHOUT_PREFERENCE.pass(ruleContext, other))
+                .filter(other -> IS_EUROPE_BASE_WITHOUT_PREFERENCE.asRule().pass(ruleContext, other))
                 .map(FileContext::getFileName)
                 .toList();
     }
 
     private static boolean isEuropeVersion(FileContext fileContext) {
         return fileContext.getTags().contains("Europe");
+    }
+
+    private static RuleNode rule(String name, Rule rule) {
+        return new RuleNode(name, rule, RuleOperator.LEAF, null, null);
+    }
+
+    private enum RuleOperator {
+        LEAF,
+        AND,
+        OR
+    }
+
+    private record RuleNode(String name, Rule rule, RuleOperator operator, RuleNode left, RuleNode right) {
+        private Rule asRule() {
+            return rule;
+        }
+
+        private RuleNode and(RuleNode other) {
+            return new RuleNode(null, rule.and(other.rule), RuleOperator.AND, this, other);
+        }
+
+        private RuleNode or(RuleNode other) {
+            return new RuleNode(null, rule.or(other.rule), RuleOperator.OR, this, other);
+        }
+
+        private List<String> failedRuleNames(RuleContext ruleContext, FileContext fileContext) {
+            return switch (operator) {
+                case LEAF -> rule.pass(ruleContext, fileContext) ? List.of() : List.of(name);
+                case AND -> andFailedRuleNames(ruleContext, fileContext);
+                case OR -> orFailedRuleNames(ruleContext, fileContext);
+            };
+        }
+
+        private List<String> andFailedRuleNames(RuleContext ruleContext, FileContext fileContext) {
+            var leftFailures = left.failedRuleNames(ruleContext, fileContext);
+            if (!leftFailures.isEmpty()) {
+                return leftFailures;
+            }
+
+            return right.failedRuleNames(ruleContext, fileContext);
+        }
+
+        private List<String> orFailedRuleNames(RuleContext ruleContext, FileContext fileContext) {
+            var leftFailures = left.failedRuleNames(ruleContext, fileContext);
+            if (leftFailures.isEmpty()) {
+                return List.of();
+            }
+
+            var rightFailures = right.failedRuleNames(ruleContext, fileContext);
+            if (rightFailures.isEmpty()) {
+                return List.of();
+            }
+
+            return Stream.concat(leftFailures.stream(), rightFailures.stream()).toList();
+        }
     }
 }

@@ -3,7 +3,6 @@ package com.github.deathbit.retroboy.domain;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.rule.Rule;
-import com.github.deathbit.retroboy.rule.RuleResult;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -27,7 +26,7 @@ public class RuleContext {
     private Map<String, String> skippedFileReasonMap;
     private Map<Area, Set<String>> areaFinalMap;
     private Map<Area, Rule> ruleMap;
-    private Map<Area, Map<String, RuleResult>> areaRuleResultMap;
+    private Map<Area, Map<String, List<String>>> areaRuleFailureMap;
     private Map<Area, List<String>> areaRenameReportMap;
     private Map<Area, List<String>> areaDuplicateNameReportMap;
     private List<String> dirsToCreate;
