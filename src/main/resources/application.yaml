@@ -137,8 +137,10 @@ app:
           - area: 'JPN'
             fileNameBlackList: ['Kung Fu (Japan, USA) (En).nes']
             renameOptions:
-              '[Star Wars (Japan) (Namco).nes]': 'Star Wars Namco Version'
-              '[Star Wars (Japan) (Victor).nes]': 'Star Wars Victor Version'
+              - oldName: 'Star Wars (Japan) (Namco).nes'
+                newName: 'Star Wars Namco Version.nes'
+              - oldName: 'Star Wars (Japan) (Victor).nes'
+                newName: 'Star Wars Victor Version.nes'
           - area: 'USA'
           - area: 'EUR'
             fileNameBlackList:
@@ -151,8 +153,10 @@ app:
                 - 'Teenage Mutant Ninja Turtles (Australia).nes'
                 - 'Teenage Mutant Ninja Turtles II - The Arcade Game (Australia).nes'
             renameOptions:
-              '[Mario Bros. (Europe) (PAL-MA-0).nes]': 'Mario Bros.'
-              '[Mario Bros. (Europe) (PAL-MC-0, Classic Series).nes]': 'Mario Bros. Classic Series'
+              - oldName: 'Mario Bros. (Europe) (PAL-MA-0).nes'
+                newName: 'Mario Bros..nes'
+              - oldName: 'Mario Bros. (Europe) (PAL-MC-0, Classic Series).nes'
+                newName: 'Mario Bros. Classic Series.nes'
         tagBlackList:
           - 'Pixel Heart'
           - 'Digital'

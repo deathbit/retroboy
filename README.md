@@ -145,10 +145,9 @@ app.configInput.ruleConfigMap:
       - area: 目标地区
         fileNameBlackList: 地区文件名黑名单
         renameOptions: 去除标签后文件名重复时的地区重命名配置
-          '[完整 ROM 文件名]': 重命名后的文件名
+          - oldName: 完整 ROM 文件名
+            newName: 重命名后的文件名
 ```
-
-`renameOptions` 的 key 需要使用 `[]` 包裹，避免 Spring Boot 绑定 `Map` 时清理空格、括号等特殊字符。
 
 ## 快速开始
 
