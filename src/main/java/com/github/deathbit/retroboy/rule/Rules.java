@@ -93,15 +93,15 @@ public class Rules {
     }
 
     public static void applyPreviousRevisionRule(RuleContext ruleContext) {
-        for (var fileName : List.copyOf(ruleContext.getFileContextMap().keySet())) {
-            var previousRevision = previousRevision(fileName);
-            if (previousRevision == null) {
-                continue;
-            }
-
+        var revisionRules = ruleContext.getFileContextMap().keySet().stream()
+                .map(fileName -> new PreviousRevisionRule(fileName, previousRevision(fileName)))
+                .filter(rule -> rule.previousFileName() != null)
+                .toList();
+        for (var revisionRule : revisionRules) {
+            var previousRevision = revisionRule.previousFileName();
             var removedFileContext = ruleContext.getFileContextMap().remove(previousRevision);
             if (removedFileContext != null) {
-                ruleContext.getSkippedFileReasonMap().put(previousRevision, "存在新版修订，已被替代: " + fileName);
+                ruleContext.getSkippedFileReasonMap().put(previousRevision, "存在新版修订，已被替代: " + revisionRule.fileName());
             }
         }
     }
@@ -154,26 +154,25 @@ public class Rules {
             return null;
         }
 
-        try {
-            var revision = Integer.parseInt(matcher.group(1));
-            if (revision == 1) {
-                return filename.substring(0, matcher.start())
-                        .concat(filename.substring(matcher.end()))
-                        .replaceAll("\\s+\\.", ".")
-                        .replaceAll("\\s{2,}", " ")
-                        .trim();
-            }
+        var revision = Integer.parseInt(matcher.group(1));
+        if (revision == 1) {
             return filename.substring(0, matcher.start())
-                    .concat("(Rev " + (revision - 1) + ")")
-                    .concat(filename.substring(matcher.end()));
-        } catch (NumberFormatException e) {
-            return null;
+                    .concat(filename.substring(matcher.end()))
+                    .replaceAll("\\s+\\.", ".")
+                    .replaceAll("\\s{2,}", " ")
+                    .trim();
         }
+        return filename.substring(0, matcher.start())
+                .concat("(Rev " + (revision - 1) + ")")
+                .concat(filename.substring(matcher.end()));
     }
 
     private static String matchingTags(Set<String> tags, Set<String> blacklist) {
         return tags.stream()
                 .filter(blacklist::contains)
                 .collect(Collectors.joining(", "));
+    }
+
+    private record PreviousRevisionRule(String fileName, String previousFileName) {
     }
 }
