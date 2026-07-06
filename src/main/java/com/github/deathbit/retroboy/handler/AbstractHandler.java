@@ -59,8 +59,8 @@ public abstract class AbstractHandler implements Handler {
     private void initializeRuleState(RuleContext ruleContext) {
         ruleContext.setRuleMap(getRuleMap());
         ruleContext.setAreaRuleResultMap(initializeAreaRuleResultMap(ruleContext));
-        ruleContext.setAreaRenameReportMap(initializeAreaReportMap(ruleContext));
-        ruleContext.setAreaDuplicateNameReportMap(initializeAreaReportMap(ruleContext));
+        ruleContext.setAreaRenameReportMap(createEmptyAreaReportMap(ruleContext));
+        ruleContext.setAreaDuplicateNameReportMap(createEmptyAreaReportMap(ruleContext));
     }
 
     private void selectAreaFiles(RuleContext ruleContext) {
@@ -113,7 +113,7 @@ public abstract class AbstractHandler implements Handler {
         }
     }
 
-    private Map<Area, List<String>> initializeAreaReportMap(RuleContext ruleContext) {
+    private Map<Area, List<String>> createEmptyAreaReportMap(RuleContext ruleContext) {
         var areaReportMap = new LinkedHashMap<Area, List<String>>();
         for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
             areaReportMap.put(areaConfig.getArea(), new ArrayList<>());
