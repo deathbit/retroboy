@@ -177,6 +177,6 @@ public class Rules {
     }
 
     private static boolean isEuropeVersion(FileContext fileContext) {
-        return fileContext.getTags().stream().anyMatch("Europe"::equals);
+        return fileContext.getTags().contains("Europe");
     }
 }
