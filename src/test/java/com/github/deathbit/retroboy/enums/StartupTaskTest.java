@@ -32,9 +32,14 @@ class StartupTaskTest {
     }
 
     @Test
+    void shouldLetExplicitlyDisabledTaskWin() {
+        assertThat(StartupTask.isEnabled(StartupTask.CLEAN_UP, "CLEAN_UP|!CLEAN_UP")).isFalse();
+    }
+
+    @Test
     void shouldRejectUnknownTaskNames() {
         assertThatThrownBy(() -> StartupTask.isEnabled(StartupTask.CLEAN_UP, "CLEAN_UP|UNKNOWN_TASK"))
                 .isInstanceOf(IllegalArgumentException.class)
-                .hasMessage("Unknown startup task: UNKNOWN_TASK");
+                .hasMessage("Unknown startup task: UNKNOWN_TASK. Valid tasks are: CLEAN_UP, DEFAULT_CONFIG, FIX_CHINESE_FONT, SET_MEGA_BEZEL_SHADER, SET_PLATFORM");
     }
 }

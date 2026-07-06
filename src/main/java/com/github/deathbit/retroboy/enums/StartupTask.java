@@ -5,6 +5,7 @@ import lombok.Getter;
 import java.util.Arrays;
 import java.util.EnumSet;
 import java.util.Locale;
+import java.util.stream.Collectors;
 
 @Getter
 public enum StartupTask {
@@ -14,12 +15,19 @@ public enum StartupTask {
     SET_MEGA_BEZEL_SHADER(1L << 3),
     SET_PLATFORM(1L << 4);
 
+    private static final String VALID_TASK_NAMES = Arrays.stream(values())
+            .map(Enum::name)
+            .collect(Collectors.joining(", "));
+
     private final long mask;
 
     StartupTask(long mask) {
         this.mask = mask;
     }
 
+    /**
+     * Supports pipe-delimited task names and legacy numeric masks. Explicitly disabled tasks win over enabled tasks.
+     */
     public static boolean isEnabled(StartupTask startupTask, String startupTaskMask) {
         if (startupTaskMask == null || startupTaskMask.isBlank()) {
             return false;
@@ -58,7 +66,10 @@ public enum StartupTask {
         try {
             return StartupTask.valueOf(value.toUpperCase(Locale.ROOT));
         } catch (IllegalArgumentException exception) {
-            throw new IllegalArgumentException("Unknown startup task: " + value, exception);
+            throw new IllegalArgumentException(
+                    "Unknown startup task: %s. Valid tasks are: %s".formatted(value, VALID_TASK_NAMES),
+                    exception
+            );
         }
     }
 
