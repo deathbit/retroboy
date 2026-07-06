@@ -177,11 +177,11 @@ public class Rules {
         }
 
         private RuleNode and(RuleNode other) {
-            return new RuleNode(null, rule.and(other.rule), RuleOperator.AND, this, other);
+            return new RuleNode("", rule.and(other.rule), RuleOperator.AND, this, other);
         }
 
         private RuleNode or(RuleNode other) {
-            return new RuleNode(null, rule.or(other.rule), RuleOperator.OR, this, other);
+            return new RuleNode("", rule.or(other.rule), RuleOperator.OR, this, other);
         }
 
         private List<String> failedRuleNames(RuleContext ruleContext, FileContext fileContext) {
@@ -194,11 +194,9 @@ public class Rules {
 
         private List<String> andFailedRuleNames(RuleContext ruleContext, FileContext fileContext) {
             var leftFailures = left.failedRuleNames(ruleContext, fileContext);
-            if (!leftFailures.isEmpty()) {
-                return leftFailures;
-            }
+            var rightFailures = right.failedRuleNames(ruleContext, fileContext);
 
-            return right.failedRuleNames(ruleContext, fileContext);
+            return Stream.concat(leftFailures.stream(), rightFailures.stream()).toList();
         }
 
         private List<String> orFailedRuleNames(RuleContext ruleContext, FileContext fileContext) {

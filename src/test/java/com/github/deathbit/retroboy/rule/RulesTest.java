@@ -132,6 +132,17 @@ class RulesTest {
         assertThat(result).containsExactly("IS_JAPAN", "IS_WORLD");
     }
 
+    @Test
+    void shouldCollectFailedAndRuleNames() {
+        var fileContext = fileContext("Game (Australia).nes", "Game", Set.of("Australia"));
+        var ruleContext = ruleContext(Map.of(fileContext.getFileName(), fileContext), List.of(areaConfig(Area.JPN)));
+        ruleContext.setLicensed(Set.of());
+
+        var result = Rules.failedRuleNames(Area.JPN, ruleContext, fileContext);
+
+        assertThat(result).containsExactly("IS_LICENSED", "IS_JAPAN", "IS_WORLD");
+    }
+
     private FileContext fileContext(String fileName, String namePart, Set<String> tags) {
         return FileContext.builder()
                 .fileName(fileName)
