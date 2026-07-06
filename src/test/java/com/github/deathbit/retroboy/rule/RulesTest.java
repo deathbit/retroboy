@@ -54,13 +54,13 @@ class RulesTest {
 
     @Test
     void shouldPreferEuropeVersionForEuropeArea() {
-        var areaFinalMap = Map.of(Area.EUR, new LinkedHashSet<>(List.of(
+        Map<Area, Set<String>> areaFinalMap = Map.of(Area.EUR, new LinkedHashSet<>(List.of(
                 "Game (Europe).nes",
                 "Game (Germany).nes",
                 "Other (Germany).nes"
         )));
         var europeRuleResultMap = new LinkedHashMap<String, RuleResult>();
-        var areaRuleResultMap = Map.of(Area.EUR, europeRuleResultMap);
+        Map<Area, Map<String, RuleResult>> areaRuleResultMap = Map.of(Area.EUR, europeRuleResultMap);
         var ruleContext = RuleContext.builder()
                 .fileContextMap(Map.of(
                         "Game (Europe).nes", fileContext("Game (Europe).nes", "Game", Set.of("Europe")),
