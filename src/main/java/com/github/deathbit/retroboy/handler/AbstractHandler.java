@@ -45,7 +45,6 @@ public abstract class AbstractHandler implements Handler {
         var ruleContext = prepareRuleContext();
         initializeRuleState(ruleContext);
         selectAreaFiles(ruleContext);
-        Rules.preferEuropeVersionForEuropeArea(ruleContext);
         cleanTargetDirectory(ruleContext);
         createAreaDirectories(ruleContext);
         copyAreaFiles(ruleContext);
@@ -68,7 +67,7 @@ public abstract class AbstractHandler implements Handler {
             for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
                 var area = areaConfig.getArea();
                 var rule = ruleContext.getRuleMap().get(area);
-                var ruleResult = evaluateAreaRule(ruleContext, fileContext, areaConfig, rule);
+                var ruleResult = rule.evaluate(ruleContext, fileContext);
                 ruleContext.getAreaRuleResultMap().get(area).put(fileName, ruleResult);
 
                 if (ruleResult.isPassed()) {
@@ -267,52 +266,6 @@ public abstract class AbstractHandler implements Handler {
         return fileName.substring(dotIndex);
     }
 
-    private void preferEuropeVersionForEuropeArea(RuleContext ruleContext) {
-        var europeFinalFiles = ruleContext.getAreaFinalMap().get(Area.EUR);
-        var europeRuleResultMap = ruleContext.getAreaRuleResultMap().get(Area.EUR);
-        if (europeFinalFiles == null || europeRuleResultMap == null || europeFinalFiles.isEmpty()) {
-            return;
-        }
-
-        var passedFileContextMap = new LinkedHashMap<String, List<FileContext>>();
-        for (var fileName : europeFinalFiles) {
-            var fileContext = ruleContext.getFileContextMap().get(fileName);
-            if (fileContext != null) {
-                passedFileContextMap.computeIfAbsent(fileContext.getNamePart(), ignored -> new ArrayList<>()).add(fileContext);
-            }
-        }
-
-        var filesToRemove = new ArrayList<String>();
-        for (var fileContexts : passedFileContextMap.values()) {
-            var europeVersions = fileContexts.stream()
-                    .filter(this::isEuropeVersion)
-                    .map(FileContext::getFileName)
-                    .toList();
-            if (europeVersions.isEmpty()) {
-                continue;
-            }
-
-            for (var fileContext : fileContexts) {
-                if (!isEuropeVersion(fileContext)) {
-                    filesToRemove.add(fileContext.getFileName());
-                    europeRuleResultMap.put(fileContext.getFileName(), RuleResult.fail(
-                            "PREFER_EUROPE_VERSION",
-                            "存在同名 Europe 版本，已排除地区版本，保留: " + String.join(", ", europeVersions)));
-                }
-            }
-        }
-
-        europeFinalFiles.removeAll(filesToRemove);
-    }
-
-    private boolean isEuropeVersion(FileContext fileContext) {
-        return fileContext.getTags().contains("Europe");
-    }
-
-    private RuleResult evaluateAreaRule(RuleContext ruleContext, FileContext fileContext, AreaConfig areaConfig, Rule rule) {
-        return rule.and(Rules.isNotHitAreaFileNameBlackList(areaConfig)).evaluate(ruleContext, fileContext);
-    }
-
     private Map<Area, Map<String, RuleResult>> initializeAreaRuleResultMap(RuleContext ruleContext) {
         var areaRuleResultMap = new LinkedHashMap<Area, Map<String, RuleResult>>();
         for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
@@ -433,7 +386,6 @@ public abstract class AbstractHandler implements Handler {
             for (var file : files) {
                 ruleContext.getFileContextMap().put(file.getName(), buildFileContext(file.getName()));
             }
-            Rules.applyPreviousRevisionRule(ruleContext);
         }
     }
 
