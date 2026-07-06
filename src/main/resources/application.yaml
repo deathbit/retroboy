@@ -6,6 +6,11 @@ app:
   config:
     globalConfig:
       raConfig: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
+      # Startup task bitmask:
+      # 1 = CLEAN_UP, 2 = DEFAULT_CONFIG, 4 = FIX_CHINESE_FONT,
+      # 8 = SET_MEGA_BEZEL_SHADER, 16 = SET_PLATFORM
+      # 31 = all startup tasks enabled (binary 11111)
+      startupTaskMask: 31
       globalTagBlacklist:
         - '3DS Virtual Console'
         - '8-bit Adventure Anthology - Volume I'
