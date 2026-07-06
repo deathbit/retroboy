@@ -66,6 +66,7 @@ public abstract class AbstractHandler implements Handler {
 
             for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
                 var area = areaConfig.getArea();
+                ruleContext.setCurrentArea(area);
                 var rule = ruleContext.getRuleMap().get(area);
                 var ruleResult = rule.evaluate(ruleContext, fileContext);
                 ruleContext.getAreaRuleResultMap().get(area).put(fileName, ruleResult);
@@ -75,6 +76,7 @@ public abstract class AbstractHandler implements Handler {
                 }
             }
         }
+        ruleContext.setCurrentArea(null);
     }
 
     private void cleanTargetDirectory(RuleContext ruleContext) throws Exception {

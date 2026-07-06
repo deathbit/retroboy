@@ -84,19 +84,19 @@ public class Rules {
             .and(IS_NOT_HIT_PLATFORM_TAG_BLACKLIST)
             .and(IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST)
             .and(IS_NOT_PREVIOUS_REVISION);
-    public static final Rule IS_JAPAN_BASE = areaBase(Area.JPN, IS_JAPAN_OR_WORLD);
-    public static final Rule IS_USA_BASE = areaBase(Area.USA, IS_USA_OR_WORLD);
-    private static final Rule IS_EUROPE_BASE_WITHOUT_PREFERENCE = areaBase(Area.EUR, IS_EUROPE_OR_WORLD);
+    public static final Rule IS_JAPAN_BASE = areaBase(IS_JAPAN_OR_WORLD);
+    public static final Rule IS_USA_BASE = areaBase(IS_USA_OR_WORLD);
+    private static final Rule IS_EUROPE_BASE_WITHOUT_PREFERENCE = areaBase(IS_EUROPE_OR_WORLD);
     public static final Rule IS_EUROPE_BASE = IS_EUROPE_BASE_WITHOUT_PREFERENCE.and(preferEuropeVersion());
 
-    private static Rule areaBase(Area area, Rule areaRule) {
-        return IS_BASE.and(areaRule).and(isNotHitAreaFileNameBlackList(area));
+    private static Rule areaBase(Rule areaRule) {
+        return IS_BASE.and(areaRule).and(isNotHitAreaFileNameBlackList());
     }
 
-    private static Rule isNotHitAreaFileNameBlackList(Area area) {
+    private static Rule isNotHitAreaFileNameBlackList() {
         return Rule.named(
                 "IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST",
-                (rc, fc) -> areaConfig(rc, area)
+                (rc, fc) -> areaConfig(rc)
                         .map(AreaConfig::getFileNameBlackList)
                         .map(fileNameBlackList -> !fileNameBlackList.contains(fc.getFileName()))
                         .orElse(true),
@@ -143,13 +143,13 @@ public class Rules {
                 .collect(Collectors.joining(", "));
     }
 
-    private static Optional<AreaConfig> areaConfig(RuleContext ruleContext, Area area) {
+    private static Optional<AreaConfig> areaConfig(RuleContext ruleContext) {
         if (ruleContext.getRuleConfig().getTargetAreaConfigs() == null) {
             return Optional.empty();
         }
 
         return ruleContext.getRuleConfig().getTargetAreaConfigs().stream()
-                .filter(areaConfig -> area == areaConfig.getArea())
+                .filter(areaConfig -> ruleContext.getCurrentArea() == areaConfig.getArea())
                 .findFirst();
     }
 
