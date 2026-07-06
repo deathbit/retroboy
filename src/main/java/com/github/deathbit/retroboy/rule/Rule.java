@@ -69,17 +69,21 @@ public interface Rule {
             @Override
             public RuleResult evaluate(RuleContext ruleContext, FileContext fileContext) {
                 RuleResult leftResult = left.evaluate(ruleContext, fileContext);
-                RuleResult rightResult = right.evaluate(ruleContext, fileContext);
 
                 if ("AND".equals(operator)) {
-                    if (leftResult.isPassed() && rightResult.isPassed()) {
-                        return RuleResult.pass();
+                    if (!leftResult.isPassed()) {
+                        return leftResult;
                     }
 
-                    return RuleResult.fail(leftResult, rightResult);
+                    return right.evaluate(ruleContext, fileContext);
                 }
 
-                if (leftResult.isPassed() || rightResult.isPassed()) {
+                if (leftResult.isPassed()) {
+                    return RuleResult.pass();
+                }
+
+                RuleResult rightResult = right.evaluate(ruleContext, fileContext);
+                if (rightResult.isPassed()) {
                     return RuleResult.pass();
                 }
 

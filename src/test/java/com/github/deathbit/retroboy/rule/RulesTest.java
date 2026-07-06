@@ -11,11 +11,44 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 class RulesTest {
+
+    @Test
+    void shouldShortCircuitAndEvaluationWhenLeftRuleFails() {
+        var rightEvaluations = new AtomicInteger();
+        var left = Rule.named("LEFT", (rc, fc) -> false, "left failed");
+        var right = Rule.named("RIGHT", (rc, fc) -> {
+            rightEvaluations.incrementAndGet();
+            return true;
+        }, "right failed");
+
+        var result = left.and(right).evaluate(null, null);
+
+        assertThat(result.isPassed()).isFalse();
+        assertThat(result.getFailures()).containsExactly("LEFT: left failed");
+        assertThat(rightEvaluations).hasValue(0);
+    }
+
+    @Test
+    void shouldShortCircuitOrEvaluationWhenLeftRulePasses() {
+        var rightEvaluations = new AtomicInteger();
+        var left = Rule.named("LEFT", (rc, fc) -> true, "left failed");
+        var right = Rule.named("RIGHT", (rc, fc) -> {
+            rightEvaluations.incrementAndGet();
+            return false;
+        }, "right failed");
+
+        var result = left.or(right).evaluate(null, null);
+
+        assertThat(result.isPassed()).isTrue();
+        assertThat(result.getFailures()).isEmpty();
+        assertThat(rightEvaluations).hasValue(0);
+    }
 
     @Test
     void shouldEvaluateAreaFileNameBlackList() {
