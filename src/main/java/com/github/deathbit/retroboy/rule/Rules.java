@@ -154,17 +154,22 @@ public class Rules {
             return null;
         }
 
-        var revision = Integer.parseInt(matcher.group(1));
-        if (revision == 1) {
+        try {
+            var revision = Integer.parseInt(matcher.group(1));
+            if (revision == 1) {
+                return filename.substring(0, matcher.start())
+                        .concat(filename.substring(matcher.end()))
+                        .replaceAll("\\s+\\.", ".")
+                        .replaceAll("\\s{2,}", " ")
+                        .trim();
+            }
             return filename.substring(0, matcher.start())
-                    .concat(filename.substring(matcher.end()))
-                    .replaceAll("\\s+\\.", ".")
-                    .replaceAll("\\s{2,}", " ")
-                    .trim();
+                    .concat("(Rev " + (revision - 1) + ")")
+                    .concat(filename.substring(matcher.end()));
+        } catch (NumberFormatException e) {
+            // Leave out-of-range revision tags untouched.
+            return null;
         }
-        return filename.substring(0, matcher.start())
-                .concat("(Rev " + (revision - 1) + ")")
-                .concat(filename.substring(matcher.end()));
     }
 
     private static String matchingTags(Set<String> tags, Set<String> blacklist) {
