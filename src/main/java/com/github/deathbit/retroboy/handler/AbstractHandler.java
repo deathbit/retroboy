@@ -32,6 +32,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public abstract class AbstractHandler implements Handler {
 
@@ -192,11 +193,11 @@ public abstract class AbstractHandler implements Handler {
         var targetFileName = renamePlans.get(0).targetFileName();
         var duplicateFileNames = renamePlans.stream()
                 .map(renamePlan -> renamePlan.fileContext().getFileName())
-                .toList();
+                .collect(Collectors.joining(", "));
         var action = renameOptions == null || renameOptions.isEmpty()
                 ? "地区未配置重命名选项，保持原文件名"
                 : "使用地区重命名选项处理";
-        duplicateNameReportLines.add(targetFileName + " - DUPLICATE_NAME: 去除标签后文件名一致，文件: " + String.join(", ", duplicateFileNames) + "，" + action);
+        duplicateNameReportLines.add(targetFileName + " - DUPLICATE_NAME: 去除标签后文件名一致，文件: " + duplicateFileNames + "，" + action);
     }
 
     private RenamePlan buildRenamePlan(FileContext fileContext) {
