@@ -60,14 +60,14 @@ public abstract class AbstractHandler implements Handler {
     }
 
     private void selectAreaFiles(RuleContext ruleContext) {
-        for (var entry : ruleContext.getFileContextMap().entrySet()) {
-            var fileName = entry.getKey();
-            var fileContext = entry.getValue();
+        for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
+            var area = areaConfig.getArea();
+            ruleContext.setCurrentArea(area);
+            var rule = ruleContext.getRuleMap().get(area);
 
-            for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
-                var area = areaConfig.getArea();
-                ruleContext.setCurrentArea(area);
-                var rule = ruleContext.getRuleMap().get(area);
+            for (var entry : ruleContext.getFileContextMap().entrySet()) {
+                var fileName = entry.getKey();
+                var fileContext = entry.getValue();
                 var ruleResult = rule.evaluate(ruleContext, fileContext);
                 ruleContext.getAreaRuleResultMap().get(area).put(fileName, ruleResult);
 
