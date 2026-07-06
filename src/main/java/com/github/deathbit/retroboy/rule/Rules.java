@@ -84,34 +84,24 @@ public class Rules {
             .and(IS_NOT_HIT_PLATFORM_TAG_BLACKLIST)
             .and(IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST)
             .and(IS_NOT_PREVIOUS_REVISION);
-    public static final Rule IS_JAPAN_BASE = areaBase(IS_JAPAN_OR_WORLD);
-    public static final Rule IS_USA_BASE = areaBase(IS_USA_OR_WORLD);
-    private static final Rule IS_EUROPE_BASE_WITHOUT_PREFERENCE = areaBase(IS_EUROPE_OR_WORLD);
-    public static final Rule IS_EUROPE_BASE = IS_EUROPE_BASE_WITHOUT_PREFERENCE.and(preferEuropeVersion());
-
-    private static Rule areaBase(Rule areaRule) {
-        return IS_BASE.and(areaRule).and(isNotHitAreaFileNameBlackList());
-    }
-
-    private static Rule isNotHitAreaFileNameBlackList() {
-        return Rule.named(
-                "IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST",
-                (rc, fc) -> areaConfig(rc)
-                        .map(AreaConfig::getFileNameBlackList)
-                        .map(fileNameBlackList -> !fileNameBlackList.contains(fc.getFileName()))
-                        .orElse(true),
-                (rc, fc) -> "命中地区文件名黑名单: " + fc.getFileName());
-    }
-
-    private static Rule preferEuropeVersion() {
-        return Rule.named(
-                "PREFER_EUROPE_VERSION",
-                (rc, fc) -> !IS_EUROPE_BASE_WITHOUT_PREFERENCE.pass(rc, fc)
-                        || isEuropeVersion(fc)
-                        || preferredEuropeVersionFileNames(rc, fc).isEmpty(),
-                (rc, fc) -> "存在同名 Europe 版本，已排除地区版本，保留: "
-                        + String.join(", ", preferredEuropeVersionFileNames(rc, fc)));
-    }
+    private static final Rule IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST = Rule.named(
+            "IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST",
+            (rc, fc) -> areaConfig(rc)
+                    .map(AreaConfig::getFileNameBlackList)
+                    .map(fileNameBlackList -> !fileNameBlackList.contains(fc.getFileName()))
+                    .orElse(true),
+            (rc, fc) -> "命中地区文件名黑名单: " + fc.getFileName());
+    public static final Rule IS_JAPAN_BASE = IS_BASE.and(IS_JAPAN_OR_WORLD).and(IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST);
+    public static final Rule IS_USA_BASE = IS_BASE.and(IS_USA_OR_WORLD).and(IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST);
+    private static final Rule IS_EUROPE_BASE_WITHOUT_PREFERENCE = IS_BASE.and(IS_EUROPE_OR_WORLD).and(IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST);
+    private static final Rule PREFER_EUROPE_VERSION = Rule.named(
+            "PREFER_EUROPE_VERSION",
+            (rc, fc) -> !IS_EUROPE_BASE_WITHOUT_PREFERENCE.pass(rc, fc)
+                    || isEuropeVersion(fc)
+                    || preferredEuropeVersionFileNames(rc, fc).isEmpty(),
+            (rc, fc) -> "存在同名 Europe 版本，已排除地区版本，保留: "
+                    + String.join(", ", preferredEuropeVersionFileNames(rc, fc)));
+    public static final Rule IS_EUROPE_BASE = IS_EUROPE_BASE_WITHOUT_PREFERENCE.and(PREFER_EUROPE_VERSION);
 
     private static String previousRevision(String filename) {
         var matcher = REV_TAG.matcher(filename);
