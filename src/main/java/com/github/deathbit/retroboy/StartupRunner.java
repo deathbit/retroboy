@@ -21,6 +21,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.function.Supplier;
+import java.util.stream.Stream;
 
 import static com.github.deathbit.retroboy.utils.CommonUtils.printAsciiArt;
 import static com.github.deathbit.retroboy.utils.CommonUtils.printTask;
@@ -67,7 +68,7 @@ public class StartupRunner implements ApplicationRunner {
     }
 
     private void runStartupTask(StartupTask startupTask, String taskName, Supplier<List<String>> subTaskNames, StartupTaskRunner runner) throws Exception {
-        if ((appConfig.getGlobalConfig().getStartupTaskMask() & startupTask.getMask()) == 0) {
+        if (!isTaskEnabled(startupTask)) {
             return;
         }
 
@@ -76,12 +77,16 @@ public class StartupRunner implements ApplicationRunner {
         printTaskDone(taskName);
     }
 
+    private boolean isTaskEnabled(StartupTask startupTask) {
+        return (appConfig.getGlobalConfig().getStartupTaskMask() & startupTask.getMask()) != 0;
+    }
+
     private List<String> describeCleanUpTask() {
         CleanUpTask task = appConfig.getCleanUpTask();
         List<String> descriptions = task.getCleanDirs().stream()
                 .map(dir -> "清空目录：" + dir)
                 .toList();
-        return java.util.stream.Stream.concat(
+        return Stream.concat(
                 descriptions.stream(),
                 task.getDeleteFiles().stream().map(file -> "删除文件：" + file)
         ).toList();
@@ -89,7 +94,7 @@ public class StartupRunner implements ApplicationRunner {
 
     private List<String> describeDefaultConfigTask() {
         DefaultConfigTask task = appConfig.getDefaultConfigTask();
-        return java.util.stream.Stream.of(
+        return Stream.of(
                 task.getCopyDirContentsInputs().stream().map(this::describeCopyDirContents),
                 task.getCopyFileInputs().stream().map(this::describeCopyFile),
                 task.getRaConfigInputs().stream().map(this::describeRaConfig)
@@ -107,9 +112,9 @@ public class StartupRunner implements ApplicationRunner {
 
     private List<String> describeSetMegaBezelShaderTask() {
         SetMegaBezelShaderTask task = appConfig.getSetMegaBezelShaderTask();
-        return java.util.stream.Stream.concat(
-                java.util.stream.Stream.concat(
-                        java.util.stream.Stream.of(describeCopyDir(task.getCopyMegaBezelPacks())),
+        return Stream.concat(
+                Stream.concat(
+                        Stream.of(describeCopyDir(task.getCopyMegaBezelPacks())),
                         task.getCopyDefaultMegaBezelShader().stream().map(this::describeCopyFile)
                 ),
                 task.getSetMegaBezelShaderConfigInputs().stream().map(this::describeRaConfig)
