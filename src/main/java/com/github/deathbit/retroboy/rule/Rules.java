@@ -79,7 +79,7 @@ public class Rules {
     private static final RuleNode IS_EUROPE_BASE_WITHOUT_PREFERENCE = IS_BASE.and(IS_EUROPE_OR_WORLD).and(IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST);
     private static final RuleNode PREFER_EUROPE_VERSION = rule(
             "PREFER_EUROPE_VERSION",
-            (rc, fc) -> !IS_EUROPE_BASE_WITHOUT_PREFERENCE.asRule().pass(rc, fc)
+            (rc, fc) -> !IS_EUROPE_BASE_WITHOUT_PREFERENCE.pass(rc, fc)
                     || isEuropeVersion(fc)
                     || preferredEuropeVersionFileNames(rc, fc).isEmpty());
     private static final RuleNode IS_EUROPE_BASE_NODE = IS_EUROPE_BASE_WITHOUT_PREFERENCE.and(PREFER_EUROPE_VERSION);
@@ -148,7 +148,7 @@ public class Rules {
         return ruleContext.getFileContextMap().values().stream()
                 .filter(other -> other.getNamePart().equals(fileContext.getNamePart()))
                 .filter(Rules::isEuropeVersion)
-                .filter(other -> IS_EUROPE_BASE_WITHOUT_PREFERENCE.asRule().pass(ruleContext, other))
+                .filter(other -> IS_EUROPE_BASE_WITHOUT_PREFERENCE.pass(ruleContext, other))
                 .map(FileContext::getFileName)
                 .toList();
     }
@@ -170,6 +170,10 @@ public class Rules {
     private record RuleNode(String name, Rule rule, RuleOperator operator, RuleNode left, RuleNode right) {
         private Rule asRule() {
             return rule;
+        }
+
+        private boolean pass(RuleContext ruleContext, FileContext fileContext) {
+            return rule.pass(ruleContext, fileContext);
         }
 
         private RuleNode and(RuleNode other) {
