@@ -13,9 +13,7 @@ import com.github.deathbit.retroboy.rule.Rule;
 import com.github.deathbit.retroboy.rule.RuleResult;
 import com.github.deathbit.retroboy.rule.Rules;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
@@ -33,7 +31,6 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
@@ -48,73 +45,91 @@ public abstract class AbstractHandler implements Handler {
 
     @Override
     public void handle() throws Exception {
-        RuleContext ruleContext = buildRuleContext();
-        Map<Area, Rule> ruleMap = getRuleMap();
-        Map<Area, Map<String, RuleResult>> areaRuleResultMap = initializeAreaRuleResultMap(ruleContext);
-        Map<Area, List<String>> areaRenameReportMap = initializeAreaRenameReportMap(ruleContext);
-        Map<Area, List<String>> areaDuplicateNameReportMap = initializeAreaRenameReportMap(ruleContext);
+        var ruleContext = prepareRuleContext();
+        initializeRuleState(ruleContext);
+        selectAreaFiles(ruleContext);
+        preferEuropeVersionForEuropeArea(ruleContext);
+        cleanTargetDirectory(ruleContext);
+        createAreaDirectories(ruleContext);
+        copyAreaFiles(ruleContext);
+        renameAreaFiles(ruleContext);
+        writeProcessingReports(ruleContext);
+    }
 
-        for (Map.Entry<String, FileContext> entry : ruleContext.getFileContextMap().entrySet()) {
-            String fileName = entry.getKey();
-            FileContext fileContext = entry.getValue();
+    private void initializeRuleState(RuleContext ruleContext) {
+        ruleContext.setRuleMap(getRuleMap());
+        ruleContext.setAreaRuleResultMap(initializeAreaRuleResultMap(ruleContext));
+        ruleContext.setAreaRenameReportMap(createEmptyAreaReportMap(ruleContext));
+        ruleContext.setAreaDuplicateNameReportMap(createEmptyAreaReportMap(ruleContext));
+    }
 
-            for (AreaConfig areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
-                Area area = areaConfig.getArea();
-                Rule rule = ruleMap.get(area);
-                RuleResult ruleResult = evaluateAreaRule(ruleContext, fileContext, areaConfig, rule);
-                areaRuleResultMap.get(area).put(fileName, ruleResult);
+    private void selectAreaFiles(RuleContext ruleContext) {
+        for (var entry : ruleContext.getFileContextMap().entrySet()) {
+            var fileName = entry.getKey();
+            var fileContext = entry.getValue();
+
+            for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
+                var area = areaConfig.getArea();
+                var rule = ruleContext.getRuleMap().get(area);
+                var ruleResult = evaluateAreaRule(ruleContext, fileContext, areaConfig, rule);
+                ruleContext.getAreaRuleResultMap().get(area).put(fileName, ruleResult);
 
                 if (ruleResult.isPassed()) {
                     ruleContext.getAreaFinalMap().get(area).add(fileName);
                 }
             }
         }
+    }
 
-        preferEuropeVersionForEuropeArea(ruleContext, areaRuleResultMap);
+    private void cleanTargetDirectory(RuleContext ruleContext) throws Exception {
         fileComponent.batchCleanDirs(List.of(ruleContext.getRuleConfig().getTargetDirBase()));
+    }
 
-        List<String> dirsToCreate = ruleContext.getAreaFinalMap().keySet().stream()
-                .map(strings -> Paths.get(ruleContext.getRuleConfig().getTargetDirBase(), strings.name()).toString())
-                .collect(Collectors.toList());
-        fileComponent.batchCreateDirs(dirsToCreate);
+    private void createAreaDirectories(RuleContext ruleContext) throws Exception {
+        ruleContext.setDirsToCreate(ruleContext.getAreaFinalMap().keySet().stream()
+                .map(areaKey -> Paths.get(ruleContext.getRuleConfig().getTargetDirBase(), areaKey.name()).toString())
+                .toList());
+        fileComponent.batchCreateDirs(ruleContext.getDirsToCreate());
+    }
 
-        List<CopyFileInput> filesToCopy = new ArrayList<>();
-        for (Map.Entry<Area, Set<String>> entry : ruleContext.getAreaFinalMap().entrySet()) {
-            for (String fileName : entry.getValue()) {
+    private void copyAreaFiles(RuleContext ruleContext) throws Exception {
+        var filesToCopy = new ArrayList<CopyFileInput>();
+        for (var entry : ruleContext.getAreaFinalMap().entrySet()) {
+            for (var fileName : entry.getValue()) {
                 filesToCopy.add(CopyFileInput.builder()
                         .srcFile(Paths.get(ruleContext.getRuleConfig().getRomDir(), fileName).toString())
                         .destDir(Paths.get(ruleContext.getRuleConfig().getTargetDirBase(), entry.getKey().name()).toString())
                         .build());
             }
         }
-        fileComponent.batchCopyFiles(filesToCopy);
-
-        List<RenameFileInput> filesToRename = buildRenameFileInputs(ruleContext, areaRenameReportMap, areaDuplicateNameReportMap);
-        if (!filesToRename.isEmpty()) {
-            fileComponent.batchRenameFiles(filesToRename);
-        }
-        writeProcessingReports(ruleContext, areaRuleResultMap, areaRenameReportMap, areaDuplicateNameReportMap);
+        ruleContext.setFilesToCopy(filesToCopy);
+        fileComponent.batchCopyFiles(ruleContext.getFilesToCopy());
     }
 
-    private Map<Area, List<String>> initializeAreaRenameReportMap(RuleContext ruleContext) {
-        Map<Area, List<String>> areaRenameReportMap = new LinkedHashMap<>();
-        for (AreaConfig areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
-            areaRenameReportMap.put(areaConfig.getArea(), new ArrayList<>());
+    private void renameAreaFiles(RuleContext ruleContext) throws Exception {
+        ruleContext.setFilesToRename(buildRenameFileInputs(ruleContext));
+        if (!ruleContext.getFilesToRename().isEmpty()) {
+            fileComponent.batchRenameFiles(ruleContext.getFilesToRename());
         }
-
-        return areaRenameReportMap;
     }
 
-    private List<RenameFileInput> buildRenameFileInputs(RuleContext ruleContext,
-                                                        Map<Area, List<String>> areaRenameReportMap,
-                                                        Map<Area, List<String>> areaDuplicateNameReportMap) {
-        List<RenameFileInput> filesToRename = new ArrayList<>();
-        for (AreaConfig areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
+    private Map<Area, List<String>> createEmptyAreaReportMap(RuleContext ruleContext) {
+        var areaReportMap = new LinkedHashMap<Area, List<String>>();
+        for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
+            areaReportMap.put(areaConfig.getArea(), new ArrayList<>());
+        }
+
+        return areaReportMap;
+    }
+
+    private List<RenameFileInput> buildRenameFileInputs(RuleContext ruleContext) {
+        var filesToRename = new ArrayList<RenameFileInput>();
+        for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
             filesToRename.addAll(buildAreaRenameFileInputs(
                     ruleContext,
                     areaConfig,
-                    areaRenameReportMap.get(areaConfig.getArea()),
-                    areaDuplicateNameReportMap.get(areaConfig.getArea())));
+                    ruleContext.getAreaRenameReportMap().get(areaConfig.getArea()),
+                    ruleContext.getAreaDuplicateNameReportMap().get(areaConfig.getArea())));
         }
 
         return filesToRename;
@@ -124,23 +139,23 @@ public abstract class AbstractHandler implements Handler {
                                                             AreaConfig areaConfig,
                                                             List<String> renameReportLines,
                                                             List<String> duplicateNameReportLines) {
-        Set<String> finalFiles = ruleContext.getAreaFinalMap().get(areaConfig.getArea());
+        var finalFiles = ruleContext.getAreaFinalMap().get(areaConfig.getArea());
         if (finalFiles == null || finalFiles.isEmpty()) {
             return List.of();
         }
 
-        Map<String, List<RenamePlan>> renamePlanMap = new LinkedHashMap<>();
-        for (String fileName : finalFiles) {
-            FileContext fileContext = ruleContext.getFileContextMap().get(fileName);
+        var renamePlanMap = new LinkedHashMap<String, List<RenamePlan>>();
+        for (var fileName : finalFiles) {
+            var fileContext = ruleContext.getFileContextMap().get(fileName);
             if (fileContext == null) {
                 continue;
             }
-            RenamePlan renamePlan = buildRenamePlan(fileContext);
+            var renamePlan = buildRenamePlan(fileContext);
             renamePlanMap.computeIfAbsent(renamePlan.targetFileName(), ignored -> new ArrayList<>()).add(renamePlan);
         }
 
-        List<RenameFileInput> filesToRename = new ArrayList<>();
-        for (List<RenamePlan> renamePlans : renamePlanMap.values()) {
+        var filesToRename = new ArrayList<RenameFileInput>();
+        for (var renamePlans : renamePlanMap.values()) {
             if (renamePlans.size() == 1) {
                 addRenameFileInput(ruleContext, areaConfig.getArea(), renamePlans.get(0), renamePlans.get(0).targetFileName(), renameReportLines, false, filesToRename);
                 continue;
@@ -151,8 +166,8 @@ public abstract class AbstractHandler implements Handler {
                 continue;
             }
 
-            for (RenamePlan renamePlan : renamePlans) {
-                String renameOption = findRenameOption(areaConfig.getRenameOptions(), renamePlan.fileContext().getFileName());
+            for (var renamePlan : renamePlans) {
+                var renameOption = findRenameOption(areaConfig.getRenameOptions(), renamePlan.fileContext().getFileName());
                 if (renameOption != null && !renameOption.isBlank()) {
                     addRenameFileInput(ruleContext, areaConfig.getArea(), renamePlan, withOriginalExtension(renameOption, renamePlan.fileContext().getFileName()), renameReportLines, true, filesToRename);
                 }
@@ -175,19 +190,19 @@ public abstract class AbstractHandler implements Handler {
     }
 
     private void addDuplicateNameReport(List<RenamePlan> renamePlans, List<String> duplicateNameReportLines, List<AreaConfig.RenameOption> renameOptions) {
-        String targetFileName = renamePlans.get(0).targetFileName();
-        String duplicateFileNames = renamePlans.stream()
+        var targetFileName = renamePlans.get(0).targetFileName();
+        var duplicateFileNames = renamePlans.stream()
                 .map(renamePlan -> renamePlan.fileContext().getFileName())
                 .collect(Collectors.joining(", "));
-        String action = renameOptions == null || renameOptions.isEmpty()
+        var action = renameOptions == null || renameOptions.isEmpty()
                 ? "地区未配置重命名选项，保持原文件名"
                 : "使用地区重命名选项处理";
         duplicateNameReportLines.add(targetFileName + " - DUPLICATE_NAME: 去除标签后文件名一致，文件: " + duplicateFileNames + "，" + action);
     }
 
     private RenamePlan buildRenamePlan(FileContext fileContext) {
-        String normalizedNamePart = normalizeLeadingArticle(fileContext.getNamePart());
-        String targetFileName = normalizedNamePart + extension(fileContext.getFileName());
+        var normalizedNamePart = normalizeLeadingArticle(fileContext.getNamePart());
+        var targetFileName = normalizedNamePart + extension(fileContext.getFileName());
         return new RenamePlan(fileContext, targetFileName, !normalizedNamePart.equals(fileContext.getNamePart()));
     }
 
@@ -198,7 +213,7 @@ public abstract class AbstractHandler implements Handler {
                                     List<String> renameReportLines,
                                     boolean renameByOption,
                                     List<RenameFileInput> filesToRename) {
-        FileContext fileContext = renamePlan.fileContext();
+        var fileContext = renamePlan.fileContext();
         if (fileContext.getFileName().equals(targetFileName)) {
             return;
         }
@@ -220,8 +235,8 @@ public abstract class AbstractHandler implements Handler {
     }
 
     private String normalizeTrailingArticle(String namePart, String article) {
-        String suffix = ", " + article;
-        int separatorIndex = namePart.indexOf(" - ");
+        var suffix = ", " + article;
+        var separatorIndex = namePart.indexOf(" - ");
         if (separatorIndex == -1) {
             if (namePart.endsWith(suffix)) {
                 return article + " " + namePart.substring(0, namePart.length() - suffix.length());
@@ -229,7 +244,7 @@ public abstract class AbstractHandler implements Handler {
             return namePart;
         }
 
-        String title = namePart.substring(0, separatorIndex);
+        var title = namePart.substring(0, separatorIndex);
         if (!title.endsWith(suffix)) {
             return namePart;
         }
@@ -238,7 +253,7 @@ public abstract class AbstractHandler implements Handler {
     }
 
     private String withOriginalExtension(String fileName, String originalFileName) {
-        String originalExtension = extension(originalFileName);
+        var originalExtension = extension(originalFileName);
         if (originalExtension.isEmpty() || fileName.endsWith(originalExtension)) {
             return fileName;
         }
@@ -247,7 +262,7 @@ public abstract class AbstractHandler implements Handler {
     }
 
     private String extension(String fileName) {
-        int dotIndex = fileName.lastIndexOf('.');
+        var dotIndex = fileName.lastIndexOf('.');
         if (dotIndex == -1) {
             return "";
         }
@@ -255,32 +270,32 @@ public abstract class AbstractHandler implements Handler {
         return fileName.substring(dotIndex);
     }
 
-    private void preferEuropeVersionForEuropeArea(RuleContext ruleContext, Map<Area, Map<String, RuleResult>> areaRuleResultMap) {
-        Set<String> europeFinalFiles = ruleContext.getAreaFinalMap().get(Area.EUR);
-        Map<String, RuleResult> europeRuleResultMap = areaRuleResultMap.get(Area.EUR);
+    private void preferEuropeVersionForEuropeArea(RuleContext ruleContext) {
+        var europeFinalFiles = ruleContext.getAreaFinalMap().get(Area.EUR);
+        var europeRuleResultMap = ruleContext.getAreaRuleResultMap().get(Area.EUR);
         if (europeFinalFiles == null || europeRuleResultMap == null || europeFinalFiles.isEmpty()) {
             return;
         }
 
-        Map<String, List<FileContext>> passedFileContextMap = new LinkedHashMap<>();
-        for (String fileName : europeFinalFiles) {
-            FileContext fileContext = ruleContext.getFileContextMap().get(fileName);
+        var passedFileContextMap = new LinkedHashMap<String, List<FileContext>>();
+        for (var fileName : europeFinalFiles) {
+            var fileContext = ruleContext.getFileContextMap().get(fileName);
             if (fileContext != null) {
                 passedFileContextMap.computeIfAbsent(fileContext.getNamePart(), ignored -> new ArrayList<>()).add(fileContext);
             }
         }
 
-        List<String> filesToRemove = new ArrayList<>();
-        for (List<FileContext> fileContexts : passedFileContextMap.values()) {
-            List<String> europeVersions = fileContexts.stream()
+        var filesToRemove = new ArrayList<String>();
+        for (var fileContexts : passedFileContextMap.values()) {
+            var europeVersions = fileContexts.stream()
                     .filter(this::isEuropeVersion)
                     .map(FileContext::getFileName)
-                    .collect(Collectors.toList());
+                    .toList();
             if (europeVersions.isEmpty()) {
                 continue;
             }
 
-            for (FileContext fileContext : fileContexts) {
+            for (var fileContext : fileContexts) {
                 if (!isEuropeVersion(fileContext)) {
                     filesToRemove.add(fileContext.getFileName());
                     europeRuleResultMap.put(fileContext.getFileName(), RuleResult.fail(
@@ -308,7 +323,7 @@ public abstract class AbstractHandler implements Handler {
     }
 
     private RuleResult evaluateAreaFileNameBlackList(FileContext fileContext, AreaConfig areaConfig) {
-        Set<String> fileNameBlackList = areaConfig.getFileNameBlackList();
+        var fileNameBlackList = areaConfig.getFileNameBlackList();
         if (fileNameBlackList == null || !fileNameBlackList.contains(fileContext.getFileName())) {
             return RuleResult.pass();
         }
@@ -317,10 +332,10 @@ public abstract class AbstractHandler implements Handler {
     }
 
     private Map<Area, Map<String, RuleResult>> initializeAreaRuleResultMap(RuleContext ruleContext) {
-        Map<Area, Map<String, RuleResult>> areaRuleResultMap = new LinkedHashMap<>();
-        for (AreaConfig areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
-            Map<String, RuleResult> ruleResultMap = new LinkedHashMap<>();
-            for (Map.Entry<String, String> skippedEntry : ruleContext.getSkippedFileReasonMap().entrySet()) {
+        var areaRuleResultMap = new LinkedHashMap<Area, Map<String, RuleResult>>();
+        for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
+            var ruleResultMap = new LinkedHashMap<String, RuleResult>();
+            for (var skippedEntry : ruleContext.getSkippedFileReasonMap().entrySet()) {
                 ruleResultMap.put(skippedEntry.getKey(), RuleResult.fail("PREVIOUS_REVISION", skippedEntry.getValue()));
             }
             areaRuleResultMap.put(areaConfig.getArea(), ruleResultMap);
@@ -329,21 +344,18 @@ public abstract class AbstractHandler implements Handler {
         return areaRuleResultMap;
     }
 
-    private void writeProcessingReports(RuleContext ruleContext,
-                                        Map<Area, Map<String, RuleResult>> areaRuleResultMap,
-                                        Map<Area, List<String>> areaRenameReportMap,
-                                        Map<Area, List<String>> areaDuplicateNameReportMap) throws Exception {
-        Path reportDir = Paths.get("report");
+    private void writeProcessingReports(RuleContext ruleContext) throws Exception {
+        var reportDir = Paths.get("report");
         Files.createDirectories(reportDir);
-        for (Map.Entry<Area, Map<String, RuleResult>> entry : areaRuleResultMap.entrySet()) {
-            Area area = entry.getKey();
-            List<String> lines = buildProcessingReportLines(
+        for (var entry : ruleContext.getAreaRuleResultMap().entrySet()) {
+            var area = entry.getKey();
+            var lines = buildProcessingReportLines(
                     ruleContext,
                     area,
                     entry.getValue(),
-                    areaRenameReportMap.get(area),
-                    areaDuplicateNameReportMap.get(area));
-            Path reportFile = reportDir.resolve(ruleContext.getPlatform().name() + "-" + area.name() + ".txt");
+                    ruleContext.getAreaRenameReportMap().get(area),
+                    ruleContext.getAreaDuplicateNameReportMap().get(area));
+            var reportFile = reportDir.resolve(ruleContext.getPlatform().name() + "-" + area.name() + ".txt");
             Files.write(reportFile, lines, StandardCharsets.UTF_8, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
         }
     }
@@ -353,8 +365,8 @@ public abstract class AbstractHandler implements Handler {
                                                     Map<String, RuleResult> ruleResultMap,
                                                     List<String> renameReportLines,
                                                     List<String> duplicateNameReportLines) {
-        long passedCount = ruleResultMap.values().stream().filter(RuleResult::isPassed).count();
-        List<String> lines = new ArrayList<>();
+        var passedCount = ruleResultMap.values().stream().filter(RuleResult::isPassed).count();
+        var lines = new ArrayList<String>();
         lines.add("平台: " + ruleContext.getPlatform().name());
         lines.add("地区: " + area.name());
         lines.add("ROM目录: " + ruleContext.getRuleConfig().getRomDir());
@@ -363,7 +375,7 @@ public abstract class AbstractHandler implements Handler {
         lines.add("未通过校验: " + (ruleResultMap.size() - passedCount));
         lines.add("");
         lines.add("通过:");
-        for (Map.Entry<String, RuleResult> entry : ruleResultMap.entrySet()) {
+        for (var entry : ruleResultMap.entrySet()) {
             if (entry.getValue().isPassed()) {
                 lines.add(entry.getKey());
             }
@@ -383,8 +395,8 @@ public abstract class AbstractHandler implements Handler {
 
         lines.add("");
         lines.add("未通过:");
-        for (Map.Entry<String, RuleResult> entry : ruleResultMap.entrySet()) {
-            RuleResult ruleResult = entry.getValue();
+        for (var entry : ruleResultMap.entrySet()) {
+            var ruleResult = entry.getValue();
             if (!ruleResult.isPassed()) {
                 lines.add(entry.getKey() + " - " + String.join("; ", ruleResult.getFailures()));
             }
@@ -393,8 +405,8 @@ public abstract class AbstractHandler implements Handler {
         return lines;
     }
 
-    private RuleContext buildRuleContext() throws Exception {
-        RuleContext ruleContext = initializeRuleContext();
+    private RuleContext prepareRuleContext() throws Exception {
+        var ruleContext = initializeRuleContext();
         ruleContext.setLicensed(parseLicensedGames(ruleContext.getRuleConfig().getDatFile()));
         populateFileContextMap(ruleContext, ruleContext.getRuleConfig().getRomDir());
 
@@ -402,13 +414,13 @@ public abstract class AbstractHandler implements Handler {
     }
 
     private RuleContext initializeRuleContext() {
-        RuleContext ruleContext = new RuleContext();
+        var ruleContext = new RuleContext();
         ruleContext.setPlatform(getPlatform());
         ruleContext.setRuleConfig(appConfig.getRuleConfigMap().get(ruleContext.getPlatform()));
         ruleContext.setFileContextMap(new LinkedHashMap<>());
         ruleContext.setSkippedFileReasonMap(new LinkedHashMap<>());
         ruleContext.setAreaFinalMap(new LinkedHashMap<>());
-        for (AreaConfig areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
+        for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
             ruleContext.getAreaFinalMap().put(areaConfig.getArea(), new LinkedHashSet<>());
         }
         ruleContext.setGlobalTagBlackList(appConfig.getGlobalConfig().getGlobalTagBlacklist());
@@ -417,13 +429,13 @@ public abstract class AbstractHandler implements Handler {
     }
 
     private Set<String> parseLicensedGames(String datFilePath) throws Exception {
-        Set<String> licensed = new HashSet<>();
-        Document document = DocumentBuilderFactory.newInstance()
+        var licensed = new HashSet<String>();
+        var document = DocumentBuilderFactory.newInstance()
                 .newDocumentBuilder()
                 .parse(new File(datFilePath));
-        NodeList gameNodes = document.getElementsByTagName("game");
+        var gameNodes = document.getElementsByTagName("game");
         for (int i = 0; i < gameNodes.getLength(); i++) {
-            String name = ((Element) gameNodes.item(i)).getAttribute("name");
+            var name = ((Element) gameNodes.item(i)).getAttribute("name");
             if (!name.isEmpty()) {
                 licensed.add(name);
             }
@@ -433,16 +445,16 @@ public abstract class AbstractHandler implements Handler {
     }
 
     private void populateFileContextMap(RuleContext ruleContext, String romDirPath) throws Exception {
-        File[] files = new File(romDirPath).listFiles();
+        var files = new File(romDirPath).listFiles();
         if (files != null) {
             Arrays.sort(files, Comparator.comparing(File::getName));
-            for (File file : files) {
+            for (var file : files) {
                 ruleContext.getFileContextMap().put(file.getName(), buildFileContext(file.getName()));
             }
-            for (File file : files) {
-                String previousRevision = previousRevision(file.getName());
+            for (var file : files) {
+                var previousRevision = previousRevision(file.getName());
                 if (previousRevision != null) {
-                    FileContext removedFileContext = ruleContext.getFileContextMap().remove(previousRevision);
+                    var removedFileContext = ruleContext.getFileContextMap().remove(previousRevision);
                     if (removedFileContext != null) {
                         ruleContext.getSkippedFileReasonMap().put(previousRevision, "存在新版修订，已被替代: " + file.getName());
                     }
@@ -452,16 +464,16 @@ public abstract class AbstractHandler implements Handler {
     }
 
     private FileContext buildFileContext(String fileName) throws Exception {
-        String fullName = fileName;
+        var fullName = fileName;
         if (fileName.contains(".")) {
             fullName = fileName.substring(0, fileName.lastIndexOf('.'));
         }
 
-        String namePart = fullName;
-        String tagPart = "";
-        Set<String> tags = new HashSet<>();
+        var namePart = fullName;
+        var tagPart = "";
+        var tags = new HashSet<String>();
 
-        int firstParen = fullName.indexOf('(');
+        var firstParen = fullName.indexOf('(');
         if (firstParen != -1) {
             namePart = fullName.substring(0, firstParen).trim();
             tagPart = fullName.substring(firstParen);
@@ -487,13 +499,13 @@ public abstract class AbstractHandler implements Handler {
     }
 
     private String previousRevision(String filename) {
-        Matcher matcher = REV_TAG.matcher(filename);
+        var matcher = REV_TAG.matcher(filename);
         if (!matcher.find()) {
             return null;
         }
 
         try {
-            int revision = Integer.parseInt(matcher.group(1));
+            var revision = Integer.parseInt(matcher.group(1));
             if (revision == 1) {
                 return filename.substring(0, matcher.start())
                         .concat(filename.substring(matcher.end()))
