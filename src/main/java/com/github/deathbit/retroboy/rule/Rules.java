@@ -194,6 +194,7 @@ public class Rules {
 
         private List<String> andFailedRuleNames(RuleContext ruleContext, FileContext fileContext) {
             var leftFailures = left.failedRuleNames(ruleContext, fileContext);
+            // Diagnostics evaluate both sides so reports can show every failed AND rule.
             var rightFailures = right.failedRuleNames(ruleContext, fileContext);
 
             return Stream.concat(leftFailures.stream(), rightFailures.stream()).toList();

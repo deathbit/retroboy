@@ -123,7 +123,7 @@ class RulesTest {
     }
 
     @Test
-    void shouldCollectFailedOrRuleNames() {
+    void shouldCollectAllFailedRuleNamesWhenOrRuleFails() {
         var fileContext = fileContext("Game (Australia).nes", "Game", Set.of("Australia"));
         var ruleContext = ruleContext(Map.of(fileContext.getFileName(), fileContext), List.of(areaConfig(Area.JPN)));
 
@@ -133,7 +133,7 @@ class RulesTest {
     }
 
     @Test
-    void shouldCollectFailedAndRuleNames() {
+    void shouldCollectAllFailedRuleNamesWhenAndRuleFails() {
         var fileContext = fileContext("Game (Australia).nes", "Game", Set.of("Australia"));
         var ruleContext = ruleContext(Map.of(fileContext.getFileName(), fileContext), List.of(areaConfig(Area.JPN)));
         ruleContext.setLicensed(Set.of());
