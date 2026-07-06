@@ -167,7 +167,7 @@ public class Rules {
                     .concat("(Rev " + (revision - 1) + ")")
                     .concat(filename.substring(matcher.end()));
         } catch (NumberFormatException e) {
-            // Leave out-of-range revision tags untouched.
+            // Leave revision tags that cannot be parsed as an integer untouched.
             return null;
         }
     }
@@ -178,6 +178,7 @@ public class Rules {
                 .collect(Collectors.joining(", "));
     }
 
+    // Maps a revision file to the previous file it replaces.
     private record PreviousRevisionRule(String fileName, String previousFileName) {
     }
 }
