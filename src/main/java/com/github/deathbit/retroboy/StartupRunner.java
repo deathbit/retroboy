@@ -67,12 +67,12 @@ public class StartupRunner implements ApplicationRunner {
         runStartupTask(StartupTask.SET_PLATFORM, "设置平台", () -> List.of("设置NES"), () -> nesHandler.handle());
     }
 
-    private void runStartupTask(StartupTask startupTask, String taskName, Supplier<List<String>> subTaskNames, StartupTaskRunner runner) throws Exception {
+    private void runStartupTask(StartupTask startupTask, String taskName, Supplier<List<String>> taskDescriptionSupplier, StartupTaskRunner runner) throws Exception {
         if (!isTaskEnabled(startupTask)) {
             return;
         }
 
-        printTask(taskName, subTaskNames.get());
+        printTask(taskName, taskDescriptionSupplier.get());
         runner.run();
         printTaskDone(taskName);
     }
@@ -122,19 +122,19 @@ public class StartupRunner implements ApplicationRunner {
     }
 
     private String describeCopyDir(CopyDirInput input) {
-        return "拷贝目录：" + input.getSrcDir() + " -> " + input.getDestDir();
+        return "拷贝目录：%s -> %s".formatted(input.getSrcDir(), input.getDestDir());
     }
 
     private String describeCopyDirContents(CopyDirContentsInput input) {
-        return "拷贝目录内容：" + input.getSrcDir() + "\\* -> " + input.getDestDir();
+        return "拷贝目录内容：%s\\* -> %s".formatted(input.getSrcDir(), input.getDestDir());
     }
 
     private String describeCopyFile(CopyFileInput input) {
-        return "拷贝文件：" + input.getSrcFile() + " -> " + input.getDestDir();
+        return "拷贝文件：%s -> %s".formatted(input.getSrcFile(), input.getDestDir());
     }
 
     private String describeRaConfig(ConfigInput input) {
-        return "设置RA选项：" + input.getKey() + " = \"" + input.getValue() + "\"";
+        return "设置RA选项：%s = \"%s\"".formatted(input.getKey(), input.getValue());
     }
 
     @FunctionalInterface
