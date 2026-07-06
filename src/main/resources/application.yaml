@@ -7,6 +7,7 @@ app:
     globalConfig:
       raConfig: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
       # Startup tasks: join task names with |. Prefix ! to explicitly skip a task.
+      # Task names are case-insensitive.
       # Tasks not listed here are skipped by default.
       startupTaskMask: 'CLEAN_UP|DEFAULT_CONFIG|FIX_CHINESE_FONT|SET_MEGA_BEZEL_SHADER|SET_PLATFORM'
       globalTagBlacklist:

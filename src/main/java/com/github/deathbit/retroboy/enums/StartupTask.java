@@ -3,9 +3,8 @@ package com.github.deathbit.retroboy.enums;
 import lombok.Getter;
 
 import java.util.Arrays;
+import java.util.EnumSet;
 import java.util.Locale;
-import java.util.Set;
-import java.util.stream.Collectors;
 
 @Getter
 public enum StartupTask {
@@ -31,27 +30,45 @@ public enum StartupTask {
             return (Long.parseLong(trimmedStartupTaskMask) & startupTask.getMask()) != 0;
         }
 
-        Set<String> disabledTasks = parseTasks(trimmedStartupTaskMask, true);
-        if (disabledTasks.contains(startupTask.name())) {
-            return false;
-        }
-
-        return parseTasks(trimmedStartupTaskMask, false).contains(startupTask.name());
+        return parseStartupTaskMask(trimmedStartupTaskMask).isEnabled(startupTask);
     }
 
-    private static Set<String> parseTasks(String startupTaskMask, boolean disabled) {
-        return Arrays.stream(startupTaskMask.split("\\|"))
+    private static StartupTaskMask parseStartupTaskMask(String startupTaskMask) {
+        EnumSet<StartupTask> enabledTasks = EnumSet.noneOf(StartupTask.class);
+        EnumSet<StartupTask> disabledTasks = EnumSet.noneOf(StartupTask.class);
+
+        Arrays.stream(startupTaskMask.split("\\|"))
                 .map(String::trim)
                 .filter(token -> !token.isBlank())
-                .filter(token -> token.startsWith("!") == disabled)
-                .map(token -> disabled ? token.substring(1).trim() : token)
-                .filter(token -> !token.isBlank())
-                .map(token -> token.toUpperCase(Locale.ROOT))
-                .peek(StartupTask::valueOf)
-                .collect(Collectors.toSet());
+                .forEach(token -> {
+                    boolean disabled = token.startsWith("!");
+                    StartupTask task = parseTask(disabled ? token.substring(1).trim() : token);
+                    if (disabled) {
+                        disabledTasks.add(task);
+                    } else {
+                        enabledTasks.add(task);
+                    }
+                });
+
+        enabledTasks.removeAll(disabledTasks);
+        return new StartupTaskMask(enabledTasks);
+    }
+
+    private static StartupTask parseTask(String value) {
+        try {
+            return StartupTask.valueOf(value.toUpperCase(Locale.ROOT));
+        } catch (IllegalArgumentException exception) {
+            throw new IllegalArgumentException("Unknown startup task: " + value, exception);
+        }
     }
 
     private static boolean isNumeric(String value) {
         return value.chars().allMatch(Character::isDigit);
+    }
+
+    private record StartupTaskMask(EnumSet<StartupTask> enabledTasks) {
+        private boolean isEnabled(StartupTask startupTask) {
+            return enabledTasks.contains(startupTask);
+        }
     }
 }

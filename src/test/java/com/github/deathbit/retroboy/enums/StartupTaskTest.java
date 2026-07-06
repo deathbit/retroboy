@@ -34,6 +34,7 @@ class StartupTaskTest {
     @Test
     void shouldRejectUnknownTaskNames() {
         assertThatThrownBy(() -> StartupTask.isEnabled(StartupTask.CLEAN_UP, "CLEAN_UP|UNKNOWN_TASK"))
-                .isInstanceOf(IllegalArgumentException.class);
+                .isInstanceOf(IllegalArgumentException.class)
+                .hasMessage("Unknown startup task: UNKNOWN_TASK");
     }
 }
