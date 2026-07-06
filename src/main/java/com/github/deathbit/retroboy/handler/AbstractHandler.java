@@ -31,12 +31,9 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public abstract class AbstractHandler implements Handler {
-
-    private static final Pattern REV_TAG = Pattern.compile("\\(Rev\\s+(\\d+)\\)");
 
     @Autowired
     private AppConfig appConfig;
@@ -48,7 +45,7 @@ public abstract class AbstractHandler implements Handler {
         var ruleContext = prepareRuleContext();
         initializeRuleState(ruleContext);
         selectAreaFiles(ruleContext);
-        preferEuropeVersionForEuropeArea(ruleContext);
+        Rules.preferEuropeVersionForEuropeArea(ruleContext);
         cleanTargetDirectory(ruleContext);
         createAreaDirectories(ruleContext);
         copyAreaFiles(ruleContext);
@@ -313,22 +310,7 @@ public abstract class AbstractHandler implements Handler {
     }
 
     private RuleResult evaluateAreaRule(RuleContext ruleContext, FileContext fileContext, AreaConfig areaConfig, Rule rule) {
-        RuleResult ruleResult = rule.evaluate(ruleContext, fileContext);
-        RuleResult areaFileNameBlackListResult = evaluateAreaFileNameBlackList(fileContext, areaConfig);
-        if (ruleResult.isPassed() && areaFileNameBlackListResult.isPassed()) {
-            return RuleResult.pass();
-        }
-
-        return RuleResult.fail(ruleResult, areaFileNameBlackListResult);
-    }
-
-    private RuleResult evaluateAreaFileNameBlackList(FileContext fileContext, AreaConfig areaConfig) {
-        var fileNameBlackList = areaConfig.getFileNameBlackList();
-        if (fileNameBlackList == null || !fileNameBlackList.contains(fileContext.getFileName())) {
-            return RuleResult.pass();
-        }
-
-        return RuleResult.fail("IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST", "命中地区文件名黑名单: " + fileContext.getFileName());
+        return rule.and(Rules.isNotHitAreaFileNameBlackList(areaConfig)).evaluate(ruleContext, fileContext);
     }
 
     private Map<Area, Map<String, RuleResult>> initializeAreaRuleResultMap(RuleContext ruleContext) {
@@ -451,15 +433,7 @@ public abstract class AbstractHandler implements Handler {
             for (var file : files) {
                 ruleContext.getFileContextMap().put(file.getName(), buildFileContext(file.getName()));
             }
-            for (var file : files) {
-                var previousRevision = previousRevision(file.getName());
-                if (previousRevision != null) {
-                    var removedFileContext = ruleContext.getFileContextMap().remove(previousRevision);
-                    if (removedFileContext != null) {
-                        ruleContext.getSkippedFileReasonMap().put(previousRevision, "存在新版修订，已被替代: " + file.getName());
-                    }
-                }
-            }
+            Rules.applyPreviousRevisionRule(ruleContext);
         }
     }
 
@@ -496,29 +470,6 @@ public abstract class AbstractHandler implements Handler {
                 .tagPart(tagPart)
                 .tags(tags)
                 .build();
-    }
-
-    private String previousRevision(String filename) {
-        var matcher = REV_TAG.matcher(filename);
-        if (!matcher.find()) {
-            return null;
-        }
-
-        try {
-            var revision = Integer.parseInt(matcher.group(1));
-            if (revision == 1) {
-                return filename.substring(0, matcher.start())
-                        .concat(filename.substring(matcher.end()))
-                        .replaceAll("\\s+\\.", ".")
-                        .replaceAll("\\s{2,}", " ")
-                        .trim();
-            }
-            return filename.substring(0, matcher.start())
-                    .concat("(Rev " + (revision - 1) + ")")
-                    .concat(filename.substring(matcher.end()));
-        } catch (NumberFormatException e) {
-            return null;
-        }
     }
 
     @Override
