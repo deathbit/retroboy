@@ -11,6 +11,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -78,7 +79,7 @@ class RulesTest {
                 .fileName(fileName)
                 .fullName(fileName.substring(0, fileName.lastIndexOf('.')))
                 .namePart(namePart)
-                .tagPart(tags.stream().map(tag -> "(" + tag + ")").reduce("", String::concat))
+                .tagPart(tags.stream().map(tag -> "(" + tag + ")").collect(Collectors.joining()))
                 .tags(tags)
                 .build();
     }
@@ -92,7 +93,7 @@ class RulesTest {
                         .build())
                 .licensed(fileContextMap.values().stream()
                         .map(FileContext::getFullName)
-                        .collect(java.util.stream.Collectors.toSet()))
+                        .collect(Collectors.toSet()))
                 .globalTagBlackList(Set.of())
                 .fileContextMap(fileContextMap)
                 .build();
