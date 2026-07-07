@@ -7,6 +7,7 @@ app:
     globalConfig:
       raConfig: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
       startupTaskMask: '!CLEAN_UP|!DEFAULT_CONFIG|!FIX_CHINESE_FONT|!SET_MEGA_BEZEL_SHADER|SET_PLATFORM'
+      platformTaskMask: 'NES|!SNES|!MD'
       globalTagBlacklist:
         - '3DS Virtual Console'
         - '8-bit Adventure Anthology - Volume I'
