@@ -319,7 +319,7 @@ public abstract class AbstractHandler implements Handler {
 
         lines.add("");
         lines.add("未通过:");
-        if (failureReportLines != null && !failureReportLines.isEmpty()) {
+        if (!failureReportLines.isEmpty()) {
             lines.addAll(failureReportLines);
         } else {
             for (var fileName : ruleContext.getFileContextMap().keySet()) {

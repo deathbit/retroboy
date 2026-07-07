@@ -56,10 +56,10 @@ public interface Rule {
     }
 
     private static String combineFailureReasons(String first, String second) {
-        if (first == null || first.isBlank()) {
-            return second == null ? "" : second;
+        if (first.isBlank()) {
+            return second;
         }
-        if (second == null || second.isBlank()) {
+        if (second.isBlank()) {
             return first;
         }
 
