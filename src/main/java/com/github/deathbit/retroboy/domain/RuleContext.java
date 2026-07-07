@@ -23,10 +23,8 @@ public class RuleContext {
     private Set<String> licensed;
     private Set<String> globalTagBlackList;
     private Map<String, FileContext> fileContextMap;
-    private Map<String, String> skippedFileReasonMap;
     private Map<Area, Set<String>> areaFinalMap;
     private Map<Area, Rule> ruleMap;
-    private Map<Area, Map<String, List<String>>> areaRuleFailureMap;
     private Map<Area, List<String>> areaRenameReportMap;
     private Map<Area, List<String>> areaDuplicateNameReportMap;
     private List<String> dirsToCreate;

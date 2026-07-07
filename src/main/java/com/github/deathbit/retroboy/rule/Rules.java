@@ -3,15 +3,10 @@ package com.github.deathbit.retroboy.rule;
 import com.github.deathbit.retroboy.domain.AreaConfig;
 import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.RuleContext;
-import com.github.deathbit.retroboy.enums.Area;
 
-import java.util.Collections;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 import java.util.regex.Pattern;
-import java.util.stream.Stream;
 
 public class Rules {
     private static final Pattern REV_TAG = Pattern.compile("\\(Rev\\s+(\\d+)\\)");
@@ -57,153 +52,6 @@ public class Rules {
             || isEuropeVersion(fc)
             || preferredEuropeVersionFileNames(rc, fc).isEmpty();
     public static final Rule IS_EUROPE_BASE = IS_EUROPE_BASE_WITHOUT_PREFERENCE.and(PREFER_EUROPE_VERSION);
-    private static final Map<String, Rule> BASE_RULES = orderedRules(
-            Map.entry("IS_LICENSED", IS_LICENSED),
-            Map.entry("IS_NOT_BAD", IS_BAD.not()),
-            Map.entry("IS_NOT_HIT_GLOBAL_TAG_BLACKLIST", IS_HIT_GLOBAL_TAG_BLACKLIST.not()),
-            Map.entry("IS_NOT_HIT_PLATFORM_TAG_BLACKLIST", IS_HIT_PLATFORM_TAG_BLACKLIST.not()),
-            Map.entry("IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST", IS_HIT_PLATFORM_FILE_NAME_BLACKLIST.not()),
-            Map.entry("IS_NOT_PREVIOUS_REVISION", IS_PREVIOUS_REVISION.not()));
-    private static final Map<String, Rule> PAL_RULES = orderedRules(
-            Map.entry("IS_EUROPE", IS_EUROPE),
-            Map.entry("IS_AUSTRALIA", IS_AUSTRALIA),
-            Map.entry("IS_GERMANY", IS_GERMANY),
-            Map.entry("IS_SWEDEN", IS_SWEDEN),
-            Map.entry("IS_FRANCE", IS_FRANCE),
-            Map.entry("IS_SPAIN", IS_SPAIN));
-
-    public static List<String> failedRuleNames(Area area, RuleContext ruleContext, FileContext fileContext) {
-        return switch (area) {
-            case JPN -> failedJapanRuleNames(ruleContext, fileContext);
-            case USA -> failedUsaRuleNames(ruleContext, fileContext);
-            case EUR -> failedEuropeRuleNames(ruleContext, fileContext);
-        };
-    }
-
-    private static List<String> failedJapanRuleNames(RuleContext ruleContext, FileContext fileContext) {
-        var baseFailures = failedBaseRuleNames(ruleContext, fileContext);
-        if (!baseFailures.isEmpty()) {
-            return baseFailures;
-        }
-
-        var areaFailures = failedJapanOrWorldRuleNames(ruleContext, fileContext);
-        if (!areaFailures.isEmpty()) {
-            return areaFailures;
-        }
-
-        return failedRuleNames(
-                ruleContext, fileContext, "IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST", IS_HIT_AREA_FILE_NAME_BLACKLIST.not());
-    }
-
-    private static List<String> failedUsaRuleNames(RuleContext ruleContext, FileContext fileContext) {
-        var baseFailures = failedBaseRuleNames(ruleContext, fileContext);
-        if (!baseFailures.isEmpty()) {
-            return baseFailures;
-        }
-
-        var areaFailures = failedUsaOrWorldRuleNames(ruleContext, fileContext);
-        if (!areaFailures.isEmpty()) {
-            return areaFailures;
-        }
-
-        return failedRuleNames(
-                ruleContext, fileContext, "IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST", IS_HIT_AREA_FILE_NAME_BLACKLIST.not());
-    }
-
-    private static List<String> failedEuropeRuleNames(RuleContext ruleContext, FileContext fileContext) {
-        var baseFailures = failedBaseRuleNames(ruleContext, fileContext);
-        if (!baseFailures.isEmpty()) {
-            return baseFailures;
-        }
-
-        var areaFailures = failedEuropeOrWorldRuleNames(ruleContext, fileContext);
-        if (!areaFailures.isEmpty()) {
-            return areaFailures;
-        }
-
-        var areaFileNameFailures =
-                failedRuleNames(
-                        ruleContext,
-                        fileContext,
-                        "IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST",
-                        IS_HIT_AREA_FILE_NAME_BLACKLIST.not());
-        if (!areaFileNameFailures.isEmpty()) {
-            return areaFileNameFailures;
-        }
-
-        return failedRuleNames(ruleContext, fileContext, "PREFER_EUROPE_VERSION", PREFER_EUROPE_VERSION);
-    }
-
-    private static List<String> failedBaseRuleNames(RuleContext ruleContext, FileContext fileContext) {
-        return firstFailedRuleNames(ruleContext, fileContext, BASE_RULES);
-    }
-
-    private static List<String> failedJapanOrWorldRuleNames(RuleContext ruleContext, FileContext fileContext) {
-        if (IS_JAPAN_OR_WORLD.pass(ruleContext, fileContext)) {
-            return List.of();
-        }
-
-        return failedRuleNames(
-                ruleContext,
-                fileContext,
-                orderedRules(Map.entry("IS_JAPAN", IS_JAPAN), Map.entry("IS_WORLD", IS_WORLD)));
-    }
-
-    private static List<String> failedUsaOrWorldRuleNames(RuleContext ruleContext, FileContext fileContext) {
-        if (IS_USA_OR_WORLD.pass(ruleContext, fileContext)) {
-            return List.of();
-        }
-
-        return failedRuleNames(
-                ruleContext,
-                fileContext,
-                orderedRules(Map.entry("IS_USA", IS_USA), Map.entry("IS_WORLD", IS_WORLD)));
-    }
-
-    private static List<String> failedEuropeOrWorldRuleNames(RuleContext ruleContext, FileContext fileContext) {
-        if (IS_EUROPE_OR_WORLD.pass(ruleContext, fileContext)) {
-            return List.of();
-        }
-
-        var palFailures = failedRuleNames(ruleContext, fileContext, PAL_RULES);
-        var worldFailures = failedRuleNames(ruleContext, fileContext, "IS_WORLD", IS_WORLD);
-        return Stream.concat(palFailures.stream(), worldFailures.stream()).toList();
-    }
-
-    private static List<String> firstFailedRuleNames(
-            RuleContext ruleContext,
-            FileContext fileContext,
-            Map<String, Rule> rules) {
-        return rules.entrySet().stream()
-                .filter(entry -> !entry.getValue().pass(ruleContext, fileContext))
-                .map(Map.Entry::getKey)
-                .findFirst()
-                .map(List::of)
-                .orElseGet(List::of);
-    }
-
-    private static List<String> failedRuleNames(
-            RuleContext ruleContext,
-            FileContext fileContext,
-            Map<String, Rule> rules) {
-        return rules.entrySet().stream()
-                .filter(entry -> !entry.getValue().pass(ruleContext, fileContext))
-                .map(Map.Entry::getKey)
-                .toList();
-    }
-
-    private static List<String> failedRuleNames(RuleContext ruleContext, FileContext fileContext, String name, Rule rule) {
-        return rule.pass(ruleContext, fileContext) ? List.of() : List.of(name);
-    }
-
-    @SafeVarargs
-    private static Map<String, Rule> orderedRules(Map.Entry<String, Rule>... entries) {
-        var rules = new LinkedHashMap<String, Rule>();
-        for (var entry : entries) {
-            rules.put(entry.getKey(), entry.getValue());
-        }
-        return Collections.unmodifiableMap(rules);
-    }
 
     private static String previousRevision(String filename) {
         var matcher = REV_TAG.matcher(filename);
