@@ -1,11 +1,11 @@
 package com.github.deathbit.retroboy.rule;
 
 public record RuleResult(boolean passed, String failureReason) {
-    public static RuleResult passed() {
+    public static RuleResult success() {
         return new RuleResult(true, "");
     }
 
-    public static RuleResult passed(String failureReason) {
+    public static RuleResult success(String failureReason) {
         return new RuleResult(true, failureReason);
     }
 

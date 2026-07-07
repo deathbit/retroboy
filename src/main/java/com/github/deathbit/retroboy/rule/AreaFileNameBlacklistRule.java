@@ -14,7 +14,7 @@ public class AreaFileNameBlacklistRule implements Rule {
                 .map(fileNameBlackList -> fileNameBlackList.contains(fileContext.getFileName()))
                 .orElse(false);
         return blacklisted
-                ? RuleResult.passed("命中地区文件名黑名单")
+                ? RuleResult.success("命中地区文件名黑名单")
                 : RuleResult.failed("未命中地区文件名黑名单");
     }
 

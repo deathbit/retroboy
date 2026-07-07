@@ -45,7 +45,7 @@ public class Rules {
 
     private static Rule rule(BiPredicate<RuleContext, FileContext> predicate, String failureReason) {
         return (ruleContext, fileContext) -> predicate.test(ruleContext, fileContext)
-                ? RuleResult.passed()
+                ? RuleResult.success()
                 : RuleResult.failed(failureReason);
     }
 
@@ -57,7 +57,7 @@ public class Rules {
                              BiFunction<RuleContext, FileContext, String> matchedReason,
                              String unmatchedReason) {
         return (ruleContext, fileContext) -> predicate.test(ruleContext, fileContext)
-                ? RuleResult.passed(matchedReason.apply(ruleContext, fileContext))
+                ? RuleResult.success(matchedReason.apply(ruleContext, fileContext))
                 : RuleResult.failed(unmatchedReason);
     }
 

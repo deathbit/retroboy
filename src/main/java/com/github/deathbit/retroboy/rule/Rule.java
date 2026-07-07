@@ -11,12 +11,12 @@ public interface Rule {
         return (ruleContext, fileContext) -> {
             var result = pass(ruleContext, fileContext);
             if (result.passed()) {
-                return RuleResult.passed();
+                return RuleResult.success();
             }
 
             var otherResult = other.pass(ruleContext, fileContext);
             if (otherResult.passed()) {
-                return RuleResult.passed();
+                return RuleResult.success();
             }
 
             return RuleResult.failed(combineFailureReasons(result.failureReason(), otherResult.failureReason()));
@@ -41,7 +41,7 @@ public interface Rule {
                 return RuleResult.failed(result.failureReason().isBlank() ? "命中排除规则" : result.failureReason());
             }
 
-            return RuleResult.passed();
+            return RuleResult.success();
         };
     }
 

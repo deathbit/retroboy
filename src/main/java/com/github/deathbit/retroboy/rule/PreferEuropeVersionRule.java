@@ -16,16 +16,16 @@ public class PreferEuropeVersionRule implements Rule {
     @Override
     public RuleResult pass(RuleContext ruleContext, FileContext fileContext) {
         if (ruleContext.getCurrentArea() != Area.EUR) {
-            return RuleResult.passed();
+            return RuleResult.success();
         }
 
         if (!europeBaseWithoutPreference.pass(ruleContext, fileContext).passed() || isEuropeVersion(fileContext)) {
-            return RuleResult.passed();
+            return RuleResult.success();
         }
 
         var preferredEuropeVersionFileNames = preferredEuropeVersionFileNames(ruleContext, fileContext);
         if (preferredEuropeVersionFileNames.isEmpty()) {
-            return RuleResult.passed();
+            return RuleResult.success();
         }
 
         return RuleResult.failed("存在同名 Europe 版本: " + String.join(", ", preferredEuropeVersionFileNames));
