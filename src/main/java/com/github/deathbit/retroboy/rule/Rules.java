@@ -17,15 +17,20 @@ public class Rules {
     private static final Pattern REV_TAG = Pattern.compile("\\(Rev\\s+(\\d+)\\)");
 
     private static final Rule IS_LICENSED = (rc, fc) -> rc.getLicensed().contains(fc.getFullName());
-    private static final Rule IS_NOT_BAD = (rc, fc) -> !fc.getFullName().contains("[b]");
-    private static final Rule IS_NOT_HIT_GLOBAL_TAG_BLACKLIST =
-            (rc, fc) -> fc.getTags().stream().noneMatch(tag -> rc.getGlobalTagBlackList().contains(tag));
-    private static final Rule IS_NOT_HIT_PLATFORM_TAG_BLACKLIST =
-            (rc, fc) -> fc.getTags().stream().noneMatch(tag -> rc.getRuleConfig().getTagBlackList().contains(tag));
-    private static final Rule IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST =
-            (rc, fc) -> !rc.getRuleConfig().getFileNameBlackList().contains(fc.getFileName());
-    private static final Rule IS_NOT_PREVIOUS_REVISION =
-            (rc, fc) -> newerRevisionFileName(rc, fc.getFileName()).isEmpty();
+    private static final Rule IS_BAD = (rc, fc) -> fc.getFullName().contains("[b]");
+    private static final Rule IS_NOT_BAD = IS_BAD.not();
+    private static final Rule IS_HIT_GLOBAL_TAG_BLACKLIST =
+            (rc, fc) -> fc.getTags().stream().anyMatch(tag -> rc.getGlobalTagBlackList().contains(tag));
+    private static final Rule IS_NOT_HIT_GLOBAL_TAG_BLACKLIST = IS_HIT_GLOBAL_TAG_BLACKLIST.not();
+    private static final Rule IS_HIT_PLATFORM_TAG_BLACKLIST =
+            (rc, fc) -> fc.getTags().stream().anyMatch(tag -> rc.getRuleConfig().getTagBlackList().contains(tag));
+    private static final Rule IS_NOT_HIT_PLATFORM_TAG_BLACKLIST = IS_HIT_PLATFORM_TAG_BLACKLIST.not();
+    private static final Rule IS_HIT_PLATFORM_FILE_NAME_BLACKLIST =
+            (rc, fc) -> rc.getRuleConfig().getFileNameBlackList().contains(fc.getFileName());
+    private static final Rule IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST = IS_HIT_PLATFORM_FILE_NAME_BLACKLIST.not();
+    private static final Rule IS_PREVIOUS_REVISION =
+            (rc, fc) -> newerRevisionFileName(rc, fc.getFileName()).isPresent();
+    private static final Rule IS_NOT_PREVIOUS_REVISION = IS_PREVIOUS_REVISION.not();
     private static final Rule IS_JAPAN = (rc, fc) -> fc.getTagPart().contains("Japan");
     private static final Rule IS_USA = (rc, fc) -> fc.getTagPart().contains("USA");
     private static final Rule IS_EUROPE = (rc, fc) -> fc.getTagPart().contains("Europe");
@@ -45,10 +50,11 @@ public class Rules {
             .and(IS_NOT_HIT_PLATFORM_TAG_BLACKLIST)
             .and(IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST)
             .and(IS_NOT_PREVIOUS_REVISION);
-    private static final Rule IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST = (rc, fc) -> areaConfig(rc)
+    private static final Rule IS_HIT_AREA_FILE_NAME_BLACKLIST = (rc, fc) -> areaConfig(rc)
             .map(AreaConfig::getFileNameBlackList)
-            .map(fileNameBlackList -> !fileNameBlackList.contains(fc.getFileName()))
-            .orElse(true);
+            .map(fileNameBlackList -> fileNameBlackList.contains(fc.getFileName()))
+            .orElse(false);
+    private static final Rule IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST = IS_HIT_AREA_FILE_NAME_BLACKLIST.not();
     public static final Rule IS_JAPAN_BASE = IS_BASE.and(IS_JAPAN_OR_WORLD).and(IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST);
     public static final Rule IS_USA_BASE = IS_BASE.and(IS_USA_OR_WORLD).and(IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST);
     private static final Rule IS_EUROPE_BASE_WITHOUT_PREFERENCE = IS_BASE.and(IS_EUROPE_OR_WORLD).and(IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST);

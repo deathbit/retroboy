@@ -14,4 +14,8 @@ public interface Rule {
     default Rule and(Rule other) {
         return (ruleContext, fileContext) -> pass(ruleContext, fileContext) && other.pass(ruleContext, fileContext);
     }
+
+    default Rule not() {
+        return (ruleContext, fileContext) -> !pass(ruleContext, fileContext);
+    }
 }
