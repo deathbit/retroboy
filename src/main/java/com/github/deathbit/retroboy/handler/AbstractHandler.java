@@ -55,6 +55,7 @@ public abstract class AbstractHandler implements Handler {
         ruleContext.setRuleMap(getRuleMap());
         ruleContext.setAreaRenameReportMap(createEmptyAreaReportMap(ruleContext));
         ruleContext.setAreaDuplicateNameReportMap(createEmptyAreaReportMap(ruleContext));
+        ruleContext.setAreaFailureReportMap(createEmptyAreaReportMap(ruleContext));
     }
 
     private void selectAreaFiles(RuleContext ruleContext) {
@@ -66,12 +67,19 @@ public abstract class AbstractHandler implements Handler {
             for (var entry : ruleContext.getFileContextMap().entrySet()) {
                 var fileName = entry.getKey();
                 var fileContext = entry.getValue();
-                if (rule.pass(ruleContext, fileContext)) {
+                var ruleResult = rule.pass(ruleContext, fileContext);
+                if (ruleResult.passed()) {
                     ruleContext.getAreaFinalMap().get(area).add(fileName);
+                } else {
+                    ruleContext.getAreaFailureReportMap().get(area).add(failureReportLine(fileName, ruleResult.failureReason()));
                 }
             }
         }
         ruleContext.setCurrentArea(null);
+    }
+
+    private String failureReportLine(String fileName, String failureReason) {
+        return fileName + " - " + failureReason;
     }
 
     private void cleanTargetDirectory(RuleContext ruleContext) throws Exception {
@@ -272,7 +280,8 @@ public abstract class AbstractHandler implements Handler {
                     ruleContext,
                     area,
                     ruleContext.getAreaRenameReportMap().get(area),
-                    ruleContext.getAreaDuplicateNameReportMap().get(area));
+                    ruleContext.getAreaDuplicateNameReportMap().get(area),
+                    ruleContext.getAreaFailureReportMap().get(area));
             var reportFile = reportDir.resolve(ruleContext.getPlatform().name() + "-" + area.name() + ".txt");
             Files.write(reportFile, lines, StandardCharsets.UTF_8, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
         }
@@ -281,7 +290,8 @@ public abstract class AbstractHandler implements Handler {
     private List<String> buildProcessingReportLines(RuleContext ruleContext,
                                                     Area area,
                                                     List<String> renameReportLines,
-                                                    List<String> duplicateNameReportLines) {
+                                                    List<String> duplicateNameReportLines,
+                                                    List<String> failureReportLines) {
         var finalFiles = ruleContext.getAreaFinalMap().get(area);
         var passedCount = finalFiles.size();
         var lines = new ArrayList<String>();
@@ -313,9 +323,13 @@ public abstract class AbstractHandler implements Handler {
 
         lines.add("");
         lines.add("未通过:");
-        for (var fileName : ruleContext.getFileContextMap().keySet()) {
-            if (!finalFiles.contains(fileName)) {
-                lines.add(fileName);
+        if (!failureReportLines.isEmpty()) {
+            lines.addAll(failureReportLines);
+        } else {
+            for (var fileName : ruleContext.getFileContextMap().keySet()) {
+                if (!finalFiles.contains(fileName)) {
+                    lines.add(fileName);
+                }
             }
         }
 

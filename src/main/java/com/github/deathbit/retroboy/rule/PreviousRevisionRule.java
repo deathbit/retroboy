@@ -10,8 +10,10 @@ public class PreviousRevisionRule implements Rule {
     private static final Pattern REV_TAG = Pattern.compile("\\(Rev\\s+(\\d+)\\)");
 
     @Override
-    public boolean pass(RuleContext ruleContext, FileContext fileContext) {
-        return newerRevisionFileName(ruleContext, fileContext.getFileName()).isPresent();
+    public RuleResult pass(RuleContext ruleContext, FileContext fileContext) {
+        return newerRevisionFileName(ruleContext, fileContext.getFileName())
+                .map(fileName -> RuleResult.failed("存在更高 Rev 修订版本: " + fileName))
+                .orElseGet(RuleResult::success);
     }
 
     private Optional<String> newerRevisionFileName(RuleContext ruleContext, String fileName) {
