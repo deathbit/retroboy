@@ -11,14 +11,16 @@ import com.github.deathbit.retroboy.domain.ConfigInput;
 import com.github.deathbit.retroboy.domain.CopyDirContentsInput;
 import com.github.deathbit.retroboy.domain.CopyDirInput;
 import com.github.deathbit.retroboy.domain.CopyFileInput;
+import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.enums.StartupTask;
-import com.github.deathbit.retroboy.handler.handlers.nintendo.NesHandler;
+import com.github.deathbit.retroboy.handler.Handler;
 import org.jspecify.annotations.NonNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
@@ -40,7 +42,7 @@ public class StartupRunner implements ApplicationRunner {
     private FileComponent fileComponent;
 
     @Autowired
-    private NesHandler nesHandler;
+    private List<Handler> handlers;
 
     @Override
     public void run(@NonNull ApplicationArguments args) throws Exception {
@@ -64,7 +66,7 @@ public class StartupRunner implements ApplicationRunner {
             fileComponent.batchCopyFiles(appConfig.getSetMegaBezelShaderTask().getCopyDefaultMegaBezelShader());
             configComponent.batchChangeRaConfigs(appConfig.getSetMegaBezelShaderTask().getSetMegaBezelShaderConfigInputs());
         });
-        runStartupTask(StartupTask.SET_PLATFORM, "设置平台", () -> List.of("设置NES"), () -> nesHandler.handle());
+        runStartupTask(StartupTask.SET_PLATFORM, "设置平台", this::describeSetPlatformTask, this::runSetPlatformTask);
     }
 
     private void runStartupTask(StartupTask startupTask, String taskName, Supplier<List<String>> taskDescriptionSupplier, StartupTaskRunner runner) throws Exception {
@@ -79,6 +81,10 @@ public class StartupRunner implements ApplicationRunner {
 
     private boolean isTaskEnabled(StartupTask startupTask) {
         return StartupTask.isEnabled(startupTask, appConfig.getGlobalConfig().getStartupTaskMask());
+    }
+
+    private boolean isPlatformEnabled(Platform platform) {
+        return Platform.isEnabled(platform, appConfig.getGlobalConfig().getPlatformTaskMask());
     }
 
     private List<String> describeCleanUpTask() {
@@ -117,6 +123,30 @@ public class StartupRunner implements ApplicationRunner {
                 task.getCopyDefaultMegaBezelShader().stream().map(this::describeCopyFile),
                 task.getSetMegaBezelShaderConfigInputs().stream().map(this::describeRaConfig)
         ).flatMap(stream -> stream).toList();
+    }
+
+    private List<String> describeSetPlatformTask() {
+        var enabledHandlers = getEnabledPlatformHandlers();
+        if (enabledHandlers.isEmpty()) {
+            return List.of("未启用平台");
+        }
+
+        return enabledHandlers.stream()
+                .map(handler -> "设置%s".formatted(handler.getPlatform().name()))
+                .toList();
+    }
+
+    private void runSetPlatformTask() throws Exception {
+        for (var handler : getEnabledPlatformHandlers()) {
+            handler.handle();
+        }
+    }
+
+    private List<Handler> getEnabledPlatformHandlers() {
+        return handlers.stream()
+                .filter(handler -> isPlatformEnabled(handler.getPlatform()))
+                .sorted(Comparator.comparingInt(handler -> handler.getPlatform().ordinal()))
+                .toList();
     }
 
     private String describeCopyDir(CopyDirInput input) {
