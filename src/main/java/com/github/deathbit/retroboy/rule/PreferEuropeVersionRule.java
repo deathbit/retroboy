@@ -2,6 +2,7 @@ package com.github.deathbit.retroboy.rule;
 
 import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.RuleContext;
+import com.github.deathbit.retroboy.enums.Area;
 
 import java.util.List;
 
@@ -14,6 +15,10 @@ public class PreferEuropeVersionRule implements Rule {
 
     @Override
     public boolean pass(RuleContext ruleContext, FileContext fileContext) {
+        if (ruleContext.getCurrentArea() != Area.EUR) {
+            return true;
+        }
+
         return !europeBaseWithoutPreference.pass(ruleContext, fileContext)
                 || isEuropeVersion(fileContext)
                 || preferredEuropeVersionFileNames(ruleContext, fileContext).isEmpty();
