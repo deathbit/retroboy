@@ -3,6 +3,7 @@ package com.github.deathbit.retroboy.rule;
 import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.RuleContext;
 
+import java.util.Collection;
 import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
 
@@ -60,15 +61,16 @@ public class Rules {
     }
 
     private static String matchedGlobalTag(RuleContext ruleContext, FileContext fileContext) {
-        return fileContext.getTags().stream()
-                .filter(tag -> ruleContext.getGlobalTagBlackList().contains(tag))
-                .findFirst()
-                .orElse("");
+        return matchedTag(fileContext, ruleContext.getGlobalTagBlackList());
     }
 
     private static String matchedPlatformTag(RuleContext ruleContext, FileContext fileContext) {
+        return matchedTag(fileContext, ruleContext.getRuleConfig().getTagBlackList());
+    }
+
+    private static String matchedTag(FileContext fileContext, Collection<String> tagBlackList) {
         return fileContext.getTags().stream()
-                .filter(tag -> ruleContext.getRuleConfig().getTagBlackList().contains(tag))
+                .filter(tagBlackList::contains)
                 .findFirst()
                 .orElse("");
     }
