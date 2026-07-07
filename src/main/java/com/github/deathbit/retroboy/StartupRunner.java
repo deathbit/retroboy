@@ -132,7 +132,7 @@ public class StartupRunner implements ApplicationRunner {
         }
 
         return enabledHandlers.stream()
-                .map(handler -> "设置" + handler.getPlatform().name())
+                .map(handler -> "设置%s".formatted(handler.getPlatform().name()))
                 .toList();
     }
 
