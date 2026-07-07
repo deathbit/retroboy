@@ -5,10 +5,6 @@ public record RuleResult(boolean passed, String failureReason) {
         return new RuleResult(true, "");
     }
 
-    public static RuleResult success(String failureReason) {
-        return new RuleResult(true, failureReason);
-    }
-
     public static RuleResult failed(String failureReason) {
         return new RuleResult(false, failureReason);
     }

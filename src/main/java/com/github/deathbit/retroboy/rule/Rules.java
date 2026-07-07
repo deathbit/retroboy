@@ -3,23 +3,19 @@ package com.github.deathbit.retroboy.rule;
 import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.RuleContext;
 
-import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
 
 public class Rules {
     public static final Rule IS_LICENSED = rule((rc, fc) -> rc.getLicensed().contains(fc.getFullName()), "DAT授权清单中不存在");
-    public static final Rule IS_BAD = rule((rc, fc) -> fc.getFullName().contains("[b]"), "文件名包含坏档标记 [b]", "文件名不包含坏档标记 [b]");
+    public static final Rule IS_BAD = rule((rc, fc) -> fc.getFullName().contains("[b]"), "文件名不包含坏档标记 [b]");
     public static final Rule IS_HIT_GLOBAL_TAG_BLACKLIST = rule(
             (rc, fc) -> fc.getTags().stream().anyMatch(tag -> rc.getGlobalTagBlackList().contains(tag)),
-            (rc, fc) -> "命中全局标签黑名单: " + matchedGlobalTag(rc, fc),
             "未命中全局标签黑名单");
     public static final Rule IS_HIT_PLATFORM_TAG_BLACKLIST = rule(
             (rc, fc) -> fc.getTags().stream().anyMatch(tag -> rc.getRuleConfig().getTagBlackList().contains(tag)),
-            (rc, fc) -> "命中平台标签黑名单: " + matchedPlatformTag(rc, fc),
             "未命中平台标签黑名单");
     public static final Rule IS_HIT_PLATFORM_FILE_NAME_BLACKLIST = rule(
             (rc, fc) -> rc.getRuleConfig().getFileNameBlackList().contains(fc.getFileName()),
-            "命中平台文件名黑名单",
             "未命中平台文件名黑名单");
     public static final Rule IS_PREVIOUS_REVISION = new PreviousRevisionRule();
     public static final Rule IS_JAPAN = rule((rc, fc) -> fc.getTagPart().contains("Japan"), "不属于 Japan 地区");
@@ -36,7 +32,13 @@ public class Rules {
     public static final Rule IS_USA_OR_WORLD = IS_USA.or(IS_WORLD);
     public static final Rule IS_EUROPE_OR_WORLD = IS_PAL.or(IS_WORLD);
     public static final Rule IS_HIT_AREA_FILE_NAME_BLACKLIST = new AreaFileNameBlacklistRule();
-    public static final Rule IS_BASE_WITHOUT_PREFERENCE = IS_LICENSED.and(IS_BAD.not()).and(IS_HIT_GLOBAL_TAG_BLACKLIST.not()).and(IS_HIT_PLATFORM_TAG_BLACKLIST.not()).and(IS_HIT_PLATFORM_FILE_NAME_BLACKLIST.not()).and(IS_PREVIOUS_REVISION.not()).and(IS_HIT_AREA_FILE_NAME_BLACKLIST.not());
+    public static final Rule IS_BASE_WITHOUT_PREFERENCE = IS_LICENSED
+            .and(IS_BAD.not("文件名包含坏档标记 [b]"))
+            .and(IS_HIT_GLOBAL_TAG_BLACKLIST.not((rc, fc) -> "命中全局标签黑名单: " + matchedGlobalTag(rc, fc)))
+            .and(IS_HIT_PLATFORM_TAG_BLACKLIST.not((rc, fc) -> "命中平台标签黑名单: " + matchedPlatformTag(rc, fc)))
+            .and(IS_HIT_PLATFORM_FILE_NAME_BLACKLIST.not("命中平台文件名黑名单"))
+            .and(IS_PREVIOUS_REVISION.not("存在更高 Rev 修订版本"))
+            .and(IS_HIT_AREA_FILE_NAME_BLACKLIST.not("命中地区文件名黑名单"));
     public static final Rule PREFER_EUROPE_VERSION = new PreferEuropeVersionRule(IS_BASE_WITHOUT_PREFERENCE.and(IS_EUROPE_OR_WORLD));
     public static final Rule IS_BASE = IS_BASE_WITHOUT_PREFERENCE.and(PREFER_EUROPE_VERSION);
     public static final Rule IS_JAPAN_BASE = IS_BASE.and(IS_JAPAN_OR_WORLD);
@@ -47,18 +49,6 @@ public class Rules {
         return (ruleContext, fileContext) -> predicate.test(ruleContext, fileContext)
                 ? RuleResult.success()
                 : RuleResult.failed(failureReason);
-    }
-
-    private static Rule rule(BiPredicate<RuleContext, FileContext> predicate, String matchedReason, String unmatchedReason) {
-        return rule(predicate, (ruleContext, fileContext) -> matchedReason, unmatchedReason);
-    }
-
-    private static Rule rule(BiPredicate<RuleContext, FileContext> predicate,
-                             BiFunction<RuleContext, FileContext, String> matchedReason,
-                             String unmatchedReason) {
-        return (ruleContext, fileContext) -> predicate.test(ruleContext, fileContext)
-                ? RuleResult.success(matchedReason.apply(ruleContext, fileContext))
-                : RuleResult.failed(unmatchedReason);
     }
 
     private static String matchedGlobalTag(RuleContext ruleContext, FileContext fileContext) {

@@ -3,6 +3,8 @@ package com.github.deathbit.retroboy.rule;
 import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.RuleContext;
 
+import java.util.function.BiFunction;
+
 @FunctionalInterface
 public interface Rule {
     RuleResult pass(RuleContext ruleContext, FileContext fileContext);
@@ -35,10 +37,18 @@ public interface Rule {
     }
 
     default Rule not() {
+        return not((ruleContext, fileContext) -> "命中排除规则");
+    }
+
+    default Rule not(String failureReason) {
+        return not((ruleContext, fileContext) -> failureReason);
+    }
+
+    default Rule not(BiFunction<RuleContext, FileContext, String> failureReason) {
         return (ruleContext, fileContext) -> {
             var result = pass(ruleContext, fileContext);
             if (result.passed()) {
-                return RuleResult.failed(result.failureReason().isBlank() ? "命中排除规则" : result.failureReason());
+                return RuleResult.failed(failureReason.apply(ruleContext, fileContext));
             }
 
             return RuleResult.success();

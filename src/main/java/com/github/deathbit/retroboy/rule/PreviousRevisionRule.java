@@ -12,7 +12,7 @@ public class PreviousRevisionRule implements Rule {
     @Override
     public RuleResult pass(RuleContext ruleContext, FileContext fileContext) {
         return newerRevisionFileName(ruleContext, fileContext.getFileName())
-                .map(fileName -> RuleResult.success("存在更高 Rev 修订版本: " + fileName))
+                .map(fileName -> RuleResult.success())
                 .orElseGet(() -> RuleResult.failed("不存在更高 Rev 修订版本"));
     }
 
