@@ -71,11 +71,15 @@ public abstract class AbstractHandler implements Handler {
                 if (ruleResult.passed()) {
                     ruleContext.getAreaFinalMap().get(area).add(fileName);
                 } else {
-                    ruleContext.getAreaFailureReportMap().get(area).add(fileName + " - " + ruleResult.failureReason());
+                    ruleContext.getAreaFailureReportMap().get(area).add(failureReportLine(fileName, ruleResult.failureReason()));
                 }
             }
         }
         ruleContext.setCurrentArea(null);
+    }
+
+    private String failureReportLine(String fileName, String failureReason) {
+        return fileName + " - " + failureReason;
     }
 
     private void cleanTargetDirectory(RuleContext ruleContext) throws Exception {

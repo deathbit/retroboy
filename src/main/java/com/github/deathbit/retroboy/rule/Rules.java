@@ -8,7 +8,7 @@ import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
 
 public class Rules {
-    public static final Rule IS_LICENSED = rule((rc, fc) -> rc.getLicensed().contains(fc.getFullName()), "DAT授权清单中不存在");
+    public static final Rule IS_IN_LICENSED_LIST = rule((rc, fc) -> rc.getLicensed().contains(fc.getFullName()), "DAT授权清单中不存在");
     public static final Rule IS_NOT_BAD = rule((rc, fc) -> !fc.getFullName().contains("[b]"), "文件名包含坏档标记 [b]");
     public static final Rule IS_NOT_HIT_GLOBAL_TAG_BLACKLIST = rule(
             (rc, fc) -> fc.getTags().stream().noneMatch(tag -> rc.getGlobalTagBlackList().contains(tag)),
@@ -34,7 +34,7 @@ public class Rules {
     public static final Rule IS_USA_OR_WORLD = IS_USA.or(IS_WORLD);
     public static final Rule IS_EUROPE_OR_WORLD = IS_PAL.or(IS_WORLD);
     public static final Rule IS_NOT_HIT_AREA_FILE_NAME_BLACKLIST = new AreaFileNameBlacklistRule();
-    public static final Rule IS_BASE_WITHOUT_PREFERENCE = IS_LICENSED
+    public static final Rule IS_BASE_WITHOUT_PREFERENCE = IS_IN_LICENSED_LIST
             .and(IS_NOT_BAD)
             .and(IS_NOT_HIT_GLOBAL_TAG_BLACKLIST)
             .and(IS_NOT_HIT_PLATFORM_TAG_BLACKLIST)

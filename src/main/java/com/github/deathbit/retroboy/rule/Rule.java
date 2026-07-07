@@ -36,10 +36,6 @@ public interface Rule {
         };
     }
 
-    default Rule not() {
-        return not((ruleContext, fileContext) -> "命中排除规则");
-    }
-
     default Rule not(String failureReason) {
         return not((ruleContext, fileContext) -> failureReason);
     }
