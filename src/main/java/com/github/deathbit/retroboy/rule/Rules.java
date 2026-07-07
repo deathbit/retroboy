@@ -5,10 +5,11 @@ import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.enums.Area;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.regex.Pattern;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class Rules {
     private static final Pattern REV_TAG = Pattern.compile("\\(Rev\\s+(\\d+)\\)");
@@ -53,6 +54,38 @@ public class Rules {
             || isEuropeVersion(fc)
             || preferredEuropeVersionFileNames(rc, fc).isEmpty();
     public static final Rule IS_EUROPE_BASE = IS_EUROPE_BASE_WITHOUT_PREFERENCE.and(PREFER_EUROPE_VERSION);
+    private static final String[] BASE_RULE_NAMES = {
+            "IS_LICENSED",
+            "IS_NOT_BAD",
+            "IS_NOT_HIT_GLOBAL_TAG_BLACKLIST",
+            "IS_NOT_HIT_PLATFORM_TAG_BLACKLIST",
+            "IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST",
+            "IS_NOT_PREVIOUS_REVISION"
+    };
+    private static final Rule[] BASE_RULES = {
+            IS_LICENSED,
+            IS_NOT_BAD,
+            IS_NOT_HIT_GLOBAL_TAG_BLACKLIST,
+            IS_NOT_HIT_PLATFORM_TAG_BLACKLIST,
+            IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST,
+            IS_NOT_PREVIOUS_REVISION
+    };
+    private static final String[] PAL_RULE_NAMES = {
+            "IS_EUROPE",
+            "IS_AUSTRALIA",
+            "IS_GERMANY",
+            "IS_SWEDEN",
+            "IS_FRANCE",
+            "IS_SPAIN"
+    };
+    private static final Rule[] PAL_RULES = {
+            IS_EUROPE,
+            IS_AUSTRALIA,
+            IS_GERMANY,
+            IS_SWEDEN,
+            IS_FRANCE,
+            IS_SPAIN
+    };
 
     public static List<String> failedRuleNames(Area area, RuleContext ruleContext, FileContext fileContext) {
         return switch (area) {
@@ -111,32 +144,7 @@ public class Rules {
     }
 
     private static List<String> failedBaseRuleNames(RuleContext ruleContext, FileContext fileContext) {
-        var failures = failedRuleNames(ruleContext, fileContext, "IS_LICENSED", IS_LICENSED);
-        if (!failures.isEmpty()) {
-            return failures;
-        }
-
-        failures = failedRuleNames(ruleContext, fileContext, "IS_NOT_BAD", IS_NOT_BAD);
-        if (!failures.isEmpty()) {
-            return failures;
-        }
-
-        failures = failedRuleNames(ruleContext, fileContext, "IS_NOT_HIT_GLOBAL_TAG_BLACKLIST", IS_NOT_HIT_GLOBAL_TAG_BLACKLIST);
-        if (!failures.isEmpty()) {
-            return failures;
-        }
-
-        failures = failedRuleNames(ruleContext, fileContext, "IS_NOT_HIT_PLATFORM_TAG_BLACKLIST", IS_NOT_HIT_PLATFORM_TAG_BLACKLIST);
-        if (!failures.isEmpty()) {
-            return failures;
-        }
-
-        failures = failedRuleNames(ruleContext, fileContext, "IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST", IS_NOT_HIT_PLATFORM_FILE_NAME_BLACKLIST);
-        if (!failures.isEmpty()) {
-            return failures;
-        }
-
-        return failedRuleNames(ruleContext, fileContext, "IS_NOT_PREVIOUS_REVISION", IS_NOT_PREVIOUS_REVISION);
+        return firstFailedRuleNames(ruleContext, fileContext, BASE_RULE_NAMES, BASE_RULES);
     }
 
     private static List<String> failedJapanOrWorldRuleNames(RuleContext ruleContext, FileContext fileContext) {
@@ -144,10 +152,11 @@ public class Rules {
             return List.of();
         }
 
-        var failures = new ArrayList<String>();
-        addFailure(failures, ruleContext, fileContext, "IS_JAPAN", IS_JAPAN);
-        addFailure(failures, ruleContext, fileContext, "IS_WORLD", IS_WORLD);
-        return failures;
+        return failedRuleNames(
+                ruleContext,
+                fileContext,
+                new String[]{"IS_JAPAN", "IS_WORLD"},
+                new Rule[]{IS_JAPAN, IS_WORLD});
     }
 
     private static List<String> failedUsaOrWorldRuleNames(RuleContext ruleContext, FileContext fileContext) {
@@ -155,10 +164,11 @@ public class Rules {
             return List.of();
         }
 
-        var failures = new ArrayList<String>();
-        addFailure(failures, ruleContext, fileContext, "IS_USA", IS_USA);
-        addFailure(failures, ruleContext, fileContext, "IS_WORLD", IS_WORLD);
-        return failures;
+        return failedRuleNames(
+                ruleContext,
+                fileContext,
+                new String[]{"IS_USA", "IS_WORLD"},
+                new Rule[]{IS_USA, IS_WORLD});
     }
 
     private static List<String> failedEuropeOrWorldRuleNames(RuleContext ruleContext, FileContext fileContext) {
@@ -166,40 +176,37 @@ public class Rules {
             return List.of();
         }
 
-        var failures = new ArrayList<String>();
-        failures.addAll(failedPalRuleNames(ruleContext, fileContext));
-        addFailure(failures, ruleContext, fileContext, "IS_WORLD", IS_WORLD);
-        return failures;
+        var palFailures = failedRuleNames(ruleContext, fileContext, PAL_RULE_NAMES, PAL_RULES);
+        var worldFailures = failedRuleNames(ruleContext, fileContext, "IS_WORLD", IS_WORLD);
+        return Stream.concat(palFailures.stream(), worldFailures.stream()).toList();
     }
 
-    private static List<String> failedPalRuleNames(RuleContext ruleContext, FileContext fileContext) {
-        if (IS_PAL.pass(ruleContext, fileContext)) {
-            return List.of();
-        }
+    private static List<String> firstFailedRuleNames(
+            RuleContext ruleContext,
+            FileContext fileContext,
+            String[] names,
+            Rule[] rules) {
+        return IntStream.range(0, rules.length)
+                .filter(i -> !rules[i].pass(ruleContext, fileContext))
+                .mapToObj(i -> names[i])
+                .findFirst()
+                .map(List::of)
+                .orElseGet(List::of);
+    }
 
-        var failures = new ArrayList<String>();
-        addFailure(failures, ruleContext, fileContext, "IS_EUROPE", IS_EUROPE);
-        addFailure(failures, ruleContext, fileContext, "IS_AUSTRALIA", IS_AUSTRALIA);
-        addFailure(failures, ruleContext, fileContext, "IS_GERMANY", IS_GERMANY);
-        addFailure(failures, ruleContext, fileContext, "IS_SWEDEN", IS_SWEDEN);
-        addFailure(failures, ruleContext, fileContext, "IS_FRANCE", IS_FRANCE);
-        addFailure(failures, ruleContext, fileContext, "IS_SPAIN", IS_SPAIN);
-        return failures;
+    private static List<String> failedRuleNames(
+            RuleContext ruleContext,
+            FileContext fileContext,
+            String[] names,
+            Rule[] rules) {
+        return IntStream.range(0, rules.length)
+                .filter(i -> !rules[i].pass(ruleContext, fileContext))
+                .mapToObj(i -> names[i])
+                .toList();
     }
 
     private static List<String> failedRuleNames(RuleContext ruleContext, FileContext fileContext, String name, Rule rule) {
         return rule.pass(ruleContext, fileContext) ? List.of() : List.of(name);
-    }
-
-    private static void addFailure(
-            List<String> failures,
-            RuleContext ruleContext,
-            FileContext fileContext,
-            String name,
-            Rule rule) {
-        if (!rule.pass(ruleContext, fileContext)) {
-            failures.add(name);
-        }
     }
 
     private static String previousRevision(String filename) {
