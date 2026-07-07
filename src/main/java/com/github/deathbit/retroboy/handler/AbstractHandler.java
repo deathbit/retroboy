@@ -53,7 +53,6 @@ public abstract class AbstractHandler implements Handler {
 
     private void initializeRuleState(RuleContext ruleContext) {
         ruleContext.setRuleMap(getRuleMap());
-        ruleContext.setAreaRuleFailureMap(initializeAreaRuleFailureMap(ruleContext));
         ruleContext.setAreaRenameReportMap(createEmptyAreaReportMap(ruleContext));
         ruleContext.setAreaDuplicateNameReportMap(createEmptyAreaReportMap(ruleContext));
     }
@@ -62,14 +61,12 @@ public abstract class AbstractHandler implements Handler {
         for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
             var area = areaConfig.getArea();
             ruleContext.setCurrentArea(area);
+            var rule = ruleContext.getRuleMap().get(area);
 
             for (var entry : ruleContext.getFileContextMap().entrySet()) {
                 var fileName = entry.getKey();
                 var fileContext = entry.getValue();
-                var failedRuleNames = Rules.failedRuleNames(area, ruleContext, fileContext);
-                ruleContext.getAreaRuleFailureMap().get(area).put(fileName, failedRuleNames);
-
-                if (failedRuleNames.isEmpty()) {
+                if (rule.pass(ruleContext, fileContext)) {
                     ruleContext.getAreaFinalMap().get(area).add(fileName);
                 }
             }
@@ -266,28 +263,14 @@ public abstract class AbstractHandler implements Handler {
         return fileName.substring(dotIndex);
     }
 
-    private Map<Area, Map<String, List<String>>> initializeAreaRuleFailureMap(RuleContext ruleContext) {
-        var areaRuleFailureMap = new LinkedHashMap<Area, Map<String, List<String>>>();
-        for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
-            var ruleFailureMap = new LinkedHashMap<String, List<String>>();
-            for (var skippedEntry : ruleContext.getSkippedFileReasonMap().entrySet()) {
-                ruleFailureMap.put(skippedEntry.getKey(), List.of("PREVIOUS_REVISION"));
-            }
-            areaRuleFailureMap.put(areaConfig.getArea(), ruleFailureMap);
-        }
-
-        return areaRuleFailureMap;
-    }
-
     private void writeProcessingReports(RuleContext ruleContext) throws Exception {
         var reportDir = Paths.get("report");
         Files.createDirectories(reportDir);
-        for (var entry : ruleContext.getAreaRuleFailureMap().entrySet()) {
-            var area = entry.getKey();
+        for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
+            var area = areaConfig.getArea();
             var lines = buildProcessingReportLines(
                     ruleContext,
                     area,
-                    entry.getValue(),
                     ruleContext.getAreaRenameReportMap().get(area),
                     ruleContext.getAreaDuplicateNameReportMap().get(area));
             var reportFile = reportDir.resolve(ruleContext.getPlatform().name() + "-" + area.name() + ".txt");
@@ -297,22 +280,22 @@ public abstract class AbstractHandler implements Handler {
 
     private List<String> buildProcessingReportLines(RuleContext ruleContext,
                                                     Area area,
-                                                    Map<String, List<String>> ruleFailureMap,
                                                     List<String> renameReportLines,
                                                     List<String> duplicateNameReportLines) {
-        var passedCount = ruleFailureMap.values().stream().filter(List::isEmpty).count();
+        var finalFiles = ruleContext.getAreaFinalMap().get(area);
+        var passedCount = finalFiles.size();
         var lines = new ArrayList<String>();
         lines.add("平台: " + ruleContext.getPlatform().name());
         lines.add("地区: " + area.name());
         lines.add("ROM目录: " + ruleContext.getRuleConfig().getRomDir());
-        lines.add("文件总数: " + ruleFailureMap.size());
+        lines.add("文件总数: " + ruleContext.getFileContextMap().size());
         lines.add("通过校验: " + passedCount);
-        lines.add("未通过校验: " + (ruleFailureMap.size() - passedCount));
+        lines.add("未通过校验: " + (ruleContext.getFileContextMap().size() - passedCount));
         lines.add("");
         lines.add("通过:");
-        for (var entry : ruleFailureMap.entrySet()) {
-            if (entry.getValue().isEmpty()) {
-                lines.add(entry.getKey());
+        for (var fileName : ruleContext.getFileContextMap().keySet()) {
+            if (finalFiles.contains(fileName)) {
+                lines.add(fileName);
             }
         }
 
@@ -330,10 +313,9 @@ public abstract class AbstractHandler implements Handler {
 
         lines.add("");
         lines.add("未通过:");
-        for (var entry : ruleFailureMap.entrySet()) {
-            var failedRuleNames = entry.getValue();
-            if (!failedRuleNames.isEmpty()) {
-                lines.add(entry.getKey() + " - " + String.join("|", failedRuleNames));
+        for (var fileName : ruleContext.getFileContextMap().keySet()) {
+            if (!finalFiles.contains(fileName)) {
+                lines.add(fileName);
             }
         }
 
@@ -353,7 +335,6 @@ public abstract class AbstractHandler implements Handler {
         ruleContext.setPlatform(getPlatform());
         ruleContext.setRuleConfig(appConfig.getRuleConfigMap().get(ruleContext.getPlatform()));
         ruleContext.setFileContextMap(new LinkedHashMap<>());
-        ruleContext.setSkippedFileReasonMap(new LinkedHashMap<>());
         ruleContext.setAreaFinalMap(new LinkedHashMap<>());
         for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
             ruleContext.getAreaFinalMap().put(areaConfig.getArea(), new LinkedHashSet<>());
