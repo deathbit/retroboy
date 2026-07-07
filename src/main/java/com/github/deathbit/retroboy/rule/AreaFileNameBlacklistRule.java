@@ -8,11 +8,14 @@ import java.util.Optional;
 
 public class AreaFileNameBlacklistRule implements Rule {
     @Override
-    public boolean pass(RuleContext ruleContext, FileContext fileContext) {
-        return areaConfig(ruleContext)
+    public RuleResult pass(RuleContext ruleContext, FileContext fileContext) {
+        var blacklisted = areaConfig(ruleContext)
                 .map(AreaConfig::getFileNameBlackList)
                 .map(fileNameBlackList -> fileNameBlackList.contains(fileContext.getFileName()))
                 .orElse(false);
+        return blacklisted
+                ? RuleResult.passed("命中地区文件名黑名单")
+                : RuleResult.failed("未命中地区文件名黑名单");
     }
 
     private Optional<AreaConfig> areaConfig(RuleContext ruleContext) {

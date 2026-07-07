@@ -1,22 +1,37 @@
 package com.github.deathbit.retroboy.rule;
 
+import com.github.deathbit.retroboy.domain.FileContext;
+import com.github.deathbit.retroboy.domain.RuleContext;
+
+import java.util.function.BiFunction;
+import java.util.function.BiPredicate;
+
 public class Rules {
-    public static final Rule IS_LICENSED = (rc, fc) -> rc.getLicensed().contains(fc.getFullName());
-    public static final Rule IS_BAD = (rc, fc) -> fc.getFullName().contains("[b]");
-    public static final Rule IS_HIT_GLOBAL_TAG_BLACKLIST = (rc, fc) -> fc.getTags().stream().anyMatch(tag -> rc.getGlobalTagBlackList().contains(tag));
-    public static final Rule IS_HIT_PLATFORM_TAG_BLACKLIST = (rc, fc) -> fc.getTags().stream().anyMatch(tag -> rc.getRuleConfig().getTagBlackList().contains(tag));
-    public static final Rule IS_HIT_PLATFORM_FILE_NAME_BLACKLIST = (rc, fc) -> rc.getRuleConfig().getFileNameBlackList().contains(fc.getFileName());
+    public static final Rule IS_LICENSED = rule((rc, fc) -> rc.getLicensed().contains(fc.getFullName()), "DAT授权清单中不存在");
+    public static final Rule IS_BAD = rule((rc, fc) -> fc.getFullName().contains("[b]"), "文件名包含坏档标记 [b]", "文件名不包含坏档标记 [b]");
+    public static final Rule IS_HIT_GLOBAL_TAG_BLACKLIST = rule(
+            (rc, fc) -> fc.getTags().stream().anyMatch(tag -> rc.getGlobalTagBlackList().contains(tag)),
+            (rc, fc) -> "命中全局标签黑名单: " + matchedGlobalTag(rc, fc),
+            "未命中全局标签黑名单");
+    public static final Rule IS_HIT_PLATFORM_TAG_BLACKLIST = rule(
+            (rc, fc) -> fc.getTags().stream().anyMatch(tag -> rc.getRuleConfig().getTagBlackList().contains(tag)),
+            (rc, fc) -> "命中平台标签黑名单: " + matchedPlatformTag(rc, fc),
+            "未命中平台标签黑名单");
+    public static final Rule IS_HIT_PLATFORM_FILE_NAME_BLACKLIST = rule(
+            (rc, fc) -> rc.getRuleConfig().getFileNameBlackList().contains(fc.getFileName()),
+            "命中平台文件名黑名单",
+            "未命中平台文件名黑名单");
     public static final Rule IS_PREVIOUS_REVISION = new PreviousRevisionRule();
-    public static final Rule IS_JAPAN = (rc, fc) -> fc.getTagPart().contains("Japan");
-    public static final Rule IS_USA = (rc, fc) -> fc.getTagPart().contains("USA");
-    public static final Rule IS_EUROPE = (rc, fc) -> fc.getTagPart().contains("Europe");
-    public static final Rule IS_AUSTRALIA = (rc, fc) -> fc.getTagPart().contains("Australia");
-    public static final Rule IS_GERMANY = (rc, fc) -> fc.getTagPart().contains("Germany");
-    public static final Rule IS_SWEDEN = (rc, fc) -> fc.getTagPart().contains("Sweden");
-    public static final Rule IS_FRANCE = (rc, fc) -> fc.getTagPart().contains("France");
-    public static final Rule IS_SPAIN = (rc, fc) -> fc.getTagPart().contains("Spain");
+    public static final Rule IS_JAPAN = rule((rc, fc) -> fc.getTagPart().contains("Japan"), "不属于 Japan 地区");
+    public static final Rule IS_USA = rule((rc, fc) -> fc.getTagPart().contains("USA"), "不属于 USA 地区");
+    public static final Rule IS_EUROPE = rule((rc, fc) -> fc.getTagPart().contains("Europe"), "不属于 Europe 地区");
+    public static final Rule IS_AUSTRALIA = rule((rc, fc) -> fc.getTagPart().contains("Australia"), "不属于 Australia 地区");
+    public static final Rule IS_GERMANY = rule((rc, fc) -> fc.getTagPart().contains("Germany"), "不属于 Germany 地区");
+    public static final Rule IS_SWEDEN = rule((rc, fc) -> fc.getTagPart().contains("Sweden"), "不属于 Sweden 地区");
+    public static final Rule IS_FRANCE = rule((rc, fc) -> fc.getTagPart().contains("France"), "不属于 France 地区");
+    public static final Rule IS_SPAIN = rule((rc, fc) -> fc.getTagPart().contains("Spain"), "不属于 Spain 地区");
     public static final Rule IS_PAL = IS_EUROPE.or(IS_AUSTRALIA).or(IS_GERMANY).or(IS_SWEDEN).or(IS_FRANCE).or(IS_SPAIN);
-    public static final Rule IS_WORLD = (rc, fc) -> fc.getTagPart().contains("World");
+    public static final Rule IS_WORLD = rule((rc, fc) -> fc.getTagPart().contains("World"), "不属于 World 版本");
     public static final Rule IS_JAPAN_OR_WORLD = IS_JAPAN.or(IS_WORLD);
     public static final Rule IS_USA_OR_WORLD = IS_USA.or(IS_WORLD);
     public static final Rule IS_EUROPE_OR_WORLD = IS_PAL.or(IS_WORLD);
@@ -27,4 +42,36 @@ public class Rules {
     public static final Rule IS_JAPAN_BASE = IS_BASE.and(IS_JAPAN_OR_WORLD);
     public static final Rule IS_USA_BASE = IS_BASE.and(IS_USA_OR_WORLD);
     public static final Rule IS_EUROPE_BASE = IS_BASE.and(IS_EUROPE_OR_WORLD);
+
+    private static Rule rule(BiPredicate<RuleContext, FileContext> predicate, String failureReason) {
+        return (ruleContext, fileContext) -> predicate.test(ruleContext, fileContext)
+                ? RuleResult.passed()
+                : RuleResult.failed(failureReason);
+    }
+
+    private static Rule rule(BiPredicate<RuleContext, FileContext> predicate, String matchedReason, String unmatchedReason) {
+        return rule(predicate, (ruleContext, fileContext) -> matchedReason, unmatchedReason);
+    }
+
+    private static Rule rule(BiPredicate<RuleContext, FileContext> predicate,
+                             BiFunction<RuleContext, FileContext, String> matchedReason,
+                             String unmatchedReason) {
+        return (ruleContext, fileContext) -> predicate.test(ruleContext, fileContext)
+                ? RuleResult.passed(matchedReason.apply(ruleContext, fileContext))
+                : RuleResult.failed(unmatchedReason);
+    }
+
+    private static String matchedGlobalTag(RuleContext ruleContext, FileContext fileContext) {
+        return fileContext.getTags().stream()
+                .filter(tag -> ruleContext.getGlobalTagBlackList().contains(tag))
+                .findFirst()
+                .orElse("");
+    }
+
+    private static String matchedPlatformTag(RuleContext ruleContext, FileContext fileContext) {
+        return fileContext.getTags().stream()
+                .filter(tag -> ruleContext.getRuleConfig().getTagBlackList().contains(tag))
+                .findFirst()
+                .orElse("");
+    }
 }

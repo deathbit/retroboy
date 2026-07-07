@@ -5,17 +5,54 @@ import com.github.deathbit.retroboy.domain.RuleContext;
 
 @FunctionalInterface
 public interface Rule {
-    boolean pass(RuleContext ruleContext, FileContext fileContext);
+    RuleResult pass(RuleContext ruleContext, FileContext fileContext);
 
     default Rule or(Rule other) {
-        return (ruleContext, fileContext) -> pass(ruleContext, fileContext) || other.pass(ruleContext, fileContext);
+        return (ruleContext, fileContext) -> {
+            var result = pass(ruleContext, fileContext);
+            if (result.passed()) {
+                return RuleResult.passed();
+            }
+
+            var otherResult = other.pass(ruleContext, fileContext);
+            if (otherResult.passed()) {
+                return RuleResult.passed();
+            }
+
+            return RuleResult.failed(combineFailureReasons(result.failureReason(), otherResult.failureReason()));
+        };
     }
 
     default Rule and(Rule other) {
-        return (ruleContext, fileContext) -> pass(ruleContext, fileContext) && other.pass(ruleContext, fileContext);
+        return (ruleContext, fileContext) -> {
+            var result = pass(ruleContext, fileContext);
+            if (!result.passed()) {
+                return result;
+            }
+
+            return other.pass(ruleContext, fileContext);
+        };
     }
 
     default Rule not() {
-        return (ruleContext, fileContext) -> !pass(ruleContext, fileContext);
+        return (ruleContext, fileContext) -> {
+            var result = pass(ruleContext, fileContext);
+            if (result.passed()) {
+                return RuleResult.failed(result.failureReason().isBlank() ? "命中排除规则" : result.failureReason());
+            }
+
+            return RuleResult.passed();
+        };
+    }
+
+    private static String combineFailureReasons(String first, String second) {
+        if (first == null || first.isBlank()) {
+            return second == null ? "" : second;
+        }
+        if (second == null || second.isBlank()) {
+            return first;
+        }
+
+        return first + "；" + second;
     }
 }

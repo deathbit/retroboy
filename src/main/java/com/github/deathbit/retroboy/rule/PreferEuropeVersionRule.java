@@ -14,14 +14,21 @@ public class PreferEuropeVersionRule implements Rule {
     }
 
     @Override
-    public boolean pass(RuleContext ruleContext, FileContext fileContext) {
+    public RuleResult pass(RuleContext ruleContext, FileContext fileContext) {
         if (ruleContext.getCurrentArea() != Area.EUR) {
-            return true;
+            return RuleResult.passed();
         }
 
-        return !europeBaseWithoutPreference.pass(ruleContext, fileContext)
-                || isEuropeVersion(fileContext)
-                || preferredEuropeVersionFileNames(ruleContext, fileContext).isEmpty();
+        if (!europeBaseWithoutPreference.pass(ruleContext, fileContext).passed() || isEuropeVersion(fileContext)) {
+            return RuleResult.passed();
+        }
+
+        var preferredEuropeVersionFileNames = preferredEuropeVersionFileNames(ruleContext, fileContext);
+        if (preferredEuropeVersionFileNames.isEmpty()) {
+            return RuleResult.passed();
+        }
+
+        return RuleResult.failed("存在同名 Europe 版本: " + String.join(", ", preferredEuropeVersionFileNames));
     }
 
     private List<String> preferredEuropeVersionFileNames(RuleContext ruleContext, FileContext fileContext) {
@@ -32,7 +39,7 @@ public class PreferEuropeVersionRule implements Rule {
         return ruleContext.getFileContextMap().values().stream()
                 .filter(other -> other.getNamePart().equals(fileContext.getNamePart()))
                 .filter(this::isEuropeVersion)
-                .filter(other -> europeBaseWithoutPreference.pass(ruleContext, other))
+                .filter(other -> europeBaseWithoutPreference.pass(ruleContext, other).passed())
                 .map(FileContext::getFileName)
                 .toList();
     }
