@@ -56,7 +56,7 @@ Retroboy 是一个面向 **RetroArch + ES-DE** 环境的怀旧游戏收藏构建
 2. `DEFAULT_CONFIG`：复制默认资源和基础配置，并写入基础 RetroArch 选项。
 3. `FIX_CHINESE_FONT`：替换中文 fallback 字体并设置字体路径。
 4. `SET_MEGA_BEZEL_SHADER`：复制 Mega Bezel 资源并写入 shader 相关配置。
-5. `SET_PLATFORM`：执行平台处理器，目前会运行 NES ROM 筛选、复制、重命名和报告生成。
+5. `SET_PLATFORM`：按 `platformTaskMask` 执行平台处理器，目前内置 NES 处理器。
 
 `startupTaskMask` 支持两种写法：
 
@@ -65,6 +65,13 @@ Retroboy 是一个面向 **RetroArch + ES-DE** 环境的怀旧游戏收藏构建
 - 兼容旧数字掩码：例如 `31` 表示启用全部 5 个任务
 
 未出现在名称列表中的任务默认不会执行；空值或空白值会跳过全部任务。
+
+`platformTaskMask` 用于独立控制 `SET_PLATFORM` 内部要执行的平台处理器：
+
+- 推荐写法：`NES|SNES`
+- 显式排除：`NES|SNES|!MD`
+
+未出现在名称列表中的平台默认不会执行；空值或空白值会跳过全部平台。目前只有配置了对应处理器的平台会实际运行。
 
 ## 配置说明
 
@@ -84,12 +91,14 @@ app:
     globalConfig:
       raConfig: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
       startupTaskMask: 'CLEAN_UP|DEFAULT_CONFIG|FIX_CHINESE_FONT|SET_MEGA_BEZEL_SHADER|SET_PLATFORM'
+      platformTaskMask: 'NES|SNES|!MD'
       globalTagBlacklist:
         - 'Virtual Console'
 ```
 
 - `raConfig`：要修改的 RetroArch 配置文件。
 - `startupTaskMask`：启动时要执行的任务。
+- `platformTaskMask`：`SET_PLATFORM` 启动任务中要执行的平台。
 - `globalTagBlacklist`：所有平台共用的 ROM 标签黑名单。
 
 ### 启动任务配置
