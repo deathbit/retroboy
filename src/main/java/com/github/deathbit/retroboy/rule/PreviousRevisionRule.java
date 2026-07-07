@@ -43,6 +43,7 @@ public class PreviousRevisionRule implements Rule {
                     .concat("(Rev " + (revision - 1) + ")")
                     .concat(filename.substring(matcher.end()));
         } catch (NumberFormatException e) {
+            // Leave revision tags that cannot be parsed as an integer untouched.
             return null;
         }
     }
