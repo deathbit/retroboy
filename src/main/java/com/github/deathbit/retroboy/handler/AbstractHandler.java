@@ -34,6 +34,20 @@ import java.util.stream.Collectors;
 
 public abstract class AbstractHandler implements Handler {
 
+    private static final List<MediaType> MEDIA_TYPES = List.of(
+            imageMediaType("3dboxes"),
+            imageMediaType("backcovers"),
+            imageMediaType("covers"),
+            imageMediaType("fanart"),
+            new MediaType("manuals", ".pdf", null),
+            imageMediaType("marquees"),
+            imageMediaType("miximages"),
+            imageMediaType("physicalmedia"),
+            imageMediaType("screenshots"),
+            imageMediaType("titlescreens"),
+            new MediaType("videos", ".mp4", null)
+    );
+
     @Autowired
     private AppConfig appConfig;
     @Autowired
@@ -48,6 +62,7 @@ public abstract class AbstractHandler implements Handler {
         createAreaDirectories(ruleContext);
         copyAreaFiles(ruleContext);
         renameAreaFiles(ruleContext);
+        checkMissingMediaFiles(ruleContext);
         writeProcessingReports(ruleContext);
     }
 
@@ -56,6 +71,7 @@ public abstract class AbstractHandler implements Handler {
         ruleContext.setAreaRenameReportMap(createEmptyAreaReportMap(ruleContext));
         ruleContext.setAreaDuplicateNameReportMap(createEmptyAreaReportMap(ruleContext));
         ruleContext.setAreaFailureReportMap(createEmptyAreaReportMap(ruleContext));
+        ruleContext.setAreaMissingMediaReportMap(createEmptyAreaMissingMediaReportMap(ruleContext));
     }
 
     private void selectAreaFiles(RuleContext ruleContext) {
@@ -118,6 +134,19 @@ public abstract class AbstractHandler implements Handler {
         var areaReportMap = new LinkedHashMap<Area, List<String>>();
         for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
             areaReportMap.put(areaConfig.getArea(), new ArrayList<>());
+        }
+
+        return areaReportMap;
+    }
+
+    private Map<Area, Map<String, List<String>>> createEmptyAreaMissingMediaReportMap(RuleContext ruleContext) {
+        var areaReportMap = new LinkedHashMap<Area, Map<String, List<String>>>();
+        for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
+            var mediaReportMap = new LinkedHashMap<String, List<String>>();
+            for (var mediaType : MEDIA_TYPES) {
+                mediaReportMap.put(mediaType.name(), new ArrayList<>());
+            }
+            areaReportMap.put(areaConfig.getArea(), mediaReportMap);
         }
 
         return areaReportMap;
@@ -271,69 +300,175 @@ public abstract class AbstractHandler implements Handler {
         return fileName.substring(dotIndex);
     }
 
+    private void checkMissingMediaFiles(RuleContext ruleContext) throws Exception {
+        var downloadedMediaDirBase = appConfig.getGlobalConfig().getDownloadedMediaDirBase();
+        if (downloadedMediaDirBase == null || downloadedMediaDirBase.isBlank()) {
+            throw new IllegalStateException("app.config.globalConfig.downloadedMediaDirBase must be configured");
+        }
+
+        var platformMediaDirName = Paths.get(ruleContext.getRuleConfig().getTargetDirBase()).getFileName().toString();
+        for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
+            var area = areaConfig.getArea();
+            var areaTargetDir = Paths.get(ruleContext.getRuleConfig().getTargetDirBase(), area.name());
+            try (var files = Files.list(areaTargetDir)) {
+                var gameNames = files
+                        .filter(Files::isRegularFile)
+                        .map(path -> path.getFileName().toString())
+                        .sorted()
+                        .map(this::withoutExtension)
+                        .toList();
+                addMissingMediaReportLines(ruleContext, downloadedMediaDirBase, platformMediaDirName, area, gameNames);
+            }
+        }
+    }
+
+    private void addMissingMediaReportLines(RuleContext ruleContext,
+                                            String downloadedMediaDirBase,
+                                            String platformMediaDirName,
+                                            Area area,
+                                            List<String> gameNames) {
+        var missingMediaReportMap = ruleContext.getAreaMissingMediaReportMap().get(area);
+        for (var gameName : gameNames) {
+            for (var mediaType : MEDIA_TYPES) {
+                var mediaFile = Paths.get(
+                        downloadedMediaDirBase,
+                        platformMediaDirName,
+                        mediaType.name(),
+                        area.name(),
+                        gameName + mediaType.reportExtension());
+                if (!mediaFileExists(mediaFile, mediaType.fallbackExtension())) {
+                    missingMediaReportMap.get(mediaType.name()).add(mediaFile.toString());
+                }
+            }
+        }
+    }
+
+    private boolean mediaFileExists(Path mediaFile, String fallbackExtension) {
+        if (Files.isRegularFile(mediaFile)) {
+            return true;
+        }
+        if (fallbackExtension == null) {
+            return false;
+        }
+
+        return Files.isRegularFile(withExtension(mediaFile, fallbackExtension));
+    }
+
+    private Path withExtension(Path path, String extension) {
+        var fileName = path.getFileName().toString();
+        return path.resolveSibling(withoutExtension(fileName) + extension);
+    }
+
+    private String withoutExtension(String fileName) {
+        var dotIndex = fileName.lastIndexOf('.');
+        if (dotIndex == -1) {
+            return fileName;
+        }
+
+        return fileName.substring(0, dotIndex);
+    }
+
     private void writeProcessingReports(RuleContext ruleContext) throws Exception {
         var reportDir = Paths.get("report");
         Files.createDirectories(reportDir);
         for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
             var area = areaConfig.getArea();
-            var lines = buildProcessingReportLines(
+            var lines = buildProcessingReportYamlLines(
                     ruleContext,
                     area,
                     ruleContext.getAreaRenameReportMap().get(area),
                     ruleContext.getAreaDuplicateNameReportMap().get(area),
+                    ruleContext.getAreaMissingMediaReportMap().get(area),
                     ruleContext.getAreaFailureReportMap().get(area));
-            var reportFile = reportDir.resolve(ruleContext.getPlatform().name() + "-" + area.name() + ".txt");
+            var reportFile = reportDir.resolve(ruleContext.getPlatform().name() + "-" + area.name() + ".yaml");
             Files.write(reportFile, lines, StandardCharsets.UTF_8, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
         }
     }
 
-    private List<String> buildProcessingReportLines(RuleContext ruleContext,
-                                                    Area area,
-                                                    List<String> renameReportLines,
-                                                    List<String> duplicateNameReportLines,
-                                                    List<String> failureReportLines) {
+    private List<String> buildProcessingReportYamlLines(RuleContext ruleContext,
+                                                        Area area,
+                                                        List<String> renameReportLines,
+                                                        List<String> duplicateNameReportLines,
+                                                        Map<String, List<String>> missingMediaReportLines,
+                                                        List<String> failureReportLines) {
         var finalFiles = ruleContext.getAreaFinalMap().get(area);
         var passedCount = finalFiles.size();
         var lines = new ArrayList<String>();
-        lines.add("平台: " + ruleContext.getPlatform().name());
-        lines.add("地区: " + area.name());
-        lines.add("ROM目录: " + ruleContext.getRuleConfig().getRomDir());
-        lines.add("文件总数: " + ruleContext.getFileContextMap().size());
-        lines.add("通过校验: " + passedCount);
-        lines.add("未通过校验: " + (ruleContext.getFileContextMap().size() - passedCount));
-        lines.add("");
-        lines.add("通过:");
+        lines.add("platform: " + yamlValue(ruleContext.getPlatform().name()));
+        lines.add("area: " + yamlValue(area.name()));
+        lines.add("romDir: " + yamlValue(ruleContext.getRuleConfig().getRomDir()));
+        lines.add("summary:");
+        lines.add("  total: " + ruleContext.getFileContextMap().size());
+        lines.add("  passed: " + passedCount);
+        lines.add("  failed: " + (ruleContext.getFileContextMap().size() - passedCount));
+
+        var passedFiles = new ArrayList<String>();
         for (var fileName : ruleContext.getFileContextMap().keySet()) {
             if (finalFiles.contains(fileName)) {
-                lines.add(fileName);
+                passedFiles.add(fileName);
             }
         }
+        addYamlList(lines, "passed", passedFiles, "");
+        addYamlList(lines, "renamed", renameReportLines, "");
+        addYamlList(lines, "duplicateNames", duplicateNameReportLines, "");
+        addMissingMediaYaml(lines, missingMediaReportLines);
 
-        if (renameReportLines != null && !renameReportLines.isEmpty()) {
-            lines.add("");
-            lines.add("重命名:");
-            lines.addAll(renameReportLines);
-        }
-
-        if (duplicateNameReportLines != null && !duplicateNameReportLines.isEmpty()) {
-            lines.add("");
-            lines.add("去除标签后同名:");
-            lines.addAll(duplicateNameReportLines);
-        }
-
-        lines.add("");
-        lines.add("未通过:");
+        var failedFiles = new ArrayList<String>();
         if (!failureReportLines.isEmpty()) {
-            lines.addAll(failureReportLines);
+            failedFiles.addAll(failureReportLines);
         } else {
             for (var fileName : ruleContext.getFileContextMap().keySet()) {
                 if (!finalFiles.contains(fileName)) {
-                    lines.add(fileName);
+                    failedFiles.add(fileName);
                 }
             }
         }
+        addYamlList(lines, "failed", failedFiles, "");
 
         return lines;
+    }
+
+    private void addMissingMediaYaml(List<String> lines, Map<String, List<String>> missingMediaReportLines) {
+        if (!hasMissingMediaReportLines(missingMediaReportLines)) {
+            lines.add("missingMedia: {}");
+            return;
+        }
+
+        lines.add("missingMedia:");
+        for (var mediaType : MEDIA_TYPES) {
+            var missingMediaFiles = missingMediaReportLines.get(mediaType.name());
+            if (missingMediaFiles == null || missingMediaFiles.isEmpty()) {
+                continue;
+            }
+            lines.add("  " + yamlValue(mediaType.name()) + ":");
+            for (var missingMediaFile : missingMediaFiles) {
+                lines.add("    - " + yamlValue(missingMediaFile));
+            }
+        }
+    }
+
+    private void addYamlList(List<String> lines, String key, List<String> values, String indent) {
+        if (values == null || values.isEmpty()) {
+            lines.add(indent + key + ": []");
+            return;
+        }
+
+        lines.add(indent + key + ":");
+        for (var value : values) {
+            lines.add(indent + "  - " + yamlValue(value));
+        }
+    }
+
+    private String yamlValue(String value) {
+        return "\"" + value
+                .replace("\\", "\\\\")
+                .replace("\"", "\\\"")
+                + "\"";
+    }
+
+    private boolean hasMissingMediaReportLines(Map<String, List<String>> missingMediaReportLines) {
+        return missingMediaReportLines != null
+                && missingMediaReportLines.values().stream().anyMatch(lines -> lines != null && !lines.isEmpty());
     }
 
     private RuleContext prepareRuleContext() throws Exception {
@@ -431,5 +566,12 @@ public abstract class AbstractHandler implements Handler {
     public abstract Platform getPlatform();
 
     private record RenamePlan(FileContext fileContext, String targetFileName, boolean articleAdjusted) {
+    }
+
+    private static MediaType imageMediaType(String name) {
+        return new MediaType(name, ".png", ".jpg");
+    }
+
+    private record MediaType(String name, String reportExtension, String fallbackExtension) {
     }
 }

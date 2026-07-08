@@ -142,6 +142,7 @@ app:
 - `fileNameBlackList`：平台级文件名黑名单。
 - `targetAreaConfigs[].fileNameBlackList`：地区级文件名黑名单。
 - `targetAreaConfigs[].renameOptions`：去除标签后出现同名冲突时的手动重命名规则。
+- `globalConfig.downloadedMediaDirBase`：ES-DE 已下载媒体根目录，例如 `D:\ES-DE\ES-DE\downloaded_media`。
 
 ## ROM 筛选规则
 
@@ -180,18 +181,19 @@ D:\ES-DE\ROMs\nes\EUR
 平台处理器会在项目根目录的 `report/` 下写入报告：
 
 ```text
-report/NES-JPN.txt
-report/NES-USA.txt
-report/NES-EUR.txt
+report/NES-JPN.yaml
+report/NES-USA.yaml
+report/NES-EUR.yaml
 ```
 
-报告包含：
+报告使用 YAML 格式，包含：
 
 - 平台、地区、源 ROM 目录。
 - 文件总数、通过数量、未通过数量。
 - 通过列表。
 - 自动重命名记录。
 - 去除标签后同名冲突记录。
+- 通过游戏缺失的 ES-DE 媒体文件，按媒体类型分组。
 - 未通过列表和失败原因。
 
 ## 环境要求

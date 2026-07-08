@@ -6,6 +6,7 @@ app:
   config:
     globalConfig:
       raConfig: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
+      downloadedMediaDirBase: 'D:\ES-DE\ES-DE\downloaded_media'
       startupTaskMask: '!CLEAN_UP|!DEFAULT_CONFIG|!FIX_CHINESE_FONT|!SET_MEGA_BEZEL_SHADER|SET_PLATFORM'
       platformTaskMask: 'NES|!SNES|!MD'
       globalTagBlacklist:

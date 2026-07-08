@@ -28,6 +28,7 @@ public class RuleContext {
     private Map<Area, List<String>> areaRenameReportMap;
     private Map<Area, List<String>> areaDuplicateNameReportMap;
     private Map<Area, List<String>> areaFailureReportMap;
+    private Map<Area, Map<String, List<String>>> areaMissingMediaReportMap;
     private List<String> dirsToCreate;
     private List<CopyFileInput> filesToCopy;
     private List<RenameFileInput> filesToRename;

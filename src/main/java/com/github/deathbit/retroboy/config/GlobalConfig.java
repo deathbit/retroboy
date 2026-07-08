@@ -9,6 +9,7 @@ import java.util.Set;
 @Builder
 public class GlobalConfig {
     private String raConfig;
+    private String downloadedMediaDirBase;
     private String startupTaskMask;
     private String platformTaskMask;
     private Set<String> globalTagBlacklist;
