@@ -1,5 +1,6 @@
 package com.github.deathbit.retroboy.enums;
 
+import com.github.deathbit.retroboy.domain.StartupTaskMask;
 import lombok.Getter;
 
 import java.util.Arrays;

@@ -1,5 +1,7 @@
 package com.github.deathbit.retroboy.enums;
 
+import com.github.deathbit.retroboy.domain.PlatformTaskMask;
+
 import java.util.Arrays;
 import java.util.EnumSet;
 import java.util.Locale;

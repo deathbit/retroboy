@@ -1,7 +1,8 @@
-package com.github.deathbit.retroboy.rule;
+package com.github.deathbit.retroboy.rule.complex;
 
 import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.RuleContext;
+import com.github.deathbit.retroboy.rule.Rule;
 
 import java.util.Optional;
 import java.util.regex.Pattern;

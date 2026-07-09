@@ -1,5 +1,7 @@
 package com.github.deathbit.retroboy.rule;
 
+import com.github.deathbit.retroboy.rule.complex.RuleIsHighestRevision;
+
 public class Rules {
     public static final Rule IS_LICENSED = (rc, fc) -> {
         if (rc.getLicensed().contains(fc.getFullName())) {
