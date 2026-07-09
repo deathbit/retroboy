@@ -6,14 +6,18 @@ import com.github.deathbit.retroboy.domain.RuleContext;
 import java.util.Optional;
 import java.util.regex.Pattern;
 
-public class PreviousRevisionRule implements Rule {
+public class RuleIsHighestRevision implements Rule {
     private static final Pattern REV_TAG = Pattern.compile("\\(Rev\\s+(\\d+)\\)");
 
     @Override
-    public RuleResult pass(RuleContext ruleContext, FileContext fileContext) {
-        return newerRevisionFileName(ruleContext, fileContext.getFileName())
-                .map(fileName -> RuleResult.failed("存在更高 Rev 修订版本: " + fileName))
-                .orElseGet(RuleResult::success);
+    public boolean pass(RuleContext ruleContext, FileContext fileContext) {
+        var newerRevisionFileName = newerRevisionFileName(ruleContext, fileContext.getFileName());
+        if (newerRevisionFileName.isEmpty()) {
+            return true;
+        }
+
+        ruleContext.getFailureReasons().add("IS_HIGHEST_REVISION失败: 存在更高的 Rev 修订版本: " + newerRevisionFileName.get());
+        return false;
     }
 
     private Optional<String> newerRevisionFileName(RuleContext ruleContext, String fileName) {
@@ -45,7 +49,6 @@ public class PreviousRevisionRule implements Rule {
                     .concat("(Rev " + (revision - 1) + ")")
                     .concat(filename.substring(matcher.end()));
         } catch (NumberFormatException e) {
-            // Leave revision tags that cannot be parsed as an integer untouched.
             return null;
         }
     }

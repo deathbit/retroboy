@@ -47,26 +47,26 @@ public class StartupRunner implements ApplicationRunner {
     @Override
     public void run(@NonNull ApplicationArguments args) throws Exception {
         printAsciiArt();
-        runStartupTask(StartupTask.CLEAN_UP, "清理目录和文件", this::describeCleanUpTask, () -> {
-            fileComponent.batchCleanDirs(appConfig.getCleanUpTask().getCleanDirs());
-            fileComponent.batchDeleteFiles(appConfig.getCleanUpTask().getDeleteFiles());
-        });
-        runStartupTask(StartupTask.DEFAULT_CONFIG, "默认配置", this::describeDefaultConfigTask, () -> {
-            fileComponent.batchCopyDirContentsToDirs(appConfig.getDefaultConfigTask().getCopyDirContentsInputs());
-            fileComponent.batchCopyFiles(appConfig.getDefaultConfigTask().getCopyFileInputs());
-            configComponent.batchChangeRaConfigs(appConfig.getDefaultConfigTask().getRaConfigInputs());
-        });
-        runStartupTask(StartupTask.FIX_CHINESE_FONT, "修复中文字体", this::describeFixChineseFontTask, () -> {
-            fileComponent.batchDeleteFiles(List.of(appConfig.getFixChineseFontTask().getDeleteOriginalFontFile()));
-            fileComponent.batchCopyFiles(List.of(appConfig.getFixChineseFontTask().getCopyNewFontFile()));
-            configComponent.batchChangeRaConfigs(List.of(appConfig.getFixChineseFontTask().getSetNotificationFont()));
-        });
-        runStartupTask(StartupTask.SET_MEGA_BEZEL_SHADER, "设置Mega Bezel着色器", this::describeSetMegaBezelShaderTask, () -> {
-            fileComponent.batchCopyDirs(List.of(appConfig.getSetMegaBezelShaderTask().getCopyMegaBezelPacks()));
-            fileComponent.batchCopyFiles(appConfig.getSetMegaBezelShaderTask().getCopyDefaultMegaBezelShader());
-            configComponent.batchChangeRaConfigs(appConfig.getSetMegaBezelShaderTask().getSetMegaBezelShaderConfigInputs());
-        });
-        runStartupTask(StartupTask.SET_PLATFORM, "设置平台", this::describeSetPlatformTask, this::runSetPlatformTask);
+        //runStartupTask(StartupTask.CLEAN_UP, "清理目录和文件", this::describeCleanUpTask, () -> {
+        //    fileComponent.batchCleanDirs(appConfig.getCleanUpTask().getCleanDirs());
+        //    fileComponent.batchDeleteFiles(appConfig.getCleanUpTask().getDeleteFiles());
+        //});
+        //runStartupTask(StartupTask.DEFAULT_CONFIG, "默认配置", this::describeDefaultConfigTask, () -> {
+        //    fileComponent.batchCopyDirContentsToDirs(appConfig.getDefaultConfigTask().getCopyDirContentsInputs());
+        //    fileComponent.batchCopyFiles(appConfig.getDefaultConfigTask().getCopyFileInputs());
+        //    configComponent.batchChangeRaConfigs(appConfig.getDefaultConfigTask().getRaConfigInputs());
+        //});
+        //runStartupTask(StartupTask.FIX_CHINESE_FONT, "修复中文字体", this::describeFixChineseFontTask, () -> {
+        //    fileComponent.batchDeleteFiles(List.of(appConfig.getFixChineseFontTask().getDeleteOriginalFontFile()));
+        //    fileComponent.batchCopyFiles(List.of(appConfig.getFixChineseFontTask().getCopyNewFontFile()));
+        //    configComponent.batchChangeRaConfigs(List.of(appConfig.getFixChineseFontTask().getSetNotificationFont()));
+        //});
+        //runStartupTask(StartupTask.SET_MEGA_BEZEL_SHADER, "设置Mega Bezel着色器", this::describeSetMegaBezelShaderTask, () -> {
+        //    fileComponent.batchCopyDirs(List.of(appConfig.getSetMegaBezelShaderTask().getCopyMegaBezelPacks()));
+        //    fileComponent.batchCopyFiles(appConfig.getSetMegaBezelShaderTask().getCopyDefaultMegaBezelShader());
+        //    configComponent.batchChangeRaConfigs(appConfig.getSetMegaBezelShaderTask().getSetMegaBezelShaderConfigInputs());
+        //});
+        //runStartupTask(StartupTask.SET_PLATFORM, "设置平台", this::describeSetPlatformTask, this::runSetPlatformTask);
     }
 
     private void runStartupTask(StartupTask startupTask, String taskName, Supplier<List<String>> taskDescriptionSupplier, StartupTaskRunner runner) throws Exception {

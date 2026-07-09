@@ -78,16 +78,17 @@ public abstract class AbstractHandler implements Handler {
         for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
             var area = areaConfig.getArea();
             ruleContext.setCurrentArea(area);
+            ruleContext.setCurrentAreaConfig(ruleContext.getRuleConfig().getTargetAreaConfigs().stream().filter(targetAreaConfig -> area == targetAreaConfig.getArea()).findFirst().orElse(null));
             var rule = ruleContext.getRuleMap().get(area);
 
             for (var entry : ruleContext.getFileContextMap().entrySet()) {
                 var fileName = entry.getKey();
                 var fileContext = entry.getValue();
-                var ruleResult = rule.pass(ruleContext, fileContext);
-                if (ruleResult.passed()) {
+                ruleContext.setFailureReasons(new ArrayList<>());
+                if (rule.pass(ruleContext, fileContext)) {
                     ruleContext.getAreaFinalMap().get(area).add(fileName);
                 } else {
-                    ruleContext.getAreaFailureReportMap().get(area).add(failureReportLine(fileName, ruleResult.failureReason()));
+                    ruleContext.getAreaFailureReportMap().get(area).add(failureReportLine(fileName, String.join(", ", ruleContext.getFailureReasons())));
                 }
             }
         }
