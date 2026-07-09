@@ -76,10 +76,4 @@ public enum StartupTask {
     private static boolean isNumeric(String value) {
         return value.chars().allMatch(Character::isDigit);
     }
-
-    private record StartupTaskMask(EnumSet<StartupTask> enabledTasks) {
-        private boolean isEnabled(StartupTask startupTask) {
-            return enabledTasks.contains(startupTask);
-        }
-    }
 }

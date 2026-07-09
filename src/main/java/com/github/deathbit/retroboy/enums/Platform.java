@@ -54,9 +54,4 @@ public enum Platform {
         }
     }
 
-    private record PlatformTaskMask(EnumSet<Platform> enabledPlatforms) {
-        private boolean isEnabled(Platform platform) {
-            return enabledPlatforms.contains(platform);
-        }
-    }
 }

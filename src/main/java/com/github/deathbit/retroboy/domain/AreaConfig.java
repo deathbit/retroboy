@@ -17,13 +17,4 @@ public class AreaConfig {
     private Area area;
     private Set<String> fileNameBlackList;
     private List<RenameOption> renameOptions;
-
-    @Data
-    @Builder
-    @NoArgsConstructor
-    @AllArgsConstructor
-    public static class RenameOption {
-        private String oldName;
-        private String newName;
-    }
 }
