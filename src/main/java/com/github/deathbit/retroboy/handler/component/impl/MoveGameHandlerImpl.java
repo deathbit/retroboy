@@ -35,6 +35,7 @@ public class MoveGameHandlerImpl implements MoveGameHandler {
         }
         ruleContext.setFilesToCopy(filesToCopy);
         fileComponent.batchCopyFiles(ruleContext.getFilesToCopy());
+        // TODO copy system config
     }
 }
 
