@@ -18,8 +18,6 @@ import java.util.Set;
 @AllArgsConstructor
 public class RuleContext {
     private Platform platform;
-    private Area currentArea;
-    private AreaConfig currentAreaConfig;
     private RuleConfig ruleConfig;
     private Set<String> licensed;
     private Set<String> globalTagBlackList;
@@ -33,5 +31,7 @@ public class RuleContext {
     private List<String> dirsToCreate;
     private List<CopyFileInput> filesToCopy;
     private List<RenameFileInput> filesToRename;
+    private Area currentArea;
+    private AreaConfig currentAreaConfig;
     private List<String> failureReasons;
 }

@@ -4,7 +4,7 @@ import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.domain.HandlerMediaTypes;
 import com.github.deathbit.retroboy.domain.MediaType;
-import com.github.deathbit.retroboy.handler.component.WriteProcessingReportsHandlerComponent;
+import com.github.deathbit.retroboy.handler.component.ReportHandler;
 import org.springframework.stereotype.Component;
 
 import java.nio.charset.StandardCharsets;
@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Map;
 
 @Component
-public class WriteProcessingReportsHandlerComponentImpl implements WriteProcessingReportsHandlerComponent {
+public class ReportHandlerImpl implements ReportHandler {
 
     @Override
     public void handle(RuleContext ruleContext) throws Exception {

@@ -5,7 +5,7 @@ import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.domain.HandlerMediaTypes;
 import com.github.deathbit.retroboy.domain.MediaType;
-import com.github.deathbit.retroboy.handler.component.CheckMissingMediaFilesHandlerComponent;
+import com.github.deathbit.retroboy.handler.component.MediaHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -15,7 +15,7 @@ import java.nio.file.Paths;
 import java.util.List;
 
 @Component
-public class CheckMissingMediaFilesHandlerComponentImpl implements CheckMissingMediaFilesHandlerComponent {
+public class MediaHandlerImpl implements MediaHandler {
 
     @Autowired
     private AppConfig appConfig;

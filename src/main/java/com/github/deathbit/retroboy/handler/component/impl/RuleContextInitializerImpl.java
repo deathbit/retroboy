@@ -2,24 +2,30 @@ package com.github.deathbit.retroboy.handler.component.impl;
 
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.domain.FileContext;
+import com.github.deathbit.retroboy.domain.HandlerMediaTypes;
+import com.github.deathbit.retroboy.domain.MediaType;
 import com.github.deathbit.retroboy.domain.RuleContext;
+import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.handler.Handler;
-import com.github.deathbit.retroboy.handler.component.PrepareRuleContextHandlerComponent;
+import com.github.deathbit.retroboy.handler.component.RuleContextInitializer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.w3c.dom.Element;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 @Component
-public class PrepareRuleContextHandlerComponentImpl implements PrepareRuleContextHandlerComponent {
+public class RuleContextInitializerImpl implements RuleContextInitializer {
 
     @Autowired
     private AppConfig appConfig;
@@ -29,7 +35,26 @@ public class PrepareRuleContextHandlerComponentImpl implements PrepareRuleContex
         var ruleContext = initializeRuleContext(handler);
         ruleContext.setLicensed(parseLicensedGames(ruleContext.getRuleConfig().getDatFile()));
         populateFileContextMap(ruleContext, ruleContext.getRuleConfig().getRomDir());
+        ruleContext.setRuleMap(handler.getRuleMap());
+        ruleContext.setAreaRenameReportMap(createEmptyAreaReportMap(ruleContext));
+        ruleContext.setAreaDuplicateNameReportMap(createEmptyAreaReportMap(ruleContext));
+        ruleContext.setAreaFailureReportMap(createEmptyAreaReportMap(ruleContext));
+        ruleContext.setAreaMissingMediaReportMap(createEmptyAreaMissingMediaReportMap(ruleContext));
         return ruleContext;
+    }
+
+    @Override
+    public void initializeArea(RuleContext ruleContext, Area area) {
+        ruleContext.setCurrentArea(area);
+        ruleContext.setCurrentAreaConfig(ruleContext.getRuleConfig().getTargetAreaConfigs()
+                                                    .stream()
+                                                    .filter(targetAreaConfig -> area == targetAreaConfig.getArea())
+                                                    .findFirst().orElseThrow());
+    }
+
+    @Override
+    public void initializeFile(RuleContext ruleContext, FileContext file) {
+        ruleContext.setFailureReasons(new ArrayList<>());
     }
 
     private RuleContext initializeRuleContext(Handler handler) {
@@ -104,6 +129,26 @@ public class PrepareRuleContextHandlerComponentImpl implements PrepareRuleContex
                 .tagPart(tagPart)
                 .tags(tags)
                 .build();
+    }
+
+    private Map<Area, List<String>> createEmptyAreaReportMap(RuleContext ruleContext) {
+        var areaReportMap = new LinkedHashMap<Area, List<String>>();
+        for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
+            areaReportMap.put(areaConfig.getArea(), new ArrayList<>());
+        }
+        return areaReportMap;
+    }
+
+    private Map<Area, Map<String, List<String>>> createEmptyAreaMissingMediaReportMap(RuleContext ruleContext) {
+        var areaReportMap = new LinkedHashMap<Area, Map<String, List<String>>>();
+        for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
+            var mediaReportMap = new LinkedHashMap<String, List<String>>();
+            for (MediaType mediaType : HandlerMediaTypes.MEDIA_TYPES) {
+                mediaReportMap.put(mediaType.name(), new ArrayList<>());
+            }
+            areaReportMap.put(areaConfig.getArea(), mediaReportMap);
+        }
+        return areaReportMap;
     }
 }
 

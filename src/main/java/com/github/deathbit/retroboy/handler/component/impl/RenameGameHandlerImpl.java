@@ -8,7 +8,7 @@ import com.github.deathbit.retroboy.domain.RenamePlan;
 import com.github.deathbit.retroboy.domain.RenameFileInput;
 import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.enums.Area;
-import com.github.deathbit.retroboy.handler.component.RenameAreaFilesHandlerComponent;
+import com.github.deathbit.retroboy.handler.component.RenameGameHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Component
-public class RenameAreaFilesHandlerComponentImpl implements RenameAreaFilesHandlerComponent {
+public class RenameGameHandlerImpl implements RenameGameHandler {
 
     @Autowired
     private FileComponent fileComponent;

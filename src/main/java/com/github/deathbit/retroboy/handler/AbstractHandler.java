@@ -2,15 +2,12 @@ package com.github.deathbit.retroboy.handler;
 
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.Platform;
-import com.github.deathbit.retroboy.handler.component.CheckMissingMediaFilesHandlerComponent;
-import com.github.deathbit.retroboy.handler.component.CleanTargetDirectoryHandlerComponent;
-import com.github.deathbit.retroboy.handler.component.CopyAreaFilesHandlerComponent;
-import com.github.deathbit.retroboy.handler.component.CreateAreaDirectoriesHandlerComponent;
-import com.github.deathbit.retroboy.handler.component.InitializeRuleStateHandlerComponent;
-import com.github.deathbit.retroboy.handler.component.PrepareRuleContextHandlerComponent;
-import com.github.deathbit.retroboy.handler.component.RenameAreaFilesHandlerComponent;
-import com.github.deathbit.retroboy.handler.component.SelectAreaFilesHandlerComponent;
-import com.github.deathbit.retroboy.handler.component.WriteProcessingReportsHandlerComponent;
+import com.github.deathbit.retroboy.handler.component.MediaHandler;
+import com.github.deathbit.retroboy.handler.component.MoveGameHandler;
+import com.github.deathbit.retroboy.handler.component.RenameGameHandler;
+import com.github.deathbit.retroboy.handler.component.RuleContextInitializer;
+import com.github.deathbit.retroboy.handler.component.RuleEngine;
+import com.github.deathbit.retroboy.handler.component.ReportHandler;
 import com.github.deathbit.retroboy.rule.Rule;
 import com.github.deathbit.retroboy.rule.Rules;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,35 +17,26 @@ import java.util.Map;
 public abstract class AbstractHandler implements Handler {
 
     @Autowired
-    private PrepareRuleContextHandlerComponent prepareRuleContextHandlerComponent;
+    private RuleContextInitializer ruleContextInitializer;
     @Autowired
-    private InitializeRuleStateHandlerComponent initializeRuleStateHandlerComponent;
+    private RuleEngine ruleEngine;
     @Autowired
-    private SelectAreaFilesHandlerComponent selectAreaFilesHandlerComponent;
+    private MoveGameHandler moveGameHandler;
     @Autowired
-    private CleanTargetDirectoryHandlerComponent cleanTargetDirectoryHandlerComponent;
+    private RenameGameHandler renameGameHandler;
     @Autowired
-    private CreateAreaDirectoriesHandlerComponent createAreaDirectoriesHandlerComponent;
+    private MediaHandler mediaHandler;
     @Autowired
-    private CopyAreaFilesHandlerComponent copyAreaFilesHandlerComponent;
-    @Autowired
-    private RenameAreaFilesHandlerComponent renameAreaFilesHandlerComponent;
-    @Autowired
-    private CheckMissingMediaFilesHandlerComponent checkMissingMediaFilesHandlerComponent;
-    @Autowired
-    private WriteProcessingReportsHandlerComponent writeProcessingReportsHandlerComponent;
+    private ReportHandler reportHandler;
 
     @Override
     public void handle() throws Exception {
-        var ruleContext = prepareRuleContextHandlerComponent.handle(this);
-        initializeRuleStateHandlerComponent.handle(this, ruleContext);
-        selectAreaFilesHandlerComponent.handle(ruleContext);
-        cleanTargetDirectoryHandlerComponent.handle(ruleContext);
-        createAreaDirectoriesHandlerComponent.handle(ruleContext);
-        copyAreaFilesHandlerComponent.handle(ruleContext);
-        renameAreaFilesHandlerComponent.handle(ruleContext);
-        checkMissingMediaFilesHandlerComponent.handle(ruleContext);
-        writeProcessingReportsHandlerComponent.handle(ruleContext);
+        var ruleContext = ruleContextInitializer.handle(this);
+        ruleEngine.handle(ruleContext);
+        moveGameHandler.handle(ruleContext);
+        renameGameHandler.handle(ruleContext);
+        mediaHandler.handle(ruleContext);
+        reportHandler.handle(ruleContext);
     }
 
     @Override
