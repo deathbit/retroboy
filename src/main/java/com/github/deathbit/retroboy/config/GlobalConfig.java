@@ -10,6 +10,8 @@ import java.util.Set;
 public class GlobalConfig {
     private String raConfig;
     private String downloadedMediaDirBase;
+    private String romsAllDir;
+    private String romsDir;
     private String startupTaskMask;
     private String platformTaskMask;
     private Set<String> globalTagBlacklist;

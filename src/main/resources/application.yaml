@@ -7,6 +7,8 @@ app:
     globalConfig:
       raConfig: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
       downloadedMediaDirBase: 'D:\ES-DE\ES-DE\downloaded_media'
+      romsAllDir: 'D:\ES-DE\ROMs_ALL'
+      romsDir: 'D:\ES-DE\ROMs'
       startupTaskMask: '!CLEAN_UP|!DEFAULT_CONFIG|!FIX_CHINESE_FONT|!SET_MEGA_BEZEL_SHADER|SET_PLATFORM'
       platformTaskMask: 'NES|!SNES|!MD'
       globalTagBlacklist:
@@ -136,6 +138,7 @@ app:
     ruleConfigMap:
       NES:
         platform: 'NES'
+        romDirName: 'nes'
         datFile: 'D:\Resources\dats\Nintendo - Nintendo Entertainment System.dat'
         romDir: 'D:\Resources\roms\nes'
         targetDirBase: 'D:\ES-DE\ROMs\nes'

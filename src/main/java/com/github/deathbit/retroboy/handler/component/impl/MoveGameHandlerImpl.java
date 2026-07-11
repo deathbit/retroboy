@@ -1,6 +1,7 @@
 package com.github.deathbit.retroboy.handler.component.impl;
 
 import com.github.deathbit.retroboy.component.FileComponent;
+import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.domain.CopyFileInput;
 import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.handler.component.MoveGameHandler;
@@ -16,6 +17,9 @@ public class MoveGameHandlerImpl implements MoveGameHandler {
 
     @Autowired
     private FileComponent fileComponent;
+
+    @Autowired
+    private AppConfig appConfig;
 
     @Override
     public void handle(RuleContext ruleContext) throws Exception {
@@ -35,12 +39,10 @@ public class MoveGameHandlerImpl implements MoveGameHandler {
         }
         ruleContext.setFilesToCopy(filesToCopy);
         fileComponent.batchCopyFiles(ruleContext.getFilesToCopy());
-        var targetDirBase = Paths.get(ruleContext.getRuleConfig().getTargetDirBase());
-        var targetPlatformDirName = targetDirBase.getFileName().toString();
-        var romsAllDir = targetDirBase.getParent().resolveSibling("ROMs_ALL");
+        var romDirName = ruleContext.getRuleConfig().getRomDirName();
         fileComponent.batchCopyFiles(List.of(CopyFileInput.builder()
-                                                          .srcFile(romsAllDir.resolve(targetPlatformDirName).resolve("systeminfo.txt").toString())
-                                                          .destDir(targetDirBase.toString())
+                                                          .srcFile(Paths.get(appConfig.getGlobalConfig().getRomsAllDir(), romDirName, "systeminfo.txt").toString())
+                                                          .destDir(Paths.get(appConfig.getGlobalConfig().getRomsDir(), romDirName).toString())
                                                           .build()));
     }
 }

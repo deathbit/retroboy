@@ -5,6 +5,7 @@ import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.handler.component.MediaHandler;
 import com.github.deathbit.retroboy.handler.component.MoveGameHandler;
 import com.github.deathbit.retroboy.handler.component.RenameGameHandler;
+import com.github.deathbit.retroboy.handler.component.ReleaseHandler;
 import com.github.deathbit.retroboy.handler.component.RuleContextInitializer;
 import com.github.deathbit.retroboy.handler.component.RuleEngine;
 import com.github.deathbit.retroboy.handler.component.ReportHandler;
@@ -28,6 +29,8 @@ public abstract class AbstractHandler implements Handler {
     private MediaHandler mediaHandler;
     @Autowired
     private ReportHandler reportHandler;
+    @Autowired
+    private ReleaseHandler releaseHandler;
 
     @Override
     public void handle() throws Exception {
@@ -37,6 +40,7 @@ public abstract class AbstractHandler implements Handler {
         renameGameHandler.handle(ruleContext);
         mediaHandler.handle(ruleContext);
         reportHandler.handle(ruleContext);
+        releaseHandler.handle(ruleContext);
     }
 
     @Override
