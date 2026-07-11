@@ -35,7 +35,12 @@ public class MoveGameHandlerImpl implements MoveGameHandler {
         }
         ruleContext.setFilesToCopy(filesToCopy);
         fileComponent.batchCopyFiles(ruleContext.getFilesToCopy());
-        // TODO copy system config
+        var targetDirBase = Paths.get(ruleContext.getRuleConfig().getTargetDirBase());
+        var targetPlatformDirName = targetDirBase.getFileName().toString();
+        var romsAllDir = targetDirBase.getParent().resolveSibling("ROMs_ALL");
+        fileComponent.batchCopyFiles(List.of(CopyFileInput.builder()
+                                                          .srcFile(romsAllDir.resolve(targetPlatformDirName).resolve("systeminfo.txt").toString())
+                                                          .destDir(targetDirBase.toString())
+                                                          .build()));
     }
 }
-
