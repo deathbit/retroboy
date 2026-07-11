@@ -18,6 +18,7 @@ public class RuleConfig {
     private String romDirName;
     private String datFile;
     private String romDir;
+    private String defaultCore;
     private String targetDirBase;
     private List<AreaConfig> targetAreaConfigs;
     private Set<String> tagBlackList;

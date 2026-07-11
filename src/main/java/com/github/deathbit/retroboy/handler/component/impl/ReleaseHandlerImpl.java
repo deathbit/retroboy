@@ -26,6 +26,7 @@ public class ReleaseHandlerImpl implements ReleaseHandler {
     @Override
     public void handle(RuleContext ruleContext) throws Exception {
         var romDirName = ruleContext.getRuleConfig().getRomDirName();
+        var defaultCore = ruleContext.getRuleConfig().getDefaultCore();
         var downloadedMediaDirBase = appConfig.getGlobalConfig().getDownloadedMediaDirBase();
         var romsDirBase = appConfig.getGlobalConfig().getRomsDir();
 
@@ -36,13 +37,16 @@ public class ReleaseHandlerImpl implements ReleaseHandler {
                                 .resolve(romDirName)
                                 .resolve("gamelist.xml");
         var romsDir = Paths.get(romsDirBase, romDirName);
+        var coreConfigDir = Paths.get(appConfig.getGlobalConfig().getRaConfig()).getParent().resolve("config").resolve(defaultCore);
+        var coreOptionFile = coreConfigDir.resolve(defaultCore + ".opt");
+        var coreShaderFile = coreConfigDir.resolve(defaultCore + ".slangp");
         var releaseDir = Paths.get("release");
         Files.createDirectories(releaseDir);
         var releaseFile = releaseDir.resolve(ruleContext.getPlatform().name() + ".zip");
         deletePreviousReleaseFile(releaseFile);
 
         var commonRoot = Paths.get(romsDirBase).getParent().getParent();
-        zip(releaseFile, commonRoot, List.of(downloadedMediaDir, gamelistFile, romsDir));
+        zip(releaseFile, commonRoot, List.of(downloadedMediaDir, gamelistFile, romsDir, coreOptionFile, coreShaderFile));
     }
 
     private void deletePreviousReleaseFile(Path releaseFile) throws Exception {
