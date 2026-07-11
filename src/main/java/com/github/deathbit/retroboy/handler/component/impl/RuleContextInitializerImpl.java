@@ -10,6 +10,7 @@ import com.github.deathbit.retroboy.handler.Handler;
 import com.github.deathbit.retroboy.handler.component.RuleContextInitializer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.util.CollectionUtils;
 import org.w3c.dom.Element;
 
 import java.io.File;
@@ -50,6 +51,9 @@ public class RuleContextInitializerImpl implements RuleContextInitializer {
                                                     .stream()
                                                     .filter(targetAreaConfig -> area == targetAreaConfig.getArea())
                                                     .findFirst().orElseThrow());
+        if (CollectionUtils.isEmpty(ruleContext.getCurrentAreaConfig().getFileNameBlackList())) {
+            ruleContext.getCurrentAreaConfig().setFileNameBlackList(new HashSet<>());
+        }
     }
 
     @Override

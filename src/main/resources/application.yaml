@@ -66,6 +66,7 @@ app:
         - 'D:\ES-DE\Emulators\RetroArch-Win64\shaders'
         - 'D:\ES-DE\Emulators\RetroArch-Win64\system'
         - 'D:\ES-DE\ROMs'
+        - 'D:\ES-DE\ES-DE\themes'
       deleteFiles:
         - 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
     defaultConfigTask:
@@ -90,6 +91,8 @@ app:
           destDir: 'D:\ES-DE\Emulators\RetroArch-Win64\shaders'
         - srcDir: 'D:\Resources\RetroArch-Win64\system'
           destDir: 'D:\ES-DE\Emulators\RetroArch-Win64\system'
+        - srcDir: 'D:\Resources\themes'
+          destDir: 'D:\ES-DE\ES-DE\themes'
       copyFileInputs:
         - srcFile: 'D:\Resources\retroarch.cfg'
           destDir: 'D:\ES-DE\Emulators\RetroArch-Win64'
@@ -140,20 +143,19 @@ app:
           - area: 'EUR'
             fileNameBlackList:
                 - 'F-15 Strike Eagle (Europe) (En,Sv,Da,Fi).nes'
-                - 'Miracle Piano Teaching System, The (Germany).nes'
-                - 'Monopoly (Germany).nes'
                 - 'Punch-Out!! (Europe).nes'
                 - 'Super Mario Bros. + Duck Hunt (Europe, Asia) (En).nes'
                 - 'Super Mario Bros. + Tetris + Nintendo World Cup (Europe) (Rev 1).nes'
-                - 'Teenage Mutant Ninja Turtles (Australia).nes'
-                - 'Teenage Mutant Ninja Turtles II - The Arcade Game (Australia).nes'
+                - 'Mario Bros. (Europe) (PAL-MA-0).nes'
+                - 'Super Mario Bros. (Europe).nes'
             renameOptions:
               - oldName: 'Mario Bros. (Europe) (PAL-MA-0).nes'
                 newName: 'Mario Bros..nes'
               - oldName: 'Mario Bros. (Europe) (PAL-MC-0, Classic Series).nes'
                 newName: 'Mario Bros. Classic Series.nes'
           - area: 'JPN'
-            fileNameBlackList: ['Kung Fu (Japan, USA) (En).nes']
+            fileNameBlackList:
+              - 'Kung Fu (Japan, USA) (En).nes'
             renameOptions:
               - oldName: 'Star Wars (Japan) (Namco).nes'
                 newName: 'Star Wars (Namco).nes'
