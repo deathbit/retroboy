@@ -40,7 +40,8 @@ public class ReleaseHandlerImpl implements ReleaseHandler {
                                 .resolve(romDirName)
                                 .resolve("gamelist.xml");
         var romsDir = Paths.get(romsDirBase, romDirName);
-        var coreConfigDir = Paths.get(appConfig.getGlobalConfig().getRaConfig()).getParent().resolve("config").resolve(defaultCore);
+        var retroArchDir = Paths.get(appConfig.getGlobalConfig().getRaConfig()).getParent();
+        var coreConfigDir = retroArchDir.resolve("config").resolve(defaultCore);
         var coreOptionFile = coreConfigDir.resolve(defaultCore + ".opt");
         var coreShaderFile = coreConfigDir.resolve(defaultCore + ".slangp");
         var releaseDir = Paths.get("release");

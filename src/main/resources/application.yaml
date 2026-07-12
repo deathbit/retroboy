@@ -10,7 +10,7 @@ app:
       romsAllDir: 'D:\ES-DE\ROMs_ALL'
       romsDir: 'D:\ES-DE\ROMs'
       startupTaskMask: '!CLEAN_UP|!DEFAULT_CONFIG|!FIX_CHINESE_FONT|!SET_MEGA_BEZEL_SHADER|SET_PLATFORM'
-      platformTaskMask: '!NES|FDS'
+      platformTaskMask: '!NES|!FDS'
       globalRomWhitelist:
         - 'All Night Nippon Super Mario Bros. (Japan) (Promo).fds'
         - 'Soccer (Japan).fds'
@@ -77,6 +77,8 @@ app:
         - 'D:\ES-DE\Emulators\RetroArch-Win64\system'
         - 'D:\ES-DE\ROMs'
         - 'D:\ES-DE\ES-DE\themes'
+        - 'D:\ES-DE\ES-DE\downloaded_media'
+        - 'D:\ES-DE\ES-DE\gamelists'
       deleteFiles:
         - 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
     defaultConfigTask:
@@ -103,6 +105,10 @@ app:
           destDir: 'D:\ES-DE\Emulators\RetroArch-Win64\system'
         - srcDir: 'D:\Resources\themes'
           destDir: 'D:\ES-DE\ES-DE\themes'
+        - srcDir: 'D:\Resources\downloaded_media'
+          destDir: 'D:\ES-DE\ES-DE\downloaded_media'
+        - srcDir: 'D:\Resources\gamelists'
+          destDir: 'D:\ES-DE\ES-DE\gamelists'
       copyFileInputs:
         - srcFile: 'D:\Resources\retroarch.cfg'
           destDir: 'D:\ES-DE\Emulators\RetroArch-Win64'
@@ -146,7 +152,7 @@ app:
     ruleConfigMap:
       NES:
         platform: 'NES'
-        ready: true
+        ready: false
         romDirName: 'nes'
         defaultCore: 'Mesen'
         datFile: 'D:\Resources\dats\Nintendo - Nintendo Entertainment System.dat'

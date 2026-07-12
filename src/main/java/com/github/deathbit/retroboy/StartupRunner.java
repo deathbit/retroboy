@@ -63,7 +63,9 @@ public class StartupRunner implements ApplicationRunner {
             fileComponent.batchCopyFiles(appConfig.getSetMegaBezelShaderTask().getCopyDefaultMegaBezelShader());
             configComponent.batchChangeRaConfigs(appConfig.getSetMegaBezelShaderTask().getSetMegaBezelShaderConfigInputs());
         });
-        runStartupTask(StartupTask.SET_PLATFORM, "设置平台", this::describeSetPlatformTask, this::runSetPlatformTask);
+        if (isTaskEnabled(StartupTask.SET_PLATFORM)) {
+            runSetPlatformTask();
+        }
     }
 
     private void runStartupTask(StartupTask startupTask, String taskName, Supplier<List<String>> taskDescriptionSupplier, StartupTaskRunner runner) throws Exception {
@@ -122,20 +124,12 @@ public class StartupRunner implements ApplicationRunner {
         ).flatMap(stream -> stream).toList();
     }
 
-    private List<String> describeSetPlatformTask() {
-        var enabledHandlers = getEnabledPlatformHandlers();
-        if (enabledHandlers.isEmpty()) {
-            return List.of("未启用平台");
-        }
-
-        return enabledHandlers.stream()
-                .map(handler -> "设置%s".formatted(handler.getPlatform().name()))
-                .toList();
-    }
-
     private void runSetPlatformTask() throws Exception {
         for (var handler : getEnabledPlatformHandlers()) {
+            var taskName = "设置" + handler.getPlatform().name();
+            printTask(taskName, null);
             handler.handle();
+            printTaskDone(taskName);
         }
     }
 
