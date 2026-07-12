@@ -21,6 +21,7 @@ public class RuleContext {
     private RuleConfig ruleConfig;
     private Set<String> licensed;
     private Set<String> globalTagBlackList;
+    private Set<String> globalRomWhitelist;
     private Map<String, FileContext> fileContextMap;
     private Map<Area, Set<String>> areaFinalMap;
     private Map<Area, Rule> ruleMap;

@@ -3,6 +3,13 @@ package com.github.deathbit.retroboy.rule;
 import com.github.deathbit.retroboy.rule.complex.RuleIsHighestRevision;
 
 public class Rules {
+    public static final Rule IS_WHITELIST = (rc, fc) -> {
+        if (rc.getGlobalRomWhitelist().contains(fc.getFileName())) {
+            return true;
+        }
+        rc.getFailureReasons().add("IS_WHITELIST失败: 不在全局ROM白名单中");
+        return false;
+    };
     public static final Rule IS_LICENSED = (rc, fc) -> {
         if (rc.getLicensed().contains(fc.getFullName())) {
             return true;
@@ -84,7 +91,8 @@ public class Rules {
         .and(IS_NOT_HITTING_PLATFORM_FILE_NAME_BLACKLIST)
         .and(IS_NOT_HITTING_PLATFORM_AREA_FILE_NAME_BLACKLIST)
         .and(IS_HIGHEST_REVISION);
-    public static final Rule IS_JAPAN_BASE = IS_BASE.and(IS_JAPAN_OR_WORLD);
-    public static final Rule IS_USA_BASE = IS_BASE.and(IS_USA_OR_WORLD);
-    public static final Rule IS_EUROPE_BASE = IS_BASE.and(IS_EUROPE_OR_WORLD);
+    public static final Rule IS_BASE_WITH_ROM_WHITELIST = IS_WHITELIST.or(IS_BASE);
+    public static final Rule IS_JAPAN_BASE = IS_BASE_WITH_ROM_WHITELIST.and(IS_JAPAN_OR_WORLD);
+    public static final Rule IS_USA_BASE = IS_BASE_WITH_ROM_WHITELIST.and(IS_USA_OR_WORLD);
+    public static final Rule IS_EUROPE_BASE = IS_BASE_WITH_ROM_WHITELIST.and(IS_EUROPE_OR_WORLD);
 }

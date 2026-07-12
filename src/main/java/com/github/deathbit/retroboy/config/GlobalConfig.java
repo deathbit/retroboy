@@ -15,4 +15,5 @@ public class GlobalConfig {
     private String startupTaskMask;
     private String platformTaskMask;
     private Set<String> globalTagBlacklist;
+    private Set<String> globalRomWhitelist;
 }

@@ -71,6 +71,7 @@ public class RuleContextInitializerImpl implements RuleContextInitializer {
             ruleContext.getAreaFinalMap().put(areaConfig.getArea(), new LinkedHashSet<>());
         }
         ruleContext.setGlobalTagBlackList(appConfig.getGlobalConfig().getGlobalTagBlacklist());
+        ruleContext.setGlobalRomWhitelist(appConfig.getGlobalConfig().getGlobalRomWhitelist());
         return ruleContext;
     }
 

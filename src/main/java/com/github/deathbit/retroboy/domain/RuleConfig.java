@@ -15,6 +15,7 @@ import java.util.Set;
 @AllArgsConstructor
 public class RuleConfig {
     private Platform platform;
+    private Boolean ready;
     private String romDirName;
     private String datFile;
     private String romDir;

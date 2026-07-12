@@ -25,6 +25,9 @@ public class ReleaseHandlerImpl implements ReleaseHandler {
 
     @Override
     public void handle(RuleContext ruleContext) throws Exception {
+        if (!ruleContext.getRuleConfig().getReady()) {
+            return;
+        }
         var romDirName = ruleContext.getRuleConfig().getRomDirName();
         var defaultCore = ruleContext.getRuleConfig().getDefaultCore();
         var downloadedMediaDirBase = appConfig.getGlobalConfig().getDownloadedMediaDirBase();

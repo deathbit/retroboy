@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
 
 public enum Platform {
     NES,
+    FDS,
     SNES,
     MD;
 
