@@ -9,7 +9,7 @@ import java.util.Locale;
 import java.util.stream.Collectors;
 
 @Getter
-public enum StartupTask {
+public enum BasePackTask {
     CLEAN_UP(1L),
     DEFAULT_CONFIG(1L << 1),
     FIX_CHINESE_FONT(1L << 2),
@@ -22,36 +22,33 @@ public enum StartupTask {
 
     private final long mask;
 
-    StartupTask(long mask) {
+    BasePackTask(long mask) {
         this.mask = mask;
     }
 
-    /**
-     * Supports pipe-delimited task names and legacy numeric masks. Explicitly disabled tasks win over enabled tasks.
-     */
-    public static boolean isEnabled(StartupTask startupTask, String startupTaskMask) {
+    public static boolean isEnabled(BasePackTask basePackTask, String startupTaskMask) {
         if (startupTaskMask == null || startupTaskMask.isBlank()) {
             return false;
         }
 
         String trimmedStartupTaskMask = startupTaskMask.trim();
         if (isNumeric(trimmedStartupTaskMask)) {
-            return (Long.parseLong(trimmedStartupTaskMask) & startupTask.getMask()) != 0;
+            return (Long.parseLong(trimmedStartupTaskMask) & basePackTask.getMask()) != 0;
         }
 
-        return parseStartupTaskMask(trimmedStartupTaskMask).isEnabled(startupTask);
+        return parseStartupTaskMask(trimmedStartupTaskMask).isEnabled(basePackTask);
     }
 
     private static StartupTaskMask parseStartupTaskMask(String startupTaskMask) {
-        EnumSet<StartupTask> enabledTasks = EnumSet.noneOf(StartupTask.class);
-        EnumSet<StartupTask> disabledTasks = EnumSet.noneOf(StartupTask.class);
+        EnumSet<BasePackTask> enabledTasks = EnumSet.noneOf(BasePackTask.class);
+        EnumSet<BasePackTask> disabledTasks = EnumSet.noneOf(BasePackTask.class);
 
         Arrays.stream(startupTaskMask.split("\\|"))
                 .map(String::trim)
                 .filter(token -> !token.isBlank())
                 .forEach(token -> {
                     boolean disabled = token.startsWith("!");
-                    StartupTask task = parseTask(disabled ? token.substring(1).trim() : token);
+                    BasePackTask task = parseTask(disabled ? token.substring(1).trim() : token);
                     if (disabled) {
                         disabledTasks.add(task);
                     } else {
@@ -63,9 +60,9 @@ public enum StartupTask {
         return new StartupTaskMask(enabledTasks);
     }
 
-    private static StartupTask parseTask(String value) {
+    private static BasePackTask parseTask(String value) {
         try {
-            return StartupTask.valueOf(value.toUpperCase(Locale.ROOT));
+            return BasePackTask.valueOf(value.toUpperCase(Locale.ROOT));
         } catch (IllegalArgumentException exception) {
             throw new IllegalArgumentException(
                     "Unknown startup task: %s. Valid tasks are: %s".formatted(value, VALID_TASK_NAMES),

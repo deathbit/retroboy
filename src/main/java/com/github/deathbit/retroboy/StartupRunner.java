@@ -9,7 +9,7 @@ import com.github.deathbit.retroboy.config.tasks.FixChineseFontTask;
 import com.github.deathbit.retroboy.config.tasks.SetMegaBezelShaderTask;
 import com.github.deathbit.retroboy.domain.*;
 import com.github.deathbit.retroboy.enums.Platform;
-import com.github.deathbit.retroboy.enums.StartupTask;
+import com.github.deathbit.retroboy.enums.BasePackTask;
 import com.github.deathbit.retroboy.handler.Handler;
 import org.jspecify.annotations.NonNull;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,33 +43,41 @@ public class StartupRunner implements ApplicationRunner {
 
     @Override
     public void run(@NonNull ApplicationArguments args) throws Exception {
+        buildingBasePack();
+        buildingPlatformPack();
+    }
+
+    private void buildingBasePack() throws Exception {
         printAsciiArt();
-        runStartupTask(StartupTask.CLEAN_UP, "清理目录和文件", this::describeCleanUpTask, () -> {
+        runStartupTask(BasePackTask.CLEAN_UP, "清理目录和文件", this::describeCleanUpTask, () -> {
             fileComponent.batchCleanDirs(appConfig.getCleanUpTask().getCleanDirs());
             fileComponent.batchDeleteFiles(appConfig.getCleanUpTask().getDeleteFiles());
         });
-        runStartupTask(StartupTask.DEFAULT_CONFIG, "默认配置", this::describeDefaultConfigTask, () -> {
+        runStartupTask(BasePackTask.DEFAULT_CONFIG, "默认配置", this::describeDefaultConfigTask, () -> {
             fileComponent.batchCopyDirContentsToDirs(appConfig.getDefaultConfigTask().getCopyDirContentsInputs());
             fileComponent.batchCopyFiles(appConfig.getDefaultConfigTask().getCopyFileInputs());
             configComponent.batchChangeRaConfigs(appConfig.getDefaultConfigTask().getRaConfigInputs());
         });
-        runStartupTask(StartupTask.FIX_CHINESE_FONT, "修复中文字体", this::describeFixChineseFontTask, () -> {
+        runStartupTask(BasePackTask.FIX_CHINESE_FONT, "修复中文字体", this::describeFixChineseFontTask, () -> {
             fileComponent.batchDeleteFiles(List.of(appConfig.getFixChineseFontTask().getDeleteOriginalFontFile()));
             fileComponent.batchCopyFiles(List.of(appConfig.getFixChineseFontTask().getCopyNewFontFile()));
             configComponent.batchChangeRaConfigs(List.of(appConfig.getFixChineseFontTask().getSetNotificationFont()));
         });
-        runStartupTask(StartupTask.SET_MEGA_BEZEL_SHADER, "设置Mega Bezel着色器", this::describeSetMegaBezelShaderTask, () -> {
+        runStartupTask(BasePackTask.SET_MEGA_BEZEL_SHADER, "设置Mega Bezel着色器", this::describeSetMegaBezelShaderTask, () -> {
             fileComponent.batchCopyDirs(List.of(appConfig.getSetMegaBezelShaderTask().getCopyMegaBezelPacks()));
             fileComponent.batchCopyFiles(appConfig.getSetMegaBezelShaderTask().getCopyDefaultMegaBezelShader());
             configComponent.batchChangeRaConfigs(appConfig.getSetMegaBezelShaderTask().getSetMegaBezelShaderConfigInputs());
         });
-        if (isTaskEnabled(StartupTask.SET_PLATFORM)) {
+    }
+
+    private void buildingPlatformPack() throws Exception {
+        if (isTaskEnabled(BasePackTask.SET_PLATFORM)) {
             runSetPlatformTask();
         }
     }
 
-    private void runStartupTask(StartupTask startupTask, String taskName, Supplier<List<String>> taskDescriptionSupplier, StartupTaskRunner runner) throws Exception {
-        if (!isTaskEnabled(startupTask)) {
+    private void runStartupTask(BasePackTask basePackTask, String taskName, Supplier<List<String>> taskDescriptionSupplier, StartupTaskRunner runner) throws Exception {
+        if (!isTaskEnabled(basePackTask)) {
             return;
         }
 
@@ -78,8 +86,8 @@ public class StartupRunner implements ApplicationRunner {
         printTaskDone(taskName);
     }
 
-    private boolean isTaskEnabled(StartupTask startupTask) {
-        return StartupTask.isEnabled(startupTask, appConfig.getGlobalConfig().getStartupTaskMask());
+    private boolean isTaskEnabled(BasePackTask basePackTask) {
+        return BasePackTask.isEnabled(basePackTask, appConfig.getGlobalConfig().getStartupTaskMask());
     }
 
     private boolean isPlatformEnabled(Platform platform) {
