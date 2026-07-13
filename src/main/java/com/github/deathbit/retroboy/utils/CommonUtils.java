@@ -1,23 +1,23 @@
 package com.github.deathbit.retroboy.utils;
 
+import java.security.SecureRandom;
+import java.security.cert.X509Certificate;
+import java.util.List;
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
-import java.security.SecureRandom;
-import java.security.cert.X509Certificate;
-import java.util.List;
 
 public class CommonUtils {
 
-    private static final String border = "+" + "-".repeat(200) + "+";
+    private static final String HORIZONTAL_LINE = "+" + "-".repeat(200) + "+";
     private static final int barLength = 100;
 
     public static void printTask(String mainTaskName, List<String> subTaskNames) {
         System.out.println();
-        System.out.println(border);
+        System.out.println(HORIZONTAL_LINE);
         System.out.println("| " + mainTaskName);
-        System.out.println(border);
+        System.out.println(HORIZONTAL_LINE);
 
         if (subTaskNames != null && !subTaskNames.isEmpty()) {
             for (int i = 0; i < subTaskNames.size(); i++) {
@@ -27,24 +27,24 @@ public class CommonUtils {
             }
         }
 
-        System.out.println(border);
+        System.out.println(HORIZONTAL_LINE);
     }
 
     public static void printTaskDone(String taskName) {
-        System.out.println(border);
+        System.out.println(HORIZONTAL_LINE);
         System.out.println("| " + taskName + " 完成");
-        System.out.println(border);
+        System.out.println(HORIZONTAL_LINE);
     }
 
     public static void printAsciiArt() {
-        System.out.println(border);
+        System.out.println(HORIZONTAL_LINE);
         System.out.print("""
                 ▗▄▄▖ ▗▄▄▄▖▗▄▄▄▖▗▄▄▖  ▗▄▖ ▗▄▄▖  ▗▄▖▗▖  ▗▖
                 ▐▌ ▐▌▐▌     █  ▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌▝▚▞▘\s
                 ▐▛▀▚▖▐▛▀▀▘  █  ▐▛▀▚▖▐▌ ▐▌▐▛▀▚▖▐▌ ▐▌ ▐▌ \s
                 ▐▌ ▐▌▐▙▄▄▖  █  ▐▌ ▐▌▝▚▄▞▘▐▙▄▞▘▝▚▄▞▘ ▐▌  by deathbit\s
                 """);
-        System.out.println(border);
+        System.out.println(HORIZONTAL_LINE);
     }
 
     public static void configureTrustAllSSL() throws Exception {

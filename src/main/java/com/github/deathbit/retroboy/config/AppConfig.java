@@ -1,5 +1,6 @@
 package com.github.deathbit.retroboy.config;
 
+import com.github.deathbit.retroboy.config.basepacktask.DeleteAllTask;
 import com.github.deathbit.retroboy.config.tasks.CleanUpTask;
 import com.github.deathbit.retroboy.config.tasks.DefaultConfigTask;
 import com.github.deathbit.retroboy.config.tasks.FixChineseFontTask;
@@ -16,6 +17,7 @@ import java.util.Map;
 @Component
 @ConfigurationProperties(prefix = "app.config")
 public class AppConfig {
+    private DeleteAllTask deleteAllTask;
     private GlobalConfig globalConfig;
     private CleanUpTask cleanUpTask;
     private DefaultConfigTask defaultConfigTask;
