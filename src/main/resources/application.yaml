@@ -9,8 +9,8 @@ app:
       downloadedMediaDirBase: 'D:\ES-DE\ES-DE\downloaded_media'
       romsAllDir: 'D:\ES-DE\ROMs_ALL'
       romsDir: 'D:\ES-DE\ROMs'
-      startupTaskMask: '!CLEAN_UP|!DEFAULT_CONFIG|!FIX_CHINESE_FONT|!SET_MEGA_BEZEL_SHADER|SET_PLATFORM'
-      platformTaskMask: '!NES|!FDS'
+      startupTaskMask: 'CLEAN_UP|DEFAULT_CONFIG|FIX_CHINESE_FONT|SET_MEGA_BEZEL_SHADER|SET_PLATFORM'
+      platformTaskMask: 'NES|FDS'
       globalRomWhitelist:
         - 'All Night Nippon Super Mario Bros. (Japan) (Promo).fds'
         - 'Soccer (Japan).fds'
@@ -152,7 +152,7 @@ app:
     ruleConfigMap:
       NES:
         platform: 'NES'
-        ready: false
+        ready: true
         romDirName: 'nes'
         defaultCore: 'Mesen'
         datFile: 'D:\Resources\dats\Nintendo - Nintendo Entertainment System.dat'
@@ -226,7 +226,7 @@ app:
           - 'Yie Ar Kung-Fu (Japan) (En) (Rev 1.2).nes'
       FDS:
         platform: 'FDS'
-        ready: false
+        ready: true
         romDirName: 'fds'
         defaultCore: 'Mesen'
         datFile: 'D:\Resources\dats\Nintendo - Family Computer Disk System.dat'

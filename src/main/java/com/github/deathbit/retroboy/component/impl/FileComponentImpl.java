@@ -123,7 +123,9 @@ public class FileComponentImpl implements FileComponent {
             Path destPath = Paths.get(input.getDestDir());
             Files.createDirectories(destPath);
             try (Stream<Path> walk = Files.walk(srcPath)) {
-                List<Path> sources = walk.filter(source -> !source.equals(srcPath)).toList();
+                List<Path> sources = walk.filter(source -> !source.equals(srcPath))
+                                        .filter(source -> !isInGitDir(srcPath, source))
+                                        .toList();
                 copy(pb, srcPath, destPath, sources);
             }
         }
@@ -146,6 +148,15 @@ public class FileComponentImpl implements FileComponent {
             pb.updateTask(i);
         }
         pb.finishTaskAndClose();
+    }
+
+    private boolean isInGitDir(Path srcPath, Path source) {
+        for (Path part : srcPath.relativize(source)) {
+            if (part.toString().equals(".git")) {
+                return true;
+            }
+        }
+        return false;
     }
 
     private void copy(ProgressBar pb, Path srcPath, Path targetPath, List<Path> sources) throws IOException {

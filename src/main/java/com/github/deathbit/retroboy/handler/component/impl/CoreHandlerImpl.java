@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 
 @Component
 public class CoreHandlerImpl implements CoreHandler {
@@ -20,25 +21,17 @@ public class CoreHandlerImpl implements CoreHandler {
 
     @Override
     public void handle(RuleContext ruleContext) throws Exception {
-        if (!ruleContext.getRuleConfig().getReady()) {
-            return;
-        }
-
         var defaultCore = ruleContext.getRuleConfig().getDefaultCore();
         var retroArchDir = Paths.get(appConfig.getGlobalConfig().getRaConfig()).getParent();
         var coreConfigDir = retroArchDir.resolve("config").resolve(defaultCore);
-        copyCoreConfigFileIfMissing(retroArchDir, coreConfigDir.resolve(defaultCore + ".opt"));
-        copyCoreConfigFileIfMissing(retroArchDir, coreConfigDir.resolve(defaultCore + ".slangp"));
+        copyCoreConfigFile(retroArchDir, coreConfigDir.resolve(defaultCore + ".opt"));
+        copyCoreConfigFile(retroArchDir, coreConfigDir.resolve(defaultCore + ".slangp"));
     }
 
-    private void copyCoreConfigFileIfMissing(Path retroArchDir, Path targetFile) throws Exception {
-        if (Files.isRegularFile(targetFile)) {
-            return;
-        }
-
+    private void copyCoreConfigFile(Path retroArchDir, Path targetFile) throws Exception {
         var sourceFile = resolveRetroArchResourceDir(retroArchDir).resolve(retroArchDir.relativize(targetFile));
         Files.createDirectories(targetFile.getParent());
-        Files.copy(sourceFile, targetFile);
+        Files.copy(sourceFile, targetFile, StandardCopyOption.REPLACE_EXISTING);
     }
 
     private Path resolveRetroArchResourceDir(Path retroArchDir) {
@@ -58,4 +51,3 @@ public class CoreHandlerImpl implements CoreHandler {
                                 .orElse(DEFAULT_RETRO_ARCH_RESOURCE_DIR);
     }
 }
-
