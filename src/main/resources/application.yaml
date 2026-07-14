@@ -7,7 +7,7 @@ app:
     deleteAllTask:
       taskName: '删除全部内容'
       enabled: true
-      deleteDir: 'D:\ES-DE'
+      deletePath: 'D:\ES-DE'
     globalConfig:
       raConfig: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
       downloadedMediaDirBase: 'D:\ES-DE\ES-DE\downloaded_media'

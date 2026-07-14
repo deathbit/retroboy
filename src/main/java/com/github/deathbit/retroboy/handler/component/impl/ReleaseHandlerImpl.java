@@ -12,6 +12,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.zip.ZipEntry;
@@ -62,31 +63,13 @@ public class ReleaseHandlerImpl implements ReleaseHandler {
     }
 
     private void zip(Path releaseFile, Path commonRoot, List<Path> sources) throws Exception {
-        ProgressBar pb = new ProgressBar("生成新包", sources.size());
+        ProgressBar pb = new ProgressBar("生成新包");
+        List<Path> sourcePaths = collectSourcePaths(sources);
+        pb.startTask(sourcePaths.size());
         try (var outputStream = new ZipOutputStream(new BufferedOutputStream(Files.newOutputStream(
                 releaseFile,
                 StandardOpenOption.CREATE,
                 StandardOpenOption.TRUNCATE_EXISTING)))) {
-            for (var source : sources) {
-                addSource(outputStream, commonRoot, source, pb);
-            }
-        } finally {
-            pb.close();
-        }
-    }
-
-    private void addSource(ZipOutputStream outputStream, Path commonRoot, Path source, ProgressBar pb) throws Exception {
-        if (Files.isRegularFile(source)) {
-            pb.startTask(1);
-            addFile(outputStream, commonRoot, source);
-            pb.updateTask(0);
-            pb.finishTask();
-            return;
-        }
-
-        try (var paths = Files.walk(source)) {
-            var sourcePaths = paths.sorted(Comparator.naturalOrder()).toList();
-            pb.startTask(sourcePaths.size());
             for (int i = 0; i < sourcePaths.size(); i++) {
                 var path = sourcePaths.get(i);
                 if (Files.isDirectory(path)) {
@@ -97,7 +80,23 @@ public class ReleaseHandlerImpl implements ReleaseHandler {
                 pb.updateTask(i);
             }
             pb.finishTask();
+        } finally {
+            pb.close();
         }
+    }
+
+    private List<Path> collectSourcePaths(List<Path> sources) throws Exception {
+        List<Path> sourcePaths = new ArrayList<>();
+        for (var source : sources) {
+            if (Files.isRegularFile(source)) {
+                sourcePaths.add(source);
+            } else {
+                try (var paths = Files.walk(source)) {
+                    sourcePaths.addAll(paths.sorted(Comparator.naturalOrder()).toList());
+                }
+            }
+        }
+        return sourcePaths;
     }
 
     private void addDirectory(ZipOutputStream outputStream, Path commonRoot, Path directory) throws Exception {
