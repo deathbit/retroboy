@@ -44,18 +44,23 @@ public class FileComponentImpl implements FileComponent {
     @Override
     public void copyPath(String sourcePath, String targetPath) throws Exception {
         ProgressBar pb = new ProgressBar("拷贝路径");
-        Path source = Paths.get(sourcePath);
+        Path sourcePathObj = Paths.get(sourcePath);
         Path targetDir = Paths.get(targetPath);
         Files.createDirectories(targetDir);
+        if (Files.isDirectory(sourcePathObj)) {
 
-        if (Files.isDirectory(source)) {
-            Path targetRoot = targetDir.resolve(source.getFileName());
-            try (Stream<Path> walk = Files.walk(source)) {
+        } else {
+            Files.copy(sourcePathObj, targetDir.resolve(sourcePathObj.getFileName()), StandardCopyOption.REPLACE_EXISTING);
+        }
+
+        if (Files.isDirectory(sourcePathObj)) {
+            Path targetRoot = targetDir.resolve(sourcePathObj.getFileName());
+            try (Stream<Path> walk = Files.walk(sourcePathObj)) {
                 List<Path> paths = walk.toList();
                 pb.startTask(paths.size());
                 for (int i = 0; i < paths.size(); i++) {
                     Path currentSource = paths.get(i);
-                    Path currentTarget = targetRoot.resolve(source.relativize(currentSource));
+                    Path currentTarget = targetRoot.resolve(sourcePathObj.relativize(currentSource));
                     if (Files.isDirectory(currentSource)) {
                         Files.createDirectories(currentTarget);
                     } else {
@@ -69,7 +74,7 @@ public class FileComponentImpl implements FileComponent {
         }
 
         pb.startTask(1);
-        Files.copy(source, targetDir.resolve(source.getFileName()), StandardCopyOption.REPLACE_EXISTING);
+
         pb.updateTask(0);
         pb.finishTaskAndClose();
     }
