@@ -49,25 +49,25 @@ public class StartupRunner implements ApplicationRunner {
 
     private void buildingBasePack() throws Exception {
         printAsciiArt();
-        runStartupTask(BasePackTask.CLEAN_UP, "清理目录和文件", this::describeCleanUpTask, () -> {
-            fileComponent.batchCleanDirs(appConfig.getCleanUpTask().getCleanDirs());
-            fileComponent.batchDeleteFiles(appConfig.getCleanUpTask().getDeleteFiles());
-        });
-        runStartupTask(BasePackTask.DEFAULT_CONFIG, "默认配置", this::describeDefaultConfigTask, () -> {
-            fileComponent.batchCopyDirContentsToDirs(appConfig.getDefaultConfigTask().getCopyDirContentsInputs());
-            fileComponent.batchCopyFiles(appConfig.getDefaultConfigTask().getCopyFileInputs());
-            configComponent.batchChangeRaConfigs(appConfig.getDefaultConfigTask().getRaConfigInputs());
-        });
-        runStartupTask(BasePackTask.FIX_CHINESE_FONT, "修复中文字体", this::describeFixChineseFontTask, () -> {
-            fileComponent.batchDeleteFiles(List.of(appConfig.getFixChineseFontTask().getDeleteOriginalFontFile()));
-            fileComponent.batchCopyFiles(List.of(appConfig.getFixChineseFontTask().getCopyNewFontFile()));
-            configComponent.batchChangeRaConfigs(List.of(appConfig.getFixChineseFontTask().getSetNotificationFont()));
-        });
-        runStartupTask(BasePackTask.SET_MEGA_BEZEL_SHADER, "设置Mega Bezel着色器", this::describeSetMegaBezelShaderTask, () -> {
-            fileComponent.batchCopyDirs(List.of(appConfig.getSetMegaBezelShaderTask().getCopyMegaBezelPacks()));
-            fileComponent.batchCopyFiles(appConfig.getSetMegaBezelShaderTask().getCopyDefaultMegaBezelShader());
-            configComponent.batchChangeRaConfigs(appConfig.getSetMegaBezelShaderTask().getSetMegaBezelShaderConfigInputs());
-        });
+//        runStartupTask(BasePackTask.CLEAN_UP, "清理目录和文件", this::describeCleanUpTask, () -> {
+//            fileComponent.batchCleanDirs(appConfig.getCleanUpTask().getCleanDirs());
+//            fileComponent.batchDeleteFiles(appConfig.getCleanUpTask().getDeleteFiles());
+//        });
+//        runStartupTask(BasePackTask.DEFAULT_CONFIG, "默认配置", this::describeDefaultConfigTask, () -> {
+//            fileComponent.batchCopyDirContentsToDirs(appConfig.getDefaultConfigTask().getCopyDirContentsInputs());
+//            fileComponent.batchCopyFiles(appConfig.getDefaultConfigTask().getCopyFileInputs());
+//            configComponent.batchChangeRaConfigs(appConfig.getDefaultConfigTask().getRaConfigInputs());
+//        });
+//        runStartupTask(BasePackTask.FIX_CHINESE_FONT, "修复中文字体", this::describeFixChineseFontTask, () -> {
+//            fileComponent.batchDeleteFiles(List.of(appConfig.getFixChineseFontTask().getDeleteOriginalFontFile()));
+//            fileComponent.batchCopyFiles(List.of(appConfig.getFixChineseFontTask().getCopyNewFontFile()));
+//            configComponent.batchChangeRaConfigs(List.of(appConfig.getFixChineseFontTask().getSetNotificationFont()));
+//        });
+//        runStartupTask(BasePackTask.SET_MEGA_BEZEL_SHADER, "设置Mega Bezel着色器", this::describeSetMegaBezelShaderTask, () -> {
+//            fileComponent.batchCopyDirs(List.of(appConfig.getSetMegaBezelShaderTask().getCopyMegaBezelPacks()));
+//            fileComponent.batchCopyFiles(appConfig.getSetMegaBezelShaderTask().getCopyDefaultMegaBezelShader());
+//            configComponent.batchChangeRaConfigs(appConfig.getSetMegaBezelShaderTask().getSetMegaBezelShaderConfigInputs());
+//        });
     }
 
     private void buildingPlatformPack() throws Exception {
@@ -76,7 +76,7 @@ public class StartupRunner implements ApplicationRunner {
         }
     }
 
-    private void runStartupTask(BasePackTask basePackTask, String taskName, Supplier<List<String>> taskDescriptionSupplier, StartupTaskRunner runner) throws Exception {
+    private void runStartupTask(BasePackTask basePackTask, String taskName, Supplier<List<String>> taskDescriptionSupplier, RunnableWithException runner) throws Exception {
         if (!isTaskEnabled(basePackTask)) {
             return;
         }

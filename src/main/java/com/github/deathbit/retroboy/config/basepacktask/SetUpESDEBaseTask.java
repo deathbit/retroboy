@@ -1,6 +1,5 @@
 package com.github.deathbit.retroboy.config.basepacktask;
 
-import com.github.deathbit.retroboy.config.BasePackTask;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

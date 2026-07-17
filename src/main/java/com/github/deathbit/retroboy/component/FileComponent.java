@@ -8,6 +8,10 @@ import com.github.deathbit.retroboy.domain.RenameFileInput;
 import java.util.List;
 
 public interface FileComponent {
+
+
+
+
     void batchDeleteFiles(List<String> files) throws Exception;
 
     void batchDeleteDirs(List<String> dirs) throws Exception;
