@@ -5,24 +5,16 @@ import lombok.Data;
 @Data
 public class ProgressBar {
     private String mainTaskName;
-    private Integer subTaskCount;
-    private Integer currentSubTaskIndex;
-    private Integer currentSubTaskTotal;
+    private Integer taskIndex;
+    private Integer taskTotal;
     private Double currentPercentage;
-    private Integer finishedTasks;
     private Integer barWidth;
 
     public ProgressBar(String mainTaskName) {
-        this(mainTaskName, 1);
-    }
-
-    public ProgressBar(String mainTaskName, Integer subTaskCount) {
         this.mainTaskName = mainTaskName;
-        this.subTaskCount = subTaskCount;
-        this.currentSubTaskIndex = 0;
-        this.currentSubTaskTotal = 0;
+        this.taskIndex = 0;
+        this.taskTotal = 0;
         this.currentPercentage = 0.0;
-        this.finishedTasks = 0;
         this.barWidth = 20;
     }
 
@@ -39,22 +31,30 @@ public class ProgressBar {
         return Math.max(0.0, Math.min(1.0, v));
     }
 
-    public void startTask(Integer currentSubTaskTotal) {
-        this.currentSubTaskTotal = currentSubTaskTotal;
+    public void startTask(Integer currentTaskTotal) {
+        this.taskTotal = Math.max(0, currentTaskTotal);
+        this.taskIndex = 0;
         currentPercentage = 0.0;
         renderProgressBar();
     }
 
-    public void updateTask(Integer currentSubTaskIndex) {
-        this.currentSubTaskIndex = currentSubTaskIndex;
-        this.currentPercentage = clamp((double) (currentSubTaskIndex + 1) / this.currentSubTaskTotal);
+    public void updateTask(Integer currentTaskIndex) {
+        if (taskTotal == 0) {
+            this.taskIndex = 0;
+            this.currentPercentage = 1.0;
+            renderProgressBar();
+            return;
+        }
+        this.taskIndex = Math.max(0, Math.min(currentTaskIndex, taskTotal - 1));
+        this.currentPercentage = clamp((double) (this.taskIndex + 1) / this.taskTotal);
         renderProgressBar();
     }
 
     public void finishTask() {
+        if (taskTotal > 0) {
+            taskIndex = taskTotal - 1;
+        }
         currentPercentage = 1.0;
-        renderProgressBar();
-        finishedTasks++;
         renderProgressBar();
     }
 
@@ -69,15 +69,19 @@ public class ProgressBar {
     }
 
     private void renderProgressBar() {
-        double totalPercentage = (double) finishedTasks / subTaskCount;
-        String line = String.format("\r| %s %s %5s | %s %10s",
+        int finishedCount = taskTotal == 0 ? 0 : taskIndex + 1;
+        String line = String.format("\r| %s %s %10s",
                 mainTaskName,
-                bar(totalPercentage, barWidth),
-                String.format("%d/%d", finishedTasks, subTaskCount),
                 bar(currentPercentage, barWidth),
-                String.format("%d/%d", currentSubTaskIndex + 1, currentSubTaskTotal)
+                String.format("%d/%d", finishedCount, taskTotal)
         );
         System.out.print(line);
         System.out.flush();
+    }
+
+    public void done() {
+        this.startTask(1);
+        this.updateTask(0);
+        this.finishTaskAndClose();
     }
 }

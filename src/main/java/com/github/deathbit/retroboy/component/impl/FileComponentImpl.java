@@ -13,12 +13,71 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Stream;
 
 @Component
 public class FileComponentImpl implements FileComponent {
+
+    @Override
+    public void deletePath(String path) throws Exception {
+        ProgressBar pb = new ProgressBar("删除路径");
+        Path pathObj = Paths.get(path);
+        if (Files.notExists(pathObj)) {
+            pb.done();
+            return;
+        }
+
+        try (Stream<Path> walk = Files.walk(pathObj)) {
+            List<Path> paths = walk.toList();
+            pb.startTask(paths.size());
+            for (int i = 0; i < paths.size(); i++) {
+                Files.delete(paths.get(i));
+                pb.updateTask(i);
+            }
+            pb.finishTaskAndClose();
+        }
+    }
+
+    @Override
+    public void copyPath(String sourcePath, String targetPath) throws Exception {
+        ProgressBar pb = new ProgressBar("拷贝路径");
+        Path sourcePathObj = Paths.get(sourcePath);
+        Path targetDir = Paths.get(targetPath);
+        Files.createDirectories(targetDir);
+        if (Files.isDirectory(sourcePathObj)) {
+
+        } else {
+            Files.copy(sourcePathObj, targetDir.resolve(sourcePathObj.getFileName()), StandardCopyOption.REPLACE_EXISTING);
+        }
+
+        if (Files.isDirectory(sourcePathObj)) {
+            Path targetRoot = targetDir.resolve(sourcePathObj.getFileName());
+            try (Stream<Path> walk = Files.walk(sourcePathObj)) {
+                List<Path> paths = walk.toList();
+                pb.startTask(paths.size());
+                for (int i = 0; i < paths.size(); i++) {
+                    Path currentSource = paths.get(i);
+                    Path currentTarget = targetRoot.resolve(sourcePathObj.relativize(currentSource));
+                    if (Files.isDirectory(currentSource)) {
+                        Files.createDirectories(currentTarget);
+                    } else {
+                        Files.copy(currentSource, currentTarget, StandardCopyOption.REPLACE_EXISTING);
+                    }
+                    pb.updateTask(i);
+                }
+                pb.finishTaskAndClose();
+            }
+            return;
+        }
+
+        pb.startTask(1);
+
+        pb.updateTask(0);
+        pb.finishTaskAndClose();
+    }
 
     @Override
     public void batchDeleteFiles(List<String> files) throws Exception {
@@ -33,43 +92,46 @@ public class FileComponentImpl implements FileComponent {
 
     @Override
     public void batchDeleteDirs(List<String> dirs) throws Exception {
-        ProgressBar pb = new ProgressBar("删除目录", dirs.size());
+        ProgressBar pb = new ProgressBar("删除目录");
+        List<Path> paths = new ArrayList<>();
         for (String dir : dirs) {
-            try (Stream<Path> walk = Files.walk(Paths.get(dir))) {
-                List<Path> paths = walk.sorted(Comparator.reverseOrder()).toList();
-                pb.startTask(paths.size());
-                for (int i = 0; i < paths.size(); i++) {
-                    Files.delete(paths.get(i));
-                    pb.updateTask(i);
-                }
-                pb.finishTask();
+            Path dirPath = Paths.get(dir);
+            if (Files.notExists(dirPath)) {
+                continue;
+            }
+            try (Stream<Path> walk = Files.walk(dirPath)) {
+                paths.addAll(walk.toList());
             }
         }
-        pb.close();
+        paths = paths.stream().distinct().sorted(Comparator.reverseOrder()).toList();
+        pb.startTask(paths.size());
+        for (int i = 0; i < paths.size(); i++) {
+            Files.delete(paths.get(i));
+            pb.updateTask(i);
+        }
+        pb.finishTaskAndClose();
     }
 
     @Override
     public void batchCleanDirs(List<String> dirs) throws Exception {
-        ProgressBar pb = new ProgressBar("清空目录", dirs.size());
+        ProgressBar pb = new ProgressBar("清空目录");
+        List<Path> paths = new ArrayList<>();
         for (String dir : dirs) {
             Path dirPath = Paths.get(dir);
             if (Files.notExists(dirPath)) {
-                pb.startTask(1);
-                pb.updateTask(0);
-                pb.finishTask();
                 continue;
             }
             try (Stream<Path> walk = Files.walk(dirPath)) {
-                List<Path> paths = walk.filter(p -> !p.equals(dirPath)).sorted(Comparator.reverseOrder()).toList();
-                pb.startTask(paths.size());
-                for (int i = 0; i < paths.size(); i++) {
-                    Files.delete(paths.get(i));
-                    pb.updateTask(i);
-                }
-                pb.finishTask();
+                paths.addAll(walk.filter(p -> !p.equals(dirPath)).toList());
             }
         }
-        pb.close();
+        paths = paths.stream().distinct().sorted(Comparator.reverseOrder()).toList();
+        pb.startTask(paths.size());
+        for (int i = 0; i < paths.size(); i++) {
+            Files.delete(paths.get(i));
+            pb.updateTask(i);
+        }
+        pb.finishTaskAndClose();
     }
 
     @Override
@@ -101,35 +163,35 @@ public class FileComponentImpl implements FileComponent {
 
     @Override
     public void batchCopyDirs(List<CopyDirInput> copyDirInputs) throws Exception {
-        ProgressBar pb = new ProgressBar("拷贝目录", copyDirInputs.size());
+        ProgressBar pb = new ProgressBar("拷贝目录");
+        List<CopyPath> copyPaths = new ArrayList<>();
         for (CopyDirInput input : copyDirInputs) {
             Path srcPath = Paths.get(input.getSrcDir());
             Path destPath = Paths.get(input.getDestDir());
             Path targetPath = destPath.resolve(srcPath.getFileName());
             Files.createDirectories(targetPath);
             try (Stream<Path> walk = Files.walk(srcPath)) {
-                List<Path> sources = walk.toList();
-                copy(pb, srcPath, targetPath, sources);
+                copyPaths.addAll(walk.map(source -> new CopyPath(source, targetPath.resolve(srcPath.relativize(source)))).toList());
             }
         }
-        pb.close();
+        copy(pb, copyPaths);
     }
 
     @Override
     public void batchCopyDirContentsToDirs(List<CopyDirContentsInput> copyDirContentsInputs) throws Exception {
-        ProgressBar pb = new ProgressBar("拷贝内容", copyDirContentsInputs.size());
+        ProgressBar pb = new ProgressBar("拷贝内容");
+        List<CopyPath> copyPaths = new ArrayList<>();
         for (CopyDirContentsInput input : copyDirContentsInputs) {
             Path srcPath = Paths.get(input.getSrcDir());
             Path destPath = Paths.get(input.getDestDir());
             Files.createDirectories(destPath);
             try (Stream<Path> walk = Files.walk(srcPath)) {
-                List<Path> sources = walk.filter(source -> !source.equals(srcPath))
-                                        .filter(source -> !isInGitDir(srcPath, source))
-                                        .toList();
-                copy(pb, srcPath, destPath, sources);
+                copyPaths.addAll(walk.filter(source -> !source.equals(srcPath))
+                                     .map(source -> new CopyPath(source, destPath.resolve(srcPath.relativize(source))))
+                                     .toList());
             }
         }
-        pb.close();
+        copy(pb, copyPaths);
     }
 
     @Override
@@ -150,20 +212,12 @@ public class FileComponentImpl implements FileComponent {
         pb.finishTaskAndClose();
     }
 
-    private boolean isInGitDir(Path srcPath, Path source) {
-        for (Path part : srcPath.relativize(source)) {
-            if (part.toString().equals(".git")) {
-                return true;
-            }
-        }
-        return false;
-    }
-
-    private void copy(ProgressBar pb, Path srcPath, Path targetPath, List<Path> sources) throws IOException {
-        pb.startTask(sources.size());
-        for (int i = 0; i < sources.size(); i++) {
-            Path source = sources.get(i);
-            Path destination = targetPath.resolve(srcPath.relativize(source));
+    private void copy(ProgressBar pb, List<CopyPath> copyPaths) throws IOException {
+        pb.startTask(copyPaths.size());
+        for (int i = 0; i < copyPaths.size(); i++) {
+            CopyPath copyPath = copyPaths.get(i);
+            Path source = copyPath.source();
+            Path destination = copyPath.destination();
             if (Files.isDirectory(source)) {
                 Files.createDirectories(destination);
             } else {
@@ -171,6 +225,9 @@ public class FileComponentImpl implements FileComponent {
             }
             pb.updateTask(i);
         }
-        pb.finishTask();
+        pb.finishTaskAndClose();
+    }
+
+    private record CopyPath(Path source, Path destination) {
     }
 }

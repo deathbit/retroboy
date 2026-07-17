@@ -9,8 +9,9 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class DeleteAllTaskConfig {
+public class SetUpESDEBaseTaskConfig {
     private String taskName;
     private boolean enabled;
-    private String deletePath;
+    private String sourcePath;
+    private String targetPath;
 }
