@@ -1,32 +1,21 @@
 package com.github.deathbit.retroboy.utils;
 
-import java.security.SecureRandom;
-import java.security.cert.X509Certificate;
-import java.util.List;
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
+import java.security.SecureRandom;
+import java.security.cert.X509Certificate;
 
 public class CommonUtils {
 
     private static final String HORIZONTAL_LINE = "+" + "-".repeat(200) + "+";
     private static final int barLength = 100;
 
-    public static void printTask(String mainTaskName, List<String> subTaskNames) {
+    public static void printTask(String mainTaskName) {
         System.out.println();
         System.out.println(HORIZONTAL_LINE);
         System.out.println("| " + mainTaskName);
-        System.out.println(HORIZONTAL_LINE);
-
-        if (subTaskNames != null && !subTaskNames.isEmpty()) {
-            for (int i = 0; i < subTaskNames.size(); i++) {
-                String index = i + 1 >= 10 ? String.valueOf(i + 1) : " " + (i + 1);
-                String line = index + ". " + subTaskNames.get(i);
-                System.out.println("| " + line);
-            }
-        }
-
         System.out.println(HORIZONTAL_LINE);
     }
 

@@ -10,6 +10,7 @@ import com.github.deathbit.retroboy.config.tasks.SetMegaBezelShaderTask;
 import com.github.deathbit.retroboy.domain.*;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.enums.BasePackTask;
+import com.github.deathbit.retroboy.handler.BasePackHandler;
 import com.github.deathbit.retroboy.handler.Handler;
 import org.jspecify.annotations.NonNull;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,16 +40,38 @@ public class StartupRunner implements ApplicationRunner {
     private FileComponent fileComponent;
 
     @Autowired
+    private List<BasePackHandler> basePackHandlers;
+
+    @Autowired
     private List<Handler> handlers;
 
     @Override
     public void run(@NonNull ApplicationArguments args) throws Exception {
         buildingBasePack();
-        buildingPlatformPack();
+        // buildingPlatformPack();
     }
 
     private void buildingBasePack() throws Exception {
         printAsciiArt();
+        basePackHandlers.stream().sorted(Comparator.comparing(BasePackHandler::task)).forEach(handler -> {
+            try {
+                if (handler.enabled()) {
+                    printTask(handler.name());
+                    handler.handle();
+                    printTaskDone(handler.name());
+                }
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        });
+
+
+
+
+
+
+
+
 //        runStartupTask(BasePackTask.CLEAN_UP, "清理目录和文件", this::describeCleanUpTask, () -> {
 //            fileComponent.batchCleanDirs(appConfig.getCleanUpTask().getCleanDirs());
 //            fileComponent.batchDeleteFiles(appConfig.getCleanUpTask().getDeleteFiles());
@@ -71,9 +94,7 @@ public class StartupRunner implements ApplicationRunner {
     }
 
     private void buildingPlatformPack() throws Exception {
-        if (isTaskEnabled(BasePackTask.SET_PLATFORM)) {
-            runSetPlatformTask();
-        }
+        runSetPlatformTask();
     }
 
     private void runStartupTask(BasePackTask basePackTask, String taskName, Supplier<List<String>> taskDescriptionSupplier, RunnableWithException runner) throws Exception {
@@ -81,13 +102,13 @@ public class StartupRunner implements ApplicationRunner {
             return;
         }
 
-        printTask(taskName, taskDescriptionSupplier.get());
+        printTask(taskName);
         runner.run();
         printTaskDone(taskName);
     }
 
     private boolean isTaskEnabled(BasePackTask basePackTask) {
-        return BasePackTask.isEnabled(basePackTask, appConfig.getGlobalConfig().getStartupTaskMask());
+        return true;
     }
 
     private boolean isPlatformEnabled(Platform platform) {
@@ -135,7 +156,7 @@ public class StartupRunner implements ApplicationRunner {
     private void runSetPlatformTask() throws Exception {
         for (var handler : getEnabledPlatformHandlers()) {
             var taskName = "设置" + handler.getPlatform().name();
-            printTask(taskName, null);
+            printTask(taskName);
             handler.handle();
             printTaskDone(taskName);
         }

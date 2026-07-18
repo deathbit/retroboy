@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class DeleteAllTask implements BasePackHandler {
+public class SetUpRetroArchBaseTask implements BasePackHandler {
 
     @Autowired
     private AppConfig appConfig;
@@ -18,21 +18,21 @@ public class DeleteAllTask implements BasePackHandler {
 
     @Override
     public String name() {
-        return appConfig.getDeleteAllTaskConfig().getTaskName();
+        return appConfig.getSetUpRetroArchBaseTaskConfig().getTaskName();
     }
 
     @Override
     public boolean enabled() {
-        return appConfig.getDeleteAllTaskConfig().isEnabled();
+        return appConfig.getSetUpRetroArchBaseTaskConfig().isEnabled();
     }
 
     @Override
     public BasePackTask task() {
-        return BasePackTask.DELETE_ALL_TASK;
+        return BasePackTask.SET_UP_RETROARCH_BASE_TASK;
     }
 
     @Override
     public void handle() throws Exception {
-        fileComponent.deletePath(appConfig.getDeleteAllTaskConfig().getDeletePath());
+        fileComponent.copyPath(appConfig.getSetUpRetroArchBaseTaskConfig().getPathPair());
     }
 }

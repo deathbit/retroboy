@@ -1,9 +1,6 @@
 package com.github.deathbit.retroboy.component;
 
-import com.github.deathbit.retroboy.domain.CopyDirContentsInput;
-import com.github.deathbit.retroboy.domain.CopyDirInput;
-import com.github.deathbit.retroboy.domain.CopyFileInput;
-import com.github.deathbit.retroboy.domain.RenameFileInput;
+import com.github.deathbit.retroboy.domain.*;
 
 import java.util.List;
 
@@ -11,7 +8,7 @@ public interface FileComponent {
 
     void deletePath(String path) throws Exception;
 
-    void copyPath(String sourcePath, String targetPath) throws Exception;
+    void copyPath(PathPair pathPair) throws Exception;
 
     void batchDeleteFiles(List<String> files) throws Exception;
 

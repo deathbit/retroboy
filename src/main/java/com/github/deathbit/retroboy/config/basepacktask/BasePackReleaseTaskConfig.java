@@ -10,8 +10,10 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class SetUpESDEBaseTaskConfig {
+public class BasePackReleaseTaskConfig {
     private String taskName;
     private boolean enabled;
+    private String fileName;
+    private String deletePath;
     private PathPair pathPair;
 }

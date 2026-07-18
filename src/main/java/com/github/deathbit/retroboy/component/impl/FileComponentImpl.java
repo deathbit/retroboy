@@ -1,11 +1,7 @@
 package com.github.deathbit.retroboy.component.impl;
 
 import com.github.deathbit.retroboy.component.FileComponent;
-import com.github.deathbit.retroboy.domain.CopyDirContentsInput;
-import com.github.deathbit.retroboy.domain.CopyDirInput;
-import com.github.deathbit.retroboy.domain.CopyFileInput;
-import com.github.deathbit.retroboy.domain.ProgressBar;
-import com.github.deathbit.retroboy.domain.RenameFileInput;
+import com.github.deathbit.retroboy.domain.*;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -31,7 +27,7 @@ public class FileComponentImpl implements FileComponent {
         }
 
         try (Stream<Path> walk = Files.walk(pathObj)) {
-            List<Path> paths = walk.toList();
+            List<Path> paths = walk.sorted(Comparator.reverseOrder()).toList();
             pb.startTask(paths.size());
             for (int i = 0; i < paths.size(); i++) {
                 Files.delete(paths.get(i));
@@ -42,10 +38,10 @@ public class FileComponentImpl implements FileComponent {
     }
 
     @Override
-    public void copyPath(String sourcePath, String targetPath) throws Exception {
+    public void copyPath(PathPair pathPair) throws Exception {
         ProgressBar pb = new ProgressBar("拷贝路径");
-        Path sourcePathObj = Paths.get(sourcePath);
-        Path targetDir = Paths.get(targetPath);
+        Path sourcePathObj = Paths.get(pathPair.getSourcePath());
+        Path targetDir = Paths.get(pathPair.getTargetPath());
         Files.createDirectories(targetDir);
         if (Files.isDirectory(sourcePathObj)) {
 

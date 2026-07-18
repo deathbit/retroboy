@@ -1,7 +1,6 @@
 package com.github.deathbit.retroboy.config;
 
-import com.github.deathbit.retroboy.config.basepacktask.DeleteAllTaskConfig;
-import com.github.deathbit.retroboy.config.basepacktask.SetUpESDEBaseTaskConfig;
+import com.github.deathbit.retroboy.config.basepacktask.*;
 import com.github.deathbit.retroboy.config.tasks.CleanUpTask;
 import com.github.deathbit.retroboy.config.tasks.DefaultConfigTask;
 import com.github.deathbit.retroboy.config.tasks.FixChineseFontTask;
@@ -20,6 +19,13 @@ import java.util.Map;
 public class AppConfig {
     private DeleteAllTaskConfig deleteAllTaskConfig;
     private SetUpESDEBaseTaskConfig setUpESDEBaseTaskConfig;
+    private SetUpESDEUpdateTaskConfig setUpESDEUpdateTaskConfig;
+    private SetUpRetroArchBaseTaskConfig setUpRetroArchBaseTaskConfig;
+    private SetUpRetroArchUpdateTaskConfig setUpRetroArchUpdateTaskConfig;
+    private SetUpRetroArchDefaultConfigTaskConfig setUpRetroArchDefaultConfigTaskConfig;
+    private SetUpRetroArchFixChineseFontTaskConfig setUpRetroArchFixChineseFontTaskConfig;
+    private SetUpRetroArchMegaBezelShaderTaskConfig setUpRetroArchMegaBezelShaderTaskConfig;
+    private BasePackReleaseTaskConfig basePackReleaseTaskConfig;
     private GlobalConfig globalConfig;
     private CleanUpTask cleanUpTask;
     private DefaultConfigTask defaultConfigTask;

@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class SetUpESDEBaseTaskConfig {
+public class SetUpRetroArchBaseTaskConfig {
     private String taskName;
     private boolean enabled;
     private PathPair pathPair;

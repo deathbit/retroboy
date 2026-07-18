@@ -6,12 +6,15 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class SetUpESDEBaseTaskConfig {
+public class SetUpRetroArchUpdateTaskConfig {
     private String taskName;
     private boolean enabled;
-    private PathPair pathPair;
+    private List<String> deletePaths;
+    private List<PathPair> pathPairs;
 }

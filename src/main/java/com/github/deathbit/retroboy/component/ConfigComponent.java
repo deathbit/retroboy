@@ -1,9 +1,7 @@
 package com.github.deathbit.retroboy.component;
 
-import com.github.deathbit.retroboy.domain.ConfigInput;
-
-import java.util.List;
+import com.github.deathbit.retroboy.domain.ConfigPair;
 
 public interface ConfigComponent {
-    void batchChangeRaConfigs(List<ConfigInput> configInputs) throws Exception;
+    void changeRetroArchConfig(ConfigPair configPair) throws Exception;
 }

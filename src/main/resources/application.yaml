@@ -4,10 +4,113 @@ spring:
 
 app:
   config:
-    deleteAllTask:
+    deleteAllTaskConfig:
       taskName: '删除全部内容'
       enabled: true
       deletePath: 'D:\ES-DE'
+    setUpESDEBaseTaskConfig:
+      taskName: '设置ES-DE基础包'
+      enabled: true
+      pathPair:
+        sourcePath: 'D:\resources\base\ES-DE'
+        targetPath: 'D:\'
+    setUpESDEUpdateTaskConfig:
+      taskName: '设置ES-DE升级包'
+      enabled: true
+      deletePaths:
+        - 'D:\ES-DE\ES-DE\themes'
+        - 'D:\ES-DE\ROMs'
+      pathPairs:
+        - sourcePath: 'D:\resources\base\ES-DE-Update\themes'
+          targetPath: 'D:\ES-DE\ES-DE'
+        - sourcePath: 'D:\resources\base\ES-DE-Update\ROMs'
+          targetPath: 'D:\ES-DE'
+    setUpRetroArchBaseTaskConfig:
+      taskName: '设置RetroArch基础包'
+      enabled: true
+      pathPair:
+        sourcePath: 'D:\resources\base\RetroArch-Win64'
+        targetPath: 'D:\ES-DE\Emulators'
+    setUpRetroArchUpdateTaskConfig:
+      taskName: '设置RetroArch升级包'
+      enabled: true
+      deletePaths:
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\assets'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\autoconfig'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\cheats'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\cores'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\database'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\info'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\overlays'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\shaders'
+        - 'D:\ES-DE\Emulators\RetroArch-Win64\system'
+      pathPairs:
+        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\assets'
+          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
+        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\autoconfig'
+          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
+        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\cheats'
+          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
+        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\cores'
+          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
+        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\database'
+          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
+        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\info'
+          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
+        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\overlays'
+          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
+        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\shaders'
+          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
+        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\system'
+          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
+    setUpRetroArchDefaultConfigTaskConfig:
+      taskName: '设置RetroArch默认配置'
+      enabled: true
+      configPairs:
+        - key: 'input_player1_analog_dpad_mode'
+          value: '1'
+        - key: 'video_fullscreen'
+          value: 'true'
+    setUpRetroArchFixChineseFontTaskConfig:
+      taskName: '修复RetroArch中文字体'
+      enabled: true
+      deletePath: 'D:\ES-DE\Emulators\RetroArch-Win64\assets\pkg\chinese-fallback-font.ttf'
+      pathPair:
+        sourcePath: 'D:\resources\base\RetroArch-Win64-FixChineseFont\chinese-fallback-font.ttf'
+        targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\assets\pkg'
+      configPair:
+        key: 'video_font_path'
+        value: ':\assets\pkg\chinese-fallback-font.ttf'
+    setUpRetroArchMegaBezelShaderTaskConfig:
+      taskName: '设置RetroArch着色器'
+      enabled: true
+      pathPairs:
+        - sourcePath: 'D:\resources\base\RetroArch-Win64-MegaBezelShader\Mega_Bezel_Packs'
+          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\shaders'
+        - sourcePath: 'D:\resources\base\RetroArch-Win64-MegaBezelShader\global.slangp'
+          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\config'
+        - sourcePath: 'D:\resources\base\RetroArch-Win64-MegaBezelShader\retroarch.slangp'
+          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\shaders'
+      configPairs:
+        - key: 'aspect_ratio_index'
+          value: '24'
+        - key: 'video_allow_rotate'
+          value: 'false'
+        - key: 'video_driver'
+          value: 'vulkan'
+        - key: 'video_rotation'
+          value: '0'
+        - key: 'video_scale_integer'
+          value: 'false'
+        - key: 'video_shader_enable'
+          value: 'true'
+    basePackReleaseTaskConfig:
+      taskName: '发布基础包'
+      enabled: true
+      fileName: 'BASE_PACK.zip'
+      pathPair:
+        sourcePath: 'D:\ES-DE'
+        targetPath: 'D:\resources\release'
     globalConfig:
       raConfig: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
       downloadedMediaDirBase: 'D:\ES-DE\ES-DE\downloaded_media'

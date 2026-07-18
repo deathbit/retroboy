@@ -1,5 +1,6 @@
 package com.github.deathbit.retroboy.handler.base;
 
+import com.github.deathbit.retroboy.component.ConfigComponent;
 import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.enums.BasePackTask;
@@ -8,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class DeleteAllTask implements BasePackHandler {
+public class SetUpRetroArchDefaultConfigTask implements BasePackHandler {
 
     @Autowired
     private AppConfig appConfig;
@@ -16,23 +17,32 @@ public class DeleteAllTask implements BasePackHandler {
     @Autowired
     private FileComponent fileComponent;
 
+    @Autowired
+    private ConfigComponent configComponent;
+
     @Override
     public String name() {
-        return appConfig.getDeleteAllTaskConfig().getTaskName();
+        return appConfig.getSetUpRetroArchDefaultConfigTaskConfig().getTaskName();
     }
 
     @Override
     public boolean enabled() {
-        return appConfig.getDeleteAllTaskConfig().isEnabled();
+        return appConfig.getSetUpRetroArchDefaultConfigTaskConfig().isEnabled();
     }
 
     @Override
     public BasePackTask task() {
-        return BasePackTask.DELETE_ALL_TASK;
+        return BasePackTask.SET_UP_RETROARCH_DEFAULT_CONFIG_TASK;
     }
 
     @Override
     public void handle() throws Exception {
-        fileComponent.deletePath(appConfig.getDeleteAllTaskConfig().getDeletePath());
+        appConfig.getSetUpRetroArchDefaultConfigTaskConfig().getConfigPairs().forEach(configPair -> {
+            try {
+                configComponent.changeRetroArchConfig(configPair);
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        });
     }
 }

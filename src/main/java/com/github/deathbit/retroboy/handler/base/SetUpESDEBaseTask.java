@@ -2,12 +2,11 @@ package com.github.deathbit.retroboy.handler.base;
 
 import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
+import com.github.deathbit.retroboy.enums.BasePackTask;
 import com.github.deathbit.retroboy.handler.BasePackHandler;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
-@Order(1)
 @Component
 public class SetUpESDEBaseTask implements BasePackHandler {
 
@@ -28,7 +27,12 @@ public class SetUpESDEBaseTask implements BasePackHandler {
     }
 
     @Override
+    public BasePackTask task() {
+        return BasePackTask.SET_UP_ESDE_BASE_TASK;
+    }
+
+    @Override
     public void handle() throws Exception {
-        fileComponent.copyPath(appConfig.getSetUpESDEBaseTaskConfig().getSourcePath(), appConfig.getSetUpESDEBaseTaskConfig().getTargetPath());
+        fileComponent.copyPath(appConfig.getSetUpESDEBaseTaskConfig().getPathPair());
     }
 }

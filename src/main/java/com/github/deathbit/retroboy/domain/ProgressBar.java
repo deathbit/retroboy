@@ -70,7 +70,7 @@ public class ProgressBar {
 
     private void renderProgressBar() {
         int finishedCount = taskTotal == 0 ? 0 : taskIndex + 1;
-        String line = String.format("\r| %s %s %10s",
+        String line = String.format("\r| %s %s %12s",
                 mainTaskName,
                 bar(currentPercentage, barWidth),
                 String.format("%d/%d", finishedCount, taskTotal)
