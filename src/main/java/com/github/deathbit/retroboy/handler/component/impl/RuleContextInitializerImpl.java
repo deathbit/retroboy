@@ -2,28 +2,21 @@ package com.github.deathbit.retroboy.handler.component.impl;
 
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.domain.FileContext;
-import com.github.deathbit.retroboy.domain.HandlerMediaTypes;
-import com.github.deathbit.retroboy.domain.MediaType;
+import com.github.deathbit.retroboy.domain.ProgressBar;
+import com.github.deathbit.retroboy.domain.RenameOption;
 import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.enums.Area;
-import com.github.deathbit.retroboy.handler.Handler;
+import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.handler.component.RuleContextInitializer;
+import com.github.deathbit.retroboy.rule.Rules;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.util.CollectionUtils;
 import org.w3c.dom.Element;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.HashSet;
-import java.util.LinkedHashMap;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
 import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.File;
+import java.util.*;
+import java.util.stream.Collectors;
 
 @Component
 public class RuleContextInitializerImpl implements RuleContextInitializer {
@@ -32,80 +25,69 @@ public class RuleContextInitializerImpl implements RuleContextInitializer {
     private AppConfig appConfig;
 
     @Override
-    public RuleContext handle(Handler handler) throws Exception {
-        var ruleContext = initializeRuleContext(handler);
-        ruleContext.setLicensed(parseLicensedGames(ruleContext.getRuleConfig().getDatFile()));
-        populateFileContextMap(ruleContext, ruleContext.getRuleConfig().getRomDir());
-        ruleContext.setRuleMap(handler.getRuleMap());
-        ruleContext.setAreaRenameReportMap(createEmptyAreaReportMap(ruleContext));
-        ruleContext.setAreaDuplicateNameReportMap(createEmptyAreaReportMap(ruleContext));
-        ruleContext.setAreaFailureReportMap(createEmptyAreaReportMap(ruleContext));
-        ruleContext.setAreaMissingMediaReportMap(createEmptyAreaMissingMediaReportMap(ruleContext));
-        return ruleContext;
-    }
-
-    @Override
-    public void initializeArea(RuleContext ruleContext, Area area) {
-        ruleContext.setCurrentArea(area);
-        ruleContext.setCurrentAreaConfig(ruleContext.getRuleConfig().getTargetAreaConfigs()
-                                                    .stream()
-                                                    .filter(targetAreaConfig -> area == targetAreaConfig.getArea())
-                                                    .findFirst().orElseThrow());
-        if (CollectionUtils.isEmpty(ruleContext.getCurrentAreaConfig().getFileNameBlackList())) {
-            ruleContext.getCurrentAreaConfig().setFileNameBlackList(new HashSet<>());
-        }
-    }
-
-    @Override
-    public void initializeFile(RuleContext ruleContext, FileContext file) {
-        ruleContext.setFailureReasons(new ArrayList<>());
-    }
-
-    private RuleContext initializeRuleContext(Handler handler) {
+    public RuleContext handle(Platform platform) throws Exception {
         var ruleContext = new RuleContext();
-        ruleContext.setPlatform(handler.getPlatform());
-        ruleContext.setRuleConfig(appConfig.getRuleConfigMap().get(ruleContext.getPlatform()));
-        ruleContext.setFileContextMap(new LinkedHashMap<>());
-        ruleContext.setAreaFinalMap(new LinkedHashMap<>());
-        for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
-            ruleContext.getAreaFinalMap().put(areaConfig.getArea(), new LinkedHashSet<>());
-        }
-        ruleContext.setGlobalTagBlackList(appConfig.getGlobalConfig().getGlobalTagBlacklist());
-        ruleContext.setGlobalRomWhitelist(appConfig.getGlobalConfig().getGlobalRomWhitelist());
+        ruleContext.setPlatform(platform);
+        ruleContext.setPlatformName(platform.name().toLowerCase());
+        ruleContext.setGlobalConfig(appConfig.getGlobalConfig());
+        ruleContext.setPlatformPackTaskConfig(appConfig.getPlatformPackTaskConfigMap().get(platform));
+        ruleContext.setRenameOptionMap(ruleContext.getPlatformPackTaskConfig().getRenameOptions()
+                .stream().collect(Collectors.toMap(RenameOption::getOldName, RenameOption::getNewName)));
+        ruleContext.setLicensed(parseLicensedGames(String.format("%s\\platform\\%s\\dat\\%s.dat",
+                appConfig.getGlobalConfig().getResourcesHomePath(), ruleContext.getPlatformName(), ruleContext.getPlatformName())));
+        populateFileContextMap(ruleContext, String.format("%s\\platform\\%s\\roms",
+                appConfig.getGlobalConfig().getResourcesHomePath(), ruleContext.getPlatformName()));
+        ruleContext.setRuleMap(Map.of(Area.JPN, Rules.IS_JAPAN_BASE, Area.USA, Rules.IS_USA_BASE, Area.EUR, Rules.IS_EUROPE_BASE));
+        ruleContext.setAreaPassMap(new HashMap<>());
+        ruleContext.setAreaNotPassReportMap(new HashMap<>());
+
         return ruleContext;
     }
 
     private Set<String> parseLicensedGames(String datFilePath) throws Exception {
+        ProgressBar pb = new ProgressBar("解析正版");
         var licensed = new HashSet<String>();
         var document = DocumentBuilderFactory.newInstance()
                 .newDocumentBuilder()
                 .parse(new File(datFilePath));
         var gameNodes = document.getElementsByTagName("game");
+        pb.startTask(gameNodes.getLength());
         for (int i = 0; i < gameNodes.getLength(); i++) {
             var name = ((Element) gameNodes.item(i)).getAttribute("name");
             if (!name.isEmpty()) {
                 licensed.add(name);
             }
+            pb.updateTask(i);
         }
+        pb.finishTaskAndClose();
         return licensed;
     }
 
     private void populateFileContextMap(RuleContext ruleContext, String romDirPath) {
+        ProgressBar pb = new ProgressBar("解析文件");
         var files = new File(romDirPath).listFiles();
         if (files == null) {
             return;
         }
 
+        ruleContext.setFileContextMap(new HashMap<>());
         Arrays.sort(files, Comparator.comparing(File::getName));
-        for (var file : files) {
+        pb.startTask(files.length);
+        for (int i = 0; i < files.length; i++) {
+            var file = files[i];
             ruleContext.getFileContextMap().put(file.getName(), buildFileContext(file.getName()));
+            pb.updateTask(i);
         }
+        pb.finishTaskAndClose();
     }
 
     private FileContext buildFileContext(String fileName) {
         var fullName = fileName;
-        if (fileName.contains(".")) {
-            fullName = fileName.substring(0, fileName.lastIndexOf('.'));
+        var ext = "";
+        var dotIndex = fileName.lastIndexOf('.');
+        if (dotIndex != -1) {
+            fullName = fileName.substring(0, dotIndex);
+            ext = fileName.substring(dotIndex);
         }
 
         var namePart = fullName;
@@ -133,27 +115,7 @@ public class RuleContextInitializerImpl implements RuleContextInitializer {
                 .namePart(namePart)
                 .tagPart(tagPart)
                 .tags(tags)
+                .extension(ext)
                 .build();
     }
-
-    private Map<Area, List<String>> createEmptyAreaReportMap(RuleContext ruleContext) {
-        var areaReportMap = new LinkedHashMap<Area, List<String>>();
-        for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
-            areaReportMap.put(areaConfig.getArea(), new ArrayList<>());
-        }
-        return areaReportMap;
-    }
-
-    private Map<Area, Map<String, List<String>>> createEmptyAreaMissingMediaReportMap(RuleContext ruleContext) {
-        var areaReportMap = new LinkedHashMap<Area, Map<String, List<String>>>();
-        for (var areaConfig : ruleContext.getRuleConfig().getTargetAreaConfigs()) {
-            var mediaReportMap = new LinkedHashMap<String, List<String>>();
-            for (MediaType mediaType : HandlerMediaTypes.MEDIA_TYPES) {
-                mediaReportMap.put(mediaType.name(), new ArrayList<>());
-            }
-            areaReportMap.put(areaConfig.getArea(), mediaReportMap);
-        }
-        return areaReportMap;
-    }
 }
-

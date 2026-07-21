@@ -18,61 +18,69 @@ import java.util.stream.Stream;
 public class FileComponentImpl implements FileComponent {
 
     @Override
-    public void deletePath(String path) throws Exception {
-        ProgressBar pb = new ProgressBar("删除路径");
-        Path pathObj = Paths.get(path);
-        if (Files.notExists(pathObj)) {
-            pb.done();
-            return;
-        }
-
-        try (Stream<Path> walk = Files.walk(pathObj)) {
-            List<Path> paths = walk.sorted(Comparator.reverseOrder()).toList();
-            pb.startTask(paths.size());
-            for (int i = 0; i < paths.size(); i++) {
-                Files.delete(paths.get(i));
-                pb.updateTask(i);
+    public void deletePath(String path) {
+        try {
+            ProgressBar pb = new ProgressBar("删除路径");
+            Path pathObj = Paths.get(path);
+            if (Files.notExists(pathObj)) {
+                pb.done();
+                return;
             }
-            pb.finishTaskAndClose();
-        }
-    }
 
-    @Override
-    public void copyPath(PathPair pathPair) throws Exception {
-        ProgressBar pb = new ProgressBar("拷贝路径");
-        Path sourcePathObj = Paths.get(pathPair.getSourcePath());
-        Path targetDir = Paths.get(pathPair.getTargetPath());
-        Files.createDirectories(targetDir);
-        if (Files.isDirectory(sourcePathObj)) {
-
-        } else {
-            Files.copy(sourcePathObj, targetDir.resolve(sourcePathObj.getFileName()), StandardCopyOption.REPLACE_EXISTING);
-        }
-
-        if (Files.isDirectory(sourcePathObj)) {
-            Path targetRoot = targetDir.resolve(sourcePathObj.getFileName());
-            try (Stream<Path> walk = Files.walk(sourcePathObj)) {
-                List<Path> paths = walk.toList();
+            try (Stream<Path> walk = Files.walk(pathObj)) {
+                List<Path> paths = walk.sorted(Comparator.reverseOrder()).toList();
                 pb.startTask(paths.size());
                 for (int i = 0; i < paths.size(); i++) {
-                    Path currentSource = paths.get(i);
-                    Path currentTarget = targetRoot.resolve(sourcePathObj.relativize(currentSource));
-                    if (Files.isDirectory(currentSource)) {
-                        Files.createDirectories(currentTarget);
-                    } else {
-                        Files.copy(currentSource, currentTarget, StandardCopyOption.REPLACE_EXISTING);
-                    }
+                    Files.delete(paths.get(i));
                     pb.updateTask(i);
                 }
                 pb.finishTaskAndClose();
             }
-            return;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
+    }
 
-        pb.startTask(1);
+    @Override
+    public void copyPath(PathPair pathPair) {
+        try {
+            Path sourcePathObj = Paths.get(pathPair.getSourcePath());
+            Path targetDir = Paths.get(pathPair.getTargetPath());
+            Files.createDirectories(targetDir);
+            if (Files.isDirectory(sourcePathObj)) {
+                ProgressBar pb = new ProgressBar("拷贝路径");
+                Path targetRoot = targetDir.resolve(sourcePathObj.getFileName());
+                try (Stream<Path> walk = Files.walk(sourcePathObj)) {
+                    List<Path> paths = walk.toList();
+                    pb.startTask(paths.size());
+                    for (int i = 0; i < paths.size(); i++) {
+                        Path currentSource = paths.get(i);
+                        Path currentTarget = targetRoot.resolve(sourcePathObj.relativize(currentSource));
+                        if (Files.isDirectory(currentSource)) {
+                            Files.createDirectories(currentTarget);
+                        } else {
+                            Files.copy(currentSource, currentTarget, StandardCopyOption.REPLACE_EXISTING);
+                        }
+                        pb.updateTask(i);
+                    }
+                    pb.finishTaskAndClose();
+                }
+            } else {
+                Files.copy(sourcePathObj, targetDir.resolve(sourcePathObj.getFileName()), StandardCopyOption.REPLACE_EXISTING);
+            }
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 
-        pb.updateTask(0);
-        pb.finishTaskAndClose();
+    @Override
+    public void rename(String sourcePath, String newName) {
+        try {
+            Path sourcePathObj = Paths.get(sourcePath);
+            Files.move(sourcePathObj, sourcePathObj.resolveSibling(newName));
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override

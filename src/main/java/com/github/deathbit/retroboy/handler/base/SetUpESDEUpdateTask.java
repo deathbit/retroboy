@@ -33,19 +33,7 @@ public class SetUpESDEUpdateTask implements BasePackHandler {
 
     @Override
     public void handle() throws Exception {
-        appConfig.getSetUpESDEUpdateTaskConfig().getDeletePaths().forEach(deletePath -> {
-            try {
-                fileComponent.deletePath(deletePath);
-            } catch (Exception e) {
-                throw new RuntimeException(e);
-            }
-        });
-        appConfig.getSetUpESDEUpdateTaskConfig().getPathPairs().forEach(pathPair -> {
-            try {
-                fileComponent.copyPath(pathPair);
-            } catch (Exception e) {
-                throw new RuntimeException(e);
-            }
-        });
+        appConfig.getSetUpESDEUpdateTaskConfig().getDeletePaths().forEach(fileComponent::deletePath);
+        appConfig.getSetUpESDEUpdateTaskConfig().getPathPairs().forEach(fileComponent::copyPath);
     }
 }

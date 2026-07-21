@@ -17,7 +17,7 @@ import java.util.zip.ZipOutputStream;
 @Component
 public class ReleaseComponentImpl implements ReleaseComponent {
 
-    private static final int BUFFER_SIZE = 1024 * 1024;
+    private static final int BUFFER_SIZE = 1024 * 1024 * 10;
     private static final int PROGRESS_UPDATE_INTERVAL = 100;
 
     @Override

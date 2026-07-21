@@ -17,4 +17,5 @@ public class FileContext {
     private String namePart;
     private String tagPart;
     private Set<String> tags;
+    private String extension;
 }

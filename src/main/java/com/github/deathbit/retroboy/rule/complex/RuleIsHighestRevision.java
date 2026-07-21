@@ -17,7 +17,7 @@ public class RuleIsHighestRevision implements Rule {
             return true;
         }
 
-        ruleContext.getFailureReasons().add("IS_HIGHEST_REVISION失败: 存在更高的 Rev 修订版本: " + newerRevisionFileName.get());
+        ruleContext.getRomNotPassReasons().add("IS_HIGHEST_REVISION失败: 存在更高的 Rev 修订版本: " + newerRevisionFileName.get());
         return false;
     }
 

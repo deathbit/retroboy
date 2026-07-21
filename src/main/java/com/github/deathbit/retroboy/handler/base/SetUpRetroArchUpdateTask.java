@@ -33,19 +33,7 @@ public class SetUpRetroArchUpdateTask implements BasePackHandler {
 
     @Override
     public void handle() throws Exception {
-        appConfig.getSetUpRetroArchUpdateTaskConfig().getDeletePaths().forEach(deletePath -> {
-            try {
-                fileComponent.deletePath(deletePath);
-            } catch (Exception e) {
-                throw new RuntimeException(e);
-            }
-        });
-        appConfig.getSetUpRetroArchUpdateTaskConfig().getPathPairs().forEach(pathPair -> {
-            try {
-                fileComponent.copyPath(pathPair);
-            } catch (Exception e) {
-                throw new RuntimeException(e);
-            }
-        });
+        appConfig.getSetUpRetroArchUpdateTaskConfig().getDeletePaths().forEach(fileComponent::deletePath);
+        appConfig.getSetUpRetroArchUpdateTaskConfig().getPathPairs().forEach(fileComponent::copyPath);
     }
 }

@@ -139,7 +139,7 @@ app:
 - `targetDirBase`：筛选后 ROM 的输出根目录。
 - `targetAreaConfigs`：地区输出配置，当前支持 `JPN`、`USA`、`EUR`。
 - `tagBlackList`：平台级标签黑名单。
-- `fileNameBlackList`：平台级文件名黑名单。
+- `areaFileNameBlackList`：平台级文件名黑名单。
 - `targetAreaConfigs[].fileNameBlackList`：地区级文件名黑名单。
 - `targetAreaConfigs[].renameOptions`：去除标签后出现同名冲突时的手动重命名规则。
 - `globalConfig.downloadedMediaDirBase`：ES-DE 已下载媒体根目录，例如 `D:\ES-DE\ES-DE\downloaded_media`。

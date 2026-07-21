@@ -37,12 +37,6 @@ public class SetUpRetroArchDefaultConfigTask implements BasePackHandler {
 
     @Override
     public void handle() throws Exception {
-        appConfig.getSetUpRetroArchDefaultConfigTaskConfig().getConfigPairs().forEach(configPair -> {
-            try {
-                configComponent.changeRetroArchConfig(configPair);
-            } catch (Exception e) {
-                throw new RuntimeException(e);
-            }
-        });
+        appConfig.getSetUpRetroArchDefaultConfigTaskConfig().getConfigPairs().forEach(configComponent::changeRetroArchConfig);
     }
 }

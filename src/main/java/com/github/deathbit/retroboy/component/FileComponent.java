@@ -6,9 +6,11 @@ import java.util.List;
 
 public interface FileComponent {
 
-    void deletePath(String path) throws Exception;
+    void deletePath(String path);
 
-    void copyPath(PathPair pathPair) throws Exception;
+    void copyPath(PathPair pathPair);
+
+    void rename(String sourcePath, String newName);
 
     void batchDeleteFiles(List<String> files) throws Exception;
 

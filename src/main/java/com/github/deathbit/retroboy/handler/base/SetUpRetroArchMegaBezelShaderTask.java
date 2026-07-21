@@ -37,19 +37,7 @@ public class SetUpRetroArchMegaBezelShaderTask implements BasePackHandler {
 
     @Override
     public void handle() throws Exception {
-        appConfig.getSetUpRetroArchMegaBezelShaderTaskConfig().getPathPairs().forEach(pathPair -> {
-            try {
-                fileComponent.copyPath(pathPair);
-            } catch (Exception e) {
-                throw new RuntimeException(e);
-            }
-        });
-        appConfig.getSetUpRetroArchMegaBezelShaderTaskConfig().getConfigPairs().forEach(configPair -> {
-            try {
-                configComponent.changeRetroArchConfig(configPair);
-            } catch (Exception e) {
-                throw new RuntimeException(e);
-            }
-        });
+        appConfig.getSetUpRetroArchMegaBezelShaderTaskConfig().getPathPairs().forEach(fileComponent::copyPath);
+        appConfig.getSetUpRetroArchMegaBezelShaderTaskConfig().getConfigPairs().forEach(configComponent::changeRetroArchConfig);
     }
 }

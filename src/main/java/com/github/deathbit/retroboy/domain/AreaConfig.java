@@ -6,7 +6,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
 import java.util.Set;
 
 @Data
@@ -15,6 +14,5 @@ import java.util.Set;
 @AllArgsConstructor
 public class AreaConfig {
     private Area area;
-    private Set<String> fileNameBlackList;
-    private List<RenameOption> renameOptions;
+    private Set<String> areaFileNameBlackList;
 }
