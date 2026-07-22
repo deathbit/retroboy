@@ -106,25 +106,14 @@ app:
           value: 'true'
     basePackReleaseTaskConfig:
       taskName: '发布基础包'
-      enabled: true
-      fileName: 'BASE.zip'
-      pathPair:
-        sourcePath: 'D:\ES-DE'
-        targetPath: 'D:\resources\release'
+      enabled: false
+      targetPath: 'D:\resources\release\_BASE.zip'
     globalConfig:
       enableBasePackHandler: true
       enablePlatformPackHandler: true
       esdeHomePath: 'D:\ES-DE'
       retroarchHomePath: 'D:\ES-DE\Emulators\RetroArch-Win64'
       resourcesHomePath: 'D:\resources'
-
-
-      raConfig: 'D:\ES-DE\Emulators\RetroArch-Win64\retroarch.cfg'
-      downloadedMediaDirBase: 'D:\ES-DE\ES-DE\downloaded_media'
-      romsAllDir: 'D:\ES-DE\ROMs_ALL'
-      romsDir: 'D:\ES-DE\ROMs'
-      startupTaskMask: 'CLEAN_UP|DEFAULT_CONFIG|FIX_CHINESE_FONT|SET_MEGA_BEZEL_SHADER|SET_PLATFORM'
-      platformTaskMask: 'NES|FDS'
       globalRomWhitelist:
         - 'All Night Nippon Super Mario Bros. (Japan) (Promo).fds'
         - 'Soccer (Japan).fds'
@@ -182,6 +171,12 @@ app:
       NES:
         platform: 'NES'
         enabled: true
+        manualStep: true
+        release: false
+        core: 'Mesen'
+        coreConfigs:
+          - 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.opt'
+          - 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.slangp'
         areaConfigs:
           - area: 'EUR'
             areaFileNameBlackList:

@@ -18,6 +18,10 @@ import java.util.Set;
 public class PlatformPackTaskConfig {
     private Platform platform;
     private boolean enabled;
+    private boolean manualStep;
+    private boolean release;
+    private String core;
+    private List<String> coreConfigs;
     private List<AreaConfig> areaConfigs;
     private Set<String> tagBlackList;
     private Set<String> fileNameBlackList;

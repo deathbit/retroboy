@@ -2,10 +2,7 @@ package com.github.deathbit.retroboy.handler;
 
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.enums.Platform;
-import com.github.deathbit.retroboy.handler.component.MoveGameHandler;
-import com.github.deathbit.retroboy.handler.component.RenameGameHandler;
-import com.github.deathbit.retroboy.handler.component.RuleContextInitializer;
-import com.github.deathbit.retroboy.handler.component.RuleEngineHandler;
+import com.github.deathbit.retroboy.handler.component.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -27,11 +24,29 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
     @Autowired
     private RenameGameHandler renameGameHandler;
 
+    @Autowired
+    private MediaHandler mediaHandler;
+
+    @Autowired
+    private GameListHandler gameListHandler;
+
+    @Autowired
+    private CoreHandler coreHandler;
+
+    @Autowired
+    private ReleaseHandler releaseHandler;
+
     @Override
     public void handle(Platform platform) throws Exception {
         var ruleContext = ruleContextInitializer.handle(platform);
         ruleEngineHandler.handle(ruleContext);
         moveGameHandler.handle(ruleContext);
         renameGameHandler.handle(ruleContext);
+        if (ruleContext.getPlatformPackTaskConfig().isManualStep()) {
+            mediaHandler.handle(ruleContext);
+            gameListHandler.handle(ruleContext);
+            coreHandler.handle(ruleContext);
+            releaseHandler.handle(ruleContext);
+        }
     }
 }

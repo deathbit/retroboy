@@ -1,7 +1,7 @@
 package com.github.deathbit.retroboy.component;
 
-import com.github.deathbit.retroboy.domain.PathPair;
+import java.util.List;
 
 public interface ReleaseComponent {
-    void release(String fileName, PathPair pathPair) throws Exception;
+    void releaseNew(String targetPath, List<String> sourcePaths);
 }

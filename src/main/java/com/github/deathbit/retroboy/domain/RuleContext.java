@@ -27,24 +27,8 @@ public class RuleContext {
     private Set<String> licensed;
     private Map<String, FileContext> fileContextMap;
     private Map<Area, Rule> ruleMap;
-
     private AreaConfig currentAreaConfig;
     private Map<Area, List<String>> areaPassMap;
     private Map<Area, List<String>> areaNotPassReportMap;
     private List<String> romNotPassReasons;
-
-
-
-
-
-
-    private Map<Area, List<String>> areaRenameReportMap;
-    private Map<Area, List<String>> areaDuplicateNameReportMap;
-
-    private Map<Area, Map<String, List<String>>> areaMissingMediaReportMap;
-    private List<String> dirsToCreate;
-    private List<CopyFileInput> filesToCopy;
-    private List<RenameFileInput> filesToRename;
-
-
 }

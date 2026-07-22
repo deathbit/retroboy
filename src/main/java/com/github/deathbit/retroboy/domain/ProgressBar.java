@@ -78,10 +78,4 @@ public class ProgressBar {
         System.out.print(line);
         System.out.flush();
     }
-
-    public void done() {
-        this.startTask(1);
-        this.updateTask(0);
-        this.finishTaskAndClose();
-    }
 }

@@ -8,6 +8,8 @@ import com.github.deathbit.retroboy.handler.BasePackHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Component
 public class BasePackReleaseTask implements BasePackHandler {
 
@@ -37,11 +39,10 @@ public class BasePackReleaseTask implements BasePackHandler {
 
     @Override
     public void handle() throws Exception {
-        fileComponent.deletePath(appConfig.getBasePackReleaseTaskConfig().getDeletePath() + "\\"
-                + appConfig.getBasePackReleaseTaskConfig().getFileName());
-        releaseComponent.release(
-                appConfig.getBasePackReleaseTaskConfig().getFileName(),
-                appConfig.getBasePackReleaseTaskConfig().getPathPair()
+        fileComponent.deletePath(appConfig.getBasePackReleaseTaskConfig().getTargetPath());
+        releaseComponent.releaseNew(
+                appConfig.getBasePackReleaseTaskConfig().getTargetPath(),
+                List.of(appConfig.getGlobalConfig().getEsdeHomePath())
         );
     }
 }

@@ -3,7 +3,6 @@ package com.github.deathbit.retroboy.component.impl;
 import com.github.deathbit.retroboy.component.ConfigComponent;
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.domain.ConfigPair;
-import com.github.deathbit.retroboy.domain.ProgressBar;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -22,8 +21,7 @@ public class ConfigComponentImpl implements ConfigComponent {
     @Override
     public void changeRetroArchConfig(ConfigPair configPair) {
         try {
-            ProgressBar pb = new ProgressBar("设置选项");
-            Path configPath = Paths.get(appConfig.getGlobalConfig().getRaConfig());
+            Path configPath = Paths.get(String.format("%s\\retroarch.cfg", appConfig.getGlobalConfig().getRetroarchHomePath()));
             List<String> lines = Files.readAllLines(configPath, StandardCharsets.UTF_8);
             String key = configPair.getKey();
             String value = configPair.getValue();
@@ -50,7 +48,6 @@ public class ConfigComponentImpl implements ConfigComponent {
             }
             String content = String.join("\n", lines) + "\n";
             Files.writeString(configPath, content, StandardCharsets.UTF_8);
-            pb.done();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
