@@ -106,7 +106,7 @@ app:
           value: 'true'
     basePackReleaseTaskConfig:
       taskName: '发布基础包'
-      enabled: false
+      enabled: true
       targetPath: 'D:\resources\release\_BASE.zip'
     globalConfig:
       enableBasePackHandler: true
@@ -172,7 +172,7 @@ app:
         platform: 'NES'
         enabled: true
         manualStep: true
-        release: false
+        release: true
         core: 'Mesen'
         coreConfigs:
           - 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.opt'
