@@ -114,6 +114,18 @@ app:
       esdeHomePath: 'D:\ES-DE'
       retroarchHomePath: 'D:\ES-DE\Emulators\RetroArch-Win64'
       resourcesHomePath: 'D:\resources'
+      repo: 'https://github.com/deathbit/retroboy'
+      authorInfo:
+        name: '村长不可爱'
+        wechat: '村长|paprika225'
+        qq: '村长不可爱|809730879'
+        tiktok: '村长不可爱|paprika0225'
+        xhs: '村长不可爱|zhangjian225'
+        bilibili: '村长不可爱|49829377'
+        ks: '村长不可爱|paprika225'
+      baiduPan: 'https://www.baidu.com/'
+      qqGroup: '1021421949'
+      feedbackEmail: '809730879@qq.com'
       globalRomWhitelist:
         - 'All Night Nippon Super Mario Bros. (Japan) (Promo).fds'
         - 'Soccer (Japan).fds'
@@ -170,6 +182,7 @@ app:
     platformPackTaskConfigMap:
       NES:
         platform: 'NES'
+        version: '1.0'
         enabled: true
         manualStep: true
         release: true
@@ -177,6 +190,7 @@ app:
         coreConfigs:
           - 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.opt'
           - 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.slangp'
+        wiki: 'https://en.wikipedia.org/wiki/List_of_Nintendo_Entertainment_System_games'
         areaConfigs:
           - area: 'EUR'
             areaFileNameBlackList:

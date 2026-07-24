@@ -1,0 +1,188 @@
+RetroBoy NES 游戏合集使用说明
+
+目录
+一、简介
+二、基本信息
+三、安装说明
+四、版本更新记录
+五、统计信息
+六、游戏清单
+七、关于作者
+八、常见问题
+九、捐助本项目
+十、原始文件列表
+
+一、简介
+RetroBoy NES 游戏合集是一套面向 ES-DE 与 RetroArch 用户整理的高质量 NES 游戏包。
+合集通过程序化规则进行筛选和校验，以维基百科游戏列表作为基准，按日本、北美、
+欧洲等地区清晰分类，尽量做到官方发行游戏完整覆盖、不遗漏、不混乱。
+本合集不仅整理游戏文件，也包含封面、说明书等媒体信息，方便你在前端中获得更
+完整、更美观的浏览体验。所有官方 ROM 均不做内容修改，只进行外部文件命名和
+目录整理，确保可追溯、可核对、可持续更新。
+如果你想快速搭建一个结构清晰、资料完整、持续维护的 NES 游戏合集，RetroBoy
+可以帮你节省大量筛选、核对、命名和媒体整理时间。
+
+二、基本信息
+| 项目                | 内容                                                                      |
+| 平台名称            | NES                                                                       |
+| 默认核心            | Mesen                                                                     |
+| 当前版本            | 1.1                                                                       |
+| 创建时间            | 2026-07-24 13:30:00                                                       |
+| 发布地区            | NES-JPN（日本）、NES-USA（北美）、NES-EUR（欧洲）                         |
+| 游戏总数            | 2055                                                                      |
+| 日本地区游戏总数    | 1042                                                                      |
+| 北美地区游戏总数    | 669                                                                       |
+| 欧洲地区游戏总数    | 344                                                                       |
+| 维基百科            | https://en.wikipedia.org/wiki/List_of_Nintendo_Entertainment_System_games |
+| 项目仓库            | https://github.com/deathbit/retroboy                                      |
+| 百度网盘            | https://www.baidu.com/                                                    |
+| QQ群                | 1021421949                                                                |
+| 反馈邮箱            | 809730879@qq.com                                                          |
+
+三、安装说明
+本游戏合集采用“基础包 + 平台包”的覆盖安装方式。请务必先解压 _BASE.zip，再
+解压 NES.zip。
+1. 请先关闭 ES-DE、RetroArch，以及其他可能正在使用相关目录的程序。
+2. 解压基础包 _BASE.zip 到目标目录。如果系统提示是否合并文件夹，请选择“是”或
+   “合并”。
+3. 解压当前平台包 NES.zip 到同一个目标目录。如果系统提示文件或文件夹已存在，请
+   选择“覆盖”。
+4. 以安装到 D 盘根目录为例，基础包和平台包都应解压到 D:\，解压完成后的关键
+   路径应类似以下内容。
+| 项目                | 路径                                      |
+| ES-DE 主目录        | D:\ES-DE                                  |
+| NES 游戏目录        | D:\ES-DE\ROMs\NES                        |
+| NES-JPN 游戏目录    | D:\ES-DE\ROMs\NES\NES-JPN                |
+| NES-USA 游戏目录    | D:\ES-DE\ROMs\NES\NES-USA                |
+| NES-EUR 游戏目录    | D:\ES-DE\ROMs\NES\NES-EUR                |
+| RetroArch 目录      | D:\ES-DE\Emulators\RetroArch-Win64       |
+| NES 游戏列表        | D:\ES-DE\ES-DE\gamelists\NES             |
+| NES 媒体目录        | D:\ES-DE\ES-DE\downloaded_media\NES      |
+5. 安装顺序非常重要。如果先解压 NES.zip 再解压 _BASE.zip，可能会导致平台配置、
+   主题、游戏列表或模拟器配置不完整。
+6. 解压完成后，重新启动 ES-DE。
+7. 如果启动后没有看到新游戏，或游戏列表没有刷新，请在 ES-DE 中重新扫描游戏列表，
+   或重启 ES-DE 后再次检查。
+8. 如果你已经安装过旧版本平台包，可以直接使用新版本平台包覆盖安装，通常不需要
+   删除旧文件，除非更新说明中特别要求。
+
+四、版本更新记录
+[1.1] 2026-07-24
+- 补充 NES-JPN、NES-USA、NES-EUR 三个地区的 Wiki 对应清单。
+- 修正部分游戏的显示文件名。
+- 优化游戏清单，增加原始文件名称与修改后文件名称的对应关系。
+- 改进安装说明，明确基础包和平台包的覆盖安装顺序。
+[1.0] 2026-07-01
+- 首次发布 NES 游戏合集。
+- 包含 NES-JPN、NES-USA、NES-EUR 三个地区的基础游戏清单。
+- 提供 ES-DE 与 RetroArch 的基础配置支持。
+
+五、统计信息
+| 地区                | 地区名称    | 游戏数量    |
+| NES-JPN             | 日本        | 1042        |
+| NES-USA             | 北美        | 669         |
+| NES-EUR             | 欧洲        | 344         |
+| 总计                | -           | 2055        |
+
+六、游戏清单
+[NES-JPN] 日本（1042 个游戏）
+序号 | 维基百科条目 | 原始文件名称 | 修改后文件名称
+1 | $1,000,000 Kid: Maboroshi no Teiou Hen | $1,000,000 Kid - Maboroshi no Teiou Hen (Japan).nes | $1,000,000 Kid - Maboroshi no Teiou Hen.nes
+2 | '89 Dennō Kyūsei Uranai | '89 Dennou Kyuusei Uranai (Japan).nes | '89 Dennou Kyuusei Uranai.nes
+3 | 10-Yard Fight | 10-Yard Fight (Japan).nes | 10-Yard Fight.nes
+4 | Advanced Dungeons & Dragons: Pool of Radiance | Advanced Dungeons & Dragons - Pool of Radiance (Japan).nes | Advanced Dungeons & Dragons - Pool of Radiance.nes
+5 | Takahashi Meijin no Bōken Jima | Takahashi Meijin no Bouken Jima (Japan).nes | Takahashi Meijin no Bouken Jima.nes
+6 | Dragon Quest III: Soshite Densetsu e... | Dragon Quest III - Soshite Densetsu e... (Japan).nes | Dragon Quest III - Soshite Densetsu e....nes
+7 | Star Wars | Star Wars (Japan) (Namco).nes | Star Wars (Namco).nes
+8 | Star Wars | Star Wars (Japan) (Victor).nes | Star Wars (Victor).nes
+
+[NES-USA] 北美（669 个游戏）
+序号 | 维基百科条目 | 原始文件名称 | 修改后文件名称
+1 | 10-Yard Fight | 10-Yard Fight (USA).nes | 10-Yard Fight.nes
+2 | 1942 | 1942 (USA).nes | 1942.nes
+3 | 1943: The Battle of Midway | 1943 - The Battle of Midway (USA).nes | 1943 - The Battle of Midway.nes
+4 | 720° | 720 Degrees (USA).nes | 720 Degrees.nes
+5 | 8 Eyes | 8 Eyes (USA).nes | 8 Eyes.nes
+6 | A Boy and His Blob: Trouble on Blobolonia | A Boy and His Blob - Trouble on Blobolonia (USA).nes | A Boy and His Blob - Trouble on Blobolonia.nes
+7 | Teenage Mutant Ninja Turtles: Tournament Fighters | Teenage Mutant Ninja Turtles - Tournament Fighters (USA).nes | Teenage Mutant Ninja Turtles - Tournament Fighters.nes
+8 | The Legend of Zelda | Legend of Zelda, The (USA).nes | The Legend of Zelda.nes
+
+[NES-EUR] 欧洲（344 个游戏）
+序号 | 维基百科条目 | 原始文件名称 | 修改后文件名称
+1 | 10-Yard Fight | 10-Yard Fight (Europe).nes | 10-Yard Fight.nes
+2 | A Boy and His Blob: Trouble on Blobolonia | A Boy and His Blob - Trouble on Blobolonia (Europe).nes | A Boy and His Blob - Trouble on Blobolonia.nes
+3 | Action in New York | Action in New York (Europe).nes | Action in New York.nes
+4 | Adventure Island Classic | Adventure Island Classic (Europe).nes | Adventure Island Classic.nes
+5 | Adventures in the Magic Kingdom | Adventures in the Magic Kingdom (Europe).nes | Adventures in the Magic Kingdom.nes
+6 | Adventures of Lolo | Adventures of Lolo (Europe).nes | Adventures of Lolo.nes
+7 | Mario Bros. | Mario Bros. (Europe) (PAL-MA-0).nes | Mario Bros..nes
+8 | Mario Bros. Classic Series | Mario Bros. (Europe) (PAL-MC-0, Classic Series).nes | Mario Bros. Classic Series.nes
+
+七、关于作者
+| 项目                | 内容                        |
+| 作者                | 村长不可爱                  |
+| 微信                | 村长（paprika225）          |
+| QQ                  | 村长不可爱（809730879）     |
+| 抖音                | 村长不可爱（paprika0225）   |
+| 小红书              | 村长不可爱（zhangjian225）  |
+| B站                 | 村长不可爱（49829377）      |
+| 快手                | 村长不可爱（paprika225）    |
+
+八、常见问题
+Q1. 我应该先解压哪个文件？
+A1. 请先解压 _BASE.zip，再解压 NES.zip。NES.zip 需要覆盖安装到 _BASE.zip 解压后
+    的同一个目录。
+
+Q2. 覆盖安装时提示文件已存在，应该怎么办？
+A2. 请选择覆盖。平台包中的部分配置、游戏列表和资源文件需要覆盖基础包中的默认
+    内容。
+
+Q3. 为什么有些原始文件名称、修改后文件名称和维基百科条目不完全一样？
+A3. 维基百科条目用于说明游戏在参考清单中的名称。原始文件名称用于版本追溯，
+    修改后文件名称用于前端显示、文件系统兼容性和统一命名规则。
+
+Q4. 原始文件列表有什么用？
+A4. 原始文件列表主要用于问题排查和版本追溯。如果你反馈某个游戏无法运行、名称
+    不正确或资源不匹配，请尽量同时提供地区、修改后文件名称和原始文件名称。
+
+Q5. 安装完成后没有看到游戏怎么办？
+A5. 请确认 _BASE.zip 和 NES.zip 解压到了同一个目录，确认解压时选择了覆盖，然后
+    重启 ES-DE，或在 ES-DE 中重新扫描游戏列表。
+
+九、捐助本项目
+RetroBoy 是个人整理和维护的复古游戏合集项目。如果这个项目节省了你的整理时间，
+或帮助你更方便地搭建 ES-DE 与 RetroArch 环境，欢迎自愿捐助支持项目继续维护。
+你可以通过压缩包中的微信收款码或支付宝收款码进行捐助。捐助完全自愿，不影响你
+使用本项目的任何内容。
+如果你希望在项目仓库中展示为支持者，可以在捐助后提供“平台 + 用户名”，例如
+“微信 - 张三”或“支付宝 - RetroPlayer”。我会根据捐助金额从高到低，将支持者
+名单展示在 RetroBoy 项目仓库中，以感谢大家对项目的支持。
+请不要在备注或公开渠道填写手机号、身份证号、详细地址等隐私信息。如需反馈问题，
+请优先使用上方反馈邮箱，并尽量附带平台、修改后文件名称和问题描述。
+
+十、原始文件列表
+序号 | 原始文件名称
+1 | $1,000,000 Kid - Maboroshi no Teiou Hen (Japan).nes
+2 | '89 Dennou Kyuusei Uranai (Japan).nes
+3 | 10-Yard Fight (Japan).nes
+4 | Advanced Dungeons & Dragons - Pool of Radiance (Japan).nes
+5 | Takahashi Meijin no Bouken Jima (Japan).nes
+6 | Dragon Quest III - Soshite Densetsu e... (Japan).nes
+7 | Star Wars (Japan) (Namco).nes
+8 | Star Wars (Japan) (Victor).nes
+9 | 10-Yard Fight (USA).nes
+10 | 1942 (USA).nes
+11 | 1943 - The Battle of Midway (USA).nes
+12 | 720 Degrees (USA).nes
+13 | 8 Eyes (USA).nes
+14 | A Boy and His Blob - Trouble on Blobolonia (USA).nes
+15 | Teenage Mutant Ninja Turtles - Tournament Fighters (USA).nes
+16 | Legend of Zelda, The (USA).nes
+17 | 10-Yard Fight (Europe).nes
+18 | A Boy and His Blob - Trouble on Blobolonia (Europe).nes
+19 | Action in New York (Europe).nes
+20 | Adventure Island Classic (Europe).nes
+21 | Adventures in the Magic Kingdom (Europe).nes
+22 | Adventures of Lolo (Europe).nes
+23 | Mario Bros. (Europe) (PAL-MA-0).nes
+24 | Mario Bros. (Europe) (PAL-MC-0, Classic Series).nes

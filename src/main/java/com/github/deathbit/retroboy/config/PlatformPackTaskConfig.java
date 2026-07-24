@@ -17,10 +17,12 @@ import java.util.Set;
 @NoArgsConstructor
 public class PlatformPackTaskConfig {
     private Platform platform;
+    private String version;
     private boolean enabled;
     private boolean manualStep;
     private boolean release;
     private String core;
+    private String wiki;
     private List<String> coreConfigs;
     private List<AreaConfig> areaConfigs;
     private Set<String> tagBlackList;
