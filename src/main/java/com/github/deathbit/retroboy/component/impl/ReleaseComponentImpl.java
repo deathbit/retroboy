@@ -52,11 +52,15 @@ public class ReleaseComponentImpl implements ReleaseComponent {
                 } else if (Files.isRegularFile(path)) {
                     addFile(outputStream, path);
                 }
-                pb.updateTask(i);
+                if (i % PROGRESS_UPDATE_INTERVAL == 0 || i == sourcePaths.size() - 1) {
+                    pb.updateTask(i);
+                }
             }
-            pb.finishTask();
+            pb.finishTaskAndClose();
         } finally {
-            pb.close();
+            if (pb.getCurrentPercentage() < 1.0) {
+                pb.close();
+            }
         }
     }
 

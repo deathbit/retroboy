@@ -19,6 +19,7 @@ public class GlobalConfig {
     private String retroarchHomePath;
     private String resourcesHomePath;
     private String repo;
+    private String basePackVersion;
     private String baiduPan;
     private String qqGroup;
     private String feedbackEmail;

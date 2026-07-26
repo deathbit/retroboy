@@ -5,11 +5,17 @@ import com.github.deathbit.retroboy.domain.AreaRenameResult;
 import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.ProgressBar;
 import com.github.deathbit.retroboy.domain.RuleContext;
+import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.handler.platform.RenameGameHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.Comparator;
 import java.util.LinkedHashMap;
+import java.util.Map;
 
 @Component
 public class RenameGameHandlerImpl implements RenameGameHandler {
@@ -29,6 +35,7 @@ public class RenameGameHandlerImpl implements RenameGameHandler {
                 areaRenameResults.put(oldName, AreaRenameResult.builder()
                                                                .oldName(oldName)
                                                                .newName(newName)
+                                                               .finalName(removeExtension(newName))
                                                                .renamed(!oldName.equals(newName))
                                                                .build());
                 fileComponent.rename(String.format("%s\\ROMs\\%s\\%s-%s\\%s",
@@ -40,6 +47,35 @@ public class RenameGameHandlerImpl implements RenameGameHandler {
             }
             pb.finishTaskAndClose();
         });
+        writeRomWiki(ruleContext);
+    }
+
+    private void writeRomWiki(RuleContext ruleContext) throws Exception {
+        var wikiPath = Path.of(ruleContext.getGlobalConfig().getResourcesHomePath(),
+                "platform",
+                ruleContext.getPlatformName(),
+                "wiki",
+                ruleContext.getPlatform().name() + "-ROM.txt");
+        var content = new StringBuilder();
+        for (var area : Area.values()) {
+            var finalNames = ruleContext.getAreaRenameResultMap()
+                    .getOrDefault(area, Map.of())
+                    .values()
+                    .stream()
+                    .map(AreaRenameResult::getFinalName)
+                    .filter(finalName -> finalName != null && !finalName.isBlank())
+                    .sorted(Comparator.naturalOrder())
+                    .toList();
+            content.append(area.name())
+                    .append("(")
+                    .append(finalNames.size())
+                    .append("):")
+                    .append(System.lineSeparator());
+            finalNames.forEach(finalName -> content.append(finalName).append(System.lineSeparator()));
+            content.append(System.lineSeparator());
+        }
+        Files.createDirectories(wikiPath.getParent());
+        Files.writeString(wikiPath, content.toString(), StandardCharsets.UTF_8);
     }
 
     private String buildNewName(String oldName, RuleContext ruleContext) {
@@ -48,6 +84,14 @@ public class RenameGameHandlerImpl implements RenameGameHandler {
             return ruleContext.getRenameOptionMap().get(fileContext.getFileName());
         }
         return normalizeLeadingArticle(fileContext.getNamePart()) + fileContext.getExtension();
+    }
+
+    private String removeExtension(String fileName) {
+        var dotIndex = fileName.lastIndexOf('.');
+        if (dotIndex <= 0) {
+            return fileName;
+        }
+        return fileName.substring(0, dotIndex);
     }
 
     private String normalizeLeadingArticle(String namePart) {
@@ -72,4 +116,3 @@ public class RenameGameHandlerImpl implements RenameGameHandler {
         return article + " " + title.substring(0, title.length() - suffix.length()) + namePart.substring(separatorIndex);
     }
 }
-

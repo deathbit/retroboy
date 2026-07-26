@@ -5,13 +5,14 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AreaRenameResult {
-    private String oldName;
-    private String newName;
-    private String finalName;
-    private boolean renamed;
+public class ReleaseNote {
+    private String version;
+    private String date;
+    private List<String> changes;
 }

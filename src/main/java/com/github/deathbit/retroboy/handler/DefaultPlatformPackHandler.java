@@ -1,6 +1,5 @@
 package com.github.deathbit.retroboy.handler;
 
-import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.handler.platform.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,9 +7,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class DefaultPlatformPackHandler implements PlatformPackHandler {
-
-    @Autowired
-    private AppConfig appConfig;
 
     @Autowired
     private RuleContextInitializer ruleContextInitializer;
@@ -52,10 +48,10 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
         moveGameHandler.handle(ruleContext);
         renameGameHandler.handle(ruleContext);
         if (ruleContext.getPlatformPackTaskConfig().isManualStep()) {
+            wikiMatcherHandler.handle(ruleContext);
             mediaHandler.handle(ruleContext);
             gameListHandler.handle(ruleContext);
             coreHandler.handle(ruleContext);
-            wikiMatcherHandler.handle(ruleContext);
             debugReportHandler.handle(ruleContext);
             releaseReportHandler.handle(ruleContext);
             releaseHandler.handle(ruleContext);

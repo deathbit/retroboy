@@ -33,6 +33,4 @@ public class RuleContext {
     private Map<Area, Map<String, AreaRuleResult>> areaRuleResultMap;
     private Map<Area, Map<String, AreaRenameResult>> areaRenameResultMap;
     private Map<Area, Map<String, WikiGameEntry>> areaWikiEntryMap;
-    private Map<Area, Map<String, AreaWikiMatchResult>> areaWikiMatchResultMap;
-    private Map<Area, List<AreaWikiMismatch>> areaWikiMismatchMap;
 }

@@ -1,8 +1,15 @@
 package com.github.deathbit.retroboy.rule;
 
+import com.github.deathbit.retroboy.domain.FileContext;
+import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.rule.complex.RuleIsHighestRevision;
 
+import java.util.List;
+import java.util.Objects;
+
 public class Rules {
+    private static final List<String> EUROPE_PAL_FALLBACK_REGIONS = List.of("France", "Australia", "Germany", "Spain", "Sweden");
+
     public static final Rule IS_WHITELIST = (rc, fc) -> {
         if (rc.getGlobalConfig().getGlobalRomWhitelist().contains(fc.getFileName())) {
             return true;
@@ -71,6 +78,9 @@ public class Rules {
         if (fc.getTagPart().contains("Europe")) {
             return true;
         }
+        if (rc.getPlatformPackTaskConfig().isUsePal() && findPalFallbackRegion(fc) != null) {
+            return isPreferredPalFallbackRegion(rc, fc);
+        }
         rc.getRomNotPassReasons().add("IS_EUROPE失败: 不属于 Europe 地区");
         return false;
     };
@@ -95,4 +105,40 @@ public class Rules {
     public static final Rule IS_JAPAN_BASE = IS_BASE_WITH_ROM_WHITELIST.and(IS_JAPAN_OR_WORLD);
     public static final Rule IS_USA_BASE = IS_BASE_WITH_ROM_WHITELIST.and(IS_USA_OR_WORLD);
     public static final Rule IS_EUROPE_BASE = IS_BASE_WITH_ROM_WHITELIST.and(IS_EUROPE_OR_WORLD);
+
+    private static boolean isPreferredPalFallbackRegion(RuleContext rc, FileContext fc) {
+        var currentRegion = findPalFallbackRegion(fc);
+        if (hasSameNameEuropeRom(rc, fc)) {
+            rc.getRomNotPassReasons().add("IS_EUROPE失败: 存在同名 Europe ROM，忽略 PAL 备用地区 " + currentRegion);
+            return false;
+        }
+        var preferredRegion = findPreferredPalFallbackRegion(rc, fc);
+        if (currentRegion.equals(preferredRegion)) {
+            return true;
+        }
+        rc.getRomNotPassReasons().add(String.format("IS_EUROPE失败: PAL 备用地区优先级低于 %s", preferredRegion));
+        return false;
+    }
+
+    private static boolean hasSameNameEuropeRom(RuleContext rc, FileContext fc) {
+        return rc.getFileContextMap().values().stream()
+                .anyMatch(candidate -> fc.getNamePart().equals(candidate.getNamePart())
+                        && candidate.getTagPart().contains("Europe"));
+    }
+
+    private static String findPreferredPalFallbackRegion(RuleContext rc, FileContext fc) {
+        return rc.getFileContextMap().values().stream()
+                .filter(candidate -> fc.getNamePart().equals(candidate.getNamePart()))
+                .map(Rules::findPalFallbackRegion)
+                .filter(Objects::nonNull)
+                .min((left, right) -> Integer.compare(EUROPE_PAL_FALLBACK_REGIONS.indexOf(left), EUROPE_PAL_FALLBACK_REGIONS.indexOf(right)))
+                .orElse(null);
+    }
+
+    private static String findPalFallbackRegion(FileContext fc) {
+        return EUROPE_PAL_FALLBACK_REGIONS.stream()
+                .filter(region -> fc.getTagPart().contains(region))
+                .findFirst()
+                .orElse(null);
+    }
 }

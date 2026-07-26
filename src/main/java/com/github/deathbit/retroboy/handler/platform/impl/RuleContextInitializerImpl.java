@@ -47,8 +47,6 @@ public class RuleContextInitializerImpl implements RuleContextInitializer {
         ruleContext.setAreaRuleResultMap(new HashMap<>());
         ruleContext.setAreaRenameResultMap(new HashMap<>());
         ruleContext.setAreaWikiEntryMap(new HashMap<>());
-        ruleContext.setAreaWikiMatchResultMap(new HashMap<>());
-        ruleContext.setAreaWikiMismatchMap(new HashMap<>());
 
         return ruleContext;
     }

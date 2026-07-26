@@ -16,6 +16,8 @@ import java.util.stream.Stream;
 @Component
 public class FileComponentImpl implements FileComponent {
 
+    private static final int PROGRESS_UPDATE_INTERVAL = 1000;
+
     @Override
     public void deletePath(String path) {
         try {
@@ -31,7 +33,7 @@ public class FileComponentImpl implements FileComponent {
                     pb.startTask(paths.size());
                     for (int i = 0; i < paths.size(); i++) {
                         Files.delete(paths.get(i));
-                        pb.updateTask(i);
+                        updateProgressBar(pb, i);
                     }
                     pb.finishTaskAndClose();
                 }
@@ -63,7 +65,7 @@ public class FileComponentImpl implements FileComponent {
                         } else {
                             Files.copy(currentSource, currentTarget, StandardCopyOption.REPLACE_EXISTING);
                         }
-                        pb.updateTask(i);
+                        updateProgressBar(pb, i);
                     }
                     pb.finishTaskAndClose();
                 }
@@ -82,6 +84,12 @@ public class FileComponentImpl implements FileComponent {
             Files.move(sourcePathObj, sourcePathObj.resolveSibling(newName));
         } catch (Exception e) {
             throw new RuntimeException(e);
+        }
+    }
+
+    private void updateProgressBar(ProgressBar pb, int index) {
+        if ((index + 1) % PROGRESS_UPDATE_INTERVAL == 0) {
+            pb.updateTask(index);
         }
     }
 }

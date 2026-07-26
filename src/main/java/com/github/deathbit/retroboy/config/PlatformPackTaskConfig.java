@@ -1,6 +1,7 @@
 package com.github.deathbit.retroboy.config;
 
 import com.github.deathbit.retroboy.domain.AreaConfig;
+import com.github.deathbit.retroboy.domain.ReleaseNote;
 import com.github.deathbit.retroboy.domain.RenameOption;
 import com.github.deathbit.retroboy.enums.Platform;
 import lombok.AllArgsConstructor;
@@ -21,8 +22,10 @@ public class PlatformPackTaskConfig {
     private boolean enabled;
     private boolean manualStep;
     private boolean release;
+    private boolean usePal;
     private String core;
     private String wiki;
+    private List<ReleaseNote> releaseNotes;
     private List<String> coreConfigs;
     private List<AreaConfig> areaConfigs;
     private Set<String> tagBlackList;

@@ -107,9 +107,9 @@ app:
     basePackReleaseTaskConfig:
       taskName: '发布基础包'
       enabled: true
-      targetPath: 'D:\resources\release\_BASE.zip'
+      targetPath: 'D:\resources\release\BASE.zip'
     globalConfig:
-      enableBasePackHandler: true
+      enableBasePackHandler: false
       enablePlatformPackHandler: true
       esdeHomePath: 'D:\ES-DE'
       retroarchHomePath: 'D:\ES-DE\Emulators\RetroArch-Win64'
@@ -123,6 +123,7 @@ app:
         xhs: '村长不可爱|zhangjian225'
         bilibili: '村长不可爱|49829377'
         ks: '村长不可爱|paprika225'
+      basePackVersion: '1.0'
       baiduPan: 'https://www.baidu.com/'
       qqGroup: '1021421949'
       feedbackEmail: '809730879@qq.com'
@@ -185,12 +186,20 @@ app:
         version: '1.0'
         enabled: true
         manualStep: true
-        release: true
+        release: false
         core: 'Mesen'
+        usePal: true
         coreConfigs:
           - 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.opt'
           - 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.slangp'
         wiki: 'https://en.wikipedia.org/wiki/List_of_Nintendo_Entertainment_System_games'
+        releaseNotes:
+          - version: '1.0'
+            date: '1991-02-25'
+            changes:
+              - '首次发布 NES 游戏合集。'
+              - '包含 NES-JPN、NES-USA、NES-EUR 三个地区的基础游戏清单。'
+              - '提供 ES-DE 与 RetroArch 的基础配置支持。'
         areaConfigs:
           - area: 'EUR'
             areaFileNameBlackList:
@@ -200,6 +209,8 @@ app:
               - 'Super Mario Bros. + Tetris + Nintendo World Cup (Europe) (Rev 1).nes'
               - 'Mario Bros. (Europe) (PAL-MA-0).nes'
               - 'Super Mario Bros. (Europe).nes'
+              - 'Teenage Mutant Ninja Turtles (Australia).nes'
+              - 'Teenage Mutant Ninja Turtles II - The Arcade Game (Australia).nes'
           - area: 'JPN'
             areaFileNameBlackList:
               - 'Kung Fu (Japan, USA) (En).nes'
