@@ -29,12 +29,15 @@ RetroBoy 是一个面向复古游戏合集制作的自动化整理工具，用�
 
 [https://pan.baidu.com/s/1FsRW8323Ga_XI142mA-0xQ?pwd=4fva](https://pan.baidu.com/s/1FsRW8323Ga_XI142mA-0xQ?pwd=4fva)
 
-<img src="img/百度网盘.jpg" alt="百度网盘二维码" width="240">
+| 百度网盘二维码 |
+| --- |
+| <img src="img/百度网盘.jpg" alt="百度网盘二维码" width="240"> |
 
 ## 项目结构
 
 ```text
 retroboy/
+├── img/                                  # README 使用的二维码图片
 ├── pom.xml
 ├── mvnw / mvnw.cmd
 ├── README.md
@@ -49,7 +52,7 @@ retroboy/
   │   ├── base/                             # 基础包构建任务
   │   ├── platform/                         # 平台包构建流程
   │   ├── rule/                             # ROM 筛选规则
-  │   └── utils/                            # 通用输出工具
+  │   └── util/                             # 通用输出和路径工具
   └── resources/
     └── application.yaml                  # 主配置文件
 ```
@@ -120,7 +123,7 @@ D:\resources\release\NES_1.0.zip
 app:
   config:
     globalConfig:
-      enableBasePackHandler: false
+      enableBasePackHandler: true
       enablePlatformPackHandler: true
 ```
 
@@ -136,7 +139,8 @@ app:
 6. `SET_UP_RETROARCH_DEFAULT_CONFIG_TASK`：写入 RetroArch 默认配置。
 7. `SET_UP_RETROARCH_FIX_CHINESE_FONT_TASK`：替换中文字体并修改字体配置。
 8. `SET_UP_RETROARCH_MEGA_BEZEL_SHADER_TASK`：复制 MegaBezel 相关文件并写入视频/着色器配置。
-9. `BASE_PACK_RELEASE_TASK`：压缩发布基础包。
+9. `BASE_PACK_RELEASE_REPORT_TASK`：生成基础包使用说明。
+10. `BASE_PACK_RELEASE_TASK`：压缩发布基础包。
 
 每个任务都可以通过 `application.yaml` 中对应配置项的 `enabled` 单独开启或关闭。
 
@@ -198,11 +202,20 @@ platformPackTaskConfigMap:
 D:\resources
 ```
 
+资源根目录还会放置发布包根目录附加文件，例如：
+
+```text
+resources/
+├── 微信赞赏码.png
+└── 支付宝收款码.jpg
+```
+
 基础包资源目录约定如下：
 
 ```text
 resources/
 └── base/
+  ├── 使用说明-基础包.txt                    # 基础包说明文档，由 BASE_PACK_RELEASE_REPORT_TASK 生成
   ├── ES-DE/                              # ES-DE 基础包
   ├── ES-DE-Update/                       # ES-DE 更新内容
   │   ├── themes/
@@ -217,7 +230,8 @@ resources/
   │   ├── info/
   │   ├── overlays/
   │   ├── shaders/
-  │   └── system/
+  │   ├── system/
+  │   └── retroarch.cfg
   ├── RetroArch-Win64-FixChineseFont/
   │   └── chinese-fallback-font.ttf
   └── RetroArch-Win64-MegaBezelShader/
@@ -276,7 +290,7 @@ src/main/resources/application.yaml
 
 ```yaml
 globalConfig:
-  enableBasePackHandler: false
+  enableBasePackHandler: true
   enablePlatformPackHandler: true
   esdeHomePath: 'D:\ES-DE'
   retroarchHomePath: 'D:\ES-DE\Emulators\RetroArch-Win64'
@@ -306,6 +320,33 @@ globalConfig:
 | `baiduPan` | 基础包网盘地址，会写入使用说明 |
 | `qqGroup` | QQ 群，会写入使用说明 |
 | `feedbackEmail` | 反馈邮箱，会写入使用说明和免责声明 |
+
+### 基础包发布配置
+
+基础包说明文档和发布包配置位于：
+
+```yaml
+basePackReleaseReportTaskConfig:
+  taskName: '生成基础包说明文档'
+  enabled: true
+  targetPath: 'D:\resources\base\使用说明-基础包.txt'
+  releaseNotes:
+    - version: '1.0'
+      date: '1991-02-25'
+      changes:
+        - '首次发布 RetroBoy 基础包。'
+
+basePackReleaseTaskConfig:
+  taskName: '发布基础包'
+  enabled: true
+  targetPath: 'D:\resources\release\BASE.zip'
+  rootFilePaths:
+    - 'D:\resources\base\使用说明-基础包.txt'
+    - 'D:\resources\微信赞赏码.png'
+    - 'D:\resources\支付宝收款码.jpg'
+```
+
+`targetPath` 可以保持为 `BASE.zip`，发布时会自动按 `basePackVersion` 输出为 `BASE_1.0.zip`。`rootFilePaths` 中的文件会按文件名放入压缩包根目录。
 
 ### 平台配置
 
@@ -436,6 +477,12 @@ D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\...
 
 ### 资源目录中的报告
 
+基础包流程会生成：
+
+```text
+D:\resources\base\使用说明-基础包.txt
+```
+
 平台包流程会生成：
 
 ```text
@@ -476,6 +523,8 @@ D:\resources\platform\nes\report\使用说明-NES.txt
 D:\resources\release\BASE_1.0.zip
 D:\resources\release\NES_1.0.zip
 ```
+
+基础包发布包根目录会额外包含基础包说明文档、微信赞赏码和支付宝收款码。平台包发布包根目录会额外包含微信赞赏码、支付宝收款码、平台调试报告和平台使用说明。
 
 ## 使用方式
 
