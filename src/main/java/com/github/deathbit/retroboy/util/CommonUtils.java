@@ -1,4 +1,4 @@
-package com.github.deathbit.retroboy.utils;
+package com.github.deathbit.retroboy.util;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

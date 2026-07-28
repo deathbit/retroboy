@@ -7,13 +7,13 @@ import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.domain.WikiGameEntry;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.MediaAssetType;
+import com.github.deathbit.retroboy.util.PathUtils;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -25,11 +25,7 @@ public class DebugReportHandler {
     private static final String MEDIA_EXISTS = "●";
     private static final String MEDIA_MISSING = "○";
     public void handle(RuleContext ruleContext) {
-        var debugReportPath = Path.of(ruleContext.getGlobalConfig().getResourcesHomePath(),
-                "platform",
-                ruleContext.getPlatformName(),
-                "report",
-                String.format("调试信息-%s.txt", ruleContext.getPlatform().name()));
+        var debugReportPath = PathUtils.DEBUG_REPORT.get(ruleContext);
         var content = new StringBuilder();
         appendLicensedGames(content, ruleContext.getLicensed());
         content.append(System.lineSeparator());

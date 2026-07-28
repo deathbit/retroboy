@@ -3,12 +3,13 @@ package com.github.deathbit.retroboy.platform.impl;
 import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.domain.PathPair;
 import com.github.deathbit.retroboy.domain.RuleContext;
+import com.github.deathbit.retroboy.util.PathUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 
-import java.io.File;
+import java.nio.file.Path;
 import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.OutputKeys;
@@ -22,19 +23,15 @@ public class GameListHandler {
     @Autowired
     private FileComponent fileComponent;
     public void handle(RuleContext ruleContext) {
-        String targetPath = String.format("%s\\ES-DE\\gamelists\\%s",
-            ruleContext.getGlobalConfig().getEsdeHomePath(), ruleContext.getPlatformName());
-        fileComponent.copyPath(PathPair.builder().sourcePath(String.format("%s\\platform\\%s\\gamelists\\%s\\gamelist.xml",
-                                           ruleContext.getGlobalConfig().getResourcesHomePath(),
-                                           ruleContext.getPlatformName(),
-                                           ruleContext.getPlatformName()))
+        var targetPath = PathUtils.ESDE_PLATFORM_GAMELIST.get(ruleContext);
+        fileComponent.copyPath(PathPair.builder().sourcePath(PathUtils.PLATFORM_GAMELIST_XML.get(ruleContext))
                                        .targetPath(targetPath).build());
-        updateGameNames(targetPath + "\\gamelist.xml");
+        updateGameNames(PathUtils.ESDE_PLATFORM_GAMELIST_XML.get(ruleContext));
     }
 
-    private void updateGameNames(String gameListPath) {
+    private void updateGameNames(Path gameListPath) {
         try {
-            var gameListFile = new File(gameListPath);
+            var gameListFile = gameListPath.toFile();
             var documentBuilderFactory = DocumentBuilderFactory.newInstance();
             documentBuilderFactory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
             var document = documentBuilderFactory.newDocumentBuilder().parse(gameListFile);

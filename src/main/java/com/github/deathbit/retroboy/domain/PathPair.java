@@ -5,11 +5,13 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.nio.file.Path;
+
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class PathPair {
-    private String sourcePath;
-    private String targetPath;
+    private Path sourcePath;
+    private Path targetPath;
 }

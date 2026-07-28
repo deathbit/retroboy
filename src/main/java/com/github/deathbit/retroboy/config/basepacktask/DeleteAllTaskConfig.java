@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.nio.file.Path;
+
 @Data
 @Builder
 @AllArgsConstructor
@@ -12,5 +14,5 @@ import lombok.NoArgsConstructor;
 public class DeleteAllTaskConfig {
     private String taskName;
     private boolean enabled;
-    private String deletePath;
+    private Path deletePath;
 }

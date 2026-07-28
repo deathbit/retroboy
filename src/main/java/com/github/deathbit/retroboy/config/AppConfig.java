@@ -20,6 +20,7 @@ public class AppConfig {
     private SetUpRetroArchDefaultConfigTaskConfig setUpRetroArchDefaultConfigTaskConfig;
     private SetUpRetroArchFixChineseFontTaskConfig setUpRetroArchFixChineseFontTaskConfig;
     private SetUpRetroArchMegaBezelShaderTaskConfig setUpRetroArchMegaBezelShaderTaskConfig;
+    private BasePackReleaseReportTaskConfig basePackReleaseReportTaskConfig;
     private BasePackReleaseTaskConfig basePackReleaseTaskConfig;
     private GlobalConfig globalConfig;
     private Map<Platform, PlatformPackTaskConfig> platformPackTaskConfigMap;

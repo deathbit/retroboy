@@ -5,6 +5,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.nio.file.Path;
+import java.util.List;
+
 @Data
 @Builder
 @AllArgsConstructor
@@ -12,5 +15,6 @@ import lombok.NoArgsConstructor;
 public class BasePackReleaseTaskConfig {
     private String taskName;
     private boolean enabled;
-    private String targetPath;
+    private Path targetPath;
+    private List<Path> rootFilePaths;
 }

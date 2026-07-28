@@ -8,6 +8,7 @@ import com.github.deathbit.retroboy.enums.BasePackTask;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.nio.file.Path;
 import java.util.List;
 
 @Component
@@ -39,10 +40,28 @@ public class BasePackReleaseTask implements BasePackHandler {
 
     @Override
     public void handle() throws Exception {
-        fileComponent.deletePath(appConfig.getBasePackReleaseTaskConfig().getTargetPath());
+        var targetPath = buildVersionedTargetPath();
+        fileComponent.deletePath(targetPath);
         releaseComponent.release(
-                appConfig.getBasePackReleaseTaskConfig().getTargetPath(),
-                List.of(appConfig.getGlobalConfig().getEsdeHomePath())
+                targetPath,
+                List.of(Path.of(appConfig.getGlobalConfig().getEsdeHomePath())),
+                appConfig.getBasePackReleaseTaskConfig().getRootFilePaths()
         );
+    }
+
+    private Path buildVersionedTargetPath() {
+        var targetPath = appConfig.getBasePackReleaseTaskConfig().getTargetPath();
+        var fileName = targetPath.getFileName().toString();
+        var extensionIndex = fileName.lastIndexOf('.');
+        var version = appConfig.getGlobalConfig().getBasePackVersion();
+        var fileNameWithoutExtension = extensionIndex == -1 ? fileName : fileName.substring(0, extensionIndex);
+        if (fileNameWithoutExtension.endsWith("_" + version)) {
+            return targetPath;
+        }
+        var versionedFileName = extensionIndex == -1
+                ? fileName + "_" + version
+                : fileNameWithoutExtension + "_" + version + fileName.substring(extensionIndex);
+        var parent = targetPath.getParent();
+        return parent == null ? Path.of(versionedFileName) : parent.resolve(versionedFileName);
     }
 }

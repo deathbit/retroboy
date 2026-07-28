@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.List;
 
 @Component
@@ -21,7 +20,7 @@ public class ConfigComponentImpl implements ConfigComponent {
     @Override
     public void changeRetroArchConfig(ConfigPair configPair) {
         try {
-            Path configPath = Paths.get(String.format("%s\\retroarch.cfg", appConfig.getGlobalConfig().getRetroarchHomePath()));
+            Path configPath = Path.of(appConfig.getGlobalConfig().getRetroarchHomePath(), "retroarch.cfg");
             List<String> lines = Files.readAllLines(configPath, StandardCharsets.UTF_8);
             String key = configPair.getKey();
             String value = configPair.getValue();

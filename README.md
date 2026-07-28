@@ -23,6 +23,14 @@ RetroBoy 是一个面向复古游戏合集制作的自动化整理工具，用�
 - 支持生成面向最终用户的中文使用说明，包括安装方式、目录说明、FAQ、免责声明和游戏清单。
 - 支持打包生成带版本号的基础包和平台包，例如 `BASE_1.0.zip`、`NES_1.0.zip`。
 
+## 下载链接
+
+你可以通过百度网盘下载 RetroBoy 基础包和已发布的平台包：
+
+[https://pan.baidu.com/s/1FsRW8323Ga_XI142mA-0xQ?pwd=4fva](https://pan.baidu.com/s/1FsRW8323Ga_XI142mA-0xQ?pwd=4fva)
+
+<img src="img/百度网盘.jpg" alt="百度网盘二维码" width="240">
+
 ## 项目结构
 
 ```text
@@ -277,7 +285,7 @@ globalConfig:
   basePackVersion: '1.0'
   esdeVersion: '3.4.1'
   retroarchVersion: '1.22.2'
-  baiduPan: 'https://www.baidu.com/'
+  baiduPan: 'https://pan.baidu.com/s/1FsRW8323Ga_XI142mA-0xQ?pwd=4fva'
   qqGroup: '1021421949'
   feedbackEmail: '809730879@qq.com'
 ```
@@ -654,4 +662,3 @@ RetroBoy 项目中的游戏信息、媒体素材、说明资料及相关内容�
 ## License
 
 本项目采用 MIT License，详见 `LICENSE`。
-

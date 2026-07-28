@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.nio.file.Path;
 import java.util.List;
 
 @Data
@@ -15,6 +16,6 @@ import java.util.List;
 public class SetUpRetroArchUpdateTaskConfig {
     private String taskName;
     private boolean enabled;
-    private List<String> deletePaths;
+    private List<Path> deletePaths;
     private List<PathPair> pathPairs;
 }

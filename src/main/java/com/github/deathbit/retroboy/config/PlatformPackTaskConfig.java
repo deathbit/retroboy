@@ -9,6 +9,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.nio.file.Path;
 import java.util.List;
 import java.util.Set;
 
@@ -26,7 +27,7 @@ public class PlatformPackTaskConfig {
     private String core;
     private String wiki;
     private List<ReleaseNote> releaseNotes;
-    private List<String> coreConfigs;
+    private List<Path> coreConfigs;
     private List<AreaConfig> areaConfigs;
     private Set<String> tagBlackList;
     private Set<String> fileNameBlackList;

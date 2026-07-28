@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.Comparator;
 import java.util.List;
@@ -17,16 +16,15 @@ import java.util.stream.Stream;
 public class FileComponentImpl implements FileComponent {
 
     @Override
-    public void deletePath(String path) {
+    public void deletePath(Path path) {
         try {
-            Path pathObj = Paths.get(path);
-            if (Files.notExists(pathObj)) {
+            if (Files.notExists(path)) {
                 return;
             }
 
-            if (Files.isDirectory(pathObj)) {
+            if (Files.isDirectory(path)) {
                 ProgressBar pb = new ProgressBar("删除路径");
-                try (Stream<Path> walk = Files.walk(pathObj)) {
+                try (Stream<Path> walk = Files.walk(path)) {
                     List<Path> paths = walk.sorted(Comparator.reverseOrder()).toList();
                     pb.startTask(paths.size());
                     for (int i = 0; i < paths.size(); i++) {
@@ -36,7 +34,7 @@ public class FileComponentImpl implements FileComponent {
                     pb.finishTaskAndClose();
                 }
             } else {
-                Files.delete(pathObj);
+                Files.delete(path);
             }
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -46,8 +44,8 @@ public class FileComponentImpl implements FileComponent {
     @Override
     public void copyPath(PathPair pathPair) {
         try {
-            Path sourcePathObj = Paths.get(pathPair.getSourcePath());
-            Path targetDir = Paths.get(pathPair.getTargetPath());
+            Path sourcePathObj = pathPair.getSourcePath();
+            Path targetDir = pathPair.getTargetPath();
             Files.createDirectories(targetDir);
             if (Files.isDirectory(sourcePathObj)) {
                 ProgressBar pb = new ProgressBar("拷贝路径");
@@ -76,10 +74,9 @@ public class FileComponentImpl implements FileComponent {
     }
 
     @Override
-    public void rename(String sourcePath, String newName) {
+    public void rename(Path sourcePath, String newName) {
         try {
-            Path sourcePathObj = Paths.get(sourcePath);
-            Files.move(sourcePathObj, sourcePathObj.resolveSibling(newName));
+            Files.move(sourcePath, sourcePath.resolveSibling(newName));
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

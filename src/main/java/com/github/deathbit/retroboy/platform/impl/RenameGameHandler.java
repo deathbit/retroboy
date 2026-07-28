@@ -6,12 +6,12 @@ import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.ProgressBar;
 import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.enums.Area;
+import com.github.deathbit.retroboy.util.PathUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -35,11 +35,7 @@ public class RenameGameHandler {
                                                                .finalName(removeExtension(newName))
                                                                .renamed(!oldName.equals(newName))
                                                                .build());
-                fileComponent.rename(String.format("%s\\ROMs\\%s\\%s-%s\\%s",
-                    ruleContext.getGlobalConfig().getEsdeHomePath(),
-                    ruleContext.getPlatformName(),
-                    ruleContext.getPlatform().name(),
-                    area.name(), oldName), newName);
+                fileComponent.rename(PathUtils.esdeAreaRom(ruleContext, area, oldName), newName);
                 pb.updateTask(i);
             }
             pb.finishTaskAndClose();
@@ -48,11 +44,7 @@ public class RenameGameHandler {
     }
 
     private void writeRomWiki(RuleContext ruleContext) throws Exception {
-        var wikiPath = Path.of(ruleContext.getGlobalConfig().getResourcesHomePath(),
-                "platform",
-                ruleContext.getPlatformName(),
-                "wiki",
-                ruleContext.getPlatform().name() + "-ROM.txt");
+        var wikiPath = PathUtils.PLATFORM_ROM_WIKI.get(ruleContext);
         var content = new StringBuilder();
         for (var area : Area.values()) {
             var finalNames = ruleContext.getAreaRenameResultMap()

@@ -8,6 +8,7 @@ import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.rule.Rules;
+import com.github.deathbit.retroboy.util.PathUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.w3c.dom.Element;
@@ -35,10 +36,8 @@ public class RuleContextInitializer {
         ruleContext.setPlatformPackTaskConfig(appConfig.getPlatformPackTaskConfigMap().get(platform));
         ruleContext.setRenameOptionMap(ruleContext.getPlatformPackTaskConfig().getRenameOptions()
                 .stream().collect(Collectors.toMap(RenameOption::getOldName, RenameOption::getNewName)));
-        ruleContext.setLicensed(parseLicensedGames(String.format("%s\\platform\\%s\\dat\\%s.dat",
-                appConfig.getGlobalConfig().getResourcesHomePath(), ruleContext.getPlatformName(), ruleContext.getPlatformName())));
-        populateFileContextMap(ruleContext, String.format("%s\\platform\\%s\\roms",
-                appConfig.getGlobalConfig().getResourcesHomePath(), ruleContext.getPlatformName()));
+        ruleContext.setLicensed(parseLicensedGames(PathUtils.string(PathUtils.PLATFORM_DAT, ruleContext)));
+        populateFileContextMap(ruleContext, PathUtils.string(PathUtils.PLATFORM_ROMS, ruleContext));
         ruleContext.setRuleMap(Map.of(Area.JPN, Rules.IS_JAPAN_BASE, Area.USA, Rules.IS_USA_BASE, Area.EUR, Rules.IS_EUROPE_BASE));
         ruleContext.setAreaPassMap(new HashMap<>());
         ruleContext.setAreaRuleResultMap(new HashMap<>());

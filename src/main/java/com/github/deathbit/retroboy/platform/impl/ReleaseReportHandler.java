@@ -4,13 +4,13 @@ import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.domain.WikiGameEntry;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.MediaAssetType;
+import com.github.deathbit.retroboy.util.PathUtils;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Comparator;
@@ -25,11 +25,7 @@ public class ReleaseReportHandler {
     private static final String MEDIA_EXISTS = "●";
     private static final String MEDIA_MISSING = "○";
     public void handle(RuleContext ruleContext) {
-        var releaseReportPath = Path.of(ruleContext.getGlobalConfig().getResourcesHomePath(),
-                "platform",
-                ruleContext.getPlatformName(),
-                "report",
-                "使用说明-" + ruleContext.getPlatform().name() + ".txt");
+        var releaseReportPath = PathUtils.RELEASE_REPORT.get(ruleContext);
         var content = new StringBuilder();
         appendTitle(content, ruleContext);
         appendDirectory(content);
@@ -114,7 +110,7 @@ public class ReleaseReportHandler {
         appendInfo(content, "游戏总数", String.valueOf(areaGameCounts.values().stream().mapToInt(Integer::intValue).sum()));
         appendAreaGameCounts(content, areaGameCounts);
         appendInfo(content, "基础包版本", ruleContext.getGlobalConfig().getBasePackVersion());
-        appendInfo(content, "基础包网盘", ruleContext.getGlobalConfig().getBaiduPan());
+        appendInfo(content, "百度网盘", ruleContext.getGlobalConfig().getBaiduPan());
         appendInfo(content, "维基百科", ruleContext.getPlatformPackTaskConfig().getWiki());
         appendInfo(content, "项目仓库", ruleContext.getGlobalConfig().getRepo());
         appendInfo(content, "QQ群", ruleContext.getGlobalConfig().getQqGroup());

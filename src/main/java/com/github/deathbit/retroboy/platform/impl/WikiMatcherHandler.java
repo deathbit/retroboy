@@ -4,13 +4,13 @@ import com.github.deathbit.retroboy.domain.AreaRenameResult;
 import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.domain.WikiGameEntry;
 import com.github.deathbit.retroboy.enums.Area;
+import com.github.deathbit.retroboy.util.PathUtils;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.regex.Pattern;
@@ -22,11 +22,7 @@ public class WikiMatcherHandler {
     private static final String SEPARATOR = " || ";
     private static final String UNMATCHED_MARKER = "=====";
     public void handle(RuleContext ruleContext) {
-        var wikiRomPath = Path.of(ruleContext.getGlobalConfig().getResourcesHomePath(),
-                "platform",
-                ruleContext.getPlatformName(),
-                "wiki",
-                ruleContext.getPlatform().name() + "-WIKI-ROM.txt");
+        var wikiRomPath = PathUtils.PLATFORM_WIKI_ROM_MAPPING.get(ruleContext);
         var finalNameIndex = buildFinalNameIndex(ruleContext);
         var areaWikiEntryMap = new LinkedHashMap<Area, Map<String, WikiGameEntry>>();
 

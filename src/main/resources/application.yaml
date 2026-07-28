@@ -46,6 +46,7 @@ app:
         - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\overlays', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
         - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\shaders', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
         - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\system', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+        - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\retroarch.cfg', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
     setUpRetroArchDefaultConfigTaskConfig:
       taskName: '设置RetroArch默认配置'
       enabled: true
@@ -72,12 +73,28 @@ app:
         - { key: 'video_rotation', value: '0' }
         - { key: 'video_scale_integer', value: 'false' }
         - { key: 'video_shader_enable', value: 'true' }
+    basePackReleaseReportTaskConfig:
+      taskName: '生成基础包说明文档'
+      enabled: true
+      targetPath: 'D:\resources\base\使用说明-基础包.txt'
+      releaseNotes:
+        - version: '1.0'
+          date: '1991-02-25'
+          changes:
+            - '首次发布 RetroBoy 基础包。'
+            - '集成 ES-DE 3.4.1 前端环境。'
+            - '集成 RetroArch 1.22.2 模拟器环境、核心、BIOS 和常用资源。'
+            - '预配置 ES-DE 主题、RetroArch 默认参数、中文字体和 MegaBezel CRT 着色器。'
     basePackReleaseTaskConfig:
       taskName: '发布基础包'
       enabled: true
       targetPath: 'D:\resources\release\BASE.zip'
+      rootFilePaths:
+        - 'D:\resources\base\使用说明-基础包.txt'
+        - 'D:\resources\微信赞赏码.png'
+        - 'D:\resources\支付宝收款码.jpg'
     globalConfig:
-      enableBasePackHandler: false
+      enableBasePackHandler: true
       enablePlatformPackHandler: true
       esdeHomePath: 'D:\ES-DE'
       retroarchHomePath: 'D:\ES-DE\Emulators\RetroArch-Win64'
@@ -94,7 +111,7 @@ app:
       basePackVersion: '1.0'
       esdeVersion: '3.4.1'
       retroarchVersion: '1.22.2'
-      baiduPan: 'https://www.baidu.com/'
+      baiduPan: 'https://pan.baidu.com/s/1FsRW8323Ga_XI142mA-0xQ?pwd=4fva'
       qqGroup: '1021421949'
       feedbackEmail: '809730879@qq.com'
       globalRomWhitelist: [ 'All Night Nippon Super Mario Bros. (Japan) (Promo).fds', 'Soccer (Japan).fds', 'Super Mario Bros. (Japan).fds' ]
@@ -153,7 +170,7 @@ app:
         version: '1.0'
         enabled: true
         manualStep: true
-        release: false
+        release: true
         core: 'Mesen'
         usePal: true
         coreConfigs: [ 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.opt', 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.slangp' ]
