@@ -45,6 +45,7 @@ public class ReleaseReportHandlerImpl implements ReleaseReportHandler {
         appendFrequentlyAskedQuestions(content, ruleContext);
         appendDonationInfo(content);
         appendAuthorInfo(content, ruleContext);
+        appendDisclaimer(content, ruleContext);
         appendFuturePlan(content);
         appendGameList(content, ruleContext);
 
@@ -76,8 +77,9 @@ public class ReleaseReportHandlerImpl implements ReleaseReportHandler {
         content.append("七、常见问题").append(System.lineSeparator());
         content.append("八、捐助本项目").append(System.lineSeparator());
         content.append("九、关于作者").append(System.lineSeparator());
-        content.append("十、未来规划").append(System.lineSeparator());
-        content.append("十一、游戏清单").append(System.lineSeparator());
+        content.append("十、免责声明").append(System.lineSeparator());
+        content.append("十一、未来规划").append(System.lineSeparator());
+        content.append("十二、游戏清单").append(System.lineSeparator());
         content.append(System.lineSeparator());
     }
 
@@ -108,6 +110,8 @@ public class ReleaseReportHandlerImpl implements ReleaseReportHandler {
         appendInfo(content, "平台名称", ruleContext.getPlatform().name());
         appendInfo(content, "默认核心", ruleContext.getPlatformPackTaskConfig().getCore());
         appendInfo(content, "平台包版本", ruleContext.getPlatformPackTaskConfig().getVersion());
+        appendInfo(content, "ES-DE版本", ruleContext.getGlobalConfig().getEsdeVersion());
+        appendInfo(content, "RetroArch版本", ruleContext.getGlobalConfig().getRetroarchVersion());
         appendInfo(content, "创建时间", LocalDateTime.now().format(CREATE_TIME_FORMATTER));
         appendInfo(content, "支持地区", formatSupportedAreas(ruleContext));
         appendInfo(content, "游戏总数", String.valueOf(areaGameCounts.values().stream().mapToInt(Integer::intValue).sum()));
@@ -274,7 +278,7 @@ public class ReleaseReportHandlerImpl implements ReleaseReportHandler {
     }
 
     private void appendGameList(StringBuilder content, RuleContext ruleContext) {
-        content.append("十一、游戏清单")
+        content.append("十二、游戏清单")
                 .append(System.lineSeparator());
         Stream.of(Area.values())
                 .filter(ruleContext.getAreaWikiEntryMap()::containsKey)
@@ -405,11 +409,32 @@ public class ReleaseReportHandlerImpl implements ReleaseReportHandler {
         content.append(System.lineSeparator());
     }
 
+    private void appendDisclaimer(StringBuilder content, RuleContext ruleContext) {
+        content.append("十、免责声明")
+                .append(System.lineSeparator());
+        content.append("RetroBoy ")
+                .append(ruleContext.getPlatform().name())
+                .append(" 游戏合集中的游戏信息、媒体素材、说明资料及相关内容主要来源于互联网公开资料，")
+                .append(System.lineSeparator());
+        content.append("版权归原作者、原厂商及相关权利方所有。本人仅对公开资料进行采集、整理、校对、分类和配置适配，")
+                .append(System.lineSeparator());
+        content.append("不主张对原始内容拥有任何版权或其他权利。")
+                .append(System.lineSeparator());
+        content.append("本合集仅供复古游戏爱好者交流、学习、研究和个人收藏参考使用，请勿用于任何商业用途或其他未经授权的场景。")
+                .append(System.lineSeparator());
+        content.append("如果你是相关内容的权利方，认为本合集中的任何内容侵犯了你的合法权益，请通过上方反馈邮箱联系本人，")
+                .append(System.lineSeparator());
+        content.append("并提供必要的权属证明和具体链接或文件名称。本人将在核实后第一时间删除或调整相关内容。")
+                .append(System.lineSeparator())
+                .append(System.lineSeparator());
+    }
+
     private void appendFuturePlan(StringBuilder content) {
-        content.append("十、未来规划")
+        content.append("十一、未来规划")
                 .append(System.lineSeparator());
         appendFeature(content, "支持更多平台");
         appendFeature(content, "支持汉化游戏");
+        appendFeature(content, "支持移动端和怀旧掌机设备");
         content.append(System.lineSeparator());
     }
 

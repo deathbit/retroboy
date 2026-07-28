@@ -20,6 +20,8 @@ public class GlobalConfig {
     private String resourcesHomePath;
     private String repo;
     private String basePackVersion;
+    private String esdeVersion;
+    private String retroarchVersion;
     private String baiduPan;
     private String qqGroup;
     private String feedbackEmail;
