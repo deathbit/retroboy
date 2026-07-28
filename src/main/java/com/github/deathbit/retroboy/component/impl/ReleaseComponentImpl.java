@@ -20,10 +20,9 @@ import java.util.zip.ZipOutputStream;
 public class ReleaseComponentImpl implements ReleaseComponent {
 
     private static final int BUFFER_SIZE = 1024 * 1024;
-    private static final int PROGRESS_UPDATE_INTERVAL = 100;
 
     @Override
-    public void releaseNew(String targetPath, List<String> sourcePaths) {
+    public void release(String targetPath, List<String> sourcePaths) {
         try {
             var releaseFile = Paths.get(targetPath);
             var releaseDir = releaseFile.getParent();
@@ -52,9 +51,7 @@ public class ReleaseComponentImpl implements ReleaseComponent {
                 } else if (Files.isRegularFile(path)) {
                     addFile(outputStream, path);
                 }
-                if (i % PROGRESS_UPDATE_INTERVAL == 0 || i == sourcePaths.size() - 1) {
-                    pb.updateTask(i);
-                }
+                pb.updateTask(i);
             }
             pb.finishTaskAndClose();
         } finally {

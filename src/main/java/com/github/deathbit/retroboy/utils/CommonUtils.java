@@ -1,19 +1,12 @@
 package com.github.deathbit.retroboy.utils;
 
-import javax.net.ssl.HttpsURLConnection;
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.TrustManager;
-import javax.net.ssl.X509TrustManager;
 import java.util.Map;
-import java.security.SecureRandom;
-import java.security.cert.X509Certificate;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;
 
 public class CommonUtils {
 
     private static final String HORIZONTAL_LINE = "+" + "-".repeat(200) + "+";
-    private static final int barLength = 100;
     private static final Map<String, Long> TASK_START_TIMES = new ConcurrentHashMap<>();
 
     public static void printTask(String mainTaskName) {
@@ -46,33 +39,8 @@ public class CommonUtils {
                 ▗▄▄▖ ▗▄▄▄▖▗▄▄▄▖▗▄▄▖  ▗▄▖ ▗▄▄▖  ▗▄▖▗▖  ▗▖
                 ▐▌ ▐▌▐▌     █  ▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌▐▌ ▐▌▝▚▞▘\s
                 ▐▛▀▚▖▐▛▀▀▘  █  ▐▛▀▚▖▐▌ ▐▌▐▛▀▚▖▐▌ ▐▌ ▐▌ \s
-                ▐▌ ▐▌▐▙▄▄▖  █  ▐▌ ▐▌▝▚▄▞▘▐▙▄▞▘▝▚▄▞▘ ▐▌  by deathbit\s
+                ▐▌ ▐▌▐▙▄▄▖  █  ▐▌ ▐▌▝▚▄▞▘▐▙▄▞▘▝▚▄▞▘ ▐▌  by 村长不可爱\s
                 """);
         System.out.println(HORIZONTAL_LINE);
-    }
-
-    public static void configureTrustAllSSL() throws Exception {
-        TrustManager[] trustAllCerts = new TrustManager[]{
-                new X509TrustManager() {
-                    @Override
-                    public X509Certificate[] getAcceptedIssuers() {
-                        return null;
-                    }
-                    @Override
-                    public void checkClientTrusted(X509Certificate[] certs, String authType) {
-                        // Do nothing - trust all clients
-                    }
-                    @Override
-                    public void checkServerTrusted(X509Certificate[] certs, String authType) {
-                        // Do nothing - trust all servers
-                    }
-                }
-        };
-
-        SSLContext sc = SSLContext.getInstance("SSL");
-        sc.init(null, trustAllCerts, new SecureRandom());
-        HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
-
-        HttpsURLConnection.setDefaultHostnameVerifier((hostname, session) -> true);
     }
 }

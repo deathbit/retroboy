@@ -38,7 +38,8 @@ retroboy/
   │   ├── config/                           # application.yaml 配置映射对象
   │   ├── domain/                           # 构建过程中的上下文和结果对象
   │   ├── enums/                            # 平台、地区、任务、媒体类型枚举
-  │   ├── handler/                          # 基础包和平台包处理流程
+  │   ├── base/                             # 基础包构建任务
+  │   ├── platform/                         # 平台包构建流程
   │   ├── rule/                             # ROM 筛选规则
   │   └── utils/                            # 通用输出工具
   └── resources/
@@ -117,7 +118,7 @@ app:
 
 ### 基础包构建流程
 
-基础包任务实现位于 `handler/base`，按 `BasePackTask` 枚举顺序执行：
+基础包任务实现位于 `base` 包，按 `BasePackTask` 枚举顺序执行：
 
 1. `DELETE_ALL_TASK`：删除目标环境目录。
 2. `SET_UP_ESDE_BASE_TASK`：复制 ES-DE 基础包。

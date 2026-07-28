@@ -11,26 +11,18 @@ app:
     setUpESDEBaseTaskConfig:
       taskName: '设置ES-DE基础包'
       enabled: true
-      pathPair:
-        sourcePath: 'D:\resources\base\ES-DE'
-        targetPath: 'D:\'
+      pathPair: { sourcePath: 'D:\resources\base\ES-DE', targetPath: 'D:\' }
     setUpESDEUpdateTaskConfig:
       taskName: '设置ES-DE升级包'
       enabled: true
-      deletePaths:
-        - 'D:\ES-DE\ES-DE\themes'
-        - 'D:\ES-DE\ROMs'
+      deletePaths: [ 'D:\ES-DE\ES-DE\themes', 'D:\ES-DE\ROMs' ]
       pathPairs:
-        - sourcePath: 'D:\resources\base\ES-DE-Update\themes'
-          targetPath: 'D:\ES-DE\ES-DE'
-        - sourcePath: 'D:\resources\base\ES-DE-Update\ROMs'
-          targetPath: 'D:\ES-DE'
+        - { sourcePath: 'D:\resources\base\ES-DE-Update\themes', targetPath: 'D:\ES-DE\ES-DE' }
+        - { sourcePath: 'D:\resources\base\ES-DE-Update\ROMs', targetPath: 'D:\ES-DE' }
     setUpRetroArchBaseTaskConfig:
       taskName: '设置RetroArch基础包'
       enabled: true
-      pathPair:
-        sourcePath: 'D:\resources\base\RetroArch-Win64'
-        targetPath: 'D:\ES-DE\Emulators'
+      pathPair: { sourcePath: 'D:\resources\base\RetroArch-Win64', targetPath: 'D:\ES-DE\Emulators' }
     setUpRetroArchUpdateTaskConfig:
       taskName: '设置RetroArch升级包'
       enabled: true
@@ -45,65 +37,41 @@ app:
         - 'D:\ES-DE\Emulators\RetroArch-Win64\shaders'
         - 'D:\ES-DE\Emulators\RetroArch-Win64\system'
       pathPairs:
-        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\assets'
-          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
-        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\autoconfig'
-          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
-        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\cheats'
-          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
-        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\cores'
-          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
-        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\database'
-          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
-        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\info'
-          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
-        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\overlays'
-          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
-        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\shaders'
-          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
-        - sourcePath: 'D:\resources\base\RetroArch-Win64-Update\system'
-          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64'
+        - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\assets', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+        - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\autoconfig', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+        - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\cheats', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+        - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\cores', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+        - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\database', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+        - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\info', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+        - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\overlays', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+        - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\shaders', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+        - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\system', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
     setUpRetroArchDefaultConfigTaskConfig:
       taskName: '设置RetroArch默认配置'
       enabled: true
       configPairs:
-        - key: 'input_player1_analog_dpad_mode'
-          value: '1'
-        - key: 'video_fullscreen'
-          value: 'true'
+        - { key: 'input_player1_analog_dpad_mode', value: '1' }
+        - { key: 'video_fullscreen', value: 'true' }
     setUpRetroArchFixChineseFontTaskConfig:
       taskName: '修复RetroArch中文字体'
       enabled: true
       deletePath: 'D:\ES-DE\Emulators\RetroArch-Win64\assets\pkg\chinese-fallback-font.ttf'
-      pathPair:
-        sourcePath: 'D:\resources\base\RetroArch-Win64-FixChineseFont\chinese-fallback-font.ttf'
-        targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\assets\pkg'
-      configPair:
-        key: 'video_font_path'
-        value: ':\assets\pkg\chinese-fallback-font.ttf'
+      pathPair: { sourcePath: 'D:\resources\base\RetroArch-Win64-FixChineseFont\chinese-fallback-font.ttf', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\assets\pkg' }
+      configPair: { key: 'video_font_path', value: ':\assets\pkg\chinese-fallback-font.ttf' }
     setUpRetroArchMegaBezelShaderTaskConfig:
       taskName: '设置RetroArch着色器'
       enabled: true
       pathPairs:
-        - sourcePath: 'D:\resources\base\RetroArch-Win64-MegaBezelShader\Mega_Bezel_Packs'
-          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\shaders'
-        - sourcePath: 'D:\resources\base\RetroArch-Win64-MegaBezelShader\global.slangp'
-          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\config'
-        - sourcePath: 'D:\resources\base\RetroArch-Win64-MegaBezelShader\retroarch.slangp'
-          targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\shaders'
+        - { sourcePath: 'D:\resources\base\RetroArch-Win64-MegaBezelShader\Mega_Bezel_Packs', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\shaders' }
+        - { sourcePath: 'D:\resources\base\RetroArch-Win64-MegaBezelShader\global.slangp', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\config' }
+        - { sourcePath: 'D:\resources\base\RetroArch-Win64-MegaBezelShader\retroarch.slangp', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\shaders' }
       configPairs:
-        - key: 'aspect_ratio_index'
-          value: '24'
-        - key: 'video_allow_rotate'
-          value: 'false'
-        - key: 'video_driver'
-          value: 'vulkan'
-        - key: 'video_rotation'
-          value: '0'
-        - key: 'video_scale_integer'
-          value: 'false'
-        - key: 'video_shader_enable'
-          value: 'true'
+        - { key: 'aspect_ratio_index', value: '24' }
+        - { key: 'video_allow_rotate', value: 'false' }
+        - { key: 'video_driver', value: 'vulkan' }
+        - { key: 'video_rotation', value: '0' }
+        - { key: 'video_scale_integer', value: 'false' }
+        - { key: 'video_shader_enable', value: 'true' }
     basePackReleaseTaskConfig:
       taskName: '发布基础包'
       enabled: true
@@ -129,10 +97,7 @@ app:
       baiduPan: 'https://www.baidu.com/'
       qqGroup: '1021421949'
       feedbackEmail: '809730879@qq.com'
-      globalRomWhitelist:
-        - 'All Night Nippon Super Mario Bros. (Japan) (Promo).fds'
-        - 'Soccer (Japan).fds'
-        - 'Super Mario Bros. (Japan).fds'
+      globalRomWhitelist: [ 'All Night Nippon Super Mario Bros. (Japan) (Promo).fds', 'Soccer (Japan).fds', 'Super Mario Bros. (Japan).fds' ]
       globalTagBlacklist:
         - '3DS Virtual Console'
         - '8-bit Adventure Anthology - Volume I'
@@ -191,17 +156,12 @@ app:
         release: false
         core: 'Mesen'
         usePal: true
-        coreConfigs:
-          - 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.opt'
-          - 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.slangp'
+        coreConfigs: [ 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.opt', 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.slangp' ]
         wiki: 'https://en.wikipedia.org/wiki/List_of_Nintendo_Entertainment_System_games'
         releaseNotes:
           - version: '1.0'
             date: '1991-02-25'
-            changes:
-              - '首次发布 NES 游戏合集。'
-              - '包含 NES-JPN、NES-USA、NES-EUR 三个地区的基础游戏清单。'
-              - '提供 ES-DE 与 RetroArch 的基础配置支持。'
+            changes: [ '首次发布 NES 游戏合集。', '包含 NES-JPN、NES-USA、NES-EUR 三个地区的基础游戏清单。', '提供 ES-DE 与 RetroArch 的基础配置支持。' ]
         areaConfigs:
           - area: 'EUR'
             areaFileNameBlackList:
@@ -213,27 +173,14 @@ app:
               - 'Super Mario Bros. (Europe).nes'
               - 'Teenage Mutant Ninja Turtles (Australia).nes'
               - 'Teenage Mutant Ninja Turtles II - The Arcade Game (Australia).nes'
-          - area: 'JPN'
-            areaFileNameBlackList:
-              - 'Kung Fu (Japan, USA) (En).nes'
-          - area: 'USA'
-            areaFileNameBlackList: []
+          - { area: 'JPN', areaFileNameBlackList: [ 'Kung Fu (Japan, USA) (En).nes' ] }
+          - { area: 'USA', areaFileNameBlackList: [] }
         renameOptions:
-          - oldName: 'Mario Bros. (Europe) (PAL-MA-0).nes'
-            newName: 'Mario Bros..nes'
-          - oldName: 'Mario Bros. (Europe) (PAL-MC-0, Classic Series).nes'
-            newName: 'Mario Bros. Classic Series.nes'
-          - oldName: 'Star Wars (Japan) (Namco).nes'
-            newName: 'Star Wars (Namco).nes'
-          - oldName: 'Star Wars (Japan) (Victor).nes'
-            newName: 'Star Wars (Victor).nes'
-        tagBlackList:
-          - 'Columbus Circle'
-          - 'Digital'
-          - 'Evercade'
-          - 'iam8bit'
-          - 'Menu Cart'
-          - 'Pixel Heart'
+          - { oldName: 'Mario Bros. (Europe) (PAL-MA-0).nes', newName: 'Mario Bros..nes' }
+          - { oldName: 'Mario Bros. (Europe) (PAL-MC-0, Classic Series).nes', newName: 'Mario Bros. Classic Series.nes' }
+          - { oldName: 'Star Wars (Japan) (Namco).nes', newName: 'Star Wars (Namco).nes' }
+          - { oldName: 'Star Wars (Japan) (Victor).nes', newName: 'Star Wars (Victor).nes' }
+        tagBlackList: [ 'Columbus Circle', 'Digital', 'Evercade', 'iam8bit', 'Menu Cart', 'Pixel Heart' ]
         fileNameBlackList:
           - 'Donkey Kong (Japan) (En).nes'
           - 'Donkey Kong Classics (USA, Europe).nes'
@@ -270,17 +217,23 @@ app:
           - 'Tecmo NBA Basketball (USA) (NES-N7).nes'
           - 'Wild Gunman (Japan, USA) (En).nes'
           - 'Yie Ar Kung-Fu (Japan) (En) (Rev 1.2).nes'
-    ruleConfigMap:
       FDS:
         platform: 'FDS'
-        ready: true
-        romDirName: 'fds'
-        defaultCore: 'Mesen'
-        datFile: 'D:\Resources\dats\Nintendo - Family Computer Disk System.dat'
-        romDir: 'D:\Resources\roms\fds'
-        targetDirBase: 'D:\ES-DE\ROMs\fds'
-        targetAreaConfigs:
-          - area: 'JPN'
+        version: '1.0'
+        enabled: false
+        manualStep: false
+        release: false
+        core: 'Mesen'
+        usePal: false
+        coreConfigs: [ 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.opt', 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.slangp' ]
+        wiki: ''
+        releaseNotes:
+          - version: '1.0'
+            date: '2026-07-28'
+            changes: [ '初始化 FDS 平台配置。' ]
+        areaConfigs:
+          - { area: 'JPN', areaFileNameBlackList: [] }
+        renameOptions: []
         tagBlackList: []
         fileNameBlackList:
           - "Sunsoft Dev Disk Lot - 'D167B23' no. 1 (Japan).fds"
