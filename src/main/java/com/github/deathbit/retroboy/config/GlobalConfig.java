@@ -1,6 +1,6 @@
 package com.github.deathbit.retroboy.config;
 
-import com.github.deathbit.retroboy.domain.AuthorInfo;
+import com.github.deathbit.retroboy.domain.Author;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,19 +13,18 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 public class GlobalConfig {
-    private boolean enableBasePackHandler;
-    private boolean enablePlatformPackHandler;
-    private String esdeHomePath;
-    private String retroarchHomePath;
-    private String resourcesHomePath;
+    private boolean enableBase;
+    private boolean enablePlatform;
+    private String esdeHome;
+    private String raHome;
+    private String resHome;
     private String repo;
-    private String basePackVersion;
+    private Author author;
     private String esdeVersion;
-    private String retroarchVersion;
+    private String raVersion;
     private String baiduPan;
     private String qqGroup;
     private String feedbackEmail;
-    private AuthorInfo authorInfo;
     private Set<String> globalTagBlacklist;
     private Set<String> globalRomWhitelist;
 }

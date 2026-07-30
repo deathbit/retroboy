@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AuthorInfo {
+public class Author {
     private String name;
     private String wechat;
     private String qq;
@@ -17,4 +17,5 @@ public class AuthorInfo {
     private String xhs;
     private String bilibili;
     private String ks;
+    private String xg;
 }

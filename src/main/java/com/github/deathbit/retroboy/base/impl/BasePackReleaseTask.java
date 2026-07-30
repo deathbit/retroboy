@@ -44,7 +44,7 @@ public class BasePackReleaseTask implements BasePackHandler {
         fileComponent.deletePath(targetPath);
         releaseComponent.release(
                 targetPath,
-                List.of(Path.of(appConfig.getGlobalConfig().getEsdeHomePath())),
+                List.of(Path.of(appConfig.getGlobalConfig().getEsdeHome())),
                 appConfig.getBasePackReleaseTaskConfig().getRootFilePaths()
         );
     }
@@ -53,7 +53,7 @@ public class BasePackReleaseTask implements BasePackHandler {
         var targetPath = appConfig.getBasePackReleaseTaskConfig().getTargetPath();
         var fileName = targetPath.getFileName().toString();
         var extensionIndex = fileName.lastIndexOf('.');
-        var version = appConfig.getGlobalConfig().getBasePackVersion();
+        var version = appConfig.getBasePackReleaseReportTaskConfig().getBasePackVersion();
         var fileNameWithoutExtension = extensionIndex == -1 ? fileName : fileName.substring(0, extensionIndex);
         if (fileNameWithoutExtension.endsWith("_" + version)) {
             return targetPath;

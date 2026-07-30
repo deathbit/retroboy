@@ -20,7 +20,7 @@ public class ConfigComponentImpl implements ConfigComponent {
     @Override
     public void changeRetroArchConfig(ConfigPair configPair) {
         try {
-            Path configPath = Path.of(appConfig.getGlobalConfig().getRetroarchHomePath(), "retroarch.cfg");
+            Path configPath = Path.of(appConfig.getGlobalConfig().getRaHome(), "retroarch.cfg");
             List<String> lines = Files.readAllLines(configPath, StandardCharsets.UTF_8);
             String key = configPair.getKey();
             String value = configPair.getValue();

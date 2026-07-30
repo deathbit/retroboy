@@ -2,6 +2,7 @@ package com.github.deathbit.retroboy.domain;
 
 import com.github.deathbit.retroboy.config.GlobalConfig;
 import com.github.deathbit.retroboy.config.PlatformPackTaskConfig;
+import com.github.deathbit.retroboy.config.basepacktask.BasePackReleaseReportTaskConfig;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.rule.Rule;
@@ -22,6 +23,7 @@ public class RuleContext {
     private Platform platform;
     private String platformName;
     private GlobalConfig globalConfig;
+    private BasePackReleaseReportTaskConfig basePackReleaseReportTaskConfig;
     private PlatformPackTaskConfig platformPackTaskConfig;
     private Map<String, String> renameOptionMap;
     private Set<String> licensed;

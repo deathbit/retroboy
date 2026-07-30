@@ -1,0 +1,70 @@
+platformPackTaskConfigMap:
+  NES:
+    platform: 'NES'
+    version: '1.0'
+    enabled: true
+    manualStep: true
+    release: true
+    core: 'Mesen'
+    usePal: true
+    coreConfigs: [ 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.opt', 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.slangp' ]
+    wiki: 'https://en.wikipedia.org/wiki/List_of_Nintendo_Entertainment_System_games'
+    releaseNotes:
+      - version: '1.0'
+        date: '1991-02-25'
+        changes: [ '首次发布 NES 游戏合集。', '包含 NES-JPN、NES-USA、NES-EUR 三个地区的基础游戏清单。', '提供 ES-DE 与 RetroArch 的基础配置支持。' ]
+    areaConfigs:
+      - area: 'EUR'
+        areaFileNameBlackList:
+          - 'F-15 Strike Eagle (Europe) (En,Sv,Da,Fi).nes'
+          - 'Punch-Out!! (Europe).nes'
+          - 'Super Mario Bros. + Duck Hunt (Europe, Asia) (En).nes'
+          - 'Super Mario Bros. + Tetris + Nintendo World Cup (Europe) (Rev 1).nes'
+          - 'Mario Bros. (Europe) (PAL-MA-0).nes'
+          - 'Super Mario Bros. (Europe).nes'
+          - 'Teenage Mutant Ninja Turtles (Australia).nes'
+          - 'Teenage Mutant Ninja Turtles II - The Arcade Game (Australia).nes'
+      - { area: 'JPN', areaFileNameBlackList: [ 'Kung Fu (Japan, USA) (En).nes' ] }
+      - { area: 'USA', areaFileNameBlackList: [] }
+    renameOptions:
+      - { oldName: 'Mario Bros. (Europe) (PAL-MA-0).nes', newName: 'Mario Bros..nes' }
+      - { oldName: 'Mario Bros. (Europe) (PAL-MC-0, Classic Series).nes', newName: 'Mario Bros. Classic Series.nes' }
+      - { oldName: 'Star Wars (Japan) (Namco).nes', newName: 'Star Wars (Namco).nes' }
+      - { oldName: 'Star Wars (Japan) (Victor).nes', newName: 'Star Wars (Victor).nes' }
+    tagBlackList: [ 'Columbus Circle', 'Digital', 'Evercade', 'iam8bit', 'Menu Cart', 'Pixel Heart' ]
+    fileNameBlackList:
+      - 'Donkey Kong (Japan) (En).nes'
+      - 'Donkey Kong Classics (USA, Europe).nes'
+      - 'Donkey Kong Jr. (Japan) (En).nes'
+      - 'Donkey Kong Jr. + Jr. Lesson (Japan) (En).nes'
+      - 'Exploding Fist (USA).nes'
+      - 'Family BASIC (Japan).nes'
+      - 'Family BASIC v2.0 (Japan).nes'
+      - 'Family BASIC v2.1 (Japan).nes'
+      - 'Family BASIC V3 (Japan).nes'
+      - 'Family School (Japan).nes'
+      - 'Felix the Cat (World) (En).nes'
+      - 'Felix the Cat (World) (Ja).nes'
+      - 'Final Fantasy I, II (Japan).nes'
+      - 'Firework Thrower Kantaro''s 53 Stations of the Toukaido (World).nes'
+      - 'Hyper Olympic (Japan) (En) (Genteiban!).nes'
+      - 'Idemitsu - Space College - Kikenbutsu no Yasashii Butsuri to Kagaku (Japan).nes'
+      - 'Kidou Senshi Z Gundam - Hot Scramble (Japan) (Final Version).nes'
+      - 'NHK Gakuen - Space School - Sansu 5 Nen (Jou) (Japan).nes'
+      - 'NHK Gakuen - Space School - Sansu 6 Nen (Ge) (Japan).nes'
+      - 'NHK Gakuen - Space School - Sansu 6 Nen (Jou) (Japan).nes'
+      - 'Pac-Man (USA) (Tengen).nes'
+      - 'Playbox BASIC (Japan).nes'
+      - 'Popeye (Japan).nes'
+      - 'Punch-Out!! (Japan) (En) (Shouhin Golf Tournament US Course).nes'
+      - 'Punch-Out!! (USA).nes'
+      - 'Radac Tailor-Made (Japan).nes'
+      - 'Raid on Bungeling Bay (Japan).nes'
+      - 'Sesame Street - ABC & 123 (USA).nes'
+      - 'Stadium Events (USA).nes'
+      - 'Super Mario Bros. + Duck Hunt (USA).nes'
+      - 'Super Mario Bros. + Duck Hunt + World Class Track Meet (USA) (Rev 1).nes'
+      - 'Super Spike V''Ball + Nintendo World Cup (USA).nes'
+      - 'Tecmo NBA Basketball (USA) (NES-N7).nes'
+      - 'Wild Gunman (Japan, USA) (En).nes'
+      - 'Yie Ar Kung-Fu (Japan) (En) (Rev 1.2).nes'

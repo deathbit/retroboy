@@ -10,7 +10,7 @@ import java.util.Map;
 
 @Data
 @Component
-@ConfigurationProperties(prefix = "app.config")
+@ConfigurationProperties
 public class AppConfig {
     private DeleteAllTaskConfig deleteAllTaskConfig;
     private SetUpESDEBaseTaskConfig setUpESDEBaseTaskConfig;

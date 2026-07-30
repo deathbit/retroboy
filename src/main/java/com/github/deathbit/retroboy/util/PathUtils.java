@@ -13,15 +13,15 @@ public final class PathUtils {
 
     // 示例：D:\retroboy-resources
     public static final PathSupplier RESOURCES_HOME =
-            ruleContext -> Path.of(ruleContext.getGlobalConfig().getResourcesHomePath());
+            ruleContext -> Path.of(ruleContext.getGlobalConfig().getResHome());
 
     // 示例：D:\ES-DE
     public static final PathSupplier ESDE_HOME =
-            ruleContext -> Path.of(ruleContext.getGlobalConfig().getEsdeHomePath());
+            ruleContext -> Path.of(ruleContext.getGlobalConfig().getEsdeHome());
 
     // 示例：D:\ES-DE\Emulators\RetroArch-Win64
     public static final PathSupplier RETROARCH_HOME =
-            ruleContext -> Path.of(ruleContext.getGlobalConfig().getRetroarchHomePath());
+            ruleContext -> Path.of(ruleContext.getGlobalConfig().getRaHome());
 
     // 示例：D:\retroboy-resources\platform\nes
     public static final PathSupplier PLATFORM_RESOURCE_ROOT =

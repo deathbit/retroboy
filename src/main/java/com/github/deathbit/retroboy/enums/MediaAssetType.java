@@ -10,10 +10,10 @@ public enum MediaAssetType {
     FANART(3, "fanart", "png", "jpg"),
     MANUAL(4, "manuals", "pdf", null),
     MARQUEE(5, "marquees", "png", "jpg"),
-    MIXIMAGE(6, "miximages", "png", "jpg"),
+    MIX_IMAGE(6, "miximages", "png", "jpg"),
     PHYSICAL_MEDIA(7, "physicalmedia", "png", "jpg"),
     SCREENSHOT(8, "screenshots", "png", "jpg"),
-    TITLESCREEN(9, "titlescreens", "png", "jpg"),
+    TITLE_SCREEN(9, "titlescreens", "png", "jpg"),
     VIDEO(10, "videos", "mp4", null);
 
     private final int bitIndex;

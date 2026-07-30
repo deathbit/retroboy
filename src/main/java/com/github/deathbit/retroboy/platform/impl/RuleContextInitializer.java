@@ -33,6 +33,7 @@ public class RuleContextInitializer {
         ruleContext.setPlatform(platform);
         ruleContext.setPlatformName(platform.name().toLowerCase());
         ruleContext.setGlobalConfig(appConfig.getGlobalConfig());
+        ruleContext.setBasePackReleaseReportTaskConfig(appConfig.getBasePackReleaseReportTaskConfig());
         ruleContext.setPlatformPackTaskConfig(appConfig.getPlatformPackTaskConfigMap().get(platform));
         ruleContext.setRenameOptionMap(ruleContext.getPlatformPackTaskConfig().getRenameOptions()
                 .stream().collect(Collectors.toMap(RenameOption::getOldName, RenameOption::getNewName)));

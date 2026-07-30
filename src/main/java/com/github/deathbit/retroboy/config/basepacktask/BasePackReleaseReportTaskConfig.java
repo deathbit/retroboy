@@ -17,5 +17,6 @@ public class BasePackReleaseReportTaskConfig {
     private String taskName;
     private boolean enabled;
     private Path targetPath;
+    private String basePackVersion;
     private List<ReleaseNote> releaseNotes;
 }

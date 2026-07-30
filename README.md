@@ -120,11 +120,9 @@ D:\resources\release\NES_1.0.zip
 是否执行基础包或平台包由 `application.yaml` 中的全局开关控制：
 
 ```yaml
-app:
-  config:
-    globalConfig:
-      enableBasePackHandler: true
-      enablePlatformPackHandler: true
+globalConfig:
+  enableBasePackHandler: true
+  enablePlatformPackHandler: true
 ```
 
 ### 基础包构建流程
@@ -308,15 +306,15 @@ globalConfig:
 
 | 字段 | 说明 |
 | --- | --- |
-| `enableBasePackHandler` | 是否执行基础包构建流程 |
-| `enablePlatformPackHandler` | 是否执行平台包构建流程 |
-| `esdeHomePath` | ES-DE 目标安装目录 |
-| `retroarchHomePath` | RetroArch 目标目录 |
-| `resourcesHomePath` | 原始资源、报告和发布包根目录 |
+| `enableBase` | 是否执行基础包构建流程 |
+| `enablePlatform` | 是否执行平台包构建流程 |
+| `esdeHome` | ES-DE 目标安装目录 |
+| `raHome` | RetroArch 目标目录 |
+| `resHome` | 原始资源、报告和发布包根目录 |
 | `repo` | 项目仓库地址，会写入使用说明 |
 | `basePackVersion` | 基础包版本，会写入使用说明 |
 | `esdeVersion` | ES-DE 版本，会写入使用说明 |
-| `retroarchVersion` | RetroArch 版本，会写入使用说明 |
+| `raVersion` | RetroArch 版本，会写入使用说明 |
 | `baiduPan` | 基础包网盘地址，会写入使用说明 |
 | `qqGroup` | QQ 群，会写入使用说明 |
 | `feedbackEmail` | 反馈邮箱，会写入使用说明和免责声明 |
@@ -542,9 +540,9 @@ src/main/resources/application.yaml
 
 根据本机实际目录修改：
 
-- `resourcesHomePath`
-- `esdeHomePath`
-- `retroarchHomePath`
+- `resHome`
+- `esdeHome`
+- `raHome`
 - 基础包各任务的 `sourcePath` / `targetPath`
 - 平台包的 `enabled`、`manualStep`、`release`
 - 平台黑名单、地区黑名单、重命名规则和更新记录
@@ -679,7 +677,7 @@ RetroBoy 是个人整理和维护的复古游戏合集项目。如果这个项�
 
 ## 联系作者
 
-你可以通过以下方式联系作者、反馈问题或关注项目更新。具体联系方式以 `application.yaml` 中 `globalConfig.authorInfo` 和 `feedbackEmail` 的配置为准。
+你可以通过以下方式联系作者、反馈问题或关注项目更新。具体联系方式以 `application.yaml` 中 `globalConfig.author` 和 `feedbackEmail` 的配置为准。
 
 | 渠道 | 信息 |
 | --- | --- |

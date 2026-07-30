@@ -33,7 +33,7 @@ public class StartupRunner implements ApplicationRunner {
 
     private void buildingBasePack() throws Exception {
         CommonUtils.printAsciiArt();
-        if (appConfig.getGlobalConfig().isEnableBasePackHandler()) {
+        if (appConfig.getGlobalConfig().isEnableBase()) {
             basePackHandlers.stream().sorted(Comparator.comparing(BasePackHandler::task)).forEach(handler -> {
                 try {
                     if (handler.enabled()) {
@@ -49,7 +49,7 @@ public class StartupRunner implements ApplicationRunner {
     }
 
     private void buildingPlatformPack() throws Exception {
-        if (appConfig.getGlobalConfig().isEnablePlatformPackHandler()) {
+        if (appConfig.getGlobalConfig().isEnablePlatform()) {
             appConfig.getPlatformPackTaskConfigMap().forEach((platform, platformPackTaskConfig) -> {
                 try {
                     if (platformPackTaskConfig.isEnabled()) {
