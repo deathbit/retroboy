@@ -49,6 +49,7 @@ public final class MagicTools {
     }
 
     public static void main(String[] args) {
+        // https://api.screenscraper.fr/api2/jeuInfos.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&output=json&ssid=zjkiki&sspassword=zjkiki225&gameid=1513
         System.out.println(unMagic("204;198;236;130;203;181;203;126;191;167;200;198;192;228;169;156"));
     }
 }
