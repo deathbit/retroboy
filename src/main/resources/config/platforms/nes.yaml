@@ -4,7 +4,7 @@ platformPackTaskConfigMap:
     version: '1.0'
     enabled: true
     manualStep: true
-    release: true
+    release: false
     core: 'Mesen'
     usePal: true
     coreConfigs: [ 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.opt', 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.slangp' ]

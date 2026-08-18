@@ -1,6 +1,7 @@
 package com.github.deathbit.retroboy.platform.impl;
 
 import com.github.deathbit.retroboy.component.FileComponent;
+import com.github.deathbit.retroboy.domain.MediaCompletionRate;
 import com.github.deathbit.retroboy.domain.PathPair;
 import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.domain.WikiGameEntry;
@@ -12,6 +13,8 @@ import org.springframework.stereotype.Component;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.EnumMap;
+import java.util.Map;
 
 @Component
 public class MediaHandler {
@@ -34,6 +37,24 @@ public class MediaHandler {
         ruleContext.getAreaWikiEntryMap().forEach((area, wikiEntryMap) ->
                 wikiEntryMap.values().forEach(wikiGameEntry ->
                         wikiGameEntry.setMissingMediaBitmap(buildMissingMediaBitmap(ruleContext, area, wikiGameEntry))));
+        ruleContext.setMediaCompletionRateMap(buildMediaCompletionRateMap(ruleContext));
+    }
+
+    private Map<Area, Map<MediaAssetType, MediaCompletionRate>> buildMediaCompletionRateMap(RuleContext ruleContext) {
+        var mediaCompletionRateMap = new EnumMap<Area, Map<MediaAssetType, MediaCompletionRate>>(Area.class);
+        ruleContext.getAreaWikiEntryMap().forEach((area, wikiEntryMap) -> {
+            var mediaAssetRateMap = new EnumMap<MediaAssetType, MediaCompletionRate>(MediaAssetType.class);
+            var totalCount = wikiEntryMap.size();
+            for (var mediaAssetType : MediaAssetType.values()) {
+                var completedCount = (int) wikiEntryMap.values()
+                        .stream()
+                        .filter(wikiGameEntry -> !wikiGameEntry.isMediaMissing(mediaAssetType))
+                        .count();
+                mediaAssetRateMap.put(mediaAssetType, MediaCompletionRate.of(totalCount, completedCount));
+            }
+            mediaCompletionRateMap.put(area, mediaAssetRateMap);
+        });
+        return mediaCompletionRateMap;
     }
 
     private int buildMissingMediaBitmap(RuleContext ruleContext, Area area, WikiGameEntry wikiGameEntry) {

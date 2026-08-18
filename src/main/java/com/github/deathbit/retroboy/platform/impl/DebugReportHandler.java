@@ -3,6 +3,7 @@ package com.github.deathbit.retroboy.platform.impl;
 import com.github.deathbit.retroboy.domain.AreaRenameResult;
 import com.github.deathbit.retroboy.domain.AreaRuleResult;
 import com.github.deathbit.retroboy.domain.FileContext;
+import com.github.deathbit.retroboy.domain.MediaCompletionRate;
 import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.domain.WikiGameEntry;
 import com.github.deathbit.retroboy.enums.Area;
@@ -16,6 +17,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
@@ -34,6 +36,7 @@ public class DebugReportHandler {
         appendAreaPassGames(content, ruleContext.getAreaPassMap());
         appendAreaNotPassGames(content, ruleContext.getAreaRuleResultMap());
         appendAreaRenameResults(content, ruleContext.getAreaRenameResultMap());
+        appendMediaMissingRates(content, ruleContext.getMediaCompletionRateMap());
         appendMissingMediaResults(content, ruleContext.getAreaWikiEntryMap());
         appendWikiNameMappings(content, ruleContext.getAreaWikiEntryMap());
 
@@ -160,6 +163,36 @@ public class DebugReportHandler {
         }
     }
 
+    private void appendMediaMissingRates(StringBuilder content,
+                                         Map<Area, Map<MediaAssetType, MediaCompletionRate>> mediaCompletionRateMap) {
+        for (var area : Area.values()) {
+            var mediaAssetRateMap = mediaCompletionRateMap == null
+                    ? Map.<MediaAssetType, MediaCompletionRate>of()
+                    : mediaCompletionRateMap.getOrDefault(area, Map.of());
+            content.append("媒体缺失率 - ")
+                    .append(area.name())
+                    .append(" - ")
+                    .append(mediaAssetRateMap.size())
+                    .append("：")
+                    .append(System.lineSeparator());
+            java.util.Arrays.stream(MediaAssetType.values())
+                    .filter(mediaAssetRateMap::containsKey)
+                    .forEach(mediaAssetType -> {
+                        var mediaCompletionRate = mediaAssetRateMap.get(mediaAssetType);
+                        content.append(mediaAssetType.getDirectoryName())
+                                .append("：")
+                                .append(mediaCompletionRate.getCompletedCount())
+                                .append("/")
+                                .append(mediaCompletionRate.getTotalCount())
+                                .append("（")
+                                .append(formatCompletionRate(mediaCompletionRate))
+                                .append("）")
+                                .append(System.lineSeparator());
+                    });
+            content.append(System.lineSeparator());
+        }
+    }
+
     private void appendMissingMediaResults(StringBuilder content, Map<Area, Map<String, WikiGameEntry>> areaWikiEntryMap) {
         for (var area : Area.values()) {
             var sortedMissingMediaEntries = areaWikiEntryMap.getOrDefault(area, Map.of())
@@ -263,6 +296,14 @@ public class DebugReportHandler {
                 .map(MediaAssetType::getDirectoryName)
                 .toList()
                 .toString();
+    }
+
+    private String formatCompletionRate(MediaCompletionRate mediaCompletionRate) {
+        var percentage = mediaCompletionRate.getCompletionRate() * 100;
+        if (percentage == Math.rint(percentage)) {
+            return String.format(Locale.ROOT, "%.0f%%", percentage);
+        }
+        return String.format(Locale.ROOT, "%.2f%%", percentage);
     }
 
     private String formatReasons(List<String> reasons) {

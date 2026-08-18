@@ -82,7 +82,7 @@ basePackReleaseReportTaskConfig:
         - '预配置 ES-DE 主题、RetroArch 默认参数、中文字体和 MegaBezel CRT 着色器。'
 basePackReleaseTaskConfig:
   taskName: '发布基础包'
-  enabled: true
+  enabled: false
   targetPath: 'D:\resources\release\BASE.zip'
   rootFilePaths:
     - 'D:\resources\base\使用说明-基础包.txt'

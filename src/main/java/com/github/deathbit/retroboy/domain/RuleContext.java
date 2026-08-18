@@ -4,6 +4,7 @@ import com.github.deathbit.retroboy.config.GlobalConfig;
 import com.github.deathbit.retroboy.config.PlatformPackTaskConfig;
 import com.github.deathbit.retroboy.config.basepacktask.BasePackReleaseReportTaskConfig;
 import com.github.deathbit.retroboy.enums.Area;
+import com.github.deathbit.retroboy.enums.MediaAssetType;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.rule.Rule;
 import lombok.AllArgsConstructor;
@@ -35,4 +36,5 @@ public class RuleContext {
     private Map<Area, Map<String, AreaRuleResult>> areaRuleResultMap;
     private Map<Area, Map<String, AreaRenameResult>> areaRenameResultMap;
     private Map<Area, Map<String, WikiGameEntry>> areaWikiEntryMap;
+    private Map<Area, Map<MediaAssetType, MediaCompletionRate>> mediaCompletionRateMap;
 }

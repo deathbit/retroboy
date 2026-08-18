@@ -1,5 +1,6 @@
 package com.github.deathbit.retroboy.platform.impl;
 
+import com.github.deathbit.retroboy.domain.MediaCompletionRate;
 import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.domain.WikiGameEntry;
 import com.github.deathbit.retroboy.enums.Area;
@@ -15,6 +16,7 @@ import java.nio.file.Files;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Comparator;
+import java.util.Locale;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -51,6 +53,7 @@ public class ReleaseReportHandler {
         ReleaseReportUtils.appendDisclaimer(content);
         ReleaseReportUtils.appendLine(content, "十一、未来规划");
         ReleaseReportUtils.appendFuturePlan(content);
+        appendMediaMissingRates(content, ruleContext);
         appendGameList(content, ruleContext);
 
         try {
@@ -74,7 +77,8 @@ public class ReleaseReportHandler {
         ReleaseReportUtils.appendLine(content, "九、关于作者");
         ReleaseReportUtils.appendLine(content, "十、免责声明");
         ReleaseReportUtils.appendLine(content, "十一、未来规划");
-        ReleaseReportUtils.appendLine(content, "十二、游戏清单");
+        ReleaseReportUtils.appendLine(content, "十二、媒体缺失率");
+        ReleaseReportUtils.appendLine(content, "十三、游戏清单");
         ReleaseReportUtils.appendBlankLine(content);
     }
 
@@ -150,8 +154,34 @@ public class ReleaseReportHandler {
         ReleaseReportUtils.appendBlankLine(content);
     }
 
+    private void appendMediaMissingRates(StringBuilder content, RuleContext ruleContext) {
+        ReleaseReportUtils.appendLine(content, "十二、媒体缺失率");
+        var mediaCompletionRateMap = ruleContext.getMediaCompletionRateMap();
+        Stream.of(Area.values())
+                .filter(area -> mediaCompletionRateMap != null && mediaCompletionRateMap.containsKey(area))
+                .sorted(Comparator.comparingInt(Enum::ordinal))
+                .forEach(area -> appendAreaMediaMissingRates(content, ruleContext, area));
+        ReleaseReportUtils.appendBlankLine(content);
+    }
+
+    private void appendAreaMediaMissingRates(StringBuilder content, RuleContext ruleContext, Area area) {
+        var mediaAssetRateMap = ruleContext.getMediaCompletionRateMap().getOrDefault(area, Map.of());
+        ReleaseReportUtils.appendLine(content, "[" + ruleContext.getPlatform().name() + "-" + area.name() + "] "
+                + areaDisplayName(area));
+        Stream.of(MediaAssetType.values())
+                .filter(mediaAssetRateMap::containsKey)
+                .forEach(mediaAssetType -> {
+                    var mediaCompletionRate = mediaAssetRateMap.get(mediaAssetType);
+                    ReleaseReportUtils.appendLine(content, mediaAssetType.getDirectoryName()
+                            + "：" + mediaCompletionRate.getCompletedCount()
+                            + "/" + mediaCompletionRate.getTotalCount()
+                            + "（" + formatCompletionRate(mediaCompletionRate) + "）");
+                });
+        ReleaseReportUtils.appendBlankLine(content);
+    }
+
     private void appendGameList(StringBuilder content, RuleContext ruleContext) {
-        ReleaseReportUtils.appendLine(content, "十二、游戏清单");
+        ReleaseReportUtils.appendLine(content, "十三、游戏清单");
         Stream.of(Area.values())
                 .filter(ruleContext.getAreaWikiEntryMap()::containsKey)
                 .sorted(Comparator.comparingInt(Enum::ordinal))
@@ -220,5 +250,13 @@ public class ReleaseReportHandler {
                 .map(MediaAssetType::getDirectoryName)
                 .toList()
                 .toString();
+    }
+
+    private String formatCompletionRate(MediaCompletionRate mediaCompletionRate) {
+        var percentage = mediaCompletionRate.getCompletionRate() * 100;
+        if (percentage == Math.rint(percentage)) {
+            return String.format(Locale.ROOT, "%.0f%%", percentage);
+        }
+        return String.format(Locale.ROOT, "%.2f%%", percentage);
     }
 }
