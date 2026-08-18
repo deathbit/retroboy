@@ -36,23 +36,14 @@ ai/
 
 - 输入：`ai/nes/nes_wiki.txt`
 - 输出：`ai/nes/nes_wiki.json`
-- 未使用标题报告：`ai/nes/nes_error.txt`，该文件为追加模式
+- 错误/诊断信息：`ai/nes/nes_error.txt`，该文件为追加模式
 - 脚本：`.claude/skills/wiki-processor/generate_nes_wiki_json.py`
 
-每次运行平台脚本前，应先清理该平台上一次生成的 JSON 输出，例如 `ai/nes/nes_wiki.json`。错误报告文件不清理，只追加新发现的问题。
+每次运行平台脚本前，本 skill 应先清理该平台上一次生成的 JSON 输出，例如 `ai/nes/nes_wiki.json`。错误/诊断信息文件不清理；脚本只检测文件是否存在，存在则追加记录，不存在则新建后追加记录。
 
 ## 输出结构
 
-输出 JSON 不包含以下元信息：
-
-- `schemaVersion`
-- `platform`
-- `source`
-- `fields`
-- `regions`
-- `gameCount`
-
-输出直接是按地区分组的游戏发售记录对象。
+输出 JSON 直接是按地区分组的游戏发售记录对象。
 
 每个游戏在某个地区的一次发售，作为一条独立记录，并放入对应地区数组。
 
@@ -121,7 +112,7 @@ ai/
 
 ## 地区规范
 
-Wikipedia NES 表格中的地区列映射为：
+常见 Wikipedia 地区标记映射为：
 
 | Wikipedia | 输出 |
 | --- | --- |
@@ -129,42 +120,31 @@ Wikipedia NES 表格中的地区列映射为：
 | `NA` | `USA` |
 | `PAL` | `PAL` |
 
-如果后续平台出现其他地区，应在该平台脚本中单独定义映射规则。
+如果某个平台出现其他地区标记，应在该平台脚本中单独定义补充映射规则。
 
-## NES 解析规则
+## 通用解析规则
 
-`ai/nes/nes_wiki.txt` 来自 Wikipedia 的 NES 游戏列表 HTML 表格，当前列为：
+平台脚本应根据对应 Wikipedia 页面实际表格结构实现解析逻辑，不要假设不同平台共用相同列结构。
 
-1. `Title(s)`
-2. `Developer(s)`
-3. `Publisher(s)`
-4. `First released`
-5. `Release date / JP`
-6. `Release date / NA`
-7. `Release date / PAL`
-
-NES 脚本只读取地区发行日期列：`JP`、`NA`、`PAL`。
-
-规则：
-
+- 从平台页面中识别游戏标题、开发商、发行商、地区发行日期等信息。
 - `Unreleased` 不生成记录。
 - 每个已发售地区生成一条记录。
-- `JP` 输出为 `JPN`。
-- `NA` 输出为 `USA`。
-- `PAL` 输出为 `PAL`。
+- 地区标记应按“地区规范”映射到输出地区；平台特有地区由对应平台脚本补充处理。
 - 日期尽量标准化：
   - `December 10, 1988` -> `19881210`
   - `September 1987` -> `198709`
   - `1992` -> `1992`
 - 游戏名称优先使用对应地区的地区标题。
-  - 如果 `Title(s)` 中有带 `JP` / `NA` / `PAL` 标记的别名，则该地区使用该别名。
+  - 如果标题字段中有带地区标记的别名，则该地区使用对应别名。
   - 否则使用第一个标题作为默认游戏名。
   - `PAL` 地区允许同时使用多个标题：如果存在 `PAL`、`FR`、`ESP` 等 PAL 区域标题，则全部写入 `title`，并用 ` | ` 分隔。
   - `JPN` 和 `USA` 仍然只写入一个标题。
-- `Title(s)` 中解析出的每个 title 条目都应至少被某个地区记录使用一次。
-  - 如果某个 title 条目没有被使用，写入 `ai/nes/nes_error.txt`。
-  - `nes_error.txt` 是追加模式：如果文件不存在则创建；如果文件已存在，只追加新信息，不清空旧内容。
-  - 记录格式为：`row=<行号> primary=<主标题> unusedTitle=<未使用标题> regions=<地区标记>`。
+- 标题字段中解析出的每个 title 条目都应至少被某个地区记录使用一次。
+  - 如果某个 title 条目没有被使用，应作为错误/诊断信息写入 `{platform}_error.txt`。
+  - `{platform}_error.txt` 是通用错误/诊断信息文件，不只用于存储未使用标题报告。
+  - `{platform}_error.txt` 是追加模式：如果文件不存在则创建；如果文件已存在，只追加新信息，不清空旧内容。
+  - 未使用标题记录格式为：`row=<行号> primary=<主标题> unusedTitle=<未使用标题> regions=<地区标记>`。
+  - 其他错误/诊断信息可由平台脚本按需要追加，但应保持单行一条记录，便于后续排查。
 - 开发商、发行商如果有地区标记，则优先使用对应地区的公司。
   - 例如 `Irem JP`、`Nintendo NA/PAL`，则 JPN 使用 `Irem`，USA/PAL 使用 `Nintendo`。
   - 如果没有对应地区标记，则使用无地区标记的默认公司。
@@ -198,7 +178,7 @@ ai/nes/nes_error.txt
 在 Copilot Chat 中，参数通过自然语言传入即可。推荐写法：
 
 ```text
-/skill:wiki-processor nes，请读取 ai/nes/nes_wiki.txt，生成 ai/nes/nes_wiki.json，并将未使用标题追加写入 ai/nes/nes_error.txt
+/skill:wiki-processor nes，请读取 ai/nes/nes_wiki.txt，生成 ai/nes/nes_wiki.json，并将错误/诊断信息追加写入 ai/nes/nes_error.txt
 ```
 
 也可以更简短：
@@ -262,6 +242,6 @@ python3 .claude/skills/wiki-processor/generate_nes_wiki_json.py \
 3. 如果平台脚本不存在，先读取该平台 wiki txt 的样本，再新增平台专属脚本。
 4. 运行前清理旧的 `{platform}_wiki.json`。
 5. 运行平台脚本生成新的 `{platform}_wiki.json`。
-6. `{platform}_error.txt` 不清理；如果文件不存在则创建，如果存在则追加未使用的 title 条目。
+6. `{platform}_error.txt` 不清理；如果文件不存在则创建，如果存在则追加错误/诊断信息，包括但不限于未使用的 title 条目。
 7. 校验 JSON 可解析。
 8. 抽查几条记录，确认按地区分组，并且每条记录包含 `title`、`developer`、`publisher`、`releaseDate`；PAL 多标题必须使用 ` | ` 分隔。
