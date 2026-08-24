@@ -1,0 +1,3173 @@
+{
+  "id": "1523",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Golf"
+    },
+    {
+      "region": "us",
+      "text": "Golf"
+    },
+    {
+      "region": "jp",
+      "text": "Golf"
+    },
+    {
+      "region": "eu",
+      "text": "Golf"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "286",
+    "text": "Nintendo"
+  },
+  "developpeur": {
+    "id": "286",
+    "text": "Nintendo"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "note": {
+    "text": "10"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Golf features two challenging 18 hole courses where players are able to play a round of golf, and allows players to choose a club, adjust stance and control the swing. The game features three alternating views; an overhead long-range view of the entire hole, an overhead medium-range view from the ball's current location, and an overhead close-range view of the green. Gameplay modes include 1 player, or 2 player play with a link cable."
+    },
+    {
+      "langue": "fr",
+      "text": "Golf sur Nes est un jeu de sport dans lequel 18 parcours sont proposés. Vous pouvez choisir votre joueur et son club pour participer à des parties en solo ou en multi jusqu'à 2 joueurs."
+    },
+    {
+      "langue": "de",
+      "text": "Golf bietet zwei herausfordernde 18-Loch-Plätze, auf denen die Spieler eine Runde Golf spielen können. Die Spieler können dabei einen Schläger wählen, die Haltung einstellen und den Schwung kontrollieren. Das Spiel bietet drei wechselnde Ansichten: eine Draufsicht über das gesamte Loch, eine Draufsicht aus mittlerer Entfernung von der aktuellen Position des Balls und eine Draufsicht aus nächster Nähe auf das Grün. Zu den Spielmodi gehören 1-Spieler- oder 2-Spieler-Spiel mit einem Verbindungskabel."
+    },
+    {
+      "langue": "es",
+      "text": "Golf cuenta con dos desafiantes campos de 18 hoyos, donde los jugadores son capaces de jugar un partido de golf, y permite a los jugadores elegir el palo, ajustar la postura y el control del swing. El juego cuenta con tres puntos de vista alternos; una visión de largo alcance por encima de todos los hoyos, una vista aérea de medio alcance desde la ubicación actual de la pelota, y una vista de cerca en el green."
+    },
+    {
+      "langue": "it",
+      "text": "Il golf presenta due impegnativi campi da 18 buche in cui i giocatori possono giocare una partita a golf e consente ai giocatori di scegliere una mazza, regolare la posizione e controllare lo swing. Il gioco presenta tre visualizzazioni alternate; una vista dall'alto a lungo raggio dell'intera buca, una vista dall'alto a medio raggio dalla posizione attuale della palla e una vista dall'alto del green a distanza ravvicinata. Le modalità di gioco includono 1 giocatore o 2 giocatori con un cavo di collegamento."
+    },
+    {
+      "langue": "pt",
+      "text": "O Golf apresenta dois campos desafiadores de 18 buracos, onde os jogadores podem jogar uma partida de golfe e permitem que os jogadores escolham um clube, ajustem a postura e controlem o balanço. O jogo apresenta três visões alternadas; uma visão aérea de longo alcance de todo o buraco, uma visão aérea de médio alcance da localização atual da bola e uma visão aérea de curto alcance do verde. Os modos de jogo incluem 1 ou 2 jogadores com um cabo de ligação."
+    }
+  ],
+  "classifications": [
+    {
+      "type": "ESRB",
+      "text": "E"
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1985-10-01"
+    },
+    {
+      "region": "jp",
+      "text": "1984-05-01"
+    },
+    {
+      "region": "eu",
+      "text": "1986-11-15"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2913",
+      "nomcourt": "0602",
+      "principale": "0",
+      "parentid": "685",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports / Golf"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport / Golf"
+        },
+        {
+          "langue": "de",
+          "text": "Sport / Golf"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes / Golf"
+        },
+        {
+          "langue": "it",
+          "text": "Sport / Golf"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte / Golfe"
+        }
+      ]
+    },
+    {
+      "id": "685",
+      "nomcourt": "0600",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport"
+        },
+        {
+          "langue": "de",
+          "text": "Sport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes"
+        },
+        {
+          "langue": "it",
+          "text": "Sport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "694b8507",
+      "md5": "38a17bca80fcf493743b9c0da32c48f4",
+      "sha1": "bfd2fb48d26923c59a9e7f669aec574b19119be0",
+      "size": "943",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=ss(wor)",
+      "region": "wor",
+      "crc": "37587b64",
+      "md5": "48d59dee0fe44048d83035f985f92899",
+      "sha1": "17861eb7eedaa9b20fe327c53354371ed1b28261",
+      "size": "3343",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=fanart",
+      "crc": "072caafc",
+      "md5": "d09a53f4390a1bfc0fb03daa66551f79",
+      "sha1": "5a25f0feb764b4878491bb7a40385228149e2f44",
+      "size": "125860",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=video",
+      "crc": "8762a9a8",
+      "md5": "c6d91beb9b171fe52c1ef1c48dc7103d",
+      "sha1": "bb9f098770763942ab253ab3a71f3457e1ab864e",
+      "size": "1233116",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=video-normalized",
+      "crc": "35b24cc9",
+      "md5": "86f71ce5077ef5756a9243bd92e2daff",
+      "sha1": "b7c5cf2f173357bb5283de131a19405b7f7ba8ec",
+      "size": "536547",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=steamgrid",
+      "crc": "3264f599",
+      "md5": "8c8441d3ed7a6fa741667d65ea1a1a60",
+      "sha1": "76d928d03f575c9cc1c8055fbae640836d6b5fc6",
+      "size": "13087",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=wheel(eu)",
+      "region": "eu",
+      "crc": "2dc286ab",
+      "md5": "74f90782206177f1aeb1cfc66820533e",
+      "sha1": "049a156dd7887f8aa71b4040c28fa2e2598f1b36",
+      "size": "49813",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=wheel(fr)",
+      "region": "fr",
+      "crc": "fa22bbad",
+      "md5": "3d124c5c0cc0c4ccfc4cf393a8ba027a",
+      "sha1": "51a7113f09974c3608d097e2422ad306ce2c2306",
+      "size": "50668",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=wheel-carbon(eu)",
+      "region": "eu",
+      "crc": "c2b717fd",
+      "md5": "6bf6207d2a5496ea33b6cf2fc27a57fb",
+      "sha1": "fffeef4128cad7fe66f703452d5486a77706c2f6",
+      "size": "104775",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=wheel-carbon(fr)",
+      "region": "fr",
+      "crc": "eaa6c8d8",
+      "md5": "f40f45a5273d71fa43d752147f81991c",
+      "sha1": "c973044bd0398de42954b0dee9781522dd38ec54",
+      "size": "102925",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=wheel-steel(eu)",
+      "region": "eu",
+      "crc": "a77a7613",
+      "md5": "6e86d7a57c7b94fed2b132cf6858c31d",
+      "sha1": "64a13399dde52e4a4b01107d8bef562ab3eed773",
+      "size": "106360",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=wheel-steel(fr)",
+      "region": "fr",
+      "crc": "9063a059",
+      "md5": "2c2dde87534c2b5adbac13f92688d9e9",
+      "sha1": "0bc2fa6cedd26c1e5e00ab4690585d86e32fb0d8",
+      "size": "104466",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=screenmarquee(fr)",
+      "region": "fr",
+      "crc": "84df5c10",
+      "md5": "f27db0c306f4c3c87b11df62b8355987",
+      "sha1": "1badf194b0f2fbfd300e7cbd123724b144ede314",
+      "size": "476006",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=screenmarqueesmall(fr)",
+      "region": "fr",
+      "crc": "be6ea34b",
+      "md5": "8113df26d3ab4dd4f28a621b2b19db0b",
+      "sha1": "3c7c27bc52cff12b2757d84d5ce20bda39e8b437",
+      "size": "73757",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D(ca)",
+      "region": "ca",
+      "crc": "4dc36e3b",
+      "md5": "ed7d3ae003b6648b220292a8754bd908",
+      "sha1": "9386a746f90b8e6a9689b91e2f862e7495cb9e9c",
+      "size": "465926",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D(de)",
+      "region": "de",
+      "crc": "25c3336b",
+      "md5": "bd17bd91c3998da07814427da9319865",
+      "sha1": "23d56da4fb1758a595b3cadc99c4610596e36d51",
+      "size": "469828",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D(eu)",
+      "region": "eu",
+      "crc": "bbbbb612",
+      "md5": "25201c1bd4d3c2771ef1c7bfd5986c28",
+      "sha1": "ba8af990bbcbb6854e9ee87ee05ea43bea9f44a2",
+      "size": "279415",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D(eu)",
+      "region": "eu",
+      "crc": "bbbbb612",
+      "md5": "25201c1bd4d3c2771ef1c7bfd5986c28",
+      "sha1": "ba8af990bbcbb6854e9ee87ee05ea43bea9f44a2",
+      "size": "279415",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D(fr)",
+      "region": "fr",
+      "crc": "c758d7de",
+      "md5": "62add459ec756fd28b4627768abf2e22",
+      "sha1": "181de8d1a05a296fffe9f13d91183eca25222a6d",
+      "size": "226079",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "fcf170cc",
+      "md5": "7e0bf8187b67a3e90cb929b3a4ef3e8e",
+      "sha1": "9f79282c9ad015b415508ed096ff2679fcdbf19d",
+      "size": "638411",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "964232f2",
+      "md5": "9efed3bc47333cbb81bd6c4e5a1675c2",
+      "sha1": "125a13ae5d8d6b8ee5c3a1666b5d9d5dc1d3d08c",
+      "size": "112736",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D(us)",
+      "region": "us",
+      "crc": "9ac238fc",
+      "md5": "93871a8ece3de116fe5bb28d980356bf",
+      "sha1": "2b220edbda33611c46313626830d02440ddceac8",
+      "size": "122334",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D-side(ca)",
+      "region": "ca",
+      "crc": "946f4b96",
+      "md5": "aa8b89e95507a427f303134ba714efcd",
+      "sha1": "251a7e7ea7d8421939f61fb5999ba06e5ac92125",
+      "size": "34574",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D-side(de)",
+      "region": "de",
+      "crc": "946f4b96",
+      "md5": "aa8b89e95507a427f303134ba714efcd",
+      "sha1": "251a7e7ea7d8421939f61fb5999ba06e5ac92125",
+      "size": "34574",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D-side(eu)",
+      "region": "eu",
+      "crc": "528860b3",
+      "md5": "6476ae2c31bb7edf95e212103ca09385",
+      "sha1": "b864826ea895db75e13d21c317c14cffda40aabc",
+      "size": "33479",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D-side(fr)",
+      "region": "fr",
+      "crc": "9074fce5",
+      "md5": "45ad1a70315c7e6c329cdcab3242a805",
+      "sha1": "2523b5a5689fea1b19996139abaf9d0602254820",
+      "size": "38545",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "4708b005",
+      "md5": "6aa454379ee8e228febf901f16f25560",
+      "sha1": "77af61357c04b5d5e8f3dc7ed87c7d82a612ca61",
+      "size": "57646",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "6e6929f2",
+      "md5": "307986f9503d73e07aa003a55fc0968d",
+      "sha1": "ab4d478ea896e334accac45a609c3e124aa77683",
+      "size": "27184",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "1bab56de",
+      "md5": "f452b7044394d50a0b4f157429cbb94e",
+      "sha1": "aa55a5026fd5296cbc40d3d62dca622db62e4f06",
+      "size": "21328",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D-back(ca)",
+      "region": "ca",
+      "crc": "ad927086",
+      "md5": "f50a495320d8ee48cfdd005057c9bed4",
+      "sha1": "1f39f331d6741ac332dae96dd10ba5f515d17b88",
+      "size": "421707",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D-back(de)",
+      "region": "de",
+      "crc": "522dd4e8",
+      "md5": "f1d1c60ad881a14e3e002e3a1400548f",
+      "sha1": "181043b42eed68d6e15adda6dfcb2c0c606d0ca8",
+      "size": "609590",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D-back(eu)",
+      "region": "eu",
+      "crc": "e046ef62",
+      "md5": "7aee11afc8ba73f9dcee18ff31905282",
+      "sha1": "e6c602bb0f7cff7fa0dfb9eae5ece4583aa96e1d",
+      "size": "418978",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D-back(eu)",
+      "region": "eu",
+      "crc": "e046ef62",
+      "md5": "7aee11afc8ba73f9dcee18ff31905282",
+      "sha1": "e6c602bb0f7cff7fa0dfb9eae5ece4583aa96e1d",
+      "size": "418978",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D-back(fr)",
+      "region": "fr",
+      "crc": "f71911ce",
+      "md5": "a67aee357e9b394078d72e4b1a1f4851",
+      "sha1": "df06c6424c5d76c2b1dae8a6234b961ba1b578c1",
+      "size": "271136",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "601d3bc2",
+      "md5": "e02930ef1958808dba3882e9c67cc451",
+      "sha1": "127ce40576ecf8977d039fe9d6212a903f4b50b7",
+      "size": "584679",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "8f19cc96",
+      "md5": "de7c5a1d6a4978f51b592d5ec0cb616a",
+      "sha1": "586adb1661ac2b08e6987ad4a2a89e7967058f44",
+      "size": "126273",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "772745ad",
+      "md5": "e9e989177ba1dd9f79a3aae97c442383",
+      "sha1": "38214ae20bcf3f6ff16639df336069c8e61fd824",
+      "size": "341299",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-texture(ca)",
+      "region": "ca",
+      "crc": "ff5bfc4e",
+      "md5": "23a6ec57df194357416cc7ffe636099b",
+      "sha1": "bf767d1728cc00e021ccb6100ab3817efcdb3065",
+      "size": "949245",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-texture(de)",
+      "region": "de",
+      "crc": "c11a4b6a",
+      "md5": "166cb6c89a2c0d90b8da70d996a4efbd",
+      "sha1": "83d53be1cc1a5ca63298abc09a90352569bc7acf",
+      "size": "1143992",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-texture(eu)",
+      "region": "eu",
+      "crc": "345d2791",
+      "md5": "8fc3ffe608dc2bee02ea896ceaa2a461",
+      "sha1": "93718c2be110a057d565042c49ea23f37078cbff",
+      "size": "746734",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-texture(fr)",
+      "region": "fr",
+      "crc": "72eed4da",
+      "md5": "adc1aec5dcbc8f4686507c979bad47ce",
+      "sha1": "5406f404949c6c7c564d9618b23774a525fd9bf4",
+      "size": "551375",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "ba550e5b",
+      "md5": "d0d2d42840e50fb7f3daf4d02683f379",
+      "sha1": "679f11456e5ed02813128aefaa41d5fd9caeca15",
+      "size": "1296955",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "febd2b87",
+      "md5": "d2b2bcd04bce006b1a2be0f67d8540b9",
+      "sha1": "58ee9ac6fbfdecd5d6ad8d94a831579a3092bec6",
+      "size": "281347",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-texture(us)",
+      "region": "us",
+      "crc": "be65351a",
+      "md5": "36353278e70882b77eee8cff2358e000",
+      "sha1": "268795d7d4743a9d4c92e79384328290a38beb3e",
+      "size": "448530",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-3D(ca)",
+      "region": "ca",
+      "crc": "882fdc3c",
+      "md5": "d6964a5c3418221e5e2dfe51aded4228",
+      "sha1": "f13359228995474e51b4888714080708a22feb06",
+      "size": "223887",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-3D(de)",
+      "region": "de",
+      "crc": "98d51513",
+      "md5": "eed9d5eb6791ec3a6d30440bd431a809",
+      "sha1": "62d3f1bb4a36b1b306545c8f3d54a31c66b3689a",
+      "size": "232402",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-3D(eu)",
+      "region": "eu",
+      "crc": "473c765c",
+      "md5": "3732b2361175be57cb8d840b91df80c3",
+      "sha1": "7ed3d4e3c28ee85e55b0169c4cf55ae49d05c10b",
+      "size": "154783",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-3D(fr)",
+      "region": "fr",
+      "crc": "a5cfe931",
+      "md5": "1c91e931289ee7c50c1f78dc015838f1",
+      "sha1": "19e71fecc0d5b01dd96bfb5d0ff3708ead85f227",
+      "size": "146270",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "ec67605b",
+      "md5": "8fbe06efb19adf60b091a80fe09901f3",
+      "sha1": "7c132f55b5e69312f17b777263635e5c8d851bfb",
+      "size": "285699",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "285f148a",
+      "md5": "fefce27875c21f9a2443afaa4f76506c",
+      "sha1": "b019a7623e240437fb1538f743a6d99b859246ae",
+      "size": "107801",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=box-3D(us)",
+      "region": "us",
+      "crc": "e610772d",
+      "md5": "19f77824c51d2c7380c56fcccb0988f4",
+      "sha1": "1c7546688067313246d7e3a8edc590b0fcb141b4",
+      "size": "115455",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=manuel(jp)",
+      "region": "jp",
+      "crc": "01d33efe",
+      "md5": "68f22d7e2797d0b155cbf8c8f2f766aa",
+      "sha1": "3dba23575d5abf73fcf21826ea089a35978b1f5e",
+      "size": "384362",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=manuel(us)",
+      "region": "us",
+      "crc": "3fb6efa3",
+      "md5": "89adecac269112d4a9783138a4497f13",
+      "sha1": "daa61276671f2246047bad547f8322a1651c098e",
+      "size": "848628",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=support-texture(ca)",
+      "region": "ca",
+      "crc": "568c7130",
+      "md5": "ac94942231aed68e34ffceb1cfcaa472",
+      "sha1": "7eba2013f247e3bd8e094f353bee3b4e298d2d71",
+      "size": "199677",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=support-texture(fr)",
+      "region": "fr",
+      "crc": "05880e29",
+      "md5": "f0083fde4d3d661b72895164fd9d8147",
+      "sha1": "39f6aac196a824716b19c5e110c8e176870d0ff4",
+      "size": "257476",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "cf0cc93c",
+      "md5": "afc18cf7c48f39e3a13eeb17f11a8ad2",
+      "sha1": "46705f5c1b6ed6027c3da7bb84f544a6d85dd7b4",
+      "size": "309481",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=support-texture(us)",
+      "region": "us",
+      "crc": "403caa76",
+      "md5": "e65de83fc53ad2021bb98ee227218146",
+      "sha1": "520c868dd753f70dd2ba3ebc29d267ac2be1fee4",
+      "size": "488465",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=support-2D(ca)",
+      "region": "ca",
+      "crc": "0277a35f",
+      "md5": "8adca543469ba1544fdda648f506e014",
+      "sha1": "b180bb1acb93dfced49769e9531b8a7e7f093347",
+      "size": "254340",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=support-2D(fr)",
+      "region": "fr",
+      "crc": "54c328e9",
+      "md5": "cc776b0e1806b5e05ffb8304cbd08df2",
+      "sha1": "15c57142de9eeb99dc837c44fde95f7c4d9d1cd8",
+      "size": "273393",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "a05b49e8",
+      "md5": "e43f903ae4d68c7dc012800ae97335ab",
+      "sha1": "6222563ca1e93dc3625e81a7cac460e5c9e84bf5",
+      "size": "297658",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=support-2D(us)",
+      "region": "us",
+      "crc": "f0d7f1ee",
+      "md5": "325aa6383f7ac1f84a9ef35c8625809d",
+      "sha1": "1bc8d663ba3e2035ff86489be031fce05b3c7965",
+      "size": "365550",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "75686412",
+      "md5": "6a53eb66ede398bd1ff163835438b5f5",
+      "sha1": "78abd987f51331cd0354165f24f159bd7fbe0770",
+      "size": "278212",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv1(ca)",
+      "region": "ca",
+      "crc": "997c6d2c",
+      "md5": "69502952a7ed381103b0ba344e8dff23",
+      "sha1": "06317019bbc8e1279ef94a24442e34033a63cf72",
+      "size": "265161",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv1(de)",
+      "region": "de",
+      "crc": "a5a0ccb7",
+      "md5": "cfbb2d7c47c28f19897c61dae2692b03",
+      "sha1": "5e927a498a6e519c637ba53c245b83ae1da6a3f7",
+      "size": "270751",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv1(eu)",
+      "region": "eu",
+      "crc": "55a813c1",
+      "md5": "e5ea65a00cd15efd77a03f9b8f68c19d",
+      "sha1": "a52c04bf86ea4c823e3275b4b817755775a158cb",
+      "size": "231014",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv1(fr)",
+      "region": "fr",
+      "crc": "800e90bf",
+      "md5": "b55db44e592d624762674556875d64f6",
+      "sha1": "6236eef1dce70e4b4682584fb73c972e265e6197",
+      "size": "227060",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "32345f8b",
+      "md5": "05dc43b3f9be6d2b7a403f8c43c596b8",
+      "sha1": "137cede0be8d037b67f33f2126bca908f28e2686",
+      "size": "292090",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "eac50914",
+      "md5": "652bcc520e99671f0d02015dd4c8568b",
+      "sha1": "0f7e0857f31b3313d760609c0fb4e8fce50fff00",
+      "size": "207447",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "cb13238c",
+      "md5": "460957d515c95a055a49ae56eeb255e1",
+      "sha1": "0fb25331c4ff672674cdd1116fb637b6c7cf7c88",
+      "size": "218028",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "55a813c1",
+      "md5": "e5ea65a00cd15efd77a03f9b8f68c19d",
+      "sha1": "a52c04bf86ea4c823e3275b4b817755775a158cb",
+      "size": "231014",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv2(asi)",
+      "region": "asi",
+      "crc": "ef64e4a1",
+      "md5": "1fce692d8377f29884f4033cd4273f32",
+      "sha1": "e6ba500977409012155d7b333a9509bfcb1ad8c6",
+      "size": "400827",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv2(ca)",
+      "region": "ca",
+      "crc": "40087577",
+      "md5": "fc579d749234e1a804f00b68e4cafece",
+      "sha1": "50cab5b2012d06207c3087277b92ec7d572795dc",
+      "size": "431288",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv2(de)",
+      "region": "de",
+      "crc": "c5391544",
+      "md5": "ce2007eaec047ff9771d24c4bc642f13",
+      "sha1": "cba06cfaa660e1e078482d594f1330f2e454d85f",
+      "size": "437176",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv2(eu)",
+      "region": "eu",
+      "crc": "ef64e4a1",
+      "md5": "1fce692d8377f29884f4033cd4273f32",
+      "sha1": "e6ba500977409012155d7b333a9509bfcb1ad8c6",
+      "size": "400827",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv2(fr)",
+      "region": "fr",
+      "crc": "b887d8cb",
+      "md5": "a89117dd4c478dceceed90426c9ed2da",
+      "sha1": "3b5843c073d966a4b268fb646b2e1f8fecbac1e9",
+      "size": "394919",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "98aaee60",
+      "md5": "0ab5e757164f8dc3b1a5b6b75427c102",
+      "sha1": "bfc888ff1c36cc7795bbc58c91a0a8ef2fc7ada0",
+      "size": "468582",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "39442ce2",
+      "md5": "4ccd91ba5bd6b28d34fd53e73594c43d",
+      "sha1": "4cf6e83686c237387bf0939cd73984b30563fd3c",
+      "size": "376460",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "5bf50b0f",
+      "md5": "a25df219e0a55a88ba9a2f7bee54ac98",
+      "sha1": "dff62339ca361d9cbeefe9e28e90946eff09a956",
+      "size": "392595",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1523&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "ef64e4a1",
+      "md5": "1fce692d8377f29884f4033cd4273f32",
+      "sha1": "e6ba500977409012155d7b333a9509bfcb1ad8c6",
+      "size": "400827",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=logo-monochrome",
+      "crc": "95dac55f",
+      "md5": "1a6af8c61e2b478c66f13a76035c4178",
+      "sha1": "333417fda7f11b21cdbfe53c5b549d31f387e7e8",
+      "size": "3342",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=wheel",
+      "crc": "d0666824",
+      "md5": "f132730b36526f594b4480fd905684cf",
+      "sha1": "2ba2d8412bceaaa973ae7f0bf41d08edf5e5a369",
+      "size": "27698",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=logo-monochrome",
+      "crc": "95dac55f",
+      "md5": "1a6af8c61e2b478c66f13a76035c4178",
+      "sha1": "333417fda7f11b21cdbfe53c5b549d31f387e7e8",
+      "size": "3342",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=wheel",
+      "crc": "d0666824",
+      "md5": "f132730b36526f594b4480fd905684cf",
+      "sha1": "2ba2d8412bceaaa973ae7f0bf41d08edf5e5a369",
+      "size": "27698",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3549&media=pictoliste",
+      "crc": "3f323ede",
+      "md5": "ee94c442647fcb83b712d089de6a8686",
+      "sha1": "e484bfad29cfb587d5d73a2c9123aab37e541ec0",
+      "size": "384",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=pictoliste",
+      "crc": "cafca3d7",
+      "md5": "51bfa81c19838bc679411a7b6f4053e2",
+      "sha1": "92253cf472ed8e71780c29ddeb6c6e260325ce1f",
+      "size": "593",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=logo-monochrome",
+      "crc": "e4f09f59",
+      "md5": "031f5b008fd851f56fea852bf9f95126",
+      "sha1": "8160d583dde154dcbd717217182d2b310e756e92",
+      "size": "10670",
+      "format": "png"
+    },
+    {
+      "id": "2913",
+      "parent": "genre",
+      "subparent": "Sport / Golf",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2913&media=pictoliste",
+      "crc": "a50a5ffc",
+      "md5": "b18c4dfa34dbea5102b52aef4b5b4adf",
+      "sha1": "85d73cd160f19addb4f94da206d227f71378fee5",
+      "size": "18306",
+      "format": "png"
+    },
+    {
+      "id": "2913",
+      "parent": "genre",
+      "subparent": "Sport / Golf",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2913&media=logo-monochrome",
+      "crc": "047fdecf",
+      "md5": "47988ec5f1c3d5afed18367abf3dd7b9",
+      "sha1": "e0fbd827bd1add3236516c2d7832290f6a6efb22",
+      "size": "17943",
+      "format": "png"
+    },
+    {
+      "id": "2913",
+      "parent": "genre",
+      "subparent": "Sport / Golf",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2913&media=logo-monochrome-svg",
+      "crc": "ca6eca50",
+      "md5": "b60c5621076bb46f6479da32a86f0a7e",
+      "sha1": "991cd8434c36a678d345959fcb31db4e703d897f",
+      "size": "1971",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome",
+      "crc": "6a963ad9",
+      "md5": "6daf840fab2d205bda9bad4ff16f4c95",
+      "sha1": "f5e795233a8013aa0d992e197d56d09a63513403",
+      "size": "18286",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome-svg",
+      "crc": "328c7db2",
+      "md5": "4298fc7c8887c1b97cec6ee0b5d72433",
+      "sha1": "8f59a9ec18c48a7246c3b13e19c6c5857bc95513",
+      "size": "4269",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=background",
+      "crc": "a3265ffe",
+      "md5": "65308af4ddc9782f6717f000eea7f28a",
+      "sha1": "bccce8f0defa7c25313eb5ced7cdf71555c5a85d",
+      "size": "185482",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136131",
+      "romsize": "24592",
+      "romfilename": "Golf (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6C4E5A87",
+      "rommd5": "BD270896269D8C926B543F928FA2D0FE",
+      "romsha1": "B7128F71125070D5E4009C474D259811D029E8B6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "225146",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "2902",
+      "romsize": "16650",
+      "romfilename": "Golf (Europe).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F8BB58DF",
+      "rommd5": "CBBE540D6FF483E420A0740E8B7F2AA6",
+      "romsha1": "F00433BA3FCCF0D32D2FAAF660C3ECC8438CC54E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "126997",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "523846",
+      "romsize": "24719",
+      "romfilename": "Golf.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C7C1A73E",
+      "rommd5": "7CBDDDFD9FC4F08C1A59BAB138A1387C",
+      "romsha1": "46E8F33FEBCB0282B78C9DD84A2A22F7151083B1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "76867"
+    },
+    {
+      "id": "2904",
+      "romsize": "16672",
+      "romfilename": "Golf (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BA013A79",
+      "rommd5": "CA4DBAE22734710D70C9ED98EF4237B7",
+      "romsha1": "91E477B810F5976CA82443850230F97B5E4685D4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "70170",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "136129",
+      "romsize": "24592",
+      "romfilename": "Golf (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DDC785C1",
+      "rommd5": "95159E664469B27407F4FD8356A72934",
+      "romsha1": "255D1E955840B8C743A8304A2FD9264B11B25627",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "57514",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "387471",
+      "romsize": "49168",
+      "romfilename": "VS Stroke & Match Golf - Mens.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "199C68A9",
+      "rommd5": "CE4F1E8413ACE13EE78688ECA0CAC2AE",
+      "romsha1": "53ED0CCA26F766BBEB6D10BF90DD2891BDA93EBE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "51089",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "566549",
+      "romsize": "24592",
+      "romfilename": "Golf.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3E8DEC2F",
+      "rommd5": "A9CE533C3F8062DD2AB2F7070233B69A",
+      "romsha1": "7EE365BBB3DBC8BFFEE7D714F8632E2E0C8F1904",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "44839",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1137963",
+      "romsize": "24592",
+      "romfilename": "Golf (USA, Asia) (En).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2014b5d1",
+      "rommd5": "60b8bcef41b64d5721eadfbbf5f2be85",
+      "romsha1": "e4d19030b4b165e880e9e376211dcbc1a7ae0e01",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "38683",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "114"
+        ],
+        "regions_shortname": [
+          "us",
+          "asi"
+        ],
+        "regions_en": [
+          "USA",
+          "Asia"
+        ],
+        "regions_fr": [
+          "USA",
+          "Asie"
+        ],
+        "regions_de": [
+          "USA",
+          "Asien"
+        ],
+        "regions_es": [
+          "USA",
+          "Asia"
+        ],
+        "regions_it": [
+          "USA",
+          "Asia"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "548605",
+      "romsize": "24592",
+      "romfilename": "Golf (E).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "34469414",
+      "rommd5": "A8EF965EABFB57C59A9A6754A5581D77",
+      "romsha1": "C8989E0CC7E9CB07662B125459AF32184E5CC8A3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "32278",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "136130",
+      "romsize": "24592",
+      "romfilename": "Golf (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D70CFDFA",
+      "rommd5": "C092A5A4FF39872CE765DF71EF9C6AF1",
+      "romsha1": "0BF8562D134DDE80F6955795B22FA8E618AE17C4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "31561",
+      "regions": {
+        "regions_id": [
+          "47",
+          "46"
+        ],
+        "regions_shortname": [
+          "jp",
+          "us"
+        ],
+        "regions_en": [
+          "Japan",
+          "USA"
+        ],
+        "regions_fr": [
+          "Japon",
+          "USA"
+        ],
+        "regions_de": [
+          "Japan",
+          "USA"
+        ],
+        "regions_es": [
+          "Japón",
+          "USA"
+        ],
+        "regions_it": [
+          "Giappone",
+          "USA"
+        ],
+        "regions_pt": [
+          "Japão",
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "643247",
+      "romsize": "24592",
+      "romfilename": "Kiss Goes Golfing starring Peter Criss (Golf Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C04356D2",
+      "rommd5": "6EBE531B6689AF39D8A9371810B9808D",
+      "romsha1": "F6BED37AFEE53CD4C435FBD4EF57E6979AE6033B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "26567"
+    },
+    {
+      "id": "645337",
+      "romsize": "49168",
+      "romfilename": "Ladies Golf (VS).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2A1F1641",
+      "rommd5": "E92F0955E8AA904B344825D5386CAE0F",
+      "romsha1": "462A6014839C93A4DD37613A39C1A2F5181ED398",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "23226"
+    },
+    {
+      "id": "643243",
+      "romsize": "24592",
+      "romfilename": "Kiss Goes Golfing starring Ace Frehley (Golf Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "616E2BFD",
+      "rommd5": "54F137F87405E2D31E17776C3DA0FFB1",
+      "romsha1": "29A13038CA2C45F04929BACB0078C41B93C3883A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "22712"
+    },
+    {
+      "id": "643330",
+      "romsize": "24592",
+      "romfilename": "Kiss Goes Golfing starring Gene Simmons (Golf Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5948090C",
+      "rommd5": "44E1898F10F58DDD1E3A8D385CC463ED",
+      "romsha1": "257B20B3BCA47170F12E4E825F20397256743DB6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "22509"
+    },
+    {
+      "id": "645297",
+      "romsize": "24592",
+      "romfilename": "Maria's Golf (Hack) (JU).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7F0CB605",
+      "rommd5": "223555B740E969D15C812BF1423CBC3E",
+      "romsha1": "14565B90BE871ACBA746BE154CDFC254C9C79193",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "1",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "15388",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "537397",
+      "romsize": "28986",
+      "romfilename": "VS Stroke & Match Golf - Ladies.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "514C6266",
+      "rommd5": "9DA01BD8AD85F16D93615A5CB3F940BD",
+      "romsha1": "7481DD634588223F76D90572E208B2A2BF426EA6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "15008"
+    },
+    {
+      "id": "745456",
+      "romsize": "49168",
+      "romfilename": "Stroke and Match Golf (VS) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BE78A654",
+      "rommd5": "4284AF0BFAC2565A975E42770DFECB60",
+      "romsha1": "BDD6127F0FB35591F02ACD2412A35390BDF73A7D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13614"
+    },
+    {
+      "id": "613107",
+      "romsize": "49168",
+      "romfilename": "Golf (VS).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F8702BC0",
+      "rommd5": "B72358BE9A8F25662A66750B0AFCA177",
+      "romsha1": "BF37D061CF5F8F82D1C95703762500F8FC22152A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13364"
+    },
+    {
+      "id": "1137957",
+      "romsize": "24592",
+      "romfilename": "Golf (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "c72dbbde",
+      "rommd5": "bfa346b7ce7ccbd80eea68881bf1ba23",
+      "romsha1": "5437177a017991fdb1eb0292f74f3351e5e620ba",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "12347",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "643333",
+      "romsize": "24592",
+      "romfilename": "Kiss Goes Golfing starring Paul Stanley (Golf Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "381EAF97",
+      "rommd5": "5BB66151E3786BE532BDE457D028861A",
+      "romsha1": "02A295049D1FD6F7EC8C3C5C773C9AA71B6AF968",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11640"
+    },
+    {
+      "id": "1137954",
+      "romsize": "24592",
+      "romfilename": "Golf (U) (e-Reader) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "636ea7c5",
+      "rommd5": "809892a67969e246e74727452298fc8e",
+      "romsha1": "eca70024fdf5c6e89fc0fd59f4c240c9f116d7f7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10945",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "523496",
+      "romsize": "16653",
+      "romfilename": "Golf (U) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D6F3A2F8",
+      "rommd5": "8959C4A9802D7CCE9304D5D6E4957A7F",
+      "romsha1": "00E884962ABE17D9903F07C2986697856F8947BE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10938",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "2903",
+      "romsize": "16675",
+      "romfilename": "Golf (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9E48BA28",
+      "rommd5": "B58E944184A7707D02CBBB3D8D1DBE9A",
+      "romsha1": "881050E3F480348F14AFF94DAC6D31B7208FDCE0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10290",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "646386",
+      "romsize": "40976",
+      "romfilename": "Gold (JU) [p1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "439686DF",
+      "rommd5": "DDBD03DD4A970D9CE9B1F93DC5F92970",
+      "romsha1": "78334CCB42B40C97D1A64AA75C5320B1FCA3EFBA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9660",
+      "regions": {
+        "regions_id": [
+          "47",
+          "46"
+        ],
+        "regions_shortname": [
+          "jp",
+          "us"
+        ],
+        "regions_en": [
+          "Japan",
+          "USA"
+        ],
+        "regions_fr": [
+          "Japon",
+          "USA"
+        ],
+        "regions_de": [
+          "Japan",
+          "USA"
+        ],
+        "regions_es": [
+          "Japón",
+          "USA"
+        ],
+        "regions_it": [
+          "Giappone",
+          "USA"
+        ],
+        "regions_pt": [
+          "Japão",
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1137966",
+      "romsize": "24592",
+      "romfilename": "Golf (E) (GC) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "45b809e6",
+      "rommd5": "b60c17fb9ed25968c019aa8acb36e27d",
+      "romsha1": "d97c923c374da3aa27be375a9a396771bf4ddf6f",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8010",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "1137960",
+      "romsize": "24592",
+      "romfilename": "Golf (Japan) (En).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9b5612ac",
+      "rommd5": "a9c717fb3886c6fcd63f0d16751dc0f1",
+      "romsha1": "cf50b7e8faee51bcc174a9db6a908726a7c2ffe7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "7520",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "471847",
+      "romsize": "16717",
+      "romfilename": "Golf (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "40271CA1",
+      "rommd5": "FCB332722C3AF71E5B6BAAA3F2C2D307",
+      "romsha1": "073DC00A2178F34FB6E2126008443F1BA7A0DC29",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7164",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "520799",
+      "romsize": "16363",
+      "romfilename": "Golf (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5D58641D",
+      "rommd5": "C222AAD58E4E570E3B173AAFF04D6000",
+      "romsha1": "4D420E2529F9F5E39EB51C0B9C15768B54CE61CB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7060",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "594679",
+      "romsize": "29592",
+      "romfilename": "Stroke & Match Golf (VS) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B8D97C77",
+      "rommd5": "A475F11B1071BCE9DA1E9A8211956E33",
+      "romsha1": "D2B8530B30EEF48D546E7873AA4AA6C4302EC366",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6882"
+    },
+    {
+      "id": "924026",
+      "romsize": "24576",
+      "romfilename": "Golf (Europe) (GameCube Edition).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D4CEA9E3",
+      "rommd5": "269C6569E703A65C00611CDF5752E7D0",
+      "romsha1": "1528BE329E978047439F8A96A7825A42074267B8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6191",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "924028",
+      "romsize": "40960",
+      "romfilename": "Golf (Japan) (En) (GameCube Edition).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "814F7E11",
+      "rommd5": "9603D477AA153EB361378CA8FF8BE5DC",
+      "romsha1": "2C8380C6B121FCD541CD162998BB4D3FF540511C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5392",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1137969",
+      "romsize": "40976",
+      "romfilename": "Golf (J) (GC) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "e28a9513",
+      "rommd5": "7507eed72fba0e207ae91f5ce133958a",
+      "romsha1": "db2f1f78507c2ce471e4b0d18b54ece1f3d2b8a2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5190",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "828491",
+      "romsize": "29438",
+      "romfilename": "VS Stroke & Match Golf - Mens.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0E626B65",
+      "rommd5": "AD6C560F65557FC03E3AACCA7A72D061",
+      "romsha1": "E0484E2EE6B70A1E4C7FD18C8AE9D3CD73C9F0F1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3732"
+    },
+    {
+      "id": "1079072",
+      "romsize": "24576",
+      "romfilename": "Golf (USA) (e-Reader Edition).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a4a8d689",
+      "rommd5": "a6bc75fa9b94e357b1781d7a7d4e2b7e",
+      "romsha1": "316c0ace8422a4e2b464f431876e741d6e073115",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3412",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "173295",
+      "romsize": "24576",
+      "romfilename": "Golf (Japan) (En).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5C9063E0",
+      "rommd5": "7915989354F8B96E10AA4A6D0E163C55",
+      "romsha1": "CE5CE75848FCE78807441386B1430BA0F8F22EEE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2958",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173296",
+      "romsize": "24576",
+      "romfilename": "Golf (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E7D2C49D",
+      "rommd5": "F0D94F25DB202C935CD8F1CDDE10A0AA",
+      "romsha1": "D4F52D21EF6C872FFACEA083161DBDA0234924D5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2838",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "544078",
+      "romsize": "16665",
+      "romfilename": "Golf.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "532E3C56",
+      "rommd5": "C964923025C416FA77259F680B7847DD",
+      "romsha1": "AFD6459A38315B9EEE918697D3A5D9B6A7A5E3D7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2827"
+    },
+    {
+      "id": "536714",
+      "romsize": "16715",
+      "romfilename": "Golf.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "019D085E",
+      "rommd5": "D95115ED20D07C22C785F9B2352FB051",
+      "romsha1": "106AB18C0CA0DDCD6A7D0641848C92DA1ADE81FA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2087"
+    },
+    {
+      "id": "173294",
+      "romsize": "24576",
+      "romfilename": "Golf (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "565B1BDB",
+      "rommd5": "9E7755AEDE0E78954D83D03A87274CCD",
+      "romsha1": "E97F2ACF42183A3559103910E06FA5EE616CEB87",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1562",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "364244",
+      "romsize": "16730",
+      "romfilename": "Golf (E-GC).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3DE95686",
+      "rommd5": "DD4AEBB17B8857F3A0048E8C2FFF9529",
+      "romsha1": "EBBBC900D3C3E92680E0D635A7BA8A84D795228A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "978"
+    },
+    {
+      "id": "570398",
+      "romsize": "16753",
+      "romfilename": "Golf (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "37AC6AE2",
+      "rommd5": "47F7AF510FC931B1BA68A848B52FC7E8",
+      "romsha1": "5E90FD3FB7EC56680CF2814A33965918CF0A056C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "281",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "113795",
+      "romsize": "16650",
+      "romfilename": "Golf (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5DEA83FE",
+      "rommd5": "7F4DD32F650045A6689B1D7492BEFB53",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "103",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "113794",
+      "romsize": "16653",
+      "romfilename": "Golf (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6710B900",
+      "rommd5": "557DA5984E090086CB9A9985781E3CD8",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "83",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113793",
+      "romsize": "16628",
+      "romfilename": "Golf (Europe).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "871CEE80",
+      "rommd5": "7EA0BD886EF3766FF159ED9ACEF8185E",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "77",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    }
+  ]
+}

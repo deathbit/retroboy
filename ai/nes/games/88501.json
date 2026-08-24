@@ -1,0 +1,697 @@
+{
+  "id": "88501",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Master Shooter"
+    },
+    {
+      "region": "asi",
+      "text": "Master Shooter"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "10694",
+    "text": "NTDEC"
+  },
+  "developpeur": {
+    "id": "10695",
+    "text": "Mega Soft"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "An unlicensed Chinese game to play with the NES Zapper. You need to shoot at targets placed on shelves, similar to a shooting gallery at a fair."
+    },
+    {
+      "langue": "fr",
+      "text": "Un jeu chinois non licencié compatible avec le NES Zapper. Vous devez tirer sur des cibles posées sur des étagères, comme un stand de tir dans une foire."
+    },
+    {
+      "langue": "de",
+      "text": "Ein nicht lizenziertes chinesisches Spiel zum Spielen mit dem NES Zapper"
+    },
+    {
+      "langue": "es",
+      "text": "Un juego chino sin licencia para jugar con el NES Zapper."
+    },
+    {
+      "langue": "it",
+      "text": "Un gioco cinese senza licenza da giocare con NES Zapper"
+    },
+    {
+      "langue": "pt",
+      "text": "Um jogo chinês não licenciado para jogar com o NES Zapper"
+    }
+  ],
+  "dates": [
+    {
+      "region": "asi",
+      "text": "1993"
+    }
+  ],
+  "genres": [
+    {
+      "id": "32",
+      "nomcourt": "0105",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Lightgun Shooter"
+        },
+        {
+          "langue": "fr",
+          "text": "Tir avec accessoire"
+        },
+        {
+          "langue": "de",
+          "text": "Lightgun Shooter"
+        },
+        {
+          "langue": "es",
+          "text": "Disparos con periférico"
+        },
+        {
+          "langue": "it",
+          "text": "Sparo con accessorio"
+        },
+        {
+          "langue": "pt",
+          "text": "Tiro com Lightgun"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "75645a15",
+      "md5": "2c388baa6abd4de7904a7fe4d3fed6d5",
+      "sha1": "336df5ba002a462b3c9e64cb84cdcf27dd81a0de",
+      "size": "26846",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=ss(wor)",
+      "region": "wor",
+      "crc": "9b826a9b",
+      "md5": "b47038b97c3d0eca6ed743be735a77ed",
+      "sha1": "f73aeec95e936fdfbcaea2e5076c04b05ba23195",
+      "size": "134795",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=video",
+      "crc": "bc7ea913",
+      "md5": "6f36571fd5a8ea231a2c586261f618db",
+      "sha1": "b0a4b84f3faeffb205ca9c77036bb0ec5edf83c0",
+      "size": "3722019",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=video-normalized",
+      "crc": "034938d7",
+      "md5": "8c0a28ed7678322f82f3dd50c4c7112f",
+      "sha1": "6c17dd547da1320155792efc00d2c37b72c816fb",
+      "size": "2062330",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=steamgrid",
+      "crc": "7f6711a7",
+      "md5": "dccc2be3f9ae04a450d5b44c1cfeb27f",
+      "sha1": "e267364d74486e3fd2c5cafdd9632eb55583861f",
+      "size": "30050",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=wheel(wor)",
+      "region": "wor",
+      "crc": "2f6a29ee",
+      "md5": "b346ac1d95d1d3ffff21a2371bcfa9ed",
+      "sha1": "6e0127d0421a5fc95068c72fd23310926fa6c198",
+      "size": "66817",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "c11662ef",
+      "md5": "7568a55e8a9771f9437e6a9b953fd295",
+      "sha1": "16761f011206ec760a4398d36e33bf48056d0643",
+      "size": "134932",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "41e249d8",
+      "md5": "336237c467d82a874d24a709b6fa3e17",
+      "sha1": "be47a322aec9fbc8acda9c4801bc086595da0111",
+      "size": "137035",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "ea02377f",
+      "md5": "2c3ee6336c9cb1bd4f03328ab3ef9ec9",
+      "sha1": "8414291b8e4e52f13af650ff2051ce36654a9678",
+      "size": "512972",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "ac85e309",
+      "md5": "849ba7616683ff3e6faf010046482084",
+      "sha1": "9eb7e6e9fdd028657a35ce6a018fd2f95a83262d",
+      "size": "84360",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "0a744adc",
+      "md5": "80d3cd4de03131961e79e73fb21db979",
+      "sha1": "65c7b06ce52c586d804c15c423c879d6253a5cc0",
+      "size": "563720",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "7746d5d7",
+      "md5": "a186979860f9ef39a100e0f33d816525",
+      "sha1": "935fd8df6e94c948c95695fa7dab0d357518fcbe",
+      "size": "159882",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "e907e1a3",
+      "md5": "0a6b361f20a6705c3e273cd5587c092b",
+      "sha1": "b2039d3c76e3b77fcb514e50cb212abb2ab6d084",
+      "size": "26747",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "7f2b4361",
+      "md5": "5461f509904d6ce8a8570cc2ae5af64e",
+      "sha1": "76c0a7c6a2ea729e5cd4600555f4b3407001f58a",
+      "size": "26912",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "76e149e6",
+      "md5": "20686e0383ffe55a9ffac9b9f11eaea2",
+      "sha1": "e200aa0c2b3947adddadd908a1d160b6f68cd769",
+      "size": "2302",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "f9460ee9",
+      "md5": "7abcece802c64149a3cc85fd5c8f8ad1",
+      "sha1": "773872fb9b1fb0a187f18448d427b37475295e4b",
+      "size": "129173",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "c83ddf6b",
+      "md5": "016f42af3eb9d02b2b0a2668a8eb43f3",
+      "sha1": "561fbc91c5cdfae39e5d68819499a05c99c843d7",
+      "size": "613009",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "8718c486",
+      "md5": "0436533ca942a87bd887eea15e3cb191",
+      "sha1": "478d9e09109da6555b5283b462e5dd5693eb5ebc",
+      "size": "324214",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "21f5b314",
+      "md5": "811437380a431a563829ac37056ee6c6",
+      "sha1": "87d2260a626633e2d2b725e67e081468daeda418",
+      "size": "279736",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "953f19ec",
+      "md5": "ff12ba75dfc83235e1c7a7f5d00ecb99",
+      "sha1": "07d1b48d34d5ff9ab2e9f7f11458a3d41e590769",
+      "size": "134567",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "98e5bca6",
+      "md5": "783d94f3c00fd56b1af2d6e6a3e13620",
+      "sha1": "ab8b7cf39b2f79ff855e51acc3d4aaa579cf6de4",
+      "size": "350398",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "0596edc5",
+      "md5": "d73498fc20d16b76aea30cb044bcae34",
+      "sha1": "d8c946d6d0b0aa82e69c91daec2759f864a7ed51",
+      "size": "306994",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "d11baa10",
+      "md5": "f1a7bd59da2e38a32f75fd8839557475",
+      "sha1": "1f9bee607efbac1e0315750299e1caa8f8d22c0f",
+      "size": "481746",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=mixrbv2(asi)",
+      "region": "asi",
+      "crc": "32255f30",
+      "md5": "3fc58cc3433a17d6ca68de4d7923d09e",
+      "sha1": "6cd9de54eeb1215b5908a8779c29831da02cae7f",
+      "size": "671225",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88501&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "32255f30",
+      "md5": "3fc58cc3433a17d6ca68de4d7923d09e",
+      "sha1": "6cd9de54eeb1215b5908a8779c29831da02cae7f",
+      "size": "671225",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "id": "32",
+      "parent": "genre",
+      "subparent": "Tir avec accessoire",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=32&media=pictoliste",
+      "crc": "bad528c3",
+      "md5": "de933c905fe81f8e33a8f1314fa10a54",
+      "sha1": "c2efd6945ba1d0bffa62da271b8f11ffdf4c1e9e",
+      "size": "922",
+      "format": "png"
+    },
+    {
+      "id": "32",
+      "parent": "genre",
+      "subparent": "Tir avec accessoire",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=32&media=logo-monochrome",
+      "crc": "c79e4fd0",
+      "md5": "9cc05e5ab34a5bb8bcf7b430109416c4",
+      "sha1": "7e4b2afea20efa38d462fe8c948e8fa108889d47",
+      "size": "10467",
+      "format": "png"
+    },
+    {
+      "id": "32",
+      "parent": "genre",
+      "subparent": "Tir avec accessoire",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=32&media=logo-monochrome-svg",
+      "crc": "ae0dbf0e",
+      "md5": "429fa5a980d3f5ee055f4f43a999cae1",
+      "sha1": "30aad760da05afe983f325b0176067bb0cd67aa6",
+      "size": "4058",
+      "format": "svg"
+    },
+    {
+      "id": "32",
+      "parent": "genre",
+      "subparent": "Tir avec accessoire",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=32&media=background",
+      "crc": "d4f4e907",
+      "md5": "635c14cd23fee6f1310587aad2fe47c4",
+      "sha1": "20d204f5c84de8e95f44d94d6517c5ef49af71a3",
+      "size": "112966",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136649",
+      "romsize": "65552",
+      "romfilename": "Master Shooter (Asia) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D2DCAE89",
+      "rommd5": "03DFB0F60348B568FBCB673189349764",
+      "romsha1": "9D13A63EDA096FACFA4A92B645D05394BB1114B3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "36418",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "13039",
+      "romsize": "29358",
+      "romfilename": "Master Shooter (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BCFF1965",
+      "rommd5": "BAA2D5620DECDA8C125F46BD70927E96",
+      "romsha1": "DE9573CD92C9402B7C1E0BB4D947122B8C94F005",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "30061",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "173821",
+      "romsize": "65536",
+      "romfilename": "Master Shooter (Asia) (Ja) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "61061352",
+      "rommd5": "165994B55DF04CEC871AC6A2EBBF32C0",
+      "romsha1": "026360E0DEB05C1A3B04F987CBD5A4051B004175",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13459",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "1140405",
+      "romsize": "65552",
+      "romfilename": "Master Shooter (Asia) (Ja) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "b89a0072",
+      "rommd5": "aa50a98caa81dca42f0eebae2a4ba85a",
+      "romsha1": "dea166be119fec492b2055d7b92b984282b87ab5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11214",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "114320",
+      "romsize": "29336",
+      "romfilename": "Master Shooter (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4EDD6E07",
+      "rommd5": "9EDC1DA09253D66E47BC2A3467DFE16A",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "71",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    }
+  ]
+}

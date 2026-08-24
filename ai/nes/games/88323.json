@@ -1,0 +1,991 @@
+{
+  "id": "88323",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Hayauchi Super Igo"
+    },
+    {
+      "region": "jp",
+      "text": "Hayauchi Super Igo"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "68",
+    "text": "Namco"
+  },
+  "developpeur": {
+    "id": "5424",
+    "text": "Home Data"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Hayauchi Super Igo (Quick-play Super Go) is a board game simulation developed by Home Data for the Famicom, and published by Namco in Japan in 1989. It is based on the board game known as Go. The game has three modes. Honinbo Battle is for standard players, where players start at the lowest rank and work their way up to the Champion rank. The Rank Game is for beginner players, and see's them start in the middle rank, moving up and down according to their performance. The Dojo mode is a custom mode that allows you to tailor many aspects of the game, including the grid size, number of players, who starts, and whether there's a handicap."
+    },
+    {
+      "langue": "fr",
+      "text": "Il est basé sur le jeu de société connu sous le nom de Go. Le jeu comporte trois modes. \r\n\r\nHoninbo Battle est pour les joueurs standards, où les joueurs commencent au rang le plus bas et progressent jusqu'au rang de champion. Le jeu de rangs est destiné aux joueurs débutants, qui commencent au rang intermédiaire et montent et descendent en fonction de leurs performances. \r\n\r\nLe mode Dojo est un mode personnalisé qui vous permet d'adapter de nombreux aspects du jeu, notamment la taille de la grille, le nombre de joueurs, qui commence et s'il y a un handicap."
+    },
+    {
+      "langue": "de",
+      "text": "Hayauchi Super Igo (Quick-play Super Go) ist eine Brettspielsimulation, die von Home Data für die Famicom entwickelt und 1989 von Namco in Japan veröffentlicht wurde. Es basiert auf dem Brettspiel, das als Go bekannt ist. Das Spiel hat drei Modi. Honinbo Battle ist für Standardspieler, bei denen die Spieler am niedrigsten Rang beginnen und sich bis zum Champion-Rang arbeiten. Das Rangspiel ist für Anfänger, und sehen Sie, wie sie im mittleren Rang beginnen und sich entsprechend ihrer Leistung auf und ab bewegen. Der Dojo-Modus ist ein benutzerdefinierter Modus, der es Ihnen ermöglicht, viele Aspekte des Spiels anzupassen, einschließlich der Rastergröße, der Anzahl der Spieler, wer startet und ob es ein Handicap gibt."
+    },
+    {
+      "langue": "es",
+      "text": "Hayauchi Super Igo (&quot;Super Go Quick Game&quot;) es un simulador de juegos de mesa desarrollado por Home Data para Famicom y publicado por Namco en Japón en 1989. Se basa en un juego de mesa conocido como Go. El juego tiene tres modos. Honinbo Battle para jugadores estándar, donde los jugadores comienzan en el rango más bajo y avanzan al nivel de Campeón. El juego del Rango está destinado a jugadores principiantes, y comienzan desde el rango medio, moviéndose hacia arriba y hacia abajo según su rendimiento. El modo Dojo es un modo de usuario que te permite adaptar muchos aspectos del juego, incluido el tamaño de la cuadrícula, el número de jugadores que comienzan y si hay una desventaja."
+    },
+    {
+      "langue": "it",
+      "text": "Hayauchi Super Igo (Quick-play Super Go) è una simulazione di gioco da tavolo sviluppata da Home Data per Famicom e pubblicata da Namco in Giappone nel 1989. Si basa sul gioco da tavolo noto come Go. Il gioco ha tre modalità. Honinbo Battle è per i giocatori standard, in cui i giocatori iniziano dal grado più basso e si fanno strada fino al grado di Campione. Il Rank Game è per i giocatori principianti e li vede iniziare nel rango intermedio, spostandosi su e giù in base alle loro prestazioni. La modalità Dojo è una modalità personalizzata che ti consente di personalizzare molti aspetti del gioco, tra cui la dimensione della griglia, il numero di giocatori, chi inizia e se c'è un handicap."
+    },
+    {
+      "langue": "pt",
+      "text": "Hayauchi Super Igo (Quick-play Super Go) é uma simulação de jogo de tabuleiro desenvolvido pela Home Data para a Famicom e publicado pela Namco no Japão em 1989. É baseado no jogo de tabuleiro conhecido como Go. O jogo tem três modos. Honinbo Battle é para jogadores normais, onde os jogadores começam na classificação mais baixa e seguem seu caminho até a classificação de Campeão. O Jogo de Classificação é para jogadores iniciantes, e veja como eles começam na classificação média, subindo e descendo de acordo com seu desempenho. O modo Dojo é um modo customizado que permite customizar muitos aspectos do jogo, incluindo o tamanho da grade, número de jogadores, quem começa e se há uma deficiência."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1989-03-03"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2958",
+      "nomcourt": "0800",
+      "principale": "0",
+      "parentid": "2647",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Go"
+        },
+        {
+          "langue": "fr",
+          "text": "Go"
+        },
+        {
+          "langue": "de",
+          "text": "Go"
+        },
+        {
+          "langue": "es",
+          "text": "Go"
+        },
+        {
+          "langue": "it",
+          "text": "Go"
+        },
+        {
+          "langue": "pt",
+          "text": "Go"
+        }
+      ]
+    },
+    {
+      "id": "2647",
+      "nomcourt": "0800",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Asiatic board game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de societe asiatique"
+        },
+        {
+          "langue": "de",
+          "text": "Asiatische Brettspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de mesa asiático"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di società asiatico"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogo de tabuleiro Asiático"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "34b82c61",
+      "md5": "8e6b15bf4045c6916c70c928e5e6e0cc",
+      "sha1": "1c32d07142ca46cd8a924257cbe0f3f9be0c7160",
+      "size": "3616",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=ss(jp)",
+      "region": "jp",
+      "crc": "8edbb083",
+      "md5": "8980b4b80548658fada0919e47db4370",
+      "sha1": "e82189eeee045b348387c82e73d49ffdca027140",
+      "size": "2170",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=video",
+      "crc": "9df0c0b7",
+      "md5": "d0df99206ec4c181f9b10e3be3eb436e",
+      "sha1": "55dbc98b62faebae11f32a96bb641caff744a493",
+      "size": "645668",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=video-normalized",
+      "crc": "1a980e3d",
+      "md5": "8803855c2756be2a8027d1bdc6935d8a",
+      "sha1": "c0e1402e106cb39010c872cca853f41fab47c89e",
+      "size": "499399",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=steamgrid",
+      "crc": "9d9e1c6f",
+      "md5": "8bbf4882532b50b357768f90ba23a0ce",
+      "sha1": "17c747c00aceb919c4a2aaa21e10d5ccc4c32c80",
+      "size": "31995",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=wheel(jp)",
+      "region": "jp",
+      "crc": "267a6f40",
+      "md5": "0b4c664818ae4e0fe5c84db6862db890",
+      "sha1": "f2bd3629e8d3df2fa06f9afd32974fa28bbcefb9",
+      "size": "62587",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "52565230",
+      "md5": "092681c73947eb6eed5a7c59b87cd80c",
+      "sha1": "d20530cb45e98a6b630b6b10322858c1e4c401e6",
+      "size": "100318",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "de3e9bea",
+      "md5": "62cae91545d52375dbc82664345141e3",
+      "sha1": "ece72c8f3e5416c10f12cbf4e30722357e819ce2",
+      "size": "101326",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "35367374",
+      "md5": "5a189f9dda4e4a8a76ed7cccf0f37c54",
+      "sha1": "c6afe1f09d66f8e3660fedfd564923fe79fb4df9",
+      "size": "483989",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "ffdaf2ad",
+      "md5": "a943c6f8782535f71163d5f5cf21ac41",
+      "sha1": "16be76374377f94d2bb7292abadd1f3a236c2176",
+      "size": "76790",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "44cd0c34",
+      "md5": "a7b03d5ca2c6d9f2525c671908997d8e",
+      "sha1": "bf263057eaa95c8a2ace407e7624cb037939cb8a",
+      "size": "779099",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "1d454a89",
+      "md5": "4270410c3698af94916bfe5649fe59e1",
+      "sha1": "66b5c934b6ee5d1fedd22565302b6f339fc80aeb",
+      "size": "137614",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "43554283",
+      "md5": "bfc6bb6cd95f247d23a548532561c7b6",
+      "sha1": "41d6964017108eb1028b32c3292f7cdbd4661d7b",
+      "size": "111793",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "d447480e",
+      "md5": "bae85a4c4b3929c524a3fc713cbea88e",
+      "sha1": "9d812570efb92f3fa33edb29ec4d05c4a443dd66",
+      "size": "22333",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "ac5ef26b",
+      "md5": "4309dede098e0b0f9389bd0111561309",
+      "sha1": "b6bc9e575cda7e51a1e3d077a3498102fcfd4c2a",
+      "size": "838936",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "83d2c129",
+      "md5": "8567b0005c35aaad795a2ddfb9b93f8e",
+      "sha1": "ed363d6a1fbd93612895982f43f593b66c89cbfb",
+      "size": "162605",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "1049c262",
+      "md5": "8d4455b9839ec087b056fe10457e5d64",
+      "sha1": "22eec57f7a6a424e56c1d860d4e788cfc29df2fa",
+      "size": "1763774",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "d73e17c7",
+      "md5": "ba5822bcd530641f30ae8b1ddf170566",
+      "sha1": "7a1bc546b07ddea3d667876e38641ad8ada40fee",
+      "size": "341901",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "d90a1634",
+      "md5": "6c06b0e95d96e53184afe18d2cd0bbe4",
+      "sha1": "410484880a51307ba6d5ea072c7a2da0d109f5b0",
+      "size": "343780",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "762930d4",
+      "md5": "71ed324537ca50abd63ac8c30db06edf",
+      "sha1": "b6df0c2457dc1eacf48ed13d0d7130507df45e5d",
+      "size": "135099",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=manuel(jp)",
+      "region": "jp",
+      "crc": "24c0def6",
+      "md5": "c5b47011b2ac3e9ceaea80aba188f45d",
+      "sha1": "1ed9a4605266c7c39477a5bcbd8612ce26d5c106",
+      "size": "1671061",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "8f2eeb6d",
+      "md5": "bb30158ad6c52d0e75df7c36e4ec3190",
+      "sha1": "4f2f5159b1ac94f67704a4fa870448f40afc8c7a",
+      "size": "339698",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "1ca32312",
+      "md5": "71b8114db7053e47e75ea032e61c1795",
+      "sha1": "dbfec06d2eb8c1eeb2a0a3497bfb971b12ce1fbe",
+      "size": "295021",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "f33e4861",
+      "md5": "8a99a2d668d6377bdace21f7b96df5f9",
+      "sha1": "b4d83e724d3a70cb63e2e88aa5d09ae8e5a0892a",
+      "size": "423231",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "d609fe3e",
+      "md5": "42f56c2ceae784bddd8da0beeb6033b8",
+      "sha1": "dff68da75d9fd1da99a0b48a90ff0ef9b4719ead",
+      "size": "316322",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "f33e4861",
+      "md5": "8a99a2d668d6377bdace21f7b96df5f9",
+      "sha1": "b4d83e724d3a70cb63e2e88aa5d09ae8e5a0892a",
+      "size": "423231",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "e5b450b1",
+      "md5": "ba1800a63d42ceb4ed8dc66b7c2b21ae",
+      "sha1": "8eda1716a3c2bb3c3074a6bd6d943528d69e8f6d",
+      "size": "654099",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "1080f8d8",
+      "md5": "94e95ad90b713d3cbe234c1a26671edd",
+      "sha1": "bdc920315432c09a0762fe47d8359b4abd6267c2",
+      "size": "563480",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88323&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "e5b450b1",
+      "md5": "ba1800a63d42ceb4ed8dc66b7c2b21ae",
+      "sha1": "8eda1716a3c2bb3c3074a6bd6d943528d69e8f6d",
+      "size": "654099",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=68&media=logo-monochrome",
+      "crc": "13e44082",
+      "md5": "6fac8e786e162ecf1fa4d1aa7800598d",
+      "sha1": "90ee2bfd6395415d879044be35fb3bf0c8cc876e",
+      "size": "3694",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=68&media=wheel",
+      "crc": "f69d13c4",
+      "md5": "795fc8ef819a74ba016af046345c433b",
+      "sha1": "d7e18276667f92174a406863e1933039a6cf9814",
+      "size": "22074",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=5424&media=wheel",
+      "crc": "169e495e",
+      "md5": "cf16994eee75a243bcce1083bd34bb2e",
+      "sha1": "e1ae22a78ede192637a5431a00f589350b2d7d40",
+      "size": "46930",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=pictoliste",
+      "crc": "dcf3c32a",
+      "md5": "23618958c46fc28396c157d74a77bdeb",
+      "sha1": "00ce76c60ab28d758d6ca5f6796882dee3f7faa0",
+      "size": "1159",
+      "format": "png"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=logo-monochrome",
+      "crc": "3678f7f4",
+      "md5": "89ef7b6f92a2ef67e23b87843990f98b",
+      "sha1": "c55797e72d206fe87173ea7adf08e123f3a4d0c0",
+      "size": "17363",
+      "format": "png"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=logo-monochrome-svg",
+      "crc": "c4055556",
+      "md5": "9e5e5a30bb0cbb399d6e138b33ba4353",
+      "sha1": "dbe3c415f89b99f6bd8524d19379af132a323014",
+      "size": "6238",
+      "format": "svg"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=background",
+      "crc": "def2c2fb",
+      "md5": "1d3be886c0fd7ae4f831250b38a54eac",
+      "sha1": "5754f15b0f082c67f1e5bc5c2b764108428e1e12",
+      "size": "246573",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "12777",
+      "romsize": "31962",
+      "romfilename": "Hayauchi Super Igo (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "49D804C6",
+      "rommd5": "B2FBBEFC54B6F8715BC5BE52F2A91ACD",
+      "romsha1": "B73077A29C2A25E08E4E8242CFBC0B3C781867CD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "58017",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "136193",
+      "romsize": "65552",
+      "romfilename": "Hayauchi Super Igo (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "236177AB",
+      "rommd5": "B90EE2AC96C3CE3E5967A1AFDE2B9CB8",
+      "romsha1": "0A3F3DFEEFB44D5DC161DD3111EC3A4280F8A0E6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "29274",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "620323",
+      "romsize": "65552",
+      "romfilename": "Hayauchi Super Igo (J).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4A0B1EE1",
+      "rommd5": "B7237C3B7440E7F096E315547A7F0EEF",
+      "romsha1": "BF4786A6376DDC84144FFA86519DB81E1146FA87",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "26267",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1138413",
+      "romsize": "65552",
+      "romfilename": "Hayauchi Super Igo (Japan) (Rev 1).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "cd7072de",
+      "rommd5": "15a9cfc074302a4994c0800d0e87ab49",
+      "romsha1": "5ba75f7d30b0ea81a45cd6bdd4d2ff49a9b91d0b",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18803",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "572017",
+      "romsize": "40976",
+      "romfilename": "Hayauchi Sokutei Game.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "36408777",
+      "rommd5": "B51986847DF17BD5B9705F262B75707B",
+      "romsha1": "320D3ECA6D1A176C507BA364A669B0538DA11B01",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "15842"
+    },
+    {
+      "id": "877932",
+      "romsize": "65536",
+      "romfilename": "Hayauchi Super Igo (Japan) (Rev 1).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "74F19C76",
+      "rommd5": "D83F5B04324E97D730F08D605E22A9B0",
+      "romsha1": "FD4BDD926BC499CD610DF8BA0DB0A0B5E2BA9685",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "15019",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "526988",
+      "romsize": "65552",
+      "romfilename": "Hayauchi Super Igo.7z",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9E40B96A",
+      "rommd5": "DCC578EC7E99CC941BAAFDCEB19EAD03",
+      "romsha1": "014C944FFC649D657902266D5395A85786A42170",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12473"
+    },
+    {
+      "id": "1138416",
+      "romsize": "65552",
+      "romfilename": "Hayauchi Super Igo (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "43ffec52",
+      "rommd5": "7d97f4a4b23eaa93369350b954d1a37d",
+      "romsha1": "7f2cbc38f055cde714c3c6ee585de7050a040ca8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6760",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173362",
+      "romsize": "65536",
+      "romfilename": "Hayauchi Super Igo (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FA7E02FA",
+      "rommd5": "CC7F32123E02812A876918707C0A0CED",
+      "romsha1": "E1A37FC82BD0BA7A20B4BC49C22EE82406F66F2F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1047",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113858",
+      "romsize": "31940",
+      "romfilename": "Hayauchi Super Igo (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D33A8140",
+      "rommd5": "58E8A4927F8E1F5A847193AB606C5B76",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "98",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

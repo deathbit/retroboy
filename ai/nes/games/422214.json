@@ -1,0 +1,200 @@
+{
+  "id": "422214",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Pinball & Baseball"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "medias": [
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422214&media=wheel-hd(ss)",
+      "region": "ss",
+      "crc": "4e5855c8",
+      "md5": "de8a0ad8a9f3824318202827dff3989a",
+      "sha1": "cb45857d5e10ad6d6fb8e82195ed445443fe69a7",
+      "size": "6509",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422214&media=wheel-carbon(ss)",
+      "region": "ss",
+      "crc": "924f6a3e",
+      "md5": "da59bfc6716e6d8a2e1ac4d05f885d3b",
+      "sha1": "09f48e6e22962fc4a3e69762e472de35a1a63ebd",
+      "size": "86767",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422214&media=wheel-steel(ss)",
+      "region": "ss",
+      "crc": "dd647aa6",
+      "md5": "3a56c4887ca7c267bf0a9b66c44609fd",
+      "sha1": "6325bc12dd3a8e6f157e54cf3d747066977963b4",
+      "size": "86337",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422214&media=screenmarquee(ss)",
+      "region": "ss",
+      "crc": "0579d1ce",
+      "md5": "07667d42cae8ccaf9a841f828f56f5c1",
+      "sha1": "8b108fff1ce16351d26c17adaad9d6b0294ccc8c",
+      "size": "481183",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422214&media=screenmarqueesmall(ss)",
+      "region": "ss",
+      "crc": "e54fb1f8",
+      "md5": "fa4a7e5665860fd47e5532e5f6674fd2",
+      "sha1": "b852261835ca897be2e2f9622bf8d9151e6a6f01",
+      "size": "73843",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422214&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "e69639e9",
+      "md5": "d06c2ed8b86962ec44d2b0e9a9bcd04c",
+      "sha1": "edb9f2139d8d7423e6121aa441ad429027fc3824",
+      "size": "108016",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422214&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "c94822b6",
+      "md5": "4a6a292d1b9159d9f23dd42bc9ce9674",
+      "sha1": "cb8c5d28036474d9b73d6052ae53cd9a9b41b8cc",
+      "size": "13220",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422214&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "a4a09579",
+      "md5": "e47903956424d934f63b5e84e72d8c2e",
+      "sha1": "da0eead34960f64f4795c95da053c95704f4b5a7",
+      "size": "59710",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422214&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "cc1cd082",
+      "md5": "9aca774e094155a17720e2b1bb879b96",
+      "sha1": "4c209d326a2f5c7f1923650190421b8ca68e41ad",
+      "size": "183646",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422214&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "968c0d85",
+      "md5": "319b3afbb8ab07a0fc1919ab4ceb8860",
+      "sha1": "9547eff03742df59f8b32a5e6c39cde9e3509e3e",
+      "size": "90355",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422214&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "a1a12b5a",
+      "md5": "41d296343e9e199095c78c52ddc22207",
+      "sha1": "5a79db9f34beb262eb1f7f262550fa0bdc827065",
+      "size": "211549",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422214&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "a1a12b5a",
+      "md5": "41d296343e9e199095c78c52ddc22207",
+      "sha1": "5a79db9f34beb262eb1f7f262550fa0bdc827065",
+      "size": "211549",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1142142",
+      "romsize": "98320",
+      "romfilename": "Pinball & Baseball (Asia) (En) (Aftermarket) (Pirate).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "bf85cb05",
+      "rommd5": "40b39d40d673bc9e31ac47dc1e726ee5",
+      "romsha1": "d2db91e86a796ca66212b417f4db108b75f55f1c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3543",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      }
+    }
+  ]
+}

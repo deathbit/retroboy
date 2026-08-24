@@ -1,0 +1,929 @@
+{
+  "id": "78542",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Family Jockey"
+    },
+    {
+      "region": "jp",
+      "text": "Family Jockey"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "68",
+    "text": "Namco"
+  },
+  "developpeur": {
+    "id": "68",
+    "text": "Namco"
+  },
+  "joueurs": {
+    "text": "2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Family Jockey is a horse racing simulation developed and published by Namco for the Famicom in Japan in 1987. In the game, players take control of a horse, and help direct it to finish a track as quickly as possible by steering it, and wisely timing the expenditure of the horses energy in order to stay ahead of the pack without tiring too quickly. Progress is achieved by placing in the top four horses of each race. Prize money is earned by placing in the top three and by breaking course records."
+    },
+    {
+      "langue": "fr",
+      "text": "Family Jockey est une simulation de courses de chevaux développée et publiée par Namco pour la Famicom au Japon en 1987. Dans le jeu, les joueurs prennent le contrôle d'un cheval et l'aident à terminer une piste aussi rapidement que possible en la guidant, et judicieusement la dépense de l'énergie des chevaux pour rester en tête du peloton sans se fatiguer trop vite. Le progrès est réalisé en plaçant dans les quatre premiers chevaux de chaque course. Les prix sont gagnés en se plaçant dans les trois premiers et en brisant les records de parcours."
+    },
+    {
+      "langue": "de",
+      "text": "Family Jockey ist eine Pferderennsimulation, die 1987 von Namco für die Famicom in Japan entwickelt und veröffentlicht wurde. Im Spiel übernehmen die Spieler die Kontrolle über ein Pferd und helfen, es zu leiten, eine Strecke so schnell wie möglich zu beenden, indem sie es steuern und den Aufwand der Pferdeenergie klug planen, um dem Rudel voraus zu bleiben, ohne zu schnell zu ermüden. Fortschritte werden erzielt, indem die ersten vier Pferde jeder Rasse platziert werden. Das Preisgeld wird verdient, indem man sich unter die ersten drei stellt und Kursrekorde bricht."
+    },
+    {
+      "langue": "es",
+      "text": "Family Jockey es una simulación de carreras de caballos desarrollada y publicada por Namco para la Famicom en Japón en 1987. En el juego, los jugadores toman el control de un caballo y lo ayudan a correr en una pista lo más rápido posible dirigiéndolo sabiamente cronometrando el gasto de la energía de los caballos para mantenerse por delante de la manada sin cansarse demasiado rápido. El progreso se logra colocándose en los cuatro primeros caballos de cada raza. El dinero del premio se gana al ubicarse entre los tres primeros y al romper los récords del curso."
+    },
+    {
+      "langue": "it",
+      "text": "Family Jockey è una simulazione di corse di cavalli sviluppata e pubblicata da Namco per Famicom in Giappone nel 1987. Nel gioco, i giocatori prendono il controllo di un cavallo e aiutano a dirigerlo per finire una pista il più rapidamente possibile, guidandolo e saggiamente cronometrando il dispendio di energie dei cavalli per stare davanti al branco senza stancarsi troppo in fretta. I progressi si ottengono piazzando tra i primi quattro cavalli di ogni razza. Il premio in denaro viene guadagnato piazzandosi tra i primi tre e battendo i record del corso."
+    },
+    {
+      "langue": "pt",
+      "text": "Family Jockey é uma simulação de corrida de cavalos desenvolvida e lançada pela Namco para a Famicom no Japão em 1987. No jogo, os jogadores assumem o controle de um cavalo e o ajudam a completar uma pista o mais rápido possível, guiando-o. a energia dos cavalos para ficar à frente do pelotão sem se cansar muito rapidamente. O progresso é alcançado colocando-se entre os quatro primeiros cavalos de cada corrida. Os prêmios são ganhos ao ficar entre os três primeiros e quebrar os recordes do curso."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1987-04-24"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2918",
+      "nomcourt": "0601",
+      "principale": "0",
+      "parentid": "2650",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Horse racing"
+        },
+        {
+          "langue": "fr",
+          "text": "Course de chevaux"
+        },
+        {
+          "langue": "de",
+          "text": "Pferderennen"
+        },
+        {
+          "langue": "es",
+          "text": "Carreras de caballos"
+        },
+        {
+          "langue": "it",
+          "text": "Corsa dei cavalli"
+        },
+        {
+          "langue": "pt",
+          "text": "Corrida de cavalos"
+        }
+      ]
+    },
+    {
+      "id": "2650",
+      "nomcourt": "0601",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports with animals"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport avec animaux"
+        },
+        {
+          "langue": "de",
+          "text": "Sport mit Tieren"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes con animales"
+        },
+        {
+          "langue": "it",
+          "text": "Sport con animali"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte com animais"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "11f92e46",
+      "md5": "a1f1d6c802d825b569d677b6d12c8cda",
+      "sha1": "fbd8c491620c7ef27d2a8190a0f7011b8362426c",
+      "size": "3416",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=ss(jp)",
+      "region": "jp",
+      "crc": "a69d0c8c",
+      "md5": "7ff75755e9e9f681ffedaaa4102f7ee9",
+      "sha1": "844af19a9d901590af9f03667d3c6818a2b736eb",
+      "size": "3136",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=fanart",
+      "crc": "637d02e6",
+      "md5": "b47d632d165981080d0087373719aa33",
+      "sha1": "b6a28b026fc0c36915e55eeb948587b379efd1e3",
+      "size": "262734",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=video",
+      "crc": "45ef1091",
+      "md5": "f227d8b71df3ff9ee4ae99c5c66704a4",
+      "sha1": "92b45b70a9baec71a5167476d177b85e767aeba2",
+      "size": "8280348",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=video-normalized",
+      "crc": "fbaebac6",
+      "md5": "f0ece7896fd95795311ebf00237f6add",
+      "sha1": "9a32d85d215bbb155dd1e811354d1db6144307e6",
+      "size": "2236694",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=steamgrid",
+      "crc": "8de63a0d",
+      "md5": "cfa6356f2bb48ee3d598c6472d8f93d7",
+      "sha1": "d2b06fb9fd67c91a39b985950dd5a2139010bbeb",
+      "size": "26632",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=wheel(jp)",
+      "region": "jp",
+      "crc": "b134b302",
+      "md5": "1406a313511fe70dff82f545f91e504b",
+      "sha1": "1f8386e18a8bd4f77b4fc93241194e431ba7e917",
+      "size": "136935",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "ba5fa6d2",
+      "md5": "3d6188614962adf2534f299ace156d4f",
+      "sha1": "6e862018400848e7675cb34257dccb485f501363",
+      "size": "137253",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "74892c99",
+      "md5": "7d2b7af669c2c30bfb36c9072497fcab",
+      "sha1": "c1f6bafbc4b211aa70b3bd2b64b6d6547ab7dc88",
+      "size": "139474",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "7d7747a8",
+      "md5": "52d699e979c12b82e89aff6f860fa966",
+      "sha1": "037675323788a443eaa084e1345681e10694ee02",
+      "size": "505936",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "8f21ef51",
+      "md5": "40180c5b1aa5d8275f3fe2be075761e4",
+      "sha1": "235979fff3d71ccb626ec2c7ecf8a4dd81a7fb26",
+      "size": "84147",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "047b67fa",
+      "md5": "2a09113e2dd863276b9f7c372eaa2e56",
+      "sha1": "484644b646e5c99b848b3d99ce503afe3bc45095",
+      "size": "689618",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "fa4f135a",
+      "md5": "f5c1638ef38e3a45eeef7942ed89d654",
+      "sha1": "e0828e887e540b61bf43a1393a55f1299ac4e130",
+      "size": "123408",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "c9da7fa4",
+      "md5": "03b42eedada6d14713d0782a5c9bb871",
+      "sha1": "a393a8ac45d03f51bf2af4b938140c3a9df90da2",
+      "size": "157386",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "1bbdae9a",
+      "md5": "e7ec986294388022b15fef2d7983eebb",
+      "sha1": "e468e4e27e78b8a5d249bd875fffc643a2e1f85d",
+      "size": "30197",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "24e6dc6e",
+      "md5": "61ee20f9974ac953932f9632e0b50587",
+      "sha1": "14202739880d02d922ce98df68d2343b617e1d6f",
+      "size": "671092",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "57b313f8",
+      "md5": "15217a9ac867d0cd5fb633fbdff3606c",
+      "sha1": "e3bd82ca61894eae7498e73b2b447514325faafa",
+      "size": "145823",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "7b4783b5",
+      "md5": "b0d1cdf5ac8ca4b0ac47c8a3907f8bf5",
+      "sha1": "9d4cdf2a5507317910c91765c85762a847679668",
+      "size": "1567753",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "cdb21283",
+      "md5": "736d8c12b084ba277ac69c49f5a5c668",
+      "sha1": "5d47f401c88b2103fb0966a7581328866ba1e612",
+      "size": "316283",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "d832ccb5",
+      "md5": "aac28ec772397f3f0c735df1057dba75",
+      "sha1": "1ef4e029d0b4e7302cbfafa72426c28d7a9ef390",
+      "size": "350073",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "313d9a07",
+      "md5": "7d30e364f16de0b4facbdc4cb0a597ce",
+      "sha1": "72e5c93576aac85df6894fdaf3461bde1951a253",
+      "size": "123353",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=manuel(jp)",
+      "region": "jp",
+      "crc": "b3b3d57b",
+      "md5": "6fdd44fb0b9ad0231d2b1f8b09d0d18f",
+      "sha1": "16ccd9d4595eeb93138fbd64ef269a40199850f1",
+      "size": "889425",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "b2fed376",
+      "md5": "f230d6458352769335a45d9adff1c7df",
+      "sha1": "a2f69fa1343b038cfaf46dcca7f176133ddd1ed2",
+      "size": "320013",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "f4baebce",
+      "md5": "14fbaae63f5986c856fdd27b60495d53",
+      "sha1": "fd40e04593d52b20e8f9879dbc478d010b8cce02",
+      "size": "275464",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "6d5093f9",
+      "md5": "a1989932b68fa18e60630c220f3001cc",
+      "sha1": "fe9a3bdaf91f5e71c98ad2e378cdea4ad305d72f",
+      "size": "380941",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "4a3bf9c3",
+      "md5": "11f4109980e71ea38f58eb51741ee0c7",
+      "sha1": "4cf65be7cd75808af460441a85a4e0dadbb7b928",
+      "size": "274916",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "6d5093f9",
+      "md5": "a1989932b68fa18e60630c220f3001cc",
+      "sha1": "fe9a3bdaf91f5e71c98ad2e378cdea4ad305d72f",
+      "size": "380941",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "bd3b7c09",
+      "md5": "48bdcf1d904b6d5cb02f4c134292db9d",
+      "sha1": "3c927d08bfe03be6c93af7b99cf59c15715c3afa",
+      "size": "533311",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "aabc4320",
+      "md5": "f4d9eb47a5847d56288756ea3d666f37",
+      "sha1": "45d938666fb0725fda86071be0858142d5c20c81",
+      "size": "435025",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78542&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "bd3b7c09",
+      "md5": "48bdcf1d904b6d5cb02f4c134292db9d",
+      "sha1": "3c927d08bfe03be6c93af7b99cf59c15715c3afa",
+      "size": "533311",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=68&media=logo-monochrome",
+      "crc": "13e44082",
+      "md5": "6fac8e786e162ecf1fa4d1aa7800598d",
+      "sha1": "90ee2bfd6395415d879044be35fb3bf0c8cc876e",
+      "size": "3694",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=68&media=wheel",
+      "crc": "f69d13c4",
+      "md5": "795fc8ef819a74ba016af046345c433b",
+      "sha1": "d7e18276667f92174a406863e1933039a6cf9814",
+      "size": "22074",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=68&media=logo-monochrome",
+      "crc": "13e44082",
+      "md5": "6fac8e786e162ecf1fa4d1aa7800598d",
+      "sha1": "90ee2bfd6395415d879044be35fb3bf0c8cc876e",
+      "size": "3694",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=68&media=wheel",
+      "crc": "f69d13c4",
+      "md5": "795fc8ef819a74ba016af046345c433b",
+      "sha1": "d7e18276667f92174a406863e1933039a6cf9814",
+      "size": "22074",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3357&media=pictoliste",
+      "crc": "c9825a69",
+      "md5": "18b0785b9f6088eb27abf7d31c48982e",
+      "sha1": "ea3a7672a6fbd5e789b2d1c548a61b9fecdad84b",
+      "size": "816",
+      "format": "png"
+    },
+    {
+      "id": "2918",
+      "parent": "genre",
+      "subparent": "Course de chevaux",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2918&media=pictoliste",
+      "crc": "e47f7bd3",
+      "md5": "b23a46ac5be17f05112a7610670ba4b1",
+      "sha1": "ceb3a2a4a879bfb88b109936540c34ea9b53c5fa",
+      "size": "752",
+      "format": "png"
+    },
+    {
+      "id": "2918",
+      "parent": "genre",
+      "subparent": "Course de chevaux",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2918&media=logo-monochrome",
+      "crc": "533ddcdf",
+      "md5": "28c5adc3e3646cf3445f8448a15db80a",
+      "sha1": "18a876f4aec52b4b01d9ea6569f3a66566c1cffe",
+      "size": "24186",
+      "format": "png"
+    },
+    {
+      "id": "2918",
+      "parent": "genre",
+      "subparent": "Course de chevaux",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2918&media=logo-monochrome-svg",
+      "crc": "ac1adbfc",
+      "md5": "14bcb94d4d356549b6958ff5afc204dc",
+      "sha1": "7148dc5b1704ed47fdb94d1757379233be082653",
+      "size": "3807",
+      "format": "svg"
+    },
+    {
+      "id": "2650",
+      "parent": "genre",
+      "subparent": "Sport avec animaux",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2650&media=pictoliste",
+      "crc": "e47f7bd3",
+      "md5": "b23a46ac5be17f05112a7610670ba4b1",
+      "sha1": "ceb3a2a4a879bfb88b109936540c34ea9b53c5fa",
+      "size": "752",
+      "format": "png"
+    },
+    {
+      "id": "2650",
+      "parent": "genre",
+      "subparent": "Sport avec animaux",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2650&media=logo-monochrome",
+      "crc": "7132579f",
+      "md5": "2956436eb494ab344a783907611e92bf",
+      "sha1": "3ab5ee1d09d4cb5724a2712801a424632455d85b",
+      "size": "31745",
+      "format": "png"
+    },
+    {
+      "id": "2650",
+      "parent": "genre",
+      "subparent": "Sport avec animaux",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2650&media=logo-monochrome-svg",
+      "crc": "08d3a32d",
+      "md5": "58ff0446cdf7d56249ba03c96a656294",
+      "sha1": "657c2c8681ad5aa27514fc55c04866deb8c0f877",
+      "size": "6027",
+      "format": "svg"
+    },
+    {
+      "id": "2650",
+      "parent": "genre",
+      "subparent": "Sport avec animaux",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2650&media=background",
+      "crc": "5d04c2b4",
+      "md5": "d881bdbb9881381877bdd658e96f5eb3",
+      "sha1": "6e39275ae4861f5dc35bc401d572f23e027d219e",
+      "size": "140772",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "12644",
+      "romsize": "31025",
+      "romfilename": "Family Jockey (Japan) (T).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "40CB277D",
+      "rommd5": "E5E687C9C6A05976343EE1BA68985CE5",
+      "romsha1": "69B745DAEAB6CD6037D8FB55CD0D7A2B4E2FAAF9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "124462",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "135955",
+      "romsize": "65552",
+      "romfilename": "Family Jockey (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A8A1C2EB",
+      "rommd5": "9886ACF1403315BBCD3ACA0A889D615A",
+      "romsha1": "30AD57496163D45440A53C4C427D1F36A5CCCBED",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "56294",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1137102",
+      "romsize": "65552",
+      "romfilename": "Family Jockey (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "08c2f782",
+      "rommd5": "cdfc533f3e89e6c5a0df4602ca55147e",
+      "romsha1": "049ec27ab3250bad619d0bd401ae9b8eaff23467",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13517",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1137105",
+      "romsize": "65552",
+      "romfilename": "Family Jockey (Japan) (Namcot Collection).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4485b3dc",
+      "rommd5": "749251a9df791edaae7c56977310d96e",
+      "romsha1": "f8ff2b24064dac93165cb301a26f8899a406a55a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9964",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1079008",
+      "romsize": "65536",
+      "romfilename": "Family Jockey (Japan) (Namcot Collection).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "55463622",
+      "rommd5": "fb9879d7bc1209a3c4fc0e6de344103a",
+      "romsha1": "02f894470fe93a2509a1f731f20c4892d87287d6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7341",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113616",
+      "romsize": "31003",
+      "romfilename": "Family Jockey (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6781AE93",
+      "rommd5": "C11B565134B878F72BB69220CFF2C1EB",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2811",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173121",
+      "romsize": "65536",
+      "romfilename": "Family Jockey (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3719A26D",
+      "rommd5": "28DD4683BD206046A3E97ECD1ABBD464",
+      "romsha1": "F8207CE6E3E8FBB450F84480436BB584DB90FDDD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1752",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

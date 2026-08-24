@@ -1,0 +1,112 @@
+{
+  "id": "480830",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "MegaMan - High Speed Megaman"
+    },
+    {
+      "region": "wor",
+      "text": "MegaMan : High Speed Megaman"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "medias": [
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480830&media=wheel-hd(wor)",
+      "region": "wor",
+      "crc": "76ed1735",
+      "md5": "b8b3f419d2a26547ee422c5e510ebd2d",
+      "sha1": "c06553fe78bc2f8ba4228bed44ec92544fb42fe6",
+      "size": "95267",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480830&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "618781f0",
+      "md5": "e96a295154fdf1be6447b72c1bfd1412",
+      "sha1": "fc44f3e92b35f223dda562e63d8d8caf25eede0b",
+      "size": "130220",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480830&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "1c206119",
+      "md5": "dfe4c27e8f1a89f8768af358ed21eb00",
+      "sha1": "eefe4a7a10e73166b8372c524b0fed556ab58013",
+      "size": "131201",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480830&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "d5aa1be8",
+      "md5": "9c06aa474af61563d6ae23421c77a8c3",
+      "sha1": "47ef16f2370d529c1c4d733c9f672074c7e1bdc8",
+      "size": "494413",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480830&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "29e85472",
+      "md5": "9cfe90792204da506f4058b6d8667e5d",
+      "sha1": "23869937af5c9c95c69d7f2f5a5432c74007f076",
+      "size": "80356",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480830&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "6523e96c",
+      "md5": "fda9fb1d3881a61ce16fecc60f824bed",
+      "sha1": "106e9c5192c26e8121734c3e62edc267abad4058",
+      "size": "187512",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "880791",
+      "romsize": "79189",
+      "romfilename": "MegaMan - High Speed Megaman (Mega Man Hack).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F7E0F0CF",
+      "rommd5": "0495A01E600E86E1A0E98A8984E5A362",
+      "romsha1": "6536E093754A9D7AD35A7F0D9AA495372C0287C5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "17058"
+    }
+  ]
+}

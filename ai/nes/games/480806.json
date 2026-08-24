@@ -1,0 +1,351 @@
+{
+  "id": "480806",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "MegaMan 2 - Rockman No Constancy (Hard Edition)"
+    },
+    {
+      "region": "wor",
+      "text": "MegaMan II : Rockman No Constancy (Hard Edition)"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Rockman No Constancy is a complete romhack of Rockman 2.\r\n\r\nModifications include completely new soundtrack, new graphics, altered bosses/weapons, and completely new level layouts.\r\n\r\nv1.0 (21 October 2007) Initial release:\r\n\r\nNORMAL mode can be satisfactorily cleared even without a save states.\r\n\r\nHARD mode specifications:\r\n-Attack power/Half Defense power, or 3/4 (Damage fraction up)\r\n-Life recovery amount 10 → 8; Life recovery small amount 2 → 1\r\n-Shocked only during unbeatable time knockback after hit (110 frames to 32 frames)\r\n-Change Rockman&#039;s body color and title color\r\n-Heatman&#039;s weapon has improved energy efficiency to 1 due to operational reasons\r\n ----\r\n\r\nUPDATE: v1.2 (2018/04/13)\r\n-Mainly cosmetic changes\r\n-Player sprite designed to look like Rockman X\r\n-Got weapon and ending image of Rockman changed\r\n-Got weapon image of Roll changed\r\n ----\r\n\r\nUPDATE: v1.3 (2019/01/21)\r\n-Hard mode addition\r\n-Adjustment of special weapon versus enemy damage\r\n-Partial special weapon pallet change\r\n-Expand grace time for blue charge shot (increase in power) of Proto Charge\r\n-Change the body judgment of the Rumbling Bomb so that the ball trajectory moves slightly forward\r\n-Extend Flashman&#039;s Time Stopper usage interval\r\n-Increase Woodman&#039;s weak point damage from 6 to 8\r\n-Changing the Rumbling Bomb to touch the Mecha Dragon&#039;s scaffold\r\n-Normal version only Decrease the judgment of the Wily Machine bullet accordingly\r\n-Only the normal version relaxed the high difficulty part of the stage changed\r\n\r\nHard mode specification\r\n-Body color change of Rockman\r\n-Reduce invincible time in half\r\n-Double the enemy&#039;s overall durability by a factor of twice (special weapons versus enemy only available)\r\n-Excluding some of the attack power of the boss 1.5-fold rise\r\n-Life restoration small recovery amount 2 → 1 life; weapon recovery large recovery amount 10 → 8\r\n-Increase the initial remaining lives to 5"
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2007-11-10"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "5444d30c",
+      "md5": "c8e713d854d8d62df7f770e0770b3b36",
+      "sha1": "5f1be3402849667c44befdd89950a2574f59474f",
+      "size": "3944",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=ss(wor)",
+      "region": "wor",
+      "crc": "80d5bcef",
+      "md5": "a60ec42aa741f50652ac6ba84465135d",
+      "sha1": "29c5a41f27d6650cc8a1ea569c4330e24e7445ab",
+      "size": "6197",
+      "format": "png"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=steamgrid",
+      "crc": "f10dfd9c",
+      "md5": "2789725a32116fc7078ae3dd58efbd01",
+      "sha1": "c6b156e89694db55df4d7c2e1ec3734dd7007167",
+      "size": "35991",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=wheel-hd(wor)",
+      "region": "wor",
+      "crc": "2b318195",
+      "md5": "48aa4b9aa8c582337cab043e77eae2b9",
+      "sha1": "802c6f62bfc574e97940b92d2990855e06b08e32",
+      "size": "101720",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "d68817f7",
+      "md5": "9ab8ce503fad00d65e4b5f88a132379b",
+      "sha1": "0d0a3c4477c8c26efaa909cfe3a1342348645b98",
+      "size": "131728",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "2d24ce29",
+      "md5": "e7bc67629c4c8f774cbec9f0c74ae7d9",
+      "sha1": "6f954cd2b48a317e22c9b387ea705b3a223d4a7f",
+      "size": "133032",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "188a0ba0",
+      "md5": "9c7cb38c0a54990e3b1db1bc2563d3cc",
+      "sha1": "00b04e8f8b79d49c79ebbb4fb838863119626b81",
+      "size": "485104",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "b9c08ae8",
+      "md5": "c5f7b028338ffea8b8ba92dca914b6b7",
+      "sha1": "8c2fec1b8dbf912d565b4c14125fc04d9aa09540",
+      "size": "78690",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "a9bc84ae",
+      "md5": "a99c42fa5d16e164efbeed6e02113ead",
+      "sha1": "a8c2f648df47b58af33b748ca3fceafa84024b3e",
+      "size": "162976",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "b381cd64",
+      "md5": "2bda96bb04bc0c95fbfd1c8240e2a0fc",
+      "sha1": "5d109a753d946b082598cf5dbb15fb45086aafc9",
+      "size": "26487",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "38b012e7",
+      "md5": "33dd8b7b6b42df0f306b2d43efadde98",
+      "sha1": "d007e61f16faa84b65eb7426605799c6bcbbc246",
+      "size": "144850",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "dc53c8ae",
+      "md5": "16fa43a90c8fc7141455efd64690e01b",
+      "sha1": "1d980314e0e85634fb717ae19687bc89c1415003",
+      "size": "346407",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "afc7da8f",
+      "md5": "b76c3bc819d13c46e5e044eb70155035",
+      "sha1": "090e13eb2da2bb231194336301d3864b44626b62",
+      "size": "159606",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "33429d6e",
+      "md5": "6cf9d85440e896c52a6716ef8f21f9b9",
+      "sha1": "505acef6d7b46a2196bde375481b0c508f9e5bb4",
+      "size": "318345",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "33429d6e",
+      "md5": "6cf9d85440e896c52a6716ef8f21f9b9",
+      "sha1": "505acef6d7b46a2196bde375481b0c508f9e5bb4",
+      "size": "318345",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "0bd035fd",
+      "md5": "cdcdff06f5bb6ec8a2c3f121be22bf54",
+      "sha1": "e6dc9da8cbe582766d206ee9445209196e732055",
+      "size": "519021",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "0bd035fd",
+      "md5": "cdcdff06f5bb6ec8a2c3f121be22bf54",
+      "sha1": "e6dc9da8cbe582766d206ee9445209196e732055",
+      "size": "519021",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480806&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "0bd035fd",
+      "md5": "cdcdff06f5bb6ec8a2c3f121be22bf54",
+      "sha1": "e6dc9da8cbe582766d206ee9445209196e732055",
+      "size": "519021",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "880681",
+      "romsize": "140217",
+      "romfilename": "MegaMan II - Rockman No Constancy Hard Edition (J).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E03C5B4D",
+      "rommd5": "0B4CE5A5A9D673C1CEDE0560D3540C0F",
+      "romsha1": "EDBCE91B3AC4010F4A1BFA7F6FDF726C1DAECBDA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "15417",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1436165",
+      "romsize": "139915",
+      "romfilename": "MM2 - Rockman no Constancy - Hard Mode (v1.3) (IKA) (Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "065a45b5",
+      "rommd5": "323dfec87df35aee01b2fd8ab7221562",
+      "romsha1": "75d7b2304e0fa3b3222d361912d7d40f0399f2e9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1459242",
+      "romsize": "262192",
+      "romfilename": "Rockman 2 - Rockman No Constancy (Hack) v1.3.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "1ea69da0",
+      "rommd5": "27845e48e13c5b464380f095f964cffb",
+      "romsha1": "1059876e61a3aee9fc43e854d2ed1f3f46b4a397",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    }
+  ]
+}

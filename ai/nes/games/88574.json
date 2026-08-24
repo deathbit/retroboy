@@ -1,0 +1,925 @@
+{
+  "id": "88574",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Namco Classic 2"
+    },
+    {
+      "region": "jp",
+      "text": "Namco Classic II"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "6595",
+    "text": "Namcot"
+  },
+  "developpeur": {
+    "id": "541",
+    "text": "TOSE"
+  },
+  "joueurs": {
+    "text": "1-4"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Namco Classic II is a golf game released only in Japan for the Nintendo Famicom"
+    },
+    {
+      "langue": "fr",
+      "text": "Namco Classic II est un jeu de golf sorti seulement au Japon pour la Nintendo Famicom"
+    },
+    {
+      "langue": "de",
+      "text": "Namco Classic II ist ein Golfspiel, das nur in Japan für die Nintendo Famicom veröffentlicht wurde"
+    },
+    {
+      "langue": "es",
+      "text": "Namco Classic II es un juego de golf realizado en Japón solo para la Nintendo Famicom."
+    },
+    {
+      "langue": "it",
+      "text": "Namco Classic II è un gioco di golf rilasciato solo in Giappone per Nintendo Famicom."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1992-03-13"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2913",
+      "nomcourt": "0602",
+      "principale": "0",
+      "parentid": "685",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports / Golf"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport / Golf"
+        },
+        {
+          "langue": "de",
+          "text": "Sport / Golf"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes / Golf"
+        },
+        {
+          "langue": "it",
+          "text": "Sport / Golf"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte / Golfe"
+        }
+      ]
+    },
+    {
+      "id": "685",
+      "nomcourt": "0600",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport"
+        },
+        {
+          "langue": "de",
+          "text": "Sport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes"
+        },
+        {
+          "langue": "it",
+          "text": "Sport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "d3ca7759",
+      "md5": "7d9b8d0b4d9cbbda1bdf2bfc49c9eab3",
+      "sha1": "e398a4c5d5aa0d151c259ff8cd69b5228f900320",
+      "size": "3400",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=ss(jp)",
+      "region": "jp",
+      "crc": "74b30df1",
+      "md5": "93a76619b9e349f183b331490e41e31d",
+      "sha1": "00c5859005189aae2d611fa73dda49da3f1f7d77",
+      "size": "5209",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=fanart",
+      "crc": "ba30b52b",
+      "md5": "33d6e4d2471222bdd070916ba4585611",
+      "sha1": "cdd0fdbbc10843ff5cba7fa64ba2173e5d03d5a8",
+      "size": "495434",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=video",
+      "crc": "ac1837c4",
+      "md5": "c0d9f1ed512225a354e3da13ebfa1be9",
+      "sha1": "6f223b4c5fa2290b4716a9421b9ea1d206c86208",
+      "size": "2231969",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=video-normalized",
+      "crc": "27a17e50",
+      "md5": "59b7f6ad0dd90ad1f00c483761d2250a",
+      "sha1": "6557085b328f7792e0849dd10f5b673cef10c218",
+      "size": "1335366",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=steamgrid",
+      "crc": "a9bfef09",
+      "md5": "481bf4d33c8ded66bd73eb03f583e106",
+      "sha1": "b78d3d24ebb9b59e355b7dd2885105abd6510e9e",
+      "size": "30642",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=wheel(jp)",
+      "region": "jp",
+      "crc": "744ef7a7",
+      "md5": "cb8942593e7ad0b6b64e1a05a913b4fb",
+      "sha1": "792c8cb536cc65a42db3d33597ae788371c8b51d",
+      "size": "156946",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "8e1a6861",
+      "md5": "ee913c347c1988efea8fa6946975b604",
+      "sha1": "61ecc4cf45e528b60063571a0fc2b7309f89a260",
+      "size": "142658",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "21a8eca4",
+      "md5": "fca6ca5eace9d290a1846dec2218dc9b",
+      "sha1": "a0a0ac04bf1f13185b607d762966fc04a522e447",
+      "size": "143918",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "20688b4c",
+      "md5": "842151a2412e01e87482583abefb904c",
+      "sha1": "0ecda6b011f264105f14dbf3089399226b21f0fb",
+      "size": "510494",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "700290ba",
+      "md5": "b9d3fc346eb20ba6f2f63fec45e1d565",
+      "sha1": "c089fb70dc3cf43089f2c532af7f1c5601b8b6a9",
+      "size": "84099",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "a9486d52",
+      "md5": "ad52d50ad92f8c96cee4146e540e0012",
+      "sha1": "9b3ef59a681b2bb09ed3347b2a4523b11faba85f",
+      "size": "697869",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "257eee5d",
+      "md5": "c17ce2f2775990e9092c4a535956f629",
+      "sha1": "f3f04bf4326f04b5d02ea7615feda7af1206beef",
+      "size": "182832",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "b57fc832",
+      "md5": "26d09d01b4cfdfa9601190ab322ae5bb",
+      "sha1": "50e249edcf45f47300183c6a9accb984c9ad48df",
+      "size": "167041",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "e36c33fd",
+      "md5": "447e3e98dfbc96e93bd20f45ebc44bd5",
+      "sha1": "596fffc5fe890ac665994d3646d3bddc977c49c3",
+      "size": "29010",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "a6d5430f",
+      "md5": "ebb3ca4c91fe686e72804ed999c1e0b0",
+      "sha1": "cd7842bea8ec0833916ca3cd1e8d4c19e5c99e5f",
+      "size": "596791",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "2cd9cb81",
+      "md5": "e11a6b763c878855a7e700d526922a62",
+      "sha1": "a8390d612071d4d32783078fcbc5254f1862ce01",
+      "size": "158379",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "3af66101",
+      "md5": "7663e87cd2336a58640c0764b4812c8b",
+      "sha1": "cad460743df03bb909b5918a135348388388f4d5",
+      "size": "1443023",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "d0267753",
+      "md5": "aa19278e7a429493f510c80ee15c04b0",
+      "sha1": "ef186f4053f29b61faefe8de30c532c88450b9b1",
+      "size": "381262",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "296908f3",
+      "md5": "2030fdd0a66b115924b087c13a870ec5",
+      "sha1": "5a8ef22e21639b2877e00d5e9931067cd1b15bd6",
+      "size": "333103",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "82fec1d8",
+      "md5": "6e84ab72549e37d3e7d50faf2adfdd7a",
+      "sha1": "bf0492433f526956846ab97139ff4267c0bc52c7",
+      "size": "143553",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=manuel(jp)",
+      "region": "jp",
+      "crc": "cba7ef95",
+      "md5": "d1773384f770ea0ec8af1eb4d0cce967",
+      "sha1": "1ca6c799bb045af955e028a94f1c871db9a31df1",
+      "size": "885944",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "1fa2f640",
+      "md5": "cb1598efe2acb5cffef48d1046aa2f26",
+      "sha1": "73ab3a8813f8a583e1ab68f963b10c57d3683f88",
+      "size": "325669",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "6495f68d",
+      "md5": "c0bbf0b90786db0f72800a7c62ef2f35",
+      "sha1": "14d35cd4259fc314290073eb0c8f9652a1e5decc",
+      "size": "466423",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "77030ade",
+      "md5": "54eefd2f7803a1a2485373226b490a0d",
+      "sha1": "c1655f7e8471e8740a0f29ee3d5f75566219078d",
+      "size": "473184",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "ab196d74",
+      "md5": "9ff35debfc77a41aa4676a8e2d67217b",
+      "sha1": "cdaffa6cf49364dd84ba485f6e3965b55d0ce15f",
+      "size": "379372",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "77030ade",
+      "md5": "54eefd2f7803a1a2485373226b490a0d",
+      "sha1": "c1655f7e8471e8740a0f29ee3d5f75566219078d",
+      "size": "473184",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "42e444ad",
+      "md5": "95a2270f1cfdc97d9984d76395b116ee",
+      "sha1": "dadb80dc4b32dc860bcf9cff440f801974ebdcb2",
+      "size": "650420",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "41aa7d80",
+      "md5": "d064bc3863bdee8a5e7af6c987a7ef66",
+      "sha1": "4a80dff617f11759f90671b2e1f3d2cc1001c744",
+      "size": "564085",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88574&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "42e444ad",
+      "md5": "95a2270f1cfdc97d9984d76395b116ee",
+      "sha1": "dadb80dc4b32dc860bcf9cff440f801974ebdcb2",
+      "size": "650420",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=6595&media=logo-monochrome",
+      "crc": "61e6995e",
+      "md5": "a9f3e5b1e0128850d5f51ea85fa91c59",
+      "sha1": "881ac51f61f6c6c327f753d344ba55989ef42d42",
+      "size": "3566",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=6595&media=wheel",
+      "crc": "a058b955",
+      "md5": "8a60dd888f5bfc9b57eb92625deb82a6",
+      "sha1": "56be60f724fbaa4d141e04da8dd17a41bc097b5d",
+      "size": "8104",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=541&media=logo-monochrome",
+      "crc": "1c232d09",
+      "md5": "26fd107517cd082c150a9346c3c89e5f",
+      "sha1": "05904f350909dc01a59d337ceef5fc974c5be7e0",
+      "size": "40623",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=541&media=wheel",
+      "crc": "49bb0e57",
+      "md5": "9556a7cbeda7b4d5f0f901c0c4d2a988",
+      "sha1": "913742d782e2831b09b0bb86f676f76973a7055f",
+      "size": "116664",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3369&media=pictoliste",
+      "crc": "5709be9f",
+      "md5": "6eb7a76760235fadf97bec1d3940dea7",
+      "sha1": "c349cb22ef64a06252b47e5f2ccc349cea37619f",
+      "size": "441",
+      "format": "png"
+    },
+    {
+      "id": "2913",
+      "parent": "genre",
+      "subparent": "Sport / Golf",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2913&media=pictoliste",
+      "crc": "a50a5ffc",
+      "md5": "b18c4dfa34dbea5102b52aef4b5b4adf",
+      "sha1": "85d73cd160f19addb4f94da206d227f71378fee5",
+      "size": "18306",
+      "format": "png"
+    },
+    {
+      "id": "2913",
+      "parent": "genre",
+      "subparent": "Sport / Golf",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2913&media=logo-monochrome",
+      "crc": "047fdecf",
+      "md5": "47988ec5f1c3d5afed18367abf3dd7b9",
+      "sha1": "e0fbd827bd1add3236516c2d7832290f6a6efb22",
+      "size": "17943",
+      "format": "png"
+    },
+    {
+      "id": "2913",
+      "parent": "genre",
+      "subparent": "Sport / Golf",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2913&media=logo-monochrome-svg",
+      "crc": "ca6eca50",
+      "md5": "b60c5621076bb46f6479da32a86f0a7e",
+      "sha1": "991cd8434c36a678d345959fcb31db4e703d897f",
+      "size": "1971",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome",
+      "crc": "6a963ad9",
+      "md5": "6daf840fab2d205bda9bad4ff16f4c95",
+      "sha1": "f5e795233a8013aa0d992e197d56d09a63513403",
+      "size": "18286",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome-svg",
+      "crc": "328c7db2",
+      "md5": "4298fc7c8887c1b97cec6ee0b5d72433",
+      "sha1": "8f59a9ec18c48a7246c3b13e19c6c5857bc95513",
+      "size": "4269",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=background",
+      "crc": "a3265ffe",
+      "md5": "65308af4ddc9782f6717f000eea7f28a",
+      "sha1": "bccce8f0defa7c25313eb5ced7cdf71555c5a85d",
+      "size": "185482",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "13133",
+      "romsize": "307374",
+      "romfilename": "Namco Classic II (Japan) (T).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9DC6E7EE",
+      "rommd5": "06C0565B4CB3718E6D0EC49D02B0688B",
+      "romsha1": "052BEB2BFEC45AFF37A9204BF92B8C525A4643C9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "79175",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "136804",
+      "romsize": "524304",
+      "romfilename": "Namco Classic II (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4F630A61",
+      "rommd5": "EA708FB920D5CE389DA4F65645C0F68A",
+      "romsha1": "4AA28F500577F7CCBF4E837B9130B221B424048F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "51811",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1141239",
+      "romsize": "524304",
+      "romfilename": "Namco Classic II (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5a908cc4",
+      "rommd5": "a3d3d345280ff9f57ac028bb0314e63e",
+      "romsha1": "0c6fca3a305bffc5e10ba0ed3ef2e6302472e066",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14563",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1141242",
+      "romsize": "524304",
+      "romfilename": "Namco Classic II (Japan) (Namcot Collection).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "f95372f6",
+      "rommd5": "8ad9a767f0665d80ed565edb43a8a7db",
+      "romsha1": "01cbc836c57947ecdbab9ba5c29a7926f05bfbcf",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10268",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1079284",
+      "romsize": "524288",
+      "romfilename": "Namco Classic II (Japan) (Namcot Collection).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "cb88d71d",
+      "rommd5": "cbf7c562e02d6a2fbe056d97836bb6f4",
+      "romsha1": "85bf8745bad2d8ed1e08405225e88a9e5c31ca1d",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6878",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114480",
+      "romsize": "307352",
+      "romfilename": "Namco Classic II (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "081752B4",
+      "rommd5": "E38CA387C8B5497E53C14A31FD250CE3",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6527",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173982",
+      "romsize": "524288",
+      "romfilename": "Namco Classic II (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "684B292F",
+      "rommd5": "7FE97FC2F596222EBA5879264F8E60BA",
+      "romsha1": "02402F160743E867D4E3E98D66CB6B6C91AD9D02",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1695",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

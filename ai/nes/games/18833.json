@@ -1,0 +1,963 @@
+{
+  "id": "18833",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Palamedes 2 - Star Twinkles"
+    },
+    {
+      "region": "jp",
+      "text": "Palamedes II : Star Twinkle, Hoshi no Mabataki"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "415",
+    "text": "Hot-B"
+  },
+  "developpeur": {
+    "id": "415",
+    "text": "Hot-B"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Palamedes II can be described as &quot;its predecessor, turned upside down&quot;. As before, your goal is to rearrange a set of dice and put them in a row for elimination. Only series of dice such as 4-4-4-4-4 or 1-2-3-4-5 can be eliminated, and depending on the series, this will result in one or several rows of dice to be eliminated from the screen. Unlike the original Palamedes, this time your character stands on top of the dice, and the growing pile of dice will crush him unless he makes the correct combinations to eliminate the pile. It's a bit like Tetris, and a bit like Klax.\n\nTwo modes are available: Mode 1 puts your player on top of a growing pile which must be eliminated. It can be played alone (single), against another human (match) or in a quest against the computer. \n\nMode 2 puts your player on an already well-stocked pile, but unlike mode 1, the stacks can't be rearranged in order to reach the desired dice, so you have to make do with what is in the top layer to match whatever dice is shown on top of the playfield. An opposing player does the same, and the first one to reach the bottom wins. If both players run out of matching dice, a countdown begins to reveal a new dice, and it's necessary to react quickly to find the matching one in your pile. Due to the nature of mode 2, it can't be played alone, only in match or quest mode."
+    },
+    {
+      "langue": "fr",
+      "text": "Palamedes II peut être décrit comme &quot;son prédécesseur, renversé&quot;. Comme précédemment, votre objectif est de réorganiser un ensemble de dés et de les mettre dans une rangée pour l'élimination. Seules les séries de dés telles que 4-4-4-4-4 ou 1-2-3-4-5 peuvent être éliminées, et en fonction de la série, cela entraînera l'élimination d'une ou de plusieurs rangées de dés écran. Contrairement aux Palamède d'origine, cette fois, votre personnage se tient au-dessus des dés, et la pile de dés croissante l'écrase à moins qu'il ne fasse les combinaisons correctes pour éliminer la pile. C'est un peu comme Tetris et un peu comme Klax.\r\n\r\nDeux modes sont disponibles: Le mode 1 place votre joueur au sommet d'une pile qui doit être éliminée. Il peut être joué seul (seul), contre un autre humain (match) ou dans une quête contre l'ordinateur.\r\n\r\nLe mode 2 place votre joueur sur une pile déjà bien fournie, mais contrairement au mode 1, les piles ne peuvent pas être réarrangées pour atteindre les dés désirés, vous devez donc vous contenter de ce qui est dans la couche supérieure pour correspondre à tous les dés est montré sur le dessus du terrain de jeu. Un joueur adverse fait de même, et le premier à atteindre le fond gagne. Si les deux joueurs n'ont plus de dés correspondants, un compte à rebours commence à révéler un nouveau dé, et il est nécessaire de réagir rapidement pour trouver celui correspondant dans votre pile. En raison de la nature du mode 2, il ne peut pas être joué seul, seulement en mode match ou quête."
+    },
+    {
+      "langue": "de",
+      "text": "Palamedes II kann als &quot;sein Vorgänger, umgestürzt&quot; beschrieben werden. Wie zuvor ist es Ihr Ziel, einen Datensatz neu anzuordnen und in einer Zeile zum Löschen zu platzieren. Sie können nur Datensätze wie 4-4-4-4-4 oder 1-2-3-4-5 löschen, und je nach Serie werden eine oder mehrere Datenzeilen gelöscht. Bildschirm. Im Gegensatz zum ursprünglichen Palamedes steht Ihr Charakter diesmal oben auf den Wissern, und der wachsende Haufen von Wirfeln zerquetscht ihn, es sei denn, er macht die richtigen Kombinationen, um den Haufen zu beseitigen. Es ist ein bisschen wie Tetris und ein bisschen wie Klax."
+    },
+    {
+      "langue": "es",
+      "text": "Palamedes II puede ser descrito como &quot;su predecesor, dado la vuelta&quot;. Como antes, tu objetivo es reorganizar un conjunto de dados y ponerlos en fila para su eliminación. Solo se pueden eliminar series de dados, como 4-4-4-4-4 o 1-2-3-4-5, y dependiendo de la serie, esto resultará en una o varias filas de dados que se eliminarán de la pantalla. A diferencia del Palamedes original, esta vez tu personaje está encima de los dados, y la creciente pila de dados lo aplastará a menos que haga las combinaciones correctas para eliminar la pila. Es un poco como Tetris, y un poco como Klax."
+    },
+    {
+      "langue": "it",
+      "text": "Palamedes II può essere descritto come &quot;il suo predecessore, rovesciato&quot;. Come prima, il tuo obiettivo è riorganizzare un set di dati e posizionarlo in una riga per l'eliminazione. È possibile eliminare solo set di dati come 4-4-4-4-4 o 1-2-3-4-5 e, a seconda della serie, ciò comporterà l'eliminazione di una o più righe di dati. schermo. A differenza del Palamedes originale, questa volta il tuo personaggio si trova in cima ai dadi e il mucchio crescente di dadi lo schiaccia a meno che non faccia le giuste combinazioni per eliminare il mucchio. È un po' come Tetris e un po' come Klax."
+    },
+    {
+      "langue": "pt",
+      "text": "Palamedes II pode ser descrito como &quot;seu antecessor, derrubado&quot;. Como antes, seu objetivo é reorganizar um conjunto de dados e colocá-los em uma linha para eliminação. Apenas conjuntos de dados como 4-4-4-4-4 ou 1-2-3-4-5 podem ser eliminados e, dependendo da série, isso resultará na eliminação de uma ou mais linhas de dados. tela. Ao contrário do Palamedes original, desta vez seu personagem fica em cima dos dados e a pilha de dados crescente o esmaga, a menos que ele faça as combinações corretas para eliminar a pilha. É um pouco como Tetris e um pouco como Klax."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1991-05-17"
+    }
+  ],
+  "genres": [
+    {
+      "id": "26",
+      "nomcourt": "0B00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "fr",
+          "text": "Puzzle-Game"
+        },
+        {
+          "langue": "de",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "es",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "it",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "pt",
+          "text": "Quebra-cabeças"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "nomcourt": "0500",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Strategy"
+        },
+        {
+          "langue": "fr",
+          "text": "Stratégie"
+        },
+        {
+          "langue": "de",
+          "text": "Strategie"
+        },
+        {
+          "langue": "es",
+          "text": "Estrategia"
+        },
+        {
+          "langue": "it",
+          "text": "Strategia"
+        },
+        {
+          "langue": "pt",
+          "text": "Estratégia"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "198fbb13",
+      "md5": "673a4f4f55d3b70138031c5434ccad8c",
+      "sha1": "31430cfa4038cbac5dae392d0aa16d306f5a5bda",
+      "size": "3112",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=ss(jp)",
+      "region": "jp",
+      "crc": "09d25e45",
+      "md5": "223f0bf5ce814d81e32c44de7dd9a785",
+      "sha1": "9632b46f92fda16717d4bc4e4c26bbc1df37865d",
+      "size": "4336",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=fanart",
+      "crc": "e39f4c68",
+      "md5": "e7165bb58f7cff6cc551928c2bc4042b",
+      "sha1": "c150c8a8ca3265e0ce2f4517a3025882bfd325e6",
+      "size": "177214",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=video",
+      "crc": "f646e442",
+      "md5": "ea03e1a86d0606828bcb63a8df4947c5",
+      "sha1": "c97839314b30a095a69930f81347843778972ed2",
+      "size": "1999363",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=video-normalized",
+      "crc": "d491d4d5",
+      "md5": "9245b8ac2a314d24df8d274803528c13",
+      "sha1": "8283d7ab07f86345921f6363f61f91c8ed1b55ac",
+      "size": "1026340",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=steamgrid",
+      "crc": "e13d8bcc",
+      "md5": "ff2caeccf733ae5db386dd855249a791",
+      "sha1": "a4a2be19d7723c13d4c99b8cedb600a894af29ed",
+      "size": "31890",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=wheel(jp)",
+      "region": "jp",
+      "crc": "8e667d06",
+      "md5": "8e03aaf4116281ef3e85652d8560be8a",
+      "sha1": "f2c9abc1af6d01f0e921fe5b74eb996d4822ba6c",
+      "size": "150721",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "0c58f7b6",
+      "md5": "05f7e50d973aea966f70e9ee487f551d",
+      "sha1": "7188248ea0adf502a59b3621bfb6129e20cb08db",
+      "size": "143358",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "14c51874",
+      "md5": "03f463f2361eefe000fbe2ad2633b6a7",
+      "sha1": "d8a2b91bae42fd5821a813c71cb65bec2feb8329",
+      "size": "144533",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "dce086d6",
+      "md5": "b247f48f993332efbe8f30e22472fc1e",
+      "sha1": "4d72ad3b8bfc8c88145dd21e451067c4b248eff4",
+      "size": "505937",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "656e2f57",
+      "md5": "0fe7f82b3395586a82610d240f38299e",
+      "sha1": "6c02d64979291d7eb85ffcc8f41b29f133f102f0",
+      "size": "84881",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "cdb7b65e",
+      "md5": "9d42c2d595f3c6d3cd98ed80e044b352",
+      "sha1": "b0b81f1921d4a12e3cfdade3327aa6f403b61b13",
+      "size": "597988",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "19acc1c2",
+      "md5": "c0bd5fd40ef2e975f683db4cb5a48af0",
+      "sha1": "0c8d459d7cb7bed21d588824382b990833e95701",
+      "size": "137110",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "d9f03c01",
+      "md5": "de029c13670eff1a077b6d1b59924ad2",
+      "sha1": "6df8254eafe23a6faa21685eade227d9313dae3f",
+      "size": "94124",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "9f4cb6b0",
+      "md5": "49faada8fde37f795d635fa6bfe4d864",
+      "sha1": "16c94e6763a697504d0fa2828ccfc49216f4cf07",
+      "size": "31401",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "61a682b1",
+      "md5": "dda2a2412a635a9fffcf293362ad05a9",
+      "sha1": "c09c5bf870cd4f164663a5f263b9c29aee154c92",
+      "size": "509715",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "bfcafc3b",
+      "md5": "23d8ece5a6ec7931c2d5d5b811e61d4d",
+      "sha1": "8c378fbf65d12152ce638141bc57df2333d17fdc",
+      "size": "151099",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "365e703c",
+      "md5": "d6c8037167d3213f1cfef5d04e2743c4",
+      "sha1": "d31b966bdbd28aaf3ff16ae25a70b3f9dd8b930e",
+      "size": "1224191",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "e101cc68",
+      "md5": "233a53ae5493e2fbb0d6242ff9ac23f8",
+      "sha1": "332cf8d0a0e328aec6c0834fc2dca98f4ee6274f",
+      "size": "336397",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "32e4f968",
+      "md5": "c75e54130578fe087fb0716fb3fe0a39",
+      "sha1": "2494cd89d9576cd11a577cf086ac282cd5e4d5b1",
+      "size": "320173",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "00da44ca",
+      "md5": "ef65f4a20d3d949531492fe7bb158b6d",
+      "sha1": "4e99af4c2fed24a47b230f8b05b1a542b1628967",
+      "size": "127149",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=manuel(jp)",
+      "region": "jp",
+      "crc": "dd98472a",
+      "md5": "cd1ba74ae07a7784442bef3fed051616",
+      "sha1": "3547dd8720d365091eeb1baa9c0acb8efc209fe0",
+      "size": "1241117",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "2235c8f1",
+      "md5": "61a72fca7553440d7733246c00ddb2bf",
+      "sha1": "4d4f56de5dac039ddb5ef7fcc2d20e4feb945fa7",
+      "size": "293083",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "68997a63",
+      "md5": "01ee34b16b8e64a252fed2adfbbe4a5b",
+      "sha1": "47ce7d45f6d7a36d0c9a857830819b91dcb979b8",
+      "size": "325010",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "6ae4f32b",
+      "md5": "abc3701429dc56c9b83efbaa49b958fa",
+      "sha1": "64f2d6c418044e928ce51409025cdf0dab6d4e94",
+      "size": "347042",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "613544c3",
+      "md5": "580c2013308003068f5c0e3b904e8feb",
+      "sha1": "32bf1ad065b5df07e917148d822186f82dd82b00",
+      "size": "252978",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "6ae4f32b",
+      "md5": "abc3701429dc56c9b83efbaa49b958fa",
+      "sha1": "64f2d6c418044e928ce51409025cdf0dab6d4e94",
+      "size": "347042",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "f5f1d94a",
+      "md5": "0bb131d5722b0b75610fb951eba7aca1",
+      "sha1": "443e9d8185804c13d6dd59f42760be11a778e1f8",
+      "size": "525774",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "a7a4edcd",
+      "md5": "a39721d233db4e7445834dd66aeedef3",
+      "sha1": "5acb18986bb1f00b9f8d412a9b909af8952ea561",
+      "size": "433592",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18833&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "f5f1d94a",
+      "md5": "0bb131d5722b0b75610fb951eba7aca1",
+      "sha1": "443e9d8185804c13d6dd59f42760be11a778e1f8",
+      "size": "525774",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=415&media=logo-monochrome",
+      "crc": "84c6c41d",
+      "md5": "d00831960ac5ccd3a3d81ebb8df95d72",
+      "sha1": "eebb2c34b352e4a2a56628f7f59ff6e140cb5f81",
+      "size": "18711",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=415&media=wheel",
+      "crc": "e368aafb",
+      "md5": "1265fb12dd97b0b56d6087ff8f4265cb",
+      "sha1": "1a2211829d2ba5cb0e91f780800f9829580c9e25",
+      "size": "22247",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=415&media=logo-monochrome",
+      "crc": "84c6c41d",
+      "md5": "d00831960ac5ccd3a3d81ebb8df95d72",
+      "sha1": "eebb2c34b352e4a2a56628f7f59ff6e140cb5f81",
+      "size": "18711",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=415&media=wheel",
+      "crc": "e368aafb",
+      "md5": "1265fb12dd97b0b56d6087ff8f4265cb",
+      "sha1": "1a2211829d2ba5cb0e91f780800f9829580c9e25",
+      "size": "22247",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=pictoliste",
+      "crc": "e4176cee",
+      "md5": "cc91411eb70735bb11dcfc4a0457b474",
+      "sha1": "1f04afee843e3aca095a118170eb13f3cf9a95d6",
+      "size": "828",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome",
+      "crc": "afda799e",
+      "md5": "b6aace835e844a24b33032c300cea85a",
+      "sha1": "ad7df82b2dc35f742dfe94cb20c5984c61a1be7f",
+      "size": "4560",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome-svg",
+      "crc": "b9fb9475",
+      "md5": "1f42d149151051f8c80b9728242769c3",
+      "sha1": "a0efb0c8b8814d280d62c7b2c5a6f39d5eaf0267",
+      "size": "2101",
+      "format": "svg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=background",
+      "crc": "923a4c43",
+      "md5": "5b1038e07f813242bbf179dcc11aa88f",
+      "sha1": "7971778339840a88ad940669b45dfc0103721cc1",
+      "size": "306716",
+      "format": "jpg"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=pictoliste",
+      "crc": "390f6fd3",
+      "md5": "3fa8179193133952edec1f1c83cbbb12",
+      "sha1": "91d013549a041ad038ee98be72ef9065b1ef2fac",
+      "size": "938",
+      "format": "png"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=logo-monochrome",
+      "crc": "868744ba",
+      "md5": "532936b915571fa9610eea67748f388c",
+      "sha1": "76f9d4781b456572ef1b45420a874cd4b207aaff",
+      "size": "5344",
+      "format": "png"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=logo-monochrome-svg",
+      "crc": "68078839",
+      "md5": "dca661ef2311c429fc7cc04446d74cb2",
+      "sha1": "fc33378ea7d4fbabcba0aa5b14f0803facd5b6e5",
+      "size": "2190",
+      "format": "svg"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=background",
+      "crc": "dde606f3",
+      "md5": "dccb263a55ad6904ff08a7ffa8400adc",
+      "sha1": "f2d9943b945e4268b10e0b8edc3aa151e0e983d5",
+      "size": "213672",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136922",
+      "romsize": "65552",
+      "romfilename": "Palamedes II - Star Twinkle, Hoshi no Mabataki (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "99EEB64C",
+      "rommd5": "E9F1CEE81084CA88287D0DAC715A76FC",
+      "romsha1": "9DF81849911929CB0EFA161129A1FA42503E99FB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "76065",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "757808",
+      "romsize": "65552",
+      "romfilename": "Palamedes II - Star Twinkle, Hoshi no Mabataki (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "65F96A77",
+      "rommd5": "D5D2C61C6B59D80FB410ADDAA90A2FA4",
+      "romsha1": "4F26873C814D842895D64E0961772FED83247BFE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "44663",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "13205",
+      "romsize": "37076",
+      "romfilename": "Palamedes II - Star Twinkle, Hoshi no Mabataki (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "561E8290",
+      "rommd5": "2FBA5411C7594C13F57B5E69B5DC3633",
+      "romsha1": "3C79888DBDB8762475F35D82D2AF2ED8333DDB80",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "35665",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1141992",
+      "romsize": "65552",
+      "romfilename": "Palamedes II - Star Twinkle, Hoshi no Mabataki (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7d73b066",
+      "rommd5": "488899891371cb81bbd8cfc88d585ccd",
+      "romsha1": "2c5487ca547e0740599b96cd541b0647fae88e61",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18979",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "832080",
+      "romsize": "36905",
+      "romfilename": "Palamedes II Star Twinkle, Hoshi no Mabataki (Japan) (T).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "37910296",
+      "rommd5": "FF901ADB5E24FDCBFD63143599C2102B",
+      "romsha1": "5C4520AAC25ED9AF3457B12E104B92BFCF48E645",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18080",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174107",
+      "romsize": "65536",
+      "romfilename": "Palamedes II - Star Twinkle, Hoshi no Mabataki (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "31957AE4",
+      "rommd5": "D7EB466A8CE17B2FC757B80A7A23F289",
+      "romsha1": "AF9512072A2DC6343CD212D78109BFD09C17DA9D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1645",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114605",
+      "romsize": "37054",
+      "romfilename": "Palamedes II - Star Twinkle, Hoshi no Mabataki (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B6EE0DB2",
+      "rommd5": "C06E3AEE492987A17DEE32A6DA701940",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "85",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1416419",
+      "romsize": "65552",
+      "romfilename": "Palamedes II - Star Twinkles (Japan) [T-En by KingMike's Translations v1.0].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "81646C5D",
+      "rommd5": "1FBA8C74E2DF93305674B57A9BBDAD11",
+      "romsha1": "068020DA7A4A24EF2C0B02C62180EC36D322D06A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    }
+  ]
+}

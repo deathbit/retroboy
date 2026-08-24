@@ -1,0 +1,554 @@
+{
+  "id": "150816",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Brilliant Com Pack 2"
+    },
+    {
+      "region": "kr",
+      "text": "Yeongjaecom Cocoma Pack 2"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "36030",
+    "text": "EduBank"
+  },
+  "developpeur": {
+    "id": "36030",
+    "text": "EduBank"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Learn through 5 mini games: A musical piano with a staff, Count with hats in the company of monkeys, Catch the requested shape, Catch Korean characters and Solve mini-puzzles of 4, 6 or 10 pieces."
+    },
+    {
+      "langue": "fr",
+      "text": "Apprenez au travers de 5 mini jeux : Un piano musical avec une portée, Comptez avec des chapeaux en compagnie de singes, Attrapez la forme demandée, Attraper des caractères coréens et Résoudre des mini-puzzles de 4, 6 ou 10 pièces."
+    },
+    {
+      "langue": "de",
+      "text": "Lernen Sie durch 5 Minispiele: Ein Musikpiano mit einem Stab, Zählen Sie mit Hüten in Begleitung von Affen, Fangen Sie die gewünschte Form, fangen Sie koreanische Charaktere und lösen Sie Mini-Rätsel von 4, 6 oder 10 Stück."
+    },
+    {
+      "langue": "es",
+      "text": "Colección de minijuegos."
+    },
+    {
+      "langue": "it",
+      "text": "Impara attraverso 5 minigiochi: Un pianoforte musicale con un bastone, Conta con i cappelli in compagnia di scimmie, Prendi la forma richiesta, Cattura personaggi coreani e Risolvi mini-puzzle da 4, 6 o 10 pezzi."
+    },
+    {
+      "langue": "pt",
+      "text": "Aprenda através de 5 minijogos: Um piano musical com uma equipe, Conte com chapéus na companhia de macacos, Pegue a forma solicitada, Pegue personagens coreanos e Resolva mini-quebra-cabeças de 4, 6 ou 10 peças."
+    }
+  ],
+  "dates": [
+    {
+      "region": "asi",
+      "text": "1999"
+    }
+  ],
+  "genres": [
+    {
+      "id": "30",
+      "nomcourt": "1100",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Educational"
+        },
+        {
+          "langue": "fr",
+          "text": "Ludo-Educatif"
+        },
+        {
+          "langue": "de",
+          "text": "Lernspiel"
+        },
+        {
+          "langue": "es",
+          "text": "Educacional"
+        },
+        {
+          "langue": "it",
+          "text": "Educativo"
+        },
+        {
+          "langue": "pt",
+          "text": "Educacional"
+        }
+      ]
+    }
+  ],
+  "modes": [
+    {
+      "id": "4",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Single-player"
+        },
+        {
+          "langue": "fr",
+          "text": "Jouable en solo"
+        },
+        {
+          "langue": "de",
+          "text": "Einzelspieler"
+        },
+        {
+          "langue": "es",
+          "text": "Jugador individual"
+        },
+        {
+          "langue": "it",
+          "text": "Giocatore singolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogador individual"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=sstitle(kr)",
+      "region": "kr",
+      "crc": "ecc2037d",
+      "md5": "ad177ab98990e26e8d8ab5a332f94de0",
+      "sha1": "3c09ed65a10724e76fe91fdf94c8b235f8aa4e2a",
+      "size": "10213",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=ss(kr)",
+      "region": "kr",
+      "crc": "434536a2",
+      "md5": "56ccf77208cdb2b55d90e591ec546b56",
+      "sha1": "515bbb1cb325572da8a1a0026ad9dec715e2d158",
+      "size": "16980",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=video",
+      "crc": "3ad51384",
+      "md5": "543c9e5de021351eb2ead19b0f8a50bf",
+      "sha1": "2461ffa76f112f4dcab8c37e0bfb53cd3cb2c38e",
+      "size": "1051713",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=video-normalized",
+      "crc": "ded4de2f",
+      "md5": "88fea0bf24308399c3b210e5c49dcc54",
+      "sha1": "325c1e10c13ea0c8f7d7f31162cac16161a224d3",
+      "size": "628320",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=steamgrid",
+      "crc": "75d3976c",
+      "md5": "239ff4813a114efeebaeec6c4edcbc8e",
+      "sha1": "79e7fef109aef71b794f37679f0b1b7970570568",
+      "size": "30298",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=wheel(kr)",
+      "region": "kr",
+      "crc": "e997a335",
+      "md5": "e66a1c4a0a2b577789bf057762401d75",
+      "sha1": "4f7e80a2c6433cb3910196c8400c253d62a97138",
+      "size": "67201",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=wheel-carbon(kr)",
+      "region": "kr",
+      "crc": "0f5beb85",
+      "md5": "560131645a7a7c70955d7e94bd790ef1",
+      "sha1": "cb77a128171fbcf29290cbedd7d7feaef7eb129c",
+      "size": "101317",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=wheel-steel(kr)",
+      "region": "kr",
+      "crc": "57f9203d",
+      "md5": "2259fdcc27d2a653c37e85f3a6285fc0",
+      "sha1": "38ebe7b922c11b3c43ed2c1a8f6f0c00a9700835",
+      "size": "102959",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=screenmarquee(kr)",
+      "region": "kr",
+      "crc": "ee5e21a6",
+      "md5": "f867b3cfd4cb2066de4d3e3e3a9e7cb6",
+      "sha1": "8025be5300086ce73d5a2fd20fb4a2fef48fceea",
+      "size": "489813",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=screenmarqueesmall(kr)",
+      "region": "kr",
+      "crc": "d5443234",
+      "md5": "1ae0637b8c7c5f1a8da8cb11d8ad7f55",
+      "sha1": "7ac8a7a5dbaf29d07d2fc843a299406793ccd7bf",
+      "size": "77805",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=box-2D(kr)",
+      "region": "kr",
+      "crc": "5d63eba1",
+      "md5": "bd4cc4957bb10c2adc0cf8f9c9083d0a",
+      "sha1": "17af4454c45720a3437b2fdd9d79b4fdac09a4a6",
+      "size": "530432",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=box-2D-side(kr)",
+      "region": "kr",
+      "crc": "3f37358b",
+      "md5": "8548ef2bb97037e249254690046755a3",
+      "sha1": "2b22b9ad3cf142dc6714991579ffaf646d3d3672",
+      "size": "94453",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=box-2D-back(kr)",
+      "region": "kr",
+      "crc": "e9c4e627",
+      "md5": "bcd819e79c73b6d51cf95863eb76577a",
+      "sha1": "944bdcc4f104f29b0534b072fcf14c55d34c7940",
+      "size": "614759",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=box-texture(kr)",
+      "region": "kr",
+      "crc": "09511765",
+      "md5": "3caf09a12c75b04ac93f1d941cda1a92",
+      "sha1": "6d57cf0c06c9439c30f45a5d9febae4de7a2b97d",
+      "size": "1258106",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=box-3D(kr)",
+      "region": "kr",
+      "crc": "5ddebefa",
+      "md5": "c04a8ad0e6e8f9ad1dba4f8dfb56358a",
+      "sha1": "2089a2b0311654cb77d06f3b65d432e0d47a119c",
+      "size": "258208",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=mixrbv1(kr)",
+      "region": "kr",
+      "crc": "78e5919f",
+      "md5": "fe31165b963533c84a720bb2a56809c1",
+      "sha1": "fe9630c843922b0a849462edd70544528ceadcc6",
+      "size": "395967",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=mixrbv2(kr)",
+      "region": "kr",
+      "crc": "17a979e5",
+      "md5": "6861ae3c0be21f387494d29e32301b67",
+      "sha1": "66896e025ca5bff12392fd375ba2b2d48f47a190",
+      "size": "563940",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=150816&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "17a979e5",
+      "md5": "6861ae3c0be21f387494d29e32301b67",
+      "sha1": "66896e025ca5bff12392fd375ba2b2d48f47a190",
+      "size": "563940",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=pictoliste",
+      "crc": "e28550e1",
+      "md5": "e337a914d16f2371caf8ca01f58c1f72",
+      "sha1": "577bcb723200a3267b49908fb79928567e894f48",
+      "size": "843",
+      "format": "png"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=logo-monochrome",
+      "crc": "de92ed5c",
+      "md5": "7b89241db8d1857b59510d6cf99ea656",
+      "sha1": "d2176dbfce2daaefd8e06167b0e528d612eaf84f",
+      "size": "6893",
+      "format": "png"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=logo-monochrome-svg",
+      "crc": "11bcb2d1",
+      "md5": "6c8be079904348e944823207aa5d621e",
+      "sha1": "2465ea75ec1bbcb7abd6bec24522837b56fbecd0",
+      "size": "2464",
+      "format": "svg"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=background",
+      "crc": "b2f1fe8f",
+      "md5": "97e5055083b20b96fcfa1b1ebe05b602",
+      "sha1": "f6e720d79074f5987f558221f7bf19714da06423",
+      "size": "319073",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "634927",
+      "romsize": "262144",
+      "romfilename": "Brilliant Com Pack 2 (Korea) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7B25E9B0",
+      "rommd5": "762642C4E71FE75806E5ABE62D633B3B",
+      "romsha1": "710953C0613898B45C3318EE268AB51D9B37FD75",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "31078",
+      "regions": {
+        "regions_id": [
+          "58"
+        ],
+        "regions_shortname": [
+          "kr"
+        ],
+        "regions_en": [
+          "Korea"
+        ],
+        "regions_fr": [
+          "Corée"
+        ],
+        "regions_de": [
+          "Korea"
+        ],
+        "regions_es": [
+          "Corea"
+        ],
+        "regions_it": [
+          "Corea"
+        ],
+        "regions_pt": [
+          "Coreia"
+        ]
+      }
+    },
+    {
+      "id": "818795",
+      "romsize": "1048576",
+      "romfilename": "Brilliant Com Cocoma Pack 2 (Korea) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BD2694F8",
+      "rommd5": "37CD540156F3623878ADED1AD6DDA61D",
+      "romsha1": "FF9196F963B2FA97783A53DC1709E911DA397EB4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19691",
+      "regions": {
+        "regions_id": [
+          "58"
+        ],
+        "regions_shortname": [
+          "kr"
+        ],
+        "regions_en": [
+          "Korea"
+        ],
+        "regions_fr": [
+          "Corée"
+        ],
+        "regions_de": [
+          "Korea"
+        ],
+        "regions_es": [
+          "Corea"
+        ],
+        "regions_it": [
+          "Corea"
+        ],
+        "regions_pt": [
+          "Coreia"
+        ]
+      }
+    },
+    {
+      "id": "1135059",
+      "romsize": "1048592",
+      "romfilename": "Brilliant Com Cocoma Pack 2 (Korea) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "aae73be6",
+      "rommd5": "54c1d7bd27c707f1b6b5c9aa177c0469",
+      "romsha1": "faa4f4ad706f8c41ce86278d27061dbb2ad57b85",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12007"
+    },
+    {
+      "id": "818796",
+      "romsize": "251140",
+      "romfilename": "Brilliant Com Cocoma Pack 2 (Korea) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "362E4867",
+      "rommd5": "09485666389AD9AB3F5E5C7DC4E81470",
+      "romsha1": "C7C358CC180715513E508B68E1CBDAD9D9102923",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "419",
+      "regions": {
+        "regions_id": [
+          "58"
+        ],
+        "regions_shortname": [
+          "kr"
+        ],
+        "regions_en": [
+          "Korea"
+        ],
+        "regions_fr": [
+          "Corée"
+        ],
+        "regions_de": [
+          "Korea"
+        ],
+        "regions_es": [
+          "Corea"
+        ],
+        "regions_it": [
+          "Corea"
+        ],
+        "regions_pt": [
+          "Coreia"
+        ]
+      }
+    }
+  ]
+}

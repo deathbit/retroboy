@@ -1,0 +1,427 @@
+{
+  "id": "153229",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Pokemon Green"
+    },
+    {
+      "region": "wor",
+      "text": "Pokemon Green"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "A hack of Kero Kero Keroppi no Daibouken 2 that replaced Keroppi with a green Clefairy, and changed his musical attacks to generic bullets. The title screen reads &quot;GREEN&quot; and the copyright screens and story were once again removed."
+    },
+    {
+      "langue": "de",
+      "text": "Ein Hack von Kero Kero Keroppi no Daibouken 2, bei dem Keroppi durch ein grünes Clefairy ersetzt wurde und seine musikalischen Angriffe durch generische Kugeln ersetzt wurden. Auf dem Titelbildschirm steht &quot;GRÜN&quot; und die Copyright-Bildschirme und die Geschichte wurden wieder entfernt."
+    }
+  ],
+  "familles": [
+    {
+      "id": "3752",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Pokémon"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "e21ff562",
+      "md5": "1418dc6ea0c15d8f42b049879d8f3db2",
+      "sha1": "423e2c5ed004d20c7a429efcc1f9842f81159a59",
+      "size": "2765",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=ss(wor)",
+      "region": "wor",
+      "crc": "71861476",
+      "md5": "336202e5b50b4d84f65756aa0d86932a",
+      "sha1": "eca43a6068d2839530e848f38c0645f4422367a7",
+      "size": "3082",
+      "format": "png"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=steamgrid",
+      "crc": "8832c7a9",
+      "md5": "e7920f53e1443aebd931df6e2ed411d0",
+      "sha1": "4a41c3abd105f492464449652b1a75241678fee1",
+      "size": "26184",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=wheel(wor)",
+      "region": "wor",
+      "crc": "817f074b",
+      "md5": "3fe920f651146e275deb7f8f1afe89a5",
+      "sha1": "e59bdca1e71189a264db2e36bb1baa3c829d769e",
+      "size": "28289",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "31767dd0",
+      "md5": "d73bd721c5b557767884a362f648d885",
+      "sha1": "e85477103295177ce487b281470d36227cded3ac",
+      "size": "73032",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "3dc345d6",
+      "md5": "e01867e859712b81b1b42fd47c703d79",
+      "sha1": "16b099ca7f97d53b3b1e19f9056580623c332a68",
+      "size": "74510",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "b5ae25f7",
+      "md5": "c907be3dba7abbb24edf5551749f4646",
+      "sha1": "f5a4fb56b9450d8d18023ce2eb4730369a14bd89",
+      "size": "468428",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "aebea299",
+      "md5": "b6eff2b1d183b1c5f3b4ea68bb0c72da",
+      "sha1": "0e8c3e5eb59644d4bce4b2b580221307e114de94",
+      "size": "73397",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "ddd0ba7e",
+      "md5": "721fef8882f444531529c001c2006c72",
+      "sha1": "4df4ed8ee413f7ba34670e9b7b6b70665ce4cdf3",
+      "size": "95053",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "294c7721",
+      "md5": "d56b086a57d7c2928e55021218f9e637",
+      "sha1": "9d725d0428f4033c21d0591de4f91b5446d05929",
+      "size": "17623",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "e93b831e",
+      "md5": "59a8c9e3adbdcadd5b94a9f005131675",
+      "sha1": "57181c1734532e7a31f21526dada7aae805aaf65",
+      "size": "117782",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "9968f191",
+      "md5": "4172160becfd8668353d2d9865c5c3f8",
+      "sha1": "5077710739c38f00efe4196d891b57fe33fcdf38",
+      "size": "241769",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "3624610d",
+      "md5": "4b386a7a691038c27abf90e020710d3a",
+      "sha1": "19b3ac633019cd478e896876a79be2cee191edf8",
+      "size": "112841",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "efb32cbd",
+      "md5": "d637ce4d08d58f89b001f2c8d30d8059",
+      "sha1": "36cc233f70658fc7dea658ef81683b5616239aeb",
+      "size": "294610",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "484d811b",
+      "md5": "338c352574466e09424b093cc3c2549a",
+      "sha1": "7f5cb882c5ae629298bbba04b9419bca9ee3c14a",
+      "size": "267903",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "d011ad9b",
+      "md5": "46999acdf280fdaa6420a022b74ec30b",
+      "sha1": "ef7adb4f4c06d05fab269a3eaaf3b83809040b07",
+      "size": "227670",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=mixrbv2(nl)",
+      "region": "nl",
+      "crc": "886fbddb",
+      "md5": "b9300f444010470b296de4438e4e2b20",
+      "sha1": "f53a9e36c46c5b64aa5cf893cb3959ab075ff865",
+      "size": "366403",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153229&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "886fbddb",
+      "md5": "b9300f444010470b296de4438e4e2b20",
+      "sha1": "f53a9e36c46c5b64aa5cf893cb3959ab075ff865",
+      "size": "366403",
+      "format": "png"
+    },
+    {
+      "id": "3752",
+      "parent": "famille",
+      "subparent": "Pokémon",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3752&media=figurine",
+      "crc": "9a73fd64",
+      "md5": "d7a6bb8b3a732e595dbf1872cc21c063",
+      "sha1": "c3b89ee7b3bbf8be80f005334d467d56b5dbc0bf",
+      "size": "185310",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "675466",
+      "romsize": "262160",
+      "romfilename": "Pokemon Green (Unl) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6B4B83FE",
+      "rommd5": "FF5CB0683358CE30A5F597DA27EF38DE",
+      "romsha1": "D3D4A58A8D19682B97937D59B9A8092ABB04590A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "59168",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "130"
+        ],
+        "regions_shortname": [
+          "nl"
+        ],
+        "regions_en": [
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Holanda"
+        ],
+        "regions_it": [
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "595831",
+      "romsize": "92311",
+      "romfilename": "Pokemon Green (Unl) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E9D813ED",
+      "rommd5": "4F0B0114CB203F1052FDB4D86FA96590",
+      "romsha1": "16DB6C57A2243BD114D4A499855B87BAF9FC578D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "23000",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "130"
+        ],
+        "regions_shortname": [
+          "nl"
+        ],
+        "regions_en": [
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Holanda"
+        ],
+        "regions_it": [
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "1385099",
+      "romsize": "402184",
+      "romfilename": "Pokemon - Leaf Green (World) (Aftermarket) (Pirate).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "b6b0bf35",
+      "rommd5": "b28f8434ba86d44c49ed02f95df7062b",
+      "romsha1": "336e0263f42e68f61879eaaa98fb9ddae9576667",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "274"
+    }
+  ]
+}

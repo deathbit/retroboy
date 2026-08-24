@@ -1,0 +1,694 @@
+{
+  "id": "65370",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Big Nose And The Witchdoctor"
+    },
+    {
+      "region": "wor",
+      "text": "Big Nose And The Witchdoctor"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "504",
+    "text": "Camerica"
+  },
+  "developpeur": {
+    "id": "87",
+    "text": "Codemasters"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Follow Big Nose the Caveman in his new adventure to defeat the Witchdoctor!"
+    },
+    {
+      "langue": "fr",
+      "text": "nnSuivez Big Nose the Caveman dans sa nouvelle aventure pour vaincre le Witchdoctor!"
+    },
+    {
+      "langue": "de",
+      "text": "Folge Big Nose dem Höhlenmenschen in seinem neuen Abenteuer, um den Witchdoctor zu besiegen!"
+    },
+    {
+      "langue": "es",
+      "text": "¡Sigue a Big Nose the Caveman en su nueva aventura para derrotar a Witchdoctor!"
+    },
+    {
+      "langue": "it",
+      "text": "Segui Big Nose, l'uomo delle caverne, nella sua nuova avventura per sconfiggere lo Stregone!"
+    },
+    {
+      "langue": "pt",
+      "text": "Siga o Big Nose the Caveman em sua nova aventura para derrotar o Witchdoctor!"
+    }
+  ],
+  "classifications": [
+    {
+      "type": "ESRB",
+      "text": "E"
+    }
+  ],
+  "genres": [
+    {
+      "id": "13",
+      "nomcourt": "0200",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Adventure"
+        },
+        {
+          "langue": "fr",
+          "text": "Aventure"
+        },
+        {
+          "langue": "de",
+          "text": "Abenteuer"
+        },
+        {
+          "langue": "es",
+          "text": "Aventura"
+        },
+        {
+          "langue": "it",
+          "text": "Avventura"
+        },
+        {
+          "langue": "pt",
+          "text": "Aventura"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "27806",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Big Nose"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "1485d4ff",
+      "md5": "babd2fb10bff40e632eda4cca70e6ba0",
+      "sha1": "9f9389ca89c8e1f17b0722d938b61ab903d03487",
+      "size": "4759",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=ss(wor)",
+      "region": "wor",
+      "crc": "6e8ea7a9",
+      "md5": "c2ac3bc3c255169be39ce6f0ec7ae618",
+      "sha1": "07e884293d5235d6b15cf1bd52d446a79aa087e7",
+      "size": "2604",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=video",
+      "crc": "6d0b06fc",
+      "md5": "128b50ee01f9d43fc3bbda3760f7dc4a",
+      "sha1": "fd0c51848c763da6ead553e1667731b7673d69a6",
+      "size": "1785080",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=video-normalized",
+      "crc": "61fb739a",
+      "md5": "a53b2422793926025b286cbce701dbd0",
+      "sha1": "7141677cf8b4b546644ae969b62729ef6d2b312c",
+      "size": "1301295",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=steamgrid",
+      "crc": "0bbf99db",
+      "md5": "dfbdd956891fbde52db2d1a891962196",
+      "sha1": "8110cafea28d27e2caea296c00a5c6689d0fd49e",
+      "size": "25373",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=wheel(wor)",
+      "region": "wor",
+      "crc": "99a364c5",
+      "md5": "d230906143ec2bd00d24445c03972d46",
+      "sha1": "a331d56e2f3188bcd0ebb5976f0f790188c25c28",
+      "size": "29605",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "fbf81b97",
+      "md5": "e16490aef6261f637fd04264ac7cb857",
+      "sha1": "2926f07921e7d6760e414e3e38c62181e754d4b2",
+      "size": "67609",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "d11df3ef",
+      "md5": "72e291c67d8d010dd875b392dde1082b",
+      "sha1": "ebf01a468c75912f2ab787ac618467c130f38129",
+      "size": "68950",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "5653e03b",
+      "md5": "c9b830385f844d6e997aa381eeceec4d",
+      "sha1": "c8747f5e2b6bf14df3d3893898c3616772d8ffa7",
+      "size": "469572",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "c7cc400e",
+      "md5": "5d602a3d180a78583be0aa44d56fe361",
+      "sha1": "0aeae06f12fa5b90293f5b370efbad3e168db709",
+      "size": "73514",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "3c709d8d",
+      "md5": "80809c5109d2a8149e9c03837a3f0f17",
+      "sha1": "2dfd8e8b5163fdb4baadc5e566c83e6a26d38bbf",
+      "size": "92604",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "cef158c4",
+      "md5": "d824f37c487d47292be718b05295670b",
+      "sha1": "d04279e7d25ea2869c74f03aac9ea0a9a30382bf",
+      "size": "18524",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "b8a2b4fc",
+      "md5": "d98ff743f52a3303ec279ca0ac5a3088",
+      "sha1": "5f26c0b1e4a377327321ad16083bb9dd361c7c06",
+      "size": "124456",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "a0396a49",
+      "md5": "3a3d363060bc6656e6e00d00c71a8750",
+      "sha1": "29b77d0b0908a51bb56b640e99c1caaa9febc50b",
+      "size": "247647",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "b3f74e35",
+      "md5": "463a144ce2b070c8a36d73df4f717bc3",
+      "sha1": "2602a80e5eca531e2611c91884754f99e5ea26c8",
+      "size": "105389",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=support-texture(wor)",
+      "region": "wor",
+      "crc": "75e575e1",
+      "md5": "2091934d74d7e4b20977be6f8bb15b4e",
+      "sha1": "4d8f862843db9ec0b1395fb88a6ac0d2576de91b",
+      "size": "181738",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=support-2D(wor)",
+      "region": "wor",
+      "crc": "cf01271b",
+      "md5": "3e64f52bf1ffd24c1cbb0ecc680076c0",
+      "sha1": "d519eb120ad2319e1cb0e9af38337c9bd3da75d0",
+      "size": "236768",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "988c9de6",
+      "md5": "8b959377c3695e992977d15f62c6b558",
+      "sha1": "95c4fe0d063ce92f69f3808732e47fe412f891c4",
+      "size": "250459",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "7af9b76e",
+      "md5": "b2c0be25d0cc94332799f37697b47e77",
+      "sha1": "5bdf3ad7c48b352aaf6a929398b5d628c345324f",
+      "size": "409353",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65370&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "7af9b76e",
+      "md5": "b2c0be25d0cc94332799f37697b47e77",
+      "sha1": "5bdf3ad7c48b352aaf6a929398b5d628c345324f",
+      "size": "409353",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=504&media=wheel",
+      "crc": "75456b31",
+      "md5": "142fea22b8f90b7a60938177dd7ee39c",
+      "sha1": "e7722fa16070f609f08edebfa8abcc2b1a8bc832",
+      "size": "24723",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=87&media=logo-monochrome",
+      "crc": "14d2fdde",
+      "md5": "276c99c293d23b5a4622cf60e8242db6",
+      "sha1": "bc8fd5c7f672b41ba93b4a527d6f4f7c6903ec95",
+      "size": "7584",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=87&media=wheel",
+      "crc": "7d8e9709",
+      "md5": "bca6082496457e4e96151a532f46104d",
+      "sha1": "05208f561c811e6a8824d4f960ce893c2219a16d",
+      "size": "27354",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=pictoliste",
+      "crc": "cafca3d7",
+      "md5": "51bfa81c19838bc679411a7b6f4053e2",
+      "sha1": "92253cf472ed8e71780c29ddeb6c6e260325ce1f",
+      "size": "593",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=logo-monochrome",
+      "crc": "e4f09f59",
+      "md5": "031f5b008fd851f56fea852bf9f95126",
+      "sha1": "8160d583dde154dcbd717217182d2b310e756e92",
+      "size": "10670",
+      "format": "png"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=pictoliste",
+      "crc": "8110c97e",
+      "md5": "3ae29e736d50a81e950bc09995eef920",
+      "sha1": "684567ae8537e5394d8335cfbcdbe65336b63042",
+      "size": "908",
+      "format": "png"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=logo-monochrome",
+      "crc": "7d6f79cd",
+      "md5": "29fe47711b1700461adb943b75e243c6",
+      "sha1": "7ff3b47680c560229f2c79b04e36633945f1076b",
+      "size": "9191",
+      "format": "png"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=logo-monochrome-svg",
+      "crc": "5da7342f",
+      "md5": "c6c487d7b83f59704d60dc3db9aeb738",
+      "sha1": "99eb7921f5b9df09c257df3eee61f97f786e4a89",
+      "size": "4852",
+      "format": "svg"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=background",
+      "crc": "b7f54e2e",
+      "md5": "5c9ff45078054d25bb6fc33154c1be54",
+      "sha1": "3fbc535b5792ae9152e00219e8b84fee41f945ee",
+      "size": "275320",
+      "format": "jpg"
+    },
+    {
+      "id": "27806",
+      "parent": "famille",
+      "subparent": "Big Nose",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27806&media=figurine",
+      "crc": "579347f9",
+      "md5": "5ecea5446aeec1c0c3206768ea8c220b",
+      "sha1": "f95020fcf49b0918c26af67802ea983ea0814842",
+      "size": "265228",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135490",
+      "romsize": "262160",
+      "romfilename": "Big Nose and the Witchdoctor (USA) (Beta) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DB969D7D",
+      "rommd5": "B740F08410DC592064CDDC15DF803FD8",
+      "romsha1": "74447164E10856A00DB3AAC1FCA159B01DC9FD35",
+      "beta": "1",
+      "demo": "0",
+      "proto": "1",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "53268",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "12423",
+      "romsize": "130435",
+      "romfilename": "Big Nose and the Witchdoctor (USA) (Beta) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "142A241E",
+      "rommd5": "BC9FEBE14CC57F90115496D470839465",
+      "romsha1": "23953CF9AAE13393927445654FCED2BAF344E55C",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "37034",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1134723",
+      "romsize": "262160",
+      "romfilename": "Big Nose and the Witchdoctor (USA) (Beta) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "49274b27",
+      "rommd5": "c12d0503b1eb37a9554cf019b0d35482",
+      "romsha1": "96ccaa5e4fdbe9f0869a57b3be4bf9ac940d8400",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5926",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "172637",
+      "romsize": "262144",
+      "romfilename": "Big Nose and the Witchdoctor (USA) (Beta) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F62B0327",
+      "rommd5": "357F0ED5B3BF45741A8EDCAA884358A8",
+      "romsha1": "BDF5BBB47ED4C0C45672E2485EED0F02FBDA1D5D",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1875",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "113129",
+      "romsize": "130413",
+      "romfilename": "Big Nose and the Witchdoctor (USA) (Beta) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "345928E3",
+      "rommd5": "B48B3484357F9680A19585B319093960",
+      "romsha1": "",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "171",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    }
+  ]
+}

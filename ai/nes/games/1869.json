@@ -1,0 +1,841 @@
+{
+  "id": "1869",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Front Line"
+    },
+    {
+      "region": "jp",
+      "text": "Front Line"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "55",
+    "text": "Taito"
+  },
+  "developpeur": {
+    "id": "55",
+    "text": "Taito"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "note": {
+    "text": "8"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Front Line is a vertically scrolling action game. Your mission is to infiltrate enemy territory and destroy their fortress. To reach the fortress, you will have to make your way through varied and dangerous terrain. Jungles, deserts, brush, and rocks all slow your progress, plus each area has numerous enemy fighters and tanks trying to stop you. To help get past these obstacles, you are armed with a machine gun and grenades; at some points in the game you may even come across an abandoned tank which you can control to increase your odds of survival. When you reach the end of the level and successfully destroy the fortress, the game will repeat at a higher level of difficulty. Gameplay is for one or two players, and four different skill levels are available."
+    },
+    {
+      "langue": "fr",
+      "text": "Front Line est un jeu d'action à défilement vertical sur Nes. Le but du jeu est d'infiltrer le territoire ennemi et de détruire leur forteresse. Pour ce faire, vous devrez parcourir des chemins parsemés d'embûches destinées à ralentir votre progression. Vous disposez d'une mitraillette et de grenades pour défaire les soldats et tanks que vous rencontrerez sur votre route."
+    },
+    {
+      "langue": "de",
+      "text": "Front Line ist ein vertikal scrollendes Actionspiel. Ihre Aufgabe ist es, in feindliches Gebiet einzudringen und ihre Festung zu zerstören. Um die Festung zu erreichen, müssen Sie sich Ihren Weg durch abwechslungsreiches und gefährliches Terrain bahnen. Dschungel, Wüsten, Gestrüpp und Felsen verlangsamen Ihr Vorankommen, und in jedem Gebiet gibt es zahlreiche feindliche Kämpfer und Panzer, die versuchen, Sie aufzuhalten. Um diese Hindernisse zu überwinden, sind Sie mit einem Maschinengewehr und Granaten bewaffnet. An einigen Stellen im Spiel können Sie sogar auf einen verlassenen Panzer stoßen, den Sie steuern können, um Ihre Überlebenschancen zu erhöhen. Wenn Sie das Ende des Levels erreichen und die Festung erfolgreich zerstören, wird das Spiel auf einem höheren Schwierigkeitsgrad wiederholt. Das Spiel ist für einen oder zwei Spieler geeignet, und es gibt vier verschiedene Schwierigkeitsgrade."
+    },
+    {
+      "langue": "es",
+      "text": "Front Line es un juego de acción de desplazamiento vertical. Tu misión es infiltrarte en el territorio enemigo y destruir su fortaleza. Para llegar a la fortaleza, tendrás que atravesar un terreno variado y peligroso. Selvas, desiertos, maleza y rocas que frenan tu progreso, además, cada área tiene numerosos combatientes enemigos y tanques que intentan detenerte. Para ayudar a superar estos obstáculos, estás armado con una ametralladora y granadas; En algunos puntos del juego, incluso puede encontrarse con un tanque abandonado que puede controlar para aumentar sus probabilidades de supervivencia. Cuando llegues al final del nivel y destruyas exitosamente la fortaleza, el juego se repetirá en un nivel de dificultad más alto. El juego es para uno o dos jugadores, y hay cuatro niveles de habilidad diferentes disponibles."
+    },
+    {
+      "langue": "it",
+      "text": "Front Line è un gioco d'azione a scorrimento verticale. La tua missione è infiltrarti nel territorio nemico e distruggere la loro fortezza. Per raggiungere la fortezza, dovrai attraversare un terreno vario e pericoloso. Giungle, deserti, cespugli e rocce rallentano i tuoi progressi, inoltre ogni area ha numerosi combattenti e carri armati nemici che cercano di fermarti. Per superare questi ostacoli, sei armato con una mitragliatrice e granate; in alcuni punti del gioco potresti persino imbatterti in un carro armato abbandonato che puoi controllare per aumentare le tue probabilità di sopravvivenza. Quando raggiungi la fine del livello e distruggi con successo la fortezza, il gioco si ripeterà a un livello di difficoltà superiore. Il gioco è per uno o due giocatori e sono disponibili quattro diversi livelli di abilità."
+    },
+    {
+      "langue": "pt",
+      "text": "Front Line é jogo de arcade com uma temática de guerra, onde o jogador controla um soldado armado que tem o poder de atirar e lançar granadas contra seus inimigos. Ao decorrer do jogo é possível pilotar tanques de guerra e aumentar seu poder de fogo.\r\n"
+    }
+  ],
+  "classifications": [
+    {
+      "type": "CERO",
+      "text": "A"
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1985-08-01"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2903",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "2646",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shooter / Run and Gun"
+        },
+        {
+          "langue": "fr",
+          "text": "Tir / Run and Gun"
+        },
+        {
+          "langue": "de",
+          "text": "Shooter / Run and Gun"
+        },
+        {
+          "langue": "es",
+          "text": "Disparos / Run and Gun"
+        },
+        {
+          "langue": "it",
+          "text": "Sparo / Run and Gun"
+        },
+        {
+          "langue": "pt",
+          "text": "Tiro / Run and Gun"
+        }
+      ]
+    },
+    {
+      "id": "2646",
+      "nomcourt": "0100",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shooter"
+        },
+        {
+          "langue": "fr",
+          "text": "Tir"
+        },
+        {
+          "langue": "de",
+          "text": "Shooter"
+        },
+        {
+          "langue": "es",
+          "text": "Disparos"
+        },
+        {
+          "langue": "it",
+          "text": "Sparo"
+        },
+        {
+          "langue": "pt",
+          "text": "Tiro"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "b6163845",
+      "md5": "bd53210f86435325e904491eb034f15c",
+      "sha1": "4d415ea1c417c18c0f2cdfd13a32fa35723d3ab8",
+      "size": "2312",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=ss(jp)",
+      "region": "jp",
+      "crc": "02abff7a",
+      "md5": "901efc62435944d9fecd218ae1f1067d",
+      "sha1": "8bb419bbe30dadc4b0694fc0b7eedd5856b54bf5",
+      "size": "7238",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=fanart",
+      "crc": "50caec50",
+      "md5": "ea3c2c28bfb135070eba56b442913432",
+      "sha1": "8de26ecca2722c36a5cace5ca469ea35e50a899c",
+      "size": "233104",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=video",
+      "crc": "28051880",
+      "md5": "77b5229df50674f6b1ee3fb20f2a0329",
+      "sha1": "8c7ec575352c01c492a2fbf128935fb598446c8b",
+      "size": "3988782",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=video-normalized",
+      "crc": "dae496b3",
+      "md5": "0d52bc17fc7e26aafaa50c0184aab916",
+      "sha1": "348fa8614e487eb720b41973ba21c6cafbb522da",
+      "size": "1623685",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=steamgrid",
+      "crc": "55637bc3",
+      "md5": "697945448e6f5c97d372c446f4fa9119",
+      "sha1": "2657bc0a0b9b52abdd281eff87048106942471f8",
+      "size": "21963",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=wheel(jp)",
+      "region": "jp",
+      "crc": "b54ca323",
+      "md5": "6580561def2ac8153f7e17443fbc483a",
+      "sha1": "41531f206c2fb82160d294adac4263e2cf5f8267",
+      "size": "61220",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "1b5e5fb6",
+      "md5": "d96e3ca601879cc6a70d504ca3bd02a8",
+      "sha1": "2719dfca0eecef89e59574b4bc0744c435e4875b",
+      "size": "112520",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "1e848223",
+      "md5": "d0070108425ff5fd6fdde31d1ac30dea",
+      "sha1": "72ae0b5b2b3a553027119ba2eb5e9306dc5ac736",
+      "size": "113969",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "4dd57954",
+      "md5": "e6fba9f51a7d3d5b754d0ebd6a08e537",
+      "sha1": "65f3a31b4e0504c7b67fdeeecab0c6d8a694346d",
+      "size": "485521",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "0c7e71a0",
+      "md5": "20f78cce9f4d0fcb09587f7fc8934c31",
+      "sha1": "e8c87fddeab3c02718235dc0c6168272b7574af8",
+      "size": "78035",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "22e3f90e",
+      "md5": "e5cb85f1a649797f5135f8e3fc7ffce4",
+      "sha1": "26e3b3aaf9e0425fef8c26b0e864b96afd66817b",
+      "size": "591078",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "22e3f90e",
+      "md5": "e5cb85f1a649797f5135f8e3fc7ffce4",
+      "sha1": "26e3b3aaf9e0425fef8c26b0e864b96afd66817b",
+      "size": "591078",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "0a8f5cf5",
+      "md5": "2ba65c29717266a50dfca1cf6010f516",
+      "sha1": "3e636cc8db217e8c961280ba2c801de64d83655c",
+      "size": "66648",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "7d59f353",
+      "md5": "ef64b6b6e8e2d537241fa53732036ef3",
+      "sha1": "8facbd9c0651e44dcb3cf0173b8fd0a05fe3d045",
+      "size": "415455",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "7d59f353",
+      "md5": "ef64b6b6e8e2d537241fa53732036ef3",
+      "sha1": "8facbd9c0651e44dcb3cf0173b8fd0a05fe3d045",
+      "size": "415455",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "e8c499e1",
+      "md5": "6bc1ed0c9c3784ba83ed9e8c9a69b4fc",
+      "sha1": "eab98909c290d33b425e1324a2b5070b3c2c87e6",
+      "size": "1151417",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "35474c0b",
+      "md5": "463f46c70db7e916e54f24f6787e28cf",
+      "sha1": "7b29cb2fa1b6703c8ce69cc233867039dd086e19",
+      "size": "313009",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=manuel(jp)",
+      "region": "jp",
+      "crc": "f2ab6265",
+      "md5": "91271d925a798c660e2bd7b9bddfb7bb",
+      "sha1": "d0d004face692cd4757b35edaba1bb761dea873f",
+      "size": "260540",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "cce9e525",
+      "md5": "3a67b950f81060d807fe14af6a69a4a1",
+      "sha1": "8dfcbe8629e21d77903a1906b56b27be769289f2",
+      "size": "344077",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "56be5ed0",
+      "md5": "952953b1e69c9adea519f8e2da19ce57",
+      "sha1": "c8b0a7d4118876afa6d4f5b4f39ef5d2fdca3ca3",
+      "size": "275832",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "5c781773",
+      "md5": "388d5fb8fb64e4e3e75c5fad15e45e46",
+      "sha1": "67774dbd1d2e16e8d48c8e327c68bcc9942c847e",
+      "size": "386290",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "5c781773",
+      "md5": "388d5fb8fb64e4e3e75c5fad15e45e46",
+      "sha1": "67774dbd1d2e16e8d48c8e327c68bcc9942c847e",
+      "size": "386290",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "11556985",
+      "md5": "6f30127cb53e875a5c0cb90cc7333ea7",
+      "sha1": "17f34a9aafa16fedbde706348554a3e2e29871fc",
+      "size": "580115",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1869&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "11556985",
+      "md5": "6f30127cb53e875a5c0cb90cc7333ea7",
+      "sha1": "17f34a9aafa16fedbde706348554a3e2e29871fc",
+      "size": "580115",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=55&media=logo-monochrome",
+      "crc": "1ee41eda",
+      "md5": "c0d47512bae81cb323955e3375770d79",
+      "sha1": "049ed5e833457386e90fbfb71ce8e081b115a6c7",
+      "size": "6230",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=55&media=wheel",
+      "crc": "dc816667",
+      "md5": "d9fa69b25d3ea53b3565cca026f6a44b",
+      "sha1": "b6ec4f2f00d22c4a14a9a68d9d8dbeff8dc1d9fd",
+      "size": "25086",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=55&media=logo-monochrome",
+      "crc": "1ee41eda",
+      "md5": "c0d47512bae81cb323955e3375770d79",
+      "sha1": "049ed5e833457386e90fbfb71ce8e081b115a6c7",
+      "size": "6230",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=55&media=wheel",
+      "crc": "dc816667",
+      "md5": "d9fa69b25d3ea53b3565cca026f6a44b",
+      "sha1": "b6ec4f2f00d22c4a14a9a68d9d8dbeff8dc1d9fd",
+      "size": "25086",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3547&media=pictoliste",
+      "crc": "d2b94c01",
+      "md5": "fba8a99c34372948dcd39409267d5c94",
+      "sha1": "d65976413607bb44a983163fcf8f0c46192679e8",
+      "size": "756",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "CERO",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3621&media=pictoliste",
+      "crc": "399f10e9",
+      "md5": "a1622781ff399d0571142fb803e09c54",
+      "sha1": "20eaec1b4d905832dbfaf3fff6643757d845a0f2",
+      "size": "705",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "CERO",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3621&media=logo-monochrome",
+      "crc": "ae2c8a77",
+      "md5": "747f5e7d5d440a64f066ecc592f13899",
+      "sha1": "19b3e8723f425c74e84833f057c8f4a9749151ed",
+      "size": "16441",
+      "format": "png"
+    },
+    {
+      "id": "2903",
+      "parent": "genre",
+      "subparent": "Tir / Run and Gun",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2903&media=pictoliste",
+      "crc": "a4fb9221",
+      "md5": "86def202dcd39d55fd8b762030bb16da",
+      "sha1": "2f70185293004ec14c7ff16bfa3deb85763c660e",
+      "size": "18210",
+      "format": "png"
+    },
+    {
+      "id": "2903",
+      "parent": "genre",
+      "subparent": "Tir / Run and Gun",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2903&media=logo-monochrome",
+      "crc": "9f52a562",
+      "md5": "7215724e874468f3673b0ee42fc83a3a",
+      "sha1": "372a1fcd0e433bc7e25873aef7ff6a75bbd07045",
+      "size": "7033",
+      "format": "png"
+    },
+    {
+      "id": "2903",
+      "parent": "genre",
+      "subparent": "Tir / Run and Gun",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2903&media=logo-monochrome-svg",
+      "crc": "4d071ed3",
+      "md5": "7924c228e84a4b7d20566b33dfb94e40",
+      "sha1": "3477ef67cc9c98daf70306b10bf287a1fabdeb16",
+      "size": "1780",
+      "format": "svg"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=pictoliste",
+      "crc": "d0b14f40",
+      "md5": "155763c889de6d44fd58cd36bdfce80b",
+      "sha1": "840cb4d69672c4b48a9b9f418272010fb2b4557c",
+      "size": "872",
+      "format": "png"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=logo-monochrome",
+      "crc": "c0ab2a94",
+      "md5": "3eace7ca43a0827467c8a3d6b0ddf0c1",
+      "sha1": "5f305f34bfb22c84a8de9c35cfe3d05d1384e54b",
+      "size": "6023",
+      "format": "png"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=logo-monochrome-svg",
+      "crc": "cef80344",
+      "md5": "606c10f20d34b3433e0dd13d6d77cfd1",
+      "sha1": "99456edd47eec57be1e185340d2a1e19d193441e",
+      "size": "2427",
+      "format": "svg"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=background",
+      "crc": "cd744d4b",
+      "md5": "b794d0d78d93cf5bb0f613cd8f8118aa",
+      "sha1": "e20ebf0b23b455ba64af8231a73555d8512fb73d",
+      "size": "211172",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136051",
+      "romsize": "24592",
+      "romfilename": "Front Line (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "44D123A4",
+      "rommd5": "AB4E56CD24F931F526A06C22DB43F1DF",
+      "romsha1": "79C5F8D187B8FECC95CE5978F7BC7F6014341ECB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "101703",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "2823",
+      "romsize": "13314",
+      "romfilename": "Front Line (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D483AC47",
+      "rommd5": "959958287E36913D64F281E3592ECB77",
+      "romsha1": "3309A19719C47EE54D557AF57DB01CCA8E404281",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "90327",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1137549",
+      "romsize": "24592",
+      "romfilename": "Front Line (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "088bccf2",
+      "rommd5": "4b9df6b06750d6eb4f6e2c4bb628ba63",
+      "romsha1": "9ad355bf1400cdfe2466669c9de2329237ddc96c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "21680",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1248911",
+      "romsize": "24592",
+      "romfilename": "342 Hassle.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "7545831C",
+      "rommd5": "496AE219FE7D56D6BBBAE9D9F851CEC3",
+      "romsha1": "B601E475C5A25D54BBF0D61842320B03B21F0ABD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "21593"
+    },
+    {
+      "id": "173217",
+      "romsize": "24576",
+      "romfilename": "Front Line (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CF4DBDBE",
+      "rommd5": "5688FB95770DAE0FB2006E32B18253AB",
+      "romsha1": "F42B719D99DFF23951A912F8483F20E757FE4883",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1948",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113713",
+      "romsize": "13292",
+      "romfilename": "Front Line (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "33CC354E",
+      "rommd5": "8C6A7C0B5815FF6E4CAA268748EDDFEE",
+      "romsha1": "7041617325CAEFF476210ACFDC72E7A680A850E4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "150",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

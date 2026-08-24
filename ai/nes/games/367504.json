@@ -1,0 +1,548 @@
+{
+  "id": "367504",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Galf"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "31915",
+    "text": "Limited Run Games"
+  },
+  "developpeur": {
+    "id": "50336",
+    "text": "Spoony Bard Productions"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Galf is a retro throwback golf game that was originally part of the 2017 golf game Golf Story. It was released standalone as a fully functional NES cartridge in 2018. The game consists of nine holes and controls very similarly to Golf on the NES. The holes feature a variety of typical golf course traps and hazards. The position of your ball, what type of grass you're hitting it out of, and the current wind speed all affect your ball's power and accuracy.\r\n\r\nAs an additional bonus to the physical release, there is now a two-player mode, where each player takes their entire turn finishing the hole before the other player is allowed to tee off."
+    },
+    {
+      "langue": "de",
+      "text": "Galf ist ein Retro-Retro-Golfspiel, das ursprünglich Teil des Golfspiels Golf Story 2017 war. Es wurde 2018 als voll funktionsfähige NES-Kartusche auf den Markt gebracht. Das Spiel besteht aus neun Löchern und steuert sehr ähnlich wie Golf auf dem NES. Die Löcher verfügen über eine Vielzahl von typischen Golfplatzfallen und Gefahren. Die Position Ihres Balls, aus welcher Art von Gras Sie ihn schlagen, und die aktuelle Windgeschwindigkeit beeinflussen die Kraft und Genauigkeit Ihres Balls. Als zusätzlichen Bonus für die physische Veröffentlichung gibt es jetzt einen Zwei-Spieler-Modus, in dem jeder Spieler seine gesamte Runde nimmt, um das Loch zu beenden, bevor der andere Spieler abstosen darf."
+    },
+    {
+      "langue": "it",
+      "text": "Galf è un gioco di golf di ritorno al passato che originariamente faceva parte del gioco di golf del 2017 Golf Story. È stata rilasciata autonomamente come cartuccia NES completamente funzionante nel 2018. Il gioco è composto da nove buche e controlli molto simili a Golf sul NES. Le buche presentano una varietà di trappole e pericoli tipici dei campi da golf. La posizione della tua palla, il tipo di erba da cui la stai colpendo e la velocità del vento attuale influenzano la potenza e la precisione della tua palla.\r\nnnCome bonus aggiuntivo per il rilascio fisico, ora c'è una modalità a due giocatori, in cui ogni giocatore svolge l'intero turno finendo la buca prima che l'altro giocatore possa iniziare."
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2018-09-28"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2913",
+      "nomcourt": "0602",
+      "principale": "0",
+      "parentid": "685",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports / Golf"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport / Golf"
+        },
+        {
+          "langue": "de",
+          "text": "Sport / Golf"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes / Golf"
+        },
+        {
+          "langue": "it",
+          "text": "Sport / Golf"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte / Golfe"
+        }
+      ]
+    },
+    {
+      "id": "685",
+      "nomcourt": "0600",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport"
+        },
+        {
+          "langue": "de",
+          "text": "Sport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes"
+        },
+        {
+          "langue": "it",
+          "text": "Sport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "1438651b",
+      "md5": "12e97e7bc9af604b6546c3a4a73751b3",
+      "sha1": "86606c6004279abb6b03032c0977713b2468df51",
+      "size": "3141",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=ss(wor)",
+      "region": "wor",
+      "crc": "3949c934",
+      "md5": "c3449ec79a5270e00b97300a214e829e",
+      "sha1": "6f1a3be66915df6a59a28cf2766f520177237792",
+      "size": "5707",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=video",
+      "crc": "396df9d5",
+      "md5": "73f7a350859a0d57f0fa695e0476d2fd",
+      "sha1": "4eba10700f9c2a94b394065a37cbb277254af5b2",
+      "size": "909391",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=video-normalized",
+      "crc": "62049573",
+      "md5": "12562a93c704535d9105e8b796c960a1",
+      "sha1": "82ec17c24bb0e0b6a3e09ebf853134f255a067ad",
+      "size": "376152",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=steamgrid",
+      "crc": "e6b5cef3",
+      "md5": "b46dc1394c60d2d23023c885c2e6e55e",
+      "sha1": "7f923d9e5bd6b6ba7df0e6bd802355a9fd412d13",
+      "size": "27479",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=wheel-hd(wor)",
+      "region": "wor",
+      "crc": "6cd1da5c",
+      "md5": "8453032b214001b4f217950927b48b7b",
+      "sha1": "7209807531b857d82672a32dc789bcbc4af3ad8a",
+      "size": "61442",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "75e3560a",
+      "md5": "7ab113fba54053cb037d0a9c071e749f",
+      "sha1": "2c78d646115698c9a173667ad11e841dd20f7cce",
+      "size": "100858",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "89f2202f",
+      "md5": "89a1849c455b7cffd3734f5bfc138023",
+      "sha1": "d415a59154b9c77dddd2deb8757736d09512c172",
+      "size": "102063",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "414355bf",
+      "md5": "a88256dceb2cdeaf6ab96c7c393da10c",
+      "sha1": "f28d66d359726459c08dc686084dfe3177e24455",
+      "size": "469669",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "9630a3d5",
+      "md5": "03b652a7e93c265a9131f62d469e3755",
+      "sha1": "df8ed41d951e87c4ced40f4501145f9acae4f4ab",
+      "size": "78993",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "1b0c9949",
+      "md5": "b24a6a894f9d84b812ef15f3f8157282",
+      "sha1": "1c522db200b96f8cbff44704bfdcfe791aa4678a",
+      "size": "123972",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=box-2D(wor)",
+      "region": "wor",
+      "crc": "42d83fc1",
+      "md5": "1e2fa3753df0f3b67e435a5e0ab344ab",
+      "sha1": "7dddc457286c4674c239bb71b63bbb00f3d88348",
+      "size": "572062",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "b43db417",
+      "md5": "afb6bbacadaa1b46db94a8797b660135",
+      "sha1": "5f784042e212864d5e453a12a00ca985c3d7cdfe",
+      "size": "37052",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=box-2D-side(wor)",
+      "region": "wor",
+      "crc": "adbca04a",
+      "md5": "d3b8c9b0b23b3f36def273a7a101e707",
+      "sha1": "8408679fdca0d87b366e113fca97d6279b654b47",
+      "size": "21800",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "65f3238f",
+      "md5": "3494ea403383a754bd76c4176dac8a21",
+      "sha1": "213105b1e3ca26e5400d39eaba64206ba60668d0",
+      "size": "141003",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=box-2D-back(wor)",
+      "region": "wor",
+      "crc": "16259a17",
+      "md5": "4597c68e9875302868e32e559597f5ba",
+      "sha1": "3830ebf387c3875a166625900ada4cbd4879ac75",
+      "size": "579671",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "79cd5444",
+      "md5": "0cf3f239315c51791d0d1ec909be2f78",
+      "sha1": "b6726579bad4a45275c5bf695b56321025ef4568",
+      "size": "319914",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=box-texture(wor)",
+      "region": "wor",
+      "crc": "c60a9f7d",
+      "md5": "fd37f81d3138e426101004950be2a6bc",
+      "sha1": "942393359f548c7f58e871392977efafe0b0e18f",
+      "size": "1189082",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "934881e7",
+      "md5": "8d088835a4e414f03fbfe0349fb6f11b",
+      "sha1": "894e963088332e529bcb8572c7711a65a1fcd969",
+      "size": "122254",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=box-3D(wor)",
+      "region": "wor",
+      "crc": "a38da57c",
+      "md5": "e68dede1a9672a2459543db0fbb97b1b",
+      "sha1": "3ec34f16dbf82a78498aee7a5e26534da14f03f0",
+      "size": "247867",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=support-texture(wor)",
+      "region": "wor",
+      "crc": "60cd1b7c",
+      "md5": "dd2f8c2ef7b2316400f107d17f91a659",
+      "sha1": "81503644e0ad163dfcce84d8e7130c2857f2b185",
+      "size": "417269",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=support-2D(wor)",
+      "region": "wor",
+      "crc": "110f012c",
+      "md5": "230e2f3438bf575ced866b94b8ce48b3",
+      "sha1": "3bf9518db8f68c464cbda6fb76af1d6acd8914c0",
+      "size": "334747",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "a273a6b7",
+      "md5": "c41d8d7526a8ae13f7de2bd3034d10ba",
+      "sha1": "7b77e2e445d387b8d1782433e036c7f07198d2cd",
+      "size": "221694",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "9ab81786",
+      "md5": "58ae1fa287cfb7d46fbfd6c7dbd3d0aa",
+      "sha1": "a966e5270bb90f16c3179bd43c0ef88a52ddeb8e",
+      "size": "285665",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "025680c0",
+      "md5": "f9e5481a2ca09feab24537161314e7c1",
+      "sha1": "3ad66370d29f72d6a9a24835bbead6509be7e4d0",
+      "size": "359970",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367504&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "7bf3f706",
+      "md5": "34baf345286cc988bc07bb1be2a80feb",
+      "sha1": "acd1e32380559bb6c7bd595d0ce2c5ac79672f3e",
+      "size": "417504",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=31915&media=wheel",
+      "crc": "1d47ad14",
+      "md5": "7500f36d3aff074ffe88e7895cb80c64",
+      "sha1": "eee81f7047e60b045684ae69abc307d0c003dcee",
+      "size": "18781",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "id": "2913",
+      "parent": "genre",
+      "subparent": "Sport / Golf",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2913&media=pictoliste",
+      "crc": "a50a5ffc",
+      "md5": "b18c4dfa34dbea5102b52aef4b5b4adf",
+      "sha1": "85d73cd160f19addb4f94da206d227f71378fee5",
+      "size": "18306",
+      "format": "png"
+    },
+    {
+      "id": "2913",
+      "parent": "genre",
+      "subparent": "Sport / Golf",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2913&media=logo-monochrome",
+      "crc": "047fdecf",
+      "md5": "47988ec5f1c3d5afed18367abf3dd7b9",
+      "sha1": "e0fbd827bd1add3236516c2d7832290f6a6efb22",
+      "size": "17943",
+      "format": "png"
+    },
+    {
+      "id": "2913",
+      "parent": "genre",
+      "subparent": "Sport / Golf",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2913&media=logo-monochrome-svg",
+      "crc": "ca6eca50",
+      "md5": "b60c5621076bb46f6479da32a86f0a7e",
+      "sha1": "991cd8434c36a678d345959fcb31db4e703d897f",
+      "size": "1971",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome",
+      "crc": "6a963ad9",
+      "md5": "6daf840fab2d205bda9bad4ff16f4c95",
+      "sha1": "f5e795233a8013aa0d992e197d56d09a63513403",
+      "size": "18286",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome-svg",
+      "crc": "328c7db2",
+      "md5": "4298fc7c8887c1b97cec6ee0b5d72433",
+      "sha1": "8f59a9ec18c48a7246c3b13e19c6c5857bc95513",
+      "size": "4269",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=background",
+      "crc": "a3265ffe",
+      "md5": "65308af4ddc9782f6717f000eea7f28a",
+      "sha1": "bccce8f0defa7c25313eb5ced7cdf71555c5a85d",
+      "size": "185482",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1079044",
+      "romsize": "262144",
+      "romfilename": "Galf (World) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3a96f1b1",
+      "rommd5": "476aaf0a197a357bc3d15978b1b35bb0",
+      "romsha1": "db7a3bae421808f190b4feb35482c2eb1299e7e0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10617"
+    },
+    {
+      "id": "1137636",
+      "romsize": "262160",
+      "romfilename": "Galf (World) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "68b68a9f",
+      "rommd5": "aebff1a939d4a0f884ae606ad59e2c6a",
+      "romsha1": "ded65fb15f96037255515b61dc910ce077507018",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3867"
+    }
+  ]
+}

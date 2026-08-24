@@ -1,0 +1,770 @@
+{
+  "id": "420987",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Anguna - Scourge of the Goblin King"
+    },
+    {
+      "region": "wor",
+      "text": "Anguna : Scourge of the Goblin King"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "63817",
+    "text": "The 6502 Collective"
+  },
+  "developpeur": {
+    "id": "69086",
+    "text": "Bite The Chili Productions"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Anguna: Scourge of the Goblin King is a new action-adventure game for the original NES! Grab your sword, escape the dungeon, and slay the Goblin King in this epic new NES homebrew game. This exciting new chapter in the Anguna series continues the tale of our unfortunate hero as he once again finds himself imprisoned by a great evil. In your quest, you will need to find items, gain experience, crush evil hordes of minions, and defeat harrowing bosses! Do you have what it takes to save the Land of Anguna?"
+    },
+    {
+      "langue": "de",
+      "text": "Anguna: Scourge of the Goblin King ist ein neues Action-Adventure-Spiel für das ursprüngliche NES! Schnappen Sie sich Ihr Schwert, entkommen Sie dem Kerker und töten Sie den Goblin King in diesem epischen neuen NES Homebrew-Spiel. Dieses aufregende neue Kapitel der Anguna-Serie setzt die Geschichte unseres unglücklichen Helden fort, als er sich erneut von einem großen Übel eingesperrt sieht. In Ihrer Suche müssen Sie Gegenstände finden, Erfahrung sammeln, böse Horden von Günstlingen zerschlagen und erschütternde Bosse besiegen! Haben Sie das Zeug dazu, das Land Anguna zu retten?"
+    },
+    {
+      "langue": "es",
+      "text": "Anguna: Scourge of the Goblin King es un nuevo juego de acción y aventura para la NES original. Empuña tu espada, escapa de la mazmorra y derrota al Rey Goblin en este épico juego independiente para NES. Este emocionante capítulo de la saga Anguna continúa la historia de nuestro desventurado héroe, quien una vez más se encuentra prisionero de un gran mal. En tu misión, deberás encontrar objetos, ganar experiencia, aplastar hordas de secuaces malvados y derrotar a jefes temibles. ¿Tienes lo que se necesita para salvar la Tierra de Anguna?"
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2021-11-27"
+    }
+  ],
+  "genres": [
+    {
+      "id": "20688",
+      "nomcourt": "0301",
+      "principale": "0",
+      "parentid": "8",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Action RPG"
+        },
+        {
+          "langue": "fr",
+          "text": "Action RPG"
+        },
+        {
+          "langue": "de",
+          "text": "Action-RPG"
+        },
+        {
+          "langue": "es",
+          "text": "RPG de Acción"
+        },
+        {
+          "langue": "it",
+          "text": "RPG di Azione"
+        },
+        {
+          "langue": "pt",
+          "text": "RPG de Ação"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "nomcourt": "0300",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Role Playing Game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de rôles"
+        },
+        {
+          "langue": "de",
+          "text": "Rollenspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de Rol"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di Ruolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogos de RPG"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "e7ccfc88",
+      "md5": "f0206339681aca665285c5456b0200dd",
+      "sha1": "1d65fddd26aff9407c0d91888dd95ebccd18f17c",
+      "size": "5500",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=ss(wor)",
+      "region": "wor",
+      "crc": "eb8cfe81",
+      "md5": "2817277108646197390c49a0ea5d52c8",
+      "sha1": "69886e81dd839e22f3b238b40806f79358170f2a",
+      "size": "4159",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=video",
+      "crc": "46b00997",
+      "md5": "d5894d62c20f7aa9fdd69a6aefbc7c71",
+      "sha1": "84047c4a282856c90c1e1b3c6c5e3184d757aa70",
+      "size": "1196058",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=video-normalized",
+      "crc": "e5d172d8",
+      "md5": "92de5c30ddb391f636d821f14b271535",
+      "sha1": "ffd8d5dc46fddc21437a1ebb780e627fc9978553",
+      "size": "579041",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=steamgrid",
+      "crc": "f6cab932",
+      "md5": "61295b19d7e5c49bb6cd4b29c4558687",
+      "sha1": "472b1cd04420df065db411111bbd161a48b284aa",
+      "size": "28105",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=wheel(wor)",
+      "region": "wor",
+      "crc": "47bd30cf",
+      "md5": "aeec93cd42189c86caa59c43e7f46b7e",
+      "sha1": "2ef6e2c35a2b3e6172280e9147a623257653b726",
+      "size": "246158",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "93649da4",
+      "md5": "8233f55888267b632a635a7f029d046a",
+      "sha1": "d6942e786f2203dfe0d133c266aada18019a96ac",
+      "size": "172913",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "37209632",
+      "md5": "b77c5396f9ff1dca9467041cb2f27e64",
+      "sha1": "c5bd702fa1dfb488c2ac223855714369f462a584",
+      "size": "174794",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "160825d0",
+      "md5": "a69a0225e2cb58e6fc2b6fb756d721a8",
+      "sha1": "38b6099f6c73fd9b2d65b3fd0d4d40aeb3f3e591",
+      "size": "536486",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "e163a1e3",
+      "md5": "624c9cacd3a8e3fb3f87fa7085ddfd22",
+      "sha1": "8f1ac4dfd2d0c3adced0cdc6702967ac40745c67",
+      "size": "93688",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "bf2ae8cd",
+      "md5": "69c128c29357c16c9d44427ecead7c7c",
+      "sha1": "34c15292838acae646a89b73edc542ad26b1a533",
+      "size": "156399",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "8c6ab6f3",
+      "md5": "9e6bba72a8359e68987d52f1d83cf2d8",
+      "sha1": "9dd92d2cab89ac13b3048f60f6ec0cf0bc84240d",
+      "size": "34020",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "9f1068d1",
+      "md5": "fe2da2f0cb9396b3b4c5c11b29edb234",
+      "sha1": "84e3752a85bd7ac8f02eff8a7fe88aa7dfe5fd92",
+      "size": "138850",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "40276382",
+      "md5": "359e07d5310f72a16c301dfeb8684c0e",
+      "sha1": "02878e6c33d53ef7ada2701b59de6d946f3e750c",
+      "size": "343039",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "c8557474",
+      "md5": "bb748066fa271d8326d6aa6b6eeb5d4f",
+      "sha1": "cddf933ec839b938ead782ffd110c84d11b1ff3b",
+      "size": "131071",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=manuel(wor)",
+      "region": "wor",
+      "crc": "dbf0be11",
+      "md5": "32b69d281f986379df083666f7982fd9",
+      "sha1": "eb7ad5def8314a2774fca279159cddc5a20c19a5",
+      "size": "5795777",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=support-texture(wor)",
+      "region": "wor",
+      "crc": "74fc9edc",
+      "md5": "99bd7d15f1e9cb1e3915a469bb052075",
+      "sha1": "3e7adb2ebd04b155be9e7d5ea36d192dd972763d",
+      "size": "462017",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=support-2D(wor)",
+      "region": "wor",
+      "crc": "562d200f",
+      "md5": "d46dadc708459081be54e0bed4dd1c66",
+      "sha1": "f17a414136db7641fea094c32917d0660826a3f6",
+      "size": "309235",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "3efb2e02",
+      "md5": "694380938c87a09e3a85e1010a43d37b",
+      "sha1": "091bd715bec8217f1b9813fe8fd36822d2cdc50a",
+      "size": "329572",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "3efb2e02",
+      "md5": "694380938c87a09e3a85e1010a43d37b",
+      "sha1": "091bd715bec8217f1b9813fe8fd36822d2cdc50a",
+      "size": "329572",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=mixrbv2(eu)",
+      "region": "eu",
+      "crc": "0b88f06e",
+      "md5": "3d6f24aa79fae1f2dfdea84525afe840",
+      "sha1": "a3f7262ea337c267af7774a1a930fa3332a17b8a",
+      "size": "464042",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "0b88f06e",
+      "md5": "3d6f24aa79fae1f2dfdea84525afe840",
+      "sha1": "a3f7262ea337c267af7774a1a930fa3332a17b8a",
+      "size": "464042",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "0b88f06e",
+      "md5": "3d6f24aa79fae1f2dfdea84525afe840",
+      "sha1": "a3f7262ea337c267af7774a1a930fa3332a17b8a",
+      "size": "464042",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=420987&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "0b88f06e",
+      "md5": "3d6f24aa79fae1f2dfdea84525afe840",
+      "sha1": "a3f7262ea337c267af7774a1a930fa3332a17b8a",
+      "size": "464042",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "20688",
+      "parent": "genre",
+      "subparent": "Action RPG",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20688&media=pictoliste",
+      "crc": "374679a5",
+      "md5": "7bcf955f0acaa222af96619bb665d75e",
+      "sha1": "0722b238122e37651a50b17e5a845444ddef0179",
+      "size": "18710",
+      "format": "png"
+    },
+    {
+      "id": "20688",
+      "parent": "genre",
+      "subparent": "Action RPG",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20688&media=logo-monochrome",
+      "crc": "a3f4a4a0",
+      "md5": "c8f392a4150547de0a6eee8ff6315167",
+      "sha1": "9bf96fc1e1d7dd8c03d899380bec8eef28ea4ae5",
+      "size": "16053",
+      "format": "png"
+    },
+    {
+      "id": "20688",
+      "parent": "genre",
+      "subparent": "Action RPG",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20688&media=logo-monochrome-svg",
+      "crc": "fa85bd4f",
+      "md5": "8fcdb6902b9591b3c8cc2ea090cbbe6e",
+      "sha1": "de74be313ae671024e261e1348e409b473355325",
+      "size": "2267",
+      "format": "svg"
+    },
+    {
+      "id": "20688",
+      "parent": "genre",
+      "subparent": "Action RPG",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20688&media=background",
+      "crc": "5a014ab1",
+      "md5": "df05a85beba421326b62c468c8c32011",
+      "sha1": "075fd8e7c133a0d10df98a351c9d69b7cf7132be",
+      "size": "236781",
+      "format": "jpg"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=pictoliste",
+      "crc": "95641466",
+      "md5": "794cfd972f1fc80058ac4a3b48644c49",
+      "sha1": "065a70a4f3307442d52de0927234ab023e94fa99",
+      "size": "997",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome",
+      "crc": "99338559",
+      "md5": "6d99859437bd123f6dede69b6866b4f4",
+      "sha1": "1b1963a801d9801b0ad107f8a15ef9acf5541bcb",
+      "size": "11154",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome-svg",
+      "crc": "9659d140",
+      "md5": "071309467ec61ec2b037f89af26780cd",
+      "sha1": "dbf9fad14dfc4a4239585b4aae80a9edaf6d4ae3",
+      "size": "2418",
+      "format": "svg"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=background",
+      "crc": "10d4d476",
+      "md5": "3eb9bd04afa99e6bddcdca913ee8d53b",
+      "sha1": "e35ce257c961fcfaca398e9dbab607bbd8bf2aa6",
+      "size": "353085",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1133934",
+      "romsize": "524304",
+      "romfilename": "Anguna - Scourge of the Goblin King (USA) (Beta) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3427a45e",
+      "rommd5": "fe24d3c6e4906d6e22e56b5f9cb2ae4d",
+      "romsha1": "6f9a5b664d5e06c110def26a67246b54a44dd6e1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8022",
+      "regions": {
+        "regions_id": [
+          "48",
+          "46"
+        ],
+        "regions_shortname": [
+          "eu",
+          "us"
+        ],
+        "regions_en": [
+          "Europe",
+          "USA"
+        ],
+        "regions_fr": [
+          "Europe",
+          "USA"
+        ],
+        "regions_de": [
+          "Europa",
+          "USA"
+        ],
+        "regions_es": [
+          "Europa",
+          "USA"
+        ],
+        "regions_it": [
+          "Europa",
+          "USA"
+        ],
+        "regions_pt": [
+          "Europa",
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1133943",
+      "romsize": "262160",
+      "romfilename": "Anguna Zero (USA) (Patreon Demo 0320) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9ec73878",
+      "rommd5": "d05d53b26203097c58375e9f1f365df1",
+      "romsha1": "8106aa4d21711af5feefae7b1cee42b43a1c898a",
+      "beta": "0",
+      "demo": "1",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4155",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1133937",
+      "romsize": "524304",
+      "romfilename": "Anguna - Scourge of the Goblin King (USA) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "e733663c",
+      "rommd5": "fac4d376d905d451e3ec2696e064385f",
+      "romsha1": "c9228eee4068df5c2ee4fef1e9a160d7b3d48c69",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3285",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1133946",
+      "romsize": "524304",
+      "romfilename": "Anguna - Scourge of the Goblin King (World) (Rev 1) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "17645a49",
+      "rommd5": "a0367111ddf09b7d3557abe82a517db2",
+      "romsha1": "8c0859a4360d257e77cf23417f754f63bb738def",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "2644"
+    },
+    {
+      "id": "1133940",
+      "romsize": "524304",
+      "romfilename": "Anguna - Scourge of the Goblin King (USA, Europe) (Limited Edition) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "b02b1d09",
+      "rommd5": "d453049711aa314069c2d45dc3efc573",
+      "romsha1": "9995af9518d7a1ffdf5a96ebe5c2929d732b3939",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2523",
+      "regions": {
+        "regions_id": [
+          "48",
+          "46"
+        ],
+        "regions_shortname": [
+          "eu",
+          "us"
+        ],
+        "regions_en": [
+          "Europe",
+          "USA"
+        ],
+        "regions_fr": [
+          "Europe",
+          "USA"
+        ],
+        "regions_de": [
+          "Europa",
+          "USA"
+        ],
+        "regions_es": [
+          "Europa",
+          "USA"
+        ],
+        "regions_it": [
+          "Europa",
+          "USA"
+        ],
+        "regions_pt": [
+          "Europa",
+          "EUA"
+        ]
+      }
+    }
+  ]
+}

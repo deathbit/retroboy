@@ -1,0 +1,2267 @@
+{
+  "id": "1586",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "After Burner"
+    },
+    {
+      "region": "us",
+      "text": "After Burner"
+    },
+    {
+      "region": "jp",
+      "text": "After Burner"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "89",
+    "text": "Tengen"
+  },
+  "developpeur": {
+    "id": "89",
+    "text": "Tengen"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "note": {
+    "text": "13"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Afterburner is a conversion of the arcade game of the same name. The goal is simple: use your F-14 Tomcat and shoot as many enemies as you can. This aircraft has two weapons: lock-on missiles and Vulcan cannons (basically machine guns). In some versions there is an option to let the cannons shoot automatically all the time.\n\nThe game is viewed from behind the plane with you fighting wave after wave of enemy fighters. But at heart it offers the usual shooter mechanics, meaning you spend most of your time dodging and shooting. Sometimes you come across a friendly supply plane and if you dock with it you can replenish your missiles."
+    },
+    {
+      "langue": "fr",
+      "text": "Directement issu des salles d'arcade, After Burner sur Nes vous permet de vous installer dans le cockpit d'un F-14 Thunder Cat pour une série de missions en haute altitude. Ce shoot'em up vous donne accès à tout l'armement que l'on peut attendre d'un avion de combat dont les précieux missiles."
+    },
+    {
+      "langue": "de",
+      "text": "Afterburner ist eine Konvertierung des gleichnamigen Arcade-Spiels. Das Ziel ist einfach: Benutze deinen F-14 Tomcat und erschieße so viele Feinde wie möglich. Dieses Flugzeug hat zwei Waffen: Lock-on-Raketen und Vulcan-Kanonen (im Grunde Maschinengewehre). In einigen Versionen gibt es eine Option, die Kanonen die ganze Zeit automatisch schießen zu lassen. Das Spiel wird hinter dem Flugzeug betrachtet, in dem Sie Welle für Welle feindlicher Kämpfer bekämpfen. Aber im Kern bietet es die übliche Shooter-Mechanik, was bedeutet, dass Sie die meiste Zeit damit verbringen, auszuweichen und zu schießen. Manchmal stoßen Sie auf ein freundliches Versorgungsflugzeug und wenn Sie damit andocken, können Sie Ihre Raketen wieder auffüllen."
+    },
+    {
+      "langue": "es",
+      "text": "Conversión a la consola de 8 bits de una de las recreativas de más éxito del momento. Con una perspectiva trasera, el jugador controla un moderno caza contra todo un ejército, usando un arsenal compuesto por ametralladoras y misíles, mientras que trata de esquivar las acometidas rivales."
+    },
+    {
+      "langue": "it",
+      "text": "Afterburner è una conversione dell'omonimo gioco arcade. L'obiettivo è semplice: usa il tuo Tomcat F-14 e spara a quanti più nemici puoi. Questo aereo ha due armi: missili di blocco e cannoni Vulcan (fondamentalmente mitragliatrici). In alcune versioni c'è un'opzione per far sparare automaticamente i cannoni in ogni momento.\r\n\r\nIl gioco è visto da dietro l'aereo con te che combatti ondate su ondate di combattenti nemici. Ma in fondo offre la solita meccanica sparatutto, il che significa che trascorri la maggior parte del tuo tempo schivando e sparando. A volte ti imbatti in un aereo di rifornimento amico e se attracchi con esso puoi rifornire i tuoi missili."
+    },
+    {
+      "langue": "pt",
+      "text": "Afterburner é uma conversão do jogo de arcade com o mesmo nome. O objetivo é simples: use o F-14 Tomcat e atire no máximo de inimigos possível. Esta aeronave possui duas armas: mísseis lock-on e canhões Vulcan (basicamente metralhadoras). Em algumas versões, há uma opção para deixar os canhões dispararem automaticamente o tempo todo.\r\n\r\nO jogo é visto de trás do avião com você lutando onda após onda de combatentes inimigos. Mas, no fundo, oferece a mecânica de tiro habitual, o que significa que você passa a maior parte do tempo se esquivando e atirando. Às vezes, você se depara com um plano de suprimentos amigável e, se você atracar nele, pode reabastecer seus mísseis."
+    }
+  ],
+  "classifications": [
+    {
+      "type": "ESRB",
+      "text": "E"
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1989-12-01"
+    },
+    {
+      "region": "jp",
+      "text": "1989-03-30"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2881",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "2646",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shooter / Plane, TPV"
+        },
+        {
+          "langue": "fr",
+          "text": "Tir / Avion, 3eme personne"
+        },
+        {
+          "langue": "de",
+          "text": "Shooter / Flugzeug, 3. Pers."
+        },
+        {
+          "langue": "es",
+          "text": "Disparos / Avión, 3ª persona"
+        },
+        {
+          "langue": "it",
+          "text": "Sparo / Aereo, 3a Persona"
+        },
+        {
+          "langue": "pt",
+          "text": "Tiro / Avião em 3ª pessoa"
+        }
+      ]
+    },
+    {
+      "id": "2646",
+      "nomcourt": "0100",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shooter"
+        },
+        {
+          "langue": "fr",
+          "text": "Tir"
+        },
+        {
+          "langue": "de",
+          "text": "Shooter"
+        },
+        {
+          "langue": "es",
+          "text": "Disparos"
+        },
+        {
+          "langue": "it",
+          "text": "Sparo"
+        },
+        {
+          "langue": "pt",
+          "text": "Tiro"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "224",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "After Burner"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "langue": "fr",
+      "titre": "Mode inversé",
+      "description": "Maintenez enfoncés les boutons A + B sur la deuxième manette, et faites Start sur la première.\n"
+    },
+    {
+      "langue": "fr",
+      "titre": "Test sonore",
+      "description": "Appuyez simultanément sur A + B + Select sur l'écran de Game Over.\n"
+    },
+    {
+      "langue": "fr",
+      "titre": "Continuer la partie",
+      "description": "Lorsque vous venez de perdre votre dernière vie, quand vous vous trouvez à l'écran After Burner bleu, faites : Gauche, Gauche, Gauche, B, B, B, A, A, A, Start. Le jeu recommencera au dernier niveau joué.\n"
+    },
+    {
+      "langue": "fr",
+      "titre": "Passer les forteresses",
+      "description": "Pour passer la première forteresse, placez-vous à gauche ou à droite et appuyez sur Pause. Il n'y aura alors plus de forteresse.\n\nAu sixième et douzième tableau, quand vous devez combattre la forteresse, mettez la manette en diagonale haut/droite ou haut/gauche, la forteresse s'en ira et vous changerez de tableau.\n"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "11c8f8e6",
+      "md5": "51e8e697831c46dda1177d68c858fe69",
+      "sha1": "868c42d03443a8d7f70a05ba0e952f9c2cac4433",
+      "size": "3280",
+      "format": "png"
+    },
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "ec83a73e",
+      "md5": "f91a75118ef9fb89a65289a205bfdc27",
+      "sha1": "78e0ca434a87bb6bd34fac4cb70240d32016807d",
+      "size": "1812",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=ss(wor)",
+      "region": "wor",
+      "crc": "6e6f164e",
+      "md5": "aff102f2bd6694c6430c17fb08565c01",
+      "sha1": "3cfbf2b2c94367f5fe5f0efc32012a3f4dd5b0d4",
+      "size": "2328",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=fanart",
+      "crc": "c5751f08",
+      "md5": "7cbd8d3729a306725ca69cc9dfb9e023",
+      "sha1": "71179e1a1a1e624d7735b98de69dcad3794440f2",
+      "size": "244474",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=video",
+      "crc": "fedb4f1d",
+      "md5": "d1eae4d4a28ffa7dbe0882b3eb6d7e49",
+      "sha1": "8110f0c975fa30c658b23ad13d4708fdd8bc17ed",
+      "size": "4066699",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=video-normalized",
+      "crc": "c8ed8e3f",
+      "md5": "44a54570dd794ebd38ddc47db7c625ec",
+      "sha1": "4a9c438847255a49affcfed0caff170aec09dbbb",
+      "size": "1458026",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=steamgrid",
+      "crc": "f08e1420",
+      "md5": "83d0b2c8c02872df0c416c726e43389d",
+      "sha1": "f94214f1ac736b238d5f0a75b71d9a940f55d38e",
+      "size": "27804",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=wheel(us)",
+      "region": "us",
+      "crc": "d2883272",
+      "md5": "e89761b255ad726b27863bbc11dd3ddb",
+      "sha1": "b1629a0d209c70eb7b0df0b74340a6bd81dd35d7",
+      "size": "80584",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=wheel-carbon(us)",
+      "region": "us",
+      "crc": "3f82d6f4",
+      "md5": "d4c5ca848c1dc1ecc1c44cd6c14b3109",
+      "sha1": "3aa976267e762fafde43f5432bf6e60330446a8e",
+      "size": "113097",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=wheel-steel(us)",
+      "region": "us",
+      "crc": "642b6605",
+      "md5": "50a229fb983466c778fda6109352377c",
+      "sha1": "bcc6990ad5f4f81c7f2410e2570fba9b5fe8d81c",
+      "size": "115096",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=screenmarquee(us)",
+      "region": "us",
+      "crc": "29c25b8f",
+      "md5": "94cf4b554882950365a06c64c1fa6224",
+      "sha1": "bc29711a1c43564512a4bf369ba5efcbd9a2ee1f",
+      "size": "472147",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=screenmarqueesmall(us)",
+      "region": "us",
+      "crc": "071dd801",
+      "md5": "184adb133e1ad4917fc1779a80ba6392",
+      "sha1": "33d03e4d48ff760647d6af5e8a27a9174aefe824",
+      "size": "74893",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "898fc315",
+      "md5": "430ebf649c1a27217283b1b3c1f5c928",
+      "sha1": "681116dd25f5907aa8ca9e4086babfdc423fdb25",
+      "size": "672060",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "ec629cd8",
+      "md5": "07e33e3350febd631a1a0cc595526917",
+      "sha1": "632b7bf76ba7d7f2c0d323ac9c6bab8d66ab8a58",
+      "size": "119769",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=box-2D(us)",
+      "region": "us",
+      "crc": "dd747ab9",
+      "md5": "1588f4907736ab4612b0d3dde471b45c",
+      "sha1": "e3201bb4018803ee044f5ad4da0ee5ecaaa8fc8b",
+      "size": "535816",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "647b76d6",
+      "md5": "00f56a56d0b6d426e4d851d7736c08f3",
+      "sha1": "1b5f2e124d35ea0d259ef6452b04efea0b3bd3ba",
+      "size": "126987",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "53ae80f7",
+      "md5": "7f8df1bbbdf5a80aa96ea8f455473481",
+      "sha1": "1c63db8df6c9a9325482b7716da4ff8728bb801c",
+      "size": "21418",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "b3b2ef8f",
+      "md5": "c379b2da2650133ce1047370656a51c8",
+      "sha1": "50bd9c244b631b55530319c1fa1acb8abbaac4dc",
+      "size": "26864",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "8d9d9340",
+      "md5": "0b0cc911173093124a79acd9152fd012",
+      "sha1": "aaa119674659ee308f5ccdafa30060b38e7bbf4e",
+      "size": "601189",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "f11a844f",
+      "md5": "ee6ba0ef5a0c6e6f38f0c1cafe3490a8",
+      "sha1": "136066267910bc703c82fe25506215f846b7dc4c",
+      "size": "144080",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "f4aa67ad",
+      "md5": "b54b536698f08fd6719f11e0d06b1b54",
+      "sha1": "779c587f1c52d9497c8775e860760128581aa1a1",
+      "size": "472139",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "e20a6d0e",
+      "md5": "cd2439719254b5e95b5bd96310e40e22",
+      "sha1": "d2962d8f4d34314eca58fdcc3e744619abf90e67",
+      "size": "1511167",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "314de0e3",
+      "md5": "a775a7629856bdd3c9177af664402b29",
+      "sha1": "5c42965d6baa14105007850ecf3d8ef399c194f0",
+      "size": "300670",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=box-texture(us)",
+      "region": "us",
+      "crc": "1f989eaf",
+      "md5": "5e89012f30d6ccaf3b5c84856cf90c12",
+      "sha1": "fc313ece6aecb74f9646fbafe1834a1ebb2619e4",
+      "size": "916721",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "600532e1",
+      "md5": "be130a77b0262599faf1d1a0712fc27b",
+      "sha1": "dcbb4da2bb15aac6e8844e993c5327e59413de2f",
+      "size": "341850",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "5824658a",
+      "md5": "b4a554e0e98a2dfc4f4a6d22e5c66c04",
+      "sha1": "11c75ff07770565b35d5b2ba6a526b6a81f2798e",
+      "size": "131843",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=box-3D(us)",
+      "region": "us",
+      "crc": "08f9d8df",
+      "md5": "96a787a5932e7c0465a73835c0e71bc2",
+      "sha1": "9fa407e25fb4b05977ada6c05d2c055be286c9b5",
+      "size": "287144",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=manuel(jp)",
+      "region": "jp",
+      "crc": "a54b51fa",
+      "md5": "090b2b19ebbb41828720f5c6885b7c46",
+      "sha1": "7b5f8b4e8b56b984c139cd5dd7d720c6a64dd9b0",
+      "size": "436290",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=manuel(us)",
+      "region": "us",
+      "crc": "0786c354",
+      "md5": "f4684f7725cdec30debd9767a6c49183",
+      "sha1": "e428381d8b78f1fddd32ebde0f39ebe4282f7fbb",
+      "size": "316151",
+      "format": "pdf"
+    },
+    {
+      "type": "figurine",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=figurine",
+      "crc": "e10c6f77",
+      "md5": "2be50f17a015b8e815ef9d1efa38e223",
+      "sha1": "25361395e30fd606260ad16fc2a27e41e628ee06",
+      "size": "159097",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "c6e9916a",
+      "md5": "e51deafec67738f85c644d4dccbe3310",
+      "sha1": "dbbbe140addb559fb15c011b3c071d388ca22770",
+      "size": "367544",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=support-texture(us)",
+      "region": "us",
+      "crc": "8d0d096e",
+      "md5": "1d8a014b8da3275462e4218b5475cb90",
+      "sha1": "e13aa249e9905f780580449dea79466d94025ed8",
+      "size": "562207",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "301cfcd5",
+      "md5": "36db9088eff4e15bf0b49699a412dacd",
+      "sha1": "15e25206ea673077c3392c352902e9c94b3f6108",
+      "size": "323989",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=support-2D(us)",
+      "region": "us",
+      "crc": "2bb56f73",
+      "md5": "aa7c8bebdb69386e4afcb1cfdd37bf3a",
+      "sha1": "1b6b031bd5992f5af6f5c5d38f52599037ba6a48",
+      "size": "462518",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "6187f8f9",
+      "md5": "bd0caaef10d3145cd082bf4736612f41",
+      "sha1": "cd955a94715d3b7ac95b77528277a15a3e13a3fa",
+      "size": "251361",
+      "format": "png"
+    },
+    {
+      "type": "themehb",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaFichierJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=themehb",
+      "crc": "81769b10",
+      "md5": "54f08be8699dcfdf469e8d2038e72fd2",
+      "sha1": "b64fcbc9f9a2a1f4d0636455540d6182fcd1c943",
+      "size": "2879993",
+      "format": "zip"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "58fd279e",
+      "md5": "f70251bae8c96223414cb7a154c50dc1",
+      "sha1": "3b2f07ca3e43809cfca897cc4b656be1aac56d5b",
+      "size": "414183",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "3a2d36f8",
+      "md5": "0385808d22af4cc8c6bde7224731c4a3",
+      "sha1": "d5511a9584a7ea6c8bcd3e8aa45dc6fd0a2b5640",
+      "size": "310127",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "353f4f66",
+      "md5": "76ca7bd602e794319b5e76f1d9282e05",
+      "sha1": "6c5c7afcdbd99958001522e782ee174573dac8e6",
+      "size": "387410",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "353f4f66",
+      "md5": "76ca7bd602e794319b5e76f1d9282e05",
+      "sha1": "6c5c7afcdbd99958001522e782ee174573dac8e6",
+      "size": "387410",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "740fe73f",
+      "md5": "6bed87770c8d429b29939b55aff8d2df",
+      "sha1": "98c0798fb16daff1421c1e9e0c83f68a681cf121",
+      "size": "578063",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=mixrbv2(nl)",
+      "region": "nl",
+      "crc": "39b8ec45",
+      "md5": "35ad5f633b4a3f5ffa0c094c2e7af645",
+      "sha1": "af401cd2f452dd54fb3a292c41b7eaff04182c80",
+      "size": "567011",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "d65f6fe2",
+      "md5": "c355c8b681616ab7e4ebf7891464277f",
+      "sha1": "368043e5b3eb38fa18bf6183e458daf735c689a1",
+      "size": "523109",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "39b8ec45",
+      "md5": "35ad5f633b4a3f5ffa0c094c2e7af645",
+      "sha1": "af401cd2f452dd54fb3a292c41b7eaff04182c80",
+      "size": "567011",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1586&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "39b8ec45",
+      "md5": "35ad5f633b4a3f5ffa0c094c2e7af645",
+      "sha1": "af401cd2f452dd54fb3a292c41b7eaff04182c80",
+      "size": "567011",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=89&media=logo-monochrome",
+      "crc": "4f7e379a",
+      "md5": "4ed8f2e49c943fc0bf820a0c4b38052e",
+      "sha1": "6478cce4648409ed71611914adb495d1cb96bc1b",
+      "size": "8640",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=89&media=wheel",
+      "crc": "ab5a1f29",
+      "md5": "20740086419e10595ae3cfa6112c0f28",
+      "sha1": "ca51ec55f905b850ac81500693e8de54004d2876",
+      "size": "25004",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=89&media=logo-monochrome",
+      "crc": "4f7e379a",
+      "md5": "4ed8f2e49c943fc0bf820a0c4b38052e",
+      "sha1": "6478cce4648409ed71611914adb495d1cb96bc1b",
+      "size": "8640",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=89&media=wheel",
+      "crc": "ab5a1f29",
+      "md5": "20740086419e10595ae3cfa6112c0f28",
+      "sha1": "ca51ec55f905b850ac81500693e8de54004d2876",
+      "size": "25004",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3552&media=pictoliste",
+      "crc": "d7016832",
+      "md5": "c190e45f182b9e61d0f4557f835811c2",
+      "sha1": "deae2ba1c990cb77fc571e93638df50ccb89de0f",
+      "size": "866",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=pictoliste",
+      "crc": "cafca3d7",
+      "md5": "51bfa81c19838bc679411a7b6f4053e2",
+      "sha1": "92253cf472ed8e71780c29ddeb6c6e260325ce1f",
+      "size": "593",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=logo-monochrome",
+      "crc": "e4f09f59",
+      "md5": "031f5b008fd851f56fea852bf9f95126",
+      "sha1": "8160d583dde154dcbd717217182d2b310e756e92",
+      "size": "10670",
+      "format": "png"
+    },
+    {
+      "id": "2881",
+      "parent": "genre",
+      "subparent": "Tir / Avion, 3eme personne",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2881&media=pictoliste",
+      "crc": "03d2801e",
+      "md5": "2202df8383ec5691982c85f6a155bbfb",
+      "sha1": "3484ac8244f0c9c23d33dbfcdacfeb636cfd3f61",
+      "size": "18584",
+      "format": "png"
+    },
+    {
+      "id": "2881",
+      "parent": "genre",
+      "subparent": "Tir / Avion, 3eme personne",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2881&media=logo-monochrome",
+      "crc": "152b54f7",
+      "md5": "79a5effb99fce03e4ccf4796495925eb",
+      "sha1": "4e862d35fad56e626f748d9da8c769ce956ed12b",
+      "size": "18996",
+      "format": "png"
+    },
+    {
+      "id": "2881",
+      "parent": "genre",
+      "subparent": "Tir / Avion, 3eme personne",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2881&media=logo-monochrome-svg",
+      "crc": "38a0fc9d",
+      "md5": "b04c2497d324aee5cb969e56d9f7fb69",
+      "sha1": "0952eda2e5cd191d1997ae24d7233145f6c2ae79",
+      "size": "4967",
+      "format": "svg"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=pictoliste",
+      "crc": "d0b14f40",
+      "md5": "155763c889de6d44fd58cd36bdfce80b",
+      "sha1": "840cb4d69672c4b48a9b9f418272010fb2b4557c",
+      "size": "872",
+      "format": "png"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=logo-monochrome",
+      "crc": "c0ab2a94",
+      "md5": "3eace7ca43a0827467c8a3d6b0ddf0c1",
+      "sha1": "5f305f34bfb22c84a8de9c35cfe3d05d1384e54b",
+      "size": "6023",
+      "format": "png"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=logo-monochrome-svg",
+      "crc": "cef80344",
+      "md5": "606c10f20d34b3433e0dd13d6d77cfd1",
+      "sha1": "99456edd47eec57be1e185340d2a1e19d193441e",
+      "size": "2427",
+      "format": "svg"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=background",
+      "crc": "cd744d4b",
+      "md5": "b794d0d78d93cf5bb0f613cd8f8118aa",
+      "sha1": "e20ebf0b23b455ba64af8231a73555d8512fb73d",
+      "size": "211172",
+      "format": "jpg"
+    },
+    {
+      "id": "224",
+      "parent": "famille",
+      "subparent": "After Burner",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=224&media=figurine",
+      "crc": "e10c6f77",
+      "md5": "2be50f17a015b8e815ef9d1efa38e223",
+      "sha1": "25361395e30fd606260ad16fc2a27e41e628ee06",
+      "size": "159097",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135305",
+      "romsize": "393232",
+      "romfilename": "After Burner (USA) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A0C558A9",
+      "rommd5": "7A8D6A95E31C90286250D2BD6D03D622",
+      "romsha1": "D7DF3ED86114ED9426AE77384F67498B573451DC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "317960",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1493",
+      "romsize": "206628",
+      "romfilename": "After Burner.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A838F7C2",
+      "rommd5": "0905E4867B20C1562ACBCC5617D24011",
+      "romsha1": "CE3B5C8FD2E156AC6EA5C0175D19CABA0CA9165D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "110350",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "57",
+          "46"
+        ],
+        "regions_shortname": [
+          "wor",
+          "us"
+        ],
+        "regions_en": [
+          "World",
+          "USA"
+        ],
+        "regions_fr": [
+          "Monde",
+          "USA"
+        ],
+        "regions_de": [
+          "World",
+          "USA"
+        ],
+        "regions_es": [
+          "Mundo",
+          "USA"
+        ],
+        "regions_it": [
+          "Mondo",
+          "USA"
+        ],
+        "regions_pt": [
+          "Mundo",
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "135304",
+      "romsize": "393232",
+      "romfilename": "150 After Burner.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A4928096",
+      "rommd5": "D4E8504A98BED9FE6A45B6011FD2CB45",
+      "romsha1": "49B7BCFC6D7F71AF5FD97C1DA709C1EB407AE4C3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "107768",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "2066",
+      "romsize": "126906",
+      "romfilename": "After Burner (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "AA40547D",
+      "rommd5": "CD9A613140171FC2BD3D74B96C8EE5C9",
+      "romsha1": "BD461FE3E9EB558A04A9B537A7091A993A4E6E34",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "39900",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "528308",
+      "romsize": "153320",
+      "romfilename": "AfterBurner2.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "853956D2",
+      "rommd5": "59F4F5379BF22C48BB6CDCA0F7673CD1",
+      "romsha1": "05010688CA2B9C3BDEDC3FBA552342CA8B9AFBD9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "33418"
+    },
+    {
+      "id": "588706",
+      "romsize": "393232",
+      "romfilename": "After Burner II.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "911B1A96",
+      "rommd5": "A2847B9DFEE14528EDF53FAD0D9E90D7",
+      "romsha1": "8BD7471E2ADD115EDFC46248DAF0E2FDE5E9F7C5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "33024",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "2065",
+      "romsize": "151767",
+      "romfilename": "After Burner (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "EA3A4B53",
+      "rommd5": "F13C74EBCFF0E902ECC3C07DD784D6AD",
+      "romsha1": "E448C6B45D11900A5CE8CB1A69BBE87B47D9CA43",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "22417",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1133709",
+      "romsize": "393232",
+      "romfilename": "After Burner (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a4ac4a21",
+      "rommd5": "01ea62e551b3709deceaae5d3c0623a4",
+      "romsha1": "2ab2e4adc4c039be1189d20efcff1971778a412a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19039",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "528382",
+      "romsize": "127401",
+      "romfilename": "After Burner (U).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7624A46A",
+      "rommd5": "302BB6D4278A4199E0BA7404FD4ACE0F",
+      "romsha1": "C7A5E9EBFD60121351C346B0761A26795D902765",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14710",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1133706",
+      "romsize": "393232",
+      "romfilename": "After Burner (USA) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a0fb921e",
+      "rommd5": "92ebd1eeb0c66b5eb6f7fcf9bd25a756",
+      "romsha1": "7caf9474112d11f5b29b8042b90186c0c1dc2ddb",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11799",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "546508",
+      "romsize": "393360",
+      "romfilename": "AfterBurner(Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "89F4767D",
+      "rommd5": "0BC9B100B69D965C5E2F6F134F2D9DF7",
+      "romsha1": "DD413C48FABBBFB05C69C1BB459A31DF852E6B32",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10532",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "130"
+        ],
+        "regions_shortname": [
+          "nl"
+        ],
+        "regions_en": [
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Holanda"
+        ],
+        "regions_it": [
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "523258",
+      "romsize": "126216",
+      "romfilename": "After Burner (Unl) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "53C92908",
+      "rommd5": "523EFCFBA6853BCE2C3B72C964348C6D",
+      "romsha1": "261BEACDD7D6F417EF97AB8363D000C634397AD9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10519",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "130"
+        ],
+        "regions_shortname": [
+          "nl"
+        ],
+        "regions_en": [
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Holanda"
+        ],
+        "regions_it": [
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "472499",
+      "romsize": "127491",
+      "romfilename": "After Burner (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C8F273B3",
+      "rommd5": "929BFF9949FE269A36077B5EDD515E43",
+      "romsha1": "65DBC304750837F0FE80941D47D2713373D3FBD5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8064",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "528383",
+      "romsize": "127413",
+      "romfilename": "After Burner (Unl) (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D338BB61",
+      "rommd5": "6A2DA5CAB35BED3C61486439C0DF66A0",
+      "romsha1": "75BA0D9DE15855B9F01D00D9AE0F5A2D02617BCC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4032",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "172453",
+      "romsize": "393216",
+      "romfilename": "After Burner (USA) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F699EE7E",
+      "rommd5": "05A060C597E1E5DC251A4AD309ECED65",
+      "romsha1": "56C3D55654D0E837082978505653F6E1E0D52D6F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2374",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "172454",
+      "romsize": "393216",
+      "romfilename": "After Burner (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F2CE3641",
+      "rommd5": "90569ABF1E02215E77DAEB20CF0B4351",
+      "romsha1": "BCD6794579A743211CF96A306EB97E74A0C33EF6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1939",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "478888",
+      "romsize": "126264",
+      "romfilename": "After Burner (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0E41D384",
+      "rommd5": "9568B0F45D552EAB090F22A79A6669A5",
+      "romsha1": "DF38037DEE30D5C3C464DBD6364FCF27377BFB5B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "421",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "565771",
+      "romsize": "125267",
+      "romfilename": "After Burner (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "19F50E41",
+      "rommd5": "AA1945B5E7409BF78DE7BE2FD5BCB904",
+      "romsha1": "2DEDAC8417E1A9F1C65E154EAC5913CBCE41DD09",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "289",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "112941",
+      "romsize": "151745",
+      "romfilename": "After Burner (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D51FF84C",
+      "rommd5": "25948F96D6320AEA18F78D8BDECD07AB",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "133",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "112942",
+      "romsize": "126884",
+      "romfilename": "After Burner (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "49460390",
+      "rommd5": "8442B227A0B41D6E5A7AFE780C1BC2A7",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "90",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    }
+  ]
+}

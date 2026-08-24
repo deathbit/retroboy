@@ -1,0 +1,117 @@
+{
+  "id": "538316",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Magnetizer"
+    },
+    {
+      "region": "wor",
+      "text": "Magnetizer"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "developpeur": {
+    "id": "113198",
+    "text": "Jakim"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Escape the maze - but beware, as Magnetizer only stops moving when it hits a wall or object! A classic puzzle maze adventure! This NES port was based on the original game by Wackiejackie."
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2023-04-24"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=538316&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "50e70c97",
+      "md5": "163a73ea75d7c76282b8d29279dfaacb",
+      "sha1": "8d5508032504e04e6858219fdc1ccaaa381f73b6",
+      "size": "3242",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=538316&media=ss(wor)",
+      "region": "wor",
+      "crc": "63c33af7",
+      "md5": "434f12e65a7d8a04827a721f2f8dfebc",
+      "sha1": "f9161af989b5dd0db0cca392af48c61f12b4e5d0",
+      "size": "3662",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=538316&media=manuel(wor)",
+      "region": "wor",
+      "crc": "39cb0410",
+      "md5": "5c039dd0dd73a424fe7f4e014f9fbbf5",
+      "sha1": "5e8e696d76e2740e2cb5ee72d181f93da8f77bd3",
+      "size": "242843",
+      "format": "pdf"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=538316&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "697c060f",
+      "md5": "a8c86c04bba40bfa03b3ff09ec20ebe1",
+      "sha1": "386246c84ec2fa437854a617b61ed8ae37ddce6b",
+      "size": "167931",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=538316&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "cc6a6cef",
+      "md5": "ae59ff19301d3b58ea330dbf81ae0b50",
+      "sha1": "a6907f43abb293e7c5181aa0a272b70855d18744",
+      "size": "318500",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1392635",
+      "romsize": "15052",
+      "romfilename": "Magnetizer (World) (Proto) (2023-04-03) (Aftermarket) (Unl).zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "c583d656",
+      "rommd5": "279ecbc443bd1ce71d13d4d74821fdef",
+      "romsha1": "df04baf5294877c9a362c8ecaae3d8a550bb0e7c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "793"
+    }
+  ]
+}

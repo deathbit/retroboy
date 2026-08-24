@@ -1,0 +1,811 @@
+{
+  "id": "88363",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Ide Yousuke Meijin No Jissen Mahjong 2"
+    },
+    {
+      "region": "jp",
+      "text": "Ide Yousuke Meijin no Jissen Mahjong II"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "31",
+    "text": "Capcom"
+  },
+  "developpeur": {
+    "id": "522",
+    "text": "Arc System Works"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "It is the sequel to the third of a trio of third party Mahjong games developed for the Nintendo Famicom within two months during 1987 including Mahjong Kazoku by Irem and Family Mahjong by Namco. It is the most unique for two reasons. The first is that it ships with a unique controller explicitly designed for Mahjong games. The second is that it does not play the traditional mahjong game, but rather a variation of the game known as &quot;Reach Mahjong&quot; or &quot;Attack Mahjong&quot;."
+    },
+    {
+      "langue": "fr",
+      "text": "Il s'agit de la suite du troisième d'un trio de jeux de mah-jong tiers développés pour la Nintendo Famicom en deux mois au cours de l'année 1987, dont Mahjong Kazoku d'Irem et Family Mahjong de Namco. Il est le plus unique pour deux raisons. La première est qu'il est livré avec une manette unique explicitement conçue pour les jeux de Mahjong. La seconde est qu'il ne joue pas au jeu de mahjong traditionnel, mais plutôt à une variation du jeu connue sous le nom de &quot;Reach Mahjong&quot; ou &quot;Attack Mahjong&quot;."
+    },
+    {
+      "langue": "de",
+      "text": "Es ist die Fortsetzung des dritten eines Trios von Mahjong-Spielen von Drittanbietern, die innerhalb von zwei Monaten im Jahr 1987 für die Nintendo Famicom entwickelt wurden, darunter Mahjong Kazoku von Irem und Family Mahjong von Namco. Es ist aus zwei Gründen am einzigartigsten. Die erste ist, dass es mit einem einzigartigen Controller geliefert wird, der explizit für Mahjong-Spiele entwickelt wurde. Die zweite ist, dass es nicht das traditionelle Mahjong-Spiel spielt, sondern eine Variante des Spiels, das als &quot;Reach Mahjong&quot; oder &quot;Attack Mahjong&quot; bekannt ist."
+    },
+    {
+      "langue": "es",
+      "text": "Es la secuela del tercero de un trío de juegos Mahjong de terceros desarrollados para Nintendo Famicom dentro de dos meses durante 1987, incluidos Mahjong Kazoku de Irem y Family Mahjong de Namco. Es el más singular por dos razones. La primera es que viene con un controlador único diseñado explícitamente para juegos de Mahjong. El segundo es que no juega el juego tradicional de mahjong, sino más bien una variación del juego conocido como &quot;Reach Mahjong&quot; o &quot;Attack Mahjong&quot;."
+    },
+    {
+      "langue": "it",
+      "text": "È il sequel del terzo di un trio di giochi Mahjong di terze parti sviluppati per Nintendo Famicom entro due mesi nel 1987, inclusi Mahjong Kazoku di Irem e Family Mahjong di Namco. È il più singolare per due motivi. Il primo è che viene fornito con un controller unico progettato esplicitamente per i giochi Mahjong. Il secondo è che non riproduce il tradizionale gioco del mahjong, ma piuttosto una variazione del gioco noto come &quot;Reach Mahjong&quot; o &quot;Attack Mahjong&quot;."
+    },
+    {
+      "langue": "pt",
+      "text": "É a sequência do terceiro de um trio de jogos de Mahjong desenvolvidos para Nintendo Famicom em dois meses durante 1987, incluindo Mahjong Kazoku de Irem e Family Mahjong da Namco. É o mais exclusivo por duas razões. A primeira é que ele vem com um controlador exclusivo projetado explicitamente para jogos de Mahjong. A segunda é que ele não joga o tradicional jogo de mahjong, mas sim uma variação do jogo conhecido como &quot;Reach Mahjong&quot; ou &quot;Attack Mahjong&quot;."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1991-02-22"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2869",
+      "nomcourt": "0800",
+      "principale": "0",
+      "parentid": "2647",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Mahjong"
+        },
+        {
+          "langue": "fr",
+          "text": "Mahjong"
+        },
+        {
+          "langue": "de",
+          "text": "Mahjong"
+        },
+        {
+          "langue": "es",
+          "text": "Mahjong"
+        },
+        {
+          "langue": "it",
+          "text": "Mahjong"
+        },
+        {
+          "langue": "pt",
+          "text": "Mahjong"
+        }
+      ]
+    },
+    {
+      "id": "2647",
+      "nomcourt": "0800",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Asiatic board game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de societe asiatique"
+        },
+        {
+          "langue": "de",
+          "text": "Asiatische Brettspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de mesa asiático"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di società asiatico"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogo de tabuleiro Asiático"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "d27195c5",
+      "md5": "1fb8111c18393fa98909612c0d323f0f",
+      "sha1": "afe0c5918081543a5f2b4bb57baa909223ad74b0",
+      "size": "3048",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=ss(jp)",
+      "region": "jp",
+      "crc": "e8ec6208",
+      "md5": "2d4fdd9ba012ac56a302163854eda112",
+      "sha1": "5f03b15ff373ab0a402876e8d89c3dd4b346db28",
+      "size": "2601",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=video",
+      "crc": "914383f9",
+      "md5": "eb96abd6cf81e40cf37615bd00296e67",
+      "sha1": "06ecf00a8a4783c0e29dcdcfac7fd42077c6f32f",
+      "size": "1238591",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=video-normalized",
+      "crc": "9cfdde14",
+      "md5": "ab62f2bf9ed0adfd8d0dc09b784aa918",
+      "sha1": "60cbc69415e2d4729c8fa2c574ec39e8e3aea9b3",
+      "size": "498451",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=steamgrid",
+      "crc": "f1a6cf15",
+      "md5": "2c8cf1f1f89104401a02fe82e22652f7",
+      "sha1": "72fa7ee0e8b086c4e56f06f075506c89f4f7ba34",
+      "size": "31706",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=wheel(jp)",
+      "region": "jp",
+      "crc": "ecf9e8a4",
+      "md5": "7b121c8171fe00bed8d916627c34cc05",
+      "sha1": "7aa94d27681241d60fa113bda2f9e4db9efb047e",
+      "size": "146086",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "18cbe528",
+      "md5": "11b35e4ce7127018eb9f83b1116d99d4",
+      "sha1": "b785073492c6542fe29a23f588d09483c529a543",
+      "size": "134972",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "ac2e5be3",
+      "md5": "2d223583ba3949995a38d19c175d38e5",
+      "sha1": "d352208803d7d8a21d6941f5e3e2f94936cb4cd7",
+      "size": "136166",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "12fde0ad",
+      "md5": "180986f3682296c77b24ae5854bcf28a",
+      "sha1": "e4251d797ddc704ac96179ab2f80724c0fa61834",
+      "size": "511447",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "86cc43d5",
+      "md5": "41145e99d6b71010a704d26b926cd1bd",
+      "sha1": "50b9dca4c9b39b9b4ec4c7f1db1c35ff4f71c602",
+      "size": "86123",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "590bb010",
+      "md5": "a944c00161c0e8e49bb9726d1768b701",
+      "sha1": "8ea7f19ad3b9f11eb8ad0426339538656bb99e96",
+      "size": "702533",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "102acb20",
+      "md5": "1ccdb1feef28d809d706c5c9f96a0bce",
+      "sha1": "db2aa7c9ff32105845627fd2a26b547621c8ce25",
+      "size": "149286",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "ad73c5b7",
+      "md5": "26660c93fa55033036184c8093e6a8a3",
+      "sha1": "b13e5f13feb432e45cc0d35f83f3955a26ed62f2",
+      "size": "122733",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "27c34551",
+      "md5": "6ececd7e55cfb49fef8686f9440d1316",
+      "sha1": "8316d120c3a2739e3e4499dd5ab1bf07c09ef93d",
+      "size": "31814",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "76e149e6",
+      "md5": "20686e0383ffe55a9ffac9b9f11eaea2",
+      "sha1": "e200aa0c2b3947adddadd908a1d160b6f68cd769",
+      "size": "2302",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "912b6131",
+      "md5": "34a115e50810ca292602d536115873c7",
+      "sha1": "455e9e6512df8d2800f3d695ea7a2b7a0a374783",
+      "size": "131845",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "ce0ddd42",
+      "md5": "47af545b17b8b5e65a74a8851732727d",
+      "sha1": "e8699818b8f90a54f9de11f801fadf9324d27969",
+      "size": "864278",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "7fad7e1d",
+      "md5": "638eb93bf5d37d3ea72b6b55371ab5e9",
+      "sha1": "ee0685108803299024d5546dae82e802901a79d5",
+      "size": "328049",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "5bc80f2e",
+      "md5": "c7ca38cd7d1d607e685dea09a6420150",
+      "sha1": "03c58f4d47b58d97ce400e9f5e1e022cd59978cc",
+      "size": "381162",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "62babd76",
+      "md5": "e8a103c45e046db4fc8d3d76011fa421",
+      "sha1": "da2aae975eb350d19057adc09e90c9db8eaa2f0b",
+      "size": "139801",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=manuel(jp)",
+      "region": "jp",
+      "crc": "5176e245",
+      "md5": "1cca79b3b3bdfc6e0f99ff7023c27acd",
+      "sha1": "7a6ea75b2c0d7e468507b51961a1ab1aa26750a0",
+      "size": "3051361",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "27221b79",
+      "md5": "62e58212f95eb653652779541eb025d3",
+      "sha1": "65520e066d80dc0b8231de3829f38eb45c5cb7a6",
+      "size": "267792",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "8dfecf83",
+      "md5": "501cf9ed64fc1268bf39936e3205f6a0",
+      "sha1": "d1a5eca188879e1be604c59763d803a85a2046da",
+      "size": "245328",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "eafa6889",
+      "md5": "60f9485a58532e9cf9d2bc0b1173037b",
+      "sha1": "1b7a5d32cf2c709ceaa5261a54a0b242236e66af",
+      "size": "435542",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "64aeeeae",
+      "md5": "c224a54c782505cab0c7b480169bbd12",
+      "sha1": "c676a71b68b0abe0ad878381423b06d2ad523573",
+      "size": "311387",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "eafa6889",
+      "md5": "60f9485a58532e9cf9d2bc0b1173037b",
+      "sha1": "1b7a5d32cf2c709ceaa5261a54a0b242236e66af",
+      "size": "435542",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "34eb20b8",
+      "md5": "fc3521a917f9c332b7aeaff2ce3d5c4c",
+      "sha1": "e90f7058859c9e38690dcf94e3f9b3320564bcf2",
+      "size": "584960",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "1edd7793",
+      "md5": "a175aab343953b2ef39a7e60558edb49",
+      "sha1": "232b96629cdeac9e512f835351aa5e4a89404927",
+      "size": "472238",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88363&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "34eb20b8",
+      "md5": "fc3521a917f9c332b7aeaff2ce3d5c4c",
+      "sha1": "e90f7058859c9e38690dcf94e3f9b3320564bcf2",
+      "size": "584960",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=31&media=logo-monochrome",
+      "crc": "56d95cb2",
+      "md5": "cc8dd6b38b8e19d1331d2d1d20669a04",
+      "sha1": "5e8e820d8eb8822db4c7c8b422f180824489e45c",
+      "size": "3273",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=31&media=wheel",
+      "crc": "2bb72fc7",
+      "md5": "b679d5b9e5b3f51bcec8429317403cca",
+      "sha1": "9cee04c83c288e53053cf0c9ab9edacbc21e6de6",
+      "size": "62878",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=522&media=logo-monochrome",
+      "crc": "f6781250",
+      "md5": "726dfdb337e164499fedd292ba74f43e",
+      "sha1": "5f1a52a8d6bb603938d7b370960ab73a86bbfb5d",
+      "size": "27282",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=522&media=wheel",
+      "crc": "26b8dc93",
+      "md5": "f7d84f4f3b445e8de83f38f1d5a3644c",
+      "sha1": "efd0d0b38732bf6c3f7a274f145f342250c62a71",
+      "size": "47591",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2869",
+      "parent": "genre",
+      "subparent": "Mahjong",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2869&media=logo-monochrome",
+      "crc": "d28587be",
+      "md5": "a3b42b757f58a1b3185800c0a29f52c7",
+      "sha1": "8e06f2522caf246346b51d5c91cd3c84e087a37d",
+      "size": "24886",
+      "format": "png"
+    },
+    {
+      "id": "2869",
+      "parent": "genre",
+      "subparent": "Mahjong",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2869&media=logo-monochrome-svg",
+      "crc": "e4ab7ae0",
+      "md5": "f120447b1dad6a608859e886a21e0ee3",
+      "sha1": "b740fce52660d4bd6b8fc7a0e8c77b7a8bea5922",
+      "size": "43175",
+      "format": "svg"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=pictoliste",
+      "crc": "dcf3c32a",
+      "md5": "23618958c46fc28396c157d74a77bdeb",
+      "sha1": "00ce76c60ab28d758d6ca5f6796882dee3f7faa0",
+      "size": "1159",
+      "format": "png"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=logo-monochrome",
+      "crc": "3678f7f4",
+      "md5": "89ef7b6f92a2ef67e23b87843990f98b",
+      "sha1": "c55797e72d206fe87173ea7adf08e123f3a4d0c0",
+      "size": "17363",
+      "format": "png"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=logo-monochrome-svg",
+      "crc": "c4055556",
+      "md5": "9e5e5a30bb0cbb399d6e138b33ba4353",
+      "sha1": "dbe3c415f89b99f6bd8524d19379af132a323014",
+      "size": "6238",
+      "format": "svg"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=background",
+      "crc": "def2c2fb",
+      "md5": "1d3be886c0fd7ae4f831250b38a54eac",
+      "sha1": "5754f15b0f082c67f1e5bc5c2b764108428e1e12",
+      "size": "246573",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136283",
+      "romsize": "262160",
+      "romfilename": "Ide Yousuke Meijin no Jissen Mahjong II (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2AADBC06",
+      "rommd5": "DA064B272142D12E832845EF88FFA5EA",
+      "romsha1": "20174E23398486A8B52BDA84D0A433612FF1B872",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "47918",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "12835",
+      "romsize": "152878",
+      "romfilename": "Ide Yousuke Meijin no Jissen Mahjong II (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8954F57F",
+      "rommd5": "839985C4FE11E9925F4E65AE25805CF9",
+      "romsha1": "C605AD088B1A2AADEB6130399ADF85725989C638",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "29492",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1138761",
+      "romsize": "262160",
+      "romfilename": "Ide Yousuke Meijin no Jissen Mahjong II (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2848ead2",
+      "rommd5": "50bd79049d4cdb81870193d9e88f6cc2",
+      "romsha1": "b57820b221ec0ce5f54e65f583440ea64eb1a988",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19417",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173451",
+      "romsize": "262144",
+      "romfilename": "Ide Yousuke Meijin no Jissen Mahjong II (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7B44FB2A",
+      "rommd5": "6B5FB5653EEAC566EEAC341F067BBCA1",
+      "romsha1": "5F04D72EB14A0014E44C2875F705C62913538E42",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1705",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113947",
+      "romsize": "152856",
+      "romfilename": "Ide Yousuke Meijin no Jissen Mahjong II (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9EEAD538",
+      "rommd5": "AD42C7F0A98BA81D753D1E4AB18EA5B3",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "75",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

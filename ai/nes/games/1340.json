@@ -1,0 +1,4887 @@
+{
+  "id": "1340",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Dr. Mario"
+    },
+    {
+      "region": "us",
+      "text": "Dr. Mario"
+    },
+    {
+      "region": "jp",
+      "text": "Dr. Mario"
+    },
+    {
+      "region": "eu",
+      "text": "Dr. Mario"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "286",
+    "text": "Nintendo"
+  },
+  "developpeur": {
+    "id": "286",
+    "text": "Nintendo"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "note": {
+    "text": "15"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "In this Tetris-style game, you play as Dr. Mario, who must drop differently coloured pills onto viruses to remove them from the bottle. Each pill is split into two, with each side a different colour. Match that colour to the colour of the virus, and it will be removed from the bottle.\n\nIncluded in the game is the normal mode, a time trial, and a two player battle mode to see who can remove the most viruses."
+    },
+    {
+      "langue": "fr",
+      "text": "Dr Mario - une ordonnance pas ordinaire.\r\nDr Mario propose un défi à rendre malade!\r\nMario lance des capsules de vitamines multicolores dans une bouteille contenant divers virus laids et méchants. Les capsules doivent être attrapées dans leur chute. Pour se débarrasser d'un virus, on doit le recouvrir d'une ligne d'au moins quatre capsules d'une même couleur. Une fois tous les virus de la bouteille éliminés, on passe à l'étape suivante où l'épidémie menace."
+    },
+    {
+      "langue": "de",
+      "text": "Zu Beginn jedes Levels sieht man verschiedenfarbige Viren auf dem Spielfeld verteilt. Dr. Mario wirft in bestimmten Abständen Pillen auf das Spielfeld. Jede Pille hat zwei Felder, die verschiedenfarbig oder einfarbig sein können (Blau & Gelb - Gelb & Gelb - Blau & Rot usw.). Das Ziel ist, 4 gleichfarbige Felder inkl. Virus übereinander zu legen. Die vier Felder verschwinden nun. Dies muss solange gemacht werden, bis alle Viren getötet wurden.\r\n\r\nIm Spiel gibt es auch einen Mehrspielermodus, bei dem zwei Spieler in separaten Spielfeldern gegeneinander antreten. Das Ziel ist nun, als erster sätmliche Viren im eigenen Feld zu zerstören. Sobald man mehrere Viren eliminiert hat oder eine Kettenreaktion einleitet, fallen beim Gegner zusätzliche Pillen ins Spielfeld. Sobald ein Feld von sämtlichen Viren befreit worden ist, oder das Feld eines Spielers vor Pillen überquillt, ist eine Runde beendet. Der erste Spieler, der drei Runden gewonnen hat, gewinnt auch das Spiel."
+    },
+    {
+      "langue": "es",
+      "text": "Es un juego estilo Tetris en el que Mario actúa como doctor y deja caer píldoras dentro de una botella. El objetivo es alinear las píldoras y derrotar a los virus combinando cuatro o más bloques del mismo color (rojo, amarillo o azul) en filas o columnas. Cada píldora tiene dos partes que pueden tener distintos colores, y los virus también tienen colores, generando seis combinaciones posibles. Se avanza de nivel eliminando todos los virus, y el juego termina si las cápsulas bloquean la entrada de la botella. Cuenta con 21 niveles, aumentando la cantidad de virus desde 4 en el primero hasta 84 en los últimos. Incluye modo multijugador para dos personas, donde gana quien elimine antes todos los virus en tres rondas."
+    },
+    {
+      "langue": "it",
+      "text": "In questo gioco in stile Tetris, giochi nei panni del Dr. Mario, che deve far cadere sui virus pillole di colori diversi per rimuoverli dalla bottiglia. Ogni pillola è divisa in due, con ogni lato di un colore diverso. Abbina quel colore al colore del virus e verrà rimosso dalla bottiglia.\r\n\r\nIncluso nel gioco è la modalità normale, una prova a tempo e una modalità battaglia per due giocatori per vedere chi può rimuovere la maggior parte dei virus."
+    },
+    {
+      "langue": "pt",
+      "text": "Neste jogo no estilo Tetris, você joga como Dr. Mario, que deve soltar comprimidos de cores diferentes nos vírus para removê-los da garrafa. Cada comprimido é dividido em dois, com cada lado de uma cor diferente. Combine essa cor com a cor do vírus e ela será removida do frasco.\r\n\r\nIncluído no jogo estão o modo normal, um contra-relógio e um modo de batalha para dois jogadores para ver quem pode remover o maior número de vírus."
+    }
+  ],
+  "classifications": [
+    {
+      "type": "PEGI",
+      "text": "3"
+    },
+    {
+      "type": "CERO",
+      "text": "A"
+    },
+    {
+      "type": "ESRB",
+      "text": "E"
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1990-10-02"
+    },
+    {
+      "region": "eu",
+      "text": "1991-06-27"
+    },
+    {
+      "region": "jp",
+      "text": "1990-07-27"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2912",
+      "nomcourt": "0B00",
+      "principale": "0",
+      "parentid": "26",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Puzzle / Fall"
+        },
+        {
+          "langue": "fr",
+          "text": "Puzzle-Game / Tomber"
+        },
+        {
+          "langue": "de",
+          "text": "Puzzle / Fallen"
+        },
+        {
+          "langue": "es",
+          "text": "Puzzle / Caída"
+        },
+        {
+          "langue": "it",
+          "text": "Puzzle / A caduta"
+        },
+        {
+          "langue": "pt",
+          "text": "Quebra-cabeças / Queda"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "nomcourt": "0B00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "fr",
+          "text": "Puzzle-Game"
+        },
+        {
+          "langue": "de",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "es",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "it",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "pt",
+          "text": "Quebra-cabeças"
+        }
+      ]
+    }
+  ],
+  "modes": [
+    {
+      "id": "37",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Local Multiplayer"
+        },
+        {
+          "langue": "fr",
+          "text": "Multi en local"
+        },
+        {
+          "langue": "de",
+          "text": "Lokaler Multiplayer"
+        },
+        {
+          "langue": "es",
+          "text": "Multijugador local"
+        },
+        {
+          "langue": "it",
+          "text": "Multigiocatore locale"
+        },
+        {
+          "langue": "pt",
+          "text": "Multijogador local"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Single-player"
+        },
+        {
+          "langue": "fr",
+          "text": "Jouable en solo"
+        },
+        {
+          "langue": "de",
+          "text": "Einzelspieler"
+        },
+        {
+          "langue": "es",
+          "text": "Jugador individual"
+        },
+        {
+          "langue": "it",
+          "text": "Giocatore singolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogador individual"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "20521",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Dr. Mario"
+        }
+      ]
+    },
+    {
+      "id": "20261",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Mario"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "langue": "fr",
+      "titre": "Reset pendant le jeu",
+      "description": "Appuyez sur Start + Select + A + B pendant le jeu.\n"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "773371f4",
+      "md5": "9189e8ef24c9b34ab939d48853a15bf8",
+      "sha1": "4a98505b007bd9030ebafcbdf67aaccdb8ddf02e",
+      "size": "2487",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=ss(wor)",
+      "region": "wor",
+      "crc": "778e28ac",
+      "md5": "584e07bbaca32ee95707f05e8c31a322",
+      "sha1": "d6d5c7af027267b983b79e187d012b30d0ceb3a3",
+      "size": "3794",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=fanart",
+      "crc": "66c259db",
+      "md5": "6cea2c896009a536c920a2cf39754531",
+      "sha1": "7809945d4027ca947c887dd7a0a6f5fb5752e4df",
+      "size": "121038",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=video",
+      "crc": "e6675701",
+      "md5": "1aaec64cb63725825544e040222448b1",
+      "sha1": "7685055386ba1a3b35bc2a028c1f592adcaa63bb",
+      "size": "2869698",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=video-normalized",
+      "crc": "ba7a9ba9",
+      "md5": "8a54b789762ffa6865fea059fc8f5b4c",
+      "sha1": "8d1b6e2dcd2f8b3a0181cfdd9af64c7dae7d7e9c",
+      "size": "785682",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=steamgrid",
+      "crc": "653758ad",
+      "md5": "4070f2d1bca724ae5674c2d37a8fe318",
+      "sha1": "064782e1b5ccad626381fed5b93e4b3c6665b4e4",
+      "size": "169594",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=wheel(jp)",
+      "region": "jp",
+      "crc": "1294741d",
+      "md5": "41cb2cbbb4690dbc98934de651ea1441",
+      "sha1": "0b6db7a5e2b6fc9a93fce61725ea94c8948df395",
+      "size": "107950",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=wheel(jp)",
+      "region": "us",
+      "crc": "1294741d",
+      "md5": "41cb2cbbb4690dbc98934de651ea1441",
+      "sha1": "0b6db7a5e2b6fc9a93fce61725ea94c8948df395",
+      "size": "107950",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=wheel(wor)",
+      "region": "wor",
+      "crc": "8650c0a9",
+      "md5": "5effacf4aa7df9af858952dc3c2eb418",
+      "sha1": "94fe8a813f5fcfde06e021675729f88d6813189d",
+      "size": "109571",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=wheel(wor)",
+      "region": "eu",
+      "crc": "8650c0a9",
+      "md5": "5effacf4aa7df9af858952dc3c2eb418",
+      "sha1": "94fe8a813f5fcfde06e021675729f88d6813189d",
+      "size": "109571",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=wheel(wor)",
+      "region": "jp",
+      "crc": "8650c0a9",
+      "md5": "5effacf4aa7df9af858952dc3c2eb418",
+      "sha1": "94fe8a813f5fcfde06e021675729f88d6813189d",
+      "size": "109571",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=wheel(wor)",
+      "region": "us",
+      "crc": "8650c0a9",
+      "md5": "5effacf4aa7df9af858952dc3c2eb418",
+      "sha1": "94fe8a813f5fcfde06e021675729f88d6813189d",
+      "size": "109571",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "3ac1b7fb",
+      "md5": "6a08ed49bf79741dec33ffdbc8d73765",
+      "sha1": "1c98b6731e53c3cd9eba49a7e2158bf4bdf23221",
+      "size": "115932",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "d7177eb3",
+      "md5": "2a983e5926dabd6fc401b783a3982be3",
+      "sha1": "5f140cda11e5fe67d957a134e353505de1e06964",
+      "size": "104404",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "37337b01",
+      "md5": "74895bb95384984c47cefae1b9a4042a",
+      "sha1": "f59e96bb897ffcfabb9c7c46a56e6421c4f88270",
+      "size": "117839",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "74c2e45c",
+      "md5": "5f8c4b2e5ed6e9d8fcc50e554e1b33a8",
+      "sha1": "4bfa27569830d9af2e7d6d9005fd5260d90e8b9a",
+      "size": "105300",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "9177230e",
+      "md5": "ac5cefd28b61d0697a7efbe3263ae746",
+      "sha1": "5d4ae9a1e51fcdb8ecb8336a80e29ecc341ccb8f",
+      "size": "478126",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "10b0ccae",
+      "md5": "1d7c031f4d41e248adc639460d816e7e",
+      "sha1": "02a6b3722f3a37a8cc47655bd6318abdf2f48f59",
+      "size": "75501",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-2D(de)",
+      "region": "de",
+      "crc": "0ef83d76",
+      "md5": "2d9841e1d349956c52a96b085ce21c03",
+      "sha1": "310cc1b4a18b4243a720fb17fec796ca9caaa0f3",
+      "size": "695923",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-2D(eu)",
+      "region": "eu",
+      "crc": "b3bb2e90",
+      "md5": "7a42780ba5fa70bea20a39fb94a351b7",
+      "sha1": "f1bf0dd38ec0af8ada62f686ac974e129fce4fb3",
+      "size": "328597",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "259fdb23",
+      "md5": "654205d9b9201dc75b51fc658ed0b128",
+      "sha1": "a911e081989ab71d09d83d29374cc702a18e9540",
+      "size": "530696",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "62677a39",
+      "md5": "018469d82d72d0b3d9d028ccdca37853",
+      "sha1": "e0785133d9be786e12a4cff97cbd0c82720efdf1",
+      "size": "157919",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-2D(us)",
+      "region": "us",
+      "crc": "ae316cd6",
+      "md5": "5b1ef6f7c12537a6f88d534379abef79",
+      "sha1": "0b1aa00d5c724d08c45b7f6f73f74d3622ebb189",
+      "size": "482108",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-2D-side(de)",
+      "region": "de",
+      "crc": "732a9eb5",
+      "md5": "0abbae720c075bb67bf757e0eb296129",
+      "sha1": "90bd4af52a74f1a04ee3574abb5eb18e8964cb6a",
+      "size": "46859",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-2D-side(eu)",
+      "region": "eu",
+      "crc": "1e10308e",
+      "md5": "449140b2a6b6254754b02f324e1213c9",
+      "sha1": "ac205b4aca504cc9b59d4d62ef83671f549ea0b6",
+      "size": "42599",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "1d7a3596",
+      "md5": "3299cadb3260f17530e93044aa6b1e22",
+      "sha1": "19b602a91f8befa8f5aecee59a1ece581add076a",
+      "size": "109667",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "c5a75907",
+      "md5": "76698e68898f75ffbce250d4dfb5f444",
+      "sha1": "dad0174b28a17766597a7c85f807e2d923e90155",
+      "size": "24404",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "3d190227",
+      "md5": "7f439a8816a7fa540766ad76ebd96b2a",
+      "sha1": "7509bc09a0ce62d132b697f5852e8d7af34da90c",
+      "size": "54359",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-2D-back(de)",
+      "region": "de",
+      "crc": "eb656dbb",
+      "md5": "38914dd0fe9ffe86ad15cdfcb662407c",
+      "sha1": "4368c0e7a9c89eefb9889b55faae519f3c9a3275",
+      "size": "568542",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-2D-back(eu)",
+      "region": "eu",
+      "crc": "1063b54d",
+      "md5": "f672b837febd54d87eaaab5a76c37147",
+      "sha1": "11f765859e9f026df63eb82e0c8ce27965fd2fcf",
+      "size": "417104",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "c5c8f1b3",
+      "md5": "0a880ccd128ba596367eaa2044328bb5",
+      "sha1": "c3b55016b341dc95ca2c77c050454505ffd59ae5",
+      "size": "391407",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "81ae8984",
+      "md5": "e9b6ae79e80e87824cf37fe5132dc0c7",
+      "sha1": "d81949c3a55e34119d1a7e337112dfb28d48c0ea",
+      "size": "152683",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "9a28a7b9",
+      "md5": "41f6f150c60f8b0c7382fe4aafcd1265",
+      "sha1": "b46a27e15ea0e683737bea177650e6717b6547a3",
+      "size": "303308",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-texture(de)",
+      "region": "de",
+      "crc": "9b97f4b0",
+      "md5": "b435cce826c552e84ff29a7f2c985f2b",
+      "sha1": "bc1f1a8cac5bcc8649722653cbf6567929003596",
+      "size": "1333215",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-texture(eu)",
+      "region": "eu",
+      "crc": "735d0cb1",
+      "md5": "75709a2826a9e08ea7e57032045e2c4e",
+      "sha1": "e103539b675051420ec018c5bbebacc784b14202",
+      "size": "824647",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-texture(eu)",
+      "region": "fr",
+      "crc": "735d0cb1",
+      "md5": "75709a2826a9e08ea7e57032045e2c4e",
+      "sha1": "e103539b675051420ec018c5bbebacc784b14202",
+      "size": "824647",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "901530eb",
+      "md5": "0ec0b647e763edee00cbe349f5a70025",
+      "sha1": "37768a81b9d13f56664574d3b43998b6764b6390",
+      "size": "1283045",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "666bed0c",
+      "md5": "8de62c126492e0dedd2c350065ea845b",
+      "sha1": "8f465a3081c588f704432fe9693476109c847702",
+      "size": "351572",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-texture(us)",
+      "region": "us",
+      "crc": "9e85e2b7",
+      "md5": "095c59ab599cd75ff09d245b05026c0a",
+      "sha1": "e6fa37cce306f6dba3aa902e3c660da1c96956d8",
+      "size": "865648",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-3D(de)",
+      "region": "de",
+      "crc": "a7401f3e",
+      "md5": "c14542c4ac79cafaab0166da1b6f2419",
+      "sha1": "90d5cc5b09f347e5a23481d07189246ff8cd8ca0",
+      "size": "317882",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-3D(eu)",
+      "region": "eu",
+      "crc": "f8f1f668",
+      "md5": "0497edc2607f906afa2c69e85c9cdfec",
+      "sha1": "9ac642a6e00cad2e4f3378e76072a1819bbb10d5",
+      "size": "289047",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-3D(eu)",
+      "region": "fr",
+      "crc": "f8f1f668",
+      "md5": "0497edc2607f906afa2c69e85c9cdfec",
+      "sha1": "9ac642a6e00cad2e4f3378e76072a1819bbb10d5",
+      "size": "289047",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "72e03181",
+      "md5": "c8ff4785f26fc70a59529321a4ca93d2",
+      "sha1": "a13b84dc72aad8e5937c0953d561292b7c72949a",
+      "size": "309100",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "b1528953",
+      "md5": "763001d9194417c88055f353f3b41be6",
+      "sha1": "00bf33ee24e34909f2367d31ab56fa211af2b06b",
+      "size": "145769",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=box-3D(us)",
+      "region": "us",
+      "crc": "821f72dd",
+      "md5": "95cdc8f467d70f6621053d63529c08c7",
+      "sha1": "6e040d418182d99c43219904f97dcf493eb19a39",
+      "size": "310721",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=manuel(it)",
+      "region": "it",
+      "crc": "4da2fba1",
+      "md5": "1f4c450e6f0f5ef7e5277275126e70ba",
+      "sha1": "a9105b3fc7405c1d216f1f67962e87bdabefc0c2",
+      "size": "11455264",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=manuel(jp)",
+      "region": "jp",
+      "crc": "92cd87c8",
+      "md5": "c8bfc6991af17108e7349feab8078a7b",
+      "sha1": "96a0e605f18b753178d8cd5a60020f01d2d48035",
+      "size": "1875054",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=manuel(us)",
+      "region": "us",
+      "crc": "21cc7073",
+      "md5": "8ce289dd7fe59d27ab05f7d61cb1b5e2",
+      "sha1": "29b52817733cd96fac50122e1995b8e27684396e",
+      "size": "1983402",
+      "format": "pdf"
+    },
+    {
+      "type": "figurine",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=figurine",
+      "crc": "f81408e4",
+      "md5": "039ef45cbfdd1c5834c3d7628f0accc1",
+      "sha1": "4f1e5267280c4175a919d595edb40424872102d6",
+      "size": "327097",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=support-texture(de)",
+      "region": "de",
+      "crc": "24124afb",
+      "md5": "9bbc29dbb24d7154b830418657828a9c",
+      "sha1": "a59ea2bf6e1493e6fb13715ff66760fa949a33ab",
+      "size": "424872",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=support-texture(eu)",
+      "region": "eu",
+      "crc": "eec9436a",
+      "md5": "b5431fae6c97102187b4761dbd9f83be",
+      "sha1": "4d5faeb6d4cb8f5537d9a4683447d853d093ccd7",
+      "size": "445990",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "73b95232",
+      "md5": "82b7c6897647d04cfc9c5ba307d09b30",
+      "sha1": "1ed2efcac223caac1b8c00c0d4748c04bd4e24c3",
+      "size": "312530",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=support-texture(us)",
+      "region": "us",
+      "crc": "97d02af3",
+      "md5": "dd7b19f1b260a80ce5c6c2cd89995418",
+      "sha1": "13d51917c083dd73e8234a4a9148e6e5d8881bb3",
+      "size": "146367",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=support-2D(de)",
+      "region": "de",
+      "crc": "c58931a9",
+      "md5": "977d83b46c7215bd4288726a8d56dd4c",
+      "sha1": "09521b5a75b03ae9ac0afbdf0be202fec2a0debc",
+      "size": "362286",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=support-2D(eu)",
+      "region": "eu",
+      "crc": "d40b77ed",
+      "md5": "e946a2d6f5e5a0320e5d7a0a8bb7d7ab",
+      "sha1": "e07aec864295e49af98c2325bf4350b1e2de184c",
+      "size": "368112",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "85c41310",
+      "md5": "35038f954fe5bf3177aa720ea4a1f30b",
+      "sha1": "40a48b78f18897045041671323a779f597cfc816",
+      "size": "269851",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=support-2D(us)",
+      "region": "us",
+      "crc": "4483e16f",
+      "md5": "0b00e1957b73da6b9534a035f25707b2",
+      "sha1": "64a9b103c08c026653732d71257b214a7ee1f216",
+      "size": "378954",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=bezel-16-9(wor)",
+      "region": "wor",
+      "crc": "8d8350f6",
+      "md5": "26a6f713ec5fb1bb11a3d83e98f2a542",
+      "sha1": "9360bdc7c193752744f7f0409f9faf64e5d31c94",
+      "size": "255912",
+      "format": "png"
+    },
+    {
+      "type": "themehb",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaFichierJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=themehb",
+      "crc": "9ab88a05",
+      "md5": "0a5e67f7b1348652d36f305f743eb5eb",
+      "sha1": "1553c83878a7f38d102f5069c51bbd8dc06678da",
+      "size": "917814",
+      "format": "zip"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=mixrbv1(de)",
+      "region": "de",
+      "crc": "33827dcf",
+      "md5": "f1228f1da72bc7cbcc75bc00cbc74134",
+      "sha1": "f19978dd1c540d8ac6b481a08b8bcf66f1d5a6f0",
+      "size": "378250",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=mixrbv1(eu)",
+      "region": "eu",
+      "crc": "d7193b08",
+      "md5": "ac7ce9863ebd02bf35a8ee743621f680",
+      "sha1": "7cd01d9bd34c3358a43e8016b2dd93868c5555d3",
+      "size": "356780",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "ab8b7ad5",
+      "md5": "69d24941f6d3e1eebbc436a549391a24",
+      "sha1": "6be37d7fa5345152d4b8a189758390c6c0ab13a2",
+      "size": "379590",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "4fa94cf6",
+      "md5": "b1326f3c0d9450ce973036356e70da96",
+      "sha1": "2ff4241cfc7806ddaff911cd86d733fc19c74512",
+      "size": "295004",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "2a34fac8",
+      "md5": "17c0504cbbe56f0294fbb31d6f5ed90e",
+      "sha1": "36651dbde5a1310b6d6f238265e8433ad20bad77",
+      "size": "373158",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "d7193b08",
+      "md5": "ac7ce9863ebd02bf35a8ee743621f680",
+      "sha1": "7cd01d9bd34c3358a43e8016b2dd93868c5555d3",
+      "size": "356780",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=mixrbv2(de)",
+      "region": "de",
+      "crc": "7a7ac770",
+      "md5": "e09ea1a1121babf31d08b4b83d1e4c45",
+      "sha1": "fc6658ea9be251019941ac533d29fb2efde7f229",
+      "size": "628322",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=mixrbv2(eu)",
+      "region": "eu",
+      "crc": "4f94a5bd",
+      "md5": "6a4526c88cb2eb17f79da5f907072eb6",
+      "sha1": "5497dfca1435d030e0962c578093b364bcd62d47",
+      "size": "532167",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "6db1692d",
+      "md5": "7a8f37807ef3464724dcae4d9c8f4ce9",
+      "sha1": "4d28ddc0db1dd3550e471823af972d030fe5edce",
+      "size": "545973",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=mixrbv2(nl)",
+      "region": "nl",
+      "crc": "4f94a5bd",
+      "md5": "6a4526c88cb2eb17f79da5f907072eb6",
+      "sha1": "5497dfca1435d030e0962c578093b364bcd62d47",
+      "size": "532167",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=mixrbv2(ru)",
+      "region": "ru",
+      "crc": "4f94a5bd",
+      "md5": "6a4526c88cb2eb17f79da5f907072eb6",
+      "sha1": "5497dfca1435d030e0962c578093b364bcd62d47",
+      "size": "532167",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "f74f2a0e",
+      "md5": "6a36e401bea8958f6df5c6932a20acff",
+      "sha1": "73781f33cd838530a6026ec17fe7ab41b48f3ab7",
+      "size": "554786",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "de979176",
+      "md5": "f0dfbcddf245d06f1c59a90c0af9bc6b",
+      "sha1": "b849fe313b9e2de7acf86f26f7bce7aa4dbb3247",
+      "size": "548522",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1340&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "4f94a5bd",
+      "md5": "6a4526c88cb2eb17f79da5f907072eb6",
+      "sha1": "5497dfca1435d030e0962c578093b364bcd62d47",
+      "size": "532167",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=logo-monochrome",
+      "crc": "95dac55f",
+      "md5": "1a6af8c61e2b478c66f13a76035c4178",
+      "sha1": "333417fda7f11b21cdbfe53c5b549d31f387e7e8",
+      "size": "3342",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=wheel",
+      "crc": "d0666824",
+      "md5": "f132730b36526f594b4480fd905684cf",
+      "sha1": "2ba2d8412bceaaa973ae7f0bf41d08edf5e5a369",
+      "size": "27698",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=logo-monochrome",
+      "crc": "95dac55f",
+      "md5": "1a6af8c61e2b478c66f13a76035c4178",
+      "sha1": "333417fda7f11b21cdbfe53c5b549d31f387e7e8",
+      "size": "3342",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=wheel",
+      "crc": "d0666824",
+      "md5": "f132730b36526f594b4480fd905684cf",
+      "sha1": "2ba2d8412bceaaa973ae7f0bf41d08edf5e5a369",
+      "size": "27698",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3554&media=pictoliste",
+      "crc": "28b5fb64",
+      "md5": "0e7ffb4952682c80e2fee5c08956d37d",
+      "sha1": "4570deb53cd77ffe6abea2aca01f0992a9453aeb",
+      "size": "1275",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "PEGI",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3710&media=pictoliste",
+      "crc": "05df9e5c",
+      "md5": "c013fb8489dda92b8b1035ab51241ddf",
+      "sha1": "4f025371d91c39874184b041c4230843482da6d0",
+      "size": "492",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "CERO",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3621&media=pictoliste",
+      "crc": "399f10e9",
+      "md5": "a1622781ff399d0571142fb803e09c54",
+      "sha1": "20eaec1b4d905832dbfaf3fff6643757d845a0f2",
+      "size": "705",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "CERO",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3621&media=logo-monochrome",
+      "crc": "ae2c8a77",
+      "md5": "747f5e7d5d440a64f066ecc592f13899",
+      "sha1": "19b3e8723f425c74e84833f057c8f4a9749151ed",
+      "size": "16441",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=pictoliste",
+      "crc": "cafca3d7",
+      "md5": "51bfa81c19838bc679411a7b6f4053e2",
+      "sha1": "92253cf472ed8e71780c29ddeb6c6e260325ce1f",
+      "size": "593",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=logo-monochrome",
+      "crc": "e4f09f59",
+      "md5": "031f5b008fd851f56fea852bf9f95126",
+      "sha1": "8160d583dde154dcbd717217182d2b310e756e92",
+      "size": "10670",
+      "format": "png"
+    },
+    {
+      "id": "2912",
+      "parent": "genre",
+      "subparent": "Puzzle-Game / Tomber",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2912&media=logo-monochrome",
+      "crc": "41dc7ec5",
+      "md5": "bf6e6893100d96e8b0800297249f0b66",
+      "sha1": "c7b7f203498441e0f35952204397cd380652dbd7",
+      "size": "8824",
+      "format": "png"
+    },
+    {
+      "id": "2912",
+      "parent": "genre",
+      "subparent": "Puzzle-Game / Tomber",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2912&media=logo-monochrome-svg",
+      "crc": "2727b4fe",
+      "md5": "a10d5dc314b8ecb5e784bb49cb8bb029",
+      "sha1": "705c104b03c375aa73fbd7c0cd0449d5ec08bc22",
+      "size": "38156",
+      "format": "svg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=pictoliste",
+      "crc": "e4176cee",
+      "md5": "cc91411eb70735bb11dcfc4a0457b474",
+      "sha1": "1f04afee843e3aca095a118170eb13f3cf9a95d6",
+      "size": "828",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome",
+      "crc": "afda799e",
+      "md5": "b6aace835e844a24b33032c300cea85a",
+      "sha1": "ad7df82b2dc35f742dfe94cb20c5984c61a1be7f",
+      "size": "4560",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome-svg",
+      "crc": "b9fb9475",
+      "md5": "1f42d149151051f8c80b9728242769c3",
+      "sha1": "a0efb0c8b8814d280d62c7b2c5a6f39d5eaf0267",
+      "size": "2101",
+      "format": "svg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=background",
+      "crc": "923a4c43",
+      "md5": "5b1038e07f813242bbf179dcc11aa88f",
+      "sha1": "7971778339840a88ad940669b45dfc0103721cc1",
+      "size": "306716",
+      "format": "jpg"
+    },
+    {
+      "id": "20521",
+      "parent": "famille",
+      "subparent": "Dr. Mario",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20521&media=figurine",
+      "crc": "e83bcc4a",
+      "md5": "325c4b4fdb4a08491de8376c5246f42a",
+      "sha1": "82b018c17d8f3ad5d89161ed8778410dd9967c9e",
+      "size": "326709",
+      "format": "png"
+    },
+    {
+      "id": "20261",
+      "parent": "famille",
+      "subparent": "Mario",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20261&media=figurine",
+      "crc": "2d9448e9",
+      "md5": "2e06f3615cc5d6c66cf719dc9fd05b35",
+      "sha1": "44865168e49dfaab888603d8b432c5892c4d0e4b",
+      "size": "217670",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "2594",
+      "romsize": "29303",
+      "romfilename": "Dr. Mario (Europe).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FF58E39E",
+      "rommd5": "2045888B112D52DA804A8004D499AA49",
+      "romsha1": "BD87491327307052E7FABF1E8E8D78F5D8545FF1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "321389",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "135830",
+      "romsize": "65552",
+      "romfilename": "Dr. Mario (Japan, USA) (Rev A).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7623DFFD",
+      "rommd5": "8181D696756578FC92E6C4C86DA01904",
+      "romsha1": "CBED8BB73CCC3224F87D787E065B61ECF94E2C0C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "292157",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "135829",
+      "romsize": "65552",
+      "romfilename": "Dr. Mario (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3F4E1ECF",
+      "rommd5": "3F27EDA62C6692F96790AF9A1D917EF6",
+      "romsha1": "5911A6FE7A20A514F130FBCA3B9EF5E8481FD9F2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "165251",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "135831",
+      "romsize": "65552",
+      "romfilename": "Dr. Mario (Japan, USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B1F7E3E9",
+      "rommd5": "D3EC44424B5AC1A4DC77709829F721C9",
+      "romsha1": "01DE1E04C396298358E86468BA96148066688194",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "140256",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1136457",
+      "romsize": "65552",
+      "romfilename": "Dr. Mario (Japan, USA) (Rev 1).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "92bed9d7",
+      "rommd5": "a4e02baf4284348c045655b91cb84bde",
+      "romsha1": "0f18c2a5760be0647339b0e3cab9183af86fdd8c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "113257",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "540531",
+      "romsize": "29592",
+      "romfilename": "Dr. Mario.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DA6CF161",
+      "rommd5": "938C1B78682F70C80BB21F27D6BC2C3F",
+      "romsha1": "0D9E02FA2339B21C98E4EB3C1ADCB74CF19E1355",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "62818"
+    },
+    {
+      "id": "2595",
+      "romsize": "29175",
+      "romfilename": "Dr. Mario (Japan, USA) (Rev A).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "96683F03",
+      "rommd5": "4879C2E42886F10B50A74BDD928BF3CA",
+      "romsha1": "A0EF5DE87D930FE879BB3B14B416E93EC95CAD9D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "46728",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "2596",
+      "romsize": "29133",
+      "romfilename": "Dr. Mario (Japan, USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D0BEA9E3",
+      "rommd5": "2DD32714C621F70B916FE77BD628ED32",
+      "romsha1": "9FAC865B35722C295C4403CDC270F7E375D48BE8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "40545",
+      "langues": {
+        "langues_id": [
+          "73",
+          "68"
+        ],
+        "langues_shortname": [
+          "ja",
+          "en"
+        ],
+        "langues_en": [
+          "Japanese",
+          "English"
+        ],
+        "langues_fr": [
+          "Japonais",
+          "Anglais"
+        ],
+        "langues_de": [
+          "Japanisch",
+          "Englisch"
+        ],
+        "langues_es": [
+          "Japonés",
+          "Inglés"
+        ],
+        "langues_it": [
+          "Giapponese",
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Japonês",
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "473770",
+      "romsize": "262160",
+      "romfilename": "Dr Mario.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D8E2C3CC",
+      "rommd5": "8297F2F3A8F4F04280E1E9C5E9BCB5C4",
+      "romsha1": "01522074631CC2C857DDDD8A8698834639D356C3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "37497"
+    },
+    {
+      "id": "174926",
+      "romsize": "40960",
+      "romfilename": "virus.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A9068D17",
+      "rommd5": "9D7EECAA5731CED18F6AD9B6591A4411",
+      "romsha1": "4E95BE231674603BD106443E4AE581C87C00C867",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "26855",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "172991",
+      "romsize": "65536",
+      "romfilename": "Dr. Mario (Japan, USA) (Rev 1).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DE581355",
+      "rommd5": "9D961A26F2104E461667C6A1CC57AB21",
+      "romsha1": "59B43881456C0720E9A35E391B11C4B2C55A8F91",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "23618",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "348738",
+      "romsize": "65552",
+      "romfilename": "Dr. Mario (USA) (Beta) (Between 1990-02-02 & 1990-04-27, later).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FAD06951",
+      "rommd5": "3F4E0E79EE0596D862782C1D9E8FA2D4",
+      "romsha1": "DA8AB35BAD576241B19CC02368DCF630D45FB98E",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "22917",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "348783",
+      "romsize": "40976",
+      "romfilename": "Virus (USA) (Beta) (1989).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "57DBA88B",
+      "rommd5": "507D3E127997C91EA1AF6FFBBFEAC4AD",
+      "romsha1": "9B218AF05C6253E40B9149C38E0FFC432837F346",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "22836",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "265305",
+      "romsize": "49168",
+      "romfilename": "Virus (USA) (Beta) (1990-02-02).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "409C55F5",
+      "rommd5": "C8F8A9E5C8F7A256695087231313DB27",
+      "romsha1": "3DEBD8BBFF0BC338B87FE8E007DE97ECA7CA3810",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20759",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "749042",
+      "romsize": "65552",
+      "romfilename": "Nazi Dr Mario (Dr Mario Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "69B7387F",
+      "rommd5": "FFC51E0FC080B453C9375B71B2C5450E",
+      "romsha1": "B9ED305872D7F0B88D0B3A5A1E5EB008F657D0D8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20532"
+    },
+    {
+      "id": "1136451",
+      "romsize": "65552",
+      "romfilename": "Dr. Mario (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "f7fc9505",
+      "rommd5": "7e5730f28c7a054ab8befb48e1355c35",
+      "romsha1": "e87d760b1c3402011ec0263a890e55d1e063b592",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "20521"
+    },
+    {
+      "id": "645346",
+      "romsize": "262160",
+      "romfilename": "Anti-Hippie Dr Mario (Dr Mario Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9BD938E9",
+      "rommd5": "EED9F5D891EEAA2FD63AFE21DA7E5ACD",
+      "romsha1": "DDDD378AA7DE46426A23D7A9B2630AC34ACDF19A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20471"
+    },
+    {
+      "id": "348737",
+      "romsize": "65552",
+      "romfilename": "Dr. Mario (USA) (Beta) (1990-04-27).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C7AD539C",
+      "rommd5": "E32049A597A302CA30B04F397616A849",
+      "romsha1": "FDF8A582EB5D9B173B5A624A9D5F06942B20DEEE",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19757",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "537379",
+      "romsize": "47087",
+      "romfilename": "VS Dr Mario.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6A28E1F5",
+      "rommd5": "4BDD76530049D9824F2FC11C7F1F1BFF",
+      "romsha1": "17D68A682C4209256C7A1C9D40639CEBD97E75BC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18971"
+    },
+    {
+      "id": "1136454",
+      "romsize": "65552",
+      "romfilename": "Dr. Mario (Japan, USA) (En).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "556ae5c3",
+      "rommd5": "b1ec5af2d666bfdda49328793e05fe47",
+      "romsha1": "d51bf5cabd06ffac94d3b72e6d9bbc0f014ecc9c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "16170",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "757546",
+      "romsize": "262160",
+      "romfilename": "Dr Fred (Dr Mario Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "31B5D0FE",
+      "rommd5": "555C5E1D93037FD24EB20AA2E31C3E67",
+      "romsha1": "C151FCE74965183563E6996BD164D4A5774DC8AB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "15660"
+    },
+    {
+      "id": "752473",
+      "romsize": "262160",
+      "romfilename": "Dr Mario Crystal Clear (Dr Mario Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "29AE9EBE",
+      "rommd5": "C496838E7E48C68B342C758B27F6C1B5",
+      "romsha1": "9AE53108A0EA3BA5CD2EC6648335BE37642A8AC8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "15574"
+    },
+    {
+      "id": "752472",
+      "romsize": "262160",
+      "romfilename": "Dr Manson (Dr Mario Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CBCED843",
+      "rommd5": "D5AD8065FBE33FC10EF680CF7130F583",
+      "romsha1": "F128EADA090B5BD9EFAC5DA963482CEE42464C6F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "15537"
+    },
+    {
+      "id": "644921",
+      "romsize": "73744",
+      "romfilename": "Dr Mario (PC10).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "69744FBD",
+      "rommd5": "EB8F1C7849EF09CD59AAEB91B046A6C3",
+      "romsha1": "F5282A48DC2D6B14072405A0B721751D96079996",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "15225"
+    },
+    {
+      "id": "174927",
+      "romsize": "49152",
+      "romfilename": "Virus (USA) (Beta) (1990-02-02).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5EDEC8CD",
+      "rommd5": "0DA7C7EA9A12C80A92475E2117FEBEBF",
+      "romsha1": "BA0429D47E0C0E0E83AFC987CA65ECC0FF809935",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13681",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "646363",
+      "romsize": "160064",
+      "romfilename": "Dr Hatio V1.0 (Dr Mario Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BB97A500",
+      "rommd5": "66D884250BF60665603C8F7284A70A88",
+      "romsha1": "B8AD975BEED8E7012ED52E26772E794A2AE3D897",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13361"
+    },
+    {
+      "id": "643963",
+      "romsize": "65552",
+      "romfilename": "Dr Mario (JU) [a1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C54761C6",
+      "rommd5": "931E0BCB2AD121B842AC81EF6208D520",
+      "romsha1": "F8CAAAAD287A8A544206B25878902F40C448C1A5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "1",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13236",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "864328",
+      "romsize": "65552",
+      "romfilename": "Pill Head (Dr Mario Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4279A2E0",
+      "rommd5": "362D8CFB4CD630EC3752A8F78EF5E4ED",
+      "romsha1": "FF10B0C0727D34C621DEA74FCAB555E7363FB8C2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13043"
+    },
+    {
+      "id": "645351",
+      "romsize": "73744",
+      "romfilename": "Asian Dr. Mario (Dr. Mario Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B3016F10",
+      "rommd5": "AE039FEB75D895138B2D88E059A07DEF",
+      "romsha1": "2F15BB1407A941140DF60334334B6C85B3E8B2A0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "1",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12882",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "563783",
+      "romsize": "65680",
+      "romfilename": "DrMario.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A3018715",
+      "rommd5": "540145A6C4C7B7C476254E32DDBCC7DD",
+      "romsha1": "1541DB30649516D6A8B7C0F38ADE1817F5203325",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12829"
+    },
+    {
+      "id": "432742",
+      "romsize": "65552",
+      "romfilename": "Dr. Mario (Patch FR).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7AC5F03B",
+      "rommd5": "5E8AEB35E76562D50A90B145DF1E5381",
+      "romsha1": "25ED960117BC76B715EDA2502371CBDE7B70ECEE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12477"
+    },
+    {
+      "id": "646365",
+      "romsize": "81936",
+      "romfilename": "Dr Mario (JU) [a2].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "155BAE86",
+      "rommd5": "247A1BE36E51344BD188E0D8A131B8AD",
+      "romsha1": "8BEA99F2F07507FA51407AC6FD6F4C3A9E6CFF8E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "1",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11862",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "472150",
+      "romsize": "29495",
+      "romfilename": "Dr. Mario (U) (PRG1) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3786B900",
+      "rommd5": "331FA0D747084366644144517BD6112C",
+      "romsha1": "16A8C8EFD9703D58488551AA8A7373A80A67ED43",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11433",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1161086",
+      "romsize": "29179",
+      "romfilename": "Dr. Mario (Japan, USA) (Rev 1).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "569A3245",
+      "rommd5": "CF58F76798BD97B6AC1F74FD67460A1C",
+      "romsha1": "B864D72206E688076919D45C483D925695A11D58",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11151",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "832394",
+      "romsize": "66064",
+      "romfilename": "Dr Mario (JU) [t1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4C729DA2",
+      "rommd5": "3883DA51111AA4EEFB871165FFB6332E",
+      "romsha1": "339D5D42F4A134C6244D11F9F77D6FB9F87A20EB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11013",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "467605",
+      "romsize": "29032",
+      "romfilename": "Dr. Mario (E).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C6C62A68",
+      "rommd5": "D643C85D7DB79B07D9E1C405F883C085",
+      "romsha1": "E33E3BE062E0A79FB14E6A37410721B9771DC07B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9419",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "828179",
+      "romsize": "262160",
+      "romfilename": "Dr Blario (Dr Mario Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "79003983",
+      "rommd5": "96CE90034853C9037742B9DEFE9FE9C9",
+      "romsha1": "AF40FCFEDCBC5AA39EA8625C9FF9C183E1B806E8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8283"
+    },
+    {
+      "id": "528898",
+      "romsize": "106341",
+      "romfilename": "dr mario.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "81633454",
+      "rommd5": "60557D82BD6771FE8F6EA69429D10530",
+      "romsha1": "E34FD7EEBDA7EE7C89C47291D2F5829FC6016ADD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7928"
+    },
+    {
+      "id": "754110",
+      "romsize": "262160",
+      "romfilename": "Dr. Blario (Dr. Mario Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7257C764",
+      "rommd5": "8BAFE021BEEB1F00E7909779743A9548",
+      "romsha1": "FBC75791CF3B0E541859DABD56F4A006994959C9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7387"
+    },
+    {
+      "id": "634949",
+      "romsize": "65536",
+      "romfilename": "Virus (USA) (Beta) (Between 1990-02-02 & 1990-04-27, earlier).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "21763B95",
+      "rommd5": "51D3143266C5C2553D4F03D461A4B708",
+      "romsha1": "B0CC8146114F0BE10824413D91F246CD3116B08D",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7143",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "348784",
+      "romsize": "65552",
+      "romfilename": "Virus (USA) (Beta) (Between 1990-02-02 & 1990-04-27, earlier).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "890DF73D",
+      "rommd5": "1DBDC51FDFCC3689460F7811F9C2E135",
+      "romsha1": "667BD47D2574BFEA958280622F2322F1232FEB6D",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6886",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1136460",
+      "romsize": "65552",
+      "romfilename": "Dr. Mario (USA) (Beta 3).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "88790036",
+      "rommd5": "fc090329b3539d1de583e9b080bdff8f",
+      "romsha1": "023d6efb3a5a7d9c9a6183f73454986d58554f04",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6861",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1136463",
+      "romsize": "65552",
+      "romfilename": "Dr. Mario (USA) (Beta 1) (1990-04-27).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "233055b6",
+      "rommd5": "d82078d37df541ce41b7900b9683c013",
+      "romsha1": "7ce0fe8049d2dc100e0cb4a01c90d20b93a7d011",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6144",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1145886",
+      "romsize": "40976",
+      "romfilename": "Virus (USA) (Beta) (1989-xx-xx).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "cac36615",
+      "rommd5": "d770f8c8eba0abc068987588f59fe5cd",
+      "romsha1": "e69ca76933b53d32289453f1bd9ac7220b407024",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5976",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "473380",
+      "romsize": "29675",
+      "romfilename": "Dr. Mario (Japan, USA) (Rev A).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3CB8CB11",
+      "rommd5": "B7EAD7BFFC82C836F5021CF3519F1A58",
+      "romsha1": "922C6EF8316BAE1000CDD0C578979418AAFD47F2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5596",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1145892",
+      "romsize": "65552",
+      "romfilename": "Virus (USA) (Proto) (1990-03-xx) (PC10) [b].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8064e7d6",
+      "rommd5": "a1d7dd3e21843904c55e4f504c41084b",
+      "romsha1": "582d7a7316bdd1f5745e5ee69abb994148a164a2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5514",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "577056",
+      "romsize": "262160",
+      "romfilename": "Dr Web (R) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "82FE9170",
+      "rommd5": "03B3F3D4829A7B3BFE26325D3D2F1489",
+      "romsha1": "C81CCBA0DC8E040E7A47F52CD2B90E7E22950B5E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5088",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "126"
+        ],
+        "regions_shortname": [
+          "ru"
+        ],
+        "regions_en": [
+          "Russia"
+        ],
+        "regions_fr": [
+          "Russie"
+        ],
+        "regions_de": [
+          "Russland"
+        ],
+        "regions_es": [
+          "Rusia"
+        ],
+        "regions_it": [
+          "Russia"
+        ],
+        "regions_pt": [
+          "Rússia"
+        ]
+      }
+    },
+    {
+      "id": "577057",
+      "romsize": "262160",
+      "romfilename": "Dr Web 2 (R) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D0A7DDD5",
+      "rommd5": "9C50821D0C56029F1E436D8902D925DF",
+      "romsha1": "669B8E85F512D055FD57DAA374C1895E5D346C98",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5063",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "126"
+        ],
+        "regions_shortname": [
+          "ru"
+        ],
+        "regions_en": [
+          "Russia"
+        ],
+        "regions_fr": [
+          "Russie"
+        ],
+        "regions_de": [
+          "Russland"
+        ],
+        "regions_es": [
+          "Rusia"
+        ],
+        "regions_it": [
+          "Russia"
+        ],
+        "regions_pt": [
+          "Rússia"
+        ]
+      }
+    },
+    {
+      "id": "1145889",
+      "romsize": "49168",
+      "romfilename": "Virus (USA) (Beta) (1990-02-02).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9c249e25",
+      "rommd5": "5ed4b00e808c9ed30bcfd20007c3391d",
+      "romsha1": "b264cb5a2784cc0d8f537eeb322de83ea00a455c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4646",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "432681",
+      "romsize": "14455",
+      "romfilename": "Virus (USA) (Beta) (1989).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "501E7A6C",
+      "rommd5": "3CF40A64018FFBE3EB81ED21C4B8598A",
+      "romsha1": "0BF20B3C9D3B0E19BED297D82915F855973F81E3",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3948",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "432683",
+      "romsize": "14912",
+      "romfilename": "Virus (USA) (Beta) (1990-02-02).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "EAEF7878",
+      "rommd5": "4B2CBD5499C7AE27E2937A9CDA2D64A4",
+      "romsha1": "44E2A2BEC51068E1B9CAC739429296EC2818A464",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3832",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1136466",
+      "romsize": "163856",
+      "romfilename": "Dr. Mario (JU) (V1.0) (Beta-2) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "ba8579c5",
+      "rommd5": "b4ee819e7580d88618d54f609bca4b45",
+      "romsha1": "448e75334311fe85d048db9ebd8f571742616119",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3799",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "611208",
+      "romsize": "29042",
+      "romfilename": "Dr. Mario (USA) (Beta) (1990-04-27).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "738943DC",
+      "rommd5": "99332E653B1E6BF4C9102123A079B401",
+      "romsha1": "2138759939742335BE06B4B0F54B33CD9DF2C2B9",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3497",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1078936",
+      "romsize": "163840",
+      "romfilename": "Dr. Mario (USA) (Beta 2).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a15b2765",
+      "rommd5": "06df12c84884d95a24237c9b9c17c8f9",
+      "romsha1": "a8511923afe9500ef3044d657ee458632f80d40c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3110",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "612742",
+      "romsize": "29527",
+      "romfilename": "Dr. Mario (USA) (Beta) (Between 1990-02-02 & 1990-04-27, later).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "EB9E4183",
+      "rommd5": "1C52F704C5F4391986BD9407F9CCBC51",
+      "romsha1": "A4C12927A4840199F22D1CD07DF1330C82396C83",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3104",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "544968",
+      "romsize": "29695",
+      "romfilename": "Dr. Mario (Japan, USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6250D73A",
+      "rommd5": "62D6B85B55093C962535830C4D9E40DF",
+      "romsha1": "65AA798A2FFBC455FB13B00ADC5DDD5C268ED073",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2861",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "172989",
+      "romsize": "65536",
+      "romfilename": "Dr. Mario (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9735D267",
+      "rommd5": "0F9FB5B5721D5FD69A9DF856E23464AB",
+      "romsha1": "A0939930D9655E7FD2C3FAE69D558614F2D27480",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2513",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "172990",
+      "romsize": "65536",
+      "romfilename": "Dr. Mario (Japan, USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "198C2F41",
+      "rommd5": "5B401F4CA7E1B12AF3F29D8FC758DD2F",
+      "romsha1": "FF6459BC3AF5743E3D303823999F33D74ABDF1AA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2414",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "172992",
+      "romsize": "65536",
+      "romfilename": "Dr. Mario (USA) (Beta) (After 1990-04-27).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C49FCAB4",
+      "rommd5": "EACEF8AA54C1762CC83AB1643E70E52C",
+      "romsha1": "9BB56411F6EFA79FAC3D9CDBB3EF6EBF132E7FEE",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2206",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "880735",
+      "romsize": "104704",
+      "romfilename": "Dr. Mario II (Unl)[U][!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DE5CF2D5",
+      "rommd5": "01D540AB20EFFF167357AFDC74AA2DF2",
+      "romsha1": "E22DDD64189E49EED85298DCFE6D4A5365EA83C9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2107",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "130"
+        ],
+        "regions_shortname": [
+          "nl"
+        ],
+        "regions_en": [
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Holanda"
+        ],
+        "regions_it": [
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "483063",
+      "romsize": "30062",
+      "romfilename": "Dr. Mario (USA) (Beta) (Between 1990-02-02 & 1990-04-27, later).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "58A090B9",
+      "rommd5": "A65F46FC490DB3202EB62CFED7715793",
+      "romsha1": "14C07D624D25E8D2E7F2D8A99DD35A53E1DC0F36",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2056",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "364239",
+      "romsize": "21410",
+      "romfilename": "Virus (USA) (Beta) (Between 1990-02-02 & 1990-04-27, earlier).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DE2ECDDF",
+      "rommd5": "59804601B853E8B572441C5DBBDE89AE",
+      "romsha1": "6D9E44EB8FD2574A8F53181F6902065784F702BF",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2034",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "113486",
+      "romsize": "29111",
+      "romfilename": "Dr. Mario (Japan, USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7EED587A",
+      "rommd5": "A7C867295D0F569D261D30528EA0F49F",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1981",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "579892",
+      "romsize": "29663",
+      "romfilename": "Dr. Mario.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B137DE84",
+      "rommd5": "01DF5621C914CF65D5915A0A8FAED512",
+      "romsha1": "333E785CD5200BFFF702EBFCB600B99AAB84176C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1675"
+    },
+    {
+      "id": "470814",
+      "romsize": "29445",
+      "romfilename": "Dr. Mario (USA) (Beta).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BA2D6A9C",
+      "rommd5": "1E605A30F33E347F10340AB256CB5943",
+      "romsha1": "AAC2239544E555D6BEF6D48203811EB7EE5D8B35",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1532",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "113487",
+      "romsize": "29423",
+      "romfilename": "Dr. Mario (USA) (Beta).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "165F3046",
+      "rommd5": "6E3BD8286957BE5C390B663DC0EC0D0D",
+      "romsha1": "",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1417",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "590067",
+      "romsize": "28806",
+      "romfilename": "Dr. Mario.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A2EEC719",
+      "rommd5": "69BA690CE1594D1A9ABBD3DC42D27575",
+      "romsha1": "6BEA95BFBF09A7D6C6A140AA5193B048E4883D89",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1380"
+    },
+    {
+      "id": "634929",
+      "romsize": "65536",
+      "romfilename": "Dr. Mario (USA) (Beta 1) (1990-04-27).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6FD69F34",
+      "rommd5": "998BA882CB661569FC1365F9407AAD34",
+      "romsha1": "8E63398F37B89ADA83B1B0BDA5A2D274E4E0FAE6",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "865",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "614441",
+      "romsize": "29696",
+      "romfilename": "Dr. Mario.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "17C1DDA8",
+      "rommd5": "0AF2E5FBF6B9292344F7FAD40352EA7E",
+      "romsha1": "B0E80931C012282F90F293961D108F4C5EEC8FFD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "761"
+    },
+    {
+      "id": "481361",
+      "romsize": "29111",
+      "romfilename": "Dr. Mario (Japan, USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "218039A2",
+      "rommd5": "93D47C4A413EF47AE82AD1E52D157DD7",
+      "romsha1": "317F78C80372ED1ADF8DA759977E0348DAEC9EA6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "668",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "310676",
+      "romsize": "29839",
+      "romfilename": "Dr. Mario (Patch FR).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1C83BE59",
+      "rommd5": "D75C705971360856F75E53A3D84F0129",
+      "romsha1": "9F031D91192753652205106E0C027B0D1FABBB71",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "639"
+    },
+    {
+      "id": "483062",
+      "romsize": "29565",
+      "romfilename": "Dr. Mario (USA) (Beta) (1990-04-27).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4AC84919",
+      "rommd5": "6BE45E9362CE572CD2D5AE56E6E38483",
+      "romsha1": "692427FA78D42EDBC6452267DEDDB1C9BA9FC555",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "370",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "570326",
+      "romsize": "29614",
+      "romfilename": "Dr. Mario (Japan, USA) (Rev A).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "79ABD6AA",
+      "rommd5": "F51946A6989949C1A55EBAF66D3373F5",
+      "romsha1": "12512737F115077B18E9F43D6D242D240D15B919",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "191",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113484",
+      "romsize": "29281",
+      "romfilename": "Dr. Mario (Europe).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D0F0FCE7",
+      "rommd5": "7FA5B952FB3F4050DAC85CBD1BF2E673",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "153",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "113485",
+      "romsize": "29153",
+      "romfilename": "Dr. Mario (Japan, USA) (Rev A).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F0226BEE",
+      "rommd5": "B51668D6D538CF618FE41237A9F18053",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "152",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "483059",
+      "romsize": "29846",
+      "romfilename": "Dr. Mario (Europe).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B57B671A",
+      "rommd5": "A0B37BC670F6B4E843F0B8ED30A17182",
+      "romsha1": "362D3FCEC3940016BCA315389EBA43B573749A90",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "149",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "483061",
+      "romsize": "29655",
+      "romfilename": "Dr. Mario (Japan, USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4014D271",
+      "rommd5": "8AF515BE4AD06402879F016A65990598",
+      "romsha1": "1890641B05A951506D802A7FFA4039609A66DE7A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "149",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "483060",
+      "romsize": "29691",
+      "romfilename": "Dr. Mario (Japan, USA) (Rev A).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "94F4E5EE",
+      "rommd5": "65F3A2593AD2E76E42771CC7F0C41CF4",
+      "romsha1": "DCB3FCBDCD9BFC684B1BD21EE41F627D76FCC6BA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "147",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "480260",
+      "romsize": "29153",
+      "romfilename": "Dr. Mario (Japan, USA) (Rev A).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8A7A262A",
+      "rommd5": "A1769DFA2920A1D57A58AB3CE97962F7",
+      "romsha1": "63726388BCEF87FCBE802451F77B7204D4719515",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "27",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1415588",
+      "romsize": "65552",
+      "romfilename": "Dr. Mario Rev PRG0 (1990-07-27)(Nintendo)(JP-US)[tr zh Puszta][v.20020930].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "F517F770",
+      "rommd5": "D7D542A9D1534C2949CDF413ECD3D3C1",
+      "romsha1": "A279CD4722691041DE1CAA3D08210ED9E10D3850",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    }
+  ]
+}

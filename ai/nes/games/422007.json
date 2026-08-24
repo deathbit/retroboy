@@ -1,0 +1,588 @@
+{
+  "id": "422007",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Montezuma's Revenge"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "55780",
+    "text": "Normal Distribution"
+  },
+  "developpeur": {
+    "id": "55780",
+    "text": "Normal Distribution"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Jump over that Skull!\r\nGrab that Key!\r\nFind the coveted torch!\r\nThis is the official NES version of the classic 8-bit game Montezuma's Revenge!  This NES Montezuma's Revenge Digital Package was originally part of the Kickstarter offering."
+    },
+    {
+      "langue": "de",
+      "text": "Schlass auf diesen Schädel! Nimm diesen Schlüssel! Finden Sie die begehrte Fackel! Dies ist die offizielle NES-Version des klassischen 8-Bit-Spiels Montezuma's Revenge! Dieses digitale Paket von Montezuma's Revenge von NES war ursprünglich Teil des Kickstarter-Angebots."
+    },
+    {
+      "langue": "es",
+      "text": "¡Salta sobre esa Calavera!  ¡Toma esa llave!  ¡Encuentra la codiciada antorcha!  ¡Esta es la versión oficial de NES del clásico juego de 8 bits Montezuma's Revenge!  Este paquete digital de Montezuma's Revenge de NES fue originalmente parte de la oferta de Kickstarter."
+    },
+    {
+      "langue": "it",
+      "text": "Salta sopra il teschio! Afferra la chiave! Trova la tanto ambita torcia! Questa è la versione ufficiale per NES del classico gioco a 8-bit Montezuma's Revenge! Questo Pacchetto Digitale NES di Montezuma's Revenge faceva originariamente parte dell'offerta Kickstarter."
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2023-02-08"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2915",
+      "nomcourt": "0101",
+      "principale": "0",
+      "parentid": "7",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform / Run & Jump"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme / Run & Jump"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform / Jump 'n' Run"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas / Corre y Salta"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma / Corri e Salta"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma / Corre e Pula"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "nomcourt": "0101",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma"
+        }
+      ]
+    }
+  ],
+  "modes": [
+    {
+      "id": "4",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Single-player"
+        },
+        {
+          "langue": "fr",
+          "text": "Jouable en solo"
+        },
+        {
+          "langue": "de",
+          "text": "Einzelspieler"
+        },
+        {
+          "langue": "es",
+          "text": "Jugador individual"
+        },
+        {
+          "langue": "it",
+          "text": "Giocatore singolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogador individual"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "28202",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Montezuma"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "1142dff2",
+      "md5": "59d6ab9e3672d0ec03cfd44e55f32e48",
+      "sha1": "419532e4b5190146972e47e239a8130d70caa0ad",
+      "size": "41027",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=ss(wor)",
+      "region": "wor",
+      "crc": "c34a1340",
+      "md5": "f669378c1f47ba61055b8509638d7ce2",
+      "sha1": "bdc0def271a35679c6fadebc296554ecc87e76d1",
+      "size": "46396",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=video",
+      "crc": "43cd7723",
+      "md5": "86a56793d1c0e85968f2a224ae9f0592",
+      "sha1": "51dac5fdf4cd29887fba261ca7de5eb8af5ed08c",
+      "size": "2615496",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=video-normalized",
+      "crc": "a834f0db",
+      "md5": "35d2e5032c2e71952244decd8be8b404",
+      "sha1": "dc0f7a46509750c63c4a1338420865e6b5c452c0",
+      "size": "1305528",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=steamgrid",
+      "crc": "674c0ab3",
+      "md5": "484378ed9f3383a37808516e4b479a5e",
+      "sha1": "f93ad6e02e5ecf6b56d6facfa2d671ff71a547a5",
+      "size": "29525",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=wheel-hd(wor)",
+      "region": "wor",
+      "crc": "70253a23",
+      "md5": "96276d6d3868f87806b0a9e43fce34d5",
+      "sha1": "19ea4cc3ddb723be5fce100a780787df1041ca8b",
+      "size": "63346",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "a9a80e78",
+      "md5": "e53e4e2ec47cff67da24a8b19e48cba4",
+      "sha1": "660950bce413690dc757a08f9ac594f63226fe10",
+      "size": "104661",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "9dbe1742",
+      "md5": "58647624015aabae53f5a8f9d01cb9ff",
+      "sha1": "9f829b3e75d0d34b5e68ed48bc8b7687d4fef3be",
+      "size": "105900",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "3361026f",
+      "md5": "6b4d3dd5c0901d596e0559a7d61561e1",
+      "sha1": "4d84c259f2deac8e480214dab3ced4550168f8bc",
+      "size": "520544",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "8b9a5651",
+      "md5": "359401cd9b20ff27054b502a5369d42b",
+      "sha1": "f5f04480ef0768b94b4c34ee28ed942f6946cb28",
+      "size": "89241",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "7c29479e",
+      "md5": "6d9ef249b95de843717840e48239b074",
+      "sha1": "7c51ee445a8a553c648cbf91cef88d08577be23b",
+      "size": "154913",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "313e087f",
+      "md5": "238f1d9842bae1c33ed0e42bdd8e8607",
+      "sha1": "472d33efba651c48253610b2f76bd66a2380f2b2",
+      "size": "34889",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "678d3426",
+      "md5": "84c14b200f8f975ad33516bf6909112b",
+      "sha1": "42e7e26d06a05b3fe5ebec4f0f79a189b226393b",
+      "size": "149498",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "d6ae6f7b",
+      "md5": "11812710bf720f964539b0750481c117",
+      "sha1": "75147927eeb2b6a63b7f14147e3fefd6cb4cf433",
+      "size": "350918",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "5d6fb9a5",
+      "md5": "328c160865db7f6d5d7f668eb9078b15",
+      "sha1": "6e4c1ec28475d8ade2a9ce253ec04841a2ae2708",
+      "size": "125483",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "8af9fdbb",
+      "md5": "e9cc5ee359d29ac7ebe902b9c0834603",
+      "sha1": "79f77ffcaf86adb9ee8a2c7671fcc717cdc84c0d",
+      "size": "346735",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "1865adea",
+      "md5": "eada2b27bf64029fb8b0bc59ad618548",
+      "sha1": "fa9c2f47e3eb6a6b2046a13549b14c0fddb351f6",
+      "size": "299396",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "5a7cba6f",
+      "md5": "3d1a62416d328126daa284fd913c7d4b",
+      "sha1": "53f1abbad9e8d098211ffbef538dd2d7d86b6297",
+      "size": "480388",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "aca2c6c3",
+      "md5": "ab106cd15aa437a345e2593d0ccef832",
+      "sha1": "512ce524b2b442e728d58222e2c3a350dd830535",
+      "size": "464034",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422007&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "aca2c6c3",
+      "md5": "ab106cd15aa437a345e2593d0ccef832",
+      "sha1": "512ce524b2b442e728d58222e2c3a350dd830535",
+      "size": "464034",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2915",
+      "parent": "genre",
+      "subparent": "Plateforme / Run & Jump",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2915&media=pictoliste",
+      "crc": "2ff6989e",
+      "md5": "11ebfe3b2f55537a13428e16bb93af61",
+      "sha1": "79f02cb0550561936936c74052f08136b35d91d8",
+      "size": "18099",
+      "format": "png"
+    },
+    {
+      "id": "2915",
+      "parent": "genre",
+      "subparent": "Plateforme / Run & Jump",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2915&media=logo-monochrome",
+      "crc": "2686c093",
+      "md5": "9da37be446c4e8186247ea437fbfd813",
+      "sha1": "89a677f905873a40a70f49266a84efbf66607cec",
+      "size": "16080",
+      "format": "png"
+    },
+    {
+      "id": "2915",
+      "parent": "genre",
+      "subparent": "Plateforme / Run & Jump",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2915&media=logo-monochrome-svg",
+      "crc": "c290d17a",
+      "md5": "b815cf255dc0c5aeaaed112a75452d61",
+      "sha1": "ef69008369983181e20c31816ebacf62c872bd74",
+      "size": "1957",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=pictoliste",
+      "crc": "d8329f23",
+      "md5": "ada4054a77e20edada97225e5c316116",
+      "sha1": "cfadf96438bde8ae1a8c3c52c85dd6768ba9b4c8",
+      "size": "855",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome",
+      "crc": "0f88a1ba",
+      "md5": "e8c818f5f59d48642afea18e5c545c15",
+      "sha1": "ef3857055eaae13785d2cab692edf9454b544be3",
+      "size": "9142",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome-svg",
+      "crc": "fa797dda",
+      "md5": "73a61640b94904834fdbfc7e043150e0",
+      "sha1": "3e5fe422339961df30bd70aa83e43671a1badce4",
+      "size": "4755",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=background",
+      "crc": "3d578fbf",
+      "md5": "62dbdbe08a5765fae2630d06e0f0ea38",
+      "sha1": "354ef394870af26f443863a29c846a07a20f47a0",
+      "size": "161158",
+      "format": "jpg"
+    },
+    {
+      "id": "28202",
+      "parent": "famille",
+      "subparent": "Montezuma",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28202&media=figurine",
+      "crc": "a4d50703",
+      "md5": "1fc8e449cc859b2a86c2e6a9e30bd74b",
+      "sha1": "f9b77b370863a7c90cbc9c24b77c0b2c212bb20d",
+      "size": "255988",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1141047",
+      "romsize": "40976",
+      "romfilename": "Montezuma's Revenge (USA) (Aftermarket) (Homebrew).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "312b85cc",
+      "rommd5": "13d51d01a9fd93ea33ecae1e2873c2e2",
+      "romsha1": "d9464fe72e822e1a61e29ef2d70c13983338a4c3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5179",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1141050",
+      "romsize": "40976",
+      "romfilename": "Montezuma's Revenge (USA) (Demo) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8615532d",
+      "rommd5": "b64293a30d4250d505af6c7138a500f6",
+      "romsha1": "2b7697c52b586de92d8878619595eab533d18376",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3368",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    }
+  ]
+}

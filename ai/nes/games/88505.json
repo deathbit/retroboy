@@ -1,0 +1,606 @@
+{
+  "id": "88505",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Mei Guo Fu Hao - American Man"
+    },
+    {
+      "region": "cn",
+      "text": "Mei Guo Fu Hao : American Man"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "48006",
+    "text": "Henggedianzi"
+  },
+  "developpeur": {
+    "id": "48006",
+    "text": "Henggedianzi"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "A Chinese-language board game for the NES, vaguely inspired by Monopoly, but very streamlined, with quicker gameplay and a less-monotonous approach."
+    },
+    {
+      "langue": "fr",
+      "text": "Un jeu de plateau en chinois pour la NES, vaguement inspiré de Monopoly, mais simplifié, avec un gameplay plus rapide et une approche moins monotone."
+    },
+    {
+      "langue": "de",
+      "text": "Mei Guo Fu Hao: American Man für NES ist ein Brettspiel."
+    },
+    {
+      "langue": "es",
+      "text": "Mei Guo Fu Hao: American Man para NES es un juego de mesa."
+    },
+    {
+      "langue": "it",
+      "text": "Mei Guo Fu Hao: American Man per NES è un gioco da tavolo."
+    },
+    {
+      "langue": "pt",
+      "text": "Mei Guo Fu Hao: American Man para o NES é um jogo de tabuleiro."
+    }
+  ],
+  "genres": [
+    {
+      "id": "33",
+      "nomcourt": "0800",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Board game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de societe / plateau"
+        },
+        {
+          "langue": "de",
+          "text": "Brettspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de mesa"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di società / da tavolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogo de tabuleiro"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=sstitle(cn)",
+      "region": "cn",
+      "crc": "dc832ff8",
+      "md5": "2aefe6803394b178d31c761bca0fad4b",
+      "sha1": "c99ba07e6d27a33a360fedb433ad2eccca231042",
+      "size": "2884",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=ss(cn)",
+      "region": "cn",
+      "crc": "2dd18edb",
+      "md5": "6aaee886861bcd770bcf60fdb0d52958",
+      "sha1": "f22d867a0a4c3606f9eb09290661945dd775e86b",
+      "size": "4404",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=video",
+      "crc": "97519679",
+      "md5": "5084addf284a5c3ff98a996d93cd10a9",
+      "sha1": "6ce90d62f3eee79e5c4ce8e303461ef186acc668",
+      "size": "5831187",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=video-normalized",
+      "crc": "9afe3d8b",
+      "md5": "d084430f7e4cd6ae4ebe5e71c6c5e6d5",
+      "sha1": "047ee52aa17542c1544d5bf973fc335b4cbbc01c",
+      "size": "1825278",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=steamgrid",
+      "crc": "6b6f1702",
+      "md5": "969ffebe1be3ce6190b1b17fc6bd96a6",
+      "sha1": "92aa32cf3b6d0eb1374aa42944aa18597faaa1f9",
+      "size": "31350",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=wheel(jp)",
+      "region": "jp",
+      "crc": "701791c4",
+      "md5": "2dc44ebeefefb783b0a57b92835de256",
+      "sha1": "b94ff33a0526a92797be30d803cd47185cf7c507",
+      "size": "78343",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "4c6658cc",
+      "md5": "572de59318edfee27cb17a4c2655d600",
+      "sha1": "8f84f59245540cb897dce4a542699aceb7518f7d",
+      "size": "148989",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "3cf5397c",
+      "md5": "b284e1072dd007994416f38b5c003c5c",
+      "sha1": "58ee31d18cdf176b1beeabbd76c24c93c656f692",
+      "size": "151254",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "6484347b",
+      "md5": "3ad42e2dba44858ee474f853df443bab",
+      "sha1": "13e1f460b56635dcf8a15a83abc4b39a5ce286ec",
+      "size": "527292",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "a9c1ee08",
+      "md5": "03793e47bb77d802b3803b34884a983d",
+      "sha1": "dcecfc5c8ffce2d85ec86130f9e3841000c14298",
+      "size": "90045",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "fd62d944",
+      "md5": "bed901d9f28550cd4008ee6e345b63c9",
+      "sha1": "c5f8e7ab71e00c535738bd9a35ba23f9855d46e8",
+      "size": "122237",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "a261bb15",
+      "md5": "c6b7edf48fe9749ae617b223506e7e9f",
+      "sha1": "d32a1fe2fd218054bc66f58ee4aadd5a7d8e95bd",
+      "size": "17251",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "f3204fe5",
+      "md5": "f93c0343943480f9eddd5ed875195f8a",
+      "sha1": "8df40f13ba98cc1228bce3f6039d106c7dd6b51e",
+      "size": "121192",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "4ac63768",
+      "md5": "35b27f213998193d1f8f82c86a799352",
+      "sha1": "51389c06ddf983c7583570e7fc72cdfa717188da",
+      "size": "273937",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "0e14ac7d",
+      "md5": "de61f69c9e63a06e1ebd75658c267995",
+      "sha1": "c93e2deb24d5739c959afcb8ebb5c6c5f8134371",
+      "size": "129670",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "9932301d",
+      "md5": "8fdabafbd82b4ee97f8f0e03ef686cde",
+      "sha1": "2cb1f66deaf70428c12fd34e1cd3961dc4917195",
+      "size": "352591",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "21923090",
+      "md5": "53039a7f75e2893d67a07c30ce0569f9",
+      "sha1": "e35cb1129bbab0721b07cc2085f91b49c7c9b8ee",
+      "size": "367902",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=mixrbv1(cn)",
+      "region": "cn",
+      "crc": "df810a28",
+      "md5": "1fcdd6b77ecfa312fef1f0e3732318e6",
+      "sha1": "3e7b107f9177a470304be321bf3aefee177b9218",
+      "size": "354622",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=mixrbv2(cn)",
+      "region": "cn",
+      "crc": "fc911e3d",
+      "md5": "bf77736cd995851e3250c21d10257324",
+      "sha1": "9a30375ed89547125d2f7440bfaa26ec73395315",
+      "size": "609647",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "f208f30a",
+      "md5": "56d8b39b326a34f1ebfb456b3672ac7c",
+      "sha1": "f1a1cf3b21ac4f4d1c3ac5bc8884d7c403f02148",
+      "size": "609903",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "f208f30a",
+      "md5": "56d8b39b326a34f1ebfb456b3672ac7c",
+      "sha1": "f1a1cf3b21ac4f4d1c3ac5bc8884d7c403f02148",
+      "size": "609903",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88505&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "fc911e3d",
+      "md5": "bf77736cd995851e3250c21d10257324",
+      "sha1": "9a30375ed89547125d2f7440bfaa26ec73395315",
+      "size": "609647",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "id": "33",
+      "parent": "genre",
+      "subparent": "Jeu de societe / plateau",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=33&media=pictoliste",
+      "crc": "fd18b276",
+      "md5": "871af19a85096c769c40cdd6465d7242",
+      "sha1": "426ad403f4f67f63ade3fe9914e00dc80d5af225",
+      "size": "660",
+      "format": "png"
+    },
+    {
+      "id": "33",
+      "parent": "genre",
+      "subparent": "Jeu de societe / plateau",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=33&media=logo-monochrome",
+      "crc": "d254a514",
+      "md5": "25e8b4f066b2e341830c25e2b7631f74",
+      "sha1": "47ab2fff6337102af00af34dd1a3c284e09d4365",
+      "size": "2561",
+      "format": "png"
+    },
+    {
+      "id": "33",
+      "parent": "genre",
+      "subparent": "Jeu de societe / plateau",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=33&media=logo-monochrome-svg",
+      "crc": "c95f1a40",
+      "md5": "77acf5c34989882fc5e6f3ef44f32f80",
+      "sha1": "cd9c415efb32ca5ce6c3cb4390023f0969c261d6",
+      "size": "1426",
+      "format": "svg"
+    },
+    {
+      "id": "33",
+      "parent": "genre",
+      "subparent": "Jeu de societe / plateau",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=33&media=background",
+      "crc": "31e9d298",
+      "md5": "1b6548b7a1a025f3d986037a74662821",
+      "sha1": "a4f50838492e7cf5779f00b1dfa07f5bc1f77c72",
+      "size": "154113",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136675",
+      "romsize": "1048592",
+      "romfilename": "Mei Guo Fu Hao - American Man (China) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "37A8EBC4",
+      "rommd5": "EDA52D9D449803ECE12C3CEE52ED1021",
+      "romsha1": "1EAE5D46E5D730B0964878BDE4FAF451E0A55D1F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "33331",
+      "regions": {
+        "regions_id": [
+          "56"
+        ],
+        "regions_shortname": [
+          "cn"
+        ],
+        "regions_en": [
+          "China"
+        ],
+        "regions_fr": [
+          "Chine"
+        ],
+        "regions_de": [
+          "China"
+        ],
+        "regions_es": [
+          "China"
+        ],
+        "regions_it": [
+          "Cina"
+        ],
+        "regions_pt": [
+          "China"
+        ]
+      }
+    },
+    {
+      "id": "13048",
+      "romsize": "294141",
+      "romfilename": "Mei Guo Fu Hao American Man (China) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0ED6D725",
+      "rommd5": "A4EDD623B9FCAFE4196A0FF80BA68883",
+      "romsha1": "87824A9CC3E6E3DC449DA9DBABF7A569ED70457B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "22029",
+      "regions": {
+        "regions_id": [
+          "56"
+        ],
+        "regions_shortname": [
+          "cn"
+        ],
+        "regions_en": [
+          "China"
+        ],
+        "regions_fr": [
+          "Chine"
+        ],
+        "regions_de": [
+          "China"
+        ],
+        "regions_es": [
+          "China"
+        ],
+        "regions_it": [
+          "Cina"
+        ],
+        "regions_pt": [
+          "China"
+        ]
+      }
+    },
+    {
+      "id": "1140549",
+      "romsize": "1048592",
+      "romfilename": "Mei Guo Fu Hao - American Man (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "f7e8fcd6",
+      "rommd5": "5d0ca0c253666899bf388a4996f7367c",
+      "romsha1": "ffe17ee16492477c44e6dd42e59c56531eed8ac0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11822"
+    },
+    {
+      "id": "173847",
+      "romsize": "1048576",
+      "romfilename": "Mei Guo Fu Hao - American Man (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "33007B67",
+      "rommd5": "1F36AACA0451661D6D444A1EA4838A6F",
+      "romsha1": "08B24645ED9B14E47E9C5899D89FE5CCDA142FDF",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11584",
+      "regions": {
+        "regions_id": [
+          "56"
+        ],
+        "regions_shortname": [
+          "cn"
+        ],
+        "regions_en": [
+          "China"
+        ],
+        "regions_fr": [
+          "Chine"
+        ],
+        "regions_de": [
+          "China"
+        ],
+        "regions_es": [
+          "China"
+        ],
+        "regions_it": [
+          "Cina"
+        ],
+        "regions_pt": [
+          "China"
+        ]
+      }
+    },
+    {
+      "id": "114346",
+      "romsize": "294119",
+      "romfilename": "Mei Guo Fu Hao - American Man (China) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FB4CE511",
+      "rommd5": "A878E84B208D3D1625A95E717495ACF4",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "61",
+      "regions": {
+        "regions_id": [
+          "56"
+        ],
+        "regions_shortname": [
+          "cn"
+        ],
+        "regions_en": [
+          "China"
+        ],
+        "regions_fr": [
+          "Chine"
+        ],
+        "regions_de": [
+          "China"
+        ],
+        "regions_es": [
+          "China"
+        ],
+        "regions_it": [
+          "Cina"
+        ],
+        "regions_pt": [
+          "China"
+        ]
+      }
+    }
+  ]
+}

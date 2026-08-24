@@ -1,0 +1,913 @@
+{
+  "id": "88304",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Gekitotsu Yonku Battle"
+    },
+    {
+      "region": "jp",
+      "text": "Gekitotsu Yonku Battle"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "63088",
+    "text": "Irem Corporation"
+  },
+  "developpeur": {
+    "id": "485",
+    "text": "Tamtex"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Gekitotsu Shiku Battle is a Japan-exclusive video game of the vehicular combat game genre released in 1989 by Irem for the Family Computer."
+    },
+    {
+      "langue": "fr",
+      "text": "Gekitotsu Shiku Battle est un jeu vidéo exclusif au Japon, sorti en 1989 par Irem pour le Family Computer."
+    },
+    {
+      "langue": "de",
+      "text": "Gekitotsu Shiku Battle ist ein japanisches exklusives Videospiel des Fahrzeugkampfspielgenres, das 1989 von Irem für den Familiencomputer veröffentlicht wurde."
+    },
+    {
+      "langue": "es",
+      "text": "Gekitotsu Shiku Battle es un videojuego exclusivo de Japón del género de juego de combate vehicular lanzado en 1989 por Irem para la computadora familiar."
+    },
+    {
+      "langue": "it",
+      "text": "Gekitotsu Shiku Battle è un videogioco esclusivo per il Giappone del genere dei giochi di combattimento veicolare pubblicato nel 1989 da Irem per Family Computer."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1989-11-17"
+    }
+  ],
+  "genres": [
+    {
+      "id": "28",
+      "nomcourt": "0601",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Racing, Driving"
+        },
+        {
+          "langue": "fr",
+          "text": "Course, Conduite"
+        },
+        {
+          "langue": "de",
+          "text": "Rennen, Fahren"
+        },
+        {
+          "langue": "es",
+          "text": "Carreras, Conducción"
+        },
+        {
+          "langue": "it",
+          "text": "Corsa, Guida"
+        },
+        {
+          "langue": "pt",
+          "text": "Corrida, Pilotagem"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "4c348e2c",
+      "md5": "da9288171d18f508751c9294ec80387c",
+      "sha1": "3c1df876938ad10a2413ef2d6e974d076d221ab1",
+      "size": "3912",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=ss(jp)",
+      "region": "jp",
+      "crc": "32af8f2d",
+      "md5": "74c36a68bd4e4a2f09aa880a72a43cf9",
+      "sha1": "6a6cc9c2893a4e86aa3f99f8c96d96bb34099218",
+      "size": "3488",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=video",
+      "crc": "5b881a79",
+      "md5": "864238ae9e6c9988c27b323321b7efa3",
+      "sha1": "c0c0623bf4c8c9eef6944cd0d21eed8051e4545b",
+      "size": "14753953",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=video-normalized",
+      "crc": "0457c9e6",
+      "md5": "0f998fb1a9f6d639b788f6a30314ad72",
+      "sha1": "9a2b2a1f79309268d67eaff3b70fbe8cb153b701",
+      "size": "6134119",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=steamgrid",
+      "crc": "34026c7d",
+      "md5": "2d3e218b8ab823e8dc49d55d3ee90b68",
+      "sha1": "3adb70d89d85594b2a810c4bb7e9b7df4ca53859",
+      "size": "35654",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=wheel(jp)",
+      "region": "jp",
+      "crc": "b25efd3b",
+      "md5": "39c850d05b63b29ae281cf35682ad4a3",
+      "sha1": "7c20a9e885f27576550902337daa4fc1ce51ec3e",
+      "size": "122580",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "d0c22b06",
+      "md5": "d046cf8052739ac18d232a85b2876cf7",
+      "sha1": "32096b5ffb6b179f0651fd06f9e510a9813f1445",
+      "size": "126963",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "b8204077",
+      "md5": "cf1d66d7ce2124b6c2e27a3b52dd94d7",
+      "sha1": "8311086895dfff7e9b9afb1d2e12da127151af32",
+      "size": "128914",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "59af7c86",
+      "md5": "4ade2dc11f81a6b3de63affffbc0d80c",
+      "sha1": "38656fce3efc97ec41e6dfd49eb906937e018300",
+      "size": "501723",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "42edb45d",
+      "md5": "a39a1501cb48dbd6f332a367ca4352ac",
+      "sha1": "caa4e7dd111559e8057c5a1f2232e66f91981d8e",
+      "size": "86618",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "20f0d5f3",
+      "md5": "7f939f5d5a535a809e776dab3c794852",
+      "sha1": "c3903d1d9e5d6bf07f160906a48319193f5ccdad",
+      "size": "821544",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "b8601b82",
+      "md5": "0566eee83eedad0b003990991b87637e",
+      "sha1": "c695656a6e322d4be87e6271d3f72306a718b448",
+      "size": "142653",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "8bfef0ac",
+      "md5": "c2f1e460b377ce9b761e1517d153ad48",
+      "sha1": "b3e5465232fa9c8cf94ac8872cd68e2211db3eb9",
+      "size": "55046",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "a69055b9",
+      "md5": "656a9dbfc575f30272e8ac98f0ee8ea6",
+      "sha1": "db4b6112a12cb180b0279beda13b8292b6795d35",
+      "size": "35313",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "db5ce751",
+      "md5": "70ecb8da09b405ae4c8df6c205d8adf0",
+      "sha1": "3916f584e15e2d32b60fd86283997a5b793539e4",
+      "size": "879300",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "292d3c05",
+      "md5": "dfba1cd009a7f2f1c701ce47d098ba58",
+      "sha1": "d5a841cf76956c41bc8ae18c06f32b0cfc908c3c",
+      "size": "184141",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "d99d34b6",
+      "md5": "7ffd0d887c5dd9eacdca6148ea1b0165",
+      "sha1": "f859a9606d0104f4501c202bdb5aaf2195f26a72",
+      "size": "1788885",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "96656701",
+      "md5": "e3a50c902cdcc92824479fb4b8e7b123",
+      "sha1": "14a317d8223561c33050268f82170de1bec83f1b",
+      "size": "375683",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "8044c863",
+      "md5": "b1c2cb4f0f479c5f296321d8fc962708",
+      "sha1": "0098cd0a0d06483993758bda8e41a245f4142041",
+      "size": "355578",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "a9f5f6c1",
+      "md5": "6afe020820463909e45b0e7b1ec9da84",
+      "sha1": "a912392666a8989aa4aa75e5a6c782db5dfbdc65",
+      "size": "175638",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=manuel(jp)",
+      "region": "jp",
+      "crc": "c426a4a6",
+      "md5": "0376708f1d2c652ba1d4c7dfa4932b41",
+      "sha1": "15640d8b8f143bc74304d7498b98c8b5e5269a96",
+      "size": "925826",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "7f71d2e7",
+      "md5": "61d09a028627382bfe6aeae01752a18e",
+      "sha1": "4f3be88008a85751039108aa35d8556e98e2c6ff",
+      "size": "349545",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "4c513864",
+      "md5": "21c565300b0d09334b034ec355ad08f3",
+      "sha1": "58d3c5dee8d6d2753a174d701b6628eff33e420b",
+      "size": "375580",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "b409e27d",
+      "md5": "32c97a314bc062f72ea426d4c81bf517",
+      "sha1": "a0e1e0ed1957c08e02bc306e19d3da127806570f",
+      "size": "467548",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "bdd04f20",
+      "md5": "9bc50be6de5d961c176f577661997e5a",
+      "sha1": "3afbce9403c0d4ad796e1d1facb138779db13b68",
+      "size": "388941",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "b409e27d",
+      "md5": "32c97a314bc062f72ea426d4c81bf517",
+      "sha1": "a0e1e0ed1957c08e02bc306e19d3da127806570f",
+      "size": "467548",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "5342e92c",
+      "md5": "4e569546e22861e790062b4444a68542",
+      "sha1": "dbf813278f7ead8e1de9e31368d58e1f95398457",
+      "size": "694448",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "b5243c72",
+      "md5": "428fefc1bb36db059465475cad640edd",
+      "sha1": "5e453f08b63d8e68a6508bb11ff804096abb9422",
+      "size": "619177",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88304&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "5342e92c",
+      "md5": "4e569546e22861e790062b4444a68542",
+      "sha1": "dbf813278f7ead8e1de9e31368d58e1f95398457",
+      "size": "694448",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=63088&media=wheel",
+      "crc": "bf16352d",
+      "md5": "9d46088cbb6b686dd0130a430a1a1105",
+      "sha1": "6c515e9e1c06d2d47a019944fecf1bb5755cec85",
+      "size": "4382",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "28",
+      "parent": "genre",
+      "subparent": "Course, Conduite",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28&media=pictoliste",
+      "crc": "6d26dd78",
+      "md5": "dc64e0c263abe009b8a846f40029d892",
+      "sha1": "cba5143e7cd8a13b0d80120433eed1b56c7faba6",
+      "size": "817",
+      "format": "png"
+    },
+    {
+      "id": "28",
+      "parent": "genre",
+      "subparent": "Course, Conduite",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28&media=logo-monochrome",
+      "crc": "d2fe1ddb",
+      "md5": "d2b1ca77df8693cf0611053b40db864f",
+      "sha1": "1f71290b922446c4661517474527b86ede4200fa",
+      "size": "5242",
+      "format": "png"
+    },
+    {
+      "id": "28",
+      "parent": "genre",
+      "subparent": "Course, Conduite",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28&media=logo-monochrome-svg",
+      "crc": "5854317a",
+      "md5": "68c7ba83ac439fc27bd608348fb50670",
+      "sha1": "b5bf8d6dc1f738d3e6ca9fe23c2a897b4503fd6f",
+      "size": "2117",
+      "format": "svg"
+    },
+    {
+      "id": "28",
+      "parent": "genre",
+      "subparent": "Course, Conduite",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28&media=background",
+      "crc": "25bbbb66",
+      "md5": "4aa86cf74f667470e128a1782615192a",
+      "sha1": "9ecd8e0d6c328cf4d0e43efd47533de0886a82df",
+      "size": "365892",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136097",
+      "romsize": "131088",
+      "romfilename": "Gekitotsu Yonku Battle (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C7E7F987",
+      "rommd5": "38E04F529ACC9086BD07AC0CEA605FFA",
+      "romsha1": "F000AD1916AA29BE3AE51F675ED42BF7B4E1C1B4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "139213",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "12726",
+      "romsize": "49325",
+      "romfilename": "Gekitotsu Yonku Battle (Japan) (T).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E18F51FF",
+      "rommd5": "341EC42417D09D210703A5825B3388F5",
+      "romsha1": "5E5B210EDAC425D42DA8F071AD8D8BE80A997C01",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "128932",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1137747",
+      "romsize": "131088",
+      "romfilename": "Gekitotsu Yonku Battle (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5020265b",
+      "rommd5": "0d88b65053711215b62d176133477385",
+      "romsha1": "33d58b67cb161a2a3a2f2193745444499645de17",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20971",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1164737",
+      "romsize": "49223",
+      "romfilename": "Quad Challenge.zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "79402E08",
+      "rommd5": "8A3B1CEAB46317CFED5406290BB5131C",
+      "romsha1": "CD1799B183DD1B6C6E814617B0EFEC990E38517B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11825"
+    },
+    {
+      "id": "847666",
+      "romsize": "131600",
+      "romfilename": "Gekitotsu Yonku Battle (J) [t1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CFA6396B",
+      "rommd5": "71B3AA8423D6D1BFF85AD2B75D499C84",
+      "romsha1": "E78CBFDCFD4165A2987EE91B57E6FA81369B7F0E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8910",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "528294",
+      "romsize": "49479",
+      "romfilename": "4WDBattle.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1420F5F1",
+      "rommd5": "6A6761B03D0D4BEFCE90E649A8B5A6C6",
+      "romsha1": "4DC99596A5B6C37A0138835FB1C57320463B8070",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7411",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113761",
+      "romsize": "49303",
+      "romfilename": "Gekitotsu Yonku Battle (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4EF90F9A",
+      "rommd5": "E0E2725CC740661FB2E5D9155EED2A49",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6553",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173262",
+      "romsize": "131072",
+      "romfilename": "Gekitotsu Yonku Battle (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "04109355",
+      "rommd5": "F12BD5D8AFA47098D3052B6271ABB6F9",
+      "romsha1": "C1C920379BBB9D78A88B918CCCBB149BA1EF862A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1991",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1416440",
+      "romsize": "49042",
+      "romfilename": "4 Wheel Drive Battle (Japan) [T-En by Pacnsacdave v1.0] [n].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "f89375c5",
+      "rommd5": "cd144a3811046637ccaecb969eb8f779",
+      "romsha1": "17fe0409487b4a3074b5a27232390a8fe96d6986",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    }
+  ]
+}

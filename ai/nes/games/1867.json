@@ -1,0 +1,1533 @@
+{
+  "id": "1867",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Miracle Piano Teaching System, The"
+    },
+    {
+      "region": "us",
+      "text": "The Miracle Piano Teaching System"
+    },
+    {
+      "region": "eu",
+      "text": "The Miracle Piano Teaching System"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "165",
+    "text": "Mindscape"
+  },
+  "developpeur": {
+    "id": "7350",
+    "text": "The Software Toolworks"
+  },
+  "joueurs": {
+    "text": "1-4"
+  },
+  "note": {
+    "text": "12"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "The Miracle Piano Teaching System teaches piano to beginning / intermediate players using a combination of scripted lessons, dynamically created lessons, and piano-themed video games. The original version came bundled with a custom piano keyboard. Later versions work with any MIDI keyboard."
+    },
+    {
+      "langue": "fr",
+      "text": "The Miracle Piano Teaching System est un jeu musical sur Nes. Le titre vous propose de jouer du piano, en vous apprenant à lire le solfège. De plus, il propose plusieurs partitions que vous pouvez jouer directement sur la console de Nintendo grâce à l'accessoire vendu avec le jeu, c'est-à-dire un véritable petit piano."
+    },
+    {
+      "langue": "de",
+      "text": "Das Miracle Piano Teaching System bringt Anfängern und fortgeschrittenen Spielern das Klavierspielen bei, indem es eine Kombination aus geskripteten Lektionen, dynamisch erstellten Lektionen und Videospielen zum Thema Klavier verwendet. Die ursprüngliche Version wurde mit einer speziellen Klaviertastatur ausgeliefert. Spätere Versionen funktionieren mit jedem MIDI-Keyboard."
+    },
+    {
+      "langue": "es",
+      "text": "El Sistema de enseñanza de piano Miracle enseña a los principiantes / intermedios de piano utilizando una combinación de lecciones con guión, lecciones creadas dinámicamente y videojuegos con temas de piano. La versión original vino con un teclado de piano personalizado. Las versiones posteriores funcionan con cualquier teclado MIDI."
+    },
+    {
+      "langue": "it",
+      "text": "Il sistema di insegnamento del pianoforte Miracle insegna il pianoforte a giocatori principianti/intermedi utilizzando una combinazione di lezioni con script, lezioni create dinamicamente e videogiochi a tema pianoforte. La versione originale è stata fornita in bundle con una tastiera per pianoforte personalizzata. Le versioni successive funzionano con qualsiasi tastiera MIDI."
+    },
+    {
+      "langue": "pt",
+      "text": "O Miracle Piano Teaching System ensina piano a jogadores iniciantes / intermediários usando uma combinação de lições com script, lições criadas dinamicamente e videogames com temas de piano. A versão original veio com um teclado de piano personalizado. Versões posteriores funcionam com qualquer teclado MIDI."
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1990"
+    },
+    {
+      "region": "eu",
+      "text": "1990"
+    }
+  ],
+  "genres": [
+    {
+      "id": "30",
+      "nomcourt": "1100",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Educational"
+        },
+        {
+          "langue": "fr",
+          "text": "Ludo-Educatif"
+        },
+        {
+          "langue": "de",
+          "text": "Lernspiel"
+        },
+        {
+          "langue": "es",
+          "text": "Educacional"
+        },
+        {
+          "langue": "it",
+          "text": "Educativo"
+        },
+        {
+          "langue": "pt",
+          "text": "Educacional"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=sstitle(us)",
+      "region": "us",
+      "crc": "39c5247d",
+      "md5": "26e99c366182570d74ec0d5db4592fbe",
+      "sha1": "531bbc1fc7ab995c73cc7b45bf31df49fc008718",
+      "size": "2624",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=ss(us)",
+      "region": "us",
+      "crc": "772cf964",
+      "md5": "a7cf0eeff5e1c1f1da1fea9676afbeb3",
+      "sha1": "213b79a6a171c41bd3fa69117e294e9e2d4d4f50",
+      "size": "1503",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=fanart",
+      "crc": "99fc5168",
+      "md5": "1dc8a4f09d8ee577f9c2b87531c0b7ce",
+      "sha1": "51780dc9939a4b2fb081ea4f1414385237152763",
+      "size": "208200",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=video",
+      "crc": "1932b834",
+      "md5": "9712e523b2d4cdc9e676d4e6b9b210db",
+      "sha1": "cf34bd49d90ced0b31b3a0693b2ecdd408b6eaed",
+      "size": "1969186",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=video-normalized",
+      "crc": "ae8d97da",
+      "md5": "0d75f2313e35f0906d4330e428ac4bd5",
+      "sha1": "531d904c8779118593f19801c648734c456fc052",
+      "size": "898331",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=steamgrid",
+      "crc": "42467f19",
+      "md5": "1cc763865344b758dc94b48643e64226",
+      "sha1": "f38f2c407980d2d8478b76e2e10f0b8162c04c25",
+      "size": "31553",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=wheel(us)",
+      "region": "us",
+      "crc": "af05016e",
+      "md5": "ca43c6333e140ebe0cb7d667cb4b59ac",
+      "sha1": "a06e8dc22e4346721949fc13b46638bb4a354568",
+      "size": "22269",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=wheel-carbon(us)",
+      "region": "us",
+      "crc": "01fc673f",
+      "md5": "3b412822a2e865c469927ea50bbe487d",
+      "sha1": "a62e74d4d37bce3e710dcb12b7e5deacf864334d",
+      "size": "89273",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=wheel-steel(us)",
+      "region": "us",
+      "crc": "48886d8c",
+      "md5": "3c19cb625e8692317c956421b16c1740",
+      "sha1": "2d66240a2551b4242df2d778b67fee9c08ba3587",
+      "size": "90723",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=screenmarquee(us)",
+      "region": "us",
+      "crc": "a8cdbc58",
+      "md5": "f20418d350684e371532ef00ba5afc2a",
+      "sha1": "3ab38e3af6093da4f831188cd84941e682ca6fcc",
+      "size": "492923",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=screenmarqueesmall(us)",
+      "region": "us",
+      "crc": "baff4773",
+      "md5": "b454671086044d8c0f0e87e9fbd5e4ff",
+      "sha1": "4e5fca09168226070a6fa0530ef0cc898b068aa3",
+      "size": "80298",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=box-2D(us)",
+      "region": "us",
+      "crc": "447a0dd2",
+      "md5": "558ee78e7b266dca5405ab949573c5e6",
+      "sha1": "15274d250e3a4e20c96081367513ae2cccdb4259",
+      "size": "293361",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "573fb6db",
+      "md5": "7eb077986389fa624384906011a8c95e",
+      "sha1": "a567641f4728782fcd86b5955108c3244e867b9e",
+      "size": "23017",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "7be82b5f",
+      "md5": "f69c3356bcfddd2ff1503fce3c291ba9",
+      "sha1": "9b43e59b41625c8e2c6f5c57086d4220f24bc058",
+      "size": "320060",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=box-texture(us)",
+      "region": "us",
+      "crc": "fd6bf37b",
+      "md5": "c7242f9479b2a930ddb478ac421288c6",
+      "sha1": "a43dd28485d400fc8ff2c8d88b86abd4ee24c992",
+      "size": "587418",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=box-3D(us)",
+      "region": "us",
+      "crc": "4d0c1198",
+      "md5": "952f96606b8bb344bed8a286d7d9a1a8",
+      "sha1": "6b28bffc03659e0f56c1bed18c8dc87ceb64f799",
+      "size": "154692",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=manuel(us)",
+      "region": "us",
+      "crc": "e501bc42",
+      "md5": "e4c11df4382d467d18d30c50ab0c92cd",
+      "sha1": "1c256aa6a65cb11703ada176879d83116ea260d6",
+      "size": "11693208",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=support-texture(us)",
+      "region": "us",
+      "crc": "8089a6dc",
+      "md5": "0a2259521ad8003c50c22210c1a2ef51",
+      "sha1": "35eea105ae9671b99c2456702bea4c02a002c0c3",
+      "size": "139420",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=support-2D(us)",
+      "region": "us",
+      "crc": "85a51feb",
+      "md5": "3bc8d3a4ecd61411232c942701f10d69",
+      "sha1": "9ebf370fc44913c21d0d0b2fa646f1dd29a35cc7",
+      "size": "335040",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "6",
+      "posw": "1406",
+      "posh": "1067",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "207592fd",
+      "md5": "e0e5520b76d90b7356c3890aa242ee20",
+      "sha1": "32133b35879d189e17527699866abbb12d9ab164",
+      "size": "341817",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "96255674",
+      "md5": "db33d7a55bed6b801a649618aa2189a9",
+      "sha1": "3e996463a9e1a17c101d7c41e651eac6767a6278",
+      "size": "231612",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "96255674",
+      "md5": "db33d7a55bed6b801a649618aa2189a9",
+      "sha1": "3e996463a9e1a17c101d7c41e651eac6767a6278",
+      "size": "231612",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=mixrbv2(de)",
+      "region": "de",
+      "crc": "4e3fc02d",
+      "md5": "699d4346032b0dbeacb63eb793afb5b0",
+      "sha1": "79c779a59189c2c5edc6b16f976cd3afeafc3f21",
+      "size": "419746",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=mixrbv2(eu)",
+      "region": "eu",
+      "crc": "4e3fc02d",
+      "md5": "699d4346032b0dbeacb63eb793afb5b0",
+      "sha1": "79c779a59189c2c5edc6b16f976cd3afeafc3f21",
+      "size": "419746",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=mixrbv2(fr)",
+      "region": "fr",
+      "crc": "4e3fc02d",
+      "md5": "699d4346032b0dbeacb63eb793afb5b0",
+      "sha1": "79c779a59189c2c5edc6b16f976cd3afeafc3f21",
+      "size": "419746",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "4e3fc02d",
+      "md5": "699d4346032b0dbeacb63eb793afb5b0",
+      "sha1": "79c779a59189c2c5edc6b16f976cd3afeafc3f21",
+      "size": "419746",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1867&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "4e3fc02d",
+      "md5": "699d4346032b0dbeacb63eb793afb5b0",
+      "sha1": "79c779a59189c2c5edc6b16f976cd3afeafc3f21",
+      "size": "419746",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=165&media=logo-monochrome",
+      "crc": "17066b94",
+      "md5": "60f9129014adefa6b6722e04f1f796d4",
+      "sha1": "1031cdb360e8911e9bf35d7ed824b6d89c97f1aa",
+      "size": "8242",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=165&media=wheel",
+      "crc": "16a87d80",
+      "md5": "578b3d8d996c82d914e5e89f2c06a0ae",
+      "sha1": "a982df6a6f89d9145540b01caebfadec123420ad",
+      "size": "164180",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=7350&media=logo-monochrome",
+      "crc": "0ec444ac",
+      "md5": "fe6c89b970a14c74d444e9de78a6b623",
+      "sha1": "97650fa6c95ce8a1f71c8a72d4e14d93b6991287",
+      "size": "58154",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=7350&media=wheel",
+      "crc": "735bcc55",
+      "md5": "27e0485374b8cea266f1ef918d6fd46d",
+      "sha1": "5b3f44da0fc571e51d874dc35cea7e839cd55495",
+      "size": "196075",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3369&media=pictoliste",
+      "crc": "5709be9f",
+      "md5": "6eb7a76760235fadf97bec1d3940dea7",
+      "sha1": "c349cb22ef64a06252b47e5f2ccc349cea37619f",
+      "size": "441",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3551&media=pictoliste",
+      "crc": "4b70874e",
+      "md5": "e350059ffeddd8fa6305e25f6aae2d92",
+      "sha1": "51a597d09c8482e1ed1099d12db0d958aeaa1d21",
+      "size": "420",
+      "format": "png"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=pictoliste",
+      "crc": "e28550e1",
+      "md5": "e337a914d16f2371caf8ca01f58c1f72",
+      "sha1": "577bcb723200a3267b49908fb79928567e894f48",
+      "size": "843",
+      "format": "png"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=logo-monochrome",
+      "crc": "de92ed5c",
+      "md5": "7b89241db8d1857b59510d6cf99ea656",
+      "sha1": "d2176dbfce2daaefd8e06167b0e528d612eaf84f",
+      "size": "6893",
+      "format": "png"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=logo-monochrome-svg",
+      "crc": "11bcb2d1",
+      "md5": "6c8be079904348e944823207aa5d621e",
+      "sha1": "2465ea75ec1bbcb7abd6bec24522837b56fbecd0",
+      "size": "2464",
+      "format": "svg"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=background",
+      "crc": "b2f1fe8f",
+      "md5": "97e5055083b20b96fcfa1b1ebe05b602",
+      "sha1": "f6e720d79074f5987f558221f7bf19714da06423",
+      "size": "319073",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136740",
+      "romsize": "327696",
+      "romfilename": "Miracle Piano Teaching System, The (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A7607815",
+      "rommd5": "C3D85F1C0734E873A34B7BD05CFC335E",
+      "romsha1": "F98C66CE2C1C73796081634B231355E7551E3931",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "239686",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "3516",
+      "romsize": "167820",
+      "romfilename": "Miracle Piano Teaching System, The.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3445E53D",
+      "rommd5": "C0DDE50B955DDB4656F160BA6C67C8D7",
+      "romsha1": "1C6DF386A0E589CE6CE083FEC8A6B5B98FA4B9EB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "65632",
+      "regions": {
+        "regions_id": [
+          "45"
+        ],
+        "regions_shortname": [
+          "fr"
+        ],
+        "regions_en": [
+          "France"
+        ],
+        "regions_fr": [
+          "France"
+        ],
+        "regions_de": [
+          "Frankreich"
+        ],
+        "regions_es": [
+          "Francia"
+        ],
+        "regions_it": [
+          "Francia"
+        ],
+        "regions_pt": [
+          "França"
+        ]
+      }
+    },
+    {
+      "id": "3518",
+      "romsize": "167069",
+      "romfilename": "Miracle Piano Teaching System, The (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D4B8B122",
+      "rommd5": "09274433E39C9105D356F448187B8363",
+      "romsha1": "6FD782AD8E309ACC0CBFE6BC13F44B44C87290FB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "56801",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "136738",
+      "romsize": "327696",
+      "romfilename": "Miracle Piano Teaching System, The (France).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A854CE71",
+      "rommd5": "49150B1EB5AD186FD99397F069CEC120",
+      "romsha1": "1CD5B17DFC19452AC19D38B22974C02EBFB410AA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "36877",
+      "langues": {
+        "langues_id": [
+          "69"
+        ],
+        "langues_shortname": [
+          "fr"
+        ],
+        "langues_en": [
+          "French"
+        ],
+        "langues_fr": [
+          "Français"
+        ],
+        "langues_de": [
+          "Französisch"
+        ],
+        "langues_es": [
+          "Francés"
+        ],
+        "langues_it": [
+          "Francese"
+        ],
+        "langues_pt": [
+          "Francês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "45"
+        ],
+        "regions_shortname": [
+          "fr"
+        ],
+        "regions_en": [
+          "France"
+        ],
+        "regions_fr": [
+          "France"
+        ],
+        "regions_de": [
+          "Frankreich"
+        ],
+        "regions_es": [
+          "Francia"
+        ],
+        "regions_it": [
+          "Francia"
+        ],
+        "regions_pt": [
+          "França"
+        ]
+      }
+    },
+    {
+      "id": "1140876",
+      "romsize": "327696",
+      "romfilename": "Miracle Piano Teaching System, The (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4614cb18",
+      "rommd5": "cfed80e296c25f4421a7651b822dbe35",
+      "romsha1": "0d0cf1cd850416fbd2986a00c8344b82cad62eb1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "33095",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "136739",
+      "romsize": "327696",
+      "romfilename": "Miracle Piano Teaching System, The (Germany).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "86360D9D",
+      "rommd5": "7F2ECE00E5E19CC19BBED93738829B0E",
+      "romsha1": "154FEF96BF4B816742CA62D0D054241F98039A0B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "27714",
+      "regions": {
+        "regions_id": [
+          "115",
+          "48"
+        ],
+        "regions_shortname": [
+          "de",
+          "eu"
+        ],
+        "regions_en": [
+          "Germany",
+          "Europe"
+        ],
+        "regions_fr": [
+          "Allemagne",
+          "Europe"
+        ],
+        "regions_de": [
+          "Deutschland",
+          "Europa"
+        ],
+        "regions_es": [
+          "Alemania",
+          "Europa"
+        ],
+        "regions_it": [
+          "Germania",
+          "Europa"
+        ],
+        "regions_pt": [
+          "Alemanha",
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "3517",
+      "romsize": "164286",
+      "romfilename": "Miracle Piano Teaching System, The (Germany).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5BD457FA",
+      "rommd5": "84FB80C04A38195B0E2E71C4853639D7",
+      "romsha1": "9E41B5B9335300624C961ADC073EA7FD82E64743",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13124",
+      "regions": {
+        "regions_id": [
+          "115"
+        ],
+        "regions_shortname": [
+          "de"
+        ],
+        "regions_en": [
+          "Germany"
+        ],
+        "regions_fr": [
+          "Allemagne"
+        ],
+        "regions_de": [
+          "Deutschland"
+        ],
+        "regions_es": [
+          "Alemania"
+        ],
+        "regions_it": [
+          "Germania"
+        ],
+        "regions_pt": [
+          "Alemanha"
+        ]
+      }
+    },
+    {
+      "id": "572108",
+      "romsize": "168242",
+      "romfilename": "Miracle Piano Teaching System, The (U).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FF131DC0",
+      "rommd5": "EEBB2581B0A1821FC0854F400785B332",
+      "romsha1": "A154687DD2C7C2C90BADAA3E9782FD8FC4BD1367",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11268",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "524652",
+      "romsize": "168078",
+      "romfilename": "Miracle Piano Teaching System, The (U) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "001DD3A2",
+      "rommd5": "8B75779BD7E13768B987E31F27E3BDB2",
+      "romsha1": "18E4E5CB6157E076641A74B364DE1B8E278D6C4C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10076",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "564234",
+      "romsize": "327824",
+      "romfilename": "MiraclePianoTeachingSystem,The.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8E1361D9",
+      "rommd5": "98CD6348E61A3533D8C2BFE595958A5B",
+      "romsha1": "6ABD45900D9EB2D6BF0F1999CAAF9E30957F44A8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9896"
+    },
+    {
+      "id": "827679",
+      "romsize": "167047",
+      "romfilename": "Miracle Piano Teaching System.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "34AD8520",
+      "rommd5": "0985B848079A8387DE981BDEF3BC19B1",
+      "romsha1": "D55273DEE666A5019DE6A384FAD19CBFA840D7A2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9608"
+    },
+    {
+      "id": "1140879",
+      "romsize": "327696",
+      "romfilename": "Miracle Piano Teaching System, The (E) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5289130b",
+      "rommd5": "b84571c904d4cc8cf994cb203490ce89",
+      "romsha1": "6441e358c37cb4a290fcef57ccb4cff4a288536a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8681",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "468853",
+      "romsize": "163250",
+      "romfilename": "Miracle Piano Teaching System The (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B6B7CB7F",
+      "rommd5": "A9866E9954C03187D7BB4A3EF93E6EC3",
+      "romsha1": "EB320035737BECA45C370C6ADADE107445743538",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6962",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1140870",
+      "romsize": "327696",
+      "romfilename": "Miracle Piano Teaching System, The (France).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "76312023",
+      "rommd5": "49999ced1a1f25f8c7bd45c9374ab9d1",
+      "romsha1": "f8981b58e84e2441c355c04c830353462a2fc720",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5210"
+    },
+    {
+      "id": "1140873",
+      "romsize": "327696",
+      "romfilename": "Miracle Piano Teaching System, The (Germany).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5853e3cf",
+      "rommd5": "e48506102c9eba0fe410fc1e362b4f2f",
+      "romsha1": "b2aeb9a6908d8b482ed387e67fb8c92efe7c1231",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3924"
+    },
+    {
+      "id": "173912",
+      "romsize": "327680",
+      "romfilename": "Miracle Piano Teaching System, The (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "92C138E4",
+      "rommd5": "FA144048D6C9CE84024A54F7AE5D6360",
+      "romsha1": "7BF2E5DAD66CE253C25EC97CF27461C6475F044D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2764",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "173910",
+      "romsize": "327680",
+      "romfilename": "Miracle Piano Teaching System, The (France).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9DF58E80",
+      "rommd5": "09BC5632EC55B176E79A830A9B79AAD9",
+      "romsha1": "ACC9C9EB5DEFDA865CB84BB6057D739EA4CFE5E0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1194",
+      "regions": {
+        "regions_id": [
+          "45"
+        ],
+        "regions_shortname": [
+          "fr"
+        ],
+        "regions_en": [
+          "France"
+        ],
+        "regions_fr": [
+          "France"
+        ],
+        "regions_de": [
+          "Frankreich"
+        ],
+        "regions_es": [
+          "Francia"
+        ],
+        "regions_it": [
+          "Francia"
+        ],
+        "regions_pt": [
+          "França"
+        ]
+      }
+    },
+    {
+      "id": "173911",
+      "romsize": "327680",
+      "romfilename": "Miracle Piano Teaching System, The (Germany).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B3974D6C",
+      "rommd5": "A09120858773DF99ADC23FBC4F1A9AA4",
+      "romsha1": "F3D84DCC9FDB48E3F638E4F3205384721C10F710",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1047",
+      "regions": {
+        "regions_id": [
+          "115"
+        ],
+        "regions_shortname": [
+          "de"
+        ],
+        "regions_en": [
+          "Germany"
+        ],
+        "regions_fr": [
+          "Allemagne"
+        ],
+        "regions_de": [
+          "Deutschland"
+        ],
+        "regions_es": [
+          "Alemania"
+        ],
+        "regions_it": [
+          "Germania"
+        ],
+        "regions_pt": [
+          "Alemanha"
+        ]
+      }
+    },
+    {
+      "id": "114412",
+      "romsize": "167047",
+      "romfilename": "Miracle Piano Teaching System, The (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "311CB4F7",
+      "rommd5": "C660AA82844799F03D866584AB79C4DE",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "970",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "114410",
+      "romsize": "167798",
+      "romfilename": "Miracle Piano Teaching System, The (France).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "35159FC0",
+      "rommd5": "BD9DD6EE4C76676FA6A549772E4C7B24",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "154",
+      "regions": {
+        "regions_id": [
+          "45"
+        ],
+        "regions_shortname": [
+          "fr"
+        ],
+        "regions_en": [
+          "France"
+        ],
+        "regions_fr": [
+          "France"
+        ],
+        "regions_de": [
+          "Frankreich"
+        ],
+        "regions_es": [
+          "Francia"
+        ],
+        "regions_it": [
+          "Francia"
+        ],
+        "regions_pt": [
+          "França"
+        ]
+      }
+    },
+    {
+      "id": "114411",
+      "romsize": "164264",
+      "romfilename": "Miracle Piano Teaching System, The (Germany).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B1F01090",
+      "rommd5": "AEF10B3AF01DFE0C2A22F7579C39F9ED",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "36",
+      "regions": {
+        "regions_id": [
+          "115"
+        ],
+        "regions_shortname": [
+          "de"
+        ],
+        "regions_en": [
+          "Germany"
+        ],
+        "regions_fr": [
+          "Allemagne"
+        ],
+        "regions_de": [
+          "Deutschland"
+        ],
+        "regions_es": [
+          "Alemania"
+        ],
+        "regions_it": [
+          "Germania"
+        ],
+        "regions_pt": [
+          "Alemanha"
+        ]
+      }
+    }
+  ]
+}

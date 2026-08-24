@@ -1,0 +1,1006 @@
+{
+  "id": "213613",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "KUBO 3"
+    },
+    {
+      "region": "wor",
+      "text": "KUBO 3"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "developpeur": {
+    "id": "36373",
+    "text": "SJ Games"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "note": {
+    "text": "15"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "The game takes up the adventures of the cowboy turtle where the previous episode ended. Moglar, the evil mole, has kidnapped the villagers ... and Kubo has to find 4 sacred crystals to free them."
+    },
+    {
+      "langue": "de",
+      "text": "Das Spiel greift die Abenteuer der Cowboy-Schildkröte dort auf, wo die vorherige Episode endete. Moglar, der böse Maulwurf, hat die Dorfbewohner entführt ... und Kubo muss 4 heilige Kristalle finden, um sie zu befreien."
+    },
+    {
+      "langue": "es",
+      "text": "El juego retoma las aventuras de la tortuga vaquera donde terminó el episodio anterior. Moglar, el malvado topo secuestró a los aldeanos ... y Kubo tendrá que encontrar 4 cristales sagrados para liberarlos."
+    },
+    {
+      "langue": "it",
+      "text": "Il gioco riprende le avventure della tartaruga cowboy dove si è concluso l'episodio precedente. Moglar, la talpa malvagia ha rapito gli abitanti del villaggio... e Kubo dovrà trovare 4 cristalli sacri per liberarli."
+    },
+    {
+      "langue": "pt",
+      "text": "O jogo retoma as aventuras da tartaruga caubói onde o episódio anterior terminou. Moglar, a toupeira do mal sequestrou os aldeões ... e Kubo terá que encontrar 4 cristais sagrados para libertá-los."
+    }
+  ],
+  "dates": [
+    {
+      "region": "asi",
+      "text": "2020"
+    }
+  ],
+  "genres": [
+    {
+      "id": "13",
+      "nomcourt": "0200",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Adventure"
+        },
+        {
+          "langue": "fr",
+          "text": "Aventure"
+        },
+        {
+          "langue": "de",
+          "text": "Abenteuer"
+        },
+        {
+          "langue": "es",
+          "text": "Aventura"
+        },
+        {
+          "langue": "it",
+          "text": "Avventura"
+        },
+        {
+          "langue": "pt",
+          "text": "Aventura"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=sstitle(fr)",
+      "region": "fr",
+      "crc": "554a1d56",
+      "md5": "629b07aaf9268302fd78e2d4f1e9151c",
+      "sha1": "afddce21649c623c0eed09810ffe608862bab386",
+      "size": "1033",
+      "format": "png"
+    },
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "ca18a6b7",
+      "md5": "43b7a2a390464c1cd402ba45132f5625",
+      "sha1": "688832d08cd76d616b89e8d85b589cf7638f8cbb",
+      "size": "2107",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=ss(wor)",
+      "region": "wor",
+      "crc": "2fb449b5",
+      "md5": "37651f1a5f37350534dd7d0cdd648d49",
+      "sha1": "a5c4b22d1bffb8487f1f61773cc6380b3b091461",
+      "size": "4217",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=video",
+      "crc": "87daad36",
+      "md5": "fa2a914032dd8e77fdfb97854819998e",
+      "sha1": "4da358711a29919c3b8cf61b3117fa28e53118ca",
+      "size": "5650618",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=video-normalized",
+      "crc": "a36a8b56",
+      "md5": "62b4dddc301506bc5ee6626a8e8e1ed2",
+      "sha1": "6546c7e5755c93fb68accbf81c79d82d0c3cb746",
+      "size": "1072667",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=steamgrid",
+      "crc": "3604764b",
+      "md5": "dfb2fab07401bb2e01fd7183f88c0c09",
+      "sha1": "57a7509c6d4fdc2b182ca6b51d5cdf7a29b8cbd8",
+      "size": "27806",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=wheel(wor)",
+      "region": "wor",
+      "crc": "427b0d45",
+      "md5": "a62a9bf3a7888558c03ca87b19c8da86",
+      "sha1": "918d53b726d5811e99fab62dc7244540e04341eb",
+      "size": "31061",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "6294338a",
+      "md5": "fbf436badec7146702233eb5466ff04d",
+      "sha1": "55e112a395124a2e673231834a17293f66ee21f3",
+      "size": "70400",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "7bda0cab",
+      "md5": "03bdfd40a74845bbd0ab115864de336d",
+      "sha1": "8ff21a64d3c035912ca0b0355f4e5a8cdd6668ae",
+      "size": "71057",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "656ac984",
+      "md5": "b2e157fbaa067167da436263b2ac7932",
+      "sha1": "e62d27fb8285184b27fc5d96185cdb7b40fb7b92",
+      "size": "446967",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "25d2924e",
+      "md5": "566de38a8b76c494ea0a9d5c7a376d09",
+      "sha1": "040c79e925fa7bd52d4aa4fb8d3f29b2df7e0228",
+      "size": "68232",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=box-2D(wor)",
+      "region": "wor",
+      "crc": "886f1a3c",
+      "md5": "683256dc06173a06f96f10b7491bf100",
+      "sha1": "128b942c41bb3dddcc6bdf0f16f08cabfb493259",
+      "size": "144305",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=box-2D-side(wor)",
+      "region": "wor",
+      "crc": "3e6c1fdc",
+      "md5": "1e12117714e726f55b735b0a912f737d",
+      "sha1": "119042a247e4ccee0523a157bd1742f21fe978cb",
+      "size": "22162",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=box-2D-back(wor)",
+      "region": "wor",
+      "crc": "da0ca68e",
+      "md5": "ff7b248a30a507cf73af8b3aa4d6d00e",
+      "sha1": "9d9bafff413b24c6523e6d81ca60ed08c93817ca",
+      "size": "479550",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=box-texture(wor)",
+      "region": "wor",
+      "crc": "87ec1b2b",
+      "md5": "defa751d3b34ae054b465e64df63957d",
+      "sha1": "8763ab0c17dbfebee94792190d1c1483cfe3d45c",
+      "size": "707805",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=box-3D(wor)",
+      "region": "wor",
+      "crc": "27fd99d6",
+      "md5": "ea2625e12c68aadce7509d53374a03de",
+      "sha1": "ff1d8e6de125096ef77d1cf182b54c9355149466",
+      "size": "145037",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=manuel(wor)",
+      "region": "wor",
+      "crc": "f8a20d5f",
+      "md5": "ecd9c8ee90123e2729eca5172949a57b",
+      "sha1": "dba5460d6fc64ea1b668547cbce9d43af32409f2",
+      "size": "5919460",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=support-texture(fr)",
+      "region": "fr",
+      "crc": "c24e2752",
+      "md5": "87505fe2c5fc13b52365083a44bd6a63",
+      "sha1": "9d54f7afef0a499edcb16412c2a232082aafb161",
+      "size": "76203",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=support-2D(fr)",
+      "region": "fr",
+      "crc": "dd7bac58",
+      "md5": "1055b2ee91e8a94dd27a09b790b7a842",
+      "sha1": "4203fd5966cd3aa7fce6d77d9c78c7a166986622",
+      "size": "231687",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "4585668f",
+      "md5": "dea3358c6aecbdfd0344b18bbaef0b39",
+      "sha1": "ca6025585c0deb7b18b7ef425f7de77cc8307ed1",
+      "size": "296214",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=mixrbv2(fr)",
+      "region": "fr",
+      "crc": "545ecba8",
+      "md5": "d1d49a3d7067bd76eb9790111e518366",
+      "sha1": "2d4b997d257df3731a88ab7a948ad680207ab4d7",
+      "size": "446782",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "545ecba8",
+      "md5": "d1d49a3d7067bd76eb9790111e518366",
+      "sha1": "2d4b997d257df3731a88ab7a948ad680207ab4d7",
+      "size": "446782",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213613&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "545ecba8",
+      "md5": "d1d49a3d7067bd76eb9790111e518366",
+      "sha1": "2d4b997d257df3731a88ab7a948ad680207ab4d7",
+      "size": "446782",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3554&media=pictoliste",
+      "crc": "28b5fb64",
+      "md5": "0e7ffb4952682c80e2fee5c08956d37d",
+      "sha1": "4570deb53cd77ffe6abea2aca01f0992a9453aeb",
+      "size": "1275",
+      "format": "png"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=pictoliste",
+      "crc": "8110c97e",
+      "md5": "3ae29e736d50a81e950bc09995eef920",
+      "sha1": "684567ae8537e5394d8335cfbcdbe65336b63042",
+      "size": "908",
+      "format": "png"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=logo-monochrome",
+      "crc": "7d6f79cd",
+      "md5": "29fe47711b1700461adb943b75e243c6",
+      "sha1": "7ff3b47680c560229f2c79b04e36633945f1076b",
+      "size": "9191",
+      "format": "png"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=logo-monochrome-svg",
+      "crc": "5da7342f",
+      "md5": "c6c487d7b83f59704d60dc3db9aeb738",
+      "sha1": "99eb7921f5b9df09c257df3eee61f97f786e4a89",
+      "size": "4852",
+      "format": "svg"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=background",
+      "crc": "b7f54e2e",
+      "md5": "5c9ff45078054d25bb6fc33154c1be54",
+      "sha1": "3fbc535b5792ae9152e00219e8b84fee41f945ee",
+      "size": "275320",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "973120",
+      "romsize": "524304",
+      "romfilename": "Kubo 3.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "572EC15F",
+      "rommd5": "50941F1D225FF0D9CA6DD071AE0530A0",
+      "romsha1": "5ADB377658B9F3E2D217AF6B754191E90265066A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "116077",
+      "langues": {
+        "langues_id": [
+          "68",
+          "69"
+        ],
+        "langues_shortname": [
+          "en",
+          "fr"
+        ],
+        "langues_en": [
+          "English",
+          "French"
+        ],
+        "langues_fr": [
+          "Anglais",
+          "Français"
+        ],
+        "langues_de": [
+          "Englisch",
+          "Französisch"
+        ],
+        "langues_es": [
+          "Inglés",
+          "Francés"
+        ],
+        "langues_it": [
+          "Inglese",
+          "Francese"
+        ],
+        "langues_pt": [
+          "Inglês",
+          "Francês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "1139586",
+      "romsize": "524304",
+      "romfilename": "KUBO 3 (World) (En,Fr) (Rev B) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "d2d3ec2b",
+      "rommd5": "2fe1f532663cad211b89712866306040",
+      "romsha1": "b4000e8c320e904554d3ad9119d49cf7868f98aa",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9296",
+      "langues": {
+        "langues_id": [
+          "68",
+          "69"
+        ],
+        "langues_shortname": [
+          "en",
+          "fr"
+        ],
+        "langues_en": [
+          "English",
+          "French"
+        ],
+        "langues_fr": [
+          "Anglais",
+          "Français"
+        ],
+        "langues_de": [
+          "Englisch",
+          "Französisch"
+        ],
+        "langues_es": [
+          "Inglés",
+          "Francés"
+        ],
+        "langues_it": [
+          "Inglese",
+          "Francese"
+        ],
+        "langues_pt": [
+          "Inglês",
+          "Francês"
+        ]
+      }
+    },
+    {
+      "id": "1139580",
+      "romsize": "524304",
+      "romfilename": "KUBO (World) (Fr) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "44ddfd5e",
+      "rommd5": "911f52d5c63d8e6845f0af5b6ae0324e",
+      "romsha1": "000742402eee334598b802c62420b842c0ee43f6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4801",
+      "langues": {
+        "langues_id": [
+          "69"
+        ],
+        "langues_shortname": [
+          "fr"
+        ],
+        "langues_en": [
+          "French"
+        ],
+        "langues_fr": [
+          "Français"
+        ],
+        "langues_de": [
+          "Französisch"
+        ],
+        "langues_es": [
+          "Francés"
+        ],
+        "langues_it": [
+          "Francese"
+        ],
+        "langues_pt": [
+          "Francês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "45"
+        ],
+        "regions_shortname": [
+          "fr"
+        ],
+        "regions_en": [
+          "France"
+        ],
+        "regions_fr": [
+          "France"
+        ],
+        "regions_de": [
+          "Frankreich"
+        ],
+        "regions_es": [
+          "Francia"
+        ],
+        "regions_it": [
+          "Francia"
+        ],
+        "regions_pt": [
+          "França"
+        ]
+      }
+    },
+    {
+      "id": "1139595",
+      "romsize": "524304",
+      "romfilename": "KUBO 3 (World) (En,Fr) (Rev H) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "01f97316",
+      "rommd5": "2fd7b313159482d5850346088b2bf2a4",
+      "romsha1": "fa4a3ba9a50fa4a4826c2ba1eb927914d785267a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3350",
+      "langues": {
+        "langues_id": [
+          "68",
+          "69"
+        ],
+        "langues_shortname": [
+          "en",
+          "fr"
+        ],
+        "langues_en": [
+          "English",
+          "French"
+        ],
+        "langues_fr": [
+          "Anglais",
+          "Français"
+        ],
+        "langues_de": [
+          "Englisch",
+          "Französisch"
+        ],
+        "langues_es": [
+          "Inglés",
+          "Francés"
+        ],
+        "langues_it": [
+          "Inglese",
+          "Francese"
+        ],
+        "langues_pt": [
+          "Inglês",
+          "Francês"
+        ]
+      }
+    },
+    {
+      "id": "1139601",
+      "romsize": "524304",
+      "romfilename": "KUBO 3 (World) (En,Fr) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "01c98c2b",
+      "rommd5": "aac94a608203fc477d9d891cf1d27a74",
+      "romsha1": "883f72c89cf279b278856a6d3d8453ef611b552a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2703",
+      "langues": {
+        "langues_id": [
+          "68",
+          "69"
+        ],
+        "langues_shortname": [
+          "en",
+          "fr"
+        ],
+        "langues_en": [
+          "English",
+          "French"
+        ],
+        "langues_fr": [
+          "Anglais",
+          "Français"
+        ],
+        "langues_de": [
+          "Englisch",
+          "Französisch"
+        ],
+        "langues_es": [
+          "Inglés",
+          "Francés"
+        ],
+        "langues_it": [
+          "Inglese",
+          "Francese"
+        ],
+        "langues_pt": [
+          "Inglês",
+          "Francês"
+        ]
+      }
+    },
+    {
+      "id": "1139592",
+      "romsize": "524304",
+      "romfilename": "KUBO 3 (World) (En,Fr) (Rev F) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "b34cadd3",
+      "rommd5": "b09fd7dc3884a4796942526b51e1b54f",
+      "romsha1": "170164d7dfd5ca4a2a011334c2e2e1d121638ef8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2502",
+      "langues": {
+        "langues_id": [
+          "68",
+          "69"
+        ],
+        "langues_shortname": [
+          "en",
+          "fr"
+        ],
+        "langues_en": [
+          "English",
+          "French"
+        ],
+        "langues_fr": [
+          "Anglais",
+          "Français"
+        ],
+        "langues_de": [
+          "Englisch",
+          "Französisch"
+        ],
+        "langues_es": [
+          "Inglés",
+          "Francés"
+        ],
+        "langues_it": [
+          "Inglese",
+          "Francese"
+        ],
+        "langues_pt": [
+          "Inglês",
+          "Francês"
+        ]
+      }
+    },
+    {
+      "id": "1139598",
+      "romsize": "524304",
+      "romfilename": "KUBO 3 (Japan) (En,Ja) (Rev E) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "f6016ff8",
+      "rommd5": "b767b902419434fc8e99fd8b066f50ea",
+      "romsha1": "a0fdfd0131be1a5045cdd90e1daabb495f58e74c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2461",
+      "langues": {
+        "langues_id": [
+          "68",
+          "73"
+        ],
+        "langues_shortname": [
+          "en",
+          "ja"
+        ],
+        "langues_en": [
+          "English",
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Anglais",
+          "Japonais"
+        ],
+        "langues_de": [
+          "Englisch",
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Inglés",
+          "Japonés"
+        ],
+        "langues_it": [
+          "Inglese",
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Inglês",
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1139589",
+      "romsize": "524304",
+      "romfilename": "KUBO 3 (World) (Fr) (Rev A) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "c08260d3",
+      "rommd5": "f191aa24e67f6023fc65954cfd5e3f4b",
+      "romsha1": "d31ad2deca9649601c2933c6e6877a83f90db969",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2349",
+      "langues": {
+        "langues_id": [
+          "69"
+        ],
+        "langues_shortname": [
+          "fr"
+        ],
+        "langues_en": [
+          "French"
+        ],
+        "langues_fr": [
+          "Français"
+        ],
+        "langues_de": [
+          "Französisch"
+        ],
+        "langues_es": [
+          "Francés"
+        ],
+        "langues_it": [
+          "Francese"
+        ],
+        "langues_pt": [
+          "Francês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "45"
+        ],
+        "regions_shortname": [
+          "fr"
+        ],
+        "regions_en": [
+          "France"
+        ],
+        "regions_fr": [
+          "France"
+        ],
+        "regions_de": [
+          "Frankreich"
+        ],
+        "regions_es": [
+          "Francia"
+        ],
+        "regions_it": [
+          "Francia"
+        ],
+        "regions_pt": [
+          "França"
+        ]
+      }
+    },
+    {
+      "id": "1139604",
+      "romsize": "524304",
+      "romfilename": "KUBO 3 (World) (En,Fr) (Rev C) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "d85d2a0d",
+      "rommd5": "b8570f288678d35fc1f4d1e05e23c4d0",
+      "romsha1": "9f56724fab43f48461eec08a67da023be3be9b36",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2319",
+      "langues": {
+        "langues_id": [
+          "68",
+          "69"
+        ],
+        "langues_shortname": [
+          "en",
+          "fr"
+        ],
+        "langues_en": [
+          "English",
+          "French"
+        ],
+        "langues_fr": [
+          "Anglais",
+          "Français"
+        ],
+        "langues_de": [
+          "Englisch",
+          "Französisch"
+        ],
+        "langues_es": [
+          "Inglés",
+          "Francés"
+        ],
+        "langues_it": [
+          "Inglese",
+          "Francese"
+        ],
+        "langues_pt": [
+          "Inglês",
+          "Francês"
+        ]
+      }
+    }
+  ]
+}
