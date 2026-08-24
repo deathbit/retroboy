@@ -3,7 +3,7 @@ platformPackTaskConfigMap:
     platform: 'NES'
     version: '1.0'
     enabled: true
-    manualStep: true
+    manualStep: false
     release: false
     core: 'Mesen'
     usePal: true

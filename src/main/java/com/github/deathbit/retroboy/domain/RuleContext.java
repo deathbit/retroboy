@@ -27,6 +27,7 @@ public class RuleContext {
     private BasePackReleaseReportTaskConfig basePackReleaseReportTaskConfig;
     private PlatformPackTaskConfig platformPackTaskConfig;
     private Map<String, String> renameOptionMap;
+    private List<GameDB> gameDBList;
     private Set<String> licensed;
     private Map<String, FileContext> fileContextMap;
     private Map<Area, Rule> ruleMap;

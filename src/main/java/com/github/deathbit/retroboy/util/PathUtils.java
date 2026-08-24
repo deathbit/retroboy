@@ -40,6 +40,11 @@ public final class PathUtils {
                     .resolve("dat")
                     .resolve(ruleContext.getPlatformName() + ".dat");
 
+    // 示例：D:\retroboy-resources\platform\nes\nes_db.xml
+    public static final PathSupplier PLATFORM_GAME_DB =
+            ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
+                    .resolve(ruleContext.getPlatformName() + "_db.xml");
+
     // 示例：D:\retroboy-resources\platform\nes\core_config
     public static final PathSupplier PLATFORM_CORE_CONFIG =
             ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)

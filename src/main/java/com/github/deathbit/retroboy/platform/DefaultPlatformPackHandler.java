@@ -55,16 +55,16 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
     public void handle(Platform platform) throws Exception {
         var ruleContext = ruleContextInitializer.handle(platform);
         ruleEngineHandler.handle(ruleContext);
-        moveGameHandler.handle(ruleContext);
-        renameGameHandler.handle(ruleContext);
-        if (ruleContext.getPlatformPackTaskConfig().isManualStep()) {
-            wikiMatcherHandler.handle(ruleContext);
-            mediaHandler.handle(ruleContext);
-            gameListHandler.handle(ruleContext);
-            coreHandler.handle(ruleContext);
-            debugReportHandler.handle(ruleContext);
-            releaseReportHandler.handle(ruleContext);
-            releaseHandler.handle(ruleContext);
-        }
+//        moveGameHandler.handle(ruleContext);
+//        renameGameHandler.handle(ruleContext);
+//        if (ruleContext.getPlatformPackTaskConfig().isManualStep()) {
+//            wikiMatcherHandler.handle(ruleContext);
+//            mediaHandler.handle(ruleContext);
+//            gameListHandler.handle(ruleContext);
+//            coreHandler.handle(ruleContext);
+//            debugReportHandler.handle(ruleContext);
+//            releaseReportHandler.handle(ruleContext);
+//            releaseHandler.handle(ruleContext);
+//        }
     }
 }
