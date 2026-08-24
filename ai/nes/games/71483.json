@@ -1,0 +1,913 @@
+{
+  "id": "71483",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Pizza Pop!"
+    },
+    {
+      "region": "jp",
+      "text": "Pizza Pop!"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "293",
+    "text": "Jaleco"
+  },
+  "developpeur": {
+    "id": "82346",
+    "text": "Arc Developments Limited"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "A pizza delivery guy is in love with a girl named Betty. He's going about his careless job, delivering in hopes of big tips, when something catches his eye. It's a beautiful diamond ring, and it's impossible to resist! Unfortunately, it costs $10,000 - way beyond his budget. And to make matters worse, another man named Nick has eyes for Betty. Now our hero will have to work extra, EXTRA hard to buy it and impress Betty!\r\n\r\nIn Pizza Pop!, the player fights through seven crazy neighborhoods populated by a whole host of pizza-hungry characters. The player can, however, defeat his enemies by jumping on them, or whacking them with his pizza pan. The player can also run through the level or use motor vehicles to get around, but he can't run for too long or else he'll get tired - unless he jumps while running. In addition, there are two pizza-stacking mini-games which can earn the player points and extra lives."
+    },
+    {
+      "langue": "fr",
+      "text": "Un livreur de pizza est amoureux d'une fille nommée Betty. Vous devez livrer les pizzas dans le temps imparti et lutter contre votre rival, qui vous mettra des bâtons dans les roues, afin d'acheter des bijoux à votre bien aimée."
+    },
+    {
+      "langue": "de",
+      "text": "Ein Pizzazusteller ist in ein Mädchen namens Betty verliebt. Er geht seinem unvorsichtigen Job nach und liefert in der Hoffnung auf große Tipps, wenn ihm etwas ins Auge fällt. Es ist ein wunderschöner Diamantring, und es ist unmöglich, dem zu widerstehen! Leider kostet es 10.000 Dollar - weit über sein Budget hinaus. Und um die Sache noch schlimmer zu machen, hat ein anderer Mann namens Nick Augen für Betty. Jetzt muss unser Held extra arbeiten, EXTRA hart, um es zu kaufen und Betty zu beeindrucken! In Pizza Pop! kämpft der Spieler durch sieben verrückte Nachbarschaften, die von einer ganzen Reihe von pizzahungrigen Charakteren bevölkert sind. Der Spieler kann jedoch seine Feinde besiegen, indem er auf sie springt oder sie mit seiner Pizzapfanne schlägt. Der Spieler kann auch durch das Level laufen oder Kraftfahrzeuge benutzen, um herumzukommen, aber er kann nicht zu lange laufen, sonst wird er müde - es sei denn, er springt beim Laufen. Darüber hinaus gibt es zwei Pizza-Stacking-Minispiele, die dem Spieler Punkte und zusätzliches Leben einbringen können."
+    },
+    {
+      "langue": "es",
+      "text": "Eres Un repartidor de pizza que está enamorado de una chica llamada Betty. Debes entregar las pizzas en el tiempo asignado y luchar contra tu rival."
+    },
+    {
+      "langue": "it",
+      "text": "Un fattorino della pizza è innamorato di una ragazza di nome Betty. Devi consegnare le pizze entro il tempo stabilito e combattere contro il tuo rivale, che ti ostacolerà, per acquistare gioielli per la tua amata."
+    },
+    {
+      "langue": "pt",
+      "text": "Um entregador de pizza está apaixonado por uma garota chamada Betty. Ele está fazendo seu trabalho descuidado, entregando na esperança de grandes gorjetas, quando algo chama sua atenção. É um belo anel de diamante e é impossível resistir! Infelizmente, custa US $ 10.000 - wa"
+    }
+  ],
+  "classifications": [
+    {
+      "type": "ESRB",
+      "text": "E"
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1992-01-07"
+    }
+  ],
+  "genres": [
+    {
+      "id": "7",
+      "nomcourt": "0101",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "bb247d24",
+      "md5": "c1322ca3898712553f103478cacf29d7",
+      "sha1": "5d8d7adb8b7d55e8cc8fddf47bc4803c59889168",
+      "size": "3792",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=ss(jp)",
+      "region": "jp",
+      "crc": "d3cf6728",
+      "md5": "848f2b71e41c125e3b94751d54330776",
+      "sha1": "63974c108cae5c75b5c38c8ac69214e158a7382e",
+      "size": "29535",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=fanart",
+      "crc": "0ba49038",
+      "md5": "0b0e784060412cfaa377047a37dc07cf",
+      "sha1": "c56bbc8b523e6dcf6625e642b2d83f1efbe1c7c0",
+      "size": "295208",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=video",
+      "crc": "3f16cacf",
+      "md5": "92214a6815cb049bd1c53395170616d2",
+      "sha1": "13eb65fa4ba93db07005d48f8719f4017790ecb4",
+      "size": "3300158",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=video-normalized",
+      "crc": "aac0ce33",
+      "md5": "074cc85fac2f91ddb6f94368f1e35089",
+      "sha1": "e8f277d38ce58b0bd9266010d360303d5c726f1d",
+      "size": "1341011",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=steamgrid",
+      "crc": "7822a079",
+      "md5": "9916f7f1c7682d519834f5abd1891207",
+      "sha1": "f2e42b199ed8c04f2d5794d5436d59e9ff484eec",
+      "size": "31895",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=wheel(jp)",
+      "region": "jp",
+      "crc": "64978335",
+      "md5": "59be8c97bff3d5a2f41e0cebad6a8a27",
+      "sha1": "393bb93cadac3cc125dc1a9dda6879f97c123e6e",
+      "size": "70485",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=wheel(jp)",
+      "region": "jp",
+      "crc": "64978335",
+      "md5": "59be8c97bff3d5a2f41e0cebad6a8a27",
+      "sha1": "393bb93cadac3cc125dc1a9dda6879f97c123e6e",
+      "size": "70485",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "5f3f7663",
+      "md5": "f1ab8322513d3c3b4b02048100497cee",
+      "sha1": "5225f451453c34496221e3d385fbe65d9743c5f7",
+      "size": "130720",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "7e2ab7eb",
+      "md5": "2b62d9f05f60124a26c2e0f7aae71d1a",
+      "sha1": "9add4525d3e18debf53c85312ebf67dd47ae6e03",
+      "size": "131079",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "f2c54bb1",
+      "md5": "8e9472e0246c9260ceb3aa5338d80b38",
+      "sha1": "6a5cd295b4bcd5f2d2446f14dfa3f0f7d47fff07",
+      "size": "490876",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "8979ef5c",
+      "md5": "87f3223ecd7ce01350b60024f747c545",
+      "sha1": "f6af2304860619f12e6ec0201539b9213441fe22",
+      "size": "82200",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "442e432d",
+      "md5": "46469a659d278ec70cbbcd3a78d8ed7a",
+      "sha1": "3355b3db53c3eea8713a37c834ddd8170ec9237b",
+      "size": "484724",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "442e432d",
+      "md5": "46469a659d278ec70cbbcd3a78d8ed7a",
+      "sha1": "3355b3db53c3eea8713a37c834ddd8170ec9237b",
+      "size": "484724",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "d28e137d",
+      "md5": "6be1b4c96193463125089ce621f5aff5",
+      "sha1": "951a228d6223565c1a15ee28af6c9275f7ac6c8e",
+      "size": "175136",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "dee1f582",
+      "md5": "369d93831b121651652d22a345c485c6",
+      "sha1": "99100dcb1212224aaf11dc6ef7409bef2c1286c3",
+      "size": "22350",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "24075bad",
+      "md5": "fb30d2ddf90fa9dd7d9bc04fb947e465",
+      "sha1": "1eaad603a5c20fa18be0c0d555f5b20cb84891fe",
+      "size": "28518",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "76fd1282",
+      "md5": "4801d658c353e48e670867ff70b6d7bc",
+      "sha1": "860c65a4e3fe2e43586bc3a7ea887ebb51bf05ae",
+      "size": "240714",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "76fd1282",
+      "md5": "4801d658c353e48e670867ff70b6d7bc",
+      "sha1": "860c65a4e3fe2e43586bc3a7ea887ebb51bf05ae",
+      "size": "240714",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "d634f11b",
+      "md5": "913c3c24afc2e4832cffc6e5598e5538",
+      "sha1": "c156d265cc87c5e544c338c43b8d3f39736d2c25",
+      "size": "160781",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "54c6968b",
+      "md5": "92d37b12db3dc5a61fca82face99ca08",
+      "sha1": "e7b20451081276f98a21b08440b8eaca73d856b3",
+      "size": "758520",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "22e8d0a5",
+      "md5": "d7e232ceb776a3113a60d27c234defe5",
+      "sha1": "70ae1e700341ff9032c85351e5ae93d9c3050727",
+      "size": "382064",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "fce2e02b",
+      "md5": "eb4ccee53ab84107cbe16339f022214b",
+      "sha1": "38706eb77055a4b82b15afd7e227dcbdc1e7b1bb",
+      "size": "275288",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "c7b048e6",
+      "md5": "23fdb5d33fcfa6b378ce9f9fc99271b3",
+      "sha1": "07e26f8336e365297207fa328ac1aacda0f5edd4",
+      "size": "147211",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=manuel(jp)",
+      "region": "jp",
+      "crc": "07fe126d",
+      "md5": "71a093f05b1645508886d9999392fbb8",
+      "sha1": "8963abceef98c398b14404dd06952fe45776bb96",
+      "size": "805048",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "acef4faf",
+      "md5": "d065029d4de46995ea2aec27cbbc60fc",
+      "sha1": "cef9c29756c2e675fa8c39bde5a07ac5d89e8f6b",
+      "size": "341787",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "acef4faf",
+      "md5": "d065029d4de46995ea2aec27cbbc60fc",
+      "sha1": "cef9c29756c2e675fa8c39bde5a07ac5d89e8f6b",
+      "size": "341787",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "08f7d543",
+      "md5": "152bba59eb056ccf2a0e1a9fd393d09d",
+      "sha1": "1579349ab9a8df581be8a26035715f8cece44023",
+      "size": "416707",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "b9fa50bb",
+      "md5": "ccaeef3dcef81cf59d5866d7c55043cc",
+      "sha1": "0aebc0961179f6cc7e338f3d3c20d78618bc7633",
+      "size": "355061",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "08f7d543",
+      "md5": "152bba59eb056ccf2a0e1a9fd393d09d",
+      "sha1": "1579349ab9a8df581be8a26035715f8cece44023",
+      "size": "416707",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "5499ab02",
+      "md5": "cdb7bd7839a186e3f963de2a8cf7e279",
+      "sha1": "95323d6ce980f41f90b93e44be4cd193d5cd45a8",
+      "size": "675697",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=mixrbv2(nl)",
+      "region": "nl",
+      "crc": "5499ab02",
+      "md5": "cdb7bd7839a186e3f963de2a8cf7e279",
+      "sha1": "95323d6ce980f41f90b93e44be4cd193d5cd45a8",
+      "size": "675697",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "68e36750",
+      "md5": "18b6ec9b5c79a5cbfe5a46386a6bbf7c",
+      "sha1": "44c1133d7a2b90d9e87f14969baac2dc3c322c2c",
+      "size": "616922",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71483&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "5499ab02",
+      "md5": "cdb7bd7839a186e3f963de2a8cf7e279",
+      "sha1": "95323d6ce980f41f90b93e44be4cd193d5cd45a8",
+      "size": "675697",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=293&media=logo-monochrome",
+      "crc": "87406188",
+      "md5": "ed3e82e697e2349308148b2ca8f0c865",
+      "sha1": "b3c1c5c7477da586f97ad11d9f7ad804bf0377d8",
+      "size": "15390",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=293&media=wheel",
+      "crc": "e8f8da67",
+      "md5": "01d57f70cbdf36990552ff4bbb3349db",
+      "sha1": "7dc3fb91e02ed8c4c10ea3531f58d3bd5f9fd35d",
+      "size": "31801",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=pictoliste",
+      "crc": "cafca3d7",
+      "md5": "51bfa81c19838bc679411a7b6f4053e2",
+      "sha1": "92253cf472ed8e71780c29ddeb6c6e260325ce1f",
+      "size": "593",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=logo-monochrome",
+      "crc": "e4f09f59",
+      "md5": "031f5b008fd851f56fea852bf9f95126",
+      "sha1": "8160d583dde154dcbd717217182d2b310e756e92",
+      "size": "10670",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=pictoliste",
+      "crc": "d8329f23",
+      "md5": "ada4054a77e20edada97225e5c316116",
+      "sha1": "cfadf96438bde8ae1a8c3c52c85dd6768ba9b4c8",
+      "size": "855",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome",
+      "crc": "0f88a1ba",
+      "md5": "e8c818f5f59d48642afea18e5c545c15",
+      "sha1": "ef3857055eaae13785d2cab692edf9454b544be3",
+      "size": "9142",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome-svg",
+      "crc": "fa797dda",
+      "md5": "73a61640b94904834fdbfc7e043150e0",
+      "sha1": "3e5fe422339961df30bd70aa83e43671a1badce4",
+      "size": "4755",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=background",
+      "crc": "3d578fbf",
+      "md5": "62dbdbe08a5765fae2630d06e0f0ea38",
+      "sha1": "354ef394870af26f443863a29c846a07a20f47a0",
+      "size": "161158",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "13226",
+      "romsize": "125996",
+      "romfilename": "Pizza Pop! (Japan) [T-En by Pacnsacdave v1.0].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3DACFBDF",
+      "rommd5": "E605C186A8D4DDA2D448AC7A23C99880",
+      "romsha1": "CD0B51326533D12A7458F4DE7D552436FE56043A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "163161",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "136965",
+      "romsize": "262160",
+      "romfilename": "Pizza Pop! (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "361729FA",
+      "rommd5": "AD1A3C0B4F598FF55F9DF5E8E212A97B",
+      "romsha1": "181921A0B34BEF08C3C0A6880D3B7E03AC850152",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "71241",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1142193",
+      "romsize": "262160",
+      "romfilename": "Pizza Pop! (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a73dc352",
+      "rommd5": "9befb3ca6283b47b5edbb4cb4c875455",
+      "romsha1": "76dd18619ca780ca140555c2eb165623b6758bc1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "19819",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "537752",
+      "romsize": "122067",
+      "romfilename": "Pizza Pop Mario (Unl) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E91DEE42",
+      "rommd5": "7424DF636DEADAAC02A10E2AE8ED7A7C",
+      "romsha1": "C801C22A539BD404EEC74E020F0D1EC8276C5279",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6863",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "130"
+        ],
+        "regions_shortname": [
+          "nl"
+        ],
+        "regions_en": [
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Holanda"
+        ],
+        "regions_it": [
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "114651",
+      "romsize": "125974",
+      "romfilename": "Pizza Pop! (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BC85639F",
+      "rommd5": "BBB4E8CD52E64F89A1A49DE006A5C2A9",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1718",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174154",
+      "romsize": "262144",
+      "romfilename": "Pizza Pop! (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "49DA2F76",
+      "rommd5": "0BA3D131E367A44BB1A6FF416869D4F7",
+      "romsha1": "F81FC442A1C5B3F1D8216A0779F706C69B6A3F35",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1643",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1447421",
+      "romsize": "122112",
+      "romfilename": "Mary Pizza Pop! (Asia) (Ja) (Pirate).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "c23f69dc",
+      "rommd5": "d506fe18df276aed3298f8cf7583bb7a",
+      "romsha1": "c79b04c6c1b9602b30bd1ccf2aa320176dfdcab4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "39"
+    }
+  ]
+}

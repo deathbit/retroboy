@@ -1,0 +1,765 @@
+{
+  "id": "88474",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "World Boxing"
+    },
+    {
+      "region": "jp",
+      "text": "World Boxing"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "8865",
+    "text": "TSS"
+  },
+  "developpeur": {
+    "id": "465",
+    "text": "Natsume"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "World Boxing is a sports game, developed by Natsume and published by TSS, which was released in Japan in 1990. It is a Pirate Clone. Being an interesting Japanese exclusive who made his way to the US. UU With great graphics and a unique perspective."
+    },
+    {
+      "langue": "fr",
+      "text": "World Boxing est un jeu de sport, développé par Natsume et publié par TSS, qui est sorti au Japon en 1990. Il s'agit d'un clone de Pirate. Il s'agit d'une exclusivité japonaise intéressante qui a fait son chemin jusqu'aux Etats-Unis. UU Avec de grands graphiques et une perspective unique."
+    },
+    {
+      "langue": "de",
+      "text": "World Boxing ist ein Sportspiel, das von Natsume entwickelt und von TSS veröffentlicht wurde und 1990 in Japan veröffentlicht wurde. Es ist ein Piratenklon. Ein interessanter japanischer Exklusiver, der sich auf den Weg in die USA gemacht hat. UU Mit großartiger Grafik und einer einzigartigen Perspektive."
+    },
+    {
+      "langue": "es",
+      "text": "World Boxing es un juego de deportes, desarrollado por Natsume y publicado por TSS, que se lanzó en Japón en 1990. Se trata de un Pirate Clone. Siendo una interesante exclusiva japonesa que se abrió camino a los EE. UU. con excelentes gráficos y una perspectiva única."
+    },
+    {
+      "langue": "it",
+      "text": "World Boxing è un gioco sportivo, sviluppato da Natsume e pubblicato da TSS, che è stato rilasciato in Giappone nel 1990. È un clone dei pirati. Essere un'interessante esclusiva giapponese che si è fatta strada negli Stati Uniti. UU Con una grafica fantastica e una prospettiva unica."
+    },
+    {
+      "langue": "pt",
+      "text": "O World Boxing é um jogo de esportes, desenvolvido pela Natsume e publicado pela TSS, que foi lançado no Japão em 1990. É um Clone Pirata. Sendo um exclusivo japonês interessante que fez o seu caminho para os EUA. UU Com excelentes gráficos e uma perspectiva única."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1990-09-08"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2929",
+      "nomcourt": "0604",
+      "principale": "0",
+      "parentid": "685",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports / Boxing"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport / Boxe"
+        },
+        {
+          "langue": "de",
+          "text": "Sport / Boxen"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes / Boxeo"
+        },
+        {
+          "langue": "it",
+          "text": "Sport / Boxe"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte / Boxe"
+        }
+      ]
+    },
+    {
+      "id": "685",
+      "nomcourt": "0600",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport"
+        },
+        {
+          "langue": "de",
+          "text": "Sport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes"
+        },
+        {
+          "langue": "it",
+          "text": "Sport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "64d621a9",
+      "md5": "44ed8e5f0dbdae8499d55dc148d1605f",
+      "sha1": "609ea0d2c6aa947802138ef925f6d399bf44bcdb",
+      "size": "3672",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=ss(jp)",
+      "region": "jp",
+      "crc": "e308c39e",
+      "md5": "48de3673ec743ad28473f731e42f785c",
+      "sha1": "2d8ac35245512171c7d233daa20bae9f5e6b4a9b",
+      "size": "18296",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=video",
+      "crc": "10011033",
+      "md5": "185d771e8b208df8527fd8a8addda5a9",
+      "sha1": "320ae51bb8c4c8218456f75d8d00a82ead959d55",
+      "size": "7982402",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=video-normalized",
+      "crc": "fc377a04",
+      "md5": "d65e79507a3ffe3c453606c8672a3d74",
+      "sha1": "86dc35a6ef116c4dedaa4c6a228e4ec31fa6b9a0",
+      "size": "2009892",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=steamgrid",
+      "crc": "99efc36e",
+      "md5": "610f0b9768c7fac59f073d87bd47f796",
+      "sha1": "fda5634e62d443286a53fa7be6688f646fca4820",
+      "size": "33136",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=wheel(jp)",
+      "region": "jp",
+      "crc": "c8fe5790",
+      "md5": "69183fc9d86edb82f87a03ff3dd18853",
+      "sha1": "7766c36fa421981d9d377bebe3dcbcc314f5deda",
+      "size": "125371",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "8295ac3b",
+      "md5": "f6867e3828d44cb1019e9dfe63263259",
+      "sha1": "445b2486e94059f217d4ae0e61977b3b9ba34514",
+      "size": "129298",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "2bb0f714",
+      "md5": "059dab647daa65c8cc7e53846a970681",
+      "sha1": "d41e1a18b342ae8127790895e9e65deaaa0bd969",
+      "size": "131261",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "5913711b",
+      "md5": "b98193fe648e9bed81cc0fe186437b85",
+      "sha1": "8ce750ff3a9e8af1d2e1b89e111fcb136df8f7e5",
+      "size": "521257",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "9f0f1f76",
+      "md5": "82c76a538f62c8c780b1e00857f06030",
+      "sha1": "db7d280f9b5ae2b38bbdb205a8ec0774d44f3d14",
+      "size": "89970",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "386d4741",
+      "md5": "6e023da8cce608bd158edf4a70276aad",
+      "sha1": "0eada8ac85c06963375340c552f9b16c21eb855b",
+      "size": "584711",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "f1774c5d",
+      "md5": "40b2a699f004cd50968e7b9c963d2a83",
+      "sha1": "f026400d69ccd09ec41bd96bbc729abc937dee80",
+      "size": "165462",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "57935556",
+      "md5": "daf4e5a5c4fa8989a8a8ed4448a94562",
+      "sha1": "6bdd1b3eec23e295cd7c4e67a4b812d9d7c0298d",
+      "size": "44321",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "ecb619bf",
+      "md5": "efabbf8f1158a62f57dc5997919c2096",
+      "sha1": "9128af8b79afb6b79eec1fae2f4a962973e97df1",
+      "size": "38532",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "a4d9b1c8",
+      "md5": "5f5b2faabaaec12f530ac38d278d0106",
+      "sha1": "7a8fcce0058f1f4c1c935242a13c6c435a1b956a",
+      "size": "298549",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "90f092c7",
+      "md5": "4c2151318d0fc457c9b69d097becb17e",
+      "sha1": "094861ad4a6ab677bb1f732852b54950b8090d47",
+      "size": "179368",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "899af452",
+      "md5": "36e8b91a49ceaa801e98d18a35832689",
+      "sha1": "3869623d2f91b089844b2b5499174797031ed8c9",
+      "size": "987030",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "11f9635e",
+      "md5": "9a619a93b157322e46b436d3637ddcd5",
+      "sha1": "6e0346bb1f86cb3d9ff6a8f0c035f314106de315",
+      "size": "398127",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "54347c43",
+      "md5": "c3bb32bf419363dbd6388cdfd962682f",
+      "sha1": "be5476babd21c0bcad1504688fb30d95785aac5f",
+      "size": "296317",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "c5431ba2",
+      "md5": "d82d564ef0b099b15a31dc8a2e0e63f6",
+      "sha1": "9336298c75f582ca9a27063cc98e4074ad9fde71",
+      "size": "169438",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=manuel(jp)",
+      "region": "jp",
+      "crc": "6039e5ed",
+      "md5": "af5f2db1ac05e949ef174db9a3119d2c",
+      "sha1": "f33b77db29ee9b34f8fc65fadf854f06a62fadd2",
+      "size": "1173387",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "59c54a0b",
+      "md5": "3927e65e7624055eb3835944ab8d774f",
+      "sha1": "9eb39311665e7a41a15c4220d778dc3bf71fb70d",
+      "size": "357137",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "c2c9f5fc",
+      "md5": "9d9dc3cd794b55064ebaffa3416d54a7",
+      "sha1": "62d867a8937f1c1cc00717bfd04564aeb9a9284f",
+      "size": "295978",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "cd6fdae3",
+      "md5": "d001e0b73ab55a21253ad6bc9d5a2943",
+      "sha1": "2872c05c39fe1521387bd1bcf1ee695fc14677e6",
+      "size": "449277",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "b23c6a8a",
+      "md5": "d8669d95d33a188986e650bac255ec3f",
+      "sha1": "dd21a200eff3e51440865499f7bd41b639dce957",
+      "size": "387785",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "cd6fdae3",
+      "md5": "d001e0b73ab55a21253ad6bc9d5a2943",
+      "sha1": "2872c05c39fe1521387bd1bcf1ee695fc14677e6",
+      "size": "449277",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "8389c686",
+      "md5": "f70ba9d12b7734c5f3fbdafc8836976b",
+      "sha1": "11620c302dc41319ef1f5edb19484f6289dea3f4",
+      "size": "647784",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "8386b927",
+      "md5": "81a53ebd25660fc44e85109c1bb6b3ab",
+      "sha1": "be9bc685447952f1bc3dbf60117351a39dd3948d",
+      "size": "586611",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88474&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "8389c686",
+      "md5": "f70ba9d12b7734c5f3fbdafc8836976b",
+      "sha1": "11620c302dc41319ef1f5edb19484f6289dea3f4",
+      "size": "647784",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=8865&media=wheel",
+      "crc": "b76a1ebc",
+      "md5": "90bd1f1ba803f5e04aab951fe15dd86f",
+      "sha1": "6936d8105419762f1fefe89093493de1f474645e",
+      "size": "49807",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=465&media=logo-monochrome",
+      "crc": "0d14a399",
+      "md5": "38ae95bb88476031719d17ae1c013002",
+      "sha1": "3f683233c2ec6d8a84e68ace887f4958dc98d1b0",
+      "size": "1223",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=465&media=wheel",
+      "crc": "f0b435fa",
+      "md5": "49c3f8f0879d29d52d95d93606391c74",
+      "sha1": "f5788e033916426ca09c6e9c1a6be70470fe7c52",
+      "size": "97973",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2929",
+      "parent": "genre",
+      "subparent": "Sport / Boxe",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2929&media=pictoliste",
+      "crc": "17f97fbe",
+      "md5": "fea21d453a216c9c57e402ea3bc11d5b",
+      "sha1": "2fd6b4303c298892578cb14ef559a403ef59698a",
+      "size": "17981",
+      "format": "png"
+    },
+    {
+      "id": "2929",
+      "parent": "genre",
+      "subparent": "Sport / Boxe",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2929&media=logo-monochrome",
+      "crc": "40efd172",
+      "md5": "d3cc03d5a661b7c8110350203cfe99c9",
+      "sha1": "b43b1d950c46a5240bae9769feaf51ea910049a7",
+      "size": "31750",
+      "format": "png"
+    },
+    {
+      "id": "2929",
+      "parent": "genre",
+      "subparent": "Sport / Boxe",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2929&media=logo-monochrome-svg",
+      "crc": "0b5e31aa",
+      "md5": "8941a84e55ebbf2b2cf33b5001353009",
+      "sha1": "63fa2b00d34c78cfb9dd5a6fd76f8f477988ad3b",
+      "size": "2345",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome",
+      "crc": "6a963ad9",
+      "md5": "6daf840fab2d205bda9bad4ff16f4c95",
+      "sha1": "f5e795233a8013aa0d992e197d56d09a63513403",
+      "size": "18286",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome-svg",
+      "crc": "328c7db2",
+      "md5": "4298fc7c8887c1b97cec6ee0b5d72433",
+      "sha1": "8f59a9ec18c48a7246c3b13e19c6c5857bc95513",
+      "size": "4269",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=background",
+      "crc": "a3265ffe",
+      "md5": "65308af4ddc9782f6717f000eea7f28a",
+      "sha1": "bccce8f0defa7c25313eb5ced7cdf71555c5a85d",
+      "size": "185482",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "137784",
+      "romsize": "262160",
+      "romfilename": "World Boxing (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "207E34C0",
+      "rommd5": "394A46A5859E434FF7B0025188AAE383",
+      "romsha1": "F922EED3FBA31AA6E96C8A4FF204AC2D04F0D1EB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "51260",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "13638",
+      "romsize": "131300",
+      "romfilename": "World Boxing (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C8D3BF8F",
+      "rommd5": "08F4FD6913A821B1A8660FE6D1D2DDBD",
+      "romsha1": "259A7278A4816E9AABE83A2615744C0E2BD21AF0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "43729",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1146189",
+      "romsize": "262160",
+      "romfilename": "World Boxing (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "b154de68",
+      "rommd5": "bf28924c7ecbace0eac6886c809fd30e",
+      "romsha1": "64ea1aa5bcb09cf4f917755d34603ecc4deea67e",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19318",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174994",
+      "romsize": "262144",
+      "romfilename": "World Boxing (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4DCD15EE",
+      "rommd5": "FAFA6F2C753CA5D2B77110AD19BEB2A1",
+      "romsha1": "133A3C81A63C329FC0946B5986729C2CDEB5020F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1749",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,835 @@
+{
+  "id": "88687",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Super Chinese 3"
+    },
+    {
+      "region": "jp",
+      "text": "Super Chinese 3"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "516",
+    "text": "Culture Brain"
+  },
+  "developpeur": {
+    "id": "516",
+    "text": "Culture Brain"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Super Chinese 3 is an action RPG video game released in 1991 for the Nintendo Entertainment System. It is the last of the NES Super Chinese games and was not released outside Japan.\r\n\r\nSimilar to Little Ninja Brothers before it, Super Chinese 3 incorporates role-playing video game elements into the gameplay."
+    },
+    {
+      "langue": "fr",
+      "text": "Comme Little Ninja Brothers avant lui, Super Chinese 3 incorpore des éléments de jeu de rôle dans le gameplay"
+    },
+    {
+      "langue": "de",
+      "text": "Super Chinese 3 ist ein Action-RPG-Videospiel, das 1991 für das Nintendo Entertainment System veröffentlicht wurde. Es ist das letzte der NES Super Chinese-Spiele und wurde nicht außerhalb Japans veröffentlicht. Ähnlich wie Little Ninja Brothers davor integriert Super Chinese 3 Rollenspiel-Elemente in das Gameplay."
+    },
+    {
+      "langue": "es",
+      "text": "Super Chinese 3 es un videojuego RPG de acción lanzado en 1991 para Nintendo Entertainment System. Es el último de los juegos súper chinos de NES y no se lanzó fuera de Japón.\r\n\r\nParecido a Little Ninja Brothers, Super Chinese 3 incorpora elementos de videojuegos de rol en el juego."
+    },
+    {
+      "langue": "it",
+      "text": "Super Chinese 3 è un videogioco d'azione RPG pubblicato nel 1991 per Nintendo Entertainment System. È l'ultimo dei giochi NES Super Chinese e non è stato rilasciato al di fuori del Giappone.\r\n\r\nSimile a Little Ninja Brothers prima, Super Chinese 3 incorpora elementi di videogiochi di ruolo nel gameplay."
+    },
+    {
+      "langue": "pt",
+      "text": "Super Chinese 3 é um videogame RPG de ação lançado em 1991 para o Nintendo Entertainment System. É o último dos jogos NES Super Chinese e não foi lançado fora do Japão.Semelhante a Little Ninja Brothers antes dele, Super Chinese 3 incorpora elementos de videogame RPG na jogabilidade."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1991-03-01"
+    }
+  ],
+  "genres": [
+    {
+      "id": "20688",
+      "nomcourt": "0301",
+      "principale": "0",
+      "parentid": "8",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Action RPG"
+        },
+        {
+          "langue": "fr",
+          "text": "Action RPG"
+        },
+        {
+          "langue": "de",
+          "text": "Action-RPG"
+        },
+        {
+          "langue": "es",
+          "text": "RPG de Acción"
+        },
+        {
+          "langue": "it",
+          "text": "RPG di Azione"
+        },
+        {
+          "langue": "pt",
+          "text": "RPG de Ação"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "nomcourt": "0300",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Role Playing Game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de rôles"
+        },
+        {
+          "langue": "de",
+          "text": "Rollenspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de Rol"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di Ruolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogos de RPG"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "e31f2751",
+      "md5": "4405713445caf13f07060eb80ff7b360",
+      "sha1": "225c3cb9d41efca0ff939ca818db9df2f32601de",
+      "size": "4176",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=ss(jp)",
+      "region": "jp",
+      "crc": "4604b007",
+      "md5": "851e8f67e2d3002166bbdf9234588bd9",
+      "sha1": "f4b7d81561fae1ae842c77e91c06a70add00690f",
+      "size": "3864",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=video",
+      "crc": "498954fb",
+      "md5": "fcf56ef73ea530651021f597355d3153",
+      "sha1": "7e30c00300974371a26b611bc498deb26a5ba4e2",
+      "size": "5662543",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=video-normalized",
+      "crc": "edb89ad6",
+      "md5": "b57bbd6fab7fdd60de68676d968a3559",
+      "sha1": "d7297f6c52d29b8a633cd317fd8291732f27b8c0",
+      "size": "1329627",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=steamgrid",
+      "crc": "62429f7a",
+      "md5": "599cf8ef03b9f091c67e195b6f2972dd",
+      "sha1": "f5cb460025e95cf08ba3b0b9a245ca0cf47773e3",
+      "size": "33687",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=wheel(jp)",
+      "region": "jp",
+      "crc": "274105fd",
+      "md5": "c53537216837cae4a8af9c219cd853bf",
+      "sha1": "3ef014cdc58e988e2b964708af4bae037bfa7175",
+      "size": "80817",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "45e52693",
+      "md5": "66496858aa9ad3929db176df614f56cc",
+      "sha1": "5ca2fb3cff59c76011a0ad41f430fbd873d4c8a6",
+      "size": "100077",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "b348ca31",
+      "md5": "1b011903697130ba63ac02de6c6cb863",
+      "sha1": "103fb2c7f8b78299bdd91b70140ea408f001cd19",
+      "size": "102356",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "f09a9c5f",
+      "md5": "41ab7d286b271c3d0aa3ff1bb01bd9a8",
+      "sha1": "a87c4545a8a5527192e66708cd65521260df6b62",
+      "size": "496773",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "c18ca439",
+      "md5": "d09c5f379a78336c596e318b5dc5449d",
+      "sha1": "1df965c7b770f148948a66db57e33e2bda95c301",
+      "size": "81369",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "e52b7e0c",
+      "md5": "f3b179b1d8acc17e8c60d0a90f213bb4",
+      "sha1": "e194b3a703ddb5fb8da8c414fff710e80489ac5f",
+      "size": "688110",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "9073596c",
+      "md5": "786b719692d9947dac32d44222dda861",
+      "sha1": "4dfae87f33ba7c51570b775d71f950d4891fedf4",
+      "size": "125438",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "ad62b134",
+      "md5": "4a8241b855c1c4abbcc9005cd7a09eaa",
+      "sha1": "ac456bb361624023ad022f7e8b53b1822801a5e6",
+      "size": "105150",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "a6ca1e15",
+      "md5": "c55ae570b13302fcdd66d583a19a6aa7",
+      "sha1": "b342ef23b6b91032b273d03a0f5f87e820aee199",
+      "size": "27322",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "81dafc0f",
+      "md5": "09e2145ffc0a54eaadbb96f1881ea7d0",
+      "sha1": "d5315903a1ae43ef7437e4929c145cdf249b033d",
+      "size": "587443",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "992ba269",
+      "md5": "27d96558393f016a2c9042e63b32752a",
+      "sha1": "a32484d2f3a9af7aa24daf2b8def26e86e0bd019",
+      "size": "162975",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "e98552f3",
+      "md5": "797d9a4b436e64fb0750f97f4abb123d",
+      "sha1": "3a8e2efe8caa51132aa1de7ff9295d610c7b8ece",
+      "size": "1414198",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "2304c7a2",
+      "md5": "faa05aaff1b664065c11e8b2b657a95b",
+      "sha1": "faf47e76a83776c15f1c337dec22a9487de8a798",
+      "size": "328489",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "11def25d",
+      "md5": "0bdd11a5de526d8841696c1ad67f7d67",
+      "sha1": "f773e264fe7b98037dd11f5c1de7525fd843c5b4",
+      "size": "344132",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "d58bc611",
+      "md5": "5d1b7f57790e852ea202d4fdef9bea1b",
+      "sha1": "9aafec7e6da35b3f2f19bd4c4eab232b5c931e8b",
+      "size": "143864",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=manuel(jp)",
+      "region": "jp",
+      "crc": "9d97c434",
+      "md5": "305f5a9880fa36e15d00150473858296",
+      "sha1": "9e29c9c4398d6fc7567d908923b29851d6b01e52",
+      "size": "2235783",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "3e76e45f",
+      "md5": "915f4fe1399b0bac10c86ca5a3488cec",
+      "sha1": "a8dee494d2f3b4aa4c48ece2dad781a178e8b1c3",
+      "size": "342228",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "0ee82200",
+      "md5": "d64d218d38225c5af896aac2c54c7095",
+      "sha1": "e4b7fcb25f7a661b21bcf95c2e49904534e61dd8",
+      "size": "301051",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "6cd4006b",
+      "md5": "b6f061c2a7750aaa447ab85c1ddd0aea",
+      "sha1": "6b1d1aa6b86dffb29e4ae55f8f946f32e3444b37",
+      "size": "471491",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "996b9dfc",
+      "md5": "de9d141c46f19d0ccf725d4c9f04a2ed",
+      "sha1": "1c6912d462283d51775d9a973010c9d8d73e79da",
+      "size": "375802",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "6cd4006b",
+      "md5": "b6f061c2a7750aaa447ab85c1ddd0aea",
+      "sha1": "6b1d1aa6b86dffb29e4ae55f8f946f32e3444b37",
+      "size": "471491",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "7c76d7a4",
+      "md5": "0d5fd2a6d5ed5cccd1fa31c4f33473d7",
+      "sha1": "8e822a5ca29fe0fb2dd3a21fd4d809eb5dfbe0a5",
+      "size": "699251",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "707c1114",
+      "md5": "d7283c1c9daad0633d5f83d7e1adbe69",
+      "sha1": "32255774ef2482f660e104f5664b6f6d93d6ccfd",
+      "size": "602430",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88687&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "7c76d7a4",
+      "md5": "0d5fd2a6d5ed5cccd1fa31c4f33473d7",
+      "sha1": "8e822a5ca29fe0fb2dd3a21fd4d809eb5dfbe0a5",
+      "size": "699251",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=516&media=logo-monochrome",
+      "crc": "a5a9cabd",
+      "md5": "b01ac576b3eaffc5a6c0b75095dc50fd",
+      "sha1": "94506bdb65b80d25081b7159939d7867a27dd107",
+      "size": "17438",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=516&media=wheel",
+      "crc": "be8b7dbe",
+      "md5": "3c1e327160be9483fc0b0482a604b950",
+      "sha1": "d3c5f81285fd315228a5b59e28e08f93dd134186",
+      "size": "17246",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=516&media=logo-monochrome",
+      "crc": "a5a9cabd",
+      "md5": "b01ac576b3eaffc5a6c0b75095dc50fd",
+      "sha1": "94506bdb65b80d25081b7159939d7867a27dd107",
+      "size": "17438",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=516&media=wheel",
+      "crc": "be8b7dbe",
+      "md5": "3c1e327160be9483fc0b0482a604b950",
+      "sha1": "d3c5f81285fd315228a5b59e28e08f93dd134186",
+      "size": "17246",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "id": "20688",
+      "parent": "genre",
+      "subparent": "Action RPG",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20688&media=pictoliste",
+      "crc": "374679a5",
+      "md5": "7bcf955f0acaa222af96619bb665d75e",
+      "sha1": "0722b238122e37651a50b17e5a845444ddef0179",
+      "size": "18710",
+      "format": "png"
+    },
+    {
+      "id": "20688",
+      "parent": "genre",
+      "subparent": "Action RPG",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20688&media=logo-monochrome",
+      "crc": "a3f4a4a0",
+      "md5": "c8f392a4150547de0a6eee8ff6315167",
+      "sha1": "9bf96fc1e1d7dd8c03d899380bec8eef28ea4ae5",
+      "size": "16053",
+      "format": "png"
+    },
+    {
+      "id": "20688",
+      "parent": "genre",
+      "subparent": "Action RPG",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20688&media=logo-monochrome-svg",
+      "crc": "fa85bd4f",
+      "md5": "8fcdb6902b9591b3c8cc2ea090cbbe6e",
+      "sha1": "de74be313ae671024e261e1348e409b473355325",
+      "size": "2267",
+      "format": "svg"
+    },
+    {
+      "id": "20688",
+      "parent": "genre",
+      "subparent": "Action RPG",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20688&media=background",
+      "crc": "5a014ab1",
+      "md5": "df05a85beba421326b62c468c8c32011",
+      "sha1": "075fd8e7c133a0d10df98a351c9d69b7cf7132be",
+      "size": "236781",
+      "format": "jpg"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=pictoliste",
+      "crc": "95641466",
+      "md5": "794cfd972f1fc80058ac4a3b48644c49",
+      "sha1": "065a70a4f3307442d52de0927234ab023e94fa99",
+      "size": "997",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome",
+      "crc": "99338559",
+      "md5": "6d99859437bd123f6dede69b6866b4f4",
+      "sha1": "1b1963a801d9801b0ad107f8a15ef9acf5541bcb",
+      "size": "11154",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome-svg",
+      "crc": "9659d140",
+      "md5": "071309467ec61ec2b037f89af26780cd",
+      "sha1": "dbf9fad14dfc4a4239585b4aae80a9edaf6d4ae3",
+      "size": "2418",
+      "format": "svg"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=background",
+      "crc": "10d4d476",
+      "md5": "3eb9bd04afa99e6bddcdca913ee8d53b",
+      "sha1": "e35ce257c961fcfaca398e9dbab607bbd8bf2aa6",
+      "size": "353085",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "13452",
+      "romsize": "158696",
+      "romfilename": "Super Chinese 3 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7C1C1D0B",
+      "rommd5": "58E05438A2155B0FB328AB940C9F2A3C",
+      "romsha1": "5C12E7B302457393B148C9F7AF7C5DE45150B522",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "65408",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "137424",
+      "romsize": "262160",
+      "romfilename": "Super Chinese 3 (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A881260A",
+      "rommd5": "9717CA778A92288BDF9268C8C4DEA906",
+      "romsha1": "4EF18B0F6CBE2F72BF4BEB506D0B57D8769469C1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "46180",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1144440",
+      "romsize": "262160",
+      "romfilename": "Super Chinese 3 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0ded4d59",
+      "rommd5": "962ddc17174a6db2d3acd2ae88679f90",
+      "romsha1": "dbca6551f535735f11313d9ce61064cdd7de6315",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18625",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174620",
+      "romsize": "262144",
+      "romfilename": "Super Chinese 3 (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F17486DF",
+      "rommd5": "F84B98A3C851F502B3E33D6CEA9BEFB7",
+      "romsha1": "52FD2FEA0BEA02C0B530B2AFE167724F6449C3C8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1561",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "115119",
+      "romsize": "158674",
+      "romfilename": "Super Chinese 3 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3758B3C8",
+      "rommd5": "2771F4DF61C6C77B777D9117DB07D27D",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "143",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

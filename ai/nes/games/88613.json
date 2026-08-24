@@ -1,0 +1,765 @@
+{
+  "id": "88613",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Poker Mahjong - Pu Ke Mao Que"
+    },
+    {
+      "region": "asi",
+      "text": "Poker Mahjong : Pu Ke Mao Que"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "564",
+    "text": "Sachen"
+  },
+  "developpeur": {
+    "id": "564",
+    "text": "Sachen"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Poker Mahjong: Pu Ke Mao Que is a Mahjong game using playing cards instead of Mahjong tiles."
+    },
+    {
+      "langue": "fr",
+      "text": "Poker Mahjong: Pu Ke Mao Que est un jeu de Mahjong qui utilise des cartes à jouer plutôt que les tuiles traditionnelles de Mahjong."
+    },
+    {
+      "langue": "de",
+      "text": "Poker Mahjong: Pu Ke Mao Que ist ein Mahjong-Spiel, das Spielkarten anstelle von Mahjong-Steinen verwendet."
+    },
+    {
+      "langue": "es",
+      "text": "Poker Mahjong: Pu Ke Mao Que es un juego de Mahjong que utiliza cartas en lugar de fichas de Mahjong."
+    }
+  ],
+  "dates": [
+    {
+      "region": "asi",
+      "text": "1991"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "75654159",
+      "md5": "693f9c821259b1ceb9ea195835a16751",
+      "sha1": "78a28f9293bd30c8b4b1b11235ccc3136a2d7cf0",
+      "size": "6432",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=ss(wor)",
+      "region": "wor",
+      "crc": "030b27f1",
+      "md5": "bfde9ee0f0ed75dd3fd08a4a2bf2990e",
+      "sha1": "a1379c5b0ce982762efed11623c8f815001141c6",
+      "size": "1589",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=video",
+      "crc": "ad0205be",
+      "md5": "744a4e0399005be067e4af20ee7890b5",
+      "sha1": "8827de15029f7932791d1114c4fd10a5da78f612",
+      "size": "1650357",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=video-normalized",
+      "crc": "03b6a67c",
+      "md5": "fbcf6f764d1fab513b18130393db5ec1",
+      "sha1": "2a2de753f082f0605ee3e575065e8d3cd50e5d51",
+      "size": "631435",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=steamgrid",
+      "crc": "c2a31ec4",
+      "md5": "77284cfc9158c5dab8ba06bec144f928",
+      "sha1": "d274434633cbfbc79d3bb026937b88bffc998e5d",
+      "size": "24278",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=wheel(wor)",
+      "region": "wor",
+      "crc": "6bd3fbe1",
+      "md5": "0d872e9c412246873e42c5db75961115",
+      "sha1": "ddce25d1008aa588652cad07ca5e9ea89f3c4ed0",
+      "size": "6715",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "5d9f9d31",
+      "md5": "eedf05359839e89d22011d99a5807c70",
+      "sha1": "0e8aeff1559b31fa04ffc6275e968820267f632f",
+      "size": "81798",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "d346ab80",
+      "md5": "9122b6ec2d861aba79015c9a16d0bf18",
+      "sha1": "3f4cda00a29b5565fb472f11b5743d7d8b91617a",
+      "size": "82132",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "76556eaf",
+      "md5": "597b557cfe9a50042f7a194f8608c7aa",
+      "sha1": "7d903716e8fd4f9dc3cd22ea1b23c223714243d9",
+      "size": "485565",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "598f6e85",
+      "md5": "70054b8ae6bb20f9ca2f85642670728c",
+      "sha1": "b30f17b82bbf088bcf4a83baeb1f71f619b5b3c9",
+      "size": "75863",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "bb68c099",
+      "md5": "c3b15b9b1720f538828d6a54c77e5a1d",
+      "sha1": "39cfb9ad72efd43684d9ca89709b4549bad82114",
+      "size": "756133",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "3c5b75b4",
+      "md5": "52a181afa166f9b668c2256c76c176bd",
+      "sha1": "7e1d4c6a194bffead70046eccae0fe640bb690b0",
+      "size": "82213",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "c2fc89c5",
+      "md5": "c75ef7e81ef73d1735c456f9a2ef9da0",
+      "sha1": "17adf3391fe7deb01aac54bdbdacfd1c51ce7d5b",
+      "size": "136789",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "e857d088",
+      "md5": "1183074065cb06641aa02aac8e4f5301",
+      "sha1": "658c375a44c1f9bf89ca66de8de337c012844fbd",
+      "size": "22889",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "e5873078",
+      "md5": "6f12e67f843c9078cbe17530a046c4fb",
+      "sha1": "7a69a78a509e72c9725c62a9174dbf0599252010",
+      "size": "729203",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "64be06a1",
+      "md5": "ecbb28178780387c1189f97f621e2c76",
+      "sha1": "8170f3027b515b461e55b6e2ad243b617c6169cd",
+      "size": "127256",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "d30ef453",
+      "md5": "45fbdbb2cfd9b5985de9fe5a7a754d02",
+      "sha1": "fc8421054ca7b6f8cd2927260af2c0561e22dfef",
+      "size": "1625837",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "a6a31fb6",
+      "md5": "ef9347c08e4d2a615aac6369847e27e3",
+      "sha1": "5e0bde52efebc1df29720479af233a3d41ee7e70",
+      "size": "239294",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "cd8055b4",
+      "md5": "329026a82c35a05b882bbaa8b3f366d1",
+      "sha1": "382b6b3548ba92c9fb67e09f5adc849b7d41529f",
+      "size": "343420",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "41aaa0cc",
+      "md5": "cfe1717c4b8269b8813dea04347ffd56",
+      "sha1": "0c0592f0f726596e98be4e451f188173d76dfe2f",
+      "size": "103374",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "317a601d",
+      "md5": "574c931bd87b7554c38e1d8eeecbeabd",
+      "sha1": "1a2816eb4ef44ee9b6c8addfae88905ae6db8c03",
+      "size": "267106",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "6237a936",
+      "md5": "fbf13dbb93ca2ee03be17b10e84c6428",
+      "sha1": "586b0bfba92ccccf2dc4be59ce4d6845542308d8",
+      "size": "248654",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "b6ffba86",
+      "md5": "17847b0b51d2c4c334a3bedb72a8d670",
+      "sha1": "022e9f3a66c43530c7715dbe8714101bb01d1b92",
+      "size": "379034",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=mixrbv2(asi)",
+      "region": "asi",
+      "crc": "5e22d98b",
+      "md5": "fe0832e6c40668b0b4ec7b5743e800a3",
+      "sha1": "429a58ad2e27aac8a3384d9057ff42397facc843",
+      "size": "577806",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88613&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "5e22d98b",
+      "md5": "fe0832e6c40668b0b4ec7b5743e800a3",
+      "sha1": "429a58ad2e27aac8a3384d9057ff42397facc843",
+      "size": "577806",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=564&media=logo-monochrome",
+      "crc": "1a8369dc",
+      "md5": "3874aa4a0e49531e2c4c39a5e37bcf0f",
+      "sha1": "6a5cf33b05f27c84782582335375a0bf3d4a83ee",
+      "size": "11144",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=564&media=wheel",
+      "crc": "d53c8f4e",
+      "md5": "5687b70430eaa898f429f4cdf656763c",
+      "sha1": "c1f7ea47b95b6c04f26fa8af2ee861fb9b49f4bc",
+      "size": "9718",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=564&media=logo-monochrome",
+      "crc": "1a8369dc",
+      "md5": "3874aa4a0e49531e2c4c39a5e37bcf0f",
+      "sha1": "6a5cf33b05f27c84782582335375a0bf3d4a83ee",
+      "size": "11144",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=564&media=wheel",
+      "crc": "d53c8f4e",
+      "md5": "5687b70430eaa898f429f4cdf656763c",
+      "sha1": "c1f7ea47b95b6c04f26fa8af2ee861fb9b49f4bc",
+      "size": "9718",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "387419",
+      "romsize": "65640",
+      "romfilename": "Poker Mahjong (Sachen) [U][!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2396964A",
+      "rommd5": "65FCC80A601FE69514C564EF30C31429",
+      "romsha1": "E5299A26BA1A5937EADB343AFD789F9BF8F2D4BB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "56047",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "136973",
+      "romsize": "65552",
+      "romfilename": "Poker Mahjong - Pu Ke Mao Que (Asia) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "50F62396",
+      "rommd5": "C79544C1B6CF3837F9B27BD56BFAEBC7",
+      "romsha1": "E7F77E7F19F60067741C35D3CD1B27CBF44D7EBC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "17823",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "13232",
+      "romsize": "39015",
+      "romfilename": "Poker Mahjong - Pu Ke Mao Que (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5C520036",
+      "rommd5": "84842777057E56A5B5EF63F11711E93D",
+      "romsha1": "88E41652C6ACB7DFD8249E5E0192E6B721C43691",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13825",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "611087",
+      "romsize": "65552",
+      "romfilename": "Poker Mahjong - Pu Ke Mao Que (Asia) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9BC5A38F",
+      "rommd5": "9C15B932571BD049C98899A89F2000B1",
+      "romsha1": "3BC8EBE57A995708B52A9E5E935B9F398575A2C2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13097",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "1142247",
+      "romsize": "65552",
+      "romfilename": "Poker Mahjong - Pu Ke Mao Que (Asia) (Ja) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "e92335f0",
+      "rommd5": "ee113ebde1e89f3fea11a182eaedaff5",
+      "romsha1": "77c92261d2b627e8c72f05717618f6fc71f1d4c6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9915",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "174162",
+      "romsize": "65536",
+      "romfilename": "Poker Mahjong - Pu Ke Mao Que (Asia) (Ja) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2D8730E2",
+      "rommd5": "003B6F60F45EA586117F7C7CFB811837",
+      "romsha1": "C282316D30790E41D0A4A0E8949024B980CEE572",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9495",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "595836",
+      "romsize": "39507",
+      "romfilename": "Poker Mahjong (Sachen) [U][!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "AA6C8A42",
+      "rommd5": "9EBDD2898F82A2E2B8AD4244261683BE",
+      "romsha1": "0B9ADDAA18B5DC608D3A6BB22D9DB43EC2E59F3E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3470"
+    },
+    {
+      "id": "114659",
+      "romsize": "38994",
+      "romfilename": "Poker Mahjong - Pu Ke Mao Que (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1B63DE06",
+      "rommd5": "8AAECA66D6192DCF633B1BD514A7610B",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "68",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    }
+  ]
+}

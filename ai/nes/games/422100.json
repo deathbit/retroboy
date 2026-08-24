@@ -1,0 +1,471 @@
+{
+  "id": "422100",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "NESert Golfing"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "41508",
+    "text": "rainwarrior"
+  },
+  "developpeur": {
+    "id": "36829",
+    "text": "Brad Smith"
+  },
+  "joueurs": {
+    "text": "1-4"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "NESert Golfing is an NES game heavily inspired by Desert Golfing. Can be played with the SNES Mouse, if you know how to connect one to an NES. Otherwise the regular controllers work too, and for the party animals who don't like to share a controller 4-player adapters are supported as well. Famicom works too. For 1 to 4 players."
+    }
+  ],
+  "genres": [
+    {
+      "id": "2913",
+      "nomcourt": "0602",
+      "principale": "0",
+      "parentid": "685",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports / Golf"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport / Golf"
+        },
+        {
+          "langue": "de",
+          "text": "Sport / Golf"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes / Golf"
+        },
+        {
+          "langue": "it",
+          "text": "Sport / Golf"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte / Golfe"
+        }
+      ]
+    },
+    {
+      "id": "685",
+      "nomcourt": "0600",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport"
+        },
+        {
+          "langue": "de",
+          "text": "Sport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes"
+        },
+        {
+          "langue": "it",
+          "text": "Sport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "cb5e7b64",
+      "md5": "cedee81aa65e76af1e77d224466c2b87",
+      "sha1": "efd53c3f18b96bc6214f158a8818b8dbc845c801",
+      "size": "4269",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=ss(wor)",
+      "region": "wor",
+      "crc": "21707ee3",
+      "md5": "f7aee96aeff91570780fca7b871b4c90",
+      "sha1": "d068b538d5b94b0243bad2ab27365de16324871e",
+      "size": "2361",
+      "format": "png"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=steamgrid",
+      "crc": "79dfbb34",
+      "md5": "dad277a99bd9996cbe1d8baef653ceb2",
+      "sha1": "c202f6c63b37367cdd20a048b4aed00126476b3c",
+      "size": "23671",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=wheel-hd(wor)",
+      "region": "wor",
+      "crc": "7166e748",
+      "md5": "cd849af543c0a6f56ee9606af714bf9e",
+      "sha1": "931c0134a979d3e763ac92c579647b636e987347",
+      "size": "6209",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "c13919a3",
+      "md5": "4ffdd1bcf563f7df95f61a2dfb868afe",
+      "sha1": "cf2e6b31d9c99a1c6fb1bd1c2ced9981363aee7c",
+      "size": "100308",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "9291a613",
+      "md5": "408723e4718bc9b6a373860e50237633",
+      "sha1": "6d8d21576a2e91ffdf9370949af4ed216f826105",
+      "size": "101929",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "28f6bc45",
+      "md5": "997763bba52b2e452674408e693309ea",
+      "sha1": "422e97145b74f63c1f0cdab8eb0e6323cfe8cd99",
+      "size": "444790",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "775dc263",
+      "md5": "171da3953d21afcd4289a26975e5c4a3",
+      "sha1": "b367f9ef70a366236e5d637aefa2d448d0836b34",
+      "size": "73241",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "2deed55b",
+      "md5": "c5118d36b887fef40a7ce5a22881fdd1",
+      "sha1": "8b4f719be894c94bcc23242840d675fb2c264d97",
+      "size": "124999",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "8b1f99c1",
+      "md5": "c52b98e7f074b57c46f6bb5bcf3218b2",
+      "sha1": "46c6b8474f966307a560b20681432f03e1a86f1c",
+      "size": "24080",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "628917ba",
+      "md5": "2171f1a2a635b9673f9d49eddd525d62",
+      "sha1": "966a5d744ce55d36a5541dbda93f5f47f7a4db47",
+      "size": "139784",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "84c1fed7",
+      "md5": "86cdd76ba6cb77a7a54bd5b10fc4bfe2",
+      "sha1": "dc0fc331a2af903775e970d73f4a0fdbad3125d2",
+      "size": "303212",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "748daa99",
+      "md5": "b80e28a1dde7e0def139cba8df1dd24a",
+      "sha1": "cee7a74df0483c600dbb988a42127b754d4a2eb3",
+      "size": "118842",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "8f559848",
+      "md5": "be56245c7b1239a37297b005588955aa",
+      "sha1": "58dcec1fdbfe822c35129dec8b130d6fddf98e64",
+      "size": "255131",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "8f559848",
+      "md5": "be56245c7b1239a37297b005588955aa",
+      "sha1": "58dcec1fdbfe822c35129dec8b130d6fddf98e64",
+      "size": "255131",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "0a66c689",
+      "md5": "f23346aa0eea8a836b58accf0e8eed26",
+      "sha1": "e66449a73125e016d7e1a6d0fd7645a42ee78e37",
+      "size": "391906",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422100&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "0a66c689",
+      "md5": "f23346aa0eea8a836b58accf0e8eed26",
+      "sha1": "e66449a73125e016d7e1a6d0fd7645a42ee78e37",
+      "size": "391906",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3369&media=pictoliste",
+      "crc": "5709be9f",
+      "md5": "6eb7a76760235fadf97bec1d3940dea7",
+      "sha1": "c349cb22ef64a06252b47e5f2ccc349cea37619f",
+      "size": "441",
+      "format": "png"
+    },
+    {
+      "id": "2913",
+      "parent": "genre",
+      "subparent": "Sport / Golf",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2913&media=pictoliste",
+      "crc": "a50a5ffc",
+      "md5": "b18c4dfa34dbea5102b52aef4b5b4adf",
+      "sha1": "85d73cd160f19addb4f94da206d227f71378fee5",
+      "size": "18306",
+      "format": "png"
+    },
+    {
+      "id": "2913",
+      "parent": "genre",
+      "subparent": "Sport / Golf",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2913&media=logo-monochrome",
+      "crc": "047fdecf",
+      "md5": "47988ec5f1c3d5afed18367abf3dd7b9",
+      "sha1": "e0fbd827bd1add3236516c2d7832290f6a6efb22",
+      "size": "17943",
+      "format": "png"
+    },
+    {
+      "id": "2913",
+      "parent": "genre",
+      "subparent": "Sport / Golf",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2913&media=logo-monochrome-svg",
+      "crc": "ca6eca50",
+      "md5": "b60c5621076bb46f6479da32a86f0a7e",
+      "sha1": "991cd8434c36a678d345959fcb31db4e703d897f",
+      "size": "1971",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome",
+      "crc": "6a963ad9",
+      "md5": "6daf840fab2d205bda9bad4ff16f4c95",
+      "sha1": "f5e795233a8013aa0d992e197d56d09a63513403",
+      "size": "18286",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome-svg",
+      "crc": "328c7db2",
+      "md5": "4298fc7c8887c1b97cec6ee0b5d72433",
+      "sha1": "8f59a9ec18c48a7246c3b13e19c6c5857bc95513",
+      "size": "4269",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=background",
+      "crc": "a3265ffe",
+      "md5": "65308af4ddc9782f6717f000eea7f28a",
+      "sha1": "bccce8f0defa7c25313eb5ced7cdf71555c5a85d",
+      "size": "185482",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1141389",
+      "romsize": "32784",
+      "romfilename": "NESert Golfing (World) (v1.5) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "b9fec62f",
+      "rommd5": "79d8263c05334f8860af9d6c3d79530d",
+      "romsha1": "53f837fedbb343d4147c1f68061ade0a6bf302cb",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20862"
+    },
+    {
+      "id": "1141392",
+      "romsize": "32784",
+      "romfilename": "NESert Golfing (World) (Tournament Edition) (Aftermarket) (Homebrew).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a9958e52",
+      "rommd5": "b1d5b5fada897882de6b47a12deea491",
+      "romsha1": "91977deab2a0d24b482d5bea181016c7270bdcc8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1949"
+    },
+    {
+      "id": "1141395",
+      "romsize": "32784",
+      "romfilename": "NESert Golfing (World) (Rev A) (Aftermarket) (Homebrew).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "c1365cb6",
+      "rommd5": "fe53f5f7cb608312a6af84fb53d149fa",
+      "romsha1": "c79b7fb604c77c759b71befd027d9363a836f60a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1209"
+    },
+    {
+      "id": "1398947",
+      "romsize": "32784",
+      "romfilename": "NESert Golfing - Tournament Edition (World) (Aftermarket) (Unl).zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "5A2F53D5",
+      "rommd5": "F78C6849D7027BDDF66682176A845705",
+      "romsha1": "8CDE270C84A00DF2F03CACE1A1965FBF6C87C0A8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "145"
+    }
+  ]
+}

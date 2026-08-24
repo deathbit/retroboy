@@ -1,0 +1,821 @@
+{
+  "id": "88415",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Kyuukyoku Harikiri Stadium - Heisei Gannen Ban"
+    },
+    {
+      "region": "jp",
+      "text": "Kyuukyoku Harikiri Stadium : Heisei Gannen Ban"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "55",
+    "text": "Taito"
+  },
+  "developpeur": {
+    "id": "2922",
+    "text": "Winky Soft"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "A well-known RPG that aims to be the ultimate baseball game. The main feature of this game is the password."
+    },
+    {
+      "langue": "fr",
+      "text": "Un RPG bien connu qui se veut le jeu de baseball ultime. Sa principale particularité réside dans l'utilisation d'un mot de passe."
+    },
+    {
+      "langue": "de",
+      "text": "Ein bekanntes RPG, das darauf abzielt, das ultimative Baseballspiel zu sein. Das Hauptmerkmal dieses Spiels ist das Passwort."
+    },
+    {
+      "langue": "es",
+      "text": "Un conocido juego de rol que pretende ser el juego de béisbol definitivo. La característica principal de este juego es la contraseña."
+    },
+    {
+      "langue": "it",
+      "text": "Un noto gioco di ruolo che mira a diventare l'ultimo gioco di baseball. La caratteristica principale di questo gioco è la password."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1989-07-21"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2853",
+      "nomcourt": "0602",
+      "principale": "0",
+      "parentid": "685",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports / Baseball"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport / Baseball"
+        },
+        {
+          "langue": "de",
+          "text": "Sport / Baseball"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes / Béisbol"
+        },
+        {
+          "langue": "it",
+          "text": "Sport / Baseball"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte / Baseball"
+        }
+      ]
+    },
+    {
+      "id": "685",
+      "nomcourt": "0600",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport"
+        },
+        {
+          "langue": "de",
+          "text": "Sport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes"
+        },
+        {
+          "langue": "it",
+          "text": "Sport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "47efb07c",
+      "md5": "d3d81773acb144674af10571cb361828",
+      "sha1": "93a04e951e96ddeb22e46c12c2162aa707f5040c",
+      "size": "3544",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=ss(jp)",
+      "region": "jp",
+      "crc": "e4bec142",
+      "md5": "09c9094de205198ee2aee9b3e983f9b7",
+      "sha1": "a7231c1ae88636287cfd0d05ddbbdb651385ad85",
+      "size": "2303",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=video",
+      "crc": "061c20d5",
+      "md5": "fe5f7e0bff50e5e23910f5b334dee89c",
+      "sha1": "41ef42552dedbe90f42ffa5d519c3b53197b9879",
+      "size": "4740004",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=video-normalized",
+      "crc": "82a65705",
+      "md5": "cb18940d9d8d38a0fcd8a8d68b7cf0dd",
+      "sha1": "bfaff4deeecb129521915b2d266ea798b897b175",
+      "size": "1077697",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=steamgrid",
+      "crc": "422cdf5d",
+      "md5": "a2488bc9c52feb8dcd37c4846f7ed916",
+      "sha1": "abb0eeba7a4679532e1829ba5dea4acd5c66e28b",
+      "size": "26896",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=wheel(jp)",
+      "region": "jp",
+      "crc": "b759d8d2",
+      "md5": "e5bbc8cb75f6ae0bd3f8eda8ee645d8b",
+      "sha1": "983717e0bd41b638d0515ad73752c823973b9554",
+      "size": "89724",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "3a8d6fe5",
+      "md5": "36d70c21422eb8b86aa83f430eafbd84",
+      "sha1": "27f635af60ef3ecb5391b12abbab12f1680d89dc",
+      "size": "153797",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "f5e3a400",
+      "md5": "f61c2cba519ef00dde4dd81c5d5e1c3f",
+      "sha1": "42444123621b594a53f0805418740cb120338fd4",
+      "size": "155293",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "dcd72960",
+      "md5": "2986d4fbe1e7916facea3b2607da0d10",
+      "sha1": "765f971fc18ac936fed416a291678e98c11ef050",
+      "size": "532481",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "efeccb08",
+      "md5": "1ac8bbeb447060013b6d1057ee8564af",
+      "sha1": "60e64be13625dc7abbc30f305b8c97be0f945cbb",
+      "size": "89759",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "b9182d3e",
+      "md5": "04ece8cd72960e8d8f80be94ba5ad0b7",
+      "sha1": "a41dbb64fa989d299bbdee3bebd1a15b2db557cf",
+      "size": "262262",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "a2423e18",
+      "md5": "315e79dcee78e01a186063dbc4a21bf9",
+      "sha1": "5a4a325c9241ba820a062f444330e2452a230b4c",
+      "size": "143049",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "c5e6fd24",
+      "md5": "178b8ae15b1327fd0138424c973043d5",
+      "sha1": "6fbebb247297ea8effb387f531314ee2f60e6390",
+      "size": "88351",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "26114cd0",
+      "md5": "a231c3d25d195d9c59f5faace4d3a023",
+      "sha1": "383ba75091d860cc0f4ee3ef557c8d9a0818b031",
+      "size": "31357",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "e853d24f",
+      "md5": "d4d27de70ee05a65986994fe5dd80082",
+      "sha1": "3728ebf71e0c2f9e01728d1807a2c36e1de379df",
+      "size": "682409",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "74763260",
+      "md5": "d13ce6684cea2b116d597cb034f5e01b",
+      "sha1": "3747a9531c01576e499acc5a1960e501e1f17fb0",
+      "size": "142803",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "df376566",
+      "md5": "724d09df63ffd712f1f206a6615673ae",
+      "sha1": "66d99ef4497e6815b7d1ec22c142a56cf9a3ebb6",
+      "size": "1045365",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "2ee9e888",
+      "md5": "abf21b1e737517168bba94db2ef35a12",
+      "sha1": "47a096f093ed5fa989b9543ddfd101c7fa91b399",
+      "size": "325063",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "6282f6d1",
+      "md5": "877ae4148b395b446687f567f0b703b4",
+      "sha1": "5547c8ceed2fae7fe34c097e38acaec6b9b1842f",
+      "size": "274360",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "9e868734",
+      "md5": "ffb2da4ae1e0063fbaf0cafc9a6270c4",
+      "sha1": "d0d43ae42ea2f072a9a8a9ba5db1923369205db3",
+      "size": "132138",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=manuel(jp)",
+      "region": "jp",
+      "crc": "12912f84",
+      "md5": "ef23aa4a925b657a0c823742077ca3f2",
+      "sha1": "dae11c1c3d57db161c68aaa645fc5d72df89fae9",
+      "size": "1457112",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "f654fde2",
+      "md5": "f29123d832d104324cf6206b06d04622",
+      "sha1": "e98c559d72417460fee5fee7b05507f492a3330a",
+      "size": "323390",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "4b2c0bae",
+      "md5": "f3248a1fed5a4a075c763e8cb5eccb92",
+      "sha1": "2d273fd9e0bfc14fd0e5d35bd49e53a89df90260",
+      "size": "314014",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "b0e5f822",
+      "md5": "bd91744fdc57ac98203a59cbdf7a405b",
+      "sha1": "be4d8ebe86c4fffe73b1d671f2d6bc017498b67c",
+      "size": "415187",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "a5f3e749",
+      "md5": "2993c0f08c23aae3bb79171876a9971d",
+      "sha1": "07fc4500df974aa0dc0c8c4e23537f6ece0e53d9",
+      "size": "334564",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "b0e5f822",
+      "md5": "bd91744fdc57ac98203a59cbdf7a405b",
+      "sha1": "be4d8ebe86c4fffe73b1d671f2d6bc017498b67c",
+      "size": "415187",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "93831806",
+      "md5": "654d2e30e9c78c17d4d1cc89b67af914",
+      "sha1": "d7e6d88ab7c51f508ce7520e3637984d92f27f93",
+      "size": "568476",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "6d086cdb",
+      "md5": "9c102fc7eb0035e8f75c2d7c7d6b3678",
+      "sha1": "a00f5fa855caa72a199c187ade2d218e78a0b2b7",
+      "size": "492662",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88415&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "93831806",
+      "md5": "654d2e30e9c78c17d4d1cc89b67af914",
+      "sha1": "d7e6d88ab7c51f508ce7520e3637984d92f27f93",
+      "size": "568476",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=55&media=logo-monochrome",
+      "crc": "1ee41eda",
+      "md5": "c0d47512bae81cb323955e3375770d79",
+      "sha1": "049ed5e833457386e90fbfb71ce8e081b115a6c7",
+      "size": "6230",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=55&media=wheel",
+      "crc": "dc816667",
+      "md5": "d9fa69b25d3ea53b3565cca026f6a44b",
+      "sha1": "b6ec4f2f00d22c4a14a9a68d9d8dbeff8dc1d9fd",
+      "size": "25086",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "id": "2853",
+      "parent": "genre",
+      "subparent": "Sport / Baseball",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2853&media=pictoliste",
+      "crc": "a5af15ac",
+      "md5": "4dc254366f83ed75bea52c675c062c16",
+      "sha1": "7453add0a01d6df18a5bf3ccbcb57c2528b883f3",
+      "size": "18352",
+      "format": "png"
+    },
+    {
+      "id": "2853",
+      "parent": "genre",
+      "subparent": "Sport / Baseball",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2853&media=logo-monochrome",
+      "crc": "84e22d19",
+      "md5": "075621fb92951e4cf1f87551e69dfe09",
+      "sha1": "31bfb7ef08bda16a17aa00026822cbb3bfb51c96",
+      "size": "13931",
+      "format": "png"
+    },
+    {
+      "id": "2853",
+      "parent": "genre",
+      "subparent": "Sport / Baseball",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2853&media=logo-monochrome-svg",
+      "crc": "e21b8fa1",
+      "md5": "bb3b32b106fcd3014639d4576ef8d845",
+      "sha1": "d748169ac1e767d03a074a22214edef73bf27351",
+      "size": "1703",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome",
+      "crc": "6a963ad9",
+      "md5": "6daf840fab2d205bda9bad4ff16f4c95",
+      "sha1": "f5e795233a8013aa0d992e197d56d09a63513403",
+      "size": "18286",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome-svg",
+      "crc": "328c7db2",
+      "md5": "4298fc7c8887c1b97cec6ee0b5d72433",
+      "sha1": "8f59a9ec18c48a7246c3b13e19c6c5857bc95513",
+      "size": "4269",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=background",
+      "crc": "a3265ffe",
+      "md5": "65308af4ddc9782f6717f000eea7f28a",
+      "sha1": "bccce8f0defa7c25313eb5ced7cdf71555c5a85d",
+      "size": "185482",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136493",
+      "romsize": "393232",
+      "romfilename": "Kyuukyoku Harikiri Stadium - Heisei Gannen Ban (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5B690980",
+      "rommd5": "DD163FA40184086C0D61B80A8F5E46C9",
+      "romsha1": "39C6ADB5EB3982657E0F693D034F7E3F5FFE6903",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "45896",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "12965",
+      "romsize": "168707",
+      "romfilename": "Kyuukyoku Harikiri Stadium - Heisei Gannen Ban (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9CE1AE0A",
+      "rommd5": "D89FD2BB62CD6A76CC76A1E3D67FEF6F",
+      "romsha1": "7148BB5403CC2F3FFCE44DFD17D2EE00C7C0B5E9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "40419",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1139667",
+      "romsize": "393232",
+      "romfilename": "Kyuukyoku Harikiri Stadium - Heisei Gannen Ban (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6efa55d2",
+      "rommd5": "5a3d8fbc873ae98349994fb9bc4320dd",
+      "romsha1": "23253798fc3fafea82017c915b89cb4be28dbc6d",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "17694",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173664",
+      "romsize": "393216",
+      "romfilename": "Kyuukyoku Harikiri Stadium - Heisei Gannen Ban (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0BBF80CB",
+      "rommd5": "A2FAEC09C1EF07B5B1EA9CE4172D1E11",
+      "romsha1": "6A641B880B90ADBED772120851CFE4630FA4B149",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1519",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114162",
+      "romsize": "168685",
+      "romfilename": "Kyuukyoku Harikiri Stadium - Heisei Gannen Ban (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "06F53443",
+      "rommd5": "B00ECE026C69457531368BA7B5976FA3",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "134",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1437734",
+      "romsize": "917536",
+      "romfilename": "Kyuukyoku Harikiri Stadium - Heisei Gannen Han (J) [o1].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "18b18c25",
+      "rommd5": "9fe9e3c6305529c5a75165ff9c500670",
+      "romsha1": "ec29f6de623348688190bda2ce01fe3f0313e625",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    }
+  ]
+}

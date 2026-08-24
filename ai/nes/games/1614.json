@@ -1,0 +1,2230 @@
+{
+  "id": "1614",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Tetris 2"
+    },
+    {
+      "region": "us",
+      "text": "Tetris 2"
+    },
+    {
+      "region": "jp",
+      "text": "Tetris Flash"
+    },
+    {
+      "region": "eu",
+      "text": "Tetris 2"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "286",
+    "text": "Nintendo"
+  },
+  "developpeur": {
+    "id": "541",
+    "text": "TOSE"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "note": {
+    "text": "14"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Unlike the original Tetris, Tetris 2 has you clearing the field of blocks in a different way. Each play field starts with different colored dots (in this case black, gray and white), with one of each color flashing. The blocks are made up of the same three colors, and by matching blocks of the same color over the top or to the side of the dot will clear the dot and those blocks from the screen. If you clear a flashing dot, all the corresponding dots of the same color will be cleared. To complete the round just clear the dots, not the blocks themselves."
+    },
+    {
+      "langue": "fr",
+      "text": "Tetris 2 est un puzzle-game sur Nes. Il s'agit de la suite du mondialement célèbre Tetris. Ici, le but n'est pas de faire des lignes pour qu'elles disparaissent, il faut aussi gérer la couleur. Ainsi, chaque pièce qui tombe est composée de différentes couleurs. Trois pièces de même couleur qui se touchent disparaissent."
+    },
+    {
+      "langue": "de",
+      "text": "Im Gegensatz zu den ursprünglichen Tetris räumen Sie in Tetris 2 das Feld der Blöcke auf andere Weise frei. Jedes Spielfeld beginnt mit verschiedenen farbigen Punkten (in diesem Fall schwarz, grau und weiß), wobei eine von jeder Farbe blinkt. Die Blöcke bestehen aus den gleichen drei Farben und indem die Blöcke derselben Farbe über der oberen oder an der Seite des Punktes übereinstimmen, löschen Sie die Blöcke vom Spielfeld. Wenn Sie einen blinkenden Punkt löschen, werden alle entsprechenden Punkte derselben Farbe gelöscht. Um die Runde zu vervollständigen, löschen Sie einfach die Punkte, nicht die Blöcke selbst."
+    },
+    {
+      "langue": "es",
+      "text": "A diferencia del Tetris original, Tetris 2 te hace despejar el campo de bloques de una manera diferente. Cada campo de juego comienza con puntos de diferentes colores (en este caso negro, gris y blanco), con uno de cada color parpadeando. Los bloques se componen de los mismos tres colores, y al hacer coincidir los bloques del mismo color en la parte superior o al lado del punto, se borrarán el punto y esos bloques de la pantalla. Si borra un punto parpadeante, se borrarán todos los puntos correspondientes del mismo color. Para completar la ronda, simplemente limpie los puntos, no los bloques en sí."
+    },
+    {
+      "langue": "it",
+      "text": "A differenza del Tetris originale, Tetris 2 ti fa liberare il campo dai blocchi in un modo diverso. Ogni campo di gioco inizia con punti colorati diversi (in questo caso neri, grigi e bianchi), con uno di ogni colore lampeggiante. I blocchi sono costituiti dagli stessi tre colori e, facendo corrispondere i blocchi dello stesso colore sopra o a lato del punto, il punto e quei blocchi verranno cancellati dallo schermo. Se si cancella un punto lampeggiante, tutti i punti corrispondenti dello stesso colore verranno cancellati. Per completare il round, elimina i punti, non i blocchi stessi."
+    },
+    {
+      "langue": "pt",
+      "text": "Ao contrário do Tetris original, o Tetris 2 permite limpar o campo de blocos de uma maneira diferente. Cada campo de jogo começa com pontos coloridos diferentes (neste caso, preto, cinza e branco), com uma de cada cor piscando. Os blocos são compostos das mesmas três cores e, combinando blocos da mesma cor por cima ou ao lado do ponto, o ponto e esses blocos serão apagados da tela. Se você apagar um ponto piscante, todos os pontos correspondentes da mesma cor serão apagados. Para completar a rodada, limpe os pontos, não os blocos."
+    }
+  ],
+  "classifications": [
+    {
+      "type": "ESRB",
+      "text": "E"
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1993-10-02"
+    },
+    {
+      "region": "eu",
+      "text": "1993"
+    },
+    {
+      "region": "jp",
+      "text": "1993-09-21"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2912",
+      "nomcourt": "0B00",
+      "principale": "0",
+      "parentid": "26",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Puzzle / Fall"
+        },
+        {
+          "langue": "fr",
+          "text": "Puzzle-Game / Tomber"
+        },
+        {
+          "langue": "de",
+          "text": "Puzzle / Fallen"
+        },
+        {
+          "langue": "es",
+          "text": "Puzzle / Caída"
+        },
+        {
+          "langue": "it",
+          "text": "Puzzle / A caduta"
+        },
+        {
+          "langue": "pt",
+          "text": "Quebra-cabeças / Queda"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "nomcourt": "0B00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "fr",
+          "text": "Puzzle-Game"
+        },
+        {
+          "langue": "de",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "es",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "it",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "pt",
+          "text": "Quebra-cabeças"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "2643",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Tetris"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "langue": "fr",
+      "titre": "Codes de Niveaux",
+      "description": "'''Niveaux  Mots de passe'''\n2     A??\n3     Z2!\n31     FT?\n32     N7?\n33     48N\n34     8QN\n35     48R\n36     8QR\n37     2F2\n38     XS2\n39     2FK\n40     XSK\n41     S8N\n42     0QN\n43     S8R\n44     0QR\n45     QF2\n46     HS2\n47     QFK\n48     HSK\n49     4NQ\n50     80Q\n51     4N0\n52     800\n53     2RV\n54     X9V\n55     2R!\n56     X9!\n57     SNQ\n58     00Q\n59     SN0\n60     000\n61     QRV\n62     H9V\n63     QR!\n64     H9!\n65     T19\n66     9V9\n67     T1M\n68     9VM\n69     WZ5\n70     BL5\n71     WZ1\n72     BL1\n73     V19\n74     CV9\n75     V1M\n76     CVM\n77     5Z5\n78     ?L5\n79     5Z1\n80     ?L1\n81     TW6\n82     926\n83     TWZ\n84     92Z\n85     WK4\n86     B64\n87     WKP\n88     B6P\n89     VW6\n90     C26\n91     VWZ\n92     C2Z\n93     5K4\n94     ?64\n95     5KP\n96     ?6P\n97     JP7\n98     JPH\n99     JPH\n100     Z3H"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "35d25733",
+      "md5": "471c1df906502ff5bc2333017a64983b",
+      "sha1": "ed3e7c074d7340c9e234b3f328b85db977eb8d15",
+      "size": "2512",
+      "format": "png"
+    },
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "b0e1576a",
+      "md5": "03b09b0642e8be57d66a0fcacf0ab82a",
+      "sha1": "2c27a87380db163f81fdc80d729619dd53cbc6d9",
+      "size": "3008",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=ss(wor)",
+      "region": "wor",
+      "crc": "990491d5",
+      "md5": "0d138748e271057b3ff012c0be7a3b59",
+      "sha1": "858511aa8624d1d7a28cf8a6bc428faa65a16492",
+      "size": "3002",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=fanart",
+      "crc": "75b2d000",
+      "md5": "14a42c54bfc98675999ada2a36e47742",
+      "sha1": "cbb743bc692577cad67ff929b17ff0290711ec35",
+      "size": "256591",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=video",
+      "crc": "ea508f6f",
+      "md5": "9b32fb939adc0d2f7c04c26192a53fef",
+      "sha1": "7dab809b26e6a1444f21e121177f6d9a3aa7cc6f",
+      "size": "1371561",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=video-normalized",
+      "crc": "6ddc1497",
+      "md5": "3250b1f82222d386aee4bfdc0d897792",
+      "sha1": "03e0df1b104eaee5e2a8fc5479f346b864141a85",
+      "size": "674820",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=steamgrid",
+      "crc": "796effaa",
+      "md5": "380025f7396afbd2c08a794e81a89b6b",
+      "sha1": "52dc8200df273628fa2292235239be43a901b19a",
+      "size": "26314",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=wheel(wor)",
+      "region": "wor",
+      "crc": "070e107f",
+      "md5": "d0ba5fb6488ea466177793ec2d7592a3",
+      "sha1": "83274b0fc1abd111057c22edcb6ddc74a9c3899d",
+      "size": "159857",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "1b0d6e64",
+      "md5": "e568934477adf02bc9125c8fe162f558",
+      "sha1": "255f1823a37a57121bcbb6807f77ce994fa50dcd",
+      "size": "124414",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "0065ec67",
+      "md5": "94927636e900376bb0682d7bfe2a82a9",
+      "sha1": "8c8d615ba91471fbf7e959613d8a0e02357468e6",
+      "size": "125081",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "90b5b5ad",
+      "md5": "8de6d8e3fdcd200b955efc61a1e5e33c",
+      "sha1": "c17937834944e0f4c44494f417506fea528732cc",
+      "size": "490067",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "f0be4a4f",
+      "md5": "d25883fc7f87b299a59a62adcae31cdd",
+      "sha1": "602405c27600975eb0c4c7893f8511cbb33606c1",
+      "size": "77078",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D(br)",
+      "region": "br",
+      "crc": "578cfcf2",
+      "md5": "30ab44b70d1d9e3ea755149dd828c10d",
+      "sha1": "c7f572a0f401fe2e3e99a62236259cd4bf69c694",
+      "size": "553046",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D(de)",
+      "region": "de",
+      "crc": "a43ba011",
+      "md5": "b6e76d72c08aa9c8bd51976206af62cf",
+      "sha1": "5773d62cc852f5ffcbefe6784e1e17235d91aa10",
+      "size": "656157",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D(eu)",
+      "region": "eu",
+      "crc": "281abb75",
+      "md5": "8a57c16b4930a2487f04736eb8a8be80",
+      "sha1": "ff22ff801a747757b666d084ed270f5b4e7a9e92",
+      "size": "716846",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "8c294c80",
+      "md5": "f9aedf57eb9daf452f9ceefdd5d00525",
+      "sha1": "24cfa6870d7430548ae695f755189f186d06d504",
+      "size": "577233",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "7f755177",
+      "md5": "d072696f160854b675058330b34210e6",
+      "sha1": "2eafc34ced2d0e124d5966fe5075885f3f6e925a",
+      "size": "112318",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D(us)",
+      "region": "us",
+      "crc": "883978b5",
+      "md5": "04cb5d9b00fa715ba40a0b3dfffff587",
+      "sha1": "054d9d37b1666e532f6ea4c1d3f146c7b81a59b6",
+      "size": "571584",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D-side(br)",
+      "region": "br",
+      "crc": "8b444180",
+      "md5": "e31d69e5e1b8bc94a58155683da3259e",
+      "sha1": "a36a79a3f7283978d0a028da50899b6fbe096dee",
+      "size": "35346",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D-side(de)",
+      "region": "de",
+      "crc": "7b160362",
+      "md5": "315fcae8d383b627888965dd43586f26",
+      "sha1": "86ea6ceaddde07c66581c046c84070fc2b052f0d",
+      "size": "32524",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D-side(eu)",
+      "region": "eu",
+      "crc": "15b3dea5",
+      "md5": "9dc18314fb74b18c21efd9dd0b0a21ad",
+      "sha1": "7bc7d53b50f6482fc25cd92d5e35f02ad5468c9d",
+      "size": "80179",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "019a097d",
+      "md5": "38ff9c692558426963ece7e2cba19d97",
+      "sha1": "71f77aa0cc49d0c77ed59211b7a43836829a0c59",
+      "size": "123139",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "4ecbb007",
+      "md5": "f2aa099c37bfd9da78697f951d2c5259",
+      "sha1": "41ce9b9623f547aadf0514f6922761182c3da245",
+      "size": "21466",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "de78f6e1",
+      "md5": "d3494063857a4fdef975fe31c332f93b",
+      "sha1": "8db5ab3df8ece1f1c3965b7ead27372b6b43dd50",
+      "size": "101431",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D-back(br)",
+      "region": "br",
+      "crc": "18c88288",
+      "md5": "91cf96e96c4eab3d9c7c7e0f70b3f92e",
+      "sha1": "d76e2ee173d78ec161411cd4b9fa511173f9ff38",
+      "size": "580054",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D-back(de)",
+      "region": "de",
+      "crc": "05532ad1",
+      "md5": "535172995096cbdec3f7b108d70be915",
+      "sha1": "d2015181291c73c06ad22ae53089871bf6ef1645",
+      "size": "652417",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D-back(eu)",
+      "region": "eu",
+      "crc": "433c01db",
+      "md5": "ac9e4922f2c57382f7c49a1f8a66d094",
+      "sha1": "4e76586bbb5c0e0fac284f540f4b6fc91ad031a8",
+      "size": "383315",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "536a4f83",
+      "md5": "7b4f77ccaa98b3e69792b83200d4d791",
+      "sha1": "2c923074df0e435f787718f32a87c881d2b4569e",
+      "size": "479465",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "ae1ee184",
+      "md5": "88b64f66972678bf239d1a834e36a679",
+      "sha1": "05bb1658ba27628aeeb00b5db39323d1d4ea681a",
+      "size": "139694",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "5646072a",
+      "md5": "cb16c28f6aa1b786fe29c15fbb35fcde",
+      "sha1": "745c3eb58f24b885b6e173bc4ba9741d9a891474",
+      "size": "534847",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-texture(br)",
+      "region": "br",
+      "crc": "9112d604",
+      "md5": "8ef3afed76896623dbfe9f2097d67b1a",
+      "sha1": "a544cea130ae0a6d106163318b8fcaa44433bfb3",
+      "size": "1180724",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-texture(de)",
+      "region": "de",
+      "crc": "7c0a3cb2",
+      "md5": "197ee73d688b6b518e4fc313229487b4",
+      "sha1": "eea2b0793959093ba7f2f664f5d4a2f8f635546e",
+      "size": "1146848",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-texture(eu)",
+      "region": "eu",
+      "crc": "6931bf98",
+      "md5": "c99cc156c12fb7880fdb8c1626723dd8",
+      "sha1": "500ecf98833f582a8dbd900e9e1bbf0c6c221927",
+      "size": "1217964",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "359de00b",
+      "md5": "168df8b98d2250289ed90cdfdca04852",
+      "sha1": "9880715fb159d8079613e61884dc74ba953d99de",
+      "size": "1332442",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "3a84d1f5",
+      "md5": "11ee34d54e6b7813792f45534ed1f889",
+      "sha1": "83bb457b415d540f86bb27669c8ec2c6c24c12f8",
+      "size": "290995",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-texture(us)",
+      "region": "us",
+      "crc": "9a7dd978",
+      "md5": "b1c5aee2c1ec6d6444e8373c97de95c8",
+      "sha1": "0d2027216670bb14ded764edee0a23ca8f4aff60",
+      "size": "1223107",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-3D(br)",
+      "region": "br",
+      "crc": "7d8b307a",
+      "md5": "f3e130b2fe2e69dd8094bd4f16f89888",
+      "sha1": "241ee05265ea9285f21100228512b3a7afae7363",
+      "size": "259952",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-3D(de)",
+      "region": "de",
+      "crc": "27566393",
+      "md5": "c6e2fef66da890408f87788ac6d6c543",
+      "sha1": "c96a2a7818e84cddbfa1975863d413cea234fb2c",
+      "size": "266449",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-3D(eu)",
+      "region": "eu",
+      "crc": "68471409",
+      "md5": "5a82b94a687096d8d526e1bb6347e0d3",
+      "sha1": "befb4bca5411e98bc280e0359279e3407f35589a",
+      "size": "327775",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "dcf95974",
+      "md5": "7dd5fa43c2c2be07ea5912a08bffa003",
+      "sha1": "83256ab2cea4ba49c220ef90fdfae4ce0e47625e",
+      "size": "326942",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "0faa6540",
+      "md5": "e167d64480d1007403a181b847532ccd",
+      "sha1": "6587ef23eab6877a453fae97353e2be025d6b59e",
+      "size": "110984",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=box-3D(us)",
+      "region": "us",
+      "crc": "048d9615",
+      "md5": "1aa9384d1439e3788ce488e52817ad75",
+      "sha1": "e4bd9a5563ab33b486ffeae30dd225a8e096c25a",
+      "size": "291170",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=manuel(jp)",
+      "region": "jp",
+      "crc": "58fadcb5",
+      "md5": "c70f882b382f9d03f41a2bad334da57d",
+      "sha1": "8d3018d2647051dc6e0f2d5be25379eda4384381",
+      "size": "1487198",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=manuel(us)",
+      "region": "us",
+      "crc": "996b2d1d",
+      "md5": "aad00affda971ee16a7940884b01b4b5",
+      "sha1": "a985ad39836999d5f19999190b8a2e54893ff27b",
+      "size": "749738",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=support-texture(eu)",
+      "region": "eu",
+      "crc": "17474654",
+      "md5": "e170d59ecf2198e9de9083ddec0e8025",
+      "sha1": "1ec07d36586baca80c84487083a4ed7efca80658",
+      "size": "414869",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "6be8aead",
+      "md5": "4bb6355cc21337abed513406d9d768df",
+      "sha1": "a5eb874cac416a80c05aa20c5127f1f12a9c6500",
+      "size": "399081",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=support-texture(us)",
+      "region": "us",
+      "crc": "505abe3c",
+      "md5": "250113cc84d75ecf959ad635730619f6",
+      "sha1": "4ef184cb03c8fa941e78bd446e47cffff5350e15",
+      "size": "878140",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=support-2D(eu)",
+      "region": "eu",
+      "crc": "4582bd60",
+      "md5": "114eca615c54a796af8bc89b2cdd7d0d",
+      "sha1": "8b151e6cac945a4b7adbdacdc9a7256e7f3158f2",
+      "size": "346180",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "9f5e6c68",
+      "md5": "8da9967b4af22860d9fa6a5babcac55b",
+      "sha1": "b26119aaf23da4ee39dfb73a0592ccd892b9b322",
+      "size": "398030",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=support-2D(us)",
+      "region": "us",
+      "crc": "04c28e9f",
+      "md5": "0717258f890731caeb98bde247172a1a",
+      "sha1": "403ca0e1ed863e13a42848511e611fe410f0287c",
+      "size": "382962",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "6",
+      "posw": "1406",
+      "posh": "1067",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "90278c5a",
+      "md5": "5f439c09bc1208a3a26b185cbd3583ec",
+      "sha1": "c596fc9330838559534155bf45e5eccccda31a0c",
+      "size": "644805",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=mixrbv1(br)",
+      "region": "br",
+      "crc": "ab1eeaef",
+      "md5": "d050d928f39a593c9459d4b6f091f662",
+      "sha1": "ee49bb31d476d18e563a80cd429a55020fe6dc46",
+      "size": "306385",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=mixrbv1(de)",
+      "region": "de",
+      "crc": "7a12662c",
+      "md5": "4e08871677b572a7d8d36b195cb74461",
+      "sha1": "060f532bae1d0d613cde6283b1f3c9e9896119d6",
+      "size": "310152",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=mixrbv1(eu)",
+      "region": "eu",
+      "crc": "539a4210",
+      "md5": "f1c181f64fb464abcbcef405e1420c97",
+      "sha1": "9fee9b9d9233eb3bcaff4e6f60f611fc03e049b1",
+      "size": "333177",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "f52fc67e",
+      "md5": "d17475613bb682de022340b5d1426b49",
+      "sha1": "adebff178e058570d5d47abc9069f2993d3cf565",
+      "size": "337201",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "541c1a47",
+      "md5": "198974aaa9517e1bab49293b470f09c0",
+      "sha1": "f16d786e6c1a584bb7d5a9b47db29cad7e173d95",
+      "size": "230589",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "dc1d9bac",
+      "md5": "a60a1d7328a66518c8e17b3a3a47bc14",
+      "sha1": "7c4b46172ff9959cc2e050f451f5e88f008b23a0",
+      "size": "318419",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "539a4210",
+      "md5": "f1c181f64fb464abcbcef405e1420c97",
+      "sha1": "9fee9b9d9233eb3bcaff4e6f60f611fc03e049b1",
+      "size": "333177",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=mixrbv2(br)",
+      "region": "br",
+      "crc": "9c8cb443",
+      "md5": "ed4c5b6794347f41ea491f8c26522bec",
+      "sha1": "10a844e97f0b7e517c1be892185450ecfc865f49",
+      "size": "489748",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=mixrbv2(de)",
+      "region": "de",
+      "crc": "bcd58e39",
+      "md5": "a6b339e9322ae1b4c9e45d6cbc9d6350",
+      "sha1": "9d483edb29cecc567e71af123e07ac5d1d29613a",
+      "size": "492782",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=mixrbv2(eu)",
+      "region": "eu",
+      "crc": "9020aa3a",
+      "md5": "17a50b331f0051c7772a2170699f8691",
+      "sha1": "75378acf2d6f40ca2762a7ed5dcfb74683b09f24",
+      "size": "517809",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "08a3cf62",
+      "md5": "cdc61c64a71e50fa42e856dbaf57bb10",
+      "sha1": "22a3c15aa4f24a5b947f2f30c3f011119e6dd719",
+      "size": "529979",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "4210fcc9",
+      "md5": "ea04257a41325a360ddf0c08ab1c6cd0",
+      "sha1": "6c51bdf851f96f99f3c54cd7a0fbb69ef0a2a6f1",
+      "size": "418834",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "945cd558",
+      "md5": "0fa231ea1c0a93409d5edf652b3155dc",
+      "sha1": "d8f7be7d5961b534490f2d43466096957a96a217",
+      "size": "506413",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1614&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "9020aa3a",
+      "md5": "17a50b331f0051c7772a2170699f8691",
+      "sha1": "75378acf2d6f40ca2762a7ed5dcfb74683b09f24",
+      "size": "517809",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=logo-monochrome",
+      "crc": "95dac55f",
+      "md5": "1a6af8c61e2b478c66f13a76035c4178",
+      "sha1": "333417fda7f11b21cdbfe53c5b549d31f387e7e8",
+      "size": "3342",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=wheel",
+      "crc": "d0666824",
+      "md5": "f132730b36526f594b4480fd905684cf",
+      "sha1": "2ba2d8412bceaaa973ae7f0bf41d08edf5e5a369",
+      "size": "27698",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=541&media=logo-monochrome",
+      "crc": "1c232d09",
+      "md5": "26fd107517cd082c150a9346c3c89e5f",
+      "sha1": "05904f350909dc01a59d337ceef5fc974c5be7e0",
+      "size": "40623",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=541&media=wheel",
+      "crc": "49bb0e57",
+      "md5": "9556a7cbeda7b4d5f0f901c0c4d2a988",
+      "sha1": "913742d782e2831b09b0bb86f676f76973a7055f",
+      "size": "116664",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3553&media=pictoliste",
+      "crc": "612df705",
+      "md5": "6ee8a25c785597ef3035b7139189482a",
+      "sha1": "570ad57ff7c5643595c1a2148bacc373f326cffe",
+      "size": "840",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=pictoliste",
+      "crc": "cafca3d7",
+      "md5": "51bfa81c19838bc679411a7b6f4053e2",
+      "sha1": "92253cf472ed8e71780c29ddeb6c6e260325ce1f",
+      "size": "593",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=logo-monochrome",
+      "crc": "e4f09f59",
+      "md5": "031f5b008fd851f56fea852bf9f95126",
+      "sha1": "8160d583dde154dcbd717217182d2b310e756e92",
+      "size": "10670",
+      "format": "png"
+    },
+    {
+      "id": "2912",
+      "parent": "genre",
+      "subparent": "Puzzle-Game / Tomber",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2912&media=logo-monochrome",
+      "crc": "41dc7ec5",
+      "md5": "bf6e6893100d96e8b0800297249f0b66",
+      "sha1": "c7b7f203498441e0f35952204397cd380652dbd7",
+      "size": "8824",
+      "format": "png"
+    },
+    {
+      "id": "2912",
+      "parent": "genre",
+      "subparent": "Puzzle-Game / Tomber",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2912&media=logo-monochrome-svg",
+      "crc": "2727b4fe",
+      "md5": "a10d5dc314b8ecb5e784bb49cb8bb029",
+      "sha1": "705c104b03c375aa73fbd7c0cd0449d5ec08bc22",
+      "size": "38156",
+      "format": "svg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=pictoliste",
+      "crc": "e4176cee",
+      "md5": "cc91411eb70735bb11dcfc4a0457b474",
+      "sha1": "1f04afee843e3aca095a118170eb13f3cf9a95d6",
+      "size": "828",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome",
+      "crc": "afda799e",
+      "md5": "b6aace835e844a24b33032c300cea85a",
+      "sha1": "ad7df82b2dc35f742dfe94cb20c5984c61a1be7f",
+      "size": "4560",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome-svg",
+      "crc": "b9fb9475",
+      "md5": "1f42d149151051f8c80b9728242769c3",
+      "sha1": "a0efb0c8b8814d280d62c7b2c5a6f39d5eaf0267",
+      "size": "2101",
+      "format": "svg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=background",
+      "crc": "923a4c43",
+      "md5": "5b1038e07f813242bbf179dcc11aa88f",
+      "sha1": "7971778339840a88ad940669b45dfc0103721cc1",
+      "size": "306716",
+      "format": "jpg"
+    },
+    {
+      "id": "2643",
+      "parent": "famille",
+      "subparent": "Tetris",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2643&media=figurine",
+      "crc": "3050d949",
+      "md5": "b9dd0714f883ebfb888d545335d3814e",
+      "sha1": "b8624bd68f35f5d4eed0ce3cabb42dcf7e43aa5c",
+      "size": "194408",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "137576",
+      "romsize": "262160",
+      "romfilename": "Tetris 2 (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B6C0718B",
+      "rommd5": "1D54025046BFA0CC78C8559A2D042FD8",
+      "romsha1": "812BB14F7EC9E49280FC1BE9C0853CC5DD973BA1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "251565",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1145151",
+      "romsize": "262160",
+      "romfilename": "Tetris 2 (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "88af6c84",
+      "rommd5": "c1584f3dbcdf9a4e0bcc611e6143f05a",
+      "romsha1": "ae5380d4e861176c79a423221bbb0699e3de8e3e",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "102602",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "4368",
+      "romsize": "66826",
+      "romfilename": "Tetris 2 (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "AB881BE3",
+      "rommd5": "BD954073EE75D6531C4C40447636B0D7",
+      "romsha1": "00551ADFC396758EB9E9B80C1ED159BB8D605C7F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "82248",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "4367",
+      "romsize": "67016",
+      "romfilename": "Tetris 2 (Europe).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BBB3BCB9",
+      "rommd5": "F32E492EE7EBB360BF0FF0BB41BC26DE",
+      "romsha1": "66CFA3629BC015BBE13035B86E7B59425A478F36",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "72534",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "407115",
+      "romsize": "262160",
+      "romfilename": "Tetris 2 (U) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "81873C00",
+      "rommd5": "94585C18295C7E2EF781A5DEC02FA9EA",
+      "romsha1": "0D2B2E9DA78F7A748BCE6A489529B4FE1EDD7C1D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "64228",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "137575",
+      "romsize": "262160",
+      "romfilename": "Tetris 2 (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "77B811F0",
+      "rommd5": "57B6475813E27E7D8215494A05E30F49",
+      "romsha1": "4986D37BD91C7F0BF5B5050B61BF8425DD16E2B0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "58761",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "476186",
+      "romsize": "262160",
+      "romfilename": "Tetris 2.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "761CFFDD",
+      "rommd5": "B510C18F492806678A562C475120EB5C",
+      "romsha1": "6448BDF649CE0AFBC2817087817B73D720CFE22C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "36747",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "13538",
+      "romsize": "68700",
+      "romfilename": "Tetris Flash (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7F19E16F",
+      "rommd5": "C6E55F8E7D20B6FDEE01156B9061A903",
+      "romsha1": "ED699D246E9A99BC921242EB09D22FC421216478",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "36740",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "527064",
+      "romsize": "237584",
+      "romfilename": "Tetris2.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FC92A8C9",
+      "rommd5": "96A9F737560937F13610CB4085CEF26B",
+      "romsha1": "8162ECB6F617EBE417BE163A90660D643EE5777F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "33795"
+    },
+    {
+      "id": "137579",
+      "romsize": "262160",
+      "romfilename": "Tetris Flash (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0DD5BB0C",
+      "rommd5": "17D75CE13AB6C6A12D808F8CFA8093FC",
+      "romsha1": "6AD5EB00D6FEB1FE9EB6CF6D1BA36509AA425302",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "33229",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "526844",
+      "romsize": "262160",
+      "romfilename": "Tetris 2 (E).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8023D22D",
+      "rommd5": "A4FE5B7717BEE0F94D11B8633C53B2B1",
+      "romsha1": "0401AE37E01ED147C5D0AB989D92E969E373D4DB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "31482",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "546069",
+      "romsize": "67057",
+      "romfilename": "Tetris 2.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "564397AC",
+      "rommd5": "3FEF6A92DF6ABAD295F353511DDFE5CF",
+      "romsha1": "E2F158D29CA47214ACC93324760954C3F35A14E0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "30774"
+    },
+    {
+      "id": "537357",
+      "romsize": "66816",
+      "romfilename": "Tetris II.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "79E99019",
+      "rommd5": "FB62F03C94D4375C14715DCC1DBCC1F0",
+      "romsha1": "1481B387FC88D66D33024B47DA195D8C746C797A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "30580"
+    },
+    {
+      "id": "1275425",
+      "romsize": "40976",
+      "romfilename": "048 Tetris 2 -Tengen.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "B24AE15A",
+      "rommd5": "21C16A42604BAA6DBA6430F7036A3F58",
+      "romsha1": "A048A8BD6C1E60F85C76D991A6EF2778F4F7830E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "24303"
+    },
+    {
+      "id": "1145148",
+      "romsize": "262160",
+      "romfilename": "Tetris 2 (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8d392a5f",
+      "rommd5": "3f9e77188ab8cff211c9eef48edc5953",
+      "romsha1": "b31a44e9532f8c33bf8ab9e6b2ef290b8edd3bcf",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "14625",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "1161380",
+      "romsize": "66831",
+      "romfilename": "Tetris 2 (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C9507B9D",
+      "rommd5": "BE5275054C6BD97CDB26033B8857078C",
+      "romsha1": "1A203185ADC49D4A27E792B29D5EB0EA4AA0C611",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11310",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1164641",
+      "romsize": "23971",
+      "romfilename": "Tetris II.zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "980B9C57",
+      "rommd5": "C21DED89BFD28BF4EE474A27FD5B291D",
+      "romsha1": "A4ED0D9B4AACF6019D15DB3B5DB4C3DCC4D4B775",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10472"
+    },
+    {
+      "id": "593825",
+      "romsize": "66782",
+      "romfilename": "Tetris 2 (U) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7762E5AD",
+      "rommd5": "3AAECD6DCF1AEFF1DB6DA23C72BE4F2B",
+      "romsha1": "1126E0F0C3EB3C27990E4A3841EEF4B088522386",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7870",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "472908",
+      "romsize": "65351",
+      "romfilename": "Tetris 2 (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4299452F",
+      "rommd5": "1DC38DAE385E755F35852869DF9915EC",
+      "romsha1": "39C8F8BF7FA53E9B7191B635DDFA02926D718F4C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7707",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "522472",
+      "romsize": "67115",
+      "romfilename": "Tetris 2 (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F0BC57BD",
+      "rommd5": "2D9BE7A9F3C333842274D173FE8463A9",
+      "romsha1": "6ED24CF5DEE6ECB10D21C52BF81667925212A75E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6900",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1145160",
+      "romsize": "262160",
+      "romfilename": "Tetris Flash (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "33baa603",
+      "rommd5": "2f9d902e84dd3ff7b1223d7edb727e2a",
+      "romsha1": "973f120d91b1c13d3e0c4d84955d88351e401b7b",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6534",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174780",
+      "romsize": "262144",
+      "romfilename": "Tetris 2 (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9C537919",
+      "rommd5": "3B697DF25030EC1375D26C6D3985EEE3",
+      "romsha1": "12C64449B7470AECF096B32AD2D19CC62BF99635",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3673",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "613242",
+      "romsize": "66958",
+      "romfilename": "Tetris2.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CC513F33",
+      "rommd5": "6791F1739CA536B28BB242FA4213E57E",
+      "romsha1": "62542A727BB8455207F8111CEC45D24D42185206",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2985"
+    },
+    {
+      "id": "174779",
+      "romsize": "262144",
+      "romfilename": "Tetris 2 (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5D2B1962",
+      "rommd5": "C37EF39EAD3552A99463EBD34180D510",
+      "romsha1": "50BD6D656759EC982F600FAEEA0EC674DFF86868",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2308",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "174783",
+      "romsize": "262144",
+      "romfilename": "Tetris Flash (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2746B39E",
+      "rommd5": "2BD907BF34F87DBD3E3B0F90E4EE51C3",
+      "romsha1": "06890A6B8DADFFC2875CE4DBF82C9B314BE97AE1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1132",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1435298",
+      "romsize": "20802",
+      "romfilename": "Super Tetris II (Asia) (En) (Pirate).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "6beff51b",
+      "rommd5": "54672643372af4ede2d97cad73f85839",
+      "romsha1": "d7da51a6b774dac42e68bfaf39e20e863a4dcf7e",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "62"
+    }
+  ]
+}

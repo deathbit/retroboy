@@ -1,0 +1,521 @@
+{
+  "id": "65463",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Crime Busters"
+    },
+    {
+      "region": "wor",
+      "text": "Crime Busters"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "12405",
+    "text": "Bit"
+  },
+  "developpeur": {
+    "id": "12405",
+    "text": "Bit"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Crime Busters is a light gun game in which the players takes the role of a police officer and has to shoot bandits. The game consists in three stages: the street outside of a bank, a warehouse and the inside of a bank."
+    },
+    {
+      "langue": "fr",
+      "text": "Crime Busters est un jeu de tir dans lequel les joueurs jouent le rôle d'un policier et doivent tirer sur des bandits. Le jeu se compose de trois étapes : la rue devant une banque, un entrepôt et l'intérieur d'une banque."
+    },
+    {
+      "langue": "de",
+      "text": "Crime Busters ist ein leichtes Waffenspiel, in dem die Spieler die Rolle eines Polizisten übernehmen und Banditen erschießen müssen. Das Spiel besteht aus drei Stufen: der Straße außerhalb einer Bank, einem Lagerhaus und dem Inneren einer Bank."
+    },
+    {
+      "langue": "es",
+      "text": "Crime Busters es un juego de armas ligeras en el que los jugadores asumen el papel de un oficial de policía y deben disparar a los bandidos. El juego consta de tres etapas: la calle fuera de un banco, un almacén y el interior de un banco."
+    },
+    {
+      "langue": "it",
+      "text": "Crime Busters è un gioco di armi leggere in cui i giocatori assumono il ruolo di un agente di polizia e devono sparare ai banditi. Il gioco si compone di tre fasi: la strada all'esterno di una banca, un magazzino e l'interno di una banca."
+    },
+    {
+      "langue": "pt",
+      "text": "Jogo de tiro para jogar com o NES Zapper"
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "1989"
+    }
+  ],
+  "genres": [
+    {
+      "id": "32",
+      "nomcourt": "0105",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Lightgun Shooter"
+        },
+        {
+          "langue": "fr",
+          "text": "Tir avec accessoire"
+        },
+        {
+          "langue": "de",
+          "text": "Lightgun Shooter"
+        },
+        {
+          "langue": "es",
+          "text": "Disparos con periférico"
+        },
+        {
+          "langue": "it",
+          "text": "Sparo con accessorio"
+        },
+        {
+          "langue": "pt",
+          "text": "Tiro com Lightgun"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "45127275",
+      "md5": "2cf0c8a67659cbea0a9e8968ee1958c1",
+      "sha1": "5aab4468e563a455f86a194e360415e6f283245f",
+      "size": "2009",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=ss(wor)",
+      "region": "wor",
+      "crc": "1650844e",
+      "md5": "dfe2d20730282ea0a625ba6e3365aba4",
+      "sha1": "7e6e4eabe546ffc020e573f2a7fc93432f774690",
+      "size": "7687",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=video",
+      "crc": "67e97097",
+      "md5": "4d359ae55290cb8ece652aa01a537e2f",
+      "sha1": "d186ad781a5ad8832b30690a28f850e48b0372c1",
+      "size": "4750092",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=video-normalized",
+      "crc": "90a83a0f",
+      "md5": "446dbf08fa700324e43191e75e709ef2",
+      "sha1": "4e00b0860ada98f63d8925d05106568cba5ba205",
+      "size": "1525587",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=steamgrid",
+      "crc": "87df9ed3",
+      "md5": "2d182bd0f41ef0d257c872dbec9f9fdb",
+      "sha1": "473c28262078adbffbaf5d3f8f0349080ed6c186",
+      "size": "31257",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=wheel(wor)",
+      "region": "wor",
+      "crc": "93ee7ad6",
+      "md5": "f051f7002b3a1a76e81abf2e4a6b025a",
+      "sha1": "5e224bb138b2cf6d475114c08d272cad9732483f",
+      "size": "55805",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "7acce207",
+      "md5": "44a5d327d02abf13a4b0f6d4cef0d0a6",
+      "sha1": "8ea127001a488107bee0831f2f796d4019506f46",
+      "size": "127024",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "74b188ac",
+      "md5": "570fb39598d51dbc5313391c3bf6fd63",
+      "sha1": "abee3b0cc054e6e15615d6442790b9fc2643adac",
+      "size": "127755",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "685af294",
+      "md5": "add5d26eda96ee45c59b02d799ad1782",
+      "sha1": "fa26b3c9634cbf6d817021ff6e0213cbb73504fb",
+      "size": "509925",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "1853d1fc",
+      "md5": "7f378019063ae76b0b36803d6886218d",
+      "sha1": "f909beda2eb5c76bb9d1b1a4375f175de1a37c48",
+      "size": "83865",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=box-2D(wor)",
+      "region": "wor",
+      "crc": "35a8e575",
+      "md5": "557c08d0cb632eeaab9f3bd3dc48cf27",
+      "sha1": "d295e97a4a0f5a87d1b3abe04527506078969176",
+      "size": "724051",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=box-2D-side(wor)",
+      "region": "wor",
+      "crc": "bd7d26ab",
+      "md5": "d47c997746fccbcad0e2eed54228ee34",
+      "sha1": "7f3aada2606eadaa93d3d7ff170d67894cd96190",
+      "size": "33739",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=box-2D-back(wor)",
+      "region": "wor",
+      "crc": "8c9d2f64",
+      "md5": "6efe8021873be68ec087dd3dc4d5ee0c",
+      "sha1": "c1b988b49e0da897e6992d1fc6c5612c246608fa",
+      "size": "423608",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=box-texture(wor)",
+      "region": "wor",
+      "crc": "f0e79adc",
+      "md5": "57592e0454527f2e9a39450e5a3d6072",
+      "sha1": "9daa01dba1070de3f63a7a6f3a7a2429cbcfe282",
+      "size": "1344513",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=box-3D(wor)",
+      "region": "wor",
+      "crc": "0bf1a876",
+      "md5": "289225fb9c51258b16822150ff81e458",
+      "sha1": "75c1e994343ae696096c0bb11620fd0098707653",
+      "size": "298678",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=support-texture(wor)",
+      "region": "wor",
+      "crc": "6746531a",
+      "md5": "2f9386fdaf9062c74167771bb02bf98e",
+      "sha1": "140f83941b646191c4a3af594d27bfeded040bc4",
+      "size": "344013",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=support-2D(wor)",
+      "region": "wor",
+      "crc": "76337f56",
+      "md5": "bd42de90538bdb02d6eb165a8d724dd5",
+      "sha1": "0e6c60a90d1482cca45cd33de7118378d7733194",
+      "size": "257138",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "1694e6bb",
+      "md5": "bc505f0e80f595aa51096207198c594a",
+      "sha1": "b8a4379f864b975b221cab510b96b73d4e58c2e9",
+      "size": "428886",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65463&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "b63ebbcb",
+      "md5": "bd2fdece65bc28a8e29865bda490ac2e",
+      "sha1": "f923bed506cee5d559d01c32afcaae183a1cda9e",
+      "size": "579897",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=12405&media=wheel",
+      "crc": "64d726a9",
+      "md5": "ace90957e84b4e07eb48533171e8f17a",
+      "sha1": "7fd23210bc7e4b5244dc53cf0072d4a871d41d1a",
+      "size": "45431",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=12405&media=wheel",
+      "crc": "64d726a9",
+      "md5": "ace90957e84b4e07eb48533171e8f17a",
+      "sha1": "7fd23210bc7e4b5244dc53cf0072d4a871d41d1a",
+      "size": "45431",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "32",
+      "parent": "genre",
+      "subparent": "Tir avec accessoire",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=32&media=pictoliste",
+      "crc": "bad528c3",
+      "md5": "de933c905fe81f8e33a8f1314fa10a54",
+      "sha1": "c2efd6945ba1d0bffa62da271b8f11ffdf4c1e9e",
+      "size": "922",
+      "format": "png"
+    },
+    {
+      "id": "32",
+      "parent": "genre",
+      "subparent": "Tir avec accessoire",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=32&media=logo-monochrome",
+      "crc": "c79e4fd0",
+      "md5": "9cc05e5ab34a5bb8bcf7b430109416c4",
+      "sha1": "7e4b2afea20efa38d462fe8c948e8fa108889d47",
+      "size": "10467",
+      "format": "png"
+    },
+    {
+      "id": "32",
+      "parent": "genre",
+      "subparent": "Tir avec accessoire",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=32&media=logo-monochrome-svg",
+      "crc": "ae0dbf0e",
+      "md5": "429fa5a980d3f5ee055f4f43a999cae1",
+      "sha1": "30aad760da05afe983f325b0176067bb0cd67aa6",
+      "size": "4058",
+      "format": "svg"
+    },
+    {
+      "id": "32",
+      "parent": "genre",
+      "subparent": "Tir avec accessoire",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=32&media=background",
+      "crc": "d4f4e907",
+      "md5": "635c14cd23fee6f1310587aad2fe47c4",
+      "sha1": "20d204f5c84de8e95f44d94d6517c5ef49af71a3",
+      "size": "112966",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135700",
+      "romsize": "163856",
+      "romfilename": "Crime Busters (Unknown) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "86C7D81E",
+      "rommd5": "04FCB819539910AD1EE79F5B1FA11ABE",
+      "romsha1": "434341FD20B215EBF4EBF9D6D9CA51345079D33A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "73060"
+    },
+    {
+      "id": "12507",
+      "romsize": "65301",
+      "romfilename": "Crime Busters (Unknown) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0151D0EE",
+      "rommd5": "B7512DB718D4398737932B6757D5652F",
+      "romsha1": "8A79C4EEDF0B173D2EDD24DE01F52897E3235966",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "54189"
+    },
+    {
+      "id": "1135827",
+      "romsize": "163856",
+      "romfilename": "Crime Busters (Brazil) (En) (Unl).7z",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6a251720",
+      "rommd5": "bea3ff64a4f2a895c068374ce2fa5b55",
+      "romsha1": "b48d0ff45ac9acd61080e33266555da660bfe85c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20971",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      }
+    },
+    {
+      "id": "172854",
+      "romsize": "163840",
+      "romfilename": "Crime Busters (Brazil) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4D68CFB1",
+      "rommd5": "5CD7DD58A121660DACC5426704B7EC2D",
+      "romsha1": "8E7260F2F2775CFF1A774F61A157F8B4477D1038",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8762"
+    },
+    {
+      "id": "113350",
+      "romsize": "65279",
+      "romfilename": "Crime Busters (Unknown) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5DA196F8",
+      "rommd5": "DD6C39314154BBB47C66D885A8AA9F82",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "84"
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "id": "421449",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "F-Theta"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "69569",
+    "text": "LITTLE SOUND SOFT"
+  },
+  "developpeur": {
+    "id": "69569",
+    "text": "LITTLE SOUND SOFT"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Run at a maximum speed of 255km/h! This is a racing game with a rotating screen! Take control of a racing car and race through a variety of 360-degree courses within the time limit! Animated demos add to the atmosphere! Race queens will cheer you on before you start! Each stage gets a little more extreme! 8 courses in total! Set your fastest lap ever! Practice mode allows you to practice all the courses at any time! You can practice at any time! Train hard and outperform your friends!"
+    },
+    {
+      "langue": "fr",
+      "text": "Foncez à une vitesse maximale de 255 km/h ! Voici un jeu de course doté d'un écran rotatif ! Prenez le volant d'une voiture de course et parcourez divers circuits à 360 degrés dans le temps imparti ! Des séquences animées renforcent l'ambiance ! Les « race queens » vous encourageront avant le départ ! Chaque étape devient de plus en plus intense ! 8 circuits au total ! Établissez votre record du tour ! Le mode entraînement vous permet de vous exercer sur tous les circuits à tout moment ! Entraînez-vous dur et surpassez vos amis !"
+    },
+    {
+      "langue": "de",
+      "text": "Rase mit einer Höchstgeschwindigkeit von 255km/h! Dies ist ein Rennspiel mit einem rotierenden Bildschirm! Übernimm die Kontrolle über einen Rennwagen und rase innerhalb des Zeitlimits durch eine Vielzahl von 360-Grad-Kursen. Animierte Demos tragen zur Atmosphäre bei! Rennköniginnen feuern dich an, bevor du startest! Jede Etappe wird ein bisschen extremer! Insgesamt 8 Strecken! Fahre die schnellste Runde aller Zeiten! Im Übungsmodus kannst du jederzeit alle Strecken üben! Du kannst jederzeit üben! Trainiere hart und übertreffe deine Freunde!"
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2021-07-17"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2888",
+      "nomcourt": "0601",
+      "principale": "0",
+      "parentid": "28",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Racing TPV"
+        },
+        {
+          "langue": "fr",
+          "text": "Course vue 3eme pers."
+        },
+        {
+          "langue": "de",
+          "text": "Rennen 3. Pers."
+        },
+        {
+          "langue": "es",
+          "text": "Carreras 3ª persona"
+        },
+        {
+          "langue": "it",
+          "text": "Corsa in 3a Persona"
+        },
+        {
+          "langue": "pt",
+          "text": "Corrida em 3ª pessoa"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "nomcourt": "0601",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Racing, Driving"
+        },
+        {
+          "langue": "fr",
+          "text": "Course, Conduite"
+        },
+        {
+          "langue": "de",
+          "text": "Rennen, Fahren"
+        },
+        {
+          "langue": "es",
+          "text": "Carreras, Conducción"
+        },
+        {
+          "langue": "it",
+          "text": "Corsa, Guida"
+        },
+        {
+          "langue": "pt",
+          "text": "Corrida, Pilotagem"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "74dcc81b",
+      "md5": "d4086063652c997ae4eb166d2d280d0a",
+      "sha1": "5f83f58fe7f49b391d7f0eb990de5848c8d89ac6",
+      "size": "15865",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=ss(wor)",
+      "region": "wor",
+      "crc": "3e78698a",
+      "md5": "0bc708d5de6c71a7879d44fdff82be25",
+      "sha1": "dadd095552860fb48513902828a73f55168e69c2",
+      "size": "12640",
+      "format": "png"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=steamgrid",
+      "crc": "b54b5d46",
+      "md5": "208b0d451ffc86a39c2d6143a0a52e86",
+      "sha1": "ad284f9cb904777d7f8d8cb69271a4bacb289521",
+      "size": "27253",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=wheel-hd(wor)",
+      "region": "wor",
+      "crc": "011d5e09",
+      "md5": "d11b114806f75f6373874b37813e53a0",
+      "sha1": "15d96bf8313269bb6d47a74ec650ac660b9031d5",
+      "size": "16030",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "f4f72c02",
+      "md5": "6361c51214ac7249fe4fa46118f27aa7",
+      "sha1": "8879a15aa58a198ba649b830fd419059ce02823b",
+      "size": "105122",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "669737b5",
+      "md5": "9b509eab9d25571c7bf13b68791afa4c",
+      "sha1": "eaa34c47cec9b5f9cd008079091ce5abee185b3c",
+      "size": "106576",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "78d5287e",
+      "md5": "beab64fdcab49b2f7f9318adc783c6cf",
+      "sha1": "d06f71cdacb04f0518acecd7e3f103b20a6d3030",
+      "size": "451833",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "d6d8d82d",
+      "md5": "460883263f3c0ebc7d89839d031f46e3",
+      "sha1": "92dbc9edc7c70a694cc781001ab63d0efb4a54f5",
+      "size": "70918",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "69fb19b6",
+      "md5": "39498cae7a5c1f963535bac7bb74e8b1",
+      "sha1": "e52c972e755e2ed679a42d77a24ed4f0d1d54e81",
+      "size": "143336",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "dad6966b",
+      "md5": "564257b0a76585a54f47279dd00092ee",
+      "sha1": "cb2dfcb1685c9fc5cc6d864b53bec6168ca993d4",
+      "size": "21196",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "61168301",
+      "md5": "d130825e77cc28bb913941412d395c4d",
+      "sha1": "eb89d3d35265747784336d4ace4e33d32628f963",
+      "size": "116036",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "0b3f0368",
+      "md5": "77e4fad0772eebcb6cc7316bb54951da",
+      "sha1": "3e2ca35e0db96f876f21d1f3cf8bfb5b20d00725",
+      "size": "294259",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "2b4d45b0",
+      "md5": "fd8f60ddbac243aedef8d33caef666f0",
+      "sha1": "9c36fd7982661a8356dbccd410cc2ac1d2dfa691",
+      "size": "112745",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "4b8955ce",
+      "md5": "367b2dc55bb9ff50139f7c0cd241beb1",
+      "sha1": "03af15333dfd0ae288f2f7f275fa1a620cae1e97",
+      "size": "190188",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "4b8955ce",
+      "md5": "367b2dc55bb9ff50139f7c0cd241beb1",
+      "sha1": "03af15333dfd0ae288f2f7f275fa1a620cae1e97",
+      "size": "190188",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "303aafd8",
+      "md5": "7fa39ad82001a6e21a34050fed70df1a",
+      "sha1": "7ac2453b1fb82a74736e1d7b940357f0207b5546",
+      "size": "352704",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "303aafd8",
+      "md5": "7fa39ad82001a6e21a34050fed70df1a",
+      "sha1": "7ac2453b1fb82a74736e1d7b940357f0207b5546",
+      "size": "352704",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421449&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "303aafd8",
+      "md5": "7fa39ad82001a6e21a34050fed70df1a",
+      "sha1": "7ac2453b1fb82a74736e1d7b940357f0207b5546",
+      "size": "352704",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2888",
+      "parent": "genre",
+      "subparent": "Course vue 3eme pers.",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2888&media=pictoliste",
+      "crc": "0ddde4a9",
+      "md5": "6615a667068695eed038b19cec5442f0",
+      "sha1": "679c67c752f18e03acd7b9fa8e13d03b0a312f3b",
+      "size": "18723",
+      "format": "png"
+    },
+    {
+      "id": "2888",
+      "parent": "genre",
+      "subparent": "Course vue 3eme pers.",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2888&media=logo-monochrome",
+      "crc": "404afe34",
+      "md5": "5d355f058708f5ecc542b24464428b53",
+      "sha1": "71da289246d5c308ec5a74e024532ad41e9544c5",
+      "size": "17865",
+      "format": "png"
+    },
+    {
+      "id": "2888",
+      "parent": "genre",
+      "subparent": "Course vue 3eme pers.",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2888&media=logo-monochrome-svg",
+      "crc": "9db43196",
+      "md5": "6da7d8f95089b89be812e98efdc14e40",
+      "sha1": "a1994eff874fae5623cee185b8217e3e13399042",
+      "size": "2943",
+      "format": "svg"
+    },
+    {
+      "id": "2888",
+      "parent": "genre",
+      "subparent": "Course vue 3eme pers.",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2888&media=background",
+      "crc": "962944da",
+      "md5": "95b862e501ce394042f95c096665a2ac",
+      "sha1": "3a37489bf2b88f43a2ba0c3b46ed2b907197f047",
+      "size": "407076",
+      "format": "jpg"
+    },
+    {
+      "id": "28",
+      "parent": "genre",
+      "subparent": "Course, Conduite",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28&media=pictoliste",
+      "crc": "6d26dd78",
+      "md5": "dc64e0c263abe009b8a846f40029d892",
+      "sha1": "cba5143e7cd8a13b0d80120433eed1b56c7faba6",
+      "size": "817",
+      "format": "png"
+    },
+    {
+      "id": "28",
+      "parent": "genre",
+      "subparent": "Course, Conduite",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28&media=logo-monochrome",
+      "crc": "d2fe1ddb",
+      "md5": "d2b1ca77df8693cf0611053b40db864f",
+      "sha1": "1f71290b922446c4661517474527b86ede4200fa",
+      "size": "5242",
+      "format": "png"
+    },
+    {
+      "id": "28",
+      "parent": "genre",
+      "subparent": "Course, Conduite",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28&media=logo-monochrome-svg",
+      "crc": "5854317a",
+      "md5": "68c7ba83ac439fc27bd608348fb50670",
+      "sha1": "b5bf8d6dc1f738d3e6ca9fe23c2a897b4503fd6f",
+      "size": "2117",
+      "format": "svg"
+    },
+    {
+      "id": "28",
+      "parent": "genre",
+      "subparent": "Course, Conduite",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28&media=background",
+      "crc": "25bbbb66",
+      "md5": "4aa86cf74f667470e128a1782615192a",
+      "sha1": "9ecd8e0d6c328cf4d0e43efd47533de0886a82df",
+      "size": "365892",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1136997",
+      "romsize": "262160",
+      "romfilename": "ftheta.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0ebce07a",
+      "rommd5": "b12a6b35504790b06ef26606bfe51475",
+      "romsha1": "16d9c745d5aae9214ec05aea4011d84635a29802",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5366",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

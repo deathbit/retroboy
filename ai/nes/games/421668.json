@@ -1,0 +1,1329 @@
+{
+  "id": "421668",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Touhou Rououmu"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "This Japanese NES homebrew has been in development for years. It's a shooter that aims to push the Famicom further than has been done in the past, even by classic shooters like Crisis Force and Recca. Version 1.00 was finally released in 2023."
+    }
+  ],
+  "genres": [
+    {
+      "id": "2851",
+      "nomcourt": "0104",
+      "principale": "0",
+      "parentid": "79",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shoot'em Up / Vertical"
+        },
+        {
+          "langue": "fr",
+          "text": "Shoot'em up / Vertical"
+        },
+        {
+          "langue": "de",
+          "text": "Shoot'em Up / Vertikal"
+        },
+        {
+          "langue": "es",
+          "text": "Shoot'em Up / Vertical"
+        },
+        {
+          "langue": "it",
+          "text": "Shoot'em Up / Verticale"
+        },
+        {
+          "langue": "pt",
+          "text": "Shoot'em Up / Vertical"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "nomcourt": "0104",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "fr",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "de",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "es",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "it",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "pt",
+          "text": "Shoot'em Up"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "c3c5a0f2",
+      "md5": "793c7c91be67032523d87738e2dc7d03",
+      "sha1": "cbde8fd929d451a0558841cc41cd090d7f596249",
+      "size": "3961",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=ss(jp)",
+      "region": "jp",
+      "crc": "a2d5ef99",
+      "md5": "bf0aab897853e52ec9e42a9c9048eb41",
+      "sha1": "013d0eb62c7eefd40984e0a198b27c79f4ff5277",
+      "size": "6392",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=video",
+      "crc": "b470f76a",
+      "md5": "c683a6a169847a8f7e37e3e076a5c7c9",
+      "sha1": "ae018804431af9dacc3221bf8fb041906c09d716",
+      "size": "2651459",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=video-normalized",
+      "crc": "5bb03df6",
+      "md5": "6f67675e659117f0d8fbcae707d613d3",
+      "sha1": "41597a8cce517861b30945e0dad6d195811b4f63",
+      "size": "884104",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=steamgrid",
+      "crc": "2a1c372b",
+      "md5": "9f6173b2bb1f553817b0ac5fbc5c9732",
+      "sha1": "221b9f60ee5a16b9ea5b7dab4d78b46444ff333a",
+      "size": "32921",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=wheel-hd(wor)",
+      "region": "wor",
+      "crc": "f797c0dd",
+      "md5": "6564915954bf45a972320ddc009f71cd",
+      "sha1": "75e7accdf4e641ef2581609fc7f65a846206b628",
+      "size": "3790",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "0ce95bdd",
+      "md5": "c387b1af334cfb1a6852b8fe50b961cc",
+      "sha1": "8a98592daabb1235e85bb5880328992c75c8827b",
+      "size": "83194",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "6b5baaa5",
+      "md5": "92289315c02ced26443047f22b264dbe",
+      "sha1": "24cf8741cc50eda8bb5705c86becbe3eda0d1a3c",
+      "size": "84247",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "97c70bf2",
+      "md5": "861cef7ac47593fb7235a94b9ed25376",
+      "sha1": "5b916b33f972998decf00db7ba243837d64c50d9",
+      "size": "414153",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "dca215df",
+      "md5": "75cf64eb2f8caea2c8faf4afc86dda6c",
+      "sha1": "045cd5df5457864c5f9dc250891a607fe9b4f01e",
+      "size": "67715",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "e02514f0",
+      "md5": "2e9e102abbceb01408476d0aa354fb22",
+      "sha1": "31b8e4d252aa6d68cfc700c555d365d71e4deebe",
+      "size": "174434",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "510833da",
+      "md5": "9d8cc8cb7d50b4633b59a8c25177bd94",
+      "sha1": "9a3b5c5c84cf91d08068b54bc9498bb7308ba9ad",
+      "size": "35223",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "170c8f80",
+      "md5": "98a827dcaca0cba3f5fb9a89a61e6af6",
+      "sha1": "015443248776628e68b8549b7a6b019fcd10f412",
+      "size": "169252",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "3bf6ada0",
+      "md5": "e1b51cbfebb879816e3dd72c69c901c7",
+      "sha1": "52f3c9e25b6d891481a04f391597a60bd6d4164f",
+      "size": "390351",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "b58c02e2",
+      "md5": "418e2fab5abd0e564157a0509890f77a",
+      "sha1": "70568cee3c5905fccc77d94a7367a9883d27cffd",
+      "size": "175514",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "f82acd71",
+      "md5": "511f8a389581fdf35e637e567b84d5e3",
+      "sha1": "85e0b5579e49efac3083b9d66c1e3d78ab17ba1c",
+      "size": "258210",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "65d1d395",
+      "md5": "405e8ec3a56e5ec066ecd0f4023e4b1a",
+      "sha1": "f7cd4961397d95d48e470e4cc346ab0f179b9f69",
+      "size": "341027",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "65d1d395",
+      "md5": "405e8ec3a56e5ec066ecd0f4023e4b1a",
+      "sha1": "f7cd4961397d95d48e470e4cc346ab0f179b9f69",
+      "size": "341027",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "04965016",
+      "md5": "11773416fd77729850065dca6cc3493c",
+      "sha1": "5f3b55dec97329593975098c2c8da6d93631e609",
+      "size": "512120",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "04965016",
+      "md5": "11773416fd77729850065dca6cc3493c",
+      "sha1": "5f3b55dec97329593975098c2c8da6d93631e609",
+      "size": "512120",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421668&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "04965016",
+      "md5": "11773416fd77729850065dca6cc3493c",
+      "sha1": "5f3b55dec97329593975098c2c8da6d93631e609",
+      "size": "512120",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2851",
+      "parent": "genre",
+      "subparent": "Shoot'em up / Vertical",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2851&media=pictoliste",
+      "crc": "9c00d7a8",
+      "md5": "dbd75ba0db99aaf2e1d67cc48e6726ab",
+      "sha1": "1c576a324bfaaed85f03a50f2bacc04adeec55c3",
+      "size": "18416",
+      "format": "png"
+    },
+    {
+      "id": "2851",
+      "parent": "genre",
+      "subparent": "Shoot'em up / Vertical",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2851&media=logo-monochrome",
+      "crc": "e19dade7",
+      "md5": "0afcb25a34ac1921a5d0fd64a62c7c54",
+      "sha1": "a1e09d691a44556694fca1542a41ed38df203ebf",
+      "size": "15685",
+      "format": "png"
+    },
+    {
+      "id": "2851",
+      "parent": "genre",
+      "subparent": "Shoot'em up / Vertical",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2851&media=logo-monochrome-svg",
+      "crc": "dbe4b264",
+      "md5": "7af78e308327c111f2e1aeb051b47111",
+      "sha1": "c4b766cfdd728e73f6613bc8f66601fe13d1974a",
+      "size": "2866",
+      "format": "svg"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=pictoliste",
+      "crc": "9746a0d4",
+      "md5": "818adff397e9fa2d57dda2bcf78264f3",
+      "sha1": "c0a1b5b73edc5bed64549be9ea87b8d63cd5dbd4",
+      "size": "801",
+      "format": "png"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=logo-monochrome",
+      "crc": "dd5fe4a2",
+      "md5": "c68fd2d841216a7731ab359f27c83253",
+      "sha1": "a72048fdf61cf38f02c67cdef772745050354773",
+      "size": "4753",
+      "format": "png"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=logo-monochrome-svg",
+      "crc": "cfcb4073",
+      "md5": "04b04e406dbe7fa283310d319b206485",
+      "sha1": "47dd7fbeff5af8dbf486031b966857d8c9e4f416",
+      "size": "1681",
+      "format": "svg"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=background",
+      "crc": "f14aae18",
+      "md5": "73879fae56ae9f80579a8381b60886f3",
+      "sha1": "3f3ff926bfb2fc1849397ae0334613cbee48ee68",
+      "size": "174160",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1145421",
+      "romsize": "393232",
+      "romfilename": "touhourououmu.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a356f242",
+      "rommd5": "1c7b33e4b3005dd2573ca33dafd88587",
+      "romsha1": "f605a244236533f898979c1f6b38d223c0bfe3fa",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "29355",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145472",
+      "romsize": "524304",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.84) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "42d11ac7",
+      "rommd5": "6ccfbc15c7e5f208d4343f09fafb5184",
+      "romsha1": "8aba13ef1227cc27cccd081e38c5eaf025704695",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "2975",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145424",
+      "romsize": "524304",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.86) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "76273120",
+      "rommd5": "f6ddd60f0ab73b7ce0162ac04e8602b2",
+      "romsha1": "cc22d5c0ffe534e9b3f1fc400f77e649cfdced79",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2575",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145460",
+      "romsize": "524304",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.70) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "07e10e53",
+      "rommd5": "66bd1164f449a37027945f3c501dbd13",
+      "romsha1": "dbbb02b633fd72f8222c09f2e9610f85e9b5d6fc",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2439",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145454",
+      "romsize": "524304",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.62) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6fdf31f6",
+      "rommd5": "fa124b695937cfa2d32b692dcf312eef",
+      "romsha1": "25b7abb409e13e563e06e1c859775bc8db8a7703",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2422",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145430",
+      "romsize": "393232",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.45) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "535dcb88",
+      "rommd5": "19ef20cdf287e4b153cca313debd5a09",
+      "romsha1": "79cb7946766c6b996eac9c6e3eefc5f7a4cfc3c2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2418",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145469",
+      "romsize": "524304",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.81) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "d218f90d",
+      "rommd5": "fa53897b41548aca2c2c2f43283f74f4",
+      "romsha1": "dc1c954cbcc363c2210e0e3ca9e18830da1280be",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2406",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145463",
+      "romsize": "524304",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.71) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2c0a2b13",
+      "rommd5": "ae332d69951843fcdb557208333c02d4",
+      "romsha1": "44995f52afb000fa356cc669a5b5a7259df00d58",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2403",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145457",
+      "romsize": "524304",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.68) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "03f488e4",
+      "rommd5": "1d6224abc472bdb79f0f9b6185410f53",
+      "romsha1": "544b8981beaded80b84db1589386caaf800824e2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2399",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145466",
+      "romsize": "524304",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.80) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "332ace67",
+      "rommd5": "0528290773957aa5b0397ec9b5fc2e2f",
+      "romsha1": "4384ad5e08c4928670cb5043ce27b5011defd1ac",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2393",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145448",
+      "romsize": "524304",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.60) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "65fca35b",
+      "rommd5": "594cc7f03f78055f01781641b9066aae",
+      "romsha1": "547a107fc709805a7ceb202894182aa9b30157c2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2388",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145451",
+      "romsize": "524304",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.61) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0edf1a73",
+      "rommd5": "7152489258d19c63d2bb48f38def85db",
+      "romsha1": "42e8cc18eddb6aa69f919e008e2adf35ed5d303d",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2386",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145436",
+      "romsize": "393232",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.47) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "827eaa48",
+      "rommd5": "99c50c402eb0649b3cdd5528a27d9435",
+      "romsha1": "45f241d21f38a2f63557ed8651c583df3cfe569a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2384",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145439",
+      "romsize": "393232",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.50) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "963d1c4c",
+      "rommd5": "efad8b64658e915998185fd7e2b577ea",
+      "romsha1": "1717e61a1ecc7a74792c8c9ab36b310b0563b696",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2380",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145427",
+      "romsize": "393232",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.44) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8282a5d7",
+      "rommd5": "027a6d8f4d940334850f032834726cdc",
+      "romsha1": "c62e456aa29f2f8ff5acf23f9a093221f0c20735",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2373",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145442",
+      "romsize": "393232",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.51) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "48f95efb",
+      "rommd5": "71103da0893e2b57f6bcf7ca95c66049",
+      "romsha1": "bf1267ece6e360ae3d55a866628dc42adf29c6f0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2371",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145445",
+      "romsize": "524304",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.58) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "e3ce2f2a",
+      "rommd5": "bbd40405a1cff6f9bba1ccd7747731f0",
+      "romsha1": "2bde90a030d4a19e9322fa2a06358f745f7b7c0a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2368",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145433",
+      "romsize": "393232",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.46) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "ddf7ee96",
+      "rommd5": "107ef6021a24032ee921faa0d56aa04a",
+      "romsha1": "f1fe7f3acc53ec1b09c0014efa02737cc5418095",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2348",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1145475",
+      "romsize": "524304",
+      "romfilename": "Touhou Rououmu (World) (Ja) (v0.90) (Beta) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "831ce66e",
+      "rommd5": "8365cc3775f350d612a9202145e998e6",
+      "romsha1": "be684bad4fb0ec7f7c91ee014975cb335ae7f8e5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2179",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,937 @@
+{
+  "id": "88632",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Sanrio Carnival 2"
+    },
+    {
+      "region": "jp",
+      "text": "Sanrio Carnival 2"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "3080",
+    "text": "Character Soft"
+  },
+  "developpeur": {
+    "id": "3080",
+    "text": "Character Soft"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "The genre of this game is a puzzle game, like the original Sanrio Carnival. The game features a mode in which the player must advance through multiple stages, such as one featuring the character Minna no Tabo."
+    },
+    {
+      "langue": "fr",
+      "text": "Le genre de ce jeu est un jeu de puzzle, comme le Sanrio Carnival original. Le jeu comporte un mode dans lequel le joueur doit avancer à travers plusieurs étapes, telles que celle mettant en vedette le personnage Minna no Tabo."
+    },
+    {
+      "langue": "de",
+      "text": "Das Genre dieses Spiels ist ein Puzzlespiel, wie das Original Sanrio Carnival. Das Spiel verfügt über einen Modus, in dem der Spieler mehrere Level durchlaufen muss, beispielsweise eines mit der Figur Minna no Tabo."
+    },
+    {
+      "langue": "es",
+      "text": "El género de este juego es un juego de rompecabezas, como el original Carnaval de Sanrio. El juego cuenta con un modo en el que el jugador debe avanzar a través de múltiples etapas, además se añade el personaje Minna no Tabo."
+    },
+    {
+      "langue": "it",
+      "text": "Il genere di questo gioco è un puzzle game, come l'originale Sanrio Carnival. Il gioco presenta una modalità in cui il giocatore deve avanzare attraverso più fasi, come quella con il personaggio Minna no Tabo."
+    },
+    {
+      "langue": "pt",
+      "text": "O gênero deste jogo de quebra-cabeça, como o Carnaval Sanrio original. O jogo apresenta um modo em que o jogador deve avançar através de múltiplos estágios, como um caracterizando o personagem Minna no Tabo."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1993-01-14"
+    }
+  ],
+  "genres": [
+    {
+      "id": "26",
+      "nomcourt": "0B00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "fr",
+          "text": "Puzzle-Game"
+        },
+        {
+          "langue": "de",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "es",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "it",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "pt",
+          "text": "Quebra-cabeças"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "533c26a2",
+      "md5": "56a4a6ed06912a57836bde5e145b41c9",
+      "sha1": "2d006001d96cc61bef1fc8d9692faa3b3f01e7c6",
+      "size": "4624",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=ss(jp)",
+      "region": "jp",
+      "crc": "c8de1f90",
+      "md5": "ac328679a2b8447adc269316962d4c14",
+      "sha1": "cf506632148ea28b6cbb820cdb8e4dbe25edf104",
+      "size": "10273",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=fanart",
+      "crc": "2cc1a686",
+      "md5": "e0c004365de6e99b98a4a2a8d534e0f3",
+      "sha1": "dc424cfecd8796986c6bda260e4d0d85bc4f5e3f",
+      "size": "237687",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=video",
+      "crc": "742a90cf",
+      "md5": "0c381cc57431719b2f0da0cd0e9315f8",
+      "sha1": "3603e08b766406be797f2fba65f5cdb4c1daafcc",
+      "size": "2100590",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=video-normalized",
+      "crc": "fa858f7f",
+      "md5": "487667fd2151b75852976b156dd4e324",
+      "sha1": "0456c7bfd4a2202e27892ce970e888a5204480ca",
+      "size": "1313905",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=steamgrid",
+      "crc": "0c1b46f3",
+      "md5": "e943035cd53708354d302db5778b9df9",
+      "sha1": "7d16c2809a42486000ad9df7bce456cd77da4d5d",
+      "size": "24953",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=wheel(jp)",
+      "region": "jp",
+      "crc": "d1253db4",
+      "md5": "3af003c0ba89b38a535e8c78700a0914",
+      "sha1": "8017d0d20371b868358a8c1246849e128ab133b3",
+      "size": "23663",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "20cd227a",
+      "md5": "0cb46ac4d60201152938c0c62764f93b",
+      "sha1": "c64cf660ebe35821cffe7545efc7ab942e0d04c5",
+      "size": "86320",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "6fcebff4",
+      "md5": "bc249664298c27acc257b318cd80319f",
+      "sha1": "2f485af9b1c76f30f94b27d0006bbdfd79a1f605",
+      "size": "87672",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "4a829682",
+      "md5": "fac083039b26b1d2c77680cbfe2a8be8",
+      "sha1": "e029498a8669b822a3e0786e70fd35c46ee2d342",
+      "size": "471194",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "0ea90737",
+      "md5": "c57d3b4cbf7bd4dd2cde3c6093152dc0",
+      "sha1": "a663de7151345e18a23387ab3b7f949f79fdf0bd",
+      "size": "76401",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "9d977d1c",
+      "md5": "d384ef75263dfb6b603e9f2b450bc911",
+      "sha1": "e6ae12c889e78364286e0155b5fba768504358bf",
+      "size": "481494",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "69617b48",
+      "md5": "e0670edd2dc1f896d13e8b804927136c",
+      "sha1": "b65735e1e214907c16851830b99a1d44c9b4f529",
+      "size": "94923",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "e0021bc2",
+      "md5": "3cb90a900b5aae3ff7c05618bacc811f",
+      "sha1": "7531781a166787e0861716f7240d6f7370c417cb",
+      "size": "36577",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "ced567b9",
+      "md5": "c425cfc1b338f6cd17be1df3f852a7ee",
+      "sha1": "b33e09b98bd7572ce7dfa582b4dc6a761e36a08e",
+      "size": "23564",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "2efc6b06",
+      "md5": "acc1e0a6ec504e499019744b4a996ca9",
+      "sha1": "4c5530b60cb8e7909f38889010c8f18077f85910",
+      "size": "468542",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "19f64639",
+      "md5": "3dad05aca0aaf9a437ad5d339f52082c",
+      "sha1": "acde599a0f07735065e25413a3b414dd3d951a90",
+      "size": "150759",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "58af0174",
+      "md5": "a680f0ee2d9b58bc0ccfc154d30f1cd7",
+      "sha1": "1084747c046d4f991125bdf662cfeb060dc22d35",
+      "size": "886343",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "8b29faba",
+      "md5": "1cc12018d047ab9af667091e45815c21",
+      "sha1": "1ed20f2c1c6d0a2fec6289500381e4cae8a0e0af",
+      "size": "280661",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "b15db026",
+      "md5": "92c862f33a706e7505fb5120259a896e",
+      "sha1": "b2c202a7e07c8a9822401436ad4a65e9dde19582",
+      "size": "260009",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "24602ada",
+      "md5": "caed4c4a7ec66bb478264eceb4749cb3",
+      "sha1": "a92dcf3660c701c5d351ec7537b80f0580ae6c03",
+      "size": "104333",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=manuel(jp)",
+      "region": "jp",
+      "crc": "f152c48f",
+      "md5": "832a6ea0e79d18bac4bf19aad4f69a7f",
+      "sha1": "f1c5fbf34bfdd2e34e977d07297e4313ff28cc2a",
+      "size": "905253",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "6d9f8b39",
+      "md5": "944a0b583e2922dddc9c5cfbb2a2447f",
+      "sha1": "be9c9d70a1c789385006725a134159c95c28a585",
+      "size": "333926",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "ac24a48d",
+      "md5": "d2e88a7f723c0a0d30a10a4bd3698893",
+      "sha1": "e096c16be84abba2bc357945dd5a4c9ef6b9a63d",
+      "size": "370388",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "e1df61c7",
+      "md5": "7da5a58c53eda49996da304e85e03b79",
+      "sha1": "ba3c431734fbe9db55eee6057b719d842082c9b5",
+      "size": "288116",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "bd9934b3",
+      "md5": "87d01aa16bc77e08194638b0caac816b",
+      "sha1": "59fd5cdef34f0a05dc8f0f24383f64873c99f1e2",
+      "size": "211140",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "e1df61c7",
+      "md5": "7da5a58c53eda49996da304e85e03b79",
+      "sha1": "ba3c431734fbe9db55eee6057b719d842082c9b5",
+      "size": "288116",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "6d13234e",
+      "md5": "29d65ce6d60c08f76a6661a96289340c",
+      "sha1": "cc4a26850764ad25a7e581cc9c8154e9e55cc987",
+      "size": "453635",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "aaede7ee",
+      "md5": "69b24da199ce7be779889549f0897a36",
+      "sha1": "bd228082a1362b91805cb64ad15d187026751e4d",
+      "size": "376175",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88632&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "6d13234e",
+      "md5": "29d65ce6d60c08f76a6661a96289340c",
+      "sha1": "cc4a26850764ad25a7e581cc9c8154e9e55cc987",
+      "size": "453635",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=3080&media=wheel",
+      "crc": "3d9fb17f",
+      "md5": "6becebc7dcf6ecdd27c7ea1b362f8fbf",
+      "sha1": "7421cff164ae3b487134c5bb7e25972f1f4ae180",
+      "size": "26225",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=3080&media=wheel",
+      "crc": "3d9fb17f",
+      "md5": "6becebc7dcf6ecdd27c7ea1b362f8fbf",
+      "sha1": "7421cff164ae3b487134c5bb7e25972f1f4ae180",
+      "size": "26225",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=pictoliste",
+      "crc": "e4176cee",
+      "md5": "cc91411eb70735bb11dcfc4a0457b474",
+      "sha1": "1f04afee843e3aca095a118170eb13f3cf9a95d6",
+      "size": "828",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome",
+      "crc": "afda799e",
+      "md5": "b6aace835e844a24b33032c300cea85a",
+      "sha1": "ad7df82b2dc35f742dfe94cb20c5984c61a1be7f",
+      "size": "4560",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome-svg",
+      "crc": "b9fb9475",
+      "md5": "1f42d149151051f8c80b9728242769c3",
+      "sha1": "a0efb0c8b8814d280d62c7b2c5a6f39d5eaf0267",
+      "size": "2101",
+      "format": "svg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=background",
+      "crc": "923a4c43",
+      "md5": "5b1038e07f813242bbf179dcc11aa88f",
+      "sha1": "7971778339840a88ad940669b45dfc0103721cc1",
+      "size": "306716",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "387438",
+      "romsize": "65552",
+      "romfilename": "Sanrio Carnival 2 (J) [T Eng1.0_Suicidal].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CB75C5D1",
+      "rommd5": "3A17D98030BE68CE6A33D503F66548F1",
+      "romsha1": "E3EC4DE007CEDB31ACD841A4960ABF296C7E1605",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "109623",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "137176",
+      "romsize": "65552",
+      "romfilename": "Sanrio Carnival 2 (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "72BEC27A",
+      "rommd5": "B4A725482DC4193E7F0530247D3881D2",
+      "romsha1": "C4E837BBC9D195DDAF1DDF5145AB40D89D5260B6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "80207",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "13318",
+      "romsize": "34337",
+      "romfilename": "Sanrio Carnival 2 (Japan) (T).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4DDDD656",
+      "rommd5": "BC302CE4BD6DBA733180AD2CCC667917",
+      "romsha1": "CBB79112C4EF0E272E98A9ED9FE44EB94530E7D0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "75388",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1143261",
+      "romsize": "65552",
+      "romfilename": "Sanrio Carnival 2 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5c69f427",
+      "rommd5": "55846d03b532463464203b852e405d24",
+      "romsha1": "7eb4107f2000d644c5dc107e9173a9512cd2049f",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18503",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "596047",
+      "romsize": "65680",
+      "romfilename": "SanrioCarnival2.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "39B31E72",
+      "rommd5": "AFBF3655F2ADC4018C8368975ADD98CB",
+      "romsha1": "36FEAECD7CF8FF664A1284EA9111E520030776EB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14730"
+    },
+    {
+      "id": "828451",
+      "romsize": "33623",
+      "romfilename": "Sanrio Carnival II.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "632C40BA",
+      "rommd5": "A5CD778665C9991A60A53AD05C8C9A37",
+      "romsha1": "36A4738F9A749D82F0EAF29A4589C65BE9547F74",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7173"
+    },
+    {
+      "id": "595863",
+      "romsize": "34089",
+      "romfilename": "Sanrio Carnival 2 (J) [T Eng1.0_Suicidal].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C42DB8B4",
+      "rommd5": "DEA31D081CE5AADA50CA20963B94CF88",
+      "romsha1": "59C598E07C3F8354A368C1FCDCC69BD0EBDC9D0B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3000",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174371",
+      "romsize": "65536",
+      "romfilename": "Sanrio Carnival 2 (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3D95D866",
+      "rommd5": "321E6EF450596C37F459D010A09F1D85",
+      "romsha1": "884685E7516817261D15186D703C19524C142446",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1803",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114867",
+      "romsize": "34315",
+      "romfilename": "Sanrio Carnival 2 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B5DB18C0",
+      "rommd5": "42519B4BBFCB7E714FC1D707370CDC5F",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "941",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

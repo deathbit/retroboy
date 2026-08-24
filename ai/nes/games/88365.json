@@ -1,0 +1,752 @@
+{
+  "id": "88365",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Igo Meikan"
+    },
+    {
+      "region": "jp",
+      "text": "Igo Meikan"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "18513",
+    "text": "HectorSoft"
+  },
+  "developpeur": {
+    "id": "18513",
+    "text": "HectorSoft"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Get the game going with the A button or START.\r\n\r\nThe Main Menu has four options:\r\n1. Watch Mode (1) Automatic\r\n2. Watch Mode (2) Manual\r\n3. Pick Correctly Mode (1) 5 Choices\r\n4. Pick Correctly Mode (2) No Help\r\n\r\nSpeed: 1-5 (Slow-Fast). Only asked for the Watch Mode.\r\n\r\nBlue boxes at the top left and right are the players for white and black. They\r\nhave ranks, one being the Challenger (挑戦者) and one just a ranked player.\r\nUnderneath the player is the handicap he or she is using, if applicable. The\r\nred box is the game number, which doesn't really affect anything. The small\r\npots are the pieces that were removed during play for each player at their\r\nside. The main grid is, of course, the Go board, and the small text box at the\r\nbottom is for messages and other important information such as commentary.\r\n"
+    },
+    {
+      "langue": "de",
+      "text": "Die blauen Quadrate oben links und rechts sind die weiß-schwarzen Spieler. Sie haben Ränge, einer ist der Challenger und einer ist nur ein Ranglistenspieler. Unter dem Spieler befindet sich der Debuff, den sie verwenden, falls vorhanden. Das rote Kästchen ist die Spielnummer, die eigentlich nichts beeinflusst. Die Kleinen sind die Teile, die während des Spiels für jeden Spieler auf seiner Seite entfernt wurden. Das Hauptraster ist natürlich die Go-Pinnwand und das kleine Textfeld unten ist für Beiträge und andere wichtige Informationen wie Kommentare."
+    },
+    {
+      "langue": "es",
+      "text": "Los cuadros azules en la parte superior izquierda y derecha son los jugadores de blanco y negro. Ellos tienen rangos, uno es el Challenger y otro solo un jugador clasificado. Debajo del jugador está la desventaja que está usando, si corresponde. El cuadro rojo es el número del juego, que realmente no afecta nada. El pequeño son las piezas que se eliminaron durante el juego para cada jugador en su lado. La cuadrícula principal es, por supuesto, el tablero Ir, y el pequeño cuadro de texto en la parte inferior es para mensajes y otra información importante, como comentarios."
+    },
+    {
+      "langue": "it",
+      "text": "I quadrati blu in alto a sinistra ea destra sono i giocatori bianconeri. Hanno gradi, uno è il Challenger e uno è solo un giocatore classificato. Sotto il giocatore c'è il debuff che stanno usando, se presente. La casella rossa è il numero del gioco, che in realtà non influisce su nulla. I piccoli sono i pezzi che sono stati rimossi durante il gioco per ogni giocatore dalla sua parte. La griglia principale è ovviamente la bacheca Vai e la piccola casella di testo in basso è per i messaggi e altre informazioni importanti come i commenti."
+    },
+    {
+      "langue": "pt",
+      "text": "Comece o jogo com o botão A ou INICIAR.\n\nO Menu Principal tem quatro opções:nn1. Modo de observação (1) Automáticonn2. Modo de observação (2) Manualnn3. Escolha o modo correto (1) 5 opçõesnn4. Escolha o modo correto (2) Sem ajuda\n\nVelocidade: 1-5 (lento-rápido). Pediu apenas para o modo de observação.\n\nAs caixas azuis no canto superior esquerdo e direito são os jogadores para branco e preto. Elesnntem classificações, sendo uma delas o Desafiador (挑 戦 者) e a outra apenas um jogador classificado.\nAbaixo do jogador está o handicap que ele está usando, se aplicável. Chánna caixa vermelha é o número do jogo, o que realmente não afeta nada. O pequenonnpotes são as peças que foram removidas durante o jogo para cada jogador em seunnlado. A grade principal é, obviamente, o painel Go e a pequena caixa de texto nonna parte inferior é para mensagens e outras informações importantes, como comentários."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1990-01-10"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2958",
+      "nomcourt": "0800",
+      "principale": "0",
+      "parentid": "2647",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Go"
+        },
+        {
+          "langue": "fr",
+          "text": "Go"
+        },
+        {
+          "langue": "de",
+          "text": "Go"
+        },
+        {
+          "langue": "es",
+          "text": "Go"
+        },
+        {
+          "langue": "it",
+          "text": "Go"
+        },
+        {
+          "langue": "pt",
+          "text": "Go"
+        }
+      ]
+    },
+    {
+      "id": "2647",
+      "nomcourt": "0800",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Asiatic board game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de societe asiatique"
+        },
+        {
+          "langue": "de",
+          "text": "Asiatische Brettspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de mesa asiático"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di società asiatico"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogo de tabuleiro Asiático"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "eb2f3c5e",
+      "md5": "75f6b26f0d57c52e83ea7a6291cba161",
+      "sha1": "66c84cc42b0413e0821c96629b54a3674850eb6b",
+      "size": "2720",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=ss(jp)",
+      "region": "jp",
+      "crc": "9a18dfc7",
+      "md5": "bbe3222d5f46256d9c5f7600a6a7b5f9",
+      "sha1": "35fe46e97075a52c4320fda31554adcb595c21a2",
+      "size": "3200",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=video",
+      "crc": "f38a2f4d",
+      "md5": "e853b028b27673d34077942c9adc06d9",
+      "sha1": "9d96aecb92a788fd3d653900d676173101c89730",
+      "size": "1526279",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=video-normalized",
+      "crc": "08174369",
+      "md5": "d4b4b3e50c0c28c7a457f278bd35c0a7",
+      "sha1": "24de9ea003599e6dbbb58fc52dbb0255eb33c281",
+      "size": "686988",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=steamgrid",
+      "crc": "6ea7d431",
+      "md5": "646233821211a2884c99b3df6a609abf",
+      "sha1": "7ebfe06b13262275b650a9e280fd377689c78899",
+      "size": "33048",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=wheel(jp)",
+      "region": "jp",
+      "crc": "d4938c7e",
+      "md5": "0811146be24d50b73c986c4f888c8c4b",
+      "sha1": "7418e9c0eb318cce0f680570c8f7fb4c781462a3",
+      "size": "97761",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "9c381002",
+      "md5": "61402c81cc7dbd03a2dc07dde0109f78",
+      "sha1": "fe403380e73992bf79cdd4ee170ddb1a290ccd5e",
+      "size": "107614",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "25628544",
+      "md5": "7ce46a9d758ba7a3b328c374829d05aa",
+      "sha1": "1962a8af0b293021be33b9b5235a638554fbf5ae",
+      "size": "109220",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "c6be6ac0",
+      "md5": "041f74eefa0690d7c0087406976cacf0",
+      "sha1": "b25d1a32285b1a6f52a64dd6e2a76aa09c2da0a7",
+      "size": "486740",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "38b81a90",
+      "md5": "7b895eccfb7c8d4d1abbb92d4a730768",
+      "sha1": "39116cc690a42bb625bcf4018cd37b5bfaa83edf",
+      "size": "77385",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "40a33f60",
+      "md5": "df46326f76f4e2de3a97604e02a50f34",
+      "sha1": "43748bad087a8dd0f6b640bc5dc8bb558f546c44",
+      "size": "300474",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "d1714890",
+      "md5": "fa10ba3af3ae3cab250b9f7654f1d3c3",
+      "sha1": "026fb924f1b811826269be8de17d9c38dbecdb47",
+      "size": "120297",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "bd008a66",
+      "md5": "1437d0d50525c81213bf01a169f7c4c5",
+      "sha1": "f232c680c464055107871738834b6203d3c34237",
+      "size": "73441",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "e557954d",
+      "md5": "02de4bdb2a23a118667035ae9c1330a9",
+      "sha1": "de81cfa62c5c19e3dc4c7e59bb016de9cba7f1bb",
+      "size": "23510",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "91402a18",
+      "md5": "b6fbc161c99c8fd489d8c0e7dbb23450",
+      "sha1": "e2cd33609e754a1e9a092f1be13b22dfb932b2c0",
+      "size": "473467",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "320b1596",
+      "md5": "dba720fabc00eb60272bc633c10afec3",
+      "sha1": "606680d27e2576def4f3c91d204e7914f2c4f1f9",
+      "size": "139488",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "5d4777e5",
+      "md5": "896851e5a5fae9835b731106f929e2fb",
+      "sha1": "490f5b9e6abc5a4bc229d628d2ee87282c2be583",
+      "size": "946158",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "13f18783",
+      "md5": "02f7785c32eef3a4dc72944411b91167",
+      "sha1": "3491907a311e8c78379c008a295b83c4e79e9fcc",
+      "size": "294512",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "0b26280a",
+      "md5": "5ca439126e0fe6ce5abf837e2cad5591",
+      "sha1": "9a335f00dca8b98664ee0e99f1001b1008b3e7da",
+      "size": "225145",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "218a47c8",
+      "md5": "c43ef6582574a634d3ed43da1280e2b3",
+      "sha1": "64a24473a71dbf9204af290d014edf036f5a1f00",
+      "size": "126738",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "bf6cfd42",
+      "md5": "61b4694e6cb2494a50a718e956066591",
+      "sha1": "55557bb54501323388b059e2a4d2b35becc39d16",
+      "size": "375619",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "486cce17",
+      "md5": "2e70d7ab783dce5118b4b1e2e2b09e0b",
+      "sha1": "a1033500e5abf8e13ec0bc2f3b015ab9e018f423",
+      "size": "326689",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "295c863f",
+      "md5": "bdd9a92e7eb483aa9643acf337532d6e",
+      "sha1": "a3ff3b4aa4f00b8f38a0fdcc10db6e789e8a1ecd",
+      "size": "326361",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "322f91aa",
+      "md5": "fb2d42ea4e64a83e6c79ae9d1246db16",
+      "sha1": "23725f2baf5d235d3bd0d2b1097144cd503d538a",
+      "size": "274927",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "295c863f",
+      "md5": "bdd9a92e7eb483aa9643acf337532d6e",
+      "sha1": "a3ff3b4aa4f00b8f38a0fdcc10db6e789e8a1ecd",
+      "size": "326361",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "db5d39d8",
+      "md5": "0aac0e37bf1e0b5ab0ef651054835e58",
+      "sha1": "5dd75603421808fbef6d7d240ec5de3052252c6a",
+      "size": "526640",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "1b2442d9",
+      "md5": "d9690cd3c6685b750ece455476adfa6e",
+      "sha1": "e0a4264167d2bc4cefb53c129845a6de03beb8da",
+      "size": "472394",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88365&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "db5d39d8",
+      "md5": "0aac0e37bf1e0b5ab0ef651054835e58",
+      "sha1": "5dd75603421808fbef6d7d240ec5de3052252c6a",
+      "size": "526640",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=18513&media=wheel",
+      "crc": "d0b03a8f",
+      "md5": "e0fed9e9a8a50bb7752ca93d0b781181",
+      "sha1": "14e642ca0a6eb9bc4645ed202f30342ebf266f35",
+      "size": "11822",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=18513&media=wheel",
+      "crc": "d0b03a8f",
+      "md5": "e0fed9e9a8a50bb7752ca93d0b781181",
+      "sha1": "14e642ca0a6eb9bc4645ed202f30342ebf266f35",
+      "size": "11822",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=pictoliste",
+      "crc": "dcf3c32a",
+      "md5": "23618958c46fc28396c157d74a77bdeb",
+      "sha1": "00ce76c60ab28d758d6ca5f6796882dee3f7faa0",
+      "size": "1159",
+      "format": "png"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=logo-monochrome",
+      "crc": "3678f7f4",
+      "md5": "89ef7b6f92a2ef67e23b87843990f98b",
+      "sha1": "c55797e72d206fe87173ea7adf08e123f3a4d0c0",
+      "size": "17363",
+      "format": "png"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=logo-monochrome-svg",
+      "crc": "c4055556",
+      "md5": "9e5e5a30bb0cbb399d6e138b33ba4353",
+      "sha1": "dbe3c415f89b99f6bd8524d19379af132a323014",
+      "size": "6238",
+      "format": "svg"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=background",
+      "crc": "def2c2fb",
+      "md5": "1d3be886c0fd7ae4f831250b38a54eac",
+      "sha1": "5754f15b0f082c67f1e5bc5c2b764108428e1e12",
+      "size": "246573",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136287",
+      "romsize": "40976",
+      "romfilename": "Igo Meikan (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BB818242",
+      "rommd5": "D710F6F741B1A11CFE8F9BE3C4FDE3E3",
+      "romsha1": "BB0132AAABE946864C3A7021761B4BFE5FF819AA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "61317",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "12839",
+      "romsize": "25955",
+      "romfilename": "Igo Meikan (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1E58EDFE",
+      "rommd5": "C74DA97C0385C86A4D3A4848DA2ECF8E",
+      "romsha1": "30C161FA8C95AA6D8E6B2E198C3A173351327F63",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "38145",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1138776",
+      "romsize": "40976",
+      "romfilename": "Igo Meikan (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "26994cdc",
+      "rommd5": "7772c9462caa6f10feae0de53ee2af25",
+      "romsha1": "7667c4a07835cb04b33bd1d4c61098164bee265d",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18918",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173455",
+      "romsize": "40960",
+      "romfilename": "Igo Meikan (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "455CA7DE",
+      "rommd5": "64A9927B708ABEDDA98DD1EFAFA0F868",
+      "romsha1": "E9755EDF12F465903EEFCDA2672469AF84E8B884",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1659",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113951",
+      "romsize": "25933",
+      "romfilename": "Igo Meikan (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C6A9C55A",
+      "rommd5": "F6E843F41E96F62A1DDF5A3ED7F7D1F1",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "74",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "id": "153026",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Ji Du Shan En Chou Ji - Le Comte De Monte-cristo"
+    },
+    {
+      "region": "cn",
+      "text": "Ji Du Shan En Chou Ji - Le Comte De Monte-cristo"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "36014",
+    "text": "Fuzhou Waixing"
+  },
+  "developpeur": {
+    "id": "36014",
+    "text": "Fuzhou Waixing"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Dive into the thrilling world of 'The Count of Monte Cristo' for NES! This action-adventure game allows players to step into the shoes of Edmond Dantès as he embarks on a journey for revenge and justice. Set against a beautifully crafted historical backdrop, the game combines elements of strategy, puzzle-solving, and rich storytelling. Players will explore intricate environments, interact with a diverse cast of characters, and confront challenging adversaries. With a focus on strategic play and gripping narrative, this game ensures a captivating experience for retro gaming enthusiasts. Whether you're piecing together clues or clashing in intense turn-based battles, 'The Count of Monte Cristo' on NES promises endless entertainment."
+    },
+    {
+      "langue": "fr",
+      "text": "Plongez dans le monde palpitant de « Le Comte de Monte-Cristo » pour NES ! Ce jeu d'action-aventure permet aux joueurs d'incarner Edmond Dantès alors qu'il se lance dans un voyage pour se venger et obtenir justice. Dans un contexte historique magnifiquement conçu, le jeu combine des éléments de stratégie, de résolution d'énigmes et de narration riche. Les joueurs exploreront des environnements complexes, interagiront avec un groupe diversifié de personnages et affronteront des adversaires redoutables. En mettant l'accent sur le jeu stratégique et une narration captivante, ce jeu garantit une expérience captivante pour les amateurs de jeux rétro. Que vous rassembliez des indices ou que vous vous affrontiez dans des batailles intenses au tour par tour, « Le Comte de Monte-Cristo » sur NES promet un divertissement sans fin."
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=sstitle(cn)",
+      "region": "cn",
+      "crc": "9b7a006a",
+      "md5": "79c1a40ac8c90dc2fde3f9d8171bbad1",
+      "sha1": "a527d60abf1f3a9677b09f3d250f60ae015a1468",
+      "size": "3520",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=ss(cn)",
+      "region": "cn",
+      "crc": "c17a69ad",
+      "md5": "b8e31cd1f60f1224ee6fe889bda92217",
+      "sha1": "b9144554020d5d5fab800ce53a5fef414caaf09b",
+      "size": "243490",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=fanart",
+      "crc": "8e228da3",
+      "md5": "0a4292f340903d17694f35cc5abc9142",
+      "sha1": "36cc90028aca35a49de3249f9f94ad409a75ed02",
+      "size": "118855",
+      "format": "jpg"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=steamgrid",
+      "crc": "b713197e",
+      "md5": "e554b691468fc255d4ee2425542ef835",
+      "sha1": "26f6ba23349df07bcae2a3468117481a759b992d",
+      "size": "31823",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=wheel(wor)",
+      "region": "wor",
+      "crc": "66df8082",
+      "md5": "35cc92399fb114a2038200bd22c064b6",
+      "sha1": "db2187ee9cedb5641e0bdd48de954ba021313ab7",
+      "size": "28192",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "9055ce77",
+      "md5": "fac69d1192eb45a3c09e89ea18753dab",
+      "sha1": "d502f2ba5399637501d83fd3bc5d08f6653724b2",
+      "size": "69383",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "af155e8b",
+      "md5": "e2943a8bcf1b051f91e20bde3e6244f6",
+      "sha1": "c6c68218a0f4373f2223005b005f3ae5a98743ba",
+      "size": "70815",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "902a459b",
+      "md5": "ecd4e0c5a7855201d5f6c705c072f69b",
+      "sha1": "cb51b898d4cebd03bcee2fdabf36d31e0f45b9c4",
+      "size": "470753",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "652bf363",
+      "md5": "86822007cb73a2de2557e6826c33de6f",
+      "sha1": "3ad6ac4e73c567381a2c01c3d21a753f5bc1e8df",
+      "size": "73548",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "9bfacf02",
+      "md5": "d440c62972dcf1103cc3509ab0d1ac25",
+      "sha1": "46664f66d0e8f4125996a86bc251b36e28b9d79f",
+      "size": "200851",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "50e5b8f2",
+      "md5": "c1f87ef9ab3e09965c0812f936cd5a0f",
+      "sha1": "9cc747ba5adcf21f7ae0fc477afdca8308f9ee41",
+      "size": "16424",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "68eb42a8",
+      "md5": "9d0088985caa83579fc04657a63c6e63",
+      "sha1": "1b24794a40e81fb4c65bb3cf055ac2eedbf60e9d",
+      "size": "143781",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "2ab140ef",
+      "md5": "fb949a317ebc9fc8452e0c8202b235d0",
+      "sha1": "8517f0b366481630658fe3a84db6508d8dbad771",
+      "size": "372969",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "b4c007ac",
+      "md5": "16bc57563691c1508c9bad38761e8ebf",
+      "sha1": "7658ee83459bd6370238fa0cf310561a3f2a098a",
+      "size": "136141",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "32430829",
+      "md5": "41a37424f372658e2c3bd94700e9d86f",
+      "sha1": "ef9de245946f81b6cfd7f76918bebb05c367b7cb",
+      "size": "380595",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "779b7471",
+      "md5": "da074c594c2eef9e2e16d8687fa09bd3",
+      "sha1": "f232171cec455b1b196b3758fb51dfaef875c332",
+      "size": "329082",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153026&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "f97488c9",
+      "md5": "1404500704eb9f474fdc1d4706af2ca5",
+      "sha1": "ee4c9fc4ebe79bbc94465ddd1bb7e09e76a0a4d1",
+      "size": "675292",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=36014&media=wheel",
+      "crc": "e57a0902",
+      "md5": "f2c93a260c5d8b33ba474f7223fbc101",
+      "sha1": "48e0438bf2549da7f3501a8d81d9091e30e4f6bd",
+      "size": "47763",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=36014&media=wheel",
+      "crc": "e57a0902",
+      "md5": "f2c93a260c5d8b33ba474f7223fbc101",
+      "sha1": "48e0438bf2549da7f3501a8d81d9091e30e4f6bd",
+      "size": "47763",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "572002",
+      "romsize": "524304",
+      "romfilename": "Ji Du Shan En Chou Ji - Le Comte de Monte-Cristo (Chinese).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "03CBC0D8",
+      "rommd5": "34B60BD3BB8EF7D127324A314CD2ED0A",
+      "romsha1": "672B2F472468ADD57C2EE47CE72E45755DB5B5A3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "45096"
+    }
+  ]
+}

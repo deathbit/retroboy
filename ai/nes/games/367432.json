@@ -1,0 +1,356 @@
+{
+  "id": "367432",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Beerslinger"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "50348",
+    "text": "Greeting Carts"
+  },
+  "developpeur": {
+    "id": "50348",
+    "text": "Greeting Carts"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Beerslinger is a time management game with a concept similar to the arcade classic Tapper. It is the second game in the Holiday series by the developer, this time made for Saint Patrick's Day.\r\n\r\nThe player controls a bartender who needs to serve customers in a pub. Each level is a different day and introduces two bars, one with the beers on tap and one where customers sit down and order. Based on the customer's order the bartender needs to fill up the mug with the correct type of beer (e.g. IPA, lager, stout, wheat) and serve it in time. A timer below the customer's stool shows the remaining time and if the bartender messes up three times by being too late or serving the wrong type, he is fired and the game is over. The goal is to make it through the seven days of the week. Each day also has a cash target.\r\n\r\nA single button is used to fill up the mug and then again to serve it. The second button is used to empty the mug when it does not contain the correct type of beer to get rid of it. The customers order using a voice sample expressing their choice in addition to the next on screen. Levels gradually get more difficult, introducing multiple types of beer and more room for patrons who also turn up faster. Starting with two kegs and two stools the game ends with four kegs and six stools."
+    },
+    {
+      "langue": "fr",
+      "text": "Beerslinger est un jeu de gestion du temps dont le concept est similaire à celui du grand classique des jeux d'arcade « Tapper ».\r\nGreeting Carts a sorti ce deuxième jeu de la série « Holiday » à l'occasion de la Saint-Patrick.\r\nLe but est très simple : vous êtes barman et devez servir les clients du pub. Mais attention à ne pas vous tromper de boisson en remplissant les chopes des clients et surtout à ne pas trop les faire attendre..."
+    },
+    {
+      "langue": "de",
+      "text": "Beerslinger ist ein Zeitmanagement-Spiel mit einem Konzept, das dem klassischen Tapper ähnelt. Es ist das zweite Spiel der Holiday-Serie des Entwicklers, das diesmal für den St. Patrick's Day erstellt wurde. Der Spieler kontrolliert einen Barkeeper, der die Kunden in einer Kneipe bedienen muss. Jede Ebene ist ein anderer Tag und führt zwei Bars ein, eine mit den Bieren vom Fass und eine, wo die Kunden sitzen und bestellen. Je nach Bestellung des Kunden sollte der Barkeeper den Krug mit der richtigen Biersorte (z. B. IPA, Lager, Stout, Weizen) füllen und rechtzeitig servieren."
+    },
+    {
+      "langue": "es",
+      "text": "Beerslinger es un juego de gestión del tiempo con un concepto similar al clásico Tapper. Es el segundo juego de la serie Holiday del desarrollador, esta vez creado para el Día de San Patricio. El jugador controla a un cantinero que necesita atender a los clientes en un pub. Cada nivel es un día diferente e introduce dos bares, uno con las cervezas de barril y otro donde los clientes se sientan y ordenan. Según el pedido del cliente, el cantinero debe llenar la jarra con el tipo correcto de cerveza (por ejemplo, IPA, lager, stout, trigo) y servirla a tiempo. "
+    },
+    {
+      "langue": "it",
+      "text": "Beerslinger è un gioco di gestione del tempo con un concetto simile al classico arcade Tapper. È il secondo gioco della serie Holiday dello sviluppatore, questa volta realizzato per il giorno di San Patrizio.\r\nnnIl giocatore controlla un barista che deve servire i clienti in un pub. Ogni livello è un giorno diverso e introduce due bar, uno con le birre alla spina e uno in cui i clienti si siedono e ordinano. In base all'ordine del cliente, il barista deve riempire il boccale con il tipo di birra corretto (es. IPA, lager, stout, wheat) e servirlo in tempo. Un timer sotto lo sgabello del cliente mostra il tempo rimanente e se il barista sbaglia tre volte perché è troppo in ritardo o serve il tipo sbagliato, viene licenziato e il gioco è finito."
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2015-05-22"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "460c8eb9",
+      "md5": "18fa2658445df1fdfeee808c7f9443ac",
+      "sha1": "49bc27e79af090ef7b2d883a9de40f785707d28c",
+      "size": "2650",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=ss(wor)",
+      "region": "wor",
+      "crc": "e0e792dd",
+      "md5": "286f0535e77cc14c43ed2090d9b2c86f",
+      "sha1": "5cd09714d84f56769ab4d9465c2b5dd648d2c97d",
+      "size": "2373",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=video",
+      "crc": "19a511ef",
+      "md5": "813c911d1565515e2018cee81051036c",
+      "sha1": "d18e8aa0a4474bfea8dbb6aeb0194900070a2cfa",
+      "size": "831321",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=video-normalized",
+      "crc": "cfa5c1e8",
+      "md5": "99aa2213e8bdba9757a201d802d332eb",
+      "sha1": "c99a886d44e530acd8c5db2ca0cbcb2d8ea5685a",
+      "size": "350685",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=steamgrid",
+      "crc": "b62eb576",
+      "md5": "106f33d374b83f15e44dc4cadc2d7a31",
+      "sha1": "05cdc8a54033c10e510055f3bb732feafc85e566",
+      "size": "27860",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=wheel(wor)",
+      "region": "wor",
+      "crc": "01e617fa",
+      "md5": "e919d5ebb50d4c79cde0573acc677bcd",
+      "sha1": "051b91e0559cb70502218c45dd5112b332d1449a",
+      "size": "53578",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "2c6e7a91",
+      "md5": "44dd86cc140752f0671b3aa79130db31",
+      "sha1": "d53246893a7e88f9880805a11504d6ff761077e9",
+      "size": "106868",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "cb60a39b",
+      "md5": "930c99494996195e5c39e7fd4c4aa482",
+      "sha1": "8d7e8e0f6ecb2f8069c602d77637071a826d5264",
+      "size": "108056",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "9e647fe9",
+      "md5": "a7786aaa0aef9fad451b8c790dc7013a",
+      "sha1": "881a6fdf746c49e573c90b667e0251372f482eb9",
+      "size": "511072",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "179c6c3c",
+      "md5": "6ce6ddeacc5c7cbe9d32a89f40f49429",
+      "sha1": "6fefa4725d4abfeb0bb6766397d3e37b78d1a7e8",
+      "size": "89926",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "ac8cd6c3",
+      "md5": "7840056182ddfb1f425aaa1127d1e85c",
+      "sha1": "05a638287048f6b6c40cae5678416daea0ebb025",
+      "size": "95860",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "a2dbf25e",
+      "md5": "3dcd0da24b7eba149db9c1c8015f6ae2",
+      "sha1": "384fc2299ddb3d20332594fd383f8f4b88a79b4b",
+      "size": "61326",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "513497c6",
+      "md5": "6b854ff56fa5ed9957ef7239fc6897f6",
+      "sha1": "3d7ecf05cb47e16eef8222f2afb4fbb3cbfeb730",
+      "size": "145973",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "9e6e9854",
+      "md5": "37c6c8823808ae6637b8e256383c7736",
+      "sha1": "29747b6f7d40c387ffb5a01a1c7d55c7916a83d5",
+      "size": "320887",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "b14f4f2f",
+      "md5": "e04237303448981bf4c0ce02d5319dad",
+      "sha1": "44c214b773a1962634cce0a5effe51abb768c104",
+      "size": "126889",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "7f54ffd2",
+      "md5": "ac32657e40fa3b7e773181c6737b720b",
+      "sha1": "f664b6351c1f058dca7fed48a48624418c646c94",
+      "size": "199435",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "7f54ffd2",
+      "md5": "ac32657e40fa3b7e773181c6737b720b",
+      "sha1": "f664b6351c1f058dca7fed48a48624418c646c94",
+      "size": "199435",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "50d7c2da",
+      "md5": "7bf62daaa8f4bdab304982699e9a0073",
+      "sha1": "378894b58e6c3d99b9ed048eb2e843171a1eba82",
+      "size": "310665",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "eee37e3f",
+      "md5": "96ed5c00a00856100ab5ae7a4decf37a",
+      "sha1": "a77545d0f64b102686bd812b4e4bd27a4917c81f",
+      "size": "310395",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=367432&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "eee37e3f",
+      "md5": "96ed5c00a00856100ab5ae7a4decf37a",
+      "sha1": "a77545d0f64b102686bd812b4e4bd27a4917c81f",
+      "size": "310395",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1078796",
+      "romsize": "40960",
+      "romfilename": "BeerSlinger (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "50d39abe",
+      "rommd5": "4388d6eb5058146c461c801a0a87fb8b",
+      "romsha1": "b5abb17498172d87ddae73fe0f741e83f835913c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "25012",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1134648",
+      "romsize": "40976",
+      "romfilename": "Beer Slinger (World) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a403104b",
+      "rommd5": "c903b40816c004911eca33dee4321519",
+      "romsha1": "c1212cc3778f601e23b3eeca26956a5e40e7ca2b",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "5923"
+    }
+  ]
+}

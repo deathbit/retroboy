@@ -1,0 +1,536 @@
+{
+  "id": "153135",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Mari - Ayami - Luka No Av Poker"
+    },
+    {
+      "region": "jp",
+      "text": "Mari - Ayami - Luka No Av Poker"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "It's yet another naughty poker game for the NES! Based off the same Sachen engine used most famously for American gamers in &quot;Peek-a-Boo Poker&quot;, this features a completely-new selection of three different babes who each show a little bit more skin with every 1000 chips you win in five-card-draw poker."
+    },
+    {
+      "langue": "fr",
+      "text": "Encore un jeu de poker bien coquin débarque sur ta NES ! Propulsé par le fameux moteur de Sachen (celui-là même qui a déchaîné les foules avec Peek-a-Boo Poker) ce nouveau bijou t'invite à affronter trois jolies demoiselles, inédites au casting. Et attention : à chaque palier de 1000 jetons gagnés dans une partie de poker à cinq cartes, elles laissent tomber un peu plus le tissu... Jusqu'où iras-tu ?"
+    },
+    {
+      "langue": "de",
+      "text": "Es ist ein weiteres freches Pokerspiel für das NES! Basierend auf derselben Sachen-Engine, die amerikanischen Spielern vor allem durch &quot;Peek-a-Boo Poker&quot; bekannt ist, bietet dieses Spiel eine völlig neue Auswahl von drei verschiedenen Babes, die jeweils ein bisschen mehr Haut zeigen, für jede 1000 Chips, die du im Five-Card-Draw-Poker gewinnst."
+    }
+  ],
+  "genres": [
+    {
+      "id": "2872",
+      "nomcourt": "0E00",
+      "principale": "0",
+      "parentid": "320",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Casino / Cards"
+        },
+        {
+          "langue": "fr",
+          "text": "Casino / Cartes"
+        },
+        {
+          "langue": "de",
+          "text": "Casino / Karten"
+        },
+        {
+          "langue": "es",
+          "text": "Casino / Cartas"
+        },
+        {
+          "langue": "it",
+          "text": "Casinò / Carte"
+        },
+        {
+          "langue": "pt",
+          "text": "Cassino / Cartas"
+        }
+      ]
+    },
+    {
+      "id": "320",
+      "nomcourt": "0E00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Casino"
+        },
+        {
+          "langue": "fr",
+          "text": "Casino"
+        },
+        {
+          "langue": "de",
+          "text": "Casino"
+        },
+        {
+          "langue": "es",
+          "text": "Casino"
+        },
+        {
+          "langue": "it",
+          "text": "Casinò"
+        },
+        {
+          "langue": "pt",
+          "text": "Cassino"
+        }
+      ]
+    }
+  ],
+  "modes": [
+    {
+      "id": "4",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Single-player"
+        },
+        {
+          "langue": "fr",
+          "text": "Jouable en solo"
+        },
+        {
+          "langue": "de",
+          "text": "Einzelspieler"
+        },
+        {
+          "langue": "es",
+          "text": "Jugador individual"
+        },
+        {
+          "langue": "it",
+          "text": "Giocatore singolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogador individual"
+        }
+      ]
+    }
+  ],
+  "themes": [
+    {
+      "id": "2434",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Mature"
+        }
+      ]
+    }
+  ],
+  "styles": [
+    {
+      "id": "27617",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Anime / Manga"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "a25ea1e9",
+      "md5": "edfae4a32f8f6ad0f79a5727fa7cb12e",
+      "sha1": "c5d0addcfb0c2dd9a02565e8b3380950499220c6",
+      "size": "3837",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=ss(jp)",
+      "region": "jp",
+      "crc": "a564b1c4",
+      "md5": "61d90e06632824cd7579615365aa8bf7",
+      "sha1": "9d42a42bbf0bfe2171f6ad0c852e2aa9581a88a9",
+      "size": "3516",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=video",
+      "crc": "251776da",
+      "md5": "88f90339bdba7e6a229655943c0a5b56",
+      "sha1": "730f7d6d0912d6694d51c0a07dcc6c4a59fe596f",
+      "size": "1220824",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=video-normalized",
+      "crc": "7510d0fe",
+      "md5": "700018bc2959ed47dd647ca9347656d9",
+      "sha1": "f029ce4aec4530df4e8572cb0dc524eda7b5f04e",
+      "size": "1027989",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=steamgrid",
+      "crc": "94986670",
+      "md5": "f1396898690162af9f0a8e8f6bacdd65",
+      "sha1": "cf7986f518ea563e143f7636ea4ef2db102dabf8",
+      "size": "36274",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=wheel(jp)",
+      "region": "jp",
+      "crc": "94646c3d",
+      "md5": "696e2b9a2215225d3e795fda271350f8",
+      "sha1": "b1d5a2b957e4f2da8b403e6b84c0e252a0e1b9bf",
+      "size": "29446",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "f57a2443",
+      "md5": "cf7eb6cd07a89a71520168ecd84fa5b9",
+      "sha1": "9e91b5244f791ea2e1449a533beb9c4d069a43ab",
+      "size": "66258",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "d78d7a44",
+      "md5": "4bf33fa260b41916f4a77325cc5d6c18",
+      "sha1": "81b6e61d60366e8e511e488017b452e9b9add532",
+      "size": "67437",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "d56b3a3a",
+      "md5": "fdea50fecbfe5e4ab6c7b62692eebb41",
+      "sha1": "6ca7e17eea5410441d1467538e535a235df9f5ca",
+      "size": "469509",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "d670b793",
+      "md5": "909d65a5910d05e5f8da2f3c97c19a8e",
+      "sha1": "f287c2cf7c62c92d2eb351418fb99576f9958ced",
+      "size": "73614",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "9f6c2536",
+      "md5": "955302a0d435f40d6f3dc9198327b3ab",
+      "sha1": "b24e324d0430019566f82812a0682e6bfa607b64",
+      "size": "96078",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "d86ec0b1",
+      "md5": "e5d728fd93c1e39b41395d4fa6eb2980",
+      "sha1": "90b7de7b439047fa00f96c49a2ca1fc1daa9bc8a",
+      "size": "16782",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "f17cc5ce",
+      "md5": "addeb7d93edb3288da09bdb26a84d9ce",
+      "sha1": "506dce29ad4ff6a78931fcb4c96e74e0e53c42d9",
+      "size": "126024",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "65cc0a5b",
+      "md5": "288d7930e838a18a8950705dcb920542",
+      "sha1": "1daef0989ff1117c63189843e78dfbaf73526b1d",
+      "size": "248627",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "3bdc520b",
+      "md5": "664608c7a903cc587f6c68b4453cea0d",
+      "sha1": "8da786312263994dae5e5119436c9fbc73753a57",
+      "size": "138435",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "0e62c6a1",
+      "md5": "fea67e53e6ede700d2710b9c80b610c3",
+      "sha1": "6c28dc295fa18768c121d9102deb940c632d80d1",
+      "size": "398292",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "81d1a5d9",
+      "md5": "5327475b21b0ba7cfee22ec58802cf04",
+      "sha1": "2c6a654b17756caafb7047d0a9124a62a9e6458e",
+      "size": "344427",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "ae34f5b3",
+      "md5": "9bdc178aab5eb8e9ab3e336d39b2679e",
+      "sha1": "96f0d3cc7adf52122bde457b08409297783d0e28",
+      "size": "343798",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "ae34f5b3",
+      "md5": "9bdc178aab5eb8e9ab3e336d39b2679e",
+      "sha1": "96f0d3cc7adf52122bde457b08409297783d0e28",
+      "size": "343798",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "6390553d",
+      "md5": "fc76d8eb3148acc4a4e638608af7332d",
+      "sha1": "837e3980f7231725a433973a597aaa23796e1bf4",
+      "size": "542005",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "6390553d",
+      "md5": "fc76d8eb3148acc4a4e638608af7332d",
+      "sha1": "837e3980f7231725a433973a597aaa23796e1bf4",
+      "size": "542005",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153135&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "fd4a30dc",
+      "md5": "a9a1f67bf0fbf3598e6aa6e01cb6c256",
+      "sha1": "7298891f6a2b7bb94162e9cfa7df6b01ac059fc9",
+      "size": "541730",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2872",
+      "parent": "genre",
+      "subparent": "Casino / Cartes",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2872&media=pictoliste",
+      "crc": "635d98b7",
+      "md5": "aafce83d81abac94ba274692aeb993cc",
+      "sha1": "94cb6583a4c13f6177337ec6883d7a4875659ec9",
+      "size": "18633",
+      "format": "png"
+    },
+    {
+      "id": "2872",
+      "parent": "genre",
+      "subparent": "Casino / Cartes",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2872&media=logo-monochrome",
+      "crc": "1bee4e72",
+      "md5": "b25b634e7fe9e3b599d8bad4004bd74c",
+      "sha1": "5f86e509bfd2274e76b2a7159583ce147aa9e249",
+      "size": "70063",
+      "format": "png"
+    },
+    {
+      "id": "2872",
+      "parent": "genre",
+      "subparent": "Casino / Cartes",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2872&media=logo-monochrome-svg",
+      "crc": "5d01d124",
+      "md5": "410b2a9d178b53eee9f2d392bb13650c",
+      "sha1": "9b479d2615724a4bab1b323d30ea4629a66cb55f",
+      "size": "5134",
+      "format": "svg"
+    },
+    {
+      "id": "2872",
+      "parent": "genre",
+      "subparent": "Casino / Cartes",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2872&media=background",
+      "crc": "fe01498e",
+      "md5": "c93ddec3b81175739af1dd1a58e9dabd",
+      "sha1": "bed07894923bccf1cf7aaf1743e6aa5b4b9274d6",
+      "size": "184177",
+      "format": "jpg"
+    },
+    {
+      "id": "320",
+      "parent": "genre",
+      "subparent": "Casino",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=320&media=pictoliste",
+      "crc": "629e7dbc",
+      "md5": "8977f871ffbdf3787b92cd1512d9d9ee",
+      "sha1": "28631be81e1ba2bd85c5500365cf89ad3c5bab70",
+      "size": "1057",
+      "format": "png"
+    },
+    {
+      "id": "320",
+      "parent": "genre",
+      "subparent": "Casino",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=320&media=logo-monochrome",
+      "crc": "42eae6d4",
+      "md5": "dc351fece8aa56a787115056ea52e479",
+      "sha1": "4cd025426203620b69769fc1ffec6642c41862dc",
+      "size": "8425",
+      "format": "png"
+    },
+    {
+      "id": "320",
+      "parent": "genre",
+      "subparent": "Casino",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=320&media=logo-monochrome-svg",
+      "crc": "1c0e9db2",
+      "md5": "b6847704b1a189fd4a9818dc1ddfb91a",
+      "sha1": "14f0eedf77b67983dc709214f8231f531e66eaeb",
+      "size": "3067",
+      "format": "svg"
+    },
+    {
+      "id": "320",
+      "parent": "genre",
+      "subparent": "Casino",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=320&media=background",
+      "crc": "f5ca5938",
+      "md5": "795b56d1edfcc04ad5235bf56753b96d",
+      "sha1": "2822f50ccab3777540bf504f0a40ba5d56ee8525",
+      "size": "377758",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "565797",
+      "romsize": "65552",
+      "romfilename": "Mari - Ayami - Luka no AV Poker (Pu Nu Jing Ling).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "60E263B0",
+      "rommd5": "37CD4DC127DDA52906158B94E4456ACF",
+      "romsha1": "BB669A5A38AA906CB27A1600A119834689F616FC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "31172"
+    }
+  ]
+}

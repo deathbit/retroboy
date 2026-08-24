@@ -1,0 +1,963 @@
+{
+  "id": "71315",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Bakushou!! Ai No Gekijou"
+    },
+    {
+      "region": "jp",
+      "text": "Bakushou!! Ai no Gekijou"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "963",
+    "text": "Coconuts Japan"
+  },
+  "developpeur": {
+    "id": "963",
+    "text": "Coconuts Japan"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "In &quot;Bakushou!! Ai no Gekijou&quot;, you create one to four characters. You choose their name and gender, as well as their parents (from several available ones). This determines the personality and the abilities of your characters (their intelligence level, physical condition, etc.). You then guide your teenager characters through a series of typical events. For example, at the beginning you'll be in school and will have to solve simple mathematical exercises. After that, you are presented with a calendar, which is your board in the game. You cannot control the actions of the characters, but depending on the way you have created them, and on the day the game will randomly choose for you, events will occur in their life, some of which are completely ordinary (like going out and meeting someone), while others will grant your characters more intelligence, physical condition, or let them earn or spend money. The game will also determine what personal relationship the characters will have with each other, and whether a romantic involvement is possible."
+    },
+    {
+      "langue": "fr",
+      "text": "Bakushou Ai no Gekijou et un jeu de simulation de vie sous forme de jeu de société. Vous devez faire progresser votre personnage dans la vie de tous les jours en réalisant des petites épreuves."
+    },
+    {
+      "langue": "de",
+      "text": "In &quot;Bakushou!! Ai no Gekijou&quot;, erstellen Sie ein bis vier Charaktere. Sie wählen ihren Namen und ihr Geschlecht sowie ihre Eltern (aus mehreren verfügbaren). Dies bestimmt die Persönlichkeit und die Fähigkeiten Ihrer Charaktere (ihr Intelligenzniveau, ihre körperliche Verfassung usw.). Sie führen dann Ihre Teenager-Charaktere durch eine Reihe von typischen Ereignissen. Zum Beispiel werden Sie am Anfang in der Schule sein und einfache mathematische Übungen lösen müssen. Danach wird Ihnen ein Kalender angezeigt, der Ihr Brett im Spiel ist. Sie können die Handlungen der Charaktere nicht kontrollieren, aber abhängig von der Art und Weise, wie Sie sie erstellt haben, und an dem Tag, an dem das Spiel zufällig für Sie ausgewählt wird, werden Ereignisse in ihrem Leben stattfinden, von denen einige völlig gewöhnlich sind (wie ausgehen und jemanden zu treffen), während andere Ihren Charakteren mehr Intelligenz, körperliche Verfassung gewähren oder sie Geld verdienen oder ausgeben lassen. Das Spiel wird auch bestimmen, welche persönliche Beziehung die Charaktere zueinander haben werden und ob eine romantische Beteiligung möglich ist."
+    },
+    {
+      "langue": "es",
+      "text": "En &quot;Bakushou !! Ai no Gekijou&quot;, creas de uno a cuatro caracteres. Usted elige su nombre y género, así como sus padres (de varios disponibles). Esto determina la personalidad y las habilidades de tus personajes (su nivel de inteligencia, condición física, etc.). Luego guía a los personajes adolescentes a través de una serie de eventos típicos. Por ejemplo, al principio estarás en la escuela y tendrás que resolver ejercicios matemáticos simples. Después de eso, se te presenta un calendario, que es tu tablero en el juego. No puedes controlar las acciones de los personajes, pero dependiendo de la forma en que los hayas creado, y el día que el juego elija al azar para ti, ocurrirán eventos en su vida, algunos de los cuales son completamente ordinarios (como salir y reunirse alguien), mientras que otros otorgarán a sus personajes más inteligencia, condición física, o les permitirán ganar o gastar dinero. El juego también determinará qué relación personal tendrán los personajes entre sí, y si es posible una relación romántica."
+    },
+    {
+      "langue": "it",
+      "text": "In &quot;Bakushou!! Ai no Gekijou&quot;, crei da uno a quattro personaggi. Scegli il loro nome e sesso, così come i loro genitori (tra diversi disponibili). Questo determina la personalità e le abilità dei tuoi personaggi (il loro livello di intelligenza, condizione fisica, ecc.). Quindi guidi i tuoi personaggi adolescenti attraverso una serie di eventi tipici. Ad esempio, all'inizio sarai a scuola e dovrai risolvere semplici esercizi matematici. Dopodiché, ti viene presentato un calendario, che è il tuo tabellone nel gioco."
+    },
+    {
+      "langue": "pt",
+      "text": "Bakushou Ai no Gekijou e um jogo de simulação de vida na forma de um jogo de tabuleiro. Você tem que desenvolver seu personagem na vida cotidiana, realizando pequenas provações."
+    }
+  ],
+  "classifications": [
+    {
+      "type": "ESRB",
+      "text": "E"
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1990-12-29"
+    }
+  ],
+  "genres": [
+    {
+      "id": "40",
+      "nomcourt": "0400",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Simulation"
+        },
+        {
+          "langue": "fr",
+          "text": "Simulation"
+        },
+        {
+          "langue": "de",
+          "text": "Simulation"
+        },
+        {
+          "langue": "es",
+          "text": "Simulación"
+        },
+        {
+          "langue": "it",
+          "text": "Simulazione"
+        },
+        {
+          "langue": "pt",
+          "text": "Simulação"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "nomcourt": "0800",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Board game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de societe / plateau"
+        },
+        {
+          "langue": "de",
+          "text": "Brettspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de mesa"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di società / da tavolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogo de tabuleiro"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "cb22a96f",
+      "md5": "4ce0e44ce7c78718c0eb35299531845a",
+      "sha1": "d82209d33e9b3a8481bd0969fa457ce630866002",
+      "size": "4624",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=ss(jp)",
+      "region": "jp",
+      "crc": "67faeed4",
+      "md5": "0acec3d2a1a183c559c30e8e84cf5168",
+      "sha1": "66246e2c1a98ff9cee4a6ae76b4c344e57c6a6e8",
+      "size": "2336",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=video",
+      "crc": "a6aba9cc",
+      "md5": "b1b9b146e43b09c6dabd6299a3e175de",
+      "sha1": "c79e40f82811072e27290a36ca0c427c617d5f7d",
+      "size": "869180",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=video-normalized",
+      "crc": "ace187c5",
+      "md5": "24c167a04f6a3b75ff45ff9722d3e751",
+      "sha1": "d08106f45679991d144918e39589857bf82fa5c1",
+      "size": "550145",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=steamgrid",
+      "crc": "75c45f07",
+      "md5": "b706a697e4c2d1514668e063b7db29f9",
+      "sha1": "6ddae00fe68b2ff7685082d1670cf8abe3756732",
+      "size": "32682",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=wheel(jp)",
+      "region": "jp",
+      "crc": "b5810424",
+      "md5": "cd846ccfe5cc20adaae9538a1cb49753",
+      "sha1": "0396d32b191525beb34ab0fb74c8d2f4ca1a51ef",
+      "size": "150520",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "4829c470",
+      "md5": "655ba8492b0c5121b733121066cb9c47",
+      "sha1": "e16c70ed656f0c749d0bb09160a03a0facd50e4d",
+      "size": "153268",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "4e854682",
+      "md5": "a6f89f027773315ff84f02bc3c50a651",
+      "sha1": "9a69ab53bf63a5eb8aa7def1364c30d460b82222",
+      "size": "155340",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "98777517",
+      "md5": "200c4cdba3324be85a32da20ba2d03ed",
+      "sha1": "5f2ad83ed071febfd06c9b6a89dcedba3c0a1b2b",
+      "size": "531479",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "6b022afa",
+      "md5": "f1e3fcfc2cb3b4b216c7780c380fe3f7",
+      "sha1": "8fedb7d3591190fff024a7fd84cc02652ae15970",
+      "size": "89762",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "8bb24788",
+      "md5": "0eed4e8ba19cc84a34c31cb0ed23f6a4",
+      "sha1": "120959690ebb4941a27e607a7cad4ad1bc9f5833",
+      "size": "702417",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "63ceb28f",
+      "md5": "98c240426b8bbd5662475ee3280c7184",
+      "sha1": "a343c794cb20ace4775a62aaec9c8c1c6ca99b8e",
+      "size": "134012",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "c1102c42",
+      "md5": "27f70d9cec91382cc1c3c03bdf41e0bb",
+      "sha1": "db3b7545750149700114b9747f8ff52ebaa121f5",
+      "size": "130844",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "7e1dcb13",
+      "md5": "aac98cfb9f1b4030037e351b6b4546fd",
+      "sha1": "c74c44fd960b35ccc6e82f3713aa2529bf8daf8a",
+      "size": "27590",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "800fe3b7",
+      "md5": "f8b8dd6773970f3e1a0157721fed100d",
+      "sha1": "5e48368427e5eb0709d69693590ff962f9406989",
+      "size": "2829",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "a96ccea2",
+      "md5": "1f91d3d47100e917d385abef6b0020b4",
+      "sha1": "cdb5759f0beac68e76330164ef04f1999bfe2a5c",
+      "size": "157300",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "98a60e6b",
+      "md5": "50b76938ec60badf58a7d5914454ac72",
+      "sha1": "21d88641e6317336ce1b412b8b9a0187dda1c0f8",
+      "size": "858776",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "86f1ce58",
+      "md5": "3b3c1e56bd4ca41dd8ec36ba0df7507e",
+      "sha1": "bcb5fe94abaeff47e42463b29d1a9e25bf2ead96",
+      "size": "342349",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "7239edec",
+      "md5": "4f9252bc77ee4ea26e18b79417d7cadf",
+      "sha1": "ff3d706e9601d88ebcc03be4ae282d7299d33756",
+      "size": "361442",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "c0e1b146",
+      "md5": "1ee34bd9e08b0f8942d1cb01f485d0e0",
+      "sha1": "b326ce797d2e7738ef23d940969d53c30ac5cd3d",
+      "size": "142222",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=manuel(jp)",
+      "region": "jp",
+      "crc": "bc9f6d6b",
+      "md5": "e462877535639b2caa17fe44358f3f63",
+      "sha1": "492a3ccbe65608ff90c67c3e1aac8b9b75ceae0b",
+      "size": "1037576",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "5bcdd23c",
+      "md5": "4a7d44b9a5d130ed4a2e4d6d18107003",
+      "sha1": "899cfeaf88214cdf627e20a5eeafd3c42f7bc7aa",
+      "size": "265696",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "3be64d8b",
+      "md5": "255db86b19767740dce3ee60126da1e1",
+      "sha1": "323d6b0a323b1ea0a8fa5092189c6182b3a4fc73",
+      "size": "250858",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "9ce1a96f",
+      "md5": "6edd6ee06fc153a826d3aa5b3bffc7d8",
+      "sha1": "9c0495318a7622af379a6deea3e45a7b2fb71766",
+      "size": "404385",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "4b425e79",
+      "md5": "231ae8149e5744f8e74ed14727587e20",
+      "sha1": "797218ea29e4eb073cb8c1af4ba1bd5aae76b5c3",
+      "size": "293659",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "9ce1a96f",
+      "md5": "6edd6ee06fc153a826d3aa5b3bffc7d8",
+      "sha1": "9c0495318a7622af379a6deea3e45a7b2fb71766",
+      "size": "404385",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "95fd421a",
+      "md5": "4a2e9884bb957c10b3de1f5b1a2c554e",
+      "sha1": "de2e0d72407f807a9f2ad1bd2b0e17198dccbe49",
+      "size": "565904",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "030f5a56",
+      "md5": "7ddc41a757526b5147d10b5699a6a96c",
+      "sha1": "5d65e19c6cd373a2efe025a3e693fdadea03d231",
+      "size": "465835",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71315&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "95fd421a",
+      "md5": "4a2e9884bb957c10b3de1f5b1a2c554e",
+      "sha1": "de2e0d72407f807a9f2ad1bd2b0e17198dccbe49",
+      "size": "565904",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=963&media=logo-monochrome",
+      "crc": "023ee5a8",
+      "md5": "921eefda2e11c41d17bc36c0e27a4286",
+      "sha1": "a4f0d928c0bd15a22669ccd8fc206fb17940fb73",
+      "size": "14806",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=963&media=wheel",
+      "crc": "3a5571e1",
+      "md5": "c1e13d5a4302216cc4c12675aba90236",
+      "sha1": "c71c58fcb815dc27e4e4bb948eade56d55dfa5d3",
+      "size": "156751",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=963&media=logo-monochrome",
+      "crc": "023ee5a8",
+      "md5": "921eefda2e11c41d17bc36c0e27a4286",
+      "sha1": "a4f0d928c0bd15a22669ccd8fc206fb17940fb73",
+      "size": "14806",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=963&media=wheel",
+      "crc": "3a5571e1",
+      "md5": "c1e13d5a4302216cc4c12675aba90236",
+      "sha1": "c71c58fcb815dc27e4e4bb948eade56d55dfa5d3",
+      "size": "156751",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=pictoliste",
+      "crc": "cafca3d7",
+      "md5": "51bfa81c19838bc679411a7b6f4053e2",
+      "sha1": "92253cf472ed8e71780c29ddeb6c6e260325ce1f",
+      "size": "593",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=logo-monochrome",
+      "crc": "e4f09f59",
+      "md5": "031f5b008fd851f56fea852bf9f95126",
+      "sha1": "8160d583dde154dcbd717217182d2b310e756e92",
+      "size": "10670",
+      "format": "png"
+    },
+    {
+      "id": "40",
+      "parent": "genre",
+      "subparent": "Simulation",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=40&media=pictoliste",
+      "crc": "ffc215a2",
+      "md5": "26940639f4e64adf7fd70966bd081bdc",
+      "sha1": "e63d885b8cf5fe0f640e317d06b21659b037ec26",
+      "size": "1080",
+      "format": "png"
+    },
+    {
+      "id": "40",
+      "parent": "genre",
+      "subparent": "Simulation",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=40&media=logo-monochrome",
+      "crc": "75056a91",
+      "md5": "232f99773e586eab48b49376fc0cf7c2",
+      "sha1": "2447c4380f9fcd9690cc3e98f96f97d2d7f5082a",
+      "size": "2165",
+      "format": "png"
+    },
+    {
+      "id": "40",
+      "parent": "genre",
+      "subparent": "Simulation",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=40&media=logo-monochrome-svg",
+      "crc": "dd0aba31",
+      "md5": "0f3aa19cfc63cb7f8c15bbece9b9fe01",
+      "sha1": "bfb572b2783c5ef7751853961684e874a72aa042",
+      "size": "2291",
+      "format": "svg"
+    },
+    {
+      "id": "40",
+      "parent": "genre",
+      "subparent": "Simulation",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=40&media=background",
+      "crc": "8bd938ca",
+      "md5": "b469f3091c032688350e0db4277d205d",
+      "sha1": "6ce4c8720d41150fd6a4bfd893884810150e2112",
+      "size": "301353",
+      "format": "jpg"
+    },
+    {
+      "id": "33",
+      "parent": "genre",
+      "subparent": "Jeu de societe / plateau",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=33&media=pictoliste",
+      "crc": "fd18b276",
+      "md5": "871af19a85096c769c40cdd6465d7242",
+      "sha1": "426ad403f4f67f63ade3fe9914e00dc80d5af225",
+      "size": "660",
+      "format": "png"
+    },
+    {
+      "id": "33",
+      "parent": "genre",
+      "subparent": "Jeu de societe / plateau",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=33&media=logo-monochrome",
+      "crc": "d254a514",
+      "md5": "25e8b4f066b2e341830c25e2b7631f74",
+      "sha1": "47ab2fff6337102af00af34dd1a3c284e09d4365",
+      "size": "2561",
+      "format": "png"
+    },
+    {
+      "id": "33",
+      "parent": "genre",
+      "subparent": "Jeu de societe / plateau",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=33&media=logo-monochrome-svg",
+      "crc": "c95f1a40",
+      "md5": "77acf5c34989882fc5e6f3ef44f32f80",
+      "sha1": "cd9c415efb32ca5ce6c3cb4390023f0969c261d6",
+      "size": "1426",
+      "format": "svg"
+    },
+    {
+      "id": "33",
+      "parent": "genre",
+      "subparent": "Jeu de societe / plateau",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=33&media=background",
+      "crc": "31e9d298",
+      "md5": "1b6548b7a1a025f3d986037a74662821",
+      "sha1": "a4f50838492e7cf5779f00b1dfa07f5bc1f77c72",
+      "size": "154113",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135398",
+      "romsize": "262160",
+      "romfilename": "Bakushou!! Ai no Gekijou (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F64BDE66",
+      "rommd5": "E849C0406181A2DC40770305A1FEE91D",
+      "romsha1": "4B1830B23E33D21EE3A3C1F2D00AE16A56B12749",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "54464",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "12384",
+      "romsize": "137415",
+      "romfilename": "Bakushou!! Ai no Gekijou (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3D63E7D9",
+      "rommd5": "C5C5DBFF16F22921BD9D0C55133E41DB",
+      "romsha1": "4461E7E7AEC5B5B0F8F0494BBFA348CAE4872731",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "42291",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1134324",
+      "romsize": "262160",
+      "romfilename": "Bakushou!! Ai no Gekijou (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "676134ce",
+      "rommd5": "0bd03ab891e28cef28b66cdd7dbc731b",
+      "romsha1": "a342e6767d5f29e4533acfdd0ac0431b5185b00b",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20348",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "589658",
+      "romsize": "262160",
+      "romfilename": "Bakushou!! Ai no Gekijou (J) [b1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5B3D672A",
+      "rommd5": "220789C4E204F452ADF389D174B6F333",
+      "romsha1": "0BFE58FFE9CB28B72F08D1A86901460B37D00355",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2821",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "172548",
+      "romsize": "262144",
+      "romfilename": "Bakushou!! Ai no Gekijou (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DCD8D6F4",
+      "rommd5": "6101B37C006C5DBD49570704481A451A",
+      "romsha1": "83E7FFAAC5E41C11D1E52F9F414E9B4EC3B49FDC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1786",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113035",
+      "romsize": "137393",
+      "romfilename": "Bakushou!! Ai no Gekijou (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DA4C9DD6",
+      "rommd5": "1634F15752A9403D6B490A4BFA44865F",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "126",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

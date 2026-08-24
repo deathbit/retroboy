@@ -1,0 +1,2537 @@
+{
+  "id": "18808",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Lunar Pool"
+    },
+    {
+      "region": "us",
+      "text": "Lunar Pool"
+    },
+    {
+      "region": "jp",
+      "text": "Lunar Ball"
+    },
+    {
+      "region": "eu",
+      "text": "Lunar Pool"
+    },
+    {
+      "region": "wor",
+      "text": "Lunar Pool"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "491",
+    "text": "FCI"
+  },
+  "developpeur": {
+    "id": "48",
+    "text": "Compile"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "note": {
+    "text": "12"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "This is a futuristic pool game, in which the tables are designed in several different shapes and sizes, with pockets sometimes slightly inwards from the cushion. This makes the game more similar to miniature golf than conventional pool. \n\nYou can set the power of each shot, though not the spin. In one-player mode you must clear the table without missing more than more than 3 times. There are 60 different tables, and 255 levels in total to play through in sequence, and you can also alter the friction level. You can also go head to head with another player."
+    },
+    {
+      "langue": "fr",
+      "text": "Voici Lunar Pool,un jeu de billard (lunaire) fait en colaboration avec Fuji TV.\r\nSur un menu simpliste,on peut choisir le  niveau de glissemment de la balle,et le niveau (60 en tout!).\r\nLa maniabilité est bonne, sans plus,et les bruitages excellents mais la musique répétitive.Les graphismes sont plutot bons pour la NES.\r\n\r\nC'est la meilleure simulation de billard, faute de meilleure concurrence. Je lui donne 8/10,surtout pour son mode 2 joueurs!\n\n"
+    },
+    {
+      "langue": "de",
+      "text": "Hierbei handelt es sich um ein futuristisches Poolbillardspiel, bei dem die Tische in verschiedenen Formen und Größen gestaltet sind, mit Taschen, die manchmal leicht nach innen vom Kissen abstehen. Dadurch ähnelt das Spiel mehr Minigolf als dem herkömmlichen Billard.\r\n\r\nDu kannst die Stärke der einzelnen Stöße einstellen, jedoch nicht den Spin. Im Einzelspielermodus musst du den Tisch abräumen, ohne mehr als 3 Mal zu verfehlen. Es gibt 60 verschiedene Tische und insgesamt 255 Levels, die du nacheinander durchspielen kannst. Du kannst auch gegen einen anderen Spieler antreten."
+    },
+    {
+      "langue": "es",
+      "text": "Este es un juego de billar futurista, en el que las mesas están diseñadas en varias formas y tamaños, con bolsillos a veces ligeramente hacia dentro de la mesa. Esto hace que el juego sea más similar al golf en miniatura que al billar convencional.\n\nPuede ajustar la potencia de cada disparo, aunque no el giro. En el modo de un jugador, debe borrar la tabla sin perder más de 3 veces. Hay 60 mesas diferentes, y 255 niveles en total para jugar a través en secuencia, y también puede alterar el nivel de fricción. También puedes jugar mano a mano con otro jugador."
+    },
+    {
+      "langue": "it",
+      "text": "Si tratta di un gioco di biliardo futuristico, in cui i tavoli sono progettati in forme e dimensioni diverse. Questo rende il gioco più simile al minigolf che al biliardo tradizionale.\r\n\r\nÈ possibile regolare la potenza di ogni colpo, ma non l'effetto. In modalità giocatore singolo si deve liberare il tavolo senza perdere più di 3 volte. Ci sono 60 tavoli diversi e 255 livelli in totale da giocare in sequenza, e si può anche cambiare il livello di attrito. È anche possibile giocare testa a testa con un altro giocatore."
+    },
+    {
+      "langue": "pt",
+      "text": "É um jogo de bilhar futurista, em que as mesas são concebidas em diferentes formas e tamanhos. Isto torna o jogo mais parecido com o mini-golfe do que os bilhares convencionais.\r\n\r\nPode-se ajustar a potência de cada disparo, mas não o efeito. No modo de jogador único tem de limpar a mesa sem perder mais de 3 vezes. Existem 60 mesas diferentes e 255 níveis no total para jogar em sequência, e também se pode alterar o nível de fricção. Também se pode jogar frente a frente com outro jogador."
+    }
+  ],
+  "dates": [
+    {
+      "region": "eu",
+      "text": "1987"
+    },
+    {
+      "region": "us",
+      "text": "1987-10-01"
+    },
+    {
+      "region": "jp",
+      "text": "1985-12-05"
+    }
+  ],
+  "genres": [
+    {
+      "id": "3028",
+      "nomcourt": "0602",
+      "principale": "0",
+      "parentid": "685",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports / Pool"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport / Billard"
+        },
+        {
+          "langue": "de",
+          "text": "Sport / Billard"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes / Billar"
+        },
+        {
+          "langue": "it",
+          "text": "Sport / Biliardo"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte / Sinuca"
+        }
+      ]
+    },
+    {
+      "id": "685",
+      "nomcourt": "0600",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport"
+        },
+        {
+          "langue": "de",
+          "text": "Sport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes"
+        },
+        {
+          "langue": "it",
+          "text": "Sport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte"
+        }
+      ]
+    },
+    {
+      "id": "3028",
+      "nomcourt": "0602",
+      "principale": "0",
+      "parentid": "685",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports / Pool"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport / Billard"
+        },
+        {
+          "langue": "de",
+          "text": "Sport / Billard"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes / Billar"
+        },
+        {
+          "langue": "it",
+          "text": "Sport / Biliardo"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte / Sinuca"
+        }
+      ]
+    },
+    {
+      "id": "685",
+      "nomcourt": "0600",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport"
+        },
+        {
+          "langue": "de",
+          "text": "Sport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes"
+        },
+        {
+          "langue": "it",
+          "text": "Sport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=sstitle(eu)",
+      "region": "eu",
+      "crc": "4918f72e",
+      "md5": "4912dc1ebfc14b23468581939e5bb9b3",
+      "sha1": "ccebc0002013c4bed4371ae94fc98d1163055f27",
+      "size": "13874",
+      "format": "jpg"
+    },
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "e0c18e36",
+      "md5": "383d1797a9bbdc44b35f27f51a5a140b",
+      "sha1": "82f5acd641f748ab8f6539c81f889d653906c313",
+      "size": "3064",
+      "format": "png"
+    },
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=sstitle(us)",
+      "region": "us",
+      "crc": "8fd72f42",
+      "md5": "a5f3b965c9e5d31c7858898ff588b8f4",
+      "sha1": "2b5e8af7051285cd25ff912b49ec7f398d0daf9e",
+      "size": "1527",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=ss(wor)",
+      "region": "wor",
+      "crc": "f8376006",
+      "md5": "2cdd0c826ef169938ceef0e3f5c6d24b",
+      "sha1": "7432c49afe0de24e20c37e0fcd39fa2962829340",
+      "size": "3096",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=fanart",
+      "crc": "08b9d7ef",
+      "md5": "f61a852a98451368988eb147336e9bf2",
+      "sha1": "0d21ebb369b9d5e94b6d348537655fd9ec580566",
+      "size": "138891",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=video",
+      "crc": "e3b982ad",
+      "md5": "c762310e2bf28ce905891cf8bce5bdea",
+      "sha1": "584d66a4af00dac586e1c33fb37f37adb5b0d88c",
+      "size": "1367750",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=video-normalized",
+      "crc": "4fa5075a",
+      "md5": "0f0ca2b6149db686d43e86ab6f3d7c13",
+      "sha1": "8a390633a9d82d9d53c6ac13544e3cc8db2323d6",
+      "size": "674531",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=steamgrid",
+      "crc": "a23ff46a",
+      "md5": "384c4335b3a3c9655027f2c869a5e8f1",
+      "sha1": "849340cf9d85cea48f8fb8fb82932ae4f50a1990",
+      "size": "24520",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=wheel(wor)",
+      "region": "wor",
+      "crc": "dc51361f",
+      "md5": "2e5a9862e9b88f8df03facc276b95e4f",
+      "sha1": "fd5e872d42b81dc3d566a2e408221d32367ee47d",
+      "size": "102520",
+      "format": "png"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=wheel-hd(jp)",
+      "region": "jp",
+      "crc": "809e38c7",
+      "md5": "b4405692fe65b0d694488ad56fb2fea8",
+      "sha1": "7e996f8c1006e76e36b3823a4d6e5671cde9dd7f",
+      "size": "2142",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "3a137a70",
+      "md5": "68c8f3ab5f24fe2a45af181befb1fa77",
+      "sha1": "2bdf1efd46a0be76cbc9c6e91ce13539a907f1dc",
+      "size": "78378",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "a8217649",
+      "md5": "281d2be69fa3e2c49d937b6d79718dde",
+      "sha1": "54904e613b65e6cb92a39d029a567199ffacbafc",
+      "size": "112949",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "af68cdc3",
+      "md5": "997bf62958204f0b59ae62b43ba896c9",
+      "sha1": "9fd95b7b0fd94ae9bab0a8fef919224bcdabd273",
+      "size": "79887",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "a57eb5d8",
+      "md5": "3bb37639b1e0b06aeb374146b980c197",
+      "sha1": "de04422a84da5fed2df833868304bdb6fbd67267",
+      "size": "112731",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "0aca7c38",
+      "md5": "21a53e5d92020629a0eda00f6739036f",
+      "sha1": "81cfe386e86483ca915a4244ee02e2317d0678d1",
+      "size": "440942",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "2124d5c5",
+      "md5": "5c5e93af8175b6cfcf9cca62940d8be2",
+      "sha1": "6d0d4fd3ccc312f719e46299bd0c1fd4fabefbf4",
+      "size": "479424",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "cb545a6b",
+      "md5": "ecba6d766f29ed95a39944451df96637",
+      "sha1": "fd24d90543564b68083ff7dc09be2f06df9ef68a",
+      "size": "68003",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "6685d09c",
+      "md5": "d4da7af3eb2ae534dfc1d069aab9fabe",
+      "sha1": "bc339b82816daac2acbd0a5c7b41c9c3248e46a7",
+      "size": "74717",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-2D(de)",
+      "region": "de",
+      "crc": "a6690ecd",
+      "md5": "17e91e17aedb256454a4fefa45395cf1",
+      "sha1": "de67bcb691a7d43e012596598b040065936b4fc5",
+      "size": "572233",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-2D(eu)",
+      "region": "eu",
+      "crc": "0c2af99a",
+      "md5": "582d08ee0a662bbf32092335da09f062",
+      "sha1": "60502cd1f271076ceaa4d2415160683169acdab0",
+      "size": "605497",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "8a072ca7",
+      "md5": "e3a1cc43853557b768b99f8212e48ca3",
+      "sha1": "7851db6d6acbb6b7ab9ff2b9eb428feb2ccf1b01",
+      "size": "639890",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "a7958240",
+      "md5": "7703c32b9c748c49362f1443852382e6",
+      "sha1": "d5c4edb5e7e821a2ed5464e16a35ec5b1fa7e961",
+      "size": "138249",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-2D(us)",
+      "region": "us",
+      "crc": "0aa75eba",
+      "md5": "0fefbfff450cd689dfe785df7c421a7b",
+      "sha1": "1fc52325bbab131014f591050b002755e8a0dbf0",
+      "size": "699068",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-2D-side(de)",
+      "region": "de",
+      "crc": "ae7e69d3",
+      "md5": "07410feb1cc5b49fd08928924065d3d4",
+      "sha1": "8c38fdc9fa849b6fef95ddc93a462ad69350f9d7",
+      "size": "31070",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-2D-side(eu)",
+      "region": "eu",
+      "crc": "99ca6e3a",
+      "md5": "1e0ad9492c26ff7d713028ea83720e2f",
+      "sha1": "5a42260bb3d6d3ae207d5768820fbd2799e0c24b",
+      "size": "52605",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "021b6a9b",
+      "md5": "650fe9d3345a252cbd59204ca745a519",
+      "sha1": "03004711c31a2bbf8dedd0a9fe34de3a3674aa41",
+      "size": "69727",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "8609ee17",
+      "md5": "dc14298f307660f0bd646cddacfb53d4",
+      "sha1": "e176943154a6e886ec441405abce3a873562c389",
+      "size": "20513",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "746663df",
+      "md5": "577618f1179840e4057efb305041d535",
+      "sha1": "8edd7f2380872b50f08bed0472790a4c17f98aba",
+      "size": "69999",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-2D-back(de)",
+      "region": "de",
+      "crc": "15bb1964",
+      "md5": "63eeaa3262b1159d7bef1c8023db32ff",
+      "sha1": "30d1ab72404ecf1a72c280a0ce97ea7858f9429c",
+      "size": "593185",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-2D-back(eu)",
+      "region": "eu",
+      "crc": "00b83349",
+      "md5": "502d1fe848d25803007f0631dbcb0645",
+      "sha1": "067a41057decb4d648400675e175747c9eaad9e3",
+      "size": "339348",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "f5a21765",
+      "md5": "7c580f454a2f66ea5b42fd8e73e40500",
+      "sha1": "bb075239c216f1d9c49deb77cc630eb982d1bd58",
+      "size": "645041",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "dfb103b6",
+      "md5": "beac2ccfd2de57727c5fa6f2a8da60f2",
+      "sha1": "68c6a276f8a7b7f63f7f539f13cb45173ca6ab91",
+      "size": "162099",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "7ea19e62",
+      "md5": "92085dff8eb479e206408cc2773570ca",
+      "sha1": "186ebe0bb040890ddd70f75ceb15c1a00f668299",
+      "size": "405161",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-texture(de)",
+      "region": "de",
+      "crc": "d1dd6ead",
+      "md5": "bf3ca20717a7da2da3c4552492bfa8ad",
+      "sha1": "53b5aa1c22840dccfdf779631640f8f34544c02e",
+      "size": "1217489",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-texture(eu)",
+      "region": "eu",
+      "crc": "37c2e691",
+      "md5": "01d7dd9115b40930a7cc319bf13fffed",
+      "sha1": "9a951a4543eab79a9ba43e7c12b0854858786b9f",
+      "size": "1035747",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "775e0be3",
+      "md5": "2291010408c23b15407b382574168e45",
+      "sha1": "6ca078612302e47518337b47c946d9464cf271a8",
+      "size": "1378368",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "a4efdf4d",
+      "md5": "4837f8c5bf578aed9840e0fd830edf05",
+      "sha1": "9c9356167378ee37a1561659d64f4f5a93b28151",
+      "size": "335738",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-texture(us)",
+      "region": "us",
+      "crc": "67421c53",
+      "md5": "c388fa8b71262b01a1a6b8dc6524a578",
+      "sha1": "c572f4a5d77b06b58315b3818dda627f2d9ad7cf",
+      "size": "1039088",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-3D(de)",
+      "region": "de",
+      "crc": "5973a10c",
+      "md5": "3e8e5354578d7bbdf09f8afa1332da3f",
+      "sha1": "6df5c439d46f9858f79599bca1e75ac428cb50e6",
+      "size": "264529",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-3D(eu)",
+      "region": "eu",
+      "crc": "320d63e7",
+      "md5": "3069fda0b5f712f82471a3de53624d0b",
+      "sha1": "a5cc130bd59eb4299dbbcd442eac69ef9fe1e9a5",
+      "size": "281324",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "a4a1abf0",
+      "md5": "adb07d8fdea990889b48c2cdbed5d506",
+      "sha1": "4b6edf9facaacc67a377a30ca44477ce70fdcaec",
+      "size": "306100",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "24086be6",
+      "md5": "94fdac09229def5739a24783a240ae91",
+      "sha1": "4bfb1d60ace2c37fe4e502f5991cc68c579c760d",
+      "size": "128754",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=box-3D(us)",
+      "region": "us",
+      "crc": "76528e86",
+      "md5": "680740412be1b03dc595ad9c8b2ba591",
+      "sha1": "09823f751ebd0483643205d705b16a6785cab1b5",
+      "size": "296184",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=manuel(jp)",
+      "region": "jp",
+      "crc": "73e81cb6",
+      "md5": "a08112f2cb0f13630539362621edc71d",
+      "sha1": "1ed4a720822c12b343e5b87773fcd5c73f87784d",
+      "size": "319539",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=manuel(us)",
+      "region": "us",
+      "crc": "1252b3e1",
+      "md5": "f8aacf60462a1f452e4d864b0c7b1889",
+      "sha1": "3dfe9112c6584b86bb8407c41c9d0971e7194f8a",
+      "size": "539270",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=support-texture(eu)",
+      "region": "eu",
+      "crc": "42be0581",
+      "md5": "6b8c71ef928ce608c363aabdc5507808",
+      "sha1": "3eb3995fad8d11251781ed84f165a4c91c997344",
+      "size": "338331",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "78cded58",
+      "md5": "2d866401e329d1d0e9a074c4fcf004c3",
+      "sha1": "0383ec82d879e94cbde00207c96509e11cd70672",
+      "size": "362715",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=support-texture(us)",
+      "region": "us",
+      "crc": "0296f1e3",
+      "md5": "ff7e5c494f0f2b0e03887b75b322db95",
+      "sha1": "54c03fe295d9b7cd6eb3cdaf497ec2ac89baa402",
+      "size": "115147",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=support-2D(eu)",
+      "region": "eu",
+      "crc": "87e94614",
+      "md5": "18383f13e45b75a3a38ee6aec308ed34",
+      "sha1": "df6b13ece9a1469acf214d892538f8e543799d46",
+      "size": "325484",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "698658f2",
+      "md5": "b12531c5fb5ff2270a11449f1b204a76",
+      "sha1": "024fe180e9e1042ff2723079264390e2b2c16f19",
+      "size": "350327",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=support-2D(us)",
+      "region": "us",
+      "crc": "3c64c301",
+      "md5": "1b0816854a05a846fa4a8e931069ee0b",
+      "sha1": "b93368526398c85d8b92d6f42919876612678e6c",
+      "size": "347394",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "abd31f99",
+      "md5": "8fbae30d418bcc602176e9ea17f2e11c",
+      "sha1": "229a01826e4c75dc47437121eb12b9f839e9fb05",
+      "size": "227811",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=mixrbv1(de)",
+      "region": "de",
+      "crc": "4dedf049",
+      "md5": "bc0112b45312fb0c88b8897cd1588a01",
+      "sha1": "3f1e2cb11c57108ed157ee2a631053d1c72deb23",
+      "size": "364040",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=mixrbv1(eu)",
+      "region": "eu",
+      "crc": "9181a342",
+      "md5": "934a441f092cd480570ebd21299560ef",
+      "sha1": "8376d21e1b574ce593e7e76b83204ea8bc91d9f5",
+      "size": "368610",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "473c7a9e",
+      "md5": "c49bd1ba9c022c08f404737aad334d30",
+      "sha1": "acdb116edcf420f739c5a9006dfff5afecb62cba",
+      "size": "353454",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "4e5cbc71",
+      "md5": "0c6cc08c4f9256aefd9c9192bd141c9b",
+      "sha1": "e74aa527cf90bcecd78259f85748d29af8cdea30",
+      "size": "298855",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "b7832332",
+      "md5": "9a9154b172a1e2ac2185d41b293a5b84",
+      "sha1": "64454903b8d50907b1f17928874da3e59112a556",
+      "size": "371651",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "9181a342",
+      "md5": "934a441f092cd480570ebd21299560ef",
+      "sha1": "8376d21e1b574ce593e7e76b83204ea8bc91d9f5",
+      "size": "368610",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=mixrbv2(de)",
+      "region": "de",
+      "crc": "44ca66d2",
+      "md5": "1f33e167882bfcccfe27472c3d39f18c",
+      "sha1": "4d661d75d78043546b50c975cac704f8dc0b5889",
+      "size": "516251",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=mixrbv2(eu)",
+      "region": "eu",
+      "crc": "d17caf81",
+      "md5": "0f425ef28efca083c2985ada02a5bace",
+      "sha1": "fd703ac1580b1d9006698c6945084924c5715214",
+      "size": "522906",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=mixrbv2(fr)",
+      "region": "fr",
+      "crc": "d17caf81",
+      "md5": "0f425ef28efca083c2985ada02a5bace",
+      "sha1": "fd703ac1580b1d9006698c6945084924c5715214",
+      "size": "522906",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "c9d99784",
+      "md5": "06b49fa521a888991ecae73dc6d72714",
+      "sha1": "502a5770cdfbff3ee82efc5589a25d699e3d41b4",
+      "size": "495376",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "b3998190",
+      "md5": "2a1d37b37a6f0d00da4a746c96a9cc2d",
+      "sha1": "7231b4849835df50ec53b3064767a3e864711ca4",
+      "size": "456553",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "867c42f1",
+      "md5": "d8136d00a57324e919fc9dfb9566ecf3",
+      "sha1": "fb9976eecfd9ce418e9a558436bf88cdf940c28e",
+      "size": "525309",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18808&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "d17caf81",
+      "md5": "0f425ef28efca083c2985ada02a5bace",
+      "sha1": "fd703ac1580b1d9006698c6945084924c5715214",
+      "size": "522906",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=491&media=wheel",
+      "crc": "c91e3c3b",
+      "md5": "9de2b180bc830d9c1ec3d6b29e85dec0",
+      "sha1": "1911e5ef2afbc44ad155f46c95c0ed4b646d9186",
+      "size": "14719",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=48&media=logo-monochrome",
+      "crc": "554e9871",
+      "md5": "0b8c76add504f7f8c772872b4e509bc5",
+      "sha1": "943472c6e362524854af9fb1fd6275d43de73fed",
+      "size": "15018",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=48&media=wheel",
+      "crc": "ed853380",
+      "md5": "e489c5c769e40819a33a9f04d7f81e0f",
+      "sha1": "3ba163afd9d8aa3cd22e9e820dbef09c60e85da5",
+      "size": "53131",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3551&media=pictoliste",
+      "crc": "4b70874e",
+      "md5": "e350059ffeddd8fa6305e25f6aae2d92",
+      "sha1": "51a597d09c8482e1ed1099d12db0d958aeaa1d21",
+      "size": "420",
+      "format": "png"
+    },
+    {
+      "id": "3028",
+      "parent": "genre",
+      "subparent": "Sport / Billard",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3028&media=pictoliste",
+      "crc": "704edb6d",
+      "md5": "f53a1453d3866e5555bee456e523ba07",
+      "sha1": "6a5bee13ed1abf3ff85c76a0f7d986f81f629a04",
+      "size": "18786",
+      "format": "png"
+    },
+    {
+      "id": "3028",
+      "parent": "genre",
+      "subparent": "Sport / Billard",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3028&media=logo-monochrome",
+      "crc": "0cfe7573",
+      "md5": "66f4e55c9e901328bedea910dd4bf659",
+      "sha1": "b13c778800b1c2a1be19f993fae49445e6733239",
+      "size": "51278",
+      "format": "png"
+    },
+    {
+      "id": "3028",
+      "parent": "genre",
+      "subparent": "Sport / Billard",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3028&media=logo-monochrome-svg",
+      "crc": "e2da5311",
+      "md5": "37f465ddcb40d30f42085a50f0888e4f",
+      "sha1": "3ac0c077b855d6586ec147da139a670020fa1b43",
+      "size": "6142",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome",
+      "crc": "6a963ad9",
+      "md5": "6daf840fab2d205bda9bad4ff16f4c95",
+      "sha1": "f5e795233a8013aa0d992e197d56d09a63513403",
+      "size": "18286",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome-svg",
+      "crc": "328c7db2",
+      "md5": "4298fc7c8887c1b97cec6ee0b5d72433",
+      "sha1": "8f59a9ec18c48a7246c3b13e19c6c5857bc95513",
+      "size": "4269",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=background",
+      "crc": "a3265ffe",
+      "md5": "65308af4ddc9782f6717f000eea7f28a",
+      "sha1": "bccce8f0defa7c25313eb5ced7cdf71555c5a85d",
+      "size": "185482",
+      "format": "jpg"
+    },
+    {
+      "id": "3028",
+      "parent": "genre",
+      "subparent": "Sport / Billard",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3028&media=pictoliste",
+      "crc": "704edb6d",
+      "md5": "f53a1453d3866e5555bee456e523ba07",
+      "sha1": "6a5bee13ed1abf3ff85c76a0f7d986f81f629a04",
+      "size": "18786",
+      "format": "png"
+    },
+    {
+      "id": "3028",
+      "parent": "genre",
+      "subparent": "Sport / Billard",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3028&media=logo-monochrome",
+      "crc": "0cfe7573",
+      "md5": "66f4e55c9e901328bedea910dd4bf659",
+      "sha1": "b13c778800b1c2a1be19f993fae49445e6733239",
+      "size": "51278",
+      "format": "png"
+    },
+    {
+      "id": "3028",
+      "parent": "genre",
+      "subparent": "Sport / Billard",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3028&media=logo-monochrome-svg",
+      "crc": "e2da5311",
+      "md5": "37f465ddcb40d30f42085a50f0888e4f",
+      "sha1": "3ac0c077b855d6586ec147da139a670020fa1b43",
+      "size": "6142",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome",
+      "crc": "6a963ad9",
+      "md5": "6daf840fab2d205bda9bad4ff16f4c95",
+      "sha1": "f5e795233a8013aa0d992e197d56d09a63513403",
+      "size": "18286",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome-svg",
+      "crc": "328c7db2",
+      "md5": "4298fc7c8887c1b97cec6ee0b5d72433",
+      "sha1": "8f59a9ec18c48a7246c3b13e19c6c5857bc95513",
+      "size": "4269",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=background",
+      "crc": "a3265ffe",
+      "md5": "65308af4ddc9782f6717f000eea7f28a",
+      "sha1": "bccce8f0defa7c25313eb5ced7cdf71555c5a85d",
+      "size": "185482",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136558",
+      "romsize": "24592",
+      "romfilename": "Lunar Pool (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FA96CBA2",
+      "rommd5": "60BE0B2FF5484E6271C48F5B9E229356",
+      "romsha1": "79D35B9E5497A32200F56F9F86C7A0EBBE2DC52B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "317613",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "3332",
+      "romsize": "16541",
+      "romfilename": "Lunar Pool (PT-BR).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C500CE3C",
+      "rommd5": "27B04ADAF7EA61346B70AC85015FF64F",
+      "romsha1": "AA983EF7726018922C3204560AB71E1F699C6895",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "111815",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "3333",
+      "romsize": "16367",
+      "romfilename": "Lunar Pool (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "85739D28",
+      "rommd5": "E8D5F2366DEC995023BEEDCAD0FA05B9",
+      "romsha1": "4FA9EA492BE5F1A5C1BC4EAAA7AEC8634103FA36",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "74222",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "12991",
+      "romsize": "16346",
+      "romfilename": "Lunar Ball (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E2BDB7C9",
+      "rommd5": "DF0D03BEE1A68C7BA1C72243DE05F5EF",
+      "romsha1": "A2D6E31CB6D8312AD2A4B0A8F2571FF435BBA0EE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "60540",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "526806",
+      "romsize": "24592",
+      "romfilename": "Lunar Pool (E).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8CFD4837",
+      "rommd5": "8425DDF1DB30D1DE1479ACACB8A6C64D",
+      "romsha1": "DE816D1B6B804F4D3FC39953511965C408774244",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "47219",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "544179",
+      "romsize": "16381",
+      "romfilename": "Lunar Pool.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3960B6DE",
+      "rommd5": "D96303D5FF373407F94DD9E9594EDC27",
+      "romsha1": "AF495CABC1C1539A891570168F05A4B5ABD9FDA3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "41635"
+    },
+    {
+      "id": "136557",
+      "romsize": "40976",
+      "romfilename": "Lunar Pool (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "24D2B93E",
+      "rommd5": "4165DE7FEEF118405096EFFCE624AC8D",
+      "romsha1": "AF3C5A7186BDB37BAB1B919F855020C148B16B54",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "41172",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "1140012",
+      "romsize": "24592",
+      "romfilename": "Lunar Pool (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "b6cc24f4",
+      "rommd5": "d70a1a8627e52dc2ccd5141a5526c5a5",
+      "romsha1": "ff9560a863cda4298ffea40a73acad32282b132a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "37779",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "136556",
+      "romsize": "24592",
+      "romfilename": "Lunar Ball (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4D483147",
+      "rommd5": "26F1B77980A216767EA63C41397476E5",
+      "romsha1": "AA5C574A4743991A3523DFD78A39D782BEDE262A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "29658",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1164449",
+      "romsize": "16373",
+      "romfilename": "Lunar Ball.zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "B407E049",
+      "rommd5": "706343CECAA372EC218ECCA3C34EC2C3",
+      "romsha1": "0885F7C057E6A93118726E0FC025C7F40733E31E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "27845"
+    },
+    {
+      "id": "1248932",
+      "romsize": "24592",
+      "romfilename": "391 Lunar Pool.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "FDB68869",
+      "rommd5": "8B3A9ECE0CAD3274B116A47AC9791B4D",
+      "romsha1": "8E8B00DFEF570296ECC4CE3F93D54343006B9861",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "26727"
+    },
+    {
+      "id": "523880",
+      "romsize": "41103",
+      "romfilename": "Lunar_pool.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A292F8CD",
+      "rommd5": "78E2D1FCF75EC597B852A345364E9338",
+      "romsha1": "A484B0CA7786FA4A11D41B5B581B088AF279D30A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "24264"
+    },
+    {
+      "id": "645274",
+      "romsize": "24592",
+      "romfilename": "Lunar Ball (J).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4F65AA5A",
+      "rommd5": "91B290772CAFFDEF938008C6F5E955D8",
+      "romsha1": "2D7AFA3F42501F3D043A53C5C78BFADEFF3735CC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "23575",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "571819",
+      "romsize": "24720",
+      "romfilename": "Lunar Pool.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "300C32C4",
+      "rommd5": "9D35BCC9A244AA74C2A447D598DE86BC",
+      "romsha1": "9BF743261A2435E87C0AC374B1534D0FBCD1C026",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "22222"
+    },
+    {
+      "id": "864482",
+      "romsize": "24592",
+      "romfilename": "Lunar Ball - Loony Pool (Lunar Ball Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5799311B",
+      "rommd5": "8150567DED68BEE4EB9691D46B7750CD",
+      "romsha1": "BE2151436FB31D95F64DC72378799E2B67B24CFD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18795"
+    },
+    {
+      "id": "643626",
+      "romsize": "40976",
+      "romfilename": "Loony Pool (Lunar Ball Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "265C74F4",
+      "rommd5": "FEF0BA2AEAFFFC198F1B267EBDAC5553",
+      "romsha1": "2380D28305F14D146540922C6D206A9D461DE55E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18072"
+    },
+    {
+      "id": "468652",
+      "romsize": "16131",
+      "romfilename": "Lunar Pool (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "26331522",
+      "rommd5": "0431671CB0FC0B0FC74C0F3FFE474D22",
+      "romsha1": "96CE5EA48B2B423A2FA84AE101480F1544557481",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14463",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1140009",
+      "romsize": "40976",
+      "romfilename": "Lunar Pool (E) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1ff8447b",
+      "rommd5": "d40e5fba150bd803d0b8a6c4d4544593",
+      "romsha1": "4df0e3aa442f4e45e75e3dd01fc01c14bd6c9f31",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11459",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "523802",
+      "romsize": "16349",
+      "romfilename": "Lunar Pool (U) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8E62EECB",
+      "rommd5": "FDDF0CB6163F5D167B127FA2F32B0C68",
+      "romsha1": "5C72C5668A17F412563C495439D8527320A1AD6D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10128",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "474706",
+      "romsize": "16388",
+      "romfilename": "Lunar Pool (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "AC774A86",
+      "rommd5": "DD8528FB71259EAED4CCA48DB03B80A3",
+      "romsha1": "2A93088EAF7807C95EC51F166F82D73BCCF37472",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6816",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1140006",
+      "romsize": "24592",
+      "romfilename": "Lunar Ball (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0112de11",
+      "rommd5": "9127498b4eadb33e835e36cc693b340c",
+      "romsha1": "311d08f220925ca039302c86d47535e78dc2d92a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6455",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "572082",
+      "romsize": "16485",
+      "romfilename": "LunarPool.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9C67AE2A",
+      "rommd5": "32BAACB9CF1F92AC57EE015D2C16D4A9",
+      "romsha1": "B9B854A8E296916C561E7A71E313DCC2188A8A0B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4104"
+    },
+    {
+      "id": "173730",
+      "romsize": "24576",
+      "romfilename": "Lunar Pool (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "988B446D",
+      "rommd5": "789EE538B73E401809FF3926B8871845",
+      "romsha1": "260166D22C895DF4F30AC63E4E8D0C3F1C7B1585",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2640",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "572081",
+      "romsize": "16348",
+      "romfilename": "Lunar Pool (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5CAC8FE4",
+      "rommd5": "206C3DB544E9F1BBAB49263218C36C30",
+      "romsha1": "C0159C254C752985DDC6FD39A9F732031EF52AA4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2492",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "173729",
+      "romsize": "40960",
+      "romfilename": "Lunar Pool (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C3A0A3E0",
+      "rommd5": "89B3DFF0C5C330871EE831FFA1B849CB",
+      "romsha1": "7FC8170054D6E400098745264AB096F9E45E708E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1552",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "591998",
+      "romsize": "16085",
+      "romfilename": "Lunar Pool.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "ADFBD774",
+      "rommd5": "622869F496338A25550CE2E478EBA375",
+      "romsha1": "219FEE4C9CAE20528FA4A1D1F01FA04E80411611",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1108"
+    },
+    {
+      "id": "173728",
+      "romsize": "24576",
+      "romfilename": "Lunar Ball (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2F55BE88",
+      "rommd5": "1DEFAA29FE2F94465FFF9E06C21CBF65",
+      "romsha1": "58BF3E3E50CA61DB95B9D1631312E8E01D2017D7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1063",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114227",
+      "romsize": "16519",
+      "romfilename": "Lunar Pool (Europe).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3CC3816E",
+      "rommd5": "96D66AF41A17221D53FD3FE91DB290DE",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "762",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "570459",
+      "romsize": "16413",
+      "romfilename": "Lunar Pool (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5D8276F8",
+      "rommd5": "8A1401E2C682D0C580705945A0049AF7",
+      "romsha1": "5417026C9ABCA152815382A1110B7245E319ACEB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "266",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "114228",
+      "romsize": "16345",
+      "romfilename": "Lunar Pool (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3BF918E1",
+      "rommd5": "20BA4DF8F2A0B650B742409E5A0D3B3C",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "128",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "114226",
+      "romsize": "16324",
+      "romfilename": "Lunar Ball (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E49CCA91",
+      "rommd5": "8676C7DA2B5EB1C74B9B2ACF8FEF7F04",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "26",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,673 @@
+{
+  "id": "152294",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Cobra Mission"
+    },
+    {
+      "region": "asi",
+      "text": "Cobra Mission"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "2083",
+    "text": "Ancient"
+  },
+  "developpeur": {
+    "id": "2083",
+    "text": "Ancient"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "A top-down shooter where the player uses a helicopter to fight off enemy forces. It was originally released in Australia under the name Sidewinder."
+    },
+    {
+      "langue": "fr",
+      "text": "Un shooter à vue de haut où le joueur utilise un hélicoptère pour combattre les forces ennemies. Il a été initialement publié en Australie sous le nom de Sidewinder."
+    },
+    {
+      "langue": "de",
+      "text": "Ein Top-Down-Shooter, bei dem der Spieler einen Hubschrauber benutzt, um feindliche Streitkräfte abzuwehren. Es wurde ursprünglich in Australien unter dem Namen Sidewinder veröffentlicht."
+    },
+    {
+      "langue": "es",
+      "text": "Un shooter en modo vertical donde el jugador usa un helicóptero para luchar contra las fuerzas enemigas. Fue originalmente lanzado en Australia bajo el nombre Sidewinder"
+    },
+    {
+      "langue": "it",
+      "text": "Uno sparatutto dall'alto in cui il giocatore usa un elicottero per combattere le forze nemiche. È stato originariamente pubblicato in Australia con il nome di Sidewinder."
+    },
+    {
+      "langue": "pt",
+      "text": "Um jogo de tiro de cima onde o jogador usa um helicóptero para lutar contra as forças inimigas. Foi originalmente lançado na Austrália como Sidewinder."
+    }
+  ],
+  "genres": [
+    {
+      "id": "7",
+      "nomcourt": "0101",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "a0df543d",
+      "md5": "7872a5507c134d8cd76db89f812b2fb4",
+      "sha1": "d723e726c578286a6698253b3278968a41392925",
+      "size": "5310",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=ss(jp)",
+      "region": "jp",
+      "crc": "8c822ec3",
+      "md5": "a1ec03bae34728df28cb1d323a0d695a",
+      "sha1": "e8108a9b131568d7f2db9e68e90747841488d54c",
+      "size": "5246",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=fanart",
+      "crc": "e5a81ecc",
+      "md5": "c69f642e4c7e7d445e8ef97d7e5a8913",
+      "sha1": "5986406442e9e5fefeffcbb6bec68f48d587e421",
+      "size": "581716",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=video",
+      "crc": "614a6dfc",
+      "md5": "068ca27a98db0d37def6e7e4f1688e0a",
+      "sha1": "bd2f660d0e48039cec085ac6ef5a58785b619030",
+      "size": "3635075",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=video-normalized",
+      "crc": "f306ab3b",
+      "md5": "7b921ae138e666685a278a8a05fadf68",
+      "sha1": "67e2954fb6170f7172b2f81407e2b3cea2ceccab",
+      "size": "2046385",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=steamgrid",
+      "crc": "917da500",
+      "md5": "5a2659dfa341b9d14bde9e3bc90c257b",
+      "sha1": "cd806b756157bddea13916d822e65cccd3c7b96b",
+      "size": "32144",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=wheel(jp)",
+      "region": "jp",
+      "crc": "6b5e16db",
+      "md5": "d62a37551de2589e4f8603d9618edb59",
+      "sha1": "355f9ae5e1b58daaaf113526208e2b79ab427654",
+      "size": "153949",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "84dc15d0",
+      "md5": "764c637b627538814647b92501275312",
+      "sha1": "0d1500d352a0fa5073e85de263ecfaf0143ac342",
+      "size": "144081",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "72a00789",
+      "md5": "d6915867f641888f1abf632de6d25117",
+      "sha1": "01a3f12e75ec9fef8559b2724d78148a493a89bd",
+      "size": "146030",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "50d57bb5",
+      "md5": "5700e7030e04380fccd288482edd1027",
+      "sha1": "9f9ee44b7adc87408902790f693e85096ca0a63f",
+      "size": "493562",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "9dd30ee7",
+      "md5": "b41689575fd48004b83204724c6ab5cb",
+      "sha1": "0b6d8c47f56a9e5790d2781e6e687673b36caa39",
+      "size": "84385",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "b9636f0d",
+      "md5": "4e46b55b400d371bbfa71a740d605ead",
+      "sha1": "6e01afa46db11c8311630dba5880ab4876a858f1",
+      "size": "106586",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "7f89fe80",
+      "md5": "e63fa798e015f25ed1259f7bea5d7b05",
+      "sha1": "4993a67fef028ea82a4796a8f759f621e943e908",
+      "size": "17489",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "4b273968",
+      "md5": "107b782ee44ac34089e2c52247c536f4",
+      "sha1": "98222717256cce98d19d7be060f7e6da3524d9ee",
+      "size": "130188",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "9e373c68",
+      "md5": "8ae97a1659642fffe96d0c4d5b8a2210",
+      "sha1": "bdafe7efeffb26c9faf8c778249c8eacfe3a34a9",
+      "size": "263091",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "c7aec400",
+      "md5": "340e34fc432703139bb18c1078f09238",
+      "sha1": "ff1d6d28053ed522a9eed05fc897a6917ffff0db",
+      "size": "134269",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "1bd223ad",
+      "md5": "b6c719d7502236a3ea7d02127aea048f",
+      "sha1": "f904c31dd30ab11ad41890a6f27a8fd1f9da2c6d",
+      "size": "361125",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "e75f65e9",
+      "md5": "a1f1da03fcbbd41ff88a8e8a6b9aef70",
+      "sha1": "676e3bd36a5daf90f3d9e0eaa3d529410bfb88c4",
+      "size": "309861",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "582aa815",
+      "md5": "7b219379e3ffffa057e8c60bd9d9dcd1",
+      "sha1": "1e9840f2cb1d99bce60e220518348b87a4177627",
+      "size": "332767",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=mixrbv2(asi)",
+      "region": "asi",
+      "crc": "885a7b7b",
+      "md5": "12bdeb4e1a152e90fdcbd169a209a9db",
+      "sha1": "6b08d4ccd86a2538fb2af13560de2c4fd1d4475d",
+      "size": "505456",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=152294&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "885a7b7b",
+      "md5": "12bdeb4e1a152e90fdcbd169a209a9db",
+      "sha1": "6b08d4ccd86a2538fb2af13560de2c4fd1d4475d",
+      "size": "505456",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2083&media=logo-monochrome",
+      "crc": "52140288",
+      "md5": "145d17424490a7b27181dd3206f6f8ee",
+      "sha1": "f36d4ea44f2873f058d4ef393b7245073fcb4758",
+      "size": "27138",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2083&media=wheel",
+      "crc": "78fd87d9",
+      "md5": "f0e72cb8ce6ef1241c521666e0af36e1",
+      "sha1": "e2dda5cad4e5ffa1f5bf22aab1e34aac44ff0c13",
+      "size": "56209",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2083&media=logo-monochrome",
+      "crc": "52140288",
+      "md5": "145d17424490a7b27181dd3206f6f8ee",
+      "sha1": "f36d4ea44f2873f058d4ef393b7245073fcb4758",
+      "size": "27138",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2083&media=wheel",
+      "crc": "78fd87d9",
+      "md5": "f0e72cb8ce6ef1241c521666e0af36e1",
+      "sha1": "e2dda5cad4e5ffa1f5bf22aab1e34aac44ff0c13",
+      "size": "56209",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=pictoliste",
+      "crc": "d8329f23",
+      "md5": "ada4054a77e20edada97225e5c316116",
+      "sha1": "cfadf96438bde8ae1a8c3c52c85dd6768ba9b4c8",
+      "size": "855",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome",
+      "crc": "0f88a1ba",
+      "md5": "e8c818f5f59d48642afea18e5c545c15",
+      "sha1": "ef3857055eaae13785d2cab692edf9454b544be3",
+      "size": "9142",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome-svg",
+      "crc": "fa797dda",
+      "md5": "73a61640b94904834fdbfc7e043150e0",
+      "sha1": "3e5fe422339961df30bd70aa83e43671a1badce4",
+      "size": "4755",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=background",
+      "crc": "3d578fbf",
+      "md5": "62dbdbe08a5765fae2630d06e0f0ea38",
+      "sha1": "354ef394870af26f443863a29c846a07a20f47a0",
+      "size": "161158",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135669",
+      "romsize": "131088",
+      "romfilename": "Cobra Mission (Asia) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0F6BC06C",
+      "rommd5": "08B0991064598338E4908E041B1FD43A",
+      "romsha1": "EF3E0DDFC6B2FF81C8349F223F59C650656807EB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "41316",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "12496",
+      "romsize": "57530",
+      "romfilename": "Cobra Mission (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "620E733E",
+      "rommd5": "D233A7CD925B6B17BAE6A25B54DA397C",
+      "romsha1": "5EC2DEFF34AAC7AF47AA172D5FE28044012B09FA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "37117",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "172818",
+      "romsize": "131072",
+      "romfilename": "Cobra Mission (Asia) (Ja) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DF31B364",
+      "rommd5": "BB1D19E72217D30FABFECDC073873427",
+      "romsha1": "DA1A99C2F921AB906B38FBC18D1AF1775550DB04",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "15040",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "1135644",
+      "romsize": "131088",
+      "romfilename": "Cobra Mission (Asia) (Ja) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "f3aad71c",
+      "rommd5": "7848590d78cc4896ce30136d57149ae0",
+      "romsha1": "bfa00552f427b4d51c7048fa847ec4c1c9f02df4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11436",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "113315",
+      "romsize": "57508",
+      "romfilename": "Cobra Mission (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A30C3A11",
+      "rommd5": "D7FE598AF54C07EADDD0B346AB54F9DC",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "78",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    }
+  ]
+}

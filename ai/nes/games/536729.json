@@ -1,0 +1,100 @@
+{
+  "id": "536729",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Cha Cha Cha"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "developpeur": {
+    "id": "69887",
+    "text": "m8si"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "A simple platformer - play as Käärijä and fight your way to the podium on the Eurovision song contest 2023."
+    },
+    {
+      "langue": "es",
+      "text": "Un sencillo juego de plataformas en el que controlas a Käärijä y luchas por abrirte camino hasta el podio del Festival de la Canción de Eurovisión 2023."
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=536729&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "4c3db735",
+      "md5": "5968ebbe6c37b1a2762ff599eee5c4e5",
+      "sha1": "a39b2600efd1317069e4fe45d626ad54de254219",
+      "size": "3152",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=536729&media=ss(wor)",
+      "region": "wor",
+      "crc": "2df67186",
+      "md5": "46ce25c1c54abcc4880b06f5271919da",
+      "sha1": "a67fbda148cb2831789aa4b680427c41f74df0af",
+      "size": "2966",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=536729&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "1d561720",
+      "md5": "fecd0a67490535fc90d91fc4bc5437d9",
+      "sha1": "47beb557f134fcf17090ca9acd6b48607475a6c9",
+      "size": "231719",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=536729&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "a84934f5",
+      "md5": "5e0319abc4e3d81c28dc130c8faf6dd5",
+      "sha1": "8ef36001bc685769f56a4c8eaed0d875906b881c",
+      "size": "285256",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1388087",
+      "romsize": "524304",
+      "romfilename": "Cha Cha Cha (World) (Aftermarket) (Unl).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "3447D4AC",
+      "rommd5": "BFA1B308F46D70F3CCD948376165C0AC",
+      "romsha1": "42105E75506798CD815751B3683B04EF6D67583B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "299"
+    }
+  ]
+}

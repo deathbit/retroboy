@@ -1,0 +1,816 @@
+{
+  "id": "65492",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Devil Man"
+    },
+    {
+      "region": "jp",
+      "text": "Devil Man"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "6595",
+    "text": "Namcot"
+  },
+  "developpeur": {
+    "id": "8805",
+    "text": "ISCO"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Go Nagai's Devilman comes to life in this graphic and text action-adventure game for the Famicom/NES. High atop the Himalayas, ancient devils are stirring beneath the ice after ten thousand years of imprisonment. Archdemon Xenon, their four-faced master unleashes them upon the Earth much to the chagrin of humanity. You are Akira Fudo who combines with a powerful ancient demon named Amon to become Devilman! Six levels of fire, ice, water, secret demon research labs, Tokyo ruins, and much more to explore as Devilman, Akira, his friends, or girlfriend Miki!"
+    },
+    {
+      "langue": "fr",
+      "text": "Devilman de Go Nagaia prend vie dans ce jeu d'action-aventure graphique et textuel pour Famicom / NES. Au sommet de l'Himalaya, d'anciens diables remuent sous la glace après dix mille ans d'emprisonnement. Archdemon Xenon, leur maître à quatre visages, les lâche sur la Terre au grand dam de l'humanité. Vous êtes Akira Fudo qui se combine avec un ancien démon puissant nommé Amon pour devenir Devilman! Six niveaux de feu, de la glace, de l'eau, des laboratoires de recherche démoniaques secrets, des ruines de Tokyo, et bien plus encore à explorer en tant que Devilman, Akira, ses amis ou sa petite amie Miki!"
+    },
+    {
+      "langue": "de",
+      "text": "Go Nagais Devilman erwacht in diesem Grafik- und Text-Action-Adventure-Spiel für Famicom/NES zum Leben. Hoch oben im Himalaya rühren uralte Teufel nach zehntausend Jahren Gefangenschaft unter dem Eis. Erzdämon Xenon, ihr viergesichtiger Meister, lässt sie zum Leidwesen der Menschheit auf die Erde los. Du bist Akira Fudo, der sich mit einem mächtigen alten Dämon namens Amon verbindet, um Devilman zu werden! Sechs Level voller Feuer, Eis, Wasser, geheimer Dämonenforschungslabore, Tokio-Ruinen und vielem mehr, das du als Devilman, Akira, seine Freunde oder Freundin Miki erkunden kannst!"
+    },
+    {
+      "langue": "es",
+      "text": "El Devilman de Go Nagai cobra vida en este juego de acción y aventuras gráfico y de texto para Famicom / NES. En lo alto del Himalaya, los demonios antiguos se mueven bajo el hielo después de diez mil años de prisión. El archidemon Xenon, su maestro de cuatro caras, los desata sobre la Tierra para gran disgusto de la humanidad. ¡Eres Akira Fudo que se combina con un poderoso demonio antiguo llamado Amon para convertirse en Devilman! Seis niveles de fuego, hielo, agua, laboratorios secretos de investigación de demonios, ruinas de Tokio y mucho más para explorar como Devilman, Akira, sus amigos o su novia Miki."
+    },
+    {
+      "langue": "it",
+      "text": "Devilman di Go Nagai prende vita in questo gioco di azione e avventura grafica e testuale per Famicom/NES. In cima all'Himalaya, antichi diavoli si stanno agitando sotto il ghiaccio dopo diecimila anni di prigionia. L'Arcidemone Xenon, il loro padrone a quattro facce, li scatena sulla Terra con grande dispiacere dell'umanità. Sei Akira Fudo che si unisce a un potente demone antico di nome Amon per diventare Devilman! Sei livelli di fuoco, ghiaccio, acqua, laboratori segreti di ricerca sui demoni, rovine di Tokyo e molto altro da esplorare nei panni di Devilman, Akira, i suoi amici o la fidanzata Miki!"
+    },
+    {
+      "langue": "pt",
+      "text": "Devilman de Go Nagaia ganha vida neste jogo de ação e aventura baseado em texto para Famicom / NES. No topo do Himalaia, demônios antigos se agitam sob o gelo após dez mil anos de prisão. O arquidemônio Xenon, seu mestre de quatro faces, os liberta na Terra para o desgosto da humanidade. Você é Akira Fudo que se combina com um poderoso demônio antigo chamado Amon para se tornar o Devilman! Seis níveis de fogo, gelo, água, laboratórios secretos de pesquisa demoníaca, ruínas de Tóquio e muito mais para explorar como Devilman, Akira, seus amigos ou namorada Miki!"
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1989-04-25"
+    }
+  ],
+  "genres": [
+    {
+      "id": "3566",
+      "nomcourt": "0100",
+      "principale": "0",
+      "parentid": "10",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Action / Adventure"
+        },
+        {
+          "langue": "fr",
+          "text": "Action / Aventure"
+        },
+        {
+          "langue": "de",
+          "text": "Action / Abenteuer"
+        },
+        {
+          "langue": "es",
+          "text": "Acción / Aventura"
+        },
+        {
+          "langue": "it",
+          "text": "Azione / Avventura"
+        },
+        {
+          "langue": "pt",
+          "text": "Ação / Aventura"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "nomcourt": "0100",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Action"
+        },
+        {
+          "langue": "fr",
+          "text": "Action"
+        },
+        {
+          "langue": "de",
+          "text": "Action"
+        },
+        {
+          "langue": "es",
+          "text": "Acción"
+        },
+        {
+          "langue": "it",
+          "text": "Azione"
+        },
+        {
+          "langue": "pt",
+          "text": "Ação"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "eaa85f23",
+      "md5": "bdd46ac722a9415d5aaefa4ef71c22a1",
+      "sha1": "0b3933f5128f3f437d7a9d10ebf23d7c0deff261",
+      "size": "2384",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=ss(jp)",
+      "region": "jp",
+      "crc": "51f8222c",
+      "md5": "2bf3f798a0eb8953d6fde67fcf13b0b3",
+      "sha1": "6847b87f3d665b6740515fafbc87b6277f716198",
+      "size": "2376",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=fanart",
+      "crc": "268aa24d",
+      "md5": "000d042e01bb44ff24b23c8430ae3a87",
+      "sha1": "4b67413e01bb907da301fa2239bad56934433b28",
+      "size": "155868",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=video",
+      "crc": "92e8dc39",
+      "md5": "e094cc16eade8fcf04c8726d647c51c4",
+      "sha1": "efd58f4c11269a38a171a6b15c93be35eb40ac5d",
+      "size": "3439621",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=video-normalized",
+      "crc": "0d6bde27",
+      "md5": "1575b6a2052b574140ecf8af235d5669",
+      "sha1": "a3ec99ed432a8d8e7c8fb161e73f46f4e9e2bba7",
+      "size": "1374574",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=steamgrid",
+      "crc": "ad5a6e93",
+      "md5": "737bff573238c3f3a012e25fc1594913",
+      "sha1": "01003f099dc7142955da80aa482b297cf0483240",
+      "size": "26924",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=wheel(jp)",
+      "region": "jp",
+      "crc": "e1bd18ab",
+      "md5": "3d7dc5739022f0bf1e73399e27f6c642",
+      "sha1": "57a831922bf1559bd5342490d0386f0db7eda0d7",
+      "size": "61227",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "ba67e81e",
+      "md5": "0db3a75645296566def20e2ddc9138ac",
+      "sha1": "13cda674694ae154f8059daa5809093a0be92a5d",
+      "size": "106749",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "6fe74d9e",
+      "md5": "0853d7e08ce7b3bb2b11ec34c07c06d0",
+      "sha1": "840353d812a8cb393d2db5c3ff1e3abe8054f8f7",
+      "size": "107802",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "de3147aa",
+      "md5": "0dfc625200563d9610ac6fe634cb2079",
+      "sha1": "3caad66d2b626e9ac0987d4ce9b1be80c12b1899",
+      "size": "476333",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "d6186d99",
+      "md5": "c47e36ddfaa566e170e593d2dd568612",
+      "sha1": "12ca4f8662267935f811506b283a1524704c6436",
+      "size": "75260",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "69917841",
+      "md5": "6a48da77ada77f1e89a95439c4313cfe",
+      "sha1": "0204364890c1e0c54a0ab5c1e94fc87d8fea0a14",
+      "size": "560929",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "5d4f12ce",
+      "md5": "0238aa0e3370614b297e53613959399e",
+      "sha1": "fc9857f2dff435407b27e317db223d13d0a975db",
+      "size": "64202",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "09e28d70",
+      "md5": "bd49b555132f90b22e946f78a740d028",
+      "sha1": "5ef229f1087693cab6f63a8ae3060656cec2296c",
+      "size": "322181",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "01075667",
+      "md5": "33ac755264bbae19ae2e26e2d7948c6b",
+      "sha1": "29d80f8c0892697cb056c773abccc202b258c887",
+      "size": "975212",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "ad1b1231",
+      "md5": "666da71aa66914fe89e0105f625595a5",
+      "sha1": "560c46f9f9aa5ec1943f06ac642eade61cf91a1a",
+      "size": "263857",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=manuel(jp)",
+      "region": "jp",
+      "crc": "5d1c2bd4",
+      "md5": "f041b54d71b6f688bd88c87a6d364f55",
+      "sha1": "18163b6f432f5bd21f45968236b36e1479315c7e",
+      "size": "1125985",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "5ca12e41",
+      "md5": "d231a24e137d154bfaab46c924e0f59d",
+      "sha1": "a0a1e35fef25ff15444a083a3515d324a9745cc2",
+      "size": "114904",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "67cff7cf",
+      "md5": "f78ab0d1f95c5a8c3ab9cec9ff722ddd",
+      "sha1": "383151e0001c72c971cf9dbf776a7d6c9d8d8d6b",
+      "size": "375253",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "13bf4498",
+      "md5": "42df67e5460988d8089f4d7e17f09af2",
+      "sha1": "b1057e335e65a0f58390d54f7cc113b9b28e82aa",
+      "size": "318979",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "13bf4498",
+      "md5": "42df67e5460988d8089f4d7e17f09af2",
+      "sha1": "b1057e335e65a0f58390d54f7cc113b9b28e82aa",
+      "size": "318979",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "3f89dca3",
+      "md5": "610819006b4ce9628fd0030ca40c6a12",
+      "sha1": "dd1c1685a2a0663491d829146dba60458722270f",
+      "size": "513556",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65492&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "3f89dca3",
+      "md5": "610819006b4ce9628fd0030ca40c6a12",
+      "sha1": "dd1c1685a2a0663491d829146dba60458722270f",
+      "size": "513556",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=6595&media=logo-monochrome",
+      "crc": "61e6995e",
+      "md5": "a9f3e5b1e0128850d5f51ea85fa91c59",
+      "sha1": "881ac51f61f6c6c327f753d344ba55989ef42d42",
+      "size": "3566",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=6595&media=wheel",
+      "crc": "a058b955",
+      "md5": "8a60dd888f5bfc9b57eb92625deb82a6",
+      "sha1": "56be60f724fbaa4d141e04da8dd17a41bc097b5d",
+      "size": "8104",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=8805&media=logo-monochrome",
+      "crc": "b29cf8b5",
+      "md5": "ce76e36ff9f4500e262dec75a7e6d839",
+      "sha1": "0f0a336464ada01a8a78afb40423311cd331018a",
+      "size": "17401",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=8805&media=wheel",
+      "crc": "e4a7568b",
+      "md5": "a1d719aed07a2710e771c1837a7e5792",
+      "sha1": "ce4bb03f2a0e8862a4a09d127c9e82b708ec5fe3",
+      "size": "108283",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "3566",
+      "parent": "genre",
+      "subparent": "Action / Aventure",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3566&media=pictoliste",
+      "crc": "8dbe2564",
+      "md5": "02720b2114c3f97376ae62b0c61cfdb1",
+      "sha1": "35b60cd7e71a9049de457ae3e1390ce92ed54914",
+      "size": "18874",
+      "format": "png"
+    },
+    {
+      "id": "3566",
+      "parent": "genre",
+      "subparent": "Action / Aventure",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3566&media=logo-monochrome",
+      "crc": "3c1c648e",
+      "md5": "39fd2879e5fa41b49b82d753793e1f49",
+      "sha1": "4b1acc4a60cb8ce3420a4bec1331ded7213d1c8a",
+      "size": "30471",
+      "format": "png"
+    },
+    {
+      "id": "3566",
+      "parent": "genre",
+      "subparent": "Action / Aventure",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3566&media=logo-monochrome-svg",
+      "crc": "6e5ad666",
+      "md5": "4b0424bd3afad5c75358de79884368d8",
+      "sha1": "3b41ded97fd716534acdfd4560e630cb7e0750ff",
+      "size": "5490",
+      "format": "svg"
+    },
+    {
+      "id": "3566",
+      "parent": "genre",
+      "subparent": "Action / Aventure",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3566&media=background",
+      "crc": "de7305f8",
+      "md5": "95afbf7bfdc0ee8a18e69a2836dd7e0a",
+      "sha1": "d89beb5eef65e0bbb4573c6622fe267f92b33c43",
+      "size": "165573",
+      "format": "jpg"
+    },
+    {
+      "id": "10",
+      "parent": "genre",
+      "subparent": "Action",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=10&media=pictoliste",
+      "crc": "0763cab7",
+      "md5": "620fe2a836dfa922412ff74ed37d5f57",
+      "sha1": "75481c2e5550a457b76f18451f0869222bbe5d67",
+      "size": "1005",
+      "format": "png"
+    },
+    {
+      "id": "10",
+      "parent": "genre",
+      "subparent": "Action",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=10&media=logo-monochrome",
+      "crc": "312d2970",
+      "md5": "6f825613fcbc97bbf12de578a3751c44",
+      "sha1": "6d6cedcb355020d93e9e008c7168b8f69058e248",
+      "size": "7900",
+      "format": "png"
+    },
+    {
+      "id": "10",
+      "parent": "genre",
+      "subparent": "Action",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=10&media=logo-monochrome-svg",
+      "crc": "ca0ce2f6",
+      "md5": "21b6864790e6882c27f2840c5cb4e34b",
+      "sha1": "fa7a7936d4648ce3782f6f35ae02b260713b56a3",
+      "size": "2943",
+      "format": "svg"
+    },
+    {
+      "id": "10",
+      "parent": "genre",
+      "subparent": "Action",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=10&media=background",
+      "crc": "9b190953",
+      "md5": "2cde12d443d2832716cdc501952a607c",
+      "sha1": "d4dfb3e81627f60f6a84889358e16c487b8903cd",
+      "size": "136840",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "12548",
+      "romsize": "113966",
+      "romfilename": "Devil Man (Japan) (T).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5A274586",
+      "rommd5": "FB35FC7BF98E5E6B52F541D9CCCF8FF1",
+      "romsha1": "AA96DCAAE08BFFA279C221FFDCAC211D65ED16DE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "105755",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "316864",
+      "romsize": "262160",
+      "romfilename": "Devil Man (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0BE5F3E3",
+      "rommd5": "AF82C9E7145712608C25FC11998A42B0",
+      "romsha1": "A13ABC649B4C56649CC29AF12CD161831AF8ADD9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "1",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "76041",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "135769",
+      "romsize": "262160",
+      "romfilename": "Devil Man (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0D327F0A",
+      "rommd5": "4C0253FA8363340B11B5DB88CFF69459",
+      "romsha1": "124E79FABB941F98DC439085BD8EAA1A1183921B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "54630",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1136181",
+      "romsize": "262160",
+      "romfilename": "Devil Man (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "55eb4188",
+      "rommd5": "40eb9ae726ff0603aeb7d93aadede66f",
+      "romsha1": "e5ef673229f8827143c9d46585073022259ca848",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20863",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113421",
+      "romsize": "113943",
+      "romfilename": "Devil Man.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "AF0BD663",
+      "rommd5": "31C3312DB74260F77267ECD5523483CF",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "15658",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "172925",
+      "romsize": "262144",
+      "romfilename": "Devil Man (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D1691028",
+      "rommd5": "DD8BEAE43DD3C25ED158C010D679F818",
+      "romsha1": "CE34B12A46AE8D4432D06F461342F729E8BE35E6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1937",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

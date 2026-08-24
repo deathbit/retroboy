@@ -1,0 +1,805 @@
+{
+  "id": "71498",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Sansuu 2 Nen - Keisan Game"
+    },
+    {
+      "region": "jp",
+      "text": "Sansuu 2 Nen : Keisan Game"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "611",
+    "text": "Tokyo Shoseki"
+  },
+  "developpeur": {
+    "id": "611",
+    "text": "Tokyo Shoseki"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "An educational game consisting of four different mini games. The minigames included are: Addition & Subtraction 1 - Players control an arrow inside a dungeon maze. Players can only exit the dungeon when they locate a treasure chest. While searching for th"
+    },
+    {
+      "langue": "fr",
+      "text": "Un jeu éducatif composé de quatre mini-jeux différents. Les mini-jeux inclus sont: Addition & Soustraction 1 - Les joueurs contrôlent une flèche dans un labyrinthe de donjons. Les joueurs peuvent seulement quitter le donjon lorsqu'ils trouvent un coffre au trésor."
+    },
+    {
+      "langue": "de",
+      "text": "Ein pädagogisches Spiel, das aus vier verschiedenen Minispielen besteht. Die enthaltenen Minispiele sind: Addition und Subtraktion 1: Die Spieler steuern einen Pfeil in einem Labyrinth von Dungeons. Spieler können den Kerker nur verlassen, wenn sie eine Schatztruhe finden."
+    },
+    {
+      "langue": "es",
+      "text": "Un juego educativo que consiste en cuatro minijuegos diferentes. Los minijuegos incluidos son: Suma y resta 1: los jugadores controlan una flecha en un laberinto de mazmorras. Los jugadores solo pueden abandonar la mazmorra cuando encuentran un cofre del tesoro."
+    },
+    {
+      "langue": "it",
+      "text": "Un gioco educativo composto da quattro diversi minigiochi. I minigiochi inclusi sono: Addizione e Sottrazione 1: I giocatori controllano una freccia in un labirinto di dungeon. I giocatori possono lasciare il dungeon solo quando trovano uno scrigno del tesoro."
+    },
+    {
+      "langue": "pt",
+      "text": "Um jogo educativo que consiste em quatro mini-jogos diferentes. Os minigames incluídos são: Adição e Subtração 1 - Os jogadores controlam uma flecha dentro de um labirinto de masmorra. Os jogadores só podem sair da masmorra quando localizarem uma arca do tesouro."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1986-04-01"
+    }
+  ],
+  "genres": [
+    {
+      "id": "30",
+      "nomcourt": "1100",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Educational"
+        },
+        {
+          "langue": "fr",
+          "text": "Ludo-Educatif"
+        },
+        {
+          "langue": "de",
+          "text": "Lernspiel"
+        },
+        {
+          "langue": "es",
+          "text": "Educacional"
+        },
+        {
+          "langue": "it",
+          "text": "Educativo"
+        },
+        {
+          "langue": "pt",
+          "text": "Educacional"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "7e7fec4e",
+      "md5": "7eb7d43184ccd7e3ea01c479f0405809",
+      "sha1": "9b6ed3521e492dc8d9ef46623a86288644687987",
+      "size": "2832",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=ss(jp)",
+      "region": "jp",
+      "crc": "a2bc63f1",
+      "md5": "0536d9003c9f45bca97a542d1a2a609c",
+      "sha1": "552c2e2e68d576b55511254933cff6d30c533c33",
+      "size": "1383",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=video",
+      "crc": "bd3c511b",
+      "md5": "5d6eae82f1d704b54b2d64d2c818e7a9",
+      "sha1": "ca50b5f052dc0a43990f2a5481e025f02edff7de",
+      "size": "1550517",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=video-normalized",
+      "crc": "8a899e9d",
+      "md5": "39c634244ae8f517b084bf66ff18b4b9",
+      "sha1": "edd8b7ebb5296c8bd23a77a843937d303cd83f15",
+      "size": "412733",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=steamgrid",
+      "crc": "0a4ddb55",
+      "md5": "4dea5323857a9e82756cebe7413243ad",
+      "sha1": "e5f591e2877651add8b8dcb21bc15061d97be06e",
+      "size": "30433",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=wheel(jp)",
+      "region": "jp",
+      "crc": "1c483154",
+      "md5": "2ea41db43d28672d7b2e6d368b153c7f",
+      "sha1": "b01d9bfdf896514d04ca6a73a3feb994fff0f573",
+      "size": "50656",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "7db5acdb",
+      "md5": "1a6850a55cf4b414b0eae9178e301ea7",
+      "sha1": "15dd8bfbae7daac345abeeafdc4cfb0224b1cb28",
+      "size": "124602",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "77c6a9ab",
+      "md5": "2fb5bba97108a0108fe29a8e21dc1d60",
+      "sha1": "f9c02fda73731bc19ed751d8e2be04aa71cbe502",
+      "size": "126184",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "ae14dda8",
+      "md5": "2a5f197e9db06627ea8bf55f8afe0da5",
+      "sha1": "395911f994fbf0ac0ec5afad78466f9a561143ad",
+      "size": "503957",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "b335e63f",
+      "md5": "ab4320276138270268ec2ddad2d809af",
+      "sha1": "76863b559a5642d7823a0efa9033568202e7ece3",
+      "size": "83172",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "a41fe4ab",
+      "md5": "312c41f4d620ab6adc9280746ddcf124",
+      "sha1": "550f343d4f772f2513f46d0c3cdd6c88f576219e",
+      "size": "368438",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "b077f9e0",
+      "md5": "6c44855340844bcd245c25594ac14892",
+      "sha1": "54481c4dcb69140d46793a47b50d17cb24ee907a",
+      "size": "115282",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "f1a151b5",
+      "md5": "281d9f2b60025e57bb9d26485f763dd3",
+      "sha1": "28c2ab5fee317ca01fc9c7a1c6d6ff60e72a5f8c",
+      "size": "105424",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "46aabd19",
+      "md5": "0eacd93b489490ed7fa291b58c297fe0",
+      "sha1": "a4b68b5e52372f3fbab99ee22a81201d512775e6",
+      "size": "26907",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "2c233099",
+      "md5": "b9e342717dd4bdd232b6c37a160c4d74",
+      "sha1": "28fda7807e7152430c567e19bda0dabd747aa8da",
+      "size": "642368",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "ef28438f",
+      "md5": "0191e3cfc5369319ab5bea1dd645a181",
+      "sha1": "b39fe5fbc7c08219e749b8687518c76e24c25fa8",
+      "size": "115613",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "5723e08c",
+      "md5": "c0fa16bf8cdbca67372049b41859ca6e",
+      "sha1": "6c7ad0637c17db8d1078e82246d4ef5082429ea8",
+      "size": "1194001",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "45574dea",
+      "md5": "8743057a69002bc7cde918c7bcd4e025",
+      "sha1": "acd782cf239ab7e062f43f3ec20672e5ea1eeba3",
+      "size": "269969",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "b0b181ec",
+      "md5": "6a5c3d20525c3b87a6d3b43150d95285",
+      "sha1": "f05186df70000f3b62b83cd0fcb2018d9111207e",
+      "size": "273927",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "26002a7b",
+      "md5": "016589d11bb3e9c5b97cdf96ff75ce8d",
+      "sha1": "a15d6326bd4bc3bf8f4ed04a23a875aa1c16f205",
+      "size": "118478",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=manuel(jp)",
+      "region": "jp",
+      "crc": "3899c16b",
+      "md5": "1b2567484f0041f7f91e0df56ea70101",
+      "sha1": "adad1225b87942f3f4ac7076b407349210e868aa",
+      "size": "1807817",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "6237547c",
+      "md5": "b0623cc5cb07d6c6efef1fd24f56420f",
+      "sha1": "537d22479a3d4e91446df670154ea341b20339a3",
+      "size": "297388",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "816436fc",
+      "md5": "2fa856ee002d5023c445e70a65bc785c",
+      "sha1": "47d02c7b0c3cf0c8dc3d7d09ae486ab17680edbc",
+      "size": "294569",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "9e240167",
+      "md5": "943f0ef25ae55700a03ce45be9a70987",
+      "sha1": "831dc2ff5dea6fb8bdfb65b5a0165c5d6b884161",
+      "size": "340161",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "ec138eb0",
+      "md5": "96bf6359857a5b4143aeef4400d2696a",
+      "sha1": "5f2accd275bbb6c059af95830719d431ce3d4bc9",
+      "size": "268236",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "9e240167",
+      "md5": "943f0ef25ae55700a03ce45be9a70987",
+      "sha1": "831dc2ff5dea6fb8bdfb65b5a0165c5d6b884161",
+      "size": "340161",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "53a7f20e",
+      "md5": "def961d1b358034f0aa9a016954e78bb",
+      "sha1": "59c8df85db96de077fb22f298ec94b6cc9b079b7",
+      "size": "500083",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "3dc58cd9",
+      "md5": "b53236832236f8a4fcb100f3f5ffb66e",
+      "sha1": "4fb849c61b663bad4fa5b40c7259c885c4dc07db",
+      "size": "429377",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71498&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "53a7f20e",
+      "md5": "def961d1b358034f0aa9a016954e78bb",
+      "sha1": "59c8df85db96de077fb22f298ec94b6cc9b079b7",
+      "size": "500083",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=611&media=wheel",
+      "crc": "7b3a0ef5",
+      "md5": "9c80ac7084ec9606c4e3ed8295f3ca79",
+      "sha1": "87c140b271d4e4683d325dcee4b48b0fe06fa49a",
+      "size": "31753",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=611&media=wheel",
+      "crc": "7b3a0ef5",
+      "md5": "9c80ac7084ec9606c4e3ed8295f3ca79",
+      "sha1": "87c140b271d4e4683d325dcee4b48b0fe06fa49a",
+      "size": "31753",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=pictoliste",
+      "crc": "e28550e1",
+      "md5": "e337a914d16f2371caf8ca01f58c1f72",
+      "sha1": "577bcb723200a3267b49908fb79928567e894f48",
+      "size": "843",
+      "format": "png"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=logo-monochrome",
+      "crc": "de92ed5c",
+      "md5": "7b89241db8d1857b59510d6cf99ea656",
+      "sha1": "d2176dbfce2daaefd8e06167b0e528d612eaf84f",
+      "size": "6893",
+      "format": "png"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=logo-monochrome-svg",
+      "crc": "11bcb2d1",
+      "md5": "6c8be079904348e944823207aa5d621e",
+      "sha1": "2465ea75ec1bbcb7abd6bec24522837b56fbecd0",
+      "size": "2464",
+      "format": "svg"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=background",
+      "crc": "b2f1fe8f",
+      "md5": "97e5055083b20b96fcfa1b1ebe05b602",
+      "sha1": "f6e720d79074f5987f558221f7bf19714da06423",
+      "size": "319073",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "13321",
+      "romsize": "24709",
+      "romfilename": "Sansuu 2 Nen - Keisan Game (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3A728687",
+      "rommd5": "4A7F83CA69E1EAD845984D7D3568C7C0",
+      "romsha1": "A350FD5B783FEEC83CDA13709ABD0737D9302714",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "82376",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "137179",
+      "romsize": "40976",
+      "romfilename": "Sansuu 2 Nen - Keisan Game (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F1D7D6D4",
+      "rommd5": "6A485C362352740CBE2E998D75CC03DA",
+      "romsha1": "93EF4E68BB33310618A0235C02219B851F1A81CD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "51824",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "832086",
+      "romsize": "24493",
+      "romfilename": "Sansuu 2 Nen - Keisan Game (Japan) (T).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A4A98252",
+      "rommd5": "394C5A073FE93AA21233E0DE356AA258",
+      "romsha1": "6DE0B9E1055E8B9A03A901A3F5C810CCB98D5970",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "27382",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1143270",
+      "romsize": "40976",
+      "romfilename": "Sansuu 2 Nen - Keisan Game (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6f551eeb",
+      "rommd5": "f407916cbfde6b970b859f5d55df47ec",
+      "romsha1": "09870979f5edc9f6b51523f906026c2ae887c502",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18473",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174374",
+      "romsize": "40960",
+      "romfilename": "Sansuu 2 Nen - Keisan Game (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "892CBBC2",
+      "rommd5": "B2FF9F5CFBB345183034989F33E30554",
+      "romsha1": "0C4E40E7BDD45C51BFBFEFA7CB75E375B78833FB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1580",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114870",
+      "romsize": "24687",
+      "romfilename": "Sansuu 2 Nen - Keisan Game (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7FDF22BD",
+      "rommd5": "81FB2CBFAEA8CE4F5C370EB2C0CCBD14",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "132",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1418036",
+      "romsize": "40976",
+      "romfilename": "Elementary Math Grade 2 - Improvement Game (Japan) [T-En by Pikachumanson v1.0] [n].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "BA57B6A7",
+      "rommd5": "019A8F75D44C6990A7547AF2521D8026",
+      "romsha1": "248FB85A774186903C29DD9DE2D859932EC9A785",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "72"
+    }
+  ]
+}

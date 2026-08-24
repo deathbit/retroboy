@@ -1,0 +1,789 @@
+{
+  "id": "88389",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Kagerou Densetsu"
+    },
+    {
+      "region": "jp",
+      "text": "Kagerou Densetsu"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "1630",
+    "text": "Pixel"
+  },
+  "developpeur": {
+    "id": "8838",
+    "text": "ITL"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Kagerou Densetsu is an RPG adventure with side-scrolling battles where players take control of 4 ninja on a journey to defeat the leader of four daevas threatening the world."
+    },
+    {
+      "langue": "fr",
+      "text": "Kagerou Densetsu est une aventure RPG avec des batailles à défilement horizontal où les joueurs prennent le contrôle de 4 ninja pour vaincre le leader des quatre daevas qui menacent le monde."
+    },
+    {
+      "langue": "de",
+      "text": "Kagerou Densetsu ist ein Rollenspiel-Abenteuer mit Side-Scrolling-Schlachten, in dem die Spieler die Kontrolle über 4 Ninjas auf einer Reise übernehmen, um den Anführer von vier Daevas zu besiegen, die die Welt bedrohen."
+    },
+    {
+      "langue": "es",
+      "text": "Kagerou Densetsu es una aventura de rol con batallas de desplazamiento lateral en la que los jugadores toman el control de 4 ninjas en un viaje para derrotar al líder de cuatro daevas que amenazan al mundo."
+    },
+    {
+      "langue": "it",
+      "text": "Kagerou Densetsu è un'avventura RPG con battaglie a scorrimento laterale in cui i giocatori prendono il controllo di 4 ninja in un viaggio per sconfiggere il leader di quattro daeva che minacciano il mondo."
+    },
+    {
+      "langue": "pt",
+      "text": "Kagerou Densetsu é uma aventura de RPG com batalhas de rolagem lateral onde os jogadores assumem o controle de 4 ninjas em uma jornada para derrotar o líder de quatro daevas que ameaçam o mundo."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1990-05-11"
+    }
+  ],
+  "genres": [
+    {
+      "id": "8",
+      "nomcourt": "0300",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Role Playing Game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de rôles"
+        },
+        {
+          "langue": "de",
+          "text": "Rollenspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de Rol"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di Ruolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogos de RPG"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "e2fc2fd5",
+      "md5": "339cdf8970d29f0708c928cadf7692db",
+      "sha1": "a3ef1c649426fb142e576c9dea7c75ad8166faba",
+      "size": "3288",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=ss(jp)",
+      "region": "jp",
+      "crc": "2a6fdaba",
+      "md5": "3127bafef5d80b68f80e8c14c2190e3d",
+      "sha1": "b21d4909741c53c321df5346fd8a3fb8e7392588",
+      "size": "4984",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=video",
+      "crc": "e2c9d2c8",
+      "md5": "5c0cb1670593da5299addca8b7b31cbf",
+      "sha1": "27db117367ef521ac85f039596dc832540e0ed85",
+      "size": "10728188",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=video-normalized",
+      "crc": "c854cf7c",
+      "md5": "00097054edf924637377c2c8b41ccc85",
+      "sha1": "336c16dd5f7d1b9f338594ebf7167bb9fd0061b7",
+      "size": "4629206",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=steamgrid",
+      "crc": "3b1dbaa2",
+      "md5": "439a720bf07ce2262fe6745c3a725eb4",
+      "sha1": "14d07b0e79b7748b0b699094326562a3a6006d6c",
+      "size": "40365",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=wheel(jp)",
+      "region": "jp",
+      "crc": "01c1c58e",
+      "md5": "d24785aa6e6f75bb410fa0310d59cf19",
+      "sha1": "ceeb46aa0fa7a2b3a81811e4465fc427267f2a48",
+      "size": "111346",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "81ac543b",
+      "md5": "69e9737733d0ada62251fd94f590f88e",
+      "sha1": "6c120a0695c37b2fb3daea06f0a7399951cc1ba2",
+      "size": "168830",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "16c5bdf7",
+      "md5": "ebd56cffc3c05f4ae46dec5402e2ef2b",
+      "sha1": "4967c712744f0b4c5edadfb13f95b2c99fc6d627",
+      "size": "171663",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "58f0b1e3",
+      "md5": "9fc0dc9323f192a195a032b65c23a970",
+      "sha1": "cb5ba9169e0479f4048e82cd02a4014d2eea5ae6",
+      "size": "552099",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "2f432aba",
+      "md5": "23703b10541a4741a62a9bc8b82acf24",
+      "sha1": "1f955e0444556d97ee4872d2ed64af3a5bb43643",
+      "size": "95591",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "b76c9bff",
+      "md5": "5592f9e9d7b968f5fdc2fd56a9996bfa",
+      "sha1": "0f9e66d8e3ba4c67f80c742ed0bb78ac44cdb039",
+      "size": "469908",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "96591cda",
+      "md5": "8b0d49bb25a07661e29592e3beeb6ae9",
+      "sha1": "a4676c02d866ceb26038a81190ed837032fc77f8",
+      "size": "198367",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "3fc82566",
+      "md5": "a58cca061394e4e9303a76f8f768080c",
+      "sha1": "9ea43b5f016f1dfa857fafce3e971ae9d59a151e",
+      "size": "128506",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "956046f4",
+      "md5": "3148e724dd5936fea3cfcb89732ce992",
+      "sha1": "fcd5546d581bc422efe031704ef31c3ba1ef9f53",
+      "size": "36213",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "36178cd4",
+      "md5": "0229d1ee8b3fbe43ee9886eaef5875ba",
+      "sha1": "f58278bc73c5dcca1903692d6de9182df010f2a1",
+      "size": "674542",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "c14b9e93",
+      "md5": "5fcebce2cb4230782047c461508c27d1",
+      "sha1": "e54493106c4cb962bb4c69ca1747ea2a05cec486",
+      "size": "192663",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "1038b132",
+      "md5": "0a1fdf8be0e3fae05b5027e4a95c0b65",
+      "sha1": "d4e86701291dc075eea5a27f34c91987ab043e86",
+      "size": "1235383",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "7668248d",
+      "md5": "d492dae4775db2bfbce12ac6df0f8844",
+      "sha1": "2dac1f62c9868c897e7602bbc0f7f005021425d8",
+      "size": "444268",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "f79bf2ad",
+      "md5": "0228828329f24f8088b91dc5f8512c0b",
+      "sha1": "1248583e6eacc7501a4e3944ae84b9eb393fe661",
+      "size": "285557",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "b28efd16",
+      "md5": "9cb573d76c6030de91e25b99be70a362",
+      "sha1": "f8a30ba1f8bf406052248cf8e1e46cfbcd36c8c0",
+      "size": "193893",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=manuel(jp)",
+      "region": "jp",
+      "crc": "d09d9957",
+      "md5": "024feda09a9267301ec9a4327cda6240",
+      "sha1": "ffec1651b306f2330c91697c8adc0494743d0b0d",
+      "size": "518338",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "0db64aeb",
+      "md5": "cdb52f36dcad97266f135bf49232cb8d",
+      "sha1": "a90e53bfe36e90271584fab2de38149b34ea9111",
+      "size": "251109",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "b11a8c47",
+      "md5": "5f67b0c7242a3c0bd65e44f027bd1699",
+      "sha1": "aa08b6c6ec134f1c907307e63fd6f025f60eedfa",
+      "size": "301496",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "06a2abba",
+      "md5": "9f2e2a9292cafb58e75efe7638430139",
+      "sha1": "f56b92dda19347c301e946f751d6130aae735045",
+      "size": "430276",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "a456c2eb",
+      "md5": "1b4adf5ee2152c70faae01b473b88675",
+      "sha1": "1b50e5561f30f99943a69100d2cc0fb362ad232f",
+      "size": "384783",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "06a2abba",
+      "md5": "9f2e2a9292cafb58e75efe7638430139",
+      "sha1": "f56b92dda19347c301e946f751d6130aae735045",
+      "size": "430276",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "b9cb3507",
+      "md5": "a65a89554088a3eb8e7063603bebb09c",
+      "sha1": "85a2cf3f35ba3e45176f4234b89fa8c467a73efa",
+      "size": "640438",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "3c2b2994",
+      "md5": "b0208a69adc70134950cee74e31e3f66",
+      "sha1": "0586c9cb4b7bb1bb3612df05c9705665b34a856f",
+      "size": "597256",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88389&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "b9cb3507",
+      "md5": "a65a89554088a3eb8e7063603bebb09c",
+      "sha1": "85a2cf3f35ba3e45176f4234b89fa8c467a73efa",
+      "size": "640438",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=pictoliste",
+      "crc": "95641466",
+      "md5": "794cfd972f1fc80058ac4a3b48644c49",
+      "sha1": "065a70a4f3307442d52de0927234ab023e94fa99",
+      "size": "997",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome",
+      "crc": "99338559",
+      "md5": "6d99859437bd123f6dede69b6866b4f4",
+      "sha1": "1b1963a801d9801b0ad107f8a15ef9acf5541bcb",
+      "size": "11154",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome-svg",
+      "crc": "9659d140",
+      "md5": "071309467ec61ec2b037f89af26780cd",
+      "sha1": "dbf9fad14dfc4a4239585b4aae80a9edaf6d4ae3",
+      "size": "2418",
+      "format": "svg"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=background",
+      "crc": "10d4d476",
+      "md5": "3eb9bd04afa99e6bddcdca913ee8d53b",
+      "sha1": "e35ce257c961fcfaca398e9dbab607bbd8bf2aa6",
+      "size": "353085",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "12909",
+      "romsize": "124697",
+      "romfilename": "Kagerou Densetsu (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "13B26DA5",
+      "rommd5": "96BE2E290907FA364F00CF0E08D888B9",
+      "romsha1": "FAFEFA57F52D547BC76875B28852113AC51522C2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "41509",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "136399",
+      "romsize": "262160",
+      "romfilename": "Kagerou Densetsu (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D7CDF22A",
+      "rommd5": "BDF3B34F04AB299F5AE091B765AB19CC",
+      "romsha1": "24DC74319438CA604DE177789A3F683E33C8DBAB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "36056",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "645672",
+      "romsize": "262160",
+      "romfilename": "Kagerou Densetsu (J).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "205631F7",
+      "rommd5": "559C60E9045E27A4EF150672700305DE",
+      "romsha1": "FDA32A7270A5AF5AFB81BF52EE1BF780A97FA302",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "22165",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1139229",
+      "romsize": "262160",
+      "romfilename": "Kagerou Densetsu (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "b216457c",
+      "rommd5": "f38f170b2a911884b3cdcbaf2e35623f",
+      "romsha1": "0823418ba06fe5f557e80a2c7bd89500dcd02dd1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19187",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173565",
+      "romsize": "262144",
+      "romfilename": "Kagerou Densetsu (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C9187B43",
+      "rommd5": "95F293BBD42CFEA1B7A9B2438B1DCD03",
+      "romsha1": "055590BD669F7218B9BA737127AC45CF54C7F297",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1610",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114063",
+      "romsize": "124675",
+      "romfilename": "Kagerou Densetsu (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "209000E4",
+      "rommd5": "99125543422E94BE1EDF201D7599B287",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "128",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

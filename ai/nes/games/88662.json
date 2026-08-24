@@ -1,0 +1,731 @@
+{
+  "id": "88662",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Shounen Ashibe - Nepal Daibouken No Maki"
+    },
+    {
+      "region": "jp",
+      "text": "Shounen Ashibe : Nepal Daibouken no Maki"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "79",
+    "text": "Takara"
+  },
+  "developpeur": {
+    "id": "2913",
+    "text": "Advance Communication Company"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "The main character, Asibe, takes Goma-chan on a journey to meet Sugao-kun in Nepal, in a command-choice adventure that is divided into three chapters of a single storyline."
+    },
+    {
+      "langue": "fr",
+      "text": "Le personnage principal, Asibe, emmène Goma-chan dans un voyage pour rencontrer Sugao-kun au Népal, dans une aventure de type choix-commandes divisée en trois chapitres d'une seule histoire."
+    },
+    {
+      "langue": "de",
+      "text": "Die Hauptfigur Asibe nimmt Goma-chan mit auf eine Reise, um Sugao-kun in Nepal zu treffen, in einem Command-Choice-Abenteuer, das in drei Kapitel einer einzigen Handlung unterteilt ist."
+    },
+    {
+      "langue": "es",
+      "text": "El personaje principal, Asibe, lleva a Goma-chan en un viaje para conocer a Sugao-kun en Nepal, en una aventura de elección de comandos que se divide en tres capítulos de una misma historia."
+    },
+    {
+      "langue": "it",
+      "text": "Il personaggio principale, Asibe, accompagna Goma-chan in un viaggio per incontrare Sugao-kun in Nepal, in un'avventura a scelta divisa in tre capitoli di un'unica trama."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1991-11-15"
+    }
+  ],
+  "genres": [
+    {
+      "id": "13",
+      "nomcourt": "0200",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Adventure"
+        },
+        {
+          "langue": "fr",
+          "text": "Aventure"
+        },
+        {
+          "langue": "de",
+          "text": "Abenteuer"
+        },
+        {
+          "langue": "es",
+          "text": "Aventura"
+        },
+        {
+          "langue": "it",
+          "text": "Avventura"
+        },
+        {
+          "langue": "pt",
+          "text": "Aventura"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "7d294c2a",
+      "md5": "bda00131fbaddaeb09b40d8307170614",
+      "sha1": "6b841ef664d9dabed28f9357d0bc36487e1f410f",
+      "size": "3368",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=ss(jp)",
+      "region": "jp",
+      "crc": "0d871610",
+      "md5": "ec6d25c9a64268629af36d771cc0c644",
+      "sha1": "c5cb0edd2886e3f2b113878ba77a7dd7372d9c73",
+      "size": "8327",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=video",
+      "crc": "601d88fd",
+      "md5": "1076afc55724aeab4f3920e49d7ce348",
+      "sha1": "71ceec578b6d1e78f2eae180cdc231ad7c40d1e3",
+      "size": "1771858",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=video-normalized",
+      "crc": "86dfbdbd",
+      "md5": "f6fd384f57763380c5144838c4e3c451",
+      "sha1": "b794cf9a40fab2277a20413409a4c91576a4d8fe",
+      "size": "464040",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=steamgrid",
+      "crc": "070d7d5c",
+      "md5": "a2ec3e5388650b6a956396b91572ad22",
+      "sha1": "ce946a2a00576ea228809a0f0cf49a24bf98017f",
+      "size": "29830",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=wheel(jp)",
+      "region": "jp",
+      "crc": "55412da6",
+      "md5": "5de68d9e2fe0f46fe67269b37866e971",
+      "sha1": "7b9c8affbfc05ed1873b065b492216dfb9f24a75",
+      "size": "57696",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "1bcd6f22",
+      "md5": "5a43d5c641b0d5fb005ecd7d4d02a8b6",
+      "sha1": "b12150ac3c0b9e53164d081e181b19091ea19ee3",
+      "size": "140252",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "b0a80a71",
+      "md5": "576b58828e3a9816e3c6b207d033759f",
+      "sha1": "5eddfdee486eeb4efd11f27db4235ea4b0c24c0d",
+      "size": "141357",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "70daa360",
+      "md5": "1c5229ed7f6a69454c0e75e05adbd344",
+      "sha1": "9319007aaac63cf30f3963fc89f43af824d8d654",
+      "size": "508661",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "3e6654f6",
+      "md5": "c6f73c0d9a49e9f1192f699b06745bea",
+      "sha1": "d8c5e44d388fdd144d99944f098e4ad2abf0b50a",
+      "size": "84749",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "254dca35",
+      "md5": "dec36dd3d7e89b1118e32bca1502f3bf",
+      "sha1": "012f397b77c5a51a4f083b0505d7a5c64838e2ba",
+      "size": "289288",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "f49f671b",
+      "md5": "9533180dbd8c4d7dbe450984b75da717",
+      "sha1": "36e89abc12ae8272e98e1cc5b7bfa75a12836943",
+      "size": "116852",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "1c54be39",
+      "md5": "fe771b005a79983f2ec3b176544e107b",
+      "sha1": "95693b3b7638c925879014ad054505879fd8c97e",
+      "size": "132285",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "fbba6f87",
+      "md5": "62140b98a3cd43e2951346624e202cb1",
+      "sha1": "4eb8bf75431b4d1c5d16b11a8e0a10553086a764",
+      "size": "29969",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "26e5db6b",
+      "md5": "3f8c65e4e226596e463d443c16eb204d",
+      "sha1": "d46c59b469f699c94e313225823edefb7d03cb9d",
+      "size": "114161",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "66af432a",
+      "md5": "9a886bacf15a2e6e5348ee477b845d8a",
+      "sha1": "4547dfbbcbfbd81edac2e7a3994567e4b65d6a6d",
+      "size": "121796",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "5776a625",
+      "md5": "eb9cb4e748ffc1ae058273d0fd8677dd",
+      "sha1": "02e471c66b18014e36d63f2384cdcde9e8e2c270",
+      "size": "1195342",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "00e0b16c",
+      "md5": "54b7f94ee58a83183013c76e5fc39ca0",
+      "sha1": "25fce11b5f1e8fd662a538266df0d873b07fcf53",
+      "size": "274492",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "cc3b81f0",
+      "md5": "78748fb6f2244f2e13e72b90e5487c5c",
+      "sha1": "9f042612c03390ccca6fc2f72800e99b603c182a",
+      "size": "322632",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "7ddc6272",
+      "md5": "f85b53bbc403a808ed489cc59f23f298",
+      "sha1": "ad5892e56423553749c2943be14246c68dd83cc6",
+      "size": "114635",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=manuel(jp)",
+      "region": "jp",
+      "crc": "67b83ca6",
+      "md5": "7247ad17983b04ca1c87e3d3f43c8470",
+      "sha1": "d4d249a46b9cf31612331e14c57cb5b788ae0948",
+      "size": "878353",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "d11ba724",
+      "md5": "60317f67048f8a53a76744efa389f195",
+      "sha1": "806acb6b0b7887ede2675b44faac24a38cd7750d",
+      "size": "268381",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "3b8478d9",
+      "md5": "5d794ccf8f209fc85e71872021a6ff3e",
+      "sha1": "f31d39d750db6c022cefa931a3a55446105b856f",
+      "size": "248529",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "c3bab105",
+      "md5": "521531f55a083d2c851ab09e1bf1f40e",
+      "sha1": "38221391584d9f3126a1dd43f310cdecb68260cb",
+      "size": "317159",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "ac27066b",
+      "md5": "0ed53363a5d06fe1901e20f64f9953f7",
+      "sha1": "07a950a16456a87b5495db82f2b67877c5dd9ff7",
+      "size": "207192",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "c3bab105",
+      "md5": "521531f55a083d2c851ab09e1bf1f40e",
+      "sha1": "38221391584d9f3126a1dd43f310cdecb68260cb",
+      "size": "317159",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "5d0ee389",
+      "md5": "dd875fbe8244164c15db1b8c78976435",
+      "sha1": "868e0faf30f9109b09afe46a85e98b602d54e415",
+      "size": "494045",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "2d3ab483",
+      "md5": "b7b53fe93fdc432b6f8e54c7d253331e",
+      "sha1": "5bf3f38113d80a61b6753643f29b583ed13cf625",
+      "size": "366944",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88662&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "5d0ee389",
+      "md5": "dd875fbe8244164c15db1b8c78976435",
+      "sha1": "868e0faf30f9109b09afe46a85e98b602d54e415",
+      "size": "494045",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=79&media=logo-monochrome",
+      "crc": "e3dd705f",
+      "md5": "b0da1ebaaa2fad1bb07010d3e93d7b4e",
+      "sha1": "52e6e358dd61cb879f7bc6f9dd74af01b5faeaf3",
+      "size": "34467",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=79&media=wheel",
+      "crc": "7424fc61",
+      "md5": "30a081e1d770f0cdd929d2b7d180b4c5",
+      "sha1": "e2a94810464a6e6276ca3c0f973a3e0d523c11ca",
+      "size": "25254",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=pictoliste",
+      "crc": "8110c97e",
+      "md5": "3ae29e736d50a81e950bc09995eef920",
+      "sha1": "684567ae8537e5394d8335cfbcdbe65336b63042",
+      "size": "908",
+      "format": "png"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=logo-monochrome",
+      "crc": "7d6f79cd",
+      "md5": "29fe47711b1700461adb943b75e243c6",
+      "sha1": "7ff3b47680c560229f2c79b04e36633945f1076b",
+      "size": "9191",
+      "format": "png"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=logo-monochrome-svg",
+      "crc": "5da7342f",
+      "md5": "c6c487d7b83f59704d60dc3db9aeb738",
+      "sha1": "99eb7921f5b9df09c257df3eee61f97f786e4a89",
+      "size": "4852",
+      "format": "svg"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=background",
+      "crc": "b7f54e2e",
+      "md5": "5c9ff45078054d25bb6fc33154c1be54",
+      "sha1": "3fbc535b5792ae9152e00219e8b84fee41f945ee",
+      "size": "275320",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "137257",
+      "romsize": "262160",
+      "romfilename": "Shounen Ashibe - Nepal Daibouken no Maki (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2F12247A",
+      "rommd5": "9362AAAF7C4C9C3E97B1ECA168F2AE25",
+      "romsha1": "2C83ABCFE4D3301D7E054F040F03493E7A0E64BB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "67427",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "13376",
+      "romsize": "130942",
+      "romfilename": "Shounen Ashibe - Nepal Daibouken no Maki (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "255FE1BF",
+      "rommd5": "9275515F6EF83A19A13ABFD67D583CBA",
+      "romsha1": "FF27156D025E938CD557CE9E67C567C5D4838B43",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "43865",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1143570",
+      "romsize": "262160",
+      "romfilename": "Shounen Ashibe - Nepal Daibouken no Maki (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4ac9932c",
+      "rommd5": "57c78801e041ff8fb25db763082406b7",
+      "romsha1": "9822635820362e7d4d2f5e52659b65261a125491",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19027",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174451",
+      "romsize": "262144",
+      "romfilename": "Shounen Ashibe - Nepal Daibouken no Maki (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "31C7AD13",
+      "rommd5": "181F9AC93DCB60E7B03FEE2B8B6E1726",
+      "romsha1": "BF0B820725B2CBF8F888DCCAF034BB98E3A90DA2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1861",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114949",
+      "romsize": "130920",
+      "romfilename": "Shounen Ashibe - Nepal Daibouken no Maki (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1A55AAA2",
+      "rommd5": "BF6ABA2E828D1321A004B486F1B59C06",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "61",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

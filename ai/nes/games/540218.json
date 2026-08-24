@@ -1,0 +1,200 @@
+{
+  "id": "540218",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Commander Pango And The Pyramid Aliens Of Pyramidonia"
+    },
+    {
+      "region": "wor",
+      "text": "Commander Pango And The Pyramid Aliens Of Pyramidonia"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "51358",
+    "text": "itch.io"
+  },
+  "developpeur": {
+    "id": "113810",
+    "text": "Crazy duck games"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "The science vessel Archimedes was headed to a yet uncharted planet. Long range scanner drones found interesting structures on the surface. Because of these structures the planet was named “Pyramidonia”. \r\n\r\nBut now Mission Command has lost contact to the ship. We must assume the worst. It is now up to you, Commander Pango, to travel to Pyramidonia and search for the missing scientists.\r\n"
+    },
+    {
+      "langue": "es",
+      "text": "La nave científica Archimedes se dirigía a un planeta aún sin cartografiar. Los drones de escaneo de largo alcance encontraron estructuras interesantes en la superficie. Debido a estas estructuras, el planeta fue bautizado como “Pyramidonia”.\r\n\r\nPero ahora el Centro de Misión ha perdido el contacto con la nave. Debemos asumir lo peor. Ahora depende de ti, comandante Pango, viajar a Pyramidonia y buscar a los científicos desaparecidos."
+    }
+  ],
+  "genres": [
+    {
+      "id": "7",
+      "nomcourt": "0101",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=540218&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "f9665e82",
+      "md5": "87b276b38c22d0638841bb7b8b7c2eeb",
+      "sha1": "7324988cf2018d7a711ef7013c1db63ae3523070",
+      "size": "36923",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=540218&media=ss(wor)",
+      "region": "wor",
+      "crc": "3eacd1d6",
+      "md5": "ce717fb8a995abd5c4319780741765c4",
+      "sha1": "b8186083b97c85867697f31695f75412c39110f7",
+      "size": "12102",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=540218&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "e5e3a5d0",
+      "md5": "3d5fb4ff7b7a99d9cc0e179dda7b0940",
+      "sha1": "ff3ad1f3b8ef2faed9bb324f4f30eb760301bd05",
+      "size": "341621",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=540218&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "857b514a",
+      "md5": "1f34c0fea6aa054c67d672afeca9f292",
+      "sha1": "d4ee186000b54be2a8032fa32a1aebd11699506c",
+      "size": "373645",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=51358&media=logo-monochrome",
+      "crc": "e95b68ae",
+      "md5": "d1547205a1b1996fabaac27a7e2b62c3",
+      "sha1": "c960b676a8a62a336fce9ec1935406879faa67cf",
+      "size": "27826",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=pictoliste",
+      "crc": "d8329f23",
+      "md5": "ada4054a77e20edada97225e5c316116",
+      "sha1": "cfadf96438bde8ae1a8c3c52c85dd6768ba9b4c8",
+      "size": "855",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome",
+      "crc": "0f88a1ba",
+      "md5": "e8c818f5f59d48642afea18e5c545c15",
+      "sha1": "ef3857055eaae13785d2cab692edf9454b544be3",
+      "size": "9142",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome-svg",
+      "crc": "fa797dda",
+      "md5": "73a61640b94904834fdbfc7e043150e0",
+      "sha1": "3e5fe422339961df30bd70aa83e43671a1badce4",
+      "size": "4755",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=background",
+      "crc": "3d578fbf",
+      "md5": "62dbdbe08a5765fae2630d06e0f0ea38",
+      "sha1": "354ef394870af26f443863a29c846a07a20f47a0",
+      "size": "161158",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1404845",
+      "romsize": "524304",
+      "romfilename": "Commander Pango and the Pyramid Aliens of Pyramidonia (World) (Proto) (Aftermarket) (Unl).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "EAE7998C",
+      "rommd5": "46A6E057A81F6E3FD33943B36AEBE183",
+      "romsha1": "A3DCCC8D549E24692B62AB1C40FD9C2CDEB2317D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "34"
+    }
+  ]
+}

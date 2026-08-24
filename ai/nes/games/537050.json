@@ -1,0 +1,102 @@
+{
+  "id": "537050",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Egg World"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "developpeur": {
+    "id": "113195",
+    "text": "ratrogue"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Eat as many eggs as possible, but beware -- the more eggs you eat, the more demons that will spawn! Made for the One Hour Game Jam."
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2023"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=537050&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "6ccf7a4a",
+      "md5": "f1f6c705bec3804c2f23613acfbb4490",
+      "sha1": "1756f9f8e93469c82e42148ba9b1ca1b55992a7a",
+      "size": "953",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=537050&media=ss(wor)",
+      "region": "wor",
+      "crc": "4b8e2ef1",
+      "md5": "213ec0d1f1c8a1812cef8f2ec1ade0d9",
+      "sha1": "bac556b3ccbcbc0bae6e07c69c0d86cfd112f95b",
+      "size": "2602",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=537050&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "a936d394",
+      "md5": "4c801843f758a482b5dc8b57e2f95161",
+      "sha1": "23846ab01798ff91fc8028045357c420a25b1b80",
+      "size": "205075",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=537050&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "5c7ad23b",
+      "md5": "a1e8749d44b245a13e6598aba22731d0",
+      "sha1": "6f4d689da7f960afc05acd3ebba3bc2c803e5796",
+      "size": "315400",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1388567",
+      "romsize": "2649",
+      "romfilename": "Egg World (World) (Proto) (Aftermarket) (Unl).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "4f9bff66",
+      "rommd5": "cf6eb27fc78e26dcdb2ea1b8e6e3fb25",
+      "romsha1": "c40b444934bcaf7ef6ec1cfbf0b415070649f44b",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "223"
+    }
+  ]
+}

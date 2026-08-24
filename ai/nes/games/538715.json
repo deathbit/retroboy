@@ -1,0 +1,205 @@
+{
+  "id": "538715",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Zero Pong"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "114260",
+    "text": "Zero Soul"
+  },
+  "developpeur": {
+    "id": "114260",
+    "text": "Zero Soul"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "A small Pong game."
+    },
+    {
+      "langue": "fr",
+      "text": "Un petit jeu de Pong."
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2001-03-29"
+    }
+  ],
+  "genres": [
+    {
+      "id": "171",
+      "nomcourt": "0900",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Casual Game"
+        },
+        {
+          "langue": "fr",
+          "text": "Casual Game"
+        },
+        {
+          "langue": "de",
+          "text": "Gelegenheitsspiel"
+        },
+        {
+          "langue": "es",
+          "text": "Juego Casual"
+        },
+        {
+          "langue": "it",
+          "text": "Casual Game"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogo casual"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=538715&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "03d9c905",
+      "md5": "2940437de33e0a384ef37dc3f698ce52",
+      "sha1": "5199c83797aea1214d980122ed17e9f86fa09648",
+      "size": "1999",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=538715&media=ss(wor)",
+      "region": "wor",
+      "crc": "003cb5ba",
+      "md5": "e310a56278531c6bf7342c36fab2734f",
+      "sha1": "43aaaf0092f0f3387ae03cace86fca3f0b329b55",
+      "size": "822",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=538715&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "24d7be02",
+      "md5": "9c190f046dfaa74e8fdaf1093f0417b5",
+      "sha1": "3a4a787d164e1b8cb36e787ad91f3a82716ff566",
+      "size": "32377",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=538715&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "a1c1eb76",
+      "md5": "6d4d57f5f74a9dd149e67886e0c86a8c",
+      "sha1": "a4201e06b525c93eeca3e4c5463d741ed3a256cf",
+      "size": "101229",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "171",
+      "parent": "genre",
+      "subparent": "Casual Game",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=171&media=pictoliste",
+      "crc": "37ea2089",
+      "md5": "fb4dea56db275b8f9775721b2728ad62",
+      "sha1": "f89ed9e8f6297d12e9126daa4ab7823293690592",
+      "size": "865",
+      "format": "png"
+    },
+    {
+      "id": "171",
+      "parent": "genre",
+      "subparent": "Casual Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=171&media=logo-monochrome",
+      "crc": "9fc43e34",
+      "md5": "cd9cc9cc4452a1112ef495811a26f5eb",
+      "sha1": "3f2c41a3ae7c031079c3dd3e7fc89cb85c63f9da",
+      "size": "9521",
+      "format": "png"
+    },
+    {
+      "id": "171",
+      "parent": "genre",
+      "subparent": "Casual Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=171&media=logo-monochrome-svg",
+      "crc": "7d0730c6",
+      "md5": "76cca71a4cb011cb76f01abb1c4f65b3",
+      "sha1": "43c7a67368891ac36cf880dc46e4a5aaafe97b95",
+      "size": "2330",
+      "format": "svg"
+    },
+    {
+      "id": "171",
+      "parent": "genre",
+      "subparent": "Casual Game",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=171&media=background",
+      "crc": "b91d1f7f",
+      "md5": "5a615b15e7cdd9c897e57ff1740d479c",
+      "sha1": "6b28e82663433640162017e370a120616ac1b727",
+      "size": "311691",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1393946",
+      "romsize": "24592",
+      "romfilename": "Zero Pong (PD).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "FAF76E88",
+      "rommd5": "54FB29363075C9543FD6DEFB20BDAB1F",
+      "romsha1": "A19BC336EBC3F0CD672402DC27B4BD5E3F59A1C2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "170"
+    }
+  ]
+}

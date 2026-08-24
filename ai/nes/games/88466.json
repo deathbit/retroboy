@@ -1,0 +1,847 @@
+{
+  "id": "88466",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Wagyan Land 3"
+    },
+    {
+      "region": "jp",
+      "text": "Wagyan Land 3"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "6595",
+    "text": "Namcot"
+  },
+  "developpeur": {
+    "id": "68",
+    "text": "Namco"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "The game configuration changes from Wagan Land: the location changes from previous games to a space city where we meet the &quot; Hisopiso family &quot;, a distant relative of the Wagan family. Due to the change in physics in space, Wagan's jumping ability increases and there are stages where the player can walk upside down or under the roof. This installment also introduces a 2-player mode in which the player can control any of the main characters. The end of this game serves as a cliffhanger for the next installment, Super Wagan Land 2."
+    },
+    {
+      "langue": "de",
+      "text": "Wagan Land 3 é a terceira e última parcela da série Family Computer, lançada em 8 de dezembro de 1992. As configurações do jogo mudam de Wagan Land, a localização muda dos jogos anteriores, para uma cidade espacial onde está a &quot;família Hisopiso&quot;. Um parente distante da família Wagan. Devido à mudança na física do espaço, a habilidade de salto de Wagan aumenta e há fases em que o jogador pode andar de cabeça para baixo ou sob o teto. Esta edição também apresenta um modo para 2 jogadores, no qual o jogador pode controlar qualquer um dos personagens principais. O final deste jogo serve de suspense para a próxima edição, Super Wagan Land 2."
+    },
+    {
+      "langue": "es",
+      "text": "Wagan Land 3 es la tercera y última entrega de la serie para Family Computer, lanzada el 8 de diciembre de 1992. La configuración del juego cambia de Wagan Land, la localización cambia de los juegos anteriores, a una ciudad espacial donde se encuentra la &quot;familia Hisopiso&quot;. Un pariente lejano de la familia Wagan. Debido al cambio de física en el espacio, la capacidad de salto de Wagan aumenta y hay etapas en las que el jugador puede caminar boca abajo o bajo el techo. Esta entrega también introduce un modo de 2 jugadores en el que el jugador puede controlar a cualquiera de los personajes principales. El final de este juego sirve como un suspenso para la próxima entrega, Super Wagan Land 2."
+    },
+    {
+      "langue": "it",
+      "text": "La configurazione del gioco cambia da Wagan Land: la location cambia dai precedenti giochi in una città spaziale dove incontriamo la &quot;famiglia Hisopiso&quot;, un lontano parente della famiglia Wagan. A causa del cambiamento nella fisica nello spazio, l'abilità di salto di Wagan aumenta e ci sono fasi in cui il giocatore può camminare a testa in giù o sotto il tetto. Questa puntata introduce anche una modalità a 2 giocatori in cui il giocatore può controllare qualsiasi personaggio principale. La fine di questo gioco funge da cliffhanger per la prossima puntata, Super Wagan Land 2."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1992-12-08"
+    }
+  ],
+  "genres": [
+    {
+      "id": "7",
+      "nomcourt": "0101",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "210d1a73",
+      "md5": "cdcdd772da03e15187fe1929bef7b459",
+      "sha1": "801df041283a775e9a6a255fbc47221828400315",
+      "size": "4520",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=ss(jp)",
+      "region": "jp",
+      "crc": "191724c5",
+      "md5": "94bec8396a0ad77e15a37618836b4ba8",
+      "sha1": "dfd4e859bff9646148ba73dc864e6e455160475e",
+      "size": "3520",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=video",
+      "crc": "e58f6c1b",
+      "md5": "c1be19cd7fa41876227f490f28a192cd",
+      "sha1": "59f24d4bcc2ba3b29ac826e063b215b7570bf3cd",
+      "size": "4842405",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=video-normalized",
+      "crc": "4e1a5b8d",
+      "md5": "cb32cae8eb9a8f70f8c584e88bbe3ed0",
+      "sha1": "5d625401a6c6ee6a14bd90efa9e9844020622950",
+      "size": "1420467",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=steamgrid",
+      "crc": "6fa1fb67",
+      "md5": "54a798ead2c189c3c51e315220c4de8c",
+      "sha1": "579a7b7bb4873bd637c7e795e35ced4467a11c22",
+      "size": "29934",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=wheel(jp)",
+      "region": "jp",
+      "crc": "4ee3492d",
+      "md5": "1014e9f4d5b0740610bb25b803dcad25",
+      "sha1": "0d5c84ced23b04fc390eb024ac0261dc5486acce",
+      "size": "185783",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "975b261c",
+      "md5": "54b526c0953afbaea6e7590af06fb7f5",
+      "sha1": "93802560948231c9f0b0a74945525aa9e67af986",
+      "size": "154857",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "2151bd8e",
+      "md5": "02e57e203c60c75691f60cc981410160",
+      "sha1": "31ea3d13486a497bed28c5c66f7af84045345a37",
+      "size": "157633",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "ffe4e6f3",
+      "md5": "299ef3de4d4a79473d6618c47d0999e2",
+      "sha1": "048638320f8c7d8e4f94370e379c7c35dddc2fa2",
+      "size": "510901",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "7dd4c972",
+      "md5": "6151af16e190349799d6863967ced6a0",
+      "sha1": "42b9274bb9038f0b095f71d4e6ce455296e4f8e9",
+      "size": "85455",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "5c638006",
+      "md5": "8b4bf83bbdd34d9355231f12966ccc1a",
+      "sha1": "ccd4d6d29db41e6ac02bdc683b13cd6f1a217279",
+      "size": "705981",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "28dbb284",
+      "md5": "5d9e865323833c20d339d238d2fb10c8",
+      "sha1": "8e89a0d4c3d0d1a90891d01a6854f0cbcaf7549f",
+      "size": "155017",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "051591a9",
+      "md5": "7838c862218e41d2ea88642dbb37027f",
+      "sha1": "74d0de9c1c6084590ed16aaf4c904ce6fc8c75b5",
+      "size": "81757",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "ec51bf19",
+      "md5": "32ba66b5ee4f1658b22c8d09c159502e",
+      "sha1": "b5d135a328028b4d8c9dd6e279a183780d0be9b8",
+      "size": "29750",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "63074645",
+      "md5": "5dd713bb0399d470b977f397ecd4f292",
+      "sha1": "300fa855d787cf10aa4d746dc7c64ce467509a2b",
+      "size": "576988",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "556cc0dc",
+      "md5": "2e8d8f79442a1bb6d9c7c061663433f8",
+      "sha1": "b8b8d89afbc21a3d2926a7a4a68f48d20a122d95",
+      "size": "162579",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "548d519b",
+      "md5": "9c5ae3fbb6120d00f83049225c1a84c0",
+      "sha1": "046d9f04fd944db70fc8a9abb6d074930e7fac6f",
+      "size": "1368895",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "b745654a",
+      "md5": "5d71aea1e93e5d426c3a0550389e45f3",
+      "sha1": "fed1b53ba1d9affbc04a30985dcd4312b54f9596",
+      "size": "364684",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "4b1b17ba",
+      "md5": "abd45491d3f6464c69855a9578714ed6",
+      "sha1": "a002f3df59ffb9be0a037f1ef7c0f587f687b139",
+      "size": "344189",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "cf3b3fbe",
+      "md5": "705082d011f0b77721cdd10d9d999cb4",
+      "sha1": "4c5291d16cf26f58a2e42e687ea84fd34e774cfe",
+      "size": "134891",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=manuel(jp)",
+      "region": "jp",
+      "crc": "1401009f",
+      "md5": "7d4f2a60f9781dfe8eacc5ea2cfcee73",
+      "sha1": "7645bd859f13b010a7e7201796d16b061704ffd6",
+      "size": "2456084",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "5b8a87b3",
+      "md5": "9b31f0746ee8cd1e34921bfa66413bd7",
+      "sha1": "ff7ccd2c26204536c489ce6dd95bf351408c673b",
+      "size": "347754",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "7159ee63",
+      "md5": "21cbc103622678f440705b6b2b899dfa",
+      "sha1": "8616c11f2416bc11cedf95d0a0abe82c6fed65db",
+      "size": "484962",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "b6551b12",
+      "md5": "e791028efab0888de68866123a1f7b42",
+      "sha1": "70c900db6f2c1365296b7fecb4fd5327924e7b46",
+      "size": "434012",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "c8d3c52f",
+      "md5": "f45cea46736b1d5792b632a49ecef24f",
+      "sha1": "0a291ad35b778671c2cb113699980b0e20b5c7cb",
+      "size": "333117",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "b6551b12",
+      "md5": "e791028efab0888de68866123a1f7b42",
+      "sha1": "70c900db6f2c1365296b7fecb4fd5327924e7b46",
+      "size": "434012",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "3baa4f72",
+      "md5": "31dde590c2a63fdcd472a09fd028409b",
+      "sha1": "43d74f7c65f920bc0fa82a1349a4f8b7882670e9",
+      "size": "650218",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "6a6a664a",
+      "md5": "c97ad553ea4864b0d5d46aac7755aeab",
+      "sha1": "5dca5ebd0aebd16d03d62ba0c7c4f6d22994e84f",
+      "size": "556605",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88466&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "3baa4f72",
+      "md5": "31dde590c2a63fdcd472a09fd028409b",
+      "sha1": "43d74f7c65f920bc0fa82a1349a4f8b7882670e9",
+      "size": "650218",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=6595&media=logo-monochrome",
+      "crc": "61e6995e",
+      "md5": "a9f3e5b1e0128850d5f51ea85fa91c59",
+      "sha1": "881ac51f61f6c6c327f753d344ba55989ef42d42",
+      "size": "3566",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=6595&media=wheel",
+      "crc": "a058b955",
+      "md5": "8a60dd888f5bfc9b57eb92625deb82a6",
+      "sha1": "56be60f724fbaa4d141e04da8dd17a41bc097b5d",
+      "size": "8104",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=68&media=logo-monochrome",
+      "crc": "13e44082",
+      "md5": "6fac8e786e162ecf1fa4d1aa7800598d",
+      "sha1": "90ee2bfd6395415d879044be35fb3bf0c8cc876e",
+      "size": "3694",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=68&media=wheel",
+      "crc": "f69d13c4",
+      "md5": "795fc8ef819a74ba016af046345c433b",
+      "sha1": "d7e18276667f92174a406863e1933039a6cf9814",
+      "size": "22074",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=pictoliste",
+      "crc": "d8329f23",
+      "md5": "ada4054a77e20edada97225e5c316116",
+      "sha1": "cfadf96438bde8ae1a8c3c52c85dd6768ba9b4c8",
+      "size": "855",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome",
+      "crc": "0f88a1ba",
+      "md5": "e8c818f5f59d48642afea18e5c545c15",
+      "sha1": "ef3857055eaae13785d2cab692edf9454b544be3",
+      "size": "9142",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome-svg",
+      "crc": "fa797dda",
+      "md5": "73a61640b94904834fdbfc7e043150e0",
+      "sha1": "3e5fe422339961df30bd70aa83e43671a1badce4",
+      "size": "4755",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=background",
+      "crc": "3d578fbf",
+      "md5": "62dbdbe08a5765fae2630d06e0f0ea38",
+      "sha1": "354ef394870af26f443863a29c846a07a20f47a0",
+      "size": "161158",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "137728",
+      "romsize": "524304",
+      "romfilename": "Wagyan Land 3 (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7AFF2388",
+      "rommd5": "AE5C4207FE2D3BFCC3462696230CC6E1",
+      "romsha1": "BBC3086A477EF743B83300B015182BD3508C37D1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "56010",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "13609",
+      "romsize": "202711",
+      "romfilename": "Wagyan Land 3 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4FDE4C77",
+      "rommd5": "57169E6529C8AE78F7C437AC25BBC204",
+      "romsha1": "A7D886850F6BE70E16606E68E7995E5367318A97",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "54315",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "867590",
+      "romsize": "524304",
+      "romfilename": "0600 Waqiang World 3.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0929F1A7",
+      "rommd5": "0EF96311A304FAB911844698B36828EE",
+      "romsha1": "E2BD6E610378101AEC916BB087A961DA9CD552BA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "1",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "44024",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1145934",
+      "romsize": "524304",
+      "romfilename": "Wagyan Land 3 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6fe3b646",
+      "rommd5": "7ceecc2d35e235f746b612dcd87ba44f",
+      "romsha1": "26d948027274172c902f6a3c89aeab90c9c64754",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19608",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "868268",
+      "romsize": "524304",
+      "romfilename": "Wagan Land 3 (J) [h1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F93979A1",
+      "rommd5": "2C8A6CFFD4DDBFEBF3856484249299DA",
+      "romsha1": "64036FE35BC811F6A8C258D7BEEDA01E26BB96C2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "1",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12452",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174935",
+      "romsize": "524288",
+      "romfilename": "Wagyan Land 3 (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D323B806",
+      "rommd5": "9162786A869B583B0726669919840449",
+      "romsha1": "3D554F55411AB2DDD1A87E7583E643970DB784F3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1726",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,759 @@
+{
+  "id": "88321",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Happy Pairs"
+    },
+    {
+      "region": "tw",
+      "text": "Happy Pairs"
+    },
+    {
+      "region": "asi",
+      "text": "Happy Pairs"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "564",
+    "text": "Sachen"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Happy Pairs will introduce you to see the landscapes of 18 countries around the world. As soon as you finish each level of pairs match, the beautiful landscape of the country will come to your eyes. Match the same figures with the same colors in a certain time, as fast as possible, but be careful not to be tricked when attempting to make a matching selection. Wrong selection of the objects will prevent you from completing the map. Don't worry, you will surely make the proper choices and succeed!"
+    },
+    {
+      "langue": "fr",
+      "text": "Happy Pairs vous fera découvrir les paysages de 18 pays du monde entier. Dès que vous avez terminé chaque niveau de paires, vous verrez le magnifique paysage du pays. Associez les mêmes personnages avec les mêmes couleurs dans un certain délai, le plus rapidement possible, mais veillez à ne pas vous trompez en essayant de faire une sélection correspondante. Une mauvaise sélection des objets vous empêchera de compléter la carte. Ne vous inquiétez pas, vous ferez sûrement les bons choix et réussirez !"
+    },
+    {
+      "langue": "de",
+      "text": "Happy Pairs wird Ihnen vorstellen, die Landschaften von 18 Ländern auf der ganzen Welt zu sehen. Sobald Sie jedes Paar-Match abgeschlossen haben, wird Ihnen die schöne Landschaft des Landes in die Augen kommen. Ordnen Sie die gleichen Figuren in einer bestimmten Zeit so schnell wie möglich mit den gleichen Farben zu, aber achten Sie darauf, nicht ausgetrickst zu werden, wenn Sie versuchen, eine passende Auswahl zu treffen. Eine falsche Auswahl der Objekte verhindert, dass Sie die Karte vervollständigen. Keine Sorge, Sie werden sicherlich die richtigen Entscheidungen treffen und erfolgreich sein!"
+    },
+    {
+      "langue": "es",
+      "text": "Happy Pairs te presentará un modo para ver los paisajes de 18 países de todo el mundo. Tan pronto como termines cada nivel de parejas, el hermoso paisaje del país llegará a tus ojos. Haga coincidir las mismas figuras con los mismos colores en un tiempo determinado, lo más rápido posible, pero tenga cuidado de no ser engañado cuando intente hacer una selección coincidente. La selección incorrecta de los objetos le impedirá completar el mapa. No se preocupe, seguramente tomará las decisiones correctas y tendrá éxito."
+    },
+    {
+      "langue": "it",
+      "text": "Happy Pairs ti farà conoscere i paesaggi di 18 paesi in tutto il mondo. Non appena finisci ogni livello di partita a coppie, il bellissimo paesaggio del paese verrà ai tuoi occhi. Abbina le stesse figure con gli stessi colori in un certo tempo, il più velocemente possibile, ma fai attenzione a non farti ingannare quando tenti di effettuare una selezione corrispondente. La selezione errata degli oggetti ti impedirà di completare la mappa. Non preoccuparti, farai sicuramente le scelte giuste e avrai successo!"
+    },
+    {
+      "langue": "pt",
+      "text": "Happy Pairs fará com que você descubra as paisagens de 18 países ao redor do mundo. Assim que completar cada nível de pares, você verá a bela paisagem do país. Combine os mesmos personagens com as mesmas cores dentro de um determinado período de tempo, o mais rápido possível, mas tome cuidado para não errar ao tentar fazer uma seleção correspondente. A seleção incorreta de itens impedirá que você complete o mapa. Não se preocupe, você certamente fará as escolhas certas e terá sucesso!"
+    }
+  ],
+  "dates": [
+    {
+      "region": "tw",
+      "text": "1991"
+    },
+    {
+      "region": "asi",
+      "text": "1991"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "db936f06",
+      "md5": "d2d86e11f4982352a1dcf531811c16c9",
+      "sha1": "a1e57490134d2bbc9e446583a105dcb9575403f6",
+      "size": "84507",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=ss(jp)",
+      "region": "jp",
+      "crc": "a03bce6b",
+      "md5": "543be841a7a681a91c1f0805b0541a11",
+      "sha1": "7df4dbf55334965b873b403b4adf7eaf036185de",
+      "size": "2351",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=video",
+      "crc": "a3069071",
+      "md5": "c27ba82a2a70d46aca207b492cc9eec8",
+      "sha1": "55eef6367ece4fa8b2c9fbfd2ba8789d3da820ad",
+      "size": "2924207",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=video-normalized",
+      "crc": "c2d13d5f",
+      "md5": "9487897eeef09eddd17ec52f8cf28e8b",
+      "sha1": "9c521fadf2b1731353d6320ef5f915f6307fb4fd",
+      "size": "544808",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=steamgrid",
+      "crc": "11137253",
+      "md5": "a920a89a557019de5bbbada5553dab3d",
+      "sha1": "89a0496e693fdf710bfd8a47406ea15c03a1c502",
+      "size": "32712",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=wheel(jp)",
+      "region": "jp",
+      "crc": "a02df38a",
+      "md5": "df8f1b5a8ed4997b9da74c0e4bb73343",
+      "sha1": "e1b19be95f702994a0d5c80a100597a37543421d",
+      "size": "105559",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "bee6ef79",
+      "md5": "0ca0d7a034a4897fd63786db7c090c98",
+      "sha1": "94bd09e8ecb79bd90252208cb95da83e32ea0033",
+      "size": "115743",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "dbc8f9bb",
+      "md5": "779532e66b55eed2bd6a8327088051f3",
+      "sha1": "00c1dfdf1d40b5e5e4970768c3b3ee7df258f1c1",
+      "size": "117906",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "3cbd321e",
+      "md5": "8aede0f6d203f16d868e5470e8457147",
+      "sha1": "b9f7e3d2f7cb009a9e41a143652fe6fe575d62fc",
+      "size": "497000",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "7a9c46d9",
+      "md5": "64b6c832da3e3832b5f31247bebb6ac0",
+      "sha1": "4eff1b3dd00ea9726c42d6f30951c645ed82b5d6",
+      "size": "81341",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "a19410b4",
+      "md5": "c685f0e783c56e224d69a04bdeda7a0a",
+      "sha1": "84a367aa3558fdb091af938300135c7373c4f658",
+      "size": "610728",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "bade724f",
+      "md5": "600952adbd3484b99d4dc8ea954c4272",
+      "sha1": "a569a01eefbd84524c7a3238b043f9f911b598a3",
+      "size": "103866",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "b7e9b5f1",
+      "md5": "48e56713498d346cb7dd0148080aa14c",
+      "sha1": "414084f8741bf51fa3faa536c3790fa6c2deb77e",
+      "size": "28549",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "f64ee455",
+      "md5": "e8ed6cfa43664da55b03b8994b3c0cfe",
+      "sha1": "2a1b9ca1c0a0de472507547cd9485adb3dd3bdc5",
+      "size": "28800",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "5672a8fc",
+      "md5": "2e758978b7ea080b1c9d38cff9b63136",
+      "sha1": "b153f93ae2620a1d8c95da033ec54f3532d0245b",
+      "size": "539070",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "36632a5d",
+      "md5": "0b1430a8faa116878312456ce2e437c7",
+      "sha1": "b9285c87362f83495416d6f39ad4358ea6f93fca",
+      "size": "167800",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "8ddb2be9",
+      "md5": "c0aa4888d5eb37c32f14f6417923b7b9",
+      "sha1": "3d8aaf6cb3e584032f203f400c8eff590f54603d",
+      "size": "1201061",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "30cc0056",
+      "md5": "7f4d6df57951273ff248bd5df2571007",
+      "sha1": "853d8872cf108be86bc46a713be98925d02193bf",
+      "size": "328621",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "a4e91121",
+      "md5": "6e97f4b37eb366a9c1f402c35c8c6dcb",
+      "sha1": "721ca5b737bff2e4b202ba4eef7eed537e0b4e02",
+      "size": "282807",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "502bf997",
+      "md5": "f10332b99fe53d105501f8906ee3a4e5",
+      "sha1": "72ad8d15c328c11aea6bcfbe7b7d7314dc08e9da",
+      "size": "132997",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "51ef2e1c",
+      "md5": "3ada9b7a8920c9c4f26ecd581e520799",
+      "sha1": "bd777beb3a7319fd19c0770fbc424eeefcaf41cd",
+      "size": "220449",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "e29149d2",
+      "md5": "3f84030da2cb5252e24e64ffedb745c9",
+      "sha1": "a597e5c4dfdaca4c4f1b72abaa5dd1a1ffcde728",
+      "size": "215381",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "85dc414d",
+      "md5": "3d5e64103e0a851b2a7029c5b8a5fe63",
+      "sha1": "5083469e889a4b02fd3a9d2b7dbb6c9e9a46dc48",
+      "size": "392984",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "34c3fcc8",
+      "md5": "62fb52a6405428e223d08526760bc728",
+      "sha1": "8a9113073a5499d32c88aa0161ce67aa9d33c24c",
+      "size": "314607",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "85dc414d",
+      "md5": "3d5e64103e0a851b2a7029c5b8a5fe63",
+      "sha1": "5083469e889a4b02fd3a9d2b7dbb6c9e9a46dc48",
+      "size": "392984",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=mixrbv2(asi)",
+      "region": "asi",
+      "crc": "580fa3bc",
+      "md5": "c4bc599399ca22b235cfeba5ca81f3cc",
+      "sha1": "c2d9354bfecaa81d394e805a9f6f6124a7c926e4",
+      "size": "583379",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=mixrbv2(eu)",
+      "region": "eu",
+      "crc": "580fa3bc",
+      "md5": "c4bc599399ca22b235cfeba5ca81f3cc",
+      "sha1": "c2d9354bfecaa81d394e805a9f6f6124a7c926e4",
+      "size": "583379",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "93ab8c35",
+      "md5": "2af4781e231b46ed0b4ff4f22a04f07e",
+      "sha1": "ec435e7bd292c900013c772d3c6fb965e7d117a5",
+      "size": "583745",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "7a3fee19",
+      "md5": "b82a5b9cf252fe0d2557a284bad22b3f",
+      "sha1": "fb29672eee2ccc896bd12528093eb1246e5158b2",
+      "size": "512628",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=mixrbv2(tw)",
+      "region": "tw",
+      "crc": "580fa3bc",
+      "md5": "c4bc599399ca22b235cfeba5ca81f3cc",
+      "sha1": "c2d9354bfecaa81d394e805a9f6f6124a7c926e4",
+      "size": "583379",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88321&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "580fa3bc",
+      "md5": "c4bc599399ca22b235cfeba5ca81f3cc",
+      "sha1": "c2d9354bfecaa81d394e805a9f6f6124a7c926e4",
+      "size": "583379",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=564&media=logo-monochrome",
+      "crc": "1a8369dc",
+      "md5": "3874aa4a0e49531e2c4c39a5e37bcf0f",
+      "sha1": "6a5cf33b05f27c84782582335375a0bf3d4a83ee",
+      "size": "11144",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=564&media=wheel",
+      "crc": "d53c8f4e",
+      "md5": "5687b70430eaa898f429f4cdf656763c",
+      "sha1": "c1f7ea47b95b6c04f26fa8af2ee861fb9b49f4bc",
+      "size": "9718",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136189",
+      "romsize": "98320",
+      "romfilename": "Happy Pairs (Asia) (PAL) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E3F7AEBF",
+      "rommd5": "BA5EFD9D0788C5AE8A1639E4355445A3",
+      "romsha1": "B9A49F039E19AD574BEC2247050342650C0BFE8B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "50861",
+      "regions": {
+        "regions_id": [
+          "48",
+          "112",
+          "114"
+        ],
+        "regions_shortname": [
+          "eu",
+          "tw",
+          "asi"
+        ],
+        "regions_en": [
+          "Europe",
+          "Taiwan",
+          "Asia"
+        ],
+        "regions_fr": [
+          "Europe",
+          "Taiwan",
+          "Asie"
+        ],
+        "regions_de": [
+          "Europa",
+          "Taiwan",
+          "Asien"
+        ],
+        "regions_es": [
+          "Europa",
+          "Taiwan",
+          "Asia"
+        ],
+        "regions_it": [
+          "Europa",
+          "Taiwan",
+          "Asia"
+        ],
+        "regions_pt": [
+          "Europa",
+          "Taiwan",
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "387318",
+      "romsize": "98432",
+      "romfilename": "Happy Pairs (Sachen) [U][!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FE361C47",
+      "rommd5": "D42B48FED125BEC8DE158ACE2200DA31",
+      "romsha1": "8579D9B67E9053ED1BD31A5F849A041EC6542064",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "43741",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "12776",
+      "romsize": "50331",
+      "romfilename": "Happy Pairs (Asia) (PAL) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9EA633AA",
+      "rommd5": "CC91F7082061F0670023B6AFE4BAF047",
+      "romsha1": "9C7994187C4436B27407814A9E357A34F600CB95",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "39326",
+      "regions": {
+        "regions_id": [
+          "48",
+          "114"
+        ],
+        "regions_shortname": [
+          "eu",
+          "asi"
+        ],
+        "regions_en": [
+          "Europe",
+          "Asia"
+        ],
+        "regions_fr": [
+          "Europe",
+          "Asie"
+        ],
+        "regions_de": [
+          "Europa",
+          "Asien"
+        ],
+        "regions_es": [
+          "Europa",
+          "Asia"
+        ],
+        "regions_it": [
+          "Europa",
+          "Asia"
+        ],
+        "regions_pt": [
+          "Europa",
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "1138350",
+      "romsize": "98320",
+      "romfilename": "Happy Pairs (Asia) (Ja) (PAL) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "49f57f0b",
+      "rommd5": "0234a4875f9a0fe6a79012c42ac14f30",
+      "romsha1": "e57149d8c859dfa70e25db341e9a440772f92f77",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "15094",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "523512",
+      "romsize": "50993",
+      "romfilename": "Happy Pairs (Sachen) [U][!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "518EB00F",
+      "rommd5": "000C7777BD30FEA42040E930A2A01395",
+      "romsha1": "AFA6310387832617144CB73DC41216871EE9F0D9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3711"
+    },
+    {
+      "id": "113853",
+      "romsize": "50309",
+      "romfilename": "Happy Pairs (Asia) (PAL) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4807C289",
+      "rommd5": "B26DEE3B4D3D57385201A64E3CBA59F3",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "137",
+      "regions": {
+        "regions_id": [
+          "48",
+          "114"
+        ],
+        "regions_shortname": [
+          "eu",
+          "asi"
+        ],
+        "regions_en": [
+          "Europe",
+          "Asia"
+        ],
+        "regions_fr": [
+          "Europe",
+          "Asie"
+        ],
+        "regions_de": [
+          "Europa",
+          "Asien"
+        ],
+        "regions_es": [
+          "Europa",
+          "Asia"
+        ],
+        "regions_it": [
+          "Europa",
+          "Asia"
+        ],
+        "regions_pt": [
+          "Europa",
+          "Ásia"
+        ]
+      }
+    }
+  ]
+}

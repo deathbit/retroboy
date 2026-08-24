@@ -1,0 +1,1403 @@
+{
+  "id": "1905",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Caveman Games"
+    },
+    {
+      "region": "us",
+      "text": "Caveman Games"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "88",
+    "text": "Data East"
+  },
+  "developpeur": {
+    "id": "88",
+    "text": "Data East"
+  },
+  "joueurs": {
+    "text": "6"
+  },
+  "note": {
+    "text": "10"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Olympic Games set in the stone age. Events include clubbing, dino-racing, fire-making, mate-tossing, saber racing and the dino vault.\n\nSupporting up to six players, you must select your caveman from a total of six different characters with different backgrounds, all with different skills and drawbacks."
+    },
+    {
+      "langue": "fr",
+      "text": "Caveman Games sur Nes est un jeu de sport qui vous permet de participer aux jeux Olympiques à l'époque de l'Age de pierre. Le titre propose différentes activités comme de la course en dinosaure ainsi que six personnages différents ayant leurs propres compétences. Un mode multijoueur est intégré et permet de jouer jusqu'à 6."
+    },
+    {
+      "langue": "de",
+      "text": "Olympische Spiele, die in der Steinzeit stattfinden. Zu den Disziplinen gehören Keulenschlagen, Dino-Rennen, Feuermachen, Partnerwerfen, Säbelrennen und der Dino-Sprung. Für bis zu sechs Spieler müssen Sie Ihren Höhlenmenschen aus insgesamt sechs verschiedenen Charakteren mit unterschiedlichen Hintergründen auswählen, die alle über unterschiedliche Fähigkeiten und Nachteile verfügen."
+    },
+    {
+      "langue": "es",
+      "text": "Juegos Olímpicos establecidos en la edad de piedra. Los eventos incluyen clubbing, dinoracing, hacer fuego, matetossing, carreras de sable y lanzamiento de dino.\n\nCon soporte para hasta cuatro jugadores (seis en la NES), debes seleccionar a tu hombre de las cavernas de un total de seis personajes diferentes, con diferentes procedencias, todos con diferentes habilidades y desventajas."
+    },
+    {
+      "langue": "it",
+      "text": "Giochi olimpici ambientati nell'età della pietra. Gli eventi includono discoteche, gare di dinosauri, fuochi d'artificio, lancio di compagni, gare di sciabole e la cripta dei dinosauri. Con il supporto per un massimo di sei giocatori, devi selezionare il tuo cavernicolo da un totale di sei diversi personaggi con background diversi, tutti con abilità e svantaggi diversi."
+    },
+    {
+      "langue": "pt",
+      "text": "Jogos Olímpicos situados na idade da pedra. Os eventos incluem boates, corridas de dinossauros, fabricação de fogo, lançamento de companheiros, corridas de sabres e o cofre de dinossauros. Com suporte para até seis jogadores, você deve selecionar seu homem das cavernas de um total de seis personagens diferentes com diferentes origens, todos com diferentes habilidades e desvantagens."
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1990-10-01"
+    }
+  ],
+  "genres": [
+    {
+      "id": "25726",
+      "nomcourt": "0603",
+      "principale": "0",
+      "parentid": "685",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports / Multisports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport / Multisports"
+        },
+        {
+          "langue": "de",
+          "text": "Sport / Multisport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes / Multideporte"
+        },
+        {
+          "langue": "it",
+          "text": "Sport / Multisport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte / Poliesportivo"
+        }
+      ]
+    },
+    {
+      "id": "685",
+      "nomcourt": "0600",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport"
+        },
+        {
+          "langue": "de",
+          "text": "Sport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes"
+        },
+        {
+          "langue": "it",
+          "text": "Sport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=sstitle(us)",
+      "region": "us",
+      "crc": "cb2a088f",
+      "md5": "2f2e35cb2a36c6d8c463ca5aa47305f7",
+      "sha1": "1ebb3e6f985a8eec501a8fa5b95355796ef29a64",
+      "size": "4416",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=ss(us)",
+      "region": "us",
+      "crc": "ffdc4035",
+      "md5": "a90c3631e6b6a1542a3a2ab1e8664e5a",
+      "sha1": "b77b754020283e509dd8ea840dd7d5633d004f00",
+      "size": "3960",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=fanart",
+      "crc": "5893b02e",
+      "md5": "bd82f6f46311aa4f01ba228bcfc88305",
+      "sha1": "6583f43eab052c0506e8831ab474fb543ff2b3e9",
+      "size": "150119",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=video",
+      "crc": "1e8e6f51",
+      "md5": "f926f126ef13115042c1ed8ef9682dde",
+      "sha1": "47e272a64fb03664502d361e5a3309dd2f6c5a12",
+      "size": "5493576",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=video-normalized",
+      "crc": "0f7f1121",
+      "md5": "e0e136707a25521aadcce04dea55efd6",
+      "sha1": "844a8f8094c19105276700dab4c7eadfca7c35b4",
+      "size": "2183507",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=steamgrid",
+      "crc": "9ed7d0fd",
+      "md5": "164f3d2922662ac18845261c335c4446",
+      "sha1": "da2908760d8b5cbc4f169a2dff0c08c9ebc825cd",
+      "size": "29373",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=wheel(us)",
+      "region": "us",
+      "crc": "8d8361fb",
+      "md5": "96a8ee433144ba5856bfa92d2b8d041e",
+      "sha1": "01946e085e83dd659e623fb1deb34e3c3accaf22",
+      "size": "86826",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=wheel-carbon(us)",
+      "region": "us",
+      "crc": "ecdc0773",
+      "md5": "aec8a3d63bff5cb7f95bb8e891b053b9",
+      "sha1": "205242d37e065e2b688f7426e1eaabe1c2021f6c",
+      "size": "102376",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=wheel-steel(us)",
+      "region": "us",
+      "crc": "dc4f086f",
+      "md5": "bdd60a0986da499d27fc4cbb32aee2d7",
+      "sha1": "7357063ba3c6f88fd732818772e1674b382a6a5d",
+      "size": "103359",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=screenmarquee(us)",
+      "region": "us",
+      "crc": "fa2c4662",
+      "md5": "4d122636918cb404694f6869a9bf8e57",
+      "sha1": "8c7017518f6ff2af60ff330f8cdd0ea77dcd1d2a",
+      "size": "485143",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=screenmarqueesmall(us)",
+      "region": "us",
+      "crc": "47b380f7",
+      "md5": "70eb7260f0f88617d53794a6a2d65f51",
+      "sha1": "69ea592815a127297300893197d33623077f71d5",
+      "size": "81103",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "0c61e942",
+      "md5": "ac91a177d33bcc64996998e94b776462",
+      "sha1": "a45dc9b45bb7fc0ff603e1c8d8f5325878b9fbb5",
+      "size": "141306",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=box-2D(us)",
+      "region": "us",
+      "crc": "4f9e6eb2",
+      "md5": "e85802c3ea022d5556a0705914c5839d",
+      "sha1": "bad09146eba71ebfbf676e7378c8439b8c3ccaa6",
+      "size": "385183",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "e1e5018f",
+      "md5": "ba6abe0aa797f81d3e59e061a7e557d5",
+      "sha1": "826b5dd393a5db74e21cc896f3cfc1e61b44591a",
+      "size": "32608",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "bf8b0f48",
+      "md5": "0461dbff882b470b4d8ee86bb5be2ecb",
+      "sha1": "1c6216c57bbccd9e1b1721121f2d7cc47749fab0",
+      "size": "81984",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "7f66cb50",
+      "md5": "4065bdadc2d185c30c30bd1b82b479cc",
+      "sha1": "4b388608ec657b49d9251d957389e538b4051ce0",
+      "size": "168453",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "c2279366",
+      "md5": "af21a06fd946c549f48ab1a2a311a38f",
+      "sha1": "ca36c0f5100770dfbf131223c2830432bb7223b0",
+      "size": "606235",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "c7d587a1",
+      "md5": "45db701c38ae8f48665b6e84d824684d",
+      "sha1": "4b14e7606b1e5da26c4d96bdd7eec4f420208473",
+      "size": "355674",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=box-texture(us)",
+      "region": "us",
+      "crc": "84d2c0d6",
+      "md5": "0cfbba5f25cff512c37944f099c9e1eb",
+      "sha1": "6318f7469fa1443cee05fd4d3235dc0a6fb7f93e",
+      "size": "1099751",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "2990e702",
+      "md5": "b728f59d195c13161b2efa646fc77d60",
+      "sha1": "da0a6fd89462cca2eaa967d13f5283205ab8edec",
+      "size": "140642",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=box-3D(us)",
+      "region": "us",
+      "crc": "d690e95d",
+      "md5": "6aa96ed87173bc85a363d132dd4c5406",
+      "sha1": "aa73fbf6f5ebe0922ce8a78e540be17eec11946d",
+      "size": "246451",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=manuel(us)",
+      "region": "us",
+      "crc": "a58c7e6c",
+      "md5": "68bc1731686b8cc22cbe809005b5660c",
+      "sha1": "5128260741b04566d0dd43b5549cba0f2b953379",
+      "size": "2808422",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=support-texture(us)",
+      "region": "us",
+      "crc": "e15f7455",
+      "md5": "af07a7e9ea8ca5988436d0e7f96cf594",
+      "sha1": "de794d1977a61c3de544a9d45a3954d2dab36259",
+      "size": "132297",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=support-2D(us)",
+      "region": "us",
+      "crc": "af201d34",
+      "md5": "fd9af2643ba4dff5a503af17ecb3c13f",
+      "sha1": "ea63195b5cc17b06de5066ace7dded6a05fb0474",
+      "size": "367080",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "653f631d",
+      "md5": "c4fa721ddde9b26fb000edffb2eedd78",
+      "sha1": "9e2d87cc800a332004282fe50e89915a2f064d6c",
+      "size": "237599",
+      "format": "png"
+    },
+    {
+      "type": "themehb",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaFichierJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=themehb",
+      "crc": "dc9a737a",
+      "md5": "678fe9104c9139d99dc82282eb141744",
+      "sha1": "99e2145d1fdc39cff6e9626a272aae232de26445",
+      "size": "5756773",
+      "format": "zip"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "da0786b3",
+      "md5": "6d1d3c38976d05568ff2a21215cb2db3",
+      "sha1": "06893d6282bdf0a12b26358accdcde5e7bd95709",
+      "size": "309240",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "efe557ff",
+      "md5": "eace5cc43e849d93256afdc6aa1379fb",
+      "sha1": "a797ebe7e128bcfe6dc52c97f2a812052ccbc6ea",
+      "size": "362043",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "efe557ff",
+      "md5": "eace5cc43e849d93256afdc6aa1379fb",
+      "sha1": "a797ebe7e128bcfe6dc52c97f2a812052ccbc6ea",
+      "size": "362043",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "09c07cf6",
+      "md5": "287a94e0c910cf0feb1edcc4bc78ea2b",
+      "sha1": "deba7ea4b1c3de715379f8504468abc50d2d38be",
+      "size": "448591",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "dcef0b2b",
+      "md5": "2db773d0449717e920ced4ccbeace54c",
+      "sha1": "44a5954d60b10c34741f85ab95744518aff273f2",
+      "size": "499671",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1905&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "dcef0b2b",
+      "md5": "2db773d0449717e920ced4ccbeace54c",
+      "sha1": "44a5954d60b10c34741f85ab95744518aff273f2",
+      "size": "499671",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=88&media=logo-monochrome",
+      "crc": "0c169a6f",
+      "md5": "32495feb0aff47ec64b8460ed1ba65c2",
+      "sha1": "f439ed97e66b668ea0002956f2f62b5d87e35f25",
+      "size": "8433",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=88&media=wheel",
+      "crc": "34ccb897",
+      "md5": "1d5f7a00d5cb539f9243f4597cea8985",
+      "sha1": "3687c02bdd2cec65a00187213de4656ff7089006",
+      "size": "52772",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=88&media=logo-monochrome",
+      "crc": "0c169a6f",
+      "md5": "32495feb0aff47ec64b8460ed1ba65c2",
+      "sha1": "f439ed97e66b668ea0002956f2f62b5d87e35f25",
+      "size": "8433",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=88&media=wheel",
+      "crc": "34ccb897",
+      "md5": "1d5f7a00d5cb539f9243f4597cea8985",
+      "sha1": "3687c02bdd2cec65a00187213de4656ff7089006",
+      "size": "52772",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3416&media=pictoliste",
+      "crc": "5598ca7e",
+      "md5": "933e41103cb467d489409c43909338a7",
+      "sha1": "308fe5d46d5660183865f31fe90653420f39b3e7",
+      "size": "819",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3549&media=pictoliste",
+      "crc": "3f323ede",
+      "md5": "ee94c442647fcb83b712d089de6a8686",
+      "sha1": "e484bfad29cfb587d5d73a2c9123aab37e541ec0",
+      "size": "384",
+      "format": "png"
+    },
+    {
+      "id": "25726",
+      "parent": "genre",
+      "subparent": "Sport / Multisports",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=25726&media=pictoliste",
+      "crc": "4c233b3f",
+      "md5": "86bf83d687f647f476f539cd0fe4090c",
+      "sha1": "bdb4f7924041bdebb7e098ea15c909ab8ff07a9b",
+      "size": "4430",
+      "format": "png"
+    },
+    {
+      "id": "25726",
+      "parent": "genre",
+      "subparent": "Sport / Multisports",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=25726&media=logo-monochrome",
+      "crc": "4e534fc2",
+      "md5": "262f74e2406dbc70816c91c3fe64c356",
+      "sha1": "85d7968e78ca71e2f7017cdeec1afa13664534bc",
+      "size": "26112",
+      "format": "png"
+    },
+    {
+      "id": "25726",
+      "parent": "genre",
+      "subparent": "Sport / Multisports",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=25726&media=logo-monochrome-svg",
+      "crc": "2ac490b8",
+      "md5": "c2f688e34bfbb89e5df474a41d968d6e",
+      "sha1": "11c94fc157b23d63eabe4bbd3c2c2638c60ff588",
+      "size": "4007",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome",
+      "crc": "6a963ad9",
+      "md5": "6daf840fab2d205bda9bad4ff16f4c95",
+      "sha1": "f5e795233a8013aa0d992e197d56d09a63513403",
+      "size": "18286",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome-svg",
+      "crc": "328c7db2",
+      "md5": "4298fc7c8887c1b97cec6ee0b5d72433",
+      "sha1": "8f59a9ec18c48a7246c3b13e19c6c5857bc95513",
+      "size": "4269",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=background",
+      "crc": "a3265ffe",
+      "md5": "65308af4ddc9782f6717f000eea7f28a",
+      "sha1": "bccce8f0defa7c25313eb5ced7cdf71555c5a85d",
+      "size": "185482",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "265267",
+      "romsize": "262160",
+      "romfilename": "Caveman Games (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BC59A5ED",
+      "rommd5": "77A3AA217D21147E6DD270044B2D258E",
+      "romsha1": "F78C8D93966E91DF1A2669450AD1563C989E8DF8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "251605",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "2368",
+      "romsize": "134073",
+      "romfilename": "Caveman Games (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A288CBDE",
+      "rommd5": "E4235AF483A0B8EB2EDEA4F2B188EDD2",
+      "romsha1": "D4C09EB79F0D33889059D19AD5B9D05676462ED1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "142300",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "406940",
+      "romsize": "262160",
+      "romfilename": "Caveman Games (U).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0E6B981D",
+      "rommd5": "0C23A1373499F9A1204ADAC9F4624940",
+      "romsha1": "DF31125028D8607BC9A5A0DFB6BBB44AFEF8376A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "102650",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "135608",
+      "romsize": "262144",
+      "romfilename": "Caveman Games (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D1EA84C3",
+      "rommd5": "5042F7646E7CF01A4A44543C13FAACFF",
+      "romsha1": "16682A20548D3BE269F50B954B5A4F3C6E0DC05B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "45600",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1135347",
+      "romsize": "262160",
+      "romfilename": "Caveman Games (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2d734f45",
+      "rommd5": "bc5033d57419f0e1d56bde1b16da3cb8",
+      "romsha1": "d1731009be95b08b315796156de52fb5cf271b1c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "40257",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "641477",
+      "romsize": "262160",
+      "romfilename": "Caveman Games.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1826E6D2",
+      "rommd5": "DAC45EA628F1B2AF328A1D66B6B67931",
+      "romsha1": "859F978C49163536BF252A5C40F9C62CF8A4B506",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "31944",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "543999",
+      "romsize": "134991",
+      "romfilename": "Caveman Games.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2E9CD213",
+      "rommd5": "D7B48F3377F5B3685513FC7556E2EE9C",
+      "romsha1": "8CAAD9325FB8F0290DC2A5C4C3191F248550A417",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "29294"
+    },
+    {
+      "id": "523356",
+      "romsize": "134445",
+      "romfilename": "Caveman Games (U) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2AE7067C",
+      "rommd5": "27609041FAD7AA938790C0B72309FBE3",
+      "romsha1": "E6DC78FE65F855E7DCD42A3DEF7DAC3F575CB493",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12026",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "472954",
+      "romsize": "135057",
+      "romfilename": "Caveman Games (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "59F4CC20",
+      "rommd5": "49FD5F06787C3C9C007956D752CDE02B",
+      "romsha1": "3F44F66E9A39012091C3AAD60469202B47E25092",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7466",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "540578",
+      "romsize": "131499",
+      "romfilename": "Caveman Games (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3F794CC0",
+      "rommd5": "923EDD34B4A5C67F1A56299E919E5403",
+      "romsha1": "5AE6FABEEF7FEA3703DD9B1FE437530218273DF8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5943",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "528817",
+      "romsize": "134999",
+      "romfilename": "Caveman Games (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "389B4141",
+      "rommd5": "95E516722A181AC153705F79FC0EB2C5",
+      "romsha1": "062B3A0405748976B9DA2DE9CA0909EA2C88B14E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5269",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "528818",
+      "romsize": "134989",
+      "romfilename": "CavemanGames.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B056A41D",
+      "rommd5": "D7C554FD965B8789A56E2385D5A0D499",
+      "romsha1": "F16124A54C5F8D0826751F11F395F3215AC654EC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4271"
+    },
+    {
+      "id": "570315",
+      "romsize": "134065",
+      "romfilename": "Caveman Games (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1FFA4267",
+      "rommd5": "BCD9DD926E8043BB51ECCC6FB3013A08",
+      "romsha1": "6E0D956EE749233446A509851C072AD9524E1FA9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "342",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "568815",
+      "romsize": "134753",
+      "romfilename": "Caveman Games (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6A8C9AEE",
+      "rommd5": "3773DF71F8B60B5C92C7E6EB97982BE0",
+      "romsha1": "906D3148B9E440028736C6D72AFDC9E83085DC57",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "318",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "113249",
+      "romsize": "134051",
+      "romfilename": "Caveman Games (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E61FDF45",
+      "rommd5": "B911316F05E28776F578B230DC47CADD",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "166",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    }
+  ]
+}

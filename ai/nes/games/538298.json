@@ -1,0 +1,122 @@
+{
+  "id": "538298",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Snail Maze"
+    },
+    {
+      "region": "wor",
+      "text": "Snail Maze Game"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "developpeur": {
+    "id": "113222",
+    "text": "Robert L Bryant"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "An NES port of the Master System's built in game! Get the snail to the exit of the maze."
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=538298&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "c47034fe",
+      "md5": "30a145ec942c8417478d12064a4484f5",
+      "sha1": "fdfe85c3dbe64256dcae9486025715285dda46e7",
+      "size": "2733",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=538298&media=ss(wor)",
+      "region": "wor",
+      "crc": "28d880f4",
+      "md5": "59c07b4b7735138caddc462d0526e016",
+      "sha1": "12ab28138184ef8efc73dc66a47f92dd3d6fd237",
+      "size": "2568",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=538298&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "d2ec6c18",
+      "md5": "37ec20dcaf8e12a086aedd217c1d0696",
+      "sha1": "3aa09eb19ae83b3b53b9d216ba500f209494e0f7",
+      "size": "135119",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=538298&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "9964fb15",
+      "md5": "05b878dd9238c52e9983debcd3fd6932",
+      "sha1": "7e536d76e247b0cb8ed9675bd48dc7268055a12a",
+      "size": "200219",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1392617",
+      "romsize": "8071",
+      "romfilename": "Snail Maze (World) (Sly Dog Studios) (Aftermarket) (Unl).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "fcc20ecb",
+      "rommd5": "3a19867b4333a418c2937c38362dc89b",
+      "romsha1": "afc7f86d62f81357aaa2befe367a3609d18a60de",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "437"
+    },
+    {
+      "id": "1392626",
+      "romsize": "40976",
+      "romfilename": "Snail Maze (World) (Robert L Bryant) (Aftermarket) (Unl).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "D9025399",
+      "rommd5": "CAECE265A6511732EB11D8CBBE34DC75",
+      "romsha1": "30626AF5ED2A8E54F6B61A7C628F7AE0DC03F88B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "105"
+    }
+  ]
+}

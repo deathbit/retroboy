@@ -1,0 +1,909 @@
+{
+  "id": "65396",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Chiisana Obake - Acchi Socchi Kocchi"
+    },
+    {
+      "region": "jp",
+      "text": "Chiisana Obake : Acchi Socchi Kocchi"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "2991",
+    "text": "Vap"
+  },
+  "developpeur": {
+    "id": "264",
+    "text": "Atlus"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Atchi, Kotchi and Sotchi must run around eating all the apples. When all the boxes are empty, you win the level.\r\nCollect the power-ups before they disappear."
+    },
+    {
+      "langue": "fr",
+      "text": "Atchi, Kotchi et Sotchi doivent courir à travers les niveaux afin de manger toutes les pommes. Quand toutes les cases sont vides, vous gagnez le niveau.Il faut également recueillir les power-ups avant qu'ils ne disparaissent."
+    },
+    {
+      "langue": "de",
+      "text": "Atchi, Kotchi und Sotchi müssen herumrennen und alle Äpfel essen. Wenn alle Boxen leer sind, gewinnst du das Level. Sammle die Power-Ups bevor sie verschwinden."
+    },
+    {
+      "langue": "es",
+      "text": "Atchi, Kotchi y Sotchi deben correr alrededor y comer todas las manzanas. Cuando todas las casillas están vacías, ganas el nivel. Recoge los power-ups antes de que desaparezcan."
+    },
+    {
+      "langue": "it",
+      "text": "Atchi, Kotchi e Sotchi devono correre a mangiare tutte le mele. Quando tutte le scatole sono vuote, vinci il livello.\r\nRaccogli i potenziamenti prima che scompaiano."
+    },
+    {
+      "langue": "pt",
+      "text": "Atchi, Kotchi e Sochi têm que percorrer os níveis para comer todas as maçãs. Quando todas as caixas estiverem vazias, você passa de nível e também deve coletar os power-ups antes que desapareçam."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1992-12-04"
+    }
+  ],
+  "genres": [
+    {
+      "id": "26",
+      "nomcourt": "0B00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "fr",
+          "text": "Puzzle-Game"
+        },
+        {
+          "langue": "de",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "es",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "it",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "pt",
+          "text": "Quebra-cabeças"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "d3e49373",
+      "md5": "53f40486e12566adc3dfaf7814e83166",
+      "sha1": "22609dee14a9b42d5d2c44b3830604b6318ab1cf",
+      "size": "3936",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=ss(jp)",
+      "region": "jp",
+      "crc": "3fcd766f",
+      "md5": "baceaf667ae3c85c829db5542085585f",
+      "sha1": "ae1b6da24ebe8ed6a66030b6692b86709912210a",
+      "size": "3440",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=fanart",
+      "crc": "35780623",
+      "md5": "6dfd6d68a56b3e92bd7559c0de6b3187",
+      "sha1": "9b60997b7cd9dce9d04645a368156bf24efaf781",
+      "size": "136421",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=video",
+      "crc": "44f15060",
+      "md5": "6a6bc3e1988a56d224f1e97290c3e948",
+      "sha1": "ed915f244289ad27585bbfaeec54930539799109",
+      "size": "1387844",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=video-normalized",
+      "crc": "937c003b",
+      "md5": "533d22c4fb1ac9a0bd99a01d95e1680e",
+      "sha1": "d58a9783262cea045c48f006416b4375731ba2e7",
+      "size": "761212",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=steamgrid",
+      "crc": "3e576da5",
+      "md5": "432a4679491811e1649aca20449d4058",
+      "sha1": "8a6c80c4d6c1e27e2f61adbdbc60521e8ad053d4",
+      "size": "35772",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=wheel(jp)",
+      "region": "jp",
+      "crc": "364db8d6",
+      "md5": "772828d8216802e824d22b08425510bd",
+      "sha1": "ac5ac4786c0531b510dbd3897c957fb1f3835ccf",
+      "size": "79090",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "33a79ad9",
+      "md5": "ffac2a24a981486e16828b41f61c0630",
+      "sha1": "ffb9b5d4b7c73f68080d4eb5b950694789dabcf3",
+      "size": "128587",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "e7a1e968",
+      "md5": "8bfed0c4081c59ffbd5875833b60bd75",
+      "sha1": "0cb51bd5942b084ef3b23bfa4460feb924847c77",
+      "size": "129384",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "a52a2cf7",
+      "md5": "36af0ca1fc56b810632ab7235ae6f803",
+      "sha1": "f762236f9331adebba1a6c5fba346e9531404032",
+      "size": "490703",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "23fbb7f3",
+      "md5": "733d50e3ada164e70e7f4b651ad6ff6e",
+      "sha1": "9f5d78ef99fd0b7b718ff2d0c2b1b870a4f59a54",
+      "size": "80117",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "25d5f33f",
+      "md5": "eb00fb4d27fb5999a20f226824f810de",
+      "sha1": "cbca39a453ea7432d068d5bed83e2797dcfb267e",
+      "size": "403793",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "99844787",
+      "md5": "2518be440b68f5c0a74da40857de5a26",
+      "sha1": "53b858410ae2270bd2f999cb91c77b72ba21790b",
+      "size": "140198",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "d2790782",
+      "md5": "bcf6ddf0ef54c4044a72e2554d7d0e7d",
+      "sha1": "e48428fbeb3689bd6bcaf707885e5762e3359c75",
+      "size": "39995",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "2e07313c",
+      "md5": "a1b7a0da3e1458108f70ac1c46d6cf7d",
+      "sha1": "ce2edb260be88b2cfa78c61ad95bcd703a9bd3a2",
+      "size": "26368",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "e50cf6ab",
+      "md5": "d75021cb773d5b835c252b57a3b194f9",
+      "sha1": "2d48d1380bf77e1d41894f04e153b43d2ec54683",
+      "size": "440272",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "241fd4da",
+      "md5": "75d7d9d7b0fafe6334ab8cd0b6944a1d",
+      "sha1": "e9aced73b106e9da0518ac2639e4eb0465253002",
+      "size": "156304",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "8d4a1ec0",
+      "md5": "cd8c03bfb3087e6d8744d78cfd19e603",
+      "sha1": "b3161a8bfeef8b19173de770899b8f04bfc54012",
+      "size": "899035",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "941f9a8f",
+      "md5": "9fc20e57a69aaeff1824e06ee040dc2c",
+      "sha1": "b5b663cf5a01badd005cde61ba0827d3a8d99072",
+      "size": "336450",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "50cf031f",
+      "md5": "582ab7ba8d1079f2135f6b81c72b0d2a",
+      "sha1": "a0b9b2b0b5c3bbca072e1f5f5100f2380908a439",
+      "size": "234354",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "cf37dd06",
+      "md5": "2b6b6041747716caf41d29fb083cae35",
+      "sha1": "4a76633f33c116c7b8357675b450340b0b2f6de4",
+      "size": "160232",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=manuel(jp)",
+      "region": "jp",
+      "crc": "ee61b003",
+      "md5": "6adf06b18dd63a10e1bc2cb0c1aaebf7",
+      "sha1": "e056f14b1820c31669b96a88f157c4693d0fda42",
+      "size": "403644",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "b419bc1e",
+      "md5": "957147f1f56d9799639962e9da6425b0",
+      "sha1": "72c61a84115df029e182897783b8969659899244",
+      "size": "282722",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "8d96aa20",
+      "md5": "8333bf9fe0aeb3ad14e527c2e116139a",
+      "sha1": "6ac56a58009435629846187cb86c016560df9a4a",
+      "size": "330100",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "ce097987",
+      "md5": "d2e0c02ae1a6bb750aa45d65acf2d00a",
+      "sha1": "4e42dcaf196f34cf10fe7af1e2d5a8301181c0ae",
+      "size": "366141",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "05e4852c",
+      "md5": "15aa6eca97261186a00df99baf85daa8",
+      "sha1": "79ac74bef29f94a928a4447e94e405619e35a6bd",
+      "size": "325887",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "ce097987",
+      "md5": "d2e0c02ae1a6bb750aa45d65acf2d00a",
+      "sha1": "4e42dcaf196f34cf10fe7af1e2d5a8301181c0ae",
+      "size": "366141",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "bc44fd7b",
+      "md5": "645e38a7a5ce8c56bc35e1aeb4c64637",
+      "sha1": "d1218b2496369fd8ceb0f34fcd0b380f93e8cb75",
+      "size": "620657",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "15462bac",
+      "md5": "9ac97fa0eb209115c73ad7cbce3446d1",
+      "sha1": "2c60cf21adb9f5ab23c48176ef91fe9d4ce51229",
+      "size": "579988",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65396&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "bc44fd7b",
+      "md5": "645e38a7a5ce8c56bc35e1aeb4c64637",
+      "sha1": "d1218b2496369fd8ceb0f34fcd0b380f93e8cb75",
+      "size": "620657",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2991&media=logo-monochrome",
+      "crc": "e5fd9b09",
+      "md5": "d6cd42981e909397bdffa3ddbc5d0feb",
+      "sha1": "9f62e221be758c8bd336b61d997512297de5578d",
+      "size": "14808",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2991&media=wheel",
+      "crc": "b7c735fc",
+      "md5": "65f18597e1d8bb5cea173755fdd663d6",
+      "sha1": "8595e385d6f4c84320ff05dba778660ce8d3ffaa",
+      "size": "16069",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=264&media=logo-monochrome",
+      "crc": "06928952",
+      "md5": "f3c6284e88ecb8e7bfdc85d75483e138",
+      "sha1": "d8c91c787e25c7425b912b8dd6fe37f308189408",
+      "size": "5015",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=264&media=wheel",
+      "crc": "c32870c5",
+      "md5": "91391e1841902df2d2244138d1a88a67",
+      "sha1": "e0aaa7d7c17280d3503246bedabbbac4ff1d3b15",
+      "size": "8826",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=pictoliste",
+      "crc": "e4176cee",
+      "md5": "cc91411eb70735bb11dcfc4a0457b474",
+      "sha1": "1f04afee843e3aca095a118170eb13f3cf9a95d6",
+      "size": "828",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome",
+      "crc": "afda799e",
+      "md5": "b6aace835e844a24b33032c300cea85a",
+      "sha1": "ad7df82b2dc35f742dfe94cb20c5984c61a1be7f",
+      "size": "4560",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome-svg",
+      "crc": "b9fb9475",
+      "md5": "1f42d149151051f8c80b9728242769c3",
+      "sha1": "a0efb0c8b8814d280d62c7b2c5a6f39d5eaf0267",
+      "size": "2101",
+      "format": "svg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=background",
+      "crc": "923a4c43",
+      "md5": "5b1038e07f813242bbf179dcc11aa88f",
+      "sha1": "7971778339840a88ad940669b45dfc0103721cc1",
+      "size": "306716",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "12475",
+      "romsize": "51153",
+      "romfilename": "Chiisana Obake Acchi Socchi Kocchi (Japan) (T).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8A1DACCC",
+      "rommd5": "36D217549E4A42EBC2CDF88C385004E2",
+      "romsha1": "8F7799075336CFD33317837E778B5E4A21C22F7C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "94338",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "620261",
+      "romsize": "262160",
+      "romfilename": "Little Ghosts.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "46DD3C86",
+      "rommd5": "B78A6C1B779CC7A7BED00DC0114B7330",
+      "romsha1": "B6B0D28E38875E7A7CBAEE2598D7D0E6C074296F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "51479",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "135627",
+      "romsize": "262160",
+      "romfilename": "Chiisana Obake - Acchi Socchi Kocchi (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "305FA5D6",
+      "rommd5": "81C6E4078C750820A1C69D8E25BFE368",
+      "romsha1": "A7EE7E28A3E2FACD977F524CE457755CD3A06C79",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "50698",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1135455",
+      "romsize": "262160",
+      "romfilename": "Chiisana Obake - Acchi Socchi Kocchi (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a1754f7e",
+      "rommd5": "56cad6f2a0cd0b1d45936c80d9fbc1f2",
+      "romsha1": "c64c33a2b40201a3c29744002fa6d7126f15f1c4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19829",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "537426",
+      "romsize": "51246",
+      "romfilename": "Little Ghosts.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BEE794B2",
+      "rommd5": "DB1F83A19604EF5A379ADD449746217C",
+      "romsha1": "CF582C2B774BD23C958D3530C0275D438AB72F96",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11774"
+    },
+    {
+      "id": "172772",
+      "romsize": "262144",
+      "romfilename": "Chiisana Obake - Acchi Socchi Kocchi (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5DEC84F8",
+      "rommd5": "34FBBDCEA8D733C67603570693CC916D",
+      "romsha1": "A9EFCA330437CB9C5B516B575CB6851BE4003A08",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1760",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113269",
+      "romsize": "51131",
+      "romfilename": "Chiisana Obake - Acchi Socchi Kocchi (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5E13A6C2",
+      "rommd5": "1C1EEAB48542E93B99C1FFC7C6C29D14",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "277",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "364288",
+      "romsize": "51238",
+      "romfilename": "Chiisana Obake - Acchi Socchi Kocchi (J) [T Eng1.0_KingMike].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "ED55DA1C",
+      "rommd5": "F546FB3654C5B048F31DF6272B624515",
+      "romsha1": "A46442DC130E08EE0A38E694556ED6ACD81ED8C8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "1",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "172",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

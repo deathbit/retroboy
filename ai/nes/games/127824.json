@@ -1,0 +1,407 @@
+{
+  "id": "127824",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Young Chivalry"
+    },
+    {
+      "region": "cn",
+      "text": "Shao Nian You Xia"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "36014",
+    "text": "Fuzhou Waixing"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Young Chivalry is an unlicensed Chinese-language RPG released by Waixing, the prolific Chinese publisher. It's an RPG featuring many tropes of the Wuxia (wandering heroic swordsman) genre."
+    },
+    {
+      "langue": "fr",
+      "text": "Young Chivalry sur NES est un RPG non licencié en chinois, publié par Waixing, l'un des éditeurs les plus prolifiques en la matière. Le jeu reprend de nombreux codes du genre Wuxia, mettant en scène des héros errants maniant l'épée et vivant selon un idéal chevaleresque."
+    },
+    {
+      "langue": "de",
+      "text": "&quot;Young Chivalry&quot; ist ein Rollenspiel (RPG) für das Nintendo Entertainment System (NES), entwickelt von Fuzhou Waixing Computer Science & Technology Co., LTD. Das Spiel wurde ursprünglich für den asiatischen Markt veröffentlicht und ist in chinesischer Sprache verfügbar. Es bietet klassische RPG-Elemente wie das Erkunden von Dungeons, das Sammeln von Schätzen und den Kampf gegen verschiedene Feinde."
+    },
+    {
+      "langue": "es",
+      "text": "Young Chivalry es un juego de rol chino no licenciado, publicado por Waixing, la prolífica editorial china. Es un juego de rol que presenta numerosos tropos del género Wuxia (espadachín heroico errante)."
+    }
+  ],
+  "genres": [
+    {
+      "id": "8",
+      "nomcourt": "0300",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Role Playing Game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de rôles"
+        },
+        {
+          "langue": "de",
+          "text": "Rollenspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de Rol"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di Ruolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogos de RPG"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=sstitle(cn)",
+      "region": "cn",
+      "crc": "9263574c",
+      "md5": "6045e1f3d77ae62ec658155fa75e27a5",
+      "sha1": "089b75f3c52bc55e952b81b30aacd17c0194eeef",
+      "size": "7582",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=ss(cn)",
+      "region": "cn",
+      "crc": "d34d80b8",
+      "md5": "66100b79cf9cc2494e1a41ba9f19620d",
+      "sha1": "32e4f3437760014a19c609525d742b35e58b0231",
+      "size": "56009",
+      "format": "png"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=steamgrid",
+      "crc": "73c99745",
+      "md5": "7c612016cf698406c9d9a4d8a03e5994",
+      "sha1": "02e19a8b5d2097ebf27e94523f0b5e9282cd548e",
+      "size": "33843",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=wheel-hd(wor)",
+      "region": "wor",
+      "crc": "8b3c17fb",
+      "md5": "6f7508b0bb094fa4028fcce75c1b79d9",
+      "sha1": "80f3ddf1648dcb3c28bb13cf3bfd19d56a9e03c7",
+      "size": "9002",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "a5c5d92b",
+      "md5": "2d08cfa83e5ed466ec5b3be9101413b5",
+      "sha1": "d56a8ae12f4a76b3e59e93e1b1c72b5a31321102",
+      "size": "91430",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "32a7bab0",
+      "md5": "58df731ebaac5d547cb5b8d96ce69f94",
+      "sha1": "e8db3c24ee3912d2373fe4b9da8467f4fcd36418",
+      "size": "93142",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "721c8954",
+      "md5": "f7062dc95f82cd84f1cb3d719db9ff5c",
+      "sha1": "1c0e3ea9561e178448bc5d2c1dfd067ee286fc93",
+      "size": "456944",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "b7db2865",
+      "md5": "1c687f06bd1b598254a2dec59cfd9364",
+      "sha1": "7f0ffea778ad715eba61ce89d980fb4201828ee2",
+      "size": "77690",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "f209b57d",
+      "md5": "2582950dd91aabde251e991ffffbcdb9",
+      "sha1": "8f5551880ecda0564b6fea577cdb624745ed8556",
+      "size": "218889",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "faf0f7a4",
+      "md5": "0d2a2fb310d6039d54e915d59f382d7b",
+      "sha1": "294b1155740d22a1e3aa7e64eba72e9d004dccf7",
+      "size": "22970",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "82fa7b2e",
+      "md5": "9204f33bb3811df043a4529946c3566e",
+      "sha1": "e35a514648d15f819511c3b5ab26a2e09b2be695",
+      "size": "154958",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "21087665",
+      "md5": "4040180b93c90cfad388661145d0b33b",
+      "sha1": "09f588e6d47f06822c5019e6400650543b4acd0d",
+      "size": "404955",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "f9675938",
+      "md5": "d8722eb72c650b99688496968c4f11fd",
+      "sha1": "684db755595c241d14309fb636a2a01151f860a4",
+      "size": "178090",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=mixrbv1(cn)",
+      "region": "cn",
+      "crc": "9deac47e",
+      "md5": "c0fadbcdf1e23a10beb3a422be4ef66b",
+      "sha1": "861697fd992a883670672abe9cc6f91353410cf3",
+      "size": "485600",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=mixrbv2(cn)",
+      "region": "cn",
+      "crc": "96764d22",
+      "md5": "deb523c615eb5188245c669d039f2897",
+      "sha1": "b9c7baa9aff732a2c2d7d6c198f374412a7210f9",
+      "size": "735235",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "96764d22",
+      "md5": "deb523c615eb5188245c669d039f2897",
+      "sha1": "b9c7baa9aff732a2c2d7d6c198f374412a7210f9",
+      "size": "735235",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127824&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "96764d22",
+      "md5": "deb523c615eb5188245c669d039f2897",
+      "sha1": "b9c7baa9aff732a2c2d7d6c198f374412a7210f9",
+      "size": "735235",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=36014&media=wheel",
+      "crc": "e57a0902",
+      "md5": "f2c93a260c5d8b33ba474f7223fbc101",
+      "sha1": "48e0438bf2549da7f3501a8d81d9091e30e4f6bd",
+      "size": "47763",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=pictoliste",
+      "crc": "95641466",
+      "md5": "794cfd972f1fc80058ac4a3b48644c49",
+      "sha1": "065a70a4f3307442d52de0927234ab023e94fa99",
+      "size": "997",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome",
+      "crc": "99338559",
+      "md5": "6d99859437bd123f6dede69b6866b4f4",
+      "sha1": "1b1963a801d9801b0ad107f8a15ef9acf5541bcb",
+      "size": "11154",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome-svg",
+      "crc": "9659d140",
+      "md5": "071309467ec61ec2b037f89af26780cd",
+      "sha1": "dbf9fad14dfc4a4239585b4aae80a9edaf6d4ae3",
+      "size": "2418",
+      "format": "svg"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=background",
+      "crc": "10d4d476",
+      "md5": "3eb9bd04afa99e6bddcdca913ee8d53b",
+      "sha1": "e35ce257c961fcfaca398e9dbab607bbd8bf2aa6",
+      "size": "353085",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "466436",
+      "romsize": "786448",
+      "romfilename": "Young Chivalry (Ch) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "419B9424",
+      "rommd5": "1408AC7EC2A4806FCEF654905965E4C7",
+      "romsha1": "97CBC32DAD830F1E95B0399F6EE093DE408DEAEB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "15518",
+      "regions": {
+        "regions_id": [
+          "56"
+        ],
+        "regions_shortname": [
+          "cn"
+        ],
+        "regions_en": [
+          "China"
+        ],
+        "regions_fr": [
+          "Chine"
+        ],
+        "regions_de": [
+          "China"
+        ],
+        "regions_es": [
+          "China"
+        ],
+        "regions_it": [
+          "Cina"
+        ],
+        "regions_pt": [
+          "China"
+        ]
+      }
+    },
+    {
+      "id": "1386167",
+      "romsize": "265461",
+      "romfilename": "Shaonian Youxia - Guangming Zhi Shen (Young Chivalry) (China) (FS005) (Unl).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "e8f84b0a",
+      "rommd5": "f1921075095e3b63ddac358b01ca6eb3",
+      "romsha1": "2d72a5313e2063a3b97a50e62e4c9030b4e85c4c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "809"
+    }
+  ]
+}

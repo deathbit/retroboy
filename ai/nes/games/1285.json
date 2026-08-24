@@ -1,0 +1,2583 @@
+{
+  "id": "1285",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Wario's Woods"
+    },
+    {
+      "region": "us",
+      "text": "Wario's Woods"
+    },
+    {
+      "region": "jp",
+      "text": "Wario no Mori"
+    },
+    {
+      "region": "eu",
+      "text": "Wario's Woods"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "286",
+    "text": "Nintendo"
+  },
+  "developpeur": {
+    "id": "286",
+    "text": "Nintendo"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "note": {
+    "text": "16"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Wario's Woods is a puzzle game similar to Tetris or Columns, but with a twist. Instead of directly controlling the monsters and bombs that are falling down, the player controls Toad who has to carry around stacks of monsters and bombs and to combine them in the right way. One bomb plus at least two monsters of the same color have to be combined to make them disappear. If five or more objects are cleared at the same time, a diamond will appear. Destroying the diamond will clear all monsters of the diamond's color.\r\nThere are four different ways to pick up objects. The A button lets Toad pick up the whole stack that is in front of him, the B button lets him only pick up one object, even if it's in the middle of a stack, the Y button lets him kick a monster or bomb that's in front of him and the X button places him on top of the stack that he is carrying. He can also run up walls and stacks to catch falling objects out of the air or to pick up certain parts of a stack."
+    },
+    {
+      "langue": "fr",
+      "text": "Wario's Woods sur NES est un puzzle-game du genre Tetris reprenant les personnages Wario, Toad et Birdo de l'univers Mario. En duel, face à l'ordinateur ou à un autre joueur, vous contrôlez Toad et devez déplacer les animaux lancés par Wario et les bombes lancées par Birdo afin de faire correspondre leurs couleurs pour qu'ils disparaissent. Le but étant de ne plus avoir d'animaux et de bombes sur son écran."
+    },
+    {
+      "langue": "de",
+      "text": "Wario's Woods ist ein Puzzlespiel ähnlich wie Tetris oder Columns, aber mit einem Twist. Anstatt die herabfallenden Monster und Bomben direkt zu kontrollieren, steuert der Spieler Toad, der Stapel von Monstern und Bomben mit sich herumtragen und sie richtig kombinieren muss. Eine Bombe und mindestens zwei Monster derselben Farbe müssen kombiniert werden, um sie verschwinden zu lassen. Wenn fünf oder mehr Objekte gleichzeitig verschwinden, erscheint ein Diamant, der zerstört werden kann, um alle Monster mit der Farbe des Diamanten verschwinden zu lassen.\r\n\r\nEs gibt 5 verschiedene Spielmodi: ein &quot;Rundenspiel&quot;, in dem Toad zahlreiche Levels abräumen muss, ein Match gegen einen computergesteuerten Gegner, einen Zweispielermodus, einen &quot;Zeitrennen&quot;-Modus und schließlich einen umfangreichen Trainingsmodus."
+    },
+    {
+      "langue": "es",
+      "text": "Wario's Woods es un juego de rompecabezas similar a Tetris o Columns, pero con unas pequeñas diferencias. En lugar de controlar directamente los monstruos y las bombas que se están cayendo, el jugador controla a Toad, que tiene que cargar montones de monstruos y bombas y combinarlos de la manera correcta. Una bomba y al menos dos monstruos del mismo color deben combinarse para hacerlos desaparecer. Si se quitan cinco o más objetos al mismo tiempo, aparecerá un diamante. Destruir el diamante eliminará a todos los monstruos del color del diamante.\r\nExisten algunas diferencias entre las versiones SNES y NES. debido a la falta de botones, los controles son un poco diferentes en la versión NES (aunque todos los movimientos de la versión SNES están presentes)."
+    },
+    {
+      "langue": "it",
+      "text": "Wario's Woods per NES è un puzzle-game simile a Tetris con i personaggi Wario, Toad e Birdo dell'universo di Mario. In un duello, contro il computer o un altro giocatore, controlli Toad e devi muovere gli animali lanciati da Wario e le bombe lanciate da Birdo in modo che corrispondano ai loro colori in modo che scompaiano. L'obiettivo è non avere più animali e bombe sullo schermo."
+    },
+    {
+      "langue": "pt",
+      "text": "Cabe ao Toad manter a floresta segura neste novo Quebra-cabeças!\r\nToad está de volta em sua própria grande aventura com o desafio de Tetris. Depende de você e Toad manter a paz no Reino dos Cogumelos - e isso significa superar o perverso Wario!\r\nMonstros, duendes e bombas caem do céu cada vez mais rápido quando Wario os atira na floresta. Toad deve lutar para pegar e alinhar as peças do quebra-cabeça caindo para eliminar o domínio maligno de Wario. Se você gosta de Tetris, este jogo é para você!\r\n- Escolha ação para um ou dois jogadores!\r\n- Corra no campo para alinhar peças de quebra-cabeça e bombas!\r\n- Muitos níveis, de desafiador a estressante!"
+    }
+  ],
+  "classifications": [
+    {
+      "type": "ESRB",
+      "text": "KA"
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1994-12-10"
+    },
+    {
+      "region": "jp",
+      "text": "1994-02-19"
+    },
+    {
+      "region": "eu",
+      "text": "1995"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2912",
+      "nomcourt": "0B00",
+      "principale": "0",
+      "parentid": "26",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Puzzle / Fall"
+        },
+        {
+          "langue": "fr",
+          "text": "Puzzle-Game / Tomber"
+        },
+        {
+          "langue": "de",
+          "text": "Puzzle / Fallen"
+        },
+        {
+          "langue": "es",
+          "text": "Puzzle / Caída"
+        },
+        {
+          "langue": "it",
+          "text": "Puzzle / A caduta"
+        },
+        {
+          "langue": "pt",
+          "text": "Quebra-cabeças / Queda"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "nomcourt": "0B00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "fr",
+          "text": "Puzzle-Game"
+        },
+        {
+          "langue": "de",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "es",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "it",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "pt",
+          "text": "Quebra-cabeças"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "nomcourt": "0500",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Strategy"
+        },
+        {
+          "langue": "fr",
+          "text": "Stratégie"
+        },
+        {
+          "langue": "de",
+          "text": "Strategie"
+        },
+        {
+          "langue": "es",
+          "text": "Estrategia"
+        },
+        {
+          "langue": "it",
+          "text": "Strategia"
+        },
+        {
+          "langue": "pt",
+          "text": "Estratégia"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "27224",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Wario"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "2f9ae963",
+      "md5": "e18c5d3acdc9c2708e42b4a4c8333496",
+      "sha1": "eb54568efd48ab112aa679345628f570691c5be5",
+      "size": "3776",
+      "format": "png"
+    },
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "64f90092",
+      "md5": "f1abf3a905da5786383aa50689c948f4",
+      "sha1": "97183c974522da99c52211e6f60fa69d29d069b0",
+      "size": "4128",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=ss(wor)",
+      "region": "wor",
+      "crc": "b5d494d0",
+      "md5": "f44072caad72717aab24a28b0352653c",
+      "sha1": "622863e245bb8972c38dc8396cc93f530a696e66",
+      "size": "8778",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=fanart",
+      "crc": "d3a6f93e",
+      "md5": "ae444ecaf7deb62240017d57204f7d6e",
+      "sha1": "361ed0d704978c2d10f7f04132277c821e6762e8",
+      "size": "668077",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=video",
+      "crc": "7ee2ea66",
+      "md5": "b4c0dc7fbf38ddf38aadfff3e7d02837",
+      "sha1": "3ea4e8d9d16329d7b9c87d297170f722df005324",
+      "size": "3242263",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=video-normalized",
+      "crc": "eb65b174",
+      "md5": "d99d82c6fb710dc081778801632a5701",
+      "sha1": "33329d76e942447bdcc784f394504e60a414b75f",
+      "size": "1508684",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=steamgrid",
+      "crc": "d7cae09e",
+      "md5": "92310141504a9a5c2683047fa1b89cb0",
+      "sha1": "b9b959cbd12e0b273fb0e99ab32e6ba686a6f333",
+      "size": "36930",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=wheel(jp)",
+      "region": "jp",
+      "crc": "a7fc0ab4",
+      "md5": "2c2d36fe9f56a3aafa15ddd87284ed27",
+      "sha1": "9937b66931c88ad49984a0832bdf72cc6e6365aa",
+      "size": "128802",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=wheel(wor)",
+      "region": "wor",
+      "crc": "823f2136",
+      "md5": "1bb42300c060c18a4abbc774fb0ef42c",
+      "sha1": "9e95cc1540b4a72c0462634c58e58c325f452422",
+      "size": "172898",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "a39df161",
+      "md5": "af13d7840c4f4beb7762912d988b1729",
+      "sha1": "3d03433d1b1d39a30a1d47027502ed286346ec94",
+      "size": "119171",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "1345784c",
+      "md5": "aca3e70d64919b325fc79334107c86b7",
+      "sha1": "707e24176138dadebc83250d3de45d62fd7708d4",
+      "size": "149850",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "9b6407dc",
+      "md5": "095e639706d99d12d49f31ab1b7df864",
+      "sha1": "7ce0132a095534bda503b1b5bdc24f1c9a55ef85",
+      "size": "119609",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "8bd458a3",
+      "md5": "b26fcfc21b20844e3191ef252ca8115f",
+      "sha1": "1d8b91758679561f1adf06688dd726653dd6dbfd",
+      "size": "150287",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "3bab2e0f",
+      "md5": "f6ea52773b9580bc03d66c82c200cb24",
+      "sha1": "5a568c618867bc4bcc4a97ad2806962c85d1389b",
+      "size": "509550",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "873bbcef",
+      "md5": "009aaf3bb490d6017dfe94197f8ee9d3",
+      "sha1": "c73fcc3623ac7e2a7b735890096412ebf73801fc",
+      "size": "85197",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D(de)",
+      "region": "de",
+      "crc": "cf027d2c",
+      "md5": "64a375db5e30c291ca6f584d674953b0",
+      "sha1": "3cec3302140e76dbdf369a7206d0922512924d92",
+      "size": "664227",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D(eu)",
+      "region": "eu",
+      "crc": "f524c970",
+      "md5": "1be21a6df24afc40b4cfc63567fd733b",
+      "sha1": "03b7dd84155e1ba28953d9801f30dcb506f629d8",
+      "size": "799274",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D(it)",
+      "region": "it",
+      "crc": "5fa44a70",
+      "md5": "c0248fb59f8caf9e771eff57c9201e7a",
+      "sha1": "8c85266bca9d0b8c2ba7c22c59c8151bee2751f1",
+      "size": "761295",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "112b742c",
+      "md5": "a02e0df2563ecb54c358ca86cbe8fcad",
+      "sha1": "04f2a8db1e0a0ce8c56661d83d57e70a84b6dc5e",
+      "size": "1281734",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "57bd7414",
+      "md5": "17ce441a5779714ae09b493625b84df7",
+      "sha1": "0d1b51921249e960046a0a35dbacd776e9e58039",
+      "size": "144250",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D(us)",
+      "region": "us",
+      "crc": "17988b4d",
+      "md5": "fce5b70221ecc06c23091e04a41c6862",
+      "sha1": "aa5b1ca96cc4e17c2fcdde4f4aa83b77b143368b",
+      "size": "693593",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D-side(de)",
+      "region": "de",
+      "crc": "7166adec",
+      "md5": "e4a2fad645eb5e7bfc88364ce4c1626f",
+      "sha1": "315d34b0505c486dba568b83eeb76f73e03e0fd1",
+      "size": "40810",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D-side(eu)",
+      "region": "eu",
+      "crc": "0ce6986b",
+      "md5": "4d95e1043b9af8f5258dd65b7d7c4e4f",
+      "sha1": "80ae713dab501f992e812606c7709199dd3d94a9",
+      "size": "151086",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D-side(it)",
+      "region": "it",
+      "crc": "3fe4ec55",
+      "md5": "52b403bb18743bb66ad38b065d075520",
+      "sha1": "07746710d72d96a207dd7b33c7cd48d136d8e843",
+      "size": "43158",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "52bc0ea4",
+      "md5": "a9f66a6bf0e78ae2d30dee693c4bc73d",
+      "sha1": "1fce0009c8281208e33548a79c53754eba4aa32c",
+      "size": "118346",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "351922a0",
+      "md5": "8cdd752fa9038746b68b8e03713a999e",
+      "sha1": "4bc87101cc950ddd741a020253f16e1c5bb7b1ae",
+      "size": "28767",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "521d1462",
+      "md5": "dbe4b8800430f0d582b273309144a028",
+      "sha1": "bdbc257f941f810c837a156b0ef88fffec98fd40",
+      "size": "58673",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D-back(de)",
+      "region": "de",
+      "crc": "68dc9859",
+      "md5": "4e2f1492e33d4be5fb9f11a901096687",
+      "sha1": "331abe17ccc6ba827aebf796bdacfb07354cb167",
+      "size": "638859",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D-back(eu)",
+      "region": "eu",
+      "crc": "443eb360",
+      "md5": "29d032492206cc41851b86174b03f3af",
+      "sha1": "b271fc4aae7b5e4f0d19b3b0192f767788e165ec",
+      "size": "860644",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D-back(it)",
+      "region": "it",
+      "crc": "e3c505d6",
+      "md5": "66db3a36a6e6ac8369f3295cdee08469",
+      "sha1": "34144c6cecb17ba410fb747a50349919345b7fab",
+      "size": "749053",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "f79883cd",
+      "md5": "39d2da72fc28a17bd19e6dccde8f2b92",
+      "sha1": "722ed8c52b37be77a70ac4e52f0f9e7c8584d637",
+      "size": "603393",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "48a0f3fa",
+      "md5": "b9832ec60021731dba63184127bb0c04",
+      "sha1": "7e813cee640cf6134362399fa428996ea925d897",
+      "size": "166740",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "4e2bb7d2",
+      "md5": "5bb5295a0198d9d05833b9a81a4a2b2e",
+      "sha1": "f90c6687240354076442808492ec798a9adcaf60",
+      "size": "469398",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-texture(de)",
+      "region": "de",
+      "crc": "387ab95e",
+      "md5": "bb3da5fb3c50b75977ac94a83aa1cdc7",
+      "sha1": "e373ee9ad27ce184ce846b343a9570a8c6394315",
+      "size": "1361760",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-texture(eu)",
+      "region": "eu",
+      "crc": "fa4c1e8f",
+      "md5": "d1de5f9f7f73cde759a85725ebc6c30b",
+      "sha1": "e1879e97184249109e6fde92495f4be7f99f1183",
+      "size": "1612735",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-texture(it)",
+      "region": "it",
+      "crc": "c42103be",
+      "md5": "d70af427d7fcb4ccca81541e1d836328",
+      "sha1": "f816b12fa2330845898396fcf5bca9084e7e6fc4",
+      "size": "1574948",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "5c4d95df",
+      "md5": "89f37c7d2633a9ded4023c4650e3c4bd",
+      "sha1": "e7daa715ede31928f30606dcaef95480895f07f0",
+      "size": "1304187",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "6b38b8ee",
+      "md5": "d75f894e51a5866a39798cdefc05f1f0",
+      "sha1": "1d9ec1b7931fc5d0f799ba9ba19300eed782598e",
+      "size": "361299",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-texture(us)",
+      "region": "us",
+      "crc": "1a5dfcfb",
+      "md5": "d30e0060502d0912f9d7d1ab33ae2eba",
+      "sha1": "ba553db1e25cfb9d33f1fb5567bc078a060b3943",
+      "size": "1083948",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-3D(de)",
+      "region": "de",
+      "crc": "050465dc",
+      "md5": "c0827e729550fdf4e41afc4980ad406b",
+      "sha1": "4ff921945fa351a02669445ef5c406fb4512bf8b",
+      "size": "295676",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-3D(eu)",
+      "region": "eu",
+      "crc": "8e013d33",
+      "md5": "6c035e03b91a1d3d9a5bba611782dcea",
+      "sha1": "c010265eb658cc1ec387375318ead042992f5299",
+      "size": "356784",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-3D(it)",
+      "region": "it",
+      "crc": "b085dee0",
+      "md5": "00e810a3ff73f8fc058d10e26af678eb",
+      "sha1": "e1f0c969b0f7c2a035f5a3333bdfbc925f94075e",
+      "size": "312826",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "39b0b7d3",
+      "md5": "6014a0e1880d555a9f4dbe65761b48af",
+      "sha1": "198c0536193904269cecbad8f5265c6cdb63b59d",
+      "size": "299027",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "d0bfdf4b",
+      "md5": "e8594694f8f038689a28fc0d2e2a7518",
+      "sha1": "565863b2f014de56037c1faf09294b4408295a4f",
+      "size": "124764",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=box-3D(us)",
+      "region": "us",
+      "crc": "62e9ed4e",
+      "md5": "7ec3e537529dd29d12c14a9ae29018b9",
+      "sha1": "f897cd88276756087354e7bae3c3b72b15f3dcce",
+      "size": "311497",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=manuel(jp)",
+      "region": "jp",
+      "crc": "aca65d6a",
+      "md5": "e859de0936c8e5bc0c63500e803784f3",
+      "sha1": "cbd945df1ada5cecc0164e388dbdcff7e4749744",
+      "size": "893637",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=manuel(us)",
+      "region": "us",
+      "crc": "35d519c8",
+      "md5": "510c8ab0eed61ae9d31e7942f1830e5e",
+      "sha1": "e4224329c61d47e8882ede46d28529c3165b7ea7",
+      "size": "819703",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=support-texture(eu)",
+      "region": "eu",
+      "crc": "f4fbce9c",
+      "md5": "b6cd9b2c22dcb9da3d597bd5abdc10af",
+      "sha1": "f27189db103694c3cb5a65a9fdfb92396bd484ab",
+      "size": "502861",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=support-texture(eu)",
+      "region": "fr",
+      "crc": "f4fbce9c",
+      "md5": "b6cd9b2c22dcb9da3d597bd5abdc10af",
+      "sha1": "f27189db103694c3cb5a65a9fdfb92396bd484ab",
+      "size": "502861",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "ac4cfad0",
+      "md5": "d8867bd89cb52f82c2eafc9c5ebde25c",
+      "sha1": "687e77e87c38e0a94932bd9f49700501ec63ba93",
+      "size": "311994",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=support-texture(us)",
+      "region": "us",
+      "crc": "f61c586b",
+      "md5": "78fcff10b0b6e43c76fc894666bd6101",
+      "sha1": "4d6b8e7b0cf2774dd19e94105d56924d5847b4cd",
+      "size": "414891",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=support-2D(eu)",
+      "region": "eu",
+      "crc": "dbb8a3f8",
+      "md5": "f49a713099666ddb23669b1a80a6a40e",
+      "sha1": "7e5a93c3a1ca002d70f0eeb5dc5cd8458d72fb6e",
+      "size": "385811",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "f7f6bf20",
+      "md5": "23fcf75c958b5ee345fcc94847b8fa58",
+      "sha1": "e17e1b4dc9e7370bfb3743a39bc11b8ccd7b78c6",
+      "size": "280463",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=support-2D(us)",
+      "region": "us",
+      "crc": "84a382a2",
+      "md5": "c9049a3733e51a4600d4527fb62c74ac",
+      "sha1": "b88189fe04d381f5f162769486bd40cc7f96a2a7",
+      "size": "387401",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "6",
+      "posw": "1406",
+      "posh": "1067",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "a74be012",
+      "md5": "aeb99e35abce8dc4d28b6243213f27a1",
+      "sha1": "218d53afd448bcb2da1299ce02b8448206cef035",
+      "size": "702548",
+      "format": "png"
+    },
+    {
+      "type": "themehb",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaFichierJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=themehb",
+      "crc": "2e319ec4",
+      "md5": "24b75c05dc69b8ff45b49f416995321d",
+      "sha1": "9b9b8997b937ef5773fea11f6a6eb7cbaa048ae0",
+      "size": "1333399",
+      "format": "zip"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=mixrbv1(de)",
+      "region": "de",
+      "crc": "c5dd77e3",
+      "md5": "87550f3c78cd55ddffaa037c280c3348",
+      "sha1": "86fd01c422f7946aafa9723ae5bfb8e4086bb31e",
+      "size": "385637",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=mixrbv1(eu)",
+      "region": "eu",
+      "crc": "25f89a75",
+      "md5": "8622f901f8083ee0be135c3d2c7dd396",
+      "sha1": "f1c7cf2e66ceb6b5a3c5c818e643fd33a52c409d",
+      "size": "407149",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=mixrbv1(it)",
+      "region": "it",
+      "crc": "c424b41d",
+      "md5": "1797a4ffd6da6397bf113ad6e1254187",
+      "sha1": "cee9cd00f0934e3d394ea4e992e6f4a5cef37f04",
+      "size": "393140",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "814d8562",
+      "md5": "c303d35179217e63771aff0efe59afb2",
+      "sha1": "ceb75646c407ab6187ae9fc92552d998188df6bd",
+      "size": "349355",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "9a3e5efc",
+      "md5": "30ef25621798e1483cb7b5ce8f0c83ba",
+      "sha1": "de38522d0baaddcb7fd13848e4db4acaaade280f",
+      "size": "297598",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "9adc04e0",
+      "md5": "707dd121a1ab72c97d6dcf7d5c6435ac",
+      "sha1": "ab851cd95f914235f9366722470a385b8b37fe19",
+      "size": "388127",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "25f89a75",
+      "md5": "8622f901f8083ee0be135c3d2c7dd396",
+      "sha1": "f1c7cf2e66ceb6b5a3c5c818e643fd33a52c409d",
+      "size": "407149",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=mixrbv2(de)",
+      "region": "de",
+      "crc": "0ccc749c",
+      "md5": "c6aa5643bb89169506b60183ea168a0f",
+      "sha1": "5fe12e4027821082adc834a4a47abd06d74f5ba9",
+      "size": "562173",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=mixrbv2(eu)",
+      "region": "eu",
+      "crc": "1e314362",
+      "md5": "c77dfb2bf73f26e0f0dc95c5fa6b0be5",
+      "sha1": "e4190390f0dce841cb220a34d2fa3600782673b3",
+      "size": "585767",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=mixrbv2(it)",
+      "region": "it",
+      "crc": "f21c3c36",
+      "md5": "4a14e29ff921a8d86be59030548241a1",
+      "sha1": "e024db62ac1475c21fe202d7d6d64d54c8cf7698",
+      "size": "569408",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "f9cd27ed",
+      "md5": "01ad3d3aab51f236c6dd92f5762f571a",
+      "sha1": "f42909dc8c374591c7062aa7a0b5fce7416e1bcb",
+      "size": "524102",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "ee6ac0aa",
+      "md5": "56212cca38120a62467e66998f57f770",
+      "sha1": "e73656413edce2c9ec863c7d4ffe44e740569fa3",
+      "size": "481919",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "85c983f0",
+      "md5": "46a118cd44e1c987a1d76eb00d11e7c9",
+      "sha1": "7d5075aaacdbaa3350d1198146b4213ff510dd7f",
+      "size": "567993",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1285&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "1e314362",
+      "md5": "c77dfb2bf73f26e0f0dc95c5fa6b0be5",
+      "sha1": "e4190390f0dce841cb220a34d2fa3600782673b3",
+      "size": "585767",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=logo-monochrome",
+      "crc": "95dac55f",
+      "md5": "1a6af8c61e2b478c66f13a76035c4178",
+      "sha1": "333417fda7f11b21cdbfe53c5b549d31f387e7e8",
+      "size": "3342",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=wheel",
+      "crc": "d0666824",
+      "md5": "f132730b36526f594b4480fd905684cf",
+      "sha1": "2ba2d8412bceaaa973ae7f0bf41d08edf5e5a369",
+      "size": "27698",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=logo-monochrome",
+      "crc": "95dac55f",
+      "md5": "1a6af8c61e2b478c66f13a76035c4178",
+      "sha1": "333417fda7f11b21cdbfe53c5b549d31f387e7e8",
+      "size": "3342",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=wheel",
+      "crc": "d0666824",
+      "md5": "f132730b36526f594b4480fd905684cf",
+      "sha1": "2ba2d8412bceaaa973ae7f0bf41d08edf5e5a369",
+      "size": "27698",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3555&media=pictoliste",
+      "crc": "912e565f",
+      "md5": "e1848a91d9e085224b8ccf11b8b4bacc",
+      "sha1": "34379c7b3106f9076d2b9388e291a53f1e2f42c1",
+      "size": "1341",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3326&media=pictoliste",
+      "crc": "36a4c3ef",
+      "md5": "afd4d4a91279a9bff2aba59f7792d956",
+      "sha1": "b9b7cd287224225c354d6085f774edd086771231",
+      "size": "764",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3326&media=logo-monochrome",
+      "crc": "2209ca9d",
+      "md5": "69ae2e55d29213699692a507575f03a2",
+      "sha1": "15923f1cc22ea88ffe1ac0f29a4be547eaae1cdd",
+      "size": "15025",
+      "format": "png"
+    },
+    {
+      "id": "2912",
+      "parent": "genre",
+      "subparent": "Puzzle-Game / Tomber",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2912&media=logo-monochrome",
+      "crc": "41dc7ec5",
+      "md5": "bf6e6893100d96e8b0800297249f0b66",
+      "sha1": "c7b7f203498441e0f35952204397cd380652dbd7",
+      "size": "8824",
+      "format": "png"
+    },
+    {
+      "id": "2912",
+      "parent": "genre",
+      "subparent": "Puzzle-Game / Tomber",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2912&media=logo-monochrome-svg",
+      "crc": "2727b4fe",
+      "md5": "a10d5dc314b8ecb5e784bb49cb8bb029",
+      "sha1": "705c104b03c375aa73fbd7c0cd0449d5ec08bc22",
+      "size": "38156",
+      "format": "svg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=pictoliste",
+      "crc": "e4176cee",
+      "md5": "cc91411eb70735bb11dcfc4a0457b474",
+      "sha1": "1f04afee843e3aca095a118170eb13f3cf9a95d6",
+      "size": "828",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome",
+      "crc": "afda799e",
+      "md5": "b6aace835e844a24b33032c300cea85a",
+      "sha1": "ad7df82b2dc35f742dfe94cb20c5984c61a1be7f",
+      "size": "4560",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome-svg",
+      "crc": "b9fb9475",
+      "md5": "1f42d149151051f8c80b9728242769c3",
+      "sha1": "a0efb0c8b8814d280d62c7b2c5a6f39d5eaf0267",
+      "size": "2101",
+      "format": "svg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=background",
+      "crc": "923a4c43",
+      "md5": "5b1038e07f813242bbf179dcc11aa88f",
+      "sha1": "7971778339840a88ad940669b45dfc0103721cc1",
+      "size": "306716",
+      "format": "jpg"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=pictoliste",
+      "crc": "390f6fd3",
+      "md5": "3fa8179193133952edec1f1c83cbbb12",
+      "sha1": "91d013549a041ad038ee98be72ef9065b1ef2fac",
+      "size": "938",
+      "format": "png"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=logo-monochrome",
+      "crc": "868744ba",
+      "md5": "532936b915571fa9610eea67748f388c",
+      "sha1": "76f9d4781b456572ef1b45420a874cd4b207aaff",
+      "size": "5344",
+      "format": "png"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=logo-monochrome-svg",
+      "crc": "68078839",
+      "md5": "dca661ef2311c429fc7cc04446d74cb2",
+      "sha1": "fc33378ea7d4fbabcba0aa5b14f0803facd5b6e5",
+      "size": "2190",
+      "format": "svg"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=background",
+      "crc": "dde606f3",
+      "md5": "dccb263a55ad6904ff08a7ffa8400adc",
+      "sha1": "f2d9943b945e4268b10e0b8edc3aa151e0e983d5",
+      "size": "213672",
+      "format": "jpg"
+    },
+    {
+      "id": "27224",
+      "parent": "famille",
+      "subparent": "Wario",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27224&media=figurine",
+      "crc": "ecaf737a",
+      "md5": "a06438eacd53d48685f9615cd86aada6",
+      "sha1": "f1b958e3b16b182b838037002339b0760e0e72d5",
+      "size": "242429",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "137742",
+      "romsize": "524304",
+      "romfilename": "Wario's Woods (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "51DCC76F",
+      "rommd5": "FE84C1D05561E9CB9BA1ACFA4A20ED8F",
+      "romsha1": "F8CCEEFAE78306F795DA82FC0C61FB80C6A38E0C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "219024",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "346164",
+      "romsize": "524304",
+      "romfilename": "Wario's Woods.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9744B0AE",
+      "rommd5": "D8CFBEE2A988E6608D1A017923D937A8",
+      "romsha1": "F0BA657B91D96062D9DBFBAEA81BF6AD4B3E5023",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "113465",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1145997",
+      "romsize": "524304",
+      "romfilename": "Wario's Woods (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0f8d9597",
+      "rommd5": "6d3b1536daad89bef456600c2abe79e5",
+      "romsha1": "0d6bc457ca0da0210ff45f966dc8116e407e1336",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "102933",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "4535",
+      "romsize": "167124",
+      "romfilename": "Wario's Woods (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "20A85ECF",
+      "rommd5": "E1F10B64C6F5981937B66FC2EE797A17",
+      "romsha1": "6979181C94C0753B9A940FFB7AC6E635CB62D7DD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "78878",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "4534",
+      "romsize": "159102",
+      "romfilename": "Wario's Woods (Europe).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A816096D",
+      "rommd5": "884AAE68328BE82A70B46EEB8804C0F6",
+      "romsha1": "46EE35035E8A1E6EF4ABCF36F112A5F1ABAC6CD3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "69240",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "137741",
+      "romsize": "524304",
+      "romfilename": "Wario's Woods (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C0CBA5AD",
+      "rommd5": "521D0285BDAF94986DF76EE1A18B7A59",
+      "romsha1": "8A7EC3CD3C92D1A5574642B43AB385B0A1FB7FE9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "65355",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "407132",
+      "romsize": "524304",
+      "romfilename": "坏马利森林美版(瓦里奥森林美版).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DF287FAF",
+      "rommd5": "F59C0B1A99524118DC6EAACCD0BE8950",
+      "romsha1": "B875567F7CA1F0EC711410C58B9515508FD5E038",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "55251",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "137740",
+      "romsize": "524304",
+      "romfilename": "Wario no Mori (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A5A43B37",
+      "rommd5": "4E7F2C26CEE4DFED0B306D5594F0CFAB",
+      "romsha1": "5F999079E2A64AA5D09C2C2BFB04BCBDEE2D4E1E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "25081",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "675390",
+      "romsize": "168663",
+      "romfilename": "Wario's Woods.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FF78EE6F",
+      "rommd5": "BBF53DC0E083D62597E2BB17F2CD6AEE",
+      "romsha1": "CA8CCD2550B96E738B2FD522876681A4B7DD656A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "24366"
+    },
+    {
+      "id": "646220",
+      "romsize": "524304",
+      "romfilename": "Wario no Mori (J).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2B5083F7",
+      "rommd5": "562837F31BBC310928D426B7815CB4AC",
+      "romsha1": "F53D894C0A0A7FDDD20269031432C7E2AC653BA9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19554",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "13617",
+      "romsize": "159013",
+      "romfilename": "Wario no Mori (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D58C6139",
+      "rommd5": "70B8ED8A4EC7A7D11403276AFC5F7300",
+      "romsha1": "ACFBCE879AD06DFEDB880DB076E687B5FDDD16D5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "16481",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1145994",
+      "romsize": "524304",
+      "romfilename": "Wario's Woods (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "63763814",
+      "rommd5": "107f3b35d03121b112f825444164609c",
+      "romsha1": "a8bb6e01c1e996245652d183192a6131e4e1b840",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12523"
+    },
+    {
+      "id": "1163959",
+      "romsize": "167131",
+      "romfilename": "Wario's Woods (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "63CD7703",
+      "rommd5": "20B3D1B5C3B9F23AAEF5619D99E07CBD",
+      "romsha1": "A474CA3F0973F124E3D1776295C1B163004B9FA9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11767",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "594747",
+      "romsize": "167164",
+      "romfilename": "Wario's Woods (U) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "80ACDF54",
+      "rommd5": "59312DFC76DAB86A51FD756488184501",
+      "romsha1": "693678BDEB91C77877D74AF021492994322A5CA0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11541",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "873890",
+      "romsize": "524432",
+      "romfilename": "WarioWds.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "917EE2FB",
+      "rommd5": "763B0EAF08293AEB5E1361C38E573036",
+      "romsha1": "A8B3F5D6D2CB664C8595B167EA2F3AFB63952F02",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9666"
+    },
+    {
+      "id": "1145991",
+      "romsize": "524304",
+      "romfilename": "Wario no Mori (Japan) (En).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "fbf569cf",
+      "rommd5": "9cb1fea6196065420ce7c8e71ef0cb1a",
+      "romsha1": "ee2414406224732f5d09cc62ec721753fbe87b88",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6732",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "473395",
+      "romsize": "164278",
+      "romfilename": "Wario s Woods (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8FAE3CDB",
+      "rommd5": "CF21F9EF9286B16D95F2A94B12C276B8",
+      "romsha1": "DB3D0C3427F06549CC613A8E11B8417B97594183",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6696",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "540505",
+      "romsize": "168742",
+      "romfilename": "Wario's Woods (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "24883299",
+      "rommd5": "63C69C7FC874F837EA059BF30DF70A52",
+      "romsha1": "3D5E32D95C29F5053C60BA304EF1D0DBA0AEFA9C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6374",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "174948",
+      "romsize": "524288",
+      "romfilename": "Wario no Mori (Japan) (En).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "03E2898F",
+      "rommd5": "2E33245E25340F079889ED0C6179CB5A",
+      "romsha1": "BDF3D18E9416A241F829E62A063FD6515128E856",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3094",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174950",
+      "romsize": "524288",
+      "romfilename": "Wario's Woods (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F79A75D7",
+      "rommd5": "BEC7FA447C1C8E13A87BD4A5685CE563",
+      "romsha1": "602F640B3FE0CA47CF47DE6688779419A75487AC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2880",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "537765",
+      "romsize": "167182",
+      "romfilename": "Wario's Woods - Great Autumn Yesterday.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "11CD10D6",
+      "rommd5": "9D3496BE12E5AEB12914532724CA415D",
+      "romsha1": "3A290A1241A360291E631077072986B1F8092570",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2015"
+    },
+    {
+      "id": "602159",
+      "romsize": "168671",
+      "romfilename": "Wario's Woods (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D152FCB7",
+      "rommd5": "B9FA1DEC0AB89D877E3D51AB9524D24A",
+      "romsha1": "6EA69463FCAEDED4B57D754DF4EE068F2C162E69",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1933",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "174949",
+      "romsize": "524288",
+      "romfilename": "Wario's Woods (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "668D1715",
+      "rommd5": "04E683B752E2768D4CA2F66550DA2FD2",
+      "romsha1": "1CEC3B2E93E81F0353BE25AD139ADDAE881DC69A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1537",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "537766",
+      "romsize": "167371",
+      "romfilename": "Wario's Woods Enhanced.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B56F2E1A",
+      "rommd5": "3716D0501A6B7F2C88B14AEDE16D22CA",
+      "romsha1": "25AE0C924500FB00C5E6E5E1A61DF9DA9300BB03",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "202"
+    },
+    {
+      "id": "480335",
+      "romsize": "167102",
+      "romfilename": "Wario's Woods (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0CF60269",
+      "rommd5": "BA36E617655BFB0B21F19EE195FF701B",
+      "romsha1": "E5226E5ADEF85540C8AD43877585F0FA91776F50",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "157",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "589166",
+      "romsize": "159263",
+      "romfilename": "Wario's Woods (Europe).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1669F4AF",
+      "rommd5": "2D4AF8EE96140E7849748457D66F7333",
+      "romsha1": "D16415B18725BBB74FEDB5256A01EBFFDB189B13",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "154",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "483286",
+      "romsize": "168758",
+      "romfilename": "Wario's Woods (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "18E735F7",
+      "rommd5": "DBB159A9F4B318E75E2EBE71512B6301",
+      "romsha1": "46A9D0ECEF5970CCECF6F0286132D8E9DDCFC52D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "139",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "483285",
+      "romsize": "160331",
+      "romfilename": "Wario's Woods (Europe).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FDEFC14C",
+      "rommd5": "58C546BA8059157908D796DDF78C0144",
+      "romsha1": "23E8D645FC680074B206EAED487D147AA8264808",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "134",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    }
+  ]
+}

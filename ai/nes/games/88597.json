@@ -1,0 +1,819 @@
+{
+  "id": "88597",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Pachio-kun 4"
+    },
+    {
+      "region": "jp",
+      "text": "Pachio-kun 4"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "963",
+    "text": "Coconuts Japan"
+  },
+  "developpeur": {
+    "id": "34166",
+    "text": "C Dream"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Pachio-kun is back again, and determined to save his friends held prisoners in casinos. As usual, this game offers new playing tables and pachinko machines."
+    },
+    {
+      "langue": "fr",
+      "text": "Pachio-kun 4 sur NES marque le retour de Pachio-kun, bien décidé à sauver ses amis retenus prisonniers dans des casinos. Comme toujours, le jeu propose de nouvelles tables et de nouvelles machines de pachinko pour varier le plaisir."
+    },
+    {
+      "langue": "de",
+      "text": "Pachio-kun ist wieder zurück und entschlossen, seine Freunde in Casinos zu retten. Wie üblich bietet dieses Spiel neue Spieltische und Pachinko-Maschinen."
+    },
+    {
+      "langue": "es",
+      "text": "El videojeugo nos muestra a un personaje, desde una vista cenital, que se encuentra en un casino. Debe ir cambiando de máquina, para ganar premios."
+    },
+    {
+      "langue": "it",
+      "text": "Il videogioco ci mostra un personaggio, da una vista dall'alto, che si trova in un casinò. Devi cambiare macchina per vincere i premi."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1991-11-22"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2860",
+      "nomcourt": "0E00",
+      "principale": "0",
+      "parentid": "320",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Casino / Slot machine"
+        },
+        {
+          "langue": "fr",
+          "text": "Casino / Machine a sous"
+        },
+        {
+          "langue": "de",
+          "text": "Casino / Slot Machine"
+        },
+        {
+          "langue": "es",
+          "text": "Casino / Tragaperras"
+        },
+        {
+          "langue": "it",
+          "text": "Casinò / Slot Machine"
+        },
+        {
+          "langue": "pt",
+          "text": "Cassino / Caça-níqueis"
+        }
+      ]
+    },
+    {
+      "id": "320",
+      "nomcourt": "0E00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Casino"
+        },
+        {
+          "langue": "fr",
+          "text": "Casino"
+        },
+        {
+          "langue": "de",
+          "text": "Casino"
+        },
+        {
+          "langue": "es",
+          "text": "Casino"
+        },
+        {
+          "langue": "it",
+          "text": "Casinò"
+        },
+        {
+          "langue": "pt",
+          "text": "Cassino"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "9db27351",
+      "md5": "3bb7c7fadd9fed6680da961b4890f8cd",
+      "sha1": "1de3fa10d21088d683cc1c4f6f4ba694ab0056fe",
+      "size": "3400",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=ss(jp)",
+      "region": "jp",
+      "crc": "8b4619ab",
+      "md5": "df6b802edb831c6838ac3107687b3fa7",
+      "sha1": "c74f383474afc898f7130ff30dd47f960b91a931",
+      "size": "2778",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=fanart",
+      "crc": "2a8f000f",
+      "md5": "805b88f36a6a90ccb60ffc5b3359b141",
+      "sha1": "25f0de9fa7d9992b3e21d094e21cb1e5399b88b5",
+      "size": "381962",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=video",
+      "crc": "6ca4c2b9",
+      "md5": "37a0af859f995a6aed3c8fc730845f8b",
+      "sha1": "4b9e30df60a599b69fb008aa55e023665146adec",
+      "size": "3658560",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=video-normalized",
+      "crc": "f57e9946",
+      "md5": "124f36692084f715abe6f68fb8b66d61",
+      "sha1": "640f3f1ff3b4473207c0c9ecfeea8ce884421b6b",
+      "size": "1040581",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=steamgrid",
+      "crc": "0c32552d",
+      "md5": "dc6df62b8f9bcfffb4d0b9f61214fca0",
+      "sha1": "e39b2b4bfd1fe40a472a2336ea077888eeb66e15",
+      "size": "33543",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=wheel(jp)",
+      "region": "jp",
+      "crc": "45cb2feb",
+      "md5": "d0611e7e46d1bccd3650f4a4e4ac6098",
+      "sha1": "af03ff237705cad06480ab603efa1c3f236ebd33",
+      "size": "51103",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "c57532dc",
+      "md5": "c9570a37f5b90521a0bb6a57c625a216",
+      "sha1": "0a4f9371a36ee156b6dc2cd7f6052570eff75750",
+      "size": "119418",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "11b57dc8",
+      "md5": "a817d517d9f87c97e466f325617450b0",
+      "sha1": "645882f804375e6ba172ff7aa0ccf008e7971bed",
+      "size": "120676",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "cca7aff0",
+      "md5": "4142d980ee848afb6547e673005c6056",
+      "sha1": "08d9664898eecc1937952a88d63b23eb733ae791",
+      "size": "495687",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "49deced3",
+      "md5": "2de9a250aa3cdc0aabe449c68f5dd7fc",
+      "sha1": "771fb3232caa5b5d4efdba35ad960abc95afc678",
+      "size": "79458",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "ec026753",
+      "md5": "b22d8e83afc18d1327eee9b7a33af68e",
+      "sha1": "129039d2f0317ad3b6ed9f49eabcac5c58f3c2cb",
+      "size": "249413",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "05ad4665",
+      "md5": "590d0015c97ab68772687a05286ec4eb",
+      "sha1": "095d7c813c6dfbced301768b5506bd7fa64a3e96",
+      "size": "135207",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "980e1427",
+      "md5": "6f2eb4d5c4f1a3eb17e04c0dbbe88e42",
+      "sha1": "5390edb8536a6f9ba8bb9d88c7317931b8eb7be5",
+      "size": "127355",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "8afc91ec",
+      "md5": "51a8bc66079da4deea9e49721a9e054a",
+      "sha1": "f03c742d862859e9fb09536ba52af534f69a7863",
+      "size": "24719",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "b5f8b607",
+      "md5": "75256c4214a5956b9970ea5fbbe7232f",
+      "sha1": "90689d7f9f7ca938172bfe2e857fa9a8a789b978",
+      "size": "732530",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "0af74588",
+      "md5": "611296b113458664d17eb30c8ab30cd1",
+      "sha1": "124eaa941dad49d3162c0c834ebd6b287f279e19",
+      "size": "141563",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "fb81e052",
+      "md5": "8def068332e9daeaf8ee8872290db7ba",
+      "sha1": "c2a238fac86adc60b3c4fb6d05014ec48e8f2eaf",
+      "size": "1456975",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "e62c3a56",
+      "md5": "dee2d08120c73584d1c545bf132471ea",
+      "sha1": "90c8d2a1e81b44bf39145bdbbea1f2c7eb0a2ab7",
+      "size": "310102",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "0e274554",
+      "md5": "33a6aedef11805fdd58a8cdbc6cd9084",
+      "sha1": "d15c876d0dba5edcc21b04b515268f72d57e095b",
+      "size": "308856",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "3f7c34af",
+      "md5": "a1805eb46524af5bd052027932da823f",
+      "sha1": "1c190850ea73a87d77f3aba6d9e46ef34684770e",
+      "size": "155241",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=manuel(jp)",
+      "region": "jp",
+      "crc": "19e21e17",
+      "md5": "bd86d53a9cebe49046ae54d87c160467",
+      "sha1": "cdb4007387d764827cbe3f57fe14566d7f6f74be",
+      "size": "3131200",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "db4f4ce3",
+      "md5": "12a871527a63ae24936f72243329c025",
+      "sha1": "b5a6beba11043ead431b44e5e375972a8a28fa9c",
+      "size": "309453",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "a0b71cb0",
+      "md5": "d2770f3d9ae66d7355988c532e14adb6",
+      "sha1": "f178425ee0631760061068744a3087fb47db7464",
+      "size": "278587",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "a18d1463",
+      "md5": "a8d78beb6c1be0c5cb5d9b0b2ea5faf0",
+      "sha1": "cf6576059dc8ca33f3ef1ac05af70b01b586bd80",
+      "size": "450307",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "ed72ee87",
+      "md5": "29806b84ffa03fc846e370e5dbf8d078",
+      "sha1": "1ab678f1d890355993579137e891abe5a0e5ee3d",
+      "size": "377961",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "a18d1463",
+      "md5": "a8d78beb6c1be0c5cb5d9b0b2ea5faf0",
+      "sha1": "cf6576059dc8ca33f3ef1ac05af70b01b586bd80",
+      "size": "450307",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "fbc99793",
+      "md5": "db4b03f0982ee9b2733759e9501a6899",
+      "sha1": "7991e3564be8e0d15145b8c0c6164518d8053803",
+      "size": "663272",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "f570e4d1",
+      "md5": "e94232916b3b50b0250eb930bfa9d11b",
+      "sha1": "31421ba380c524d9e5e2746dd6bc0b60623aa963",
+      "size": "595309",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88597&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "fbc99793",
+      "md5": "db4b03f0982ee9b2733759e9501a6899",
+      "sha1": "7991e3564be8e0d15145b8c0c6164518d8053803",
+      "size": "663272",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=963&media=logo-monochrome",
+      "crc": "023ee5a8",
+      "md5": "921eefda2e11c41d17bc36c0e27a4286",
+      "sha1": "a4f0d928c0bd15a22669ccd8fc206fb17940fb73",
+      "size": "14806",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=963&media=wheel",
+      "crc": "3a5571e1",
+      "md5": "c1e13d5a4302216cc4c12675aba90236",
+      "sha1": "c71c58fcb815dc27e4e4bb948eade56d55dfa5d3",
+      "size": "156751",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=34166&media=wheel",
+      "crc": "581e3e20",
+      "md5": "e6d0191fbec143782fd8f7bc38fc501f",
+      "sha1": "4277bf430c49f270bf314cc7ef5740c42727e269",
+      "size": "27242",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2860",
+      "parent": "genre",
+      "subparent": "Casino / Machine a sous",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2860&media=pictoliste",
+      "crc": "8ba56917",
+      "md5": "5d2f8eb5ec2cf05b20213ba1b0f1a4bb",
+      "sha1": "90ed40bcbf3636648ad6f7962bdf165ae0bac0ff",
+      "size": "18153",
+      "format": "png"
+    },
+    {
+      "id": "2860",
+      "parent": "genre",
+      "subparent": "Casino / Machine a sous",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2860&media=logo-monochrome",
+      "crc": "c537c9b5",
+      "md5": "21d2160ac4a0b9ce1342f2f92cccfb49",
+      "sha1": "9b2d7a63bf5682ed94911c17f1508a3042b528ff",
+      "size": "8774",
+      "format": "png"
+    },
+    {
+      "id": "2860",
+      "parent": "genre",
+      "subparent": "Casino / Machine a sous",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2860&media=logo-monochrome-svg",
+      "crc": "8b8fd017",
+      "md5": "85029847d902d1b658e3eb404247e105",
+      "sha1": "67e3f197f022755ce5421f8c9414127e1a890830",
+      "size": "1768",
+      "format": "svg"
+    },
+    {
+      "id": "320",
+      "parent": "genre",
+      "subparent": "Casino",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=320&media=pictoliste",
+      "crc": "629e7dbc",
+      "md5": "8977f871ffbdf3787b92cd1512d9d9ee",
+      "sha1": "28631be81e1ba2bd85c5500365cf89ad3c5bab70",
+      "size": "1057",
+      "format": "png"
+    },
+    {
+      "id": "320",
+      "parent": "genre",
+      "subparent": "Casino",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=320&media=logo-monochrome",
+      "crc": "42eae6d4",
+      "md5": "dc351fece8aa56a787115056ea52e479",
+      "sha1": "4cd025426203620b69769fc1ffec6642c41862dc",
+      "size": "8425",
+      "format": "png"
+    },
+    {
+      "id": "320",
+      "parent": "genre",
+      "subparent": "Casino",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=320&media=logo-monochrome-svg",
+      "crc": "1c0e9db2",
+      "md5": "b6847704b1a189fd4a9818dc1ddfb91a",
+      "sha1": "14f0eedf77b67983dc709214f8231f531e66eaeb",
+      "size": "3067",
+      "format": "svg"
+    },
+    {
+      "id": "320",
+      "parent": "genre",
+      "subparent": "Casino",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=320&media=background",
+      "crc": "f5ca5938",
+      "md5": "795b56d1edfcc04ad5235bf56753b96d",
+      "sha1": "2822f50ccab3777540bf504f0a40ba5d56ee8525",
+      "size": "377758",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "13202",
+      "romsize": "177665",
+      "romfilename": "Pachio-kun 4 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7A347C1E",
+      "rommd5": "AE923A19A90931FECB32B2144D7361B3",
+      "romsha1": "29E030122CCE9430FF403D4B7AE619330A57C2D3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "50349",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "136917",
+      "romsize": "524304",
+      "romfilename": "Pachio-kun 4 (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A06FC941",
+      "rommd5": "6F20675D5A374290DE36EBF275B066A6",
+      "romsha1": "42CEBBBC0B349F94FDA520E8FF500A789EFA5B16",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "37805",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1141977",
+      "romsize": "524304",
+      "romfilename": "Pachio-kun 4 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3d31383d",
+      "rommd5": "bdfdfcd3303b12e2db890adaf3a2ec64",
+      "romsha1": "c1c5337b8b99b22dcd50e6619f51c7dcac84dfb7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18551",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174102",
+      "romsize": "524288",
+      "romfilename": "Pachio-kun 4 (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E08C8A60",
+      "rommd5": "C9F2EF4FD13D8A711033A84F277EE953",
+      "romsha1": "BAF3A4E0423A86E53234E806843149EF7D0974A9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1612",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114600",
+      "romsize": "177643",
+      "romfilename": "Pachio-kun 4 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BBCED679",
+      "rommd5": "21F8D1DA626FD6889842B531356B119F",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "61",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

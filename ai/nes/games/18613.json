@@ -1,0 +1,937 @@
+{
+  "id": "18613",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Chack'n Pop"
+    },
+    {
+      "region": "jp",
+      "text": "Chack'n Pop"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "55",
+    "text": "Taito"
+  },
+  "developpeur": {
+    "id": "55",
+    "text": "Taito"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "This game is the predecessor of Bubble Bobble and it's\na platform game where a roundish yellow creature, named Chack'n, must fight against Monstas and Mightas. The Monstas hatch from eggs at the ceilings and the Mightas push a rock that is used as the game's timer.\nThe eggs have three phases:  if it's blue, it's completely harmless, if it's yellow it will pop within 10 seconds and if an eggs turns red it will pop almost immediately.\nChack'n uses bombs to release the en-caged hearts and to blow up the Monstas. When the heart is released it will fly up and destroy the separator block between the level and the Mighta. Go to the Mighta and you are in the next level.\nAfter 14 levels there's a wedding between Mr. and Mrs. Chack'n."
+    },
+    {
+      "langue": "fr",
+      "text": "Chack'n Pop est un jeu d'action sur console Nintendo 8 bits. Vous incarnez un petit personnage jaune capable de marcher sur les murs et de lancer des bombes. Vous devez récupérer tous les oeufs d'un même niveau et éliminer tous les ennemis pour passer au suivant."
+    },
+    {
+      "langue": "de",
+      "text": "Chack'n Pop ist ein Plattformspiel, bei dem eine rundliche gelbe Kreatur namens Chack'n gegen Monster und Mightas kämpfen muss, um Herzen zurückzuerobern, die während einer romantischen Begegnung mit Miss Chack'n gestohlen wurden.\r\nnnDie Monster in Chack'n Pop selbst schlüpfen aus an der Decke hängenden Eiern und die Mightas schieben einen Stein, der als Timer des Spiels dient. Die Monster-Eier haben drei Phasen: Wenn es blau ist, ist es völlig harmlos, wenn es gelb ist, wird es innerhalb von 10 Sekunden knallen und wenn ein Ei rot wird, wird es fast sofort knallen. Also pass auf in Chack'n Pop."
+    },
+    {
+      "langue": "es",
+      "text": "Este juego es el predecesor de Bubble Bobble y es un juego de plataformas donde una criatura amarilla redonda, llamada Chack'n, debe luchar contra Monstas y Mightas. Los Monsta salen del cascarón de huevos en los techos y los Mightas empujan una piedra que se usa como temporizador del juego. Los huevos tienen tres fases: si es azul, es completamente inofensivo, si es amarillo, explotará en 10 segundos y si un huevo se pone rojo, explotará casi de inmediato. Chack'n usa bombas para liberar los corazones enjaulados y hacer estallar a los Monsta. Cuando se suelta el corazón, volará hacia arriba y destruirá el bloque separador entre el nivel y el Mighta. Ve al Mighta y estarás en el siguiente nivel. Después de 14 niveles, hay una boda entre el Sr. y la Sra. Chack'n."
+    },
+    {
+      "langue": "it",
+      "text": "Chack'n Pop è un gioco d'azione per console Nintendo a 8 bit. Giochi nei panni di un piccolo personaggio giallo capace di camminare sui muri e lanciare bombe. Devi raccogliere tutte le uova dello stesso livello ed eliminare tutti i nemici per passare a quello successivo."
+    },
+    {
+      "langue": "pt",
+      "text": "Chack'n Pop é um jogo de ação para o console Nintendo de 8 bits. Você joga como um pequeno personagem amarelo capaz de andar nas paredes e atirar bombas. Você deve coletar todos os ovos do mesmo nível e eliminar todos os inimigos para passar para o próximo."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1985-05-24"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2937",
+      "nomcourt": "0100",
+      "principale": "0",
+      "parentid": "10",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Action / Labyrinth"
+        },
+        {
+          "langue": "fr",
+          "text": "Action / Labyrinthe"
+        },
+        {
+          "langue": "de",
+          "text": "Action / Labyrinth"
+        },
+        {
+          "langue": "es",
+          "text": "Acción / Laberinto"
+        },
+        {
+          "langue": "it",
+          "text": "Azione / Labirinto"
+        },
+        {
+          "langue": "pt",
+          "text": "Ação / Labirinto"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "nomcourt": "0100",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Action"
+        },
+        {
+          "langue": "fr",
+          "text": "Action"
+        },
+        {
+          "langue": "de",
+          "text": "Action"
+        },
+        {
+          "langue": "es",
+          "text": "Acción"
+        },
+        {
+          "langue": "it",
+          "text": "Azione"
+        },
+        {
+          "langue": "pt",
+          "text": "Ação"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "762c140c",
+      "md5": "04ff76d5da93b4fb481031d994fa5c5d",
+      "sha1": "f70b1ec44c549d16d294f23306ea382c737cd9f3",
+      "size": "2456",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=ss(jp)",
+      "region": "jp",
+      "crc": "7affbb70",
+      "md5": "b86a1e8881dbc2b7a0a9b3080fada1f3",
+      "sha1": "631c463bcd3b1204cf7cd83ab80d676211422c4c",
+      "size": "2602",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=fanart",
+      "crc": "9e104626",
+      "md5": "e90727202ba4a1574ae2d18f7fb02147",
+      "sha1": "1dc12ebd890bf2c20d2e452de58e8696d081d90d",
+      "size": "311251",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=video",
+      "crc": "19785ade",
+      "md5": "6decba7eb44e3d849ef484eed3e99c96",
+      "sha1": "6b8540d9304a1fc5dde251a086fa3f7aea72f665",
+      "size": "1132720",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=video-normalized",
+      "crc": "84e92adc",
+      "md5": "cc95944a4cf37ee356756b69bffa5134",
+      "sha1": "0a1e091231d67f8e90f4c716380f42b00cebd1be",
+      "size": "678136",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=steamgrid",
+      "crc": "ba98dd43",
+      "md5": "2f092936d3623153c282e142cb28e9a6",
+      "sha1": "14c2e32061dc31b6cf94c4b44873f6f2e3c1443b",
+      "size": "29399",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=wheel(jp)",
+      "region": "jp",
+      "crc": "23b681be",
+      "md5": "c8203b4fa715fe3e890b7f0f2d311045",
+      "sha1": "c38c9d6d6cd1a765c340e7b0f28c48aa5c337c2b",
+      "size": "41926",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "83c8160d",
+      "md5": "7078da88ce2f06d95d1c2001cb5ebf09",
+      "sha1": "60168c06ba7718ef5471949b3b68d4e2511a6d4d",
+      "size": "95450",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "4327c747",
+      "md5": "91850dd884902a9d942b6b347b5925d1",
+      "sha1": "5a98e0529816c914cfd1a4e7ddfdca7ba6943190",
+      "size": "96020",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "a73a55ba",
+      "md5": "04b11b0613bea293ca51993a7f756b5b",
+      "sha1": "c553f13f83607927ecf9ac18fbd42fd78ce1f642",
+      "size": "479464",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "5d565b62",
+      "md5": "3b470f2aba69b18dfd94ad41fba8d050",
+      "sha1": "6b8b49ca52775a764383795e1bedb13210ac8c20",
+      "size": "78894",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "c7188bce",
+      "md5": "33a732c9ee1e8a4d87c78e0302d25e3d",
+      "sha1": "e949ee6588f70159f49ca2b7d27449074f35c289",
+      "size": "297409",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "c7188bce",
+      "md5": "33a732c9ee1e8a4d87c78e0302d25e3d",
+      "sha1": "e949ee6588f70159f49ca2b7d27449074f35c289",
+      "size": "297409",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "860d567a",
+      "md5": "2c1e4927e50ec47175eea044fb4b7ac4",
+      "sha1": "6c083bb72b67e6d31eadcde287e6f7ea2ab3511e",
+      "size": "105197",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "66e1f8c1",
+      "md5": "77725f6e2e4d64789f83e2cb0f00a996",
+      "sha1": "eb2127ff07029d2dc57b5bc49078c807f37a4180",
+      "size": "38957",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "c265ed6d",
+      "md5": "92edce360dca1bce817cbf446fe1b010",
+      "sha1": "b2a9381dc7a0c970354863e4b628b6bf5e585735",
+      "size": "28817",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "f2f80759",
+      "md5": "885e4162f3a41790d761ed680049ac48",
+      "sha1": "6da004b6b97a51ad9a421bc7123d663341acc306",
+      "size": "291972",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "f2f80759",
+      "md5": "885e4162f3a41790d761ed680049ac48",
+      "sha1": "6da004b6b97a51ad9a421bc7123d663341acc306",
+      "size": "291972",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "3e069951",
+      "md5": "889c5aa4ad44de1d7fb9a19178052584",
+      "sha1": "402a065c3a88ca9adb9ff9c3c1703d6b12ea58bf",
+      "size": "144548",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "f875701c",
+      "md5": "0b703d4159ac7d5c5756240f0581784c",
+      "sha1": "8e537631630d9e98183bfa0f7efad4968db27c8c",
+      "size": "635626",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "055bdefd",
+      "md5": "d7697a29f00ab4ec904de2bff72289f4",
+      "sha1": "677990a2fd6a053d091cb0f465fd40bf0ae32c93",
+      "size": "297203",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "b976d457",
+      "md5": "9d2f77ff33119b728a6e7e6050576e60",
+      "sha1": "3cb3d62797da4845b47d2fc7aa26baf6e724e413",
+      "size": "224499",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "bc99bb28",
+      "md5": "e4ac0a319e8e90e9d24bcc4cce64bea6",
+      "sha1": "034348f5f65ef307f9f46be8dcd127f641c40b63",
+      "size": "121305",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=manuel(jp)",
+      "region": "jp",
+      "crc": "63a44108",
+      "md5": "8bea22fc5da5c30123c16c79cc857b01",
+      "sha1": "6792824ddad7ebc9920d975c0e9d9384e2fa3465",
+      "size": "236268",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "5e91dee0",
+      "md5": "91e66d04282311f9db1dd18eee24b7a4",
+      "sha1": "817ebb6f15ff21ac9146b02296db2fa2ef08615b",
+      "size": "319846",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "4787d0b6",
+      "md5": "7928ea8c625fef7424618df554f78c01",
+      "sha1": "de9c9a15df25b13927d01bb16792ee8ec5a39647",
+      "size": "260458",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "32603a48",
+      "md5": "e4c18bf438db25630386f5bd06cc9518",
+      "sha1": "05f68521a9b9b0c595150f35cc4a6cb2c44b638c",
+      "size": "301393",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "97ad1382",
+      "md5": "27df84c2ac83ee9c94654237ae679b37",
+      "sha1": "eede5df162763f222bd3b06b811fdb2e9a52b3fa",
+      "size": "244469",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "32603a48",
+      "md5": "e4c18bf438db25630386f5bd06cc9518",
+      "sha1": "05f68521a9b9b0c595150f35cc4a6cb2c44b638c",
+      "size": "301393",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "9bdb599d",
+      "md5": "9aea5583f38f093035165a690879a4ab",
+      "sha1": "fa46af4e50f3a3f1120184b973056edbf1b2956a",
+      "size": "452174",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "ae6d00c8",
+      "md5": "16d06da8300c4f48af2fda1d43a5d177",
+      "sha1": "4f3a10eac08ae633692194b89013e0d04a8a7097",
+      "size": "393494",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18613&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "9bdb599d",
+      "md5": "9aea5583f38f093035165a690879a4ab",
+      "sha1": "fa46af4e50f3a3f1120184b973056edbf1b2956a",
+      "size": "452174",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=55&media=logo-monochrome",
+      "crc": "1ee41eda",
+      "md5": "c0d47512bae81cb323955e3375770d79",
+      "sha1": "049ed5e833457386e90fbfb71ce8e081b115a6c7",
+      "size": "6230",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=55&media=wheel",
+      "crc": "dc816667",
+      "md5": "d9fa69b25d3ea53b3565cca026f6a44b",
+      "sha1": "b6ec4f2f00d22c4a14a9a68d9d8dbeff8dc1d9fd",
+      "size": "25086",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=55&media=logo-monochrome",
+      "crc": "1ee41eda",
+      "md5": "c0d47512bae81cb323955e3375770d79",
+      "sha1": "049ed5e833457386e90fbfb71ce8e081b115a6c7",
+      "size": "6230",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=55&media=wheel",
+      "crc": "dc816667",
+      "md5": "d9fa69b25d3ea53b3565cca026f6a44b",
+      "sha1": "b6ec4f2f00d22c4a14a9a68d9d8dbeff8dc1d9fd",
+      "size": "25086",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "id": "2937",
+      "parent": "genre",
+      "subparent": "Action / Labyrinthe",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2937&media=pictoliste",
+      "crc": "fa3f2f62",
+      "md5": "20b3e5a5559b1799a9de5829870449d4",
+      "sha1": "439f80a053ad1942d7db20b94bc7ef65cb150a5a",
+      "size": "18069",
+      "format": "png"
+    },
+    {
+      "id": "2937",
+      "parent": "genre",
+      "subparent": "Action / Labyrinthe",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2937&media=logo-monochrome",
+      "crc": "f72c9342",
+      "md5": "3092c71a79d4ff4f24903105cb988c72",
+      "sha1": "560b70d6ddcc0c4502b5e5d705a2f370a34e1fb2",
+      "size": "8235",
+      "format": "png"
+    },
+    {
+      "id": "2937",
+      "parent": "genre",
+      "subparent": "Action / Labyrinthe",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2937&media=logo-monochrome-svg",
+      "crc": "cc51efbd",
+      "md5": "80324483d5fa53f66f33dadcdd4489f1",
+      "sha1": "b91c7c45dcfcd411366c06d80b49623d9485b57a",
+      "size": "1793",
+      "format": "svg"
+    },
+    {
+      "id": "2937",
+      "parent": "genre",
+      "subparent": "Action / Labyrinthe",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2937&media=background",
+      "crc": "cef3e2a6",
+      "md5": "735a4f5361108055b04fbf21cee5d36c",
+      "sha1": "6ad582102c5c6d368bca9c06ad445ab2e5fd744c",
+      "size": "184386",
+      "format": "jpg"
+    },
+    {
+      "id": "10",
+      "parent": "genre",
+      "subparent": "Action",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=10&media=pictoliste",
+      "crc": "0763cab7",
+      "md5": "620fe2a836dfa922412ff74ed37d5f57",
+      "sha1": "75481c2e5550a457b76f18451f0869222bbe5d67",
+      "size": "1005",
+      "format": "png"
+    },
+    {
+      "id": "10",
+      "parent": "genre",
+      "subparent": "Action",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=10&media=logo-monochrome",
+      "crc": "312d2970",
+      "md5": "6f825613fcbc97bbf12de578a3751c44",
+      "sha1": "6d6cedcb355020d93e9e008c7168b8f69058e248",
+      "size": "7900",
+      "format": "png"
+    },
+    {
+      "id": "10",
+      "parent": "genre",
+      "subparent": "Action",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=10&media=logo-monochrome-svg",
+      "crc": "ca0ce2f6",
+      "md5": "21b6864790e6882c27f2840c5cb4e34b",
+      "sha1": "fa7a7936d4648ce3782f6f35ae02b260713b56a3",
+      "size": "2943",
+      "format": "svg"
+    },
+    {
+      "id": "10",
+      "parent": "genre",
+      "subparent": "Action",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=10&media=background",
+      "crc": "9b190953",
+      "md5": "2cde12d443d2832716cdc501952a607c",
+      "sha1": "d4dfb3e81627f60f6a84889358e16c487b8903cd",
+      "size": "136840",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135609",
+      "romsize": "24592",
+      "romfilename": "Bomb.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E9B39B87",
+      "rommd5": "C394A2B283975B0FD98698F27EE8F1A4",
+      "romsha1": "7DFE9361647C7333D479EC726176A5BBB1FB920C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "157350",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "2369",
+      "romsize": "14816",
+      "romfilename": "Chack'n Pop (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "441BA7A1",
+      "rommd5": "D478C00C680B5CAFA2043FAEAD982260",
+      "romsha1": "F58A3875C3982E03F4B2AC9F68CB933B1822568E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "90264",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1135353",
+      "romsize": "24592",
+      "romfilename": "Chack'n Pop (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a5e974d1",
+      "rommd5": "966073ea926a2e0e9a296b8f4c75d956",
+      "romsha1": "97d6645d2a16fe8c6e117f999fa88615e3be9590",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "21219",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1164841",
+      "romsize": "14815",
+      "romfilename": "Bomb.zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "841336C0",
+      "rommd5": "320B5375DAD88F5EE59C7AB300B72A7B",
+      "romsha1": "4248F8578A74515AF00C3DF0046CD6C469BF2938",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12063"
+    },
+    {
+      "id": "172753",
+      "romsize": "24576",
+      "romfilename": "Chack'n Pop (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "622F059D",
+      "rommd5": "A4FB8A298E89F6B8D05C84BC60C2F834",
+      "romsha1": "D717462255EB48983C787DCC85754C3D14DFD5ED",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3769",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113250",
+      "romsize": "14794",
+      "romfilename": "Chack'n Pop (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E9F32142",
+      "rommd5": "FCE1D357EE3C1F087965E52D10891B89",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "150",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "483030",
+      "romsize": "14857",
+      "romfilename": "Chack'n Pop (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "ACA41A87",
+      "rommd5": "65E7C25C98F1F49F185773E545D15A22",
+      "romsha1": "B7E25F911E079F50A9DBEB2496170C1E661F0E82",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "135",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

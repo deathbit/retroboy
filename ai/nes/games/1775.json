@@ -1,0 +1,1405 @@
+{
+  "id": "1775",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Mig-29 Soviet Fighter"
+    },
+    {
+      "region": "us",
+      "text": "MiG 29 : Soviet Fighter"
+    },
+    {
+      "region": "eu",
+      "text": "MiG 29 : Soviet Fighter"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "87",
+    "text": "Codemasters"
+  },
+  "developpeur": {
+    "id": "504",
+    "text": "Camerica"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "note": {
+    "text": "14"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "The closest comparison to this action game would be Afterburner, a game which was overdue a decent home computer re-creation. You view the game slightly behind your plane, which must shoot out enemy planes, tanks and installations while avoiding their fire. You are armed with different kinds of weapons including downward bombs, air-to-air missiles and a nuclear bomb. More of each of these can be picked up by collecting the parachutes which are dropped into your path. There are mountain ranges, deserts and arctic scenes to clear along the way, with big boss planes to face."
+    },
+    {
+      "langue": "fr",
+      "text": "La comparaison la plus proche de ce jeu d'avion serait Afterburner. L'angle de vue se situe légèrement derrière votre avion, qui doit tirer sur les avions, les chars et les installations ennemis tout en évitant leurs tirs. Vous êtes armé de différents types d'armes, dont des bombes descendantes, des missiles air-air et une bombe nucléaire. Vous pouvez en récupérer davantage en ramassant les parachutes qui sont lâchés sur votre chemin. Il y a des chaînes de montagnes, des déserts et des scènes arctiques à franchir en chemin, avec de gros boss à affronter."
+    },
+    {
+      "langue": "de",
+      "text": "Am ehesten lässt sich dieses Actionspiel mit Afterburner vergleichen, einem Spiel, das schon lange eine anständige Neuauflage für den Heimcomputer verdient hatte. Du siehst das Spiel von einer Position leicht hinter deinem Flugzeug und musst feindliche Flugzeuge, Panzer und Anlagen ausschalten, während du dem feindlichen Feuer ausweichst. Du bist mit verschiedenen Arten von Waffen ausgestattet, darunter Abwurfbomben, Luft-Luft-Raketen und eine Atombombe. Weitere Waffen können durch das Einsammeln der Fallschirme, die auf deiner Flugroute abgeworfen werden, eingesammelt werden. Auf deinem Weg musst du Gebirgszüge, Wüsten und arktische Gebiete durchqueren und dich großen Bossflugzeugen stellen."
+    },
+    {
+      "langue": "es",
+      "text": "La comparación más cercana a este juego de acción sería Afterburner. Podrás ver el juego ligeramente detrás de tu avión, debiendo disparar a los aviones, tanques e instalaciones enemigos mientras evita el fuego. Estás armado con diferentes tipos de armas, incluyendo bombas hacia abajo, misiles aire-aire y una bomba nuclear. Se pueden recoger más de cada uno de ellos, recolectando los paracaídas que se dejan caer en tu camino. Hay cadenas montañosas, desiertos y escenas árticas a lo largo del juego y tendrás jefes de pantallas, los cuales serán grandes aviones, para enfrentarte al final de cada etapa."
+    },
+    {
+      "langue": "it",
+      "text": "Il confronto più vicino a questo gioco d'azione sarebbe Afterburner, un gioco che era in ritardo una ricreazione decente del computer di casa. Visualizzi il gioco leggermente dietro il tuo aereo, che deve sparare agli aerei, ai carri armati e alle installazioni nemici evitando il loro fuoco. Sei armato con diversi tipi di armi tra cui bombe verso il basso, missili aria-aria e una bomba nucleare. Più di ciascuno di questi possono essere raccolti raccogliendo i paracadute che vengono lanciati sul tuo percorso. Ci sono catene montuose, deserti e scene artiche da ripulire lungo la strada, con grandi boss da affrontare."
+    },
+    {
+      "langue": "pt",
+      "text": "A comparação mais próxima desse jogo de ação seria o Afterburner, um jogo que estava atrasado em uma recriação decente de computador doméstico. Você vê o jogo um pouco atrás do seu avião, que deve disparar aviões, tanques e instalações inimigos, evitando o fogo. Você está armado com diferentes tipos de armas, incluindo bombas descendentes, mísseis ar-ar e uma bomba nuclear. Mais de cada um deles pode ser recolhido coletando os pára-quedas que são jogados no seu caminho. Há cordilheiras, desertos e cenas árticas para limpar ao longo do caminho, com grandes aviões chefes para enfrentar."
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1992"
+    },
+    {
+      "region": "eu",
+      "text": "1992"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2881",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "2646",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shooter / Plane, TPV"
+        },
+        {
+          "langue": "fr",
+          "text": "Tir / Avion, 3eme personne"
+        },
+        {
+          "langue": "de",
+          "text": "Shooter / Flugzeug, 3. Pers."
+        },
+        {
+          "langue": "es",
+          "text": "Disparos / Avión, 3ª persona"
+        },
+        {
+          "langue": "it",
+          "text": "Sparo / Aereo, 3a Persona"
+        },
+        {
+          "langue": "pt",
+          "text": "Tiro / Avião em 3ª pessoa"
+        }
+      ]
+    },
+    {
+      "id": "2646",
+      "nomcourt": "0100",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shooter"
+        },
+        {
+          "langue": "fr",
+          "text": "Tir"
+        },
+        {
+          "langue": "de",
+          "text": "Shooter"
+        },
+        {
+          "langue": "es",
+          "text": "Disparos"
+        },
+        {
+          "langue": "it",
+          "text": "Sparo"
+        },
+        {
+          "langue": "pt",
+          "text": "Tiro"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "langue": "fr",
+      "titre": "Toutes les armes",
+      "description": "Entrez LINUS comme nom sur l'écran des high score. Commencez ensuite un nouveau jeu.\n"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "64905c8c",
+      "md5": "6ae024326ceb99cee60228b60bb41c26",
+      "sha1": "5999fd8adcfe1fd3d19f3a37ebfafc4e28ae0fd6",
+      "size": "3188",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=ss(wor)",
+      "region": "wor",
+      "crc": "26cf97eb",
+      "md5": "239d1ea618c1ef9d7771f71bbd63f13a",
+      "sha1": "03f082f66323737f4de676401a1edd291cad9246",
+      "size": "1955",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=fanart",
+      "crc": "8f7fa39d",
+      "md5": "da9faaf0c67423e06ac6c339e22eb1bb",
+      "sha1": "69775f19b817c2dfec8b59b7ee9c38c67cbd265e",
+      "size": "257718",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=video",
+      "crc": "09821089",
+      "md5": "e2e3f0ba695d9658dd97573881ff7765",
+      "sha1": "038a3bd70be3cdba2d3bc781877f61b60c428208",
+      "size": "3393925",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=video-normalized",
+      "crc": "a28cde3b",
+      "md5": "24de2c4fbd5794b1d56e10f7e6095a96",
+      "sha1": "f295c4b4bb22beb47c7ec9e34e7841774e6fb44c",
+      "size": "1763051",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=steamgrid",
+      "crc": "e9131770",
+      "md5": "c3af5222804a6833022488a800e314a6",
+      "sha1": "98330d07a9278921e5a34248c116170f26b9b8dd",
+      "size": "24635",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=wheel(eu)",
+      "region": "eu",
+      "crc": "615937fd",
+      "md5": "8d9c9cbc6b0f6df02ea86da43400f92f",
+      "sha1": "8ba2d0bb8719cae2574f3e257826d3a651eb8192",
+      "size": "131300",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=wheel(us)",
+      "region": "us",
+      "crc": "9bb048b4",
+      "md5": "67e9ea4b893216cb4f44fedb1f720a8b",
+      "sha1": "b530c6f5de559b523c1219e5256a857213c78093",
+      "size": "137450",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=wheel-carbon(eu)",
+      "region": "eu",
+      "crc": "13e9e6d7",
+      "md5": "d4b2341283395161fba5db17de4763bf",
+      "sha1": "c3593a000a57c5649108e6666fa6704da5a713cb",
+      "size": "134366",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=wheel-carbon(us)",
+      "region": "us",
+      "crc": "37dd95fe",
+      "md5": "3dac365b18cc5f0dec3c108343184c0a",
+      "sha1": "ec58726e2912de27032672a4d1b7bab67884f9dd",
+      "size": "136757",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=wheel-steel(eu)",
+      "region": "eu",
+      "crc": "227f19f2",
+      "md5": "631fc58df2d464a6d68154ad36931e03",
+      "sha1": "f458c4dcfbda708a523490b74d2fe28376bfe586",
+      "size": "134720",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=wheel-steel(us)",
+      "region": "us",
+      "crc": "8ed9c92f",
+      "md5": "1c3e492fc426704ee4a77cb6f657e1df",
+      "sha1": "875531752e4dfb3d7f855f4eb7deaf796cb52559",
+      "size": "136967",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=screenmarquee(us)",
+      "region": "us",
+      "crc": "5f548128",
+      "md5": "38832d74057d4dbd33cdbfb1f4bf3d66",
+      "sha1": "8d8ff02ace3ff1b31fad7dc5e1f8a0727ef4ed8f",
+      "size": "503867",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=screenmarqueesmall(us)",
+      "region": "us",
+      "crc": "1588bb3b",
+      "md5": "64aa3535d1866d782ccf8c25a93e5904",
+      "sha1": "13f8e5a55f5ffa37fc86d727d888d23d5e29c869",
+      "size": "81507",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=box-2D(eu)",
+      "region": "eu",
+      "crc": "dfb9f8de",
+      "md5": "55ecbf28175961f19fb588b461300b0e",
+      "sha1": "58969813db1d090024c89e26da62126c7f36d19c",
+      "size": "803088",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "fd6691ce",
+      "md5": "a2b7ef9b3c1141c3f5cd6db65c6be13b",
+      "sha1": "fcb551712957a2776e05f2cd6b1bae0fef24d1a6",
+      "size": "124942",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=box-2D(us)",
+      "region": "us",
+      "crc": "e504bf6f",
+      "md5": "8d7c4bc956d650c617f379f9d7eddd6a",
+      "sha1": "858ddd1ff10bdf1f02a8e8cda9615e587186734f",
+      "size": "563548",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=box-2D-side(eu)",
+      "region": "eu",
+      "crc": "e985ed7e",
+      "md5": "b2c25b9bd2d5e49df71c524d5397dc80",
+      "sha1": "5c7a5236ad474819935fbc0980e242da58375818",
+      "size": "72769",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "72d264a7",
+      "md5": "3022e48cc0ba1e684804db5079c0561e",
+      "sha1": "63071cfc18691d878b411fb0af046f76dae3bfa8",
+      "size": "23009",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "8cf73568",
+      "md5": "c0ba30eab60491014a5d387c44cefa11",
+      "sha1": "89aed42f29c264c67bebbcf84de86c62108b5561",
+      "size": "50020",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=box-2D-back(eu)",
+      "region": "eu",
+      "crc": "69fda10f",
+      "md5": "1a12d7ef7880b7206c59052677d8cb94",
+      "sha1": "64b2d9b68cf3c763c3ffae640b9ab9be90be8040",
+      "size": "663201",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "04f14a80",
+      "md5": "223bef3d122d4fb0255a5a07122c0631",
+      "sha1": "da9d6c2ac618db62c33670ccc732984cd240e3ab",
+      "size": "151710",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "2bac9239",
+      "md5": "d6411c517ee1818ae641951b2e56802f",
+      "sha1": "6afa6567cf0a62afb273c10e7ee8fa25f16e50e3",
+      "size": "580829",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=box-texture(eu)",
+      "region": "eu",
+      "crc": "58533725",
+      "md5": "f362fad71d534447fb5d24c5b7e44d3f",
+      "sha1": "27e7c7ab835367863a4350ae87cf0de79a3d4196",
+      "size": "1393477",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "152993fc",
+      "md5": "3fce9d408d83b8fbf1a2b01ee2fafb08",
+      "sha1": "8cfe53b336669d52cae9504e9ac24070fc83cea6",
+      "size": "317599",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=box-texture(us)",
+      "region": "us",
+      "crc": "a7993d0a",
+      "md5": "a6798b6631e74a060be9e1cee2c82deb",
+      "sha1": "1625d42f0c023273c42a664dd7acf5cce3a9f2ef",
+      "size": "1224499",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=box-3D(eu)",
+      "region": "eu",
+      "crc": "29795ad5",
+      "md5": "605bcb9cb77fea1d93e215180970839f",
+      "sha1": "5276bdeef8956220ff6e0f9e6592fa3b7085e8b0",
+      "size": "324088",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "4e2f1173",
+      "md5": "c1c2e10d271bee18486d1c7a564b67f3",
+      "sha1": "c2c8d3f70e8fbc30ea67bdf3666fa5d714c065c9",
+      "size": "111497",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=box-3D(us)",
+      "region": "us",
+      "crc": "0bac87b9",
+      "md5": "c63677784ef86e35161b47af282b0a93",
+      "sha1": "8db8ec87fc6a8277746ae00685f2d50c1f7eebee",
+      "size": "275446",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=manuel(us)",
+      "region": "us",
+      "crc": "82706513",
+      "md5": "300c26c99bfce877a9bb6ba0a40840bb",
+      "sha1": "45f78583b2dcee5b641f0a83d63c9fd9b40071d7",
+      "size": "2909318",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=support-texture(eu)",
+      "region": "eu",
+      "crc": "1bee6ccc",
+      "md5": "c31ec7d4ebe9c244c70f3f8881424e3e",
+      "sha1": "daf34924a3744f616227d461c7a3b54d7eaa51a2",
+      "size": "757999",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=support-texture(us)",
+      "region": "us",
+      "crc": "923291da",
+      "md5": "24d563fb7ff12e2016f21e4713a3bde4",
+      "sha1": "64a2b53e883d6cd17d50b4057758a293c5f39c4c",
+      "size": "262545",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=support-2D(eu)",
+      "region": "eu",
+      "crc": "0bd3aaf6",
+      "md5": "7212207e704acf03f88c8d6690b593e5",
+      "sha1": "93c5f7c12f8cb4aeb4258d62cee7abdb09a92910",
+      "size": "406350",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=support-2D(us)",
+      "region": "us",
+      "crc": "13f1d933",
+      "md5": "44be3f255969a5200c03cf9d3e9a2f41",
+      "sha1": "1710a04e5e86e761d8f6f5a9b3e1305585f95590",
+      "size": "508081",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "b667acc7",
+      "md5": "5cf3c17a68a3c3dad24c796e0a077e4e",
+      "sha1": "22a76dc3ae06d5399e626d5ddca44bec2b577ec7",
+      "size": "248450",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=mixrbv1(eu)",
+      "region": "eu",
+      "crc": "7595950f",
+      "md5": "213f82c67040871835079352b6434bf0",
+      "sha1": "75ecd15f519728b019a4b68c40ce8978912d828d",
+      "size": "423258",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "bc990104",
+      "md5": "61b24f6cbdf6f58ca3a71475dd757e99",
+      "sha1": "9af8963356cea8ee4360f11bcb1daa437b4d2080",
+      "size": "318236",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "4da833c2",
+      "md5": "815a479bd3237e4bf61e85b0f77f703c",
+      "sha1": "4c111b87743c3fbfc5e82d8f991203ff4bb2ea0b",
+      "size": "406651",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "7595950f",
+      "md5": "213f82c67040871835079352b6434bf0",
+      "sha1": "75ecd15f519728b019a4b68c40ce8978912d828d",
+      "size": "423258",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=mixrbv2(eu)",
+      "region": "eu",
+      "crc": "90d5c23e",
+      "md5": "a403a2590a0a957b973bdde7c309d6e3",
+      "sha1": "5ea9e4ecf9852f41bbda547905d72ac927945ee3",
+      "size": "548734",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=mixrbv2(nl)",
+      "region": "nl",
+      "crc": "90d5c23e",
+      "md5": "a403a2590a0a957b973bdde7c309d6e3",
+      "sha1": "5ea9e4ecf9852f41bbda547905d72ac927945ee3",
+      "size": "548734",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "15a2fc19",
+      "md5": "67d7b8698fc563d8d934b9ed2411d198",
+      "sha1": "c1d3bbf2715dc74bb78457c141521a2de360199f",
+      "size": "447662",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "56c09def",
+      "md5": "e0f33fce7dcc053fce6552db4d7f439c",
+      "sha1": "19eb01fa7a40d4286f31b1aaa33f44b0ea72fd1d",
+      "size": "544512",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1775&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "90d5c23e",
+      "md5": "a403a2590a0a957b973bdde7c309d6e3",
+      "sha1": "5ea9e4ecf9852f41bbda547905d72ac927945ee3",
+      "size": "548734",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=87&media=logo-monochrome",
+      "crc": "14d2fdde",
+      "md5": "276c99c293d23b5a4622cf60e8242db6",
+      "sha1": "bc8fd5c7f672b41ba93b4a527d6f4f7c6903ec95",
+      "size": "7584",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=87&media=wheel",
+      "crc": "7d8e9709",
+      "md5": "bca6082496457e4e96151a532f46104d",
+      "sha1": "05208f561c811e6a8824d4f960ce893c2219a16d",
+      "size": "27354",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=504&media=wheel",
+      "crc": "75456b31",
+      "md5": "142fea22b8f90b7a60938177dd7ee39c",
+      "sha1": "e7722fa16070f609f08edebfa8abcc2b1a8bc832",
+      "size": "24723",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3553&media=pictoliste",
+      "crc": "612df705",
+      "md5": "6ee8a25c785597ef3035b7139189482a",
+      "sha1": "570ad57ff7c5643595c1a2148bacc373f326cffe",
+      "size": "840",
+      "format": "png"
+    },
+    {
+      "id": "2881",
+      "parent": "genre",
+      "subparent": "Tir / Avion, 3eme personne",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2881&media=pictoliste",
+      "crc": "03d2801e",
+      "md5": "2202df8383ec5691982c85f6a155bbfb",
+      "sha1": "3484ac8244f0c9c23d33dbfcdacfeb636cfd3f61",
+      "size": "18584",
+      "format": "png"
+    },
+    {
+      "id": "2881",
+      "parent": "genre",
+      "subparent": "Tir / Avion, 3eme personne",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2881&media=logo-monochrome",
+      "crc": "152b54f7",
+      "md5": "79a5effb99fce03e4ccf4796495925eb",
+      "sha1": "4e862d35fad56e626f748d9da8c769ce956ed12b",
+      "size": "18996",
+      "format": "png"
+    },
+    {
+      "id": "2881",
+      "parent": "genre",
+      "subparent": "Tir / Avion, 3eme personne",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2881&media=logo-monochrome-svg",
+      "crc": "38a0fc9d",
+      "md5": "b04c2497d324aee5cb969e56d9f7fb69",
+      "sha1": "0952eda2e5cd191d1997ae24d7233145f6c2ae79",
+      "size": "4967",
+      "format": "svg"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=pictoliste",
+      "crc": "d0b14f40",
+      "md5": "155763c889de6d44fd58cd36bdfce80b",
+      "sha1": "840cb4d69672c4b48a9b9f418272010fb2b4557c",
+      "size": "872",
+      "format": "png"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=logo-monochrome",
+      "crc": "c0ab2a94",
+      "md5": "3eace7ca43a0827467c8a3d6b0ddf0c1",
+      "sha1": "5f305f34bfb22c84a8de9c35cfe3d05d1384e54b",
+      "size": "6023",
+      "format": "png"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=logo-monochrome-svg",
+      "crc": "cef80344",
+      "md5": "606c10f20d34b3433e0dd13d6d77cfd1",
+      "sha1": "99456edd47eec57be1e185340d2a1e19d193441e",
+      "size": "2427",
+      "format": "svg"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=background",
+      "crc": "cd744d4b",
+      "md5": "b794d0d78d93cf5bb0f613cd8f8118aa",
+      "sha1": "e20ebf0b23b455ba64af8231a73555d8512fb73d",
+      "size": "211172",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136714",
+      "romsize": "131088",
+      "romfilename": "MiG 29 - Soviet Fighter (USA) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "AF33971F",
+      "rommd5": "7DEB323EB6238758755DEF863A3B990A",
+      "romsha1": "ADD2BA1A4A4B6929CA4D0903C88DD32A51A2ED40",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "253348",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "13073",
+      "romsize": "92259",
+      "romfilename": "MiG 29 - Soviet Fighter (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6B5DC116",
+      "rommd5": "79F862324F93281745D3DEA8A1889DEB",
+      "romsha1": "653550441CE93E18E98C0F1C9F5DE6488F8B804F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "110991",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "407024",
+      "romsize": "131088",
+      "romfilename": "Mig-29 Soviet Fighter (U).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E67FE23B",
+      "rommd5": "659D9DA64B1066FC6D91BE038CD13BE1",
+      "romsha1": "BA550D82DBB281111409CCFDE45B820DFE6A5678",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "24426",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1140747",
+      "romsize": "131088",
+      "romfilename": "MiG 29 - Soviet Fighter (USA, Europe) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "ab6b628e",
+      "rommd5": "715c2b3392d97f45af8bd83528d157ca",
+      "romsha1": "c6ed2e5728e1f9c8df0255e964082e9e5309026f",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "17142",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "564221",
+      "romsize": "131216",
+      "romfilename": "Mig-29SovietFighter(Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "398A14E5",
+      "rommd5": "0C2E3843D39860F47D45A09D7102DDCF",
+      "romsha1": "1FFA0916839BDE9E7C83BBE892876C4649B95981",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9667",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "130"
+        ],
+        "regions_shortname": [
+          "us",
+          "nl"
+        ],
+        "regions_en": [
+          "USA",
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "USA",
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "USA",
+          "Niederlande"
+        ],
+        "regions_es": [
+          "USA",
+          "Holanda"
+        ],
+        "regions_it": [
+          "USA",
+          "Olanda"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "572103",
+      "romsize": "92351",
+      "romfilename": "Mig-29 Soviet Fighter (U).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "13767478",
+      "rommd5": "7C0EBEECDFA3F8DC27FDF86AF5285D06",
+      "romsha1": "D37EA3CEC3D4016DF3E511902ED19AD812B35074",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8822",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "523860",
+      "romsize": "92355",
+      "romfilename": "MiG 29 - Soviet Fighter (Unl) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "20BE5E1E",
+      "rommd5": "E62562003F95A1B24D0CB8872C3E9581",
+      "romsha1": "A838C5738B05AD152FB2AC948A639299EFD11F71",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8588",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "130"
+        ],
+        "regions_shortname": [
+          "nl"
+        ],
+        "regions_en": [
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Holanda"
+        ],
+        "regions_it": [
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "475282",
+      "romsize": "92418",
+      "romfilename": "MiG 29 - Soviet Fighter (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5CFA0AD7",
+      "rommd5": "A1953D02D4851EFA8FB134164C4B0D85",
+      "romsha1": "C4DBA56F3CBCA5C0444BCB28A585196B86BF8A7E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6731",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "544209",
+      "romsize": "92343",
+      "romfilename": "MIG-29 Soviet Fighter.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9C1BD6D5",
+      "rommd5": "7138F21CFC70D280F08546233C68758A",
+      "romsha1": "C4101541BE7F0FEE56A2718A4519FBE3928AB497",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3877"
+    },
+    {
+      "id": "173886",
+      "romsize": "131072",
+      "romfilename": "MiG 29 - Soviet Fighter (USA) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E62E3382",
+      "rommd5": "23C12009BBD32E33F3524E302F53E7F3",
+      "romsha1": "B74802F946D99A83E8E223B6F987E6482A8EC41D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2076",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "570478",
+      "romsize": "92522",
+      "romfilename": "MiG 29 - Soviet Fighter (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "49D6CCD5",
+      "rommd5": "D543E351EF5914DA1A9F344F0C2C1281",
+      "romsha1": "8666DF634139D14B7AD64B5BB6C37222C86D2C02",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "294",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "114386",
+      "romsize": "92237",
+      "romfilename": "MiG 29 - Soviet Fighter (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D784462F",
+      "rommd5": "8D65F539606857BBDE82BA21FCFCFDD4",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "124",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    }
+  ]
+}

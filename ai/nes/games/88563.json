@@ -1,0 +1,731 @@
+{
+  "id": "88563",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Triathron, The"
+    },
+    {
+      "region": "jp",
+      "text": "The Triathron"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "2956",
+    "text": "K. Amusement Leasing"
+  },
+  "developpeur": {
+    "id": "2956",
+    "text": "K. Amusement Leasing"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Compete in cycling, swimming and running, but on a video game so it's less hard and not good for \r\nyou."
+    },
+    {
+      "langue": "fr",
+      "text": "Participez à des épreuves de cyclisme, de natation et de course à pied, mais dans un jeu vidéo où c'est moins fatigant... et beaucoup moins bon pour votre santé."
+    },
+    {
+      "langue": "de",
+      "text": "The Triathron ermöglicht es den Spielern, an den drei aufeinanderfolgenden Triathlon-Events teilzunehmen: Schwimmen, Radfahren und Laufen. In jeder Etappe des Rennens muss der Spieler die Taste B, ähnlich wie Track & Field, zerquetschen, um das Ende jedes Rennens vor seinen Gegnern zu erreichen. Nachdem er einen Triathlon gewonnen hat, kann der Spieler einige Punkte in die Statistiken seines gewählten Konkurrenten investieren und zum nächsten übergehen."
+    },
+    {
+      "langue": "es",
+      "text": "The Triathron permite a los jugadores competir en los tres eventos consecutivos del triatlón: natación, ciclismo y carrera. En cada etapa de la carrera, el jugador debe aplastar el botón B, similar a Track & Field, para llegar al final de cada carrera antes que sus oponentes. Después de ganar un triatlón, el jugador puede invertir algunos puntos en las estadísticas de su competidor elegido y pasar al siguiente."
+    },
+    {
+      "langue": "it",
+      "text": "Il Triathron consente ai giocatori di competere in tutti e tre gli eventi di triathlon consecutivi: nuoto, bicicletta e corsa. In ogni fase della gara, il giocatore deve premere il pulsante B, simile a Track & Field, per raggiungere la fine di ogni gara prima dei propri avversari. Dopo aver vinto un triathlon, il giocatore può investire alcuni punti nelle statistiche del concorrente scelto e passare a quella successiva."
+    },
+    {
+      "langue": "pt",
+      "text": "Competir no ciclismo, natação e corrida, mas em um videogame, por isso é menos difícil e não é bom para\r\nvocês."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1988-12-16"
+    }
+  ],
+  "genres": [
+    {
+      "id": "685",
+      "nomcourt": "0600",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport"
+        },
+        {
+          "langue": "de",
+          "text": "Sport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes"
+        },
+        {
+          "langue": "it",
+          "text": "Sport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "c4c9c397",
+      "md5": "ed744fc07c86df08c7096e4b251fff01",
+      "sha1": "c7f4acb79b2fd97e1474d2cb4bd81d627606ae7b",
+      "size": "2848",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=ss(jp)",
+      "region": "jp",
+      "crc": "94d07d48",
+      "md5": "a7aaf3471e7e5871149634db9bef8244",
+      "sha1": "db16988ea4bacbb89abf0e1d0a5497cb333e7f5e",
+      "size": "7112",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=video",
+      "crc": "95708e5f",
+      "md5": "6923f36199de0513778f9433af5cb569",
+      "sha1": "dbd4ec84beffd91eeb084057668ebe36a6023f38",
+      "size": "14203700",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=video-normalized",
+      "crc": "670c0cf8",
+      "md5": "11fc70e0c58a036085992b89d75d41ad",
+      "sha1": "47516dae99ed860f0992c4a555625b630ad729a5",
+      "size": "5969738",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=steamgrid",
+      "crc": "9a2572e7",
+      "md5": "b83a1326f2d0e33daf380e0ae2655a63",
+      "sha1": "04f299d871db3b101965154a7198dc5b4850e12b",
+      "size": "33304",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=wheel(jp)",
+      "region": "jp",
+      "crc": "892dc39c",
+      "md5": "347999a13217ffba3b59fa944e4193b1",
+      "sha1": "589cb59e0786874abf27e16383aaea315807415e",
+      "size": "139052",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "5658550a",
+      "md5": "027592f01fda2ac4bcd3988d37686a6e",
+      "sha1": "357b789cfed1d2031a0e3dd83726ad543622090d",
+      "size": "138657",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "7fb3d292",
+      "md5": "7c7a764e0b66fb99ca2fb94db3028eb2",
+      "sha1": "a629544efae3ba5c1883868163e42763729507c8",
+      "size": "139904",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "a9e2c970",
+      "md5": "9b671f06a9a4b228e044e80556835871",
+      "sha1": "ecfe7f5394cc65f1e1d31f7ff14b292e70c3de15",
+      "size": "503110",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "94bc4bac",
+      "md5": "2a2e4c7a31e59022caf5c1a05d16db5b",
+      "sha1": "6af255f2d8b0d1d7c777bf56d58c6ea9475d376f",
+      "size": "83704",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "77febf30",
+      "md5": "224c21f2757f52c1e7e3a5f075569676",
+      "sha1": "837096fc1938d94dd1e4a88a77a5b1da322986d3",
+      "size": "660856",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "63200f52",
+      "md5": "ee5014e722d463d1fd1795d9c1fc0374",
+      "sha1": "9066626e835b4f03642648f4be4b162047e87311",
+      "size": "189735",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "af1c76af",
+      "md5": "6642c1116b11da27cfba932dd62dbe3d",
+      "sha1": "6ba39243a99a84a95252cca871558d8b6d27265d",
+      "size": "54197",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "c0709799",
+      "md5": "b8a7fe12ab505c76cc22a46460516cff",
+      "sha1": "48c4966eccbe992b2dedaa2f5a246b64c05683e0",
+      "size": "27747",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "80615e06",
+      "md5": "839ddd08a8766031425bb5fc7328e54e",
+      "sha1": "1b45b7eb9c3d25ee7a7b27b2df0f4700d311b05c",
+      "size": "662223",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "33b519b3",
+      "md5": "790c6727de0b8ae09bc350c654855ad7",
+      "sha1": "d8e28e1e64e1060b5347074b268d9de14221b684",
+      "size": "191647",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "7c65c262",
+      "md5": "d0d9a11c2732519655178a35b154afd6",
+      "sha1": "8f95215673c2f7666d96f8153802b80681937781",
+      "size": "1236434",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "6f29c2c0",
+      "md5": "7d4938cb4d6d611b457e78b809c7481b",
+      "sha1": "85e60a548993fbf17e22424f881f97977ffe1466",
+      "size": "425298",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "c97f7fbf",
+      "md5": "2fa0bbfb912876b53d058be6724a860e",
+      "sha1": "92761fa562f4b3cac3bbad9132592e625b83c483",
+      "size": "308455",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "0bc4306c",
+      "md5": "2b8263435c8a01b3e9d69a31bc2b7ae3",
+      "sha1": "68abe3ae7d3ec8a26efb1ed46fe608d517883861",
+      "size": "191830",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=manuel(jp)",
+      "region": "jp",
+      "crc": "1530e3c1",
+      "md5": "1e88cd812842bdade28f940ffece23d5",
+      "sha1": "738adfc214489f0b80bb1b0c7aa169705828bfd2",
+      "size": "1077791",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "982888d0",
+      "md5": "00e3f8ac02dd94699f12391e7b9682a9",
+      "sha1": "2165b0af3aaf8628c7a4b2bd6c99c7f0cd916beb",
+      "size": "275506",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "7d511a23",
+      "md5": "69e1db416512c4cf2d4cb21c0c3960a5",
+      "sha1": "f757c5c21d25bbe04be74b460ad452acacc840c4",
+      "size": "310624",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "2fd1edb1",
+      "md5": "f9f5b028e6844f5b42c52041e505925e",
+      "sha1": "a05f4825141abb197c458f8fa72f938974d2fa16",
+      "size": "533528",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "c9d5f4b4",
+      "md5": "607b97fb97b9bb002f5d39de82c5c367",
+      "sha1": "cef2f54b790a9151efa0bca2a7718c5c404db83b",
+      "size": "484072",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "2fd1edb1",
+      "md5": "f9f5b028e6844f5b42c52041e505925e",
+      "sha1": "a05f4825141abb197c458f8fa72f938974d2fa16",
+      "size": "533528",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "982cf003",
+      "md5": "cf63d3d410f09aa7a99a1a4e4196e154",
+      "sha1": "4a24e47d25c1feea7facc707e644141fe22a22d6",
+      "size": "769595",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "8cbe54a7",
+      "md5": "e4d3a5d481c56ed3bf52b51cfbb4223e",
+      "sha1": "f895429339cf56b85dd85082b37962f121116687",
+      "size": "722238",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88563&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "982cf003",
+      "md5": "cf63d3d410f09aa7a99a1a4e4196e154",
+      "sha1": "4a24e47d25c1feea7facc707e644141fe22a22d6",
+      "size": "769595",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2956&media=wheel",
+      "crc": "878de1e9",
+      "md5": "056ad72db1c020c578a5386e8ebb7dc2",
+      "sha1": "42d3044dd26a00f69b9e02b3c7e3410d3951d2c2",
+      "size": "81987",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2956&media=wheel",
+      "crc": "878de1e9",
+      "md5": "056ad72db1c020c578a5386e8ebb7dc2",
+      "sha1": "42d3044dd26a00f69b9e02b3c7e3410d3951d2c2",
+      "size": "81987",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome",
+      "crc": "6a963ad9",
+      "md5": "6daf840fab2d205bda9bad4ff16f4c95",
+      "sha1": "f5e795233a8013aa0d992e197d56d09a63513403",
+      "size": "18286",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome-svg",
+      "crc": "328c7db2",
+      "md5": "4298fc7c8887c1b97cec6ee0b5d72433",
+      "sha1": "8f59a9ec18c48a7246c3b13e19c6c5857bc95513",
+      "size": "4269",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=background",
+      "crc": "a3265ffe",
+      "md5": "65308af4ddc9782f6717f000eea7f28a",
+      "sha1": "bccce8f0defa7c25313eb5ced7cdf71555c5a85d",
+      "size": "185482",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "137655",
+      "romsize": "262160",
+      "romfilename": "Triathron, The (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A186659E",
+      "rommd5": "084E05D0187AB3659557EB9239028B9F",
+      "romsha1": "F39D5A989208D173B378CCFEF1082567571B154E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "79057",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "13571",
+      "romsize": "97987",
+      "romfilename": "Triathron, The (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "74AB1CDA",
+      "rommd5": "2A28DE21AAF5F41728D26A782D2DFE07",
+      "romsha1": "AF98C03E6EB113390ED26B96E06DC10C76B6D3C9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "61999",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1145538",
+      "romsize": "262160",
+      "romfilename": "Triathron, The (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "30ac8f36",
+      "rommd5": "7f68fc451727a6c1f410b4c1d592d46b",
+      "romsha1": "a5c590aa484beffa56606d394be6f86dc5327c3e",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19245",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "828485",
+      "romsize": "97963",
+      "romfilename": "Triathalon.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "701B8B54",
+      "rommd5": "34B08044477231A78519A444087EF96C",
+      "romsha1": "DBA2A999716353020BDD00918E07D55A0B9064F0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7098"
+    },
+    {
+      "id": "174859",
+      "romsize": "262144",
+      "romfilename": "Triathron, The (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CC3544B0",
+      "rommd5": "374B8690C88DD25797CB3D51128520FB",
+      "romsha1": "1A973BC6F601ADD532FF122AABB342C66013A72D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1731",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1329361",
+      "romsize": "98000",
+      "romfilename": "Triathlon, The (Japan) (En).zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "C533E003",
+      "rommd5": "608D97BECC89E967BA921A82C5DE0E89",
+      "romsha1": "FDBE7B2B8584E99F344BE0713CF409F96B073789",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "190"
+    }
+  ]
+}

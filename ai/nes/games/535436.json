@@ -1,0 +1,106 @@
+{
+  "id": "535436",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Convoy, The"
+    },
+    {
+      "region": "wor",
+      "text": "The Convoy"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Defend the convoy to ensure world peace! Shoot the terrorists and keep the truck from being destroyed."
+    },
+    {
+      "langue": "es",
+      "text": "¡Defiende el convoy para garantizar la paz mundial! Dispara a los terroristas y evita que el camión sea destruido."
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2023"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=535436&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "ac7abc00",
+      "md5": "b2c85f417f5fdc9ce58782d0874f6d93",
+      "sha1": "fb34116404ef9ed9ba32eb731dae14927a619a80",
+      "size": "19888",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=535436&media=ss(wor)",
+      "region": "wor",
+      "crc": "98c59113",
+      "md5": "36f06d464cbff643758ce6c651d044ff",
+      "sha1": "1b1d551dade00ce1eaa7b4dd9c7c750a497d40c9",
+      "size": "18465",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=535436&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "cd61a3dd",
+      "md5": "4827851724c5a03b3b93965846af1acc",
+      "sha1": "34816f220f0e442532a23e9c4944cba2074ee80d",
+      "size": "280322",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=535436&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "44c12c18",
+      "md5": "850d6d3bfb4b4fb244c859c29693f32a",
+      "sha1": "359c06b38c985643adb63d380f4f4ac4a3ff9687",
+      "size": "389812",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1385069",
+      "romsize": "24592",
+      "romfilename": "Convoy, The (World) (Aftermarket) (Unl).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "ADDD05E9",
+      "rommd5": "91E744AD430A80C1E5191D800C71A7CF",
+      "romsha1": "F124924D93C41C0C6879B3852FA7BDF1C950ED3D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "492"
+    }
+  ]
+}

@@ -1,0 +1,1850 @@
+{
+  "id": "1577",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Othello"
+    },
+    {
+      "region": "us",
+      "text": "Othello"
+    },
+    {
+      "region": "jp",
+      "text": "Othello"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "17097",
+    "text": "Acclaim Entertainment"
+  },
+  "developpeur": {
+    "id": "457",
+    "text": "HAL Laboratory"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "note": {
+    "text": "12"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Othello is a conversion of the board game. Each player tries to fill the game board with as many discs of his color as possible. On each turn the player places a disc on the board by selecting a location where the  opponents discs will become trapped between two of his discs. The trapped discs are flipped over to the players color. The game ends when the board is filled or time runs out, and the player with the greatest number of his color discs on the board wins. Two players can play against each other, or one player against the computer."
+    },
+    {
+      "langue": "fr",
+      "text": "Othello sur Nes est la célèbre adaptation du jeu de plateau éponyme. Le but étant de remplir le plateau avec autant de jeton de sa couleur que possible. Pour cela vous devrez piéger votre adversaire en coinçant ses jetons avec les vôtres afin qu'ils prennent votre couleur."
+    },
+    {
+      "langue": "de",
+      "text": "Othello ist eine Umsetzung des Brettspiels. Jeder Spieler versucht, das Spielbrett mit so vielen Spielsteinen seiner Farbe wie möglich zu füllen. In jedem Zug platziert der Spieler ein Spielstein auf dem Brett, indem er eine Stelle auswählt, an der die gegnerischen Spielsteine zwischen zwei seiner Spielsteine gefangen werden. Die gefangenen Spielsteine werden auf die Farbe des Spielers umgedreht. Das Spiel endet, wenn das Brett voll ist oder die Zeit abgelaufen ist. Der Spieler, der die meisten Spielsteine seiner Farbe auf dem Brett hat, gewinnt. Zwei Spieler können gegeneinander spielen, oder ein Spieler gegen den Computer."
+    },
+    {
+      "langue": "es",
+      "text": "Othello es una conversión del juego de mesa. Cada jugador intenta llenar el tablero de juego con tantos discos de su color como sea posible. En cada turno el jugador coloca un disco en el tablero seleccionando un lugar donde los discos del oponente quedarán atrapados entre dos de sus discos. Los discos atrapados se voltean al color del jugador. El juego termina cuando el tablero está lleno o se acaba el tiempo, y el jugador con el mayor número de sus discos de color en el tablero gana. Dos jugadores pueden jugar uno contra el otro, o un jugador contra la computadora."
+    },
+    {
+      "langue": "it",
+      "text": "Otello è una conversione del gioco da tavolo. Ogni giocatore cerca di riempire il tabellone di gioco con quanti più dischi possibile del suo colore. Ad ogni turno il giocatore posiziona un disco sul tabellone selezionando una posizione in cui i dischi avversari rimarranno intrappolati tra due dei suoi dischi. I dischi intrappolati vengono girati nel colore dei giocatori. Il gioco termina quando il tabellone è pieno o quando il tempo scade e il giocatore con il maggior numero di dischi colorati sul tabellone vince. Due giocatori possono giocare l'uno contro l'altro o un giocatore contro il computer."
+    },
+    {
+      "langue": "pt",
+      "text": "Othello é uma conversão do jogo de tabuleiro. Cada jogador tenta preencher o tabuleiro de jogo com o maior número possível de discos da sua cor. Em cada turno, o jogador coloca um disco no tabuleiro, selecionando um local onde os discos do oponente ficarão presos entre dois de seus discos. Os discos presos são virados para a cor dos players. O jogo termina quando o tabuleiro está cheio ou o tempo acaba, e o jogador com o maior número de discos coloridos no tabuleiro vence. Dois jogadores podem jogar um contra o outro ou um jogador contra o computador."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1986-11-13"
+    },
+    {
+      "region": "us",
+      "text": "1988-12-01"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2949",
+      "nomcourt": "0800",
+      "principale": "0",
+      "parentid": "2647",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Othello"
+        },
+        {
+          "langue": "fr",
+          "text": "Othello"
+        },
+        {
+          "langue": "de",
+          "text": "Othello"
+        },
+        {
+          "langue": "es",
+          "text": "Reversi"
+        },
+        {
+          "langue": "it",
+          "text": "Othello"
+        },
+        {
+          "langue": "pt",
+          "text": "Othello"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "nomcourt": "0800",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Board game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de societe / plateau"
+        },
+        {
+          "langue": "de",
+          "text": "Brettspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de mesa"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di società / da tavolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogo de tabuleiro"
+        }
+      ]
+    },
+    {
+      "id": "2647",
+      "nomcourt": "0800",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Asiatic board game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de societe asiatique"
+        },
+        {
+          "langue": "de",
+          "text": "Asiatische Brettspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de mesa asiático"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di società asiatico"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogo de tabuleiro Asiático"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "langue": "fr",
+      "titre": "Différents modes de jeu",
+      "description": "Mode expert\nAllez sur un niveau de difficulté et appuyez sur B + Select.\n\nMode machine à sous\nAppuyez sur Start pour afficher l'écran de mode de jeu. Maintenez Select et appuyez sur A pour changer le mode à &quot;Slot&quot;. Une machine à sous apparaitra aprés une partie à deux joueurs et changera le nombre de jetons disponible.\n"
+    },
+    {
+      "langue": "fr",
+      "titre": "Retourner les mises des adversaires",
+      "description": "Appuyez sur Select, A, B(2), A, B, Haut, Bas, Select(2), Start.\n"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "97209682",
+      "md5": "6d5513f49fd016614fb5d521ccc8145b",
+      "sha1": "611d8c44a7bea0b6121d44bfa003b160a36f1416",
+      "size": "12057",
+      "format": "jpg"
+    },
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=sstitle(us)",
+      "region": "us",
+      "crc": "ccce205f",
+      "md5": "7fb590c981433c663296b199628d9757",
+      "sha1": "7f43c7a80c3f39bf9db5154dcef02ad9ccae5be0",
+      "size": "3144",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=ss(wor)",
+      "region": "wor",
+      "crc": "993901e7",
+      "md5": "4809e6eedb17a226eb3588c9b9248ce8",
+      "sha1": "9584e487d108aa05733787d50b0b80f114d01d8b",
+      "size": "1444",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=fanart",
+      "crc": "80ab95be",
+      "md5": "219c8279b1de9bce0019ce1b9757c85b",
+      "sha1": "23ffd466fdac937efe1696458099c165722252b6",
+      "size": "158379",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=video",
+      "crc": "5087665f",
+      "md5": "e7fa0c719c2de4cea9f5e528a8feb4a6",
+      "sha1": "75c0b7f0bd0b9cfeac2002f9a84184f919013200",
+      "size": "733039",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=video-normalized",
+      "crc": "92591df9",
+      "md5": "aed20ad203727c75007c0d9178c82248",
+      "sha1": "63b7a26e2942e7132ba5189325e6614aa248d214",
+      "size": "510508",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=steamgrid",
+      "crc": "4ad0ec65",
+      "md5": "a2b50074210efe3d21adb227d1699dcd",
+      "sha1": "2b460373df1a3d8bbbfc46b63721ad7a6c5e4324",
+      "size": "30695",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=wheel(jp)",
+      "region": "jp",
+      "crc": "77d596cc",
+      "md5": "4a7996b5ed7157baaa8a2ed14afcc342",
+      "sha1": "1590343ff478f2c2de647175983d538dc3e24dae",
+      "size": "18988",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=wheel(us)",
+      "region": "us",
+      "crc": "839f6742",
+      "md5": "14efaf0f537404cbf7da89bac01fee5d",
+      "sha1": "dcf0412e5d6857c80a720534661540caedc17682",
+      "size": "25085",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "414f0d27",
+      "md5": "a704a378ae067466593947740aa04fa2",
+      "sha1": "fb853a1658e45e9154a80419d3e7cbc55245f025",
+      "size": "74649",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=wheel-carbon(us)",
+      "region": "us",
+      "crc": "f1feb7f0",
+      "md5": "4e91eeaea4ea8b4faa36dde886d82c02",
+      "sha1": "27a9f465c09e64bbcb6687358d31fbdc11a5a91b",
+      "size": "82858",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "2edffad7",
+      "md5": "cfb3299b51659d2babe5dd8b40f8e6ff",
+      "sha1": "a79cba88dd77c8b5f8c04e692a723f5aece65ecb",
+      "size": "76480",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=wheel-steel(us)",
+      "region": "us",
+      "crc": "0c669895",
+      "md5": "c97c815bf7e4bf07d88b307e28028421",
+      "sha1": "f22ffd75cac486bef1be76a39e0ef7dfc0f391a4",
+      "size": "84671",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "039807c2",
+      "md5": "5006ee84a2201d4a10b8fdd00ddb5b1e",
+      "sha1": "fc8578f046bba2b13a486a51de696e913de142ec",
+      "size": "417504",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "2b474f37",
+      "md5": "db46e0b224e42c386eb375d26e6137a7",
+      "sha1": "bf7a3f8590db3ae5844f8193fd329e339cc181e4",
+      "size": "60182",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "71e84003",
+      "md5": "0bb33c09592239a8789c6c8fe848d2a7",
+      "sha1": "107b3ff95889aa1e873b85cfe6f3850248122b67",
+      "size": "485303",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "34173ab6",
+      "md5": "612cfd855947135b775dac18c9f0db9a",
+      "sha1": "b08d6a23e74f0c2de92541e9cb801a7f3a3800e1",
+      "size": "119707",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=box-2D(us)",
+      "region": "us",
+      "crc": "bfbd2fff",
+      "md5": "e7403a16988222cbbe912ba4eda82ce0",
+      "sha1": "e6f2df18ed5298a01a6c877e660a116c033415d1",
+      "size": "563182",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "b2813196",
+      "md5": "fa035011a56c8018d4197f00eaf296bc",
+      "sha1": "67ded8912136f2b79fe518cca6739bcd1238851a",
+      "size": "88100",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "34f7a744",
+      "md5": "a723075bb61714f968e95d0f7cb0d92f",
+      "sha1": "ce0726577c70b699717ce240f28f45cfe3effbaf",
+      "size": "24486",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "5af04480",
+      "md5": "0ab74af693403ef920e15d6a9866e332",
+      "sha1": "1fc0a146c084f00edb992c628fd02c616526ee2b",
+      "size": "47066",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "ec2e76ad",
+      "md5": "6a3d9ddcef5810598b70fa7dd9e46711",
+      "sha1": "aff6f91c6d96583e5ace8605da5f4c66cf88f53c",
+      "size": "491474",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "31c026fb",
+      "md5": "59139a68ab19441cb2b5b1c1e96c9df0",
+      "sha1": "fa3e90d15b87f0e088f6f314ae76acc0c036ca48",
+      "size": "146147",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "53f23b06",
+      "md5": "32da793231e51a88427242c88d3a5c35",
+      "sha1": "8df2901b9f019fc7579eef281bf776131ab60f9e",
+      "size": "617709",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "5305ca81",
+      "md5": "985d7ca76aa55a7a0227ca372ab63dba",
+      "sha1": "8f1dd172ddb24daaf9a950c345573bb885927b84",
+      "size": "1158812",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "7f3af838",
+      "md5": "7887a5275f81fa1f3f8770042f280e5c",
+      "sha1": "c7d66293cf31163ba2cc0c10544d4dc7c4e73961",
+      "size": "312733",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=box-texture(us)",
+      "region": "us",
+      "crc": "1920bfda",
+      "md5": "0d0a1ed9fc0085dfe416e39dd007dab4",
+      "sha1": "b86e5ea2e2ddd4159a5ef173c8f15c04bf869389",
+      "size": "1249343",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "3f1cee17",
+      "md5": "6225caf762e5eb17eed7b21509894e50",
+      "sha1": "b1624bf5afc63415af01694f81e0c400928e70e4",
+      "size": "253608",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "90313fdf",
+      "md5": "30a37d4eea026d7fbdc8917792843188",
+      "sha1": "396b19ef77d3bdbc6ddab98276141591e23b0188",
+      "size": "122139",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=box-3D(us)",
+      "region": "us",
+      "crc": "9450c521",
+      "md5": "21d76b5aa0e767229aed4180b62d2c49",
+      "sha1": "89d5db91fea5a209711d3a002ba84f1d6d679523",
+      "size": "293923",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=manuel(jp)",
+      "region": "jp",
+      "crc": "a919cf7b",
+      "md5": "9b8e5e320cb0b6d0e841ef18d5c07521",
+      "sha1": "06390b8a2ed004a7a684fdd541de60b0a265b1e8",
+      "size": "315207",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=manuel(us)",
+      "region": "us",
+      "crc": "3713359f",
+      "md5": "38c7792ed58236eba8232dad0e6179cd",
+      "sha1": "9cc22956783814957bcc2a7219e27f5cb4d4880f",
+      "size": "1388362",
+      "format": "pdf"
+    },
+    {
+      "type": "figurine",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=figurine",
+      "crc": "9250a058",
+      "md5": "8939b92455c1ee3b4dbebc6fa2ab82fd",
+      "sha1": "439fde3024addce22d404d6d62be01240a71e373",
+      "size": "350268",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "d19e3c0f",
+      "md5": "719e2b7572a10011c2147acbd7681583",
+      "sha1": "d146dea0e90a33c40d00229c9045dbbcb0eb7761",
+      "size": "301513",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=support-texture(us)",
+      "region": "us",
+      "crc": "9d4715b4",
+      "md5": "dea6c863751713984887947760e9db17",
+      "sha1": "3759314be6729a299e1efdaea05d49664b32e158",
+      "size": "520754",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "3aecd609",
+      "md5": "1f0c46d44192009ccf8019cc36d865c0",
+      "sha1": "4471fe382f693c1a2082f8816c1f6d2540201b8e",
+      "size": "268637",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=support-2D(us)",
+      "region": "us",
+      "crc": "9c399849",
+      "md5": "0a94337f8a50d1cb6d45f089e7dcda94",
+      "sha1": "734cf1c7fc3029417b588c0c93b5ab0dfff9d263",
+      "size": "390239",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "6bc52078",
+      "md5": "e32609933c916566415d4a251fbd69b5",
+      "sha1": "ad97a767129dde9cc586d5f2ae8d5ea5f845f907",
+      "size": "196599",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=bezel-16-9(wor)",
+      "region": "wor",
+      "crc": "0c684e42",
+      "md5": "71cea7573b9d53bd9b64e4a1a136c136",
+      "sha1": "7ffe376cbc9441434c199f9433baebea4c9e2d6a",
+      "size": "202541",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "561e6fe9",
+      "md5": "5fcd45541d1cebe629d7048a9f7bbb36",
+      "sha1": "71894415c582450bd11c3a087acddfb9699cad7e",
+      "size": "271887",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "eb6fdcbd",
+      "md5": "6e2c98b091c92d50fdf3b8f613db0bd1",
+      "sha1": "80f5bd8a375b8f264ac78d45b80ea0296ca6ca64",
+      "size": "223372",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "141de701",
+      "md5": "dcf6c4687e278e50956942e878aeaa82",
+      "sha1": "b64280ec32607356434ad25231c53be7b421a676",
+      "size": "309809",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "141de701",
+      "md5": "dcf6c4687e278e50956942e878aeaa82",
+      "sha1": "b64280ec32607356434ad25231c53be7b421a676",
+      "size": "309809",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "27c00d18",
+      "md5": "11d75ae015677cbec25242234867107b",
+      "sha1": "82ca371ad0259e5861e81bbd45998b8fe114465c",
+      "size": "464058",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "a3fc2b84",
+      "md5": "34c8c0b7f3876f7033bb7caf1213d678",
+      "sha1": "c1506e1cfdaf6fa15d905c7721f38a7c7336e2e3",
+      "size": "496201",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "6a24bb3b",
+      "md5": "8c7ab95d4fd022617a91e80bef709d6c",
+      "sha1": "db6b6ecc09df7a289a3fa387714981b2962befa4",
+      "size": "508252",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1577&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "6a24bb3b",
+      "md5": "8c7ab95d4fd022617a91e80bef709d6c",
+      "sha1": "db6b6ecc09df7a289a3fa387714981b2962befa4",
+      "size": "508252",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=17097&media=logo-monochrome",
+      "crc": "59243152",
+      "md5": "da48a0e39391ef78629065f17e654ac6",
+      "sha1": "836e036ad3d2d9c75d6adbec12517fb6e9334474",
+      "size": "6487",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=17097&media=wheel",
+      "crc": "74932a9b",
+      "md5": "8e4df27d294e08b76563ef2aecf9bba8",
+      "sha1": "c536d5e4074694db76c7b63204a7aba87bab1868",
+      "size": "28806",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=457&media=logo-monochrome",
+      "crc": "3a106bf6",
+      "md5": "a5be2fc25b7656918cb3a9ca4f02dbd1",
+      "sha1": "c32d8e660cd4b2a0ce35937f3a9efb59d0ce6a38",
+      "size": "58227",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=457&media=wheel",
+      "crc": "e9828050",
+      "md5": "43b06cc5ca3433dddadd531a63873232",
+      "sha1": "5527b5f922eb66756bbcb858f71e8435edc10e83",
+      "size": "69385",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3551&media=pictoliste",
+      "crc": "4b70874e",
+      "md5": "e350059ffeddd8fa6305e25f6aae2d92",
+      "sha1": "51a597d09c8482e1ed1099d12db0d958aeaa1d21",
+      "size": "420",
+      "format": "png"
+    },
+    {
+      "id": "33",
+      "parent": "genre",
+      "subparent": "Jeu de societe / plateau",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=33&media=pictoliste",
+      "crc": "fd18b276",
+      "md5": "871af19a85096c769c40cdd6465d7242",
+      "sha1": "426ad403f4f67f63ade3fe9914e00dc80d5af225",
+      "size": "660",
+      "format": "png"
+    },
+    {
+      "id": "33",
+      "parent": "genre",
+      "subparent": "Jeu de societe / plateau",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=33&media=logo-monochrome",
+      "crc": "d254a514",
+      "md5": "25e8b4f066b2e341830c25e2b7631f74",
+      "sha1": "47ab2fff6337102af00af34dd1a3c284e09d4365",
+      "size": "2561",
+      "format": "png"
+    },
+    {
+      "id": "33",
+      "parent": "genre",
+      "subparent": "Jeu de societe / plateau",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=33&media=logo-monochrome-svg",
+      "crc": "c95f1a40",
+      "md5": "77acf5c34989882fc5e6f3ef44f32f80",
+      "sha1": "cd9c415efb32ca5ce6c3cb4390023f0969c261d6",
+      "size": "1426",
+      "format": "svg"
+    },
+    {
+      "id": "33",
+      "parent": "genre",
+      "subparent": "Jeu de societe / plateau",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=33&media=background",
+      "crc": "31e9d298",
+      "md5": "1b6548b7a1a025f3d986037a74662821",
+      "sha1": "a4f50838492e7cf5779f00b1dfa07f5bc1f77c72",
+      "size": "154113",
+      "format": "jpg"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=pictoliste",
+      "crc": "dcf3c32a",
+      "md5": "23618958c46fc28396c157d74a77bdeb",
+      "sha1": "00ce76c60ab28d758d6ca5f6796882dee3f7faa0",
+      "size": "1159",
+      "format": "png"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=logo-monochrome",
+      "crc": "3678f7f4",
+      "md5": "89ef7b6f92a2ef67e23b87843990f98b",
+      "sha1": "c55797e72d206fe87173ea7adf08e123f3a4d0c0",
+      "size": "17363",
+      "format": "png"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=logo-monochrome-svg",
+      "crc": "c4055556",
+      "md5": "9e5e5a30bb0cbb399d6e138b33ba4353",
+      "sha1": "dbe3c415f89b99f6bd8524d19379af132a323014",
+      "size": "6238",
+      "format": "svg"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=background",
+      "crc": "def2c2fb",
+      "md5": "1d3be886c0fd7ae4f831250b38a54eac",
+      "sha1": "5754f15b0f082c67f1e5bc5c2b764108428e1e12",
+      "size": "246573",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136894",
+      "romsize": "40976",
+      "romfilename": "Othello (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "97428519",
+      "rommd5": "0E754F5263DCD72D9AF02B4E99897CD3",
+      "romsha1": "024CF42B87C0A150437964E4BA987F723E0F7653",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "360634",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "3675",
+      "romsize": "17809",
+      "romfilename": "Othello (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4A4A193D",
+      "rommd5": "70375234E4ADEFC962E5997607BF30EA",
+      "romsha1": "97612B61E536BB1A339371F3085B2D9056D3ECCE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "73783",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "544244",
+      "romsize": "17789",
+      "romfilename": "Othello.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9E388044",
+      "rommd5": "4A3B48004E4EED6DEF36967535726F23",
+      "romsha1": "B4CC1DB359B0623EDE47AB872A54C79B81631EBE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "47156"
+    },
+    {
+      "id": "1141872",
+      "romsize": "40976",
+      "romfilename": "Othello (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0a5a4b87",
+      "rommd5": "1e217e1d6a886835cf16456ee2ebe10a",
+      "romsha1": "8d81ec749bdf987841c944e7e4c9465a252579f0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "37811",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "136893",
+      "romsize": "40976",
+      "romfilename": "Othello (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A222C68D",
+      "rommd5": "0399861B9DF12803B3328C7D0A315A9F",
+      "romsha1": "9D56FF77D39ACCD0A8860EA78D1CB0933873A111",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "30066",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "595378",
+      "romsize": "40976",
+      "romfilename": "Othello.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5117022B",
+      "rommd5": "DB05D993FF7F3A1957DC247B1BFFD11F",
+      "romsha1": "9EF901F1B2694C9ABBD42E5DEC17C394B52A79D6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "17112"
+    },
+    {
+      "id": "3674",
+      "romsize": "17873",
+      "romfilename": "Othello (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4F7E5291",
+      "rommd5": "B300D362F25326C27C0B40B011B6BDFC",
+      "romsha1": "5E386D8F660CEB670177599A6064D2641FB86DC7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13597",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "469815",
+      "romsize": "17424",
+      "romfilename": "Othello (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "489FA45A",
+      "rommd5": "739CF5FF37BA0902005CF62AB5D3E767",
+      "romsha1": "167D1B5EA15B029273FA580379ED06F4D42D087B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13189",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1164805",
+      "romsize": "18026",
+      "romfilename": "Othello.zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "5C8A1B9D",
+      "rommd5": "3583AEA4FA1278E07F12FC1A126665DA",
+      "romsha1": "2E2FCFA55080F9C777EA0C99AC4E83A41902253D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10488"
+    },
+    {
+      "id": "526564",
+      "romsize": "17790",
+      "romfilename": "Othello (U) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5AAF7750",
+      "rommd5": "4C9A7FFEB3AD5B33350FCE2869004C36",
+      "romsha1": "5D02C81BC03AC49D905D30CB91114680BCD6ACE6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10133",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "540352",
+      "romsize": "17837",
+      "romfilename": "Othello (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FFD9DC57",
+      "rommd5": "8F59CA209597284FC91736692C2E768A",
+      "romsha1": "451DB9D6C1EF80818DF36BAA96945CE0BA39E777",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6160",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1141875",
+      "romsize": "40976",
+      "romfilename": "Othello (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7801509b",
+      "rommd5": "1f47e4b13c8a8b4c0b0a7065dcacf44d",
+      "romsha1": "2717989f03dce50e318e740e58eef88dc5743c07",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5556",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1141878",
+      "romsize": "40976",
+      "romfilename": "Othello (J) (V1.1) (Proto) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "83342b18",
+      "rommd5": "f6693292072b78c78dca24bb18e4d1ea",
+      "romsha1": "694dbeb7c4f6ec3356adcd1712e68f8a779a1e86",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5475",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174077",
+      "romsize": "40960",
+      "romfilename": "Othello (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "699FA085",
+      "rommd5": "1601FE20AE57415C9CE76481F2FA2389",
+      "romsha1": "27CA5BA9E920C21A6906F57E266A253C39FFADB6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3983",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "570662",
+      "romsize": "17797",
+      "romfilename": "Othello (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9061ED31",
+      "rommd5": "CA1B7D8C42E2AE8D8C3BE2B561F8B62C",
+      "romsha1": "6F83DFE922034722185F8059055DD51134288E57",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2456",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1079376",
+      "romsize": "40960",
+      "romfilename": "Othello (Japan) (Rev 1).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7ce2b173",
+      "rommd5": "b784ce378d9b895d125c4a23e536a966",
+      "romsha1": "57aa0b194bdd11fcf1a4a3297c67faa351ec895a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1693",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174078",
+      "romsize": "40960",
+      "romfilename": "Othello (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "87D7CAF0",
+      "rommd5": "E52E066B3378457BC11E39A017A5F62A",
+      "romsha1": "6A87E0E0A880692C42E78813AD969D6C6CDACB83",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1091",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "570492",
+      "romsize": "17835",
+      "romfilename": "Othello (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CA61A60F",
+      "rommd5": "06E5C55B6C39CCEA48AA16FC45524C2E",
+      "romsha1": "12C2D2842A025B0FCADCDF209CF885FE20B807AB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "265",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "114576",
+      "romsize": "17787",
+      "romfilename": "Othello (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "500EC1BB",
+      "rommd5": "7D19DCCA60DA430D192DB00244F49F71",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "68",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "114575",
+      "romsize": "17851",
+      "romfilename": "Othello (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F10D75EE",
+      "rommd5": "376D0BD053481D079BA6BBDDF5983BD7",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "27",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

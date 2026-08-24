@@ -1,0 +1,423 @@
+{
+  "id": "140713",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Final Fantasy 5"
+    },
+    {
+      "region": "wor",
+      "text": "Final Fantasy 5"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Final Fantasy 5 is an unlicensed sequel in the Final Fantasy Franchise. Final Fantasy 5 was created by Xi'an Mars Production, a Chinese developer of Famicom games. Xi'an Mars Production started out as the software division of educational computer manufacturer Yancheng, they became independent in the mid-1990s. Final Fantasy 5 (NES) utilizes tilesets from The Legend and Zelda: Oracle of Ages/Seasons, as well as sprites from Dragon Quest: Monsters."
+    },
+    {
+      "langue": "de",
+      "text": "Final Fantasy 5 ist eine nicht lizenzierte Fortsetzung der Final Fantasy-Franchise. Final Fantasy 5 wurde von Xi'an Mars Production, einem chinesischen Entwickler von Famicom-Spielen, erstellt. Xi'an Mars Production begann als Software-Abteilung des Bildungscomputerherstellers Yancheng, sie wurden Mitte der 1990er Jahre unabhängig. Final Fantasy 5 (NES) verwendet Tilesets aus The Legend und Zelda: Oracle of Ages/Seasons sowie Sprites aus Dragon Quest: Monsters."
+    },
+    {
+      "langue": "es",
+      "text": "Final Fantasy 5 es una secuela sin licencia de la franquicia Final Fantasy. Fue creado por Xi'an Mars Production, desarrolladora china de juegos para Famicom. Xi'an Mars Production comenzó como la división de software del fabricante de ordenadores educativos Yancheng y se independizó a mediados de los 90. Final Fantasy 5 (NES) utiliza conjuntos de mosaicos de The Legend y Zelda: Oracle of Ages/Seasons, así como sprites de Dragon Quest: Monsters."
+    },
+    {
+      "langue": "it",
+      "text": "Final Fantasy 5 è un sequel non autorizzato nella serie di Final Fantasy. Final Fantasy 5 è stato creato da Xi'an Mars Production, uno sviluppatore cinese di giochi per Famicom. Xi'an Mars Production è nato come divisione software del produttore di computer educativi Yancheng; sono diventati indipendenti a metà degli anni '90. Final Fantasy 5 (NES) utilizza set di tile da The Legend of Zelda: Oracle of Ages/Seasons, così come sprites da Dragon Quest: Monsters."
+    }
+  ],
+  "familles": [
+    {
+      "id": "3200",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Final Fantasy"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=140713&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "b0d9fbf8",
+      "md5": "5c8a7c136d599066f0cb51442e42793e",
+      "sha1": "0fb68a782c6a134d4bb0345ce21df60d5303e819",
+      "size": "5626",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=140713&media=ss(wor)",
+      "region": "wor",
+      "crc": "e50814da",
+      "md5": "ac35ab44032c061a51014c4d12d7118c",
+      "sha1": "23b8a2ddcf73b921ea474b4feb2d5f565162dc0d",
+      "size": "11482",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=140713&media=fanart",
+      "crc": "122b1a1b",
+      "md5": "9e4a802a4b891e86a9c535456e190f9b",
+      "sha1": "ae3099a150ad3b9165f66da8e0b69c3cbe947454",
+      "size": "90336",
+      "format": "jpg"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=140713&media=steamgrid",
+      "crc": "7960571b",
+      "md5": "76b6e922a3e9fca385f50369f963653f",
+      "sha1": "950895bd763772bf3c0067d60d4df7fbcbdec891",
+      "size": "32496",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=140713&media=wheel(wor)",
+      "region": "wor",
+      "crc": "d845b197",
+      "md5": "a7313f01b22c6691e3e7e8838ae13d36",
+      "sha1": "6736141852be519a54741b570e377d1299bee264",
+      "size": "105687",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=140713&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "db7a6050",
+      "md5": "4d8f789424e42699b05ffea149494e0e",
+      "sha1": "b38866a1ee7ce3a9da88b0f3aaa53c9e9516e12f",
+      "size": "116362",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=140713&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "254d043a",
+      "md5": "d557fd59611b4de5c904385e49e30e3e",
+      "sha1": "b6a0418b39d9d1c01c35aef989ae718a34e61e8c",
+      "size": "119358",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=140713&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "b690f00a",
+      "md5": "9013207fee138ba7e02d188161975081",
+      "sha1": "a1ac9cb115c22ad4076cd6e7c21fc56c3542268a",
+      "size": "132765",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=140713&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "dc591d2e",
+      "md5": "3cca4f0ff6885b588e419d013c7a6b07",
+      "sha1": "9e53b0c14374591f31811283ee93675472486480",
+      "size": "27317",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=140713&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "5deb9afa",
+      "md5": "da6f593fa7d616b58aaa2223fd1ed8e1",
+      "sha1": "dd11fd3204389d611a747ccfacb09372d56d3e9a",
+      "size": "367819",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=140713&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "2ea64bfb",
+      "md5": "c8319cf48e0186844f09dcc968cd28fe",
+      "sha1": "cb2c4e5d7f90052e22c822536ada5c5d7142affb",
+      "size": "322754",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=140713&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "59fa1a9d",
+      "md5": "e595618e389b9fece5a9c594c8bb6cc6",
+      "sha1": "4ea5b5c473aef3550102c96e1b7926a778fa611c",
+      "size": "370976",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=140713&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "b74d2e12",
+      "md5": "d0d15bb24aeb83bafc8d337e6e253008",
+      "sha1": "defc33ab765a1015ddeb7942a4746853681e263a",
+      "size": "621422",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=140713&media=mixrbv2(nl)",
+      "region": "nl",
+      "crc": "b74d2e12",
+      "md5": "d0d15bb24aeb83bafc8d337e6e253008",
+      "sha1": "defc33ab765a1015ddeb7942a4746853681e263a",
+      "size": "621422",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=140713&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "b74d2e12",
+      "md5": "d0d15bb24aeb83bafc8d337e6e253008",
+      "sha1": "defc33ab765a1015ddeb7942a4746853681e263a",
+      "size": "621422",
+      "format": "png"
+    },
+    {
+      "id": "3200",
+      "parent": "famille",
+      "subparent": "Final Fantasy",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3200&media=figurine",
+      "crc": "e211664e",
+      "md5": "4ed370342982f9ee75ec92d0a254b7c3",
+      "sha1": "87d9359e67f8bd033ee06e676178baf83805fb5b",
+      "size": "211686",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "482392",
+      "romsize": "524304",
+      "romfilename": "Final Fantasy V (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "683E900F",
+      "rommd5": "D662993DF6477D0CBD20095D57489EB7",
+      "romsha1": "51EF7DEE69610E9FDB9760745FDE3DF361F93BF4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "67226",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "130"
+        ],
+        "regions_shortname": [
+          "nl"
+        ],
+        "regions_en": [
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Holanda"
+        ],
+        "regions_it": [
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "523459",
+      "romsize": "224349",
+      "romfilename": "Final Fantasy V (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "38B50EF6",
+      "rommd5": "7798ADEB4BE44E8CFDE319B91663E289",
+      "romsha1": "5A8E42A28BE1BD77AD2FEF5EE1AFF857895C39EA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6193",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "130"
+        ],
+        "regions_shortname": [
+          "nl"
+        ],
+        "regions_en": [
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Holanda"
+        ],
+        "regions_it": [
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "1386722",
+      "romsize": "221667",
+      "romfilename": "Final Fantasy - Taikong Zhanshi V (China) (v1.1) (Pirate).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "1fd7dc66",
+      "rommd5": "6a08dd8acefc99e628153c70edf752b0",
+      "romsha1": "b2bfb583b86601a8c3ffd7f094815fe64d3fcf43",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "461"
+    },
+    {
+      "id": "1418981",
+      "romsize": "524304",
+      "romfilename": "0045 Final Fantasy 5 (Chinese version).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "D123505F",
+      "rommd5": "A386F23F64B3CD2A8CF22243932EEAB1",
+      "romsha1": "3C17799CB2110812A775440F45C40A05AE7FA200",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "422"
+    }
+  ]
+}

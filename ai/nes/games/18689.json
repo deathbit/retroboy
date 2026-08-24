@@ -1,0 +1,1805 @@
+{
+  "id": "18689",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "George Foreman's Ko Boxing"
+    },
+    {
+      "region": "us",
+      "text": "George Foreman's KO Boxing"
+    },
+    {
+      "region": "eu",
+      "text": "George Foreman's KO Boxing"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "17097",
+    "text": "Acclaim Entertainment"
+  },
+  "developpeur": {
+    "id": "108",
+    "text": "Beam Software"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "note": {
+    "text": "9"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Featuring heavyweight champion George Foreman, this is a boxing simulation where players, taking the role of Foreman, go through a series of twelve rounds against different boxers to win the championship title belt.\n\nPlayed from an third-person perspective using a view from right over the shoulders over the boxer, players can move left and right to dodge incoming punches, block and throw left and right punches. The standard punch is a cross, but by holding the Up-key pressed, jabs can also be thrown.\n\nBy avoiding punches and hitting them, a superpunch often becomes available, inflicting much more damage. A fight consists of a maximum of three rounds of three minutes each. When a boxer is knocked down four times, the match is over (technical knock-out). The same happens when a boxer goes down three times in a single round (regular knock-out). When down, players need to press both punch buttons in rapid succession to get back to their feet. The screen shows an energy meter drained when punches are received. After being knocked down and during intermissions, some energy is restored.\n\nAll versions, except for the Game Boy, can be played with two players. A password system is used to save the progress."
+    },
+    {
+      "langue": "fr",
+      "text": "Vous incarnez le champion George Foreman dans ce jeu de boxe où vous devez battre des boxeurs fictifs pour remporter la ceinture dorée. George Foreman's KO Boxing propose une vue de côté et des matchs pouvant durer jusqu'à 10 rounds. A noter la possibilité de pouvoir effectuer des &quot;super punches&quot; pour envoyer l'adversaire dans les cordes et ainsi le bloquer tout en lui infligeant de sérieux coups."
+    },
+    {
+      "langue": "de",
+      "text": "Dies ist eine Boxsimulation mit dem Schwergewichtsweltmeister George Foreman. Ziel ist es Zwölf Runden gegen unterschiedliche Boxer zu absolvieren um den Meistertitel zu erringen.\r\nGespielt wird aus der Third-Person Perspektive. Man muss Schlägen ausweichen, Blocken und natürlich zuschlagen. Ein Kampf besteht aus maximal 3 Runden a 3 Minuten. Wenn ein Boxer 4 mal niedergeschlagen wurde ist der Kampf beendet (technisches KO).\r\nDieses Spiel kann mit 2 Spielern gespielt werden."
+    },
+    {
+      "langue": "es",
+      "text": "George Foreman's KO Boxing es un videojuego de boxeo con gráficos en 2D que utiliza una perspectiva y forma de juego muy similares a los del clásico Punch Out!, en donde el personaje principal está visto de espaldas y el oponente aparece al frente. El lanzamiento de este videojuego se realizó en la época en que George Foreman había regresado al boxeo, luego de estar retirado por 10 años, de modo que su popularidad era muy alta entre los fans de este deporte.\r\n\r\nEste título presenta gráficos con enormes sprites de los personajes que tienen un estilo un tanto caricaturesco. Además de Foreman, aparecen 15 rivales a quienes hay que derrotar, estos tienen diseños y personalidades únicas y en general representan a diversos estereotipos que los hacen parecidos a personajes de lucha libre. Durante la pelea además aparecen las caras de los boxeadores junto a sus barras de energía que van mostrando el nivel de daño recibido y como se van desfigurando. El juego incluye diálogos únicos para cada personaje, que se oyen al iniciar el round, incluyendo la voz de George Foreman grabada por él mismo."
+    },
+    {
+      "langue": "it",
+      "text": "Giochi nei panni del campione George Foreman in questo gioco di boxe in cui devi battere i pugili immaginari per vincere la cintura d'oro. KO Boxing di George Foreman offre una vista laterale e partite che possono durare fino a 10 round. Da notare la possibilità di poter eseguire dei &quot;super pugni&quot; per mandare l'avversario alle corde e bloccarlo così infliggendogli seri colpi."
+    },
+    {
+      "langue": "pt",
+      "text": "Você joga como o campeão George Foreman neste jogo de boxe onde você tem que vencer boxeadores fictícios para ganhar o cinturão de ouro. KO Boxing de George Foreman apresenta uma visão lateral e jogos que duram até 10 rodadas. Perceba a possibilidade de poder realizar &quot;super socos&quot; para mandar o oponente para as cordas e assim bloqueá-lo enquanto inflige golpes graves."
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1992-12-01"
+    },
+    {
+      "region": "eu",
+      "text": "1992-04-03"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2929",
+      "nomcourt": "0604",
+      "principale": "0",
+      "parentid": "685",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports / Boxing"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport / Boxe"
+        },
+        {
+          "langue": "de",
+          "text": "Sport / Boxen"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes / Boxeo"
+        },
+        {
+          "langue": "it",
+          "text": "Sport / Boxe"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte / Boxe"
+        }
+      ]
+    },
+    {
+      "id": "685",
+      "nomcourt": "0600",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport"
+        },
+        {
+          "langue": "de",
+          "text": "Sport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes"
+        },
+        {
+          "langue": "it",
+          "text": "Sport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "e6671180",
+      "md5": "56db64a0c65e01b7aa22f8d8e84f076d",
+      "sha1": "6a2d1ea9d5e04f3dfd3796210a59b505f1037a00",
+      "size": "2836",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=ss(wor)",
+      "region": "wor",
+      "crc": "4007d3cf",
+      "md5": "fcaf378b96becd25551f9c6fca031225",
+      "sha1": "95c9a31df575d325133a552de1845ccba6b72bf9",
+      "size": "3298",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=fanart",
+      "crc": "3e379c65",
+      "md5": "861239d6434b4a914bd87a6609231fd1",
+      "sha1": "0e41f9df0b346b7de06798107bee09873e6b054d",
+      "size": "896167",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=video",
+      "crc": "7e06ba97",
+      "md5": "42d0f3932175590d4d8cee2f37348d09",
+      "sha1": "a129ad4981820ff39b9b43cf14eb87e2c3845cc8",
+      "size": "2107865",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=video-normalized",
+      "crc": "75041aed",
+      "md5": "a5bdc49d51d24959a3d6e0b1383dc78f",
+      "sha1": "2cb044e295d42bc5d450f161af65872bab507a92",
+      "size": "1168198",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=steamgrid",
+      "crc": "7c97e37f",
+      "md5": "1c6eb19eb0bf46b8cedcf43a94dd7e33",
+      "sha1": "a61b6ffaf494312b66769e5c6fa4c027f4cecf73",
+      "size": "29651",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=wheel(wor)",
+      "region": "wor",
+      "crc": "375bc58a",
+      "md5": "aace8e0f2d8a46962c6fa199e36f6e2c",
+      "sha1": "919b02fcd5ddd559e08afa64b4c0e49861d4b579",
+      "size": "40457",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "c0bf7be6",
+      "md5": "62fa2de72e0fee7c27f15d35bc2e38d3",
+      "sha1": "e90aeaa111674dbdced4962a8bedaf2818104293",
+      "size": "94665",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "10b68c3e",
+      "md5": "7ef8cfba1e664e9544531d3ad3cefa89",
+      "sha1": "a0cecc412ac90260af37be70924c46e73fc3636a",
+      "size": "94701",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "e2f9b088",
+      "md5": "19686d9eb89016ec7a395029dbea7575",
+      "sha1": "ff01a76fc8365ac3fdaeb81125f9608b59c08aaf",
+      "size": "476068",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "da4ff968",
+      "md5": "644b79baed4f28251e00553db4dc317a",
+      "sha1": "5a66436aad618113f2764d591485dd9682f11b9c",
+      "size": "74974",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-2D(eu)",
+      "region": "eu",
+      "crc": "c563c95f",
+      "md5": "8546fa366613765a6094b241e03e0d57",
+      "sha1": "020a8894acb6cb7d40a88c51007702b473b9d69a",
+      "size": "443892",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "02874c22",
+      "md5": "d83b2cc97db9e2c3ab9e09a6e46685e2",
+      "sha1": "21ca2ba75b156ddeca12f75ed8ed4ec4f7356c90",
+      "size": "126313",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-2D(us)",
+      "region": "us",
+      "crc": "41dfe46f",
+      "md5": "e6eb867e5c103555811ac30db9f1b36e",
+      "sha1": "63e38b59e6a12d88e8ff4bfbc91ad3e841195e23",
+      "size": "344809",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-2D-side(eu)",
+      "region": "eu",
+      "crc": "3d51dd33",
+      "md5": "6bd775d2f736bcb3e2db7fd11efddc6b",
+      "sha1": "bd43ea0e16b7d3697e798c8058fc9d4bab4e490b",
+      "size": "32303",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "77cd9cbd",
+      "md5": "bbcecd36ac042a158eccb09ca140e997",
+      "sha1": "d9ff2eb9951d2eb56a51da3defa67cbf5a12cf9d",
+      "size": "19813",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "68de770b",
+      "md5": "c7799b7b9d1e3b0c6d9b74d7af07bd15",
+      "sha1": "6f0d701b1b06aeaec3bb3a3fc0b8f3c5749533e8",
+      "size": "44728",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-2D-back(de)",
+      "region": "de",
+      "crc": "b8eafb7e",
+      "md5": "82910dded02086c676c9d3eeff12f8d2",
+      "sha1": "24e23e492f6493e0544cabbe1ad3ccc5a2f662f5",
+      "size": "667389",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-2D-back(eu)",
+      "region": "eu",
+      "crc": "89beebcd",
+      "md5": "0db409050157fe6645d90c03bd5f7629",
+      "sha1": "34d08be9488156957856f2c02ad97790e1ead18d",
+      "size": "537921",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "e9ba6cc9",
+      "md5": "a55b67fd587bc04104b64dabb042b449",
+      "sha1": "54beeb57f2924b1515188b1db1215eabec8c9972",
+      "size": "140878",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "27a3568a",
+      "md5": "fe01e9a8eaf0e0ecfc14016121d8604d",
+      "sha1": "fde037b48cb925eec6c414ac088761268efed718",
+      "size": "547882",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-texture(eu)",
+      "region": "eu",
+      "crc": "200fb1a4",
+      "md5": "e07bcd53d64809bab4a8a3c41edc96e2",
+      "sha1": "8de88e771620ff3b3199815d2931833d61451f4b",
+      "size": "1021987",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "1efa363f",
+      "md5": "5d2e8140bb013ba0c72763141a26e4ff",
+      "sha1": "187fd9b5457984d0ae05cdfc4bb4ecb1b21a81fe",
+      "size": "302829",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-texture(us)",
+      "region": "us",
+      "crc": "96caf3f0",
+      "md5": "53a09864741880024c3b9a0ae47a6292",
+      "sha1": "8f1c4126304385851d85d9c5340253203894e7a5",
+      "size": "349137",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-3D(eu)",
+      "region": "eu",
+      "crc": "36e2677f",
+      "md5": "b9583328e92fc643967c530a5ed44e34",
+      "sha1": "b3646e934b717c535d86461c9c3d112a8e39d63c",
+      "size": "246978",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "c41b470d",
+      "md5": "5451bc4942ed6d504755371fa2568cf9",
+      "sha1": "ba939018cf0aa59a917da760eee88e2b02908c67",
+      "size": "129194",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=box-3D(us)",
+      "region": "us",
+      "crc": "ca93fa7a",
+      "md5": "83dd83c2ff32b654d6164e1260fcbb04",
+      "sha1": "67a31c5b3e54be33b39544f9b32e0a00cc92d983",
+      "size": "248359",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=manuel(us)",
+      "region": "us",
+      "crc": "23612d63",
+      "md5": "2468a91c4f8738a824164e71ae6d3d13",
+      "sha1": "13700bab3478b18c4f109a99a7eccf38dbe65d4f",
+      "size": "1839987",
+      "format": "pdf"
+    },
+    {
+      "type": "figurine",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=figurine",
+      "crc": "e72a088f",
+      "md5": "1dd659ba453b21866479e600b0a979b6",
+      "sha1": "30cf1e109c77a661b3589479ce25b78084905b0e",
+      "size": "300903",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=support-texture(eu)",
+      "region": "eu",
+      "crc": "261c1eee",
+      "md5": "0c84acd7cfe0979c39dc160a94e922e1",
+      "sha1": "e93b6628a3c52e981babcd00f50597e7bcb18b10",
+      "size": "373604",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=support-texture(us)",
+      "region": "us",
+      "crc": "82876f1e",
+      "md5": "38ff9721f60f8191be5ce154dd161729",
+      "sha1": "04c0a28139f9b4d173d144375be52921f887d9c5",
+      "size": "123913",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=support-2D(eu)",
+      "region": "eu",
+      "crc": "603bbc31",
+      "md5": "356f4e3fce9e5ca159f0471abe0072d9",
+      "sha1": "bafd33eaf59a37173634a56a502e5215b925c342",
+      "size": "328968",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=support-2D(us)",
+      "region": "us",
+      "crc": "48653890",
+      "md5": "175b989b8705de0b49f9398127f305b2",
+      "sha1": "3775d63d0618823a4548937c9d85e37ac63f7696",
+      "size": "333852",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "5b8f4f1e",
+      "md5": "5088488280e00f2436a3fb6ca9d1e589",
+      "sha1": "5c3f7660a631cf03c778a16a1c552ecf3d504b7b",
+      "size": "249209",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=mixrbv1(eu)",
+      "region": "eu",
+      "crc": "e2b6f6a6",
+      "md5": "0bb3f86e841758f3797aed4fb02b95a1",
+      "sha1": "f719ef091158782c2bd44d22dd14aa2dab99211d",
+      "size": "351267",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "a7713c92",
+      "md5": "fb4a926803406dd5b46270b7b21de7c3",
+      "sha1": "46aee058637ccd715e19e3605ad84f547783bb47",
+      "size": "297095",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "a53ad303",
+      "md5": "3a4fb83f2c937bf6937d925eb8602e11",
+      "sha1": "142204e5d7f97b551aee56c737c0e49743f11396",
+      "size": "354589",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "e2b6f6a6",
+      "md5": "0bb3f86e841758f3797aed4fb02b95a1",
+      "sha1": "f719ef091158782c2bd44d22dd14aa2dab99211d",
+      "size": "351267",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=mixrbv2(eu)",
+      "region": "eu",
+      "crc": "02e71cb4",
+      "md5": "fa74782babaecba20f80d23de724d068",
+      "sha1": "6e150d89328ea4b8918010b4af71c8426dac0167",
+      "size": "515810",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "3d499ca0",
+      "md5": "b0b0de14bf5bbf468a69018399a62d57",
+      "sha1": "47ef386466e3d287acd9c040d625f630cf6e9364",
+      "size": "462462",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "219a9986",
+      "md5": "0c3c1fb011a0239e20e0a5287248ba05",
+      "sha1": "b0312eadff7d632188ddbf20e620318b2346313a",
+      "size": "518422",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18689&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "02e71cb4",
+      "md5": "fa74782babaecba20f80d23de724d068",
+      "sha1": "6e150d89328ea4b8918010b4af71c8426dac0167",
+      "size": "515810",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=17097&media=logo-monochrome",
+      "crc": "59243152",
+      "md5": "da48a0e39391ef78629065f17e654ac6",
+      "sha1": "836e036ad3d2d9c75d6adbec12517fb6e9334474",
+      "size": "6487",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=17097&media=wheel",
+      "crc": "74932a9b",
+      "md5": "8e4df27d294e08b76563ef2aecf9bba8",
+      "sha1": "c536d5e4074694db76c7b63204a7aba87bab1868",
+      "size": "28806",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=108&media=logo-monochrome",
+      "crc": "fed129fe",
+      "md5": "c71984d55181cae05bd088f5a3ce093a",
+      "sha1": "8ec6d6cebde673ede349aad65183115856a565c9",
+      "size": "17454",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=108&media=wheel",
+      "crc": "bd590c33",
+      "md5": "c9713f42be0e6269a886b5c9c639be92",
+      "sha1": "589943b1ec8155f820bab8935ac8270fb8053f51",
+      "size": "81449",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3548&media=pictoliste",
+      "crc": "082dc479",
+      "md5": "3747dcf0355cbc9e3a7d0ce94fb4adb5",
+      "sha1": "39207d0a617397b742072e803c26c9a580856665",
+      "size": "727",
+      "format": "png"
+    },
+    {
+      "id": "2929",
+      "parent": "genre",
+      "subparent": "Sport / Boxe",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2929&media=pictoliste",
+      "crc": "17f97fbe",
+      "md5": "fea21d453a216c9c57e402ea3bc11d5b",
+      "sha1": "2fd6b4303c298892578cb14ef559a403ef59698a",
+      "size": "17981",
+      "format": "png"
+    },
+    {
+      "id": "2929",
+      "parent": "genre",
+      "subparent": "Sport / Boxe",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2929&media=logo-monochrome",
+      "crc": "40efd172",
+      "md5": "d3cc03d5a661b7c8110350203cfe99c9",
+      "sha1": "b43b1d950c46a5240bae9769feaf51ea910049a7",
+      "size": "31750",
+      "format": "png"
+    },
+    {
+      "id": "2929",
+      "parent": "genre",
+      "subparent": "Sport / Boxe",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2929&media=logo-monochrome-svg",
+      "crc": "0b5e31aa",
+      "md5": "8941a84e55ebbf2b2cf33b5001353009",
+      "sha1": "63fa2b00d34c78cfb9dd5a6fd76f8f477988ad3b",
+      "size": "2345",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome",
+      "crc": "6a963ad9",
+      "md5": "6daf840fab2d205bda9bad4ff16f4c95",
+      "sha1": "f5e795233a8013aa0d992e197d56d09a63513403",
+      "size": "18286",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome-svg",
+      "crc": "328c7db2",
+      "md5": "4298fc7c8887c1b97cec6ee0b5d72433",
+      "sha1": "8f59a9ec18c48a7246c3b13e19c6c5857bc95513",
+      "size": "4269",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=background",
+      "crc": "a3265ffe",
+      "md5": "65308af4ddc9782f6717f000eea7f28a",
+      "sha1": "bccce8f0defa7c25313eb5ced7cdf71555c5a85d",
+      "size": "185482",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136104",
+      "romsize": "393232",
+      "romfilename": "George Foreman's KO Boxing (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8B67B2DB",
+      "rommd5": "96E834D1C44C9E2AA93120C78178D3F8",
+      "romsha1": "8E946FA9F8A5361D851804783DF55C2FA14B8D69",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "281641",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "136103",
+      "romsize": "393232",
+      "romfilename": "0461 boxing.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "53AA291E",
+      "rommd5": "2382507D43F6B0FEBEF2FB0F954F0BDD",
+      "romsha1": "F34C8868FEC7A47022DE055E7FC181E4E3B6DD3E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "98592",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "2877",
+      "romsize": "170673",
+      "romfilename": "George Foreman's KO Boxing (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C4FAA69B",
+      "rommd5": "57FCC061F1253D5A06221E1C9FF6342C",
+      "romsha1": "0AC6485B52A96ADC5ECC886DA2A4F8CC40B97FB2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "70691",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "2876",
+      "romsize": "169993",
+      "romfilename": "George Foreman's KO Boxing (Europe).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "08A1C86E",
+      "rommd5": "88927009E10AEE0439FFD3D7458AF6D2",
+      "romsha1": "26C7331D773D5E6A31F26F8D301B6E9D232100BF",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "62231",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "1137780",
+      "romsize": "393232",
+      "romfilename": "George Foreman's KO Boxing (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "744dbd5e",
+      "rommd5": "45aeaff4328691e6746bfcecda9ca7d7",
+      "romsha1": "caabea509aa313c6d0ce93bfe6ad71cfcb6e83bf",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "34792",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "537324",
+      "romsize": "170661",
+      "romfilename": "George Foreman's KO Boxing.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BEEDAE4B",
+      "rommd5": "1749EB2EF65EAF8ADD18B5F7D1E68B63",
+      "romsha1": "5F116464D20A994E735265FC50585E5B40DAFAA6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "30761"
+    },
+    {
+      "id": "675805",
+      "romsize": "393232",
+      "romfilename": "George Foreman's KO Boxing (U).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7027890F",
+      "rommd5": "8F47D82B14E1D478833270EFF3E877FB",
+      "romsha1": "D635FEC74F92731A1568A7D7ED473C9EFC75ED19",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "30052",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1137777",
+      "romsize": "393232",
+      "romfilename": "George Foreman's KO Boxing (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "57da8bbc",
+      "rommd5": "f31ad19c7f6616f14c7437148010194c",
+      "romsha1": "226a208c8442d57c8a45b2268f615eedc9b8e372",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11610"
+    },
+    {
+      "id": "523486",
+      "romsize": "171551",
+      "romfilename": "George Foreman's KO Boxing (U) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BC87EDC0",
+      "rommd5": "9B1B6F978A11A5E9EB56F7655B0E9403",
+      "romsha1": "02DC3794188FC2C46FCAD8064D52192D1AEA4E2E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10152",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "536659",
+      "romsize": "173482",
+      "romfilename": "George Foreman's KO Boxing (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7BA9A424",
+      "rommd5": "38D1A492ED08016E34ADB33C9803976B",
+      "romsha1": "7BCC1D24E7516D4F1D41C92B848933AA6FFE7D30",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9475",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "467862",
+      "romsize": "166545",
+      "romfilename": "George Foreman s KO Boxing (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "EEE1E25E",
+      "rommd5": "9188B35A4045B0DCA8F033B5A38389D8",
+      "romsha1": "B7C2A4E3D805E5F0E81F3D125AF08B5E1DAA4698",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6946",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "464910",
+      "romsize": "173531",
+      "romfilename": "George Foreman's KO Boxing (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B8A3D640",
+      "rommd5": "EC9781C1A656C2C40D3A906DA5A75AA0",
+      "romsha1": "19BC582A96A40787FDBEFA155C6C0441304AE7D6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6773",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "173267",
+      "romsize": "393216",
+      "romfilename": "George Foreman's KO Boxing (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8C88536F",
+      "rommd5": "CD0F3D8D41A46FCBB8D19B5CBDFFD9AB",
+      "romsha1": "21AFFEB0462B15A8D5A52B7610DF69AAA3B16805",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3196",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "544069",
+      "romsize": "173474",
+      "romfilename": "George Foreman's KO Boxing.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B1F44E35",
+      "rommd5": "A7AF2EFFDC34223BBF97E330FF527852",
+      "romsha1": "D7E24FF7ABF0A8590C20D081DAC8C82B48206288",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3007"
+    },
+    {
+      "id": "173268",
+      "romsize": "393216",
+      "romfilename": "George Foreman's KO Boxing (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "AF05F37E",
+      "rommd5": "650D9837E87D758D50B8DE942EAA4C48",
+      "romsha1": "8A20080A4F8EF1268C1555913510733055031C5E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2633",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "591098",
+      "romsize": "166499",
+      "romfilename": "George Foreman's KO Boxing.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "49DC76F1",
+      "rommd5": "9E031A734A39FEBBC3612BAA387492AB",
+      "romsha1": "C60E455819A0D2DF20052F7343659B492169ED0E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1089"
+    },
+    {
+      "id": "570389",
+      "romsize": "172057",
+      "romfilename": "George Foreman's KO Boxing (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5006209C",
+      "rommd5": "1EA24822CC567DDBADE9086B9B7AC87E",
+      "romsha1": "C554AFB19AF2CE2CD02F96541FF1F208962B278F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "252",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "480272",
+      "romsize": "170651",
+      "romfilename": "George Foreman's KO Boxing (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8905CF05",
+      "rommd5": "EE4DC3A2A2F61D13285BF62C6F084228",
+      "romsha1": "17793DDB3C171A54063C1795BFF89D8B19766A2B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "139",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "483095",
+      "romsize": "172888",
+      "romfilename": "George Foreman's KO Boxing (Europe).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A5AE0288",
+      "rommd5": "5A179B3F84FE219DA508445BF44BAEF6",
+      "romsha1": "B13294C77489952818963F34B251B3CA1331605F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "137",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "483096",
+      "romsize": "173547",
+      "romfilename": "George Foreman's KO Boxing (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D7FA2FC8",
+      "rommd5": "B8DE8147070C69CF9CFF2A707865BDE6",
+      "romsha1": "1D0D1B0FB0E7B7BDD84CBB7307263715B0367C87",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "109",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "113768",
+      "romsize": "170651",
+      "romfilename": "George Foreman's KO Boxing (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "844BCCE0",
+      "rommd5": "E621EC7EEADCB13D4FBEAB2F02033BFE",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "101",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "113767",
+      "romsize": "169970",
+      "romfilename": "George Foreman's KO Boxing (Europe).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6285F04D",
+      "rommd5": "BA96F0B1A94D025221192F2F55803911",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "78",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    }
+  ]
+}

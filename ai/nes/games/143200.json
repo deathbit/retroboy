@@ -1,0 +1,709 @@
+{
+  "id": "143200",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "D-pad Hero"
+    },
+    {
+      "region": "us",
+      "text": "D-pad Hero"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "29597",
+    "text": "DPADHERO.COM"
+  },
+  "developpeur": {
+    "id": "30946",
+    "text": "Kent Hansen, Andreas Pedersen"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "D-Pad Hero is a 2009 video game demake of the Guitar Hero series developed for the Nintendo Entertainment System. An unofficial release, the game is a ROM which must be dumped onto a cartridge or played via emulator."
+    },
+    {
+      "langue": "fr",
+      "text": "D-Pad Hero est joué comme un jeu de rythme . Les notes tombent du haut vers le bas de l'écran en synchronisation avec la musique. Lorsqu'ils atteignent un seuil, les joueurs appuient sur les boutons du contrôleur correspondant à la note. Si le joueur appuie sur la bonne séquence de boutons au bon moment, la piste de guitare du morceau continuera à jouer. Si la note est manquée, la piste de guitare s'arrête jusqu'à ce que le joueur frappe avec succès une note. Ceci est similaire aux séries de jeux vidéo Guitar Hero et Rock Band , dans lesquelles les notes apparaissent sur une autoroute virtuelle qui se déplace progressivement vers le bas de l'écran."
+    },
+    {
+      "langue": "de",
+      "text": "D-Pad Hero wird als Rhythmusspiel gespielt. Die Noten fallen von oben nach unten vom Bildschirm in Synchronisierung mit der Musik. Wenn sie einen Schwellenwert erreichen, drücken die Spieler die Tasten des Controllers, die der Note entsprechen. Wenn der Spieler zur richtigen Zeit die richtige Tastensequenz drückt, wird die Gitarrenspur des Songs weitergespielt. Wenn die Note verpasst wird, stoppt die Gitarrenspur, bis der Spieler erfolgreich eine Note trifft. Dies ähnelt den Videospiel-Serien Guitar Hero und Rock Band , in denen die Noten auf einer virtuellen Autobahn erscheinen, die sich allmählich nach unten auf dem Bildschirm bewegt."
+    },
+    {
+      "langue": "es",
+      "text": "D-Pad Hero es un demake no oficial de videojuegos de 2009 de la serie Guitar Hero desarrollada para el sistema de entretenimiento Nintendo. El juego es una ROM que se debe descargar en un cartucho o jugar a través del emulador."
+    },
+    {
+      "langue": "it",
+      "text": "D-Pad Hero è un videogioco demake del 2009 della serie Guitar Hero sviluppato per il Nintendo Entertainment System. Una versione non ufficiale, il gioco è una ROM che deve essere scaricata su una cartuccia o riprodotta tramite emulatore."
+    },
+    {
+      "langue": "pt",
+      "text": "D-Pad Hero é um vídeo game de 2009 da série Guitar Hero desenvolvida para o Nintendo Entertainment System. Um lançamento não oficial, o jogo é uma ROM que deve ser despejada em um cartucho ou jogada via emulador."
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2009"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2925",
+      "nomcourt": "010A",
+      "principale": "0",
+      "parentid": "425",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Rhythm"
+        },
+        {
+          "langue": "fr",
+          "text": "Rythme"
+        },
+        {
+          "langue": "de",
+          "text": "Rythmus"
+        },
+        {
+          "langue": "es",
+          "text": "Ritmo"
+        },
+        {
+          "langue": "it",
+          "text": "Ritmico"
+        },
+        {
+          "langue": "pt",
+          "text": "Rítmico"
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "nomcourt": "010A",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Music and Dancing"
+        },
+        {
+          "langue": "fr",
+          "text": "Musique et Danse"
+        },
+        {
+          "langue": "de",
+          "text": "Musik und Tanz"
+        },
+        {
+          "langue": "es",
+          "text": "Música y Baile"
+        },
+        {
+          "langue": "it",
+          "text": "Musica e Danza"
+        },
+        {
+          "langue": "pt",
+          "text": "Música e dança"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "35eabcab",
+      "md5": "b9749e1838c42810ce7409075dcff4b9",
+      "sha1": "8b19c0bde369cdbd6fb4f6a3e994258e6d8d9984",
+      "size": "2510",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=ss(wor)",
+      "region": "wor",
+      "crc": "470a23e5",
+      "md5": "7639bce35110cbc643bd17d2177d25ce",
+      "sha1": "2ccced9280891b56fb500e01fe0ca72701d21928",
+      "size": "2514",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=fanart",
+      "crc": "c495e2e6",
+      "md5": "9f5d013bcd5dcaf9cadc24555b04be5d",
+      "sha1": "506e8429010e6c73d6ce671397ac33db14fbb53d",
+      "size": "176870",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=video",
+      "crc": "419a0a50",
+      "md5": "89bb7a3a4c1a00fe835e296ddaea9144",
+      "sha1": "4392d43f35967bd0909a2a74772b8bffaa0cc90a",
+      "size": "5689994",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=video-normalized",
+      "crc": "f714f8f2",
+      "md5": "dc6cd9f714f44d43473a786f1c5cc3ed",
+      "sha1": "c12c7b987603221145741700cd4b3e860e9d7fb2",
+      "size": "660914",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=steamgrid",
+      "crc": "aa317ee0",
+      "md5": "53640fb983af885de775b91e9f83b863",
+      "sha1": "87c715144437d85bd3b65f4772e518f850cd830a",
+      "size": "29613",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=wheel(wor)",
+      "region": "wor",
+      "crc": "c65078a4",
+      "md5": "31fc830215ba31d531186da76060a3d2",
+      "sha1": "4d24cd6077cf1481be8380fef524033f07feac75",
+      "size": "30696",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "2a7ef907",
+      "md5": "52228b016a53d0834708fc8986cef628",
+      "sha1": "a84012e194cd3d87f5ce88a75ab56e11f564e42a",
+      "size": "103090",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "74d59084",
+      "md5": "b52729b1414321e952d3cfa5ea364556",
+      "sha1": "f0afc192ae009294bb0f10b64e96d14f54dcd1f7",
+      "size": "105650",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "6ae23878",
+      "md5": "a19f2ce24f16836a1321c20220f805e0",
+      "sha1": "3b63ce4e72294e7e861bb81b7ab77d33f5a4d320",
+      "size": "493080",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "3eee2ead",
+      "md5": "9cba3d82566949fed236563f964c5cb8",
+      "sha1": "d5435626974e10ce519e6dd90f18817063bb7c81",
+      "size": "77546",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "043022e8",
+      "md5": "346cd6f111de8bfd669e601a0210c4da",
+      "sha1": "ba522075c978a512a1e8d405064282f352affc0b",
+      "size": "107807",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=box-2D(us)",
+      "region": "us",
+      "crc": "8d869f6e",
+      "md5": "da92aa1b61828dbe6b926876cfc05e3c",
+      "sha1": "07e0d5145bb60298d181d2189eb0c8343a60f9bd",
+      "size": "104765",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "9d062e95",
+      "md5": "cf9691a829b92801736272f39b5429ff",
+      "sha1": "35424834c7461f150d324cd20eaa6541eeef1e56",
+      "size": "18151",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "dc613066",
+      "md5": "ba38925b58649baa892f54a94e68be3f",
+      "sha1": "8100362acc46d8279081843e6e87a8a0557dabfb",
+      "size": "29491",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "44622191",
+      "md5": "1d532f81b0ea5f48811150971b5e918a",
+      "sha1": "51ef17cdbed900aedebc42847bd761690b7ae785",
+      "size": "128791",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "e6b2fb42",
+      "md5": "3fa22726d133f2cedc424a49498b09f6",
+      "sha1": "73fc6ab847083ba54f0aa278e1edc2385714f85e",
+      "size": "201662",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "a59caa57",
+      "md5": "009949ca74baa8f119b872523f05175a",
+      "sha1": "749d56c5ac5a7c2d4f69f6bed4b8899f374828c2",
+      "size": "267870",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=box-texture(us)",
+      "region": "us",
+      "crc": "3b33f959",
+      "md5": "42a419514059b99514b3f6a3ac3f9d19",
+      "sha1": "c80461051ed5d614fc5ba10538d1a3cbfec65285",
+      "size": "314423",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "b7d3662b",
+      "md5": "a0d46d940271f1eb1e7b2f0700ab4218",
+      "sha1": "0ac8de4311fccea739ffc664f67fb46c99557a16",
+      "size": "106092",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=box-3D(us)",
+      "region": "us",
+      "crc": "0faef451",
+      "md5": "78897d32a1a938fa7d4fd918a65d4ea0",
+      "sha1": "7bc89ad3974279401b00d67f8097372446c7153f",
+      "size": "106172",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=support-texture(wor)",
+      "region": "wor",
+      "crc": "a3515f72",
+      "md5": "5b9359ac3abef272ad07c98d75df2258",
+      "sha1": "f3103c6bf0fcecab9877ee709870c5ca8c402a9c",
+      "size": "84108",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=support-2D(wor)",
+      "region": "wor",
+      "crc": "7493b16e",
+      "md5": "7ee126edc53d462c98dad6c74e8f0aa5",
+      "sha1": "3a5dd1183c66147e97768a8c48f1b3661de1cf2f",
+      "size": "161442",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "6",
+      "posw": "1406",
+      "posh": "1067",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=bezel-16-9(wor)",
+      "region": "wor",
+      "crc": "e84f2f35",
+      "md5": "cf21bf7201ea57323dfc564acb2b358f",
+      "sha1": "6e87d290af50ec46412a0dd3a9951538c4cd0ebf",
+      "size": "334906",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "e71e5664",
+      "md5": "7bb5626f6d9708ee8b74adf696c71b74",
+      "sha1": "4eab83b7a6d971f50ed8e0967c4b6085317a16cb",
+      "size": "203610",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "eb0a6830",
+      "md5": "9e46aa415236e5dd0212a27640ad7b4a",
+      "sha1": "a7a248a6edf25abe6674874f30cfda607651dfd3",
+      "size": "206929",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "eb0a6830",
+      "md5": "9e46aa415236e5dd0212a27640ad7b4a",
+      "sha1": "a7a248a6edf25abe6674874f30cfda607651dfd3",
+      "size": "206929",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "853b4a3b",
+      "md5": "d0a326012bc990b71c559448aaaee071",
+      "sha1": "e072fcd3f54c4312135c53ebf2ccbbbbe882d335",
+      "size": "387827",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "82634721",
+      "md5": "aae143f1ac47c8a2b3a2cdeba07ea62e",
+      "sha1": "9fb9ba18b9b3583f49803b3e273a67207850f791",
+      "size": "391819",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=143200&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "82634721",
+      "md5": "aae143f1ac47c8a2b3a2cdeba07ea62e",
+      "sha1": "9fb9ba18b9b3583f49803b3e273a67207850f791",
+      "size": "391819",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2925",
+      "parent": "genre",
+      "subparent": "Rythme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2925&media=pictoliste",
+      "crc": "8608718d",
+      "md5": "27e9bb9657fbbf104e789b3a07fc117c",
+      "sha1": "f262797c1adfc112b56040497c1f43ad25cd1c86",
+      "size": "18557",
+      "format": "png"
+    },
+    {
+      "id": "2925",
+      "parent": "genre",
+      "subparent": "Rythme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2925&media=logo-monochrome",
+      "crc": "6c60e388",
+      "md5": "af0a72d73994fecbb3216a66be9f974f",
+      "sha1": "f27cabd2a0e5858feb5a4fef07c9d2c6f4822155",
+      "size": "16551",
+      "format": "png"
+    },
+    {
+      "id": "2925",
+      "parent": "genre",
+      "subparent": "Rythme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2925&media=logo-monochrome-svg",
+      "crc": "9541bf3f",
+      "md5": "7a50e62b4844f831f2a0fe46a489797d",
+      "sha1": "178439071820fec4b680011848c7d4554c9dbc9d",
+      "size": "2194",
+      "format": "svg"
+    },
+    {
+      "id": "2925",
+      "parent": "genre",
+      "subparent": "Rythme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2925&media=background",
+      "crc": "07e29206",
+      "md5": "bc9483700ff9caf0970a7563c524efcb",
+      "sha1": "649719b4fe5126cbb340122954f355f08d1add3c",
+      "size": "121757",
+      "format": "jpg"
+    },
+    {
+      "id": "425",
+      "parent": "genre",
+      "subparent": "Musique et Danse",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=425&media=pictoliste",
+      "crc": "b4fc8be7",
+      "md5": "bb3219bf8e9f7b974c87d3019edebac2",
+      "sha1": "6834a80cc35020d211e9a7456c406cd36b1e3dbd",
+      "size": "693",
+      "format": "png"
+    },
+    {
+      "id": "425",
+      "parent": "genre",
+      "subparent": "Musique et Danse",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=425&media=logo-monochrome",
+      "crc": "0b49a4c9",
+      "md5": "8f3fd38a81ae39b2f43fc84f3682befd",
+      "sha1": "f5da6f7955b77e4f8793e4167ddc16ec9682cf65",
+      "size": "3385",
+      "format": "png"
+    },
+    {
+      "id": "425",
+      "parent": "genre",
+      "subparent": "Musique et Danse",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=425&media=logo-monochrome-svg",
+      "crc": "418f430b",
+      "md5": "3c4be095b2ac34cc8da36b243a35c057",
+      "sha1": "b9a7f922df0e1733b699b842010a9a24d7bb169a",
+      "size": "1131",
+      "format": "svg"
+    },
+    {
+      "id": "425",
+      "parent": "genre",
+      "subparent": "Musique et Danse",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=425&media=background",
+      "crc": "df5c997b",
+      "md5": "15d6dd4c51ef382be158f41b65bfaa20",
+      "sha1": "9f1d3cd2b98763e33b3125c285c24f3329e10625",
+      "size": "193456",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "537501",
+      "romsize": "38734",
+      "romfilename": "D-Pad Hero.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "356C7489",
+      "rommd5": "83312C383DCDB9588EB0539BD9CDF866",
+      "romsha1": "BBEDD9D7A49B2BD23D738FF6B281897BEE9CD9E9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "81025"
+    },
+    {
+      "id": "1078892",
+      "romsize": "262144",
+      "romfilename": "D Pad Hero (USA) (v1.1) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3b34d264",
+      "rommd5": "c25991d546991cedbea9eb9efff32e62",
+      "romsha1": "1c15f179218ffc0a62ee98d9dc7a8474b65d1603",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2186",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1078888",
+      "romsize": "262144",
+      "romfilename": "D Pad Hero (USA) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0212ca04",
+      "rommd5": "27efe9c8681300d14950859ad2f9db1a",
+      "romsha1": "416bb12ea6758e52fb529b0a1db62c4600c29c23",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1099",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1442897",
+      "romsize": "262160",
+      "romfilename": "D-Pad Hero V1.1RC1 (2009.02.04) (PD).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "d27a98d0",
+      "rommd5": "3bb7e838d3c60dc529ade9aa9abb3686",
+      "romsha1": "10d96b60b56b7e7735f407f4f629a3ce19ded2c7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "59"
+    }
+  ]
+}

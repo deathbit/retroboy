@@ -1,0 +1,796 @@
+{
+  "id": "88340",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Huang Di - Zhuolu Zhi Zhan"
+    },
+    {
+      "region": "tw",
+      "text": "Huang Di: Zhuolu zhi Zhan"
+    },
+    {
+      "region": "asi",
+      "text": "Huang Di"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "18518",
+    "text": "Asder"
+  },
+  "developpeur": {
+    "id": "18518",
+    "text": "Asder"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Huang Di is an action platformer where you can choose from two different characters to play as. These characters play exactly the same, so the difference between them is merely cosmetic. There is a 2 player option as well, but no cooperative mode."
+    },
+    {
+      "langue": "fr",
+      "text": "Huang Di est un jeu de plateforme d'action dans lequel vous pouvez choisir entre deux personnages différents. Ces personnages jouent exactement de la même façon, la différence entre eux n'est que cosmétique. Il existe également une option à 2 joueurs, mais pas de mode coopératif."
+    },
+    {
+      "langue": "de",
+      "text": "Huang Di ist ein Action-Plattformer, bei dem Sie aus zwei verschiedenen Charakteren wählen können, die Sie spielen können. Diese Charaktere spielen genau gleich, so dass der Unterschied zwischen ihnen nur kosmetisch ist. Es gibt auch eine 2-Spieler-Option, aber keinen kooperativen Modus."
+    },
+    {
+      "langue": "es",
+      "text": "Huang Di es un juego de plataformas de acción donde puedes elegir entre dos personajes diferentes para jugar. Estos personajes se juegan exactamente igual, por lo que la diferencia entre ellos es meramente cosmética. También hay una opción para 2 jugadores, pero no hay modo cooperativo."
+    },
+    {
+      "langue": "it",
+      "text": "Huang Di è un platform d'azione in cui puoi scegliere tra due diversi personaggi con cui giocare. Questi personaggi giocano esattamente allo stesso modo, quindi la differenza tra loro è semplicemente estetica. C'è anche un'opzione per 2 giocatori, ma nessuna modalità cooperativa."
+    },
+    {
+      "langue": "pt",
+      "text": "Huang Di é um jogo de plataforma de ação no qual você pode escolher entre dois personagens diferentes. Esses personagens jogam exatamente da mesma maneira, a diferença entre eles é apenas cosmética. Também existe uma opção para 2 jogadores, mas nenhum modo cooperativo."
+    }
+  ],
+  "dates": [
+    {
+      "region": "cn",
+      "text": "1994"
+    }
+  ],
+  "genres": [
+    {
+      "id": "7",
+      "nomcourt": "0101",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "d7ad8234",
+      "md5": "c87587bd24b801667b1f5f5321d7b68d",
+      "sha1": "fecdd4ffb04a2693e1edcf814548be83f516ecf5",
+      "size": "6360",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=ss(cn)",
+      "region": "cn",
+      "crc": "c08acad2",
+      "md5": "d99489d4143d4c569b7feba87e4e7931",
+      "sha1": "67048aef94f5ad7ea41179b4406ab097d8087746",
+      "size": "3592",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=fanart",
+      "crc": "4c03250f",
+      "md5": "ad59c33a1d355d51be89e01c0fdcc2a7",
+      "sha1": "d4ef4f798d5b5f5a1c78222e5b996de5a4a32fca",
+      "size": "165068",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=video",
+      "crc": "726c1e92",
+      "md5": "ca881112436b779e4b12975e0d1191a6",
+      "sha1": "9dbd9a2f7d64c19006e92affddc227f39352ceef",
+      "size": "8046520",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=video-normalized",
+      "crc": "c6a789ea",
+      "md5": "6241d82b810fa1cf862d696a0ea1c11f",
+      "sha1": "b10d3f1715668c7a5a7f8c28e3bb72c457fa5fe5",
+      "size": "3209210",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=steamgrid",
+      "crc": "22e70fcb",
+      "md5": "d2d175482676cd7b22d3a66fc7aae563",
+      "sha1": "9f2640867b35f65c9ff30e0d521d038331d46c3a",
+      "size": "27770",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=wheel(jp)",
+      "region": "jp",
+      "crc": "531d54a5",
+      "md5": "afa46d075bb367bb30b6b2bd0793128e",
+      "sha1": "1d0fc4c109fc52f77b0f0d2e2d18c2137a46417d",
+      "size": "389375",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "ea3d0769",
+      "md5": "dc3d1b2887da77f657e2292d43d95bd8",
+      "sha1": "4f3379de40b0d2daf5969933e4646c2be6c88a07",
+      "size": "257996",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "5b7c2e84",
+      "md5": "60c3e601271c610373c6ee5527cee1d9",
+      "sha1": "80bcbd796a16b90620d3fb34f898f990c5de0327",
+      "size": "261093",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "0e464078",
+      "md5": "77d20c744b6cb3a18bfa329e115f91e7",
+      "sha1": "afd9270a8ac6f7b8d277337abae644c687cb58ee",
+      "size": "607179",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "b80a4dd5",
+      "md5": "364b99fd99fa3edb5dc8d8beef7a936a",
+      "sha1": "31a8ff37b2f6fc6d13c5e4dfaa4fae6a25ea164e",
+      "size": "111132",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "809b46dc",
+      "md5": "852b2eb294b20b48147eac8681d4c36f",
+      "sha1": "b6c2927a78d57dce7d1e1ee3f3e3fc7808b49e5b",
+      "size": "803943",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "cb8a6d8c",
+      "md5": "ff2a2152bdd3b3b80fbcb218c01372e4",
+      "sha1": "9bd78101698eea9eed4603d1d00cc14911256e40",
+      "size": "233250",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "25271602",
+      "md5": "7c296b1616ea56c8b4c77d08e19a4033",
+      "sha1": "2e88fe148d9f251a4f0ea1eceedbae57a1d8ae6c",
+      "size": "125332",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "ce023a0d",
+      "md5": "ab4956e08f55b8dc88a846c865fd0276",
+      "sha1": "9b6cbe0e4e173dae2682392453325ad7cd316dbd",
+      "size": "51411",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "253a14ce",
+      "md5": "209adeffdd0863a90ac01fd9488d7a2a",
+      "sha1": "e34a5bebe5ac5c80a3e095363a5e99ff8a1d7a79",
+      "size": "2829",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "020f0cb5",
+      "md5": "ee04b8b98bcf642a70a99240c2e7a772",
+      "sha1": "4ac9080f34ca349889c80c48f45039944e8b54c3",
+      "size": "205141",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "bf0d6d4c",
+      "md5": "992d5cb02cd5b2cddec55459ac3a5d49",
+      "sha1": "9bf9679169bd571b14da50f1b68da767230180c7",
+      "size": "859870",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "fabe7bcc",
+      "md5": "38ceb10ea303a0fa70859c4f2cecbd08",
+      "sha1": "77928d626e938c593f17e4aefdac472847b6979b",
+      "size": "510648",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "1523d9fe",
+      "md5": "5652f8d4ae6c8a49da977f4bf5561699",
+      "sha1": "28aac765030a288959176527d9a1e0847c8fc737",
+      "size": "346920",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "7e648f8a",
+      "md5": "751bbe950b59625942a61fb2f93e9f2a",
+      "sha1": "1152b41dd05fcadbeba5e332ffc19bfb7bae055b",
+      "size": "187727",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "a4c0f2c6",
+      "md5": "3f7e50ebe9e207e6b9c8b3ed3e81690e",
+      "sha1": "334e2cac6566d1360e2ec2f5a3b9303a5d31a3d0",
+      "size": "480918",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "58dabfe9",
+      "md5": "d86cff795fa3be41caa4a03333d863b9",
+      "sha1": "536a1ab5da9f5f8ec76bddd87be1972380b6ff53",
+      "size": "423953",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=mixrbv1(cn)",
+      "region": "cn",
+      "crc": "e4bcd1a6",
+      "md5": "e082aee14a5c5b90304783e67d14612d",
+      "sha1": "0f16923633bf8739f1263c9dd87a2d5bc9c33b5e",
+      "size": "625772",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "ee8e1c06",
+      "md5": "7deace478d8e3c835f3e375a32b4f980",
+      "sha1": "65b98fbc12953e76c7809d20815e2393b77a85d7",
+      "size": "532760",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "b2dc3b40",
+      "md5": "4a8c6fb9f255b619bd1bb3d0329c3171",
+      "sha1": "b55c20ac799a6997aea69a1b47fc912184c7b114",
+      "size": "461267",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "ee8e1c06",
+      "md5": "7deace478d8e3c835f3e375a32b4f980",
+      "sha1": "65b98fbc12953e76c7809d20815e2393b77a85d7",
+      "size": "532760",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=mixrbv2(asi)",
+      "region": "asi",
+      "crc": "ab1d8dd8",
+      "md5": "2d6dd99ce94e1861a969ca27a03358d3",
+      "sha1": "607e8ac7ab8fafb64050f47444ee97fbbf7e0a49",
+      "size": "756201",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=mixrbv2(cn)",
+      "region": "cn",
+      "crc": "33fa21f0",
+      "md5": "ab8783c39a68d167a7a38b397e64bd19",
+      "sha1": "325cb3c396465874dc7934bd3a65d9716b0cceb3",
+      "size": "755317",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "33fa21f0",
+      "md5": "ab8783c39a68d167a7a38b397e64bd19",
+      "sha1": "325cb3c396465874dc7934bd3a65d9716b0cceb3",
+      "size": "755317",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "d8943588",
+      "md5": "fe1298041d3495c0a200ab36b9513108",
+      "sha1": "c118df1b0bb2c4af215911a5653e4e0cef68e249",
+      "size": "684268",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=mixrbv2(tw)",
+      "region": "tw",
+      "crc": "ab1d8dd8",
+      "md5": "2d6dd99ce94e1861a969ca27a03358d3",
+      "sha1": "607e8ac7ab8fafb64050f47444ee97fbbf7e0a49",
+      "size": "756201",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88340&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "ab1d8dd8",
+      "md5": "2d6dd99ce94e1861a969ca27a03358d3",
+      "sha1": "607e8ac7ab8fafb64050f47444ee97fbbf7e0a49",
+      "size": "756201",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=pictoliste",
+      "crc": "d8329f23",
+      "md5": "ada4054a77e20edada97225e5c316116",
+      "sha1": "cfadf96438bde8ae1a8c3c52c85dd6768ba9b4c8",
+      "size": "855",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome",
+      "crc": "0f88a1ba",
+      "md5": "e8c818f5f59d48642afea18e5c545c15",
+      "sha1": "ef3857055eaae13785d2cab692edf9454b544be3",
+      "size": "9142",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome-svg",
+      "crc": "fa797dda",
+      "md5": "73a61640b94904834fdbfc7e043150e0",
+      "sha1": "3e5fe422339961df30bd70aa83e43671a1badce4",
+      "size": "4755",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=background",
+      "crc": "3d578fbf",
+      "md5": "62dbdbe08a5765fae2630d06e0f0ea38",
+      "sha1": "354ef394870af26f443863a29c846a07a20f47a0",
+      "size": "161158",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136256",
+      "romsize": "393232",
+      "romfilename": "Huang Di (Asia) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DFDEC378",
+      "rommd5": "CCEC7B8B77B4D7797192A1DF30E194B6",
+      "romsha1": "B2E8F814BDDD33038A6FF729DFB754B52D9B4E19",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "82059",
+      "regions": {
+        "regions_id": [
+          "114",
+          "112"
+        ],
+        "regions_shortname": [
+          "asi",
+          "tw"
+        ],
+        "regions_en": [
+          "Asia",
+          "Taiwan"
+        ],
+        "regions_fr": [
+          "Asie",
+          "Taiwan"
+        ],
+        "regions_de": [
+          "Asien",
+          "Taiwan"
+        ],
+        "regions_es": [
+          "Asia",
+          "Taiwan"
+        ],
+        "regions_it": [
+          "Asia",
+          "Taiwan"
+        ],
+        "regions_pt": [
+          "Ásia",
+          "Taiwan"
+        ]
+      }
+    },
+    {
+      "id": "12819",
+      "romsize": "142393",
+      "romfilename": "Huang Di.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "99471A6A",
+      "rommd5": "417396685BFA864810A27E7FC3B05DB5",
+      "romsha1": "C54872326AE4446F33BC4D314BFCBDBF4214AFE7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "27152",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "173423",
+      "romsize": "393216",
+      "romfilename": "Huang Di (Asia) (Ja) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "049325D9",
+      "rommd5": "8671348A13C55421C7424F59898AF10C",
+      "romsha1": "53DC42A7CC733672981782406F023A0ECC571122",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13350",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "1138665",
+      "romsize": "393232",
+      "romfilename": "Huang Di (Asia) (Ja) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "c7297cf6",
+      "rommd5": "fe906572985af7fd9ad6640b6f2dda59",
+      "romsha1": "38441b8c5d49ca65ca756ff6b820c2c44d2bc7db",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11081",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "113920",
+      "romsize": "142370",
+      "romfilename": "Huang Di (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "14BBB483",
+      "rommd5": "20537239166F90A3A272D8BCEF479C70",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4420",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    }
+  ]
+}

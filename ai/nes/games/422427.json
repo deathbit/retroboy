@@ -1,0 +1,415 @@
+{
+  "id": "422427",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Shera and the 40 Thieves - Definitive Edition"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "69599",
+    "text": "CrazyGroupTrio Games"
+  },
+  "developpeur": {
+    "id": "69599",
+    "text": "CrazyGroupTrio Games"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Shera & the 40 Thieves is an arcade-style platformer designed and playable for the NES (Nintendo Entertainment System). This is the Definitive Edition of the game that is remade from the ground up! This remake features improved graphics and music, difficulty settings, scrolling screens, traversable maps, abilities, support for 11 languages, and more!\r\n\r\nUse the options menu to play as either Sarza or Shera. Sarza is quicker, smaller, and can use his ability to run faster! Shera is larger but can climb ladders faster and is invincible while using her ability! Collect lamps to use an ability at any time, as long as you're not carrying a key!"
+    }
+  ],
+  "genres": [
+    {
+      "id": "7",
+      "nomcourt": "0101",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "25a6832a",
+      "md5": "655007591075c68167d2da694c26d159",
+      "sha1": "c591e4c48d2ab672607a56ba9835cb8010b0ff96",
+      "size": "4146",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=ss(wor)",
+      "region": "wor",
+      "crc": "c3fe7199",
+      "md5": "84513245a400d87853e3742e21a42678",
+      "sha1": "22bd6579ccee94d75e3ac6559862e210827ddc1a",
+      "size": "5376",
+      "format": "png"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=steamgrid",
+      "crc": "35f964bf",
+      "md5": "5a1d88fe09faf5972ac414fe9a04b223",
+      "sha1": "6099b0ccdbeb4ccaff7700bb38d2dd5494a55db5",
+      "size": "29626",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=wheel-hd(wor)",
+      "region": "wor",
+      "crc": "72a1c061",
+      "md5": "a33eb305082682f1303bca4ac15acdcc",
+      "sha1": "1da543a4b74694a405777638a7bfc54c930e9312",
+      "size": "54480",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "6c2a1484",
+      "md5": "f94f65a639f4c301ba17421e9346b8db",
+      "sha1": "eb0c0ca0b1c33b7cd1af68b671f05fe981d63ca6",
+      "size": "98601",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "390a2faf",
+      "md5": "2561943dca3e1aeb67c0daab41c78d85",
+      "sha1": "5350638432497cc7742aad2fe0b26358f4d27c86",
+      "size": "99117",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "d9f7ced4",
+      "md5": "59d24d5741a824252b9fd347108a52e1",
+      "sha1": "bc47937635bebf35b89949d63b5a40e7b505cbd1",
+      "size": "462698",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "d2f510b8",
+      "md5": "68a29e83d1a7d5b921c5ba0afec57d70",
+      "sha1": "40106b2c3fb1d78dcfce5cdad5831ad68c43e2ad",
+      "size": "75220",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "4ce399f5",
+      "md5": "8ca6b3ff856bd449721cf506cc29d45a",
+      "sha1": "093c084bf8b8324ca1783c393738c284ad1ee48b",
+      "size": "119563",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "ef49051b",
+      "md5": "e6b957e2c3f3a5a6eea477001df103d4",
+      "sha1": "d582bece6fdfc2d241174524272a800ece1773c7",
+      "size": "34917",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "a3a25847",
+      "md5": "c067cca0c77b6710ad81c68dc4770b37",
+      "sha1": "63593abed381a0d04f78c39d8b283db6a6a2ea55",
+      "size": "138286",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "9dacd767",
+      "md5": "d114952c55d9f4f7b97b7df0804f75ed",
+      "sha1": "e41a42c4b568811bf7cd57137e10dc6b70d506f6",
+      "size": "301341",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "8452b950",
+      "md5": "a860db49127f373fca644c8f630cfba2",
+      "sha1": "f21d7a2be5644a933baeb159b456156dcf82e777",
+      "size": "146261",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "ce909cc5",
+      "md5": "845f31c6af2683be01c44f2e0fc36588",
+      "sha1": "c0502cde7994b37f685286646ad1763f514892f0",
+      "size": "275832",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "ce909cc5",
+      "md5": "845f31c6af2683be01c44f2e0fc36588",
+      "sha1": "c0502cde7994b37f685286646ad1763f514892f0",
+      "size": "275832",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=mixrbv2(eu)",
+      "region": "eu",
+      "crc": "8c505761",
+      "md5": "d15bafdb90971df0e43434d485c7bd9f",
+      "sha1": "9397f1c675bf90bf1b021f5d0ad0b16dba99b5b0",
+      "size": "420766",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "8c505761",
+      "md5": "d15bafdb90971df0e43434d485c7bd9f",
+      "sha1": "9397f1c675bf90bf1b021f5d0ad0b16dba99b5b0",
+      "size": "420766",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "8c505761",
+      "md5": "d15bafdb90971df0e43434d485c7bd9f",
+      "sha1": "9397f1c675bf90bf1b021f5d0ad0b16dba99b5b0",
+      "size": "420766",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422427&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "8c505761",
+      "md5": "d15bafdb90971df0e43434d485c7bd9f",
+      "sha1": "9397f1c675bf90bf1b021f5d0ad0b16dba99b5b0",
+      "size": "420766",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=pictoliste",
+      "crc": "d8329f23",
+      "md5": "ada4054a77e20edada97225e5c316116",
+      "sha1": "cfadf96438bde8ae1a8c3c52c85dd6768ba9b4c8",
+      "size": "855",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome",
+      "crc": "0f88a1ba",
+      "md5": "e8c818f5f59d48642afea18e5c545c15",
+      "sha1": "ef3857055eaae13785d2cab692edf9454b544be3",
+      "size": "9142",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome-svg",
+      "crc": "fa797dda",
+      "md5": "73a61640b94904834fdbfc7e043150e0",
+      "sha1": "3e5fe422339961df30bd70aa83e43671a1badce4",
+      "size": "4755",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=background",
+      "crc": "3d578fbf",
+      "md5": "62dbdbe08a5765fae2630d06e0f0ea38",
+      "sha1": "354ef394870af26f443863a29c846a07a20f47a0",
+      "size": "161158",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1143507",
+      "romsize": "524304",
+      "romfilename": "Shera and the 40 Thieves - Definitive Edition (World) (v1.1) (Demo) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "27cc5091",
+      "rommd5": "ec41232fe1d8e1649242cd30412fa28f",
+      "romsha1": "2e14983a77e63cf1631f3a79c218addf01e2c6e7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9066",
+      "regions": {
+        "regions_id": [
+          "48",
+          "46"
+        ],
+        "regions_shortname": [
+          "eu",
+          "us"
+        ],
+        "regions_en": [
+          "Europe",
+          "USA"
+        ],
+        "regions_fr": [
+          "Europe",
+          "USA"
+        ],
+        "regions_de": [
+          "Europa",
+          "USA"
+        ],
+        "regions_es": [
+          "Europa",
+          "USA"
+        ],
+        "regions_it": [
+          "Europa",
+          "USA"
+        ],
+        "regions_pt": [
+          "Europa",
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1143504",
+      "romsize": "524304",
+      "romfilename": "Shera and the 40 Thieves (World) (Demo) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a4b8eb99",
+      "rommd5": "b54adeb5cf003f655cf2c3e9bada4938",
+      "romsha1": "8b1b4f219d77b96765b92a6bd7aca5fa3f9ab278",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5821"
+    }
+  ]
+}
