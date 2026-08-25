@@ -9,20 +9,28 @@ import com.github.deathbit.retroboy.domain.RuleContext;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.rule.Rules;
-import com.github.deathbit.retroboy.util.PathUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 import org.w3c.dom.Element;
 import org.xml.sax.InputSource;
 
+import java.io.File;
+import java.io.InputStreamReader;
+import java.io.StringReader;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilderFactory;
-import java.io.File;
-import java.io.StringReader;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.*;
-import java.util.stream.Collectors;
 
 @Component
 public class RuleContextInitializer {
@@ -38,9 +46,10 @@ public class RuleContextInitializer {
         ruleContext.setPlatformPackTaskConfig(appConfig.getPlatformPackTaskConfigMap().get(platform));
         ruleContext.setRenameOptionMap(ruleContext.getPlatformPackTaskConfig().getRenameOptions()
                 .stream().collect(Collectors.toMap(RenameOption::getOldName, RenameOption::getNewName)));
-        ruleContext.setGameDBList(parseGameDBList(PathUtils.PLATFORM_GAME_DB.get(ruleContext)));
-        ruleContext.setLicensed(parseLicensedGames(PathUtils.string(PathUtils.PLATFORM_DAT, ruleContext)));
-        populateFileContextMap(ruleContext, PathUtils.string(PathUtils.PLATFORM_ROMS, ruleContext));
+        ruleContext.setGameDBs(parseGameDBList(ruleContext.getPlatformName()));
+        ruleContext.setGameDBMap(ruleContext.getGameDBs().stream().collect(Collectors.toMap(GameDB::getRomName, Function.identity())));
+        // ruleContext.setLicensed(parseLicensedGames(PathUtils.string(PathUtils.PLATFORM_DAT, ruleContext)));
+        // populateFileContextMap(ruleContext, PathUtils.string(PathUtils.PLATFORM_ROMS, ruleContext));
         ruleContext.setRuleMap(Map.of(Area.JPN, Rules.IS_JAPAN_BASE, Area.USA, Rules.IS_USA_BASE, Area.EUR, Rules.IS_EUROPE_BASE));
         ruleContext.setAreaPassMap(new HashMap<>());
         ruleContext.setAreaRuleResultMap(new HashMap<>());
@@ -50,10 +59,11 @@ public class RuleContextInitializer {
         return ruleContext;
     }
 
-    private List<GameDB> parseGameDBList(Path gameDBPath) throws Exception {
+    private List<GameDB> parseGameDBList(String platformName) throws Exception {
         ProgressBar pb = new ProgressBar("解析游戏库");
         var gameDBList = new ArrayList<GameDB>();
-        var content = Files.readString(gameDBPath)
+        var gameDBResource = new ClassPathResource("platform/%s/%s_db.xml".formatted(platformName, platformName));
+        var content = readResourceAsString(gameDBResource)
                 .replaceFirst("^\\s*<\\?xml[^?]*\\?>", "");
         var document = createDocumentBuilderFactory()
                 .newDocumentBuilder()
@@ -74,6 +84,21 @@ public class RuleContextInitializer {
         }
         pb.finishTaskAndClose();
         return gameDBList;
+    }
+
+    private String readResourceAsString(ClassPathResource resource) throws Exception {
+        if (!resource.exists()) {
+            throw new IllegalArgumentException("游戏库资源不存在: " + resource.getPath());
+        }
+        try (var reader = new InputStreamReader(resource.getInputStream(), StandardCharsets.UTF_8)) {
+            var content = new StringBuilder();
+            var buffer = new char[8192];
+            int read;
+            while ((read = reader.read(buffer)) != -1) {
+                content.append(buffer, 0, read);
+            }
+            return content.toString();
+        }
     }
 
     private GameDB buildGameDB(String romName, Element archiveElement) {

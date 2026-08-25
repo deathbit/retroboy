@@ -31,5 +31,6 @@ public class PlatformPackTaskConfig {
     private List<AreaConfig> areaConfigs;
     private Set<String> tagBlackList;
     private Set<String> fileNameBlackList;
+    private Set<String> areaGameBlackList;
     private List<RenameOption> renameOptions;
 }

@@ -31,6 +31,9 @@ platformPackTaskConfigMap:
       - { oldName: 'Mario Bros. (Europe) (PAL-MC-0, Classic Series).nes', newName: 'Mario Bros. Classic Series.nes' }
       - { oldName: 'Star Wars (Japan) (Namco).nes', newName: 'Star Wars (Namco).nes' }
       - { oldName: 'Star Wars (Japan) (Victor).nes', newName: 'Star Wars (Victor).nes' }
+    areaGameBlackList:
+      # 非亚洲独占
+      - 'ASI - Ice Climber (USA, Europe, Asia) (En)'
     tagBlackList: [ 'Columbus Circle', 'Digital', 'Evercade', 'iam8bit', 'Menu Cart', 'Pixel Heart' ]
     fileNameBlackList:
       - 'Donkey Kong (Japan) (En).nes'
