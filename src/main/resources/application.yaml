@@ -6,4 +6,3 @@ spring:
       - classpath:config/global.yaml
       - classpath:config/base-pack.yaml
       - classpath:config/platforms/nes.yaml
-      - classpath:config/platforms/fds.yaml

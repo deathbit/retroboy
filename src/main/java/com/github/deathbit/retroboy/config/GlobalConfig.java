@@ -6,8 +6,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Set;
-
 @Data
 @Builder
 @AllArgsConstructor
@@ -25,6 +23,4 @@ public class GlobalConfig {
     private String baiduPan;
     private String qqGroup;
     private String feedbackEmail;
-    private Set<String> globalTagBlacklist;
-    private Set<String> globalRomWhitelist;
 }

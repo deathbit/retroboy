@@ -97,7 +97,7 @@ public class ReleaseReportHandler {
         ReleaseReportUtils.appendInfo(content, "支持地区", formatSupportedAreas(ruleContext));
         ReleaseReportUtils.appendInfo(content, "游戏总数", String.valueOf(areaGameCounts.values().stream().mapToInt(Integer::intValue).sum()));
         appendAreaGameCounts(content, areaGameCounts);
-        ReleaseReportUtils.appendInfo(content, "基础包版本", ruleContext.getBasePackReleaseReportTaskConfig().getBasePackVersion());
+        ReleaseReportUtils.appendInfo(content, "基础包版本", ruleContext.getAppConfig().getBasePackReleaseReportTaskConfig().getBasePackVersion());
         ReleaseReportUtils.appendInfo(content, "百度网盘", ruleContext.getGlobalConfig().getBaiduPan());
         ReleaseReportUtils.appendInfo(content, "维基百科", ruleContext.getPlatformPackTaskConfig().getWiki());
         ReleaseReportUtils.appendInfo(content, "项目仓库", ruleContext.getGlobalConfig().getRepo());

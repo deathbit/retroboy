@@ -13,61 +13,110 @@ platformPackTaskConfigMap:
       - version: '1.0'
         date: '1991-02-25'
         changes: [ '首次发布 NES 游戏合集。', '包含 NES-JPN、NES-USA、NES-EUR 三个地区的基础游戏清单。', '提供 ES-DE 与 RetroArch 的基础配置支持。' ]
-    areaConfigs:
-      - area: 'EUR'
-        areaFileNameBlackList:
-          - 'F-15 Strike Eagle (Europe) (En,Sv,Da,Fi).nes'
-          - 'Punch-Out!! (Europe).nes'
-          - 'Super Mario Bros. + Duck Hunt (Europe, Asia) (En).nes'
-          - 'Super Mario Bros. + Tetris + Nintendo World Cup (Europe) (Rev 1).nes'
-          - 'Mario Bros. (Europe) (PAL-MA-0).nes'
-          - 'Super Mario Bros. (Europe).nes'
-          - 'Teenage Mutant Ninja Turtles (Australia).nes'
-          - 'Teenage Mutant Ninja Turtles II - The Arcade Game (Australia).nes'
-      - { area: 'JPN', areaFileNameBlackList: [ 'Kung Fu (Japan, USA) (En).nes' ] }
-      - { area: 'USA', areaFileNameBlackList: [] }
     renameOptions:
       - { oldName: 'Mario Bros. (Europe) (PAL-MA-0).nes', newName: 'Mario Bros..nes' }
       - { oldName: 'Mario Bros. (Europe) (PAL-MC-0, Classic Series).nes', newName: 'Mario Bros. Classic Series.nes' }
       - { oldName: 'Star Wars (Japan) (Namco).nes', newName: 'Star Wars (Namco).nes' }
       - { oldName: 'Star Wars (Japan) (Victor).nes', newName: 'Star Wars (Victor).nes' }
     areaGameBlackList:
-      # 非亚洲独占
       - 'ASI - Ice Climber (USA, Europe, Asia) (En)'
-    tagBlackList: [ 'Columbus Circle', 'Digital', 'Evercade', 'iam8bit', 'Menu Cart', 'Pixel Heart' ]
-    fileNameBlackList:
-      - 'Donkey Kong (Japan) (En).nes'
-      - 'Donkey Kong Classics (USA, Europe).nes'
-      - 'Donkey Kong Jr. (Japan) (En).nes'
-      - 'Donkey Kong Jr. + Jr. Lesson (Japan) (En).nes'
-      - 'Exploding Fist (USA).nes'
-      - 'Family BASIC (Japan).nes'
-      - 'Family BASIC v2.0 (Japan).nes'
-      - 'Family BASIC v2.1 (Japan).nes'
-      - 'Family BASIC V3 (Japan).nes'
-      - 'Family School (Japan).nes'
-      - 'Felix the Cat (World) (En).nes'
-      - 'Felix the Cat (World) (Ja).nes'
-      - 'Final Fantasy I, II (Japan).nes'
-      - 'Firework Thrower Kantaro''s 53 Stations of the Toukaido (World).nes'
-      - 'Hyper Olympic (Japan) (En) (Genteiban!).nes'
-      - 'Idemitsu - Space College - Kikenbutsu no Yasashii Butsuri to Kagaku (Japan).nes'
-      - 'Kidou Senshi Z Gundam - Hot Scramble (Japan) (Final Version).nes'
-      - 'NHK Gakuen - Space School - Sansu 5 Nen (Jou) (Japan).nes'
-      - 'NHK Gakuen - Space School - Sansu 6 Nen (Ge) (Japan).nes'
-      - 'NHK Gakuen - Space School - Sansu 6 Nen (Jou) (Japan).nes'
-      - 'Pac-Man (USA) (Tengen).nes'
-      - 'Playbox BASIC (Japan).nes'
-      - 'Popeye (Japan).nes'
-      - 'Punch-Out!! (Japan) (En) (Shouhin Golf Tournament US Course).nes'
-      - 'Punch-Out!! (USA).nes'
-      - 'Radac Tailor-Made (Japan).nes'
-      - 'Raid on Bungeling Bay (Japan).nes'
-      - 'Sesame Street - ABC & 123 (USA).nes'
-      - 'Stadium Events (USA).nes'
-      - 'Super Mario Bros. + Duck Hunt (USA).nes'
-      - 'Super Mario Bros. + Duck Hunt + World Class Track Meet (USA) (Rev 1).nes'
-      - 'Super Spike V''Ball + Nintendo World Cup (USA).nes'
-      - 'Tecmo NBA Basketball (USA) (NES-N7).nes'
-      - 'Wild Gunman (Japan, USA) (En).nes'
-      - 'Yie Ar Kung-Fu (Japan) (En) (Rev 1.2).nes'
+      - "USA - Hammerin' Harry 2 - Dan the Red Strikes Back (USA) (Retro-Bit)"
+      - "USA - Little Lancelot (USA) (Piko Interactive)"
+      - "USA - Pizza Pop! (USA, Europe) (Broke Studio)"
+      - "EUR - Pizza Pop! (USA, Europe) (Broke Studio)"
+      - "JPN - Pro Wres (Japan) (FamicomBox)"
+      - "JPN - Battle Rush - Build Up Robot Tournament (Japan) (Datach)"
+      - "JPN - Dragon Ball Z - Gekitou Tenkaichi Budoukai (Japan) (Datach)"
+      - "JPN - J.League Super Top Players (Japan) (Datach)"
+      - "JPN - SD Gundam - Gundam Wars (Japan) (Datach)"
+      - "JPN - Ultraman Club - Supokon Fight! (Japan) (Datach)"
+      - "JPN - Yu Yu Hakusho - Bakutou Ankoku Bujutsukai (Japan) (Datach)"
+      - "JPN - HVC Kensa Cassette Controller Test (Japan) (Test Program)"
+      - "USA - Nintendo World Class Service - Joystick Test Cartridge (USA) (Test Program)"
+      - "USA - Nintendo World Class Service - Control Deck Test Cartridge (USA) (Test Program)"
+      - "USA - Nintendo World Class Service - Port Test Cartridge (USA) (Test Program)"
+      - "USA - Nintendo World Class Service - Power Pad Test Cartridge (USA) (Test Program)"
+      - "USA - Nintendo NTF2 System Cartridge (USA) (v1.1) (Test Program)"
+      - "USA - Nintendo NTF2 Test Cartridge (USA) (v1.1) (Test Program)"
+      - "USA - U-Force Test (USA) (Test Program)"
+      - "USA - Nintendo NTF2 Test Cartridge (USA) (Test Program)"
+      - "USA - Nintendo World Championships 1990 (USA) (Competition Cart)"
+      - "USA - Nintendo Campus Challenge 1991 (USA) (Competition Cart) [b]"
+      - "JPN - Donkey Kong Jr. + Jr. Lesson (Japan) (En)"
+      - "JPN - Family BASIC V3 (Japan)"
+      - "JPN - Final Fantasy I, II (Japan)"
+      - "EUR - Donkey Kong Classics (USA, Europe)"
+      - "USA - Donkey Kong Classics (USA, Europe)"
+      - "EUR - Punch-Out!! (Europe)"
+      - "USA - Punch-Out!! (USA)"
+      - "EUR - Super Mario Bros. + Duck Hunt (Europe, Asia) (En)"
+      - "USA - Super Mario Bros. + Duck Hunt (USA)"
+      - "USA - Super Mario Bros. + Duck Hunt + World Class Track Meet (USA) (Rev 1)"
+      - "USA - Sesame Street - ABC & 123 (USA)"
+      - "JPN - NHK Gakuen - Space School - Sansu 5 Nen (Jou) (Japan)"
+      - "JPN - NHK Gakuen - Space School - Sansu 6 Nen (Ge) (Japan)"
+      - "JPN - NHK Gakuen - Space School - Sansu 6 Nen (Jou) (Japan)"
+      - "JPN - FamicomBox (Japan) (Menu Cart)"
+      - "JPN - FamicomStation (Japan) (Menu Cart)"
+      - "EUR - Super Mario Bros. + Tetris + Nintendo World Cup (Europe) (Rev 1)"
+      - "JPN - Yasuda Fire & Marine - Safety Rally (Japan) (Not For Resale)"
+      - "USA - Super Spike V'Ball + Nintendo World Cup (USA)"
+      - "JPN - Idemitsu - Space College - Kikenbutsu no Yasashii Butsuri to Kagaku (Japan)"
+      - "JPN - Family School (Japan)"
+    areaGameWhiteList:
+      - 'GER - Banana Prince (Germany)'
+      - 'AUS - Captain America and the Avengers (Australia)'
+      - 'FRA - Dragon Ball - Le Secret du Dragon (France) (Rev 1)'
+      - 'SWE - Deja Vu (Sweden)'
+      - 'UK - Miracle Piano Teaching System, The (United Kingdom)'
+      - 'FRA - Monopoly (France)'
+      - 'AUS - Pinball Quest (Australia)'
+      - 'AUS - Predator (Australia)'
+      - 'AUS - Rollerball (Australia)'
+      - "FRA - Chevaliers du Zodiaque, Les - La Legende d'Or (France)"
+      - "GER - Star Trek - 25th Anniversary (Germany)"
+    noFuzzyRatioMatch:
+      - "0527"
+      - "0676"
+    packageMappingList:
+      - "0002 -> 0014"
+      - "0035 -> 0073"
+      - "0101 -> 0185"
+      - "0116 -> 0212"
+      - "0127 -> 0225"
+      - "0256 -> 0515"
+      - "0258 -> 0471"
+      - "0309 -> 0576"
+      - "0310 -> 0578"
+      - "0363 -> 0687"
+      - "0364 -> 0688"
+      - "0381 -> 0713"
+      - "0390 -> 0734"
+      - "0402 -> 0765"
+      - "0514 -> 0960"
+      - "0528 -> 0979"
+      - "0539 -> 1011"
+      - "0560 -> 1040"
+      - "0600 -> 1107"
+      - "0661 -> 1337"
+      - "0672 -> 0363"
+      - "0673 -> 1226"
+      - "0680 -> 0658"
+      - "0765 -> 1414"
+      - "0901 -> 1645"
+      - "0930 -> 1702"
+      - "1010 -> 1882"
+      - '1023 -> 1903'
+      - "1054 -> 1962"
+      - "1181 -> 2224"
+      - "1232 -> 1153"
+      - "1249 -> 2356"
+      - "1255 -> 2363"
+      - "1288 -> 2420"
+      - "1308 -> 0826"
+      - "1323 -> 2475"
+      - "1357 -> 2542"
+      - "1327 -> 2484"
+      - "1346 -> 2525"
+      - "1347 -> 2526"
+      - "0527 -> 0980"

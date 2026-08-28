@@ -4,11 +4,8 @@ import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.GameDB;
 import com.github.deathbit.retroboy.domain.ProgressBar;
-import com.github.deathbit.retroboy.domain.RenameOption;
 import com.github.deathbit.retroboy.domain.RuleContext;
-import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.Platform;
-import com.github.deathbit.retroboy.rule.Rules;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
@@ -25,7 +22,6 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -37,20 +33,18 @@ public class RuleContextInitializer {
 
     @Autowired
     private AppConfig appConfig;
+
     public RuleContext handle(Platform platform) throws Exception {
         var ruleContext = new RuleContext();
         ruleContext.setPlatform(platform);
         ruleContext.setPlatformName(platform.name().toLowerCase());
+        ruleContext.setAppConfig(appConfig);
         ruleContext.setGlobalConfig(appConfig.getGlobalConfig());
-        ruleContext.setBasePackReleaseReportTaskConfig(appConfig.getBasePackReleaseReportTaskConfig());
         ruleContext.setPlatformPackTaskConfig(appConfig.getPlatformPackTaskConfigMap().get(platform));
-        ruleContext.setRenameOptionMap(ruleContext.getPlatformPackTaskConfig().getRenameOptions()
-                .stream().collect(Collectors.toMap(RenameOption::getOldName, RenameOption::getNewName)));
         ruleContext.setGameDBs(parseGameDBList(ruleContext.getPlatformName()));
-        ruleContext.setGameDBMap(ruleContext.getGameDBs().stream().collect(Collectors.toMap(GameDB::getRomName, Function.identity())));
-        // ruleContext.setLicensed(parseLicensedGames(PathUtils.string(PathUtils.PLATFORM_DAT, ruleContext)));
+        ruleContext.setGameDBMapByRomName(ruleContext.getGameDBs().stream().collect(Collectors.toMap(GameDB::getRomName, Function.identity())));
+        ruleContext.setGameDBMapByNumber(ruleContext.getGameDBs().stream().collect(Collectors.toMap(GameDB::getNumber, Function.identity())));
         // populateFileContextMap(ruleContext, PathUtils.string(PathUtils.PLATFORM_ROMS, ruleContext));
-        ruleContext.setRuleMap(Map.of(Area.JPN, Rules.IS_JAPAN_BASE, Area.USA, Rules.IS_USA_BASE, Area.EUR, Rules.IS_EUROPE_BASE));
         ruleContext.setAreaPassMap(new HashMap<>());
         ruleContext.setAreaRuleResultMap(new HashMap<>());
         ruleContext.setAreaRenameResultMap(new HashMap<>());
