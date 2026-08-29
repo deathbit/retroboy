@@ -51,7 +51,6 @@ public class PlatformContext {
 
     private AreaConfig currentAreaConfig;
     private List<String> romNotPassReasons;
-    private Map<Area, List<String>> areaPassMap;
     private Map<Area, Map<String, AreaRuleResult>> areaRuleResultMap;
     private Map<Area, Map<String, AreaRenameResult>> areaRenameResultMap;
     private Map<Area, Map<String, WikiGameEntry>> areaWikiEntryMap;

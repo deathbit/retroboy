@@ -153,7 +153,7 @@ globalConfig:
    - 拆分 ROM 文件名、标签、扩展名等信息。
 2. `RuleEngineHandler`：按地区执行 ROM 筛选规则。
 3. `MoveGameHandler`：把通过筛选的 ROM 复制到 ES-DE 的平台地区目录。
-4. `RenameGameHandler`：按规则重命名 ROM，并生成 ROM 名称清单。
+4. `RenameHandler`：按规则重命名 ROM，并生成 ROM 名称清单。
 5. `WikiMatcherHandler`：读取人工维护的 Wiki-ROM 映射文件，建立 Wiki 条目与 ROM 的关系。
 6. `MediaHandler`：复制媒体素材，并检查每个游戏缺失哪些媒体资源。
 7. `GameListHandler`：复制并更新 ES-DE 的 `gamelist.xml`。
@@ -384,7 +384,7 @@ platformPackTaskConfigMap:
 
 ## Wiki 映射文件
 
-平台包流程会先由 `RenameGameHandler` 生成 ROM 名称清单：
+平台包流程会先由 `RenameHandler` 生成 ROM 名称清单：
 
 ```text
 {resourcesHomePath}\platform\{platformName}\wiki\{Platform}-ROM.txt
