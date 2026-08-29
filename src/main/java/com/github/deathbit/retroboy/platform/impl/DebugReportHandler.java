@@ -4,7 +4,7 @@ import com.github.deathbit.retroboy.domain.AreaRenameResult;
 import com.github.deathbit.retroboy.domain.AreaRuleResult;
 import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.MediaCompletionRate;
-import com.github.deathbit.retroboy.domain.RuleContext;
+import com.github.deathbit.retroboy.domain.PlatformContext;
 import com.github.deathbit.retroboy.domain.WikiGameEntry;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.MediaAssetType;
@@ -26,19 +26,19 @@ public class DebugReportHandler {
 
     private static final String MEDIA_EXISTS = "●";
     private static final String MEDIA_MISSING = "○";
-    public void handle(RuleContext ruleContext) {
-        var debugReportPath = PathUtils.DEBUG_REPORT.get(ruleContext);
+    public void handle(PlatformContext platformContext) {
+        var debugReportPath = PathUtils.DEBUG_REPORT.get(platformContext);
         var content = new StringBuilder();
-        appendLicensedGames(content, ruleContext.getLicensed());
+        // appendLicensedGames(content, platformContext.getLicensed());
         content.append(System.lineSeparator());
-        appendFileContexts(content, ruleContext.getFileContextMap());
+        appendFileContexts(content, platformContext.getFileContextMap());
         content.append(System.lineSeparator());
-        appendAreaPassGames(content, ruleContext.getAreaPassMap());
-        appendAreaNotPassGames(content, ruleContext.getAreaRuleResultMap());
-        appendAreaRenameResults(content, ruleContext.getAreaRenameResultMap());
-        appendMediaMissingRates(content, ruleContext.getMediaCompletionRateMap());
-        appendMissingMediaResults(content, ruleContext.getAreaWikiEntryMap());
-        appendWikiNameMappings(content, ruleContext.getAreaWikiEntryMap());
+        appendAreaPassGames(content, platformContext.getAreaPassMap());
+        appendAreaNotPassGames(content, platformContext.getAreaRuleResultMap());
+        appendAreaRenameResults(content, platformContext.getAreaRenameResultMap());
+        appendMediaMissingRates(content, platformContext.getMediaCompletionRateMap());
+        appendMissingMediaResults(content, platformContext.getAreaWikiEntryMap());
+        appendWikiNameMappings(content, platformContext.getAreaWikiEntryMap());
 
         try {
             Files.createDirectories(debugReportPath.getParent());

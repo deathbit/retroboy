@@ -1,7 +1,7 @@
 package com.github.deathbit.retroboy.platform.impl;
 
 import com.github.deathbit.retroboy.domain.MediaCompletionRate;
-import com.github.deathbit.retroboy.domain.RuleContext;
+import com.github.deathbit.retroboy.domain.PlatformContext;
 import com.github.deathbit.retroboy.domain.WikiGameEntry;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.MediaAssetType;
@@ -28,8 +28,8 @@ public class ReleaseReportHandler {
     private static final String MEDIA_EXISTS = "●";
     private static final String MEDIA_MISSING = "○";
 
-    public void handle(RuleContext ruleContext) {
-        var releaseReportPath = PathUtils.RELEASE_REPORT.get(ruleContext);
+    public void handle(PlatformContext platformContext) {
+        var releaseReportPath = PathUtils.RELEASE_REPORT.get(platformContext);
         var content = new StringBuilder();
         ReleaseReportUtils.appendTitle(content);
         appendDirectory(content);
@@ -37,10 +37,10 @@ public class ReleaseReportHandler {
         ReleaseReportUtils.appendIntroduction(content);
         ReleaseReportUtils.appendLine(content, "二、合集特点");
         ReleaseReportUtils.appendCollectionFeatures(content);
-        appendBasicInfo(content, ruleContext);
+        appendBasicInfo(content, platformContext);
         ReleaseReportUtils.appendLine(content, "四、安装说明");
         ReleaseReportUtils.appendInstallInstructions(content);
-        appendReleaseNotes(content, ruleContext);
+        appendReleaseNotes(content, platformContext);
         ReleaseReportUtils.appendLine(content, "六、目录说明");
         ReleaseReportUtils.appendDirectoryInstructions(content);
         ReleaseReportUtils.appendLine(content, "七、常见问题");
@@ -48,13 +48,13 @@ public class ReleaseReportHandler {
         ReleaseReportUtils.appendLine(content, "八、捐助本项目");
         ReleaseReportUtils.appendDonationInfo(content);
         ReleaseReportUtils.appendLine(content, "九、关于作者");
-        ReleaseReportUtils.appendAuthorInfo(content, ruleContext.getGlobalConfig().getAuthor());
+        ReleaseReportUtils.appendAuthorInfo(content, platformContext.getGlobalConfig().getAuthor());
         ReleaseReportUtils.appendLine(content, "十、免责声明");
         ReleaseReportUtils.appendDisclaimer(content);
         ReleaseReportUtils.appendLine(content, "十一、未来规划");
         ReleaseReportUtils.appendFuturePlan(content);
-        appendMediaMissingRates(content, ruleContext);
-        appendGameList(content, ruleContext);
+        appendMediaMissingRates(content, platformContext);
+        appendGameList(content, platformContext);
 
         try {
             Files.createDirectories(releaseReportPath.getParent());
@@ -82,35 +82,35 @@ public class ReleaseReportHandler {
         ReleaseReportUtils.appendBlankLine(content);
     }
 
-    private void appendBasicInfo(StringBuilder content, RuleContext ruleContext) {
-        var areaGameCounts = buildAreaGameCounts(ruleContext);
-        var platform = ruleContext.getPlatform();
+    private void appendBasicInfo(StringBuilder content, PlatformContext platformContext) {
+        var areaGameCounts = buildAreaGameCounts(platformContext);
+        var platform = platformContext.getPlatform();
         ReleaseReportUtils.appendLine(content, "三、基础信息");
         ReleaseReportUtils.appendInfo(content, "平台名称", platform.name());
         ReleaseReportUtils.appendInfo(content, "平台全称", platform.getSystemFullName());
         ReleaseReportUtils.appendInfo(content, "所属公司", platform.getCompany());
-        ReleaseReportUtils.appendInfo(content, "默认核心", ruleContext.getPlatformPackTaskConfig().getCore());
-        ReleaseReportUtils.appendInfo(content, "平台包版本", ruleContext.getPlatformPackTaskConfig().getVersion());
-        ReleaseReportUtils.appendInfo(content, "ES-DE版本", ruleContext.getGlobalConfig().getEsdeVersion());
-        ReleaseReportUtils.appendInfo(content, "RetroArch版本", ruleContext.getGlobalConfig().getRaVersion());
+        ReleaseReportUtils.appendInfo(content, "默认核心", platformContext.getPlatformPackTaskConfig().getCore());
+        ReleaseReportUtils.appendInfo(content, "平台包版本", platformContext.getPlatformPackTaskConfig().getVersion());
+        ReleaseReportUtils.appendInfo(content, "ES-DE版本", platformContext.getGlobalConfig().getEsdeVersion());
+        ReleaseReportUtils.appendInfo(content, "RetroArch版本", platformContext.getGlobalConfig().getRaVersion());
         ReleaseReportUtils.appendInfo(content, "创建时间", LocalDateTime.now().format(CREATE_TIME_FORMATTER));
-        ReleaseReportUtils.appendInfo(content, "支持地区", formatSupportedAreas(ruleContext));
+        ReleaseReportUtils.appendInfo(content, "支持地区", formatSupportedAreas(platformContext));
         ReleaseReportUtils.appendInfo(content, "游戏总数", String.valueOf(areaGameCounts.values().stream().mapToInt(Integer::intValue).sum()));
         appendAreaGameCounts(content, areaGameCounts);
-        ReleaseReportUtils.appendInfo(content, "基础包版本", ruleContext.getAppConfig().getBasePackReleaseReportTaskConfig().getBasePackVersion());
-        ReleaseReportUtils.appendInfo(content, "百度网盘", ruleContext.getGlobalConfig().getBaiduPan());
-        ReleaseReportUtils.appendInfo(content, "维基百科", ruleContext.getPlatformPackTaskConfig().getWiki());
-        ReleaseReportUtils.appendInfo(content, "项目仓库", ruleContext.getGlobalConfig().getRepo());
-        ReleaseReportUtils.appendInfo(content, "QQ群", ruleContext.getGlobalConfig().getQqGroup());
-        ReleaseReportUtils.appendInfo(content, "反馈邮箱", ruleContext.getGlobalConfig().getFeedbackEmail());
+        ReleaseReportUtils.appendInfo(content, "基础包版本", platformContext.getAppConfig().getBasePackReleaseReportTaskConfig().getBasePackVersion());
+        ReleaseReportUtils.appendInfo(content, "百度网盘", platformContext.getGlobalConfig().getBaiduPan());
+        ReleaseReportUtils.appendInfo(content, "维基百科", platformContext.getPlatformPackTaskConfig().getWiki());
+        ReleaseReportUtils.appendInfo(content, "项目仓库", platformContext.getGlobalConfig().getRepo());
+        ReleaseReportUtils.appendInfo(content, "QQ群", platformContext.getGlobalConfig().getQqGroup());
+        ReleaseReportUtils.appendInfo(content, "反馈邮箱", platformContext.getGlobalConfig().getFeedbackEmail());
         ReleaseReportUtils.appendBlankLine(content);
     }
 
-    private Map<Area, Integer> buildAreaGameCounts(RuleContext ruleContext) {
-        return ruleContext.getAreaPassMap()
-                .entrySet()
-                .stream()
-                .collect(Collectors.toMap(Map.Entry::getKey, entry -> entry.getValue().size()));
+    private Map<Area, Integer> buildAreaGameCounts(PlatformContext platformContext) {
+        return platformContext.getAreaPassMap()
+                              .entrySet()
+                              .stream()
+                              .collect(Collectors.toMap(Map.Entry::getKey, entry -> entry.getValue().size()));
     }
 
     private void appendAreaGameCounts(StringBuilder content, Map<Area, Integer> areaGameCounts) {
@@ -122,15 +122,15 @@ public class ReleaseReportHandler {
                         String.valueOf(areaGameCounts.get(area))));
     }
 
-    private String formatSupportedAreas(RuleContext ruleContext) {
-        var passAreas = ruleContext.getAreaPassMap()
-                .keySet()
-                .stream()
-                .toList();
+    private String formatSupportedAreas(PlatformContext platformContext) {
+        var passAreas = platformContext.getAreaPassMap()
+                                       .keySet()
+                                       .stream()
+                                       .toList();
         return Stream.of(Area.values())
                 .filter(passAreas::contains)
                 .sorted(Comparator.comparingInt(Enum::ordinal))
-                .map(area -> ruleContext.getPlatform().name() + "-" + area.name() + "（" + areaDisplayName(area) + "）")
+                .map(area -> platformContext.getPlatform().name() + "-" + area.name() + "（" + areaDisplayName(area) + "）")
                 .collect(Collectors.joining("、"));
     }
 
@@ -138,8 +138,8 @@ public class ReleaseReportHandler {
         return area.getChineseName();
     }
 
-    private void appendReleaseNotes(StringBuilder content, RuleContext ruleContext) {
-        var releaseNotes = ruleContext.getPlatformPackTaskConfig().getReleaseNotes();
+    private void appendReleaseNotes(StringBuilder content, PlatformContext platformContext) {
+        var releaseNotes = platformContext.getPlatformPackTaskConfig().getReleaseNotes();
         ReleaseReportUtils.appendLine(content, "五、版本更新记录");
         if (releaseNotes == null || releaseNotes.isEmpty()) {
             ReleaseReportUtils.appendLine(content, "暂无版本更新记录");
@@ -154,19 +154,19 @@ public class ReleaseReportHandler {
         ReleaseReportUtils.appendBlankLine(content);
     }
 
-    private void appendMediaMissingRates(StringBuilder content, RuleContext ruleContext) {
+    private void appendMediaMissingRates(StringBuilder content, PlatformContext platformContext) {
         ReleaseReportUtils.appendLine(content, "十二、媒体缺失率");
-        var mediaCompletionRateMap = ruleContext.getMediaCompletionRateMap();
+        var mediaCompletionRateMap = platformContext.getMediaCompletionRateMap();
         Stream.of(Area.values())
                 .filter(area -> mediaCompletionRateMap != null && mediaCompletionRateMap.containsKey(area))
                 .sorted(Comparator.comparingInt(Enum::ordinal))
-                .forEach(area -> appendAreaMediaMissingRates(content, ruleContext, area));
+                .forEach(area -> appendAreaMediaMissingRates(content, platformContext, area));
         ReleaseReportUtils.appendBlankLine(content);
     }
 
-    private void appendAreaMediaMissingRates(StringBuilder content, RuleContext ruleContext, Area area) {
-        var mediaAssetRateMap = ruleContext.getMediaCompletionRateMap().getOrDefault(area, Map.of());
-        ReleaseReportUtils.appendLine(content, "[" + ruleContext.getPlatform().name() + "-" + area.name() + "] "
+    private void appendAreaMediaMissingRates(StringBuilder content, PlatformContext platformContext, Area area) {
+        var mediaAssetRateMap = platformContext.getMediaCompletionRateMap().getOrDefault(area, Map.of());
+        ReleaseReportUtils.appendLine(content, "[" + platformContext.getPlatform().name() + "-" + area.name() + "] "
                 + areaDisplayName(area));
         Stream.of(MediaAssetType.values())
                 .filter(mediaAssetRateMap::containsKey)
@@ -180,23 +180,23 @@ public class ReleaseReportHandler {
         ReleaseReportUtils.appendBlankLine(content);
     }
 
-    private void appendGameList(StringBuilder content, RuleContext ruleContext) {
+    private void appendGameList(StringBuilder content, PlatformContext platformContext) {
         ReleaseReportUtils.appendLine(content, "十三、游戏清单");
         Stream.of(Area.values())
-                .filter(ruleContext.getAreaWikiEntryMap()::containsKey)
+                .filter(platformContext.getAreaWikiEntryMap()::containsKey)
                 .sorted(Comparator.comparingInt(Enum::ordinal))
-                .forEach(area -> appendAreaGameList(content, ruleContext, area));
+                .forEach(area -> appendAreaGameList(content, platformContext, area));
         ReleaseReportUtils.appendBlankLine(content);
     }
 
-    private void appendAreaGameList(StringBuilder content, RuleContext ruleContext, Area area) {
-        var wikiGameEntries = ruleContext.getAreaWikiEntryMap()
-                .getOrDefault(area, Map.of())
-                .values()
-                .stream()
-                .sorted(Comparator.comparing(WikiGameEntry::getWikiName))
-                .toList();
-        ReleaseReportUtils.appendLine(content, "[" + ruleContext.getPlatform().name() + "-" + area.name() + "] "
+    private void appendAreaGameList(StringBuilder content, PlatformContext platformContext, Area area) {
+        var wikiGameEntries = platformContext.getAreaWikiEntryMap()
+                                             .getOrDefault(area, Map.of())
+                                             .values()
+                                             .stream()
+                                             .sorted(Comparator.comparing(WikiGameEntry::getWikiName))
+                                             .toList();
+        ReleaseReportUtils.appendLine(content, "[" + platformContext.getPlatform().name() + "-" + area.name() + "] "
                 + areaDisplayName(area) + "（" + wikiGameEntries.size() + " 个游戏）");
         ReleaseReportUtils.appendLine(content, "序号 | 媒体缺失情况 | 维基百科条目 | 原始文件名称 | 修改后文件名称 | 最终名称 | 缺失媒体列表");
         for (int i = 0; i < wikiGameEntries.size(); i++) {

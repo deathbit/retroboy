@@ -1,6 +1,6 @@
 package com.github.deathbit.retroboy.util;
 
-import com.github.deathbit.retroboy.domain.RuleContext;
+import com.github.deathbit.retroboy.domain.PlatformContext;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.MediaAssetType;
 
@@ -144,36 +144,36 @@ public final class PathUtils {
                     .resolve("release")
                     .resolve(ruleContext.getPlatform().name() + ".zip");
 
-    public static String string(PathSupplier pathSupplier, RuleContext ruleContext) {
-        return pathSupplier.get(ruleContext).toString();
+    public static String string(PathSupplier pathSupplier, PlatformContext platformContext) {
+        return pathSupplier.get(platformContext).toString();
     }
 
-    public static Path platformCoreConfig(RuleContext ruleContext) {
-        return PLATFORM_CORE_CONFIG.get(ruleContext)
-                .resolve(ruleContext.getPlatformPackTaskConfig().getCore());
+    public static Path platformCoreConfig(PlatformContext platformContext) {
+        return PLATFORM_CORE_CONFIG.get(platformContext)
+                .resolve(platformContext.getPlatformPackTaskConfig().getCore());
     }
 
-    public static Path platformRom(RuleContext ruleContext, String rom) {
-        return PLATFORM_ROMS.get(ruleContext)
+    public static Path platformRom(PlatformContext platformContext, String rom) {
+        return PLATFORM_ROMS.get(platformContext)
                 .resolve(rom);
     }
 
-    public static Path esdeAreaRomDirectory(RuleContext ruleContext, Area area) {
-        return ESDE_PLATFORM_ROMS.get(ruleContext)
-                .resolve(ruleContext.getPlatform().name() + "-" + area.name());
+    public static Path esdeAreaRomDirectory(PlatformContext platformContext, Area area) {
+        return ESDE_PLATFORM_ROMS.get(platformContext)
+                .resolve(platformContext.getPlatform().name() + "-" + area.name());
     }
 
-    public static Path esdeAreaRom(RuleContext ruleContext, Area area, String rom) {
-        return esdeAreaRomDirectory(ruleContext, area)
+    public static Path esdeAreaRom(PlatformContext platformContext, Area area, String rom) {
+        return esdeAreaRomDirectory(platformContext, area)
                 .resolve(rom);
     }
 
-    public static Path esdeMedia(RuleContext ruleContext,
+    public static Path esdeMedia(PlatformContext platformContext,
                                  MediaAssetType mediaAssetType,
                                  String mediaAreaDirectoryName,
                                  String finalName,
                                  String extension) {
-        return ESDE_PLATFORM_MEDIA.get(ruleContext)
+        return ESDE_PLATFORM_MEDIA.get(platformContext)
                 .resolve(mediaAssetType.getDirectoryName())
                 .resolve(mediaAreaDirectoryName)
                 .resolve(finalName + "." + extension);

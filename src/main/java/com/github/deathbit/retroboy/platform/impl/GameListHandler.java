@@ -2,7 +2,7 @@ package com.github.deathbit.retroboy.platform.impl;
 
 import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.domain.PathPair;
-import com.github.deathbit.retroboy.domain.RuleContext;
+import com.github.deathbit.retroboy.domain.PlatformContext;
 import com.github.deathbit.retroboy.util.PathUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -22,11 +22,11 @@ public class GameListHandler {
 
     @Autowired
     private FileComponent fileComponent;
-    public void handle(RuleContext ruleContext) {
-        var targetPath = PathUtils.ESDE_PLATFORM_GAMELIST.get(ruleContext);
-        fileComponent.copyPath(PathPair.builder().sourcePath(PathUtils.PLATFORM_GAMELIST_XML.get(ruleContext))
+    public void handle(PlatformContext platformContext) {
+        var targetPath = PathUtils.ESDE_PLATFORM_GAMELIST.get(platformContext);
+        fileComponent.copyPath(PathPair.builder().sourcePath(PathUtils.PLATFORM_GAMELIST_XML.get(platformContext))
                                        .targetPath(targetPath).build());
-        updateGameNames(PathUtils.ESDE_PLATFORM_GAMELIST_XML.get(ruleContext));
+        updateGameNames(PathUtils.ESDE_PLATFORM_GAMELIST_XML.get(platformContext));
     }
 
     private void updateGameNames(Path gameListPath) {

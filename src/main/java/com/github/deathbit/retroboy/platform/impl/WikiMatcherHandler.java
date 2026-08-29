@@ -1,7 +1,7 @@
 package com.github.deathbit.retroboy.platform.impl;
 
 import com.github.deathbit.retroboy.domain.AreaRenameResult;
-import com.github.deathbit.retroboy.domain.RuleContext;
+import com.github.deathbit.retroboy.domain.PlatformContext;
 import com.github.deathbit.retroboy.domain.WikiGameEntry;
 import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.util.PathUtils;
@@ -21,9 +21,9 @@ public class WikiMatcherHandler {
     private static final Pattern AREA_HEADER_PATTERN = Pattern.compile("^([A-Z]+)\\((\\d+)\\):$");
     private static final String SEPARATOR = " || ";
     private static final String UNMATCHED_MARKER = "=====";
-    public void handle(RuleContext ruleContext) {
-        var wikiRomPath = PathUtils.PLATFORM_WIKI_ROM_MAPPING.get(ruleContext);
-        var finalNameIndex = buildFinalNameIndex(ruleContext);
+    public void handle(PlatformContext platformContext) {
+        var wikiRomPath = PathUtils.PLATFORM_WIKI_ROM_MAPPING.get(platformContext);
+        var finalNameIndex = buildFinalNameIndex(platformContext);
         var areaWikiEntryMap = new LinkedHashMap<Area, Map<String, WikiGameEntry>>();
 
         Area currentArea = null;
@@ -76,12 +76,12 @@ public class WikiMatcherHandler {
             throw new UncheckedIOException("Failed to read wiki mapping file: " + wikiRomPath, e);
         }
 
-        ruleContext.setAreaWikiEntryMap(areaWikiEntryMap);
+        platformContext.setAreaWikiEntryMap(areaWikiEntryMap);
     }
 
-    private Map<Area, Map<String, AreaRenameResult>> buildFinalNameIndex(RuleContext ruleContext) {
+    private Map<Area, Map<String, AreaRenameResult>> buildFinalNameIndex(PlatformContext platformContext) {
         var index = new LinkedHashMap<Area, Map<String, AreaRenameResult>>();
-        ruleContext.getAreaRenameResultMap().forEach((area, renameResults) -> {
+        platformContext.getAreaRenameResultMap().forEach((area, renameResults) -> {
             var areaIndex = index.computeIfAbsent(area, ignored -> new LinkedHashMap<>());
             renameResults.values().forEach(renameResult -> {
                 var finalName = renameResult.getFinalName();

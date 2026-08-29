@@ -32,7 +32,7 @@ public class NesPlatformProcessor implements PlatformProcessor {
     }
 
     @Override
-    public void processGameDB(Map<String, GameDB> gameDBMapByRomName) {
+    public void preProcessGameDB(Map<String, GameDB> gameDBMapByRomName) {
         gameDBMapByRomName.get("Adventures of Lolo (Japan) (En)").setClone("0061");
         gameDBMapByRomName.get("Adventures of Lolo II (Japan)").setClone("0064");
         gameDBMapByRomName.get("Mario Bros. (World)").setRegparent("(USA PARENT) (JPN PARENT) (EUR PARENT)");
@@ -50,9 +50,6 @@ public class NesPlatformProcessor implements PlatformProcessor {
         gameDBMapByRomName.get("Tiger-Heli (USA)").setRegparent("(USA PARENT)");
         gameDBMapByRomName.get("Kyuukyoku Harikiri Stadium (Japan)").setClone("P");
         gameDBMapByRomName.get("Kyuukyoku Harikiri Stadium (Japan)").setRegparent("(JPN PARENT)");
-
-
-
     }
 
     @Override
@@ -295,5 +292,20 @@ public class NesPlatformProcessor implements PlatformProcessor {
             case "PAL" -> region.contains("PAL");
             default -> false;
         };
+    }
+
+    @Override
+    public Map<String, String> gameDBToWikiDBAreaMapping(List<String> gameDBAreas, List<String> wikiDBAreas) {
+        var mapping = new LinkedHashMap<String, String>();
+        for (var gameArea : gameDBAreas) {
+            var wikiArea = switch (gameArea) {
+                case "JPN" -> "JPN";
+                case "USA" -> "USA";
+                default    -> "PAL";
+            };
+            mapping.put(gameArea, wikiArea);
+        }
+
+        return mapping;
     }
 }

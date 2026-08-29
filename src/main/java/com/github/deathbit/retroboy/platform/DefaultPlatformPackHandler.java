@@ -3,14 +3,15 @@ package com.github.deathbit.retroboy.platform;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.platform.impl.CoreHandler;
 import com.github.deathbit.retroboy.platform.impl.DebugReportHandler;
+import com.github.deathbit.retroboy.platform.impl.GameDBHandler;
 import com.github.deathbit.retroboy.platform.impl.GameListHandler;
+import com.github.deathbit.retroboy.platform.impl.MatchHandler;
 import com.github.deathbit.retroboy.platform.impl.MediaHandler;
 import com.github.deathbit.retroboy.platform.impl.MoveGameHandler;
 import com.github.deathbit.retroboy.platform.impl.ReleaseHandler;
 import com.github.deathbit.retroboy.platform.impl.ReleaseReportHandler;
-import com.github.deathbit.retroboy.platform.impl.RenameGameHandler;
-import com.github.deathbit.retroboy.platform.impl.RuleContextInitializer;
-import com.github.deathbit.retroboy.platform.impl.RuleEngineHandler;
+import com.github.deathbit.retroboy.platform.impl.PlatformContextInitializer;
+import com.github.deathbit.retroboy.platform.impl.WikiDBHandler;
 import com.github.deathbit.retroboy.platform.impl.WikiMatcherHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -19,16 +20,22 @@ import org.springframework.stereotype.Component;
 public class DefaultPlatformPackHandler implements PlatformPackHandler {
 
     @Autowired
-    private RuleContextInitializer ruleContextInitializer;
+    private PlatformContextInitializer platformContextInitializer;
 
     @Autowired
-    private RuleEngineHandler ruleEngineHandler;
+    private GameDBHandler gameDBHandler;
+
+    @Autowired
+    private WikiDBHandler wikiDBHandler;
+
+    @Autowired
+    private MatchHandler matchHandler;
 
     @Autowired
     private MoveGameHandler moveGameHandler;
 
-    @Autowired
-    private RenameGameHandler renameGameHandler;
+    //@Autowired
+    //private RenameGameHandler renameGameHandler;
 
     @Autowired
     private MediaHandler mediaHandler;
@@ -53,9 +60,13 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
 
     @Override
     public void handle(Platform platform) throws Exception {
-        var ruleContext = ruleContextInitializer.handle(platform);
-        ruleEngineHandler.handle(ruleContext);
-//        moveGameHandler.handle(ruleContext);
+        var platformContext = platformContextInitializer.handle(platform);
+        gameDBHandler.handle(platformContext);
+        wikiDBHandler.handle(platformContext);
+        matchHandler.handle(platformContext);
+        // moveGameHandler.handle(platformContext);
+        System.out.println();
+
 //        renameGameHandler.handle(ruleContext);
 //        if (ruleContext.getPlatformPackTaskConfig().isManualStep()) {
 //            wikiMatcherHandler.handle(ruleContext);

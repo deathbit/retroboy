@@ -146,7 +146,7 @@ globalConfig:
 
 平台包流程由 `DefaultPlatformPackHandler` 串联执行：
 
-1. `RuleContextInitializer`：初始化平台上下文。
+1. `PlatformContextInitializer`：初始化平台上下文。
    - 读取平台配置。
    - 解析 DAT 文件中的授权游戏清单。
    - 扫描资源目录中的 ROM 文件。

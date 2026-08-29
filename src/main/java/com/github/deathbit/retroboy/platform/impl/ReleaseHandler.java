@@ -2,7 +2,7 @@ package com.github.deathbit.retroboy.platform.impl;
 
 import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.component.ReleaseComponent;
-import com.github.deathbit.retroboy.domain.RuleContext;
+import com.github.deathbit.retroboy.domain.PlatformContext;
 import com.github.deathbit.retroboy.util.PathUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -19,24 +19,24 @@ public class ReleaseHandler {
 
     @Autowired
     private ReleaseComponent releaseComponent;
-    public void handle(RuleContext ruleContext) throws Exception {
-        if (ruleContext.getPlatformPackTaskConfig().isRelease()) {
-            var targetPath = buildVersionedTargetPath(ruleContext);
+    public void handle(PlatformContext platformContext) throws Exception {
+        if (platformContext.getPlatformPackTaskConfig().isRelease()) {
+            var targetPath = buildVersionedTargetPath(platformContext);
             fileComponent.deletePath(targetPath);
-            var sourcePaths = new ArrayList<>(ruleContext.getPlatformPackTaskConfig().getCoreConfigs());
+            var sourcePaths = new ArrayList<>(platformContext.getPlatformPackTaskConfig().getCoreConfigs());
             sourcePaths.addAll(List.of(
-                    PathUtils.ESDE_PLATFORM_ROMS.get(ruleContext),
-                    PathUtils.ESDE_PLATFORM_MEDIA.get(ruleContext),
-                    PathUtils.ESDE_PLATFORM_GAMELIST.get(ruleContext)));
-            releaseComponent.release(targetPath, sourcePaths, buildRootFilePaths(ruleContext));
+                    PathUtils.ESDE_PLATFORM_ROMS.get(platformContext),
+                    PathUtils.ESDE_PLATFORM_MEDIA.get(platformContext),
+                    PathUtils.ESDE_PLATFORM_GAMELIST.get(platformContext)));
+            releaseComponent.release(targetPath, sourcePaths, buildRootFilePaths(platformContext));
         }
     }
 
-    private Path buildVersionedTargetPath(RuleContext ruleContext) {
-        var targetPath = PathUtils.RELEASE_ZIP.get(ruleContext);
+    private Path buildVersionedTargetPath(PlatformContext platformContext) {
+        var targetPath = PathUtils.RELEASE_ZIP.get(platformContext);
         var fileName = targetPath.getFileName().toString();
         var extensionIndex = fileName.lastIndexOf('.');
-        var version = ruleContext.getPlatformPackTaskConfig().getVersion();
+        var version = platformContext.getPlatformPackTaskConfig().getVersion();
         var fileNameWithoutExtension = extensionIndex == -1 ? fileName : fileName.substring(0, extensionIndex);
         if (fileNameWithoutExtension.endsWith("_" + version)) {
             return targetPath;
@@ -48,12 +48,12 @@ public class ReleaseHandler {
         return parent == null ? Path.of(versionedFileName) : parent.resolve(versionedFileName);
     }
 
-    private List<Path> buildRootFilePaths(RuleContext ruleContext) {
+    private List<Path> buildRootFilePaths(PlatformContext platformContext) {
         return List.of(
-                PathUtils.RESOURCES_HOME.get(ruleContext).resolve("微信赞赏码.png"),
-                PathUtils.RESOURCES_HOME.get(ruleContext).resolve("支付宝收款码.jpg"),
-                PathUtils.DEBUG_REPORT.get(ruleContext),
-                PathUtils.RELEASE_REPORT.get(ruleContext)
+                PathUtils.RESOURCES_HOME.get(platformContext).resolve("微信赞赏码.png"),
+                PathUtils.RESOURCES_HOME.get(platformContext).resolve("支付宝收款码.jpg"),
+                PathUtils.DEBUG_REPORT.get(platformContext),
+                PathUtils.RELEASE_REPORT.get(platformContext)
         );
     }
 }
