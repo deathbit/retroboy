@@ -15,7 +15,7 @@ import java.util.Map;
 @AllArgsConstructor
 public class MatchResult {
     /** 按 MatchLevel 分类的匹配对，每个 level 均有 key（可能为空 list） */
-    private Map<MatchLevel, List<MatchPair>> matchPairsByLevel;
+    private Map<MatchLevel, List<MatchPairForPackage>> matchPairsByLevel;
     /** 未能匹配到任何 GameDBPackage 的 WikiDBPackage */
     private List<WikiDBPackage> mismatchWikiDBPackages;
     /** 未被任何 WikiDBPackage 匹配的 GameDBPackage */

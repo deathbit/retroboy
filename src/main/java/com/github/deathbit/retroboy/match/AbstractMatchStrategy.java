@@ -1,7 +1,7 @@
 package com.github.deathbit.retroboy.match;
 
 import com.github.deathbit.retroboy.domain.GameDBPackage;
-import com.github.deathbit.retroboy.domain.MatchPair;
+import com.github.deathbit.retroboy.domain.MatchPairForPackage;
 import com.github.deathbit.retroboy.domain.WikiDBPackage;
 
 import java.util.ArrayList;
@@ -86,15 +86,15 @@ public abstract class AbstractMatchStrategy implements MatchStrategy {
      * 全匹配：wiki 与 game 的 matchNameByArea（经变换后）完全相等。
      * 地区集合检查由 Map 等值比较隐式完成。
      */
-    protected List<MatchPair> fullExactMatch(List<WikiDBPackage> wikiPackages,
-                                              List<GameDBPackage> gamePackages,
-                                              Map<String, String> areaMapping) {
+    protected List<MatchPairForPackage> fullExactMatch(List<WikiDBPackage> wikiPackages,
+                                                       List<GameDBPackage> gamePackages,
+                                                       Map<String, String> areaMapping) {
         var wikiNamesList = wikiPackages.stream().map(this::getWikiNames).toList();
         var gameNamesList = gamePackages.stream().map(p -> getGameNames(p, areaMapping)).toList();
 
         var usedWiki = new boolean[wikiPackages.size()];
         var usedGame = new boolean[gamePackages.size()];
-        var pairs = new ArrayList<MatchPair>();
+        var pairs = new ArrayList<MatchPairForPackage>();
 
         for (int w = 0; w < wikiPackages.size(); w++) {
             for (int g = 0; g < gamePackages.size(); g++) {
@@ -117,15 +117,15 @@ public abstract class AbstractMatchStrategy implements MatchStrategy {
      * 贪心匹配：地区集合必须相同（需求4），为每个 wiki 包选得分最高的 game 包（得分 ≥ 1）。
      * 需求5：PARTIAL_EXACT / NO_SPACE 只要 1 个地区匹配即视为整个 Package 匹配。
      */
-    protected List<MatchPair> greedyMatch(List<WikiDBPackage> wikiPackages,
-                                           List<GameDBPackage> gamePackages,
-                                           Map<String, String> areaMapping) {
+    protected List<MatchPairForPackage> greedyMatch(List<WikiDBPackage> wikiPackages,
+                                                    List<GameDBPackage> gamePackages,
+                                                    Map<String, String> areaMapping) {
         var wikiNamesList = wikiPackages.stream().map(this::getWikiNames).toList();
         var gameNamesList = gamePackages.stream().map(p -> getGameNames(p, areaMapping)).toList();
 
         var usedWiki = new boolean[wikiPackages.size()];
         var usedGame = new boolean[gamePackages.size()];
-        var pairs = new ArrayList<MatchPair>();
+        var pairs = new ArrayList<MatchPairForPackage>();
 
         for (int w = 0; w < wikiPackages.size(); w++) {
             var wikiNames = wikiNamesList.get(w);
@@ -156,8 +156,8 @@ public abstract class AbstractMatchStrategy implements MatchStrategy {
 
     // ------------------------------------------------------------------ 工具
 
-    protected MatchPair buildPair(WikiDBPackage wiki, GameDBPackage game) {
-        return MatchPair.builder()
+    protected MatchPairForPackage buildPair(WikiDBPackage wiki, GameDBPackage game) {
+        return MatchPairForPackage.builder()
                         .wikiDBPackage(wiki)
                         .gameDBPackage(game)
                         .matchLevel(level())

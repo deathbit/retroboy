@@ -11,10 +11,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class WikiDB {
     private String id;
+    private String packageId;
     private String name;
     private String developer;
     private String publisher;
     private String firstReleased;
     private String releaseDate;
     private String matchName;
+    private String area;
 }

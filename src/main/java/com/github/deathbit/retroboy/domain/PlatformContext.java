@@ -3,7 +3,6 @@ package com.github.deathbit.retroboy.domain;
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.config.GlobalConfig;
 import com.github.deathbit.retroboy.config.PlatformPackTaskConfig;
-import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.MediaAssetType;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.processor.PlatformProcessor;
@@ -46,13 +45,10 @@ public class PlatformContext {
 
     private Map<String, String> gameDBToWikiDBAreaMapping;
     private MatchResult matchResult;
+    private Map<String, List<MatchPairForGame>> matchPairForGamesByArea;
 
     private Map<String, FileContext> fileContextMap;
+    private Map<String, Map<String, String>> renameResultByArea;
 
-    private AreaConfig currentAreaConfig;
-    private List<String> romNotPassReasons;
-    private Map<Area, Map<String, AreaRuleResult>> areaRuleResultMap;
-    private Map<Area, Map<String, AreaRenameResult>> areaRenameResultMap;
-    private Map<Area, Map<String, WikiGameEntry>> areaWikiEntryMap;
-    private Map<Area, Map<MediaAssetType, MediaCompletionRate>> mediaCompletionRateMap;
+    private Map<String, Map<MediaAssetType, MediaCompletionRate>> mediaCompletionRateMap;
 }

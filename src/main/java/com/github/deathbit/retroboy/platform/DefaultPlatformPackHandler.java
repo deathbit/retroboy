@@ -1,12 +1,7 @@
 package com.github.deathbit.retroboy.platform;
 
 import com.github.deathbit.retroboy.enums.Platform;
-import com.github.deathbit.retroboy.platform.impl.GameDBHandler;
-import com.github.deathbit.retroboy.platform.impl.MatchHandler;
-import com.github.deathbit.retroboy.platform.impl.MoveGameHandler;
-import com.github.deathbit.retroboy.platform.impl.PlatformContextInitializer;
-import com.github.deathbit.retroboy.platform.impl.RenameHandler;
-import com.github.deathbit.retroboy.platform.impl.WikiDBHandler;
+import com.github.deathbit.retroboy.platform.impl.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

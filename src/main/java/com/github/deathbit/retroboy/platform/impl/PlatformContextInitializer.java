@@ -14,21 +14,15 @@ import org.springframework.stereotype.Component;
 import org.w3c.dom.Element;
 import org.xml.sax.InputSource;
 
+import javax.xml.XMLConstants;
+import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import javax.xml.XMLConstants;
-import javax.xml.parsers.DocumentBuilderFactory;
 
 @Component
 public class PlatformContextInitializer {
@@ -54,13 +48,16 @@ public class PlatformContextInitializer {
         platformContext.setGameDBMapByRomName(platformContext.getGameDBs().stream().collect(Collectors.toMap(GameDB::getRomName, Function.identity())));
         platformContext.setGameDBMapByNumber(platformContext.getGameDBs().stream().collect(Collectors.toMap(GameDB::getNumber, Function.identity())));
         // set file context map
-        platformContext.setFileContextMap(parseFileContextMap(PathUtils.string(PathUtils.PLATFORM_ROMS, platformContext)));
+        platformContext.setFileContextMap(parseFileContextMap(
+            PathUtils.string(PathUtils.PLATFORM_ROMS, platformContext),
+            platformContext.getPlatformPackTaskConfig().getFileContextMappingList()
+        ));
 
         return platformContext;
     }
 
     private List<GameDB> parseGameDBList(String platformName) throws Exception {
-        ProgressBar pb = new ProgressBar("解析游戏库");
+        ProgressBar pb = new ProgressBar("解析游戏");
         var gameDBList = new ArrayList<GameDB>();
         var gameDBResource = new ClassPathResource("platform/%s/%s_db.xml".formatted(platformName, platformName));
         var content = readResourceAsString(gameDBResource)
@@ -143,7 +140,7 @@ public class PlatformContextInitializer {
         return factory;
     }
 
-    private Map<String, FileContext> parseFileContextMap(String romDirPath) {
+    private Map<String, FileContext> parseFileContextMap(String romDirPath, List<String> mappingList) {
         ProgressBar pb = new ProgressBar("解析文件");
         var files = new File(romDirPath).listFiles();
         if (files == null) {
@@ -160,8 +157,43 @@ public class PlatformContextInitializer {
             pb.updateTask(i);
         }
         pb.finishTaskAndClose();
+        applyFileContextMapping(fileContextMap, mappingList);
 
         return fileContextMap;
+    }
+
+    private void applyFileContextMapping(Map<String, FileContext> fileContextMap, List<String> mappingList) {
+        if (mappingList == null || mappingList.isEmpty()) {
+            return;
+        }
+
+        var seenAliasNames = new HashSet<String>();
+        for (var mapping : mappingList) {
+            var parts = mapping.split("\\s*->\\s*", 2);
+            if (parts.length != 2) {
+                throw new RuntimeException("fileContextMappingList 格式错误: " + mapping);
+            }
+            var aliasName = parts[1].trim();
+            if (!seenAliasNames.add(aliasName)) {
+                throw new RuntimeException("fileContextMappingList 中别名重复: " + aliasName);
+            }
+        }
+
+        for (var mapping : mappingList) {
+            var parts = mapping.split("\\s*->\\s*", 2);
+            var sourceName = parts[0].trim();
+            var aliasName = parts[1].trim();
+
+            var fileContext = fileContextMap.get(sourceName);
+            if (fileContext == null) {
+                throw new RuntimeException("fileContextMappingList 源文件不存在: " + sourceName);
+            }
+            var existingFileContext = fileContextMap.get(aliasName);
+            if (existingFileContext != null && existingFileContext != fileContext) {
+                throw new RuntimeException("fileContextMappingList 别名已存在: " + aliasName);
+            }
+            fileContextMap.put(aliasName, fileContext);
+        }
     }
 
     private FileContext buildFileContext(String fileName) {

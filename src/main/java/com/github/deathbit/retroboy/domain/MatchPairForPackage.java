@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class MatchPair {
+public class MatchPairForPackage {
     private MatchLevel matchLevel;
     private WikiDBPackage wikiDBPackage;
     private GameDBPackage gameDBPackage;

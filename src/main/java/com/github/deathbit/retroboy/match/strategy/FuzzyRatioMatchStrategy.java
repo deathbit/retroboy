@@ -4,7 +4,7 @@ import com.github.deathbit.retroboy.domain.FuzzyAreaResult;
 import com.github.deathbit.retroboy.domain.FuzzyCandidate;
 import com.github.deathbit.retroboy.domain.FuzzyMatchDetail;
 import com.github.deathbit.retroboy.domain.GameDBPackage;
-import com.github.deathbit.retroboy.domain.MatchPair;
+import com.github.deathbit.retroboy.domain.MatchPairForPackage;
 import com.github.deathbit.retroboy.domain.WikiDBPackage;
 import com.github.deathbit.retroboy.enums.MatchLevel;
 import com.github.deathbit.retroboy.match.AbstractMatchStrategy;
@@ -52,13 +52,13 @@ public class FuzzyRatioMatchStrategy extends AbstractMatchStrategy {
     }
 
     @Override
-    public List<MatchPair> match(List<WikiDBPackage> wikiPackages,
-                                  List<GameDBPackage> gamePackages,
-                                  Map<String, String> areaMapping) {
+    public List<MatchPairForPackage> match(List<WikiDBPackage> wikiPackages,
+                                           List<GameDBPackage> gamePackages,
+                                           Map<String, String> areaMapping) {
         fuzzyMatchDetails.clear();
 
         var usedGame = new boolean[gamePackages.size()];
-        var pairs = new ArrayList<MatchPair>();
+        var pairs = new ArrayList<MatchPairForPackage>();
         var toRemoveWiki = new boolean[wikiPackages.size()];
 
         for (int w = 0; w < wikiPackages.size(); w++) {

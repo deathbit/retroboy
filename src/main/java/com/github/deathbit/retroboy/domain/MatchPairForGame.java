@@ -1,18 +1,15 @@
 package com.github.deathbit.retroboy.domain;
 
-import com.github.deathbit.retroboy.enums.Area;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Set;
-
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AreaConfig {
-    private Area area;
-    private Set<String> areaFileNameBlackList;
+public class MatchPairForGame {
+    private WikiDB wikiDB;
+    private GameDB gameDB;
 }

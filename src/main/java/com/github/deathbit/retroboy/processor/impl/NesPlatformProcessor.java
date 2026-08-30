@@ -130,6 +130,8 @@ public class NesPlatformProcessor implements PlatformProcessor {
             var packageId = String.format(idFormat, i + 1);
             for (var entry : wikiDBByArea.entrySet()) {
                 entry.getValue().setId(packageId + "." + entry.getKey());
+                entry.getValue().setPackageId(packageId);
+                entry.getValue().setArea(entry.getKey());
             }
             var matchNameByArea = new LinkedHashMap<String, String>();
             wikiDBByArea.forEach((area, wikiDB) ->

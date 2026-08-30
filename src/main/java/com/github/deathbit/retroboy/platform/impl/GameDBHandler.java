@@ -26,12 +26,12 @@ public class GameDBHandler {
         platformContext.getPlatformProcessor().preProcessGameDB(platformContext.getGameDBMapByRomName());
 
         List<GameDB> gameDBS = platformContext.getGameDBs().stream()
-                                              .filter(gameDB -> gameDB.getLicensed().isEmpty())
-                                              .filter(gameDB -> gameDB.getBios().isEmpty())
-                                              .filter(gameDB -> gameDB.getDevstatus().isEmpty())
-                                              .filter(gameDB -> gameDB.getPhysical().isEmpty())
-                                              .filter(gameDB -> gameDB.getRegparent().contains("PARENT"))
-                                              .toList();
+                .filter(gameDB -> gameDB.getLicensed().isEmpty())
+                .filter(gameDB -> gameDB.getBios().isEmpty())
+                .filter(gameDB -> gameDB.getDevstatus().isEmpty())
+                .filter(gameDB -> gameDB.getPhysical().isEmpty())
+                .filter(gameDB -> gameDB.getRegparent().contains("PARENT"))
+                .toList();
 
         var gameDBsByArea = new LinkedHashMap<String, List<GameDB>>();
         for (var gameDB : gameDBS) {
@@ -51,21 +51,36 @@ public class GameDBHandler {
             var area = entry.getKey();
             for (var gameDB : entry.getValue()) {
                 var rootNumber = "P".equals(gameDB.getClone()) ? gameDB.getNumber() : gameDB.getClone();
-                rootToAreaGameDB.computeIfAbsent(rootNumber, ignored -> new LinkedHashMap<>())
-                                .put(area, gameDB);
+                var areaGameDB = rootToAreaGameDB.computeIfAbsent(rootNumber, ignored -> new LinkedHashMap<>());
+                var existingGameDB = areaGameDB.get(area);
+                if (existingGameDB != null) {
+                    throw new RuntimeException("GameDB package area conflict: rootNumber=%s, area=%s, existing=%s(number=%s), duplicate=%s(number=%s)"
+                            .formatted(
+                                    rootNumber,
+                                    area,
+                                    existingGameDB.getRomName(),
+                                    existingGameDB.getNumber(),
+                                    gameDB.getRomName(),
+                                    gameDB.getNumber()
+                            ));
+                }
+                areaGameDB.put(area, gameDB);
             }
         }
 
         var gameDBPackages = new ArrayList<GameDBPackage>();
         for (var entry : rootToAreaGameDB.entrySet()) {
+            var packageId = entry.getKey();
             var matchNameByArea = new LinkedHashMap<String, String>();
-            entry.getValue().forEach((area, gameDB) ->
-                matchNameByArea.put(area, MatchNameUtils.toMatchName(gameDB.getName())));
+            entry.getValue().forEach((area, gameDB) -> {
+                gameDB.setPackageId(packageId);
+                matchNameByArea.put(area, MatchNameUtils.toMatchName(gameDB.getName()));
+            });
             gameDBPackages.add(GameDBPackage.builder()
-                                            .id(entry.getKey())
-                                            .gameDBByArea(entry.getValue())
-                                            .matchNameByArea(matchNameByArea)
-                                            .build());
+                    .id(packageId)
+                    .gameDBByArea(entry.getValue())
+                    .matchNameByArea(matchNameByArea)
+                    .build());
         }
         platformContext.setGameDBPackages(gameDBPackages);
         platformContext.setGameDBPackageById(gameDBPackages.stream().collect(Collectors.toMap(GameDBPackage::getId, Function.identity())));

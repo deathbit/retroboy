@@ -1,19 +1,17 @@
 package com.github.deathbit.retroboy.platform.impl;
 
 import com.github.deathbit.retroboy.component.FileComponent;
-import com.github.deathbit.retroboy.domain.AreaRenameResult;
 import com.github.deathbit.retroboy.domain.FileContext;
-import com.github.deathbit.retroboy.domain.ProgressBar;
 import com.github.deathbit.retroboy.domain.PlatformContext;
-import com.github.deathbit.retroboy.enums.Area;
+import com.github.deathbit.retroboy.domain.ProgressBar;
 import com.github.deathbit.retroboy.util.PathUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.util.Comparator;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 @Component
@@ -23,55 +21,77 @@ public class RenameHandler {
     private FileComponent fileComponent;
 
     public void handle(PlatformContext platformContext) throws Exception {
+        var renameOptionMap = parseRenameOptions(platformContext);
+        var renameResultByArea = new LinkedHashMap<String, Map<String, String>>();
         platformContext.getGameDBsByArea().forEach((area, gameDbs) -> {
-            var areaEnum = Area.valueOf(area);
-            var areaRenameResults = platformContext.getAreaRenameResultMap().computeIfAbsent(areaEnum, ignored -> new LinkedHashMap<>());
+            var renamePlan = buildRenamePlan(platformContext, area, renameOptionMap);
+            var renameResult = new LinkedHashMap<String, String>();
             ProgressBar pb = new ProgressBar("命名游戏");
-            pb.startTask(gameDbs.size());
-            for (int i = 0; i < gameDbs.size(); i++) {
-                var gameDB = gameDbs.get(i);
-                var fileContext = platformContext.getFileContextMap().get(gameDB.getRomName());
-                if (fileContext == null) {
-                    throw new RuntimeException("FileContext not found for rom: " + gameDB.getRomName());
+            pb.startTask(renamePlan.size());
+            for (int i = 0; i < renamePlan.size(); i++) {
+                var entry = renamePlan.get(i);
+                var oldName = entry.oldName();
+                var newName = entry.newName();
+                renameResult.put(oldName, removeExtension(newName));
+                if (!oldName.equals(newName)) {
+                    fileComponent.rename(PathUtils.esdeAreaRom(platformContext, area, oldName), newName);
                 }
-                var oldName = fileContext.getFileName();
-                var newName = buildNewName(fileContext);
-                areaRenameResults.put(oldName, AreaRenameResult.builder()
-                                                               .oldName(oldName)
-                                                               .newName(newName)
-                                                               .finalName(removeExtension(newName))
-                                                               .renamed(!oldName.equals(newName))
-                                                               .build());
-                fileComponent.rename(PathUtils.esdeAreaRom(platformContext, areaEnum, oldName), newName);
                 pb.updateTask(i);
             }
             pb.finishTaskAndClose();
+            renameResultByArea.put(area, renameResult);
         });
-        writeRomWiki(platformContext);
+        platformContext.setRenameResultByArea(renameResultByArea);
     }
 
-    private void writeRomWiki(PlatformContext platformContext) throws Exception {
-        var wikiPath = PathUtils.PLATFORM_ROM_WIKI.get(platformContext);
-        var content = new StringBuilder();
-        for (var area : Area.values()) {
-            var finalNames = platformContext.getAreaRenameResultMap()
-                                            .getOrDefault(area, Map.of())
-                                            .values()
-                                            .stream()
-                                            .map(AreaRenameResult::getFinalName)
-                                            .filter(finalName -> finalName != null && !finalName.isBlank())
-                                            .sorted(Comparator.naturalOrder())
-                                            .toList();
-            content.append(area.name())
-                    .append("(")
-                    .append(finalNames.size())
-                    .append("):")
-                    .append(System.lineSeparator());
-            finalNames.forEach(finalName -> content.append(finalName).append(System.lineSeparator()));
-            content.append(System.lineSeparator());
+    private Map<String, String> parseRenameOptions(PlatformContext platformContext) {
+        var renameOptions = platformContext.getPlatformPackTaskConfig().getRenameOptions();
+        if (renameOptions == null || renameOptions.isEmpty()) {
+            return Map.of();
         }
-        Files.createDirectories(wikiPath.getParent());
-        Files.writeString(wikiPath, content.toString(), StandardCharsets.UTF_8);
+
+        var renameOptionMap = new LinkedHashMap<String, String>();
+        for (var option : renameOptions) {
+            var parts = option.split("\\s*->\\s*", 2);
+            if (parts.length != 2) {
+                throw new RuntimeException("renameOptions 格式错误: " + option);
+            }
+            var oldName = parts[0].trim();
+            var newName = parts[1].trim();
+            if (oldName.isEmpty() || newName.isEmpty()) {
+                throw new RuntimeException("renameOptions 不能为空: " + option);
+            }
+            var previous = renameOptionMap.putIfAbsent(oldName, newName);
+            if (previous != null) {
+                throw new RuntimeException("renameOptions 中 oldName 重复: " + oldName);
+            }
+        }
+        return renameOptionMap;
+    }
+
+    private List<RenamePlan> buildRenamePlan(
+        PlatformContext platformContext,
+        String area,
+        Map<String, String> renameOptionMap
+    ) {
+        var renamePlan = new ArrayList<RenamePlan>();
+        var targetToSource = new HashMap<String, String>();
+        var gameDbs = platformContext.getGameDBsByArea().getOrDefault(area, List.of());
+        for (var gameDB : gameDbs) {
+            var fileContext = platformContext.getFileContextMap().get(gameDB.getRomName());
+            if (fileContext == null) {
+                throw new RuntimeException("FileContext not found for rom: " + gameDB.getRomName());
+            }
+            var oldName = fileContext.getFileName();
+            var newName = renameOptionMap.getOrDefault(oldName, buildNewName(fileContext));
+            var existingSource = targetToSource.putIfAbsent(newName, oldName);
+            if (existingSource != null && !existingSource.equals(oldName)) {
+                throw new RuntimeException("重命名目标冲突: area=%s, target=%s, source1=%s, source2=%s，请在 renameOptions 中配置不同目标名"
+                    .formatted(area, newName, existingSource, oldName));
+            }
+            renamePlan.add(new RenamePlan(oldName, newName));
+        }
+        return renamePlan;
     }
 
     private String buildNewName(FileContext fileContext) {
@@ -106,5 +126,8 @@ public class RenameHandler {
         }
 
         return article + " " + title.substring(0, title.length() - suffix.length()) + namePart.substring(separatorIndex);
+    }
+
+    private record RenamePlan(String oldName, String newName) {
     }
 }

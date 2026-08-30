@@ -6,6 +6,7 @@ platformPackTaskConfigMap:
     manualStep: false
     release: false
     core: 'Mesen'
+    platformAlt: 'FC'
     usePal: true
     coreConfigs: [ 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.opt', 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.slangp' ]
     wiki: 'https://en.wikipedia.org/wiki/List_of_Nintendo_Entertainment_System_games'
@@ -14,10 +15,13 @@ platformPackTaskConfigMap:
         date: '1991-02-25'
         changes: [ '首次发布 NES 游戏合集。', '包含 NES-JPN、NES-USA、NES-EUR 三个地区的基础游戏清单。', '提供 ES-DE 与 RetroArch 的基础配置支持。' ]
     renameOptions:
-      - { oldName: 'Mario Bros. (Europe) (PAL-MA-0).nes', newName: 'Mario Bros..nes' }
-      - { oldName: 'Mario Bros. (Europe) (PAL-MC-0, Classic Series).nes', newName: 'Mario Bros. Classic Series.nes' }
-      - { oldName: 'Star Wars (Japan) (Namco).nes', newName: 'Star Wars (Namco).nes' }
-      - { oldName: 'Star Wars (Japan) (Victor).nes', newName: 'Star Wars (Victor).nes' }
+      - "Star Wars (Japan) (Namco).nes -> Star Wars (Namco).nes"
+      - "Star Wars (Japan) (Victor).nes -> Star Wars (Victor).nes"
+      - "Mario Bros. (Europe) (PAL-MC-0, Classic Series).nes -> Mario Bros. Classic Series.nes"
+    fileContextMappingList:
+      - "Star Luster (Japan) -> Star Luster (Japan) (En)"
+      - "Route-16 Turbo (Japan) -> Route-16 Turbo (Japan) (En) (Rev 1)"
+      - "Youkai Club (Japan) -> Youkai Club (Japan) (Rev 1)"
     areaGameBlackList:
       - 'ASI - Ice Climber (USA, Europe, Asia) (En)'
       - "USA - Hammerin' Harry 2 - Dan the Red Strikes Back (USA) (Retro-Bit)"
@@ -63,6 +67,15 @@ platformPackTaskConfigMap:
       - "USA - Super Spike V'Ball + Nintendo World Cup (USA)"
       - "JPN - Idemitsu - Space College - Kikenbutsu no Yasashii Butsuri to Kagaku (Japan)"
       - "JPN - Family School (Japan)"
+      - "JPN - Pac-Man (Japan) (En)"
+      - "JPN - Pac-Man (Japan) (En) (Rev 1)"
+      - "JPN - America Oudan Ultra Quiz - Shijou Saidai no Tatakai (Japan)"
+      - "JPN - Kidou Senshi Z Gundam - Hot Scramble (Japan) (Final Version)"
+      - "JPN - Kung Fu (Japan, USA) (En)"
+      - "JPN - King of Kings (Japan) (Namco Anthology 2)"
+      - "JPN - Dragon Ball Z - Kyoushuu! Saiya Jin (Japan)"
+      - "EUR - F-15 Strike Eagle (Europe) (En,Sv,Da,Fi)"
+      - "USA - Pac-Man (USA) (Tengen)"
     areaGameWhiteList:
       - 'GER - Banana Prince (Germany)'
       - 'AUS - Captain America and the Avengers (Australia)'

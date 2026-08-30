@@ -1,7 +1,7 @@
 package com.github.deathbit.retroboy.match.strategy;
 
 import com.github.deathbit.retroboy.domain.GameDBPackage;
-import com.github.deathbit.retroboy.domain.MatchPair;
+import com.github.deathbit.retroboy.domain.MatchPairForPackage;
 import com.github.deathbit.retroboy.domain.WikiDBPackage;
 import com.github.deathbit.retroboy.enums.MatchLevel;
 import com.github.deathbit.retroboy.match.AbstractMatchStrategy;
@@ -21,9 +21,9 @@ public class FullExactMatchStrategy extends AbstractMatchStrategy {
     }
 
     @Override
-    public List<MatchPair> match(List<WikiDBPackage> wikiPackages,
-                                  List<GameDBPackage> gamePackages,
-                                  Map<String, String> areaMapping) {
+    public List<MatchPairForPackage> match(List<WikiDBPackage> wikiPackages,
+                                           List<GameDBPackage> gamePackages,
+                                           Map<String, String> areaMapping) {
         return fullExactMatch(wikiPackages, gamePackages, areaMapping);
     }
 }

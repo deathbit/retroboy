@@ -72,8 +72,8 @@ public final class ReleaseReportUtils {
         appendFeature(content, "ES-DE主目录：D:\\ES-DE");
         appendFeature(content, "RetroArch主目录：D:\\ES-DE\\Emulators\\RetroArch-Win64");
         appendFeature(content, "平台游戏列表位置：D:\\ES-DE\\ES-DE\\gamelists\\nes\\gamelist.xml");
-        appendFeature(content, "游戏ROM位置：D:\\ES-DE\\ROMs\\nes\\NES-USA\\Gun Nac.nes");
-        appendFeature(content, "游戏媒体位置：D:\\ES-DE\\ES-DE\\downloaded_media\\nes\\3dboxes\\NES-USA\\Gun Nac.png");
+        appendFeature(content, "游戏ROM位置：D:\\ES-DE\\ROMs\\nes\\NES_FC - USA\\Gun Nac.nes");
+        appendFeature(content, "游戏媒体位置：D:\\ES-DE\\ES-DE\\downloaded_media\\nes\\3dboxes\\NES_FC - USA\\Gun Nac.png");
         appendFeature(content, "BIOS目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\system");
         appendFeature(content, "MegaBezel着色器目录：D:\\ES-DE\\Emulators\\RetroArch-Win64\\shaders\\Mega_Bezel_Packs");
         appendBlankLine(content);
@@ -165,4 +165,3 @@ public final class ReleaseReportUtils {
                 .toString();
     }
 }
-

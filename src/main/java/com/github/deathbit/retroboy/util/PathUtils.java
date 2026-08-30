@@ -1,7 +1,6 @@
 package com.github.deathbit.retroboy.util;
 
 import com.github.deathbit.retroboy.domain.PlatformContext;
-import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.MediaAssetType;
 
 import java.nio.file.Path;
@@ -158,12 +157,21 @@ public final class PathUtils {
                 .resolve(rom);
     }
 
-    public static Path esdeAreaRomDirectory(PlatformContext platformContext, Area area) {
-        return ESDE_PLATFORM_ROMS.get(platformContext)
-                .resolve(platformContext.getPlatform().name() + "-" + area.name());
+    public static String esdeAreaDirectoryName(PlatformContext platformContext, String area) {
+        var platformName = platformContext.getPlatform().name();
+        var platformAlt = platformContext.getPlatformPackTaskConfig().getPlatformAlt();
+        if (platformAlt == null || platformAlt.isBlank()) {
+            return platformName + "-" + area;
+        }
+        return platformName + "-" + platformAlt + " - " + area;
     }
 
-    public static Path esdeAreaRom(PlatformContext platformContext, Area area, String rom) {
+    public static Path esdeAreaRomDirectory(PlatformContext platformContext, String area) {
+        return ESDE_PLATFORM_ROMS.get(platformContext)
+                .resolve(esdeAreaDirectoryName(platformContext, area));
+    }
+
+    public static Path esdeAreaRom(PlatformContext platformContext, String area, String rom) {
         return esdeAreaRomDirectory(platformContext, area)
                 .resolve(rom);
     }

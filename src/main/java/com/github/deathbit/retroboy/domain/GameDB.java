@@ -39,4 +39,5 @@ public class GameDB {
     private String sticky_note;
     private String version1;
     private String version2;
+    private String packageId;
 }
