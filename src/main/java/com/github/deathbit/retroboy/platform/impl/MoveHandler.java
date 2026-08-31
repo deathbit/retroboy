@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class MoveGameHandler {
+public class MoveHandler {
 
     @Autowired
     private FileComponent fileComponent;

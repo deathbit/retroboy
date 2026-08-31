@@ -50,5 +50,7 @@ public class PlatformContext {
     private Map<String, FileContext> fileContextMap;
     private Map<String, Map<String, String>> renameResultByArea;
 
+    private Map<String, Map<String, FinalGame>> finalGameMapByArea;
+
     private Map<String, Map<MediaAssetType, MediaCompletionRate>> mediaCompletionRateMap;
 }

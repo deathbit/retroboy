@@ -22,10 +22,13 @@ public class GameListHandler {
 
     @Autowired
     private FileComponent fileComponent;
+
     public void handle(PlatformContext platformContext) {
         var targetPath = PathUtils.ESDE_PLATFORM_GAMELIST.get(platformContext);
         fileComponent.copyPath(PathPair.builder().sourcePath(PathUtils.PLATFORM_GAMELIST_XML.get(platformContext))
                                        .targetPath(targetPath).build());
+        // TODO 检测元信息是否齐全
+        // TODO 检测是否有相同的元信息
         updateGameNames(PathUtils.ESDE_PLATFORM_GAMELIST_XML.get(platformContext));
     }
 

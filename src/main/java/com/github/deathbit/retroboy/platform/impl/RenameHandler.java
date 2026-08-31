@@ -2,6 +2,9 @@ package com.github.deathbit.retroboy.platform.impl;
 
 import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.domain.FileContext;
+import com.github.deathbit.retroboy.domain.FinalGame;
+import com.github.deathbit.retroboy.domain.GameDB;
+import com.github.deathbit.retroboy.domain.MatchPairForGame;
 import com.github.deathbit.retroboy.domain.PlatformContext;
 import com.github.deathbit.retroboy.domain.ProgressBar;
 import com.github.deathbit.retroboy.util.PathUtils;
@@ -42,6 +45,77 @@ public class RenameHandler {
             renameResultByArea.put(area, renameResult);
         });
         platformContext.setRenameResultByArea(renameResultByArea);
+        platformContext.setFinalGameMapByArea(buildFinalGameMapByArea(platformContext));
+    }
+
+    private Map<String, Map<String, FinalGame>> buildFinalGameMapByArea(PlatformContext platformContext) {
+        var finalGameMapByArea = new LinkedHashMap<String, Map<String, FinalGame>>();
+        platformContext.getGameDBsByArea().forEach((gameArea, gameDBs) -> {
+            var renameResult = platformContext.getRenameResultByArea().get(gameArea);
+            if (renameResult == null) {
+                throw new IllegalStateException("Rename result not found for area: " + gameArea);
+            }
+
+            var finalGames = new LinkedHashMap<String, FinalGame>();
+            for (var gameDB : gameDBs) {
+                var fileContext = platformContext.getFileContextMap().get(gameDB.getRomName());
+                if (fileContext == null) {
+                    throw new IllegalStateException("FileContext not found for rom: " + gameDB.getRomName());
+                }
+
+                var finalRomName = renameResult.get(fileContext.getFileName());
+                if (finalRomName == null || finalRomName.isBlank()) {
+                    throw new IllegalStateException("Final ROM name not found for area=%s, rom=%s"
+                            .formatted(gameArea, gameDB.getRomName()));
+                }
+
+                var matchPair = findMatchPairForGame(platformContext, gameArea, gameDB);
+                var wikiDB = matchPair.getWikiDB();
+                var finalGame = FinalGame.builder()
+                        .finalRomName(finalRomName)
+                        .originRomName(fileContext.getFullName())
+                        .wikiArea(wikiDB.getArea())
+                        .wikiName(wikiDB.getName())
+                        .gameArea(gameArea)
+                        .gameName(gameDB.getName())
+                        .wikiDB(wikiDB)
+                        .gameDB(gameDB)
+                        .fileContext(fileContext)
+                        .build();
+                var existing = finalGames.putIfAbsent(finalRomName, finalGame);
+                if (existing != null) {
+                    throw new IllegalStateException("Final ROM name conflict: area=%s, finalRomName=%s, rom1=%s, rom2=%s"
+                            .formatted(gameArea, finalRomName, existing.getOriginRomName(), finalGame.getOriginRomName()));
+                }
+            }
+            finalGameMapByArea.put(gameArea, finalGames);
+        });
+        return finalGameMapByArea;
+    }
+
+    private MatchPairForGame findMatchPairForGame(PlatformContext platformContext, String gameArea, GameDB gameDB) {
+        var wikiArea = platformContext.getGameDBToWikiDBAreaMapping().getOrDefault(gameArea, gameArea);
+        var matchPairs = platformContext.getMatchPairForGamesByArea().get(wikiArea);
+        if (matchPairs == null) {
+            throw new IllegalStateException("Match pairs not found for wiki area: " + wikiArea);
+        }
+
+        MatchPairForGame matchPair = null;
+        for (var candidate : matchPairs) {
+            if (candidate.getGameDB() != gameDB) {
+                continue;
+            }
+            if (matchPair != null) {
+                throw new IllegalStateException("Multiple match pairs found for area=%s, rom=%s"
+                        .formatted(gameArea, gameDB.getRomName()));
+            }
+            matchPair = candidate;
+        }
+        if (matchPair == null || matchPair.getWikiDB() == null) {
+            throw new IllegalStateException("Match pair not found for area=%s, rom=%s"
+                    .formatted(gameArea, gameDB.getRomName()));
+        }
+        return matchPair;
     }
 
     private Map<String, String> parseRenameOptions(PlatformContext platformContext) {

@@ -21,31 +21,28 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
     private MatchHandler matchHandler;
 
     @Autowired
-    private MoveGameHandler moveGameHandler;
+    private MoveHandler moveHandler;
 
     @Autowired
     private RenameHandler renameHandler;
 
-    //@Autowired
-    //private MediaHandler mediaHandler;
-    //
-    //@Autowired
-    //private GameListHandler gameListHandler;
-    //
-    //@Autowired
-    //private CoreHandler coreHandler;
-    //
-    //@Autowired
-    //private ReleaseHandler releaseHandler;
-    //
-    //@Autowired
-    //private WikiMatcherHandler wikiMatcherHandler;
-    //
-    //@Autowired
-    //private DebugReportHandler debugReportHandler;
-    //
-    //@Autowired
-    //private ReleaseReportHandler releaseReportHandler;
+    @Autowired
+    private GameListHandler gameListHandler;
+
+    @Autowired
+    private MediaHandler mediaHandler;
+
+    @Autowired
+    private CoreHandler coreHandler;
+
+    @Autowired
+    private DebugReportHandler debugReportHandler;
+
+    @Autowired
+    private ReleaseReportHandler releaseReportHandler;
+
+    @Autowired
+    private ReleaseHandler releaseHandler;
 
     @Override
     public void handle(Platform platform) throws Exception {
@@ -53,19 +50,14 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
         gameDBHandler.handle(platformContext);
         wikiDBHandler.handle(platformContext);
         matchHandler.handle(platformContext);
-        moveGameHandler.handle(platformContext);
+        moveHandler.handle(platformContext);
         renameHandler.handle(platformContext);
+        gameListHandler.handle(platformContext);
+        mediaHandler.handle(platformContext);
+        coreHandler.handle(platformContext);
+        debugReportHandler.handle(platformContext);
+        releaseReportHandler.handle(platformContext);
+        releaseHandler.handle(platformContext);
         System.out.println();
-
-
-//        if (ruleContext.getPlatformPackTaskConfig().isManualStep()) {
-//            wikiMatcherHandler.handle(ruleContext);
-//            mediaHandler.handle(ruleContext);
-//            gameListHandler.handle(ruleContext);
-//            coreHandler.handle(ruleContext);
-//            debugReportHandler.handle(ruleContext);
-//            releaseReportHandler.handle(ruleContext);
-//            releaseHandler.handle(ruleContext);
-//        }
     }
 }
