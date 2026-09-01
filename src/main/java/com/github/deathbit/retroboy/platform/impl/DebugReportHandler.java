@@ -1,13 +1,11 @@
 package com.github.deathbit.retroboy.platform.impl;
 
-import com.github.deathbit.retroboy.domain.AreaRenameResult;
-import com.github.deathbit.retroboy.domain.AreaRuleResult;
 import com.github.deathbit.retroboy.domain.FileContext;
+import com.github.deathbit.retroboy.domain.FinalGame;
 import com.github.deathbit.retroboy.domain.MediaCompletionRate;
 import com.github.deathbit.retroboy.domain.PlatformContext;
-import com.github.deathbit.retroboy.domain.WikiGameEntry;
-import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.MediaAssetType;
+import com.github.deathbit.retroboy.util.MediaBitmapUtils;
 import com.github.deathbit.retroboy.util.PathUtils;
 import org.springframework.stereotype.Component;
 
@@ -26,19 +24,17 @@ public class DebugReportHandler {
 
     private static final String MEDIA_EXISTS = "●";
     private static final String MEDIA_MISSING = "○";
+
     public void handle(PlatformContext platformContext) {
         var debugReportPath = PathUtils.DEBUG_REPORT.get(platformContext);
         var content = new StringBuilder();
-        // appendLicensedGames(content, platformContext.getLicensed());
         content.append(System.lineSeparator());
         appendFileContexts(content, platformContext.getFileContextMap());
-        content.append(System.lineSeparator());
-        appendAreaPassGames(content, platformContext.getAreaPassMap());
-        appendAreaNotPassGames(content, platformContext.getAreaRuleResultMap());
-        appendAreaRenameResults(content, platformContext.getAreaRenameResultMap());
-        appendMediaMissingRates(content, platformContext.getMediaCompletionRateMap());
-        appendMissingMediaResults(content, platformContext.getAreaWikiEntryMap());
-        appendWikiNameMappings(content, platformContext.getAreaWikiEntryMap());
+        appendFinalGames(content, platformContext.getFinalGameMapByArea());
+        appendRenameResults(content, platformContext.getRenameResultByArea());
+        appendMediaCompletionRates(content, platformContext.getMediaCompletionRateMap());
+        appendMissingMediaResults(content, platformContext.getFinalGameMapByArea());
+        appendGameMappings(content, platformContext.getFinalGameMapByArea());
 
         try {
             Files.createDirectories(debugReportPath.getParent());
@@ -57,238 +53,128 @@ public class DebugReportHandler {
                 .toList();
 
         var report = new StringBuilder();
-        report.append("目录")
-                .append(System.lineSeparator());
-        directoryEntries.forEach(directoryEntry -> report.append(directoryEntry).append(System.lineSeparator()));
-        report.append(System.lineSeparator())
-                .append(body);
+        report.append("目录").append(System.lineSeparator());
+        directoryEntries.forEach(entry -> report.append(entry).append(System.lineSeparator()));
+        report.append(System.lineSeparator()).append(body);
         return report.toString();
     }
 
-    private void appendLicensedGames(StringBuilder content, Set<String> licensedGames) {
-        var sortedLicensedGames = licensedGames.stream()
-                .sorted(Comparator.naturalOrder())
-                .toList();
-        content.append("授权游戏列表 - ")
-                .append(sortedLicensedGames.size())
-                .append("：")
-                .append(System.lineSeparator());
-        sortedLicensedGames.forEach(licensedGame -> content.append(licensedGame).append(System.lineSeparator()));
-    }
-
     private void appendFileContexts(StringBuilder content, Map<String, FileContext> fileContextMap) {
-        var sortedFileContexts = fileContextMap.values()
-                .stream()
+        var fileContexts = fileContextMap.values().stream()
+                .distinct()
                 .sorted(Comparator.comparing(FileContext::getFileName))
                 .toList();
-        content.append("原始ROM信息 - ")
-                .append(sortedFileContexts.size())
-                .append("：")
-                .append(System.lineSeparator());
-        content.append("fileName | fullName | namePart | tagPart | tags | extension")
-                .append(System.lineSeparator());
-        sortedFileContexts.forEach(fileContext -> content.append(fileContext.getFileName())
-                .append(" | ")
-                .append(fileContext.getFullName())
-                .append(" | ")
-                .append(fileContext.getNamePart())
-                .append(" | ")
-                .append(fileContext.getTagPart())
-                .append(" | ")
-                .append(formatTags(fileContext.getTags()))
-                .append(" | ")
-                .append(fileContext.getExtension())
+        content.append("原始ROM信息 - ").append(fileContexts.size()).append("：").append(System.lineSeparator());
+        content.append("fileName | fullName | namePart | tagPart | tags | extension").append(System.lineSeparator());
+        fileContexts.forEach(fileContext -> content.append(fileContext.getFileName())
+                .append(" | ").append(fileContext.getFullName())
+                .append(" | ").append(fileContext.getNamePart())
+                .append(" | ").append(fileContext.getTagPart())
+                .append(" | ").append(formatTags(fileContext.getTags()))
+                .append(" | ").append(fileContext.getExtension())
                 .append(System.lineSeparator()));
+        content.append(System.lineSeparator());
     }
 
-    private void appendAreaPassGames(StringBuilder content, Map<Area, List<String>> areaPassMap) {
-        for (var area : Area.values()) {
-            var sortedGames = areaPassMap.getOrDefault(area, List.of())
-                    .stream()
-                    .sorted(Comparator.naturalOrder())
-                    .toList();
-            content.append("通过游戏列表 - ")
-                    .append(area.name())
-                    .append(" - ")
-                    .append(sortedGames.size())
-                    .append("：")
+    private void appendFinalGames(StringBuilder content, Map<String, Map<String, FinalGame>> finalGameMapByArea) {
+        finalGameMapByArea.forEach((area, finalGames) -> {
+            var games = sortedFinalGames(finalGames);
+            content.append("最终游戏列表 - ").append(area).append(" - ").append(games.size()).append("：")
                     .append(System.lineSeparator());
-            sortedGames.forEach(game -> content.append(game).append(System.lineSeparator()));
+            games.forEach(game -> content.append(game.getFinalRomName()).append(System.lineSeparator()));
             content.append(System.lineSeparator());
-        }
+        });
     }
 
-    private void appendAreaNotPassGames(StringBuilder content, Map<Area, Map<String, AreaRuleResult>> areaRuleResultMap) {
-        for (var area : Area.values()) {
-            var sortedRuleResults = areaRuleResultMap.getOrDefault(area, Map.of())
-                    .values()
-                    .stream()
-                    .filter(ruleResult -> !ruleResult.isPassed())
-                    .sorted(Comparator.comparing(AreaRuleResult::getFileName))
+    private void appendRenameResults(StringBuilder content, Map<String, Map<String, String>> renameResultByArea) {
+        renameResultByArea.forEach((area, renameResults) -> {
+            content.append("重命名结果 - ").append(area).append(" - ").append(renameResults.size()).append("：")
+                    .append(System.lineSeparator());
+            renameResults.entrySet().stream()
+                    .sorted(Map.Entry.comparingByKey())
+                    .forEach(entry -> content.append(entry.getKey()).append(" -> ").append(entry.getValue())
+                            .append(System.lineSeparator()));
+            content.append(System.lineSeparator());
+        });
+    }
+
+    private void appendMediaCompletionRates(StringBuilder content,
+                                            Map<String, Map<MediaAssetType, MediaCompletionRate>> mediaCompletionRateMap) {
+        mediaCompletionRateMap.forEach((area, rates) -> {
+            content.append("媒体缺失率 - ").append(area).append(" - ").append(rates.size()).append("：")
+                    .append(System.lineSeparator());
+            for (var mediaAssetType : MediaAssetType.values()) {
+                var rate = rates.get(mediaAssetType);
+                if (rate != null) {
+                    content.append(mediaAssetType.getDirectoryName()).append("：")
+                            .append(rate.getCompletedCount()).append("/").append(rate.getTotalCount())
+                            .append("（").append(formatCompletionRate(rate)).append("）")
+                            .append(System.lineSeparator());
+                }
+            }
+            content.append(System.lineSeparator());
+        });
+    }
+
+    private void appendMissingMediaResults(StringBuilder content, Map<String, Map<String, FinalGame>> finalGameMapByArea) {
+        finalGameMapByArea.forEach((area, finalGames) -> {
+            var missingMediaGames = sortedFinalGames(finalGames).stream()
+                    .filter(game -> game.getMediaBitMap() != allMediaBitMask())
                     .toList();
-            content.append("未通过游戏列表 - ")
-                    .append(area.name())
-                    .append(" - ")
-                    .append(sortedRuleResults.size())
-                    .append("：")
+            content.append("媒体缺失列表 - ").append(area).append(" - ").append(missingMediaGames.size()).append("：")
                     .append(System.lineSeparator());
-            content.append("游戏名 | 原因")
-                    .append(System.lineSeparator());
-            sortedRuleResults.forEach(ruleResult -> content.append(ruleResult.getFileName())
-                    .append(" | ")
-                    .append(formatReasons(ruleResult.getReasons()))
+            content.append("mediaStatus | wikiName | finalName | missingMedia").append(System.lineSeparator());
+            content.append("媒体顺序：").append(formatMediaAssetOrder()).append(System.lineSeparator());
+            missingMediaGames.forEach(game -> content.append(formatMediaStatus(game))
+                    .append(" | ").append(game.getWikiName())
+                    .append(" | ").append(game.getFinalRomName())
+                    .append(" | ").append(formatMissingMedia(game))
                     .append(System.lineSeparator()));
             content.append(System.lineSeparator());
-        }
+        });
     }
 
-    private void appendAreaRenameResults(StringBuilder content, Map<Area, Map<String, AreaRenameResult>> areaRenameResultMap) {
-        for (var area : Area.values()) {
-            var sortedRenameResults = areaRenameResultMap.getOrDefault(area, Map.of())
-                    .values()
-                    .stream()
-                    .sorted(Comparator.comparing(AreaRenameResult::getOldName))
-                    .toList();
-            content.append("重命名结果 - ")
-                    .append(area.name())
-                    .append(" - ")
-                    .append(sortedRenameResults.size())
-                    .append("：")
+    private void appendGameMappings(StringBuilder content, Map<String, Map<String, FinalGame>> finalGameMapByArea) {
+        finalGameMapByArea.forEach((area, finalGames) -> {
+            var games = sortedFinalGames(finalGames);
+            content.append("维基百科名称映射列表 - ").append(area).append(" - ").append(games.size()).append("：")
                     .append(System.lineSeparator());
-            sortedRenameResults.forEach(renameResult -> content.append(renameResult.getOldName())
-                    .append(" -> ")
-                    .append(renameResult.getNewName())
+            content.append("wikiName | oldName | newName | finalName").append(System.lineSeparator());
+            games.forEach(game -> content.append(game.getWikiName())
+                    .append(" | ").append(game.getOriginRomName())
+                    .append(" | ").append(game.getFinalRomName())
+                    .append(" | ").append(game.getFinalRomName())
                     .append(System.lineSeparator()));
             content.append(System.lineSeparator());
-        }
+        });
     }
 
-    private void appendMediaMissingRates(StringBuilder content,
-                                         Map<Area, Map<MediaAssetType, MediaCompletionRate>> mediaCompletionRateMap) {
-        for (var area : Area.values()) {
-            var mediaAssetRateMap = mediaCompletionRateMap == null
-                    ? Map.<MediaAssetType, MediaCompletionRate>of()
-                    : mediaCompletionRateMap.getOrDefault(area, Map.of());
-            content.append("媒体缺失率 - ")
-                    .append(area.name())
-                    .append(" - ")
-                    .append(mediaAssetRateMap.size())
-                    .append("：")
-                    .append(System.lineSeparator());
-            java.util.Arrays.stream(MediaAssetType.values())
-                    .filter(mediaAssetRateMap::containsKey)
-                    .forEach(mediaAssetType -> {
-                        var mediaCompletionRate = mediaAssetRateMap.get(mediaAssetType);
-                        content.append(mediaAssetType.getDirectoryName())
-                                .append("：")
-                                .append(mediaCompletionRate.getCompletedCount())
-                                .append("/")
-                                .append(mediaCompletionRate.getTotalCount())
-                                .append("（")
-                                .append(formatCompletionRate(mediaCompletionRate))
-                                .append("）")
-                                .append(System.lineSeparator());
-                    });
-            content.append(System.lineSeparator());
-        }
+    private List<FinalGame> sortedFinalGames(Map<String, FinalGame> finalGames) {
+        return finalGames.values().stream().sorted(Comparator.comparing(FinalGame::getFinalRomName)).toList();
     }
 
-    private void appendMissingMediaResults(StringBuilder content, Map<Area, Map<String, WikiGameEntry>> areaWikiEntryMap) {
-        for (var area : Area.values()) {
-            var sortedMissingMediaEntries = areaWikiEntryMap.getOrDefault(area, Map.of())
-                    .values()
-                    .stream()
-                    .filter(wikiGameEntry -> wikiGameEntry.getMissingMediaBitmap() != 0)
-                    .sorted(Comparator.comparing(WikiGameEntry::getWikiName))
-                    .toList();
-            content.append("媒体缺失列表 - ")
-                    .append(area.name())
-                    .append(" - ")
-                    .append(sortedMissingMediaEntries.size())
-                    .append("：")
-                    .append(System.lineSeparator());
-            content.append("mediaStatus | wikiName | finalName | missingMedia")
-                    .append(System.lineSeparator());
-            content.append("媒体顺序：")
-                    .append(formatMediaAssetOrder())
-                    .append(System.lineSeparator());
-            sortedMissingMediaEntries.forEach(wikiGameEntry -> content.append(formatMediaStatus(wikiGameEntry))
-                    .append(" | ")
-                    .append(wikiGameEntry.getWikiName())
-                    .append(" | ")
-                    .append(getFinalName(wikiGameEntry))
-                    .append(" | ")
-                    .append(formatMissingMedia(wikiGameEntry))
-                    .append(System.lineSeparator()));
-            content.append(System.lineSeparator());
+    private int allMediaBitMask() {
+        var bitmap = 0;
+        for (var mediaAssetType : MediaAssetType.values()) {
+            bitmap = MediaBitmapUtils.withMedia(bitmap, mediaAssetType);
         }
+        return bitmap;
     }
 
-    private void appendWikiNameMappings(StringBuilder content, Map<Area, Map<String, WikiGameEntry>> areaWikiEntryMap) {
-        for (var area : Area.values()) {
-            var sortedWikiGameEntries = areaWikiEntryMap.getOrDefault(area, Map.of())
-                    .values()
-                    .stream()
-                    .sorted(Comparator.comparing(WikiGameEntry::getWikiName))
-                    .toList();
-            content.append("维基百科名称映射列表 - ")
-                    .append(area.name())
-                    .append(" - ")
-                    .append(sortedWikiGameEntries.size())
-                    .append("：")
-                    .append(System.lineSeparator());
-            content.append("wikiName | oldName | newName | finalName")
-                    .append(System.lineSeparator());
-            sortedWikiGameEntries.forEach(wikiGameEntry -> content.append(wikiGameEntry.getWikiName())
-                    .append(" | ")
-                    .append(getOldName(wikiGameEntry))
-                    .append(" | ")
-                    .append(getNewName(wikiGameEntry))
-                    .append(" | ")
-                    .append(getFinalName(wikiGameEntry))
-                    .append(System.lineSeparator()));
-            content.append(System.lineSeparator());
+    private String formatMediaStatus(FinalGame game) {
+        var status = new StringBuilder();
+        for (var mediaAssetType : MediaAssetType.values()) {
+            status.append(MediaBitmapUtils.hasMedia(game.getMediaBitMap(), mediaAssetType) ? MEDIA_EXISTS : MEDIA_MISSING);
         }
+        return status.toString();
     }
 
-    private String getOldName(WikiGameEntry wikiGameEntry) {
-        var areaRenameResult = wikiGameEntry.getAreaRenameResult();
-        if (areaRenameResult == null || areaRenameResult.getOldName() == null) {
-            return "";
-        }
-        return areaRenameResult.getOldName();
-    }
-
-    private String getNewName(WikiGameEntry wikiGameEntry) {
-        var areaRenameResult = wikiGameEntry.getAreaRenameResult();
-        if (areaRenameResult == null || areaRenameResult.getNewName() == null) {
-            return "";
-        }
-        return areaRenameResult.getNewName();
-    }
-
-    private String getFinalName(WikiGameEntry wikiGameEntry) {
-        var areaRenameResult = wikiGameEntry.getAreaRenameResult();
-        if (areaRenameResult == null || areaRenameResult.getFinalName() == null) {
-            return "";
-        }
-        return areaRenameResult.getFinalName();
-    }
-
-    private String formatMissingMedia(WikiGameEntry wikiGameEntry) {
+    private String formatMissingMedia(FinalGame game) {
         return java.util.Arrays.stream(MediaAssetType.values())
-                .filter(wikiGameEntry::isMediaMissing)
+                .filter(mediaAssetType -> MediaBitmapUtils.isMediaMissing(game.getMediaBitMap(), mediaAssetType))
                 .map(MediaAssetType::getDirectoryName)
                 .toList()
                 .toString();
-    }
-
-    private String formatMediaStatus(WikiGameEntry wikiGameEntry) {
-        var status = new StringBuilder();
-        for (var mediaAssetType : MediaAssetType.values()) {
-            status.append(wikiGameEntry.isMediaMissing(mediaAssetType) ? MEDIA_MISSING : MEDIA_EXISTS);
-        }
-        return status.toString();
     }
 
     private String formatMediaAssetOrder() {
@@ -298,22 +184,14 @@ public class DebugReportHandler {
                 .toString();
     }
 
-    private String formatCompletionRate(MediaCompletionRate mediaCompletionRate) {
-        var percentage = mediaCompletionRate.getCompletionRate() * 100;
-        if (percentage == Math.rint(percentage)) {
-            return String.format(Locale.ROOT, "%.0f%%", percentage);
-        }
-        return String.format(Locale.ROOT, "%.2f%%", percentage);
-    }
-
-    private String formatReasons(List<String> reasons) {
-        return String.join("；", reasons);
+    private String formatCompletionRate(MediaCompletionRate rate) {
+        var percentage = rate.getCompletionRate() * 100;
+        return percentage == Math.rint(percentage)
+                ? String.format(Locale.ROOT, "%.0f%%", percentage)
+                : String.format(Locale.ROOT, "%.2f%%", percentage);
     }
 
     private String formatTags(Set<String> tags) {
-        return tags.stream()
-                .sorted(Comparator.naturalOrder())
-                .toList()
-                .toString();
+        return tags.stream().sorted().toList().toString();
     }
 }

@@ -1,10 +1,10 @@
 package com.github.deathbit.retroboy.platform.impl;
 
+import com.github.deathbit.retroboy.domain.FinalGame;
 import com.github.deathbit.retroboy.domain.MediaCompletionRate;
 import com.github.deathbit.retroboy.domain.PlatformContext;
-import com.github.deathbit.retroboy.domain.WikiGameEntry;
-import com.github.deathbit.retroboy.enums.Area;
 import com.github.deathbit.retroboy.enums.MediaAssetType;
+import com.github.deathbit.retroboy.util.MediaBitmapUtils;
 import com.github.deathbit.retroboy.util.PathUtils;
 import com.github.deathbit.retroboy.util.ReleaseReportUtils;
 import org.springframework.stereotype.Component;
@@ -19,7 +19,6 @@ import java.util.Comparator;
 import java.util.Locale;
 import java.util.Map;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 @Component
 public class ReleaseReportHandler {
@@ -53,7 +52,7 @@ public class ReleaseReportHandler {
         ReleaseReportUtils.appendDisclaimer(content);
         ReleaseReportUtils.appendLine(content, "十一、未来规划");
         ReleaseReportUtils.appendFuturePlan(content);
-        appendMediaMissingRates(content, platformContext);
+        appendMediaCompletionRates(content, platformContext);
         appendGameList(content, platformContext);
 
         try {
@@ -83,7 +82,9 @@ public class ReleaseReportHandler {
     }
 
     private void appendBasicInfo(StringBuilder content, PlatformContext platformContext) {
-        var areaGameCounts = buildAreaGameCounts(platformContext);
+        var areaGameCounts = platformContext.getFinalGameMapByArea().entrySet().stream()
+                .collect(Collectors.toMap(Map.Entry::getKey, entry -> entry.getValue().size(), (left, right) -> left,
+                        java.util.LinkedHashMap::new));
         var platform = platformContext.getPlatform();
         ReleaseReportUtils.appendLine(content, "三、基础信息");
         ReleaseReportUtils.appendInfo(content, "平台名称", platform.name());
@@ -95,9 +96,12 @@ public class ReleaseReportHandler {
         ReleaseReportUtils.appendInfo(content, "RetroArch版本", platformContext.getGlobalConfig().getRaVersion());
         ReleaseReportUtils.appendInfo(content, "创建时间", LocalDateTime.now().format(CREATE_TIME_FORMATTER));
         ReleaseReportUtils.appendInfo(content, "支持地区", formatSupportedAreas(platformContext));
-        ReleaseReportUtils.appendInfo(content, "游戏总数", String.valueOf(areaGameCounts.values().stream().mapToInt(Integer::intValue).sum()));
-        appendAreaGameCounts(content, areaGameCounts);
-        ReleaseReportUtils.appendInfo(content, "基础包版本", platformContext.getAppConfig().getBasePackReleaseReportTaskConfig().getBasePackVersion());
+        ReleaseReportUtils.appendInfo(content, "游戏总数",
+                String.valueOf(areaGameCounts.values().stream().mapToInt(Integer::intValue).sum()));
+        areaGameCounts.forEach((area, count) ->
+                ReleaseReportUtils.appendInfo(content, area + "地区游戏总数", String.valueOf(count)));
+        ReleaseReportUtils.appendInfo(content, "基础包版本",
+                platformContext.getAppConfig().getBasePackReleaseReportTaskConfig().getBasePackVersion());
         ReleaseReportUtils.appendInfo(content, "百度网盘", platformContext.getGlobalConfig().getBaiduPan());
         ReleaseReportUtils.appendInfo(content, "维基百科", platformContext.getPlatformPackTaskConfig().getWiki());
         ReleaseReportUtils.appendInfo(content, "项目仓库", platformContext.getGlobalConfig().getRepo());
@@ -106,36 +110,10 @@ public class ReleaseReportHandler {
         ReleaseReportUtils.appendBlankLine(content);
     }
 
-    private Map<Area, Integer> buildAreaGameCounts(PlatformContext platformContext) {
-        return platformContext.getAreaPassMap()
-                              .entrySet()
-                              .stream()
-                              .collect(Collectors.toMap(Map.Entry::getKey, entry -> entry.getValue().size()));
-    }
-
-    private void appendAreaGameCounts(StringBuilder content, Map<Area, Integer> areaGameCounts) {
-        Stream.of(Area.values())
-                .filter(areaGameCounts::containsKey)
-                .sorted(Comparator.comparingInt(Enum::ordinal))
-                .forEach(area -> ReleaseReportUtils.appendInfo(content,
-                        areaDisplayName(area) + "地区游戏总数",
-                        String.valueOf(areaGameCounts.get(area))));
-    }
-
     private String formatSupportedAreas(PlatformContext platformContext) {
-        var passAreas = platformContext.getAreaPassMap()
-                                       .keySet()
-                                       .stream()
-                                       .toList();
-        return Stream.of(Area.values())
-                .filter(passAreas::contains)
-                .sorted(Comparator.comparingInt(Enum::ordinal))
-                .map(area -> platformContext.getPlatform().name() + "-" + area.name() + "（" + areaDisplayName(area) + "）")
+        return platformContext.getFinalGameMapByArea().keySet().stream()
+                .map(area -> platformContext.getPlatform().name() + "-" + area)
                 .collect(Collectors.joining("、"));
-    }
-
-    private String areaDisplayName(Area area) {
-        return area.getChineseName();
     }
 
     private void appendReleaseNotes(StringBuilder content, PlatformContext platformContext) {
@@ -143,120 +121,75 @@ public class ReleaseReportHandler {
         ReleaseReportUtils.appendLine(content, "五、版本更新记录");
         if (releaseNotes == null || releaseNotes.isEmpty()) {
             ReleaseReportUtils.appendLine(content, "暂无版本更新记录");
-            ReleaseReportUtils.appendBlankLine(content);
-            return;
+        } else {
+            releaseNotes.forEach(releaseNote -> {
+                ReleaseReportUtils.appendLine(content, "[" + releaseNote.getVersion() + "] " + releaseNote.getDate());
+                releaseNote.getChanges().forEach(change -> ReleaseReportUtils.appendFeature(content, change));
+            });
         }
-
-        releaseNotes.forEach(releaseNote -> {
-            ReleaseReportUtils.appendLine(content, "[" + releaseNote.getVersion() + "] " + releaseNote.getDate());
-            releaseNote.getChanges().forEach(change -> ReleaseReportUtils.appendFeature(content, change));
-        });
         ReleaseReportUtils.appendBlankLine(content);
     }
 
-    private void appendMediaMissingRates(StringBuilder content, PlatformContext platformContext) {
+    private void appendMediaCompletionRates(StringBuilder content, PlatformContext platformContext) {
         ReleaseReportUtils.appendLine(content, "十二、媒体缺失率");
-        var mediaCompletionRateMap = platformContext.getMediaCompletionRateMap();
-        Stream.of(Area.values())
-                .filter(area -> mediaCompletionRateMap != null && mediaCompletionRateMap.containsKey(area))
-                .sorted(Comparator.comparingInt(Enum::ordinal))
-                .forEach(area -> appendAreaMediaMissingRates(content, platformContext, area));
-        ReleaseReportUtils.appendBlankLine(content);
-    }
-
-    private void appendAreaMediaMissingRates(StringBuilder content, PlatformContext platformContext, Area area) {
-        var mediaAssetRateMap = platformContext.getMediaCompletionRateMap().getOrDefault(area, Map.of());
-        ReleaseReportUtils.appendLine(content, "[" + platformContext.getPlatform().name() + "-" + area.name() + "] "
-                + areaDisplayName(area));
-        Stream.of(MediaAssetType.values())
-                .filter(mediaAssetRateMap::containsKey)
-                .forEach(mediaAssetType -> {
-                    var mediaCompletionRate = mediaAssetRateMap.get(mediaAssetType);
-                    ReleaseReportUtils.appendLine(content, mediaAssetType.getDirectoryName()
-                            + "：" + mediaCompletionRate.getCompletedCount()
-                            + "/" + mediaCompletionRate.getTotalCount()
-                            + "（" + formatCompletionRate(mediaCompletionRate) + "）");
-                });
-        ReleaseReportUtils.appendBlankLine(content);
+        platformContext.getMediaCompletionRateMap().forEach((area, rates) -> {
+            ReleaseReportUtils.appendLine(content, "[" + platformContext.getPlatform().name() + "-" + area + "]");
+            for (var mediaAssetType : MediaAssetType.values()) {
+                var rate = rates.get(mediaAssetType);
+                if (rate != null) {
+                    ReleaseReportUtils.appendLine(content, mediaAssetType.getDirectoryName() + "："
+                            + rate.getCompletedCount() + "/" + rate.getTotalCount()
+                            + "（" + formatCompletionRate(rate) + "）");
+                }
+            }
+            ReleaseReportUtils.appendBlankLine(content);
+        });
     }
 
     private void appendGameList(StringBuilder content, PlatformContext platformContext) {
         ReleaseReportUtils.appendLine(content, "十三、游戏清单");
-        Stream.of(Area.values())
-                .filter(platformContext.getAreaWikiEntryMap()::containsKey)
-                .sorted(Comparator.comparingInt(Enum::ordinal))
-                .forEach(area -> appendAreaGameList(content, platformContext, area));
+        platformContext.getFinalGameMapByArea().forEach((area, finalGames) -> {
+            var games = finalGames.values().stream()
+                    .sorted(Comparator.comparing(FinalGame::getWikiName))
+                    .toList();
+            ReleaseReportUtils.appendLine(content, "[" + platformContext.getPlatform().name() + "-" + area + "]（"
+                    + games.size() + " 个游戏）");
+            ReleaseReportUtils.appendLine(content, "序号 | 媒体缺失情况 | 维基百科条目 | 原始文件名称 | 修改后文件名称 | 最终名称 | 缺失媒体列表");
+            for (int i = 0; i < games.size(); i++) {
+                var game = games.get(i);
+                ReleaseReportUtils.appendLine(content, String.format("%04d", i + 1)
+                        + " | " + formatMediaStatus(game)
+                        + " | " + game.getWikiName()
+                        + " | " + game.getOriginRomName()
+                        + " | " + game.getFinalRomName()
+                        + " | " + game.getFinalRomName()
+                        + " | " + formatMissingMedia(game));
+            }
+            ReleaseReportUtils.appendBlankLine(content);
+        });
         ReleaseReportUtils.appendBlankLine(content);
     }
 
-    private void appendAreaGameList(StringBuilder content, PlatformContext platformContext, Area area) {
-        var wikiGameEntries = platformContext.getAreaWikiEntryMap()
-                                             .getOrDefault(area, Map.of())
-                                             .values()
-                                             .stream()
-                                             .sorted(Comparator.comparing(WikiGameEntry::getWikiName))
-                                             .toList();
-        ReleaseReportUtils.appendLine(content, "[" + platformContext.getPlatform().name() + "-" + area.name() + "] "
-                + areaDisplayName(area) + "（" + wikiGameEntries.size() + " 个游戏）");
-        ReleaseReportUtils.appendLine(content, "序号 | 媒体缺失情况 | 维基百科条目 | 原始文件名称 | 修改后文件名称 | 最终名称 | 缺失媒体列表");
-        for (int i = 0; i < wikiGameEntries.size(); i++) {
-            var wikiGameEntry = wikiGameEntries.get(i);
-            ReleaseReportUtils.appendLine(content, String.format("%04d", i + 1)
-                    + " | " + formatMediaStatus(wikiGameEntry)
-                    + " | " + wikiGameEntry.getWikiName()
-                    + " | " + getOldName(wikiGameEntry)
-                    + " | " + getNewName(wikiGameEntry)
-                    + " | " + getFinalName(wikiGameEntry)
-                    + " | " + formatMissingMedia(wikiGameEntry));
-        }
-        ReleaseReportUtils.appendBlankLine(content);
-    }
-
-    private String getOldName(WikiGameEntry wikiGameEntry) {
-        var areaRenameResult = wikiGameEntry.getAreaRenameResult();
-        if (areaRenameResult == null || areaRenameResult.getOldName() == null) {
-            return "";
-        }
-        return areaRenameResult.getOldName();
-    }
-
-    private String getNewName(WikiGameEntry wikiGameEntry) {
-        var areaRenameResult = wikiGameEntry.getAreaRenameResult();
-        if (areaRenameResult == null || areaRenameResult.getNewName() == null) {
-            return "";
-        }
-        return areaRenameResult.getNewName();
-    }
-
-    private String getFinalName(WikiGameEntry wikiGameEntry) {
-        var areaRenameResult = wikiGameEntry.getAreaRenameResult();
-        if (areaRenameResult == null || areaRenameResult.getFinalName() == null) {
-            return "";
-        }
-        return areaRenameResult.getFinalName();
-    }
-
-    private String formatMediaStatus(WikiGameEntry wikiGameEntry) {
+    private String formatMediaStatus(FinalGame game) {
         var status = new StringBuilder();
         for (var mediaAssetType : MediaAssetType.values()) {
-            status.append(wikiGameEntry.isMediaMissing(mediaAssetType) ? MEDIA_MISSING : MEDIA_EXISTS);
+            status.append(MediaBitmapUtils.hasMedia(game.getMediaBitMap(), mediaAssetType) ? MEDIA_EXISTS : MEDIA_MISSING);
         }
         return status.toString();
     }
 
-    private String formatMissingMedia(WikiGameEntry wikiGameEntry) {
-        return Stream.of(MediaAssetType.values())
-                .filter(wikiGameEntry::isMediaMissing)
+    private String formatMissingMedia(FinalGame game) {
+        return java.util.Arrays.stream(MediaAssetType.values())
+                .filter(mediaAssetType -> MediaBitmapUtils.isMediaMissing(game.getMediaBitMap(), mediaAssetType))
                 .map(MediaAssetType::getDirectoryName)
                 .toList()
                 .toString();
     }
 
-    private String formatCompletionRate(MediaCompletionRate mediaCompletionRate) {
-        var percentage = mediaCompletionRate.getCompletionRate() * 100;
-        if (percentage == Math.rint(percentage)) {
-            return String.format(Locale.ROOT, "%.0f%%", percentage);
-        }
-        return String.format(Locale.ROOT, "%.2f%%", percentage);
+    private String formatCompletionRate(MediaCompletionRate rate) {
+        var percentage = rate.getCompletionRate() * 100;
+        return percentage == Math.rint(percentage)
+                ? String.format(Locale.ROOT, "%.0f%%", percentage)
+                : String.format(Locale.ROOT, "%.2f%%", percentage);
     }
 }
