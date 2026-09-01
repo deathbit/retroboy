@@ -1,17 +1,18 @@
-package com.github.deathbit.retroboy.domain;
+package com.github.deathbit.retroboy.domain.gamepackage;
 
 import com.github.deathbit.retroboy.domain.game.NoIntroGame;
-import com.github.deathbit.retroboy.domain.game.WikiGame;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Map;
+
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class MatchPairForGame {
-    private WikiGame wikiGame;
-    private NoIntroGame noIntroGame;
+public class NoIntroGamePackage implements GamePackage {
+    private String id;
+    private Map<String, NoIntroGame> noIntroGameByArea;
 }

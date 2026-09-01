@@ -1,7 +1,6 @@
 package com.github.deathbit.retroboy.processor;
 
-import com.github.deathbit.retroboy.domain.GameDB;
-import com.github.deathbit.retroboy.domain.WikiDBPackage;
+import com.github.deathbit.retroboy.domain.game.NoIntroGame;
 import com.github.deathbit.retroboy.enums.Platform;
 
 import java.util.List;
@@ -11,9 +10,8 @@ public interface PlatformProcessor {
 
     Platform platform();
 
-    void preProcessGameDB(Map<String, GameDB> gameDBMapByRomName);
+    void preProcessGameDB(Map<String, NoIntroGame> noIntroGameByTitle);
 
-    List<WikiDBPackage> processWiki() throws Exception;
 
     Map<String, String> gameDBToWikiDBAreaMapping(List<String> gameDBAreas, List<String> wikiDBAreas);
 }

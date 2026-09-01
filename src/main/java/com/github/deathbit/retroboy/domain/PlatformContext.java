@@ -3,6 +3,8 @@ package com.github.deathbit.retroboy.domain;
 import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.config.GlobalConfig;
 import com.github.deathbit.retroboy.config.PlatformPackTaskConfig;
+import com.github.deathbit.retroboy.domain.gamepackage.NoIntroGamePackage;
+import com.github.deathbit.retroboy.domain.gamepackage.WikiGamePackage;
 import com.github.deathbit.retroboy.enums.MediaAssetType;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.processor.PlatformProcessor;
@@ -27,21 +29,10 @@ public class PlatformContext {
     private PlatformPackTaskConfig platformPackTaskConfig;
     private PlatformProcessor platformProcessor;
 
-    private List<GameDB> gameDBs;
-    private Map<String, GameDB> gameDBMapByNumber;
-    private Map<String, GameDB> gameDBMapByRomName;
-    private Map<String, List<GameDB>> gameDBsByArea;
-    private List<String> gameDBAreas;
-    private List<GameDBPackage> gameDBPackages;
-    private Map<String, GameDBPackage> gameDBPackageById;
+    private List<NoIntroGamePackage> noIntroGamePackages;
 
-    private List<WikiDB> wikiDBs;
-    private Map<String, WikiDB> wikiDBById;
-    private Map<String, WikiDB> wikiDBByName;
-    private List<String> wikiDBAreas;
-    private Map<String, List<WikiDB>> wikiDBsByArea;
-    private List<WikiDBPackage> wikiDBPackages;
-    private Map<String, WikiDBPackage> wikiDBPackageById;
+    // wiki
+    private List<WikiGamePackage> wikiGamePackages;
 
     private Map<String, String> gameDBToWikiDBAreaMapping;
     private MatchResult matchResult;

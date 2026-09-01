@@ -1,8 +1,8 @@
 package com.github.deathbit.retroboy.match;
 
-import com.github.deathbit.retroboy.domain.GameDBPackage;
+import com.github.deathbit.retroboy.domain.gamepackage.NoIntroGamePackage;
 import com.github.deathbit.retroboy.domain.MatchPairForPackage;
-import com.github.deathbit.retroboy.domain.WikiDBPackage;
+import com.github.deathbit.retroboy.domain.gamepackage.WikiGamePackage;
 import com.github.deathbit.retroboy.enums.MatchLevel;
 
 import java.util.List;
@@ -23,7 +23,7 @@ public interface MatchStrategy {
      * @param wikiAreaMapping GameDB 地区 → WikiDB 地区的映射
      * @return 本层产生的匹配对列表
      */
-    List<MatchPairForPackage> match(List<WikiDBPackage> wikiPackages,
-                                    List<GameDBPackage> gamePackages,
+    List<MatchPairForPackage> match(List<WikiGamePackage> wikiPackages,
+                                    List<NoIntroGamePackage> gamePackages,
                                     Map<String, String> wikiAreaMapping);
 }

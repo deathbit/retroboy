@@ -3,9 +3,9 @@ package com.github.deathbit.retroboy.match.strategy;
 import com.github.deathbit.retroboy.domain.FuzzyAreaResult;
 import com.github.deathbit.retroboy.domain.FuzzyCandidate;
 import com.github.deathbit.retroboy.domain.FuzzyMatchDetail;
-import com.github.deathbit.retroboy.domain.GameDBPackage;
+import com.github.deathbit.retroboy.domain.gamepackage.NoIntroGamePackage;
 import com.github.deathbit.retroboy.domain.MatchPairForPackage;
-import com.github.deathbit.retroboy.domain.WikiDBPackage;
+import com.github.deathbit.retroboy.domain.gamepackage.WikiGamePackage;
 import com.github.deathbit.retroboy.enums.MatchLevel;
 import com.github.deathbit.retroboy.match.AbstractMatchStrategy;
 import me.xdrop.fuzzywuzzy.FuzzySearch;
@@ -52,8 +52,8 @@ public class FuzzyRatioMatchStrategy extends AbstractMatchStrategy {
     }
 
     @Override
-    public List<MatchPairForPackage> match(List<WikiDBPackage> wikiPackages,
-                                           List<GameDBPackage> gamePackages,
+    public List<MatchPairForPackage> match(List<WikiGamePackage> wikiPackages,
+                                           List<NoIntroGamePackage> gamePackages,
                                            Map<String, String> areaMapping) {
         fuzzyMatchDetails.clear();
 
@@ -63,7 +63,7 @@ public class FuzzyRatioMatchStrategy extends AbstractMatchStrategy {
 
         for (int w = 0; w < wikiPackages.size(); w++) {
             var wikiPkg = wikiPackages.get(w);
-            var wikiNames = wikiPkg.getMatchNameByArea();  // wiki area → matchName
+            var wikiNames = getWikiNames(wikiPkg);  // wiki area → matchName
 
             // 为每个 area 计算候选得分
             var areaResults = new LinkedHashMap<String, FuzzyAreaResult>();
@@ -74,7 +74,7 @@ public class FuzzyRatioMatchStrategy extends AbstractMatchStrategy {
             }
 
             // 收集各 area 中得分 ≥ 阈值的 TOP1 候选，判断是否指向同一个 GameDBPackage
-            GameDBPackage matched = resolveMatch(areaResults, wikiNames.keySet());
+            NoIntroGamePackage matched = resolveMatch(areaResults, wikiNames.keySet());
 
             int matchedIdx = -1;
             if (matched != null) {
@@ -82,9 +82,9 @@ public class FuzzyRatioMatchStrategy extends AbstractMatchStrategy {
             }
 
             fuzzyMatchDetails.add(FuzzyMatchDetail.builder()
-                    .wikiDBPackage(wikiPkg)
+                    .wikiGamePackage(wikiPkg)
                     .areaResults(areaResults)
-                    .matchedGameDBPackage(matched)
+                    .matchedNoIntroGamePackage(matched)
                     .build());
 
             if (matched != null && matchedIdx >= 0) {
@@ -111,7 +111,7 @@ public class FuzzyRatioMatchStrategy extends AbstractMatchStrategy {
     private List<FuzzyCandidate> buildCandidates(String wikiMatchName,
                                                    String wikiArea,
                                                    Map<String, String> wikiNames,
-                                                   List<GameDBPackage> gamePackages,
+                                                   List<NoIntroGamePackage> gamePackages,
                                                    boolean[] usedGame,
                                                    Map<String, String> areaMapping) {
         var candidates = new ArrayList<FuzzyCandidate>();
@@ -128,7 +128,7 @@ public class FuzzyRatioMatchStrategy extends AbstractMatchStrategy {
 
             int score = FuzzySearch.weightedRatio(wikiMatchName, gameMatchName);
             candidates.add(FuzzyCandidate.builder()
-                    .gameDBPackage(gamePkg)
+                    .noIntroGamePackage(gamePkg)
                     .wikiMatchName(wikiMatchName)
                     .gameMatchName(gameMatchName)
                     .score(score)
@@ -157,14 +157,14 @@ public class FuzzyRatioMatchStrategy extends AbstractMatchStrategy {
      * 判断各 area 的 selected 候选是否唯一收敛到同一个 GameDBPackage。
      * 条件：至少有一个 area 有 selected，且所有 selected 指向同一个 game 包。
      */
-    private GameDBPackage resolveMatch(Map<String, FuzzyAreaResult> areaResults,
+    private NoIntroGamePackage resolveMatch(Map<String, FuzzyAreaResult> areaResults,
                                         Set<String> wikiAreas) {
         // 收集所有 area 的 selected（需满足 area 集合相同——只有 area 存在于 gameNames 才会有候选）
-        Set<GameDBPackage> selectedGames = areaResults.values().stream()
-                .map(FuzzyAreaResult::getSelected)
-                .filter(Objects::nonNull)
-                .map(FuzzyCandidate::getGameDBPackage)
-                .collect(Collectors.toSet());
+        Set<NoIntroGamePackage> selectedGames = areaResults.values().stream()
+                                                           .map(FuzzyAreaResult::getSelected)
+                                                           .filter(Objects::nonNull)
+                                                           .map(FuzzyCandidate::getNoIntroGamePackage)
+                                                           .collect(Collectors.toSet());
 
         // 地区集合已在 buildCandidates 中保证一致，这里只需确认所有 area 均有候选且收敛到同一个包
         if (selectedGames.size() == 1) {
@@ -186,7 +186,7 @@ public class FuzzyRatioMatchStrategy extends AbstractMatchStrategy {
         }
     }
 
-    private static void removeUsedGame(List<GameDBPackage> list, boolean[] usedGame) {
+    private static void removeUsedGame(List<NoIntroGamePackage> list, boolean[] usedGame) {
         for (int i = usedGame.length - 1; i >= 0; i--) {
             if (usedGame[i]) list.remove(i);
         }

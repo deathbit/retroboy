@@ -1,4 +1,4 @@
-package com.github.deathbit.retroboy.domain;
+package com.github.deathbit.retroboy.domain.game;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,14 +9,12 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class WikiDB {
+public class WikiGame implements Game {
     private String id;
     private String packageId;
-    private String name;
+    private String title;
+    private String area;
     private String developer;
     private String publisher;
-    private String firstReleased;
     private String releaseDate;
-    private String matchName;
-    private String area;
 }

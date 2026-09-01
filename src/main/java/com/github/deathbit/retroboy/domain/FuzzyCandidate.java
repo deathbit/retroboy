@@ -1,5 +1,6 @@
 package com.github.deathbit.retroboy.domain;
 
+import com.github.deathbit.retroboy.domain.gamepackage.NoIntroGamePackage;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,7 +14,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class FuzzyCandidate {
-    private GameDBPackage gameDBPackage;
+    private NoIntroGamePackage noIntroGamePackage;
     /** 该地区 WikiDBPackage 的 matchName */
     private String wikiMatchName;
     /** 该地区 GameDBPackage 的 matchName */

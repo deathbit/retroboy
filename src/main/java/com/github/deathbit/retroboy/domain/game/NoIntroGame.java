@@ -1,16 +1,21 @@
-package com.github.deathbit.retroboy.domain;
+package com.github.deathbit.retroboy.domain.game;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class GameDB {
-    private String romName;
+public class NoIntroGame implements Game {
+    private String id;
+    private String packageId;
+    private List<String> areas;
+    private String title;
     private String additional;
     private String adult;
     private String aftermarket;
@@ -29,7 +34,6 @@ public class GameDB {
     private String listed;
     private String name;
     private String name_alt;
-    private String number;
     private String physical;
     private String region;
     private String regparent;
@@ -39,5 +43,4 @@ public class GameDB {
     private String sticky_note;
     private String version1;
     private String version2;
-    private String packageId;
 }

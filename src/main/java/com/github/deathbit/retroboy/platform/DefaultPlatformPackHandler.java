@@ -12,10 +12,10 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
     private PlatformContextInitializer platformContextInitializer;
 
     @Autowired
-    private GameDBHandler gameDBHandler;
+    private WikiHandler wikiHandler;
 
     @Autowired
-    private WikiDBHandler wikiDBHandler;
+    private NoIntroHandler noIntroHandler;
 
     @Autowired
     private MatchHandler matchHandler;
@@ -47,8 +47,8 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
     @Override
     public void handle(Platform platform) throws Exception {
         var platformContext = platformContextInitializer.handle(platform);
-        gameDBHandler.handle(platformContext);
-        wikiDBHandler.handle(platformContext);
+        wikiHandler.handle(platformContext);
+        noIntroHandler.handle(platformContext);
         matchHandler.handle(platformContext);
         moveHandler.handle(platformContext);
         renameHandler.handle(platformContext);

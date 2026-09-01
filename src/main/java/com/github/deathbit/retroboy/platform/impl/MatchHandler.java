@@ -1,12 +1,12 @@
 package com.github.deathbit.retroboy.platform.impl;
 
-import com.github.deathbit.retroboy.domain.GameDBPackage;
-import com.github.deathbit.retroboy.domain.GameDB;
+import com.github.deathbit.retroboy.domain.gamepackage.NoIntroGamePackage;
+import com.github.deathbit.retroboy.domain.game.NoIntroGame;
 import com.github.deathbit.retroboy.domain.MatchPairForGame;
 import com.github.deathbit.retroboy.domain.MatchPairForPackage;
 import com.github.deathbit.retroboy.domain.MatchResult;
 import com.github.deathbit.retroboy.domain.PlatformContext;
-import com.github.deathbit.retroboy.domain.WikiDBPackage;
+import com.github.deathbit.retroboy.domain.gamepackage.WikiGamePackage;
 import com.github.deathbit.retroboy.enums.MatchLevel;
 import com.github.deathbit.retroboy.match.MatchStrategy;
 import com.github.deathbit.retroboy.match.strategy.FullExactMatchStrategy;
@@ -45,10 +45,10 @@ public class MatchHandler {
     );
 
     public void handle(PlatformContext platformContext) throws Exception {
-        var wikiList = new ArrayList<>(platformContext.getWikiDBPackages());
-        var gameList = new ArrayList<>(platformContext.getGameDBPackages());
+        var wikiList = new ArrayList<>(platformContext.getWikiGamePackages());
+        var gameList = new ArrayList<>(platformContext.getNoIntroGamePackages());
         var areaMapping = platformContext.getPlatformProcessor().gameDBToWikiDBAreaMapping(
-            platformContext.getGameDBAreas(), platformContext.getWikiDBAreas());
+            buildGameAreas(gameList), buildWikiAreas(wikiList));
         platformContext.setGameDBToWikiDBAreaMapping(areaMapping);
 
         var allPairs = new ArrayList<MatchPairForPackage>();
@@ -60,7 +60,7 @@ public class MatchHandler {
 
         // 第四层：WeightedRatio 模糊匹配（跳过 noFuzzyRatioMatch 中指定的 wiki 包）
         var noFuzzy = platformContext.getPlatformPackTaskConfig().getNoFuzzyRatioMatch();
-        var skippedWiki = new ArrayList<WikiDBPackage>();
+        var skippedWiki = new ArrayList<WikiGamePackage>();
         if (noFuzzy != null && !noFuzzy.isEmpty()) {
             wikiList.removeIf(pkg -> {
                 if (noFuzzy.contains(pkg.getId())) {
@@ -89,12 +89,28 @@ public class MatchHandler {
 
         platformContext.setMatchResult(MatchResult.builder()
                                                   .matchPairsByLevel(matchPairsByLevel)
-                                                  .mismatchWikiDBPackages(wikiList)
-                                                  .unusedGameDBPackages(gameList)
+                                                  .mismatchWikiGamePackages(wikiList)
+                                                  .unusedNoIntroGamePackages(gameList)
                                                   .fuzzyMatchDetails(fuzzyStrategy.getFuzzyMatchDetails())
                                                   .build());
         generateMatchReport(platformContext);
         platformContext.setMatchPairForGamesByArea(buildMatchPairForGamesByArea(platformContext));
+    }
+
+    private List<String> buildWikiAreas(List<WikiGamePackage> wikiGamePackages) {
+        var areas = new LinkedHashSet<String>();
+        for (var pkg : wikiGamePackages) {
+            areas.addAll(pkg.getWikiGameByArea().keySet());
+        }
+        return new ArrayList<>(areas);
+    }
+
+    private List<String> buildGameAreas(List<NoIntroGamePackage> noIntroGamePackages) {
+        var areas = new LinkedHashSet<String>();
+        for (var pkg : noIntroGamePackages) {
+            areas.addAll(pkg.getNoIntroGameByArea().keySet());
+        }
+        return new ArrayList<>(areas);
     }
 
     /**
@@ -102,8 +118,8 @@ public class MatchHandler {
      * 条件：两端 ID 均存在于剩余列表中（即未被前几层消耗），满足则配对并从列表移除。
      */
     private List<MatchPairForPackage> applyDirectMapping(List<String> mappingList,
-                                                         List<WikiDBPackage> wikiList,
-                                                         List<GameDBPackage> gameList
+        List<WikiGamePackage> wikiList,
+        List<NoIntroGamePackage> gameList
     ) {
         // 校验配置层重复：同一 wiki ID 或 game ID 不得出现多次
         var seenWikiIds = new LinkedHashSet<String>();
@@ -129,14 +145,14 @@ public class MatchHandler {
             var wikiId = parts[0].trim();
             var gameId = parts[1].trim();
 
-            WikiDBPackage wikiPkg = null;
+            WikiGamePackage wikiPkg = null;
             for (var pkg : wikiList) {
                 if (wikiId.equals(pkg.getId())) {
                     wikiPkg = pkg;
                     break;
                 }
             }
-            GameDBPackage gamePkg = null;
+            NoIntroGamePackage gamePkg = null;
             for (var pkg : gameList) {
                 if (gameId.equals(pkg.getId())) {
                     gamePkg = pkg;
@@ -152,10 +168,10 @@ public class MatchHandler {
             }
 
             pairs.add(MatchPairForPackage.builder()
-                               .wikiDBPackage(wikiPkg)
-                               .gameDBPackage(gamePkg)
-                               .matchLevel(MatchLevel.DIRECT_MAPPING)
-                               .build());
+                                         .wikiGamePackage(wikiPkg)
+                                         .noIntroGamePackage(gamePkg)
+                                         .matchLevel(MatchLevel.DIRECT_MAPPING)
+                                         .build());
             wikiList.remove(wikiPkg);
             gameList.remove(gamePkg);
         }
@@ -171,8 +187,8 @@ public class MatchHandler {
             var pairs = matchResult.getMatchPairsByLevel().getOrDefault(level, List.of());
             report.put(level.name().toLowerCase(), buildPairReport(pairs));
         }
-        report.put("mismatchWikiDBPackages", buildWikiPackageReport(matchResult.getMismatchWikiDBPackages()));
-        report.put("unusedGameDBPackages", buildGamePackageReport(matchResult.getUnusedGameDBPackages()));
+        report.put("mismatchWikiDBPackages", buildWikiPackageReport(matchResult.getMismatchWikiGamePackages()));
+        report.put("unusedGameDBPackages", buildGamePackageReport(matchResult.getUnusedNoIntroGamePackages()));
 
         var outputPath = Path.of("src/main/resources/platform/" + platform + "/" + platform + "_wiki_db.json");
         try {
@@ -180,11 +196,11 @@ public class MatchHandler {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        if (!matchResult.getMismatchWikiDBPackages().isEmpty()) {
-            throw new RuntimeException("mismatchWikiDBPackages is not empty: " + matchResult.getMismatchWikiDBPackages().size() + " unmatched wiki packages");
+        if (!matchResult.getMismatchWikiGamePackages().isEmpty()) {
+            throw new RuntimeException("mismatchWikiDBPackages is not empty: " + matchResult.getMismatchWikiGamePackages().size() + " unmatched wiki packages");
         }
-        if (!matchResult.getUnusedGameDBPackages().isEmpty()) {
-            throw new RuntimeException("unusedGameDBPackages is not empty: " + matchResult.getUnusedGameDBPackages().size() + " unused game packages");
+        if (!matchResult.getUnusedNoIntroGamePackages().isEmpty()) {
+            throw new RuntimeException("unusedGameDBPackages is not empty: " + matchResult.getUnusedNoIntroGamePackages().size() + " unused game packages");
         }
     }
 
@@ -195,19 +211,19 @@ public class MatchHandler {
 
         for (var pairs : matchResult.getMatchPairsByLevel().values()) {
             for (var pair : pairs) {
-                var gameDBByWikiArea = buildGameDBByWikiArea(pair.getGameDBPackage(), areaMapping);
-                for (var entry : pair.getWikiDBPackage().getWikiDBByArea().entrySet()) {
+                var gameDBByWikiArea = buildGameDBByWikiArea(pair.getNoIntroGamePackage(), areaMapping);
+                for (var entry : pair.getWikiGamePackage().getWikiGameByArea().entrySet()) {
                     var wikiArea = entry.getKey();
                     var wikiDB = entry.getValue();
                     var gameDB = gameDBByWikiArea.get(wikiArea);
                     if (gameDB == null) {
                         throw new RuntimeException("MatchPairForGame 缺少对应 GameDB: wikiPackageId=%s, gamePackageId=%s, area=%s"
-                            .formatted(pair.getWikiDBPackage().getId(), pair.getGameDBPackage().getId(), wikiArea));
+                            .formatted(pair.getWikiGamePackage().getId(), pair.getNoIntroGamePackage().getId(), wikiArea));
                     }
                     matchPairForGamesByArea.computeIfAbsent(wikiArea, ignored -> new ArrayList<>())
                                            .add(MatchPairForGame.builder()
-                                                                .wikiDB(wikiDB)
-                                                                .gameDB(gameDB)
+                                                                .wikiGame(wikiDB)
+                                                                .noIntroGame(gameDB)
                                                                 .build());
                 }
             }
@@ -216,24 +232,24 @@ public class MatchHandler {
         return matchPairForGamesByArea;
     }
 
-    private Map<String, GameDB> buildGameDBByWikiArea(
-        GameDBPackage gameDBPackage,
+    private Map<String, NoIntroGame> buildGameDBByWikiArea(
+        NoIntroGamePackage noIntroGamePackage,
         Map<String, String> areaMapping
     ) {
-        var gameDBByWikiArea = new LinkedHashMap<String, GameDB>();
-        for (var entry : gameDBPackage.getGameDBByArea().entrySet()) {
+        var gameDBByWikiArea = new LinkedHashMap<String, NoIntroGame>();
+        for (var entry : noIntroGamePackage.getNoIntroGameByArea().entrySet()) {
             var gameArea = entry.getKey();
             var wikiArea = areaMapping.getOrDefault(gameArea, gameArea);
             var existingGameDB = gameDBByWikiArea.get(wikiArea);
             if (existingGameDB != null) {
-                throw new RuntimeException("MatchPairForGame area conflict: gamePackageId=%s, wikiArea=%s, existing=%s(number=%s), duplicate=%s(number=%s)"
+                throw new RuntimeException("MatchPairForGame area conflict: gamePackageId=%s, wikiArea=%s, existing=%s(id=%s), duplicate=%s(id=%s)"
                     .formatted(
-                        gameDBPackage.getId(),
+                        noIntroGamePackage.getId(),
                         wikiArea,
-                        existingGameDB.getRomName(),
-                        existingGameDB.getNumber(),
-                        entry.getValue().getRomName(),
-                        entry.getValue().getNumber()
+                        existingGameDB.getTitle(),
+                        existingGameDB.getId(),
+                        entry.getValue().getTitle(),
+                        entry.getValue().getId()
                     ));
             }
             gameDBByWikiArea.put(wikiArea, entry.getValue());
@@ -244,41 +260,45 @@ public class MatchHandler {
     private List<Map<String, Object>> buildPairReport(List<MatchPairForPackage> pairs) {
         return pairs.stream().map(pair -> {
             var entry = new LinkedHashMap<String, Object>();
-            entry.put("wiki", extractWikiNames(pair.getWikiDBPackage()));
-            entry.put("game", extractGameNames(pair.getGameDBPackage()));
+            entry.put("wiki", extractWikiNames(pair.getWikiGamePackage()));
+            entry.put("game", extractGameNames(pair.getNoIntroGamePackage()));
             return (Map<String, Object>) entry;
         }).toList();
     }
 
-    private List<Map<String, String>> buildWikiPackageReport(List<WikiDBPackage> packages) {
-        if (packages == null) return List.of();
+    private List<Map<String, String>> buildWikiPackageReport(List<WikiGamePackage> packages) {
+        if (packages == null) {
+            return List.of();
+        }
         return packages.stream().map(pkg -> {
             var entry = new LinkedHashMap<String, String>();
             entry.put("id", pkg.getId());
-            pkg.getWikiDBByArea().forEach((area, wikiDB) -> entry.put(area, wikiDB.getName()));
+            pkg.getWikiGameByArea().forEach((area, wikiDB) -> entry.put(area, wikiDB.getTitle()));
             return (Map<String, String>) entry;
         }).toList();
     }
 
-    private List<Map<String, String>> buildGamePackageReport(List<GameDBPackage> packages) {
-        if (packages == null) return List.of();
+    private List<Map<String, String>> buildGamePackageReport(List<NoIntroGamePackage> packages) {
+        if (packages == null) {
+            return List.of();
+        }
         return packages.stream().map(pkg -> {
             var entry = new LinkedHashMap<String, String>();
             entry.put("id", pkg.getId());
-            pkg.getGameDBByArea().forEach((area, gameDB) -> entry.put(area, area + " - " + gameDB.getRomName()));
+            pkg.getNoIntroGameByArea().forEach((area, gameDB) -> entry.put(area, area + " - " + gameDB.getTitle()));
             return (Map<String, String>) entry;
         }).toList();
     }
 
-    private Map<String, String> extractWikiNames(WikiDBPackage pkg) {
+    private Map<String, String> extractWikiNames(WikiGamePackage pkg) {
         var names = new LinkedHashMap<String, String>();
-        pkg.getWikiDBByArea().forEach((area, wikiDB) -> names.put(area, wikiDB.getName()));
+        pkg.getWikiGameByArea().forEach((area, wikiDB) -> names.put(area, wikiDB.getTitle()));
         return names;
     }
 
-    private Map<String, String> extractGameNames(GameDBPackage pkg) {
+    private Map<String, String> extractGameNames(NoIntroGamePackage pkg) {
         var names = new LinkedHashMap<String, String>();
-        pkg.getGameDBByArea().forEach((area, gameDB) -> names.put(area, gameDB.getName()));
+        pkg.getNoIntroGameByArea().forEach((area, gameDB) -> names.put(area, gameDB.getTitle()));
         return names;
     }
 }
