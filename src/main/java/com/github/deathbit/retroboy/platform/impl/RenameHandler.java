@@ -55,15 +55,15 @@ public class RenameHandler {
         var gameDBsByArea = new LinkedHashMap<String, List<NoIntroGame>>();
         for (var pkg : platformContext.getNoIntroGamePackages()) {
             pkg.getNoIntroGameByArea().forEach((area, gameDB) ->
-                gameDBsByArea.computeIfAbsent(area, ignored -> new ArrayList<>()).add(gameDB));
+                    gameDBsByArea.computeIfAbsent(area, ignored -> new ArrayList<>()).add(gameDB));
         }
         return gameDBsByArea;
     }
 
     private Map<String, Map<String, FinalGame>> buildFinalGameMapByArea(
-        PlatformContext platformContext,
-        Map<String, List<NoIntroGame>> gameDBsByArea,
-        Map<String, FileContext> fileContextLookupMap
+            PlatformContext platformContext,
+            Map<String, List<NoIntroGame>> gameDBsByArea,
+            Map<String, FileContext> fileContextLookupMap
     ) {
         var finalGameMapByArea = new LinkedHashMap<String, Map<String, FinalGame>>();
         gameDBsByArea.forEach((gameArea, gameDBs) -> {
@@ -79,26 +79,26 @@ public class RenameHandler {
                 var finalRomName = renameResult.get(fileContext.getFileName());
                 if (finalRomName == null || finalRomName.isBlank()) {
                     throw new IllegalStateException("Final ROM name not found for area=%s, rom=%s"
-                        .formatted(gameArea, gameDB.getTitle()));
+                            .formatted(gameArea, gameDB.getTitle()));
                 }
 
                 var matchPair = findMatchPairForGame(platformContext, gameArea, gameDB);
                 var wikiDB = matchPair.getWikiGame();
                 var finalGame = FinalGame.builder()
-                                         .finalRomName(finalRomName)
-                                         .originRomName(fileContext.getFullName())
-                                         .wikiArea(wikiDB.getArea())
-                                         .wikiName(wikiDB.getTitle())
-                                         .gameArea(gameArea)
-                                         .gameName(gameDB.getName())
-                                         .wikiGame(wikiDB)
-                                         .noIntroGame(gameDB)
-                                         .fileContext(fileContext)
-                                         .build();
+                        .finalRomName(finalRomName)
+                        .originRomName(fileContext.getFullName())
+                        .wikiArea(wikiDB.getArea())
+                        .wikiName(wikiDB.getTitle())
+                        .gameArea(gameArea)
+                        .gameName(gameDB.getName())
+                        .wikiGame(wikiDB)
+                        .noIntroGame(gameDB)
+                        .fileContext(fileContext)
+                        .build();
                 var existing = finalGames.putIfAbsent(finalRomName, finalGame);
                 if (existing != null) {
                     throw new IllegalStateException("Final ROM name conflict: area=%s, finalRomName=%s, rom1=%s, rom2=%s"
-                        .formatted(gameArea, finalRomName, existing.getOriginRomName(), finalGame.getOriginRomName()));
+                            .formatted(gameArea, finalRomName, existing.getOriginRomName(), finalGame.getOriginRomName()));
                 }
             }
             finalGameMapByArea.put(gameArea, finalGames);
@@ -107,27 +107,28 @@ public class RenameHandler {
     }
 
     private MatchPairForGame findMatchPairForGame(PlatformContext platformContext, String gameArea, NoIntroGame noIntroGame) {
-        var areaMapping = platformContext.getMatchResult().getGameDBToWikiDBAreaMapping();
-        var wikiArea = areaMapping.getOrDefault(gameArea, gameArea);
-        var matchPairs = platformContext.getMatchPairForGamesByArea().get(wikiArea);
-        if (matchPairs == null) {
-            throw new IllegalStateException("Match pairs not found for wiki area: " + wikiArea);
+        if (platformContext.getMatchResults() == null) {
+            throw new IllegalStateException("Match results not found");
         }
 
         MatchPairForGame matchPair = null;
-        for (var candidate : matchPairs) {
+        for (var matchResult : platformContext.getMatchResults()) {
+            var candidate = matchResult.getMatchPairForGameByArea().get(gameArea);
+            if (candidate == null) {
+                continue;
+            }
             if (candidate.getNoIntroGame() != noIntroGame) {
                 continue;
             }
             if (matchPair != null) {
                 throw new IllegalStateException("Multiple match pairs found for area=%s, rom=%s"
-                    .formatted(gameArea, noIntroGame.getTitle()));
+                        .formatted(gameArea, noIntroGame.getTitle()));
             }
             matchPair = candidate;
         }
         if (matchPair == null || matchPair.getWikiGame() == null) {
             throw new IllegalStateException("Match pair not found for area=%s, rom=%s"
-                .formatted(gameArea, noIntroGame.getTitle()));
+                    .formatted(gameArea, noIntroGame.getTitle()));
         }
         return matchPair;
     }
@@ -158,10 +159,10 @@ public class RenameHandler {
     }
 
     private List<RenamePlan> buildRenamePlan(
-        Map<String, FileContext> fileContextLookupMap,
-        Map<String, List<NoIntroGame>> gameDBsByArea,
-        String area,
-        Map<String, String> renameOptionMap
+            Map<String, FileContext> fileContextLookupMap,
+            Map<String, List<NoIntroGame>> gameDBsByArea,
+            String area,
+            Map<String, String> renameOptionMap
     ) {
         var renamePlan = new ArrayList<RenamePlan>();
         var targetToSource = new HashMap<String, String>();
@@ -173,7 +174,7 @@ public class RenameHandler {
             var existingSource = targetToSource.putIfAbsent(newName, oldName);
             if (existingSource != null && !existingSource.equals(oldName)) {
                 throw new RuntimeException("重命名目标冲突: area=%s, target=%s, source1=%s, source2=%s，请在 renameOptions 中配置不同目标名"
-                    .formatted(area, newName, existingSource, oldName));
+                        .formatted(area, newName, existingSource, oldName));
             }
             renamePlan.add(new RenamePlan(oldName, newName));
         }

@@ -57,9 +57,12 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
         noIntroHandler.handle(platformContext);
         ssHandler.handle(platformContext);
         fileContextHandler.handle(platformContext);
-
-
         matchHandler.handle(platformContext);
+
+        System.out.println();
+
+
+
         moveHandler.handle(platformContext);
         renameHandler.handle(platformContext);
         gameListHandler.handle(platformContext);

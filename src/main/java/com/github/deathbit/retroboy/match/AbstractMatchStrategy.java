@@ -60,7 +60,7 @@ public abstract class AbstractMatchStrategy implements MatchStrategy {
         var result = new LinkedHashMap<String, String>();
         for (var entry : pkg.getNoIntroGameByArea().entrySet()) {
             var wikiArea = areaMapping.getOrDefault(entry.getKey(), entry.getKey());
-            result.putIfAbsent(wikiArea, transform(MatchNameUtils.toMatchName(entry.getValue().getTitle())));
+            result.putIfAbsent(wikiArea, transform(MatchNameUtils.toMatchName(entry.getValue().getName())));
         }
         return result;
     }

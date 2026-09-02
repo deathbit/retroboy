@@ -1,14 +1,13 @@
 package com.github.deathbit.retroboy.domain;
 
 import com.github.deathbit.retroboy.domain.gamepackage.NoIntroGamePackage;
+import com.github.deathbit.retroboy.domain.gamepackage.SSGamePackage;
 import com.github.deathbit.retroboy.domain.gamepackage.WikiGamePackage;
-import com.github.deathbit.retroboy.enums.MatchLevel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
 import java.util.Map;
 
 @Data
@@ -16,14 +15,9 @@ import java.util.Map;
 @NoArgsConstructor
 @AllArgsConstructor
 public class MatchResult {
-    /** GameDB area 到 WikiDB area 的映射 */
-    private Map<String, String> gameDBToWikiDBAreaMapping;
-    /** 按 MatchLevel 分类的匹配对，每个 level 均有 key（可能为空 list） */
-    private Map<MatchLevel, List<MatchPairForPackage>> matchPairsByLevel;
-    /** 未能匹配到任何 GameDBPackage 的 WikiDBPackage */
-    private List<WikiGamePackage> mismatchWikiGamePackages;
-    /** 未被任何 WikiDBPackage 匹配的 GameDBPackage */
-    private List<NoIntroGamePackage> unusedNoIntroGamePackages;
-    /** FUZZY_RATIO 阶段每个 WikiDBPackage 的中间计算过程（无论是否匹配成功） */
-    private List<FuzzyMatchDetail> fuzzyMatchDetails;
+    private WikiGamePackage wikiGamePackage;
+    private NoIntroGamePackage noIntroGamePackage;
+    private Map<String, MatchPairForGame> matchPairForGameByArea;
+    private Map<String, FileContext> fileContextByArea;
+    private Map<String, SSGamePackage> ssGamePackageByArea;
 }

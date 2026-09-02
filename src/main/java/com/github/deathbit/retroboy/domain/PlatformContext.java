@@ -30,11 +30,7 @@ public class PlatformContext {
     private List<SSGamePackage> ssGamePackages;
     private List<FileContext> fileContexts;
 
-
-
-    private MatchResult matchResult;
-    private Map<String, List<MatchPairForGame>> matchPairForGamesByArea;
-
+    private List<MatchResult> matchResults;
 
     private Map<String, Map<String, String>> renameResultByArea;
 

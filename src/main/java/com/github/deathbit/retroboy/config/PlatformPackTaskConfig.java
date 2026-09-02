@@ -29,12 +29,32 @@ public class PlatformPackTaskConfig {
     private List<Path> coreConfigs;
     private Set<String> areaGameBlackList;
     private Set<String> areaGameWhiteList;
-    /** 重命名配置，格式："oldFileName -> newFileName" */
+    /**
+     * 重命名配置，格式："oldFileName -> newFileName"
+     */
     private List<String> renameOptions;
-    /** 文件上下文别名映射，格式："sourceFullName -> aliasFullName" */
+    /**
+     * 文件上下文别名映射，格式："sourceFullName -> aliasFullName"
+     */
     private List<String> fileContextMappingList;
-    /** wiki 包 ID → game 包 ID 的直接映射，格式："wikiId -> gameId" */
+    /**
+     * wiki 包 ID → game 包 ID 的直接映射，格式："wikiId -> gameId"
+     */
     private List<String> packageMappingList;
-    /** 跳过 FuzzyRatio 匹配的 wiki 包 ID 集合 */
+    /**
+     * ScreenScraper game ID → SHA1 的补充映射，格式："gameId - SHA1"
+     */
+    private List<String> sha1MappingAddList;
+    /**
+     * ScreenScraper game ID → SHA1 的删除映射，格式："gameId - SHA1"
+     */
+    private List<String> sha1MappingRemoveList;
+    /**
+     * 允许各地区匹配到不同 ScreenScraper 包的 wiki 包 ID 集合
+     */
+    private Set<String> allowDifferentSSGamePackageWikiIds;
+    /**
+     * 跳过 FuzzyRatio 匹配的 wiki 包 ID 集合
+     */
     private Set<String> noFuzzyRatioMatch;
 }
