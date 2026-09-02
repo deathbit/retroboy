@@ -1,0 +1,773 @@
+{
+  "id": "155044",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Lei Dian 2 - Thunderbolt Fighting Plane"
+    },
+    {
+      "region": "jp",
+      "text": "Lei Dian 2 - Thunderbolt Fighting Plane"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "11443",
+    "text": "Gametec"
+  },
+  "developpeur": {
+    "id": "11443",
+    "text": "Gametec"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Lei Dian II: Thunderbolt Fighting Plane is an unlicensed shooter."
+    },
+    {
+      "langue": "de",
+      "text": "Lei Dian II: Thunderbolt Fighting Plane ist ein nicht lizenzierter Shooter."
+    },
+    {
+      "langue": "es",
+      "text": "Lei Dian II: Thunderbolt Fighting Plane es un juego de disparos sin licencia."
+    },
+    {
+      "langue": "it",
+      "text": "Lei Dian II: Thunderbolt Fighting Plane è uno sparatutto senza licenza."
+    }
+  ],
+  "genres": [
+    {
+      "id": "2851",
+      "nomcourt": "0104",
+      "principale": "0",
+      "parentid": "79",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shoot'em Up / Vertical"
+        },
+        {
+          "langue": "fr",
+          "text": "Shoot'em up / Vertical"
+        },
+        {
+          "langue": "de",
+          "text": "Shoot'em Up / Vertikal"
+        },
+        {
+          "langue": "es",
+          "text": "Shoot'em Up / Vertical"
+        },
+        {
+          "langue": "it",
+          "text": "Shoot'em Up / Verticale"
+        },
+        {
+          "langue": "pt",
+          "text": "Shoot'em Up / Vertical"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "nomcourt": "0104",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "fr",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "de",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "es",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "it",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "pt",
+          "text": "Shoot'em Up"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=sstitle(cn)",
+      "region": "cn",
+      "crc": "acb85684",
+      "md5": "d3ea87eda3ce70ea39e6ebd311e48bab",
+      "sha1": "9b693d0f071a817483e5bfb1247571e3c1fb4495",
+      "size": "2816",
+      "format": "png"
+    },
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "5c497f9c",
+      "md5": "31a3a757d381cd57c62de872e3de4942",
+      "sha1": "73281e527aaabdccb8dca29bf6292147f417ac78",
+      "size": "57752",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=ss(wor)",
+      "region": "wor",
+      "crc": "09329515",
+      "md5": "35f8a5f1019c374844e1e4f6291a9773",
+      "sha1": "3408a7415b62360baf92fce3abc438bf70e268ac",
+      "size": "28201",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=video",
+      "crc": "eed8ef2d",
+      "md5": "eec2ea2580f66fb7ea7ec063d72c6a80",
+      "sha1": "27f9bb1aec44aab32351ab04935790249c495f7d",
+      "size": "927401",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=video-normalized",
+      "crc": "51b0b8ec",
+      "md5": "9513b511d14fa154add0cfa5770161d6",
+      "sha1": "9bdad5f58e0029bc22126484a7036120a038085a",
+      "size": "1369427",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=steamgrid",
+      "crc": "e70f5ad5",
+      "md5": "0ceae449c700a747f52150e8fd7a86d8",
+      "sha1": "8bf1d86a1d34146d2213527541924e9b49e463e0",
+      "size": "22918",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=wheel(wor)",
+      "region": "wor",
+      "crc": "b7c7d2a0",
+      "md5": "f27791df089b41f98d33d6cdc754f321",
+      "sha1": "d28acacc695257f109896e00ec768c0a4332930f",
+      "size": "27717",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "2c4b54ce",
+      "md5": "f3561f02547a6852491de97b226d6b4c",
+      "sha1": "2e71d9a5007b4f6c05fb3790e5907e8a5a4d3a3e",
+      "size": "64736",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "520df695",
+      "md5": "5b8aa149b1c9b9d7e6c506ee7aa2d1b9",
+      "sha1": "067580ca34228bfa2d77b07bfaf372e063024107",
+      "size": "65799",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "0c739a9c",
+      "md5": "e1214b45a8ccce036e38a65a74d734d3",
+      "sha1": "1fbbdef3d92bf101cceea52defc075dc6e7270a3",
+      "size": "468847",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "506a20af",
+      "md5": "0a17bcf7121f85038c61ac26c7cf86de",
+      "sha1": "bcae143711e48ac57fbcfc2ba87514f3c22a7dbb",
+      "size": "73447",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "3ee5f343",
+      "md5": "6966b3b444f24899d0dd0a1fca158b4a",
+      "sha1": "0f1110af07ec7a25a680c7ca7f0970ccfaef8ee3",
+      "size": "60170",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "05895a22",
+      "md5": "fff2334a992e3659dff41b0fdc8dcd6b",
+      "sha1": "ca62e6efd9d35f12befb2f58a4fd1a0093f18621",
+      "size": "17195",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "8ad9d145",
+      "md5": "a6816e2067a29a5abbead883a970ee27",
+      "sha1": "7769bd32c999058c151e7177b0fd88c81d782532",
+      "size": "92995",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "84b20104",
+      "md5": "95c6046fac390010d79cf2964debb8fa",
+      "sha1": "70005332c50406865746492bddd3feed1ec39568",
+      "size": "175155",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "97ba038b",
+      "md5": "96d1e83f5a0d6e3e512f4ea81129be51",
+      "sha1": "86fee9dd1fb3bcda2c10a2a482c2445e446e1999",
+      "size": "73539",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "fc954cc7",
+      "md5": "f650dd74be45cbb01e3aab1bd305ea5d",
+      "sha1": "4b981e6edfaba4ba2c139eb17146b8dccfd67448",
+      "size": "238489",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "3e465edb",
+      "md5": "fdd470df76476c1a18fc3796b5aba329",
+      "sha1": "18314d08962ce7f261408a25078554305c84cebb",
+      "size": "222813",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "55a7541f",
+      "md5": "404f907a65ef016268cba09566609445",
+      "sha1": "5a39fd1cbcfc395d0c9cf3568a207e3cb7d46a2e",
+      "size": "128451",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "55a7541f",
+      "md5": "404f907a65ef016268cba09566609445",
+      "sha1": "5a39fd1cbcfc395d0c9cf3568a207e3cb7d46a2e",
+      "size": "128451",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=mixrbv2(asi)",
+      "region": "asi",
+      "crc": "67bdd23d",
+      "md5": "b8500b7fc411acdbaf28a336122b5954",
+      "sha1": "45b959f6b8a321ee4746f675d342d23ee48c8d1e",
+      "size": "235193",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=mixrbv2(cn)",
+      "region": "cn",
+      "crc": "ff94d5ea",
+      "md5": "8bf6b613d65b3077a1b093b23919d076",
+      "sha1": "8aed743e2b5c88566c6c7e579aa01d18e125c1c2",
+      "size": "234935",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "67bdd23d",
+      "md5": "b8500b7fc411acdbaf28a336122b5954",
+      "sha1": "45b959f6b8a321ee4746f675d342d23ee48c8d1e",
+      "size": "235193",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "67bdd23d",
+      "md5": "b8500b7fc411acdbaf28a336122b5954",
+      "sha1": "45b959f6b8a321ee4746f675d342d23ee48c8d1e",
+      "size": "235193",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=155044&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "ff94d5ea",
+      "md5": "8bf6b613d65b3077a1b093b23919d076",
+      "sha1": "8aed743e2b5c88566c6c7e579aa01d18e125c1c2",
+      "size": "234935",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2851",
+      "parent": "genre",
+      "subparent": "Shoot'em up / Vertical",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2851&media=pictoliste",
+      "crc": "9c00d7a8",
+      "md5": "dbd75ba0db99aaf2e1d67cc48e6726ab",
+      "sha1": "1c576a324bfaaed85f03a50f2bacc04adeec55c3",
+      "size": "18416",
+      "format": "png"
+    },
+    {
+      "id": "2851",
+      "parent": "genre",
+      "subparent": "Shoot'em up / Vertical",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2851&media=logo-monochrome",
+      "crc": "e19dade7",
+      "md5": "0afcb25a34ac1921a5d0fd64a62c7c54",
+      "sha1": "a1e09d691a44556694fca1542a41ed38df203ebf",
+      "size": "15685",
+      "format": "png"
+    },
+    {
+      "id": "2851",
+      "parent": "genre",
+      "subparent": "Shoot'em up / Vertical",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2851&media=logo-monochrome-svg",
+      "crc": "dbe4b264",
+      "md5": "7af78e308327c111f2e1aeb051b47111",
+      "sha1": "c4b766cfdd728e73f6613bc8f66601fe13d1974a",
+      "size": "2866",
+      "format": "svg"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=pictoliste",
+      "crc": "9746a0d4",
+      "md5": "818adff397e9fa2d57dda2bcf78264f3",
+      "sha1": "c0a1b5b73edc5bed64549be9ea87b8d63cd5dbd4",
+      "size": "801",
+      "format": "png"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=logo-monochrome",
+      "crc": "dd5fe4a2",
+      "md5": "c68fd2d841216a7731ab359f27c83253",
+      "sha1": "a72048fdf61cf38f02c67cdef772745050354773",
+      "size": "4753",
+      "format": "png"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=logo-monochrome-svg",
+      "crc": "cfcb4073",
+      "md5": "04b04e406dbe7fa283310d319b206485",
+      "sha1": "47dd7fbeff5af8dbf486031b966857d8c9e4f416",
+      "size": "1681",
+      "format": "svg"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=background",
+      "crc": "f14aae18",
+      "md5": "73879fae56ae9f80579a8381b60886f3",
+      "sha1": "3f3ff926bfb2fc1849397ae0334613cbee48ee68",
+      "size": "174160",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "757826",
+      "romsize": "262160",
+      "romfilename": "0819 Thunder.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CE1813C9",
+      "rommd5": "0952C5D5755103824F274EC04BDF6051",
+      "romsha1": "F41C9327DFB08A28480FA3408566B2365F54BB32",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "45044",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "56"
+        ],
+        "regions_shortname": [
+          "cn"
+        ],
+        "regions_en": [
+          "China"
+        ],
+        "regions_fr": [
+          "Chine"
+        ],
+        "regions_de": [
+          "China"
+        ],
+        "regions_es": [
+          "China"
+        ],
+        "regions_it": [
+          "Cina"
+        ],
+        "regions_pt": [
+          "China"
+        ]
+      }
+    },
+    {
+      "id": "818779",
+      "romsize": "262144",
+      "romfilename": "Lei Dian II - Thunderbolt Fighting Plane (Asia) (En) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2BD49E68",
+      "rommd5": "724ABE9558C3914748401C97F9BC92E6",
+      "romsha1": "2C188A09F6640E253AB03F71F473C8227184F7B6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14603",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      }
+    },
+    {
+      "id": "1139817",
+      "romsize": "262160",
+      "romfilename": "Lei Dian II - Thunderbolt Fighting Plane (Asia) (En) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5f32f961",
+      "rommd5": "2e4bc6ba30e927a41bafc7d7c4936afb",
+      "romsha1": "836dc017fd38917fc8443aca92ebed8c71cc33dc",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11518",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      }
+    },
+    {
+      "id": "1365914",
+      "romsize": "103542",
+      "romfilename": "Thunderbolt Fighting Plane (World) (QUByte Classics).zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "41164503",
+      "rommd5": "9C95B088A4D8B77369F2EC0B40DBCAD4",
+      "romsha1": "1AD2E18CBE7A89AD26A29EE769B96D8CE3C84B16",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1760"
+    },
+    {
+      "id": "818780",
+      "romsize": "103571",
+      "romfilename": "Lei Dian II - Thunderbolt Fighting Plane (Asia) (En) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2CD2983C",
+      "rommd5": "114C3E1904F75E25D1508A4D229A9150",
+      "romsha1": "87A53C7D649C9B559FD7F5D94B8F64773A38DA2C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "156",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "1472757",
+      "romsize": "262160",
+      "romfilename": "0819 Thunder.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "DBD094F9",
+      "rommd5": "FE5F0A8E6C814D4910BB890E647C1ACA",
+      "romsha1": "BE09055021307227C0457C5A13A8B5FC18EBF85B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3"
+    }
+  ]
+}

@@ -1,0 +1,805 @@
+{
+  "id": "88379",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Jikuu Yuuden - Debias"
+    },
+    {
+      "region": "jp",
+      "text": "Jikuu Yuuden : Debias"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "6595",
+    "text": "Namcot"
+  },
+  "developpeur": {
+    "id": "109",
+    "text": "Now Production"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "The main character is the reincarnation of the legendary warrior Debias, who must save the Arumata kingdom from the rule of the Devil and three Gorgons."
+    },
+    {
+      "langue": "fr",
+      "text": "Jikuu Yuuden: Debias est un jeu de rôle développé par Now Production et publié par Namco, sorti au Japon en 1987."
+    },
+    {
+      "langue": "de",
+      "text": "Die Hauptfigur ist die Reinkarnation des legendären Kriegers Debias, der das Königreich Arumata vor der Herrschaft des Teufels und drei Gorgons retten muss."
+    },
+    {
+      "langue": "es",
+      "text": "Jikuu Yuuden: Debias es un juego de rol, desarrollado por Now Production y publicado por Namco, que se lanzó en Japón en 1987."
+    },
+    {
+      "langue": "it",
+      "text": "Il personaggio principale è la reincarnazione del leggendario guerriero Debias, che deve salvare il regno di Arumata dal dominio del Diavolo e delle tre Gorgoni."
+    },
+    {
+      "langue": "pt",
+      "text": "Jikuu Yuuden: Debias é um jogo de RPG, desenvolvido pela Now Production e publicado pela Namco, lançado no Japão em 1987."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1987-11-27"
+    }
+  ],
+  "genres": [
+    {
+      "id": "8",
+      "nomcourt": "0300",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Role Playing Game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de rôles"
+        },
+        {
+          "langue": "de",
+          "text": "Rollenspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de Rol"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di Ruolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogos de RPG"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "da62aef0",
+      "md5": "6fee381067ff5ea4c6810ceeb57fe371",
+      "sha1": "42b22782af7b8ab18f187ab417f57596dfabdf59",
+      "size": "3296",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=ss(jp)",
+      "region": "jp",
+      "crc": "4674a676",
+      "md5": "f2b9500cb080774eb96a030f03c4ec94",
+      "sha1": "7a700a6aab85846e08e90cafe22c7b6dcf54b820",
+      "size": "4104",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=video",
+      "crc": "81661897",
+      "md5": "dba3467246db5ea7dc2bf8acc50e8836",
+      "sha1": "e3fffa365ad0e2f3a4d1559929a3b13ee2da788b",
+      "size": "2126020",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=video-normalized",
+      "crc": "6506fe8c",
+      "md5": "8a0754f4c474309ace6191a92b858ba6",
+      "sha1": "926b6af27f5484dc93a37fb2ac7bc2d5e4f4ddb2",
+      "size": "1053422",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=steamgrid",
+      "crc": "b5b06ac2",
+      "md5": "f81df774ebb2e7fa53ae6a7f62dc5778",
+      "sha1": "340f7368666888f796bb8a532dd5759f14db3902",
+      "size": "27170",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=wheel(jp)",
+      "region": "jp",
+      "crc": "c7fb7c6a",
+      "md5": "bee88adb5d3c76a33e57b86b287845d8",
+      "sha1": "ce629c71fd2fee98e4e65c5f75aaf84bdbc46b86",
+      "size": "223905",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "e06ba064",
+      "md5": "d664943edead8e2f72017d4dddf1320b",
+      "sha1": "739c7a3ef83767a05bd5ec43116006152a29e67d",
+      "size": "169570",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "d8991962",
+      "md5": "e1781c2829b73017b86a1b7ce8affced",
+      "sha1": "4c693c658f2d0ed3a3cbcff3d316eca0892c0bf3",
+      "size": "171402",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "8a35fee8",
+      "md5": "ea3b55ec57fad301450384cb84037ff4",
+      "sha1": "10270b7a11817127b26c09b00317b2c03712a6c5",
+      "size": "565348",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "ed04ad2c",
+      "md5": "6358591faba0184c59fe580fbac62cc2",
+      "sha1": "5bac4ff9949c1b9340d6bb13347cf8a601c3edf1",
+      "size": "102070",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "ad52233e",
+      "md5": "c745104312fdd6b62f1397333496da35",
+      "sha1": "3d8d2595e6f099644928c6da2fd8c74be2fecc2f",
+      "size": "866006",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "49a034e8",
+      "md5": "eb46be22a8a26b3130c3ce216c6878d7",
+      "sha1": "3a697f9848079d4da1e9c5084631d5a48ede5440",
+      "size": "179002",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "b65e7630",
+      "md5": "e787e50d93f5020acb2b6645a0258389",
+      "sha1": "dc6698d2f4cd87c4d900ebc9aaafd9e078699f1d",
+      "size": "48123",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "e0fd396f",
+      "md5": "414eee50ae2492e0ca68c03537cc1bbb",
+      "sha1": "dd323ce858f1dfea2365542865d9362bc3c7c0bf",
+      "size": "47472",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "b792dd67",
+      "md5": "6f766dceb85cee737cdbd390777fab87",
+      "sha1": "cf162055226a345ee02a5ab8dbc677985ca97374",
+      "size": "644243",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "6b051772",
+      "md5": "fa67e33734b8970e52e3ef00049c10c4",
+      "sha1": "a0df7abb3ffceab81ac112a8cc68481e05959b54",
+      "size": "175019",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "2fedee6c",
+      "md5": "a8bdf8a802674a683549cc6dfe277afe",
+      "sha1": "cc1a6fbe761117d31f7951abe2dfee72beb28554",
+      "size": "1532213",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "b0c22397",
+      "md5": "51d5e687a7a4ce3167842d6326d389da",
+      "sha1": "e0e274eb4fd5dbed62b422fef27ea1bd39bbfc84",
+      "size": "415910",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "248a4d48",
+      "md5": "89eff67b2268a547bbd53c3f0fa28e5c",
+      "sha1": "f082cc17b3d92ab386145eb2eabe02ad03f40372",
+      "size": "377781",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "16837656",
+      "md5": "f09e39f251a31f5e05e3156de4feda1d",
+      "sha1": "b4c72cca1b9f089c69cff4e82dd3dc27d30839d0",
+      "size": "155147",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=manuel(jp)",
+      "region": "jp",
+      "crc": "48d419f8",
+      "md5": "a5caf456de501c479dc6cdf08e46cc55",
+      "sha1": "a50505554bbe3d6828b48348b091be9c578f5310",
+      "size": "914099",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "82eea9d4",
+      "md5": "0f6d988d5a86ab4de6bd732a176407a2",
+      "sha1": "77073d67525efa61e365ea84bf2ac275fad0cf8e",
+      "size": "692722",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "e39a0927",
+      "md5": "6f7df221f166c934824b7e4c9121c990",
+      "sha1": "6813d7c7aaa7229cb41ca6e1fd96c0e11cebcb93",
+      "size": "403122",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "f47f092d",
+      "md5": "888256c68a8ade5021365a575dee8251",
+      "sha1": "0b59693f751c79a2e3ba8053b4c40b773e05988d",
+      "size": "445417",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "33eff1f4",
+      "md5": "a4ac0ed334cf663da08ef75e48606fec",
+      "sha1": "6e30923cb39f4b08752380ad66bcd5f476f05a4b",
+      "size": "341226",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "f47f092d",
+      "md5": "888256c68a8ade5021365a575dee8251",
+      "sha1": "0b59693f751c79a2e3ba8053b4c40b773e05988d",
+      "size": "445417",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "2397ecd4",
+      "md5": "3f072a37d8485bae0d131e65ff0c4a34",
+      "sha1": "ba93158b130ef3f8a13f2ff8aea37b66bf430708",
+      "size": "607822",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "8d17f91b",
+      "md5": "85d50c748c46cce902a52a98bc827481",
+      "sha1": "c8ff4aaa53c61fce6b8248c40c911079fcdfa117",
+      "size": "507288",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88379&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "2397ecd4",
+      "md5": "3f072a37d8485bae0d131e65ff0c4a34",
+      "sha1": "ba93158b130ef3f8a13f2ff8aea37b66bf430708",
+      "size": "607822",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=6595&media=logo-monochrome",
+      "crc": "61e6995e",
+      "md5": "a9f3e5b1e0128850d5f51ea85fa91c59",
+      "sha1": "881ac51f61f6c6c327f753d344ba55989ef42d42",
+      "size": "3566",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=6595&media=wheel",
+      "crc": "a058b955",
+      "md5": "8a60dd888f5bfc9b57eb92625deb82a6",
+      "sha1": "56be60f724fbaa4d141e04da8dd17a41bc097b5d",
+      "size": "8104",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=pictoliste",
+      "crc": "95641466",
+      "md5": "794cfd972f1fc80058ac4a3b48644c49",
+      "sha1": "065a70a4f3307442d52de0927234ab023e94fa99",
+      "size": "997",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome",
+      "crc": "99338559",
+      "md5": "6d99859437bd123f6dede69b6866b4f4",
+      "sha1": "1b1963a801d9801b0ad107f8a15ef9acf5541bcb",
+      "size": "11154",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome-svg",
+      "crc": "9659d140",
+      "md5": "071309467ec61ec2b037f89af26780cd",
+      "sha1": "dbf9fad14dfc4a4239585b4aae80a9edaf6d4ae3",
+      "size": "2418",
+      "format": "svg"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=background",
+      "crc": "10d4d476",
+      "md5": "3eb9bd04afa99e6bddcdca913ee8d53b",
+      "sha1": "e35ce257c961fcfaca398e9dbab607bbd8bf2aa6",
+      "size": "353085",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "12882",
+      "romsize": "104936",
+      "romfilename": "Jikuu Yuuden - Debias (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C0C75FD4",
+      "rommd5": "D18B1C261AAAAC35696E74C92E0FA2C0",
+      "romsha1": "D67E194DCE97403CE2691FFF4B7943C716602D0F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "98811",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "316867",
+      "romsize": "327696",
+      "romfilename": "Jikuu Yuuden - Debias (Japan) (T).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0B38881D",
+      "rommd5": "EDCD4F96D394E9A8E2192C39A6C7B3EB",
+      "romsha1": "8FD98EE0BE19E6D63AAC97ED33EA70D02578A38C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "1",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "44073",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "136360",
+      "romsize": "196624",
+      "romfilename": "Jikuu Yuuden - Debias (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6663FED4",
+      "rommd5": "6400400A2EC46E81117A274C9E7EB7C2",
+      "romsha1": "CEF4C135CCBFCA551F84AF1BAF276E659A0C1438",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "41436",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1139064",
+      "romsize": "196624",
+      "romfilename": "Jikuu Yuuden - Debias (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0794aae5",
+      "rommd5": "84f377d0f86bb3022aa074591fdfb7d0",
+      "romsha1": "6cfd47fd8cf15560656b2e2c27a729491f0195a6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18998",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173526",
+      "romsize": "196608",
+      "romfilename": "Jikuu Yuuden - Debias (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "22D6D5BD",
+      "rommd5": "3A6FFBFF0693FAAA647909B3722FC5EA",
+      "romsha1": "123045D5E8CF038C2FD396BD266EEF96DAFF9BCD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1706",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114024",
+      "romsize": "104914",
+      "romfilename": "Jikuu Yuuden - Debias (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "18099319",
+      "rommd5": "DA33745BD2757842CBAA4E7C73E1B38E",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "138",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1415261",
+      "romsize": "108046",
+      "romfilename": "Debias - Legendary Space-Time Hero (Japan) [T-En by Gil Galad v1.00] [n].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "56db7a2a",
+      "rommd5": "3c028270db469768ea1fa3dcc4ccf5ce",
+      "romsha1": "4972717ce02ab3842c971c49062a79bee5533057",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    }
+  ]
+}

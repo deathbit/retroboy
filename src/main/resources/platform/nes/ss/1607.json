@@ -1,0 +1,975 @@
+{
+  "id": "1607",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Metro Cross"
+    },
+    {
+      "region": "jp",
+      "text": "Metro-Cross"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "6595",
+    "text": "Namcot"
+  },
+  "developpeur": {
+    "id": "109",
+    "text": "Now Production"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Simple side-scrolling game, where you play a skater who has to pass a set of obstacles in order to reach the end of the level.\n\nYou can skate up or down in the screen, or even jump, to be safe from the pipes you encounter on the way. As the game progresses, obstacles are more frequent and more challenging, but the essence is the same. Timing is everything in this game."
+    },
+    {
+      "langue": "fr",
+      "text": "Metro Cross sur Nes vous fait jouer un skateur devant traverser une série de niveaux tout en évitant les obstacles sur son chemin. Vous pouvez sauter mais également vous déplacer de haut en bas. Les niveaux deviennent de plus en plus complexes au fil du jeu et tout est une question de réflexe."
+    },
+    {
+      "langue": "de",
+      "text": "Einfaches Side-Scrolling-Spiel, in dem die Hauptfigur eine Reihe von Hindernissen überwinden muss, um das Ende des Levels zu erreichen.\r\n\r\nDu kannst dich auf dem Bildschirm nach oben oder unten bewegen und springen, um den Hindernissen auszuweichen. Je weiter das Spiel fortschreitet, desto häufiger und schwieriger werden die Hindernisse, aber der Kern des Spiels bleibt derselbe. Timing ist alles in diesem Spiel."
+    },
+    {
+      "langue": "es",
+      "text": "Metro Cross de Nes te hace jugar como un patinador a través de una serie de niveles mientras evita obstáculos en su camino. Puedes saltar pero también moverte hacia arriba y hacia abajo. Los niveles se vuelven cada vez más complejos a medida que el juego avanza y todo es cuestión de reflejos."
+    },
+    {
+      "langue": "it",
+      "text": "Semplice gioco a scorrimento laterale, in cui interpreti uno skater che deve superare una serie di ostacoli per raggiungere la fine del livello.\r\nnnPuoi pattinare su o giù per lo schermo, o anche saltare, per essere al sicuro dai tubi che incontri lungo la strada. Con il progredire del gioco, gli ostacoli sono più frequenti e più impegnativi, ma l'essenza è la stessa. Il tempismo è tutto in questo gioco."
+    },
+    {
+      "langue": "pt",
+      "text": "Jogo simples de rolagem lateral, onde você joga um skatista que precisa passar por um conjunto de obstáculos para chegar ao fim do nível.\r\n\r\nVocê pode andar de skate na tela, ou até pular, para se proteger dos canos que encontrar no caminho. À medida que o jogo avança, os obstáculos são mais frequentes e mais desafiadores, mas a essência é a mesma. O tempo é tudo neste jogo."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1986-12-16"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2875",
+      "nomcourt": "0602",
+      "principale": "0",
+      "parentid": "685",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports / Skateboard"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport / Skateboard"
+        },
+        {
+          "langue": "de",
+          "text": "Sport / Skateboard"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes / Skate"
+        },
+        {
+          "langue": "it",
+          "text": "Sport / Skateboard"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte / Skate"
+        }
+      ]
+    },
+    {
+      "id": "685",
+      "nomcourt": "0600",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport"
+        },
+        {
+          "langue": "de",
+          "text": "Sport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes"
+        },
+        {
+          "langue": "it",
+          "text": "Sport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "92001ba7",
+      "md5": "3401a0ec418c1e3ca58533d776c9106b",
+      "sha1": "c3b84b45b17bb03e4fda527b62d755ac594db0a3",
+      "size": "2648",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=ss(jp)",
+      "region": "jp",
+      "crc": "ce08c05d",
+      "md5": "94398e83d1c91845f51305c57a42bd11",
+      "sha1": "96f0ed7cc7a2fe8365f8bc70c7b4a9d103c6358a",
+      "size": "3552",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=fanart",
+      "crc": "d3b9b38b",
+      "md5": "22c729686a63c740f5215d1b09406f09",
+      "sha1": "1096e0baedec9df05b50f5bfa8696e62a128cf03",
+      "size": "413093",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=video",
+      "crc": "0b1f32d1",
+      "md5": "7ebb2aeae523a277e6c4afb37c8e5a92",
+      "sha1": "b6e32afdfe6adb46aea46242cc5b00371e59a820",
+      "size": "4163762",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=video-normalized",
+      "crc": "aa3ecbce",
+      "md5": "965dcf902eee6f68cd022f7b61636d88",
+      "sha1": "cfc787bff81afe610eed809a8d4bd965b1f35576",
+      "size": "2147839",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=steamgrid",
+      "crc": "8d00a4ad",
+      "md5": "3ee21da7eb3057f6c81024fa68e17f6f",
+      "sha1": "03d74b75247bf2cf33f4036b1ea2ff12f9ba3192",
+      "size": "31608",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=wheel(jp)",
+      "region": "jp",
+      "crc": "0692258c",
+      "md5": "160a3d3725e879defb036666dfaa5f44",
+      "sha1": "3c2362f2d5d3e3c0a2ea7c7eb372ca98991b5a3c",
+      "size": "38919",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "2586c5fa",
+      "md5": "2430a71c5abbad822e6c46711be12d58",
+      "sha1": "f7d88a51adfb6b45dbafc7e1e61d23d44ad423a2",
+      "size": "84170",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "c88d6caf",
+      "md5": "13aa48efc61e9520a94d2a65cb4fbe19",
+      "sha1": "b4f4e8f777946526cc3d00763c835a978c71ba5c",
+      "size": "85907",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "90dc8113",
+      "md5": "f46671c09694bd469c78dcb42f821b22",
+      "sha1": "1d584e140a50bc22538718fc906fcf22dbe78adb",
+      "size": "471014",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "5121d5d3",
+      "md5": "41b4130fcebb63d0460b9490a7ee227f",
+      "sha1": "deda527eaf27bf3867e81e2b365b6a8595ab1892",
+      "size": "75449",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "c92a6faa",
+      "md5": "ecbd2bf72e1321d6fe011c5ff513bf44",
+      "sha1": "52c44a93620502c26e3105aea6ce2e1378aa6ad5",
+      "size": "582864",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "98e895ee",
+      "md5": "3695371a7aa186141f0df1eff6e93aed",
+      "sha1": "7f548f9a6e1f444b56a0dc63f0a2d003cee68d00",
+      "size": "128853",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "628549f1",
+      "md5": "dbbe3d4ef441c52fc2382be1a5231cbc",
+      "sha1": "ca986b6a59cc81dfc02ed26275e31b4002f899d8",
+      "size": "76371",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "32fd61ad",
+      "md5": "61c149b13096d547e572393cb2fbe784",
+      "sha1": "16ed49a961a90c1a4813ac6412c45a476f93fef8",
+      "size": "38664",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "aa51e356",
+      "md5": "3ab3eedb5e119d8efc45dc0553204c6e",
+      "sha1": "22388bd57a0bff8a9d9abe1bdef7c8e23fc50f22",
+      "size": "365671",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "18d67e69",
+      "md5": "44255c976c5347a23130fccda4846fba",
+      "sha1": "821af563e97d800a9e157359a8b1b03a86473f03",
+      "size": "148173",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "b3f03626",
+      "md5": "776c3a3cd14eedc5c4ba86ab24aa604a",
+      "sha1": "dfa7017bc103d13947ba81e967108322160cb136",
+      "size": "1029537",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "fdc65853",
+      "md5": "8ee593392fa5f6f4868ee1c877e3232d",
+      "sha1": "8a8ba32e0a41bb09720f1f30a3dba2bd3be98fcf",
+      "size": "331847",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "8057e52b",
+      "md5": "6e734b75b3fd10cd146baeaee3a20b7b",
+      "sha1": "71457a5a16423c6fb63948ca895c5be640f1b821",
+      "size": "295931",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "8e5253c1",
+      "md5": "b7415f29c29ae473018e3108b64bd696",
+      "sha1": "e3a2a34f7416f6fb9f489ce2e46e0c0406b96462",
+      "size": "144105",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=manuel(jp)",
+      "region": "jp",
+      "crc": "c84a3c39",
+      "md5": "1fca30cf1c159fa525372047b1fa2160",
+      "sha1": "308d744a1c905dd918edc86d3c25d57e6b215add",
+      "size": "446621",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "8952b874",
+      "md5": "b1c24d9f622a583d92445a05d4748e16",
+      "sha1": "de037201dd8ebe2e42f06418483617d91b77135e",
+      "size": "377570",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "bdbc2cfe",
+      "md5": "4ae7ffffe18d7e4408ff41fdb245ed97",
+      "sha1": "4a0c3d367fed38bdae1f7be42505e20d8477dca2",
+      "size": "354429",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "1e3c0390",
+      "md5": "a10749ed5bb4801a58aff3d826aadc7c",
+      "sha1": "dc36ef26ffaeb2382dcf677298fd9b2e266c58ce",
+      "size": "309479",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "2b3b5690",
+      "md5": "80216a18a2791040ab4679915aa5da3e",
+      "sha1": "b915ca274d74a1e046d588b17529f97789a21804",
+      "size": "233624",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "1e3c0390",
+      "md5": "a10749ed5bb4801a58aff3d826aadc7c",
+      "sha1": "dc36ef26ffaeb2382dcf677298fd9b2e266c58ce",
+      "size": "309479",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "98c5f5c0",
+      "md5": "05f7a09958fefd668eb1c0038f5dccb4",
+      "sha1": "97b6572ac7bb11753cee48da31743295cd77505b",
+      "size": "508588",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "8557c11a",
+      "md5": "60e6d5eb72e8528d0f1230ad941e81fb",
+      "sha1": "7e496a16dcff5320d4c4d024bb46d5bc5805215d",
+      "size": "436173",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1607&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "98c5f5c0",
+      "md5": "05f7a09958fefd668eb1c0038f5dccb4",
+      "sha1": "97b6572ac7bb11753cee48da31743295cd77505b",
+      "size": "508588",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=6595&media=logo-monochrome",
+      "crc": "61e6995e",
+      "md5": "a9f3e5b1e0128850d5f51ea85fa91c59",
+      "sha1": "881ac51f61f6c6c327f753d344ba55989ef42d42",
+      "size": "3566",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=6595&media=wheel",
+      "crc": "a058b955",
+      "md5": "8a60dd888f5bfc9b57eb92625deb82a6",
+      "sha1": "56be60f724fbaa4d141e04da8dd17a41bc097b5d",
+      "size": "8104",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2875",
+      "parent": "genre",
+      "subparent": "Sport / Skateboard",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2875&media=pictoliste",
+      "crc": "5fb5f56b",
+      "md5": "1c215e116225a6f6980c6a7d2e326d03",
+      "sha1": "2f8b0926c943d401740384e31a41ad926c80e7ff",
+      "size": "18242",
+      "format": "png"
+    },
+    {
+      "id": "2875",
+      "parent": "genre",
+      "subparent": "Sport / Skateboard",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2875&media=logo-monochrome",
+      "crc": "673d73af",
+      "md5": "1c192d009ffb3895c7b30796f45ea624",
+      "sha1": "b8d5cf00afa2e1682711405f5579d3652ef9236d",
+      "size": "12505",
+      "format": "png"
+    },
+    {
+      "id": "2875",
+      "parent": "genre",
+      "subparent": "Sport / Skateboard",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2875&media=logo-monochrome-svg",
+      "crc": "f112dcc3",
+      "md5": "aa8b7a42b8ad49926dacb59173cd105e",
+      "sha1": "187eaefe668c6023ccb92d070a61a9016e1d0b22",
+      "size": "2311",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome",
+      "crc": "6a963ad9",
+      "md5": "6daf840fab2d205bda9bad4ff16f4c95",
+      "sha1": "f5e795233a8013aa0d992e197d56d09a63513403",
+      "size": "18286",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome-svg",
+      "crc": "328c7db2",
+      "md5": "4298fc7c8887c1b97cec6ee0b5d72433",
+      "sha1": "8f59a9ec18c48a7246c3b13e19c6c5857bc95513",
+      "size": "4269",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=background",
+      "crc": "a3265ffe",
+      "md5": "65308af4ddc9782f6717f000eea7f28a",
+      "sha1": "bccce8f0defa7c25313eb5ced7cdf71555c5a85d",
+      "size": "185482",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "13062",
+      "romsize": "37614",
+      "romfilename": "Metro-Cross (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "AC3968EB",
+      "rommd5": "EA9270ECAD76419C9D1C9DFAACB3278D",
+      "romsha1": "FFB7D413B5132B01CBA1CBC7E9B36B0B3776AD1A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "96588",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "136698",
+      "romsize": "65552",
+      "romfilename": "Metro-Cross (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7BB329F5",
+      "rommd5": "394535F88FD83C83B36B3CE41441F71F",
+      "romsha1": "F6075D7E023F8A062D83655A7E06F2B94C720124",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "69989",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1248950",
+      "romsize": "65552",
+      "romfilename": "Metro-Cross.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "ED8746B8",
+      "rommd5": "348A82C08B9D40D8249FD72EB96EDEBA",
+      "romsha1": "D8055CC378B590C91BB0267FE5656F49E91123B1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "22291"
+    },
+    {
+      "id": "758461",
+      "romsize": "65552",
+      "romfilename": "PepsiMan (Metro-Cross Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B15FAF14",
+      "rommd5": "D6C805C7B885C4E57E6110B2698A312D",
+      "romsha1": "77EF2BFBAB4E350DB5FCA4D5A1D174282766793D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "21580"
+    },
+    {
+      "id": "1140666",
+      "romsize": "65552",
+      "romfilename": "Metro-Cross (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4de473d1",
+      "rommd5": "54b5091a521ff99c78948395ca5c963f",
+      "romsha1": "c396ceb2c52e9dbc227c05f6a3e39f7c39c33547",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "14107",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1140663",
+      "romsize": "65552",
+      "romfilename": "Metro-Cross (Japan) (Namcot Collection).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a4ac9b5e",
+      "rommd5": "170e467bb3e49422bfd136edb1b50b0e",
+      "romsha1": "7ca6a75cedc1e74b9d307b09669e29289d7291a2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "10164",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1079260",
+      "romsize": "65536",
+      "romfilename": "Metro-Cross (Japan) (Namcot Collection).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "235b71ed",
+      "rommd5": "8f25e99264789ff13559cb0a5069dd9a",
+      "romsha1": "9e49c188535787e9eb6948fd7911f9ff97a9e306",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7114",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "864533",
+      "romsize": "65552",
+      "romfilename": "PepsiMan (Hack).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E5D29899",
+      "rommd5": "23FCD06149EAF36B1058223D00D1E28A",
+      "romsha1": "C4A27E9B23D02D194D9DB91F91AEC23283E92CCC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3695"
+    },
+    {
+      "id": "173871",
+      "romsize": "65536",
+      "romfilename": "Metro-Cross (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E40B4973",
+      "rommd5": "107D74939C40EBEB2823F96277792B8E",
+      "romsha1": "217D01EDD1200D41588DA862926139E05BBAA02D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1735",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114370",
+      "romsize": "37592",
+      "romfilename": "Metro-Cross (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2C746CEC",
+      "rommd5": "768B4B503DC02DFCA6DBF636EB4B7304",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "278",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

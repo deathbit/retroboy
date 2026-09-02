@@ -1,0 +1,636 @@
+{
+  "id": "421203",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Cheril in Cadaverion"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "11052",
+    "text": "The Mojon Twins"
+  },
+  "developpeur": {
+    "id": "11052",
+    "text": "The Mojon Twins"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Help Cheril in the sixth game in the Cheril Trilogy! You have approximately one minute to escape each of the four floors in the mansion, each floor being composed by five closed chambers. To progress from one chamber to the next, you'll have to open the gate by means of pushing around every statue on the screen to their bases. If you get it wrong you can always restart the room by pressing «fire» over the blueish tile you will find in every room with statues. This will revert the room to the original position.\r\n\r\nYou must hurry, because if the time runs out you'll have to start the current floor over. Luckily, you can collect hourglasses for some more time, but be careful with the mansion inhabitants, who are everything but friendly."
+    },
+    {
+      "langue": "fr",
+      "text": "Vous incarnez Cheril. Vous avez environ une minute pour vous échapper de chacun des quatre étages du manoir, chaque étage étant composé de cinq chambres verrouillées. Pour passer d'une chambre à l'autre, vous devrez ouvrir la porte en poussant toutes les statues à l'écran vers leurs bases. Si vous faites une erreur, vous pouvez toujours réinitialiser la pièce. Cela ramènera la pièce à sa position initiale. Vous devez vous dépêcher, car si vous manquez de temps, vous devrez recommencer l'étage actuel. Heureusement, vous pouvez collecter des sabliers pour obtenir un peu plus de temps, mais méfiez-vous des habitants du manoir, qui sont tout sauf amicaux."
+    },
+    {
+      "langue": "de",
+      "text": "Sie schlüpfen in die Rolle von Cheril. Sie haben ungefähr eine Minute Zeit, um aus jedem der vier Stockwerke des Herrenhauses zu fliehen, wobei jedes Stockwerk aus fünf verschlossenen Zimmern besteht. Um von einem Zimmer ins andere zu gelangen, müssen Sie die Tür öffnen, indem Sie alle Statuen auf dem Bildschirm in Richtung ihrer Basen schieben. Wenn Sie einen Fehler machen, können Sie den Raum jederzeit zurücksetzen. Dadurch wird der Raum an seine ursprüngliche Position zurückgebracht. Sie müssen sich beeilen, denn wenn Ihnen die Zeit davonläuft, müssen Sie die aktuelle Etage neu beginnen. Glücklicherweise können Sie Sanduhren sammeln, um etwas mehr Zeit zu bekommen. Hüten Sie sich jedoch vor den Bewohnern des Herrenhauses, die alles andere als freundlich sind."
+    },
+    {
+      "langue": "es",
+      "text": "¡Ayuda a Cheril en el sexto juego de la Trilogía de Cheril!  Tienes aproximadamente un minuto para escapar de cada uno de los cuatro pisos de la mansión, cada piso está compuesto por cinco cámaras cerradas.  Para pasar de una cámara a la siguiente, tendrás que abrir la puerta empujando todas las estatuas de la pantalla hasta sus bases.  Si te equivocas, siempre puedes reiniciar la habitación presionando «disparar» sobre el azulejo azulado que encontrarás en cada habitación con estatuas.  Esto revertirá la habitación a la posición original.  Debes darte prisa, porque si se acaba el tiempo tendrás que empezar de nuevo el piso actual.  Afortunadamente, puedes coleccionar relojes de arena para conseguir un poco más de tiempo, pero ten cuidado con los habitantes de la mansión, que son todo menos amigables."
+    },
+    {
+      "langue": "it",
+      "text": "Si gioca nei panni di Cheril. Avete circa un minuto per fuggire da ciascuno dei quattro piani della villa, ognuno dei quali è composto da cinque stanze chiuse a chiave. Per passare da una stanza all'altra, dovrete aprire la porta spingendo tutte le statue sullo schermo verso le loro basi. Se si commette un errore, è sempre possibile ripristinare la stanza. In questo modo la stanza tornerà alla sua posizione originale. Dovete fare in fretta, perché se non avete più tempo, dovrete ricominciare il piano attuale. Fortunatamente, è possibile raccogliere clessidre per ottenere un po' di tempo in più, ma attenzione agli abitanti della villa, che sono tutt'altro che amichevoli."
+    },
+    {
+      "langue": "pt",
+      "text": "Toca como Cheril. Tem aproximadamente um minuto para fugir de cada um dos quatro andares da mansão, cada andar composto por cinco salas fechadas. Para passar de uma sala para outra, terá de abrir a porta empurrando todas as estátuas no ecrã de volta para as suas bases. Se cometer um erro, pode sempre reiniciar a sala. Isto fará com que a sala volte à sua posição original. Tem de se apressar, porque se ficar sem tempo, terá de recomeçar o andar actual. Felizmente, pode recolher ampulhetas para obter algum tempo extra, mas tenha cuidado com os habitantes da mansão, que são tudo menos amigáveis."
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2018"
+    }
+  ],
+  "genres": [
+    {
+      "id": "3566",
+      "nomcourt": "0100",
+      "principale": "0",
+      "parentid": "10",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Action / Adventure"
+        },
+        {
+          "langue": "fr",
+          "text": "Action / Aventure"
+        },
+        {
+          "langue": "de",
+          "text": "Action / Abenteuer"
+        },
+        {
+          "langue": "es",
+          "text": "Acción / Aventura"
+        },
+        {
+          "langue": "it",
+          "text": "Azione / Avventura"
+        },
+        {
+          "langue": "pt",
+          "text": "Ação / Aventura"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "nomcourt": "0100",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Action"
+        },
+        {
+          "langue": "fr",
+          "text": "Action"
+        },
+        {
+          "langue": "de",
+          "text": "Action"
+        },
+        {
+          "langue": "es",
+          "text": "Acción"
+        },
+        {
+          "langue": "it",
+          "text": "Azione"
+        },
+        {
+          "langue": "pt",
+          "text": "Ação"
+        }
+      ]
+    }
+  ],
+  "modes": [
+    {
+      "id": "4",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Single-player"
+        },
+        {
+          "langue": "fr",
+          "text": "Jouable en solo"
+        },
+        {
+          "langue": "de",
+          "text": "Einzelspieler"
+        },
+        {
+          "langue": "es",
+          "text": "Jugador individual"
+        },
+        {
+          "langue": "it",
+          "text": "Giocatore singolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogador individual"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "9370fcfb",
+      "md5": "218d39d1feeda490a341f3f2f9a76fb9",
+      "sha1": "de7a1b9b312a7a1adcb8300e6853465eb3a9b6e5",
+      "size": "6581",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=ss(wor)",
+      "region": "wor",
+      "crc": "4e8b5ca8",
+      "md5": "01fa231c33648faef0925d77abffd0a9",
+      "sha1": "c206dc3cf9f7d86b52715901533b1804e3186451",
+      "size": "17588",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=video",
+      "crc": "d0d00709",
+      "md5": "4a9c8007dbd7359d984e9c9ae8947704",
+      "sha1": "b4dae078f23e81a138c0888e12052f4c4f78004e",
+      "size": "1775873",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=video-normalized",
+      "crc": "91139fe6",
+      "md5": "14b0c1e4ac5885ee866f38695ee22f06",
+      "sha1": "21a93aa9a4e31596e1cd46a2d65584b16de7fe7e",
+      "size": "556301",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=steamgrid",
+      "crc": "02e1c6cc",
+      "md5": "8b7a0d3ff0e6ffa43e4c2fdeefa4e652",
+      "sha1": "cb1bec586b6554e931aaa8d23e6e9b13e64cb2ff",
+      "size": "29711",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=wheel-hd(wor)",
+      "region": "wor",
+      "crc": "2a3f2772",
+      "md5": "ada9a74a1c2d48ae9743a235f6c881e8",
+      "sha1": "bc475fc387530076a6946c19c76e688b7674f20e",
+      "size": "118177",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "57196d0b",
+      "md5": "946c13eb1f3fa055da349c4c4b00dc82",
+      "sha1": "608053e10b7ba6cb12485c042664c6e8a80e54f0",
+      "size": "120032",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "cd875f99",
+      "md5": "16fb15ff3d028d41fbc128e5e373110a",
+      "sha1": "d46db4695a6f79e899829fa472267f336ec5c8e5",
+      "size": "121814",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "9bf62017",
+      "md5": "b01fa64a30458268ff8ca2978df8fdf0",
+      "sha1": "b14ac19122c6d86f4029701ea61174e2e0cfea68",
+      "size": "476618",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "450717c3",
+      "md5": "7d7512e8b6aae8fefaab7fa8113dd5f3",
+      "sha1": "4a025446ddde2d8b768bdcbc1a2d91e1344a8993",
+      "size": "80697",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "0cd3664a",
+      "md5": "93b637e883353571976f87c5f7c5a26b",
+      "sha1": "e71278415fd6c1ada0b395b489a5850c5f29a64c",
+      "size": "148339",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=box-2D(wor)",
+      "region": "wor",
+      "crc": "d869dda3",
+      "md5": "7147e6a3bfa81c1565fc44870846f9af",
+      "sha1": "f326e53988d62372ddcbf43fc54599995f57b870",
+      "size": "796794",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "2876caae",
+      "md5": "11409b694ccd9947f178c1ff6226b674",
+      "sha1": "ab10d5d3985a5e49bad131ea5e7461fdb6155b7b",
+      "size": "30022",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=box-2D-side(wor)",
+      "region": "wor",
+      "crc": "250d12d4",
+      "md5": "40372d45a94a1ef437e4b4519a505765",
+      "sha1": "1b6c575a09f176781337816509f9b8818e31b679",
+      "size": "121239",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "25d7763b",
+      "md5": "4c97c8e1ce9bdf7c2a8a8865208f0bab",
+      "sha1": "357c82d5bd4c5ec7dcdc2f02e57c75c9dee1fefd",
+      "size": "149345",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=box-2D-back(wor)",
+      "region": "wor",
+      "crc": "800fe3b7",
+      "md5": "f8b8dd6773970f3e1a0157721fed100d",
+      "sha1": "5e48368427e5eb0709d69693590ff962f9406989",
+      "size": "2829",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "39d8c9ae",
+      "md5": "5ba1777191698179ab6290742c4020e9",
+      "sha1": "004735a908b37ff4b02d921a9f07343e3e86ad10",
+      "size": "343705",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=box-texture(wor)",
+      "region": "wor",
+      "crc": "2b43c051",
+      "md5": "470eb42e65b2ae6e7f0c15cfd69d261f",
+      "sha1": "f001ba234a74a2d6acca659db20bde08b382a553",
+      "size": "944134",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "286373e5",
+      "md5": "a3d8b51d46c7d2f77944e68344527f80",
+      "sha1": "7a3c7bc8707912388b7b6a4e9f9a8661e253aedd",
+      "size": "163136",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=box-3D(wor)",
+      "region": "wor",
+      "crc": "12fa27d3",
+      "md5": "730edb57606fe01f935ceb13760393b6",
+      "sha1": "d857896ccee6b454a416a8f8092c776bb460e20c",
+      "size": "392904",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=support-texture(wor)",
+      "region": "wor",
+      "crc": "28c03b69",
+      "md5": "df22cb37379bd9f5a824e14ae9a2451e",
+      "sha1": "a71d857b6df7fbe7b57aa04ef20a8fd34d8a5bc0",
+      "size": "518457",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=support-2D(wor)",
+      "region": "wor",
+      "crc": "b7cc00cc",
+      "md5": "866d919ca74e00044459fa5e2af1e9af",
+      "sha1": "e0edd38bf073a39393df6b7fc19c201e855e95bc",
+      "size": "395774",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "518ff9b8",
+      "md5": "ec7b3db20025d26c41e7355187e931b9",
+      "sha1": "52fca48a2d1227ae2da0a364efffa58b47e741ba",
+      "size": "370492",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "aa7981ef",
+      "md5": "b580f6fb92b2b8401a7c5958839c17ea",
+      "sha1": "47b32da3ba8fdcae894da9d24b57dc70f7ceef09",
+      "size": "481588",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "33ba2675",
+      "md5": "41af7bfb4899b825c6b30f46ab0f4f6f",
+      "sha1": "cf47d8e078b48353731ffcbd98211feeca239ba1",
+      "size": "549657",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421203&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "76ba5c22",
+      "md5": "503890eeb7dc795915fbd5e17eb9a7a6",
+      "sha1": "0acc9b290195279630e4ba075700373f4c13675e",
+      "size": "657139",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=11052&media=logo-monochrome",
+      "crc": "76ed60bb",
+      "md5": "d430bab874d51924031f96ea140c8993",
+      "sha1": "be0a9637769a81a008c555ad88dfade8a3cbbb44",
+      "size": "29714",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=11052&media=wheel",
+      "crc": "144e2789",
+      "md5": "0adc81fbd71c78c80dc096115a424d18",
+      "sha1": "aef99bb396eb8a6d420888d98d5e23d835f74f2f",
+      "size": "17261",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=11052&media=logo-monochrome",
+      "crc": "76ed60bb",
+      "md5": "d430bab874d51924031f96ea140c8993",
+      "sha1": "be0a9637769a81a008c555ad88dfade8a3cbbb44",
+      "size": "29714",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=11052&media=wheel",
+      "crc": "144e2789",
+      "md5": "0adc81fbd71c78c80dc096115a424d18",
+      "sha1": "aef99bb396eb8a6d420888d98d5e23d835f74f2f",
+      "size": "17261",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "3566",
+      "parent": "genre",
+      "subparent": "Action / Aventure",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3566&media=pictoliste",
+      "crc": "8dbe2564",
+      "md5": "02720b2114c3f97376ae62b0c61cfdb1",
+      "sha1": "35b60cd7e71a9049de457ae3e1390ce92ed54914",
+      "size": "18874",
+      "format": "png"
+    },
+    {
+      "id": "3566",
+      "parent": "genre",
+      "subparent": "Action / Aventure",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3566&media=logo-monochrome",
+      "crc": "3c1c648e",
+      "md5": "39fd2879e5fa41b49b82d753793e1f49",
+      "sha1": "4b1acc4a60cb8ce3420a4bec1331ded7213d1c8a",
+      "size": "30471",
+      "format": "png"
+    },
+    {
+      "id": "3566",
+      "parent": "genre",
+      "subparent": "Action / Aventure",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3566&media=logo-monochrome-svg",
+      "crc": "6e5ad666",
+      "md5": "4b0424bd3afad5c75358de79884368d8",
+      "sha1": "3b41ded97fd716534acdfd4560e630cb7e0750ff",
+      "size": "5490",
+      "format": "svg"
+    },
+    {
+      "id": "3566",
+      "parent": "genre",
+      "subparent": "Action / Aventure",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3566&media=background",
+      "crc": "de7305f8",
+      "md5": "95afbf7bfdc0ee8a18e69a2836dd7e0a",
+      "sha1": "d89beb5eef65e0bbb4573c6622fe267f92b33c43",
+      "size": "165573",
+      "format": "jpg"
+    },
+    {
+      "id": "10",
+      "parent": "genre",
+      "subparent": "Action",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=10&media=pictoliste",
+      "crc": "0763cab7",
+      "md5": "620fe2a836dfa922412ff74ed37d5f57",
+      "sha1": "75481c2e5550a457b76f18451f0869222bbe5d67",
+      "size": "1005",
+      "format": "png"
+    },
+    {
+      "id": "10",
+      "parent": "genre",
+      "subparent": "Action",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=10&media=logo-monochrome",
+      "crc": "312d2970",
+      "md5": "6f825613fcbc97bbf12de578a3751c44",
+      "sha1": "6d6cedcb355020d93e9e008c7168b8f69058e248",
+      "size": "7900",
+      "format": "png"
+    },
+    {
+      "id": "10",
+      "parent": "genre",
+      "subparent": "Action",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=10&media=logo-monochrome-svg",
+      "crc": "ca0ce2f6",
+      "md5": "21b6864790e6882c27f2840c5cb4e34b",
+      "sha1": "fa7a7936d4648ce3782f6f35ae02b260713b56a3",
+      "size": "2943",
+      "format": "svg"
+    },
+    {
+      "id": "10",
+      "parent": "genre",
+      "subparent": "Action",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=10&media=background",
+      "crc": "9b190953",
+      "md5": "2cde12d443d2832716cdc501952a607c",
+      "sha1": "d4dfb3e81627f60f6a84889358e16c487b8903cd",
+      "size": "136840",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1135401",
+      "romsize": "40976",
+      "romfilename": "Cheril in Cadaverion (World) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "60486603",
+      "rommd5": "3f75507fa882ae9f39b57c66721bdce3",
+      "romsha1": "17a1ff5fc443184a25da3482d9192906d797fe50",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6995"
+    },
+    {
+      "id": "1466988",
+      "romsize": "17357",
+      "romfilename": "Cadaverion (2018)(The Mojon Twins).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "6a45c96a",
+      "rommd5": "5932e4474c94e619db21ca95b793c2b2",
+      "romsha1": "51493c192b9aee246d2e6dcbfaaca31e907829be",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20"
+    }
+  ]
+}

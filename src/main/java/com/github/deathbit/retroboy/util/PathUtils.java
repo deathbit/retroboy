@@ -26,7 +26,7 @@ public final class PathUtils {
     public static final PathSupplier PLATFORM_RESOURCE_ROOT =
             ruleContext -> RESOURCES_HOME.get(ruleContext)
                     .resolve("platform")
-                    .resolve(ruleContext.getPlatformName());
+                    .resolve(ruleContext.getPlatform().getName());
 
     // 示例：D:\retroboy-resources\platform\nes\roms
     public static final PathSupplier PLATFORM_ROMS =
@@ -37,12 +37,12 @@ public final class PathUtils {
     public static final PathSupplier PLATFORM_DAT =
             ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
                     .resolve("dat")
-                    .resolve(ruleContext.getPlatformName() + ".dat");
+                    .resolve(ruleContext.getPlatform().getName() + ".dat");
 
     // 示例：D:\retroboy-resources\platform\nes\nes_db.xml
     public static final PathSupplier PLATFORM_GAME_DB =
             ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
-                    .resolve(ruleContext.getPlatformName() + "_db.xml");
+                    .resolve(ruleContext.getPlatform().getName() + "_db.xml");
 
     // 示例：D:\retroboy-resources\platform\nes\core_config
     public static final PathSupplier PLATFORM_CORE_CONFIG =
@@ -53,13 +53,13 @@ public final class PathUtils {
     public static final PathSupplier PLATFORM_DOWNLOADED_MEDIA =
             ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
                     .resolve("downloaded_media")
-                    .resolve(ruleContext.getPlatformName());
+                    .resolve(ruleContext.getPlatform().getName());
 
     // 示例：D:\retroboy-resources\platform\nes\gamelists\nes\gamelist.xml
     public static final PathSupplier PLATFORM_GAMELIST_XML =
             ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
                     .resolve("gamelists")
-                    .resolve(ruleContext.getPlatformName())
+                    .resolve(ruleContext.getPlatform().getName())
                     .resolve("gamelist.xml");
 
     // 示例：D:\retroboy-resources\platform\nes\wiki
@@ -100,7 +100,7 @@ public final class PathUtils {
     // 示例：D:\ES-DE\ROMs\nes
     public static final PathSupplier ESDE_PLATFORM_ROMS =
             ruleContext -> ESDE_ROMS_ROOT.get(ruleContext)
-                    .resolve(ruleContext.getPlatformName());
+                    .resolve(ruleContext.getPlatform().getName());
 
     // 示例：D:\ES-DE\ES-DE
     public static final PathSupplier ESDE_ROOT =
@@ -115,7 +115,7 @@ public final class PathUtils {
     // 示例：D:\ES-DE\ES-DE\downloaded_media\nes
     public static final PathSupplier ESDE_PLATFORM_MEDIA =
             ruleContext -> ESDE_MEDIA_ROOT.get(ruleContext)
-                    .resolve(ruleContext.getPlatformName());
+                    .resolve(ruleContext.getPlatform().getName());
 
     // 示例：D:\ES-DE\ES-DE\gamelists
     public static final PathSupplier ESDE_GAMELISTS_ROOT =
@@ -125,7 +125,7 @@ public final class PathUtils {
     // 示例：D:\ES-DE\ES-DE\gamelists\nes
     public static final PathSupplier ESDE_PLATFORM_GAMELIST =
             ruleContext -> ESDE_GAMELISTS_ROOT.get(ruleContext)
-                    .resolve(ruleContext.getPlatformName());
+                    .resolve(ruleContext.getPlatform().getName());
 
     // 示例：D:\ES-DE\ES-DE\gamelists\nes\gamelist.xml
     public static final PathSupplier ESDE_PLATFORM_GAMELIST_XML =

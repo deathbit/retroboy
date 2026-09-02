@@ -1,0 +1,480 @@
+{
+  "id": "153343",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Dragon Quest 8"
+    },
+    {
+      "region": "wor",
+      "text": "Dragon Quest VIII"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "36014",
+    "text": "Fuzhou Waixing"
+  },
+  "developpeur": {
+    "id": "70010",
+    "text": "Mars Production"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "An aftermarket JRPG released in the Chinese market by Waixing, using the same engine as many other RPGs published by Waixing around that time. It's based on the 2004 release of Dragon Quest 8 for the Sony Playstation 2 and later ported to mobile platforms, but features very different mechanics throughout."
+    },
+    {
+      "langue": "de",
+      "text": "Nicht lizenzierte Version des Playstation 2 und Mobile-Spiels, das 2004 in Japan und später im Rest der Welt veröffentlicht wurde. Es ist ein Demade für Nes mit bestimmten Grafiken und Musik eines solchen Systems."
+    },
+    {
+      "langue": "es",
+      "text": "Versión sin licenciar del juego de Playstation 2 y móviles que salió en Japón en 2004 y más tarde en el resto del mundo. Es un demade para Nes con gráficos y música particular de dicho sistema."
+    }
+  ],
+  "genres": [
+    {
+      "id": "8",
+      "nomcourt": "0300",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Role Playing Game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de rôles"
+        },
+        {
+          "langue": "de",
+          "text": "Rollenspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de Rol"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di Ruolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogos de RPG"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "20303",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Dragon Quest"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "2ba2b08c",
+      "md5": "d0cbc398c17899efc8012c732f704bc6",
+      "sha1": "b6a8985500527223a1c6873db8a9ce0fd94a5da0",
+      "size": "4844",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=ss(wor)",
+      "region": "wor",
+      "crc": "f4d2a9b5",
+      "md5": "6c24b00d5c705d774b0041d16e18c37c",
+      "sha1": "894695c03ae9bb1ad0b1c3891c09d70f1aedb21f",
+      "size": "5303",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=fanart",
+      "crc": "37b72162",
+      "md5": "1ef5fb5364dc996a7fd3d35184e04359",
+      "sha1": "e7c6b7a209d84cfe1c1dbb4313790646a689aa6b",
+      "size": "398535",
+      "format": "jpg"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=steamgrid",
+      "crc": "96973fc5",
+      "md5": "33360a06cfad8db957a0a816d867a651",
+      "sha1": "7d86fb4a638eac65fcf866777f253404299de3ea",
+      "size": "32563",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=wheel-hd(wor)",
+      "region": "wor",
+      "crc": "4a65c608",
+      "md5": "e216880934cb30e4bc251198de34079e",
+      "sha1": "716db210ef9268524f0ee0f263cb6b55338dd926",
+      "size": "8099",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "377fcf33",
+      "md5": "656b32486180ee5608e4a7b124af8cd4",
+      "sha1": "b89102242d5873c8ed752adaa0799a417b822da7",
+      "size": "113728",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "856fc1d5",
+      "md5": "2f1264a04726c20ef731da127def6e61",
+      "sha1": "5475b8022844141e8d923ad8f43452eeda4bca91",
+      "size": "115081",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "8fccdf65",
+      "md5": "cceaad98a424115f4587b05ebce33ea9",
+      "sha1": "b5253d910c3735bee5dea3644af75767d68a15d4",
+      "size": "470703",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "ba02574f",
+      "md5": "94a3273b70c6cd5eaaa76a9f580c520c",
+      "sha1": "70c6a504b89e2f9faad5079563ef89e57ee7323c",
+      "size": "81358",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "3c200e65",
+      "md5": "591eaa9e6fa2355affba3ce4805ef84d",
+      "sha1": "dadc556f5221ab2ae80bc75655925b99573491c3",
+      "size": "177859",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "340f30ad",
+      "md5": "45e150564b09e9408f887ff930641835",
+      "sha1": "a4dc83e7b35cbc5f3faf757fd76f7fd98c758c48",
+      "size": "29844",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "11c539bd",
+      "md5": "c873644dbbfb17a91ef5177f96e7ece7",
+      "sha1": "429eeeb723f7c2169d7178140e751c2e8f3f6227",
+      "size": "180479",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "e28dc56c",
+      "md5": "41c6e5bba3429bb03807a34f54718f60",
+      "sha1": "3a72450da89b66e7506065179ec993a7fde72d0a",
+      "size": "400388",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "423c2628",
+      "md5": "08fb5dca0d8fbae3e4b9d8f568694d96",
+      "sha1": "b0229cad5960336d645bfe5af98d518de883367e",
+      "size": "165578",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "48ff5739",
+      "md5": "47b8ea276791e9db43da2d86e631c397",
+      "sha1": "ab2b184ee888924e17415692176cd886f22fc976",
+      "size": "366307",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "48ff5739",
+      "md5": "47b8ea276791e9db43da2d86e631c397",
+      "sha1": "ab2b184ee888924e17415692176cd886f22fc976",
+      "size": "366307",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=mixrbv2(cn)",
+      "region": "cn",
+      "crc": "79639cff",
+      "md5": "e861441dd762038099fb016715a75a31",
+      "sha1": "4fb4c276a28232e021747ea46ef562a4291ba8a2",
+      "size": "563097",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "79639cff",
+      "md5": "e861441dd762038099fb016715a75a31",
+      "sha1": "4fb4c276a28232e021747ea46ef562a4291ba8a2",
+      "size": "563097",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153343&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "79639cff",
+      "md5": "e861441dd762038099fb016715a75a31",
+      "sha1": "4fb4c276a28232e021747ea46ef562a4291ba8a2",
+      "size": "563097",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=36014&media=wheel",
+      "crc": "e57a0902",
+      "md5": "f2c93a260c5d8b33ba474f7223fbc101",
+      "sha1": "48e0438bf2549da7f3501a8d81d9091e30e4f6bd",
+      "size": "47763",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=pictoliste",
+      "crc": "95641466",
+      "md5": "794cfd972f1fc80058ac4a3b48644c49",
+      "sha1": "065a70a4f3307442d52de0927234ab023e94fa99",
+      "size": "997",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome",
+      "crc": "99338559",
+      "md5": "6d99859437bd123f6dede69b6866b4f4",
+      "sha1": "1b1963a801d9801b0ad107f8a15ef9acf5541bcb",
+      "size": "11154",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome-svg",
+      "crc": "9659d140",
+      "md5": "071309467ec61ec2b037f89af26780cd",
+      "sha1": "dbf9fad14dfc4a4239585b4aae80a9edaf6d4ae3",
+      "size": "2418",
+      "format": "svg"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=background",
+      "crc": "10d4d476",
+      "md5": "3eb9bd04afa99e6bddcdca913ee8d53b",
+      "sha1": "e35ce257c961fcfaca398e9dbab607bbd8bf2aa6",
+      "size": "353085",
+      "format": "jpg"
+    },
+    {
+      "id": "20303",
+      "parent": "famille",
+      "subparent": "Dragon Quest",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20303&media=figurine",
+      "crc": "af698234",
+      "md5": "ecfede8f61ee655168c69d4149b34f67",
+      "sha1": "ade70d85b73dd1f2c1154065d21534cf9cb7ae3c",
+      "size": "290756",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "615999",
+      "romsize": "524304",
+      "romfilename": "Dragon Quest VIII (ES-1077) (Ch) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2F58FE9A",
+      "rommd5": "70BE217FDE9974415D5FC2188CC8C2C3",
+      "romsha1": "58F5835EFB73ACF6B738D7A779FED2CC4F6208F2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14809",
+      "langues": {
+        "langues_id": [
+          "2620"
+        ],
+        "langues_shortname": [
+          "zh"
+        ],
+        "langues_en": [
+          "Chinese"
+        ],
+        "langues_fr": [
+          "Chinois"
+        ],
+        "langues_de": [
+          "Chinesisch"
+        ],
+        "langues_es": [
+          "Chino"
+        ],
+        "langues_it": [
+          "Cinese"
+        ],
+        "langues_pt": [
+          "Chinês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "56"
+        ],
+        "regions_shortname": [
+          "cn"
+        ],
+        "regions_en": [
+          "China"
+        ],
+        "regions_fr": [
+          "Chine"
+        ],
+        "regions_de": [
+          "China"
+        ],
+        "regions_es": [
+          "China"
+        ],
+        "regions_it": [
+          "Cina"
+        ],
+        "regions_pt": [
+          "China"
+        ]
+      }
+    },
+    {
+      "id": "1389446",
+      "romsize": "524304",
+      "romfilename": "Yongzhe Dou Elong VIII (Dragon Quest VIII) (China) (Unl).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "ABBC2A9F",
+      "rommd5": "BC982F8013A9D0931D60A8AAA6705492",
+      "romsha1": "1303043B2F5DE002B894B3BC1E87A42DD114D68A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "352"
+    }
+  ]
+}

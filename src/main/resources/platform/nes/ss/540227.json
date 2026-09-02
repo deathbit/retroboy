@@ -1,0 +1,103 @@
+{
+  "id": "540227",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Firewall"
+    },
+    {
+      "region": "wor",
+      "text": "Firewall"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "51358",
+    "text": "itch.io"
+  },
+  "developpeur": {
+    "id": "113813",
+    "text": "nevyn"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "You and your favorite nemesis are hanging out in your usual oil-field, when suddenly fires spark to life.\r\n\r\nAs the raging fires close in on the two of you from all sides, you have to fight to be the last one to burn!\r\n\r\nFind a friend and dust off your favorite NES emulator to find out who will be the last person standing in this two-player brawler set on a oil-field that is slowly burning away!\r\n\r\n"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=540227&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "bfea73c0",
+      "md5": "b8bc09593e15c318e9f60d0c906c2edb",
+      "sha1": "b5afe8e3f2942f3254a85f642028ab1c18bc9287",
+      "size": "5240",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=540227&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "09666d6d",
+      "md5": "b675479a68bf52bedbb6c97f9e2c34bd",
+      "sha1": "944ba8057220ff4754c16fdd2af73ca2c401f80b",
+      "size": "91994",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=540227&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "b15eee94",
+      "md5": "9ec2cbde6634c00bdbe29b882008a83a",
+      "sha1": "ee07c7b795eb681450d0ba1e478a3107ea2cc1c2",
+      "size": "165139",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=51358&media=logo-monochrome",
+      "crc": "e95b68ae",
+      "md5": "d1547205a1b1996fabaac27a7e2b62c3",
+      "sha1": "c960b676a8a62a336fce9ec1935406879faa67cf",
+      "size": "27826",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1404854",
+      "romsize": "40976",
+      "romfilename": "Firewall (World) (v1.2) (NESDev 2023) (Aftermarket) (Unl).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "6EAF9D99",
+      "rommd5": "EF2AF7E080A5220BF00A6176CBD5D3CF",
+      "romsha1": "4644D3672731A761F72EECCD09FD55D0F9F8C85F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "167"
+    }
+  ]
+}

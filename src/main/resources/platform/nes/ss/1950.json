@@ -1,0 +1,1274 @@
+{
+  "id": "1950",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Magic Block"
+    },
+    {
+      "region": "asi",
+      "text": "Magic Block"
+    },
+    {
+      "region": "sp",
+      "text": "El Bloque Magico"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "10694",
+    "text": "NTDEC"
+  },
+  "developpeur": {
+    "id": "10695",
+    "text": "Mega Soft"
+  },
+  "joueurs": {
+    "text": "2"
+  },
+  "note": {
+    "text": "6"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Magic Block on Nes is a very addictive puzzle game. Colored bricks are continually falling from the top of the screen and you have to stack them. When placed, the bricks of the same color disappear. It's up to you to resist as long as possible while the scrolling speed continues to increase."
+    },
+    {
+      "langue": "fr",
+      "text": "Magic Block sur Nes est un puzzle-game des plus addictifs. Des briques de couleur tombent continuellement du haut de l'écran et vous devez les empiler. Ainsi placées, les briques de même couleur disparaissent. A vous de résister le plus longtemps possible alors que la vitesse de défilement ne cesse de s'accroître."
+    },
+    {
+      "langue": "de",
+      "text": "Magic Block on Nes ist ein sehr süchtig machendes Puzzlespiel. Ständig fallen bunte Steine vom oberen Rand des Bildschirms herunter und du musst sie stapeln. Beim Platzieren verschwinden die Steine der gleichen Farbe. Es liegt an Ihnen, so lange wie möglich zu widerstehen, während die Scrollgeschwindigkeit weiter zunimmt."
+    },
+    {
+      "langue": "es",
+      "text": "Magic Block en Nes es un juego de rompecabezas muy adictivo. Ladrillos de colores caen continuamente desde la parte superior de la pantalla y debes apilarlos. Así colocados, los ladrillos del mismo color desaparecen. Depende de usted resistir el mayor tiempo posible mientras la velocidad de desplazamiento continúa aumentando."
+    },
+    {
+      "langue": "it",
+      "text": "Magic Block per NES è un puzzle game che crea molta assuefazione. Dei mattoncini colorati cadono continuamente dalla cima dello schermo e devi impilarli. Una volta depositati, i mattoncini dello stesso colore spariscono. Sta a voi resistere quanto più a lungo possibile mentre la velocità di scorrimento continua ad aumentare."
+    },
+    {
+      "langue": "pt",
+      "text": "Magic Block no Nes é um jogo de quebra-cabeça muito viciante. Tijolos coloridos caem continuamente do topo da tela e você tem que empilhá-los. Quando colocados, os tijolos da mesma cor desaparecem. Depende de você resistir o máximo possível enquanto a velocidade de rolagem continua a aumentar."
+    }
+  ],
+  "classifications": [
+    {
+      "type": "JV",
+      "text": "+3 ans"
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1991"
+    }
+  ],
+  "genres": [
+    {
+      "id": "26",
+      "nomcourt": "0B00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "fr",
+          "text": "Puzzle-Game"
+        },
+        {
+          "langue": "de",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "es",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "it",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "pt",
+          "text": "Quebra-cabeças"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "e8a34bdf",
+      "md5": "0c687b02e5441782840bbc0e68353e8f",
+      "sha1": "207f24d57fd31cd5a4ede931d1b123f92073e78c",
+      "size": "2336",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=ss(wor)",
+      "region": "wor",
+      "crc": "26b5f33f",
+      "md5": "8128f2b6c2792a10c64e953e935a390d",
+      "sha1": "16d8458665adf81075f1035b750f72cae39c5496",
+      "size": "1520",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=video",
+      "crc": "4e2d9329",
+      "md5": "4e12a2e0d8173407cd876d9935674f46",
+      "sha1": "f417c2de81a75cd10929338b6c35fc6959e51b04",
+      "size": "816635",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=video-normalized",
+      "crc": "36bbe4ca",
+      "md5": "5acdd7944424a17867064bd6a6f20c33",
+      "sha1": "0939acfa73c3e3d2e056f6dca5bee18ca9ef83ba",
+      "size": "388694",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=steamgrid",
+      "crc": "7852bff9",
+      "md5": "960240b0d988bc10de9f96947ce9507d",
+      "sha1": "1836e0dce2370d1398dd68e5151337b4037b56df",
+      "size": "30412",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=wheel(sp)",
+      "region": "sp",
+      "crc": "896f66ec",
+      "md5": "b207f5a59b10c539926148cf62045c17",
+      "sha1": "f2fe332c2ee73f0f41aa32c4dc3a139424060552",
+      "size": "34299",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=wheel(wor)",
+      "region": "wor",
+      "crc": "3b58c0cc",
+      "md5": "243c034e3043683b5ea71b2c10693611",
+      "sha1": "ac33bdc10d4c7f5183e6ff6db31641605920a23a",
+      "size": "114521",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=wheel-carbon(sp)",
+      "region": "sp",
+      "crc": "5ac43ba0",
+      "md5": "5fa32505ca37bf6c8cad84e040b8544f",
+      "sha1": "10a22c62f28628eaa1e63c60f7d9509f494b349b",
+      "size": "107675",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "172b87a1",
+      "md5": "70539119bc69baea3c66f25c29aaf7ef",
+      "sha1": "df804de5d10975ad8494209330e405b3d34a5af7",
+      "size": "108515",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=wheel-steel(sp)",
+      "region": "sp",
+      "crc": "7a458f0c",
+      "md5": "f8554bb7c23be9f7d8ab9f3d46ee625c",
+      "sha1": "6c3a14b378ac34b587e07402c6d878c644295b38",
+      "size": "109331",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "7464cdba",
+      "md5": "f14d27f4eeb10abd4b89c606aec311bb",
+      "sha1": "b9c0310be6c142f1e96ba9eb0447dd766b881b42",
+      "size": "108820",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "237f2ae3",
+      "md5": "3287165c14592e283f2b9740e03e57e0",
+      "sha1": "2644ad2206b6f2891f61e94298b511b163f62c23",
+      "size": "476303",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "38e45b6c",
+      "md5": "7b91865345ad051ed7e717059f30100e",
+      "sha1": "1852219b4861fd0b83f99aa28f0192d47e4bacc5",
+      "size": "73082",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "1caf5dbc",
+      "md5": "a28472b2e3b677ac38ecd3c13feec327",
+      "sha1": "5d991620cfb0e8c2d96ac8bc5d622b0d0b31b0b6",
+      "size": "133876",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=box-2D(wor)",
+      "region": "wor",
+      "crc": "658857e5",
+      "md5": "dc48ccf489c386a975046764c8e8bcb2",
+      "sha1": "f2572ca6f9e649b9c5a401add5a59efcff08907d",
+      "size": "639200",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "917db888",
+      "md5": "17aa512f0c57aeabea4a0dc505dd0169",
+      "sha1": "34b85bd3a107d28d2629d2cfb0a9ab44ff916adf",
+      "size": "32222",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=box-2D-side(wor)",
+      "region": "wor",
+      "crc": "c4b9f032",
+      "md5": "e9c147c990c27cc62d3ca4430ed5195c",
+      "sha1": "950ecbbfb0142cdcd221ee595db7c24db735cae8",
+      "size": "96609",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "95a54439",
+      "md5": "53cbcfaf35c42dbc5b44f8f4f741d2c8",
+      "sha1": "6b8b9c57b48a76ede90f3dcd5beda350c53351c9",
+      "size": "129746",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=box-2D-back(wor)",
+      "region": "wor",
+      "crc": "9ee13fa0",
+      "md5": "3131ac54b3ecd0618436669dc6db6e1e",
+      "sha1": "b12beb8d1826650d73f0d1c7c22185d6aba58302",
+      "size": "586856",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "282618ab",
+      "md5": "83a9b95a4d4de463f6f101eef5fc2417",
+      "sha1": "09356ad98caf4760a78b03e42d3a69a858735e0b",
+      "size": "303252",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=box-texture(wor)",
+      "region": "wor",
+      "crc": "28648e9d",
+      "md5": "611671a057e4a91b884fb9ef7360aa2f",
+      "sha1": "d3fb67ff65eddf4fa52a48cf90f8442caa0aaeea",
+      "size": "1347136",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "d8903c51",
+      "md5": "02fd0fae9113ed17aa2009cd0719c2f2",
+      "sha1": "4ad4ffc5760a84f96a9f530eac8ba4956273d019",
+      "size": "137963",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=box-3D(wor)",
+      "region": "wor",
+      "crc": "ac69834b",
+      "md5": "b495deec9a20a0f7c155fbfc0d89db7f",
+      "sha1": "6399e366ee2401e00989e466f4096fc7efb7bb40",
+      "size": "342909",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=support-texture(wor)",
+      "region": "wor",
+      "crc": "75a146d2",
+      "md5": "36b550fa1eb245c7d437572e091ce571",
+      "sha1": "18d306cb86977ad3b50db6bec9c9c4f98ba4d51f",
+      "size": "225830",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=support-2D(wor)",
+      "region": "wor",
+      "crc": "91fc2523",
+      "md5": "1b719ec076608c89342767c168a7c786",
+      "sha1": "656701cfcb586bc5d89b913814b3e7af78b2f1f2",
+      "size": "295833",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "1",
+      "posw": "1406",
+      "posh": "1076",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=bezel-16-9(wor)",
+      "region": "wor",
+      "crc": "90eacc9d",
+      "md5": "ee09a7c1864c3f30481cb572b0b19491",
+      "sha1": "3563d4aae159c18bc3b6ad960a62ee9dd58e6b4d",
+      "size": "192540",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=mixrbv1(sp)",
+      "region": "sp",
+      "crc": "cfe09ae9",
+      "md5": "48bd1214dfaa8aceec96911adec3b7d6",
+      "sha1": "1368126bcd0298468fca8bc884e8a0aab87d50e5",
+      "size": "372302",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "fedbf211",
+      "md5": "1b534f38ab89912814c77363139a3779",
+      "sha1": "534a20dc4dade566662b0388b4993ae244cdc55b",
+      "size": "273746",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "8fdb6e76",
+      "md5": "6a8b93a8f37c54f4740e058c6134d162",
+      "sha1": "b2d69eb6269e0382b4c9f7b7d052f32ca664102f",
+      "size": "380717",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=mixrbv2(asi)",
+      "region": "asi",
+      "crc": "919bfe93",
+      "md5": "307975d32d053b905cbaa49008d27ea1",
+      "sha1": "98d48f4e7a34d8f60f859681b0325dfae78a3a05",
+      "size": "593803",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=mixrbv2(nl)",
+      "region": "nl",
+      "crc": "919bfe93",
+      "md5": "307975d32d053b905cbaa49008d27ea1",
+      "sha1": "98d48f4e7a34d8f60f859681b0325dfae78a3a05",
+      "size": "593803",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=mixrbv2(sp)",
+      "region": "sp",
+      "crc": "12a67d9e",
+      "md5": "f838b54301c458deba5b74a80941585b",
+      "sha1": "3efb6895d6f9979c1d3adb96c5ec1408726fde04",
+      "size": "582454",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "2d073114",
+      "md5": "a6fc80136bd4d5e7fa972a4658802e26",
+      "sha1": "fd45893d562c31649580fdbb69e52267adccd369",
+      "size": "492971",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1950&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "919bfe93",
+      "md5": "307975d32d053b905cbaa49008d27ea1",
+      "sha1": "98d48f4e7a34d8f60f859681b0325dfae78a3a05",
+      "size": "593803",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3357&media=pictoliste",
+      "crc": "c9825a69",
+      "md5": "18b0785b9f6088eb27abf7d31c48982e",
+      "sha1": "ea3a7672a6fbd5e789b2d1c548a61b9fecdad84b",
+      "size": "816",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3545&media=pictoliste",
+      "crc": "5a565f7e",
+      "md5": "6b04489eb9ab7d5aeb7c928d5f6ef482",
+      "sha1": "29293757c87eca7011a7e9d3e1854d414e2a532a",
+      "size": "735",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "JV",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3408&media=pictoliste",
+      "crc": "826e8eda",
+      "md5": "876375b7e92cd795cd00bb230e9d0dfd",
+      "sha1": "bc3ded9745166360b27215cb2eedea1d7fdf811e",
+      "size": "502",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=pictoliste",
+      "crc": "e4176cee",
+      "md5": "cc91411eb70735bb11dcfc4a0457b474",
+      "sha1": "1f04afee843e3aca095a118170eb13f3cf9a95d6",
+      "size": "828",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome",
+      "crc": "afda799e",
+      "md5": "b6aace835e844a24b33032c300cea85a",
+      "sha1": "ad7df82b2dc35f742dfe94cb20c5984c61a1be7f",
+      "size": "4560",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome-svg",
+      "crc": "b9fb9475",
+      "md5": "1f42d149151051f8c80b9728242769c3",
+      "sha1": "a0efb0c8b8814d280d62c7b2c5a6f39d5eaf0267",
+      "size": "2101",
+      "format": "svg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=background",
+      "crc": "923a4c43",
+      "md5": "5b1038e07f813242bbf179dcc11aa88f",
+      "sha1": "7971778339840a88ad940669b45dfc0103721cc1",
+      "size": "306716",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "387361",
+      "romsize": "131088",
+      "romfilename": "Magic Block (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "41CD9747",
+      "rommd5": "7EC815765CBBE1E39207B89AB177BE08",
+      "romsha1": "6EA2B4B3672BB397195094139042BF259439DAEF",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "140434",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "114",
+          "130"
+        ],
+        "regions_shortname": [
+          "asi",
+          "nl"
+        ],
+        "regions_en": [
+          "Asia",
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Asie",
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Asien",
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Asia",
+          "Holanda"
+        ],
+        "regions_it": [
+          "Asia",
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Ásia",
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "3348",
+      "romsize": "27793",
+      "romfilename": "Magic Block.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "AB7D5B49",
+      "rommd5": "606A23921CA5604FE06642B54410A506",
+      "romsha1": "BB3792D98FC3F5D203A5B85777130A7DF88B4A4F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "49090"
+    },
+    {
+      "id": "136572",
+      "romsize": "131088",
+      "romfilename": "Magic Block (Asia) (Mega Soft) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2EBA03BD",
+      "rommd5": "9B11B2E3D8C2A4BDA105E59AD87491BF",
+      "romsha1": "F9A4AC443667DF746EECD50C48BD1B878209B058",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "47150",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "113159",
+      "romsize": "22368",
+      "romfilename": "Bloque Magico, El (Spain) (Gluk Video) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "52E9F554",
+      "rommd5": "084206250D8176DE714A4521829800DD",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "26508",
+      "regions": {
+        "regions_id": [
+          "122"
+        ],
+        "regions_shortname": [
+          "sp"
+        ],
+        "regions_en": [
+          "Spain"
+        ],
+        "regions_fr": [
+          "Espagne"
+        ],
+        "regions_de": [
+          "Spanien"
+        ],
+        "regions_es": [
+          "España"
+        ],
+        "regions_it": [
+          "Spagna"
+        ],
+        "regions_pt": [
+          "Espanha"
+        ]
+      }
+    },
+    {
+      "id": "348723",
+      "romsize": "65552",
+      "romfilename": "Bloque Magico, El (Spain) (Gluk Video) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F587EF3D",
+      "rommd5": "2013D7E28DA250028F98CA5C5BDFB405",
+      "romsha1": "A2D5976E97C43FB080328A505C1C8AD606CE1DF8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19435",
+      "regions": {
+        "regions_id": [
+          "122"
+        ],
+        "regions_shortname": [
+          "sp"
+        ],
+        "regions_en": [
+          "Spain"
+        ],
+        "regions_fr": [
+          "Espagne"
+        ],
+        "regions_de": [
+          "Spanien"
+        ],
+        "regions_es": [
+          "España"
+        ],
+        "regions_it": [
+          "Spagna"
+        ],
+        "regions_pt": [
+          "Espanha"
+        ]
+      }
+    },
+    {
+      "id": "1134927",
+      "romsize": "65552",
+      "romfilename": "Bloque Magico, El (Spain) (Gluk Video) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "830fc2a0",
+      "rommd5": "b8e8aaba1b9f632bb50fcdb78301c60c",
+      "romsha1": "35af69254e09ac1d1aca6af20eb1b87dc27724eb",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10054",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      }
+    },
+    {
+      "id": "173745",
+      "romsize": "131072",
+      "romfilename": "Magic Block (Asia) (En) (Mega Soft) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "ED4D696F",
+      "rommd5": "636B6E6AC849D55EAB111CF520A5B6E3",
+      "romsha1": "4E33E591136EF3BFA64CAFBBD152BF517D090EA2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8040",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "1140102",
+      "romsize": "131088",
+      "romfilename": "Magic Block (Asia) (En) (Mega Soft) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "49836587",
+      "rommd5": "79f17361feb91f94d76c8edbda4cd35a",
+      "romsha1": "0143ce09b5f7cc27b1902ed1f58e9f5b0ab0d2b1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5816",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      }
+    },
+    {
+      "id": "524500",
+      "romsize": "27525",
+      "romfilename": "Magic Block (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "00251B5B",
+      "rommd5": "5CD4695EA41DBEF593A84F409E2CEA4F",
+      "romsha1": "70CCC3CD767D5FA8C00D65B651259EC8E1D4D6A5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5269",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "130"
+        ],
+        "regions_shortname": [
+          "nl"
+        ],
+        "regions_en": [
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Holanda"
+        ],
+        "regions_it": [
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "602597",
+      "romsize": "27811",
+      "romfilename": "Magic Block (Asia) (Mega Soft) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5E7770E0",
+      "rommd5": "6E02704ABDD61CF48180CF8D0F8B21DC",
+      "romsha1": "2868BD70ACAC31E8C882B5130AB5495284691BF9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3721",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "570618",
+      "romsize": "27591",
+      "romfilename": "Magic Block.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DDD9CD38",
+      "rommd5": "CE2B7632150124ECB90F88F1BB3EBC38",
+      "romsha1": "FC15C89C2344717EA3752BE5B0CDA38F0E971D66",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3290"
+    },
+    {
+      "id": "114243",
+      "romsize": "27789",
+      "romfilename": "Magic Block (Asia) (Mega Soft) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8FAE7897",
+      "rommd5": "D18D3BD79D470642BF509428C333D672",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3090",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "172665",
+      "romsize": "65536",
+      "romfilename": "Bloque Magico, El (Spain) (Gluk Video) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BAACF521",
+      "rommd5": "CD9F05E9DDE9569514CB479363FF68EF",
+      "romsha1": "112E0A01FE5ED2E5EC178DF989B69CF567816B02",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1713",
+      "regions": {
+        "regions_id": [
+          "122"
+        ],
+        "regions_shortname": [
+          "sp"
+        ],
+        "regions_en": [
+          "Spain"
+        ],
+        "regions_fr": [
+          "Espagne"
+        ],
+        "regions_de": [
+          "Spanien"
+        ],
+        "regions_es": [
+          "España"
+        ],
+        "regions_it": [
+          "Spagna"
+        ],
+        "regions_pt": [
+          "Espanha"
+        ]
+      }
+    },
+    {
+      "id": "758442",
+      "romsize": "27600",
+      "romfilename": "El Bloque Magico (Spain) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "06051413",
+      "rommd5": "40188A53F7D246F2154FECE0FC604DDE",
+      "romsha1": "99838E02E3083354902914BC1D89301370CD6DC3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1065",
+      "regions": {
+        "regions_id": [
+          "122"
+        ],
+        "regions_shortname": [
+          "sp"
+        ],
+        "regions_en": [
+          "Spain"
+        ],
+        "regions_fr": [
+          "Espagne"
+        ],
+        "regions_de": [
+          "Spanien"
+        ],
+        "regions_es": [
+          "España"
+        ],
+        "regions_it": [
+          "Spagna"
+        ],
+        "regions_pt": [
+          "Espanha"
+        ]
+      }
+    }
+  ]
+}

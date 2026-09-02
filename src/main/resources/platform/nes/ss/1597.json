@@ -1,0 +1,2091 @@
+{
+  "id": "1597",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Alien Syndrome"
+    },
+    {
+      "region": "us",
+      "text": "Alien Syndrome"
+    },
+    {
+      "region": "jp",
+      "text": "Alien Syndrome"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "89",
+    "text": "Tengen"
+  },
+  "developpeur": {
+    "id": "2830",
+    "text": "Sanritsu Denki"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "note": {
+    "text": "12"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Alien Syndrome is a scrolling shooter arcade conversion.\n\nYour job is to run around and rescue all the captives and make it to the escape hatch before the time bomb explodes. Then face the mother alien at the end of the level.\n\nYou can play as a single player or two people, taking turns. (Player 2 starts the game after Player 1 dies and vice versa.)"
+    },
+    {
+      "langue": "fr",
+      "text": "Alien Syndrome sur Nes est un jeu d'action adapté du titre éponyme sorti sur bornes d'arcade. Une fois de plus, les extraterrestres font des misères aux humains. Votre mission est de sauver tous les individus captifs et de vous échapper avant le terme du compte à rebours, faute de quoi vous exploserez avec la bombe que vous avez placée. Le dénouement consiste en un combat épique avec la reine mère des extraterrestres."
+    },
+    {
+      "langue": "de",
+      "text": "Aliens, die schleimig, giftig, heimtückisch und nahezu unzerstörbar sind, haben eine Außenkolonie infiltriert. Die gesamten Einwohner werden von bösartigen Aliens als Geiseln festgehalten. Der einzige Weg, um die Aliens loszuwerden, ist eine Sprengung. Aber das würde hunderte Menschenleben kosten. Alle Geiseln müssen befreit werden. Am Ende jedes Levels wartet ein Super-Alien.\r\n\r\nAlien Syndrom ist ein Run & Gun Shooter für 1 oder 2 Spieler."
+    },
+    {
+      "langue": "es",
+      "text": "Una vez más, los alienígenas hacen la vida imposible a los humanos. El jugador asume el papel de Ricky o Mary, parte de un grupo secuestrado por los alienígenas. A bordo de la nave de los secuestradores, la misión del jugador es rescatar al mayor número posible de prisioneros en un tiempo limitado y escapar evitando los ataques de los alienígenas. Para ello, dispone de un variado arsenal. El clímax es una batalla épica contra la reina madre de los alienígenas."
+    },
+    {
+      "langue": "it",
+      "text": "Alien Syndrome on Nes è un gioco d'azione adattato dall'omonimo titolo uscito sui terminali arcade. Ancora una volta, gli extraterrestri stanno causando miseria agli umani. La tua missione è salvare tutti gli individui prigionieri e scappare prima che il conto alla rovescia finisca, altrimenti esploderai con la bomba che hai piazzato. Il risultato consiste in un epico scontro con la regina madre degli alieni."
+    },
+    {
+      "langue": "pt",
+      "text": "Alien Syndrome é uma conversão de arcade de tiro com rolagem.\r\n\r\nSeu trabalho é correr e resgatar todos os cativos e chegar à escotilha de fuga antes que a bomba-relógio exploda. Então encare a mãe alienígena no final do nível.\r\n\r\nVocê pode jogar como um único jogador ou duas pessoas, revezando-se. (O jogador 2 inicia o jogo depois que o jogador 1 morre e vice-versa.)"
+    }
+  ],
+  "classifications": [
+    {
+      "type": "ESRB",
+      "text": "E"
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1988-12-02"
+    },
+    {
+      "region": "us",
+      "text": "1989"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2903",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "2646",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shooter / Run and Gun"
+        },
+        {
+          "langue": "fr",
+          "text": "Tir / Run and Gun"
+        },
+        {
+          "langue": "de",
+          "text": "Shooter / Run and Gun"
+        },
+        {
+          "langue": "es",
+          "text": "Disparos / Run and Gun"
+        },
+        {
+          "langue": "it",
+          "text": "Sparo / Run and Gun"
+        },
+        {
+          "langue": "pt",
+          "text": "Tiro / Run and Gun"
+        }
+      ]
+    },
+    {
+      "id": "2646",
+      "nomcourt": "0100",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shooter"
+        },
+        {
+          "langue": "fr",
+          "text": "Tir"
+        },
+        {
+          "langue": "de",
+          "text": "Shooter"
+        },
+        {
+          "langue": "es",
+          "text": "Disparos"
+        },
+        {
+          "langue": "it",
+          "text": "Sparo"
+        },
+        {
+          "langue": "pt",
+          "text": "Tiro"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "langue": "fr",
+      "titre": "Choix du niveau",
+      "description": "Appuyez simultanément sur Bas + Start avec la première manette et Droite avec la deuxième.\n"
+    },
+    {
+      "langue": "fr",
+      "titre": "Double arme",
+      "description": "Commencez en mode deux joueurs. Les deux joueurs doivent récolter une arme simultanément. Elle sera utilisable par les deux.\n"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=sstitle(us)",
+      "region": "us",
+      "crc": "3d2466f4",
+      "md5": "d552e917fba9f7774fb9906431f8e4cf",
+      "sha1": "a89233ff45b6e6f20a26970f79ee9098503a2b08",
+      "size": "3952",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=ss(us)",
+      "region": "us",
+      "crc": "0c77612f",
+      "md5": "a9fe93451d925abb5c119e91955e4858",
+      "sha1": "a52ca9a42df222763fd877ba7d4bb709ec306505",
+      "size": "3608",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=fanart",
+      "crc": "13981fad",
+      "md5": "d03a60d28aa03662a75f2c001d55d7e7",
+      "sha1": "592bbd53eda2b5df457466fd712d616db22ceeeb",
+      "size": "242479",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=video",
+      "crc": "7a976c69",
+      "md5": "4844feee2e8398455993a9448fea036b",
+      "sha1": "c3779491028d3d999875e28e68735ad519d5b952",
+      "size": "10513074",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=video-normalized",
+      "crc": "8d32d589",
+      "md5": "3999ff010f857052627e75300ceca1c3",
+      "sha1": "3d838d7395f253b8c6b5e1fe1b65cdb63f5b585f",
+      "size": "3729818",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=steamgrid",
+      "crc": "c578ce2a",
+      "md5": "4e0a62c7f1f540a9bffd0a7e7514925b",
+      "sha1": "c867b5a99b143e2389eaf65335cda8324affa698",
+      "size": "25343",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=wheel(jp)",
+      "region": "jp",
+      "crc": "1f30f904",
+      "md5": "548ee8d8517c11227c1415d96815d73d",
+      "sha1": "92ac2fa5d115d789ccbf5d14f79bbe8b5423bf6a",
+      "size": "103211",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=wheel(us)",
+      "region": "us",
+      "crc": "d4dffe6c",
+      "md5": "02ea6727e790d1c5a63a577932f8fb59",
+      "sha1": "b2f92cbb5cbd4a83a3cf32249d582174b3d3476d",
+      "size": "55635",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "1076b7fc",
+      "md5": "006631ea82d828debbbe48c1982854be",
+      "sha1": "7e1bc205b6a191572fed9988606f1877b89b67c5",
+      "size": "130478",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=wheel-carbon(us)",
+      "region": "us",
+      "crc": "791dfd47",
+      "md5": "56f1c76c81488e21f7c830dd4b4dd240",
+      "sha1": "6e3f09b5b9a96948f0d6a5fc26eb6898e1632e81",
+      "size": "95840",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "165b0d5d",
+      "md5": "1c0c1619b98f7121aa1a9ac0a86d0986",
+      "sha1": "9ded70f348166d9055b4feafef95424a971a4dbe",
+      "size": "132632",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=wheel-steel(us)",
+      "region": "us",
+      "crc": "77e52c8b",
+      "md5": "33ba8bdf866371d4712457862b1ca105",
+      "sha1": "adcf0949f0127f19d3f1ade8b789f27745694014",
+      "size": "96896",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "590fbd97",
+      "md5": "4a6ba31950d39ed5710da32e41aa69b0",
+      "sha1": "468c209d879c624b4881e796a6b38b100fd20b00",
+      "size": "511408",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "0cd206c4",
+      "md5": "bbfc8275d96dd4a6ba1768b12a530a36",
+      "sha1": "b8d4e8a88ab8635ce23bf87b52d9d93114e7db13",
+      "size": "84518",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "0bad53fb",
+      "md5": "862c8405ed2d1f91fa73ebfd530d79c0",
+      "sha1": "15d7cb109c2df0fb10ab75055194607a7bff559d",
+      "size": "741708",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "21a53ea7",
+      "md5": "44912322317deaa78de3aec571df78b8",
+      "sha1": "aae474a2fd785571916bb6923ad15a57fb03cb13",
+      "size": "132165",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=box-2D(us)",
+      "region": "us",
+      "crc": "0f9d5acc",
+      "md5": "778e3666236df4c804d18b3a2cdae867",
+      "sha1": "be3b4ababb5df43cbeaad70c127b773296fff76f",
+      "size": "490064",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "36be1d87",
+      "md5": "0a984ea51c101889ba52dce67de24576",
+      "sha1": "1370c9d98a224fff6e31772c7f6a1c658ff1771d",
+      "size": "136608",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "b4455094",
+      "md5": "8adb5e885213d83a6ba8a9a6550119c7",
+      "sha1": "1e01006a24465d8813e2c53a0d0efc0768c467db",
+      "size": "33581",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "22bded9e",
+      "md5": "3897f3de994f35e0d35d01fd4014692b",
+      "sha1": "4272f61d282780be016fce0687aba3d51922afc6",
+      "size": "69250",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "37f2de37",
+      "md5": "4ef22ea02a580144284de6238420588f",
+      "sha1": "4197ae45d3138ede9aa82470844ecdc5ac30865a",
+      "size": "569329",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "b97cd5f8",
+      "md5": "924c28d681d04ab0574f69805f61f74d",
+      "sha1": "e89821964f9608d16d655cb2465dac224ca349be",
+      "size": "161442",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "d8d7e572",
+      "md5": "7015dd80626b89b47c32d0f49720bb94",
+      "sha1": "99a654f853a90f594ab88f78669f17801a09f516",
+      "size": "264745",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "ff4ad6fb",
+      "md5": "ff5c1a27e12d2ce866ed2ec3906feeca",
+      "sha1": "d4d4b171be725b668baa0f2e71e8363eea340df8",
+      "size": "1468095",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "0a632243",
+      "md5": "d6b793bab0fa74df345609cafb03a8dd",
+      "sha1": "e1b00ec125e2fa57e114ffb2b7ba87804731db22",
+      "size": "339549",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=box-texture(us)",
+      "region": "us",
+      "crc": "d2e5db2b",
+      "md5": "4d1e43083ee60a12fc1fcf190a8f45a8",
+      "sha1": "6ca8db8ac526ea39cb6c5f1935bacb38325d92f3",
+      "size": "858388",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "d3e6a4c5",
+      "md5": "b6d1b18d61a17fe343e1a2b2c1ae7343",
+      "sha1": "336000446260672d5a84ef54204643c6726aa576",
+      "size": "378756",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "f22c2aa5",
+      "md5": "e9405ffc8b606c6ee3e02f701c042ba0",
+      "sha1": "5430548fb6fd02bb4d6c6b5a20b1111b8942cb0b",
+      "size": "143949",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=box-3D(us)",
+      "region": "us",
+      "crc": "edaabe0e",
+      "md5": "c514b7806d82ec16f2603a30e0343b7b",
+      "sha1": "fc7121cc74f070b9e706b427dbba8a712fab8e75",
+      "size": "315716",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=manuel(jp)",
+      "region": "jp",
+      "crc": "5a66f09b",
+      "md5": "1f7cfbd8e3e25d2c5c3705e45dc79b6d",
+      "sha1": "e77d61dfbcb18f88ca0ff4f4a3597fa8ffabd0f6",
+      "size": "517577",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=manuel(us)",
+      "region": "us",
+      "crc": "23a87957",
+      "md5": "506a09ad77b57854c10cbc558b1968c7",
+      "sha1": "450c087a9b6d605b4f7287f05bfeed67ae6eaa0b",
+      "size": "341836",
+      "format": "pdf"
+    },
+    {
+      "type": "figurine",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=figurine",
+      "crc": "fdeac435",
+      "md5": "e4656b47d879568d13ffd8edd25744a9",
+      "sha1": "65f82ceb017c0a288290a8b377db56b0765f9a2b",
+      "size": "299072",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "eefcc9c3",
+      "md5": "b4bc4edec55192bb5ee7a4c82f0c7e00",
+      "sha1": "45b8010dc2df4d623b34e1d2f25097f7b670dba2",
+      "size": "322883",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=support-texture(us)",
+      "region": "us",
+      "crc": "8ef7db2e",
+      "md5": "34641216029ae48eea42538a2e345142",
+      "sha1": "96a7c94570970b003cad225990fce4bdbf72dbfe",
+      "size": "209408",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "4ca20e0f",
+      "md5": "fba8cafa66afe8fd464ca6f70efa6aa5",
+      "sha1": "5588ccf8de9081c9fec3470b8fc2f80dceaed272",
+      "size": "272253",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=support-2D(us)",
+      "region": "us",
+      "crc": "d6a33ad2",
+      "md5": "94338e011ba3fa888de22bd1e91df21d",
+      "sha1": "e5b17385f71fb3fd1aa97e0677154dc04a8460f5",
+      "size": "494572",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "6eb321e0",
+      "md5": "6059fda661d87a4b837a41c8e1251d0d",
+      "sha1": "20a43091a66d86305768cc77d36b8e7936263e46",
+      "size": "330305",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "fc19243f",
+      "md5": "cfd2c944ee323c8df65683630b059294",
+      "sha1": "df1c80ac7affc0c8c772080b100565675f080e56",
+      "size": "433383",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "321345d9",
+      "md5": "8915b93d86792a5e48f8b1ad21cada92",
+      "sha1": "397aa50431efbf088b1f552a9e4862d046db4c1d",
+      "size": "305048",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "87177066",
+      "md5": "fc12126462c8342b834a886842811b1b",
+      "sha1": "6c251a190e7894846601bb1cbcc184d06571c208",
+      "size": "383774",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "87177066",
+      "md5": "fc12126462c8342b834a886842811b1b",
+      "sha1": "6c251a190e7894846601bb1cbcc184d06571c208",
+      "size": "383774",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "1d122e90",
+      "md5": "57387204f3c0bd92f6689c77b3aaecfa",
+      "sha1": "83a03dc9415d849f4da3ba49b26ea98a360079be",
+      "size": "652513",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=mixrbv2(nl)",
+      "region": "nl",
+      "crc": "1e744d96",
+      "md5": "4a16533923b51457f6bbd5f508d91bc5",
+      "sha1": "0fc1be50928572124f396fe1439816dcce78973f",
+      "size": "628130",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "88095cd8",
+      "md5": "00853bfa6f994ad6e2e1406b3a874ae2",
+      "sha1": "6303b3c5ae4bc8ebd13219f8598c2ca99d27619c",
+      "size": "615818",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "1e744d96",
+      "md5": "4a16533923b51457f6bbd5f508d91bc5",
+      "sha1": "0fc1be50928572124f396fe1439816dcce78973f",
+      "size": "628130",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1597&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "1e744d96",
+      "md5": "4a16533923b51457f6bbd5f508d91bc5",
+      "sha1": "0fc1be50928572124f396fe1439816dcce78973f",
+      "size": "628130",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=89&media=logo-monochrome",
+      "crc": "4f7e379a",
+      "md5": "4ed8f2e49c943fc0bf820a0c4b38052e",
+      "sha1": "6478cce4648409ed71611914adb495d1cb96bc1b",
+      "size": "8640",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=89&media=wheel",
+      "crc": "ab5a1f29",
+      "md5": "20740086419e10595ae3cfa6112c0f28",
+      "sha1": "ca51ec55f905b850ac81500693e8de54004d2876",
+      "size": "25004",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2830&media=wheel",
+      "crc": "30a972bb",
+      "md5": "cafdb47c4238c1de2f1d1137dc34864e",
+      "sha1": "eddb98266eeb801a2c6c895fedcaca00d64d6f92",
+      "size": "12730",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3551&media=pictoliste",
+      "crc": "4b70874e",
+      "md5": "e350059ffeddd8fa6305e25f6aae2d92",
+      "sha1": "51a597d09c8482e1ed1099d12db0d958aeaa1d21",
+      "size": "420",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=pictoliste",
+      "crc": "cafca3d7",
+      "md5": "51bfa81c19838bc679411a7b6f4053e2",
+      "sha1": "92253cf472ed8e71780c29ddeb6c6e260325ce1f",
+      "size": "593",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=logo-monochrome",
+      "crc": "e4f09f59",
+      "md5": "031f5b008fd851f56fea852bf9f95126",
+      "sha1": "8160d583dde154dcbd717217182d2b310e756e92",
+      "size": "10670",
+      "format": "png"
+    },
+    {
+      "id": "2903",
+      "parent": "genre",
+      "subparent": "Tir / Run and Gun",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2903&media=pictoliste",
+      "crc": "a4fb9221",
+      "md5": "86def202dcd39d55fd8b762030bb16da",
+      "sha1": "2f70185293004ec14c7ff16bfa3deb85763c660e",
+      "size": "18210",
+      "format": "png"
+    },
+    {
+      "id": "2903",
+      "parent": "genre",
+      "subparent": "Tir / Run and Gun",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2903&media=logo-monochrome",
+      "crc": "9f52a562",
+      "md5": "7215724e874468f3673b0ee42fc83a3a",
+      "sha1": "372a1fcd0e433bc7e25873aef7ff6a75bbd07045",
+      "size": "7033",
+      "format": "png"
+    },
+    {
+      "id": "2903",
+      "parent": "genre",
+      "subparent": "Tir / Run and Gun",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2903&media=logo-monochrome-svg",
+      "crc": "4d071ed3",
+      "md5": "7924c228e84a4b7d20566b33dfb94e40",
+      "sha1": "3477ef67cc9c98daf70306b10bf287a1fabdeb16",
+      "size": "1780",
+      "format": "svg"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=pictoliste",
+      "crc": "d0b14f40",
+      "md5": "155763c889de6d44fd58cd36bdfce80b",
+      "sha1": "840cb4d69672c4b48a9b9f418272010fb2b4557c",
+      "size": "872",
+      "format": "png"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=logo-monochrome",
+      "crc": "c0ab2a94",
+      "md5": "3eace7ca43a0827467c8a3d6b0ddf0c1",
+      "sha1": "5f305f34bfb22c84a8de9c35cfe3d05d1384e54b",
+      "size": "6023",
+      "format": "png"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=logo-monochrome-svg",
+      "crc": "cef80344",
+      "md5": "606c10f20d34b3433e0dd13d6d77cfd1",
+      "sha1": "99456edd47eec57be1e185340d2a1e19d193441e",
+      "size": "2427",
+      "format": "svg"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=background",
+      "crc": "cd744d4b",
+      "md5": "b794d0d78d93cf5bb0f613cd8f8118aa",
+      "sha1": "e20ebf0b23b455ba64af8231a73555d8512fb73d",
+      "size": "211172",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135330",
+      "romsize": "262160",
+      "romfilename": "Alien Syndrome (USA) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9E8351AF",
+      "rommd5": "5B87E0A19B65DE73D41CF0A6DF88B47B",
+      "romsha1": "23E03135514D88297444438A490D222F2F54BE4F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "242402",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1508",
+      "romsize": "135071",
+      "romfilename": "Alien Syndrome.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5BADDE8C",
+      "rommd5": "61732CE5D9D124586AA0BAE0E9467CC1",
+      "romsha1": "DFFEED7FF35E4E251D3212AB0087C146052DCB70",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "155774",
+      "regions": {
+        "regions_id": [
+          "47",
+          "46"
+        ],
+        "regions_shortname": [
+          "jp",
+          "us"
+        ],
+        "regions_en": [
+          "Japan",
+          "USA"
+        ],
+        "regions_fr": [
+          "Japon",
+          "USA"
+        ],
+        "regions_de": [
+          "Japan",
+          "USA"
+        ],
+        "regions_es": [
+          "Japón",
+          "USA"
+        ],
+        "regions_it": [
+          "Giappone",
+          "USA"
+        ],
+        "regions_pt": [
+          "Japão",
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "406920",
+      "romsize": "262160",
+      "romfilename": "Alien Syndrome (U).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "16FCFD20",
+      "rommd5": "FA568F24B2FE0D6D0B239F8C1F7A4A5E",
+      "romsha1": "C168859ABB5FD221B3F2F5F9BE191B577D39075B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "105758",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "519616",
+      "romsize": "262160",
+      "romfilename": "Alien_syndrome.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E72A584F",
+      "rommd5": "CFE0217F727A0EE1A14F755C47B5C371",
+      "romsha1": "9B31956DFCAB9FDC835CCC965478D91D2F4E850F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "36890"
+    },
+    {
+      "id": "135329",
+      "romsize": "262160",
+      "romfilename": "Alien Syndrome (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "36305FA3",
+      "rommd5": "4639EAE5851E0243C6DBF4BD31855406",
+      "romsha1": "A3EB7E113B147EEB8844F738C0A505F400DAD3CE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "35885",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "2091",
+      "romsize": "107815",
+      "romfilename": "Alien Syndrome (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0B87BE18",
+      "rommd5": "62AED5519FC4FFA7E90AEF07BE5EE606",
+      "romsha1": "2FC0A9939161D4D26890B2D8B113B2DD82CB0C90",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "35830",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "2090",
+      "romsize": "107998",
+      "romfilename": "Alien Syndrome (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5B42E1AE",
+      "rommd5": "59BAA2FAB417DB32A15E8D81F9582201",
+      "romsha1": "C5E081FAB919FB97FF9237EBD68E234C8F4CD4C4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "21489",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1133838",
+      "romsize": "262160",
+      "romfilename": "Alien Syndrome (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a71ab50b",
+      "rommd5": "a72cf36eaa29551487c828e6273b3249",
+      "romsha1": "ab10dbdd482341bd8545168f24560cb7e4f1c97c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "20241",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1133841",
+      "romsize": "262160",
+      "romfilename": "Alien Syndrome (USA) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "711347ea",
+      "rommd5": "4284a5c133ac42cd69833c2020139361",
+      "romsha1": "63eab030bcbeeeb91e0a084b92d89ecb3dce0668",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "11879",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "523267",
+      "romsize": "107456",
+      "romfilename": "Alien Syndrome (Unl) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D389EF4B",
+      "rommd5": "96AE4B90F3B7BC68C2AD76E05738D36D",
+      "romsha1": "0BE99E63A04F2E349DA164220C79297908950F80",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10416",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "130"
+        ],
+        "regions_shortname": [
+          "nl"
+        ],
+        "regions_en": [
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Holanda"
+        ],
+        "regions_it": [
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "579315",
+      "romsize": "786464",
+      "romfilename": "Alien Syndrome (J).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2A8EF12E",
+      "rommd5": "BA136C0D61359701CFA1AF604873B9F2",
+      "romsha1": "515ED57008904535AFCA0D1ECA918307E8136809",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9920",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "472576",
+      "romsize": "108026",
+      "romfilename": "Alien Syndrome (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0ADF85B9",
+      "rommd5": "31A8648250BB01162965AEC3893F2086",
+      "romsha1": "908C92D467BA7FE05AC373BAFBBB4666134017AC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7993",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1510",
+      "romsize": "135306",
+      "romfilename": "Alien Syndrome (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "15BB1F1C",
+      "rommd5": "33CA61AB9BC787FC7A85E10E8C09EF66",
+      "romsha1": "3B03BC25277A97B5460EFAD5D9CB70E022A41530",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3898",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "588735",
+      "romsize": "262160",
+      "romfilename": "Alien Syndrome (J) [b1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8BB8B772",
+      "rommd5": "9C2DDB2696D89FCDA71C668BF4B012EA",
+      "romsha1": "0D64DBD9C0AB7C7ED43C72EBFE93D4B7CDA12843",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3455",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "528387",
+      "romsize": "107964",
+      "romfilename": "Alien Syndrome (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7255A268",
+      "rommd5": "1222FD31F5B00852627887A6A735CD55",
+      "romsha1": "D2876A67DE247C04B22D14C8E2A45D99092246B9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3281",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "588736",
+      "romsize": "262160",
+      "romfilename": "Alien Syndrome (J) [b3].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "726A6348",
+      "rommd5": "27D8C45683900BA51A715F58822DE2E6",
+      "romsha1": "ECED5227030DA0254F4E0B71646AC47992FEE119",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2576",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "172481",
+      "romsize": "262144",
+      "romfilename": "Alien Syndrome (USA) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CBF4366F",
+      "rommd5": "66F4D31A0A0D66B2A85A88212CE159FE",
+      "romsha1": "7955DBE5EC63F71BA591A9237D113AAA90849263",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2240",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "172480",
+      "romsize": "262144",
+      "romfilename": "Alien Syndrome (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5B837E8D",
+      "rommd5": "E91B3E0AD255EEAE1823D2372A4B21DA",
+      "romsha1": "F116EB809C5A46017807335E11DC1D89FFA63E8C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1553",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "478916",
+      "romsize": "107472",
+      "romfilename": "Alien Syndrome (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FFD87A4C",
+      "rommd5": "BB9B1378AB8499DF24261A438CE19629",
+      "romsha1": "366B280F62A12961CDF18E0EB978FE9458C176F1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "296",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "565778",
+      "romsize": "107795",
+      "romfilename": "Alien Syndrome (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "212A5F87",
+      "rommd5": "417DA487633B2E9A864BF3A44975E2B0",
+      "romsha1": "447C373703A4A44116C95EC0A657BFCDB37FBABA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "277",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "112967",
+      "romsize": "107794",
+      "romfilename": "Alien Syndrome (USA) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FCDABF80",
+      "rommd5": "6A5271F1076A860CF0CCE4727831CC58",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "113",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "112966",
+      "romsize": "107976",
+      "romfilename": "Alien Syndrome (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "915ACC72",
+      "rommd5": "A0B3EF389FB30DB4519A88BDEE34772D",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "104",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1509",
+      "romsize": "135047",
+      "romfilename": "Alien Syndrome (Unknown) (Beta).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2823C053",
+      "rommd5": "9AB687A8C4633FEEF7A60CC6A3738B39",
+      "romsha1": "95A27E90322B8C989502395B427579F8BCC0EBB1",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "94"
+    }
+  ]
+}

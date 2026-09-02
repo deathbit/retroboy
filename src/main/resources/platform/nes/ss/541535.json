@@ -1,0 +1,247 @@
+{
+  "id": "541535",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Torgman Adventures: Part 1"
+    },
+    {
+      "region": "wor",
+      "text": "Torgman Adventures: Part 1"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "114368",
+    "text": "MegaCat Studios"
+  },
+  "developpeur": {
+    "id": "114371",
+    "text": "Curt Stephens"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "This isn't a con-sim, oh no it's 6 Action-packed platform-shooter levels that pay homage to NES classics!\r\n\r\nPlay as TORGMAN or TORQUE MAN to defeat the HOARDER to save TORG Gaming Expo 2023 and the world from becoming another part of his HOARD!!!"
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2023-11-13"
+    }
+  ],
+  "genres": [
+    {
+      "id": "7",
+      "nomcourt": "0101",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=541535&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "28d94791",
+      "md5": "6d4723e9df84d0778202401ddc902110",
+      "sha1": "8b2cb26e9a290f18ac26e72faa293fa9f5db1e5b",
+      "size": "76320",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=541535&media=ss(wor)",
+      "region": "wor",
+      "crc": "adc17e1e",
+      "md5": "c101882576c0fbdcabc99a931ccb467e",
+      "sha1": "a2225e0b62ff01e74460885fb36874517960cd1f",
+      "size": "107251",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=541535&media=box-2D(wor)",
+      "region": "wor",
+      "crc": "725f579d",
+      "md5": "6983ed9e8472b68bb6fae117c753691d",
+      "sha1": "50d14a90394c874e715e4aebb37cdd5c7e8f06de",
+      "size": "551952",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=541535&media=box-2D-side(wor)",
+      "region": "wor",
+      "crc": "b108fb4f",
+      "md5": "66c8fa11a5086dacd7458e7f772df95f",
+      "sha1": "ec1a07b78d04fef1af5e0d92b1310419b780a011",
+      "size": "25095",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=541535&media=box-2D-back(wor)",
+      "region": "wor",
+      "crc": "e13906ad",
+      "md5": "aee7140f9ef81b95c6526f347115665f",
+      "sha1": "9ffe71dc66cbd53f0c43df7062b9cc79205a049b",
+      "size": "645817",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=541535&media=box-texture(wor)",
+      "region": "wor",
+      "crc": "d61dd279",
+      "md5": "ab481d71359a3aa2ae1fba9f0d69dec7",
+      "sha1": "99e2297dbc1bedc4f0384ab423067ec5f1c6a69f",
+      "size": "1250894",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=541535&media=box-3D(wor)",
+      "region": "wor",
+      "crc": "1bab38e0",
+      "md5": "3ce9a60d6389cea8e777c964087f9817",
+      "sha1": "f56fdc423cb4274b582e6c9db9df1b5505533110",
+      "size": "278989",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=541535&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "8d79ecf9",
+      "md5": "6afa3a99d09021883b07d00d547f372b",
+      "sha1": "18f40f22c970a336e9692933de44de0c8d25e198",
+      "size": "488354",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=541535&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "ad5592ac",
+      "md5": "81db7fd75cf4e938051491ea8f7eb0e4",
+      "sha1": "0bfc6292abef32987ab32170c4df05a6973f28f1",
+      "size": "673887",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=pictoliste",
+      "crc": "d8329f23",
+      "md5": "ada4054a77e20edada97225e5c316116",
+      "sha1": "cfadf96438bde8ae1a8c3c52c85dd6768ba9b4c8",
+      "size": "855",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome",
+      "crc": "0f88a1ba",
+      "md5": "e8c818f5f59d48642afea18e5c545c15",
+      "sha1": "ef3857055eaae13785d2cab692edf9454b544be3",
+      "size": "9142",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome-svg",
+      "crc": "fa797dda",
+      "md5": "73a61640b94904834fdbfc7e043150e0",
+      "sha1": "3e5fe422339961df30bd70aa83e43671a1badce4",
+      "size": "4755",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=background",
+      "crc": "3d578fbf",
+      "md5": "62dbdbe08a5765fae2630d06e0f0ea38",
+      "sha1": "354ef394870af26f443863a29c846a07a20f47a0",
+      "size": "161158",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1410467",
+      "romsize": "524304",
+      "romfilename": "TORGMAN Adventures Pt. 1 (World) (Aftermarket) (Unl).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "D5A30131",
+      "rommd5": "6E770C04B059CF1CDABB42133B628383",
+      "romsha1": "F66B582FCE45498F319CB491478426EA861BC62E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "32"
+    }
+  ]
+}

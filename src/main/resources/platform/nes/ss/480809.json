@@ -1,0 +1,428 @@
+{
+  "id": "480809",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "MegaMan - 133TMAN"
+    },
+    {
+      "region": "wor",
+      "text": "MegaMan : 133TMAN"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "93089",
+    "text": "Clomax Dominion"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "A fairly-simple early-2000s ROMhack of Mega Man, with the in-game text &quot;translated&quot; to leetspeak (or 13375P33K). No other alterations noted."
+    }
+  ],
+  "genres": [
+    {
+      "id": "2887",
+      "nomcourt": "0102",
+      "principale": "0",
+      "parentid": "7",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform / Shooter Scrolling"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme / Shooter Scrolling"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform / Shooter Scrolling"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas / Tirador con desplazamiento"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma / Sparatutto a Scorrimento"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma / Tiro com rolagem"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "nomcourt": "0101",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "15a8351b",
+      "md5": "4ef1618a2a5c7527a1f24804c9f6304f",
+      "sha1": "7fb52b47b4883445d0410284dc50881cf3c6a56a",
+      "size": "25194",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=ss(wor)",
+      "region": "wor",
+      "crc": "aee9ce8f",
+      "md5": "ed6ab6fb2b4a3f9ba30407fd40c28d45",
+      "sha1": "44b7c99708af540ca082ee7059258693f7e9b1b4",
+      "size": "52652",
+      "format": "png"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=steamgrid",
+      "crc": "15111c86",
+      "md5": "c166670bdb1b99d0020a1bdd71410eeb",
+      "sha1": "040274218e1425bd309a60869af49f53574abeb9",
+      "size": "29569",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=wheel-hd(wor)",
+      "region": "wor",
+      "crc": "b44dd2a4",
+      "md5": "50165e4191683137a840429768758a21",
+      "sha1": "9a787cf718a0bb6c57240049cc1e84104888697b",
+      "size": "97146",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "05db4b58",
+      "md5": "80240a3bf7f99568cc7f29a6be086761",
+      "sha1": "dcad974ed9b19e604d90f1531e796eff0424c02e",
+      "size": "131726",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "f2babe18",
+      "md5": "33ea1e8b1e58eb6a63f509d60b1fc023",
+      "sha1": "151aab5f21ca09e86be9f764852e0329e8f42495",
+      "size": "132649",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "4cd25462",
+      "md5": "b2d0ee3333c472ec30bfbea483c93327",
+      "sha1": "67fcbc28997de43bf72c6900511e373704b5ffc1",
+      "size": "497128",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "148a24d5",
+      "md5": "63a8aad3be31e3f55a451517d5d46226",
+      "sha1": "30a2645e15114cf9098a0ab0b8c10ca591f8b9dd",
+      "size": "80921",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "e045a186",
+      "md5": "4de0620235213e5c6d9a4e0bb3595258",
+      "sha1": "4251a90062270dd7294e3014a8fbac7ecec504c5",
+      "size": "194287",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "5d7fef80",
+      "md5": "70dcfc85800c07b7d3c152b4a9c93f30",
+      "sha1": "cfd3b7d123a5d93a24e14e8a3f1834464f54daf6",
+      "size": "24823",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "7cc23316",
+      "md5": "c782241d5f441acc2af1200908c8457f",
+      "sha1": "78a19ce85afa37ea1bf8d8386ef4c5992ec61aff",
+      "size": "138059",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "051dc19f",
+      "md5": "2093badb9f52131a7d5b89c41ac5928e",
+      "sha1": "cb8971039fe40d867cb5ee58e4ae0f74b258102b",
+      "size": "362679",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "47abd550",
+      "md5": "6244d75f555500730ddb7c1de511e9fc",
+      "sha1": "683fa0dff33b826b9337db2a24156b46168ef493",
+      "size": "142192",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "4a93766b",
+      "md5": "841e813a8e96f5307aec4ae6f44e1563",
+      "sha1": "689abb4520bd7bb5913065a2d44c9aeea377f6f3",
+      "size": "384721",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "4a93766b",
+      "md5": "841e813a8e96f5307aec4ae6f44e1563",
+      "sha1": "689abb4520bd7bb5913065a2d44c9aeea377f6f3",
+      "size": "384721",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "f601278d",
+      "md5": "fd5a23528d1c7a56a1b56297b6470d21",
+      "sha1": "c237088487bb9906bd555df32497ca123d43e2f3",
+      "size": "581705",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "f601278d",
+      "md5": "fd5a23528d1c7a56a1b56297b6470d21",
+      "sha1": "c237088487bb9906bd555df32497ca123d43e2f3",
+      "size": "581705",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=480809&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "f601278d",
+      "md5": "fd5a23528d1c7a56a1b56297b6470d21",
+      "sha1": "c237088487bb9906bd555df32497ca123d43e2f3",
+      "size": "581705",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=pictoliste",
+      "crc": "d8329f23",
+      "md5": "ada4054a77e20edada97225e5c316116",
+      "sha1": "cfadf96438bde8ae1a8c3c52c85dd6768ba9b4c8",
+      "size": "855",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome",
+      "crc": "0f88a1ba",
+      "md5": "e8c818f5f59d48642afea18e5c545c15",
+      "sha1": "ef3857055eaae13785d2cab692edf9454b544be3",
+      "size": "9142",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome-svg",
+      "crc": "fa797dda",
+      "md5": "73a61640b94904834fdbfc7e043150e0",
+      "sha1": "3e5fe422339961df30bd70aa83e43671a1badce4",
+      "size": "4755",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=background",
+      "crc": "3d578fbf",
+      "md5": "62dbdbe08a5765fae2630d06e0f0ea38",
+      "sha1": "354ef394870af26f443863a29c846a07a20f47a0",
+      "size": "161158",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "880784",
+      "romsize": "79234",
+      "romfilename": "MegaMan - 133TMAN V1.0 by Clomax Dominion (Mega Man (U) Hack).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "135FE341",
+      "rommd5": "1B2AB795297FD681B61C6BFDEA4B1590",
+      "romsha1": "AA5C05BDEB2982CA862ED96A0C11CB5DFE87DC96",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20509",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "880794",
+      "romsize": "79224",
+      "romfilename": "MegaMan - Mega133TMAN V1.0 by Clomax Dominion (Megaman Hack).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1DE180FF",
+      "rommd5": "B67334E0537F8BC64EF2F8095034A67A",
+      "romsha1": "CD7FD58E43B62A249A3899A79A431B877CD56E90",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "16892"
+    }
+  ]
+}

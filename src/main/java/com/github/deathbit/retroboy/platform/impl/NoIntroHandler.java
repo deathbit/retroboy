@@ -4,6 +4,9 @@ import com.github.deathbit.retroboy.domain.PlatformContext;
 import com.github.deathbit.retroboy.domain.ProgressBar;
 import com.github.deathbit.retroboy.domain.game.NoIntroGame;
 import com.github.deathbit.retroboy.domain.gamepackage.NoIntroGamePackage;
+import com.github.deathbit.retroboy.enums.Platform;
+import com.github.deathbit.retroboy.processor.PlatformProcessor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 import org.w3c.dom.Element;
@@ -29,11 +32,14 @@ public class NoIntroHandler {
     private static final Pattern REGPARENT_AREA_PATTERN = Pattern.compile("\\(\\s*([A-Z0-9]+)\\s+PARENT\\s*\\)");
     private static final List<String> BASE_AREAS = List.of("USA", "JPN", "EUR");
 
+    @Autowired
+    private Map<Platform, PlatformProcessor> platformProcessorMap;
+
     public void handle(PlatformContext platformContext) throws Exception {
-        var noIntroGames = parseGameDBList(platformContext.getPlatformName());
+        var noIntroGames = parseGameDBList(platformContext.getPlatform().getName());
         var noIntroGameByTitle = noIntroGames.stream()
                                              .collect(Collectors.toMap(NoIntroGame::getTitle, game -> game));
-        platformContext.getPlatformProcessor().preProcessGameDB(noIntroGameByTitle);
+        getPlatformProcessor(platformContext).preProcessGameDB(noIntroGameByTitle);
 
         var filteredNoIntroGames = noIntroGames.stream()
                                                .filter(gameDB -> gameDB.getLicensed().isEmpty())
@@ -201,5 +207,13 @@ public class NoIntroHandler {
             return false;
         }
         return list.contains(area + " - " + noIntroGame.getTitle());
+    }
+
+    private PlatformProcessor getPlatformProcessor(PlatformContext platformContext) {
+        var platformProcessor = platformProcessorMap.get(platformContext.getPlatform());
+        if (platformProcessor == null) {
+            throw new IllegalStateException("PlatformProcessor not found for platform: " + platformContext.getPlatform());
+        }
+        return platformProcessor;
     }
 }

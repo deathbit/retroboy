@@ -1,0 +1,647 @@
+{
+  "id": "124555",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Super Shinobi, The"
+    },
+    {
+      "region": "asi",
+      "text": "The Super Shinobi"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "344",
+    "text": "Realtec"
+  },
+  "developpeur": {
+    "id": "19599",
+    "text": "Super Game"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "The Super Shinobi is a port of Shinobi III: Return of the Ninja Master from Megadrive/Genesis system, (rather than The Revenge of Shinobi which was sold in Japan under this game's title.) made for the Famicom by Super Game."
+    },
+    {
+      "langue": "fr",
+      "text": "Le Super Shinobi est un portage de Shinobi III : Return of the Ninja Master du système Megadrive/Genesis, (plutôt que The Revenge of Shinobi qui a été vendu au Japon sous le titre de ce jeu.) réalisé pour la Famicom par Super Game."
+    },
+    {
+      "langue": "de",
+      "text": "Der Super Shinobi ist eine Portierung von Shinobi III: Return of the Ninja Master aus dem Megadrive/Genesis-System (anstatt The Revenge of Shinobi, die in Japan unter dem Titel dieses Spiels verkauft wurde.) für die Famicom von Super Game."
+    },
+    {
+      "langue": "es",
+      "text": "El Super Shinobi es un port de Shinobi III: Return of the Ninja Master del sistema Megadrive / Genesis, (en lugar del juego The Revenge of Shinobi que se vendió en Japón bajo el título de este juego) creado para el Famicom por Super Game."
+    },
+    {
+      "langue": "it",
+      "text": "Il Super Shinobi è una conversione di Shinobi III: Return of the Ninja Master dal sistema Megadrive/Genesis, (piuttosto che The Revenge of Shinobi che è stato venduto in Giappone con il titolo di questo gioco.) realizzato per Famicom da Super Game."
+    },
+    {
+      "langue": "pt",
+      "text": "O Super Shinobi é uma versão do Shinobi III: Retorno do Mestre Ninja do sistema Megadrive / Genesis (em vez de The Revenge of Shinobi, que foi vendido no Japão com o título deste jogo.) Feito para o Famicom pela Super Game."
+    }
+  ],
+  "genres": [
+    {
+      "id": "7",
+      "nomcourt": "0101",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "3148",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Shinobi"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "cb709b8f",
+      "md5": "96fd369e052ee6c294262355208be2ff",
+      "sha1": "dc7d5f45d789bc9855f805b26da2ced1f15930d2",
+      "size": "7576",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=ss(wor)",
+      "region": "wor",
+      "crc": "12f3f312",
+      "md5": "a67495919e5fe00952412150ddd7caca",
+      "sha1": "d3f0b3949030626385064eb013934142013eb45c",
+      "size": "28015",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=fanart",
+      "crc": "2e4334ee",
+      "md5": "fd3726361c8a2ea3e43835adb2fd9bb9",
+      "sha1": "ad3978dd33817281b16beb4f4a7b45af3c4a875b",
+      "size": "245471",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=video",
+      "crc": "f205c896",
+      "md5": "3bb429c566f5e9d192875be4385b4197",
+      "sha1": "42a9153a9f34e3f1961df13333fa73ca0a8839d4",
+      "size": "8297295",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=video-normalized",
+      "crc": "b7d1cfe9",
+      "md5": "1ed4dc54a5ce11972ea2d8fca0964cf6",
+      "sha1": "da8825926db16726cf4f120817cfd45489607bd9",
+      "size": "2208134",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=steamgrid",
+      "crc": "7c3220a5",
+      "md5": "526a87091f3b92ef137d32563ff90fbb",
+      "sha1": "f9e0f611a5fb95db25ffc3c761cc3f0597be5a4c",
+      "size": "36481",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=wheel(wor)",
+      "region": "wor",
+      "crc": "22477986",
+      "md5": "4ef4554cc71b9029c4c02d5d19f9ef6c",
+      "sha1": "c0285577d254dfcf3ae94b9c490adbb301802aea",
+      "size": "158614",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "17fd48d4",
+      "md5": "aeb63a9393c9913289af267b5e6de3a6",
+      "sha1": "669245649f0abad2d8bb92af82dab79a5d4b36a2",
+      "size": "159633",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "4f2a8668",
+      "md5": "4472f7e38708caaa5fe176ebf814c686",
+      "sha1": "0ce89aaefce7d2bbf4c9f5d55a9856bdcc1dd231",
+      "size": "161352",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "a58a10c3",
+      "md5": "98f9cd358b19c92b2b03a6601c102703",
+      "sha1": "cd16c1b87db108d288e635add278c0cf941dc279",
+      "size": "520292",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "4dbf01b0",
+      "md5": "7c11ea14d5aeca41bdcc63c5fc61b29f",
+      "sha1": "e92a4844b735e1ae04086bf7f6926ccbfdc6d9c3",
+      "size": "86422",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "f9692780",
+      "md5": "2f7874f04965397f4cf9a37da7c7bbb3",
+      "sha1": "8c0aa132237bad1d7a75437f6c9e45a7f3454309",
+      "size": "394541",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "ff432c8b",
+      "md5": "fd0f966c1838e9479d17328ccf7d563d",
+      "sha1": "7a147d595bbbce037e479be15ad14b9988770245",
+      "size": "282995",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "54af5865",
+      "md5": "1877be0aea046b725dca6d05fabc2330",
+      "sha1": "41ca6c47403f73adda29682e0ca861b40f37404c",
+      "size": "26633",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "ded74bdc",
+      "md5": "78e49f42b94c7df81c7ba9c0c7ad2424",
+      "sha1": "19aa298980237c6bad310fc6851c7d8c5f287be3",
+      "size": "25663",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "800fe3b7",
+      "md5": "f8b8dd6773970f3e1a0157721fed100d",
+      "sha1": "5e48368427e5eb0709d69693590ff962f9406989",
+      "size": "2829",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "5f51015c",
+      "md5": "2800327c9bc581b6a2f74f549db08954",
+      "sha1": "0fb803c653340e866b322ebd19bc99a8984afcdf",
+      "size": "188138",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "37546cec",
+      "md5": "b5b0f4876ab7134f9e13b01373e8496e",
+      "sha1": "421f2e6e7a02dd34afa254216189732fda73728a",
+      "size": "442646",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "72aced9f",
+      "md5": "fff36c503112bf6992d18a8597606eb4",
+      "sha1": "9b096ea487ac2c61da132ee6bca9ee39296670cf",
+      "size": "510230",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "251cc31e",
+      "md5": "2035475394c345dea3490411eb8efc89",
+      "sha1": "9885723ca795c9a7de0d4053ddbbee34d7ae8a29",
+      "size": "187554",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "26938134",
+      "md5": "89f3d9beb2697cd642ee80425499976c",
+      "sha1": "fe8b44b52aec7bd1ec3c37cfd6d24bc9ee0a7d01",
+      "size": "169571",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=support-texture(wor)",
+      "region": "wor",
+      "crc": "83e03020",
+      "md5": "dc0d8a30967ea8f2f3f3beee3458ac36",
+      "sha1": "99e51cad6f91bdb7bf7d27e5869ac60d357689d5",
+      "size": "275278",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=support-2D(wor)",
+      "region": "wor",
+      "crc": "1a40982c",
+      "md5": "17684712c47acbb318518009964c1268",
+      "sha1": "855b2ba365155c86c335230a333afef584d78297",
+      "size": "216980",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "ed8c03c1",
+      "md5": "048c95302013b8d4cd3770b7a3065600",
+      "sha1": "1d0832b2a8b818a4b3a3dca44b825bcba12dddf1",
+      "size": "589969",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=mixrbv2(asi)",
+      "region": "asi",
+      "crc": "49da93c3",
+      "md5": "26e40b929bfb1486674241e668e89557",
+      "sha1": "9f79e623e203274daadbafcc42a371eb137060d6",
+      "size": "839200",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=mixrbv2(nl)",
+      "region": "nl",
+      "crc": "49da93c3",
+      "md5": "26e40b929bfb1486674241e668e89557",
+      "sha1": "9f79e623e203274daadbafcc42a371eb137060d6",
+      "size": "839200",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124555&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "49da93c3",
+      "md5": "26e40b929bfb1486674241e668e89557",
+      "sha1": "9f79e623e203274daadbafcc42a371eb137060d6",
+      "size": "839200",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=344&media=wheel",
+      "crc": "f1a59b56",
+      "md5": "8b50852ea77276027478349d2b779fd5",
+      "sha1": "9857e9aeb07d86f40488cd1165df3a3c6498336a",
+      "size": "53591",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=pictoliste",
+      "crc": "d8329f23",
+      "md5": "ada4054a77e20edada97225e5c316116",
+      "sha1": "cfadf96438bde8ae1a8c3c52c85dd6768ba9b4c8",
+      "size": "855",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome",
+      "crc": "0f88a1ba",
+      "md5": "e8c818f5f59d48642afea18e5c545c15",
+      "sha1": "ef3857055eaae13785d2cab692edf9454b544be3",
+      "size": "9142",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome-svg",
+      "crc": "fa797dda",
+      "md5": "73a61640b94904834fdbfc7e043150e0",
+      "sha1": "3e5fe422339961df30bd70aa83e43671a1badce4",
+      "size": "4755",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=background",
+      "crc": "3d578fbf",
+      "md5": "62dbdbe08a5765fae2630d06e0f0ea38",
+      "sha1": "354ef394870af26f443863a29c846a07a20f47a0",
+      "size": "161158",
+      "format": "jpg"
+    },
+    {
+      "id": "3148",
+      "parent": "famille",
+      "subparent": "Shinobi",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3148&media=figurine",
+      "crc": "4f294d23",
+      "md5": "a6118a5b92dcc5d7b605eae787b6909b",
+      "sha1": "148438170aebd53b79a1054dc613f282704183a8",
+      "size": "360763",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "387488",
+      "romsize": "524304",
+      "romfilename": "Super Shinobi, The (Unl) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A36C26E7",
+      "rommd5": "8C226C3F8CAD98956807CEBA7F0841BC",
+      "romsha1": "8D6A49387F08139F87057603545A30CE40FC8A02",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "77606",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "114",
+          "130"
+        ],
+        "regions_shortname": [
+          "asi",
+          "nl"
+        ],
+        "regions_en": [
+          "Asia",
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Asie",
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Asien",
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Asia",
+          "Holanda"
+        ],
+        "regions_it": [
+          "Asia",
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Ásia",
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "595909",
+      "romsize": "181885",
+      "romfilename": "Super Shinobi, The (Unl) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D615FD76",
+      "rommd5": "ACAEB16488D856F17C0045B68D0F0C57",
+      "romsha1": "1DB47672296F7027AEAA6C0162065B6DD5AC4046",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8678",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "130"
+        ],
+        "regions_shortname": [
+          "nl"
+        ],
+        "regions_en": [
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Holanda"
+        ],
+        "regions_it": [
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "828471",
+      "romsize": "181194",
+      "romfilename": "Super Shinobi.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3B131B09",
+      "rommd5": "AE9F76A0B78842BB769E601ABB3289C1",
+      "romsha1": "748A493862D315419AF0792E8FEB459C02AAC3E1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7657"
+    }
+  ]
+}

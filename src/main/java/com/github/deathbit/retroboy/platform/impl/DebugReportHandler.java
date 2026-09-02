@@ -29,7 +29,7 @@ public class DebugReportHandler {
         var debugReportPath = PathUtils.DEBUG_REPORT.get(platformContext);
         var content = new StringBuilder();
         content.append(System.lineSeparator());
-        appendFileContexts(content, platformContext.getFileContextMap());
+        appendFileContexts(content, platformContext.getFileContexts());
         appendFinalGames(content, platformContext.getFinalGameMapByArea());
         appendRenameResults(content, platformContext.getRenameResultByArea());
         appendMediaCompletionRates(content, platformContext.getMediaCompletionRateMap());
@@ -59,15 +59,15 @@ public class DebugReportHandler {
         return report.toString();
     }
 
-    private void appendFileContexts(StringBuilder content, Map<String, FileContext> fileContextMap) {
-        var fileContexts = fileContextMap.values().stream()
-                .distinct()
+    private void appendFileContexts(StringBuilder content, List<FileContext> fileContexts) {
+        var sortedFileContexts = (fileContexts == null ? List.<FileContext>of() : fileContexts).stream()
                 .sorted(Comparator.comparing(FileContext::getFileName))
                 .toList();
-        content.append("原始ROM信息 - ").append(fileContexts.size()).append("：").append(System.lineSeparator());
-        content.append("fileName | fullName | namePart | tagPart | tags | extension").append(System.lineSeparator());
-        fileContexts.forEach(fileContext -> content.append(fileContext.getFileName())
+        content.append("原始ROM信息 - ").append(sortedFileContexts.size()).append("：").append(System.lineSeparator());
+        content.append("fileName | fullName | aliasNames | namePart | tagPart | tags | extension").append(System.lineSeparator());
+        sortedFileContexts.forEach(fileContext -> content.append(fileContext.getFileName())
                 .append(" | ").append(fileContext.getFullName())
+                .append(" | ").append(formatTags(fileContext.getAliasNames()))
                 .append(" | ").append(fileContext.getNamePart())
                 .append(" | ").append(fileContext.getTagPart())
                 .append(" | ").append(formatTags(fileContext.getTags()))
@@ -192,6 +192,9 @@ public class DebugReportHandler {
     }
 
     private String formatTags(Set<String> tags) {
+        if (tags == null || tags.isEmpty()) {
+            return "[]";
+        }
         return tags.stream().sorted().toList().toString();
     }
 }

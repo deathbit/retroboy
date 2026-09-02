@@ -8,13 +8,16 @@ import com.github.deathbit.retroboy.domain.MatchResult;
 import com.github.deathbit.retroboy.domain.PlatformContext;
 import com.github.deathbit.retroboy.domain.gamepackage.WikiGamePackage;
 import com.github.deathbit.retroboy.enums.MatchLevel;
+import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.match.MatchStrategy;
 import com.github.deathbit.retroboy.match.strategy.FullExactMatchStrategy;
 import com.github.deathbit.retroboy.match.strategy.FuzzyRatioMatchStrategy;
 import com.github.deathbit.retroboy.match.strategy.NoSpaceMatchStrategy;
 import com.github.deathbit.retroboy.match.strategy.PartialExactMatchStrategy;
+import com.github.deathbit.retroboy.processor.PlatformProcessor;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -44,12 +47,14 @@ public class MatchHandler {
         new NoSpaceMatchStrategy()
     );
 
+    @Autowired
+    private Map<Platform, PlatformProcessor> platformProcessorMap;
+
     public void handle(PlatformContext platformContext) throws Exception {
         var wikiList = new ArrayList<>(platformContext.getWikiGamePackages());
         var gameList = new ArrayList<>(platformContext.getNoIntroGamePackages());
-        var areaMapping = platformContext.getPlatformProcessor().gameDBToWikiDBAreaMapping(
+        var areaMapping = getPlatformProcessor(platformContext).gameDBToWikiDBAreaMapping(
             buildGameAreas(gameList), buildWikiAreas(wikiList));
-        platformContext.setGameDBToWikiDBAreaMapping(areaMapping);
 
         var allPairs = new ArrayList<MatchPairForPackage>();
 
@@ -88,13 +93,14 @@ public class MatchHandler {
         allPairs.forEach(pair -> matchPairsByLevel.get(pair.getMatchLevel()).add(pair));
 
         platformContext.setMatchResult(MatchResult.builder()
+                                                  .gameDBToWikiDBAreaMapping(areaMapping)
                                                   .matchPairsByLevel(matchPairsByLevel)
                                                   .mismatchWikiGamePackages(wikiList)
                                                   .unusedNoIntroGamePackages(gameList)
                                                   .fuzzyMatchDetails(fuzzyStrategy.getFuzzyMatchDetails())
                                                   .build());
         generateMatchReport(platformContext);
-        platformContext.setMatchPairForGamesByArea(buildMatchPairForGamesByArea(platformContext));
+        platformContext.setMatchPairForGamesByArea(buildMatchPairForGamesByArea(platformContext.getMatchResult(), areaMapping));
     }
 
     private List<String> buildWikiAreas(List<WikiGamePackage> wikiGamePackages) {
@@ -180,7 +186,7 @@ public class MatchHandler {
 
     private void generateMatchReport(PlatformContext platformContext) {
         var matchResult = platformContext.getMatchResult();
-        var platform = platformContext.getPlatform().name().toLowerCase();
+        var platform = platformContext.getPlatform().getName();
 
         var report = new LinkedHashMap<String, Object>();
         for (var level : MatchLevel.values()) {
@@ -204,10 +210,11 @@ public class MatchHandler {
         }
     }
 
-    private Map<String, List<MatchPairForGame>> buildMatchPairForGamesByArea(PlatformContext platformContext) {
+    private Map<String, List<MatchPairForGame>> buildMatchPairForGamesByArea(
+        MatchResult matchResult,
+        Map<String, String> areaMapping
+    ) {
         var matchPairForGamesByArea = new LinkedHashMap<String, List<MatchPairForGame>>();
-        var areaMapping = platformContext.getGameDBToWikiDBAreaMapping();
-        var matchResult = platformContext.getMatchResult();
 
         for (var pairs : matchResult.getMatchPairsByLevel().values()) {
             for (var pair : pairs) {
@@ -300,5 +307,13 @@ public class MatchHandler {
         var names = new LinkedHashMap<String, String>();
         pkg.getNoIntroGameByArea().forEach((area, gameDB) -> names.put(area, gameDB.getTitle()));
         return names;
+    }
+
+    private PlatformProcessor getPlatformProcessor(PlatformContext platformContext) {
+        var platformProcessor = platformProcessorMap.get(platformContext.getPlatform());
+        if (platformProcessor == null) {
+            throw new IllegalStateException("PlatformProcessor not found for platform: " + platformContext.getPlatform());
+        }
+        return platformProcessor;
     }
 }

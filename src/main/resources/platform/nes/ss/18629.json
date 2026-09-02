@@ -1,0 +1,886 @@
+{
+  "id": "18629",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Crazy Climber"
+    },
+    {
+      "region": "jp",
+      "text": "Crazy Climber"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "226",
+    "text": "Nichibutsu"
+  },
+  "developpeur": {
+    "id": "226",
+    "text": "Nichibutsu"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "note": {
+    "text": "10"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "As Crazy Climber, climb your way to the top of a series of buildings, where a helicopter is waiting to pick you up and take you to the next building. As Climber scales a building, he is able to climb up and sideways but he cannot climb down.\nWhile climbing a building, windows will open and close simultaneously. If any window closes on either of his hands he will lose his grip. However, if a window closes on both of his hands, he will fall to his death, resulting in the loss of a life. You have three Climbers in total, but you are awarded an extra Climber every 30,000 points. Besides windows, Climber is faced with other dangers, including:\n\n1. Bald-headed guys who hurl various objects at you.\n2. Pesky condors who fly by, dropping eggs and droppings of an unpleasant substance.\n3. Falling steel girders and iron dumbells.\n4. Electrical &quot;Nichibutsu&quot; signs with a dangling live wire.\n5. Falling &quot;Crazy Climber&quot; signs.\n6. King Kong leaping from side to side of the building and slams his hands against the windows.\n\nThe climber must try to avoid or overcome each of those hazards which he will encounter as he continues climbing in his attempt to reach the rooftop. If he falls to his death by windows or objects,  another climber will replace him and will start at the same location where the last one fell. The specific danger will not be present at the same point, so the climber can go further up to face the next danger. Most of the hazards are announced by certain recognizable musical themes. \n\nCrazy Climber is awarded a bonus score on each building every time after getting carried off by the helicopter. However, each bonus score will decrease by every ten seconds that the climber will spend scaling each building as he attempts reach the top. Somewhere in the game, there is &quot;The Lucky Balloon&quot;, which can lift Climber about ten stories and raise the player's bonus score if he catches it."
+    },
+    {
+      "langue": "fr",
+      "text": "vous etes un escaladeur fou et devez atteindre le haut de la tour.\n\n"
+    },
+    {
+      "langue": "de",
+      "text": "Klettern Sie als Crazy Climber auf die Spitze einer Reihe von Gebäuden, wo ein Hubschrauber darauf wartet, Sie abzuholen und zum nächsten Gebäude zu bringen. Wenn der Kletterer ein Gebäude erklimmt, kann er nach oben und seitwärts klettern, aber nicht nach unten.\r\nBeim Klettern auf ein Gebäude öffnen und schließen sich die Fenster gleichzeitig. Wenn sich irgendein Fenster an einer seiner Hände schließt, verliert er den Halt. Wenn sich jedoch an beiden Händen ein Fenster schließt, stürzt er in den Tod, was den Verlust eines Menschenlebens zur Folge hat. Sie haben insgesamt drei Kletterer, erhalten aber alle 30.000 Punkte einen zusätzlichen Kletterer. Neben Fenstern ist Climber auch mit anderen Gefahren konfrontiert."
+    },
+    {
+      "langue": "es",
+      "text": "Como Crazy Climber, sube a la cima de una serie de edificios, donde un helicóptero está esperando para que te recoja y te lleve al siguiente edificio. Cuando el escalador escala un edificio, puede subir y ir de costado, pero no puede bajar. Al subir a un edificio, las ventanas se abrirán y cerrarán simultáneamente. Si alguna ventana se cierra en cualquiera de sus manos, perderá su agarre. Sin embargo, si una ventana se cierra con ambas manos, caerá hasta su muerte, lo que resultará en la pérdida de una vida. Tiene tres escaladores en total, pero se le otorga un escalador adicional cada 30,000 puntos. Además de las ventanas, Climber se enfrenta a otros peligros."
+    },
+    {
+      "langue": "it",
+      "text": "Come Crazy Climber, sali in cima a una serie di edifici, dove un elicottero ti sta aspettando per prenderti e portarti all'edificio successivo. Quando lo scalatore scala un edificio, può salire e di lato, ma non può scendere. Quando si sale su un edificio, le finestre si aprono e si chiudono contemporaneamente. Se una finestra si chiude in una delle tue mani, perderai la presa. Tuttavia, se una finestra viene chiusa con entrambe le mani, cadrà fino alla morte, con conseguente perdita di una vita. Hai tre scalatori in totale, ma ti viene assegnato uno scalatore aggiuntivo ogni 30.000 punti. Oltre alle finestre, Climber deve affrontare altri pericoli."
+    },
+    {
+      "langue": "pt",
+      "text": "você é um alpinista louco e precisa chegar ao topo da torre."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1986-12-26"
+    }
+  ],
+  "genres": [
+    {
+      "id": "7",
+      "nomcourt": "0101",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma"
+        }
+      ]
+    }
+  ],
+  "modes": [
+    {
+      "id": "4",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Single-player"
+        },
+        {
+          "langue": "fr",
+          "text": "Jouable en solo"
+        },
+        {
+          "langue": "de",
+          "text": "Einzelspieler"
+        },
+        {
+          "langue": "es",
+          "text": "Jugador individual"
+        },
+        {
+          "langue": "it",
+          "text": "Giocatore singolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogador individual"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "4079",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Crazy Climber"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "39f94065",
+      "md5": "7d6e21a73d5d496855c823e4b70adb4f",
+      "sha1": "aa760fcd28bf21d576da9270d71ea5dd5ccc1512",
+      "size": "4080",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=ss(jp)",
+      "region": "jp",
+      "crc": "b7c0f291",
+      "md5": "73ac28beb48a97405a54c08741ddb136",
+      "sha1": "569ce95ca5387fb97f0c8f08b85f5f5defce9bcf",
+      "size": "3104",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=video",
+      "crc": "c0b87195",
+      "md5": "00b454e3caa071937202a2e597aa2819",
+      "sha1": "f9cb97fa52804341436796c7eea43a935e9f4514",
+      "size": "1730785",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=video-normalized",
+      "crc": "875b8410",
+      "md5": "35da9a55ac23e1ea0798764336dbd27f",
+      "sha1": "771d4491168c34d9defacc5e33bc9a2cb4e1ea6f",
+      "size": "857576",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=steamgrid",
+      "crc": "4f56d712",
+      "md5": "70c0fd481133305210359b5264c95328",
+      "sha1": "74a1baed7a2e69e4a33a93746766e8c6db5d0811",
+      "size": "31705",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=wheel(jp)",
+      "region": "jp",
+      "crc": "c6201815",
+      "md5": "81a3de0bd3806b2ef25469743b421251",
+      "sha1": "3bb10b8c8ce4b2e587b29fa3eedff29be35249b5",
+      "size": "93291",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "40fb7d23",
+      "md5": "b0a1cf98af1fb676878e59010bb3db10",
+      "sha1": "227e7f1cae04bfa81b0e7b22df809ccf8b1ccdad",
+      "size": "117031",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "c6eb5127",
+      "md5": "567daeda9fd7c47ef97f4d4f31f0daa4",
+      "sha1": "81e1a798307686a25243d8454539021823f07870",
+      "size": "117484",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "ee8a5e27",
+      "md5": "e859cc418a24c9dbec0471b013eeb854",
+      "sha1": "82ceb76ca89c216a8a6bc79d79a29f7a90970ca3",
+      "size": "470433",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "06575c4b",
+      "md5": "27a9eb88750a7b1108f4ef9e57356def",
+      "sha1": "d40cc9565f2ad5725cac327793f58f58d68903d4",
+      "size": "74659",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "56862b15",
+      "md5": "b49ba3d2489aba2fc9a730b193206287",
+      "sha1": "d113db8062915f62038f8ffd983f71431cb112df",
+      "size": "552486",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "28c039ef",
+      "md5": "3c9d9e07e679262571cd2e484a132974",
+      "sha1": "2b155709180fae26c5d0cba30c9c1adbf89022a2",
+      "size": "148346",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "4376e274",
+      "md5": "24af0ce10a4cca16347d7ba3e06195a2",
+      "sha1": "2da9ee445cbdebb9cc5ba7a58ac671ba231aa487",
+      "size": "70527",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "6d4c471c",
+      "md5": "6f9695b364d3f7b21fe196da2fa34e28",
+      "sha1": "9343cf1311d3f016d0c83faeb807106e9abfc411",
+      "size": "22647",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "1afe5d5f",
+      "md5": "6a687e3fe86dc8315857faccd445441a",
+      "sha1": "3019de8125e511a81579298022a189e7caf93bea",
+      "size": "454603",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "3cfe2205",
+      "md5": "b49e363c8d76bd66eda866475ce07fa0",
+      "sha1": "e195eeb6c568bad7a44e878a9582c244a484adae",
+      "size": "158045",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "fab98597",
+      "md5": "c675613899402538af9b981cf920dd5c",
+      "sha1": "01b5cbbbe428a00c3be43e75eee0ff1871454dcb",
+      "size": "1094785",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "a0dcdc03",
+      "md5": "db5104f9b2603dcd62a7051136757bae",
+      "sha1": "0b798e96730d00b72228702fdbfe5825c4d1a77c",
+      "size": "349062",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "599f5ea9",
+      "md5": "85fdf5b7487ddf27beab3bd2534d29c9",
+      "sha1": "0d1dbcf08402fd3024795c7ce8bf53b6fcc5b75a",
+      "size": "295744",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "7648136f",
+      "md5": "589ab05ee67d18abf9589d44574d81db",
+      "sha1": "faa4f619319c7d959f7430ace7347e74e3b61290",
+      "size": "130293",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=manuel(jp)",
+      "region": "jp",
+      "crc": "54012dd9",
+      "md5": "039903aef9f38287c9c579cd068b23cc",
+      "sha1": "e8ea4314412c8c14ae28d1c62976061f5e52a5fa",
+      "size": "453725",
+      "format": "pdf"
+    },
+    {
+      "type": "figurine",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=figurine",
+      "crc": "d77e75ab",
+      "md5": "05b4dffdd62074ebed7fe0ea38a88fbb",
+      "sha1": "4a21deaa5c0b6ba82fc27a0cc0c328ec12764e95",
+      "size": "232634",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "38324aa1",
+      "md5": "1b72e0e3c20aa346277b72800c7fe73b",
+      "sha1": "254c5992b3c588fb0c64d49575a68a3a4468682a",
+      "size": "317188",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "3ce253c2",
+      "md5": "c8bc858e79401130121234ee4e8d1943",
+      "sha1": "efcaed93f4b759601e1835ccb565d8fc3afd7574",
+      "size": "286643",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "b84c9708",
+      "md5": "134b4ed366ddd7a0625ff85a08d8d8e6",
+      "sha1": "e20752415a89214865ffea5ebf9165e7a136a8b9",
+      "size": "371067",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "82dd5839",
+      "md5": "a9c7c71474895b5477dab5c5c9832b02",
+      "sha1": "bdc241752511794cddb766d4f4682df686398ab6",
+      "size": "296514",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "b84c9708",
+      "md5": "134b4ed366ddd7a0625ff85a08d8d8e6",
+      "sha1": "e20752415a89214865ffea5ebf9165e7a136a8b9",
+      "size": "371067",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "f22305f1",
+      "md5": "a301c373f73f6039fee2e6a29fdd56a1",
+      "sha1": "4c36d169e5f22611cd792b4e97dc3ed4f11ef2a8",
+      "size": "601251",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "55ab2255",
+      "md5": "6478e2cf5c5b3eb0c06edb5948992c18",
+      "sha1": "a012195e9b0d2bb86e12fa12318ca8f1c032de12",
+      "size": "527937",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18629&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "f22305f1",
+      "md5": "a301c373f73f6039fee2e6a29fdd56a1",
+      "sha1": "4c36d169e5f22611cd792b4e97dc3ed4f11ef2a8",
+      "size": "601251",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=226&media=logo-monochrome",
+      "crc": "82a0d579",
+      "md5": "63b3625a32ee0317ee29e418c8a0884a",
+      "sha1": "5fb50927285b93cb958a3c0ba1a13070f1abdcae",
+      "size": "19908",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=226&media=wheel",
+      "crc": "2442f83c",
+      "md5": "62d402a5baa6a84c7b15e2f7a170dd94",
+      "sha1": "05a0467da65d1b17552a58cbdb2e10775ff982a6",
+      "size": "38634",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=226&media=logo-monochrome",
+      "crc": "82a0d579",
+      "md5": "63b3625a32ee0317ee29e418c8a0884a",
+      "sha1": "5fb50927285b93cb958a3c0ba1a13070f1abdcae",
+      "size": "19908",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=226&media=wheel",
+      "crc": "2442f83c",
+      "md5": "62d402a5baa6a84c7b15e2f7a170dd94",
+      "sha1": "05a0467da65d1b17552a58cbdb2e10775ff982a6",
+      "size": "38634",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3549&media=pictoliste",
+      "crc": "3f323ede",
+      "md5": "ee94c442647fcb83b712d089de6a8686",
+      "sha1": "e484bfad29cfb587d5d73a2c9123aab37e541ec0",
+      "size": "384",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=pictoliste",
+      "crc": "d8329f23",
+      "md5": "ada4054a77e20edada97225e5c316116",
+      "sha1": "cfadf96438bde8ae1a8c3c52c85dd6768ba9b4c8",
+      "size": "855",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome",
+      "crc": "0f88a1ba",
+      "md5": "e8c818f5f59d48642afea18e5c545c15",
+      "sha1": "ef3857055eaae13785d2cab692edf9454b544be3",
+      "size": "9142",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome-svg",
+      "crc": "fa797dda",
+      "md5": "73a61640b94904834fdbfc7e043150e0",
+      "sha1": "3e5fe422339961df30bd70aa83e43671a1badce4",
+      "size": "4755",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=background",
+      "crc": "3d578fbf",
+      "md5": "62dbdbe08a5765fae2630d06e0f0ea38",
+      "sha1": "354ef394870af26f443863a29c846a07a20f47a0",
+      "size": "161158",
+      "format": "jpg"
+    },
+    {
+      "id": "4079",
+      "parent": "famille",
+      "subparent": "Crazy Climber",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=4079&media=figurine",
+      "crc": "d77e75ab",
+      "md5": "05b4dffdd62074ebed7fe0ea38a88fbb",
+      "sha1": "4a21deaa5c0b6ba82fc27a0cc0c328ec12764e95",
+      "size": "232634",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135698",
+      "romsize": "131088",
+      "romfilename": "0614 Crazy climber.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "738881A7",
+      "rommd5": "A7506BE2F527BBE032D92469D36C4453",
+      "romsha1": "CDAF5D5A8B1635C6E331781B249F9943931A65FF",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "101302",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "2459",
+      "romsize": "48974",
+      "romfilename": "Crazy Climber (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "070C24A9",
+      "rommd5": "D863D5AB4B747D55A25CF76529417021",
+      "romsha1": "5094937EA9DCC4C71F27D09A62CB6FC6EC0FBECB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "93696",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "640567",
+      "romsize": "262160",
+      "romfilename": "245 Crazy Climber.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "20106F63",
+      "rommd5": "3185ACC224F58718A88DE689A5BE7D27",
+      "romsha1": "1E82AB007129784AE1D13A8F8EB98A2910A6A3AF",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "1",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "86737",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1135809",
+      "romsize": "131088",
+      "romfilename": "Crazy Climber (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "cc427176",
+      "rommd5": "8398bff2f584ffd75352f9944a05d2d9",
+      "romsha1": "d48810f9009b17136ac083d8e81b83b7be88180a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20904",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "172852",
+      "romsize": "131072",
+      "romfilename": "Crazy Climber (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C68363F6",
+      "rommd5": "C71947155DE403FDC7028EE8A0C29681",
+      "romsha1": "003B7F1315F5EE0DC60C5F9D989EC8BAB0811ED4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2522",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113348",
+      "romsize": "48952",
+      "romfilename": "Crazy Climber (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C80DA308",
+      "rommd5": "5B82CE6F1DC31653ACD51EAA02F55BDE",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "134",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

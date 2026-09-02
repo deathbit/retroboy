@@ -1,0 +1,1350 @@
+{
+  "id": "18623",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Color A Dinosaur"
+    },
+    {
+      "region": "us",
+      "text": "Color a Dinosaur"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "6",
+    "text": "Virgin"
+  },
+  "developpeur": {
+    "id": "214",
+    "text": "FarSight"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Color a Dinosaur is an electronic coloring book designed for kids ages 3 to 6. The game provides 16 different dinosaurs which can be colored in with a variety of colors and patterns. There are two coloring modes available: free form mode where you control a pencil and select the region to be colored, or automatic mode where the computer selects a region and you only have to select a color."
+    },
+    {
+      "langue": "fr",
+      "text": "Color a Dinosaur est un livre de coloriage électronique conçu pour les enfants âgés de 3 à 6 ans. Le jeu fournit 16 dinosaures différents qui peuvent être colorés dans une variété de couleurs et de motifs. Il y a deux modes de coloration disponibles: le mode de forme libre où vous contrôlez un crayon et sélectionnez la zone à colorer, ou le mode automatique où l'ordinateur sélectionne une région et il vous suffit de sélectionner une couleur."
+    },
+    {
+      "langue": "de",
+      "text": "Color a Dinosaur ist ein elektronisches Malbuch für Kinder im Alter von 3 bis 6 Jahren. Das Spiel bietet 16 verschiedene Dinosaurier, die mit einer Vielzahl von Farben und Mustern ausgemalt werden können. Es stehen zwei Farbmodi zur Verfügung: der Freiformmodus, bei dem Sie einen Stift steuern und den zu färbenden Bereich auswählen, oder der automatische Modus, bei dem der Computer einen Bereich auswählt und Sie nur eine Farbe auswählen müssen."
+    },
+    {
+      "langue": "es",
+      "text": "Color a dinosaur es un libro para colorear electrónico diseñado para niños de 3 a 6 años. El juego ofrece 16 dinosaurios diferentes que se pueden colorear en una variedad de colores y diseños. Hay dos modos disponibles: el modo de colorear de forma libre en el que controlas un lápiz y seleccionas la región a colorear o el modo automático en el que el equipo selecciona una región y sólo tienes que seleccionar un color."
+    },
+    {
+      "langue": "it",
+      "text": "Colora un dinosauro è un libro da colorare elettronico progettato per bambini dai 3 ai 6 anni. Il gioco offre 16 diversi dinosauri che possono essere colorati con una varietà di colori e motivi. Sono disponibili due modalità di colorazione: modalità a forma libera in cui controlli una matita e selezioni la regione da colorare, o modalità automatica in cui il computer seleziona una regione e devi solo selezionare un colore."
+    },
+    {
+      "langue": "pt",
+      "text": "Color a Dinosaur é um livro de colorir eletrônico projetado para crianças de 3 a 6 anos. O jogo oferece 16 dinossauros diferentes que podem ser coloridos com uma variedade de cores e padrões. Existem dois modos de coloração disponíveis: modo de forma livre, onde você controla um lápis e seleciona a região a ser colorida, ou o modo automático, onde o computador seleciona uma região e você só precisa selecionar uma cor."
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1993-07-01"
+    }
+  ],
+  "genres": [
+    {
+      "id": "30",
+      "nomcourt": "1100",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Educational"
+        },
+        {
+          "langue": "fr",
+          "text": "Ludo-Educatif"
+        },
+        {
+          "langue": "de",
+          "text": "Lernspiel"
+        },
+        {
+          "langue": "es",
+          "text": "Educacional"
+        },
+        {
+          "langue": "it",
+          "text": "Educativo"
+        },
+        {
+          "langue": "pt",
+          "text": "Educacional"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=sstitle(us)",
+      "region": "us",
+      "crc": "ce07fb35",
+      "md5": "bf86c52285ffbfef885dab6ec92fbdc5",
+      "sha1": "3dd6b8a41d16fdc0b42cc91bfae0ab7eb33d1258",
+      "size": "3488",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=ss(us)",
+      "region": "us",
+      "crc": "1622f26e",
+      "md5": "cc0699b540531f9d53ef2fcabfb45adc",
+      "sha1": "1525a8e4e1696cd08ecbd5653bb0aeadfe5d7fa5",
+      "size": "3904",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=fanart",
+      "crc": "40c44d2c",
+      "md5": "53c00e0929586d99c2655e542767c86d",
+      "sha1": "12ff91f106f927fec7bce3773026892d341ec28d",
+      "size": "291609",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=video",
+      "crc": "484c39ab",
+      "md5": "606c8cf3611e48e420cffd73197ea379",
+      "sha1": "31a4cbdc3505ec7cd8d115819f81c038c085c948",
+      "size": "2505097",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=video-normalized",
+      "crc": "795e7926",
+      "md5": "71d32e76b0170ea5dc7c29a9eb5be599",
+      "sha1": "a3b2f1bd6b36b26f1987484fea2a379a5181ca15",
+      "size": "798177",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=steamgrid",
+      "crc": "dd5ac704",
+      "md5": "08aada3f70062e5e15a420e2484994ff",
+      "sha1": "61fe23710c7b7846c52a35b7005666c117464c53",
+      "size": "32641",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=wheel(us)",
+      "region": "us",
+      "crc": "84278858",
+      "md5": "3bf8c4e1e518d9ceab84cdab1064a43e",
+      "sha1": "600dcf4f0f7f128976b7061c62e15b8789d7fe00",
+      "size": "179872",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=wheel-carbon(us)",
+      "region": "us",
+      "crc": "687af1da",
+      "md5": "beed4ea20326c764ae8be2019f12f117",
+      "sha1": "77b03ece6091b24834b8f160fc615c9fb9f9744f",
+      "size": "151786",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=wheel-steel(us)",
+      "region": "us",
+      "crc": "d5b8d4e7",
+      "md5": "b0d2b80413774186aa687fabfabd1314",
+      "sha1": "bfa1450ebcf1d6363c1facd94cb5b6d93a299ed9",
+      "size": "152432",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=screenmarquee(us)",
+      "region": "us",
+      "crc": "d5c4b99c",
+      "md5": "53a283f4413ccfe65f7265727f4095a6",
+      "sha1": "2dfb8ce71ce352c1475cd48ccb10934213c37a46",
+      "size": "516055",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=screenmarqueesmall(us)",
+      "region": "us",
+      "crc": "4633dacb",
+      "md5": "f1401a8b6fe3891908446444c6353bda",
+      "sha1": "aacfe4bf5f5c086513a85a7f0c2e26f894762657",
+      "size": "86385",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "e9415adc",
+      "md5": "b32d951220ac3cc43b7a728bce8edbcb",
+      "sha1": "20e3b3f24f7b6940bb3ddb9c190b97bbff6ba80d",
+      "size": "161347",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=box-2D(us)",
+      "region": "us",
+      "crc": "88472694",
+      "md5": "8ce445abd0148fe0be0e9717e16ae4d0",
+      "sha1": "924b395e91fa3f1b85aba896759377ed06ee13d6",
+      "size": "253093",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "526aedcf",
+      "md5": "efeff627a2db5f844956d3dcbb9a3b0f",
+      "sha1": "692ced961b389f022874cf3eb6b98007499b9219",
+      "size": "27729",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "c9cb51e5",
+      "md5": "7f63a143c04a20d27f0595a71e18efbe",
+      "sha1": "b25d557746aed6c2e9cac74ee1a66a0385484759",
+      "size": "51904",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "78167b80",
+      "md5": "9b5f86ce873fb6d470c443545f7074c4",
+      "sha1": "89756ad91f1c320c62ff4add5b695e21c5154ffd",
+      "size": "164998",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "f8ff1fa3",
+      "md5": "973bd997bafb62a53903131a5eeee0c1",
+      "sha1": "f7653d9d57cd9a3ac74e651ac200040e29847cca",
+      "size": "250502",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "f6955145",
+      "md5": "ca85bdf61c7c36bd3db2f8a13b26510c",
+      "sha1": "5f411c6ac16e9592c69d7304d9dd21ee68c44189",
+      "size": "372689",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=box-texture(us)",
+      "region": "us",
+      "crc": "0687d0cb",
+      "md5": "623c28bd185aa9f253f412ac4f8005af",
+      "sha1": "533e77fc7f1e7d9f23151b48691035adaf91c700",
+      "size": "629086",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "7449b418",
+      "md5": "270e5c99a615e1213e4003e265aee180",
+      "sha1": "2ec6a894adf701ffa79a4c558cd7559ffc201795",
+      "size": "130045",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=box-3D(us)",
+      "region": "us",
+      "crc": "273a8c6d",
+      "md5": "37b5257dbed89c57042ef9a46715e4d1",
+      "sha1": "d085b22985af5b0eb71e56f41c5d73e9e74e4111",
+      "size": "232688",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=manuel(us)",
+      "region": "us",
+      "crc": "de947b3a",
+      "md5": "c901e996c72805f2490ff95d7e7595dd",
+      "sha1": "278724f25716f5a70ea36a6c46730c862d21c713",
+      "size": "1600821",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=support-texture(us)",
+      "region": "us",
+      "crc": "23bb5371",
+      "md5": "731c90bb8f1a556b5a11822635d3e9f7",
+      "sha1": "a8ba2c8605cf720e982d5a1bc90b98a47f953024",
+      "size": "433510",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=support-2D(us)",
+      "region": "us",
+      "crc": "0fce9e61",
+      "md5": "587b79f714376945699a7f664168ebbf",
+      "sha1": "3c867d56b021672431f928df96f57eb27c909059",
+      "size": "369666",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "9689af2a",
+      "md5": "bcf540ad2ec3bd661582ba118ba70f5f",
+      "sha1": "fd898d87a38428e436f319399f0d69b1ae27fb4a",
+      "size": "256195",
+      "format": "png"
+    },
+    {
+      "type": "themehb",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaFichierJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=themehb",
+      "crc": "44d6bf8a",
+      "md5": "c92aebd281c0b5c0b18442655efe2d98",
+      "sha1": "e245374e0f018618fa13c303f22320663f3e45a9",
+      "size": "5613029",
+      "format": "zip"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "afd8a286",
+      "md5": "81b44b504ed1ae514ff2fd1994cd9be7",
+      "sha1": "b03642600e05760d1a1ade3a7870d1ec8656bdfd",
+      "size": "337227",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "329ee93e",
+      "md5": "151f89ae5390631a9e663da00de0efad",
+      "sha1": "cb576be6af57df62448238a3aeac322d428dd5a1",
+      "size": "403498",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "329ee93e",
+      "md5": "151f89ae5390631a9e663da00de0efad",
+      "sha1": "cb576be6af57df62448238a3aeac322d428dd5a1",
+      "size": "403498",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "13671f40",
+      "md5": "1e61597e42b1fbfaadfe5e23aa6ba0ee",
+      "sha1": "5422fdb7c50fffe3d0ecea099f5edc7f61df2aba",
+      "size": "576303",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "943dce19",
+      "md5": "d2a39fe3a63a748c960452718db16f82",
+      "sha1": "9a11dd1a0733dbf35dc167102fb6dc063624ecca",
+      "size": "639108",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18623&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "943dce19",
+      "md5": "d2a39fe3a63a748c960452718db16f82",
+      "sha1": "9a11dd1a0733dbf35dc167102fb6dc063624ecca",
+      "size": "639108",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=6&media=logo-monochrome",
+      "crc": "04d63bc4",
+      "md5": "799f03e881d3551f75aa55debe1ab543",
+      "sha1": "9ccd4f5456947526a588707819a5c9d1199cf412",
+      "size": "20468",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=6&media=wheel",
+      "crc": "82e68113",
+      "md5": "4fe2ebd6c52d34bfa69a79fdf089c881",
+      "sha1": "e4b49eaa3b5cab0c0d4631fa1c4cbe92c2538352",
+      "size": "23678",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=pictoliste",
+      "crc": "e28550e1",
+      "md5": "e337a914d16f2371caf8ca01f58c1f72",
+      "sha1": "577bcb723200a3267b49908fb79928567e894f48",
+      "size": "843",
+      "format": "png"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=logo-monochrome",
+      "crc": "de92ed5c",
+      "md5": "7b89241db8d1857b59510d6cf99ea656",
+      "sha1": "d2176dbfce2daaefd8e06167b0e528d612eaf84f",
+      "size": "6893",
+      "format": "png"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=logo-monochrome-svg",
+      "crc": "11bcb2d1",
+      "md5": "6c8be079904348e944823207aa5d621e",
+      "sha1": "2465ea75ec1bbcb7abd6bec24522837b56fbecd0",
+      "size": "2464",
+      "format": "svg"
+    },
+    {
+      "id": "30",
+      "parent": "genre",
+      "subparent": "Ludo-Educatif",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=30&media=background",
+      "crc": "b2f1fe8f",
+      "md5": "97e5055083b20b96fcfa1b1ebe05b602",
+      "sha1": "f6e720d79074f5987f558221f7bf19714da06423",
+      "size": "319073",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135674",
+      "romsize": "131088",
+      "romfilename": "Color a Dinosaur (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "322A6CCA",
+      "rommd5": "6E83FC8E10924D6353B90B4C7FF436D6",
+      "romsha1": "CC41B336E78771E2AEEBA77A62E7B0E2F6D34836",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "384910",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "2435",
+      "romsize": "35813",
+      "romfilename": "Color a Dinosaur (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8A0EBF24",
+      "rommd5": "A47CF004A09CC3667F087E821ACFDB59",
+      "romsha1": "29D3F401E1DCB62A9C3E381470636A93F96413F4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "130422",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "675362",
+      "romsize": "36012",
+      "romfilename": "Color a Dinosaur.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4CEE435D",
+      "rommd5": "CA9CECA23B223EEFA2092F46BA4A7922",
+      "romsha1": "D6DF6210E88C3E27D0295D632DF229CEF51A2054",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "41954"
+    },
+    {
+      "id": "1135665",
+      "romsize": "131088",
+      "romfilename": "Color a Dinosaur (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a5edb316",
+      "rommd5": "a6759d568244e9ab9f4ebaf6f416fdd8",
+      "romsha1": "a1c3f84cc36ac70b222b18b4ec59e66ea60ec60d",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "38286",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "348727",
+      "romsize": "131088",
+      "romfilename": "Color a Dinosaur (USA) (Beta).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F81E072A",
+      "rommd5": "95FD797C809089190C073B7AE4805172",
+      "romsha1": "965E406299DF2B4F09C4BFB516DEE600AED6036B",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "21619",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "467305",
+      "romsize": "35080",
+      "romfilename": "Color A Dinosaur (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F624C027",
+      "rommd5": "154D19737AECC61239E5377911E25DA3",
+      "romsha1": "40D6D9A840159BBF7F8A4FF24F92D865C1BD598A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "16532",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "523372",
+      "romsize": "35720",
+      "romfilename": "Color A Dinosaur (U) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B461AB1E",
+      "rommd5": "E4E178EA281D5A3F7BAD2FE42AB961AA",
+      "romsha1": "8365A7028536ABF9D650E6FB345E0F5950CDDFEC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11087",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "113320",
+      "romsize": "55605",
+      "romfilename": "Color a Dinosaur (USA) (Beta).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "106A1679",
+      "rommd5": "6766A00EAF552BB6CE3FFABF816B4A3A",
+      "romsha1": "",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7648",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "473095",
+      "romsize": "36022",
+      "romfilename": "Color a Dinosaur (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "64F9FEF2",
+      "rommd5": "233A9B65249277B9B687D921EEAF08A4",
+      "romsha1": "9EF1A9DC7A5D6119B1E3F9671248C097E54136F3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7177",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "470808",
+      "romsize": "55627",
+      "romfilename": "Color a Dinosaur (USA) (Beta).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7B3872CA",
+      "rommd5": "5F5784FBC13840FAE4C863BF34A9C5FB",
+      "romsha1": "CF9919E67C934D0B7EC85B0708EC8447A4E1C491",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5179",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1135668",
+      "romsize": "131088",
+      "romfilename": "Color a Dinosaur (USA) (Beta).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6fd9d8f6",
+      "rommd5": "6f7b23d0f4afc6046b1f6f3f2bdae8ad",
+      "romsha1": "b18e5a87920b5c5c11c1a0e45822e0a56127ecdb",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4705",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "172823",
+      "romsize": "131072",
+      "romfilename": "Color a Dinosaur (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0123BFFE",
+      "rommd5": "99DD1D23A46E68B7163DBC5BB69B9929",
+      "romsha1": "B84C5A8EA62EF3F1EEF920968284DC6CD4D6055D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3437",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "531176",
+      "romsize": "35969",
+      "romfilename": "Color A Dinosaur (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E24F299E",
+      "rommd5": "06E33324241C7130E7B05AA9597886A9",
+      "romsha1": "86860F4D19C8AF1B63A70FFBF940188BCBE1472A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1814",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "172824",
+      "romsize": "131072",
+      "romfilename": "Color a Dinosaur (USA) (Beta).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CB17D41E",
+      "rommd5": "132C970E244A375426742F9E6F5480F4",
+      "romsha1": "C9F15FCB8389EF25CB16AF0B277EC6885DC4B6D7",
+      "beta": "1",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1483",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "568828",
+      "romsize": "35776",
+      "romfilename": "Color a Dinosaur (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CD1CB8FB",
+      "rommd5": "0AB21A13172B91E7CC73F4D9F5163647",
+      "romsha1": "5509ABE062BA55E75598E2856F55F1620F7DDCF3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "294",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "113321",
+      "romsize": "35791",
+      "romfilename": "Color a Dinosaur (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "AB3B1E3A",
+      "rommd5": "7759B290063E064DBD8F31B6BDA6D881",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "111",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "id": "153220",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Missile Tank"
+    },
+    {
+      "region": "wor",
+      "text": "Missile Tank"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "developpeur": {
+    "id": "69131",
+    "text": "Yanshan Software"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "A Chinese clone of the early Famicom game &quot;Battle City&quot;, with different levels and a reworked title screen. Just like in Battle City, you guide a tank through a destructible battlefield, shooting enemy tanks and protecting your base from destruction."
+    },
+    {
+      "langue": "fr",
+      "text": "Un clone chinois du premier jeu Famicom Battle City, avec des niveaux différents et un écran-titre retravaillé. Comme dans Battle City, tu guides un tank à travers un champ de bataille destructible, en tirant sur les chars ennemis et en protégeant ta base de la destruction."
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "f34c640c",
+      "md5": "6566e2188574a922c7b614f84d7511f5",
+      "sha1": "e85ab4a1cbf6da131a9eec0e54f11936795a29a7",
+      "size": "3406",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=ss(wor)",
+      "region": "wor",
+      "crc": "fa9922ac",
+      "md5": "f483b3f2fb2f4214b73cace3219c1d1a",
+      "sha1": "02a3b11f7fdeb60b96a517833c87c19a3c45f254",
+      "size": "3181",
+      "format": "png"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=steamgrid",
+      "crc": "2125a7f2",
+      "md5": "e512d93fe303c0d8a3dac7fb3ac9e8a0",
+      "sha1": "c01d7c40f770221b5663b340257b9f5fa44abadf",
+      "size": "30565",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=wheel(wor)",
+      "region": "wor",
+      "crc": "3a176720",
+      "md5": "f10f65aee8cb21990c54256a75e9c302",
+      "sha1": "d50258a619fa5aa9cff0c5a72c5a0b29e45fd71d",
+      "size": "28186",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "b95f843e",
+      "md5": "17cfb86a623ebebee466e9a49911b29f",
+      "sha1": "892a77bc9d1c08938c2ecf32cdddbc74fb681a1a",
+      "size": "75535",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "d58e2cd9",
+      "md5": "e33061eca9bfb32e76401bf3287b3dc8",
+      "sha1": "a103996669c6057aed7966799bb1ff7a1fc2c426",
+      "size": "76911",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "0ee1dedc",
+      "md5": "8f1d49ba5c43035af5a84b5e1e5bb305",
+      "sha1": "d106e1664762938c3c9c91f93f86020329fb445a",
+      "size": "465522",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "b9a88e94",
+      "md5": "3d4c58c5fc518f64bdad6c072f4a27ce",
+      "sha1": "bc7fd2b735e286c3b039e04a84a9cf0e20284500",
+      "size": "74156",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "7a18efa8",
+      "md5": "77c6495ba9abb900c3c0bc8fe14b0f7e",
+      "sha1": "00713242a8fc7e05a3635aacbdac2bb8fd962067",
+      "size": "85897",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "61c21b00",
+      "md5": "03bc3cab030e6feeeff04683e8479e33",
+      "sha1": "99af41bdf144cae253898bbe0576a9ab490bde08",
+      "size": "15354",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "f7ac1238",
+      "md5": "c0e975355b306a4e27e5a10df60dc46e",
+      "sha1": "6f0198b25f28e5f513b3cde3ebc2076021f8f5b9",
+      "size": "103545",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "e0b85537",
+      "md5": "d3ac759388325c6282a634ee83fbaac3",
+      "sha1": "bc3e23d0bb9c8fffb21a37365e19db6b87d70208",
+      "size": "211831",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "a5dd47a3",
+      "md5": "c6ba09eaa2a2c1f66b298c2a83f0eaeb",
+      "sha1": "7d67c7eaf9f5f7d48004a62beab12af7deae5918",
+      "size": "123956",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "b6f9fd61",
+      "md5": "5182bef332b8bf755754ee135fc80c86",
+      "sha1": "2a419f8eb0429a165e72f0cd071d18ac88c1a1cc",
+      "size": "345417",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "d0c4535a",
+      "md5": "422776780b5f9a24d76ecd668e1e7caf",
+      "sha1": "ab5d430738494db86c83e161ccc489777b4bccda",
+      "size": "304686",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "06eff849",
+      "md5": "e966c62ef022c5ec81341004bdc8b786",
+      "sha1": "6d01acbd4346942117430ac1a8e83e04026ca3ba",
+      "size": "224492",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=mixrbv2(cn)",
+      "region": "cn",
+      "crc": "5a8d8966",
+      "md5": "f9330cbb5dea23c77e268a891ec90f3d",
+      "sha1": "b5ea7df7e46d891d639a375fc617b238022744fc",
+      "size": "402629",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=153220&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "5a8d8966",
+      "md5": "f9330cbb5dea23c77e268a891ec90f3d",
+      "sha1": "b5ea7df7e46d891d639a375fc617b238022744fc",
+      "size": "402629",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "675822",
+      "romsize": "49168",
+      "romfilename": "Missile Tank (As) [p1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "234779C7",
+      "rommd5": "8D035E5F987E620BF57759AA6724F986",
+      "romsha1": "C6708970A8D11E7FD63F8C3DB21A872EDB002014",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13518",
+      "regions": {
+        "regions_id": [
+          "56"
+        ],
+        "regions_shortname": [
+          "cn"
+        ],
+        "regions_en": [
+          "China"
+        ],
+        "regions_fr": [
+          "Chine"
+        ],
+        "regions_de": [
+          "China"
+        ],
+        "regions_es": [
+          "China"
+        ],
+        "regions_it": [
+          "Cina"
+        ],
+        "regions_pt": [
+          "China"
+        ]
+      }
+    },
+    {
+      "id": "675824",
+      "romsize": "49168",
+      "romfilename": "Missile Tank with 6 Enemies (As) [p1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "63E3B99A",
+      "rommd5": "6E7290040DC01E23CAF878F112BB8A0B",
+      "romsha1": "B0344F866D0C6AAE890CD1252F73D23193E2C835",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8303",
+      "regions": {
+        "regions_id": [
+          "56"
+        ],
+        "regions_shortname": [
+          "cn"
+        ],
+        "regions_en": [
+          "China"
+        ],
+        "regions_fr": [
+          "Chine"
+        ],
+        "regions_de": [
+          "China"
+        ],
+        "regions_es": [
+          "China"
+        ],
+        "regions_it": [
+          "Cina"
+        ],
+        "regions_pt": [
+          "China"
+        ]
+      }
+    },
+    {
+      "id": "1476189",
+      "romsize": "49168",
+      "romfilename": "Heavy Tank (Missile Tank Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "55755be2",
+      "rommd5": "3f7e2c34a90bbc396029469ca087dbd9",
+      "romsha1": "47419342bb70ff66e4f7d36d6cdca72ecdd839fc",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    }
+  ]
+}

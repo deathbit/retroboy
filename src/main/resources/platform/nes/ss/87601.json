@@ -1,0 +1,745 @@
+{
+  "id": "87601",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Kabushiki Doujou"
+    },
+    {
+      "region": "jp",
+      "text": "Kabushiki Doujou"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "18513",
+    "text": "HectorSoft"
+  },
+  "developpeur": {
+    "id": "541",
+    "text": "TOSE"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Kabushiki Doujou is a stock trading simulation game, where the aim is to invest wisely in the stock market and develop a bountiful portfolio. The player is given regular money goals to reach before the next target is due and can buy, sell and manage their stocks to achieve as much wealth as possible."
+    },
+    {
+      "langue": "fr",
+      "text": "&quot;Kabushiki Doujou&quot; est un jeu de simulation de trading boursier, dont le but est d'investir judicieusement en bourse et de développer un &quot;joli&quot; portefeuille. \r\nLe joueur reçoit régulièrement des objectifs financiers à atteindre avant que le prochain défi soit donné et peut acheter, vendre et gérer ses actions pour atteindre autant de richesse que possible."
+    },
+    {
+      "langue": "de",
+      "text": "Kabushiki Doujou ist ein Simulationsspiel für den Aktienhandel, bei dem das Ziel darin besteht, klug in den Aktienmarkt zu investieren und ein reichhaltiges Portfolio zu entwickeln. Der Spieler erhält regelmäßige Geldziele zu erreichen, bevor das nächste Ziel fällig ist, und kann seine Aktien kaufen, verkaufen und verwalten, um so viel Vermögen wie möglich zu erzielen."
+    },
+    {
+      "langue": "es",
+      "text": "El juego Kabushiki Doujou fue desarrollado por Hect y publicado en 1988. Es un juego estratégico en el que debes hacerte cargo de una determinada empresa. Se muestran un montón de gráficos y tablas de negocios, pero si no conoce los caracteres, estas no lo ayudarán. De particular interés es el sonido que con poca frecuencia se puede escuchar música clásica en ocho bits."
+    },
+    {
+      "langue": "it",
+      "text": "Kabushiki Doujou è un gioco di simulazione di borsa, in cui l'obiettivo è investire saggiamente nel mercato azionario e sviluppare un portafoglio generoso. Al giocatore vengono assegnati obiettivi di denaro regolari da raggiungere prima della scadenza del prossimo obiettivo e può acquistare, vendere e gestire le proprie azioni per ottenere quanta più ricchezza possibile."
+    },
+    {
+      "langue": "pt",
+      "text": "O jogo Kabushiki Doujou foi desenvolvido pela Hect e publicado em 1988. É um jogo de estratégia no qual se deve dirigir uma determinada empresa. Muitos gráficos e tabelas de negócios são exibidos, mas se você não conhece os personagens, eles não o ajudarão. Digno de nota é o som que raramente se ouve música clássica de oito bits."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1989-05-02"
+    }
+  ],
+  "genres": [
+    {
+      "id": "27",
+      "nomcourt": "0500",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Strategy"
+        },
+        {
+          "langue": "fr",
+          "text": "Stratégie"
+        },
+        {
+          "langue": "de",
+          "text": "Strategie"
+        },
+        {
+          "langue": "es",
+          "text": "Estrategia"
+        },
+        {
+          "langue": "it",
+          "text": "Strategia"
+        },
+        {
+          "langue": "pt",
+          "text": "Estratégia"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "7d066ec6",
+      "md5": "21ff29bb4f74f1c22a5b27aab857966e",
+      "sha1": "1578a04121e06bd94897f0cfe60c36142b0c7412",
+      "size": "3840",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=ss(jp)",
+      "region": "jp",
+      "crc": "d03db35e",
+      "md5": "78b3aeaaaef8a11827d7c5504975e6c6",
+      "sha1": "a4c747297684643c7a45b8ebdc00106bf906eff6",
+      "size": "2824",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=video",
+      "crc": "c2998a23",
+      "md5": "6904b4fc090e949aabf346003f9fc518",
+      "sha1": "ef8cf8d5a6b95de741543bd6f211e0dc1d5ec9fb",
+      "size": "1900586",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=video-normalized",
+      "crc": "99c07924",
+      "md5": "f5d10af7800d1ed38ca5a4c8be70500d",
+      "sha1": "d76d7a8ee798e11d2083b0a35056e463c1449ed8",
+      "size": "869262",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=steamgrid",
+      "crc": "700bb0e1",
+      "md5": "a495a287e4d68fcbdc980a91de0f5ba1",
+      "sha1": "e781a49f6449e59f12105cb30c038d7b20829b59",
+      "size": "28503",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=wheel(jp)",
+      "region": "jp",
+      "crc": "4c680c9c",
+      "md5": "aed92078afb37ad6fb89ca05830beb86",
+      "sha1": "db3cedd10fbf3649f0d6efa34c6b2b31723e0761",
+      "size": "24797",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "63c7a4c4",
+      "md5": "3bea09b258fb3ddf6ef5802a92731870",
+      "sha1": "b12a1dfbf575bcdb3dcbcdd92958dfd6b533b100",
+      "size": "68117",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "71c470c8",
+      "md5": "9dd7c894bed789e56643599406460dc9",
+      "sha1": "c9c600af27b32fb91642fd6dc27e9087cc7c9141",
+      "size": "68509",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "4f2d7bb7",
+      "md5": "76b3c31d7729137dee4d17d4ad2346a2",
+      "sha1": "a5e427655b65338149572d2db5a4f3b22e5fbe33",
+      "size": "476897",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "a1c927bd",
+      "md5": "1ed5825f6e90aefe70e274460501c4c7",
+      "sha1": "2f32c03ac086f4a02d9169d8fcca95a0d28d4da6",
+      "size": "76655",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "e2a2bc95",
+      "md5": "926cda61e7f63ceb6c125e7afd75dd1d",
+      "sha1": "07364a8c2a5406c06cfb219117ca1c0948c197e5",
+      "size": "713378",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "a61490c1",
+      "md5": "809c1162b86fa3370341b03a4f38eb3e",
+      "sha1": "c6efb826205223a648dba50d596f816dba783246",
+      "size": "80536",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "df7dca38",
+      "md5": "1fb98f2a25ddbe1c11bf03eb9e887d39",
+      "sha1": "178c05ae1213b3f8611136318d426b0a61e2b6c3",
+      "size": "23275",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "485b35e5",
+      "md5": "9045fc4eae32428c30406f8984bc8bf1",
+      "sha1": "9d2f97f81b39ea68312be598e3475b4d2cd98341",
+      "size": "22957",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "5bfeed51",
+      "md5": "c611d4b270476e769b20413893c71e8b",
+      "sha1": "36ab1205c0d501ac85b0da2cefd16f92ee3a46db",
+      "size": "587609",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "9ced8848",
+      "md5": "17aa16340cbbc3f411c5ce513e8e4386",
+      "sha1": "b1570dfe8e4394f9a6b68a9e6ff028186f4f7662",
+      "size": "129604",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "cc4e0fd5",
+      "md5": "cda45ebb974743921ab21c6e3ed3a405",
+      "sha1": "89e93386fb9221b70a7068aa4b6c69bfe6500164",
+      "size": "1361571",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "95d165f4",
+      "md5": "1b4423b561ce97e33458f82d38589257",
+      "sha1": "6567612660e61a36b808f7cdcf69fab14d79e42a",
+      "size": "245763",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "64e9d856",
+      "md5": "9dcb9d5d22d82ffd6b52886677a05593",
+      "sha1": "e3a302f4b1a5aeaea1e770ea5647d90c92503a70",
+      "size": "283154",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "7fb2f890",
+      "md5": "eb484564596b21f9d13b4cfe9e69b1d6",
+      "sha1": "5a687cfac2653fd36a6faa647b2ef68df1f5962b",
+      "size": "99592",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=manuel(jp)",
+      "region": "jp",
+      "crc": "8583e5f1",
+      "md5": "dbf9cd63beaceea9c6e4083714d70391",
+      "sha1": "4e6eda470cf1f01140b7864088bcf7f5923b61e9",
+      "size": "5005955",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "2bbcaff6",
+      "md5": "203ba234520052913c0c8c480d8cafbd",
+      "sha1": "03ea1017b08fc37f764c442052f2a9b1a1dcee78",
+      "size": "255380",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "0b324c5d",
+      "md5": "8915bc5ce29af99b0ced4de102d0c95c",
+      "sha1": "78be17be8df870c90ac54c9833674d9e05cc0660",
+      "size": "234384",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "e4530688",
+      "md5": "6a7a12cd3b4d93b76c2c50a374570dcb",
+      "sha1": "e4c2f975bb6a8b2bcd83d3258f4c217550045baf",
+      "size": "242132",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "59994a0f",
+      "md5": "b5dd9f2b22843de34f53f31311f149c4",
+      "sha1": "a943f09d3f29e927ccd4cd4b29bae0f5af3d65d4",
+      "size": "151139",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "e4530688",
+      "md5": "6a7a12cd3b4d93b76c2c50a374570dcb",
+      "sha1": "e4c2f975bb6a8b2bcd83d3258f4c217550045baf",
+      "size": "242132",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "d0bb3493",
+      "md5": "1169f9fcc3c5a41dc5ade4c941a99738",
+      "sha1": "5b4383a476810a7475dda6f6e3f7944bbaee7ec6",
+      "size": "394491",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "16e48ae0",
+      "md5": "0fdea0a21786b598c01e5593b379d72f",
+      "sha1": "6b1b4be2ee49126cfc8da39a0b142a58a06ee806",
+      "size": "302356",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=87601&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "d0bb3493",
+      "md5": "1169f9fcc3c5a41dc5ade4c941a99738",
+      "sha1": "5b4383a476810a7475dda6f6e3f7944bbaee7ec6",
+      "size": "394491",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=18513&media=wheel",
+      "crc": "d0b03a8f",
+      "md5": "e0fed9e9a8a50bb7752ca93d0b781181",
+      "sha1": "14e642ca0a6eb9bc4645ed202f30342ebf266f35",
+      "size": "11822",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=541&media=logo-monochrome",
+      "crc": "1c232d09",
+      "md5": "26fd107517cd082c150a9346c3c89e5f",
+      "sha1": "05904f350909dc01a59d337ceef5fc974c5be7e0",
+      "size": "40623",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=541&media=wheel",
+      "crc": "49bb0e57",
+      "md5": "9556a7cbeda7b4d5f0f901c0c4d2a988",
+      "sha1": "913742d782e2831b09b0bb86f676f76973a7055f",
+      "size": "116664",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=pictoliste",
+      "crc": "390f6fd3",
+      "md5": "3fa8179193133952edec1f1c83cbbb12",
+      "sha1": "91d013549a041ad038ee98be72ef9065b1ef2fac",
+      "size": "938",
+      "format": "png"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=logo-monochrome",
+      "crc": "868744ba",
+      "md5": "532936b915571fa9610eea67748f388c",
+      "sha1": "76f9d4781b456572ef1b45420a874cd4b207aaff",
+      "size": "5344",
+      "format": "png"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=logo-monochrome-svg",
+      "crc": "68078839",
+      "md5": "dca661ef2311c429fc7cc04446d74cb2",
+      "sha1": "fc33378ea7d4fbabcba0aa5b14f0803facd5b6e5",
+      "size": "2190",
+      "format": "svg"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=background",
+      "crc": "dde606f3",
+      "md5": "dccb263a55ad6904ff08a7ffa8400adc",
+      "sha1": "f2d9943b945e4268b10e0b8edc3aa151e0e983d5",
+      "size": "213672",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136395",
+      "romsize": "262160",
+      "romfilename": "Kabushiki Doujou (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "209BB4F8",
+      "rommd5": "F46D58C0DFB888396534C6D74DC5CE00",
+      "romsha1": "A1E521A63049A2CC205CF9EFC0EBE98397856716",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "58449",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "12905",
+      "romsize": "198313",
+      "romfilename": "Kabushiki Doujou (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8B493BF1",
+      "rommd5": "C191CDF262DD75253A0B603982237848",
+      "romsha1": "07F8968F9BA45C733F521EA51A19B8BDFF72FE99",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "41003",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1139217",
+      "romsize": "262160",
+      "romfilename": "Kabushiki Doujou (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3eea69fc",
+      "rommd5": "590c9a2edffb48eacbc2f66105a72aed",
+      "romsha1": "2ab9e1f567ee074edd7bcc8983c0b323bcc609a7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19995",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173561",
+      "romsize": "262144",
+      "romfilename": "Kabushiki Doujou (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7172F3D4",
+      "rommd5": "F0D331AFB272779C52E0E93B26367575",
+      "romsha1": "6F3BDA5FAE9B6ED4EA4572307DA8C0CE13ECEC47",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1743",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114059",
+      "romsize": "198291",
+      "romfilename": "Kabushiki Doujou (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2826EBCA",
+      "rommd5": "90BC471AA0C20A869397072CCE6920DA",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "126",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

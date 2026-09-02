@@ -1,0 +1,921 @@
+{
+  "id": "88300",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Game Party"
+    },
+    {
+      "region": "jp",
+      "text": "Game Party"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "34166",
+    "text": "C Dream"
+  },
+  "developpeur": {
+    "id": "34166",
+    "text": "C Dream"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Game Party allows you to play 5 different games on one cartridge. The games involved are Air Hockey, Hockey, Pinball, Basketball, and  Mind-Q. So grab a friend and start playing some good multiplayer games!"
+    },
+    {
+      "langue": "fr",
+      "text": "Game party est une compilation de minis-jeux sortis sur la console Nintendo NES. Jouable jusqu'à quatre la cartouche vous propose de jouer à différents petits jeux de sport tel que le basket, le hockey, le flipper, le football, le air hockey où encore le célèbre jeu de société le mastermind. Les jeux les plus faciles à prendre en main garantissent de bonnes tranches de rigolade lorsque vous jouez à deux."
+    },
+    {
+      "langue": "de",
+      "text": "Game Party ist eine Zusammenstellung von Minispielen, die auf der Nintendo NES-Konsole veröffentlicht wurden. Die für bis zu vier Personen spielbare Kassette ermöglicht das Spielen verschiedener kleiner Sportspiele wie Basketball, Hockey, Flipper, Fußball, Airhockey oder das berühmte Brettspiel Mastermind. Die Spiele, die am einfachsten zu erlernen sind, garantieren viel Spaß beim gemeinsamen Spielen."
+    },
+    {
+      "langue": "es",
+      "text": "Game Party es un compendio de juegos recreativos que incluye: Air hockey, Hockey pinball, Basketball y Master Mind."
+    },
+    {
+      "langue": "it",
+      "text": "Game Party ti consente di giocare a 5 giochi diversi su una cartuccia. I giochi coinvolti sono Air Hockey, Hockey, Pinball, Basketball e Mind-Q. Quindi prendi un amico e inizia a giocare ad alcuni buoni giochi multiplayer!"
+    },
+    {
+      "langue": "pt",
+      "text": "Game party é uma compilação de minijogos lançados para o sistema Nintendo NES. Jogável até quatro, o cartucho oferece a você a oportunidade de jogar vários pequenos jogos esportivos, como basquete, hóquei, pinball, futebol, hóquei aéreo ou até mesmo o famoso jogo de tabuleiro the mastermind. Os jogos mais fáceis de aprender são muito divertidos ao jogar a dois."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1990-08-03"
+    }
+  ],
+  "genres": [
+    {
+      "id": "685",
+      "nomcourt": "0600",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport"
+        },
+        {
+          "langue": "de",
+          "text": "Sport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes"
+        },
+        {
+          "langue": "it",
+          "text": "Sport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "nomcourt": "0B00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "fr",
+          "text": "Puzzle-Game"
+        },
+        {
+          "langue": "de",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "es",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "it",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "pt",
+          "text": "Quebra-cabeças"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "1892c5da",
+      "md5": "78220f9bcac0f30a0eb214a6f147ba8b",
+      "sha1": "b07ded5db9136ba57c57f61100cb773b80b1debe",
+      "size": "3528",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=ss(jp)",
+      "region": "jp",
+      "crc": "f7c83937",
+      "md5": "6c164cb76fb766fa8c09a69a03db895c",
+      "sha1": "b4a1fe3dc9bd24d7d7fc586c9d35420a10b0c14c",
+      "size": "4448",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=fanart",
+      "crc": "9e912c05",
+      "md5": "d93fa7f24083dab2df513b60fd1ac442",
+      "sha1": "1e8a7fe305edeff39950760e0e6d564e2da712bd",
+      "size": "76462",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=video",
+      "crc": "9e02d35d",
+      "md5": "a9604f1789d3e30210f505451342fcca",
+      "sha1": "437b3b8ae78df8c580cbd46c7439bb8f83cd8952",
+      "size": "8495402",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=video-normalized",
+      "crc": "5cb770c1",
+      "md5": "24e858ca0ce455960d1e00ba4a5acece",
+      "sha1": "6c6202773119039e717e772e8dfe8061e89753fe",
+      "size": "3673816",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=steamgrid",
+      "crc": "bcc5fe95",
+      "md5": "405371b49f7f874a44136c3fdbfcb792",
+      "sha1": "d8ff7449f5633b6d3ca0a29f134a0ec3423c30f5",
+      "size": "31122",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=wheel(jp)",
+      "region": "jp",
+      "crc": "a04f5aa8",
+      "md5": "37bf413eaf7b9732eac9a4010a93393e",
+      "sha1": "34ecfab402f3f9ef59cbcec99e862897aa04a0dd",
+      "size": "63075",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "04535f26",
+      "md5": "91760b63b7a17bd6d7835dc7c1fed032",
+      "sha1": "f77fb3f233e453708d605d19f4bc0dd027f3b3d1",
+      "size": "117317",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "58d36514",
+      "md5": "3af88b1e91c5fa8fceb0524f5ae46e6b",
+      "sha1": "3238a74fc21bcbf7398bf53bf8a2f1dffff383cb",
+      "size": "118450",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "341c3ced",
+      "md5": "6f4746f103076a2cb7977b06ea95b6ab",
+      "sha1": "0fd7a3bd3f2b66a23501f9f83fd5fb9bf1d3b668",
+      "size": "484334",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "d01e09ac",
+      "md5": "3798392b75c79f2905f5d7740b0dad02",
+      "sha1": "65633ee2679073605632692caf36c2177d65624f",
+      "size": "77810",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "2a82e733",
+      "md5": "172c5a805e1b225b0a43d4535c00272d",
+      "sha1": "e09ff1dd3ec028b77331602a77335310ab537795",
+      "size": "710257",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "ac26f927",
+      "md5": "f3f869153d2b636bfc00f08fe2808041",
+      "sha1": "939e76e1bbbd7f260da040ed3a5de892f554122d",
+      "size": "107960",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "0627a77e",
+      "md5": "8a3d27d40dfdf9934473efda2fbbdd57",
+      "sha1": "d2bc903370f4dde07930fabc862981b26c3efbec",
+      "size": "101824",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "6c71248c",
+      "md5": "3774debdeb0195051db574076322acea",
+      "sha1": "98cd1172ee51aad2c3eb7526c0811ce69ff1a3d7",
+      "size": "19219",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "dc3d39b9",
+      "md5": "b20f7005e1c12c236e25b38a3e1c3844",
+      "sha1": "187b6ec0a978e2a6cf4a3722a8c634a846fba772",
+      "size": "679558",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "215757d9",
+      "md5": "3f88c95cc394be263bbda934f1ee2c21",
+      "sha1": "3c5a08f7e09d8cf4819fa11f119e512e8edd5f45",
+      "size": "133443",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "0b2146f1",
+      "md5": "1ab84bd2d8ba447ae4dac70ccaf286fe",
+      "sha1": "ab473cf6d1b306671f692d833b37d1ff3a4ca874",
+      "size": "1511330",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "91578622",
+      "md5": "6426695dc02175fe36b9154651cafde3",
+      "sha1": "f0096b2a20ed595d32d8dfecdaa61c55b09b3647",
+      "size": "273482",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "14cd86b5",
+      "md5": "766a0df42b1f984155a61a6f5fba9d79",
+      "sha1": "bb9dc494c8c8376f8d9b3e07ae5237efa1687065",
+      "size": "315492",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "afb75a3d",
+      "md5": "d32ac859cd3433d0d2387b987535e744",
+      "sha1": "885717e8b3af07e5e29b9205938106a02483e53e",
+      "size": "128501",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=manuel(jp)",
+      "region": "jp",
+      "crc": "be3c9877",
+      "md5": "d572b3099b2c1113c9fa357b92290c2f",
+      "sha1": "8baa0ab4881a2989b1ef4515f1533b055ac38a95",
+      "size": "991423",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "d1884980",
+      "md5": "cd3515c26bd29b8ff41547bf09d48a74",
+      "sha1": "2cce5fe48348885e167a378d8599d78cb9d0cdab",
+      "size": "330659",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "8298b549",
+      "md5": "59c68ba528d1ecedf24f6933a30ca447",
+      "sha1": "addf6e62ebc75a125d86e2e38ade4c24f43a4f11",
+      "size": "317573",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "8f483f73",
+      "md5": "7fc3c5a009cfcebed4d158ccef9aa6d9",
+      "sha1": "5d7dd9fbbd7aa2f420b4726b79b36e45519359e8",
+      "size": "316927",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "9499c52f",
+      "md5": "ffca87077efd4286428588d75e886438",
+      "sha1": "d10d5c4622206682bcb74e8a01e6df03c3415106",
+      "size": "230088",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "8f483f73",
+      "md5": "7fc3c5a009cfcebed4d158ccef9aa6d9",
+      "sha1": "5d7dd9fbbd7aa2f420b4726b79b36e45519359e8",
+      "size": "316927",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "8d54fee7",
+      "md5": "607b4207df3a0c83f7f207cf5bc4a865",
+      "sha1": "6536c0bb8a9441589ecba2628baaecc71a1e1acc",
+      "size": "510239",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "80da18cd",
+      "md5": "be6cb904e81a675e74e58d82159c81fe",
+      "sha1": "edbbb45fc5a43983aacf4b1c5478a99bad665d6a",
+      "size": "424882",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88300&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "8d54fee7",
+      "md5": "607b4207df3a0c83f7f207cf5bc4a865",
+      "sha1": "6536c0bb8a9441589ecba2628baaecc71a1e1acc",
+      "size": "510239",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=34166&media=wheel",
+      "crc": "581e3e20",
+      "md5": "e6d0191fbec143782fd8f7bc38fc501f",
+      "sha1": "4277bf430c49f270bf314cc7ef5740c42727e269",
+      "size": "27242",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=34166&media=wheel",
+      "crc": "581e3e20",
+      "md5": "e6d0191fbec143782fd8f7bc38fc501f",
+      "sha1": "4277bf430c49f270bf314cc7ef5740c42727e269",
+      "size": "27242",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome",
+      "crc": "6a963ad9",
+      "md5": "6daf840fab2d205bda9bad4ff16f4c95",
+      "sha1": "f5e795233a8013aa0d992e197d56d09a63513403",
+      "size": "18286",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome-svg",
+      "crc": "328c7db2",
+      "md5": "4298fc7c8887c1b97cec6ee0b5d72433",
+      "sha1": "8f59a9ec18c48a7246c3b13e19c6c5857bc95513",
+      "size": "4269",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=background",
+      "crc": "a3265ffe",
+      "md5": "65308af4ddc9782f6717f000eea7f28a",
+      "sha1": "bccce8f0defa7c25313eb5ced7cdf71555c5a85d",
+      "size": "185482",
+      "format": "jpg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=pictoliste",
+      "crc": "e4176cee",
+      "md5": "cc91411eb70735bb11dcfc4a0457b474",
+      "sha1": "1f04afee843e3aca095a118170eb13f3cf9a95d6",
+      "size": "828",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome",
+      "crc": "afda799e",
+      "md5": "b6aace835e844a24b33032c300cea85a",
+      "sha1": "ad7df82b2dc35f742dfe94cb20c5984c61a1be7f",
+      "size": "4560",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome-svg",
+      "crc": "b9fb9475",
+      "md5": "1f42d149151051f8c80b9728242769c3",
+      "sha1": "a0efb0c8b8814d280d62c7b2c5a6f39d5eaf0267",
+      "size": "2101",
+      "format": "svg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=background",
+      "crc": "923a4c43",
+      "md5": "5b1038e07f813242bbf179dcc11aa88f",
+      "sha1": "7971778339840a88ad940669b45dfc0103721cc1",
+      "size": "306716",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "12711",
+      "romsize": "103653",
+      "romfilename": "Game Party (Japan) (T).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4AE2EF86",
+      "rommd5": "97A766C5A226537A94B871A186DB6407",
+      "romsha1": "67BD62EE17C52C79D79D547BDD0590DD8E896911",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "120897",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "136077",
+      "romsize": "262160",
+      "romfilename": "Game Party (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9C744BC3",
+      "rommd5": "55A06B0230398324F8C5BDAABB0E8942",
+      "romsha1": "564FFD1F4CF1BDAE9C7E5AB64DC13A4F62A9224D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "91120",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1137654",
+      "romsize": "262160",
+      "romfilename": "Game Party (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0d5ea16b",
+      "rommd5": "29c6a9a7deeda6370736d1a722526849",
+      "romsha1": "792ca77433314439795086413dcc311dad794c85",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20076",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "565950",
+      "romsize": "262160",
+      "romfilename": "Game Party (J).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B88BD4E5",
+      "rommd5": "F36439198AE055BBDC780632FF221026",
+      "romsha1": "453AFE46DC8E7520C267F4CBA5F33E2028A03908",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9758",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113740",
+      "romsize": "103631",
+      "romfilename": "Game Party (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0F8CA106",
+      "rommd5": "DC0B38A7EEF1DCBA071C7C1AF7D784B8",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2345",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173241",
+      "romsize": "262144",
+      "romfilename": "Game Party (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F1C76AED",
+      "rommd5": "95796671BA31D8ABCC6288DAF0640E60",
+      "romsha1": "088F8F85FDD33EC2EF1EBB0374D33FFC634A397D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1756",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "310699",
+      "romsize": "103125",
+      "romfilename": "Game Party (Patch FR).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5FA0BAA5",
+      "rommd5": "E2A6AAA60EE8A5C526140E96E2AF2073",
+      "romsha1": "10BF439A83893D4CBAC61A0D6EE387553D8FACB5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "183"
+    }
+  ]
+}

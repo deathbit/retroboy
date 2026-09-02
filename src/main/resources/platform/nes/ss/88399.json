@@ -1,0 +1,907 @@
+{
+  "id": "88399",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Keiba Simulation - Honmei"
+    },
+    {
+      "region": "jp",
+      "text": "Keiba Simulation : Honmei"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "226",
+    "text": "Nichibutsu"
+  },
+  "developpeur": {
+    "id": "226",
+    "text": "Nichibutsu"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Keiba Simulation: Honmei (&quot;keiba&quot; is the Japanese word for horse-racing, and &quot;honmei&quot; is a term meaning a favorite to win) is a Famicom horse-racing simulation game from Nichibutsu, often known as Nihon Bussan. In fact, the box art states the former as developer and the title screen states the latter. As a true simulation game, there is no racing (at least that the player can control) or gambling. The player instead can fiddle with the parameters for each race and the horses competing, changing their stats such as fatigue, age and the weight of the jockey. Then players can watch a race with these settings play out and observe the winner. It is possible the goal of this game is to recreate the likely output of an actual race based on as much information as the player is able to muster in order to assist them with their gambling, though its more likely the game is for racing enthusiasts."
+    },
+    {
+      "langue": "fr",
+      "text": "Contrairement à un jeu de course traditionnel, il ne permet pas de contrôler les courses ou de parier. Le joueur ajuste les paramètres de chaque course et des chevaux participants, modifiant des aspects comme la fatigue, l'âge et le poids du jockey. Ensuite, il observe la course se dérouler avec ces réglages pour voir le résultat. Le but semble être de simuler les résultats probables des courses réelles pour les passionnés de courses, plutôt que pour les jeux de hasard."
+    },
+    {
+      "langue": "de",
+      "text": "Keiba Simulation: Honmei (&quot;keiba&quot; ist das japanische Wort für Pferderennen, und &quot;honmei&quot; ist ein Begriff, der einen Favoriten zum Gewinnen bedeutet) ist ein Famicom-Rennnsimulationsspiel von Nichibutsu, oft bekannt als Nihon Bussan. Tatsächlich gibt die Box-Art Ersteres als Entwickler an, und auf dem Titelbildschirm steht Letzteres. Als echtes Simulationsspiel gibt es kein Rennen (zumindest das der Spieler kontrollieren kann) oder Glücksspiel. Der Spieler kann stattdessen mit den Parametern für jedes Rennen und die konkurrierenden Pferde herumspielen und ihre Statistiken wie Müdigkeit, Alter und das Gewicht des Jockeys ändern. Dann können die Spieler ein Rennen mit diesen Einstellungen beobachten und den Gewinner beobachten. Es ist möglich, dass das Ziel dieses Spiels darin besteht, die wahrscheinliche Ausgabe eines tatsächlichen Rennens basierend auf so vielen Informationen wie der Spieler zu erstellen, um ihn bei seinem Glücksspiel zu unterstützen, obwohl es wahrscheinlicher ist, dass das Spiel für Rennbegeisterte ist."
+    },
+    {
+      "langue": "es",
+      "text": "Simulador de carreras de caballos. Elija muchos parámetros para su caballo y observe las carreras sin controlar el proceso en sí (hay dos caballos al galope en una pantalla, un primer plano y un plan muy superficial, de modo que solo se vean puntos en lugar de caballos). Al mismo tiempo, las carreras consisten en varios eventos (bueno, hay un comienzo, pausas, giros, una línea de meta, todo eso) y lo que sucederá en cada uno de ellos depende de los parámetros que hayas elegido. Hay muchos parámetros y todos están en japonés."
+    },
+    {
+      "langue": "it",
+      "text": "Simulazione Keiba: Honmei (&quot;keiba&quot; è la parola giapponese per corse di cavalli e &quot;honmei&quot; è un termine che significa un favorito per vincere) è un gioco di simulazione di corse di cavalli Famicom di Nichibutsu, spesso noto come Nihon Bussan. In effetti, la box art indica il primo come sviluppatore e la schermata del titolo afferma il secondo. Come un vero gioco di simulazione, non ci sono corse (almeno che il giocatore può controllare) o giochi d'azzardo. Il giocatore invece può giocherellare con i parametri di ogni corsa e dei cavalli in competizione, modificandone le statistiche come la fatica, l'età e il peso del fantino. Quindi i giocatori possono guardare una gara con queste impostazioni e osservare il vincitore. È possibile che l'obiettivo di questo gioco sia quello di ricreare il probabile risultato di una gara reale sulla base di tutte le informazioni che il giocatore è in grado di raccogliere per assisterlo con il gioco, anche se è più probabile che il gioco sia per gli appassionati di corse."
+    },
+    {
+      "langue": "pt",
+      "text": "Simulador de corrida de cavalos. Escolha muitos parâmetros para o seu cavalo e observe as corridas sem controlar o processo em si (há dois cavalos galopando em uma tela, um close-up e um plano muito raso, de modo que apenas pontos são vistos em vez de cavalos). Ao mesmo tempo, as corridas consistem em vários eventos (bem, há uma partida, pausas, voltas, uma linha de chegada, tudo isso) e o que vai acontecer em cada um deles depende dos parâmetros que você escolheu. Existem muitos parâmetros e estão todos em japonês."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1989-04-28"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2918",
+      "nomcourt": "0601",
+      "principale": "0",
+      "parentid": "2650",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Horse racing"
+        },
+        {
+          "langue": "fr",
+          "text": "Course de chevaux"
+        },
+        {
+          "langue": "de",
+          "text": "Pferderennen"
+        },
+        {
+          "langue": "es",
+          "text": "Carreras de caballos"
+        },
+        {
+          "langue": "it",
+          "text": "Corsa dei cavalli"
+        },
+        {
+          "langue": "pt",
+          "text": "Corrida de cavalos"
+        }
+      ]
+    },
+    {
+      "id": "2650",
+      "nomcourt": "0601",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports with animals"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport avec animaux"
+        },
+        {
+          "langue": "de",
+          "text": "Sport mit Tieren"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes con animales"
+        },
+        {
+          "langue": "it",
+          "text": "Sport con animali"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte com animais"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "a82472eb",
+      "md5": "7a52d22c6b8ba065a0c9d3276b295e92",
+      "sha1": "989b2bcc4f5c5c7945f81678e4013bcc29846e4e",
+      "size": "6328",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=ss(jp)",
+      "region": "jp",
+      "crc": "66fa7d64",
+      "md5": "5c65754ea3027ef80d7fdfd87e9e2c6a",
+      "sha1": "60c8906bc6c060bacf53b176969fa64159275880",
+      "size": "4138",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=fanart",
+      "crc": "1aa80181",
+      "md5": "fbbc9f689fe13ec527ef6eca5dc60e0c",
+      "sha1": "fd33021ac48b69ea4b461c476f50f6fef0c123ce",
+      "size": "210476",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=video",
+      "crc": "38fbaefd",
+      "md5": "fefa2f7fea02704148e1f2695f718e42",
+      "sha1": "3ccff745b82bafe1fcef30ac562d7f336eac5595",
+      "size": "2147705",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=video-normalized",
+      "crc": "7c6354ae",
+      "md5": "49d9532da8aa878beb9f670342ed1513",
+      "sha1": "b3b3e934532c21c85a45190c5c5ae91052f524b5",
+      "size": "887504",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=steamgrid",
+      "crc": "c62d7f77",
+      "md5": "da5a5fd2982dfd491cce0b4d9d79f830",
+      "sha1": "499f4b106d2fe8ff9b532e8e60c39716460ed72a",
+      "size": "30071",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=wheel(jp)",
+      "region": "jp",
+      "crc": "910c4c78",
+      "md5": "55691603fc544f5c78c3a0670051112c",
+      "sha1": "5408a7d8d7d55277dad1d6160646b63831827d39",
+      "size": "112251",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "9745bb55",
+      "md5": "78a01134cef86c70b2980cb3b9adc4e5",
+      "sha1": "738b68eca5b34e95be201c38edd8f668d20a9a85",
+      "size": "177174",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "5f1ca7be",
+      "md5": "3e2fd8e92758cee0e0a9eff0e1e2aad8",
+      "sha1": "5281eca94491e65b7af97cdfff2be60b0bfd11bb",
+      "size": "178401",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "08429989",
+      "md5": "09187847ed52339624c51a01fac5ed89",
+      "sha1": "bef00a11173ec54e5b621dfcd2642752eb54b829",
+      "size": "527312",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "aff54ae6",
+      "md5": "00fac0b9a32c58cac6276e48becd5247",
+      "sha1": "65e7c6d66fe29d783f8371422960d29e0ad93553",
+      "size": "93236",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "51165df9",
+      "md5": "f97e40ef61544385115a1185135504e6",
+      "sha1": "bb27c34290248cb881c2987c27f2ecf830fb3a4d",
+      "size": "661711",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "a3c6a648",
+      "md5": "5f19b2ea57f13ac57431ccd08a2565c9",
+      "sha1": "7ccc89728bb441866430853d44909dc9594c978b",
+      "size": "198284",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "ddc4d1db",
+      "md5": "dde4de9e1fee44ad4498ced6533ae8c7",
+      "sha1": "5a10aef206c530d56fa8ba7a61ca4764bfd401e0",
+      "size": "84808",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "0a944176",
+      "md5": "9e5325cd1539b081b293683c23859bea",
+      "sha1": "9475129713849dc5ab32bd5b1e64bd3b8a9ab30a",
+      "size": "41336",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "995fbbe4",
+      "md5": "629729430e08f8af7c52e4193fe4b061",
+      "sha1": "1fd4a0e25980e270f8bc4efb33399960419d8024",
+      "size": "698131",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "585850b0",
+      "md5": "c4401b561bce9599bad9030a06e42fc5",
+      "sha1": "0af7ddf4d890836563b17410d1369ee12e41a9b0",
+      "size": "189342",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "ef02e079",
+      "md5": "45d95ecc8ab947ab08123bf1ddf26ed9",
+      "sha1": "46d4ca8a55b684f2de31d651be28b197043f0e21",
+      "size": "1409464",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "893d5636",
+      "md5": "3546eaf98e031579fe37fdc6d1917e8e",
+      "sha1": "5db39d887ae7a08d711e321e81756d1c479a5f67",
+      "size": "453796",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "5ff62d66",
+      "md5": "b99f567fdadbbc1cfc79fd1f8f958e67",
+      "sha1": "a4d50621b7e9e57b245fde4509b86310ccea84d4",
+      "size": "329555",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "1bbc0a65",
+      "md5": "1b9247b7215befdc0f29cf93f3afac41",
+      "sha1": "6737b609f3ba077f3097ba073db11f9c29f75388",
+      "size": "167900",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=manuel(jp)",
+      "region": "jp",
+      "crc": "851dffa5",
+      "md5": "5dead2e4232b8811b8dfeb83b3db234a",
+      "sha1": "e6417a5791cba083b40f80ba1ec5413360d28763",
+      "size": "2040986",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "79416841",
+      "md5": "940c0214635be9eb3ad5d9abcb5b3c70",
+      "sha1": "75408cbd3cd0eb12eee703d2c5f04df90916a18b",
+      "size": "310370",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "b28a6e45",
+      "md5": "f9f5ada6ffa3a1d99b2079ab481bf0bb",
+      "sha1": "486b39b04e6f08e3c1f863f1a53ffcf5fb380cc6",
+      "size": "280186",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "95a6ed10",
+      "md5": "4d09a8841629cff6442af0a597454a5c",
+      "sha1": "a4a9862f9aeb280d165d703564761c3ff7fe7c4a",
+      "size": "469856",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "0aeaa86c",
+      "md5": "8737fe4a80462e4ad5725739cf42868a",
+      "sha1": "a4fff4edab01c6a3071b84d92cefc2b5df30a8ad",
+      "size": "393819",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "95a6ed10",
+      "md5": "4d09a8841629cff6442af0a597454a5c",
+      "sha1": "a4a9862f9aeb280d165d703564761c3ff7fe7c4a",
+      "size": "469856",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "dc2bbd32",
+      "md5": "7a81531a27185e725b60055b8f7307ea",
+      "sha1": "6a04ab924b3ec1e2ac39b9d306ec60774080c17a",
+      "size": "615801",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "c31c41a1",
+      "md5": "1ac52c3872d05ed37b838755f56005a1",
+      "sha1": "8885ff073a0b83836be56c43ee84b1d6e62ea6d3",
+      "size": "541798",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88399&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "dc2bbd32",
+      "md5": "7a81531a27185e725b60055b8f7307ea",
+      "sha1": "6a04ab924b3ec1e2ac39b9d306ec60774080c17a",
+      "size": "615801",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=226&media=logo-monochrome",
+      "crc": "82a0d579",
+      "md5": "63b3625a32ee0317ee29e418c8a0884a",
+      "sha1": "5fb50927285b93cb958a3c0ba1a13070f1abdcae",
+      "size": "19908",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=226&media=wheel",
+      "crc": "2442f83c",
+      "md5": "62d402a5baa6a84c7b15e2f7a170dd94",
+      "sha1": "05a0467da65d1b17552a58cbdb2e10775ff982a6",
+      "size": "38634",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=226&media=logo-monochrome",
+      "crc": "82a0d579",
+      "md5": "63b3625a32ee0317ee29e418c8a0884a",
+      "sha1": "5fb50927285b93cb958a3c0ba1a13070f1abdcae",
+      "size": "19908",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=226&media=wheel",
+      "crc": "2442f83c",
+      "md5": "62d402a5baa6a84c7b15e2f7a170dd94",
+      "sha1": "05a0467da65d1b17552a58cbdb2e10775ff982a6",
+      "size": "38634",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2918",
+      "parent": "genre",
+      "subparent": "Course de chevaux",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2918&media=pictoliste",
+      "crc": "e47f7bd3",
+      "md5": "b23a46ac5be17f05112a7610670ba4b1",
+      "sha1": "ceb3a2a4a879bfb88b109936540c34ea9b53c5fa",
+      "size": "752",
+      "format": "png"
+    },
+    {
+      "id": "2918",
+      "parent": "genre",
+      "subparent": "Course de chevaux",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2918&media=logo-monochrome",
+      "crc": "533ddcdf",
+      "md5": "28c5adc3e3646cf3445f8448a15db80a",
+      "sha1": "18a876f4aec52b4b01d9ea6569f3a66566c1cffe",
+      "size": "24186",
+      "format": "png"
+    },
+    {
+      "id": "2918",
+      "parent": "genre",
+      "subparent": "Course de chevaux",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2918&media=logo-monochrome-svg",
+      "crc": "ac1adbfc",
+      "md5": "14bcb94d4d356549b6958ff5afc204dc",
+      "sha1": "7148dc5b1704ed47fdb94d1757379233be082653",
+      "size": "3807",
+      "format": "svg"
+    },
+    {
+      "id": "2650",
+      "parent": "genre",
+      "subparent": "Sport avec animaux",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2650&media=pictoliste",
+      "crc": "e47f7bd3",
+      "md5": "b23a46ac5be17f05112a7610670ba4b1",
+      "sha1": "ceb3a2a4a879bfb88b109936540c34ea9b53c5fa",
+      "size": "752",
+      "format": "png"
+    },
+    {
+      "id": "2650",
+      "parent": "genre",
+      "subparent": "Sport avec animaux",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2650&media=logo-monochrome",
+      "crc": "7132579f",
+      "md5": "2956436eb494ab344a783907611e92bf",
+      "sha1": "3ab5ee1d09d4cb5724a2712801a424632455d85b",
+      "size": "31745",
+      "format": "png"
+    },
+    {
+      "id": "2650",
+      "parent": "genre",
+      "subparent": "Sport avec animaux",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2650&media=logo-monochrome-svg",
+      "crc": "08d3a32d",
+      "md5": "58ff0446cdf7d56249ba03c96a656294",
+      "sha1": "657c2c8681ad5aa27514fc55c04866deb8c0f877",
+      "size": "6027",
+      "format": "svg"
+    },
+    {
+      "id": "2650",
+      "parent": "genre",
+      "subparent": "Sport avec animaux",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2650&media=background",
+      "crc": "5d04c2b4",
+      "md5": "d881bdbb9881381877bdd658e96f5eb3",
+      "sha1": "6e39275ae4861f5dc35bc401d572f23e027d219e",
+      "size": "140772",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136425",
+      "romsize": "262160",
+      "romfilename": "Keiba Simulation - Honmei (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B934DAFE",
+      "rommd5": "439D8A5ADAB72BB0B370DD0C4B85B612",
+      "romsha1": "7540F74490215C7717BD153C7F8CF91F943B5931",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "39588",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "12927",
+      "romsize": "87206",
+      "romfilename": "Keiba Simulation - Honmei (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "81AD7E54",
+      "rommd5": "4BB5B0FE274D0FD697CB410E9DF5B416",
+      "romsha1": "37D1A1E9D56E87968968E26D54E4A248CB2CA005",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "33956",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "645245",
+      "romsize": "262160",
+      "romfilename": "Keiba Simulation - Honmei (J).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4EAF1923",
+      "rommd5": "289CB00DAF3FBDEBDFE57A4A2921887C",
+      "romsha1": "B25F402A9C954A14D40EBFF1961EE9BC024DC215",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20525",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1139331",
+      "romsize": "262160",
+      "romfilename": "Keiba Simulation - Honmei (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "281e3056",
+      "rommd5": "d414528b17f7343da58c94e2a2cb8346",
+      "romsha1": "ed8083043518cc7a4bf98e9e8160c405c3767d53",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18885",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173591",
+      "romsize": "262144",
+      "romfilename": "Keiba Simulation - Honmei (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "93A7D26C",
+      "rommd5": "F882B1E123BE4DC211932871EA17420A",
+      "romsha1": "A7D18986648C5B0F6A598EE0E1EB4532E8196AAD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1671",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114089",
+      "romsize": "87184",
+      "romfilename": "Keiba Simulation - Honmei (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "AB571634",
+      "rommd5": "48651193717B978830361C3073CC5FF9",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "60",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

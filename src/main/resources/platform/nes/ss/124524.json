@@ -1,0 +1,665 @@
+{
+  "id": "124524",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Power Rangers 3"
+    },
+    {
+      "region": "asi",
+      "text": "Mighty Morphin Power Rangers III"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "2968",
+    "text": "J.Y. Company"
+  },
+  "developpeur": {
+    "id": "19954",
+    "text": "Hummer Team"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Mighty Morphin Power Rangers III is a beat 'em up created for the Famicom by Hummer Team in 1995. It's a port of the SNES version of Mighty Morphin Power Rangers."
+    },
+    {
+      "langue": "de",
+      "text": "Mighty Morphin Power Rangers III ist ein Beat 'em up, das 1995 von Hummer Team für das Famicom entwickelt wurde. Es handelt sich um einen Port der SNES-Version von Mighty Morphin Power Rangers."
+    },
+    {
+      "langue": "es",
+      "text": "Mighty Morphin Power Rangers III es un beat 'em up creado para Famicom por Hummer Team en 1995. Es un port de la versión SNES de Mighty Morphin Power Rangers."
+    }
+  ],
+  "dates": [
+    {
+      "region": "asi",
+      "text": "1998"
+    }
+  ],
+  "genres": [
+    {
+      "id": "1",
+      "nomcourt": "0107",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Beat'em Up"
+        },
+        {
+          "langue": "fr",
+          "text": "Beat'em All"
+        },
+        {
+          "langue": "de",
+          "text": "Beat'em Up"
+        },
+        {
+          "langue": "es",
+          "text": "Beat'em Up"
+        },
+        {
+          "langue": "it",
+          "text": "Beat'em All"
+        },
+        {
+          "langue": "pt",
+          "text": "Briga de rua"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "3098",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Power Rangers"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "ee4f3d03",
+      "md5": "08be65e98bebd8053be5d3c2c20fe1df",
+      "sha1": "be1ae8528d79c8f57af34b96b6ce2f6a97b77002",
+      "size": "13210",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=ss(wor)",
+      "region": "wor",
+      "crc": "d0483400",
+      "md5": "9e342d6ce234023ebdc707a1c8800d37",
+      "sha1": "fbb9eb4cc4cf2520314c1f900505b6cc7eb6a569",
+      "size": "22564",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=video",
+      "crc": "666577f9",
+      "md5": "bb742f307dec969a5422b9b406be932e",
+      "sha1": "87d78df889f9e25ce68966676f05ada333e7432a",
+      "size": "6004297",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=video-normalized",
+      "crc": "2832ccc8",
+      "md5": "01477e0f18f6d3a0d5ae9a49f4590889",
+      "sha1": "0d61c2c377ad6d4b788954d72b9e08d0bff86d0c",
+      "size": "2184095",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=steamgrid",
+      "crc": "2e22d161",
+      "md5": "ef7b1dfb044dbc4da41fa646f8341f14",
+      "sha1": "9aff706892651e73bcce82ae0a6128b349d61581",
+      "size": "28585",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=wheel(wor)",
+      "region": "wor",
+      "crc": "068f5898",
+      "md5": "f0d855cce7f4d0d2c2e0c21c1cd4a9a6",
+      "sha1": "06ccf1bbc40af97d8c7ce39e06e816ecbfcf2072",
+      "size": "28489",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "9da37a4d",
+      "md5": "36cddf1ce3d23547a7520872e23be10e",
+      "sha1": "c60829f026e59727c0b7d9c2dc47dd7083833db5",
+      "size": "71348",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "38f8d2aa",
+      "md5": "9e4bbbed438b4bad6449aa2492773677",
+      "sha1": "63836d447c73c48befa7be3d7262eec49732ad75",
+      "size": "73042",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "4b51937f",
+      "md5": "34ba1dc83c6cb3c36fcb338b7c2a7d40",
+      "sha1": "dde6d71e404f356a842317302187dfa1f8a4826d",
+      "size": "468937",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "2807e8dc",
+      "md5": "f726203aa73b5bf55b8303f9769b19a3",
+      "sha1": "c5150c0f3f1db04fbea94b0eb6d60983f4be7f24",
+      "size": "74082",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "6720e83a",
+      "md5": "60b1f08d47fae1ecf8796c4f37b89e7e",
+      "sha1": "df1e23e083448241a9f53734889751254d2071c4",
+      "size": "544548",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "cc917b76",
+      "md5": "d7d811902c298339675d61bb6e5ccd08",
+      "sha1": "a990366713c4dee6ac3684c4250ee74f44d3f4bc",
+      "size": "180437",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "eb5fa974",
+      "md5": "885a9cb51a79c6f50b0de534537f6561",
+      "sha1": "d0c57bc9966cfaa57c80594e16d5fd8e1766231f",
+      "size": "27029",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "684a8aab",
+      "md5": "b724fe1acea4481fc92f046fc7417f81",
+      "sha1": "bc5c78e839c45e7be62ed78c673a9e333a0a069e",
+      "size": "18172",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "800fe3b7",
+      "md5": "f8b8dd6773970f3e1a0157721fed100d",
+      "sha1": "5e48368427e5eb0709d69693590ff962f9406989",
+      "size": "2829",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "ba6dfcfe",
+      "md5": "070b7c5dcd870fcb378f259fa2afbccb",
+      "sha1": "1a47717b2554f9478b1fa89fa4ed47f3bb270cd9",
+      "size": "146729",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "78206feb",
+      "md5": "c1b59c179d72ebd7d2a59b5343e36c2b",
+      "sha1": "337be254969ad464a9931c7dfb88521ca2f65e3b",
+      "size": "597286",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "8f511657",
+      "md5": "e15905ebb90c615b36095835c087db09",
+      "sha1": "853ac91030a1831848e4db25e464379dbe152431",
+      "size": "357947",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "636e987b",
+      "md5": "3cf9eeb19a8f975900aabc0b1ad8a77c",
+      "sha1": "94f18a8437d1d7c5c006aafc13cfb036a81069d9",
+      "size": "284268",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "d599ab53",
+      "md5": "066c1e366ec81fce91fb5eebca0c9395",
+      "sha1": "29d9c449db833dfcc06576b040610e9584c44251",
+      "size": "140374",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "1f397a6a",
+      "md5": "9036990df852e62913aec61ac0fc1b31",
+      "sha1": "d7e6a291caffc1f85f8f3c82e371b46253485a19",
+      "size": "345996",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "d6feb83d",
+      "md5": "ccff5bae5e24159fbc798ecbaf5ea7cc",
+      "sha1": "a9ac390aef16ddaa5130109253b35db8f0615905",
+      "size": "305368",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "be7d94fd",
+      "md5": "c0d160fd70dcb7fd2f797d6fcf8f122e",
+      "sha1": "2c43c351d1a318791f29588f29b442b08fc491c6",
+      "size": "456239",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "4bfd1212",
+      "md5": "d61f1e74ca018e62436d71a3eeca3be3",
+      "sha1": "d28de2a417029eca2eab8e08971354c3e1d1f5e8",
+      "size": "377110",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "be7d94fd",
+      "md5": "c0d160fd70dcb7fd2f797d6fcf8f122e",
+      "sha1": "2c43c351d1a318791f29588f29b442b08fc491c6",
+      "size": "456239",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=mixrbv2(asi)",
+      "region": "asi",
+      "crc": "ed9b007d",
+      "md5": "81dc1d940ec4af5e88608208c3725230",
+      "sha1": "6f4b1a0557bba64197a1747ba8481ca4b0395282",
+      "size": "634899",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "1f5e5aad",
+      "md5": "6d819b2bbb8a948555f5f59f04a0dc40",
+      "sha1": "a2b176525cbe48e7ccb472ddbea8b1447bdad394",
+      "size": "634988",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=mixrbv2(nl)",
+      "region": "nl",
+      "crc": "ed9b007d",
+      "md5": "81dc1d940ec4af5e88608208c3725230",
+      "sha1": "6f4b1a0557bba64197a1747ba8481ca4b0395282",
+      "size": "634899",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "5517946d",
+      "md5": "32ffceb6847f058817b98c87cec150a7",
+      "sha1": "725b9cc277b54885b32d4ce231ec13050c717e7e",
+      "size": "558209",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=124524&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "ed9b007d",
+      "md5": "81dc1d940ec4af5e88608208c3725230",
+      "sha1": "6f4b1a0557bba64197a1747ba8481ca4b0395282",
+      "size": "634899",
+      "format": "png"
+    },
+    {
+      "id": "1",
+      "parent": "genre",
+      "subparent": "Beat'em All",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=1&media=pictoliste",
+      "crc": "151e4161",
+      "md5": "00cb0cb4842e9aba77214ca54b713d0b",
+      "sha1": "95b8ef111b7e5be0c1750123da620e76523dec62",
+      "size": "1126",
+      "format": "png"
+    },
+    {
+      "id": "1",
+      "parent": "genre",
+      "subparent": "Beat'em All",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=1&media=logo-monochrome",
+      "crc": "3974c2c4",
+      "md5": "19fa1571415cc4d60d321d1c42dd45b5",
+      "sha1": "27a372f24bbf11f0a7050bfea0bbcab612935244",
+      "size": "9003",
+      "format": "png"
+    },
+    {
+      "id": "1",
+      "parent": "genre",
+      "subparent": "Beat'em All",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=1&media=logo-monochrome-svg",
+      "crc": "ccb72604",
+      "md5": "a3cce15fcad1ab4329a718a6b0d27d7e",
+      "sha1": "1de1e8426d307e4cc56b909ffe353813822278e3",
+      "size": "2918",
+      "format": "svg"
+    },
+    {
+      "id": "1",
+      "parent": "genre",
+      "subparent": "Beat'em All",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=1&media=background",
+      "crc": "76efc81b",
+      "md5": "c110398f549f2cc0e3203275655943e1",
+      "sha1": "e11e67f962b414d3bdfcc1afe285bab4135c6d1b",
+      "size": "161306",
+      "format": "jpg"
+    },
+    {
+      "id": "3098",
+      "parent": "famille",
+      "subparent": "Power Rangers",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3098&media=figurine",
+      "crc": "52bd6a52",
+      "md5": "45545e0a0ed9aad35c6482489c6f7577",
+      "sha1": "6faf8f89f2a2370ca2dec7c96f77581a4ea43de9",
+      "size": "283322",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "387423",
+      "romsize": "393232",
+      "romfilename": "Power Rangers III (Unl) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "94192C10",
+      "rommd5": "9B0A6D02ED6D0B15EDDE7BFFCDED1F0F",
+      "romsha1": "40B33E3B9F379B7BBBB5E2129006F85E94941E6F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "58680",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "114",
+          "130"
+        ],
+        "regions_shortname": [
+          "asi",
+          "nl"
+        ],
+        "regions_en": [
+          "Asia",
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Asie",
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Asien",
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Asia",
+          "Holanda"
+        ],
+        "regions_it": [
+          "Asia",
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Ásia",
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "880624",
+      "romsize": "145815",
+      "romfilename": "Power Rangers III.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A3FF359E",
+      "rommd5": "B56E85981735F2C85317462ABCD1342D",
+      "romsha1": "4E2DB0EF64144F25C066B7F1E13503C5E528BD57",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "23351"
+    },
+    {
+      "id": "555137",
+      "romsize": "146154",
+      "romfilename": "Power Rangers III (Unl) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "719718B4",
+      "rommd5": "3840D99E8BB99D2A9AE300F5FE7EED72",
+      "romsha1": "BEC0DCB48049B0F33EC28707757FB9086FED5AF8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4225",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "130"
+        ],
+        "regions_shortname": [
+          "nl"
+        ],
+        "regions_en": [
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Holanda"
+        ],
+        "regions_it": [
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Holanda"
+        ]
+      }
+    }
+  ]
+}

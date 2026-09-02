@@ -1,0 +1,755 @@
+{
+  "id": "88668",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Space Shadow"
+    },
+    {
+      "region": "jp",
+      "text": "Space Shadow"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "44369",
+    "text": "Bandai"
+  },
+  "developpeur": {
+    "id": "44369",
+    "text": "Bandai"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Space Shadow is an on-rails sci-fi shooter that takes its inspiration from Ridley Scott's 1979 sci-fi horror classic, Alien. This game was released by Bandai as a pack-in game with the Hyper Shot Machine Gun, some kind of uzi pistol for NES."
+    },
+    {
+      "langue": "fr",
+      "text": "Space Shadow est un jeu de tir sur rails de science-fiction inspiré du classique de Ridley Scott, Alien (1979). Ce jeu a été publié par Bandai et était inclus dans un pack avec le Hyper Shot Machine Gun, un pistolet type uzi pour NES."
+    },
+    {
+      "langue": "de",
+      "text": "Space Shadow ist ein On-Rails-Sci-Fi-Shooter, der von Ridley Scotts Sci-Fi-Horror-Klassiker Alien aus dem Jahr 1979 inspiriert ist. Dieses Spiel wurde von Bandai als Pack-in-Spiel mit der Hyper Shot Machine Gun, einer Uzi-Pistole für NES, veröffentlicht."
+    },
+    {
+      "langue": "es",
+      "text": "Space Shadow es un shooter de ciencia ficción sobre raíles que se inspira en el clásico de terror de 1979 de Ridley Scott, Alien. Este juego fue lanzado por Bandai como un juego que se incluía con la Hyper Shot Machine Gun, una de las pistolas tipo uzi para NES."
+    },
+    {
+      "langue": "it",
+      "text": "Space Shadow è uno sparatutto di fantascienza on-rail che si ispira al classico horror di fantascienza di Ridley Scott del 1979, Alien. Questo gioco è stato rilasciato da Bandai come gioco pack-in con Hyper Shot Machine Gun, un re delle pistole uzi per NES."
+    },
+    {
+      "langue": "pt",
+      "text": "Space Shadow é um shooter de ficção científica sobre trilhos que se inspira no clássico de terror de ficção científica de Ridley Scott, Alien. Este jogo foi lançado pela Bandai como um jogo embalado com a Hyper Shot Machine Gun, uma espécie de pistola uzi para NES."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1989-02-15"
+    }
+  ],
+  "genres": [
+    {
+      "id": "32",
+      "nomcourt": "0105",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Lightgun Shooter"
+        },
+        {
+          "langue": "fr",
+          "text": "Tir avec accessoire"
+        },
+        {
+          "langue": "de",
+          "text": "Lightgun Shooter"
+        },
+        {
+          "langue": "es",
+          "text": "Disparos con periférico"
+        },
+        {
+          "langue": "it",
+          "text": "Sparo con accessorio"
+        },
+        {
+          "langue": "pt",
+          "text": "Tiro com Lightgun"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "46cc5fa4",
+      "md5": "f169bd6c215c30203ae49f8667dd5aec",
+      "sha1": "a19a0a41ab9be29c53291dc572aa83de2b14a484",
+      "size": "3728",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=ss(jp)",
+      "region": "jp",
+      "crc": "5e87b12f",
+      "md5": "ab1e7dd48c17bcd25135d5e0e7a9e687",
+      "sha1": "5052530ab62ab44240ead90788763f17332933ba",
+      "size": "4864",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=video",
+      "crc": "94982839",
+      "md5": "c89ae0f6cf053b7471c6cd74d65b37ae",
+      "sha1": "02d9c0bdef83c9c1b6aa570feeaaf1ac3dd32628",
+      "size": "3062974",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=video-normalized",
+      "crc": "c2e46cee",
+      "md5": "015b5386ca0493bbb0d4aa0bada49a7c",
+      "sha1": "64284d5d28895bff4c874ba5c003e500f6a9bea2",
+      "size": "1167798",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=steamgrid",
+      "crc": "ac889921",
+      "md5": "2dbccf3411c2a8c2be8002ab2cf58bf7",
+      "sha1": "f97a9ece2598a089e5f9a5dbafd2d7db26c6be68",
+      "size": "32624",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=wheel(jp)",
+      "region": "jp",
+      "crc": "9c747a00",
+      "md5": "7d45d5243fd1c90d4e008c9f5fb033de",
+      "sha1": "1636eeb046808175ba624e80cbc675110a4d3583",
+      "size": "122517",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "11b7f8a3",
+      "md5": "54e2a206f158a5098188bd03afee95b8",
+      "sha1": "3ccac847ff508f5413bcf98035cc5cbfc5a942ef",
+      "size": "135081",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "64440ee8",
+      "md5": "27be145fae8d22dd26d65d6022766ee6",
+      "sha1": "f0f57e4c64666363e459d0dabac5260e983ea701",
+      "size": "135770",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "a5a1ec3f",
+      "md5": "383641e5d7f66c225fecefa916679382",
+      "sha1": "d394d6ab9700dc371f7de641bf13717f47f32249",
+      "size": "495847",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "6c074996",
+      "md5": "a1bb532fb3c8bdcb5d576e0484124dce",
+      "sha1": "08f38333f41c795b4a6a9558154278a5cfa30251",
+      "size": "86373",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "397e51dd",
+      "md5": "ccc2e7088225cb547dbc9090341b4143",
+      "sha1": "166b543c0c27162dc37fcba2173e3699a38320bd",
+      "size": "478985",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "f32124c9",
+      "md5": "65708d865e7f4256f85434ccde3b4cea",
+      "sha1": "0bb18ec0aa01c15ca2d9014b87e49eb1dbb1bd79",
+      "size": "182083",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "d66727d5",
+      "md5": "aefbe5d7ed8ca927cae5bc08a4137aa2",
+      "sha1": "21ebcee7cdf166cb3a8de6e7182c0c785263cd47",
+      "size": "93684",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "ef8c2920",
+      "md5": "d8c9b83f93c589914609d44f00bc4ee7",
+      "sha1": "a1ed01f5b324f8b2ed3f71bc7329ccbdd39468a3",
+      "size": "35046",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "368686b3",
+      "md5": "fc7b509c0db9c73202df7419c1fea089",
+      "sha1": "24779642d47228976ab19695f1d984c72a224e52",
+      "size": "464338",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "abb6fbe2",
+      "md5": "1b1df0d6bb454e34c4be0f8edbcc68e1",
+      "sha1": "64af86155862eded866980fe7a91b1638888c6d8",
+      "size": "174457",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "64416a08",
+      "md5": "dd9c1f7b85caebd1f80c1125a17e7300",
+      "sha1": "dee039f3b217fc01d705e0e14f13bcd84c25edd9",
+      "size": "1116012",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "a3ea98f2",
+      "md5": "94f5d1e84fefe5e37e58fa882d485c83",
+      "sha1": "1cc692b8ab74ffcd386c9cbb542b72fd6cdf84d0",
+      "size": "412386",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "01c70271",
+      "md5": "24e8b368eacb6c0fa4b0c2cac066234d",
+      "sha1": "0e4be04fb7fb0ac315dad335d6cdf514fa565a68",
+      "size": "257345",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "b9b11a46",
+      "md5": "d8ece95d07b32a0d5db6e848a825a914",
+      "sha1": "60115f2ef03590b09b9ab96f1bff091e373dcb0b",
+      "size": "153801",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=manuel(jp)",
+      "region": "jp",
+      "crc": "c7f49cbb",
+      "md5": "603c46ae4e2055b501f5a322da963767",
+      "sha1": "dc435b8dbe6e55e7da2f92b97b8db65e5e355489",
+      "size": "1007812",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "5ffcc7cf",
+      "md5": "3d7d57eff0eeaf03116bdcc9305a8123",
+      "sha1": "f0624c2eb98727f38f9d83bd13435caa5154c0bd",
+      "size": "327404",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "4b6bf988",
+      "md5": "06e72c752c1f0ae244dab578ab3e1ae0",
+      "sha1": "28083e9e93866fd3f61e1af0c36efc1d570c655a",
+      "size": "254440",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "cc1ce835",
+      "md5": "fddd0eb3c6c784c16e7ef51514870729",
+      "sha1": "02d4804fbd3d98e10924f218aad9b97e9113bb62",
+      "size": "396402",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "a9c425b1",
+      "md5": "575aea69593a6b0cb1af5b8e1b73f558",
+      "sha1": "6f19f1c924bb5c351b77fc762d87ce9fde4d6d93",
+      "size": "348026",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "cc1ce835",
+      "md5": "fddd0eb3c6c784c16e7ef51514870729",
+      "sha1": "02d4804fbd3d98e10924f218aad9b97e9113bb62",
+      "size": "396402",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "269c7eb0",
+      "md5": "c83fe1b16a4bf867e545d737fd30e0ce",
+      "sha1": "61cfc9801f9e2cd49120599163bc7d2a4b912144",
+      "size": "601455",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "68cf6565",
+      "md5": "ea4cf005ed1581d3379d337e40e18c8f",
+      "sha1": "96ce29c195a3ad94a3b87c69144982fcb05d6d3e",
+      "size": "553089",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88668&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "269c7eb0",
+      "md5": "c83fe1b16a4bf867e545d737fd30e0ce",
+      "sha1": "61cfc9801f9e2cd49120599163bc7d2a4b912144",
+      "size": "601455",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=44369&media=logo-monochrome",
+      "crc": "beb0cc05",
+      "md5": "2fd5b4553f1cdb10ec8f7bfb8071ab50",
+      "sha1": "aaff892ec7b08a59ec96b51be54fdb6989809e3c",
+      "size": "16970",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=44369&media=wheel",
+      "crc": "d4544615",
+      "md5": "b4d9895fde445ff9f998b87c8e4272fc",
+      "sha1": "c5e935b8194e462bf1ac65990b3d8fa2fac0f7c0",
+      "size": "14969",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=44369&media=logo-monochrome",
+      "crc": "beb0cc05",
+      "md5": "2fd5b4553f1cdb10ec8f7bfb8071ab50",
+      "sha1": "aaff892ec7b08a59ec96b51be54fdb6989809e3c",
+      "size": "16970",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=44369&media=wheel",
+      "crc": "d4544615",
+      "md5": "b4d9895fde445ff9f998b87c8e4272fc",
+      "sha1": "c5e935b8194e462bf1ac65990b3d8fa2fac0f7c0",
+      "size": "14969",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "32",
+      "parent": "genre",
+      "subparent": "Tir avec accessoire",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=32&media=pictoliste",
+      "crc": "bad528c3",
+      "md5": "de933c905fe81f8e33a8f1314fa10a54",
+      "sha1": "c2efd6945ba1d0bffa62da271b8f11ffdf4c1e9e",
+      "size": "922",
+      "format": "png"
+    },
+    {
+      "id": "32",
+      "parent": "genre",
+      "subparent": "Tir avec accessoire",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=32&media=logo-monochrome",
+      "crc": "c79e4fd0",
+      "md5": "9cc05e5ab34a5bb8bcf7b430109416c4",
+      "sha1": "7e4b2afea20efa38d462fe8c948e8fa108889d47",
+      "size": "10467",
+      "format": "png"
+    },
+    {
+      "id": "32",
+      "parent": "genre",
+      "subparent": "Tir avec accessoire",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=32&media=logo-monochrome-svg",
+      "crc": "ae0dbf0e",
+      "md5": "429fa5a980d3f5ee055f4f43a999cae1",
+      "sha1": "30aad760da05afe983f325b0176067bb0cd67aa6",
+      "size": "4058",
+      "format": "svg"
+    },
+    {
+      "id": "32",
+      "parent": "genre",
+      "subparent": "Tir avec accessoire",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=32&media=background",
+      "crc": "d4f4e907",
+      "md5": "635c14cd23fee6f1310587aad2fe47c4",
+      "sha1": "20d204f5c84de8e95f44d94d6517c5ef49af71a3",
+      "size": "112966",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "137335",
+      "romsize": "196624",
+      "romfilename": "Space Shadow (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "13B8E2EC",
+      "rommd5": "E212B0DDDF4EBC4F6DD3E238BDED58F4",
+      "romsha1": "D480902A7B25C80FA14E40084C601FB7522F6D7E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "82799",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "13412",
+      "romsize": "58606",
+      "romfilename": "Space Shadow (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "EDA3CC53",
+      "rommd5": "82B3DB1FC6B1B08AFA29342D2B3B9D41",
+      "romsha1": "87E47F2BDE69340E2F78371E373B5B3AA7F7FA82",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "68713",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1143981",
+      "romsize": "196624",
+      "romfilename": "Space Shadow (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "07537df7",
+      "rommd5": "99a6653123dd9c50ed49da152ccc97da",
+      "romsha1": "4f51c7a408c7377f89168e4d1a3ee76c8f5d96d5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18971",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174530",
+      "romsize": "196608",
+      "romfilename": "Space Shadow (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "AD9C63E2",
+      "rommd5": "1B99F8EA1A05101EF5A698C64ECA2EF8",
+      "romsha1": "A906B9E67F0FFCFABB36C9B7140BC2CBA9E1F5A3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1702",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "115028",
+      "romsize": "58584",
+      "romfilename": "Space Shadow (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "814AAEB4",
+      "rommd5": "6714D3266786AB2B1532D228CE88B4ED",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "164",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

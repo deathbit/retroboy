@@ -1,0 +1,731 @@
+{
+  "id": "88313",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Gozonji - Yaji Kita Chin Douchuu"
+    },
+    {
+      "region": "jp",
+      "text": "Gozonji : Yaji Kita Chin Douchuu"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "457",
+    "text": "HAL Laboratory"
+  },
+  "developpeur": {
+    "id": "23723",
+    "text": "Hyperware"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "A game which, in terms of gameplay, is similar to a text adventure. The game screen is divided into two parts. The upper part is the graphic part, where you see everything that is happening around you, and the lower part is the dialogue part, where you see not only texts, but also the faces of the people who speak them. The game is very difficult to understand, as it is entirely in Japanese, and an English translation is not planned in the near future."
+    },
+    {
+      "langue": "fr",
+      "text": "Un jeu qui, en termes de gameplay, s'apparente à une aventure textuelle. L'écran de jeu est divisé en deux parties. La partie supérieure est la partie graphique, où l'on voit tout ce qui se passe autour de soi, et la partie inférieure est la partie dialogue, où l'on voit non seulement des textes, mais aussi le visage des personnes qui les prononcent. Le jeu est très difficile à comprendre, car il est entièrement en japonais, et une traduction en anglais n'est pas prévue dans un avenir proche."
+    },
+    {
+      "langue": "de",
+      "text": "Ein Spiel, das in Bezug auf das Gameplay einem Textabenteuer ähnelt. Der Spielbildschirm ist in zwei Teile unterteilt. Der obere Teil ist der grafische Teil, in dem Sie alles sehen, was um Sie herum passiert, und der untere Teil ist der Dialogteil, in dem Sie nicht nur Texte sehen, sondern auch die Gesichter der Menschen, die sie sprechen. Das Spiel ist sehr schwer zu verstehen, da es vollständig auf Japanisch ist, und eine englische Übersetzung ist in naher Zukunft nicht geplant."
+    },
+    {
+      "langue": "es",
+      "text": "Juego que en términos de jugabilidad es similar a una aventura de texto. La pantalla del juego se divide en dos partes. La parte superior es la parte gráfica, donde se muestra todo lo que sucede a su alrededor, y la parte inferior es la parte del diálogo, muestra no solo textos, sino también las caras de las personas que los pronuncian. El juego es muy difícil de percibir, ya que está completamente en japonés, y no se espera una traducción al inglés (¡sin mencionar el ruso!) en el futuro cercano."
+    },
+    {
+      "langue": "it",
+      "text": "Un gioco che, in termini di gameplay, è simile a un'avventura testuale. La schermata di gioco è divisa in due parti. La parte superiore è la parte grafica, dove vedi tutto ciò che sta accadendo intorno a te, e la parte inferiore è la parte dei dialoghi, dove vedi non solo i testi, ma anche i volti delle persone che li parlano. Il gioco è molto difficile da capire, poiché è interamente in giapponese e non è prevista una traduzione in inglese nel prossimo futuro."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1989-11-07"
+    }
+  ],
+  "genres": [
+    {
+      "id": "13",
+      "nomcourt": "0200",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Adventure"
+        },
+        {
+          "langue": "fr",
+          "text": "Aventure"
+        },
+        {
+          "langue": "de",
+          "text": "Abenteuer"
+        },
+        {
+          "langue": "es",
+          "text": "Aventura"
+        },
+        {
+          "langue": "it",
+          "text": "Avventura"
+        },
+        {
+          "langue": "pt",
+          "text": "Aventura"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "f05bdb79",
+      "md5": "c4ed9aef31ceeaf28141e4fa68615804",
+      "sha1": "9bfe65cb540e1631bdf177798e75a2996d46b4f0",
+      "size": "4592",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=ss(jp)",
+      "region": "jp",
+      "crc": "8d44d070",
+      "md5": "883350b7a4ada95e1c2c4e41f00fec1d",
+      "sha1": "64a68ca697ac6f1e56c54aa9de1fd009f2736f72",
+      "size": "3768",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=video",
+      "crc": "f4c64b43",
+      "md5": "0ef054a09671fb8a8d1b071a1b46ffa2",
+      "sha1": "813c1859a3d0685c91d8b5c5ad61e7e00be4a891",
+      "size": "961388",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=video-normalized",
+      "crc": "3070ece2",
+      "md5": "79c6ee0e4c44dcb4b5cf3cfa8172ac5f",
+      "sha1": "243b6b360c607b406942ccac0a02737d02888247",
+      "size": "547862",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=steamgrid",
+      "crc": "cc44b440",
+      "md5": "aa967d7286042cdac9136e144b007b46",
+      "sha1": "78a1ef5780955323ccae24638a7bb9d4e40aaa3a",
+      "size": "28397",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=wheel(jp)",
+      "region": "jp",
+      "crc": "8d13bfee",
+      "md5": "e34d7625983dbd97458d2911e0124ae3",
+      "sha1": "9e1268c67ca483dd487d8fc0e69ea72ea1d712fb",
+      "size": "52007",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "bd2e8040",
+      "md5": "14d99d660b880bf53ec560f331276b28",
+      "sha1": "3b97a3cee64532111507ac36b7accc71a0d003f4",
+      "size": "103488",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "e28112af",
+      "md5": "004a3d302ee9862aecd2a27ce17f14a2",
+      "sha1": "3b0cd146ac05e5115f63ea0ff575c2e03c1d84d3",
+      "size": "105591",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "67b7697f",
+      "md5": "ac23c20688b750315d952742fcf31ba0",
+      "sha1": "c2349e5f06ac2ce963d8fa47e66c33648fe98c56",
+      "size": "487403",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "c8f9f03b",
+      "md5": "bb1e3dc89fc7ae36a8186a5e49fb6de4",
+      "sha1": "c3ed7442c7c27674ab0bab7cfd06d885249ecffa",
+      "size": "78306",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "58cec335",
+      "md5": "0b158cd4b0ec7c10ab764a0ce92e5d97",
+      "sha1": "81fc2c8e23d388623b26ccfae606a23a930f91ed",
+      "size": "688132",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "748de9f7",
+      "md5": "b2661a6b90437c8895c5c76ec0c8e5b1",
+      "sha1": "a430723ed977e4895e047dbd92b9687621d51493",
+      "size": "92567",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "626d8d2a",
+      "md5": "703860b41eab62989ec3a54ad0e07701",
+      "sha1": "d163782e41807bdf08d7cd851242a5df29d538f7",
+      "size": "117859",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "46c71e48",
+      "md5": "e6fc4771da89788fcfd1239978aa631f",
+      "sha1": "6c48f1aad722324168ac94fe8e7b70bb2e8ea75b",
+      "size": "13378",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "3c2bc650",
+      "md5": "703374d50fb4a6c60b45fd27e7541c06",
+      "sha1": "6b545561636cd041312513f1ccffbc61d9f52877",
+      "size": "606333",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "3580335e",
+      "md5": "b058498cd4a7572b51170db11558bd38",
+      "sha1": "8b2a44778996d74ad665c60ab27659f0a157bac2",
+      "size": "134130",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "da5fd5bb",
+      "md5": "214530f50aed594d99fcf083a4ce8b24",
+      "sha1": "2d462ace6281be818f6f0a6d1a4f624f0d540d7a",
+      "size": "1516281",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "29fc5789",
+      "md5": "5ff3e1da05ed59bda5b5e9475e31b9d8",
+      "sha1": "8bb9de208a1e1f1d7fed39d556563c312d113e8c",
+      "size": "250948",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "ca653c7b",
+      "md5": "31fe389f0d3fa7477eef4b84dd87908d",
+      "sha1": "fc1a1398af639371e01745ab7a3606a5e6103b8d",
+      "size": "351572",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "d185721e",
+      "md5": "4ecada78aa101086277cada692872963",
+      "sha1": "ca28415203e76c291ead4e0d8af7d78cfb131647",
+      "size": "89815",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=manuel(jp)",
+      "region": "jp",
+      "crc": "55b00810",
+      "md5": "bfda6e45945eebb3f375640825e98714",
+      "sha1": "bdec3614dbd8d7918a5cfbd8783355d07bb55a6f",
+      "size": "929877",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "74c9d189",
+      "md5": "05c6d6c5b12c6a45a82c5d9ae1defd9e",
+      "sha1": "04b4537769aee31dddfb39f348b51de032b6c72c",
+      "size": "300969",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "34159833",
+      "md5": "d3c189d177175798003a58440caf74e6",
+      "sha1": "3f0a94c623bd7def61c52c180efb5e8eb2b48f93",
+      "size": "265262",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "a743599e",
+      "md5": "0fcdc27f4f284599871e4dd11b31b309",
+      "sha1": "13f9282d19622e56d70ee18e298bc448b26ed273",
+      "size": "366733",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "dee954d4",
+      "md5": "83596c7108c960275bd7a10cf667203d",
+      "sha1": "b8d0ae5c1508250ae4f238fb65f3f3c6c96bb383",
+      "size": "227172",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "a743599e",
+      "md5": "0fcdc27f4f284599871e4dd11b31b309",
+      "sha1": "13f9282d19622e56d70ee18e298bc448b26ed273",
+      "size": "366733",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "ad5b6e17",
+      "md5": "7c94d612775ec753ce5755b95224af8c",
+      "sha1": "8ad32ac2173542a14e17b6bce30d4e94d027eb5f",
+      "size": "531399",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "6892c0b7",
+      "md5": "4d5a9e31220b470c4deed04ebb8afb7f",
+      "sha1": "692ce4f54c3d04b9e72bf6d229e8622bb02fe73c",
+      "size": "406380",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88313&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "ad5b6e17",
+      "md5": "7c94d612775ec753ce5755b95224af8c",
+      "sha1": "8ad32ac2173542a14e17b6bce30d4e94d027eb5f",
+      "size": "531399",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=457&media=logo-monochrome",
+      "crc": "3a106bf6",
+      "md5": "a5be2fc25b7656918cb3a9ca4f02dbd1",
+      "sha1": "c32d8e660cd4b2a0ce35937f3a9efb59d0ce6a38",
+      "size": "58227",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=457&media=wheel",
+      "crc": "e9828050",
+      "md5": "43b06cc5ca3433dddadd531a63873232",
+      "sha1": "5527b5f922eb66756bbcb858f71e8435edc10e83",
+      "size": "69385",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=pictoliste",
+      "crc": "8110c97e",
+      "md5": "3ae29e736d50a81e950bc09995eef920",
+      "sha1": "684567ae8537e5394d8335cfbcdbe65336b63042",
+      "size": "908",
+      "format": "png"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=logo-monochrome",
+      "crc": "7d6f79cd",
+      "md5": "29fe47711b1700461adb943b75e243c6",
+      "sha1": "7ff3b47680c560229f2c79b04e36633945f1076b",
+      "size": "9191",
+      "format": "png"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=logo-monochrome-svg",
+      "crc": "5da7342f",
+      "md5": "c6c487d7b83f59704d60dc3db9aeb738",
+      "sha1": "99eb7921f5b9df09c257df3eee61f97f786e4a89",
+      "size": "4852",
+      "format": "svg"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=background",
+      "crc": "b7f54e2e",
+      "md5": "5c9ff45078054d25bb6fc33154c1be54",
+      "sha1": "3fbc535b5792ae9152e00219e8b84fee41f945ee",
+      "size": "275320",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136148",
+      "romsize": "393232",
+      "romfilename": "Gozonji - Yaji Kita Chin Douchuu (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "22348FA8",
+      "rommd5": "29F32390E24B62585DC18F53B372A06C",
+      "romsha1": "AD266B5AD4D3A45F42D457D8CF8E669ABADF3E6D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "59999",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "12758",
+      "romsize": "238286",
+      "romfilename": "Gozonji - Yaji Kita Chin Douchuu (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "04C623B6",
+      "rommd5": "92AE83329630B7ED1231F720FAEB5039",
+      "romsha1": "2585B580D4F878B6F7A1B65057F3842C51CCA7A2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "50095",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1138035",
+      "romsize": "393232",
+      "romfilename": "Gozonji - Yaji Kita Chin Douchuu (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "220a451f",
+      "rommd5": "bdd15fac92d789d8ec59a6484e90db5b",
+      "romsha1": "7c5e655ffcbe3e4b265d75a575afca79cd9f56ad",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19224",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173314",
+      "romsize": "393216",
+      "romfilename": "Gozonji - Yaji Kita Chin Douchuu (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0DA00298",
+      "rommd5": "4F1A84046F5DC12E6A9EDF53A2B14556",
+      "romsha1": "7138B8F0E6CC530B70CEB8082BCA8F8FF06D7776",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1736",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113812",
+      "romsize": "238264",
+      "romfilename": "Gozonji - Yaji Kita Chin Douchuu (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "54AE9127",
+      "rommd5": "F2F91A15313BE3BDCFD62D7820BDC549",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "67",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

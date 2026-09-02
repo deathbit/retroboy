@@ -1,5 +1,6 @@
 package com.github.deathbit.retroboy.platform.impl;
 
+import com.github.deathbit.retroboy.config.AppConfig;
 import com.github.deathbit.retroboy.domain.FinalGame;
 import com.github.deathbit.retroboy.domain.MediaCompletionRate;
 import com.github.deathbit.retroboy.domain.PlatformContext;
@@ -7,6 +8,7 @@ import com.github.deathbit.retroboy.enums.MediaAssetType;
 import com.github.deathbit.retroboy.util.MediaBitmapUtils;
 import com.github.deathbit.retroboy.util.PathUtils;
 import com.github.deathbit.retroboy.util.ReleaseReportUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -26,6 +28,9 @@ public class ReleaseReportHandler {
     private static final DateTimeFormatter CREATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
     private static final String MEDIA_EXISTS = "●";
     private static final String MEDIA_MISSING = "○";
+
+    @Autowired
+    private AppConfig appConfig;
 
     public void handle(PlatformContext platformContext) {
         var releaseReportPath = PathUtils.RELEASE_REPORT.get(platformContext);
@@ -101,7 +106,7 @@ public class ReleaseReportHandler {
         areaGameCounts.forEach((area, count) ->
                 ReleaseReportUtils.appendInfo(content, area + "地区游戏总数", String.valueOf(count)));
         ReleaseReportUtils.appendInfo(content, "基础包版本",
-                platformContext.getAppConfig().getBasePackReleaseReportTaskConfig().getBasePackVersion());
+                appConfig.getBasePackReleaseReportTaskConfig().getBasePackVersion());
         ReleaseReportUtils.appendInfo(content, "百度网盘", platformContext.getGlobalConfig().getBaiduPan());
         ReleaseReportUtils.appendInfo(content, "维基百科", platformContext.getPlatformPackTaskConfig().getWiki());
         ReleaseReportUtils.appendInfo(content, "项目仓库", platformContext.getGlobalConfig().getRepo());

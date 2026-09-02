@@ -5,6 +5,7 @@ import com.github.deathbit.retroboy.domain.PathPair;
 import com.github.deathbit.retroboy.domain.PlatformContext;
 import com.github.deathbit.retroboy.domain.ProgressBar;
 import com.github.deathbit.retroboy.domain.game.NoIntroGame;
+import com.github.deathbit.retroboy.util.FileContextUtils;
 import com.github.deathbit.retroboy.util.PathUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -22,6 +23,7 @@ public class MoveHandler {
 
     public void handle(PlatformContext platformContext) throws Exception {
         var gameDBsByArea = buildGameDBsByArea(platformContext);
+        var fileContextLookupMap = FileContextUtils.buildLookupMap(platformContext.getFileContexts());
         gameDBsByArea.forEach((area, gameDbs) -> {
             var targetPath = PathUtils.esdeAreaRomDirectory(platformContext, area);
             fileComponent.deletePath(targetPath);
@@ -32,10 +34,7 @@ public class MoveHandler {
             var targetPath = PathUtils.esdeAreaRomDirectory(platformContext, area);
             for (int i = 0; i < gameDbs.size(); i++) {
                 var gameDB = gameDbs.get(i);
-                var fileContext = platformContext.getFileContextMap().get(gameDB.getTitle());
-                if (fileContext == null) {
-                    throw new RuntimeException("FileContext not found for rom: " + gameDB.getTitle());
-                }
+                var fileContext = FileContextUtils.requireFileContext(fileContextLookupMap, gameDB.getTitle());
                 fileComponent.copyPath(PathPair.builder()
                                                .sourcePath(PathUtils.platformRom(platformContext, fileContext.getFileName()))
                                                .targetPath(targetPath)

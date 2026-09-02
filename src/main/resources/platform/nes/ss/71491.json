@@ -1,0 +1,861 @@
+{
+  "id": "71491",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Route-16 Turbo"
+    },
+    {
+      "region": "jp",
+      "text": "Route-16 Turbo"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "37",
+    "text": "Sunsoft"
+  },
+  "developpeur": {
+    "id": "37",
+    "text": "Sunsoft"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Route-16 Turbo is an updated version of an older arcade game entitled Route 16, developed jointly by Tehkan (later Tecmo) and Sunsoft (in a manner similar to the way Namco's Warpman is an updated version of Warp & Warp.) Route-16 Turbo takes the concept established in Route 16, and updates the quality of the graphics, but keeps the goal of the game the same. The game play is a near perfect combination of Rally-X and Venture. The player drives a car through several zoomed in blocks collecting bags of money and other items, and travels between blocks along a zoomed out view of the world."
+    },
+    {
+      "langue": "fr",
+      "text": "Route-16 Turbo est une version actualisée d'un ancien jeu d'arcade intitulé Route 16, développé conjointement par Tehkan (puis Tecmo) et Sunsoft (de la même manière que Warpman de Namco est une version actualisée de Warp & Warp). Route-16 Turbo reprend le concept établi dans Route 16, en améliorant la qualité des graphismes, mais en gardant le même objectif de jeu. Le jeu est une combinaison presque parfaite de Rally-X et de Venture. Le joueur conduit une voiture à travers plusieurs blocs zoomés pour collecter des sacs d'argent et d'autres objets, et se déplace entre les blocs le long d'une vue zoomée du monde."
+    },
+    {
+      "langue": "de",
+      "text": "Route-16 Turbo ist eine aktualisierte Version eines älteren Arcade-Spiels mit dem Titel Route 16, das gemeinsam von Tehkan (später Tecmo) und Sunsoft entwickelt wurde (in ähnlicher Weise wie Namcos Warpman eine aktualisierte Version von Warp & Warp ist). Route-16 Turbo nimmt das in Route 16 festgelegte Konzept und aktualisiert die Qualität der Grafik, hält aber das Ziel des Spiels gleich. Das Spiel ist eine nahezu perfekte Kombination aus Rally-X und Venture. Der Spieler fährt ein Auto durch mehrere vergrößerte Blöcke, sammelt Taschen mit Geld und anderen Gegenständen und reist zwischen den Blöcken entlang einer vergrößerten Sicht auf die Welt."
+    },
+    {
+      "langue": "es",
+      "text": "Route-16 Turbo es una versión actualizada de un juego arcade más antiguo titulado Route 16, desarrollado conjuntamente por Tehkan (más tarde Tecmo) y Sunsoft (de una manera similar a la manera en que Warco de Namco es una versión actualizada de Warp & Warp.) Route-16 Turbo toma el concepto establecido en la Ruta 16 y actualiza la calidad de los gráficos, pero mantiene el objetivo del juego igual. El juego es una combinación casi perfecta de Rally-X y Venture. El jugador conduce un automóvil a través de varios bloques ampliados y debe recolectar bolsas de dinero y otros artículos, y viaja entre bloques a lo largo de una vista ampliada del mundo."
+    },
+    {
+      "langue": "it",
+      "text": "Route-16 Turbo è una versione aggiornata di un vecchio gioco arcade intitolato Route 16, sviluppato congiuntamente da Tehkan (poi Tecmo) e Sunsoft (in modo simile al modo in cui Namco's Warpman è una versione aggiornata di Warp & Warp.) Route-16 Turbo riprende il concetto stabilito in Route 16 e aggiorna la qualità della grafica, ma mantiene lo stesso l'obiettivo del gioco. Il gioco è una combinazione quasi perfetta di Rally-X e Venture. Il giocatore guida un'auto attraverso diversi blocchi ingranditi raccogliendo borse di denaro e altri oggetti e viaggia tra i blocchi lungo una vista ingrandita del mondo."
+    },
+    {
+      "langue": "pt",
+      "text": "Route-16 Turbo é uma versão atualizada de um jogo de arcade mais antigo intitulado Route 16, desenvolvido em conjunto por Tehkan (mais tarde Tecmo) e Sunsoft (de maneira semelhante à maneira como Warpman da Namco é uma versão atualizada de Warp & Warp.) Route-16 Turbo pega o conceito estabelecido na Rota 16 e atualiza a qualidade dos gráficos, mas mantém o objetivo do jogo o mesmo. O jogo é uma combinação quase perfeita de Rally-X e Venture. O jogador dirige um carro por vários blocos ampliados coletando sacos de dinheiro e outros itens, e viaja entre os blocos ao longo de uma visão ampliada do mundo."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1985-10-04"
+    }
+  ],
+  "genres": [
+    {
+      "id": "28",
+      "nomcourt": "0601",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Racing, Driving"
+        },
+        {
+          "langue": "fr",
+          "text": "Course, Conduite"
+        },
+        {
+          "langue": "de",
+          "text": "Rennen, Fahren"
+        },
+        {
+          "langue": "es",
+          "text": "Carreras, Conducción"
+        },
+        {
+          "langue": "it",
+          "text": "Corsa, Guida"
+        },
+        {
+          "langue": "pt",
+          "text": "Corrida, Pilotagem"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "1c576be6",
+      "md5": "21f3ebedf06c8cf28ae3591bd77e5c58",
+      "sha1": "60ccf98450c8077b1e684b868eb08aa771b309ba",
+      "size": "2640",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=ss(jp)",
+      "region": "jp",
+      "crc": "6022a565",
+      "md5": "9f7b234160d50d8e62435fa2344b7240",
+      "sha1": "3eb6d9960a401cf72fe4df6d8b1bc726981d5412",
+      "size": "2984",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=fanart",
+      "crc": "b958d8de",
+      "md5": "acfc490eccb6270212a303f528c06856",
+      "sha1": "1bc81baa5f54b69592ef73cbc05688bca9d6cefc",
+      "size": "294554",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=video",
+      "crc": "cfcae031",
+      "md5": "3735e746d1f313eff1bf12b44dd40c70",
+      "sha1": "a5a362b891b660b8d467c8b593afd04e816f6d80",
+      "size": "1161848",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=video-normalized",
+      "crc": "219343d9",
+      "md5": "1ac72976434419772ad593a23272c89c",
+      "sha1": "23c20e5367de037859c5c0c891cbf9bae425d93b",
+      "size": "643562",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=steamgrid",
+      "crc": "cd08d3b3",
+      "md5": "985c53f51c0c0456c2ba3ae798ad6f62",
+      "sha1": "93f65f7e0f126857eb7209ecbfda6ca7bb280403",
+      "size": "27988",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=wheel(jp)",
+      "region": "jp",
+      "crc": "67e75b55",
+      "md5": "973e87ac280269e793ee75368314496c",
+      "sha1": "1dc8a7c0cb2dc4d6cec6fc2ff573d4c33d689407",
+      "size": "20715",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "8df1ab1b",
+      "md5": "b4c0193b267b11cdc0b4f2db4c1a81ce",
+      "sha1": "29facd1db61f1159a25b5ac3c0aca248c247ac08",
+      "size": "83607",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "7b162991",
+      "md5": "0bfcedac82bef3aad159c9dd5f8a95a6",
+      "sha1": "94fda025350a974432633e891b10c1a9b3cc0a35",
+      "size": "84757",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "80bed966",
+      "md5": "9f6443142e0ae37a05ac5f117c54037e",
+      "sha1": "2ee13223e10e7c826400f3d725f3e649b603ea59",
+      "size": "469460",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "2e3e369c",
+      "md5": "4e63b0107839706ef14191f2c002b99a",
+      "sha1": "82319e0bc417745b40742b33b3389b66edfd339a",
+      "size": "75709",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "c7c0c51c",
+      "md5": "b667cd175169ff56fb4fa2fdac7d4b89",
+      "sha1": "78ba61501ac6398af8d2a37c4a5394654f95e7a9",
+      "size": "428162",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "5147a89f",
+      "md5": "22ec92ee9f512de1fbf201689d3643b1",
+      "sha1": "46c6e2a948d5e06d6234595d3d83d2c4495d3c27",
+      "size": "104628",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "1ef54069",
+      "md5": "2aa7ab33437d123454d55d2c3b530a72",
+      "sha1": "96eaea75e5fcdeeebc7c87b4496f9acbccceffaf",
+      "size": "49893",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "fe78b921",
+      "md5": "10a110b5ce00ea74eb7c7a429ce4bd83",
+      "sha1": "4691059fc05773c6ad7f0d97745b914558d85d10",
+      "size": "21393",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "8ad32e75",
+      "md5": "04174b53a9f1a6949ad4486b8f3f4bbb",
+      "sha1": "a95b7a3b8f2e5c4a8455744d576ad8b10c7b9d75",
+      "size": "324694",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "7a81f694",
+      "md5": "e6143233b7f591057728de52c1153208",
+      "sha1": "58aea90cb01ed8bd3207e1b363818f0fe48b618b",
+      "size": "156184",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "bd658ab3",
+      "md5": "ff8bb0be163c61581f7d49cac3f17308",
+      "sha1": "3f67e9843553cb214c3bc0f1eb65171c41325e41",
+      "size": "841784",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "86fc6c37",
+      "md5": "e04ea9fc03f19d745170642a1faadd95",
+      "sha1": "6b8e3badf165888234175c0aaaa551a376b558f6",
+      "size": "300223",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "aed77aa1",
+      "md5": "6e013084f241ea3ab3e94657ed629e22",
+      "sha1": "99e14f57a03c8dd94ca4c22d4c831b980198705b",
+      "size": "246489",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "132adc50",
+      "md5": "4e0c18762c138363f1cd28ce2c35a29f",
+      "sha1": "d8b5135641e31e4db78aa9bc95b601acbbf2a8ca",
+      "size": "137025",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=manuel(jp)",
+      "region": "jp",
+      "crc": "9968505f",
+      "md5": "a8fbe23685f0dfccc40c625cb4d67211",
+      "sha1": "035a081c474681c3811cc9771b648d1c32238ba4",
+      "size": "2096284",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "6f2213e1",
+      "md5": "c5e08224eefe27a3fb7434f93d20c1ff",
+      "sha1": "6fe05071b2d81f8b30ebfa952c267d668fa774c0",
+      "size": "387340",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "20777272",
+      "md5": "a3acf0dba21da7d269fffb67865e2fcf",
+      "sha1": "7d0ea143a8421a0446981f2c5e3ef4350638133d",
+      "size": "348928",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "0ca7d309",
+      "md5": "af6adfdbb090cbff10f1e88c89b1c082",
+      "sha1": "fe5c9dd2bebc7ae83014da502cf3f18bc751ef4e",
+      "size": "411607",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "a10a87d2",
+      "md5": "675aec759f938e25044bcea7f33c6d0f",
+      "sha1": "eaf72180157fb01633c973b19377fa7d1d437692",
+      "size": "355260",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "0ca7d309",
+      "md5": "af6adfdbb090cbff10f1e88c89b1c082",
+      "sha1": "fe5c9dd2bebc7ae83014da502cf3f18bc751ef4e",
+      "size": "411607",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "8e466938",
+      "md5": "c2dbaf88dde3cfaca6fd82b483467c67",
+      "sha1": "f9457887153f62ab260129b4c63d20585f3c391b",
+      "size": "616522",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "86d2b9e6",
+      "md5": "6de9b2580f13fbc42e4f3b85f6072965",
+      "sha1": "2d33f1417af695221f0104867748ad27e535d86e",
+      "size": "559058",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71491&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "8e466938",
+      "md5": "c2dbaf88dde3cfaca6fd82b483467c67",
+      "sha1": "f9457887153f62ab260129b4c63d20585f3c391b",
+      "size": "616522",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=37&media=logo-monochrome",
+      "crc": "c8118ad6",
+      "md5": "9940e08cdc0751ed406302dcb5411f28",
+      "sha1": "e6674ae301c7a7c6034b81e7d00ee3300b35f047",
+      "size": "2556",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=37&media=wheel",
+      "crc": "6e9f9d49",
+      "md5": "f3ddc417d1ed29962330a3db1aa37751",
+      "sha1": "528de1e533a4ec812fd8b7746a259e2a6213e012",
+      "size": "9334",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=37&media=logo-monochrome",
+      "crc": "c8118ad6",
+      "md5": "9940e08cdc0751ed406302dcb5411f28",
+      "sha1": "e6674ae301c7a7c6034b81e7d00ee3300b35f047",
+      "size": "2556",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=37&media=wheel",
+      "crc": "6e9f9d49",
+      "md5": "f3ddc417d1ed29962330a3db1aa37751",
+      "sha1": "528de1e533a4ec812fd8b7746a259e2a6213e012",
+      "size": "9334",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "28",
+      "parent": "genre",
+      "subparent": "Course, Conduite",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28&media=pictoliste",
+      "crc": "6d26dd78",
+      "md5": "dc64e0c263abe009b8a846f40029d892",
+      "sha1": "cba5143e7cd8a13b0d80120433eed1b56c7faba6",
+      "size": "817",
+      "format": "png"
+    },
+    {
+      "id": "28",
+      "parent": "genre",
+      "subparent": "Course, Conduite",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28&media=logo-monochrome",
+      "crc": "d2fe1ddb",
+      "md5": "d2b1ca77df8693cf0611053b40db864f",
+      "sha1": "1f71290b922446c4661517474527b86ede4200fa",
+      "size": "5242",
+      "format": "png"
+    },
+    {
+      "id": "28",
+      "parent": "genre",
+      "subparent": "Course, Conduite",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28&media=logo-monochrome-svg",
+      "crc": "5854317a",
+      "md5": "68c7ba83ac439fc27bd608348fb50670",
+      "sha1": "b5bf8d6dc1f738d3e6ca9fe23c2a897b4503fd6f",
+      "size": "2117",
+      "format": "svg"
+    },
+    {
+      "id": "28",
+      "parent": "genre",
+      "subparent": "Course, Conduite",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28&media=background",
+      "crc": "25bbbb66",
+      "md5": "4aa86cf74f667470e128a1782615192a",
+      "sha1": "9ecd8e0d6c328cf4d0e43efd47533de0886a82df",
+      "size": "365892",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "137144",
+      "romsize": "40976",
+      "romfilename": "Route-16 Turbo (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8C56DF11",
+      "rommd5": "FF814D83D75B8DA06031D066F9094F78",
+      "romsha1": "8CED9C0C54BDF6BA2C6F1D8800E89CF0D6EBF896",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "187894",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "13293",
+      "romsize": "21584",
+      "romfilename": "Route-16 Turbo (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C651D751",
+      "rommd5": "33891E55158D8058D1E6DCF247852253",
+      "romsha1": "AA1BF652AE87BD76EBE50E093DC56707B0CD6870",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "60987",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1143141",
+      "romsize": "40976",
+      "romfilename": "Route-16 Turbo (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "114e118f",
+      "rommd5": "d6b632dd54713077ccbd28150feda8d4",
+      "romsha1": "94a57b4d3d7033bacfa0ac9b0b0adaf03bdfd5ea",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "18876",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174339",
+      "romsize": "40960",
+      "romfilename": "Route-16 Turbo (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "728BFA8D",
+      "rommd5": "F0D453602D83DE3113A7C4A7104A3A81",
+      "romsha1": "88AB3376937004970D38CF477C0A01C8C8B28EC1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1952",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "848148",
+      "romsize": "40976",
+      "romfilename": "Route-16 Turbo.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DDA95CB9",
+      "rommd5": "47B86EBAD359423F1A42D0D53E11CBCD",
+      "romsha1": "45870338F4E279A4EC6F53257F1BB5CAD98642EE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "1952",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114835",
+      "romsize": "21562",
+      "romfilename": "Route-16 Turbo (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7DBCF74B",
+      "rommd5": "F7DB5F5957112E78B4E468E07A302DE9",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "104",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1453391",
+      "romsize": "21602",
+      "romfilename": "Route 16.zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "F811250B",
+      "rommd5": "96B94399120A4409DE62B61C4EBA114B",
+      "romsha1": "3AF182FF958583D6CAF6BE7C83A181BF4A474181",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    }
+  ]
+}

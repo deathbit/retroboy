@@ -1,0 +1,453 @@
+{
+  "id": "79361",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Fan Kong Jing Ying"
+    },
+    {
+      "region": "cn",
+      "text": "Fan Kong Jing Ying"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "48006",
+    "text": "Henggedianzi"
+  },
+  "developpeur": {
+    "id": "36014",
+    "text": "Fuzhou Waixing"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Another version of Grandia."
+    },
+    {
+      "langue": "fr",
+      "text": "Une autre version de Grandia."
+    },
+    {
+      "langue": "de",
+      "text": "Eine weitere Version von Grandia."
+    },
+    {
+      "langue": "es",
+      "text": "Otra versión de Grandia."
+    },
+    {
+      "langue": "it",
+      "text": "Un'altra versione di Grandia."
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=79361&media=sstitle(cn)",
+      "region": "cn",
+      "crc": "f727a942",
+      "md5": "66a939ce96d51cbb3a1723df42bb3852",
+      "sha1": "b8fad14e7879f34db53b9327a71ce854f3670fee",
+      "size": "6827",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=79361&media=ss(cn)",
+      "region": "cn",
+      "crc": "35166d8e",
+      "md5": "eb4240ef8c04ffe986046017d7b0cecb",
+      "sha1": "fc35d97fc5927eaba8053df861286f49b4d6d3ea",
+      "size": "5689",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=79361&media=video",
+      "crc": "40a5d417",
+      "md5": "78fe6a8e667378d9803aca82994635bb",
+      "sha1": "bb8f2ad8579ec439621b2b1940bf0cac43e2185d",
+      "size": "4678951",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=79361&media=video-normalized",
+      "crc": "3bcacee5",
+      "md5": "4103fc4bc7cdfaf045368b4a8b90d2dc",
+      "sha1": "c5e7062022e325d53a385c200302640d27eb2feb",
+      "size": "1588431",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=79361&media=steamgrid",
+      "crc": "b1203968",
+      "md5": "b304cbf75c0e09755816d12b4ba8321c",
+      "sha1": "dcccc64bcd131cd85f3e670c905d6098a3292027",
+      "size": "33249",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=79361&media=wheel(cn)",
+      "region": "cn",
+      "crc": "141c52da",
+      "md5": "00bb71fd358a5eb07cd165c2a7482733",
+      "sha1": "f595852dce9ef4b8293ceb346294ec298f4aca63",
+      "size": "22407",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=79361&media=wheel-carbon(cn)",
+      "region": "cn",
+      "crc": "3da11824",
+      "md5": "673eed3ef4f955759c895e40b9ef5788",
+      "sha1": "7b9f00b5cdb44711f59a1e81be73877647eb4b3d",
+      "size": "72001",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=79361&media=wheel-steel(cn)",
+      "region": "cn",
+      "crc": "e1db6621",
+      "md5": "bc7cabc1d159f448d88dbedea3a12a0a",
+      "sha1": "2846dbee29e77a3a5267759760d79278b4c7211c",
+      "size": "73112",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=79361&media=screenmarquee(cn)",
+      "region": "cn",
+      "crc": "2ed37a66",
+      "md5": "b4e81a063595ba37aeda8c29a07329df",
+      "sha1": "eb46029490d6dccb24a1118135caded98e5a0d4f",
+      "size": "481479",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=79361&media=screenmarqueesmall(cn)",
+      "region": "cn",
+      "crc": "3983c7e5",
+      "md5": "ab454f08a21f4010f39a69e0088ce7ce",
+      "sha1": "9cac42638658c63f7465de4bee2f4ed65ad5275b",
+      "size": "73969",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=79361&media=mixrbv1(cn)",
+      "region": "cn",
+      "crc": "0dad6059",
+      "md5": "6a8baa1c4ac4bc51aa2aa5110dab3cc7",
+      "sha1": "49f7e3d081f51ce0743ea56d701c4e298afc723c",
+      "size": "327743",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=79361&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "5a569f3c",
+      "md5": "4107ac77341c24b72a1213463e2dd04a",
+      "sha1": "235b31e4d81c94853f4f645b908795b478413976",
+      "size": "378939",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=79361&media=mixrbv2(cn)",
+      "region": "cn",
+      "crc": "0ca2dad1",
+      "md5": "1c08eba4fa2e4329abb879e951d71231",
+      "sha1": "8ca250435f63df1ca2746dabb77381359d18401a",
+      "size": "563086",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=79361&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "e9172aab",
+      "md5": "52dd5a36b47a500aa94dd691152eff94",
+      "sha1": "c02b050f2c334d1b26ef1fdc7021d5b88d269835",
+      "size": "624417",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=79361&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "0ca2dad1",
+      "md5": "1c08eba4fa2e4329abb879e951d71231",
+      "sha1": "8ca250435f63df1ca2746dabb77381359d18401a",
+      "size": "563086",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=36014&media=wheel",
+      "crc": "e57a0902",
+      "md5": "f2c93a260c5d8b33ba474f7223fbc101",
+      "sha1": "48e0438bf2549da7f3501a8d81d9091e30e4f6bd",
+      "size": "47763",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135981",
+      "romsize": "1048592",
+      "romfilename": "Fan Kong Jing Ying (China) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "15577246",
+      "rommd5": "069B9CD485D9712CAC531DF1248C59A2",
+      "romsha1": "F75ABC0E9E9E688902823DD212882C95EFCA21AC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "37600",
+      "regions": {
+        "regions_id": [
+          "56"
+        ],
+        "regions_shortname": [
+          "cn"
+        ],
+        "regions_en": [
+          "China"
+        ],
+        "regions_fr": [
+          "Chine"
+        ],
+        "regions_de": [
+          "China"
+        ],
+        "regions_es": [
+          "China"
+        ],
+        "regions_it": [
+          "Cina"
+        ],
+        "regions_pt": [
+          "China"
+        ]
+      }
+    },
+    {
+      "id": "12670",
+      "romsize": "424404",
+      "romfilename": "Fan Kong Jing Ying (China) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "12DF4FA0",
+      "rommd5": "1D1416B2D3AC00A33DB465DC6DDE50F8",
+      "romsha1": "6C5D56D83B765FD096AFD8DB6DFA4A29AA174C6A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "32314",
+      "regions": {
+        "regions_id": [
+          "56"
+        ],
+        "regions_shortname": [
+          "cn"
+        ],
+        "regions_en": [
+          "China"
+        ],
+        "regions_fr": [
+          "Chine"
+        ],
+        "regions_de": [
+          "China"
+        ],
+        "regions_es": [
+          "China"
+        ],
+        "regions_it": [
+          "Cina"
+        ],
+        "regions_pt": [
+          "China"
+        ]
+      }
+    },
+    {
+      "id": "173147",
+      "romsize": "1048576",
+      "romfilename": "Fan Kong Jing Ying (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FB2B6B10",
+      "rommd5": "F652B087695C18B80DF806B37DD4EEE2",
+      "romsha1": "BFA31777E077E64AF0E274B5A22B57C6765D36E1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14811",
+      "regions": {
+        "regions_id": [
+          "56"
+        ],
+        "regions_shortname": [
+          "cn"
+        ],
+        "regions_en": [
+          "China"
+        ],
+        "regions_fr": [
+          "Chine"
+        ],
+        "regions_de": [
+          "China"
+        ],
+        "regions_es": [
+          "China"
+        ],
+        "regions_it": [
+          "Cina"
+        ],
+        "regions_pt": [
+          "China"
+        ]
+      }
+    },
+    {
+      "id": "1137192",
+      "romsize": "1048592",
+      "romfilename": "Fan Kong Jing Ying (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2b35c343",
+      "rommd5": "544969c659cf2e68f25bf98fe43d8470",
+      "romsha1": "8da089bf0145e180abbdf214ba946023c4e443f0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11418"
+    },
+    {
+      "id": "113642",
+      "romsize": "424382",
+      "romfilename": "Fan Kong Jing Ying (China) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "371017D1",
+      "rommd5": "AE20923C114F343F2A34E10064ED73A0",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "70",
+      "regions": {
+        "regions_id": [
+          "56"
+        ],
+        "regions_shortname": [
+          "cn"
+        ],
+        "regions_en": [
+          "China"
+        ],
+        "regions_fr": [
+          "Chine"
+        ],
+        "regions_de": [
+          "China"
+        ],
+        "regions_es": [
+          "China"
+        ],
+        "regions_it": [
+          "Cina"
+        ],
+        "regions_pt": [
+          "China"
+        ]
+      }
+    }
+  ]
+}

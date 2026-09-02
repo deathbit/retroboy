@@ -1,0 +1,986 @@
+{
+  "id": "88394",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Karakuri Kengou Den - Musashi Lord - Karakuri Jin Hashiru"
+    },
+    {
+      "region": "jp",
+      "text": "Karakuri Kengou Den Musashi Lord : Karakuribito Hashiru"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "608",
+    "text": "Yutaka"
+  },
+  "developpeur": {
+    "id": "608",
+    "text": "Yutaka"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Karakuri Kengōden: Musashi Lord - Karakuribito Hashiru! is an RPG based on Karakuri Kengō Den Musashi Lord, a 1990/91 50 episodes anime. It takes place in a medieval Japanese setting where humans and human-like robots live together.\r\n\r\nIn the anime Musashi, the main (robot) character venture to become top martial artist. The game is a classic bird's-eye view Zelda-style action game, but with many RPG elements and level-up progression. It is divided in four chapters (+a bonus one) with different main characters, and you may choose at the beginning which one to play. It is one of the first games to have multiple scenarios with different characters that converge into a single story."
+    },
+    {
+      "langue": "fr",
+      "text": "Karakuri Kengou Den Musashi Seigneur: Karakuri Jin Hashiru! est un jeu de rôle basé sur le manga Musashi, le samouraï."
+    },
+    {
+      "langue": "de",
+      "text": "Karakuri Kengou Den Musashi Senhor: Karakuri Jin Hashiru! é um RPG de ação baseado no mangá Musashi, o Samurai Lord."
+    },
+    {
+      "langue": "es",
+      "text": "Karakuri Kengou Den Musashi Lord: Karakuri Jin Hashiru es un juego de acción basado en el manga Musashi, The Samurai Lord."
+    },
+    {
+      "langue": "it",
+      "text": "Karakuri Kengōden: Signore Musashi - Karakuribito Hashiru! è un gioco di ruolo basato su Karakuri Kengō Den Musashi Lord, un anime del 1990/91 di 50 episodi. Si svolge in un'ambientazione giapponese medievale in cui umani e robot simili a umani convivono.\r\nnnNell'anime Musashi, il personaggio principale (robot) si avventura per diventare il miglior artista marziale. Il gioco è un classico gioco d'azione in stile Zelda con visuale a volo d'uccello, ma con molti elementi RPG e progressione di livello. È diviso in quattro capitoli (+uno bonus) con diversi personaggi principali, e puoi scegliere all'inizio quale giocare. È uno dei primi giochi ad avere scenari multipli con personaggi diversi che convergono in un'unica storia."
+    },
+    {
+      "langue": "pt",
+      "text": "Karakuri Kengou Den Musashi Senhor: Karakuri Jin Hashiru! é um RPG de ação baseado no mangá Musashi, o Samurai Lord."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1991-10-05"
+    }
+  ],
+  "genres": [
+    {
+      "id": "8",
+      "nomcourt": "0300",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Role Playing Game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de rôles"
+        },
+        {
+          "langue": "de",
+          "text": "Rollenspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de Rol"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di Ruolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogos de RPG"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "f8df7040",
+      "md5": "0e65640bdd6b831123d26cf1751c3815",
+      "sha1": "c19c7c4d715a1b8495f0ea7b028ac713e85c6dca",
+      "size": "2928",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=ss(jp)",
+      "region": "jp",
+      "crc": "7bd2b8d4",
+      "md5": "81fe953be1cc29858c914b5b5984f0b5",
+      "sha1": "f4d1787d934814c0e4bc45281fa5b0e2a164a21b",
+      "size": "43858",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=video",
+      "crc": "cd4db8bb",
+      "md5": "40282c76825e4bb9c197edd127104a75",
+      "sha1": "12575e5f4056877dd9fadc356c9639dc310e1e0f",
+      "size": "3317390",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=video-normalized",
+      "crc": "9ee1db77",
+      "md5": "9111008ae95424c85335f0870365b7e2",
+      "sha1": "638ef9df71379433ca6297b66b7efc2ac47c76a2",
+      "size": "1432285",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=steamgrid",
+      "crc": "ac16e876",
+      "md5": "22245f932277e0c3cc91b68e46926cd8",
+      "sha1": "1404d7b9b9a674edc1c85fa69bcf9aa604939f0f",
+      "size": "35919",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=wheel(jp)",
+      "region": "jp",
+      "crc": "4b9f4198",
+      "md5": "7f64ec50af25ce9fbad10e52528a9d78",
+      "sha1": "a810d16a47fbe23bb49a0003bad21a07ce7b6e4c",
+      "size": "186998",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "8fa6f826",
+      "md5": "ac51b1017359e6bf749b11b56dc26b3d",
+      "sha1": "32a085b5f545d17db38381dbfd10d3b5e68e65b2",
+      "size": "169082",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "2c251188",
+      "md5": "2d343050dd57d177f42fe2d86143a28a",
+      "sha1": "a15ff1712f6d59039462e576c4a1460f7e6aa7ef",
+      "size": "172187",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "db1b736a",
+      "md5": "9baeb9a7f8127bfafe83a15f51f10fc2",
+      "sha1": "ba29875665ac1ccb2157719b33476b9321d12e34",
+      "size": "528761",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "83b291f2",
+      "md5": "0882ba6dfba20528de0caff8e91ab51c",
+      "sha1": "2918d477c5240b4ac976e03b14326857fa8aa919",
+      "size": "91585",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "305d56d7",
+      "md5": "e02de05f795297f2c1dfca1cc6b3c669",
+      "sha1": "48507be307c6566acfa0e500e1fd6957e3dcf5b2",
+      "size": "637346",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "11e7e9f0",
+      "md5": "ee7b5f3d20881b6db2cbe364e2054d7a",
+      "sha1": "4906788a933d7a13b3a8a9d0b5f954b0c3f46e85",
+      "size": "212176",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "0a6236ad",
+      "md5": "8a91d2a1c619032e078049854a1f3c76",
+      "sha1": "9f5b720205cba98e23f10c8c81901579ba897c0d",
+      "size": "164264",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "7deca2ef",
+      "md5": "68a40684053e5139f87ceef6af046502",
+      "sha1": "df4feee81e6c71e5b5b348404e77fee4c377855a",
+      "size": "29163",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "e0b5c140",
+      "md5": "15840a837aed6c0b14249309ab1f67ce",
+      "sha1": "0849e71aaa2a89abf17745d3a44844b029917046",
+      "size": "406794",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "60a79f62",
+      "md5": "b23fa8537171a44df7596a2c5e5a2341",
+      "sha1": "3866d129e183231ec603fc6308f4199e202e2fa5",
+      "size": "185755",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "1fa619c0",
+      "md5": "77876bd014599f5b2a180f547b9f3436",
+      "sha1": "7f19b1927a98cc364f95794cd185610fe7a87d4e",
+      "size": "1226196",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "f5a7ebc5",
+      "md5": "44d4b648fb3971bd7d0de9290b3f6a92",
+      "sha1": "16cf3c8818b8188eaeb942b65ef08d4545471de8",
+      "size": "444521",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "e990d71d",
+      "md5": "7ddd632abd0fe46a111eeb49b7f5ce70",
+      "sha1": "90d8c9fcf9f0eccc4e3043fe2f0303df89a558a0",
+      "size": "387553",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "054493e9",
+      "md5": "400cac3abec6a3dbdccc1a14453402f1",
+      "sha1": "ad3a54cdd3c1a750506712d2bca1429c385f04bb",
+      "size": "169904",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "f76fcb29",
+      "md5": "7608abf5a710c3be5e4b75b332092037",
+      "sha1": "b6cc8a265eb5e742106f39ff67d3bba648664d4c",
+      "size": "392256",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "585fad8b",
+      "md5": "64c892620d2279b8dc1f5a3f79b9bf09",
+      "sha1": "58508c3cd10fc050de251499a12cc655103a9fbc",
+      "size": "402509",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "90f5f3a1",
+      "md5": "c06311d778b2b36a8efd13a29bd164d3",
+      "sha1": "7c28d00c00d0125c5caa2a5d3efec8b0945a729e",
+      "size": "601190",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "48ee0a14",
+      "md5": "07f90d4571c03df7cd16897dc80f594a",
+      "sha1": "4744a1bbcc69ba21ecf7a3f0970c6ab74afa6724",
+      "size": "492872",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "90f5f3a1",
+      "md5": "c06311d778b2b36a8efd13a29bd164d3",
+      "sha1": "7c28d00c00d0125c5caa2a5d3efec8b0945a729e",
+      "size": "601190",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "011b1315",
+      "md5": "87ffc8974da46e42c94177f16394b4af",
+      "sha1": "9df018177404681c6e3d2b33dc3e52ad56e03fed",
+      "size": "850683",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "c57a9354",
+      "md5": "3a369107f4d0e7803b426fc78465d560",
+      "sha1": "25b10216ed9386fb71ab6966808107a0dcb8a72c",
+      "size": "742522",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88394&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "011b1315",
+      "md5": "87ffc8974da46e42c94177f16394b4af",
+      "sha1": "9df018177404681c6e3d2b33dc3e52ad56e03fed",
+      "size": "850683",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=608&media=wheel",
+      "crc": "d81eac9a",
+      "md5": "98805c20d961b9a8d102c7a76787a673",
+      "sha1": "aee02241447b34eb5cf17584a4d172150162963d",
+      "size": "40699",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=608&media=wheel",
+      "crc": "d81eac9a",
+      "md5": "98805c20d961b9a8d102c7a76787a673",
+      "sha1": "aee02241447b34eb5cf17584a4d172150162963d",
+      "size": "40699",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=pictoliste",
+      "crc": "95641466",
+      "md5": "794cfd972f1fc80058ac4a3b48644c49",
+      "sha1": "065a70a4f3307442d52de0927234ab023e94fa99",
+      "size": "997",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome",
+      "crc": "99338559",
+      "md5": "6d99859437bd123f6dede69b6866b4f4",
+      "sha1": "1b1963a801d9801b0ad107f8a15ef9acf5541bcb",
+      "size": "11154",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome-svg",
+      "crc": "9659d140",
+      "md5": "071309467ec61ec2b037f89af26780cd",
+      "sha1": "dbf9fad14dfc4a4239585b4aae80a9edaf6d4ae3",
+      "size": "2418",
+      "format": "svg"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=background",
+      "crc": "10d4d476",
+      "md5": "3eb9bd04afa99e6bddcdca913ee8d53b",
+      "sha1": "e35ce257c961fcfaca398e9dbab607bbd8bf2aa6",
+      "size": "353085",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136412",
+      "romsize": "262160",
+      "romfilename": "Karakuri Kengou Den Musashi Lord - Karakuribito Hashiru (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "834FC34F",
+      "rommd5": "46262A90FFD90B4134D0D1DE64AEA7F3",
+      "romsha1": "ABCB80D8F7F043042BCCC3D06D610B2113F912F6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "84719",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "757793",
+      "romsize": "393232",
+      "romfilename": "Karakuri Kengou Den Musashi Lord - Karakuribito Hashiru (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "12FC6DBF",
+      "rommd5": "23D0CCC0462841B559438A17B70EA255",
+      "romsha1": "4ADF30369416E14BC4D8295805D8F24D4AC0A0EC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "41974",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1139271",
+      "romsize": "262160",
+      "romfilename": "Karakuri Kengou Den Musashi Lord - Karakuribito Hashiru (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "e6947419",
+      "rommd5": "12b1b20df451c47badafedd38788dade",
+      "romsha1": "2259d034de8c908c13798c960ad70a473974d3a1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19628",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "831186",
+      "romsize": "204610",
+      "romfilename": "Karakuri Kengou Den Musashi Lord Karakuribito Hashiru (Japan) (T).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BF0562D3",
+      "rommd5": "0B66AE5C548608B7258723468E71C65C",
+      "romsha1": "5E53FCED7684CD906BD4D53CEC0978F9971FEA06",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18998",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "12922",
+      "romsize": "146809",
+      "romfilename": "Karakuri Kengou Den - Musashi Road - Karakuri Nin Hashiru!.7z",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E57426B6",
+      "rommd5": "F2B4B455A5D68787C2972CC84C20BE3D",
+      "romsha1": "90F99F4CC3240DECC0AF758FA4DC5E5D0CDFFF1B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7546",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114076",
+      "romsize": "146787",
+      "romfilename": "Karakuri Kengou Den Musashi Lord Karakuri Jin Hashiru.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4D716AB7",
+      "rommd5": "1942E28A79477833732311D0CF9099A2",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6326",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "601691",
+      "romsize": "146805",
+      "romfilename": "Karakuri Kengou Den Musashi Lord - Karakuribito Hashiru (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4F3B90C7",
+      "rommd5": "94B19607AEF2B0C5CBEE71CC373E993E",
+      "romsha1": "9C4AECA5CDDF2F8A6CB14984E3465B5031321A58",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5709",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "870745",
+      "romsize": "200823",
+      "romfilename": "Karakuri Kengoden Musashi Lord - Karakuri Jin Hashiru! (Japan) (Translated En).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "46924E6E",
+      "rommd5": "03F03F945A1BD696A5308678C1AE60FF",
+      "romsha1": "42A1CBA4CC92253BFFE186C4515B2211BDF624AB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3585",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173578",
+      "romsize": "262144",
+      "romfilename": "Karakuri Kengou Den Musashi Lord - Karakuribito Hashiru (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9D9A4A26",
+      "rommd5": "58B06A34CB1E0A69D0F26BFF2E2A7978",
+      "romsha1": "4125D36CB2F1B9CFC48B5E37008A69114A7FAD8F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1685",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "470830",
+      "romsize": "146809",
+      "romfilename": "Karakuri Kengou Den - Musashi Lord - Karakuri Jin Hashiru (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "59985563",
+      "rommd5": "D636D3A032A457DBC40C2DE77854BCC0",
+      "romsha1": "CC6CBC0C405B5511D191E64E2F8FC665919AA279",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1273",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1415744",
+      "romsize": "393232",
+      "romfilename": "Samurai Lord Musashi, The - Gimmicks on the Run!! (Japan) [T-En by Aishsha & Stardust Crusaders v1.0] [n].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "F1DE7BD0",
+      "rommd5": "B3BBB234DD4FC0CA625C836CFB01EA6A",
+      "romsha1": "FBFF07408BFE431857A4E279A2B2FA8412F52571",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "76"
+    }
+  ]
+}

@@ -1,0 +1,966 @@
+{
+  "id": "213536",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Action 53 Volume 3"
+    },
+    {
+      "region": "wor",
+      "text": "Action 53 Volume 3: Revenge of the Twins"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "69320",
+    "text": "INFINITE NES LIVES"
+  },
+  "joueurs": {
+    "text": "1-4"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Are you ready to jump, warp, race, bomb, mash, fling, bounce, stab, and quack your way through some of the freshest NES titles from today's dopest developers?\r\n\r\nThen you need Action 53 Volume 3: Revenge of the Twins!\r\n\r\nFeaturing games developed for the NesDev 2016 Coding Competition, as well as numerous other contributions, this jam-packed multicart is sure to provide hours of fun for even the most discerning NES enthusiasts!"
+    },
+    {
+      "langue": "fr",
+      "text": "Êtes-vous prêt à sauter, déformer, concourir, bombarder, écraser, jeter, rebondir, poignarder et se frayer un chemin au travers de nouveaux titres créés par les développeurs les plus dopés du moment ?Vous avez alors besoin d'Action 53 Vol. 3: La revanche des Jumeaux !Proposant des jeux développés pour le concours de codage NesDev 2016, ainsi que de nombreuses autres contributions, cette cartouche multi-titres fournira à coup sûr des heures de plaisir, même pour les amateurs de jeux vidéo les plus exigeants!"
+    },
+    {
+      "langue": "de",
+      "text": "Sind Sie bereit zu springen, warp, Rennen, Bombe, mash, schleudern, hüpfen, stechen, und quaken Sie Ihren Weg durch einige der frischesten NES-Titel von den heutigen dopest Entwickler?\r\n\r\nDann brauchen Sie Action 53 Volume 3: Revenge of the Twins!\r\n\r\nMit Spielen, die für die NesDev 2016 Coding Competition entwickelt wurden, sowie zahlreichen anderen Beiträgen, bietet diese vollgepackte Multicart selbst den anspruchsvollsten NES-Enthusiasten stundenlangen Spaß!"
+    },
+    {
+      "langue": "es",
+      "text": "¿Estás listo para saltar, desaparecer, correr, bombardear, triturar, lanzar, rebotar, apuñalar y graznar a través de algunos de los títulos NES más frescos de los mejores desarrolladores de hoy? ¡Entonces necesitas Action 53 Volume 3: Revenge of the Twins! Con juegos desarrollados para la competición de codificación NesDev 2016, así como numerosas otras contribuciones, ¡este cartucho repleto de juegos seguramente proporcionará horas de diversión incluso para los entusiastas de NES más exigentes!"
+    },
+    {
+      "langue": "it",
+      "text": "Sei pronto a saltare, deformare, competere, bombardare, distruggere, lanciare, rimbalzare, pugnalare e distruggere i nuovi titoli degli sviluppatori più in voga di oggi? Allora hai bisogno di Action 53 Vol. 3: La vendetta dei gemelli! Con i giochi sviluppati per il concorso di codifica NesDev 2016, oltre a molti altri contributi, questa cartuccia multi-titolo regalerà sicuramente ore di divertimento anche agli appassionati di giochi più esigenti. !"
+    },
+    {
+      "langue": "pt",
+      "text": "Você está pronto para pular, deformar, competir, bombardear, esmagar, lançar, quicar, esfaquear e lutar em novos títulos criados pelos desenvolvedores mais drogados? Então você precisa de Action 53 Vol. 3: Revenge of the Twins! Apresentando jogos desenvolvidos para o NesDev Coding Contest 2016, bem como muitas outras contribuições, este cartucho com vários títulos com certeza proporcionará horas de diversão até mesmo para o entusiasta de videogame mais exigente.!"
+    }
+  ],
+  "genres": [
+    {
+      "id": "34",
+      "nomcourt": "0F00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Compilation"
+        },
+        {
+          "langue": "fr",
+          "text": "Compilation"
+        },
+        {
+          "langue": "de",
+          "text": "Sammlung"
+        },
+        {
+          "langue": "es",
+          "text": "Compilación"
+        },
+        {
+          "langue": "it",
+          "text": "Compilation"
+        },
+        {
+          "langue": "pt",
+          "text": "Compilação"
+        }
+      ]
+    }
+  ],
+  "modes": [
+    {
+      "id": "4",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Single-player"
+        },
+        {
+          "langue": "fr",
+          "text": "Jouable en solo"
+        },
+        {
+          "langue": "de",
+          "text": "Einzelspieler"
+        },
+        {
+          "langue": "es",
+          "text": "Jugador individual"
+        },
+        {
+          "langue": "it",
+          "text": "Giocatore singolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogador individual"
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Co-Op Multiplayer"
+        },
+        {
+          "langue": "fr",
+          "text": "Multi en coopératif"
+        },
+        {
+          "langue": "de",
+          "text": "Ko-Op Multiplayer"
+        },
+        {
+          "langue": "es",
+          "text": "Multijugador cooperativo"
+        },
+        {
+          "langue": "it",
+          "text": "Multigiocatore cooperativo"
+        },
+        {
+          "langue": "pt",
+          "text": "Multijogador cooperativo"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Local Multiplayer"
+        },
+        {
+          "langue": "fr",
+          "text": "Multi en local"
+        },
+        {
+          "langue": "de",
+          "text": "Lokaler Multiplayer"
+        },
+        {
+          "langue": "es",
+          "text": "Multijugador local"
+        },
+        {
+          "langue": "it",
+          "text": "Multigiocatore locale"
+        },
+        {
+          "langue": "pt",
+          "text": "Multijogador local"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "03a8eef3",
+      "md5": "d00e85d3be28253e62e23952ba0405ce",
+      "sha1": "608f00f1b1058e86e3fa11d6519ea5c8fbc348be",
+      "size": "18337",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=ss(wor)",
+      "region": "wor",
+      "crc": "f91d8660",
+      "md5": "29f37f3f9feaba95c973fe0b86944b27",
+      "sha1": "8894aa52ea16f92cbaa2940209baeba9070551c9",
+      "size": "15708",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=video",
+      "crc": "abbcea2a",
+      "md5": "e9da8e39105bf44f08c891d8939f0b03",
+      "sha1": "0b903b44ec166209173eb6794423a195ee395e80",
+      "size": "2108680",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=video-normalized",
+      "crc": "6358ee29",
+      "md5": "e8f4384c797fcbb2f074e6bfff91b19b",
+      "sha1": "1bccb18b6987a1fb8f14415de8fd4485dbd39a0e",
+      "size": "704439",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=steamgrid",
+      "crc": "725cb7fe",
+      "md5": "095f60aa13145d380149455f2f57500b",
+      "sha1": "fceba9ad593c7ffbef53c12a785e1dc98a4d606a",
+      "size": "27970",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=wheel(wor)",
+      "region": "wor",
+      "crc": "522898e5",
+      "md5": "80bdbb636c053ccb094ec21a0ed5120f",
+      "sha1": "9e9ab08f77b822cdec8a06693d4765ec8ca2281d",
+      "size": "122665",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "f7cc6d3c",
+      "md5": "13c1f6770af6bf8dddc8772434ed1648",
+      "sha1": "0547bffe8176c31d6e94b48fd93145c457ec825f",
+      "size": "121531",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "8e9dafca",
+      "md5": "17242c02a3dfe296fc8532e7254f7f46",
+      "sha1": "b78c44724c460c61ab9c3a5f630d993b6606ac5a",
+      "size": "123406",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "8f08151c",
+      "md5": "675e445ac74e8a93923ba5b6f66f7f8c",
+      "sha1": "4606ca2a6afbcfc4d08240826edb4d8b6e12f3dc",
+      "size": "516714",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "1db6c5e9",
+      "md5": "3c3108d8e2e3d54d95be9dac3aba6b94",
+      "sha1": "8782734a25b8f9c014d3e501903a874826488792",
+      "size": "91660",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=box-2D(wor)",
+      "region": "wor",
+      "crc": "4f640709",
+      "md5": "5c818feb13a3fd43f0180e0e74861521",
+      "sha1": "f92118ec49d8f1f997019156111d92fb170401e4",
+      "size": "740290",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=box-2D-side(wor)",
+      "region": "wor",
+      "crc": "7e358d3a",
+      "md5": "3ef305a86d61538a6f05229908693e9b",
+      "sha1": "92bf9cd2cc3a7bed23d76571a57b013436ed328a",
+      "size": "56142",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=box-2D-back(wor)",
+      "region": "wor",
+      "crc": "800fe3b7",
+      "md5": "f8b8dd6773970f3e1a0157721fed100d",
+      "sha1": "5e48368427e5eb0709d69693590ff962f9406989",
+      "size": "2829",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=box-texture(wor)",
+      "region": "wor",
+      "crc": "01f09d51",
+      "md5": "d9399bb4f3bb80b93de605e5c76949c4",
+      "sha1": "210c2d98cc141d058427ac1dad2dafb9c42b6d7f",
+      "size": "815010",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=box-3D(wor)",
+      "region": "wor",
+      "crc": "d671e809",
+      "md5": "ee99b9f674facd513952c49e195a3aaf",
+      "sha1": "e02334586867dad9f8d985707b2afee69555b1f5",
+      "size": "327386",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=manuel(wor)",
+      "region": "wor",
+      "crc": "edcf55d7",
+      "md5": "0293ad69cc389333c8ecb56c253ad0d4",
+      "sha1": "5adfea858aec414dbf1c57a5d964e233d543b7c5",
+      "size": "798044",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=support-texture(cus)",
+      "region": "cus",
+      "crc": "c35141a8",
+      "md5": "ef11ff43c7bd78ef997d23046af95006",
+      "sha1": "f9e46036a3ce50d1b4fafa19b9a43994f19ea1d6",
+      "size": "431756",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=support-2D(cus)",
+      "region": "cus",
+      "crc": "0d2b03fd",
+      "md5": "18fe0de5403d6cc96adc748c690b608f",
+      "sha1": "7b96d3fc1e34a0345ba295e0469461949b037ad4",
+      "size": "318737",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "2534b18d",
+      "md5": "8d91acfb024cb34d1bff302c9e784f74",
+      "sha1": "bc66d2d101ddb1893e398c15baadad785da59450",
+      "size": "357215",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=mixrbv2(cus)",
+      "region": "cus",
+      "crc": "ad0f37b3",
+      "md5": "3d415d1a9f42f099b10469e91bdec1ed",
+      "sha1": "32e322ac3682b916130ab3bb0700eb5236628507",
+      "size": "524122",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "81424b76",
+      "md5": "016e777ec83c1af41a8040c567fed481",
+      "sha1": "94c5bb5b68f1c624b8d79602e5c0695712fe9c2b",
+      "size": "523478",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=213536&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "81424b76",
+      "md5": "016e777ec83c1af41a8040c567fed481",
+      "sha1": "94c5bb5b68f1c624b8d79602e5c0695712fe9c2b",
+      "size": "523478",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3369&media=pictoliste",
+      "crc": "5709be9f",
+      "md5": "6eb7a76760235fadf97bec1d3940dea7",
+      "sha1": "c349cb22ef64a06252b47e5f2ccc349cea37619f",
+      "size": "441",
+      "format": "png"
+    },
+    {
+      "id": "34",
+      "parent": "genre",
+      "subparent": "Compilation",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=34&media=pictoliste",
+      "crc": "c0889b9a",
+      "md5": "2b6b7722985e14a75dc767bbb216545d",
+      "sha1": "edca6abd210c3335d7ee4974c5c7b236a63ca6b0",
+      "size": "990",
+      "format": "png"
+    },
+    {
+      "id": "34",
+      "parent": "genre",
+      "subparent": "Compilation",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=34&media=logo-monochrome",
+      "crc": "c96ce933",
+      "md5": "ec2d7f044ed8209fa5dd04eb41b892aa",
+      "sha1": "2d4f70fa03fc335432bdc655e5739e8ee36ec532",
+      "size": "4794",
+      "format": "png"
+    },
+    {
+      "id": "34",
+      "parent": "genre",
+      "subparent": "Compilation",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=34&media=logo-monochrome-svg",
+      "crc": "3b4a3302",
+      "md5": "b9394ff190f542c06b667dbeb0b30c57",
+      "sha1": "4d439faac00eefe8e9ecd03a2aa868892e29a295",
+      "size": "2460",
+      "format": "svg"
+    },
+    {
+      "id": "34",
+      "parent": "genre",
+      "subparent": "Compilation",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=34&media=background",
+      "crc": "ef60c505",
+      "md5": "ca6f5eef564020ff118989610769c82b",
+      "sha1": "2b6dae5059b235ab38917df2a7c2a8d8d7abe54f",
+      "size": "308462",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "971020",
+      "romsize": "1048592",
+      "romfilename": "Action 53 Vol. 3 - Revenge of the Twins (USA) (Limited Edition) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0DC9110B",
+      "rommd5": "1D657799E7E5271527CE848DF9C4FD1B",
+      "romsha1": "0EAC8B537EE5670D1C921D5E013F7E7C9AC1E9EE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18344"
+    },
+    {
+      "id": "1133505",
+      "romsize": "2097168",
+      "romfilename": "Action 53 Vol. 4 - Actually 54 (World) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4d6192b1",
+      "rommd5": "869fcac407b22e88d595fde21e831aaf",
+      "romsha1": "1e76a30ddb2abf65823fa9acb462193511d532b4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9159",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "1133517",
+      "romsize": "524304",
+      "romfilename": "Action 53 Vol. 4 - Actually 54 (World) (Disk 4) (Aftermarket) (Unl).zip",
+      "romnumsupport": "4",
+      "romtotalsupport": "4",
+      "romcloneof": "0",
+      "romcrc": "1eace777",
+      "rommd5": "d573d3664d112aa087d9c5a54a90aa01",
+      "romsha1": "a43175d8c79a5bb76dabd9b849746d41e96481e0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3632",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "1133514",
+      "romsize": "524304",
+      "romfilename": "Action 53 Vol. 4 - Actually 54 (World) (Disk 3) (Aftermarket) (Unl).zip",
+      "romnumsupport": "3",
+      "romtotalsupport": "4",
+      "romcloneof": "0",
+      "romcrc": "9d2f1a1a",
+      "rommd5": "c9741e4e4334ac86415c6de9b228897d",
+      "romsha1": "a8ca3e556141d8c148e4504f7b71eb45f342ae2f",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3627",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "1133511",
+      "romsize": "524304",
+      "romfilename": "Action 53 Vol. 4 - Actually 54 (World) (Disk 2) (Aftermarket) (Unl).zip",
+      "romnumsupport": "2",
+      "romtotalsupport": "4",
+      "romcloneof": "0",
+      "romcrc": "e3a71afa",
+      "rommd5": "d61faac35434d14b893d2af8973736f1",
+      "romsha1": "68370c65d0eb0ef30972209e622bbb61235c1365",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3615",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "1133502",
+      "romsize": "1048592",
+      "romfilename": "Action 53 Vol. 3 - Revenge of the Twins (USA) (Limited Edition) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0156096c",
+      "rommd5": "429df0f096386a508359f1a69a6bbb69",
+      "romsha1": "9bd61b1716eea607e40e0cd27d5cb1fd3edae9ef",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3467",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1133493",
+      "romsize": "1048592",
+      "romfilename": "Action 53 Vol. 3 - Revenge of the Twins (World) (v1.5) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "15d797c6",
+      "rommd5": "ce4f9a40730f1a856931ebbce9e236aa",
+      "romsha1": "4b74aebd4ea1fe5eb8d9c1f7e08f6b0730bd538e",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2748",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "1133490",
+      "romsize": "1048592",
+      "romfilename": "Action 53 Vol. 3 - Revenge of the Twins (World) (v1.3) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "c08be0c5",
+      "rommd5": "3550efd3656a98c98ce0482779ba5959",
+      "romsha1": "41e82406931f511896f9669804991aca57a8f3ff",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2333",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "1133499",
+      "romsize": "524304",
+      "romfilename": "Action 53 Vol. 3 - Revenge of the Twins (World) (v1.5) (Disk 2) (Aftermarket) (Unl).zip",
+      "romnumsupport": "2",
+      "romtotalsupport": "2",
+      "romcloneof": "0",
+      "romcrc": "e241c19f",
+      "rommd5": "65408ba236db3ff199062c62ba18a8ff",
+      "romsha1": "cb3f3adf8b2b16e0dfd89d86c8496df53348aba6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2236",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "1133496",
+      "romsize": "524304",
+      "romfilename": "Action 53 Vol. 3 - Revenge of the Twins (World) (v1.5) (Disk 1) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "2",
+      "romcloneof": "0",
+      "romcrc": "db5aacc2",
+      "rommd5": "ea3ad39de0be14f8acf5e1a743ffd91b",
+      "romsha1": "6f9e7cca4edc7f15749627bd35c48ffad04b6667",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2229",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    }
+  ]
+}

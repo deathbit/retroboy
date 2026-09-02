@@ -1,0 +1,866 @@
+{
+  "id": "88691",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Super Pang 2"
+    },
+    {
+      "region": "tw",
+      "text": "Super Pang II"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "564",
+    "text": "Sachen"
+  },
+  "developpeur": {
+    "id": "564",
+    "text": "Sachen"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Famicom sequel to Super Pang/Super Buster Bros. released only in Asian regions."
+    },
+    {
+      "langue": "de",
+      "text": "Famicom-Fortsetzung von Super Pang/Super Buster Bros. wurde nur in asiatischen Regionen veröffentlicht."
+    },
+    {
+      "langue": "es",
+      "text": "Secuela de Famicom de Super Pang / Super Buster Bros. lanzada solo en regiones asiáticas."
+    },
+    {
+      "langue": "it",
+      "text": "Famicom sequel di Super Pang/Super Buster Bros. rilasciato solo nelle regioni asiatiche."
+    },
+    {
+      "langue": "pt",
+      "text": "Sequência de Super Pang / Super Buster Bros. para Famicom, lançada apenas nas regiões asiáticas."
+    }
+  ],
+  "dates": [
+    {
+      "region": "tw",
+      "text": "1992"
+    }
+  ],
+  "genres": [
+    {
+      "id": "79",
+      "nomcourt": "0104",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "fr",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "de",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "es",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "it",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "pt",
+          "text": "Shoot'em Up"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "3979",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Pang"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=sstitle(tw)",
+      "region": "tw",
+      "crc": "95dc8202",
+      "md5": "5c8939940ccdcd1e9408e2ef0325507d",
+      "sha1": "2c6d09c149e68f917092474c3fe1e7ab78b64d63",
+      "size": "7536",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=ss(tw)",
+      "region": "tw",
+      "crc": "7650de22",
+      "md5": "111a4125a4fb0107c2234baa74f26251",
+      "sha1": "ff35e361c08481e7c61be12ca1bb75eeea925b5c",
+      "size": "4410",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=video",
+      "crc": "ed01e5db",
+      "md5": "6441ab795b0220d6661a87dc2b00489c",
+      "sha1": "4f20c26406e4de94e54be3ac0a9417c882cf11ae",
+      "size": "3108847",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=video-normalized",
+      "crc": "6c9d8ab9",
+      "md5": "7fdfd06d8296e1f5141f4f67e686492f",
+      "sha1": "bcc3e3b948257b6c7d28d5abad27944494be3714",
+      "size": "1313560",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=steamgrid",
+      "crc": "e9aa1911",
+      "md5": "ed9a37f159156337cb3a72298b376b5e",
+      "sha1": "8f71729b5d6dead3d8715d189ed10fd5ff1463ef",
+      "size": "33606",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=wheel(tw)",
+      "region": "tw",
+      "crc": "61bd9875",
+      "md5": "e2c2664e92fd008f9fa88acb5738f3c9",
+      "sha1": "12b42f7b92220af07ffe1848c19739c1dca55b1b",
+      "size": "45838",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=wheel-carbon(tw)",
+      "region": "tw",
+      "crc": "a1119a8f",
+      "md5": "df8d240afafa9f45353249d63e63c654",
+      "sha1": "d88e1fcbf914998193411dae63037ec531612e37",
+      "size": "110214",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=wheel-steel(tw)",
+      "region": "tw",
+      "crc": "e5352d34",
+      "md5": "45375455514226c8612e9821f6e0bc92",
+      "sha1": "6cf857fef299c51c4676502e8c0dd8578600c9e8",
+      "size": "111162",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=screenmarquee(tw)",
+      "region": "tw",
+      "crc": "764e12fe",
+      "md5": "529f0d6add69a9bee7f9c40ff0dea5f3",
+      "sha1": "646c153199fef90b01b7e3d24e4abf21371b1650",
+      "size": "497809",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=screenmarqueesmall(tw)",
+      "region": "tw",
+      "crc": "9b0afacd",
+      "md5": "9f3b20a17a269416f079ae4e6fbcb342",
+      "sha1": "0a3aa6d07a3a56b930756c97f7498662f14cf4a2",
+      "size": "78431",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "4227ccc9",
+      "md5": "bcec9fd5b359dc163e224f8c7920b080",
+      "sha1": "607066b80f31da0298856bd9288c5a2b8d6bc44f",
+      "size": "128671",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=box-2D(tw)",
+      "region": "tw",
+      "crc": "387efdf4",
+      "md5": "9137b43b7aba607c993d9d6ebb3441ef",
+      "sha1": "f4c7ba4c539deac19fd76ba60ef1cf70a8881660",
+      "size": "522738",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "a0de14cc",
+      "md5": "d5f7dee1d55c510b67cee13e3aadeb7d",
+      "sha1": "1959f583a757eaf6242df6732cb460f4f1dc833d",
+      "size": "29197",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=box-2D-side(tw)",
+      "region": "tw",
+      "crc": "911f67a1",
+      "md5": "09b4d21d1d5b8622b2f5f8886d71cc66",
+      "sha1": "64a1b3be0fe17743a84b5b59ab900480b9a339a8",
+      "size": "106808",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "1ace766b",
+      "md5": "9b923f73338924ad1e863e18cecbb245",
+      "sha1": "189facee3c5116b820dcaa45cfb3af159bbbf6ca",
+      "size": "200777",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=box-2D-back(tw)",
+      "region": "tw",
+      "crc": "7f9553fc",
+      "md5": "12c8f586c6aa581a0c205814dc15379b",
+      "sha1": "1c77e9de0277c378deabadb42e18b4d2de48cabb",
+      "size": "586897",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "58ff6763",
+      "md5": "62d0ba0f0ae02eedc0567702a679b20f",
+      "sha1": "99ab031d02e5eabb8a6b30bc57c5345dd9296ed5",
+      "size": "369903",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=box-texture(tw)",
+      "region": "tw",
+      "crc": "07282282",
+      "md5": "b0b68854ff1771c7dcfe8f2126223759",
+      "sha1": "fbaaa13f633b715a50bb370376c886abd6dd3d58",
+      "size": "1228522",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "cc5a49cd",
+      "md5": "18efc6563938769957b9d4f6de1cbf1a",
+      "sha1": "98461a6956691b2f9551a39f54367bdfcb74c11c",
+      "size": "148736",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=box-3D(tw)",
+      "region": "tw",
+      "crc": "4e8ff778",
+      "md5": "3fbef09227730e85ceddd6563cbfe5c8",
+      "sha1": "e75ee7ddcbac9e30b926799eb4ae4ec5c1b742eb",
+      "size": "285446",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=support-texture(tw)",
+      "region": "tw",
+      "crc": "0ae9963d",
+      "md5": "12ad32214544031b021fa4ebcba86e72",
+      "sha1": "2472015abed8b1114f67bafe15779b59363476dc",
+      "size": "253118",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=support-2D(tw)",
+      "region": "tw",
+      "crc": "dff71bb7",
+      "md5": "cc86c117d8e6f8fe9dd85aa679ea1f46",
+      "sha1": "f05d4d707b1096029064a85dbce77ab221d35c7a",
+      "size": "323986",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=mixrbv2(asi)",
+      "region": "asi",
+      "crc": "c9ff5650",
+      "md5": "7a6ac7b8c26c41e1624069b52d23f9ae",
+      "sha1": "6901b9d78d19687e7981134cf53d8acd905ac509",
+      "size": "545878",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88691&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "c9ff5650",
+      "md5": "7a6ac7b8c26c41e1624069b52d23f9ae",
+      "sha1": "6901b9d78d19687e7981134cf53d8acd905ac509",
+      "size": "545878",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=564&media=logo-monochrome",
+      "crc": "1a8369dc",
+      "md5": "3874aa4a0e49531e2c4c39a5e37bcf0f",
+      "sha1": "6a5cf33b05f27c84782582335375a0bf3d4a83ee",
+      "size": "11144",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=564&media=wheel",
+      "crc": "d53c8f4e",
+      "md5": "5687b70430eaa898f429f4cdf656763c",
+      "sha1": "c1f7ea47b95b6c04f26fa8af2ee861fb9b49f4bc",
+      "size": "9718",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=564&media=logo-monochrome",
+      "crc": "1a8369dc",
+      "md5": "3874aa4a0e49531e2c4c39a5e37bcf0f",
+      "sha1": "6a5cf33b05f27c84782582335375a0bf3d4a83ee",
+      "size": "11144",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=564&media=wheel",
+      "crc": "d53c8f4e",
+      "md5": "5687b70430eaa898f429f4cdf656763c",
+      "sha1": "c1f7ea47b95b6c04f26fa8af2ee861fb9b49f4bc",
+      "size": "9718",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=pictoliste",
+      "crc": "9746a0d4",
+      "md5": "818adff397e9fa2d57dda2bcf78264f3",
+      "sha1": "c0a1b5b73edc5bed64549be9ea87b8d63cd5dbd4",
+      "size": "801",
+      "format": "png"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=logo-monochrome",
+      "crc": "dd5fe4a2",
+      "md5": "c68fd2d841216a7731ab359f27c83253",
+      "sha1": "a72048fdf61cf38f02c67cdef772745050354773",
+      "size": "4753",
+      "format": "png"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=logo-monochrome-svg",
+      "crc": "cfcb4073",
+      "md5": "04b04e406dbe7fa283310d319b206485",
+      "sha1": "47dd7fbeff5af8dbf486031b966857d8c9e4f416",
+      "size": "1681",
+      "format": "svg"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=background",
+      "crc": "f14aae18",
+      "md5": "73879fae56ae9f80579a8381b60886f3",
+      "sha1": "3f3ff926bfb2fc1849397ae0334613cbee48ee68",
+      "size": "174160",
+      "format": "jpg"
+    },
+    {
+      "id": "3979",
+      "parent": "famille",
+      "subparent": "Pang",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3979&media=figurine",
+      "crc": "a315dd5b",
+      "md5": "370e10c4059fc5e9e72ba1bb4fb904ed",
+      "sha1": "f119af3b46d1f1dcc31ed01db8349bd4ce1066a7",
+      "size": "181165",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "387487",
+      "romsize": "98416",
+      "romfilename": "Super Pang 2 (Sachen) [U][!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B5FCDF5F",
+      "rommd5": "AB52D698A6C3DCD3BFC64EAC63A12AC9",
+      "romsha1": "FEC92E3268A10CDF91B934EBD8311574B5D97289",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "84605",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "13464",
+      "romsize": "47609",
+      "romfilename": "Super Pang II.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2E4B458C",
+      "rommd5": "9F574F656E29CE7D3F18C7A5EB4F3E7E",
+      "romsha1": "0E28A8B6D0F530616FF8F591D4A12E492DE65C29",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "35657",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "137450",
+      "romsize": "98320",
+      "romfilename": "Super Pang II (Asia) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "50E03187",
+      "rommd5": "9517ADD9D9AFE0D82B3856DA47936045",
+      "romsha1": "959AAD56D9471E65291A475A3661EA5CBC2A79BF",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20184",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "757819",
+      "romsize": "98320",
+      "romfilename": "Super Pang II (Asia) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A5043905",
+      "rommd5": "4D26DF8EA5B5CE2888E32901991DD65A",
+      "romsha1": "FBB75FF55A08992F666B928586148FB6C428FF5B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "15519",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "1144584",
+      "romsize": "98320",
+      "romfilename": "Super Pang II (Asia) (Ja) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "889030cc",
+      "rommd5": "60ee9b45e685f1fa008bf5f6add2c02a",
+      "romsha1": "bf94faf704cc486b1b1b06dbbe2aa6f2af4f2077",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13342",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "174649",
+      "romsize": "98304",
+      "romfilename": "Super Pang II (Asia) (Ja) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "198F1C37",
+      "rommd5": "655C3C81FF2739166B63080BAB394C96",
+      "romsha1": "88E6ADE9934EFCDE38D7482FDDE1C00C4C13652D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12836",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "115146",
+      "romsize": "47588",
+      "romfilename": "Super Pang II (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4EF3F9F9",
+      "rommd5": "F6A46925B6E0EB41BE9B8946ED8232C7",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4867",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "595908",
+      "romsize": "47460",
+      "romfilename": "Super Pang 2 (Sachen) [U][!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A2C3DFBE",
+      "rommd5": "E2718E6477F0AB223522339FE8111E75",
+      "romsha1": "584A72421894048BC826ECE7FA6CE9177181541A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3825"
+    }
+  ]
+}

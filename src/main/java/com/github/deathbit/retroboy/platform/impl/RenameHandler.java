@@ -7,6 +7,7 @@ import com.github.deathbit.retroboy.domain.game.NoIntroGame;
 import com.github.deathbit.retroboy.domain.MatchPairForGame;
 import com.github.deathbit.retroboy.domain.PlatformContext;
 import com.github.deathbit.retroboy.domain.ProgressBar;
+import com.github.deathbit.retroboy.util.FileContextUtils;
 import com.github.deathbit.retroboy.util.PathUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -27,8 +28,9 @@ public class RenameHandler {
         var renameOptionMap = parseRenameOptions(platformContext);
         var renameResultByArea = new LinkedHashMap<String, Map<String, String>>();
         var gameDBsByArea = buildGameDBsByArea(platformContext);
+        var fileContextLookupMap = FileContextUtils.buildLookupMap(platformContext.getFileContexts());
         gameDBsByArea.forEach((area, gameDbs) -> {
-            var renamePlan = buildRenamePlan(platformContext, gameDBsByArea, area, renameOptionMap);
+            var renamePlan = buildRenamePlan(fileContextLookupMap, gameDBsByArea, area, renameOptionMap);
             var renameResult = new LinkedHashMap<String, String>();
             ProgressBar pb = new ProgressBar("命名游戏");
             pb.startTask(renamePlan.size());
@@ -46,7 +48,7 @@ public class RenameHandler {
             renameResultByArea.put(area, renameResult);
         });
         platformContext.setRenameResultByArea(renameResultByArea);
-        platformContext.setFinalGameMapByArea(buildFinalGameMapByArea(platformContext, gameDBsByArea));
+        platformContext.setFinalGameMapByArea(buildFinalGameMapByArea(platformContext, gameDBsByArea, fileContextLookupMap));
     }
 
     private Map<String, List<NoIntroGame>> buildGameDBsByArea(PlatformContext platformContext) {
@@ -60,7 +62,8 @@ public class RenameHandler {
 
     private Map<String, Map<String, FinalGame>> buildFinalGameMapByArea(
         PlatformContext platformContext,
-        Map<String, List<NoIntroGame>> gameDBsByArea
+        Map<String, List<NoIntroGame>> gameDBsByArea,
+        Map<String, FileContext> fileContextLookupMap
     ) {
         var finalGameMapByArea = new LinkedHashMap<String, Map<String, FinalGame>>();
         gameDBsByArea.forEach((gameArea, gameDBs) -> {
@@ -71,10 +74,7 @@ public class RenameHandler {
 
             var finalGames = new LinkedHashMap<String, FinalGame>();
             for (var gameDB : gameDBs) {
-                var fileContext = platformContext.getFileContextMap().get(gameDB.getTitle());
-                if (fileContext == null) {
-                    throw new IllegalStateException("FileContext not found for rom: " + gameDB.getTitle());
-                }
+                var fileContext = FileContextUtils.requireFileContext(fileContextLookupMap, gameDB.getTitle());
 
                 var finalRomName = renameResult.get(fileContext.getFileName());
                 if (finalRomName == null || finalRomName.isBlank()) {
@@ -107,7 +107,8 @@ public class RenameHandler {
     }
 
     private MatchPairForGame findMatchPairForGame(PlatformContext platformContext, String gameArea, NoIntroGame noIntroGame) {
-        var wikiArea = platformContext.getGameDBToWikiDBAreaMapping().getOrDefault(gameArea, gameArea);
+        var areaMapping = platformContext.getMatchResult().getGameDBToWikiDBAreaMapping();
+        var wikiArea = areaMapping.getOrDefault(gameArea, gameArea);
         var matchPairs = platformContext.getMatchPairForGamesByArea().get(wikiArea);
         if (matchPairs == null) {
             throw new IllegalStateException("Match pairs not found for wiki area: " + wikiArea);
@@ -157,7 +158,7 @@ public class RenameHandler {
     }
 
     private List<RenamePlan> buildRenamePlan(
-        PlatformContext platformContext,
+        Map<String, FileContext> fileContextLookupMap,
         Map<String, List<NoIntroGame>> gameDBsByArea,
         String area,
         Map<String, String> renameOptionMap
@@ -166,10 +167,7 @@ public class RenameHandler {
         var targetToSource = new HashMap<String, String>();
         var gameDbs = gameDBsByArea.getOrDefault(area, List.of());
         for (var gameDB : gameDbs) {
-            var fileContext = platformContext.getFileContextMap().get(gameDB.getTitle());
-            if (fileContext == null) {
-                throw new RuntimeException("FileContext not found for rom: " + gameDB.getTitle());
-            }
+            var fileContext = FileContextUtils.requireFileContext(fileContextLookupMap, gameDB.getTitle());
             var oldName = fileContext.getFileName();
             var newName = renameOptionMap.getOrDefault(oldName, buildNewName(fileContext));
             var existingSource = targetToSource.putIfAbsent(newName, oldName);

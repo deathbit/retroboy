@@ -1,0 +1,835 @@
+{
+  "id": "78527",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Famicom Top Management"
+    },
+    {
+      "region": "jp",
+      "text": "Famicom Top Management"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "192",
+    "text": "Koei"
+  },
+  "developpeur": {
+    "id": "192",
+    "text": "Koei"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Famicom Top Management is a business simulator for Family Computer, developed and released by the famous Koei company, which specializes in strategic games and business simulations. In the game we will have to put on an expensive jacket and become respected owners of the company. The game was released in Japan and was advertised as a manual for high school students and financial science students, it requires fundamental math skills and knowledge of the Japanese language ... This last circumstance makes this game difficult to learn. The rest is a very high quality game."
+    },
+    {
+      "langue": "fr",
+      "text": "Famicom Top Management est un simulateur d'entreprise pour Family Computer, développé et publié par la célèbre société Koei, spécialisée dans les jeux stratégiques et les simulations d'entreprise. Dans le jeu, nous devrons mettre une veste chère et devenir des propriétaires respectés de l'entreprise. Le jeu est sorti au Japon et a été annoncé comme un manuel pour les lycéens et les étudiants en sciences financières, il nécessite des compétences fondamentales en mathématiques et une connaissance de la langue japonaise... Cette dernière circonstance rend ce jeu difficile à apprendre. Le reste est un jeu de très haute qualité."
+    },
+    {
+      "langue": "de",
+      "text": "Famicom Top Management ist ein Geschäftssimulator für Family Computer, entwickelt und veröffentlicht von der berühmten Firma Koei, die sich auf strategische Spiele und Geschäftssimulationen spezialisiert hat. Im Spiel müssen wir eine teure Jacke anziehen und respektierte Eigentümer des Unternehmens werden. Das Spiel wurde in Japan veröffentlicht und als Handbuch für Gymnasiasten und Studenten der Finanzwissenschaften beworben, es erfordert grundlegende mathematische Fähigkeiten und Kenntnisse der japanischen Sprache ... Dieser letzte Umstand macht es schwierig, dieses Spiel zu lernen. Der Rest ist ein sehr hochwertiges Spiel."
+    },
+    {
+      "langue": "es",
+      "text": "Famicom Top Management es un simulador de negocios para Family Computer, desarrollado y lanzado por la famosa compañía Koei, que se especializa en juegos estratégicos y simulaciones de negocios. En el juego tendremos que ponernos una chaqueta cara y convertirnos en propietarios respetados de la compañía. El juego fue lanzado en Japón y fue anunciado como un manual para estudiantes de secundaria y estudiantes de ciencias financieras, requiere habilidades matemáticas fundamentales y conocimiento del idioma japonés... Esta última circunstancia hace que este juego sea difícil de aprender. El resto es un juego de muy alta calidad."
+    },
+    {
+      "langue": "it",
+      "text": "Famicom Top Management è un simulatore di business per Family Computer, sviluppato e rilasciato dalla famosa azienda Koei, specializzata in giochi strategici e simulazioni aziendali. Nel gioco dovremo indossare una giacca costosa e diventare rispettati proprietari dell'azienda. Il gioco è stato rilasciato in Giappone ed è stato pubblicizzato come manuale per studenti delle scuole superiori e studenti di scienze finanziarie, richiede competenze matematiche fondamentali e conoscenza della lingua giapponese... Quest'ultima circostanza rende difficile l'apprendimento di questo gioco. Il resto è un gioco di altissima qualità."
+    },
+    {
+      "langue": "pt",
+      "text": "Famicom Top Management é um simulador de negócios para Family Computer, desenvolvido e lançado pela famosa empresa Koei, especializada em jogos estratégicos e simulações de negócios. No jogo, teremos que colocar uma jaqueta cara e nos tornarmos proprietários respeitados da empresa. O jogo foi lançado no Japão e foi anunciado como um manual para alunos do ensino médio e de ciências financeiras, requer habilidades matemáticas fundamentais e conhecimento da língua japonesa ... Esta última circunstância torna este jogo difícil de aprender. O resto é um jogo de altíssima qualidade."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1990-12-12"
+    }
+  ],
+  "genres": [
+    {
+      "id": "20682",
+      "nomcourt": "0401",
+      "principale": "0",
+      "parentid": "40",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Build And Management"
+        },
+        {
+          "langue": "fr",
+          "text": "Construction & Management"
+        },
+        {
+          "langue": "de",
+          "text": "Konstruktion & Management"
+        },
+        {
+          "langue": "es",
+          "text": "Construcción y Gestión"
+        },
+        {
+          "langue": "it",
+          "text": "Costruzione & Gestione"
+        },
+        {
+          "langue": "pt",
+          "text": "Construção e Gestão"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "nomcourt": "0400",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Simulation"
+        },
+        {
+          "langue": "fr",
+          "text": "Simulation"
+        },
+        {
+          "langue": "de",
+          "text": "Simulation"
+        },
+        {
+          "langue": "es",
+          "text": "Simulación"
+        },
+        {
+          "langue": "it",
+          "text": "Simulazione"
+        },
+        {
+          "langue": "pt",
+          "text": "Simulação"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "74770a5a",
+      "md5": "22fc0c37cc2f98ba23d134ac513e81fd",
+      "sha1": "0a161bed8f74d5bc8ff2eb8525b0c49e0a00a8d9",
+      "size": "4312",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=ss(jp)",
+      "region": "jp",
+      "crc": "92bf80df",
+      "md5": "8589e7e2d053eb05c21dbe0751f70209",
+      "sha1": "f16553c5521c6a0cf1d3be9895b85379d14737d4",
+      "size": "3384",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=video",
+      "crc": "60fa4d57",
+      "md5": "6a50f857d849b04c2480c2174ea5eb23",
+      "sha1": "a84255f4ac1f085a2bd8cc9b857bf2fc7e279cdf",
+      "size": "753617",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=video-normalized",
+      "crc": "4433a5ab",
+      "md5": "08014ad814c3621613b1bc9b4ae54c44",
+      "sha1": "60e8398bc1f65d75ccb209b2829048465d1e1a64",
+      "size": "443842",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=steamgrid",
+      "crc": "6ee61e2a",
+      "md5": "e4e37c70d0552572d7c25986afefa8a8",
+      "sha1": "43d861c0bcc4fc7a6c57dec262b9b77f1daa8e96",
+      "size": "27502",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=wheel(jp)",
+      "region": "jp",
+      "crc": "e369d8f0",
+      "md5": "e266851ce755bbd09ab54392d1261dd5",
+      "sha1": "abc4e3365afbd34911dde78f564fbad9a8ff82a1",
+      "size": "69324",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "d5b8a92f",
+      "md5": "2208987ca3074396596cfd844dd65367",
+      "sha1": "2c2d3141b96c9333c2e721a2a5cfdd6a1e985af2",
+      "size": "98329",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "674008f6",
+      "md5": "524b30d15843e715b80199f7a52c0631",
+      "sha1": "f434fc3f2d2b428060b353aa393ed3d5af680691",
+      "size": "101462",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "e6870730",
+      "md5": "3b0be9c319bae2dad9f0ba656e2ea53c",
+      "sha1": "11bd55dd598077ab655f3e9e1d9a5936c13ed7e9",
+      "size": "475462",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "8c71ae10",
+      "md5": "a2243568f01ec6fdda7f9e2d0fcb8320",
+      "sha1": "5e0cb6076373863e1fb642e4fcb8daad16640188",
+      "size": "75010",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "24c94d1e",
+      "md5": "5f816838ddef31f5c552a59289f55e12",
+      "sha1": "3216c802d56e773390d6eb0a723caec3462699b6",
+      "size": "530211",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "fc8355bd",
+      "md5": "1ee348e48045787adcd054e30a4f4ec3",
+      "sha1": "d65101230487879c08cf7bd449bec15725e16b6b",
+      "size": "97015",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "f1b79c32",
+      "md5": "a113fdd2f55a58a507cbe6096e2b876b",
+      "sha1": "f6dfa23d5363c8b21a4fa2a4a98b1d035c214920",
+      "size": "118502",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "cdd12ebc",
+      "md5": "4cbc22ef6c3bcfdb0776946c76d4e8a5",
+      "sha1": "b1fe6a812124e3ed32845d94a51e8ce617a32823",
+      "size": "24918",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "95f3b704",
+      "md5": "3b64ccef540beba0bce1c4800ae455c3",
+      "sha1": "094b030cdb9a35b5b12559132f1d2a65e7d500ec",
+      "size": "598572",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "e70c6776",
+      "md5": "c504c346d73281a25be0f9dbad3dee90",
+      "sha1": "8187dc0493bc6790592a44eb6fc021de7bb1ecb6",
+      "size": "137920",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "91be6c68",
+      "md5": "e8fad31a8d3bf5632631a9ad7ffc5f3c",
+      "sha1": "7164d33eb0c18b8d18d53d458d3bdb4360e67f3b",
+      "size": "1408365",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "5a756b79",
+      "md5": "a859abb20b36310477670f7e212e092d",
+      "sha1": "9cd45a8c20bec7bd8e6caa4d3883adb2611cac0a",
+      "size": "269947",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "16f02c6f",
+      "md5": "b44ccbac73ea1b1b8a0258f548abf1b6",
+      "sha1": "050f938b20f8685f126c2871cb08a5a77efea302",
+      "size": "294934",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "2e44bbb9",
+      "md5": "cd140dd04eed962b4f20f6d0c1c09c97",
+      "sha1": "f7f90e4c6ffb35c72729892fb15d054713535746",
+      "size": "108265",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=manuel(jp)",
+      "region": "jp",
+      "crc": "1309b193",
+      "md5": "f52641bb62664ba6d601800c3998ff90",
+      "sha1": "cb814dbb3c0ea6e1ecb5c9025f0173ef63c26fda",
+      "size": "2928318",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "a65f74cd",
+      "md5": "b94735b4745358ba46a93a85985528d7",
+      "sha1": "3ecf4e4cc4264ae1d999c0c201855de1f0ba5013",
+      "size": "287586",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "68525bde",
+      "md5": "9a775053ab438296dba151af05efc448",
+      "sha1": "a370dd783155e3a747b4990c53242888a64aba26",
+      "size": "246449",
+      "format": "png"
+    },
+    {
+      "type": "support-scan",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=support-scan(jp)(1)",
+      "region": "jp",
+      "version": "1",
+      "crc": "b0af9161",
+      "md5": "9963170d58c1881cee85df5d21321eb2",
+      "sha1": "85e6f8c767581909e17797120158a8dfb6db3e49",
+      "size": "2317338",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "2b7a0c62",
+      "md5": "7417a6d40a69f031d8cead3f1b8d19d5",
+      "sha1": "c653878029d5f1f46c821179ef797e485a55fa7e",
+      "size": "362248",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "697bd0a7",
+      "md5": "2230be288d08c91e218ed7a22fdc723c",
+      "sha1": "1ca4e05c85a16dc06811ee35cc4a8b74a2e16b67",
+      "size": "268382",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "2b7a0c62",
+      "md5": "7417a6d40a69f031d8cead3f1b8d19d5",
+      "sha1": "c653878029d5f1f46c821179ef797e485a55fa7e",
+      "size": "362248",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "ecf72923",
+      "md5": "3b45ba90f862c2f1c2347084653bf2df",
+      "sha1": "3fbbd11749d63e652aaa97cbd23244d94ef0f8cb",
+      "size": "533551",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "9e15fe8b",
+      "md5": "05d906d95cda124674b457805725b7bb",
+      "sha1": "c521dfb798eb9ba641c7875035c21a609e7b1e8b",
+      "size": "451960",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=78527&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "ecf72923",
+      "md5": "3b45ba90f862c2f1c2347084653bf2df",
+      "sha1": "3fbbd11749d63e652aaa97cbd23244d94ef0f8cb",
+      "size": "533551",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=192&media=logo-monochrome",
+      "crc": "00edfe0e",
+      "md5": "6bd03d717c519be2083aae91d454710a",
+      "sha1": "a06a6e7ee3e0dc74ba7d3f959488eee1aaca3e68",
+      "size": "10644",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=192&media=wheel",
+      "crc": "6dedb2fc",
+      "md5": "b515cd334cbf8768ec36a238a7a4497c",
+      "sha1": "a6673e8761f326e731f644734f80253fb162ca3e",
+      "size": "43321",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=192&media=logo-monochrome",
+      "crc": "00edfe0e",
+      "md5": "6bd03d717c519be2083aae91d454710a",
+      "sha1": "a06a6e7ee3e0dc74ba7d3f959488eee1aaca3e68",
+      "size": "10644",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=192&media=wheel",
+      "crc": "6dedb2fc",
+      "md5": "b515cd334cbf8768ec36a238a7a4497c",
+      "sha1": "a6673e8761f326e731f644734f80253fb162ca3e",
+      "size": "43321",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "20682",
+      "parent": "genre",
+      "subparent": "Construction & Management",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20682&media=pictoliste",
+      "crc": "ffc215a2",
+      "md5": "26940639f4e64adf7fd70966bd081bdc",
+      "sha1": "e63d885b8cf5fe0f640e317d06b21659b037ec26",
+      "size": "1080",
+      "format": "png"
+    },
+    {
+      "id": "20682",
+      "parent": "genre",
+      "subparent": "Construction & Management",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20682&media=logo-monochrome",
+      "crc": "75056a91",
+      "md5": "232f99773e586eab48b49376fc0cf7c2",
+      "sha1": "2447c4380f9fcd9690cc3e98f96f97d2d7f5082a",
+      "size": "2165",
+      "format": "png"
+    },
+    {
+      "id": "20682",
+      "parent": "genre",
+      "subparent": "Construction & Management",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20682&media=logo-monochrome-svg",
+      "crc": "a3c15b1e",
+      "md5": "a903761facfb25a5d4fb4d7be03f5ee0",
+      "sha1": "a23e0b1c909346c09cf048f2db93c3dcbbd4ed0f",
+      "size": "2293",
+      "format": "svg"
+    },
+    {
+      "id": "40",
+      "parent": "genre",
+      "subparent": "Simulation",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=40&media=pictoliste",
+      "crc": "ffc215a2",
+      "md5": "26940639f4e64adf7fd70966bd081bdc",
+      "sha1": "e63d885b8cf5fe0f640e317d06b21659b037ec26",
+      "size": "1080",
+      "format": "png"
+    },
+    {
+      "id": "40",
+      "parent": "genre",
+      "subparent": "Simulation",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=40&media=logo-monochrome",
+      "crc": "75056a91",
+      "md5": "232f99773e586eab48b49376fc0cf7c2",
+      "sha1": "2447c4380f9fcd9690cc3e98f96f97d2d7f5082a",
+      "size": "2165",
+      "format": "png"
+    },
+    {
+      "id": "40",
+      "parent": "genre",
+      "subparent": "Simulation",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=40&media=logo-monochrome-svg",
+      "crc": "dd0aba31",
+      "md5": "0f3aa19cfc63cb7f8c15bbece9b9fe01",
+      "sha1": "bfb572b2783c5ef7751853961684e874a72aa042",
+      "size": "2291",
+      "format": "svg"
+    },
+    {
+      "id": "40",
+      "parent": "genre",
+      "subparent": "Simulation",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=40&media=background",
+      "crc": "8bd938ca",
+      "md5": "b469f3091c032688350e0db4277d205d",
+      "sha1": "6ce4c8720d41150fd6a4bfd893884810150e2112",
+      "size": "301353",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135944",
+      "romsize": "262160",
+      "romfilename": "Famicom Top Management (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3DFFBD1E",
+      "rommd5": "13B9EE48FEABFB16851016E0EFC245C7",
+      "romsha1": "6C0F5117CA426D793DE4AAA0A8392575F462B7D1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "58189",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "12637",
+      "romsize": "109987",
+      "romfilename": "Famicom Top Management (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "47A5F08D",
+      "rommd5": "832A7A69B465445D1CD8D4B1E866FE4D",
+      "romsha1": "63B1384EDF8C0B325C744F367A12D27158962285",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "38290",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1137051",
+      "romsize": "262160",
+      "romfilename": "Famicom Top Management (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "17c8e1e1",
+      "rommd5": "fefa825699e0785d9f4a1c0f696ad78c",
+      "romsha1": "dd51f09682b04456275ca4d6c2623510eeaccf6a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20161",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173111",
+      "romsize": "262144",
+      "romfilename": "Famicom Top Management (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "58507BC9",
+      "rommd5": "7B874B9ED3B6E223BC432F0085F6667E",
+      "romsha1": "947E5F3D386D2F4631FACEC26CE9A25FDFFC4889",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1729",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113605",
+      "romsize": "109965",
+      "romfilename": "Famicom Top Management (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "48EF2BCF",
+      "rommd5": "91E455ADE87741FFE5469FE564B1FFC2",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "98",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

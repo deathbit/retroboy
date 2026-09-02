@@ -1,0 +1,5641 @@
+{
+  "id": "1245",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Super Mario Bros."
+    },
+    {
+      "region": "us",
+      "text": "Super Mario Bros."
+    },
+    {
+      "region": "jp",
+      "text": "Super Mario Bros."
+    },
+    {
+      "region": "eu",
+      "text": "Super Mario Bros."
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "286",
+    "text": "Nintendo"
+  },
+  "developpeur": {
+    "id": "286",
+    "text": "Nintendo"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "note": {
+    "text": "18"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Super Mario Bros. follows Mario and Luigi as they race to rescue Princess Peach from the evil Bowser. In their debut platforming quest, the brothers leap through enemy-filled levels, dodge traps, and uncover hidden bonuses. The Super Mushroom makes Mario grow, the Fire Flower gives him firepower, and the Star grants brief invincibility. Each level ends with a flagpole and the higher you grab it, the more points you score. Secret bonus areas and warp zones allow shortcuts through the game. A timeless classic that defined a genre."
+    },
+    {
+      "langue": "fr",
+      "text": "La princesse a été kidnappée par le diabolique Bowser, et c'est à Mario et à son frère Luigi de sauver la situation.\r\n\r\nLa toute première aventure de plate-forme pour les Mario Brothers permet au joueur d'explorer niveau après niveau, avec Bowser à affronter en tant que boss de fin de niveau. Les bonus incluent le Super Mushroom, qui augmente la taille et la puissance de Mario, la fleur de feu, lui permettant de tirer des boules de feu sur les ennemis, et le starman toujours important pour une courte rafale d'invincibilité.\r\n\r\nChaque niveau comprend une section bonus remplie de pièces de monnaie plus un raccourci à travers le niveau, de nombreux mauvais achats et obstacles à franchir, et un drapeau de fin de niveau, dans lequel plus le joueur l'attrape, plus il lui attribue de points. Certains niveaux incluent également des points de distorsion, ce qui amène le joueur à des niveaux plus élevés."
+    },
+    {
+      "langue": "de",
+      "text": "In Super Mario Bros. liegt es an Mario und seinem Bruder Luigi, Prinzessin Peach aus den Klauen des finsteren Bowser zu befreien. In ihrem allerersten Abenteuer springen sich die Brüder durch zahlreiche Levels voller Gegner, Fallen und versteckter Boni. Mit dem Superpilz wächst Mario, die Feuerblume verleiht Feuerkraft, und der Stern macht ihn kurzzeitig unbesiegbar. Jede Welt endet mit einem Kampf gegen Bowser oder einen seiner Doppelgänger. Neben Münzen und Bonusräumen gibt es geheime Abkürzungen, Warp-Zonen und eine Fahne am Levelende, bei der Höhe Punkte bringt – ein Klassiker, der Maßstäbe setzte."
+    },
+    {
+      "langue": "es",
+      "text": "Un día, el reino de los pacíficos hombres champiñón fue invadido por el Koopa, una tribu de famosas tortugas con su magia negra. El tranquilo pueblo fue convertido en piedras ladrillos y hasta en cactus y el reino del champiñón se fue a la ruina. El único que puede deshacer el influjo mágico en el hombre champiñón es la princesa Toadstool, la hija del rey del champiñón. Desafortunadamente ella está en manos del Rey de la Tortuga Koopa. Mario, el héroe de la historia (a lo mejor) esucha la llamada de la gente del champiñón y organiza un grupo para liberarla y restaurar el imperio.\r\n¡Tú serás Mario! En tus manos está salvar al pueblo de champiñón de la magia negra de Koopa."
+    },
+    {
+      "langue": "it",
+      "text": "La principessa è stata rapita dal malvagio Bowser e tocca a Mario e al fratello Luigi salvare la situazione.\r\n\r\nLa prima avventura platform in assoluto per i Mario Brothers vede il giocatore esplorare livello dopo livello, con Bowser da affrontare come boss di fine livello. I potenziamenti includono il Super Fungo, che aumenta le dimensioni e la potenza di Mario, il fiore di fuoco, che gli consente di sparare palle di fuoco ai nemici, e il sempre importante Starman per una breve esplosione di invincibilità."
+    },
+    {
+      "langue": "pt",
+      "text": "Você tem o que é preciso para salvar a Princesa dos Cogumelos?\r\n\r\nVocê terá que pensar rápido e se mover ainda mais rápido para completar esta missão! A Princesa Cogumelo está sendo mantida em cativeiro pela tribo Koopa maligna de tartarugas. Cabe a você resgatá-la das garras do Rei Koopa antes que o tempo acabe. Mas não será fácil. Para chegar à princesa, você terá que escalar montanhas, atravessar mares, evitar poços sem fundo, combater soldados tartarugas e uma série de armadilhas de magia negra que apenas um rei Koopa pode inventar. É mais uma aventura do SUPER MARIO BROS.!\r\n"
+    }
+  ],
+  "classifications": [
+    {
+      "type": "JV",
+      "text": "+3 ans"
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1985-11-17"
+    },
+    {
+      "region": "jp",
+      "text": "1985-09-13"
+    },
+    {
+      "region": "eu",
+      "text": "1987-05-15"
+    }
+  ],
+  "genres": [
+    {
+      "id": "7",
+      "nomcourt": "0101",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma"
+        }
+      ]
+    },
+    {
+      "id": "2915",
+      "nomcourt": "0101",
+      "principale": "0",
+      "parentid": "7",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform / Run & Jump"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme / Run & Jump"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform / Jump 'n' Run"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas / Corre y Salta"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma / Corri e Salta"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma / Corre e Pula"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "20444",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Super Mario Bros"
+        }
+      ]
+    },
+    {
+      "id": "20261",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Mario"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "langue": "fr",
+      "titre": "Continuer le jeu après un Game Over",
+      "description": "Maintenez A pendant l'écran de game over. Tout en gardant le boutton enfonçé, faites Start 2 fois quand l'écran du titre apparaît.\n"
+    },
+    {
+      "langue": "fr",
+      "titre": "Feux d&#039;artifices",
+      "description": "Pour avoir les feux d'artifices, sautez sur le drapeau quand le dernier chiffre du compte à rebours est 1, 3, ou 6.\n"
+    },
+    {
+      "langue": "fr",
+      "titre": "Warp Zone",
+      "description": "-Vers la fin du niveau 1-2, à l'endroit des plate-formes qui montent et qui descendent, montez sur le mur de droite et continuez à avancer. Vous trouverez trois tuyaux qui mènent aux niveaux 2, 3 et 4.\n\n-Au début du niveau 4-2, après le troisième trou, il y a 4 blocs invisibles à frapper. Frapper celui de droite. Montez dessus et cassez les briques au dessus pour faire sortir une plante grimpante. descendez et cassez les suivants. Remontez et utilisez le plante pour atteindre une zone avec des champignons géants. Au bout de cette zone, vous découvrirez un tuyau qui mène tout droit au niveau 7-1.\n"
+    },
+    {
+      "langue": "pt",
+      "titre": "Super Mario Bros",
+      "description": "Códigos – Cheats    YYTOZA – Começar com 155 vidas    AAZUAG – Pular mais alto com A    AAOPAK – Sem back ground    YYOPAK – Apenas nuvens na terra preta    GGOPAK – Terra negra misturada    EAKKPO – Sem inimigos    KIIOZV – Distorção da fase 1    aatoza – 1&2 players tem 1 vida    iatoza – 1&2 players tem 6 vidas    aatoze – 1&2 players tem 9 vidas    vatole – 1 tem 8 vidas e 2 tem 3 vidas    sxiopo – Vidas infinitas"
+    }
+  ],
+  "actions": [
+    {
+      "id": "5974",
+      "controle": [
+        {
+          "langue": "en",
+          "text": "_BTN-A=Jump",
+          "recalboxtext": "_A=Jump"
+        }
+      ]
+    },
+    {
+      "id": "5977",
+      "controle": [
+        {
+          "langue": "en",
+          "text": "_BTN-B=Run",
+          "recalboxtext": "_B=Run"
+        }
+      ]
+    },
+    {
+      "id": "5980",
+      "controle": [
+        {
+          "langue": "en",
+          "text": "_LEFT|RIGHT=Walk",
+          "recalboxtext": "_LEFT|RIGHT=Walk"
+        }
+      ]
+    },
+    {
+      "id": "5983",
+      "controle": [
+        {
+          "langue": "en",
+          "text": "_BTN-START=Pause",
+          "recalboxtext": "_START=Pause"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "0c975348",
+      "md5": "aaa5fe48b169d74b477f5a413644ba54",
+      "sha1": "ae0ebcba2c3f2b7bed97e788beec194731dea4f4",
+      "size": "1869",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=ss(wor)",
+      "region": "wor",
+      "crc": "6825bfcd",
+      "md5": "6459845f5fd92af1242cce849fd185ec",
+      "sha1": "add391c631d1c8dbb361ff89d362c7cff2a2d237",
+      "size": "1437",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=fanart",
+      "crc": "ebe1e12f",
+      "md5": "ab79671a8d908dad121dc180af1bc827",
+      "sha1": "9866f61121f1021068dd62d024bd0d23c2fd430c",
+      "size": "255395",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=video",
+      "crc": "efc96181",
+      "md5": "510a7632d687e350d94fd4ecc78d353d",
+      "sha1": "2d94248da921693f9edc64372da2dcd51c9572ed",
+      "size": "2270802",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=video-normalized",
+      "crc": "cad17160",
+      "md5": "5c6a4ee15c08b4298bb38629069762e1",
+      "sha1": "75bffb3cd5c7cc0c564809f7fba4f6a02858dfc3",
+      "size": "1611641",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=steamgrid",
+      "crc": "7542ae3c",
+      "md5": "12b3b5acad2aded3d031d2f106f4a1de",
+      "sha1": "8990fc4372a96c162573cae80844a0a33ff0db5e",
+      "size": "23400",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=wheel(eu)",
+      "region": "eu",
+      "crc": "42d72288",
+      "md5": "8a5991f03e3de0d0a581f5c89f6112cc",
+      "sha1": "6528e3b435fd711f53abc0761efaea3cf2040980",
+      "size": "43811",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=wheel(fr)",
+      "region": "fr",
+      "crc": "2db98bb1",
+      "md5": "f0f4f8de649af9f41dd863312ae09ffb",
+      "sha1": "626a58b606fe51f77216643103be1dac32e726d8",
+      "size": "41842",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=wheel(us)",
+      "region": "us",
+      "crc": "6afc39af",
+      "md5": "e728b395d8a0d02eb1cd0519bcc71ce3",
+      "sha1": "322d05181b9ffff884d56882ce94966baff51a5f",
+      "size": "24446",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=wheel(us)",
+      "region": "eu",
+      "crc": "6afc39af",
+      "md5": "e728b395d8a0d02eb1cd0519bcc71ce3",
+      "sha1": "322d05181b9ffff884d56882ce94966baff51a5f",
+      "size": "24446",
+      "format": "png"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=wheel-hd(jp)",
+      "region": "jp",
+      "crc": "9744ed49",
+      "md5": "0caac868159064a70174c6035d122a7c",
+      "sha1": "60b663d55eb38af4f3a29b89cf64a4fb9a33fe07",
+      "size": "27416",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=wheel-carbon(eu)",
+      "region": "eu",
+      "crc": "df3eab42",
+      "md5": "4ddfaaae762a1ef7322bef5da47a8fc0",
+      "sha1": "36b4519b5493c64cab3581f54dd5b8819d1fd5ef",
+      "size": "102027",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=wheel-carbon(fr)",
+      "region": "fr",
+      "crc": "750cf600",
+      "md5": "3924004f6ad3e6ca2912b4ba4722d8aa",
+      "sha1": "e59d35472bc1f89aaf4912241cd0e6fcc6713a76",
+      "size": "101120",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "eed5d08f",
+      "md5": "f40496e38ceccc9a98f504bdf085cba0",
+      "sha1": "8de4d12139aae8cc580d08034b6559dc193042e8",
+      "size": "84968",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=wheel-carbon(us)",
+      "region": "us",
+      "crc": "8b25620b",
+      "md5": "f6c5fb8f429a7d2d25dbf251f274f04c",
+      "sha1": "797435f4d5a1023b305447798aec023e66532a3e",
+      "size": "98078",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=wheel-steel(eu)",
+      "region": "eu",
+      "crc": "e36eab27",
+      "md5": "c2e8d3a837ad3739fa88fdf4cbac9b8a",
+      "sha1": "178b08a4658f43e1439fa1873eca54eba4b88c69",
+      "size": "103557",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=wheel-steel(fr)",
+      "region": "fr",
+      "crc": "1eed8b43",
+      "md5": "94ed4b53f53c6025d3235d6c48cf6639",
+      "sha1": "41e3a1e98aed011d0d916ff6dc41593420494622",
+      "size": "102597",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "81a12cdc",
+      "md5": "332e4a0d43caf3c93962a3a6a9ba608c",
+      "sha1": "9b33b9a808035ec34f457bdefeb775cb986d0b2a",
+      "size": "86241",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=wheel-steel(us)",
+      "region": "us",
+      "crc": "7b1b6b5a",
+      "md5": "8df2fd6a2bd351780012a57a894ec86f",
+      "sha1": "70f67d3d98f2b4e402da438801a956ff0615a3b0",
+      "size": "98887",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=screenmarquee(eu)",
+      "region": "eu",
+      "crc": "c3021001",
+      "md5": "09d1fbe96fb6caeec0ea4754116513fc",
+      "sha1": "ee371a855e20ce9935748166c1aa40b84d5d699b",
+      "size": "482241",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=screenmarqueesmall(eu)",
+      "region": "eu",
+      "crc": "ecde03ca",
+      "md5": "fc402ee5b4cb672e918e7913245d97d0",
+      "sha1": "5117e1eeef64b88ae8530900c51bf5c55fd19ecc",
+      "size": "76736",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D(de)",
+      "region": "de",
+      "crc": "aa528d79",
+      "md5": "aa17d2a5e2c05723d32be314d9d0306b",
+      "sha1": "2e27a79d0a9ac62e0c6f06a9c92b4beb02ce5c76",
+      "size": "339157",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D(de)",
+      "region": "de",
+      "crc": "aa528d79",
+      "md5": "aa17d2a5e2c05723d32be314d9d0306b",
+      "sha1": "2e27a79d0a9ac62e0c6f06a9c92b4beb02ce5c76",
+      "size": "339157",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D(eu)",
+      "region": "eu",
+      "crc": "4af915ad",
+      "md5": "87c36a178eb01bbe831851874a8fdd28",
+      "sha1": "fb443192a20a0bcfbbcc91a5a37a49666122a897",
+      "size": "171462",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D(eu)",
+      "region": "eu",
+      "crc": "4af915ad",
+      "md5": "87c36a178eb01bbe831851874a8fdd28",
+      "sha1": "fb443192a20a0bcfbbcc91a5a37a49666122a897",
+      "size": "171462",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D(eu)[1]",
+      "region": "eu",
+      "support": "1",
+      "crc": "9bb1880d",
+      "md5": "e95b05ab4c8e8623afee5a47a7130454",
+      "sha1": "84868cf6eb499688e76954def149ed9fbf789064",
+      "size": "536973",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D(eu)[1]",
+      "region": "eu",
+      "support": "1",
+      "crc": "9bb1880d",
+      "md5": "e95b05ab4c8e8623afee5a47a7130454",
+      "sha1": "84868cf6eb499688e76954def149ed9fbf789064",
+      "size": "536973",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "41f88368",
+      "md5": "27cd70a223f19f5857dfae1fab53b38b",
+      "sha1": "ab3a291f8c255bc1a8a443f1cad292606eb663c9",
+      "size": "614224",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "41f88368",
+      "md5": "27cd70a223f19f5857dfae1fab53b38b",
+      "sha1": "ab3a291f8c255bc1a8a443f1cad292606eb663c9",
+      "size": "614224",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "0e2a8ff2",
+      "md5": "3b74d7064be6ebc6471148eb0f38000f",
+      "sha1": "5cf4ba4ab8e1cfaacf162e25f12160227b50c2f2",
+      "size": "113107",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D(us)",
+      "region": "us",
+      "crc": "0fd8cf6a",
+      "md5": "aa5e82cca17fd7b67df31b520e0229dd",
+      "sha1": "381d2766c26f93b6c8402b926f32cd47c7c783b2",
+      "size": "172774",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-side(de)",
+      "region": "de",
+      "crc": "d576038a",
+      "md5": "b9ae38d8ca2576642f90d5844ba825b7",
+      "sha1": "afcb9e277a1afc4a55873ec918d0d820962e67e5",
+      "size": "129854",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-side(de)",
+      "region": "de",
+      "crc": "d576038a",
+      "md5": "b9ae38d8ca2576642f90d5844ba825b7",
+      "sha1": "afcb9e277a1afc4a55873ec918d0d820962e67e5",
+      "size": "129854",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-side(eu)",
+      "region": "eu",
+      "crc": "e4c4225c",
+      "md5": "3cc136a204b568a5ba1130f655a606c8",
+      "sha1": "e64a920dd288eeb332d4cfa3894fd7fe475bb1f9",
+      "size": "41660",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-side(eu)[1]",
+      "region": "eu",
+      "support": "1",
+      "crc": "adf7d8b8",
+      "md5": "0cfddf69c76102fbd873f4bb2d387ac3",
+      "sha1": "226dd213272d171321a48c435659dabfc6a58d5a",
+      "size": "32503",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "f322f715",
+      "md5": "db20bd0b34c17d9bad16a6d731a46606",
+      "sha1": "52a97ea88c6ed8b1b11c7cb5a70dbe33edcd8687",
+      "size": "42181",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "f322f715",
+      "md5": "db20bd0b34c17d9bad16a6d731a46606",
+      "sha1": "52a97ea88c6ed8b1b11c7cb5a70dbe33edcd8687",
+      "size": "42181",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "a6e85e6d",
+      "md5": "7c71d3b4c18c2bb7927e8b9408ff5ee5",
+      "sha1": "258b7921ef7b8c638c400e2166c4c996e58acf90",
+      "size": "20245",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "caec6b22",
+      "md5": "5a65ea32285a5d1cab706ab5cfcc19f5",
+      "sha1": "683e2d1442fcc4ff90c0d6adfc87c6dc0a2c1c36",
+      "size": "25552",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-back(de)",
+      "region": "de",
+      "crc": "819cbd33",
+      "md5": "4041c91ca6fe6884f2bc83f7093daec6",
+      "sha1": "10cb687bb2cf02fd5a40745ea23877949e0aa515",
+      "size": "680828",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-back(de)",
+      "region": "de",
+      "crc": "819cbd33",
+      "md5": "4041c91ca6fe6884f2bc83f7093daec6",
+      "sha1": "10cb687bb2cf02fd5a40745ea23877949e0aa515",
+      "size": "680828",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-back(eu)",
+      "region": "eu",
+      "crc": "391404ea",
+      "md5": "7ea7b65a6fc491ace0f4e2418cfb9f2d",
+      "sha1": "78e74ea73c9559bf4294e3d5a5c610f5f22223e9",
+      "size": "257539",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-back(eu)[1]",
+      "region": "eu",
+      "support": "1",
+      "crc": "800fe3b7",
+      "md5": "f8b8dd6773970f3e1a0157721fed100d",
+      "sha1": "5e48368427e5eb0709d69693590ff962f9406989",
+      "size": "2829",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "6cfe12ce",
+      "md5": "cf95cfabe3dcc0dc4319bf2823c8d9a6",
+      "sha1": "63c5b38ebbaeccc932270c670c6045e75a8a4a17",
+      "size": "295190",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "6cfe12ce",
+      "md5": "cf95cfabe3dcc0dc4319bf2823c8d9a6",
+      "sha1": "63c5b38ebbaeccc932270c670c6045e75a8a4a17",
+      "size": "295190",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "f6393b65",
+      "md5": "d307d43a4cd6d122977cf02d9179e52f",
+      "sha1": "d0132f95bb77497097e199921e79e65fefe588bc",
+      "size": "145725",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "8a280538",
+      "md5": "b603e383e95b61c25397948825a9e372",
+      "sha1": "1bc0b955220d791b4b4caf32402538c48da9be10",
+      "size": "310600",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-texture(de)",
+      "region": "de",
+      "crc": "b7389b38",
+      "md5": "643fae332672832b37b285cde5b88063",
+      "sha1": "4c85d9ff658b9dacd4069ef288743c472ce75069",
+      "size": "1181423",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-texture(eu)",
+      "region": "eu",
+      "crc": "ede20d15",
+      "md5": "d898812d7a9a4ab9dc40e91c6a2ec840",
+      "sha1": "63a1d3bf814d69854c82a49c89983bc9c7c1689f",
+      "size": "482113",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-texture(eu)",
+      "region": "fr",
+      "crc": "ede20d15",
+      "md5": "d898812d7a9a4ab9dc40e91c6a2ec840",
+      "sha1": "63a1d3bf814d69854c82a49c89983bc9c7c1689f",
+      "size": "482113",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-texture(eu)[1]",
+      "region": "eu",
+      "support": "1",
+      "crc": "5bc94aef",
+      "md5": "67c1cf35f2d20a7ebb3f2a366a723a28",
+      "sha1": "c0e0783f3aee7f3d2bb5162f0390b5ec90761e85",
+      "size": "525212",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-texture(eu)[1]",
+      "region": "fr",
+      "support": "1",
+      "crc": "5bc94aef",
+      "md5": "67c1cf35f2d20a7ebb3f2a366a723a28",
+      "sha1": "c0e0783f3aee7f3d2bb5162f0390b5ec90761e85",
+      "size": "525212",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "2c2699cb",
+      "md5": "dcefc88d70da13c4488f49abc68d4b17",
+      "sha1": "52e76637e7acee91d0ea2a219e7c34fb8279beab",
+      "size": "1007804",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "8575825c",
+      "md5": "38fc5bce1b773aef3903d1608f8c4eec",
+      "sha1": "dcb48749285f56594daf65d49c26134bc895a99d",
+      "size": "292624",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-texture(us)",
+      "region": "us",
+      "crc": "c399877e",
+      "md5": "68b8ec09717899a86b8424b1bb948bd5",
+      "sha1": "6c068d7f3695e88bbdb4dda7761d0006bed9a31e",
+      "size": "473507",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-3D(de)",
+      "region": "de",
+      "crc": "63d2471a",
+      "md5": "c6506a60581559ef403c7a2324c4dd18",
+      "sha1": "67e58fa5a5007acd655aba5c76dc21c5038b07f4",
+      "size": "206940",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-3D(eu)",
+      "region": "eu",
+      "crc": "109d20d6",
+      "md5": "18b62865ea731c7256622bb1b80e8721",
+      "sha1": "5a4287c7d901714b744e59c1fde120b7db5d0b37",
+      "size": "152858",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-3D(eu)",
+      "region": "fr",
+      "crc": "109d20d6",
+      "md5": "18b62865ea731c7256622bb1b80e8721",
+      "sha1": "5a4287c7d901714b744e59c1fde120b7db5d0b37",
+      "size": "152858",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-3D(eu)[1]",
+      "region": "eu",
+      "support": "1",
+      "crc": "2626b521",
+      "md5": "3be658175833b15eeb9cf7fc2cef7f6c",
+      "sha1": "65ea7599a79320dfeb53ed80347d7e24c82aa351",
+      "size": "251381",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-3D(eu)[1]",
+      "region": "fr",
+      "support": "1",
+      "crc": "2626b521",
+      "md5": "3be658175833b15eeb9cf7fc2cef7f6c",
+      "sha1": "65ea7599a79320dfeb53ed80347d7e24c82aa351",
+      "size": "251381",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "21cc6957",
+      "md5": "8b1b646149e2148d6adb336fee36245e",
+      "sha1": "c813a6ab8e5338cdc1cd6acc723b0e440167a3ca",
+      "size": "304436",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "c3af3323",
+      "md5": "fa8f2e750d460cad1e9c18ad192b9004",
+      "sha1": "26f8aa66702e2a9b1b872daaf7ccab3671af05b8",
+      "size": "117071",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=box-3D(us)",
+      "region": "us",
+      "crc": "33333c55",
+      "md5": "6eb88dcbce63815b358be37fa85f7554",
+      "sha1": "2e64398b821739af6ea008f3246ecc2b8297d762",
+      "size": "134712",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=manuel(de)",
+      "region": "de",
+      "crc": "61cc753f",
+      "md5": "82e51ca2ead94c712cba637d9df278bd",
+      "sha1": "bd65f4896b247a4ec171ed204947c418f74d5486",
+      "size": "4964014",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=manuel(de)",
+      "region": "de",
+      "crc": "61cc753f",
+      "md5": "82e51ca2ead94c712cba637d9df278bd",
+      "sha1": "bd65f4896b247a4ec171ed204947c418f74d5486",
+      "size": "4964014",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=manuel(fr)",
+      "region": "fr",
+      "crc": "983bea58",
+      "md5": "8b74c1c592a0d4d39556c853a219af65",
+      "sha1": "1c574998a7d59a1106be4eabccfbed298a36ffdd",
+      "size": "8050493",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=manuel(jp)",
+      "region": "jp",
+      "crc": "2041cff2",
+      "md5": "052267d8f19a675b77d02541a2509e62",
+      "sha1": "475281a7b4a77e341d82ae85e03f1a03549153b9",
+      "size": "1773469",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=manuel(us)",
+      "region": "us",
+      "crc": "bafb080b",
+      "md5": "80d3f763b5a73798ae706d1e7fcd123c",
+      "sha1": "cf499c5947a02f2db489f39c17b010fbf6e05fce",
+      "size": "2297510",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=support-texture(eu)",
+      "region": "eu",
+      "crc": "4c07f55e",
+      "md5": "4965c22dad6b351d5560fb23cded75dc",
+      "sha1": "424030f892867af47617eb4746273c9c06ad8981",
+      "size": "293218",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=support-texture(fr)",
+      "region": "fr",
+      "crc": "82a86073",
+      "md5": "124bab0355894927f427c8de4242b4db",
+      "sha1": "7c68e37df2c3b5cfe85e110228fb9c0d9be2128c",
+      "size": "237296",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "d271d850",
+      "md5": "29fc047329586a6f8380e5db31ff67ba",
+      "sha1": "0a0facc85ad95f6378386009a62ac16caba690f8",
+      "size": "399260",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "d271d850",
+      "md5": "29fc047329586a6f8380e5db31ff67ba",
+      "sha1": "0a0facc85ad95f6378386009a62ac16caba690f8",
+      "size": "399260",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=support-texture(us)",
+      "region": "us",
+      "crc": "c5d06f4e",
+      "md5": "a3663586494f44225854ba84460acfb5",
+      "sha1": "f6adfe03beecbfd8a1d0ef6d25fc1cf497aa793e",
+      "size": "73186",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=support-texture(wor)",
+      "region": "wor",
+      "crc": "05e37a04",
+      "md5": "9de1b0116b2b38fffa8d7538a762008d",
+      "sha1": "a2f4888a1646e716513f7e408c075afc722cfd73",
+      "size": "81791",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=support-2D(eu)",
+      "region": "eu",
+      "crc": "81ec0014",
+      "md5": "38cbaeea2f619e31740707955fc3983e",
+      "sha1": "2febb30c85e85cc9794f087b6fe7765a24d3a6e5",
+      "size": "291017",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=support-2D(fr)",
+      "region": "fr",
+      "crc": "d9f743f1",
+      "md5": "3d1fce086f9bad9ea4ed3e3268def36d",
+      "sha1": "993f6e78e0640e063f47f31f995763ce2b21cfbc",
+      "size": "270481",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "c4d0075e",
+      "md5": "81ea29e7c36d50fda98328ec02ee7130",
+      "sha1": "606cbf5c6b56d5b471fca6c5343b161437ab69c3",
+      "size": "406240",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=support-2D(us)",
+      "region": "us",
+      "crc": "35060256",
+      "md5": "4bb155e26d16af1afcc33ec5c537a012",
+      "sha1": "ce6d249ecf48d6a637e8d77da4ce17f9ca5384d3",
+      "size": "263441",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=support-2D(wor)",
+      "region": "wor",
+      "crc": "d7cd1a84",
+      "md5": "fa3dcd81a0bb4fcba8e390f015adba24",
+      "sha1": "34064bec516d13f0c1e72a70694f50ff141e1404",
+      "size": "295189",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=bezel-16-9(wor)",
+      "region": "wor",
+      "crc": "e7b5703b",
+      "md5": "7d0f8460891f1ecf7c123de5d7fd9889",
+      "sha1": "c6ef40ab702fb0cc0df660b8936bac4bd15fb09e",
+      "size": "187028",
+      "format": "png"
+    },
+    {
+      "type": "themehs",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaFichierJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=themehs",
+      "crc": "d21c8748",
+      "md5": "1e83e29bd8774a3e96c127f05095fb61",
+      "sha1": "797233fa4f5e1cacc2feb8d950a714d6d84d66c2",
+      "size": "3702625",
+      "format": "zip"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=mixrbv1(de)",
+      "region": "de",
+      "crc": "94497fd8",
+      "md5": "08d63708a9fe7874c928707288e9c58b",
+      "sha1": "46715b0a362c52b2be8c43633bd7aaaede12fc5d",
+      "size": "322574",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=mixrbv1(eu)",
+      "region": "eu",
+      "crc": "848b4b18",
+      "md5": "763dbeea64dbb4e4866efb7d7dd78c12",
+      "sha1": "55c54f5aa8f43d930303afb2085ffa95768fd17f",
+      "size": "306294",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=mixrbv1(fr)",
+      "region": "fr",
+      "crc": "8a4acb05",
+      "md5": "4de532b28bd81add5b76398070178a4c",
+      "sha1": "25d6a073417361b12c0cfbe5be8770242b1a6da4",
+      "size": "305287",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "966a66c5",
+      "md5": "1d0623d50a5c87ab6a1086ed76ddd370",
+      "sha1": "b2bfb6c46231867dab440cc7b29d2fbb4cad61db",
+      "size": "363351",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "c9649da3",
+      "md5": "e594d6c8ba3cdc12402a6c0f46aefdd8",
+      "sha1": "12ca608f60027568989fdd440ee99b478c4e6935",
+      "size": "281722",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "00e5bce3",
+      "md5": "a8608d82a9bf87f72562d1a947a34c65",
+      "sha1": "79fe1e29508978d15d37153c25a0ecc6ec590f53",
+      "size": "291503",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "848b4b18",
+      "md5": "763dbeea64dbb4e4866efb7d7dd78c12",
+      "sha1": "55c54f5aa8f43d930303afb2085ffa95768fd17f",
+      "size": "306294",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=mixrbv2(de)",
+      "region": "de",
+      "crc": "e98041fc",
+      "md5": "981ccccf6bbbd005a7c71f7e0e02d51f",
+      "sha1": "b448131ae94c581f2250dc6e7f33eca513e5fa9d",
+      "size": "498936",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=mixrbv2(eu)",
+      "region": "eu",
+      "crc": "293b0511",
+      "md5": "85e41788d73069b752bd354d5fbd2b1b",
+      "sha1": "28fc03732c4563c910fa618d0291e70718be532d",
+      "size": "515324",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=mixrbv2(fr)",
+      "region": "fr",
+      "crc": "215389a7",
+      "md5": "eccd85f3662fb5115555847e25419ef9",
+      "sha1": "4a62e63b692109fbd7a24ce9b3652720d7039d60",
+      "size": "477697",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "43757ba5",
+      "md5": "85c96039c315ec759ab432eefcc981e3",
+      "sha1": "560f0664eff1fcc60d9464c9f12f60f39d518fca",
+      "size": "541990",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "c4b69c1d",
+      "md5": "60f3c5570e90dc67568fdc32e3778ea6",
+      "sha1": "972c41ebf008316ee991f01b7fcea40bf40d95b7",
+      "size": "457273",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "fb202c55",
+      "md5": "ae3830fbd5e1cf803623f8b92d9daac1",
+      "sha1": "a0e9738a3a4d50dda912714d5a63ae107ac79e14",
+      "size": "461211",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1245&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "2bc83a29",
+      "md5": "e86b71cfc94e09fd192f806ada1b9eb9",
+      "sha1": "f5bef9a26d1eaf30d78cbd6348e5fb34ffb0ec2c",
+      "size": "481667",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=logo-monochrome",
+      "crc": "95dac55f",
+      "md5": "1a6af8c61e2b478c66f13a76035c4178",
+      "sha1": "333417fda7f11b21cdbfe53c5b549d31f387e7e8",
+      "size": "3342",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=wheel",
+      "crc": "d0666824",
+      "md5": "f132730b36526f594b4480fd905684cf",
+      "sha1": "2ba2d8412bceaaa973ae7f0bf41d08edf5e5a369",
+      "size": "27698",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=logo-monochrome",
+      "crc": "95dac55f",
+      "md5": "1a6af8c61e2b478c66f13a76035c4178",
+      "sha1": "333417fda7f11b21cdbfe53c5b549d31f387e7e8",
+      "size": "3342",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=wheel",
+      "crc": "d0666824",
+      "md5": "f132730b36526f594b4480fd905684cf",
+      "sha1": "2ba2d8412bceaaa973ae7f0bf41d08edf5e5a369",
+      "size": "27698",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3557&media=pictoliste",
+      "crc": "206732a0",
+      "md5": "ca952b9f9d623c920455eaa80c5c115b",
+      "sha1": "b0a49aae7e51432fcae126eb1e9b688bd966c448",
+      "size": "1388",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "JV",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3408&media=pictoliste",
+      "crc": "826e8eda",
+      "md5": "876375b7e92cd795cd00bb230e9d0dfd",
+      "sha1": "bc3ded9745166360b27215cb2eedea1d7fdf811e",
+      "size": "502",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=pictoliste",
+      "crc": "d8329f23",
+      "md5": "ada4054a77e20edada97225e5c316116",
+      "sha1": "cfadf96438bde8ae1a8c3c52c85dd6768ba9b4c8",
+      "size": "855",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome",
+      "crc": "0f88a1ba",
+      "md5": "e8c818f5f59d48642afea18e5c545c15",
+      "sha1": "ef3857055eaae13785d2cab692edf9454b544be3",
+      "size": "9142",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome-svg",
+      "crc": "fa797dda",
+      "md5": "73a61640b94904834fdbfc7e043150e0",
+      "sha1": "3e5fe422339961df30bd70aa83e43671a1badce4",
+      "size": "4755",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=background",
+      "crc": "3d578fbf",
+      "md5": "62dbdbe08a5765fae2630d06e0f0ea38",
+      "sha1": "354ef394870af26f443863a29c846a07a20f47a0",
+      "size": "161158",
+      "format": "jpg"
+    },
+    {
+      "id": "2915",
+      "parent": "genre",
+      "subparent": "Plateforme / Run & Jump",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2915&media=pictoliste",
+      "crc": "2ff6989e",
+      "md5": "11ebfe3b2f55537a13428e16bb93af61",
+      "sha1": "79f02cb0550561936936c74052f08136b35d91d8",
+      "size": "18099",
+      "format": "png"
+    },
+    {
+      "id": "2915",
+      "parent": "genre",
+      "subparent": "Plateforme / Run & Jump",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2915&media=logo-monochrome",
+      "crc": "2686c093",
+      "md5": "9da37be446c4e8186247ea437fbfd813",
+      "sha1": "89a677f905873a40a70f49266a84efbf66607cec",
+      "size": "16080",
+      "format": "png"
+    },
+    {
+      "id": "2915",
+      "parent": "genre",
+      "subparent": "Plateforme / Run & Jump",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2915&media=logo-monochrome-svg",
+      "crc": "c290d17a",
+      "md5": "b815cf255dc0c5aeaaed112a75452d61",
+      "sha1": "ef69008369983181e20c31816ebacf62c872bd74",
+      "size": "1957",
+      "format": "svg"
+    },
+    {
+      "id": "20444",
+      "parent": "famille",
+      "subparent": "Super Mario Bros",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20444&media=figurine",
+      "crc": "eb7d6364",
+      "md5": "f027d35dd8dd13a49185a2d684c1490e",
+      "sha1": "be88e232c3dc05e7dd463434affc2297e0295cb7",
+      "size": "264763",
+      "format": "png"
+    },
+    {
+      "id": "20261",
+      "parent": "famille",
+      "subparent": "Mario",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20261&media=figurine",
+      "crc": "2d9448e9",
+      "md5": "2e06f3615cc5d6c66cf719dc9fd05b35",
+      "sha1": "44865168e49dfaab888603d8b432c5892c4d0e4b",
+      "size": "217670",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "4219",
+      "romsize": "31489",
+      "romfilename": "Super Mario Bros.",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A5C2849E",
+      "rommd5": "B330314E19126D87D156D0618C4657B0",
+      "romsha1": "8EE8032491DEE422534B82F107DE0E9F5F9D44F9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "831990",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "154585",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. (World).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3337EC46",
+      "rommd5": "811B027EAF99C2DEF7B933C5208636DE",
+      "romsha1": "EA343F4E445A9050D4B4FBAC2C77D0693B1D0922",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "536811",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "137430",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros (E).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7D5FAA58",
+      "rommd5": "673913A23CD612DAF5AD32D4085E0760",
+      "romsha1": "AB30029EFEC6CCFC5D65DFDA7FBC6E6489A80805",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "176237",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "1144485",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. (World).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "393a432f",
+      "rommd5": "f94bb9bb55f325d9af8a0fff80b9376d",
+      "romsha1": "33d23c2f2cfa4c9efec87f7bc1321ce3ce6c89bd",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "153136",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "4220",
+      "romsize": "31505",
+      "romfilename": "Super Mario Bros. (World).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A1491AA1",
+      "rommd5": "C9CAEBA503A53ED0039576D4601B1213",
+      "romsha1": "37F8B6CC69EDEA3D662CEAE0B0DB632D1A468C60",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "102104",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "540556",
+      "romsize": "31554",
+      "romfilename": "Super Mario Bros..zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6CED585E",
+      "rommd5": "CF991869E1D6719E46914273673B64B8",
+      "romsha1": "97F4B034F3A30E1E6BF535514E375B119CA04276",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "57194"
+    },
+    {
+      "id": "532169",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros (JU) [p1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6959C882",
+      "rommd5": "4E4129535F4C25FBAB4F2D33AA003E42",
+      "romsha1": "2AA4889C417C219943407E1652D7C1C1E2A57475",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "27034",
+      "langues": {
+        "langues_id": [
+          "75"
+        ],
+        "langues_shortname": [
+          "pt"
+        ],
+        "langues_en": [
+          "Portuguese"
+        ],
+        "langues_fr": [
+          "Portugais"
+        ],
+        "langues_de": [
+          "Portugiesisch"
+        ],
+        "langues_es": [
+          "Portugués"
+        ],
+        "langues_it": [
+          "Portoghese"
+        ],
+        "langues_pt": [
+          "Português"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1144482",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4675571d",
+      "rommd5": "a07660b710245d0a1dea0b8e44148598",
+      "romsha1": "b4140688f9a5b3434276c5a7394b56022436e57a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "26113",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "550950",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros (E) [a1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9DE9FCFE",
+      "rommd5": "DAB4A1EEE5BEB9B99735EF0A3586FE5F",
+      "romsha1": "353BC2203F8626C5A52CF1E47264ACAD07503C01",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "1",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "25368",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "643970",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. - Strange Mario Brothers - The Lost Levels.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0B092449",
+      "rommd5": "35541E1C8642DCD40B755328D04E2FED",
+      "romsha1": "78B80E017EDFFDCDED2B74857F6E481C29543882",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "23969"
+    },
+    {
+      "id": "749083",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. - Wario Bros..nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "96DF8C60",
+      "rommd5": "439854D1B382012CF40ACFCE6D1E10C6",
+      "romsha1": "B8FE988DEC55D8D12A2DF957C326BDC5626A0C93",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19849"
+    },
+    {
+      "id": "646098",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. - Killers (V6.0).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D08A2BB9",
+      "rommd5": "CE1A98DCAA89AE932B8481291E79D473",
+      "romsha1": "5C60A8ADED215FF7319E89CD349EE022E71AA7CC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "15810"
+    },
+    {
+      "id": "749051",
+      "romsize": "81936",
+      "romfilename": "Super Mario Bros. - Hi Episode 3.1.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DE42D888",
+      "rommd5": "F4041042E85C675098F30E7A17AE0522",
+      "romsha1": "50956E5DB5C32C4E5B855FDB85F7AED84373F142",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14842"
+    },
+    {
+      "id": "1161365",
+      "romsize": "31507",
+      "romfilename": "Super Mario Bros. (World).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "EC650DB5",
+      "rommd5": "6E3EDF8BB7CA14C6335D362A6B7DEB40",
+      "romsha1": "48BD5A3D0D3925E4609EB40187A9DEBBBB2F44ED",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14647"
+    },
+    {
+      "id": "745755",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. - Mr.Sandman.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9058224C",
+      "rommd5": "AF1061A2E9DB29C59AFA243924D8BF25",
+      "romsha1": "7893F168FD56ADAD3546B5DB267B286FF659A349",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14564"
+    },
+    {
+      "id": "749052",
+      "romsize": "41488",
+      "romfilename": "Super Mario Bros. - The Super Adventures - Part 3 by AP (V0.20Beta).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "275FD67D",
+      "rommd5": "4E5C1C8C71973D133D1926DC1DF7EC58",
+      "romsha1": "4D99AA2FEA0D186152AB5F37EB6E4AFDC87E8961",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14527"
+    },
+    {
+      "id": "745753",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. - Junk Mario V1.1.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "AAF03BD2",
+      "rommd5": "E555A9FD5B314111AB65759816FABC95",
+      "romsha1": "8A5FB9D17E6553CD7DD31800320A65A3ECB3973B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14324"
+    },
+    {
+      "id": "745754",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. - Justin and Friends V1.1 by TheGreatWhiteDope.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9F343C94",
+      "rommd5": "A6FD3C9C94BEB8064FCD597DD0E34D20",
+      "romsha1": "359824E90AECD7DF6B63E4763BFA8A712CF7642E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14294"
+    },
+    {
+      "id": "749107",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. - Xmas Edition.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D65B2E57",
+      "rommd5": "1A0B14C3C89A2073735DD8639BC948DA",
+      "romsha1": "4BFAFFF0E4F71C361C9DA9EC1D50122D8D0A844E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14114"
+    },
+    {
+      "id": "745643",
+      "romsize": "41488",
+      "romfilename": "Super Mario Bros. - Mario Fan by M.K.H.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6E09B1A4",
+      "rommd5": "71E208F897258D71C6B257216ABCEC6D",
+      "romsha1": "550D3AAAE28DB8AF68B6BD993C9635B5978CD113",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13979"
+    },
+    {
+      "id": "745663",
+      "romsize": "41488",
+      "romfilename": "Super Mario Bros. - Millenium Mario v1.0 FINAL.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0D4596F7",
+      "rommd5": "5E5F27B44FC5D38CD1784B1DA60CCCF1",
+      "romsha1": "52F207EBF7479E0419A2D5FEB895128E3AA6BA28",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13978"
+    },
+    {
+      "id": "346116",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. (Patch FR).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "EE000873",
+      "rommd5": "285C55DE27E4C26726E91CE66DAC306E",
+      "romsha1": "7379C488ED505CEE334DE3BBA3060BC0898E3C9C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13852",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "646102",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. - Mushroom Nightmare Final 2.0.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "19C8830A",
+      "rommd5": "66EEED1ADB0F7DE105C01B2839C84E67",
+      "romsha1": "D5C3DBDB242394456E24F14017280BBA979B333D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13771"
+    },
+    {
+      "id": "537660",
+      "romsize": "31891",
+      "romfilename": "Super Mario Bros. - HF.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E8887711",
+      "rommd5": "D9937E224D8F735B60CB587BEB9EEEE0",
+      "romsha1": "B3AF9F44BC23D88A07115F4E07B2A34D7E91622D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13148"
+    },
+    {
+      "id": "649824",
+      "romsize": "31570",
+      "romfilename": "Super Mario Bros. (JU) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FBEDF163",
+      "rommd5": "5241EAFEFEEC8F85EC5719F957380BA3",
+      "romsha1": "798F531D7AC06B68D7D973CEEC36A61D3320A82B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12055",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "828269",
+      "romsize": "31491",
+      "romfilename": "Super Mario Bros I.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F714E190",
+      "rommd5": "58658313A893BD3D3410DD93E87235E9",
+      "romsha1": "0381474667AA0CA73BE4906058DE150CD73FC2E0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10225"
+    },
+    {
+      "id": "540090",
+      "romsize": "31611",
+      "romfilename": "Super Mario Bros. (World).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "66086865",
+      "rommd5": "A5F4AC2075CE6CD077ABAEE961085DC3",
+      "romsha1": "E3A5B03E17C35C6D936B8F96B60A1D0A5CD740EF",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8977",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "464951",
+      "romsize": "31515",
+      "romfilename": "Super Mario Bros. (Japan, USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "558B3CC4",
+      "rommd5": "7A02B4A73A92D6CEEE3CAF85193ADF02",
+      "romsha1": "5D46447023B464A0B023DC8ACCB4D5DCE589984F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8282",
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174627",
+      "romsize": "40960",
+      "romfilename": "Super Mario Bros. (World).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D445F698",
+      "rommd5": "8E3630186E35D477231BF8FD50E54CDD",
+      "romsha1": "FACEE9C577A5262DBE33AC4930BB0B58C8C037F7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7865",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "174626",
+      "romsize": "40960",
+      "romfilename": "Super Mario Bros. (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9A2DB086",
+      "rommd5": "BA39DDE63AB209B1BC751E0535E72B18",
+      "romsha1": "0C4992FC08D2278697339D3B48066E7B5F943598",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7218",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "115125",
+      "romsize": "31467",
+      "romfilename": "Super Mario Bros. (Europe) (Rev A).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B693999A",
+      "rommd5": "4E2E5BBDEFEA5997DA22820EDF432953",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6908",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "546384",
+      "romsize": "31529",
+      "romfilename": "Super Mario Bros (E).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0CE2E6A7",
+      "rommd5": "CBDE71739C810334040AD462D00657D9",
+      "romsha1": "B91D4B8E6E2C55C94829B6E005A689B2B010097B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4615",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "115126",
+      "romsize": "31483",
+      "romfilename": "Super Mario Bros. (World).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1D2F046F",
+      "rommd5": "FDF19545A6001908623901BA4A39E4A3",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4282",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "537651",
+      "romsize": "31745",
+      "romfilename": "Super Mario Bros. - After World 8.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3CCCA922",
+      "rommd5": "D3ABD82CAC48FC550FEC6E5CF39950A4",
+      "romsha1": "A9B7952F20F316A58FB80DAADF6CEB613F3875A0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4111"
+    },
+    {
+      "id": "537652",
+      "romsize": "228012",
+      "romfilename": "Super Mario Bros. - Chaos Control.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6D4E4151",
+      "rommd5": "034E9486B49C511279F8B04885FD64C3",
+      "romsha1": "33A33E7B97CBCB307EC402D5A642FD5366C77BD5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3441"
+    },
+    {
+      "id": "848228",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. (W) [T Fre].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A0684E6D",
+      "rommd5": "EE379697B6DFD12605AFAF404774B1D8",
+      "romsha1": "39AE2FF1E8C9023DE1D2893B0C87AA96D88CB4C4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "1",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2741",
+      "langues": {
+        "langues_id": [
+          "69",
+          "3830"
+        ],
+        "langues_shortname": [
+          "fr",
+          "sk"
+        ],
+        "langues_en": [
+          "French",
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Français",
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Französisch",
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Francés",
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Francese",
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Francês",
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47",
+          "57"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp",
+          "wor"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan",
+          "World"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon",
+          "Monde"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan",
+          "World"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón",
+          "Mundo"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone",
+          "Mondo"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão",
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "537628",
+      "romsize": "31474",
+      "romfilename": "Luigi_s Chronicles (Hard).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "75A7C747",
+      "rommd5": "39E51DD0023D8E6DC3C25D3AE78C849E",
+      "romsha1": "3F77F391222AE78148FF867CAE93AA496A155CFF",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2159"
+    },
+    {
+      "id": "1385813",
+      "romsize": "40976",
+      "romfilename": "017 Super Mario BT.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "4FEA53E4",
+      "rommd5": "A40ADAE013B13C21AFDC591A7EC9A003",
+      "romsha1": "07E3C42AD202078D9A56B37634BD5560E67C9310",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1499"
+    },
+    {
+      "id": "466025",
+      "romsize": "31483",
+      "romfilename": "Super Mario Bros. (World).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C19FC451",
+      "rommd5": "2961AE52EE8DEE9A9FBC7680CED1F741",
+      "romsha1": "D40089466AB86B49C69CAAB1505753EA29770907",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1406",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "1383272",
+      "romsize": "31766",
+      "romfilename": "Super Mario Bros. 1 (W) [!] [T-BR] [T-Balboa G-Monkey's Traducoes] [V-1.0 P-100% A-2009].zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "E74AF254",
+      "rommd5": "FC5C556D2D3AA76B20238515A89BE3DD",
+      "romsha1": "7E11A2F885320E8895C1C79D6565C77841F4F225",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1330"
+    },
+    {
+      "id": "527071",
+      "romsize": "31491",
+      "romfilename": "Super Mario Bros. (Europe) (Rev 0A).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "75A02A47",
+      "rommd5": "53EC87A473AB2C9F65310E8E172B2CD5",
+      "romsha1": "A8E57F5136230F47E075007DA7B9C1F6CB8186D2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1054",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "1393076",
+      "romsize": "73744",
+      "romfilename": "Super Mario Bros 2p.7z",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "393BC874",
+      "rommd5": "2762BB0822DFD58A0BD5C538C0CA91D0",
+      "romsha1": "E06868B9D3E1BC2036CFEB7E83975EB462CB612A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "987"
+    },
+    {
+      "id": "848230",
+      "romsize": "41488",
+      "romfilename": "Super Mario Bros. (W) [T Fre][o1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1968EE3F",
+      "rommd5": "AE93144E688B8A3BFCD20FA27A25F564",
+      "romsha1": "3F153984CAEB3969CB385CA972A9095259FBFC01",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "1",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "853",
+      "langues": {
+        "langues_id": [
+          "69",
+          "3830"
+        ],
+        "langues_shortname": [
+          "fr",
+          "sk"
+        ],
+        "langues_en": [
+          "French",
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Français",
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Französisch",
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Francés",
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Francese",
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Francês",
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "1383773",
+      "romsize": "393232",
+      "romfilename": "S. M. Bros. 1988 (USA) (SuperVision) (ASN 0097) (Pirate).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "28D6BA6C",
+      "rommd5": "7D6897ECBB94DCA84EB44B95B7E12965",
+      "romsha1": "C83D3CB3BC3E718F7E1D2195408BF6CA5CE05660",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "845"
+    },
+    {
+      "id": "1386584",
+      "romsize": "73744",
+      "romfilename": "Super Mario Bros. - Two Player (World).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "F87F66F6",
+      "rommd5": "FC94BEBC58EA43F1B37EB95BC27A5062",
+      "romsha1": "EEEFA21A80EB51DA56D8D1B215ABBD0F36A63232",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "815"
+    },
+    {
+      "id": "1385120",
+      "romsize": "98320",
+      "romfilename": "Super Mario Bros. Special - 35th Anniversary Edition (Unl).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "3800DE83",
+      "rommd5": "54783483FFC95192E517EB41AEDA9845",
+      "romsha1": "5948159FEC36B5C1EA310F79FD166CB094EA7646",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "623"
+    },
+    {
+      "id": "559970",
+      "romsize": "31568",
+      "romfilename": "Super Mario Bros. (World).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9143C516",
+      "rommd5": "50AE6A93813318FF188D6043879BC435",
+      "romsha1": "EB3A95CCA60E06F5C1471BF194C2DBAF6AEAEDC3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "519",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "537654",
+      "romsize": "31920",
+      "romfilename": "Super Mario Bros - Pocket Edition.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F680194B",
+      "rommd5": "0CE0D0A9868A2CCB257A6E94BF8D9E6E",
+      "romsha1": "B6678D1AE540DC57D95E761A873E530B78F82F8B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "433"
+    },
+    {
+      "id": "537639",
+      "romsize": "32074",
+      "romfilename": "Mushroom Nightmare.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "81528A5A",
+      "rommd5": "F48D297318005FFCC6DCCFD25A2BD5CE",
+      "romsha1": "A5CB8FE02D46FEC4C678F058249CDD1B119AE652",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "398"
+    },
+    {
+      "id": "588892",
+      "romsize": "31555",
+      "romfilename": "Super Mario Bros. (Europe) (Rev A).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9E2AB480",
+      "rommd5": "CBC6D905942CEEA2F4BBB05FC592030C",
+      "romsha1": "B5601DC93AA029FA395B75AE720F62B8085BE697",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "348",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "1430966",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros 1 (W) [!] [T-BR] [T-Balboa G-Monkey's Traducoes] [V-1 0 P-100% A-2009].zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "9A9B0BB7",
+      "rommd5": "C1E64D2F6F507A25E92C6C0BCC801598",
+      "romsha1": "CAD8722723B6622DD1632D1EABADE123E885AB96",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "333"
+    },
+    {
+      "id": "537636",
+      "romsize": "32400",
+      "romfilename": "Millenium Mario.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C6B59068",
+      "rommd5": "05CABE7CD0C6C0FDB99BFFAFB945BE35",
+      "romsha1": "2C0184B36E8294F60BB1E8DBB700F8265DBF8FAC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "302"
+    },
+    {
+      "id": "537647",
+      "romsize": "31391",
+      "romfilename": "Super Greyscale Brothers.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D9707FE1",
+      "rommd5": "3A8B276452C373A91C61AD8E18129F1E",
+      "romsha1": "4ACC3B0BCE80EE9643FBE6D1941A11E70E1150C1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "295"
+    },
+    {
+      "id": "1404860",
+      "romsize": "40976",
+      "romfilename": "Super Irmaos (Brazil) (En) (Unl).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "2FDE3071",
+      "rommd5": "BD31054F201387633538704CB6F0C118",
+      "romsha1": "2D1E7A81EC018A1BD2B5AB9A3447BDF45BE710F0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "291"
+    },
+    {
+      "id": "537653",
+      "romsize": "31513",
+      "romfilename": "Super Mario Bros - Hard Type.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "EF1574D4",
+      "rommd5": "7EB5A84884AB4CDC0D7441F77146E3EF",
+      "romsha1": "96C3AE12F93C78BEADB7A5827C799FA7B45FE212",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "272"
+    },
+    {
+      "id": "537655",
+      "romsize": "32497",
+      "romfilename": "Super Mario Bros 2007.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "115D521D",
+      "rommd5": "4DFCD1DF412B7C9534959EC17AABD11F",
+      "romsha1": "93C0FD7D20D3F241CA18273F82A0701EB7DE9EC3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "266"
+    },
+    {
+      "id": "1412570",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. - Next 2 (200x)(Banedon)[h][Super Mario Bros.].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "EA1ED06C",
+      "rommd5": "351341C3E647B42534776794FFCC8D6B",
+      "romsha1": "E11616663A8FCA0D2E7E44AABB4E9F4F703B8502",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "237"
+    },
+    {
+      "id": "1420067",
+      "romsize": "45377",
+      "romfilename": "Super Mario Bros. 4 (Asia) (En) (Pirate)_1.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "08a1d510",
+      "rommd5": "2c2079f1d9a5a59272c931598adcf22c",
+      "romsha1": "eedffc6fa3f839a45fb6d30417fb81257f0fe875",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "201"
+    },
+    {
+      "id": "483251",
+      "romsize": "31613",
+      "romfilename": "Super Mario Bros. (Europe) (Rev A).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D778A40A",
+      "rommd5": "E8A3DCF0E0DEBDEC6BB4E235CE28E4E0",
+      "romsha1": "775270720CA02B905BC8BDF21F52BA83E4E70BE0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "199",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "537629",
+      "romsize": "31440",
+      "romfilename": "Luigi's Chronicles [Ver B].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "22B70DC6",
+      "rommd5": "FD253861E000BCF56B77136FB81762EF",
+      "romsha1": "FA255B8F7E71B85561D6BB999F18F85C86A563AC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "198",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      }
+    },
+    {
+      "id": "1418231",
+      "romsize": "123351",
+      "romfilename": "Super Mario Bros. - Pocker Mali (Asia) (Ja) (Pirate).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "f0fc2ec9",
+      "rommd5": "74513e4ebb1dc3491cac856f5ced5e3f",
+      "romsha1": "bf1e43ebac7c3e64d66e8d16ac73592efefe8e4a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "195"
+    },
+    {
+      "id": "480325",
+      "romsize": "31483",
+      "romfilename": "Super Mario Bros. (World).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F1C4AA1C",
+      "rommd5": "5F6AC7C769A05D71442E59F0155894D5",
+      "romsha1": "040AF11CF3865E1ED059F54B7D5D118B9DAE7DA8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "157",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "483252",
+      "romsize": "31627",
+      "romfilename": "Super Mario Bros. (World).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "945B1E0E",
+      "rommd5": "B63736CB0BA6F2BAD3111748F47CA80D",
+      "romsha1": "FD317AD810F7A6245F7F4277D0D89EE77416F311",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "141",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "1436237",
+      "romsize": "31452",
+      "romfilename": "Super Mario (Korea) (Pirate).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "9ff1cab3",
+      "rommd5": "7314876ebe5f6e5724de1072ede46d50",
+      "romsha1": "292e7d25e9c692d6b63fba0273a81097943a16c6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "126"
+    },
+    {
+      "id": "537616",
+      "romsize": "31935",
+      "romfilename": "3rd Ultimate Super Mario Bros.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BB283532",
+      "rommd5": "48FD9B3B2F6E981BA07D4468C4ABAAFC",
+      "romsha1": "6967A25091B76053CB991FAE9242260119B34044",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "120"
+    },
+    {
+      "id": "1447676",
+      "romsize": "100860",
+      "romfilename": "Super Mario - Jurassk Park (Asia) (En) (Pirate).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "fc2d0c35",
+      "rommd5": "134aa57a2023bad8be04b170797b51c7",
+      "romsha1": "d0ce56b97b353367cbf465a1d762c0d2f9b900dc",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "119"
+    },
+    {
+      "id": "1439981",
+      "romsize": "262160",
+      "romfilename": "Super Bros 5 (Asia) (En) (Pirate).zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "39F3F5F1",
+      "rommd5": "DAC1CD18115A24B5CF1E2403A66E2002",
+      "romsha1": "4D3B94FFFFC9A1EF14FD26E8000AF0BB63F7F698",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "101"
+    },
+    {
+      "id": "1418693",
+      "romsize": "393232",
+      "romfilename": "Super Mario Bros. 3 LA (2000-11-02)(Luis Alberto Galindo)[h][Super Mario Bros. 3].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "07CA4AA6",
+      "rommd5": "D70D63AB662DC1205DC0A3B10DB65329",
+      "romsha1": "5E0562AE4F280246933D6E0FE00915A844C3E200",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "99"
+    },
+    {
+      "id": "537614",
+      "romsize": "31967",
+      "romfilename": "2nd Ultimate Super Mario Bros - Easy.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A707E53D",
+      "rommd5": "DB79109B363D020CAA08D91547FC995A",
+      "romsha1": "DD759DF6AEDCD93452C5BF118A470E2D7B80ECC5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "98"
+    },
+    {
+      "id": "1443392",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros - Platina.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "78ED5F11",
+      "rommd5": "9CAAEFD1826A01CE9397C87125B9B5C1",
+      "romsha1": "4AFA9143471B65816986F0787CF99DFB0F3A9CCF",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "93"
+    },
+    {
+      "id": "1416743",
+      "romsize": "43399",
+      "romfilename": "Super Mario Bros. Malee 2 (19xx)(-)(AS)[p].unf",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "C99C4789",
+      "rommd5": "C122FD54B968FD4B52773D5CB5864B25",
+      "romsha1": "0753E6DB89DBA8FCBA0DD4E6A7C1FEC961A56446",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "62"
+    },
+    {
+      "id": "1421939",
+      "romsize": "40976",
+      "romfilename": "Super Irmaos (Brazil) (En) (Unl).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "B8CB5186",
+      "rommd5": "6319F232D4DA5BE275756DF59D06AE11",
+      "romsha1": "6810D812A0808DED37D2CBD957BEDB9DE351A626",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "60"
+    },
+    {
+      "id": "1416722",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. - Hard Type Hack v1.01 (2003-06-19)(Gil Galad)[h][Super Mario Bros.].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "4840D733",
+      "rommd5": "C86459DCB4650007C0564A80060193F0",
+      "romsha1": "7A104362E959FF38FF10D5902E2AF3528A0809EF",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "56"
+    },
+    {
+      "id": "537615",
+      "romsize": "31921",
+      "romfilename": "2nd Ultimate Super Mario Bros.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1C4A8AC1",
+      "rommd5": "4E5AB84EF25E5C869E52D2B17559E55F",
+      "romsha1": "D0AB9F632298E7DCE4FAE384039649C4D12441C8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "55"
+    },
+    {
+      "id": "1438166",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros Hack by justin 2 [h1][a1].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "ec988620",
+      "rommd5": "c9d742054e361d9110892f36ed62ddd1",
+      "romsha1": "b7eb4eb9504b585e6d9244b0adba0740875e6d81",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "51"
+    },
+    {
+      "id": "537613",
+      "romsize": "31919",
+      "romfilename": "1st Ultimate Super Mario Bros.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "330ACFC7",
+      "rommd5": "DBA669485B620B4010A813D654392D1B",
+      "romsha1": "15A708B93FA9369B94BC8993FB801A16EE7481C0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "50"
+    },
+    {
+      "id": "1458906",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros - The Mario Bros Shroom Trip.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "6475E972",
+      "rommd5": "2B0FACBF99C0A9BC8CF3192B8A02A2CA",
+      "romsha1": "D94CA8278BB9F78D006DDA0B3B706901EA249914",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "43"
+    },
+    {
+      "id": "1438052",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros Hack with no title by r.m (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "AE0BE296",
+      "rommd5": "79C05F6A147D27CC8A0D0B2921E46D41",
+      "romsha1": "4CB76A619A4C1FC0A3FE0E7E72BE827EF97ED45A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "40"
+    },
+    {
+      "id": "1454369",
+      "romsize": "31509",
+      "romfilename": "SMB1 - Super Diego Bros. 1 (v1.3) (JonnyManjiro) (Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "6581c419",
+      "rommd5": "f76a3a29587863f805534d70a0d334a4",
+      "romsha1": "7ab49918eddd50932a9236bb712c4cde944dc28a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "35"
+    },
+    {
+      "id": "1437944",
+      "romsize": "40976",
+      "romfilename": "Super Mario R. by DahrkDaiz (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "82083A2E",
+      "rommd5": "D8CAB9C1047825DC9C579A795D183A33",
+      "romsha1": "14F024348C2A1C68176F2F8A4C2F129461934B84",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "29"
+    },
+    {
+      "id": "1455156",
+      "romsize": "228201",
+      "romfilename": "Super Mario Bros. 3 - Crowned Edition (Super Mario Bros. 3 modification) (1.0).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "3afa8cd4",
+      "rommd5": "17862b89424a834c6b00561d19bcf81b",
+      "romsha1": "b14e774915ec78d5fab7872c83d801b17c5566ab",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "21"
+    },
+    {
+      "id": "1466403",
+      "romsize": "31890",
+      "romfilename": "Super Mario Bros. - Alcatraz.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "ded83e73",
+      "rommd5": "c267dcdc601899a16b0ce45d5fdb6a60",
+      "romsha1": "db244ca4ee1406d94b25cbb36faf67e107b5e244",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20"
+    },
+    {
+      "id": "1463193",
+      "romsize": "31625",
+      "romfilename": "SMB1 - Super Diego Bros. 2 (v1.0) (JonnyManjiro) (Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "97a5fa14",
+      "rommd5": "4cf9ba4e3849cc6a13ef8370d1c9d153",
+      "romsha1": "e85da1d7646dbc432d3d9a3b169bb181d6737af4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20"
+    },
+    {
+      "id": "1438124",
+      "romsize": "40976",
+      "romfilename": "Super Mario Clouds (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "d461a616",
+      "rommd5": "4b5239e3cb7d0fb90e07fd259bd1cc2b",
+      "romsha1": "98f3c2de55680006772c41a406cb9ca9096ea791",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18"
+    },
+    {
+      "id": "1464780",
+      "romsize": "31698",
+      "romfilename": "Super Mario Bros. Ende's SMB Hack 1 (Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "1eeab4b1",
+      "rommd5": "423622500efc209aa07246cc3242d0ad",
+      "romsha1": "5176b901314566b5719e810b987e08f0eaacc7db",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18"
+    },
+    {
+      "id": "1445207",
+      "romsize": "30858",
+      "romfilename": "Black Mage Mario (199x)(Tom Brennan)[h][Super Mario Bros.]_1.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "af32e113",
+      "rommd5": "92d60b1af263f44174a5558750af2c0f",
+      "romsha1": "3c5d1554136307142cfdbd774a25186f12904c5e",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13"
+    },
+    {
+      "id": "1467024",
+      "romsize": "30595",
+      "romfilename": "Super Mario Bros - Super Mushroom (X).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "c18fdf03",
+      "rommd5": "171ee6de80fac97994435d5316df89f0",
+      "romsha1": "8cf113359e7623959c232ef5415520d4b7eeeacf",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12"
+    },
+    {
+      "id": "1465122",
+      "romsize": "81936",
+      "romfilename": "SMB1 - Extra Mario Bros (v1.0) (ATA) (Alt) (Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "fefd4e70",
+      "rommd5": "c2ed15b191bdf94170f2e2b880e5c44b",
+      "romsha1": "8d391be262a6586e90e89c646c380cce84fa47c8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7"
+    },
+    {
+      "id": "1472397",
+      "romsize": "81936",
+      "romfilename": "Super Mario Bros Hi Episode 1d - Final Tuned (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "2bccb233",
+      "rommd5": "c22d38831b3bf3997fadca7fe870eada",
+      "romsha1": "de37979d0a80a4023a37313be5ece67ba18386f6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7"
+    },
+    {
+      "id": "1472661",
+      "romsize": "81936",
+      "romfilename": "Super Mario Bros Hi Episode 4 (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "96c534dc",
+      "rommd5": "dbdcb587dc09f46b0c361f40b293886a",
+      "romsha1": "b79ee454da6929fbb9eac4e6bac1c9228de8e50c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7"
+    },
+    {
+      "id": "1472793",
+      "romsize": "31609",
+      "romfilename": "Super Mario Bros. - Hoshi ni Negai o by Ki.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "f4b1bcde",
+      "rommd5": "15017d0d0e74cc9f8ca58dc232a86d2f",
+      "romsha1": "d404cb362e2df187b8391f78703c4c0fb68cc6a8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6"
+    },
+    {
+      "id": "1472742",
+      "romsize": "31305",
+      "romfilename": "Super Mario Bros. - 2nd by Googie.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "d23e94fa",
+      "rommd5": "64e242039025b880d2a81e113082e268",
+      "romsha1": "39206a52f524b151ff2c861223b6db3318b5078d",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5"
+    },
+    {
+      "id": "1472814",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros - The Stronghold.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "FAF01E99",
+      "rommd5": "2E138497948B5DD953D4EB095E0B18F5",
+      "romsha1": "0B1FF1E0010DFEBE2E8A072DF96AE1CE7AF0595E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4"
+    },
+    {
+      "id": "1472694",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros. - Challenge Googie.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "B17FEF7D",
+      "rommd5": "149D3EF1A2F5259B39D3D13575591D53",
+      "romsha1": "6B0F3432917CCFAF9AAEE89AF480A13C6E9D9AC2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4"
+    },
+    {
+      "id": "1472721",
+      "romsize": "31984",
+      "romfilename": "Super Mario Bros. - Kirikaze Oogarasu Edition.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "c01bcf10",
+      "rommd5": "fa0a763a7bc6f9c49f0ceee28e4b8cca",
+      "romsha1": "033ea24fcd75ec238bce9b543208a819e45b837c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3"
+    },
+    {
+      "id": "1472637",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros by Garuna (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "6f99f0fe",
+      "rommd5": "549f1b21eb4c77e415e320f9cdcd9689",
+      "romsha1": "e847c336ac596d9dd2a93f11ceefb51a15336a14",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1"
+    },
+    {
+      "id": "1472457",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros by Scroll (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "3d5be14e",
+      "rommd5": "8bdbd6dfdd9565bcf0da750dd6eadc7d",
+      "romsha1": "1311bd3a76edc87e345c4096769a058b2a0fce68",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1"
+    },
+    {
+      "id": "1472736",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros by REI (SMB1 Hack) [a3].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "cdf5523b",
+      "rommd5": "26df01d79ea6a0ac6e082b908e2fd144",
+      "romsha1": "763c86bbfdaa44efcfaf39852990595145560beb",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1"
+    },
+    {
+      "id": "1472760",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros by Justin (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "dd398485",
+      "rommd5": "2e9057dd62c93583a9b1b3964b2ed69a",
+      "romsha1": "b1dc055e25f1d770921430f40fd3deafedb3fa7a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1"
+    },
+    {
+      "id": "1474818",
+      "romsize": "79882",
+      "romfilename": "SMB1 - Super Ale Bros. Redux (v1.0c) (AleFunky) (Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "c4350e51",
+      "rommd5": "e4d6b418755754782779edbe293280b8",
+      "romsha1": "b668b3b2b30fe7e0370a8c50b772e569a50c2529",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1472790",
+      "romsize": "40976",
+      "romfilename": "Super Duper Mario Bros (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "f2cd5758",
+      "rommd5": "3ea7cffe77c9712b4f9119130bd53928",
+      "romsha1": "d96511323b600aa2b87963f84fc392494320d39c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1472796",
+      "romsize": "40976",
+      "romfilename": "Mario Kai (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "f52f9cdc",
+      "rommd5": "ad87c2d35ad346e307aea4dd69720ffa",
+      "romsha1": "8fb0094f3a057a50385ec104c15345d712333d91",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1436189",
+      "romsize": "31039",
+      "romfilename": "Mario Jump (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "499a90d4",
+      "rommd5": "e27de12e797f8ecddc82e95de44c43a0",
+      "romsha1": "aaf0e7e25eea0e1a57d9cdbb7dbee7734ca45b56",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1480992",
+      "romsize": "40976",
+      "romfilename": "Mega Mario Bros. v0.06b (2003-06-15)(MegaByte)[h][Super Mario Bros.].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "01318b33",
+      "rommd5": "53523325771c74e22498d386804f074b",
+      "romsha1": "8ea408b09b54fc066ecd4d716a6739d24fc96c4b",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1472811",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros - Squid Eyeballs! PAL (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "FACC68BF",
+      "rommd5": "9883A90741842890A63404B7E4CB5901",
+      "romsha1": "74F2030D3ABBE1DB5AF61BEF54084DB7FC0A0208",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481007",
+      "romsize": "31720",
+      "romfilename": "Sirius High Speed Mario Bros. 1 (200x)(Sirius)(JP)[h][Super Mario Bros.]_1.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "0b4d6370",
+      "rommd5": "c2ebd6dc8357726c354eb3380cb3af53",
+      "romsha1": "da3cc5a41741b8c52d085657b27ef2af67adffff",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1472562",
+      "romsize": "31652",
+      "romfilename": "Sirius High Speed Mario Bros. 2 (200x)(Sirius)(JP)[h][Super Mario Bros.].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "04d8344e",
+      "rommd5": "3935eb5e5b682f1ed0db89b035f8ff34",
+      "romsha1": "e004c05909b6a5f0cc0b5cb813f421e1cf9e8691",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481013",
+      "romsize": "31982",
+      "romfilename": "Super Mario Bros. - Graphics Hack (200x)(ZombiKiller)[h][Super Mario Bros.].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "0d468e57",
+      "rommd5": "ad4ca8a5f958af847ea69af278d24456",
+      "romsha1": "a2c87621506f297377acd5d2d1f79c6516a637aa",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1476408",
+      "romsize": "31797",
+      "romfilename": "Super Mario Bros Remix 2 - The New Adventures (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "a8774aeb",
+      "rommd5": "d9f7f68f298df5f2d0c2a5e1ec6f2bec",
+      "romsha1": "cb0ff069d08c0244d8c80029cc562ca8bc3aea64",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481280",
+      "romsize": "31415",
+      "romfilename": "Super Mario Bros. - Mortal Kombat Bros Sub Zero Mythologies Quest.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "f4655778",
+      "rommd5": "1100cd6ed22465ddca6dc61bff24bae4",
+      "romsha1": "47111ad0e82d61a04cb9b0acaaf825d436994f1f",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1472580",
+      "romsize": "40976",
+      "romfilename": "Mario De DHUN 2Nd Adventure V1 10 (200X)(Yudaidhun)(JP)[H][Super Mario Bros ].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "36CE64FA",
+      "rommd5": "F8836E73D1111C8C15A585BB7638C11A",
+      "romsha1": "7E049916645207787E7179D683ED98276E92F6DD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481028",
+      "romsize": "40976",
+      "romfilename": "Ende's Super Mario Bros Hack 2 (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "1bd8fcc8",
+      "rommd5": "1a8b30472397778a2a03d8ed60eedbf6",
+      "romsha1": "11054f85344282ea367a22e21b3899f00c67df5e",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481286",
+      "romsize": "27327",
+      "romfilename": "Athletic Mario 3 (200x)(Mana)[h][Super Mario Bros.].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "fefa9698",
+      "rommd5": "d5956d9d724443ecc9a06e92507c59af",
+      "romsha1": "c2f75c845b3ed54285153bf66cfa649ff9525931",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481040",
+      "romsize": "41488",
+      "romfilename": "Mario Adventure 2 (200x)(DreamWave Games)[h][Super Mario Bros.].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "20f17569",
+      "rommd5": "3f7883fbf198bdc6c95251ced2f44182",
+      "romsha1": "23c875b1f78a201fb845d3a5b2cde7e426f5bed5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1472598",
+      "romsize": "40976",
+      "romfilename": "Mario in Ice (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "4df51398",
+      "rommd5": "827c6c3b0a9a5f87db2e2d77eefd42ce",
+      "romsha1": "fef320c900bedb9d8c9c5d6cb269370eaca71206",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1483095",
+      "romsize": "31210",
+      "romfilename": "Mario De DHUN 3rd Adventure (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "60812918",
+      "rommd5": "43a4f3f85fe8fdd58cbe4ee41a3f93f8",
+      "romsha1": "e6e80c24873742485c772704f82adbb6db1c128b",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1483098",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros Font V1.0 by Clomax Dominion (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "6a79e994",
+      "rommd5": "12df8b058e16257d5a7d438c4c2e8996",
+      "romsha1": "43feb2190d2f7e2010e9de8f847d728dbfe0690c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481061",
+      "romsize": "32097",
+      "romfilename": "Hyper Mario Bros. 5 - Vol. 1 (200x)(MHS)(JP)[h][Super Mario Bros.]_1.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "3847d3cd",
+      "rommd5": "0a4601986c3f43595cf57a52df7aa484",
+      "romsha1": "ca460e8240c06cf4512aa911e167213c9d0b536b",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1483128",
+      "romsize": "40976",
+      "romfilename": "Falling Mario by WA (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "bc77539b",
+      "rommd5": "41ab171e60de59ef9aec2360e6845622",
+      "romsha1": "45543a0aed48f5d0943a8ee33ea8a9709c3bfa3d",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481085",
+      "romsize": "40976",
+      "romfilename": "SMB Paper Mario Bros (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "4c5db262",
+      "rommd5": "4b7e426c041077033a07319991cd27da",
+      "romsha1": "1e4072cf1c663ad0e9fd49250bdf91e1633e25f1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1445246",
+      "romsize": "40976",
+      "romfilename": "Balloon Mario Bros by U1 (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "65c3a8d7",
+      "rommd5": "4c3011a0be3fa047bd4b72f2197da451",
+      "romsha1": "ec463b783ef07d866b57f41b27b0e6b6d5ee1c76",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1458558",
+      "romsize": "30716",
+      "romfilename": "Maleo Bros (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "2eccfa5d",
+      "rommd5": "bbfb2cda3ce48cdeaae20ab9dc2f1dab",
+      "romsha1": "391ef7429aa7ada38a702a642125e0830b8f6400",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481088",
+      "romsize": "31875",
+      "romfilename": "Super Mario Bros.- Ninja Insanity [H  Super Mario Bros.][Unknown] (2).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "4e59d3eb",
+      "rommd5": "02e803c689584a860c1d6b1fe12b8d47",
+      "romsha1": "9f3151badc0fbb59bad7dab60c78d3b5b8e09841",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1483137",
+      "romsize": "116456",
+      "romfilename": "Super Mario - Jurassk Park (Asia) (En) (Pirate).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "c6af86da",
+      "rommd5": "8060d9bfa35f0350b4dff4ecf6c21676",
+      "romsha1": "a56bb1f8faecd59548f1c4f5fa03bb537b5b5c71",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1464975",
+      "romsize": "31391",
+      "romfilename": "For Mario Super Bros NESamgo (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "b7c33afb",
+      "rommd5": "f7843e6bdfa1d4a17e7dafeea5445a25",
+      "romsha1": "e97e83e3f5ba47bd6ede7c2c2f5ca877d412b6f2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1472658",
+      "romsize": "401424",
+      "romfilename": "Odd Mario Bros 3 (SMB3 PC10 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "9556311E",
+      "rommd5": "6E93A1E2D235B26678AA68D1067FF09B",
+      "romsha1": "5A16C5681B46009CF42C80A58A6461C343EFBED8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1483929",
+      "romsize": "40976",
+      "romfilename": "Frank's Second Ultimate Super Mario Bros (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "ba9689dd",
+      "rommd5": "f698f1cf299c7c5b1fd05f95d848d820",
+      "romsha1": "38c5aebfefa9f9c09174436b05635cd555192eb8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1478811",
+      "romsize": "32278",
+      "romfilename": "Super Mario Bros Remix - The New Adventures (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "fcb02a08",
+      "rommd5": "bf6635d0d130d5c9d4c74b4f212768b4",
+      "romsha1": "d1101b3475b05738ff233394962fddfe45d6a3db",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481118",
+      "romsize": "26793",
+      "romfilename": "Kanji Mario Bros. (200x)(Mikachu)(JP)[h][Super Mario Bros.].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "6db8251f",
+      "rommd5": "8066a331429eea2e5a6019f8e736abe0",
+      "romsha1": "691f45e6ca0c3949e9f23277a8fc359a5d4e8d87",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481121",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros by Tekhacks (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "71178f65",
+      "rommd5": "199fa67637280e0d389bff1a19fffa93",
+      "romsha1": "bbe016148363a5b42880261ac5a5348bc0816655",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1483944",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros by D-6U (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "9833c033",
+      "rommd5": "5c224bfbacf3938400f53d91a9d664f1",
+      "romsha1": "82e25f7313a5fa8c8dc1e72142e19573439ae4e7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1467078",
+      "romsize": "40976",
+      "romfilename": "Mother Fucker Bros (SMB1 Hack) [b1].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "d4547b6c",
+      "rommd5": "d1d818741b0d64aabf4ad547b7faf045",
+      "romsha1": "2f3bc27b076942f2b3001a0efe593b13102d90ff",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481166",
+      "romsize": "31964",
+      "romfilename": "Super Mario Bros - Evolution 2 (X).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "a0b2d574",
+      "rommd5": "1d086b0e900d542ce7c5b745b4a10aac",
+      "romsha1": "81b4df0ee78617c369596f8b7c676d162e5081e9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1474767",
+      "romsize": "40964",
+      "romfilename": "Super Mario Bros. Extended (Graphics).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "1daa3bbf",
+      "rommd5": "c955f0dbca4dd4b9ce86655c54528663",
+      "romsha1": "fb249fa56df1c90f0414e472fd4901b7405dc646",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481169",
+      "romsize": "40976",
+      "romfilename": "Kamikaze Mario DX V0 99 (2003-04-25)(DS79)(JP)[H][Super Mario Bros ].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "A1192804",
+      "rommd5": "6C1DCEB524682CA2094D16388C8E7461",
+      "romsha1": "ACB187BAEA384EFA6574C1356619C5DCB396C6AD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1472727",
+      "romsize": "40976",
+      "romfilename": "Flower Mario (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "c328ddcd",
+      "rommd5": "0dbab637a64cc10717d079088ca00a0c",
+      "romsha1": "ff67f43810705f005fd95f0ed4f3a1697c628e00",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481178",
+      "romsize": "40976",
+      "romfilename": "Super Mario Bros by Excel (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "ada65a41",
+      "rommd5": "610cf028c5820e816e81b6a4bdeabce8",
+      "romsha1": "803b8a9a05a239860579930a52085c3329fe404c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1464801",
+      "romsize": "32103",
+      "romfilename": "Frank's Second Ultimate Super Mario Bros Nasy Version (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "316e9013",
+      "rommd5": "59be0a24a2553b949ee37116603d89e0",
+      "romsha1": "cf9f2e7c4d987c6f0f3a48e6d5104b7f01caf01e",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1437923",
+      "romsize": "40976",
+      "romfilename": "Mario ZZT (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "771a2d14",
+      "rommd5": "d15defae249c8a76150a7631fb4b8b59",
+      "romsha1": "65ed0ab9449181781935573d93d49bddad0c5a62",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1472484",
+      "romsize": "31253",
+      "romfilename": "Mario Kai 2 (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "44b7699d",
+      "rommd5": "b8db28d2cf8359d9d8dff608ea29eea5",
+      "romsha1": "663d920b0973f81d50d8d93d370220c8834e6abe",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1476324",
+      "romsize": "40976",
+      "romfilename": "SMB Tetris Mario Bros (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "b7208db6",
+      "rommd5": "486c0497e1d36fcd5d7baefd46f8b646",
+      "romsha1": "50c250ce9280e6fab23f7e71a06a7003dbc16e49",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481190",
+      "romsize": "40976",
+      "romfilename": "Mario Had Died (SMB1 Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "b7fe095a",
+      "rommd5": "4516409209715a9b1e5fdf55971de367",
+      "romsha1": "e1c1fbbc7bdb62eb65a67a2d39d5941af20b9a2c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1472748",
+      "romsize": "28053",
+      "romfilename": "Athletic Mario (200x)(Mana)[h][Super Mario Bros.].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "d3694dcd",
+      "rommd5": "391b306d0b9172b78555b2d0f8b99df5",
+      "romsha1": "f6f14a6a9e92cf61447a08794e44a768cc8e4e9a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481208",
+      "romsize": "27934",
+      "romfilename": "Kirby Mario Bros. (200x)(Mikachu)(JP)[h][Super Mario Bros.]_1.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "c0822517",
+      "rommd5": "755c0de050a7158e945babf0dffe8274",
+      "romsha1": "bae2e72cbf626725b3d81c163c95dbcfc4c8ce9a",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481211",
+      "romsize": "33043",
+      "romfilename": "SMB1 - Mario Vs. Airman (v1.0 - Mushroom Kingdom Added) (ATA) (Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "c115f3c1",
+      "rommd5": "9f72d90391b251986b7bbf121bbdb44d",
+      "romsha1": "54b835d10e2213d108829a9530f1514e14b5947d",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1481214",
+      "romsize": "78390",
+      "romfilename": "Super Bros. 5 (Asia) (En) (Pirate).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "c372ce5e",
+      "rommd5": "b5b552bdfbe4d0ce3fe1abed0b5d960c",
+      "romsha1": "5fcfadcd5b2f14a0d872a95af7b78da67db9e963",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    }
+  ]
+}

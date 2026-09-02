@@ -1,0 +1,639 @@
+{
+  "id": "136580",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Dooly Bravo Land"
+    },
+    {
+      "region": "kr",
+      "text": "Dooly Bravo Land"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "12357",
+    "text": "Daou Infosys"
+  },
+  "developpeur": {
+    "id": "12357",
+    "text": "Daou Infosys"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Dooly Bravo Land is a South Korean Famicom platformer developed and released by Daou Infosys in 1992. It features Dooly the Little Dinosaur who was a popular cartoon character at that time in the country."
+    },
+    {
+      "langue": "fr",
+      "text": "Dooly Bravo Land est un jeu de plateforme développé et publié par Daou Infosys en 1992. Il présente Dooly le petit dinosaure qui était un personnage de bande dessinée populaire à cette époque en Corée du sud."
+    },
+    {
+      "langue": "de",
+      "text": "Dooly Bravo Land ist ein südkoreanisches Famicom-Plattformspiel, das 1992 von Daou Infosys entwickelt und veröffentlicht wurde. Sie stellt Dooly, den kleinen Dinosaurier, vor, der zu dieser Zeit im Land eine beliebte Zeichentrickfigur war."
+    },
+    {
+      "langue": "es",
+      "text": "Dooly Bravo Land es un juego de plataformas de Famicom surcoreano desarrollado y lanzado por Daou Infosys en 1992. Presenta a Dooly, el pequeño dinosaurio, que era un personaje de dibujos animados popular en ese momento en el país."
+    },
+    {
+      "langue": "it",
+      "text": "Dooly Bravo Land è un platform Famicom sudcoreano sviluppato e rilasciato da Daou Infosys nel 1992. Presenta Dooly the Little Dinosaur, che all'epoca era un personaggio dei cartoni animati popolare nel paese."
+    },
+    {
+      "langue": "pt",
+      "text": "Dooly Bravo Land é um jogo de plataformas famicom sul-coreano desenvolvido e lançado pela Daou Infosys em 1992. Possui Dooly the Little Dinosaur, que era um personagem de desenho animado popular naquele tempo no país."
+    }
+  ],
+  "dates": [
+    {
+      "region": "kr",
+      "text": "1992"
+    }
+  ],
+  "genres": [
+    {
+      "id": "7",
+      "nomcourt": "0101",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "a49650f7",
+      "md5": "fffc79ef3f5fcf246d47d41afa6058a2",
+      "sha1": "726b269ea5045b7de929239b2411c0eb0d34a356",
+      "size": "2697",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=ss(wor)",
+      "region": "wor",
+      "crc": "cf407886",
+      "md5": "0e2b968b3eea71071324676347861089",
+      "sha1": "6b82b16d7bbbe1a610c09d4900333572ef5e7a61",
+      "size": "2696",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=video",
+      "crc": "e962b6d4",
+      "md5": "ab6438de6670e2ee6dad85d7d75598a2",
+      "sha1": "057d7e914d69281e0daefdc9664bb29199f94650",
+      "size": "15308185",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=video-normalized",
+      "crc": "d1c69ed0",
+      "md5": "a7402580647375f565e2bd6a6f984aa0",
+      "sha1": "10f5e7297179db0c42b63870bac103d33b629629",
+      "size": "3207985",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=steamgrid",
+      "crc": "de07500a",
+      "md5": "900e15475550987c31c99e3f1dfe20f8",
+      "sha1": "e6fa46be093d6c398af5362a5ebf3f46acce5a37",
+      "size": "28795",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=wheel(wor)",
+      "region": "wor",
+      "crc": "5bb92054",
+      "md5": "8541b5943f3ab6f5c35db9258ed52953",
+      "sha1": "2c768b0ee924b2489107b0c87041a17d3af3b49f",
+      "size": "151790",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "ee7c1c05",
+      "md5": "200a8312f3254346d51b3560983ceb6a",
+      "sha1": "b644b81130976b04f01e64916507dd7735087648",
+      "size": "147424",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "25ba10d0",
+      "md5": "38863006bc63dfbc29aeb63f3c31cc30",
+      "sha1": "e3bb9833461896c0208e2a7911b6ce65ace20442",
+      "size": "150348",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "e7e26e5e",
+      "md5": "c55642b15daffd6f18658fa0928a2e8d",
+      "sha1": "c71cee84eba70ae257f35194b4f0773105f469c3",
+      "size": "514693",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "73329a30",
+      "md5": "4950f0a64dc42a4f38eb07d0a239408d",
+      "sha1": "9fa01c69c72f199aa9e66a48e9178bf1951f6a76",
+      "size": "85138",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=box-2D(kr)",
+      "region": "kr",
+      "crc": "4970ec0d",
+      "md5": "e5b4cab0285116c09c4c6899a21f9bb5",
+      "sha1": "31e483e60ba346806aeb1c7edb2e8306926e9341",
+      "size": "761314",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=box-2D(wor)",
+      "region": "wor",
+      "crc": "11f3f588",
+      "md5": "ccba51261c2f0f4274ed4e856b639aea",
+      "sha1": "39b2cd2ae3ba81bb2981c9d33e69cd17ce473b27",
+      "size": "627610",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=box-2D-side(kr)",
+      "region": "kr",
+      "crc": "f911fa85",
+      "md5": "79bef42c676f22ecdbc5f739dada5d27",
+      "sha1": "2146138e202fe5f1f0db0f9cce02894219e7a048",
+      "size": "138230",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=box-2D-side(wor)",
+      "region": "wor",
+      "crc": "4481d095",
+      "md5": "1172ff02d8005f072e1add59b1f84a63",
+      "sha1": "a0bc22b2bdaecba565ac24f1ad9e1087ae3a0dd0",
+      "size": "18556",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=box-2D-back(kr)",
+      "region": "kr",
+      "crc": "651e9b3c",
+      "md5": "73bfa86b9877a444bd26ae7f0f4ff905",
+      "sha1": "c63f02bad359e6d0db15305c5bb3aecadbda16ba",
+      "size": "733213",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=box-2D-back(wor)",
+      "region": "wor",
+      "crc": "86e496e1",
+      "md5": "14ca4bd840a2030371f224090bc30e42",
+      "sha1": "0ea85e8b738f6edde460baf5e5797bab622fec4e",
+      "size": "132922",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=box-texture(kr)",
+      "region": "kr",
+      "crc": "0cccea43",
+      "md5": "09e640f432f5d0ad66b2e161a4bb1f9f",
+      "sha1": "fc3896fe9ed60f96646d748243292585288112c9",
+      "size": "1606971",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=box-texture(wor)",
+      "region": "wor",
+      "crc": "44134195",
+      "md5": "60d60436058430dffd74825caf744171",
+      "sha1": "1e2ad48f38607e1d5dc230867e094fefe058ab5d",
+      "size": "837239",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=box-3D(kr)",
+      "region": "kr",
+      "crc": "f9ad19f3",
+      "md5": "ccd1608422a4d672f18827dcd64b38dc",
+      "sha1": "cc37abec6efe5b8678c06b99b14a4f5a20539513",
+      "size": "341615",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=box-3D(wor)",
+      "region": "wor",
+      "crc": "6382380a",
+      "md5": "3ddb0e72dc98c1c291a99ab55ed87ebd",
+      "sha1": "5a455c954e5029938b6ce86a623f1264d8d5822e",
+      "size": "279670",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "470d1af8",
+      "md5": "8f348b67246342a4bb874f1fe3f36976",
+      "sha1": "2ef01a575361cff9f1051b235d9a7bb1c0bcc51b",
+      "size": "384952",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "74b544fe",
+      "md5": "91d5a5414bff1821c107e852b8e118ab",
+      "sha1": "8c6ea94737a026a3aea84bced3c66c5999707ccb",
+      "size": "312897",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=mixrbv1(kr)",
+      "region": "kr",
+      "crc": "1dac6990",
+      "md5": "f37077c0da9404429df058747003e68e",
+      "sha1": "4e3fd41bcaae241a5bc0ba0e48840d0dbfb487db",
+      "size": "474779",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "4836cbbc",
+      "md5": "0d345c0caa24b68c13763245e6f93a97",
+      "sha1": "441dc970f9f388b4145f7b844ad71b2e27bbb1e0",
+      "size": "453063",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "825ba31b",
+      "md5": "887c65d06d345b9d61e16f669f7da15a",
+      "sha1": "29634d47bf57e3344525ae9447eae949b22c4f46",
+      "size": "680560",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=mixrbv2(kr)",
+      "region": "kr",
+      "crc": "cea74c66",
+      "md5": "2d0c6839d63618bb713e888eed8833f5",
+      "sha1": "32b025babd139cdc8d4d8dd70540c65fb1200869",
+      "size": "695811",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=136580&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "af4cea80",
+      "md5": "0c2fb78fa73b3e269a0976dc0c5bd92f",
+      "sha1": "136a6259a34a4e82796fb57fbf87adf516e48ab9",
+      "size": "673658",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=12357&media=wheel",
+      "crc": "ae0a5ddd",
+      "md5": "7ab6da1173cca999218c4cf16feba9d9",
+      "sha1": "3ef24e2a5328c7fd771cace8a8617cf995b63d0b",
+      "size": "24005",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=12357&media=wheel",
+      "crc": "ae0a5ddd",
+      "md5": "7ab6da1173cca999218c4cf16feba9d9",
+      "sha1": "3ef24e2a5328c7fd771cace8a8617cf995b63d0b",
+      "size": "24005",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=pictoliste",
+      "crc": "d8329f23",
+      "md5": "ada4054a77e20edada97225e5c316116",
+      "sha1": "cfadf96438bde8ae1a8c3c52c85dd6768ba9b4c8",
+      "size": "855",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome",
+      "crc": "0f88a1ba",
+      "md5": "e8c818f5f59d48642afea18e5c545c15",
+      "sha1": "ef3857055eaae13785d2cab692edf9454b544be3",
+      "size": "9142",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome-svg",
+      "crc": "fa797dda",
+      "md5": "73a61640b94904834fdbfc7e043150e0",
+      "sha1": "3e5fe422339961df30bd70aa83e43671a1badce4",
+      "size": "4755",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=background",
+      "crc": "3d578fbf",
+      "md5": "62dbdbe08a5765fae2630d06e0f0ea38",
+      "sha1": "354ef394870af26f443863a29c846a07a20f47a0",
+      "size": "161158",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "476256",
+      "romsize": "262160",
+      "romfilename": "Dooly Bravo Land (Korea) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E7740E47",
+      "rommd5": "A94C3351C4A58D16AF38DA4D0C231149",
+      "romsha1": "E3CAC40C96E0496DB13FF3460BB4EA4DAD463116",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "40605",
+      "regions": {
+        "regions_id": [
+          "58"
+        ],
+        "regions_shortname": [
+          "kr"
+        ],
+        "regions_en": [
+          "Korea"
+        ],
+        "regions_fr": [
+          "Corée"
+        ],
+        "regions_de": [
+          "Korea"
+        ],
+        "regions_es": [
+          "Corea"
+        ],
+        "regions_it": [
+          "Corea"
+        ],
+        "regions_pt": [
+          "Coreia"
+        ]
+      }
+    },
+    {
+      "id": "1136355",
+      "romsize": "262160",
+      "romfilename": "Dooly Bravo Land (Korea) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "cda96b1e",
+      "rommd5": "0a3f4ecfb2dae225d129897110356373",
+      "romsha1": "9840b4837e205d55d98cb86fbaae9a9f98635c5d",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11539"
+    },
+    {
+      "id": "634928",
+      "romsize": "262144",
+      "romfilename": "Dooly Bravo Land (Korea) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "86BE4746",
+      "rommd5": "01160ED35DDE57D348CC38EDB0AC5689",
+      "romsha1": "6AAA5521F91F101448E77C996C9802015578400C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6028",
+      "regions": {
+        "regions_id": [
+          "58"
+        ],
+        "regions_shortname": [
+          "kr"
+        ],
+        "regions_en": [
+          "Korea"
+        ],
+        "regions_fr": [
+          "Corée"
+        ],
+        "regions_de": [
+          "Korea"
+        ],
+        "regions_es": [
+          "Corea"
+        ],
+        "regions_it": [
+          "Corea"
+        ],
+        "regions_pt": [
+          "Coreia"
+        ]
+      }
+    },
+    {
+      "id": "612741",
+      "romsize": "97019",
+      "romfilename": "Dooly Bravo Land (Korea) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2647D42B",
+      "rommd5": "9F149AEED3F87F03474F125E194BEA8B",
+      "romsha1": "5761F10656CF582AB84536435473A9418BD2FF73",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4850",
+      "regions": {
+        "regions_id": [
+          "58"
+        ],
+        "regions_shortname": [
+          "kr"
+        ],
+        "regions_en": [
+          "Korea"
+        ],
+        "regions_fr": [
+          "Corée"
+        ],
+        "regions_de": [
+          "Korea"
+        ],
+        "regions_es": [
+          "Corea"
+        ],
+        "regions_it": [
+          "Corea"
+        ],
+        "regions_pt": [
+          "Coreia"
+        ]
+      }
+    }
+  ]
+}

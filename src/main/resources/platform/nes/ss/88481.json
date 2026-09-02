@@ -1,0 +1,897 @@
+{
+  "id": "88481",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Magic Cube"
+    },
+    {
+      "region": "tw",
+      "text": "Magic Cube"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "564",
+    "text": "Sachen"
+  },
+  "developpeur": {
+    "id": "27219",
+    "text": "Thin Chen Enterprise"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Have you ever played with &quot;Russian Blocks?&quot; And have you played with &quot;Magical Stone?&quot; If yes, we'd like to tell you now that these games are out of date. The newest &quot;Magic Cube&quot; will bring you to the new world! Break through the traditional routing and combine with the new idea. Play it and you will know how fantastic it is!"
+    },
+    {
+      "langue": "fr",
+      "text": "Avez-vous déjà joué à Russian Blocks ou Magical Stone ? Si oui, sachez que ces jeux sont désormais dépassés. Le tout nouveau Magic Cube vous plongera dans un univers innovant ! Brisez les conventions traditionnelles et découvrez une idée nouvelle. Essayez-le et vous serez étonné par sa fantastique originalité !"
+    },
+    {
+      "langue": "de",
+      "text": "Haben Sie schon einmal mit &quot;Russian Blocks&quot; gespielt? Und hast du mit &quot;Magical Stone&quot; gespielt? Wenn ja, möchten wir Ihnen jetzt sagen, dass diese Spiele veraltet sind. Der neueste &quot;Magic Cube&quot; wird Sie in die neue Welt bringen! Durchbrechen Sie das traditionelle Routing und kombinieren Sie es mit der neuen Idee. Spielen Sie es und Sie werden wissen, wie fantastisch es ist!"
+    },
+    {
+      "langue": "es",
+      "text": "¿Has jugado alguna vez a &quot;Russian Blocks&quot;? ¿Y has jugado a &quot;Piedra mágica&quot;? En caso afirmativo, nos gustaría decirle ahora que estos juegos no están actualizados. ¡El nuevo &quot;cubo mágico&quot; te llevará al nuevo mundo! Romper el enrutamiento tradicional y combinar con la nueva idea. ¡Juega y sabrás lo fantástico que es!"
+    },
+    {
+      "langue": "it",
+      "text": "Hai mai giocato con &quot;Russian Blocks?&quot; E hai suonato con &quot;Magical Stone?&quot; Se sì, vorremmo dirti ora che questi giochi non sono aggiornati. Il nuovissimo &quot;Cubo magico&quot; ti porterà nel nuovo mondo! Rompi il percorso tradizionale e combinalo con la nuova idea. Gioca e saprai quanto è fantastico!"
+    },
+    {
+      "langue": "pt",
+      "text": "Você já jogou com &quot;Russian Blocks?&quot; E você já jogou com &quot;Pedra Mágica?&quot; Se sim, os gostos querem dizer que esses jogos estão desatualizados. O mais novo &quot;Cubo Mágico&quot; levará você ao novo mundo! Romper com o roteamento tradicional e em harmonia com uma nova ideia. Jogue e você saber como é fantástico!"
+    }
+  ],
+  "dates": [
+    {
+      "region": "tw",
+      "text": "1991"
+    }
+  ],
+  "genres": [
+    {
+      "id": "26",
+      "nomcourt": "0B00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "fr",
+          "text": "Puzzle-Game"
+        },
+        {
+          "langue": "de",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "es",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "it",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "pt",
+          "text": "Quebra-cabeças"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "d8b33165",
+      "md5": "41f0ab08e12d2907a7150d678df5e445",
+      "sha1": "9aacafef3603b6f8c5e2f2ed381e923159201a73",
+      "size": "32259",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=ss(wor)",
+      "region": "wor",
+      "crc": "33d89857",
+      "md5": "1ff86423b862349bffab33afe8c5597f",
+      "sha1": "b96b076067f13bedd63be5b5f7d7c025796f31d9",
+      "size": "4459",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=video",
+      "crc": "2fbdd76a",
+      "md5": "5b9052df6768bbddf65e6884726be411",
+      "sha1": "f38a2f8d8db038af36b34501666cb6d527b6999b",
+      "size": "1090508",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=video-normalized",
+      "crc": "fa66dca1",
+      "md5": "3c15220b804b94e2b5ce5829e5d82775",
+      "sha1": "ce49a5747e99575f3da7c16baf6c611b5f9dcc02",
+      "size": "610307",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=steamgrid",
+      "crc": "2380228b",
+      "md5": "9e6eb8739abb601edbbf49ae52374275",
+      "sha1": "f65e7232f7c5f90d92ecaccc4f120b02df858dd2",
+      "size": "33168",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=wheel(wor)",
+      "region": "wor",
+      "crc": "e11b33c4",
+      "md5": "677c8028aa90b87e90445a97bd26bed7",
+      "sha1": "25aff64717d0741e34218ee08843c27d1b54b3e0",
+      "size": "62235",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "3d24fd6b",
+      "md5": "32ab1b0fe8802d985d4e6c1a36e69eaa",
+      "sha1": "6f71724bb608edb23bd4d8a81be5309e585de896",
+      "size": "122834",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "5984724d",
+      "md5": "39958cb5e4e64c50a0d5e1d259e6af80",
+      "sha1": "7a43c603496965f33ddb1e0cf1417ceb757611a6",
+      "size": "124933",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "6762311d",
+      "md5": "629fc2743954dd8cc37bc6ea7a8a5c04",
+      "sha1": "d148ddfb1ceae840fd5458e35613f84df31cad10",
+      "size": "498543",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "03b56c1e",
+      "md5": "41c5a7759fcb39c2c5e1657f0c09e1a6",
+      "sha1": "e6f901fba327d131ba1bd8ae0643be542ada5385",
+      "size": "80420",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "c9696a84",
+      "md5": "1f903a73854980c0becb8dcdd6ecfb41",
+      "sha1": "0f5fc6ec48f0b4840d61d87182bb7bbcbcd8d571",
+      "size": "136257",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=box-2D(wor)",
+      "region": "wor",
+      "crc": "16c21a99",
+      "md5": "130e376fc99d88c18b33984dcdc40fcc",
+      "sha1": "b5c031c60f1392e082f78a09dbd93dc13ad77989",
+      "size": "500358",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "e0ed2a59",
+      "md5": "0e09797e4e211ad957627d707f503ad3",
+      "sha1": "42c64f688a56ff4df66b5bcfc5916d66cecfa2d4",
+      "size": "29462",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=box-2D-side(wor)",
+      "region": "wor",
+      "crc": "8bf7e464",
+      "md5": "4c317d7e95c23fb3691f5500c1ddf0b4",
+      "sha1": "07727c6731b179eeef355c067dd1a933823aec5d",
+      "size": "103748",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "0b455583",
+      "md5": "9e46172a8abc08ca69eb2d858e4d5d8e",
+      "sha1": "f65e160665c1ff11528035e6a7c67e58a226948f",
+      "size": "170086",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=box-2D-back(wor)",
+      "region": "wor",
+      "crc": "42ee3a00",
+      "md5": "23e15d79f0d66459d31bcecabb19007d",
+      "sha1": "b79b9a3e62ef597fb752adf56234327dabae3e71",
+      "size": "465172",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "fe5d0363",
+      "md5": "3be3d05427c4c7278b65e1b009890c14",
+      "sha1": "3dc1046ff74b8a544dd40a084ddf195a6335a99c",
+      "size": "355663",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=box-texture(wor)",
+      "region": "wor",
+      "crc": "687b4f6e",
+      "md5": "b9fbe5350d1768191cf7470675849e7f",
+      "sha1": "174affb4e91519312a72bdc2a654da7b505bb613",
+      "size": "1090374",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "ed347470",
+      "md5": "f7fe10c085a536874bf107cd12802c92",
+      "sha1": "76828b741083c2538382f4fdaa6aeb734ea0dec5",
+      "size": "148685",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=box-3D(wor)",
+      "region": "wor",
+      "crc": "5e7a7eb1",
+      "md5": "1ffc3bb50e212c192e4352f5cc4a152b",
+      "sha1": "32f1c9b8251ec8d46209842f74eb983592e0be3b",
+      "size": "273693",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=support-texture(wor)",
+      "region": "wor",
+      "crc": "9764a16d",
+      "md5": "91fb1fcb5dc6c4977b679d72206b9b4e",
+      "sha1": "70f2e107c8977189b1e0ba4ed3ee4d3baf23f55c",
+      "size": "349511",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=support-2D(wor)",
+      "region": "wor",
+      "crc": "9a745b8a",
+      "md5": "cc9a7c827f29c0b47a3c74331eeb885b",
+      "sha1": "696584bf8224eed9d05d08f45f4042cbf6f0556f",
+      "size": "324283",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "3dc3e552",
+      "md5": "9a0c39d42be00b053b3271f874125ec6",
+      "sha1": "f84191627acccea61ade36860a71934c3a653d31",
+      "size": "404138",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=mixrbv2(asi)",
+      "region": "asi",
+      "crc": "ed6a833e",
+      "md5": "8c980e150042d87eb24e523590f847f0",
+      "sha1": "134ef495b88fa0b36d2e51cd5adb41fda4a141c3",
+      "size": "607975",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=mixrbv2(eu)",
+      "region": "eu",
+      "crc": "ed6a833e",
+      "md5": "8c980e150042d87eb24e523590f847f0",
+      "sha1": "134ef495b88fa0b36d2e51cd5adb41fda4a141c3",
+      "size": "607975",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=mixrbv2(tw)",
+      "region": "tw",
+      "crc": "ed6a833e",
+      "md5": "8c980e150042d87eb24e523590f847f0",
+      "sha1": "134ef495b88fa0b36d2e51cd5adb41fda4a141c3",
+      "size": "607975",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88481&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "ed6a833e",
+      "md5": "8c980e150042d87eb24e523590f847f0",
+      "sha1": "134ef495b88fa0b36d2e51cd5adb41fda4a141c3",
+      "size": "607975",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=564&media=logo-monochrome",
+      "crc": "1a8369dc",
+      "md5": "3874aa4a0e49531e2c4c39a5e37bcf0f",
+      "sha1": "6a5cf33b05f27c84782582335375a0bf3d4a83ee",
+      "size": "11144",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=564&media=wheel",
+      "crc": "d53c8f4e",
+      "md5": "5687b70430eaa898f429f4cdf656763c",
+      "sha1": "c1f7ea47b95b6c04f26fa8af2ee861fb9b49f4bc",
+      "size": "9718",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=pictoliste",
+      "crc": "e4176cee",
+      "md5": "cc91411eb70735bb11dcfc4a0457b474",
+      "sha1": "1f04afee843e3aca095a118170eb13f3cf9a95d6",
+      "size": "828",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome",
+      "crc": "afda799e",
+      "md5": "b6aace835e844a24b33032c300cea85a",
+      "sha1": "ad7df82b2dc35f742dfe94cb20c5984c61a1be7f",
+      "size": "4560",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome-svg",
+      "crc": "b9fb9475",
+      "md5": "1f42d149151051f8c80b9728242769c3",
+      "sha1": "a0efb0c8b8814d280d62c7b2c5a6f39d5eaf0267",
+      "size": "2101",
+      "format": "svg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=background",
+      "crc": "923a4c43",
+      "md5": "5b1038e07f813242bbf179dcc11aa88f",
+      "sha1": "7971778339840a88ad940669b45dfc0103721cc1",
+      "size": "306716",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136574",
+      "romsize": "49168",
+      "romfilename": "Magic Cube (Asia) (PAL) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7FB697F8",
+      "rommd5": "DA4490760A5B92ECA949D1D90CD61BE5",
+      "romsha1": "75873C4AE9D0AE5B24BB173AA27C82F771645ABB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "65953",
+      "regions": {
+        "regions_id": [
+          "48",
+          "112",
+          "114"
+        ],
+        "regions_shortname": [
+          "eu",
+          "tw",
+          "asi"
+        ],
+        "regions_en": [
+          "Europe",
+          "Taiwan",
+          "Asia"
+        ],
+        "regions_fr": [
+          "Europe",
+          "Taiwan",
+          "Asie"
+        ],
+        "regions_de": [
+          "Europa",
+          "Taiwan",
+          "Asien"
+        ],
+        "regions_es": [
+          "Europa",
+          "Taiwan",
+          "Asia"
+        ],
+        "regions_it": [
+          "Europa",
+          "Taiwan",
+          "Asia"
+        ],
+        "regions_pt": [
+          "Europa",
+          "Taiwan",
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "387363",
+      "romsize": "49279",
+      "romfilename": "Magic Cubes (Sachen) [U][!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "61625581",
+      "rommd5": "1D42D0136E1B9478CE732C18D7C2020F",
+      "romsha1": "13475548A492E045895006E49EB4C11A1B0BCE20",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "50194",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "12999",
+      "romsize": "23258",
+      "romfilename": "Magic Cube.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CCD68553",
+      "rommd5": "A4D94344D2D76F3D4ECE692AD81DFAC0",
+      "romsha1": "8E7DC83572824AE5A42E9B295FBFDE20384DCFC8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "25226",
+      "regions": {
+        "regions_id": [
+          "48",
+          "114"
+        ],
+        "regions_shortname": [
+          "eu",
+          "asi"
+        ],
+        "regions_en": [
+          "Europe",
+          "Asia"
+        ],
+        "regions_fr": [
+          "Europe",
+          "Asie"
+        ],
+        "regions_de": [
+          "Europa",
+          "Asien"
+        ],
+        "regions_es": [
+          "Europa",
+          "Asia"
+        ],
+        "regions_it": [
+          "Europa",
+          "Asia"
+        ],
+        "regions_pt": [
+          "Europa",
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "1140114",
+      "romsize": "49168",
+      "romfilename": "Magic Cube (Asia) (Ja) (PAL) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a4a9c8c3",
+      "rommd5": "4cee36dd4435443a800bc92d9f555d29",
+      "romsha1": "9f48be061ab18ffa980a6a3474d89b7fa7e40497",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11424",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "173747",
+      "romsize": "49152",
+      "romfilename": "Magic Cube (Asia) (Ja) (PAL) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CAB40A6C",
+      "rommd5": "5DEE536B542E97885182B641AC70BACB",
+      "romsha1": "B7A6D5782D0266A7E2F1C1C1C159A41FB122BD08",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10297",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48",
+          "114"
+        ],
+        "regions_shortname": [
+          "eu",
+          "asi"
+        ],
+        "regions_en": [
+          "Europe",
+          "Asia"
+        ],
+        "regions_fr": [
+          "Europe",
+          "Asie"
+        ],
+        "regions_de": [
+          "Europa",
+          "Asien"
+        ],
+        "regions_es": [
+          "Europa",
+          "Asia"
+        ],
+        "regions_it": [
+          "Europa",
+          "Asia"
+        ],
+        "regions_pt": [
+          "Europa",
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "523811",
+      "romsize": "23357",
+      "romfilename": "Magic Cubes (Sachen) [U][!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "EB09E068",
+      "rommd5": "E237A34674AFEA4E7DF49177FCED7B75",
+      "romsha1": "8FA9766B70479A60AA44FF5B55D028C4747489EF",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3597"
+    },
+    {
+      "id": "114245",
+      "romsize": "23236",
+      "romfilename": "Magic Cube (Asia) (PAL) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "253985F4",
+      "rommd5": "ACCE90A7B718FD8D052D64D9A2B92F02",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2387",
+      "regions": {
+        "regions_id": [
+          "48",
+          "114"
+        ],
+        "regions_shortname": [
+          "eu",
+          "asi"
+        ],
+        "regions_en": [
+          "Europe",
+          "Asia"
+        ],
+        "regions_fr": [
+          "Europe",
+          "Asie"
+        ],
+        "regions_de": [
+          "Europa",
+          "Asien"
+        ],
+        "regions_es": [
+          "Europa",
+          "Asia"
+        ],
+        "regions_it": [
+          "Europa",
+          "Asia"
+        ],
+        "regions_pt": [
+          "Europa",
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "1392656",
+      "romsize": "16400",
+      "romfilename": "Magi Cube (USA) (Proto) (Unl).zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "60b40455",
+      "rommd5": "c24ae0ed0c2e912200d5b9dc8afdfe5f",
+      "romsha1": "3822bfea73481cb78d815ccb0175fde57560caf9",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "145"
+    }
+  ]
+}

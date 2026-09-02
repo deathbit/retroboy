@@ -1,0 +1,479 @@
+{
+  "id": "421041",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "ANTR - Another NES Tetris Remake"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "50372",
+    "text": "FG Software"
+  },
+  "developpeur": {
+    "id": "50372",
+    "text": "FG Software"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "ANTR is a Tetris clone."
+    },
+    {
+      "langue": "de",
+      "text": "ANTR ist ein Tetris-Klon."
+    },
+    {
+      "langue": "es",
+      "text": "ANTR es un clon de Tetris."
+    }
+  ],
+  "genres": [
+    {
+      "id": "2912",
+      "nomcourt": "0B00",
+      "principale": "0",
+      "parentid": "26",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Puzzle / Fall"
+        },
+        {
+          "langue": "fr",
+          "text": "Puzzle-Game / Tomber"
+        },
+        {
+          "langue": "de",
+          "text": "Puzzle / Fallen"
+        },
+        {
+          "langue": "es",
+          "text": "Puzzle / Caída"
+        },
+        {
+          "langue": "it",
+          "text": "Puzzle / A caduta"
+        },
+        {
+          "langue": "pt",
+          "text": "Quebra-cabeças / Queda"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "nomcourt": "0B00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "fr",
+          "text": "Puzzle-Game"
+        },
+        {
+          "langue": "de",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "es",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "it",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "pt",
+          "text": "Quebra-cabeças"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "2643",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Tetris"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "903c765f",
+      "md5": "a710ff4edd4499fb06b758831432574b",
+      "sha1": "20aa1b7c77fde6c248c28d016e0012039f8f7879",
+      "size": "16223",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=ss(wor)",
+      "region": "wor",
+      "crc": "4cb18298",
+      "md5": "d709b0dff49eecef7716ff9b150685e9",
+      "sha1": "a2ef9e79d961756eaa28ae505bfb1af17394ada6",
+      "size": "19499",
+      "format": "png"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=steamgrid",
+      "crc": "4b827ba9",
+      "md5": "d06fb47c1f055af503395a6c1bfffc92",
+      "sha1": "844dd497eb02989fb49f734519e57c38f9a3d458",
+      "size": "27790",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=wheel-hd(wor)",
+      "region": "wor",
+      "crc": "cbc14793",
+      "md5": "3eb7cef6f7111cc49225502be0e9e1e8",
+      "sha1": "35a08b01bc0686cff577477ccbc0aa83c8611b9b",
+      "size": "5047",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "b0d13ff1",
+      "md5": "5967e396f69e164b3140f5cd8068742c",
+      "sha1": "cb3e79f3da6421facb6a3a64f18a2bc4f82faf5d",
+      "size": "75703",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "dfa6aeb6",
+      "md5": "b35cf86ba7a4f948b974ce30806802a5",
+      "sha1": "a1b5d1d1a040646a581c4281149b0b9f24b64e7a",
+      "size": "76540",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "a044623d",
+      "md5": "6dcb0ec53f5d12b6f43733df01287063",
+      "sha1": "36df654b5ebfe7bc1ede55d76bb44a9e2d5a41b6",
+      "size": "468114",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "e21c239a",
+      "md5": "be060cda8d239d44b4e6f002428cbf45",
+      "sha1": "45e1c229c3c791f8d2b07b33e1837d469c1c32b8",
+      "size": "74898",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "b18abd5c",
+      "md5": "619323f9c0d73c9480470816eac06a39",
+      "sha1": "1c066862cf559f335e93225a538567ba879f6768",
+      "size": "111872",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "4201d0f7",
+      "md5": "c601aebb73a358685fb37acf601c6b4c",
+      "sha1": "132a51c391b118b7147909745abc86379b173d8f",
+      "size": "25156",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "15287265",
+      "md5": "0c2d99661596901d9b2950c1b14c4d05",
+      "sha1": "1223a688317b98778d43517b5d0c494511e51425",
+      "size": "101238",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "1215f654",
+      "md5": "199ca45d5078fe0f93b8353a4c4b8e7c",
+      "sha1": "c558b759adb1843c27874fb0c4834a06d41b6750",
+      "size": "240312",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "6601c085",
+      "md5": "8b462097537a1f5853d1902d5886cb00",
+      "sha1": "adc73dbd2fbc4f76cfd1b7b9c4b35ae43a1bb5ce",
+      "size": "109931",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "bd5f7d10",
+      "md5": "94b4bac635491c9c832d3b78e24b9956",
+      "sha1": "f71cc25176e4174ab65fddce4adba297c5f31729",
+      "size": "203559",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "bd5f7d10",
+      "md5": "94b4bac635491c9c832d3b78e24b9956",
+      "sha1": "f71cc25176e4174ab65fddce4adba297c5f31729",
+      "size": "203559",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "04513793",
+      "md5": "eab9187e477359c1828151ab7cdfdf60",
+      "sha1": "65e5ac0e58b03e95580cf53cd392a075067c3715",
+      "size": "346777",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421041&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "04513793",
+      "md5": "eab9187e477359c1828151ab7cdfdf60",
+      "sha1": "65e5ac0e58b03e95580cf53cd392a075067c3715",
+      "size": "346777",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2912",
+      "parent": "genre",
+      "subparent": "Puzzle-Game / Tomber",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2912&media=logo-monochrome",
+      "crc": "41dc7ec5",
+      "md5": "bf6e6893100d96e8b0800297249f0b66",
+      "sha1": "c7b7f203498441e0f35952204397cd380652dbd7",
+      "size": "8824",
+      "format": "png"
+    },
+    {
+      "id": "2912",
+      "parent": "genre",
+      "subparent": "Puzzle-Game / Tomber",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2912&media=logo-monochrome-svg",
+      "crc": "2727b4fe",
+      "md5": "a10d5dc314b8ecb5e784bb49cb8bb029",
+      "sha1": "705c104b03c375aa73fbd7c0cd0449d5ec08bc22",
+      "size": "38156",
+      "format": "svg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=pictoliste",
+      "crc": "e4176cee",
+      "md5": "cc91411eb70735bb11dcfc4a0457b474",
+      "sha1": "1f04afee843e3aca095a118170eb13f3cf9a95d6",
+      "size": "828",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome",
+      "crc": "afda799e",
+      "md5": "b6aace835e844a24b33032c300cea85a",
+      "sha1": "ad7df82b2dc35f742dfe94cb20c5984c61a1be7f",
+      "size": "4560",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome-svg",
+      "crc": "b9fb9475",
+      "md5": "1f42d149151051f8c80b9728242769c3",
+      "sha1": "a0efb0c8b8814d280d62c7b2c5a6f39d5eaf0267",
+      "size": "2101",
+      "format": "svg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=background",
+      "crc": "923a4c43",
+      "md5": "5b1038e07f813242bbf179dcc11aa88f",
+      "sha1": "7971778339840a88ad940669b45dfc0103721cc1",
+      "size": "306716",
+      "format": "jpg"
+    },
+    {
+      "id": "2643",
+      "parent": "famille",
+      "subparent": "Tetris",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2643&media=figurine",
+      "crc": "3050d949",
+      "md5": "b9dd0714f883ebfb888d545335d3814e",
+      "sha1": "b8624bd68f35f5d4eed0ce3cabb42dcf7e43aa5c",
+      "size": "194408",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1133988",
+      "romsize": "24592",
+      "romfilename": "ANTR - Another NES Tetris Remake (World) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a5468f0a",
+      "rommd5": "dd32813f8c5e801e778ce1f4dab8b5d8",
+      "romsha1": "171029ac0ede92c3f94edea1b4e41a5686c4e7f2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7791",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    }
+  ]
+}

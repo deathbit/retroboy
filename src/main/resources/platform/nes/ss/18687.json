@@ -1,0 +1,1497 @@
+{
+  "id": "18687",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Garry Kitchen's Battletank"
+    },
+    {
+      "region": "us",
+      "text": "Garry Kitchen's BattleTank"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "351",
+    "text": "Absolute Entertainment"
+  },
+  "developpeur": {
+    "id": "351",
+    "text": "Absolute Entertainment"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "note": {
+    "text": "17"
+  },
+  "topstaff": "1",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Battletank is an advanced tank simulator where players take control of a tank from its driver's seat. Players are stuck straight in the tank and sent off to the battlefield in order to accomplish the mission they are assigned to.  \n\nMission objectives.can be anything from eliminating the enemies to destroying the enemy fuel dump to taking out an enemy camp.  However dangerous enemies lurk all over the battlefield.  Helicopters, minefields and other tanks wait to block your moves.  These enemies can move off-screen and strafe around the tank, leading to difficulties.  \n\nHowever, many strategic elements are involved.  The first-person mode offers a limited view of the battlefield, and if players push the tank into overdrive it can miss the target and rush into a nest of tanks or a minefield.  Turret angle, ammunition, and tank fuel remaining must all be taken into account by the player.  To add to this, certain guns on the tank (there's 4 of them) will only hurt certain enemies.  But don't expect any help here!  Six hits and your tank is cooked!"
+    },
+    {
+      "langue": "fr",
+      "text": "Battle Tank sur Nes est un jeu de tir classique dans lequel vous contrôlez un tank et détruisez tous les ennemis se présentant à vous. Un mode Mission et un mode multijoueur sont proposés. Dans les deux cas, vous mènerez des combats dans une arène vue du dessus et participerez à de nombreux massacres en règle."
+    },
+    {
+      "langue": "de",
+      "text": "Battletank ist ein fortschrittlicher Panzersimulator, bei dem die Spieler die Kontrolle über einen Panzer von dessen Fahrersitz aus übernehmen. Die Spieler werden direkt in den Panzer gesteckt und auf das Schlachtfeld geschickt, um die ihnen zugewiesene Mission zu erfüllen.\r\n\r\nDie Missionsziele können alles sein, von der Eliminierung der Feinde über die Zerstörung des feindlichen Treibstofflagers bis hin zur Ausschaltung eines feindlichen Lagers. Allerdings lauern überall auf dem Schlachtfeld gefährliche Feinde. Hubschrauber, Minenfelder und andere Panzer warten darauf, Ihre Bewegungen zu blockieren. Diese Feinde können sich außerhalb des Bildschirms bewegen und um den Panzer herumschleichen, was zu Schwierigkeiten führt."
+    },
+    {
+      "langue": "es",
+      "text": "Battletank es un simulador avanzado de tanques donde los jugadores toman el control de un tanque desde el asiento del conductor. Los jugadores están atrapados directamente en el tanque y enviados al campo de batalla para cumplir la misión a la que están asignados. Los objetivos de la misión pueden ser cualquier cosa, desde eliminar a los enemigos hasta destruir el depósito de combustible del enemigo hasta eliminar un campamento enemigo. Sin embargo, los enemigos peligrosos acechan en todo el campo de batalla. Helicópteros, campos de minas y otros tanques esperan bloquear tus movimientos. Estos enemigos pueden moverse fuera de la pantalla y atacar alrededor del tanque, lo que lleva a obtener una mayor dificultad. Sin embargo, muchos elementos estratégicos están involucrados. El modo en primera persona ofrece una vista limitada del campo de batalla, y si los jugadores empujan el tanque a toda marcha, pueden perder el objetivo y precipitarse hacia un nido de tanques o un campo minado. El jugador debe tener en cuenta el ángulo de la torreta, las municiones y el combustible del tanque restante. Para agregar a esto, ciertas armas en el tanque (hay 4 de ellas) solo dañarán a ciertos enemigos. ¡Pero no esperes ayuda aquí! Seis golpes y tu tanque está cocinado!"
+    },
+    {
+      "langue": "it",
+      "text": "Battle Tank su Nes è uno sparatutto classico in cui controlli un carro armato e distruggi tutti i nemici che ti vengono incontro. Sono disponibili una modalità Missione e una modalità multiplayer. In entrambi i casi, combatterai in un'arena vista dall'alto e prenderai parte a molti massacri nell'ordine."
+    },
+    {
+      "langue": "pt",
+      "text": "Battle Tank on Nes é um clássico jogo de tiro no qual você controla um tanque e destrói todos os inimigos que aparecerem em seu caminho. Um modo de missão e um modo multiplayer são oferecidos. Em ambos os casos, você lutará em uma arena vista de cima e participará de muitos massacres na ordem."
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1990-09-01"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2646",
+      "nomcourt": "0100",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shooter"
+        },
+        {
+          "langue": "fr",
+          "text": "Tir"
+        },
+        {
+          "langue": "de",
+          "text": "Shooter"
+        },
+        {
+          "langue": "es",
+          "text": "Disparos"
+        },
+        {
+          "langue": "it",
+          "text": "Sparo"
+        },
+        {
+          "langue": "pt",
+          "text": "Tiro"
+        }
+      ]
+    },
+    {
+      "id": "2940",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "2646",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shooter / Vehicle, FPV"
+        },
+        {
+          "langue": "fr",
+          "text": "Tir / Véhicule, 1ere personne"
+        },
+        {
+          "langue": "de",
+          "text": "Shooter / Fahrzeug, 1. Pers."
+        },
+        {
+          "langue": "es",
+          "text": "Disparos / Vehículo, 1ª persona"
+        },
+        {
+          "langue": "it",
+          "text": "Sparo / Veicolo, 1a Persona"
+        },
+        {
+          "langue": "pt",
+          "text": "Tiro / Carro 1ª Pessoa"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "20345",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Battletank"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "langue": "fr",
+      "titre": "Faire Pause",
+      "description": "Appuyez sur A + B.\n"
+    },
+    {
+      "langue": "fr",
+      "titre": "Mouvements plus rapides",
+      "description": "Affichez la carte quand vous bougez votre tank pour aller d'un point à un autre plus rapidement.\n"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=sstitle(us)",
+      "region": "us",
+      "crc": "9ec60a8e",
+      "md5": "2e7b47dd8b78eaeed22dc93975d05e27",
+      "sha1": "8c9c7752a26c7a3fa4a47805209337e6287b8fbc",
+      "size": "3160",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=ss(us)",
+      "region": "us",
+      "crc": "bb8fd36f",
+      "md5": "5f161f42b8bd82cfe6513675f72c3720",
+      "sha1": "c12f2b6e5aeea151aeee67cfebc17492d2f2d248",
+      "size": "2725",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=fanart",
+      "crc": "4a4361e5",
+      "md5": "0f60f11fe5ea50c7214cbf8dccd1ddf1",
+      "sha1": "8686355a35aef0442020aa821c7e9f3c50e44163",
+      "size": "243194",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=video",
+      "crc": "831a5dc9",
+      "md5": "564bff52aeae846d32001d8d8432d7c4",
+      "sha1": "6a4edf89b1bb2eadd1209069ffa9d6f134eb65c5",
+      "size": "1523910",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=video-normalized",
+      "crc": "b95f06db",
+      "md5": "6bb4c72795a197c462c29c8402d26f3b",
+      "sha1": "1a5968461eb8d3c4e9e9d8ab782a3ae58966e15b",
+      "size": "1142722",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=steamgrid",
+      "crc": "a831b15d",
+      "md5": "38801fe4f19b8d7d695eed47412845c4",
+      "sha1": "15941b46c32e7d688c4e6facb1d1644a3fb37319",
+      "size": "27094",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=wheel(us)",
+      "region": "us",
+      "crc": "fa5a4fad",
+      "md5": "583ae8238f9ef5325df9792be42ca357",
+      "sha1": "d5aacea5a0baea239d4f881fbfc706279d169094",
+      "size": "111379",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=wheel-carbon(us)",
+      "region": "us",
+      "crc": "593da163",
+      "md5": "9ad0f476cd711e693d68a34d93cbc7e8",
+      "sha1": "ae817db7aba6c649a1d528170fab93b3de49dd60",
+      "size": "115805",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=wheel-steel(us)",
+      "region": "us",
+      "crc": "1c3e1cd8",
+      "md5": "39fbca933e89589a1c1b7523cc00bd0d",
+      "sha1": "2ec5807a180b2503f37ab49978489ffd6becb267",
+      "size": "115437",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=screenmarquee(us)",
+      "region": "us",
+      "crc": "dbdc96a3",
+      "md5": "c4897d11ede2ff210a2d9fb4afbcf751",
+      "sha1": "e2fd0f9fd1ba5c5168606021dceb5f3aaf8c0def",
+      "size": "480323",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=screenmarqueesmall(us)",
+      "region": "us",
+      "crc": "8483d280",
+      "md5": "7e2f607e06bd2505bb6c096839edc613",
+      "sha1": "21c3217c100c9099ee6d755f5245a7a62195c308",
+      "size": "75871",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "f6b98e3a",
+      "md5": "c4b1903d79f3a0fd7d259be2a7d24ace",
+      "sha1": "7569e68fc15604107d51480579d444d4ebeec6a5",
+      "size": "122486",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=box-2D(us)",
+      "region": "us",
+      "crc": "13053d35",
+      "md5": "1ab0c6c22aecf333d237d2fe564ab947",
+      "sha1": "d5548901a9c3793c3e4069ce52a294b8f83fa414",
+      "size": "439987",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "cbd9bc9e",
+      "md5": "aed88aa9bf53a645184c1484e6f2f17a",
+      "sha1": "55df5c23a2177c5ada6f5c4af487a93d27a6905b",
+      "size": "21720",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "b51b0a8b",
+      "md5": "b31fe1ab465c40924b18afa798eb3032",
+      "sha1": "1749b5754adb01d41703728e7ae2e47e3469b3c0",
+      "size": "59271",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "0c3f852e",
+      "md5": "8d513b0d79a502196f7580171c6caad6",
+      "sha1": "c1382e64e51daceea4fbbc624c0e6ab4dae5275c",
+      "size": "146227",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "5a86741d",
+      "md5": "d4c79826ba03f57941bc2d45042b5910",
+      "sha1": "bb320ef4d0b15666f2fa90c00a830b9368bc7b6b",
+      "size": "489886",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "a07ac88e",
+      "md5": "7b9dfe1efcf30beaa4318021e8857966",
+      "sha1": "ad116b20c1ce46d4c66d9e1efc320b002fd0dbf8",
+      "size": "306536",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=box-texture(us)",
+      "region": "us",
+      "crc": "6168ffe0",
+      "md5": "de8dd37d54fe44d898f5afaf3b717a09",
+      "sha1": "8d2f380e78584fd53331581523dc84c040f5e8bd",
+      "size": "1034283",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "ef003895",
+      "md5": "7847fca857a2b41c41526e255cee314e",
+      "sha1": "c8c911db4e695f035406695c277411b0d4065e3b",
+      "size": "125499",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=box-3D(us)",
+      "region": "us",
+      "crc": "69da1b03",
+      "md5": "1065ffec03224eaca8eafeab3f7f7798",
+      "sha1": "6213ff7b8f068a01c1083d481e0735247a2acab4",
+      "size": "220188",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=manuel(us)",
+      "region": "us",
+      "crc": "264736b4",
+      "md5": "6341f12334c2731bec2bf40004214ea8",
+      "sha1": "3c13cc7661e738b9d1dce5fb4c58b25bfa1140f8",
+      "size": "711286",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=support-texture(us)",
+      "region": "us",
+      "crc": "062f50dd",
+      "md5": "9b11929ed023aa530cdd1c7d9aeebd1b",
+      "sha1": "e6252344dc0d74cf6a4e5016592d0de6ad6ff423",
+      "size": "133808",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=support-2D(us)",
+      "region": "us",
+      "crc": "6eac6178",
+      "md5": "77e0344666c20bf8dcca637dd4238bbc",
+      "sha1": "bba263f30375cfd6d82893dfd1240e27824039d4",
+      "size": "361917",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "b996b31c",
+      "md5": "8ee02b227bd8ee0047ec874db773ef84",
+      "sha1": "15fcb5e623d5865ac98171693b7e07a422dc8a16",
+      "size": "224160",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "cd6b69c7",
+      "md5": "ab36ec80bc84c1bf6597d3e2cec82305",
+      "sha1": "fd78e7a79c354ef9b5171468bee6e8c4b11d8f32",
+      "size": "272918",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "baee86bd",
+      "md5": "0d6372c86f38ea2ca18aafd3d8e90397",
+      "sha1": "b649ebf03911fa19febfa40efe3a94b873bd3873",
+      "size": "315336",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "baee86bd",
+      "md5": "0d6372c86f38ea2ca18aafd3d8e90397",
+      "sha1": "b649ebf03911fa19febfa40efe3a94b873bd3873",
+      "size": "315336",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "588b2763",
+      "md5": "dc01bd9034532ca3b5097bbc78f1c6fb",
+      "sha1": "80931fa498c0f1a4bc2d55dfc24ff67787edcf69",
+      "size": "417892",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "724f9831",
+      "md5": "b98c265dac6e368cfef79ace0ca5fcda",
+      "sha1": "dcedbc50296cfcd0b9b68732bc88d31b8aac7d45",
+      "size": "457964",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=18687&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "724f9831",
+      "md5": "b98c265dac6e368cfef79ace0ca5fcda",
+      "sha1": "dcedbc50296cfcd0b9b68732bc88d31b8aac7d45",
+      "size": "457964",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=351&media=logo-monochrome",
+      "crc": "e347668f",
+      "md5": "6f742f245e2bf13f938397f4d66fe574",
+      "sha1": "9eb9eaa14dbe833049edace9c7514ea8a72ddc2e",
+      "size": "32354",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=351&media=wheel",
+      "crc": "dbe4f80f",
+      "md5": "5e27e0240ad3e448afed71320cf38697",
+      "sha1": "be7fe8832c69b0b7cc138a86a8c996d2644fa16e",
+      "size": "27934",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=351&media=logo-monochrome",
+      "crc": "e347668f",
+      "md5": "6f742f245e2bf13f938397f4d66fe574",
+      "sha1": "9eb9eaa14dbe833049edace9c7514ea8a72ddc2e",
+      "size": "32354",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=351&media=wheel",
+      "crc": "dbe4f80f",
+      "md5": "5e27e0240ad3e448afed71320cf38697",
+      "sha1": "be7fe8832c69b0b7cc138a86a8c996d2644fa16e",
+      "size": "27934",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3556&media=pictoliste",
+      "crc": "a212d9b1",
+      "md5": "90c82cea4441419832745531d2b09244",
+      "sha1": "5ac4a7cf782bb40db54d9f49b0baa3d7f4447af7",
+      "size": "1341",
+      "format": "png"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=pictoliste",
+      "crc": "d0b14f40",
+      "md5": "155763c889de6d44fd58cd36bdfce80b",
+      "sha1": "840cb4d69672c4b48a9b9f418272010fb2b4557c",
+      "size": "872",
+      "format": "png"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=logo-monochrome",
+      "crc": "c0ab2a94",
+      "md5": "3eace7ca43a0827467c8a3d6b0ddf0c1",
+      "sha1": "5f305f34bfb22c84a8de9c35cfe3d05d1384e54b",
+      "size": "6023",
+      "format": "png"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=logo-monochrome-svg",
+      "crc": "cef80344",
+      "md5": "606c10f20d34b3433e0dd13d6d77cfd1",
+      "sha1": "99456edd47eec57be1e185340d2a1e19d193441e",
+      "size": "2427",
+      "format": "svg"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=background",
+      "crc": "cd744d4b",
+      "md5": "b794d0d78d93cf5bb0f613cd8f8118aa",
+      "sha1": "e20ebf0b23b455ba64af8231a73555d8512fb73d",
+      "size": "211172",
+      "format": "jpg"
+    },
+    {
+      "id": "2940",
+      "parent": "genre",
+      "subparent": "Tir / Véhicule, 1ere personne",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2940&media=pictoliste",
+      "crc": "80a49d9e",
+      "md5": "bddd9694906082bffb0dfc1278c8335b",
+      "sha1": "17fb2bdd836cbfb1d3b2651aeb8779117e4b93e8",
+      "size": "18660",
+      "format": "png"
+    },
+    {
+      "id": "2940",
+      "parent": "genre",
+      "subparent": "Tir / Véhicule, 1ere personne",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2940&media=logo-monochrome",
+      "crc": "f240e8c3",
+      "md5": "346feec3e6b844f2d647c5fed5b6210f",
+      "sha1": "ce53812bc6b3d04975ba612236711e00b392aa46",
+      "size": "16655",
+      "format": "png"
+    },
+    {
+      "id": "2940",
+      "parent": "genre",
+      "subparent": "Tir / Véhicule, 1ere personne",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2940&media=logo-monochrome-svg",
+      "crc": "6fdd753d",
+      "md5": "7608a884242de597d993cf31b22e1f58",
+      "sha1": "e1d9ecc588db9e4269cfd0abd0fb230eca6d3716",
+      "size": "3732",
+      "format": "svg"
+    },
+    {
+      "id": "20345",
+      "parent": "famille",
+      "subparent": "Battletank",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20345&media=figurine",
+      "crc": "c4f65c42",
+      "md5": "42726f8512a886b9b266103ef77c239f",
+      "sha1": "26192bdfcacb1a30ddad5a5f67cbc0ed8ca27185",
+      "size": "255411",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135463",
+      "romsize": "65552",
+      "romfilename": "Battletank (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "49C9FF12",
+      "rommd5": "E9D60E5F653E47976151748CCEAB5484",
+      "romsha1": "54A09FD17E0EC8D52F7EF46CF9A8CD198FD4C32D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "507019",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "2860",
+      "romsize": "37465",
+      "romfilename": "Garry Kitchen's BattleTank (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "00A2E8AB",
+      "rommd5": "8CC9D3CF0EB3934E1C52571C9DAE15D9",
+      "romsha1": "C685E8DFAAB4E241D0612C716CF50D0B242BF332",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "85004",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1137711",
+      "romsize": "65552",
+      "romfilename": "Battle Tank (U) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "671ec94f",
+      "rommd5": "40de94d9e9d0c858209a6d8cf8a5bf1b",
+      "romsha1": "df5ce82ba2679283eede334e52c28e7f20bf1d63",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "39550",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "528495",
+      "romsize": "37884",
+      "romfilename": "Battle Tank.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4136162B",
+      "rommd5": "12DD181B426177410390C1EF48F96091",
+      "romsha1": "B39479B0061E8F8EEB7E23DCB50C2A359B3C869C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "25781"
+    },
+    {
+      "id": "520719",
+      "romsize": "36765",
+      "romfilename": "Battle Tank (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "70CCB0D6",
+      "rommd5": "C346FD3D3B65DD64BC81B6C390BC2F21",
+      "romsha1": "DE210482D012DB276704793125F95ED0EFFC08E8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18688",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "472720",
+      "romsize": "37937",
+      "romfilename": "Battletank (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CA5A8265",
+      "rommd5": "FD6E5ACEAFFC9DDFBDAD5583C85B37E5",
+      "romsha1": "E4B1B897F06E355ECCB3D9FBBC983F7F1164B2CF",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14191",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "595795",
+      "romsize": "65680",
+      "romfilename": "BatlTank.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7F9FE016",
+      "rommd5": "9BD711185F35C5B3B5AD26BB73CBD73E",
+      "romsha1": "6D1334A6EBA0FE196A64E6CD71CCC082AFE134F8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13564"
+    },
+    {
+      "id": "523308",
+      "romsize": "37764",
+      "romfilename": "Battle Tank (U) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FD5B5D6C",
+      "rommd5": "F27A42972D7951AC218132A79AF18CC7",
+      "romsha1": "DB423A4DC53D770C8496D8D0B9CC8FD0AB933BD7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12258",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "173252",
+      "romsize": "65536",
+      "romfilename": "Garry Kitchen's BattleTank (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "90D68A43",
+      "rommd5": "B8D3640437779169BB1B5346397791DB",
+      "romsha1": "7698CE7AE3B83F12518169ECFEEE4D76D643C842",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6029",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "543707",
+      "romsize": "37884",
+      "romfilename": "Battle Tank.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "933C62BE",
+      "rommd5": "D52C53785BC6BB2CE343626992446695",
+      "romsha1": "4D8A2531CBAE402C39C00332F2553FB54B8A7B13",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5376"
+    },
+    {
+      "id": "528354",
+      "romsize": "37892",
+      "romfilename": "Battle Tank (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0D82810C",
+      "rommd5": "5CDA44D4AD3D1197939CF1BC14C46BC8",
+      "romsha1": "A1C1FF223FC936663AA4F5A39C0EAC89DDF8B306",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2115",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "589173",
+      "romsize": "36719",
+      "romfilename": "Battle Tank.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1ADE50C9",
+      "rommd5": "1ECD7E1E576BBF539E5B5D086FEC2367",
+      "romsha1": "E5AD3BFA516385B89A41E3CAB4E56DB076AA0D51",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1205"
+    },
+    {
+      "id": "554577",
+      "romsize": "37433",
+      "romfilename": "Battletank (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2E51830C",
+      "rommd5": "776CFD43FBE2A5F08B037AB1E72E7A2A",
+      "romsha1": "0803488D41CB4923941770EFFA6EA318B3A48BAB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "817",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "482265",
+      "romsize": "37759",
+      "romfilename": "Battletank (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "45B4E1B2",
+      "rommd5": "0FAD061F93D74FE40534CE1CB3E50C86",
+      "romsha1": "9E4B974A29F02C072C53875C48FB765831281D5F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "348",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "568758",
+      "romsize": "37916",
+      "romfilename": "Battletank (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5984F3AE",
+      "rommd5": "C8ABB0696BDA519DB91378BB5387E699",
+      "romsha1": "84480C4736EB3E4893617F80EF51D01FC9D08A5F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "278",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "480271",
+      "romsize": "37443",
+      "romfilename": "Garry Kitchen's BattleTank (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F4EFC1F3",
+      "rommd5": "8E3E456889DB30B68004FBF7E8F35E69",
+      "romsha1": "A6EC267597794C5409504039976D6F8F2FE665C2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "150",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "483094",
+      "romsize": "37985",
+      "romfilename": "Garry Kitchen's BattleTank (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A881C973",
+      "rommd5": "8EBF3DDC1124E7AB62851ABD914ADA64",
+      "romsha1": "A726DF6B128BF47C5A2BDBA9D39B7A76DC8A2DB7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "126",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "113751",
+      "romsize": "37443",
+      "romfilename": "Garry Kitchen's BattleTank (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9073DBA0",
+      "rommd5": "35CCA4881C9B3FDF1F249432A8050C10",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "126",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,939 @@
+{
+  "id": "71428",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "J.league Fighting Soccer - The King Of Ace Strikers"
+    },
+    {
+      "region": "jp",
+      "text": "J.League Fighting Soccer : The King of Ace Strikers"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "27070",
+    "text": "Information Global Service"
+  },
+  "developpeur": {
+    "id": "34620",
+    "text": "Graphic Research"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "J.League Fighting Soccer is a soccer game based on the inaugural season of the Japanese J. League. The player can choose among 16 teams and either participate in the league, a tournament, an exhibition match or a two-player game (via link cable). The player can also choose the tactical approach of the team. During the match the field is shown from an angled side view and scrolls from left to right. The player either controls the athlete at the ball or the nearest defender; they can pass, shoot and tackle."
+    },
+    {
+      "langue": "fr",
+      "text": "J.League Fighting Soccer est un jeu de football basé sur la saison inaugurale de la J. League japonaise. Le joueur peut choisir parmi 16 équipes et participer à la ligue, à un tournoi, à un match de démonstration ou à une partie à deux joueurs (via un câble de liaison)."
+    },
+    {
+      "langue": "es",
+      "text": "J.League Fighting Soccer es un juego de fútbol basado en la temporada inaugural de la liga japonesa J. El jugador puede elegir entre 16 equipos y participar en la liga, un torneo, un partido de exhibición o un juego de dos jugadores (a través del cable de enlace)."
+    },
+    {
+      "langue": "it",
+      "text": "J.League Fighting Soccer è un gioco di calcio basato sulla stagione inaugurale della J. League giapponese. Il giocatore può scegliere tra 16 squadre e partecipare al campionato, un torneo, una partita di esibizione o una partita a due giocatori (tramite cavo di collegamento). Il giocatore può anche scegliere l'approccio tattico della squadra. Durante la partita il campo è mostrato da una vista laterale ad angolo e scorre da sinistra a destra. Il giocatore controlla l'atleta alla palla o il difensore più vicino; possono passare, tirare e affrontare."
+    },
+    {
+      "langue": "pt",
+      "text": "J.League Fighting Soccer é um jogo de futebol baseado na temporada inaugural da Liga Japonesa. O jogador pode escolher entre 16 equipes e participar na liga, num torneio, num jogo de exibição ou num jogo para dois jogadores (via cabo de ligação)."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1993-06-19"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2847",
+      "nomcourt": "0602",
+      "principale": "0",
+      "parentid": "685",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports / Football (Soccer)"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport / Football"
+        },
+        {
+          "langue": "de",
+          "text": "Sport / Fußball"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes / Fútbol"
+        },
+        {
+          "langue": "it",
+          "text": "Sport / Calcio"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte / Futebol"
+        }
+      ]
+    },
+    {
+      "id": "685",
+      "nomcourt": "0600",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport"
+        },
+        {
+          "langue": "de",
+          "text": "Sport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes"
+        },
+        {
+          "langue": "it",
+          "text": "Sport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "593216fc",
+      "md5": "f0c57386196d01ca01626929e68279d3",
+      "sha1": "7214fa6e699cae70ee5044f85447bd7527ec0c8d",
+      "size": "4216",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=ss(jp)",
+      "region": "jp",
+      "crc": "7fa50fb5",
+      "md5": "b41123639847a03bdd9e1d723b46eab3",
+      "sha1": "0ab4d58d6a55dac2b2824e10cd60dc86a4eaa8c3",
+      "size": "4528",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=fanart",
+      "crc": "62c38b20",
+      "md5": "4109603f98b6e4dff02a33c4fdfb2108",
+      "sha1": "283ccf5d9a5a807cc183ee20fe7715063a21630d",
+      "size": "595262",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=video",
+      "crc": "d6dead75",
+      "md5": "599c5eed646ca44943dea25949126720",
+      "sha1": "a66b5429bb63c5a6b48314596da80d46603eb0cb",
+      "size": "7179682",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=video-normalized",
+      "crc": "e8c9e9d8",
+      "md5": "525db620137d03d46268bfafc00c649c",
+      "sha1": "6c87465b9d8f524ca86d7bd2c9e4d7993d3b7c8f",
+      "size": "2766501",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=steamgrid",
+      "crc": "67e9f3e6",
+      "md5": "60d8032d9dce728c7bf1e18a3117922c",
+      "sha1": "9463e28d2a7f4f61ec2126ef614b540e54f54fdb",
+      "size": "36499",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=wheel(jp)",
+      "region": "jp",
+      "crc": "1ab179ba",
+      "md5": "feeb4345754f490ca51e37ec24ad0a23",
+      "sha1": "64027f6e8ee0539f5b67e492188e0180d9cc1d0a",
+      "size": "120813",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "23e92e1e",
+      "md5": "039929941f862bcd4d3496a2bfeedd35",
+      "sha1": "64eab8838a733369dd60df31c67835c66e3d6ee8",
+      "size": "139862",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "16788567",
+      "md5": "e66114ccc01080e55f029583bc5f1e82",
+      "sha1": "e30287ca0d824f7c798138ef9f7bc683c5615722",
+      "size": "141111",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "7667d9f6",
+      "md5": "b5223468df3e42e0a309eef4bc72f965",
+      "sha1": "a58cab210a3b4c6bc1a5094b613faf94c70ae38a",
+      "size": "494934",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "8315b1a6",
+      "md5": "48177b6f39fc5acd6844a8a4f14a389d",
+      "sha1": "be3dcb3dce8829d2fcf868a32f3d019bb97c9eef",
+      "size": "81737",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "f71ce43f",
+      "md5": "bcb421acf5308f7c5bc20a058d1f8c73",
+      "sha1": "33ba4ac97842b3305201474bb81fd90434c72488",
+      "size": "651676",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "3fe74430",
+      "md5": "85f0b93bd4eb9bc3a34185dd4e5847cb",
+      "sha1": "40eaef297dcc229a68fd20406949263374b7d19f",
+      "size": "202974",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "f01e7212",
+      "md5": "9f094311cddde83eae4233068fc66fad",
+      "sha1": "deb1a3a9158324fe91dfeb307b680988b09c7785",
+      "size": "50418",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "fa3db233",
+      "md5": "cb663ce390338e4e6280abc0789bd32f",
+      "sha1": "9fd7ddda0713fe9be5007371be56aa2c742cb683",
+      "size": "29373",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "71f82a9a",
+      "md5": "3e01533a202b88706f57bb11eb253f0b",
+      "sha1": "04f02a6b56e7e5753b308445e88be2007509a6d0",
+      "size": "451803",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "222415e9",
+      "md5": "fbaf4023e017eeaac0569c48b7e7dd67",
+      "sha1": "deb555e2c33e2566ad7bd4dace11b3ae6315979b",
+      "size": "204036",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "76a49e15",
+      "md5": "1424f59de9b343d1454d91ce6ff99466",
+      "sha1": "9392c9db57d4c95fc5d6576b11f6b0995e47ec72",
+      "size": "1190039",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "98f8cc0d",
+      "md5": "b6240fdc4cfc494632c9187b21d2b65d",
+      "sha1": "8b4454f5294aae683e3a4aa36679c8dbc55cce2e",
+      "size": "458232",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "09440e87",
+      "md5": "b76c6e22a1d0bfde0b900384b4a91af1",
+      "sha1": "c17cf4aeedd9fbe3057e6662cd178c9d46376e7e",
+      "size": "314159",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "3c32059a",
+      "md5": "d6ad387673059125682fc4112b2cb19a",
+      "sha1": "d317b24f39894662aed4b1c6d4ec5d7ed694a67a",
+      "size": "188738",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=manuel(jp)",
+      "region": "jp",
+      "crc": "8816f2b1",
+      "md5": "2a1feaeb813e16a025e899a91a85e681",
+      "sha1": "615aa6afd204e34fd6d643fc46d4664cedbe105c",
+      "size": "917802",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "d4cfd046",
+      "md5": "334948397e5efe26de376da2b6274c16",
+      "sha1": "7b8c77c0ad7d3ff9a2562b88e13492f6870d7e1d",
+      "size": "262671",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "0ee7b207",
+      "md5": "b23b3b33d44e2ccb2a242fc3a81e314c",
+      "sha1": "79413bf0f865325254d84d46418671e7352a5d53",
+      "size": "302186",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "1ab395e2",
+      "md5": "98457c455cb2c498655f3c8914d739de",
+      "sha1": "58774278596f9d1c1e0e93013e557103ab415db2",
+      "size": "619688",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "60773e79",
+      "md5": "0c6fb8d87d26022c259411897044f11a",
+      "sha1": "00bbb9512107b783808a8f8d47f381f5e0772675",
+      "size": "555651",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "1ab395e2",
+      "md5": "98457c455cb2c498655f3c8914d739de",
+      "sha1": "58774278596f9d1c1e0e93013e557103ab415db2",
+      "size": "619688",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "397ebb04",
+      "md5": "1998ef9fbd7cab90b1a6bf65c8c94bf3",
+      "sha1": "1259ce0d232b95a2f717818c9881b01130cc8673",
+      "size": "903801",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "ae554206",
+      "md5": "f81cba8f3886d2bf80425c8c7b0ce639",
+      "sha1": "c8786559dc7d97dbfa3cf0b6f021a068045a27ff",
+      "size": "844247",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71428&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "397ebb04",
+      "md5": "1998ef9fbd7cab90b1a6bf65c8c94bf3",
+      "sha1": "1259ce0d232b95a2f717818c9881b01130cc8673",
+      "size": "903801",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=27070&media=wheel",
+      "crc": "0c9ed924",
+      "md5": "f61d0927544551b96cf65619140dff31",
+      "sha1": "41807e171c0d9e8e1312fe76030d2146c77ff1b5",
+      "size": "33656",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "id": "2847",
+      "parent": "genre",
+      "subparent": "Sport / Football",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2847&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "2847",
+      "parent": "genre",
+      "subparent": "Sport / Football",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2847&media=logo-monochrome",
+      "crc": "05881367",
+      "md5": "47242f78bc088020a5bc944821c01728",
+      "sha1": "378a267ff82da70206e9382635afbd4e6653a845",
+      "size": "8669",
+      "format": "png"
+    },
+    {
+      "id": "2847",
+      "parent": "genre",
+      "subparent": "Sport / Football",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2847&media=logo-monochrome-svg",
+      "crc": "16e83f57",
+      "md5": "ca4b3626c63b75294e526a2fda98ba66",
+      "sha1": "08247dffba65d87f3590a27fd42a9517c3d86312",
+      "size": "2761",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome",
+      "crc": "6a963ad9",
+      "md5": "6daf840fab2d205bda9bad4ff16f4c95",
+      "sha1": "f5e795233a8013aa0d992e197d56d09a63513403",
+      "size": "18286",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome-svg",
+      "crc": "328c7db2",
+      "md5": "4298fc7c8887c1b97cec6ee0b5d72433",
+      "sha1": "8f59a9ec18c48a7246c3b13e19c6c5857bc95513",
+      "size": "4269",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=background",
+      "crc": "a3265ffe",
+      "md5": "65308af4ddc9782f6717f000eea7f28a",
+      "sha1": "bccce8f0defa7c25313eb5ced7cdf71555c5a85d",
+      "size": "185482",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136334",
+      "romsize": "262160",
+      "romfilename": "J.League Fighting Soccer - The King of Ace Strikers (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9EEE1010",
+      "rommd5": "3669C24BE3D5928713C1F65D11B7EB7C",
+      "romsha1": "2E74E8113DCCC66A8AEF91B9B27730767ADC63EA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "69546",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "12866",
+      "romsize": "98187",
+      "romfilename": "J.League Fighting Soccer - The King of Ace Strikers (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D63998D9",
+      "rommd5": "363A586D663C3C46B6E32C1CBC482EE4",
+      "romsha1": "B4C917423AC6709EF6E6B78FE7E235C1F2E4F8C8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "63326",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1138962",
+      "romsize": "262160",
+      "romfilename": "J.League Fighting Soccer - The King of Ace Strikers (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "14014097",
+      "rommd5": "5a2b3041fc6710eac58d742012355c75",
+      "romsha1": "66f0e0bd6402501b76c4ab3f3eee91dbbff1eb7c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13983",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "827653",
+      "romsize": "98127",
+      "romfilename": "J-League King of Ace Strikers.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1D2A1B1D",
+      "rommd5": "D45F5895AE8A8C8AE732815A682E2B9A",
+      "romsha1": "0AF8313E8560CA9194B4187E045007DF1119D353",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7461"
+    },
+    {
+      "id": "173500",
+      "romsize": "262144",
+      "romfilename": "J.League Fighting Soccer - The King of Ace Strikers (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "803B9979",
+      "rommd5": "C13F339AE9C23980A98EA88941AD6C4C",
+      "romsha1": "9C1DF13CEC60CDED981E5F6D4F8E9486CB2F31C1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1644",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113999",
+      "romsize": "105905",
+      "romfilename": "J.League Winning Goal (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "96A40EFA",
+      "rommd5": "980C780A8EC8E88DCF581B6E866FDB61",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1085",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "483116",
+      "romsize": "98761",
+      "romfilename": "J.League Fighting Soccer - The King of Ace Strikers (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9132FCE7",
+      "rommd5": "8275A17EE3081426EF3CB0267721D6F8",
+      "romsha1": "266B9324E52BFFEACD01DB1DBF76CF03034E3C0C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "113",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113998",
+      "romsize": "98165",
+      "romfilename": "J.League Fighting Soccer - The King of Ace Strikers (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C9B53394",
+      "rommd5": "EA00CA2F8C2604C5DD05D48D0ADD059A",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "110",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1466901",
+      "romsize": "262160",
+      "romfilename": "Jリーグファイティングサッカー THE KING OF ACE STRIKERS.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "6975D3CD",
+      "rommd5": "90FBB62C98BDC5AEE1FFFA8758F31C97",
+      "romsha1": "AFC3D4F49C2C205C97935AC89EF501C77721E167",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    }
+  ]
+}

@@ -1,0 +1,2433 @@
+{
+  "id": "1675",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Pinball"
+    },
+    {
+      "region": "us",
+      "text": "Pinball"
+    },
+    {
+      "region": "jp",
+      "text": "Pinball"
+    },
+    {
+      "region": "eu",
+      "text": "Pinball"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "286",
+    "text": "Nintendo"
+  },
+  "developpeur": {
+    "id": "286",
+    "text": "Nintendo"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "note": {
+    "text": "12"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Be a pinball wizard, right in your own home!\r\n\r\nBank off bumpers, flip double flippers, even win a bonus round in Nintendo's lightning fast PINBALL! You'll have the time of your life as you flip from upper to lower game screens, rack up points to beat your opponent, and, if you're lucky, progress to the bonus round where you'll save the falling maiden in this video version of the real thing!"
+    },
+    {
+      "langue": "fr",
+      "text": "Pinball sur NES est un jeu de flipper. Comme dans un véritable flipper, l'objectif est de propulser la balle et de ne jamais la laisser passer entre les flips. Vous trouverez de nombreuses façons surprenantes d'augmenter votre score. Pinball comporte également un niveau bonus dans lequel Mario doit secourir Pauline, comme il le fit dans Donkey Kong."
+    },
+    {
+      "langue": "de",
+      "text": "Pinball für das NES ist ein Flipperspiel. Wie bei einem echten Flipperautomaten ist es das Ziel, den Ball anzutreiben und ihn niemals zwischen den Flipperhebeln durchzulassen. Du wirst viele überraschende Wege finden, um deine Punktzahl zu erhöhen. Pinball enthält auch ein Bonuslevel, in dem Mario Pauline retten muss, wie er es schon in Donkey Kong getan hat."
+    },
+    {
+      "langue": "es",
+      "text": "Como en un pinball real, el objetivo es impulsar la pelota y nunca dejarla pasar entre los lanzamientos. Encontrarás muchas formas sorprendentes de aumentar tu puntuación. Pinball también cuenta con un nivel de bonificación en el que Mario debe rescatar a Pauline, como lo hizo en Donkey Kong."
+    },
+    {
+      "langue": "it",
+      "text": "Diventa un mago del flipper, direttamente a casa tua!\r\n\r\nSalta i paraurti, gira le doppie pinne e vinci persino un round bonus nel velocissimo PINBALL di Nintendo! Avrai il tempo della tua vita girando dalla schermata di gioco superiore a quella inferiore, accumulando punti per battere il tuo avversario e, se sei fortunato, avanzi al round bonus dove salverai la fanciulla che cade in questo versione video della cosa reale!"
+    },
+    {
+      "langue": "pt",
+      "text": "Pinball no NES é um jogo de pinball. Como em uma verdadeira máquina de pinball, o objetivo é impulsionar a bola e nunca deixá-la passar entre os flips. Você encontrará muitas maneiras surpreendentes de aumentar sua pontuação. Pinball também tem um nível de bônus no qual Mario deve resgatar Pauline, como ele fez em Donkey Kong."
+    }
+  ],
+  "classifications": [
+    {
+      "type": "ESRB",
+      "text": "E"
+    },
+    {
+      "type": "CERO",
+      "text": "A"
+    },
+    {
+      "type": "PEGI",
+      "text": "3"
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1984-02-02"
+    },
+    {
+      "region": "eu",
+      "text": "1986-09-01"
+    },
+    {
+      "region": "us",
+      "text": "1985-10-18"
+    }
+  ],
+  "genres": [
+    {
+      "id": "31",
+      "nomcourt": "0700",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Pinball"
+        },
+        {
+          "langue": "fr",
+          "text": "Flipper"
+        },
+        {
+          "langue": "de",
+          "text": "Flipper"
+        },
+        {
+          "langue": "es",
+          "text": "Pinball"
+        },
+        {
+          "langue": "it",
+          "text": "Flipper"
+        },
+        {
+          "langue": "pt",
+          "text": "Pinball"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "c547007f",
+      "md5": "7dc596b687590dc91114db7f9da0ef70",
+      "sha1": "0e7c951eeeee7d6a87cd632f266d798adbf8d83f",
+      "size": "1204",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=ss(wor)",
+      "region": "wor",
+      "crc": "2b198cb3",
+      "md5": "3f8be4199526fa80d321c882646c5348",
+      "sha1": "1e6494bba58adf9927fd4925769589bffe0d1842",
+      "size": "2555",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=fanart",
+      "crc": "f079fddc",
+      "md5": "9d5519e1c76d763e3f58ce247ce70678",
+      "sha1": "1dd88967c50c5a59067dd921ae109b1b8f42a2c5",
+      "size": "620694",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=video",
+      "crc": "b00a728b",
+      "md5": "3466e046a591c548f9e083ae4754cb03",
+      "sha1": "a8ee3ada9e4c37b05db448c902798481f23dcee8",
+      "size": "1184158",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=video-normalized",
+      "crc": "9df81c3a",
+      "md5": "91dd330540cdcb2058679372a594f4eb",
+      "sha1": "36413211365c6fe3f092fae75d6eecb658bfbe8c",
+      "size": "691813",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=steamgrid",
+      "crc": "c18c4e30",
+      "md5": "08b13e2ac8e755de13e85efa0be6df65",
+      "sha1": "1a46d4838bf5ed82ba4faa0295e5686da2fc9564",
+      "size": "21538",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=wheel(wor)",
+      "region": "wor",
+      "crc": "a631b133",
+      "md5": "6c8f7f42eb66d3bcdf55619496a4fd4a",
+      "sha1": "c00de7fd40deb18f51b3ee9fa4d7c00e35b969e1",
+      "size": "21288",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "8f686c23",
+      "md5": "99f877489fa58cb34463c314dae0f8c0",
+      "sha1": "6e2e2ea8ca88b470c4c1f0965f1579785d4a4e1e",
+      "size": "97047",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "2590fb2f",
+      "md5": "c9820f8874735f44e8b3bcc791dd5729",
+      "sha1": "a873f9ff94570d89b78d66a87d927a7d4510c494",
+      "size": "98195",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "932b9f6b",
+      "md5": "c9a03ecacc24ebcd6bffd778341dcee2",
+      "sha1": "5a9c73938e77736774f3d2a9ef4af7db24b7f968",
+      "size": "471461",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "38ae6044",
+      "md5": "24309c4d638e6fbf5aea719a786d1e7d",
+      "sha1": "9a9d327fc6fd12eda0fd2e9d533422f48a028700",
+      "size": "71402",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-2D(de)",
+      "region": "de",
+      "crc": "f7acc31b",
+      "md5": "54238282815f6dc98f52f38543321a8d",
+      "sha1": "0d533649b706f1dd1253aa05f931945111f8d3b7",
+      "size": "617267",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-2D(eu)",
+      "region": "eu",
+      "crc": "02475619",
+      "md5": "f63ce4c41b326b1ed092a87f359f09cb",
+      "sha1": "6aebf981735ac561fee54976de5c34c346d8f0ef",
+      "size": "319395",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "056c6928",
+      "md5": "75d8ca583a7e8ce516a1480785d06947",
+      "sha1": "4450c579d02d83f2708ec0fb9268d97585f7ee00",
+      "size": "536380",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "5bbcf2b8",
+      "md5": "9ee53a069053b4f4f99bf96f6818a1d2",
+      "sha1": "3380baf3c59cf5ce521069d433a119ada02fe7e3",
+      "size": "87650",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-2D(us)",
+      "region": "us",
+      "crc": "c829dcb8",
+      "md5": "efccd2b6ab237be3a309cf5f8543eefe",
+      "sha1": "240d517a22f0184614f1a45de765278230e24e49",
+      "size": "148842",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-2D-side(de)",
+      "region": "de",
+      "crc": "aff17cf0",
+      "md5": "2a7787b638659aba229eb61c26b0efd1",
+      "sha1": "e1471c995c7c117bc0a3e50c32af1916e8b18dc0",
+      "size": "26638",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-2D-side(eu)",
+      "region": "eu",
+      "crc": "25154c57",
+      "md5": "b37952e6decbe2d839f02558839f53ea",
+      "sha1": "9aff2c02e77b63b8667a9d8ac4387cb66f86c976",
+      "size": "42398",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "1dac4698",
+      "md5": "9804f9537110e9106b709df45caa06a5",
+      "sha1": "f01199ea72d94a9ced5af27a48509a417ad4e0a4",
+      "size": "103038",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "12e54edc",
+      "md5": "4e02dcc13d11873a3771ed636b45c408",
+      "sha1": "9a293958829303b850679c458b93fd5f7d8158e4",
+      "size": "17708",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "f1c373ff",
+      "md5": "7a58b89c7b8cfa5cc8d0de5ab86416e7",
+      "sha1": "f991b92040fb8c1e76db0b5f0fd34d758e8da6bd",
+      "size": "23717",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-2D-back(de)",
+      "region": "de",
+      "crc": "b22030db",
+      "md5": "9519208783d3f2296ac11ddd2f4659cf",
+      "sha1": "613428539f409f4dc00af1c7bea4c4b8736a5037",
+      "size": "620832",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-2D-back(eu)",
+      "region": "eu",
+      "crc": "1a0a8d03",
+      "md5": "7744ab2c635d86368ccccd048fce12f7",
+      "sha1": "5229096028f7fd3a47ab4c3afa94a34c49abe83b",
+      "size": "344451",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "e0b85df2",
+      "md5": "d6f997be9f1040280f73353edb65b6e3",
+      "sha1": "e07fa9ef7c132399faa1e24068ae73b8f5307c87",
+      "size": "321181",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "f9ad1d18",
+      "md5": "2edd299724fec8a986a4b2cd8af26105",
+      "sha1": "af6fde6d6872a09e4663c00a93087a8a5cf766ae",
+      "size": "114541",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "ab8dbbb5",
+      "md5": "ef6a528f57de43b512368e2d9c3d76a1",
+      "sha1": "96f23ffc2963b8d3718089aa26b664245ee3e801",
+      "size": "269807",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-texture(de)",
+      "region": "de",
+      "crc": "24b90fe7",
+      "md5": "cc138a8202e29ba15476db379ef3e80d",
+      "sha1": "47627a49e7f628bea038cf87ce1cf968f1be0cd8",
+      "size": "1286821",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-texture(eu)",
+      "region": "eu",
+      "crc": "8748cb00",
+      "md5": "3dafb93696bb4246b51ed22727cb4566",
+      "sha1": "98e63b63e882757b2efe124df208501034bd4869",
+      "size": "719316",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "32e27e24",
+      "md5": "37f89de1766f936613b6ec0ad4ad485e",
+      "sha1": "c120b29d220a943569d1c5604fac1c83ad3e0140",
+      "size": "902805",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "737a925b",
+      "md5": "0c8f120be8eb3cb1a33fa0073e0b102e",
+      "sha1": "26362b4194a8743b095c72f785a08c0fb855e8dd",
+      "size": "233026",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-texture(us)",
+      "region": "us",
+      "crc": "10fb372c",
+      "md5": "e67e4a4b2d6ff4ea570b5800a340011e",
+      "sha1": "8ed29a1efbdbc65029e21a533258fbe680074237",
+      "size": "410502",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-3D(de)",
+      "region": "de",
+      "crc": "19f272fb",
+      "md5": "c7c8b32fed8b5d9ad3c6b199bee75e59",
+      "sha1": "719a90de3f58445842801fb18620996e57c6b0a7",
+      "size": "266656",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-3D(eu)",
+      "region": "eu",
+      "crc": "27acf041",
+      "md5": "6dcc4f0c1eb2b5cf3c5e5209107c3a57",
+      "sha1": "02d05b195c97477e6689b00d82bc070945b68144",
+      "size": "167566",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "0128373a",
+      "md5": "08b4820c91c4a81c1f2e80ef0de29481",
+      "sha1": "b09f11c3d3c89fe1083c5f16f54657f213113663",
+      "size": "274191",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "f98a9791",
+      "md5": "82f5f0171c926ba6c18d772cb26af39b",
+      "sha1": "d20c6e6116f64f841a8ea6a6d2f837b0b08a9113",
+      "size": "96065",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=box-3D(us)",
+      "region": "us",
+      "crc": "5c831b24",
+      "md5": "921e311c7ca2893c2161cc68cd29c2fd",
+      "sha1": "871628294418a7cc87112f0213966fefd52b241d",
+      "size": "130155",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=manuel(eu)",
+      "region": "eu",
+      "crc": "eac51fe1",
+      "md5": "338c7b9d706b4d290de23b84bca28700",
+      "sha1": "d22d12c93cf5e3287b1b556ef5b20a64e5d2b56e",
+      "size": "717707",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=manuel(jp)",
+      "region": "jp",
+      "crc": "254f2dff",
+      "md5": "e3a09fa8a55639f1d9e653e8b132596f",
+      "sha1": "07d4ea174834bcef86044e0212bbf320840d72b5",
+      "size": "388084",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=support-texture(eu)",
+      "region": "eu",
+      "crc": "823e56a4",
+      "md5": "6c429c4623f44d0caa25b80d5e90375c",
+      "sha1": "dff2595eaca5509bdf293d3516b0381472b43b0a",
+      "size": "329426",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "faaf3b2b",
+      "md5": "a337f32f49bd6573019ac547ac3157a2",
+      "sha1": "978fa0e9b05db821fb0e08e7fbe3f1e0601dbb7b",
+      "size": "249226",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=support-texture(us)",
+      "region": "us",
+      "crc": "d7975268",
+      "md5": "ace33202a9cf6af77df2e8b934ba695d",
+      "sha1": "756e33f5e5b39c373c39ca12b3c3bc23b72783c7",
+      "size": "144158",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=support-2D(eu)",
+      "region": "eu",
+      "crc": "fbc81e3b",
+      "md5": "6cb78e545be09a003123685ac616493e",
+      "sha1": "f49c2b96be941ac7d1ba6776961a3bf0269715e4",
+      "size": "317145",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "10f4e231",
+      "md5": "828fef0f78ba3fc6dc57ecaff1603ea4",
+      "sha1": "72a2c26422b2f2b39a4aae71a072894937bc92c1",
+      "size": "237863",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=support-2D(us)",
+      "region": "us",
+      "crc": "d2d6f47f",
+      "md5": "992679f0a9bd4bdadc3cc89581f943ed",
+      "sha1": "1deac29ffce353a8db528ec913e20e83da369ea1",
+      "size": "361506",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=mixrbv1(de)",
+      "region": "de",
+      "crc": "1096625c",
+      "md5": "0034aa32663152b76676449530426100",
+      "sha1": "5813f2825ea1ac5426cc8d151e6212d37e88ecab",
+      "size": "254335",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=mixrbv1(eu)",
+      "region": "eu",
+      "crc": "b913b69d",
+      "md5": "2db424d285f2e6c64f89d3d07dadb944",
+      "sha1": "d54df2b671b532fdc8a1b349f054bb1f1b686e18",
+      "size": "207482",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "b366a5bc",
+      "md5": "633ae4a74576518159de19cda3f685f9",
+      "sha1": "f68ac7f24d0d99bd1eddae1b180d0cf4daaf2600",
+      "size": "259198",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "d5725977",
+      "md5": "8c0b25dbf4cff1f5df108584b3d62fc3",
+      "sha1": "3e966cd5ae13cb0224e60614538c04f1769ebd46",
+      "size": "170240",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "9015548c",
+      "md5": "0ab96feef31def04c5ae673bdb2202f3",
+      "sha1": "5ddcc5f5c51ab418424500ce6718253789e41504",
+      "size": "195144",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "b913b69d",
+      "md5": "2db424d285f2e6c64f89d3d07dadb944",
+      "sha1": "d54df2b671b532fdc8a1b349f054bb1f1b686e18",
+      "size": "207482",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=mixrbv2(de)",
+      "region": "de",
+      "crc": "91b721fb",
+      "md5": "d1bef330fe8e7ca96c7472f73349f6ba",
+      "sha1": "a852750c7325526ade6d9bfe80b3a5b28e08d684",
+      "size": "412016",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=mixrbv2(eu)",
+      "region": "eu",
+      "crc": "15b456d2",
+      "md5": "8a1e82e6628f26c5b26bf63a3b9d778e",
+      "sha1": "d4545c1bc189930e3a042f7ae940e4e6b71c4594",
+      "size": "371399",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "433db95b",
+      "md5": "e8c873e8c19bf1d553a4b88ecfb9291b",
+      "sha1": "ea8242272666e64169b5d7adfd093c26b396fe9b",
+      "size": "423147",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "8d658be0",
+      "md5": "94f2b1eff847a1ac2242b45d10120a94",
+      "sha1": "eef9b617951b8f5b2b920ac945af8d70be3d58af",
+      "size": "334897",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "b4357a49",
+      "md5": "dd1a057fda91906abe6213c3ae5e2fed",
+      "sha1": "e8091bc62ff184d639eaeea98a07cef65c179fcc",
+      "size": "360277",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1675&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "15b456d2",
+      "md5": "8a1e82e6628f26c5b26bf63a3b9d778e",
+      "sha1": "d4545c1bc189930e3a042f7ae940e4e6b71c4594",
+      "size": "371399",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=logo-monochrome",
+      "crc": "95dac55f",
+      "md5": "1a6af8c61e2b478c66f13a76035c4178",
+      "sha1": "333417fda7f11b21cdbfe53c5b549d31f387e7e8",
+      "size": "3342",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=wheel",
+      "crc": "d0666824",
+      "md5": "f132730b36526f594b4480fd905684cf",
+      "sha1": "2ba2d8412bceaaa973ae7f0bf41d08edf5e5a369",
+      "size": "27698",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=logo-monochrome",
+      "crc": "95dac55f",
+      "md5": "1a6af8c61e2b478c66f13a76035c4178",
+      "sha1": "333417fda7f11b21cdbfe53c5b549d31f387e7e8",
+      "size": "3342",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=wheel",
+      "crc": "d0666824",
+      "md5": "f132730b36526f594b4480fd905684cf",
+      "sha1": "2ba2d8412bceaaa973ae7f0bf41d08edf5e5a369",
+      "size": "27698",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3551&media=pictoliste",
+      "crc": "4b70874e",
+      "md5": "e350059ffeddd8fa6305e25f6aae2d92",
+      "sha1": "51a597d09c8482e1ed1099d12db0d958aeaa1d21",
+      "size": "420",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=pictoliste",
+      "crc": "cafca3d7",
+      "md5": "51bfa81c19838bc679411a7b6f4053e2",
+      "sha1": "92253cf472ed8e71780c29ddeb6c6e260325ce1f",
+      "size": "593",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=logo-monochrome",
+      "crc": "e4f09f59",
+      "md5": "031f5b008fd851f56fea852bf9f95126",
+      "sha1": "8160d583dde154dcbd717217182d2b310e756e92",
+      "size": "10670",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "CERO",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3621&media=pictoliste",
+      "crc": "399f10e9",
+      "md5": "a1622781ff399d0571142fb803e09c54",
+      "sha1": "20eaec1b4d905832dbfaf3fff6643757d845a0f2",
+      "size": "705",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "CERO",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3621&media=logo-monochrome",
+      "crc": "ae2c8a77",
+      "md5": "747f5e7d5d440a64f066ecc592f13899",
+      "sha1": "19b3e8723f425c74e84833f057c8f4a9749151ed",
+      "size": "16441",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "PEGI",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3710&media=pictoliste",
+      "crc": "05df9e5c",
+      "md5": "c013fb8489dda92b8b1035ab51241ddf",
+      "sha1": "4f025371d91c39874184b041c4230843482da6d0",
+      "size": "492",
+      "format": "png"
+    },
+    {
+      "id": "31",
+      "parent": "genre",
+      "subparent": "Flipper",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=31&media=pictoliste",
+      "crc": "adf2527b",
+      "md5": "19fd613c5b5fd7957f65892088497155",
+      "sha1": "8df1a1d10ae57fe006568644399caf45a444cfec",
+      "size": "773",
+      "format": "png"
+    },
+    {
+      "id": "31",
+      "parent": "genre",
+      "subparent": "Flipper",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=31&media=logo-monochrome",
+      "crc": "e1f33b72",
+      "md5": "10f7d2ba3782966bf5c27131c10faa0c",
+      "sha1": "bd9230d7c1a42e4f3d24440d7662e047193f8a37",
+      "size": "6061",
+      "format": "png"
+    },
+    {
+      "id": "31",
+      "parent": "genre",
+      "subparent": "Flipper",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=31&media=logo-monochrome-svg",
+      "crc": "4a066682",
+      "md5": "7cb06c683c8ccc08f6cc3013aa7ae636",
+      "sha1": "b2833f76c129c66d27ed22e5254ff1df747392e1",
+      "size": "1942",
+      "format": "svg"
+    },
+    {
+      "id": "31",
+      "parent": "genre",
+      "subparent": "Flipper",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=31&media=background",
+      "crc": "697f7972",
+      "md5": "346b4d02ebe95a53888461a7d9519ac2",
+      "sha1": "96cdffb54f4dfb903b68a10f664ca4eecfb23d3b",
+      "size": "220195",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136482",
+      "romsize": "24592",
+      "romfilename": "Pinball (World).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "88C15CF3",
+      "rommd5": "838B3043AF802E70A855560433A6FCA3",
+      "romsha1": "D2F25A027E390A0337BED7E0DC98D2D1D187D230",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "281894",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "3736",
+      "romsize": "15862",
+      "romfilename": "Pinball.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5FAC7923",
+      "rommd5": "19BCC8F79CB6E16CC3F0711DB54C15D9",
+      "romsha1": "8480C6C7E1388B8E97ECEE95E80DCA9DB33D7F89",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "210805",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "136955",
+      "romsize": "24592",
+      "romfilename": "Pinball (E) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5D31D087",
+      "rommd5": "1C2A5DD66E651F2BB56D0FC2D3077A29",
+      "romsha1": "FD3EB4C91C12CEA8BE20ED85BEFCA813D3B35E21",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "83222",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "3738",
+      "romsize": "15844",
+      "romfilename": "Pinball (World).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B52B1B15",
+      "rommd5": "638F6FE074240D8FA9D9531D927F9715",
+      "romsha1": "9B2CF665DE612264FB2D9C016DD11B31CE618472",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "55912",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "595379",
+      "romsize": "24719",
+      "romfilename": "Pinball.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7310689C",
+      "rommd5": "1BB1B1CD1D89DEE173219199208A625D",
+      "romsha1": "27595CE3600AF0D85C6D56BB504ECA94C6ED0760",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "39287"
+    },
+    {
+      "id": "1142130",
+      "romsize": "24592",
+      "romfilename": "Pinball (Japan, USA) (En).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "c49bb3a5",
+      "rommd5": "d2f389dc61f3cf797e80a3672f98ce9c",
+      "romsha1": "97d37fde75b93d4a5739843c5ac63a60eb4ba37c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "38874",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "136956",
+      "romsize": "24592",
+      "romfilename": "Pinball (USA) (GameCube Edition).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "639C95ED",
+      "rommd5": "480E3B7E68AFF6A9A3A75B61763567B0",
+      "romsha1": "0693610AEC9A46859975200AA4644C3207023CEA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "29565",
+      "regions": {
+        "regions_id": [
+          "46",
+          "57"
+        ],
+        "regions_shortname": [
+          "us",
+          "wor"
+        ],
+        "regions_en": [
+          "USA",
+          "World"
+        ],
+        "regions_fr": [
+          "USA",
+          "Monde"
+        ],
+        "regions_de": [
+          "USA",
+          "World"
+        ],
+        "regions_es": [
+          "USA",
+          "Mundo"
+        ],
+        "regions_it": [
+          "USA",
+          "Mondo"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "537391",
+      "romsize": "23098",
+      "romfilename": "VS Pinball.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "10A73388",
+      "rommd5": "1FBADC3FC7E522224CA7467E78CEBE46",
+      "romsha1": "5147299C274C87A1E08589A28D32422264D708F8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "26962"
+    },
+    {
+      "id": "1142127",
+      "romsize": "24592",
+      "romfilename": "Pinball (E) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "47dbee98",
+      "rommd5": "5c6e63da9381ba1d0076b45a724cd3e6",
+      "romsha1": "b8d5d180972e5b44416972563012c29282e7fd46",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "13946",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "174144",
+      "romsize": "24576",
+      "romfilename": "Pinball (Japan, USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "035DC2E9",
+      "rommd5": "AD809323FE92D0E083BF77CCECAE462E",
+      "romsha1": "BE348431A9C03D1A588A8363C0094B5A0722D9BE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13928",
+      "regions": {
+        "regions_id": [
+          "57",
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "wor",
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "World",
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "Monde",
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "World",
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "Mundo",
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "Mondo",
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Mundo",
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "752299",
+      "romsize": "24592",
+      "romfilename": "Poppy's Pinball (Pinball Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DFC42518",
+      "rommd5": "F32CFFF19A53C3360BE0383016DD9FA8",
+      "romsha1": "C8A4D298DC81AC9FA223C6DAFCDF213E981A93C7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13548"
+    },
+    {
+      "id": "3737",
+      "romsize": "15878",
+      "romfilename": "Pinball (USA) (GameCube Edition).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1DA71C19",
+      "rommd5": "F7D7C837A70275AD2B8B5701A74A37A7",
+      "romsha1": "AAB5878A0924690FB596ECAEF2092C02435D0289",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12669",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1142133",
+      "romsize": "24592",
+      "romfilename": "Pinball (U) (e-Reader) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "87afa293",
+      "rommd5": "7a96d81f7ff407e6bb162fa1a9e837ea",
+      "romsha1": "db411b32512ab121c43f9005ac6cde1996eed2c6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11955",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "526596",
+      "romsize": "15824",
+      "romfilename": "Pinball (JU) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9FF0921B",
+      "rommd5": "2EC0C381074F45C1CF8DD6C8E2229A70",
+      "romsha1": "731C6A7733D92A63E38B05A0D7BBED40360D4D26",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9937",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "174143",
+      "romsize": "24576",
+      "romfilename": "Pinball (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D6AD4E9D",
+      "rommd5": "4380E5B9EDAB63B677A6DFA11A39EC71",
+      "romsha1": "E6DBEAB6B373B44A2FABF778BB394EAC3A636F7A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9544",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "579279",
+      "romsize": "24592",
+      "romfilename": "Alien Pinball (Pinball Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D019D0CF",
+      "rommd5": "9E2DBB9737DE0D0FC3EC10E23130F190",
+      "romsha1": "6791E838A3CD7DCDACD3361C0C17BA33EA9ADDFB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9148"
+    },
+    {
+      "id": "1142136",
+      "romsize": "24592",
+      "romfilename": "Pinball (Japan, USA) (En) (GameCube Edition).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "c6476b6e",
+      "rommd5": "9e5f6c7da08db74be66ac177b5f027c3",
+      "romsha1": "65e911e4abade4f51473fffd4d4cd50546df855d",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "8582",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "526822",
+      "romsize": "24592",
+      "romfilename": "Pinball (Patch FR).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "92B3BDF9",
+      "rommd5": "534C84851816E80C6FBE260908DF41F1",
+      "romsha1": "4351E34209A24D7B5FB6EB15D0400373682D276C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7560",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "540355",
+      "romsize": "15863",
+      "romfilename": "Pinball (World).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "11D1594D",
+      "rommd5": "536D91E6AAF535E3D34A5CAB01AA04F5",
+      "romsha1": "24599F68041230503CF0CAD0FEC37A88043CD05B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6564",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "765880",
+      "romsize": "40976",
+      "romfilename": "Pinball II (Pinball Hack).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5A7F191A",
+      "rommd5": "D6DEF90C97BB0D96C51DB138BAF0DF52",
+      "romsha1": "F57FB9B62DD8F00E9356A62FBA6AE9FF7C7F355E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6043"
+    },
+    {
+      "id": "114640",
+      "romsize": "15840",
+      "romfilename": "Pinball (Europe) (Rev A).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "AF7157B2",
+      "rommd5": "DAACC80C431B665BAB14365F1CA9ADB4",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5399",
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "1142139",
+      "romsize": "40976",
+      "romfilename": "Pinball (J) (GC) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "bdc4a278",
+      "rommd5": "5c608a6e03d025af9d21ddce014b9f91",
+      "romsha1": "3d78136f84b9001eafedfc7adb818f9e8af82799",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5277",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "924052",
+      "romsize": "40960",
+      "romfilename": "Pinball (Japan) (En) (GameCube Edition).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DE01497A",
+      "rommd5": "438B82EEB85CFFF7936EC83730DA1FF0",
+      "romsha1": "3C5687101382A8DEAE7D70B6062C0484BD0AD420",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5212",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "544258",
+      "romsize": "15811",
+      "romfilename": "Pinball.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1F5CA85F",
+      "rommd5": "0D4BED3B3BE877AC02386CC3DD3E1081",
+      "romsha1": "C32752F167642B558B6E0704893EBEE000209083",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4508"
+    },
+    {
+      "id": "570672",
+      "romsize": "15859",
+      "romfilename": "Pinball.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A934D4A6",
+      "rommd5": "FD84F84BE9ADB1A2792F8FCE0C76FC84",
+      "romsha1": "F589AFC9720A301F6B4E5DB77E1D5A9260229E74",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3747"
+    },
+    {
+      "id": "1079388",
+      "romsize": "24576",
+      "romfilename": "Pinball (USA) (e-Reader Edition).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4069d3df",
+      "rommd5": "af0b15298bbee2946a8caf0028048a58",
+      "romsha1": "04465ec7dafbee69c8260b9fb6ffb14b84a4df87",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3463",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "174145",
+      "romsize": "24576",
+      "romfilename": "Pinball (Japan, USA) (En) (GameCube Edition).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E8000BF7",
+      "rommd5": "BFAB5F738ADB919F1BA389F5C38DEB67",
+      "romsha1": "7F238A869D5CC12859C0B06587F94B16DFED346C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1413",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "524217",
+      "romsize": "15822",
+      "romfilename": "Pinball (World).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BF309F87",
+      "rommd5": "33350462C0AEA98C725660C27B403655",
+      "romsha1": "77BC0FDC61126F3D64AA4B42E728B9E10464A4FC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1152",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "1420310",
+      "romsize": "49168",
+      "romfilename": "457 Pinball.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "4f575d4a",
+      "rommd5": "06938780de6f3d1f8b1e4c3acbb3cf5d",
+      "romsha1": "dce5f16aa77621871b248797b9f000da703166c2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "701"
+    },
+    {
+      "id": "1413692",
+      "romsize": "24592",
+      "romfilename": "0150 Pinball table [Chinese version].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "f4d581a4",
+      "rommd5": "28885b2c5e36e930bf1193b6126f31f1",
+      "romsha1": "583b26a61dab5aec4194074338cc63d38eed4606",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "551"
+    },
+    {
+      "id": "310773",
+      "romsize": "15886",
+      "romfilename": "Pinball (Patch FR).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9DEE597B",
+      "rommd5": "1452809189ADE78C387C3C20390EB902",
+      "romsha1": "907275EF82A295E86C492C3366CD80F931B54886",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "276"
+    },
+    {
+      "id": "114641",
+      "romsize": "15856",
+      "romfilename": "Pinball (USA) (GameCube Edition).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5B2E2190",
+      "rommd5": "499B35CDEA65768EE4D3773CF1FEF06F",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "105",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "114642",
+      "romsize": "15822",
+      "romfilename": "Pinball (World).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B148CA8C",
+      "rommd5": "9A60D62D38F914A679D079D001B0BBFF",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "86",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "1465011",
+      "romsize": "15850",
+      "romfilename": "Pinball - Mega Edition (World) (Aftermarket) (Unl)_1.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "c845ef73",
+      "rommd5": "acad5c8d2a804cd3461f94b2833f31ef",
+      "romsha1": "182a21a77aefc9c3ec15ca7af304177054ad0f4f",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7"
+    }
+  ]
+}

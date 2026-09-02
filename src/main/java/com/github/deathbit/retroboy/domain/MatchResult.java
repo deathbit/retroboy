@@ -16,6 +16,8 @@ import java.util.Map;
 @NoArgsConstructor
 @AllArgsConstructor
 public class MatchResult {
+    /** GameDB area 到 WikiDB area 的映射 */
+    private Map<String, String> gameDBToWikiDBAreaMapping;
     /** 按 MatchLevel 分类的匹配对，每个 level 均有 key（可能为空 list） */
     private Map<MatchLevel, List<MatchPairForPackage>> matchPairsByLevel;
     /** 未能匹配到任何 GameDBPackage 的 WikiDBPackage */

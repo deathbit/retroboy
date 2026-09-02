@@ -1,0 +1,100 @@
+{
+  "id": "535469",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Blob Quest"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "BlobQuest is a homebrew platform and puzzle game developed for the classic NES console. The story follows a protagonist who has been transformed into a blob by an evil wizard, forcing them to explore various worlds to collect 8 mystical rubies and restore their true human form."
+    },
+    {
+      "langue": "de",
+      "text": "BLOB QUEST handelt von einem Protagonisten, der von einem bösen Zauberer in einen Klecks verwandelt wurde und nun gezwungen ist, verschiedene Welten zu erkunden, um acht mystische Rubine zu sammeln und seine wahre menschliche Gestalt wiederzuerlangen."
+    },
+    {
+      "langue": "es",
+      "text": "BlobQuest es un juego homebrew de plataformas y puzles desarrollado para la clásica consola NES. La historia sigue a un protagonista que ha sido convertido en una masa (blob) por un malvado mago, obligándolo a explorar mundos para recolectar 8 rubíes místicos y recuperar su verdadera forma humana."
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=535469&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "12d97d29",
+      "md5": "dec30ae50f3ad649fdbd0ed85faad1b4",
+      "sha1": "de794d6f887143dc3e23d9a7b287a72790b34772",
+      "size": "3248",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=535469&media=ss(wor)",
+      "region": "wor",
+      "crc": "50d4fd65",
+      "md5": "d05e0a7f43ebef2d862e61c1b156164b",
+      "sha1": "66ce6fd9e03a9c6129a0600c582b119523fcf4ff",
+      "size": "19196",
+      "format": "jpg"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=535469&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "28b52c0e",
+      "md5": "55d686648ad3c48e4ec4bac30bb17009",
+      "sha1": "3d7a37c122a734ae595907caf0b4f37e031ce9e4",
+      "size": "343138",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=535469&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "57c4355c",
+      "md5": "74e89b5f2d623dffde6ffb2855b60dab",
+      "sha1": "942914dcfe8352167d1c9d489d6bf52ba845b7e2",
+      "size": "475147",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1385096",
+      "romsize": "32784",
+      "romfilename": "BlobQuest (ESP).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "BEF12083",
+      "rommd5": "E07C2BFE27D44DD0764A71CB2411953D",
+      "romsha1": "76E1AAC132325D9CC3A1B1EB699BA58211855FB1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "856"
+    }
+  ]
+}

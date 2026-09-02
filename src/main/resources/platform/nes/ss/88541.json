@@ -1,0 +1,772 @@
+{
+  "id": "88541",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Tanigawa Kouji No Shougi Shinan 2"
+    },
+    {
+      "region": "jp",
+      "text": "Tanigawa Kouji no Shougi Shinan II"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "2870",
+    "text": "Pony Canyon"
+  },
+  "developpeur": {
+    "id": "2870",
+    "text": "Pony Canyon"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "The strongest in the Famicom world\r\n☆Play against the  and  who have their own special tactics. Moreover, his hands are surprisingly fast.\r\n☆Koji Tanigawa will judge your shogi skills using 40 practical ``Tsume Shogi'' questions and 20 ``Next Move'' questions.\r\n●Game (suitable for beginners to 2nd grade) ●Next move (suitable for 1st to 4th dan) ●Tsume Shogi (suitable for 5th grade to 2nd dan)"
+    },
+    {
+      "langue": "fr",
+      "text": "Le légendaire joueur de Shogi Kouji Tanigawa fait figure d'instructeur pour le joueur et l'apprend à jouer au Shogi et à gérer des situations difficiles."
+    },
+    {
+      "langue": "de",
+      "text": "Der legendäre Shogi-Spieler Kouji Tanigawa ist Ausbilder für den Spieler und lehrt ihn, Shogi zu spielen und schwierige Situationen zu bewältigen."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1988-03-18"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2961",
+      "nomcourt": "0800",
+      "principale": "0",
+      "parentid": "2647",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shougi"
+        },
+        {
+          "langue": "fr",
+          "text": "Shougi"
+        },
+        {
+          "langue": "de",
+          "text": "Shougi"
+        },
+        {
+          "langue": "es",
+          "text": "Shougi"
+        },
+        {
+          "langue": "it",
+          "text": "Shougi"
+        },
+        {
+          "langue": "pt",
+          "text": "Shougi"
+        }
+      ]
+    },
+    {
+      "id": "2647",
+      "nomcourt": "0800",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Asiatic board game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de societe asiatique"
+        },
+        {
+          "langue": "de",
+          "text": "Asiatische Brettspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de mesa asiático"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di società asiatico"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogo de tabuleiro Asiático"
+        }
+      ]
+    }
+  ],
+  "modes": [
+    {
+      "id": "4",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Single-player"
+        },
+        {
+          "langue": "fr",
+          "text": "Jouable en solo"
+        },
+        {
+          "langue": "de",
+          "text": "Einzelspieler"
+        },
+        {
+          "langue": "es",
+          "text": "Jugador individual"
+        },
+        {
+          "langue": "it",
+          "text": "Giocatore singolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogador individual"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "56e91af5",
+      "md5": "913690561dea9b5c38f2adf5d6c67fcb",
+      "sha1": "d08a1fb7d6e0b866a054a40fd90af0d74aef7405",
+      "size": "3312",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=ss(jp)",
+      "region": "jp",
+      "crc": "069c508e",
+      "md5": "83b84fcbc8ab4e2f919c670c4d944b30",
+      "sha1": "2c1a9be9aeb477e954a8cf2a0f2daf9903ab936c",
+      "size": "14499",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=video",
+      "crc": "228b631c",
+      "md5": "b0c1cbf8aedcbee836e0894f60e0c27f",
+      "sha1": "6957e98cb8d5b9ee75dbdda40fa1c54ba2e2faa7",
+      "size": "3074503",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=video-normalized",
+      "crc": "0840b259",
+      "md5": "4ea974de2993b48e5c3e13feb418d650",
+      "sha1": "e6c07b3cc791b058a6cd90810f47b3f42ef712d5",
+      "size": "806360",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=steamgrid",
+      "crc": "eefc7749",
+      "md5": "102ea0058092904cbe7a3f7dfebe2976",
+      "sha1": "9b0104dab110ef3c26aabc7d202814a5010c719e",
+      "size": "35722",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=wheel(jp)",
+      "region": "jp",
+      "crc": "9b7f6536",
+      "md5": "9762a2c11d04011792e982607ff80aca",
+      "sha1": "e7778ea127bb4d51758157d62c1a46fa6cd06a09",
+      "size": "83001",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "a1102a5e",
+      "md5": "fcbd9432b54a350568edd0abab190e24",
+      "sha1": "d1d6bf9fa71e25bae73d1b02361e3476e5355df9",
+      "size": "140857",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "15e7d7f2",
+      "md5": "5cc1782033c5cf29fa22207fdf38b0b7",
+      "sha1": "4d73a2a3704986028c93f582d45e338e658e18c9",
+      "size": "142721",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "1bb011c0",
+      "md5": "a568a81cc38084104400c3287eee8150",
+      "sha1": "5a8302efa617c669f13ea03d253460a8704e2612",
+      "size": "518691",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "cd4e3aa9",
+      "md5": "12122e4a78ca721e93584c034fd2e82d",
+      "sha1": "39b1cabf05f7c76d348aa327f1cbed4f82e04a05",
+      "size": "86820",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "4b175184",
+      "md5": "f3b5179c334edd42b68b86f9c3c6d7d3",
+      "sha1": "e050db412990dc499a4699bb333f2324db5f84a9",
+      "size": "579815",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "3ebf6239",
+      "md5": "4959f63a2c7bffd0bad2d604bfaf0d1f",
+      "sha1": "8a3920ad7f60f05381e00d16c3200a5a63cdf79f",
+      "size": "164312",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "a04d3971",
+      "md5": "760f3f863ac780ef95301268ebe93656",
+      "sha1": "1099a3cfbfbe0ba9fa73652eea13d269c068ff6e",
+      "size": "99186",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "b87806fe",
+      "md5": "c2904f6160347a13e61b5acddd48ce4e",
+      "sha1": "1727dd1ff0eafb9378afbdf0c0717ef45a2b11f7",
+      "size": "30542",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "fd4899b3",
+      "md5": "0f58e4337712acdc4f61cc1d393bd81f",
+      "sha1": "4c39340889d2b8b42a94a29ec6c790717b9fac00",
+      "size": "785387",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "686f41bb",
+      "md5": "7d1bf2143f54b597b18a632a1ba8c5db",
+      "sha1": "b29b1659e38e4530ad7a8d9c43c731d7a6f0f4a2",
+      "size": "144664",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "563d4c97",
+      "md5": "2cb5d96435b527a45c78fe9301549493",
+      "sha1": "7bd74321bdb0b9a103d36e372393697fd6da4913",
+      "size": "1410265",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "e8025639",
+      "md5": "a87011acb4df1c9b26469ef7a9c78353",
+      "sha1": "3ba4b275d733d59a8c49e7c6a90a7f67d4821cd1",
+      "size": "356470",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "770fc92f",
+      "md5": "bc15a18ebdcf36fa5da82bce4ac10f93",
+      "sha1": "3253894fb5882fc8e760a6e0f23d962ed5df71e4",
+      "size": "314298",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "d805004f",
+      "md5": "c8ad9edc240bfcb2a59c7c0444e92495",
+      "sha1": "b0c84f841747c41491ea1e85c8311c055c8c1f80",
+      "size": "160124",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "3d901cf5",
+      "md5": "a047433e07ef3d66d7b53bcef3afc0d4",
+      "sha1": "f310ec69e0a863adc84820b5fcf5afcb3441182e",
+      "size": "296302",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "480b58ee",
+      "md5": "38fb42e75fb6459dc63a63cdf5f45bb0",
+      "sha1": "fe4badcba3168bc0f566862fd56d41963225349f",
+      "size": "318883",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "88668b6a",
+      "md5": "e25b8d3f6b687f3bf9693c55ff2ae7c9",
+      "sha1": "6f3186bde37e9a9b64b7ae598ee882f017f51f36",
+      "size": "504230",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "e0f237a9",
+      "md5": "80df71d46fd57cc60d596b43c87c0ee9",
+      "sha1": "cc2cfd785cd7508a462be35b5d3a5fa9b3ea6d58",
+      "size": "416281",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "88668b6a",
+      "md5": "e25b8d3f6b687f3bf9693c55ff2ae7c9",
+      "sha1": "6f3186bde37e9a9b64b7ae598ee882f017f51f36",
+      "size": "504230",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "aefcb923",
+      "md5": "15c0c91b640d93a5691524ce1e6fe3d0",
+      "sha1": "10ed0a147ba48cda9af0cd4f08679bae72705da0",
+      "size": "754883",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "e4bed496",
+      "md5": "4ffa79be687441d338d275c39a435e00",
+      "sha1": "327cb553a9becb8b3393bfc8a505541440f41130",
+      "size": "624887",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88541&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "aefcb923",
+      "md5": "15c0c91b640d93a5691524ce1e6fe3d0",
+      "sha1": "10ed0a147ba48cda9af0cd4f08679bae72705da0",
+      "size": "754883",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2870&media=logo-monochrome",
+      "crc": "5ec6bbe3",
+      "md5": "544026fcae2bf3023d87d13618b1e654",
+      "sha1": "5da2e46e92c39a96ee3be2305acc6b08cbdedf83",
+      "size": "20423",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2870&media=wheel",
+      "crc": "a79d9230",
+      "md5": "b3b8818311bef09b60b99709cdc8fc8a",
+      "sha1": "e77415f47aa7d9c8a55434948c00e1655eadd42f",
+      "size": "20476",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2870&media=logo-monochrome",
+      "crc": "5ec6bbe3",
+      "md5": "544026fcae2bf3023d87d13618b1e654",
+      "sha1": "5da2e46e92c39a96ee3be2305acc6b08cbdedf83",
+      "size": "20423",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2870&media=wheel",
+      "crc": "a79d9230",
+      "md5": "b3b8818311bef09b60b99709cdc8fc8a",
+      "sha1": "e77415f47aa7d9c8a55434948c00e1655eadd42f",
+      "size": "20476",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=pictoliste",
+      "crc": "dcf3c32a",
+      "md5": "23618958c46fc28396c157d74a77bdeb",
+      "sha1": "00ce76c60ab28d758d6ca5f6796882dee3f7faa0",
+      "size": "1159",
+      "format": "png"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=logo-monochrome",
+      "crc": "3678f7f4",
+      "md5": "89ef7b6f92a2ef67e23b87843990f98b",
+      "sha1": "c55797e72d206fe87173ea7adf08e123f3a4d0c0",
+      "size": "17363",
+      "format": "png"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=logo-monochrome-svg",
+      "crc": "c4055556",
+      "md5": "9e5e5a30bb0cbb399d6e138b33ba4353",
+      "sha1": "dbe3c415f89b99f6bd8524d19379af132a323014",
+      "size": "6238",
+      "format": "svg"
+    },
+    {
+      "id": "2647",
+      "parent": "genre",
+      "subparent": "Jeu de societe asiatique",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2647&media=background",
+      "crc": "def2c2fb",
+      "md5": "1d3be886c0fd7ae4f831250b38a54eac",
+      "sha1": "5754f15b0f082c67f1e5bc5c2b764108428e1e12",
+      "size": "246573",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "13500",
+      "romsize": "57063",
+      "romfilename": "Tanigawa Kouji no Shougi Shinan II (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "23B78590",
+      "rommd5": "DF6C10B25A59E76F27B95E54DCF8F50D",
+      "romsha1": "11791064A6F7A4F8684AF34299F3764F66E31725",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "37239",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "137510",
+      "romsize": "131088",
+      "romfilename": "Tanigawa Kouji no Shougi Shinan II (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "EAF67A05",
+      "rommd5": "A69E535101FFF7CF4AF859536011EA51",
+      "romsha1": "EAC84B8189E3EC871F6974376E158737C2A376C7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "30706",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1144842",
+      "romsize": "131088",
+      "romfilename": "Tanigawa Kouji no Shougi Shinan II (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "36b8633e",
+      "rommd5": "8fce2ababd0be3eefc0b440a6c1a9d2c",
+      "romsha1": "bbaecad28b6dc1e8e8173cc95c6814afa796b06f",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19245",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1249160",
+      "romsize": "131088",
+      "romfilename": "Tanigawa Kouji No Shougi Shinan 2 (J).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "D07A0F88",
+      "rommd5": "C58555D5C047E912513F9E531ABA4F23",
+      "romsha1": "0C0F3E9D9F0B87D2A135479AF5C90B8395FC53CB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13720"
+    },
+    {
+      "id": "174711",
+      "romsize": "131072",
+      "romfilename": "Tanigawa Kouji no Shougi Shinan II (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3836EEAC",
+      "rommd5": "BE02305B2C33F55190DFDE4920A44AEF",
+      "romsha1": "47B019360F011B0FDDE9203E5EA1EB023D5C3DC8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1746",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

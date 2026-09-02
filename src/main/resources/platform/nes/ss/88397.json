@@ -1,0 +1,870 @@
+{
+  "id": "88397",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Karaoke Studio Senyou Cassette Vol. 2"
+    },
+    {
+      "region": "jp",
+      "text": "Karaoke Studio Senyou Cassette Vol. 2"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "44369",
+    "text": "Bandai"
+  },
+  "developpeur": {
+    "id": "541",
+    "text": "TOSE"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "is the second and final expansion cassette for the Karaoke Studio music game designed by Bandai in 1987 for Nintendo's Famicom. It provides additional songs and other new content by plugging it directly into the Karaoke Studio subsystem. As an expansion, it does not come with the microphone peripheral provided by the base package.\r\n\r\nGameplay consists of singing along in a karaoke-manner to a series of Japanese pop songs. The player is scored on accuracy of singing. The songs have been converted into 8-bit format for use with the Famicom and as the music plays and the song's lyrics are shown, on-screen depictions of the song's themes are displayed in the background simultaneously."
+    },
+    {
+      "langue": "fr",
+      "text": "Karaoke Studio Senyou Casette Vol 2 est le troisième jeu de karaoké de la série. pour ce qui n'en aurait pas eu assez de chanter à tue tête sur les deux opus précédents, bandai remet le couvercle en sortant cette troisième et dernière version de karaoké. Tout comme dans la seconde disquette, on compte un total de 32 musiques. Certaine ont disparue, d'autres sont encore là depuis la première version."
+    },
+    {
+      "langue": "de",
+      "text": "Sie ist die zweite und letzte Erweiterungskassette für das von Bandai 1987 für Nintendo's Famicom entworfene Musikspiel Karaoke Studio. Bietet zusätzliche Songs und andere neue Inhalte, indem sie direkt mit dem Karaoke Studio-Subsystem verbunden werden. Als Erweiterung wird es nicht mit dem Peripheriemikrofon geliefert, das vom Basispaket bereitgestellt wird. Das Spiel besteht darin, entlang einer Form von Karaoke zu einer Reihe japanischer Popsongs zu singen. Der Spieler ist in der Gesangsgenauigkeit vermerkt. Die Songs wurden in ein 8-Bit-Format für die Verwendung mit Famicom konvertiert, und wenn die Musik abgespielt und die Songtexte angezeigt werden, werden die Darstellungen der Song-Themen gleichzeitig im Hintergrund angezeigt."
+    },
+    {
+      "langue": "es",
+      "text": "Es el segundo y último casete de expansión para el juego de música Karaoke Studio diseñado por Bandai en 1987 para Nintendo's Famicom. Proporciona canciones adicionales y otro contenido nuevo conectándolo directamente al subsistema Karaoke Studio. Como expansión, no viene con el micrófono periférico proporcionado por el paquete base. El juego consiste en cantar a lo largo de una forma de karaoke a una serie de canciones pop japonesas. El jugador está anotado en la precisión de canto. Las canciones se han convertido a un formato de 8 bits para usar con Famicom y, a medida que se reproduce la música y se muestran las letras de las canciones, las representaciones en pantalla de los temas de la canción se muestran en el fondo simultáneamente."
+    },
+    {
+      "langue": "it",
+      "text": "è la seconda e ultima cassetta di espansione per il gioco musicale Karaoke Studio progettato da Bandai nel 1987 per Famicom di Nintendo. Fornisce brani aggiuntivi e altri nuovi contenuti collegandoli direttamente al sottosistema Karaoke Studio. Come espansione, non viene fornito con la periferica microfono fornita dal pacchetto base.\r\nnnIl gameplay consiste nel cantare in modo karaoke una serie di canzoni pop giapponesi. Il giocatore viene valutato sulla precisione del canto. Le canzoni sono state convertite in formato a 8 bit per l'uso con Famicom e mentre la musica viene riprodotta e vengono mostrati i testi della canzone, le rappresentazioni sullo schermo dei temi della canzone vengono visualizzate simultaneamente sullo sfondo."
+    },
+    {
+      "langue": "pt",
+      "text": "é o segundo e último cassete de expansão do jogo musical Karaoke Studio projetado pela Bandai em 1987 para o Famicom da Nintendo. Ele fornece músicas adicionais e outros novos conteúdos, conectando-os diretamente ao subsistema Karaoke Studio. Como uma expansão, ele não vem com o periférico de microfone fornecido no pacote básico.\n\nA jogabilidade consiste em cantar junto, como um karaokê, uma série de canções pop japonesas. O jogador é pontuado pela precisão do canto. As músicas foram convertidas para o formato de 8 bits para uso com o Famicom e, conforme a música é reproduzida e a letra da música é mostrada, as representações na tela dos temas da música são exibidas no fundo simultaneamente."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1988-02-18"
+    }
+  ],
+  "genres": [
+    {
+      "id": "28585",
+      "nomcourt": "010A",
+      "principale": "0",
+      "parentid": "425",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Singing"
+        },
+        {
+          "langue": "fr",
+          "text": "Chant"
+        },
+        {
+          "langue": "de",
+          "text": "Singen"
+        },
+        {
+          "langue": "es",
+          "text": "Cantando"
+        },
+        {
+          "langue": "it",
+          "text": "Canto"
+        },
+        {
+          "langue": "pt",
+          "text": "Cantoria"
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "nomcourt": "010A",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Music and Dancing"
+        },
+        {
+          "langue": "fr",
+          "text": "Musique et Danse"
+        },
+        {
+          "langue": "de",
+          "text": "Musik und Tanz"
+        },
+        {
+          "langue": "es",
+          "text": "Música y Baile"
+        },
+        {
+          "langue": "it",
+          "text": "Musica e Danza"
+        },
+        {
+          "langue": "pt",
+          "text": "Música e dança"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "6dbd7ad1",
+      "md5": "91be70d2656cb46861f4626d3445551e",
+      "sha1": "7a2695af599bac108aa87323c1609beb9ea438ed",
+      "size": "3095",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=ss(jp)",
+      "region": "jp",
+      "crc": "0eaee54f",
+      "md5": "e2ecbc645b92f6fa6c4d28f0beb40934",
+      "sha1": "ebb27c3f6bb5a612468b1477f03cd2fe171a6cbd",
+      "size": "2763",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=fanart",
+      "crc": "b2d962a6",
+      "md5": "e0f4761691bd2dbc638a336ce3420cc8",
+      "sha1": "7b69c3636ad2680dc305800fc092da477c3f7aab",
+      "size": "123741",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=video",
+      "crc": "a924d368",
+      "md5": "9152d2dcf21e2ff085aa318ff267412c",
+      "sha1": "bb3ce2b77e6260955be8f88172058340978d2952",
+      "size": "1249757",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=video-normalized",
+      "crc": "339b5716",
+      "md5": "e4dbc7576a14befc25d0ffe0db0770b9",
+      "sha1": "7fb4889b9fac1196926eb4d7968601aea4a2aa79",
+      "size": "613291",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=steamgrid",
+      "crc": "ea5f4468",
+      "md5": "0d6e805dc5e7d5f7bcd454bef6352d2a",
+      "sha1": "a171dbde78dfdffa9519bcd80afe44892d45dd8e",
+      "size": "30657",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=wheel(jp)",
+      "region": "jp",
+      "crc": "f1701b45",
+      "md5": "c796f3372645635265b371429a870e60",
+      "sha1": "21a2916a1807ddfa49d7f57a2aea75553d7a7029",
+      "size": "33623",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "aa3c8a8d",
+      "md5": "c9250fcbef722ab37abd89863abfaa25",
+      "sha1": "2343bd804a104ded2397765d872b8db8255b414c",
+      "size": "99137",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "4d5b37ed",
+      "md5": "07b8fb6621c385d0d887d895e5c9176a",
+      "sha1": "fa90ae2e34ab37463a75f0f8004c90590b3bee0c",
+      "size": "100466",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "44a44e57",
+      "md5": "90e9a62e45f3eab06f688e01e4dbb80f",
+      "sha1": "1b4cac581098d6b8c8dbf75edc3fc61fc7a00ec8",
+      "size": "496869",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "3fdef8f6",
+      "md5": "743886bec07e8cc44ea1b93ebf02e644",
+      "sha1": "ed350685f184552f455872f13d88ca0a22967ac4",
+      "size": "78477",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "8361e0af",
+      "md5": "d7223ef3c37a33c63c57b452cdcbab96",
+      "sha1": "66ac43b652e825c70e3355b716c06f5d6549c480",
+      "size": "289864",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "ef04c3d2",
+      "md5": "78055bf81298cb54d7a9299f47fbf16b",
+      "sha1": "7bc1325e48427f716bb802c7b9ea1ce5fbea1b33",
+      "size": "107275",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "8de9d08f",
+      "md5": "77206e66fa93713881a69b2e630bf3bf",
+      "sha1": "b19bd1909817c5ecebaa21675e61dd865235d0ba",
+      "size": "102337",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "4f4583c2",
+      "md5": "8c3359f7d2bff8b64d223367f95fe9ea",
+      "sha1": "5d9b3b6f4bbce613c1e04bfb21f1a9e81f90a836",
+      "size": "18110",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "76e149e6",
+      "md5": "20686e0383ffe55a9ffac9b9f11eaea2",
+      "sha1": "e200aa0c2b3947adddadd908a1d160b6f68cd769",
+      "size": "2302",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "00bd2bc9",
+      "md5": "dd5dda3b0d90e89a0cd2761add41d963",
+      "sha1": "1eea9df770f359fc1e8dfd17639b465e5730d755",
+      "size": "144417",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "84fd4d3c",
+      "md5": "5e22e99470c3375156ee89b24534fe69",
+      "sha1": "232fdb4f2b3be322d0179dd5d96d011b3c6c4a22",
+      "size": "739514",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "8ec3a7c4",
+      "md5": "970a8dde9176a027cdacf72cfa15e7bc",
+      "sha1": "ee509e78f4b7eb1ea555b2beab864cffceb02f86",
+      "size": "285002",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "efa0540a",
+      "md5": "a001ef3b9cf0010d6968c57cf6631df3",
+      "sha1": "adcfb74df30ee8f89d06eb799c303c614725878d",
+      "size": "333176",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "45b5ab41",
+      "md5": "a516bb762c4296e5e21375f6578e342d",
+      "sha1": "1c809dc8f23edf15ccd68830ee451656fa986370",
+      "size": "119501",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "ddefc552",
+      "md5": "4377ed80b91471085b9cb8b6564b468f",
+      "sha1": "0315a16c848d3707524def19c6541e163a5a8498",
+      "size": "333724",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "348c2ec7",
+      "md5": "474d804a569a8cdc81d7a843b16205dc",
+      "sha1": "43b65b530f386a05fff620e695e0f634f06a3115",
+      "size": "300491",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "73365bba",
+      "md5": "3928021dce18cfd507b76afa75b4f93d",
+      "sha1": "f8567d99909dc10e0eea13e08d1f981c4be1198e",
+      "size": "381783",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "2dc27c03",
+      "md5": "e711ff9fcdb8ba13fc3620515f009e6c",
+      "sha1": "b946443b4d5e067b4fdb42a2b2ecc6916dddb4a7",
+      "size": "271212",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "73365bba",
+      "md5": "3928021dce18cfd507b76afa75b4f93d",
+      "sha1": "f8567d99909dc10e0eea13e08d1f981c4be1198e",
+      "size": "381783",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "f18b2f72",
+      "md5": "bd9908fbca6edb4be37b9e6f3347ee7c",
+      "sha1": "ea77c640bd85c538c96851ffacc41caa35b0dee9",
+      "size": "536827",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "20cd4739",
+      "md5": "8555dd03938f8e60e260b34ab1dab1f2",
+      "sha1": "cf49e674ead4ede877e1a2bac06f8061f02389a8",
+      "size": "425646",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88397&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "f18b2f72",
+      "md5": "bd9908fbca6edb4be37b9e6f3347ee7c",
+      "sha1": "ea77c640bd85c538c96851ffacc41caa35b0dee9",
+      "size": "536827",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=44369&media=logo-monochrome",
+      "crc": "beb0cc05",
+      "md5": "2fd5b4553f1cdb10ec8f7bfb8071ab50",
+      "sha1": "aaff892ec7b08a59ec96b51be54fdb6989809e3c",
+      "size": "16970",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=44369&media=wheel",
+      "crc": "d4544615",
+      "md5": "b4d9895fde445ff9f998b87c8e4272fc",
+      "sha1": "c5e935b8194e462bf1ac65990b3d8fa2fac0f7c0",
+      "size": "14969",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=541&media=logo-monochrome",
+      "crc": "1c232d09",
+      "md5": "26fd107517cd082c150a9346c3c89e5f",
+      "sha1": "05904f350909dc01a59d337ceef5fc974c5be7e0",
+      "size": "40623",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=541&media=wheel",
+      "crc": "49bb0e57",
+      "md5": "9556a7cbeda7b4d5f0f901c0c4d2a988",
+      "sha1": "913742d782e2831b09b0bb86f676f76973a7055f",
+      "size": "116664",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "28585",
+      "parent": "genre",
+      "subparent": "Chant",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28585&media=pictoliste",
+      "crc": "fe1df3bf",
+      "md5": "e87dd4981c5cdedfd51edc0114ba969c",
+      "sha1": "544059c0e21e39c6862197d10f56c8bd3016385d",
+      "size": "4478",
+      "format": "png"
+    },
+    {
+      "id": "28585",
+      "parent": "genre",
+      "subparent": "Chant",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28585&media=logo-monochrome",
+      "crc": "73a7c8c7",
+      "md5": "b8bba7ccadbf9bcddb65ff8c1eb68aa7",
+      "sha1": "13c6db4f02b3c10e0f4530a02485f15a6931f55f",
+      "size": "14347",
+      "format": "png"
+    },
+    {
+      "id": "28585",
+      "parent": "genre",
+      "subparent": "Chant",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=28585&media=logo-monochrome-svg",
+      "crc": "ece03928",
+      "md5": "df4997f0a86f2edf3f9fea7a8153322f",
+      "sha1": "3b5719a72eb5fea71ae32ea8d157de6aa5189a78",
+      "size": "1753",
+      "format": "svg"
+    },
+    {
+      "id": "425",
+      "parent": "genre",
+      "subparent": "Musique et Danse",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=425&media=pictoliste",
+      "crc": "b4fc8be7",
+      "md5": "bb3219bf8e9f7b974c87d3019edebac2",
+      "sha1": "6834a80cc35020d211e9a7456c406cd36b1e3dbd",
+      "size": "693",
+      "format": "png"
+    },
+    {
+      "id": "425",
+      "parent": "genre",
+      "subparent": "Musique et Danse",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=425&media=logo-monochrome",
+      "crc": "0b49a4c9",
+      "md5": "8f3fd38a81ae39b2f43fc84f3682befd",
+      "sha1": "f5da6f7955b77e4f8793e4167ddc16ec9682cf65",
+      "size": "3385",
+      "format": "png"
+    },
+    {
+      "id": "425",
+      "parent": "genre",
+      "subparent": "Musique et Danse",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=425&media=logo-monochrome-svg",
+      "crc": "418f430b",
+      "md5": "3c4be095b2ac34cc8da36b243a35c057",
+      "sha1": "b9a7f922df0e1733b699b842010a9a24d7bb169a",
+      "size": "1131",
+      "format": "svg"
+    },
+    {
+      "id": "425",
+      "parent": "genre",
+      "subparent": "Musique et Danse",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=425&media=background",
+      "crc": "df5c997b",
+      "md5": "15d6dd4c51ef382be158f41b65bfaa20",
+      "sha1": "9f1d3cd2b98763e33b3125c285c24f3329e10625",
+      "size": "193456",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "136415",
+      "romsize": "262160",
+      "romfilename": "Karaoke Studio Senyou Cassette Vol. 2 (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5DFD7176",
+      "rommd5": "7CBF80A8700287796AAC70712FA9B63E",
+      "romsha1": "4DAEB3185AA89BEA8226F044C4D0AD0D84F1805B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "50952",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "12925",
+      "romsize": "143746",
+      "romfilename": "Karaoke Studio Senyou Cassette Vol. 2 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D5A38469",
+      "rommd5": "38A754DE9C0233DDD51B6ECA1E9D7B2D",
+      "romsha1": "74815BFDE8581C1846FF5F3C9B8400355D068F5E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "27096",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1139280",
+      "romsize": "262160",
+      "romfilename": "Karaoke Studio Senyou Cassette - Top Hit 20 Vol. 2 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "833b7077",
+      "rommd5": "64b80675cc5969614fe3f73598fa535e",
+      "romsha1": "26ef83bc245684e0392343172e06c1647d43f235",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "20760",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "173581",
+      "romsize": "262144",
+      "romfilename": "Karaoke Studio Senyou Cassette - Top Hit 20 Vol. 2 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "50F3E338",
+      "rommd5": "1A9B1113969723920B9BCD43C9327894",
+      "romsha1": "0CD87E8627E57A8C62492A3E886F4D1089809EBA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2006",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "483128",
+      "romsize": "143896",
+      "romfilename": "Karaoke Studio Senyou Cassette Vol. 2 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "86DAA5C6",
+      "rommd5": "E2D3075FD76A10FEC970DC07522AA488",
+      "romsha1": "C5578695BDA8F68C8AB2B3EA39B5ACB12D78FA0C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "56",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114079",
+      "romsize": "143724",
+      "romfilename": "Karaoke Studio Senyou Cassette Vol. 2 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DE7B80D3",
+      "rommd5": "CF0748F934AEB2A840E9ECD19E46F079",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "28",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

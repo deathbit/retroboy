@@ -11,4 +11,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class SSGame implements Game{
     private String id;
+    private String packageId;
+    private String area;
+    private String title;
+    private String releaseDate;
 }

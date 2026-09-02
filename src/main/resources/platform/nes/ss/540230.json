@@ -1,0 +1,100 @@
+{
+  "id": "540230",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "G.A.S. - Gas Attendant Simulator"
+    },
+    {
+      "region": "wor",
+      "text": "G.A.S. - Gas Attendant Simulator"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "developpeur": {
+    "id": "113798",
+    "text": "Brian Burke and Alan"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2023"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=540230&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "aa52e3c4",
+      "md5": "e429a57a9bf8e6fa038000c80a011fb6",
+      "sha1": "c7020defec11a07e8a929b200420df6ba6ce584f",
+      "size": "51885",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=540230&media=ss(wor)",
+      "region": "wor",
+      "crc": "95ee13ee",
+      "md5": "40054da9bcfb80d46c375aa03acd3fd3",
+      "sha1": "4446350d6672b2e74c0eab71cda0fcdf331e8e18",
+      "size": "44295",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=540230&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "dc6d9e6f",
+      "md5": "2e5e9690e5fe0c394c4283cecb031d4a",
+      "sha1": "986a4621b150a73be1f0b4483c6008316cea08f8",
+      "size": "184382",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=540230&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "346ed1ed",
+      "md5": "d3fd3e158ed0d2351213c2d46b0440e2",
+      "sha1": "7730b32c2cd13a2f0ff825cb402ce3b64c7b256b",
+      "size": "303496",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1404857",
+      "romsize": "262160",
+      "romfilename": "G.A.S. - Gas Attendant Simulator (World) (Aftermarket) (Unl).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "CC7134D5",
+      "rommd5": "994BA8D72D31A7AF796D6F4E0041C1F4",
+      "romsha1": "FB22D856AF55719CEF4CF2332E0D175247009287",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "339"
+    }
+  ]
+}

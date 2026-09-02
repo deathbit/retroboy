@@ -1,0 +1,488 @@
+{
+  "id": "421731",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Hyperbeatz"
+    },
+    {
+      "region": "wor",
+      "text": "Hyperbeatz"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "51358",
+    "text": "itch.io"
+  },
+  "developpeur": {
+    "id": "54906",
+    "text": "Mystical Wheelbarrow"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Hyperbeatz is a Dance Dance Revolutionlike rhythm game for the NES. It features 16 original songs with 3 difficulties each."
+    },
+    {
+      "langue": "fr",
+      "text": "Hyperbeatz est un jeu de rythme semblable à Dance Dance Revolution pour la NES. Il comprend 16 chansons originales avec 3 niveaux de difficultés chacune."
+    },
+    {
+      "langue": "de",
+      "text": "Hyperbeatz ist ein Rhythmusspiel, das Dance Dance Revolution für das NES ähnelt. Es enthält 16 Originalsongs mit jeweils 3 Schwierigkeitsgraden."
+    },
+    {
+      "langue": "es",
+      "text": "Hyperbeatz es un juego de ritmo similar a Dance Dance Revolution para la NES. Incluye 16 canciones originales con 3 niveles de dificultad cada una."
+    },
+    {
+      "langue": "it",
+      "text": "Hyperbeatz è un gioco di ritmo simile a Dance Dance Revolution per NES. Include 16 brani originali con 3 livelli di difficoltà ciascuno."
+    },
+    {
+      "langue": "pt",
+      "text": "Hyperbeatz é um jogo de ritmo semelhante ao Dance Dance Dance Revolution para a NES. Inclui 16 canções originais com 3 níveis de dificuldade cada uma."
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2021-04-19"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2925",
+      "nomcourt": "010A",
+      "principale": "0",
+      "parentid": "425",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Rhythm"
+        },
+        {
+          "langue": "fr",
+          "text": "Rythme"
+        },
+        {
+          "langue": "de",
+          "text": "Rythmus"
+        },
+        {
+          "langue": "es",
+          "text": "Ritmo"
+        },
+        {
+          "langue": "it",
+          "text": "Ritmico"
+        },
+        {
+          "langue": "pt",
+          "text": "Rítmico"
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "nomcourt": "010A",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Music and Dancing"
+        },
+        {
+          "langue": "fr",
+          "text": "Musique et Danse"
+        },
+        {
+          "langue": "de",
+          "text": "Musik und Tanz"
+        },
+        {
+          "langue": "es",
+          "text": "Música y Baile"
+        },
+        {
+          "langue": "it",
+          "text": "Musica e Danza"
+        },
+        {
+          "langue": "pt",
+          "text": "Música e dança"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "c120eb1d",
+      "md5": "a3e35377e2adae7ae0fdce14c07feed1",
+      "sha1": "b7f10365e5a040b339fd88bec81db4c5508add7c",
+      "size": "1793",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=ss(wor)",
+      "region": "wor",
+      "crc": "f1e453c4",
+      "md5": "991ce2b857971370c58f9e02f0e38170",
+      "sha1": "30b9fa7b3f47f125088e90a4286f1de693a64bdf",
+      "size": "2715",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=video",
+      "crc": "6a53995a",
+      "md5": "5fc2699c2cba6e770910bb1ff9ee2d0b",
+      "sha1": "b3ec95aee63161930f29a7d1cad080dcd159708f",
+      "size": "1005803",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=video-normalized",
+      "crc": "0e2a207a",
+      "md5": "b3a0ed4874d8973959139159fa0828b9",
+      "sha1": "09184639adcafc500781eff621715402404f5260",
+      "size": "351238",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=steamgrid",
+      "crc": "ab00ec21",
+      "md5": "20c616af73cfc5532b68988f4a3d1a50",
+      "sha1": "896dd9d7b910173cbb104aed8558748ec75370b1",
+      "size": "27362",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=wheel(wor)",
+      "region": "wor",
+      "crc": "97af1031",
+      "md5": "7a5bedf9a1d6e71cf2dadbf5ed6264e1",
+      "sha1": "5d944fafd9e9b7ae91019727283decbbcd2373b2",
+      "size": "10517",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=wheel(wor)",
+      "region": "wor",
+      "crc": "97af1031",
+      "md5": "7a5bedf9a1d6e71cf2dadbf5ed6264e1",
+      "sha1": "5d944fafd9e9b7ae91019727283decbbcd2373b2",
+      "size": "10517",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "cd9a1958",
+      "md5": "69e6a3aa37e4507831cd16c9181ff593",
+      "sha1": "40c7f4991cbf5129d101da73ce9b22a388bc8f03",
+      "size": "73039",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "2dbd0066",
+      "md5": "1dcf648511611b81a5c07f18c425439b",
+      "sha1": "d1ec6d182652632fe0c30acdde697596c2a2193a",
+      "size": "73961",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "92a8eeab",
+      "md5": "7427189d6442517c282496c373688ea6",
+      "sha1": "b58388f4d1f6c690fbe7fb26eb5a0fc805120283",
+      "size": "458701",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "e79fd947",
+      "md5": "97a6c9a3741795aa19325cde1e4b6620",
+      "sha1": "b9f9174dafe97106bb94148292f66bd93df17ab1",
+      "size": "72242",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "a2274eea",
+      "md5": "7b0e2ab325119321c7d71be169056d91",
+      "sha1": "9f383536d92794bba35aad9ffcc51a02973396f3",
+      "size": "105246",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "3cbe7dce",
+      "md5": "5c0f00eb54f0e5f670ba7306d997b281",
+      "sha1": "4cc99bc72a9d285029c09dd24f5479cca0e967c6",
+      "size": "30790",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "bad08b3e",
+      "md5": "01a7691bedf594402d0946e873422d67",
+      "sha1": "fbc438b6cd666c62c2b5c646e8834ca165ea788e",
+      "size": "119149",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "7d1534f1",
+      "md5": "4d78f07dd5ae3653f7be225b0251fb2d",
+      "sha1": "79a2ec492038439168253a35413a74ca83e3ea4e",
+      "size": "265753",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "d3af924b",
+      "md5": "dc902725c62ce48dbf76685223949547",
+      "sha1": "091bbbec308b82173ab4d6557a106219d7d92d69",
+      "size": "117770",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "498b4d95",
+      "md5": "64a3f67dd10c713c85ae3f24fb6b0284",
+      "sha1": "f37b8e9ddf58a6f840462a34ecf600f7cb24dc47",
+      "size": "184667",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "498b4d95",
+      "md5": "64a3f67dd10c713c85ae3f24fb6b0284",
+      "sha1": "f37b8e9ddf58a6f840462a34ecf600f7cb24dc47",
+      "size": "184667",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "22fa367f",
+      "md5": "65acbe9a90633cf49eca3559d03e2a02",
+      "sha1": "80639260ca84e2fdcc355370f0cc623a770b0360",
+      "size": "291050",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=421731&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "22fa367f",
+      "md5": "65acbe9a90633cf49eca3559d03e2a02",
+      "sha1": "80639260ca84e2fdcc355370f0cc623a770b0360",
+      "size": "291050",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=51358&media=logo-monochrome",
+      "crc": "e95b68ae",
+      "md5": "d1547205a1b1996fabaac27a7e2b62c3",
+      "sha1": "c960b676a8a62a336fce9ec1935406879faa67cf",
+      "size": "27826",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2925",
+      "parent": "genre",
+      "subparent": "Rythme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2925&media=pictoliste",
+      "crc": "8608718d",
+      "md5": "27e9bb9657fbbf104e789b3a07fc117c",
+      "sha1": "f262797c1adfc112b56040497c1f43ad25cd1c86",
+      "size": "18557",
+      "format": "png"
+    },
+    {
+      "id": "2925",
+      "parent": "genre",
+      "subparent": "Rythme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2925&media=logo-monochrome",
+      "crc": "6c60e388",
+      "md5": "af0a72d73994fecbb3216a66be9f974f",
+      "sha1": "f27cabd2a0e5858feb5a4fef07c9d2c6f4822155",
+      "size": "16551",
+      "format": "png"
+    },
+    {
+      "id": "2925",
+      "parent": "genre",
+      "subparent": "Rythme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2925&media=logo-monochrome-svg",
+      "crc": "9541bf3f",
+      "md5": "7a50e62b4844f831f2a0fe46a489797d",
+      "sha1": "178439071820fec4b680011848c7d4554c9dbc9d",
+      "size": "2194",
+      "format": "svg"
+    },
+    {
+      "id": "2925",
+      "parent": "genre",
+      "subparent": "Rythme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2925&media=background",
+      "crc": "07e29206",
+      "md5": "bc9483700ff9caf0970a7563c524efcb",
+      "sha1": "649719b4fe5126cbb340122954f355f08d1add3c",
+      "size": "121757",
+      "format": "jpg"
+    },
+    {
+      "id": "425",
+      "parent": "genre",
+      "subparent": "Musique et Danse",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=425&media=pictoliste",
+      "crc": "b4fc8be7",
+      "md5": "bb3219bf8e9f7b974c87d3019edebac2",
+      "sha1": "6834a80cc35020d211e9a7456c406cd36b1e3dbd",
+      "size": "693",
+      "format": "png"
+    },
+    {
+      "id": "425",
+      "parent": "genre",
+      "subparent": "Musique et Danse",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=425&media=logo-monochrome",
+      "crc": "0b49a4c9",
+      "md5": "8f3fd38a81ae39b2f43fc84f3682befd",
+      "sha1": "f5da6f7955b77e4f8793e4167ddc16ec9682cf65",
+      "size": "3385",
+      "format": "png"
+    },
+    {
+      "id": "425",
+      "parent": "genre",
+      "subparent": "Musique et Danse",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=425&media=logo-monochrome-svg",
+      "crc": "418f430b",
+      "md5": "3c4be095b2ac34cc8da36b243a35c057",
+      "sha1": "b9a7f922df0e1733b699b842010a9a24d7bb169a",
+      "size": "1131",
+      "format": "svg"
+    },
+    {
+      "id": "425",
+      "parent": "genre",
+      "subparent": "Musique et Danse",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=425&media=background",
+      "crc": "df5c997b",
+      "md5": "15d6dd4c51ef382be158f41b65bfaa20",
+      "sha1": "9f1d3cd2b98763e33b3125c285c24f3329e10625",
+      "size": "193456",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1138728",
+      "romsize": "40976",
+      "romfilename": "Hyperbeatz (World) (v1.2.1) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "f312583e",
+      "rommd5": "70ae1fb3f1e1bd2e97556723caf969f7",
+      "romsha1": "07d78c3738e3a07fc483241b341dfa68ba58806b",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "7825"
+    }
+  ]
+}

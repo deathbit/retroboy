@@ -1,0 +1,3094 @@
+{
+  "id": "1499",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Adventures of Lolo 3"
+    },
+    {
+      "region": "us",
+      "text": "Adventures of Lolo 3"
+    },
+    {
+      "region": "jp",
+      "text": "Adventures of Lolo II"
+    },
+    {
+      "region": "eu",
+      "text": "Adventures of Lolo 3"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "457",
+    "text": "HAL Laboratory"
+  },
+  "developpeur": {
+    "id": "457",
+    "text": "HAL Laboratory"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "note": {
+    "text": "14"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "This time, Lolo has a red friend who will do some of the work for him. Unlike the two previous Lolo games, Adventures of Lolo 3 lets you wander around a world map to explore different locations in a non-linear fashion. However, some of the locations are blocked and will only open up after you earn the correct a key by completing another level.\r\n\r\nThe gameplay is very similar to the two previous games. You have to collect all the hearts in each room while avoiding the enemies trying to stop you. Once you have eaten all the hearts, more enemies will appear to try and keep you from reaching the exit. The puzzles involve mostly pushing things to prevent enemies from stopping you."
+    },
+    {
+      "langue": "fr",
+      "text": "Le but du jeu est de collecter tous les coeurs du niveau. Mais de nombreux ennemis vous mettront des bâtons dans les roues. Ainsi, ils vous empêcheront d'aller chercher les coeurs, et il vous faudra pousser quelques éléments du décor pour leur barrer la route."
+    },
+    {
+      "langue": "de",
+      "text": "Die Reise geht weiter! Das Spiel der Besten und Schlauesten ist wieder da - mit einem neuen Abenteuer. hoffentlich bist du gut genug. Dich erwarten siebstehn Level mit einhundert Räumen. Spiele entweder als Lolo oder erstmals als Lala. Erlebe neue Herausforderungen in einem Unterwasserlevel, lerne Tricks bei Lolo's Grossvater und erlebe neue Taktiken, Techniken und Spielfiguren."
+    },
+    {
+      "langue": "es",
+      "text": "La última aventura de Lolo y Lala en Occidente proponía algunos pequeños cambios a la clásica mecánica de puzles de bloques por la que se ha caracterizado la serie de Lolo. Además de poder jugar por primera vez con los dos personajes, aparecían nuevos tipos de enemigos y algunas estructura nuevas como el puente, que sólo permitía pasar dos veces antes de caerse, obligando a extremar el cuidado."
+    },
+    {
+      "langue": "it",
+      "text": "Questa volta, Lolo ha un amico rosso che farà per lui parte del lavoro. A differenza dei due precedenti giochi di Lolo, qui si può vagare per una mappa del mondo ed entrare in diversi luoghi in modo non lineare. Tuttavia, alcuni luoghi rimangono bloccati fino a quando non si trova una chiave dopo aver completato un altro livello.\r\n\r\nIl gameplay è molto simile a quello dei due giochi precedenti. Dovete raccogliere tutti i cuori in ogni stanza. I nemici vi impediranno di farlo, e altri appariranno quando avrete mangiato tutti i cuori per poi affrettarvi verso l'uscita. Gli enigmi consistono per lo più nello spingere le cose per evitare che i nemici vi fermino."
+    },
+    {
+      "langue": "pt",
+      "text": "Desta vez, Lolo tem um amigo vermelho que fará por ele parte do trabalho. Ao contrário dos dois jogos Lolo anteriores, aqui você pode passear por um mapa do mundo e entrar em diferentes locais de maneira não linear. No entanto, alguns dos locais permanecem bloqueados até que você encontre uma chave após concluir outro nível.\r\n\r\nA jogabilidade é muito parecida com a dos dois jogos anteriores. Você tem que coletar todos os corações em cada quarto. Os inimigos o impedirão de fazer isso, e outros aparecerão depois que você comer todos os corações e estiver correndo para a saída. Os quebra-cabeças envolvem principalmente empurrar coisas para impedir que os inimigos o parem.\r\n\r\n"
+    }
+  ],
+  "classifications": [
+    {
+      "type": "CERO",
+      "text": "A"
+    },
+    {
+      "type": "PEGI",
+      "text": "3"
+    },
+    {
+      "type": "ESRB",
+      "text": "E"
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1991-09-02"
+    },
+    {
+      "region": "jp",
+      "text": "1990-12-26"
+    },
+    {
+      "region": "eu",
+      "text": "1992-05-27"
+    }
+  ],
+  "genres": [
+    {
+      "id": "26",
+      "nomcourt": "0B00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "fr",
+          "text": "Puzzle-Game"
+        },
+        {
+          "langue": "de",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "es",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "it",
+          "text": "Puzzle"
+        },
+        {
+          "langue": "pt",
+          "text": "Quebra-cabeças"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "nomcourt": "0500",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Strategy"
+        },
+        {
+          "langue": "fr",
+          "text": "Stratégie"
+        },
+        {
+          "langue": "de",
+          "text": "Strategie"
+        },
+        {
+          "langue": "es",
+          "text": "Estrategia"
+        },
+        {
+          "langue": "it",
+          "text": "Strategia"
+        },
+        {
+          "langue": "pt",
+          "text": "Estratégia"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "25844",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Adventures Of Lolo"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "langue": "fr",
+      "titre": "Codes de Niveaux",
+      "description": "'''Niveaux       Personnages Mots de passe'''\n4-7            Lolo     6B5R TQ[Coeur]6 C236 [Coeur]VWH\n4-7            Lala     MMDY WQH4 B2C9 [Coeur]B[Triangle]H\n4-7 Bosses              JY8H JPLG 893Q C[Coeur]2L\n9-12           Lolo     V4Y[Diamant] 23G[Triangle] 5J[Diamant]+ JNDN\n9-12           Lala     JWB+ L[Triangle]FF PB[Triangle]V 326B\n9-12 Bosses             TTHR MR7H [Diamant]V3[Triangle] L493\n14             Lolo     ZGNY PTR5 +QTZ 3Q5V\n14             Lala     Y2+V WGDN J+GG NSZ6\n15             Lolo     NSMJ 62K5 6STK 67SR\n16             Lolo     QKKH SQ53 6DP[Diamant] NJ+6\n16             Lala     W8S[Coeur] 4M4[Coeur] GVRZ WM42\n17             Lolo     96HW 56R8 [Coeur]B[Triangle]B 93G5\n17             Lala     D49[Triangle] DKQ[Coeur] Q[Triangle]QP T56V\nKing Of Eggerland         4R4N SPDD F[Coeur]L4 5BTJ"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=sstitle(eu)",
+      "region": "eu",
+      "crc": "92429371",
+      "md5": "341ebfb13b03e03a0ff41831fc1b0349",
+      "sha1": "d94e67e691f4555d27e57144a44d7acd4ff2ea37",
+      "size": "5438",
+      "format": "png"
+    },
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=sstitle(us)",
+      "region": "us",
+      "crc": "966064e3",
+      "md5": "65e596c510be78f8df021a4567b297fb",
+      "sha1": "69dc1e21d91d4846519a4fbc8337e2c9d0cb077b",
+      "size": "3042",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=ss(wor)",
+      "region": "wor",
+      "crc": "2c55eb2a",
+      "md5": "6bd8209f546bd495d195889d2630fab5",
+      "sha1": "843352eeaea9071f897547ebda0d43101046888a",
+      "size": "5800",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=fanart",
+      "crc": "4cded963",
+      "md5": "430306830b737211789882b8344f0796",
+      "sha1": "9a6d09638d9379423e40242ab38ad2dafeaaf89b",
+      "size": "769120",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=video",
+      "crc": "a9d25872",
+      "md5": "95c543d73ca5e22fe73da94b71f663b6",
+      "sha1": "04b4b6e30f0aae71bbc682c918c86fec0d2f7f4b",
+      "size": "4257468",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=video-normalized",
+      "crc": "590dddee",
+      "md5": "2db8e0f5e744122a0a241123b170c2b9",
+      "sha1": "f7e42fff2f6ea0e11477712ed2138e35352ab5e5",
+      "size": "1069202",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=steamgrid",
+      "crc": "6449bcab",
+      "md5": "13543ecf7f6f883d8121b20cb07479cf",
+      "sha1": "e5c7e770fb7e8680914330c899d47eb3f63dd8a4",
+      "size": "38465",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=wheel(jp)",
+      "region": "jp",
+      "crc": "50e956e3",
+      "md5": "b041fcd083a0bcb04ee0c3c6169a7adb",
+      "sha1": "7786e0cb4e978053e51e47cedaa06509327c2184",
+      "size": "24929",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=wheel(wor)",
+      "region": "wor",
+      "crc": "873fb1ed",
+      "md5": "e56a9729efa7afc4ee2a0a78d3cba2da",
+      "sha1": "9b86f4f2fd8c19d4b74d4605b2b4cc6d76eb6774",
+      "size": "102864",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=wheel(wor)",
+      "region": "eu",
+      "crc": "873fb1ed",
+      "md5": "e56a9729efa7afc4ee2a0a78d3cba2da",
+      "sha1": "9b86f4f2fd8c19d4b74d4605b2b4cc6d76eb6774",
+      "size": "102864",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=wheel(wor)",
+      "region": "us",
+      "crc": "873fb1ed",
+      "md5": "e56a9729efa7afc4ee2a0a78d3cba2da",
+      "sha1": "9b86f4f2fd8c19d4b74d4605b2b4cc6d76eb6774",
+      "size": "102864",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "d138d988",
+      "md5": "c46f7706587915524c616bfaab67ea42",
+      "sha1": "9c69d98e3c7bacdcd98f5b04d1e49bcc240758db",
+      "size": "109882",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "eb953e99",
+      "md5": "45624df6f77f99dbad9cca681f0d265c",
+      "sha1": "fa6b881bb30f8f5d6844f3f9877416c9e1066c7e",
+      "size": "125311",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "db2127e0",
+      "md5": "962bc1d589823a9e3eee914c8a7a3c79",
+      "sha1": "5e13c1b0688b4cb54e41b17fb1fb94d726f8b6c5",
+      "size": "110849",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "cef8a823",
+      "md5": "11ea478337f3a80ec24954f25ec11561",
+      "sha1": "cdc8b4a2708dbe73b5b1fb305ee14e0566f0241c",
+      "size": "128415",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "3a3a0234",
+      "md5": "ba4be30bc24408dc399936ab79ccde80",
+      "sha1": "48427ea15619029a2ea538cf4dfd3eb597f0137d",
+      "size": "482773",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "0eb8e639",
+      "md5": "0ac1205c4de9386315daf628f8cca461",
+      "sha1": "13a05a4871817f059a3a00a5ca43e194a2df0291",
+      "size": "525285",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "a72fa6c5",
+      "md5": "4c88969483fa961968f6137a7376ec4f",
+      "sha1": "4f4540b220fac656af4705ea8c351ae11ff47722",
+      "size": "75053",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "ffc638d3",
+      "md5": "945c52b798f2238d498661e74c207947",
+      "sha1": "6ce3c7141596c87b378775af1b97da576f11de18",
+      "size": "95127",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-2D(eu)",
+      "region": "eu",
+      "crc": "c4e9587d",
+      "md5": "0513a21603c15ae2f50de317e9114b7e",
+      "sha1": "09481821e79b43d08cf0fe33db75ebab7cf4e22a",
+      "size": "781219",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "f73f81d2",
+      "md5": "db928458736a87d9222e4ad85d9a885e",
+      "sha1": "66df836eb6daa606a7be2f592b5dd0495c35c800",
+      "size": "770961",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "f3019f68",
+      "md5": "43ec1c1a3c948329798a16ec3e30dd06",
+      "sha1": "333a1006bf87e2f3d4ee03848fdc0eb29f84a499",
+      "size": "160356",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-2D(us)",
+      "region": "us",
+      "crc": "8bbbcb9e",
+      "md5": "676b3d776c088b9495be55bfb2a127ee",
+      "sha1": "6d479b4fa41e739ef751480f37adde914dbe7840",
+      "size": "455535",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-2D-side(eu)",
+      "region": "eu",
+      "crc": "70d3c1de",
+      "md5": "b8907646c834890e19495eabd642260b",
+      "sha1": "7238891f7645fb75621d8ab7c1fffb0a654d9ec9",
+      "size": "61066",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "76e1bbad",
+      "md5": "d8a36e98bf106bdafe414269dc016889",
+      "sha1": "b19f3f8616720c08bb4e8cd83f1f1e49a0ed9d1e",
+      "size": "107296",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "324de12e",
+      "md5": "c406a32675ca076d3bb4d5a25fbede21",
+      "sha1": "c7bf0ede355958febb17bdedc19b793f9750fe52",
+      "size": "38281",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "9d36c25e",
+      "md5": "5e989a48d3450e99774bf0b97ed6cd9d",
+      "sha1": "cb562d99286ab1899b858f013500eb080436736d",
+      "size": "37792",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-2D-back(de)",
+      "region": "de",
+      "crc": "c6e7497c",
+      "md5": "9e42e74140671215743215983a5dbcf1",
+      "sha1": "5db26569266bc50a2334f8264a30872800387c5f",
+      "size": "513727",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-2D-back(eu)",
+      "region": "eu",
+      "crc": "a1886a1c",
+      "md5": "117018bb78dbfb4a44f26e083d8bf64f",
+      "sha1": "39dc5a312f26a8499e128a2f8cf8e450fbead6dc",
+      "size": "443760",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "f84e2fb8",
+      "md5": "0402d34209ad763b5be6950ea56cf781",
+      "sha1": "a434f633595b3452e71463474f6ff84507f07312",
+      "size": "685782",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "377a0574",
+      "md5": "8d03bd85ecb4990090fe5c5451c9176e",
+      "sha1": "93c80a8d59e734cf44b2365c3959636967eb3412",
+      "size": "193300",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "cd881507",
+      "md5": "823fd50d264922ac84794fe6069a1f74",
+      "sha1": "b334b4b3e3bfab5f5e40347a83efa2457078a907",
+      "size": "241361",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-texture(eu)",
+      "region": "eu",
+      "crc": "60bb9423",
+      "md5": "7dd4968d75546681385062e116876009",
+      "sha1": "74033d28aff1d906f63ba20e4b6066f5031a964c",
+      "size": "1165657",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "ee9a1576",
+      "md5": "6adfd7a25b031de975e287f9c778a11b",
+      "sha1": "a6121fcbff37a59242582b44cd2af9a7bfc36698",
+      "size": "1675491",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "e73ff0bd",
+      "md5": "859b7b17e7a28bdf5b8c6522ae2e491e",
+      "sha1": "23e48fffa8579fe87c420c633aa6188b894c119c",
+      "size": "411021",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-texture(us)",
+      "region": "us",
+      "crc": "b4a77b60",
+      "md5": "0f1f4b221a7683c73883d07ef6b73e9b",
+      "sha1": "06a903c42b9b349f6fa5ebc0b92d70b15276a0a6",
+      "size": "262877",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-3D(eu)",
+      "region": "eu",
+      "crc": "1355b0b2",
+      "md5": "4bc9ea91a659e5fdfa3f885bf94761ea",
+      "sha1": "740ee3774c7bc41e3cd01dd03b0143e66a93e4d7",
+      "size": "341101",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "812fd175",
+      "md5": "d6ae91e562baf744019fc63dc83d5ef1",
+      "sha1": "9348aded575df9292f5194b9af9b1eac1d8824e2",
+      "size": "354503",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "743d2611",
+      "md5": "b7e5ab903e698d11bf5643e9825c71cd",
+      "sha1": "3c38c36fa9014e909863e7a85d8541eb63eba24e",
+      "size": "180706",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=box-3D(us)",
+      "region": "us",
+      "crc": "99ae6aaf",
+      "md5": "e4743b012292e49894d3f8f8df2568fb",
+      "sha1": "81570a6c5eb7e5a043851c17b5823c81c986994e",
+      "size": "327937",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=manuel(us)",
+      "region": "us",
+      "crc": "48994f1f",
+      "md5": "e7785d8fece6a398d041531a3db4c0c2",
+      "sha1": "00c066c65c98ae4728302fc15996a2b81e79b713",
+      "size": "1293571",
+      "format": "pdf"
+    },
+    {
+      "type": "figurine",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=figurine",
+      "crc": "c2b61034",
+      "md5": "ea62ef00a0a0e6810a3f9117e4719be0",
+      "sha1": "93f1bb63a04cae0ad6013696f5c72b0ae6727d10",
+      "size": "274359",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=support-texture(eu)",
+      "region": "eu",
+      "crc": "c34c614b",
+      "md5": "7aecbaf460e35ed5c31824b2791ddbad",
+      "sha1": "ba99a8dccd6ab263b31de11e680038fc1c09468c",
+      "size": "525423",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "84a6728b",
+      "md5": "3f3a78b87634d2646fe3be7d5a4fb9be",
+      "sha1": "d874b64a63ba0ed4e9f26b9fd4e2cef7e9d7d8a0",
+      "size": "415103",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=support-texture(us)",
+      "region": "us",
+      "crc": "7eee288e",
+      "md5": "4b405bad73d4194b0d3a4c746786628e",
+      "sha1": "fabadd48c51afbcf203b979178332003ff3d6c0e",
+      "size": "878140",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=support-2D(eu)",
+      "region": "eu",
+      "crc": "56f37f3d",
+      "md5": "e246e00bb10d2bcb5691284269c4af59",
+      "sha1": "fe1f84b6b31d1d8587b07dff1b766a6715909f03",
+      "size": "390975",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "b2e15962",
+      "md5": "deb45e020757393ef5850ee375b8cb59",
+      "sha1": "77dde705f1e83dc04b880c2291048f723bcea838",
+      "size": "358144",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=support-2D(us)",
+      "region": "us",
+      "crc": "b9e97f70",
+      "md5": "a6c48cb12538d773ba9df63b98d0766d",
+      "sha1": "55907eb5b8e8420ebfaebbe1b94767edcfa67316",
+      "size": "392431",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "236fe44d",
+      "md5": "36a6c26ce388ed28835de9c3cb629e17",
+      "sha1": "7075dcdbebeec8f2b75c9e885073bf281137c577",
+      "size": "237152",
+      "format": "png"
+    },
+    {
+      "type": "themehb",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaFichierJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=themehb",
+      "crc": "7cbd3c4d",
+      "md5": "8a8a620c29e587661ab268c059e0b5ed",
+      "sha1": "4dec6154592c88916d260cc695bb3a3b27117cfc",
+      "size": "2944540",
+      "format": "zip"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=mixrbv1(eu)",
+      "region": "eu",
+      "crc": "52636c5e",
+      "md5": "3e2ac15c0673840f02c9176f72cf6d77",
+      "sha1": "d722c1ac82c85505390c5a80129205e4e6099bea",
+      "size": "501031",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "80cffa38",
+      "md5": "8de458d7176eba5eba291de9ab479e24",
+      "sha1": "515c318d149a434b80856dabfb53a1bc2790e676",
+      "size": "472898",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "23b492f0",
+      "md5": "b5d3239a7774979821667fc8c2933f21",
+      "sha1": "9b47a3407ae032400fc5d589da32e6b45eb35d28",
+      "size": "425223",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "37f28eb2",
+      "md5": "92fe5e5e1b678ff877909ec1187b77c2",
+      "sha1": "ee52de97599a50166ed8fb36de9bc678fe07c2b6",
+      "size": "496052",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "52636c5e",
+      "md5": "3e2ac15c0673840f02c9176f72cf6d77",
+      "sha1": "d722c1ac82c85505390c5a80129205e4e6099bea",
+      "size": "501031",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=mixrbv2(eu)",
+      "region": "eu",
+      "crc": "72e7155e",
+      "md5": "b7c873e73dd63750c2460d207f849385",
+      "sha1": "7310031036ee4cb2e1c5c25ed94675cae797e4e5",
+      "size": "695338",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "caacc0f2",
+      "md5": "fce2a48e8a700c448211589794a62766",
+      "sha1": "7b509b9ea70d16a0780457c2473f31a189df28a0",
+      "size": "704670",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "97c71e50",
+      "md5": "689badac8827e2c43f43875f5bd475b5",
+      "sha1": "33f6564835bb51bf4cef4e14356714e66537d71f",
+      "size": "624128",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "bd82ea3d",
+      "md5": "2f0378de5b63ff7ca39a33226a5b33c3",
+      "sha1": "03f2be00a91462c2b331c9fbd18966b5ae2ea5b4",
+      "size": "691655",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1499&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "72e7155e",
+      "md5": "b7c873e73dd63750c2460d207f849385",
+      "sha1": "7310031036ee4cb2e1c5c25ed94675cae797e4e5",
+      "size": "695338",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=457&media=logo-monochrome",
+      "crc": "3a106bf6",
+      "md5": "a5be2fc25b7656918cb3a9ca4f02dbd1",
+      "sha1": "c32d8e660cd4b2a0ce35937f3a9efb59d0ce6a38",
+      "size": "58227",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=457&media=wheel",
+      "crc": "e9828050",
+      "md5": "43b06cc5ca3433dddadd531a63873232",
+      "sha1": "5527b5f922eb66756bbcb858f71e8435edc10e83",
+      "size": "69385",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=457&media=logo-monochrome",
+      "crc": "3a106bf6",
+      "md5": "a5be2fc25b7656918cb3a9ca4f02dbd1",
+      "sha1": "c32d8e660cd4b2a0ce35937f3a9efb59d0ce6a38",
+      "size": "58227",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=457&media=wheel",
+      "crc": "e9828050",
+      "md5": "43b06cc5ca3433dddadd531a63873232",
+      "sha1": "5527b5f922eb66756bbcb858f71e8435edc10e83",
+      "size": "69385",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3553&media=pictoliste",
+      "crc": "612df705",
+      "md5": "6ee8a25c785597ef3035b7139189482a",
+      "sha1": "570ad57ff7c5643595c1a2148bacc373f326cffe",
+      "size": "840",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "CERO",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3621&media=pictoliste",
+      "crc": "399f10e9",
+      "md5": "a1622781ff399d0571142fb803e09c54",
+      "sha1": "20eaec1b4d905832dbfaf3fff6643757d845a0f2",
+      "size": "705",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "CERO",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3621&media=logo-monochrome",
+      "crc": "ae2c8a77",
+      "md5": "747f5e7d5d440a64f066ecc592f13899",
+      "sha1": "19b3e8723f425c74e84833f057c8f4a9749151ed",
+      "size": "16441",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "PEGI",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3710&media=pictoliste",
+      "crc": "05df9e5c",
+      "md5": "c013fb8489dda92b8b1035ab51241ddf",
+      "sha1": "4f025371d91c39874184b041c4230843482da6d0",
+      "size": "492",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=pictoliste",
+      "crc": "cafca3d7",
+      "md5": "51bfa81c19838bc679411a7b6f4053e2",
+      "sha1": "92253cf472ed8e71780c29ddeb6c6e260325ce1f",
+      "size": "593",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=logo-monochrome",
+      "crc": "e4f09f59",
+      "md5": "031f5b008fd851f56fea852bf9f95126",
+      "sha1": "8160d583dde154dcbd717217182d2b310e756e92",
+      "size": "10670",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=pictoliste",
+      "crc": "e4176cee",
+      "md5": "cc91411eb70735bb11dcfc4a0457b474",
+      "sha1": "1f04afee843e3aca095a118170eb13f3cf9a95d6",
+      "size": "828",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome",
+      "crc": "afda799e",
+      "md5": "b6aace835e844a24b33032c300cea85a",
+      "sha1": "ad7df82b2dc35f742dfe94cb20c5984c61a1be7f",
+      "size": "4560",
+      "format": "png"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=logo-monochrome-svg",
+      "crc": "b9fb9475",
+      "md5": "1f42d149151051f8c80b9728242769c3",
+      "sha1": "a0efb0c8b8814d280d62c7b2c5a6f39d5eaf0267",
+      "size": "2101",
+      "format": "svg"
+    },
+    {
+      "id": "26",
+      "parent": "genre",
+      "subparent": "Puzzle-Game",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=26&media=background",
+      "crc": "923a4c43",
+      "md5": "5b1038e07f813242bbf179dcc11aa88f",
+      "sha1": "7971778339840a88ad940669b45dfc0103721cc1",
+      "size": "306716",
+      "format": "jpg"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=pictoliste",
+      "crc": "390f6fd3",
+      "md5": "3fa8179193133952edec1f1c83cbbb12",
+      "sha1": "91d013549a041ad038ee98be72ef9065b1ef2fac",
+      "size": "938",
+      "format": "png"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=logo-monochrome",
+      "crc": "868744ba",
+      "md5": "532936b915571fa9610eea67748f388c",
+      "sha1": "76f9d4781b456572ef1b45420a874cd4b207aaff",
+      "size": "5344",
+      "format": "png"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=logo-monochrome-svg",
+      "crc": "68078839",
+      "md5": "dca661ef2311c429fc7cc04446d74cb2",
+      "sha1": "fc33378ea7d4fbabcba0aa5b14f0803facd5b6e5",
+      "size": "2190",
+      "format": "svg"
+    },
+    {
+      "id": "27",
+      "parent": "genre",
+      "subparent": "Stratégie",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=27&media=background",
+      "crc": "dde606f3",
+      "md5": "dccb263a55ad6904ff08a7ffa8400adc",
+      "sha1": "f2d9943b945e4268b10e0b8edc3aa151e0e983d5",
+      "size": "213672",
+      "format": "jpg"
+    },
+    {
+      "id": "25844",
+      "parent": "famille",
+      "subparent": "Adventures Of Lolo",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=25844&media=figurine",
+      "crc": "512c0af4",
+      "md5": "988c5ef7479815082ff34ae2630dd61b",
+      "sha1": "e263d41e9b0defa563a6ff74894e69da5602c06f",
+      "size": "273738",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "247779",
+      "romsize": "262160",
+      "romfilename": "Adventures of Lolo 3 (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E06A060B",
+      "rommd5": "3DC676F6A0D1E400BB4E1BF908E4C46A",
+      "romsha1": "FD8551F8B02323D31DCC38DCD69545725D6C0538",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "269654",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "346120",
+      "romsize": "262160",
+      "romfilename": "148 Adventures of Lolo 3.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B852CB26",
+      "rommd5": "71F7F878B77C5CA7B929528078AB925D",
+      "romsha1": "B512C9E14FF7CF3ED5A93C79F1BE86E870E00F87",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "185078",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "2059",
+      "romsize": "130358",
+      "romfilename": "Adventures of Lolo 3.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "609BC5B3",
+      "rommd5": "7A028FF5D927087AA0D4B0F280D259FB",
+      "romsha1": "E782EB9E09F333C7625FF3C4C610C44C50FE020F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "173009",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "1133664",
+      "romsize": "262160",
+      "romfilename": "Adventures of Lolo 3 (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7140eca3",
+      "rommd5": "d3236f83d6dac924309dee402a30e04a",
+      "romsha1": "9ad704ae78f0d6c21f2664e8bc1cd30cdf16ec94",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "104287",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "135297",
+      "romsize": "262160",
+      "romfilename": "147 Adventures of Lolo 2.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "870A1DD5",
+      "rommd5": "694A1BFA61AF8A29DCCBCDABD68CAA84",
+      "romsha1": "FB9DE0A713A4D0CAAFA9935062DE6AD861CB2804",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "82407",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "135299",
+      "romsize": "262160",
+      "romfilename": "Adventures of Lolo 3 (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5A8A50BA",
+      "rommd5": "5B01F020D0981FFC178B7B2589FAE53B",
+      "romsha1": "508507825D21D8C63AE61C3F3C2CDC41813CE05E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "66404",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "172448",
+      "romsize": "262144",
+      "romfilename": "Adventures of Lolo 3 (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8DD92725",
+      "rommd5": "DC79B80FAD740BAFD7F485DD5D413740",
+      "romsha1": "6CBD1B3018588D028F5CD69AEEF791A92BBC6A95",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19956",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "466166",
+      "romsize": "127202",
+      "romfilename": "Adventures of Lolo 3 (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "EF12667A",
+      "rommd5": "B17B8E55DDCA851444709685BF1ED138",
+      "romsha1": "4AB61BCA1AA51A92F7E9361CFA5AC20DFBFE19E5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18559",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "880687",
+      "romsize": "129783",
+      "romfilename": "Adventures of Lolo 3 Eggerland Mystery Hack [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A169BEFF",
+      "rommd5": "319912C29BBD228BF4D991DB27E593A6",
+      "romsha1": "7318B5294A0ADA120658AEEB59FC1F7BD149CD9E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14616",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      }
+    },
+    {
+      "id": "1133661",
+      "romsize": "262160",
+      "romfilename": "Adventures of Lolo 3 (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0f4e9cb2",
+      "rommd5": "2b38eb4ed16a2ede5c75180056b829c9",
+      "romsha1": "6913d394ecefe3494d4e9859694c9101eed45756",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "14185",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "1163953",
+      "romsize": "130303",
+      "romfilename": "Adventures of Lolo 3 (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "06D3D078",
+      "rommd5": "2BBB691B616449A91B9D5038F3504866",
+      "romsha1": "8F72E76B6F7C3AB60B0FF76B5B6D1842B3236533",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13240",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "820769",
+      "romsize": "130296",
+      "romfilename": "Adventures of Lolo III.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "99E08F6E",
+      "rommd5": "4A243B137A1FEE853DFB146B25E53791",
+      "romsha1": "AAA58AD7F90F3D745EE6F3002BDA44926A0CD755",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12777"
+    },
+    {
+      "id": "612403",
+      "romsize": "262288",
+      "romfilename": "AdvLolo3.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0B3967CA",
+      "rommd5": "E9A9343D5C2C1A269AF2C46A171448D7",
+      "romsha1": "27485F12FE3E30E013C9DCA1CC98E2AFF570F9AD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12586"
+    },
+    {
+      "id": "523251",
+      "romsize": "130908",
+      "romfilename": "Adventures of Lolo 3 (U) [!p].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0992155A",
+      "rommd5": "C353745ECCBFC590CAEBB7E685A65FCD",
+      "romsha1": "185EFCF2EC863AF32D4D015CA54D17246B95F336",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11153",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "565976",
+      "romsize": "262160",
+      "romfilename": "Adventures of Lolo 3 (Patch FR).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4E59249D",
+      "rommd5": "86623A435DF6C24117C37878D9CEB1D1",
+      "romsha1": "9E84E3950054C01B266FF13F1A65A765FA23E6A5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9714",
+      "langues": {
+        "langues_id": [
+          "69"
+        ],
+        "langues_shortname": [
+          "fr"
+        ],
+        "langues_en": [
+          "French"
+        ],
+        "langues_fr": [
+          "Français"
+        ],
+        "langues_de": [
+          "Französisch"
+        ],
+        "langues_es": [
+          "Francés"
+        ],
+        "langues_it": [
+          "Francese"
+        ],
+        "langues_pt": [
+          "Francês"
+        ]
+      }
+    },
+    {
+      "id": "2060",
+      "romsize": "130304",
+      "romfilename": "Adventures of Lolo 3 (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "17E3C597",
+      "rommd5": "9EC599FD8F5781FDCF04C6A0ECC9008F",
+      "romsha1": "B02760448D0E42D107C273A73E975101B2C175E8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9361",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "2057",
+      "romsize": "130431",
+      "romfilename": "Adventures of Lolo 2 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CDE5CEE0",
+      "rommd5": "DEB8648F9F786D0E1A4348B8702CAC9A",
+      "romsha1": "C441D9CB5CFC854DBBA763DC0B7291D8C26B93CB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9310",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "543665",
+      "romsize": "127208",
+      "romfilename": "Adventures of Lolo III , The.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8145A39D",
+      "rommd5": "7ABD7A0A03649FB9C6D67033913C1273",
+      "romsha1": "28469D5547438EC2A519318A273F7C1045521C43",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8999"
+    },
+    {
+      "id": "172445",
+      "romsize": "262144",
+      "romfilename": "Adventures of Lolo II (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "EAB93CFB",
+      "rommd5": "ADC3B395E7613029DB78369693D9B79F",
+      "romsha1": "9B8FFA06808FFA07BA1D5F05557860335CADBEBB",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8613",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "472492",
+      "romsize": "131348",
+      "romfilename": "Adventures of Lolo 3 (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E8031667",
+      "rommd5": "6B71E1CBF9AE269A67894C0FFE78C6C1",
+      "romsha1": "57EE26C1FA8596FAE167E414A83B0E25F9EDFF68",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8120",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1133667",
+      "romsize": "262160",
+      "romfilename": "Adventures of Lolo II (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1620f77d",
+      "rommd5": "19dd5c440d1915bee7a89c1f590bf9f4",
+      "romsha1": "8a90003596d7b5e9fbfa92c0e0c0c6fbdf604869",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6846",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "588700",
+      "romsize": "262160",
+      "romfilename": "Adventures of Lolo 3 (U) [b1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6C071A95",
+      "rommd5": "980A1A625B10C276857C66530C755EA8",
+      "romsha1": "0BB4E43F44A3A1629C04F1EA18C53182FB42FA14",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4855",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "588701",
+      "romsize": "262160",
+      "romfilename": "Adventures of Lolo 3 (U) [b3].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E03E625C",
+      "rommd5": "CE62224B012054FAD6DBE0D7A9ADB501",
+      "romsha1": "1B566D279E400860F73414B650AFA38B6C9B21BE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4160",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "526311",
+      "romsize": "131287",
+      "romfilename": "Adventures of Lolo 3 (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6AEC0B74",
+      "rommd5": "8E6D91F89BBC249AF609DC34AAEAC92F",
+      "romsha1": "679A36157D2A18F3D5C569B1A5BA68460E6DB1A0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2350",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "112936",
+      "romsize": "130282",
+      "romfilename": "Adventures of Lolo 3 (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "337285E9",
+      "rommd5": "8FF0334E8FFB9195FA4522730B1986D4",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2349",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "172447",
+      "romsize": "262144",
+      "romfilename": "Adventures of Lolo 3 (Europe).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "37397194",
+      "rommd5": "B34E53A328A30887D82F25BB6A4D3852",
+      "romsha1": "73EB2ADA21C1A5A71E54F20DE986C3F41FA69916",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1857",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "537735",
+      "romsize": "42108",
+      "romfilename": "Googie's hack of Lolo 2.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0D4A94D7",
+      "rommd5": "798605B984DADA997FE797B70C9477D0",
+      "romsha1": "E5422788DD73301F90D0683F3FF85F19C46EB21E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1805"
+    },
+    {
+      "id": "112935",
+      "romsize": "130336",
+      "romfilename": "Adventures of Lolo 3 (Europe).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B42933AE",
+      "rommd5": "06EB7A7480E9775E321ECA5E79A062AB",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1482",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "48"
+        ],
+        "regions_shortname": [
+          "eu"
+        ],
+        "regions_en": [
+          "Europe"
+        ],
+        "regions_fr": [
+          "Europe"
+        ],
+        "regions_de": [
+          "Europa"
+        ],
+        "regions_es": [
+          "Europa"
+        ],
+        "regions_it": [
+          "Europa"
+        ],
+        "regions_pt": [
+          "Europa"
+        ]
+      }
+    },
+    {
+      "id": "310628",
+      "romsize": "130946",
+      "romfilename": "Adventures of Lolo 3 (Patch FR).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2A768818",
+      "rommd5": "BCF15E5B3478D667BA3E32E1370E73A6",
+      "romsha1": "65C21E05AFF417681C0AF0663BB0BE57507803F0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "544",
+      "langues": {
+        "langues_id": [
+          "69"
+        ],
+        "langues_shortname": [
+          "fr"
+        ],
+        "langues_en": [
+          "French"
+        ],
+        "langues_fr": [
+          "Français"
+        ],
+        "langues_de": [
+          "Französisch"
+        ],
+        "langues_es": [
+          "Francés"
+        ],
+        "langues_it": [
+          "Francese"
+        ],
+        "langues_pt": [
+          "Francês"
+        ]
+      }
+    },
+    {
+      "id": "478879",
+      "romsize": "130922",
+      "romfilename": "Adventures of Lolo 3 (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1F1D27F4",
+      "rommd5": "04146E55F0997DE4EFD828594CCDB974",
+      "romsha1": "AD624770642E156AC773C93318DCE65293C66105",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "491",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "565767",
+      "romsize": "130869",
+      "romfilename": "Adventures of Lolo 3 (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5E9CCD32",
+      "rommd5": "6B6B135351FA586932E872D89C52D2F8",
+      "romsha1": "539FC7D6CC06625A1C8D33DF8BEF3CE27CCD60F0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "407",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "112933",
+      "romsize": "130409",
+      "romfilename": "Adventures of Lolo 2 (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "06FDB142",
+      "rommd5": "7E06E9BE37932BB0AEB2D795915B3BD2",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "140",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1464525",
+      "romsize": "262160",
+      "romfilename": "52. Adventures of Lolo 3 (USA).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "A1A307A1",
+      "rommd5": "C71943162ED60AB12B265AAB5805C857",
+      "romsha1": "2D3609357D95A51813079D0A2C6FE421A99FF900",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    }
+  ]
+}

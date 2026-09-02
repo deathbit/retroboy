@@ -1,0 +1,955 @@
+{
+  "id": "65459",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Cosmo Police Galivan"
+    },
+    {
+      "region": "jp",
+      "text": "Cosmo Police Galivan"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "226",
+    "text": "Nichibutsu"
+  },
+  "developpeur": {
+    "id": "226",
+    "text": "Nichibutsu"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "note": {
+    "text": "12"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Cosmo Police Galivan puts the player in control of a human being armed with a beam blade, which is only able to attack monsters in close proximity. As the game continues, the player character can use different powers - some ranged - to take out enemies and progress further. Eventually, the player will have the option of becoming a metal-armored officer with considerably more fire-power, though this power-up state will vanish if too much damage is taken. The player character will also level-up after destroying so many enemies, improving their health and &quot;cosmo points&quot; - a stat similar to mana that is used to power the player character's special attacks.\r\n\r\nThe game's world is a network of caves that the player can explore for necessary items and bonus areas. The NES version expands this aspect, providing some Metroidvania-esque exploration. Some impediments are in place to restrict further exploration until the right item is found, as well."
+    },
+    {
+      "langue": "fr",
+      "text": "Cosmo Police Galivan met le joueur dans la peau d'un être humain armé d'une lame faisceau, qui est seulement capable d'attaquer les monstres à proximité. Au fur et à mesure que le jeu continue, le personnage peut utiliser différents pouvoirs - certains à distance - pour éliminer les ennemis et progresser plus loin. Finalement, le joueur aura l'option de devenir un officier blindé en métal avec beaucoup plus de puissance de feu, mais cet état disparaîtra si trop de dégâts sont pris. Le personnage augmentera également de niveau après avoir détruit les ennemis, améliorant sa santé et ses &quot;points cosmos&quot; - une statistique similaire au mana qui est utilisé pour alimenter les attaques spéciales du personnage. Le monde du jeu est un réseau de grottes que le joueur peut explorer pour trouver les objets nécessaires et les zones bonus. La version NES élargit cet aspect, fournissant une exploration Metroidvania-esque. Certains obstacles sont en place pour restreindre l'exploration jusqu'à trouver le bon élément."
+    },
+    {
+      "langue": "de",
+      "text": "Cosmo Police Galivan gibt dem Spieler die Kontrolle über einen mit einer Strahlklinge bewaffneten Menschen, der nur Monster in unmittelbarer Nähe angreifen kann. Im weiteren Verlauf des Spiels kann der Spielercharakter verschiedene Kräfte – einige auch Fernkampfkräfte – nutzen, um Feinde auszuschalten und weiter voranzukommen. Schließlich hat der Spieler die Möglichkeit, ein metallgepanzerter Offizier mit deutlich mehr Feuerkraft zu werden, allerdings verschwindet dieser Power-Up-Zustand, wenn zu viel Schaden erlitten wird. Der Spielercharakter wird auch eine höhere Stufe erreichen, nachdem er so viele Feinde zerstört hat, was seine Gesundheit und „Kosmopunkte“ verbessert – ein Mana-ähnlicher Wert, der verwendet wird, um die Spezialangriffe des Spielercharakters zu verstärken.\r\nDie Welt des Spiels ist ein Netzwerk aus Höhlen, die der Spieler nach notwendigen Gegenständen und Bonusbereichen erkunden kann. Die NES-Version erweitert diesen Aspekt und bietet einige Erkundungen im Metroidvania-Stil. Es gibt auch einige Hindernisse, die die weitere Erkundung einschränken, bis der richtige Gegenstand gefunden ist."
+    },
+    {
+      "langue": "es",
+      "text": "Cosmo Police Galivan pone al jugador en control de un ser humano armado con una hoja de una viga, que solo puede atacar a los monstruos en las proximidades. A medida que el juego continúa, el personaje del jugador puede usar diferentes poderes, algunos de rango, para eliminar enemigos y seguir avanzando. Eventualmente, el jugador tendrá la opción de convertirse en un oficial con armadura de metal con considerablemente más poder de fuego, aunque este estado de encendido desaparecerá si se recibe mucho daño. El personaje del jugador también subirá de nivel después de destruir a tantos enemigos, mejorando su salud y sus &quot;puntos cosmo&quot;, una estadística similar al maná que se usa para impulsar los ataques especiales del personaje del jugador. El mundo del juego es una red de cuevas que el jugador puede explorar en busca de elementos necesarios y áreas de bonificación. La versión NES expande este aspecto, proporcionando una exploración similar a la de Metroidvania. Existen algunos impedimentos para restringir la exploración adicional hasta que también se encuentre el elemento correcto."
+    },
+    {
+      "langue": "it",
+      "text": "Cosmo Police Galivan mette il giocatore al controllo di un essere umano armato con una lama a raggio, che è in grado di attaccare solo i mostri nelle immediate vicinanze. Mentre il gioco continua, il personaggio del giocatore può usare diversi poteri, alcuni a distanza, per eliminare i nemici e progredire ulteriormente. Alla fine, il giocatore avrà la possibilità di diventare un ufficiale corazzato di metallo con una potenza di fuoco notevolmente maggiore, anche se questo stato di potenziamento svanirà se viene subito un danno eccessivo. Il personaggio del giocatore salirà di livello anche dopo aver distrutto così tanti nemici, migliorando la loro salute e i &quot;punti cosmo&quot; - una statistica simile al mana che viene utilizzata per potenziare gli attacchi speciali del personaggio del giocatore."
+    },
+    {
+      "langue": "pt",
+      "text": "Cosmo Police Galivan coloca o jogador na pele de um humano armado com uma lâmina de raio, que só é capaz de atacar monstros próximos. Conforme o jogo continua, o personagem pode usar diferentes poderes - alguns de longo alcance - para derrotar os inimigos e progredir ainda mais. Eventualmente, o jogador terá a opção de se tornar um Oficial de Armadura de Metal com muito mais poder de fogo, mas este estado irá embora se muitos danos forem sofridos. O personagem também sobe de nível depois de destruir inimigos, melhorando sua saúde e “pontos de cosmos” - uma estatística semelhante ao mana que é usada para alimentar os ataques especiais do personagem. O mundo do jogo é uma rede de cavernas que o jogador pode explorar para encontrar os itens necessários e áreas de bônus. A versão NES expande esse aspecto, proporcionando exploração no estilo Metroidvania. Existem alguns obstáculos para restringir a exploração até que você encontre o item certo."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1988-06-03"
+    }
+  ],
+  "genres": [
+    {
+      "id": "7",
+      "nomcourt": "0101",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "7cbc4e83",
+      "md5": "6f365ddc88471dd6fed2e70dfb0030b2",
+      "sha1": "322b4c50d1401eb8476c50e674d082098c77e3f1",
+      "size": "3064",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=ss(jp)",
+      "region": "jp",
+      "crc": "5d75df97",
+      "md5": "4a77d8d5c36393af0fa93a13bb65f454",
+      "sha1": "1433a61afa21f4718080eeb0b8815308712cfad9",
+      "size": "3578",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=fanart",
+      "crc": "6db0fe5b",
+      "md5": "9020522b7776e117bd6f8c37c5ad7be2",
+      "sha1": "2ff1dca19f02924bbc8c9f9aafbb3d49eb6cc7aa",
+      "size": "134357",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=video",
+      "crc": "74c98da2",
+      "md5": "622be4e2efe29c14850d6ea000819744",
+      "sha1": "9aefb833d2bb64cc40906a2db06130c80dc0db2e",
+      "size": "3241788",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=video-normalized",
+      "crc": "92e234b9",
+      "md5": "c8fea0e98a39ec64657a7622b90ba908",
+      "sha1": "af4d521930ae43557d4f24866f325f317e09b926",
+      "size": "1439632",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=steamgrid",
+      "crc": "c07e9cfb",
+      "md5": "04c70cd92b1d958106b43d19233c65d9",
+      "sha1": "88532a2987fde683e06aa5ccb51e942f97250b07",
+      "size": "31665",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=wheel(jp)",
+      "region": "jp",
+      "crc": "c19f8740",
+      "md5": "d5dd601251232a08cf1d262d4fa289b0",
+      "sha1": "c64b4596ddf9c24071b3ceab797ace38a9ede62b",
+      "size": "172953",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=wheel(jp)",
+      "region": "jp",
+      "crc": "c19f8740",
+      "md5": "d5dd601251232a08cf1d262d4fa289b0",
+      "sha1": "c64b4596ddf9c24071b3ceab797ace38a9ede62b",
+      "size": "172953",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "baebb1a7",
+      "md5": "48c4e691aab1b6a4d2c8da4019c1e04c",
+      "sha1": "f999817ba5761a867a718dd91ee8388bf0082a07",
+      "size": "146061",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "b7bcf9e7",
+      "md5": "e7c5404696544f0e60fd528cb8fe08e7",
+      "sha1": "f595662a6117fa62f0a894d60c4a7096c8e377ef",
+      "size": "146357",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "d993bf3a",
+      "md5": "b7c656219de2b1e67f9871affd66ae12",
+      "sha1": "35e126c1a5ea2d583561532830c33bde007d8657",
+      "size": "504654",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "d1c4278c",
+      "md5": "32041e06d56d48e865623827ad11bb13",
+      "sha1": "2af4f2c79dca69a92dd0c4338f639d1af729099a",
+      "size": "83699",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "e7d761a8",
+      "md5": "2828309cf7bde86c11a3ffca95e4651b",
+      "sha1": "1412513fd80472b9cef763e694c6d6798e926b71",
+      "size": "733639",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "e7d761a8",
+      "md5": "2828309cf7bde86c11a3ffca95e4651b",
+      "sha1": "1412513fd80472b9cef763e694c6d6798e926b71",
+      "size": "733639",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "1dbdf723",
+      "md5": "854311424c76db7fd5ab339784896f7b",
+      "sha1": "63a77934533d0b1316754b246bed4497a2aa7ba7",
+      "size": "149781",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "233986fa",
+      "md5": "7aaa31bfac8a94f68ec65101b0d316d5",
+      "sha1": "c021844d6fc527abcb86465a976fbaedad8161bb",
+      "size": "103585",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "ff101210",
+      "md5": "24f207c0aefd29120fefb80cdaf8ae8e",
+      "sha1": "33a939b334a144006af1dff7d8e28f6489962266",
+      "size": "28369",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "4251a77f",
+      "md5": "23f5f158c0faaaab76d074a9dff3cb30",
+      "sha1": "668b4fb2afa7a826ae6677549edba3809fb017e2",
+      "size": "602958",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "4251a77f",
+      "md5": "23f5f158c0faaaab76d074a9dff3cb30",
+      "sha1": "668b4fb2afa7a826ae6677549edba3809fb017e2",
+      "size": "602958",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "4306880b",
+      "md5": "db9944ec943369410689b6bf28bf4f40",
+      "sha1": "2c73d46940666dd925c566901a012fc03c0b42b5",
+      "size": "156545",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "83ad9f96",
+      "md5": "7b74b9bc739ef443cb9ad5c7729c2533",
+      "sha1": "de4c9322cbd469e7ce834bab6218fe6a8c7314a7",
+      "size": "1429577",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "fc6ab18d",
+      "md5": "bbe09079ccf0afcaaba835983262ddee",
+      "sha1": "ae5ad7b05772d63ca4594b08f4738aa3ad8e464d",
+      "size": "351101",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "9a71f928",
+      "md5": "8023ff39ccffca5930cfa5708bc93f61",
+      "sha1": "94b12a0a5434e1ca0739f9f8c8a38d467bdac296",
+      "size": "340432",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "b9209de5",
+      "md5": "826b024ad0a937ec9e756d0bbce9240d",
+      "sha1": "ee2053024bef5aa110ad3a1e09cc8cfca5289f83",
+      "size": "156438",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=manuel(jp)",
+      "region": "jp",
+      "crc": "2468c64d",
+      "md5": "25453dd967731177ae818d498a2aaaa7",
+      "sha1": "714831a6920796ed373aaa12efb549aae78d511e",
+      "size": "4492747",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "1046f350",
+      "md5": "bec9e2dce0e67a81cc85e70051dd01c9",
+      "sha1": "d4354dbbe9055f6d113ee44483da4deff7a55af0",
+      "size": "352034",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "1ba251f7",
+      "md5": "610c066e32b54b785fa975a246387238",
+      "sha1": "5eb506156d9313daa98dc86be50a9d971858c008",
+      "size": "366800",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "0020e1c8",
+      "md5": "c97057332f595bbe95a8b1d0f1457ff6",
+      "sha1": "01020b7390fa2e181bf1f4e9f73a9000702c6c40",
+      "size": "462641",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "1b7d413d",
+      "md5": "360791d89140e569411e12b536f945fb",
+      "sha1": "de3adda0547dbf8da85e738463442e750bab90cf",
+      "size": "378691",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "0020e1c8",
+      "md5": "c97057332f595bbe95a8b1d0f1457ff6",
+      "sha1": "01020b7390fa2e181bf1f4e9f73a9000702c6c40",
+      "size": "462641",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "6e881255",
+      "md5": "c97e91df169610d581e9c5422908b0da",
+      "sha1": "b325b305ceb2ff81dd33b59040f877325e558ccd",
+      "size": "645288",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "df2fe212",
+      "md5": "f3cb63e495536cf186b165c082ede3a7",
+      "sha1": "bb0a4e283c0cb0a1afc409f6960e9d5ec7849add",
+      "size": "565826",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65459&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "6e881255",
+      "md5": "c97e91df169610d581e9c5422908b0da",
+      "sha1": "b325b305ceb2ff81dd33b59040f877325e558ccd",
+      "size": "645288",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=226&media=logo-monochrome",
+      "crc": "82a0d579",
+      "md5": "63b3625a32ee0317ee29e418c8a0884a",
+      "sha1": "5fb50927285b93cb958a3c0ba1a13070f1abdcae",
+      "size": "19908",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=226&media=wheel",
+      "crc": "2442f83c",
+      "md5": "62d402a5baa6a84c7b15e2f7a170dd94",
+      "sha1": "05a0467da65d1b17552a58cbdb2e10775ff982a6",
+      "size": "38634",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=226&media=logo-monochrome",
+      "crc": "82a0d579",
+      "md5": "63b3625a32ee0317ee29e418c8a0884a",
+      "sha1": "5fb50927285b93cb958a3c0ba1a13070f1abdcae",
+      "size": "19908",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=226&media=wheel",
+      "crc": "2442f83c",
+      "md5": "62d402a5baa6a84c7b15e2f7a170dd94",
+      "sha1": "05a0467da65d1b17552a58cbdb2e10775ff982a6",
+      "size": "38634",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3551&media=pictoliste",
+      "crc": "4b70874e",
+      "md5": "e350059ffeddd8fa6305e25f6aae2d92",
+      "sha1": "51a597d09c8482e1ed1099d12db0d958aeaa1d21",
+      "size": "420",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=pictoliste",
+      "crc": "d8329f23",
+      "md5": "ada4054a77e20edada97225e5c316116",
+      "sha1": "cfadf96438bde8ae1a8c3c52c85dd6768ba9b4c8",
+      "size": "855",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome",
+      "crc": "0f88a1ba",
+      "md5": "e8c818f5f59d48642afea18e5c545c15",
+      "sha1": "ef3857055eaae13785d2cab692edf9454b544be3",
+      "size": "9142",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome-svg",
+      "crc": "fa797dda",
+      "md5": "73a61640b94904834fdbfc7e043150e0",
+      "sha1": "3e5fe422339961df30bd70aa83e43671a1badce4",
+      "size": "4755",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=background",
+      "crc": "3d578fbf",
+      "md5": "62dbdbe08a5765fae2630d06e0f0ea38",
+      "sha1": "354ef394870af26f443863a29c846a07a20f47a0",
+      "size": "161158",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "12502",
+      "romsize": "117568",
+      "romfilename": "Cosmo Police Galivan (Japan) (T).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1EC22DFC",
+      "rommd5": "09C33901266E9CF83BA74B7ABC3F9775",
+      "romsha1": "8BDF69D36EA86CA626011C3EFB30786513A98032",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "122662",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "620163",
+      "romsize": "262160",
+      "romfilename": "Cosmo Police Galivan.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4F031CB0",
+      "rommd5": "08ECFD17A791ACDE0BF63543C98115A6",
+      "romsha1": "FD3D9F8A6C862773194C3E23B420AABE9453D2D6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "110400",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "135691",
+      "romsize": "262160",
+      "romfilename": "Cosmo Police Galivan (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BCCADA80",
+      "rommd5": "CDF1F060F467F88C25EB3EFB783541E2",
+      "romsha1": "6F38D0ADA341F86F3055F689DD0F90C62556D91E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "66703",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1135773",
+      "romsize": "262160",
+      "romfilename": "Cosmo Police Galivan (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "d9116dd6",
+      "rommd5": "538de962b4db5e175d7eccf8ae09dee7",
+      "romsha1": "3add1213eafe34216e73bc51e02a00d9f8df0858",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19434",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "595499",
+      "romsize": "262288",
+      "romfilename": "cosmopolice.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2EA9C33C",
+      "rommd5": "B7A58CF87C6B26C6C6CB03C9EC548460",
+      "romsha1": "9CFFA7EE1652DEA82717F83029B5D7E9F1CF46D2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14878"
+    },
+    {
+      "id": "364305",
+      "romsize": "118088",
+      "romfilename": "Cosmo Police Galivan (J) [T Eng1.00_Jair].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6776FCC4",
+      "rommd5": "787200BB938E7EF59D1E58B57597A3E9",
+      "romsha1": "3FA874680F3A4F6694F377E3061612FE62452B9C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "1",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2052",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "172844",
+      "romsize": "262144",
+      "romfilename": "Cosmo Police Galivan (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E53F7A55",
+      "rommd5": "175664BD63FDE92BDCE3249FDC997DC5",
+      "romsha1": "63D5AB59B1513A4D5D432077415789A36F1CD09A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1733",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "113340",
+      "romsize": "117546",
+      "romfilename": "Cosmo Police Galivan (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "388AF086",
+      "rommd5": "6A09D4AECF33BAA0CEDA7459FAA10987",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "939",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

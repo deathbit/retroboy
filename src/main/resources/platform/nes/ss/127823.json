@@ -1,0 +1,342 @@
+{
+  "id": "127823",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Yu-gi-oh"
+    },
+    {
+      "region": "cn",
+      "text": "Yu-gi-oh"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "45475",
+    "text": "Shenzhen Nanjing Technology"
+  },
+  "developpeur": {
+    "id": "45475",
+    "text": "Shenzhen Nanjing Technology"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Yu-Gi-Oh! is presumed to be a backport of one of the Yu-Gi-Oh! game made for the Game Boy Advance, made by Shenzhen Nanjing Technology. The game is entirely in Chinese, and the fights depend on the dice you roll. The player's monsters cannot go any higher than Level 59, even though the final boss has a monster at Level 60."
+    },
+    {
+      "langue": "fr",
+      "text": "On suppose que ce jeu Yu-Gi-Oh! est un portage rétroactif de l'un des titres Yu-Gi-Oh! développés pour la Game Boy Advance par Shenzhen Nanjing Technology. Le jeu est entièrement en chinois et les combats reposent sur des lancers de dés. Les monstres du joueur ne peuvent pas dépasser le niveau 59, alors même que le boss final possède un monstre de niveau 60."
+    },
+    {
+      "langue": "de",
+      "text": "Yu-Gi-Oh! Es wird angenommen, dass es sich um einen Backport eines der Yu-Gi-Oh handelt! Spiel für den Game Boy Advance, hergestellt von Shenzhen Nanjing Technology. Das Spiel ist vollständig auf Chinesisch, und die Kämpfe hängen von den Würfeln ab, die Sie werfen. Die Monster des Spielers können nicht höher als Level 59 gehen, obwohl der Endgegner ein Monster auf Stufe 60 hat."
+    }
+  ],
+  "familles": [
+    {
+      "id": "22762",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Yu-Gi-Oh!"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=sstitle(cn)",
+      "region": "cn",
+      "crc": "31892e85",
+      "md5": "3c7fcb3ae0278b0944401b0030204549",
+      "sha1": "d5857ef6bcc0dc05a303f68e85a9709389bd8228",
+      "size": "23294",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=ss(cn)",
+      "region": "cn",
+      "crc": "24513be6",
+      "md5": "08064f53d9866befac520456761b8674",
+      "sha1": "8003fc8ab5403973a7bda1ca88b00ecbe887febe",
+      "size": "36448",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=fanart",
+      "crc": "9d9f07f0",
+      "md5": "724f222b20b54d6241099de6741e4db7",
+      "sha1": "71bafe810f98e1bb7848afd0dfbe85ddd0789965",
+      "size": "327575",
+      "format": "jpg"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=steamgrid",
+      "crc": "2ce96215",
+      "md5": "fd2b606f99464babe6b4351ca60ea738",
+      "sha1": "8764ff086f0cb08f400b445806ed6f4a65942a23",
+      "size": "34704",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=wheel-hd(wor)",
+      "region": "wor",
+      "crc": "b556d32e",
+      "md5": "d8f63ce347fe3b9a89261d6e833c2b17",
+      "sha1": "8c69e41f229dbcc75bda17e1a5887589c18f4c80",
+      "size": "58666",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "7f7da75c",
+      "md5": "925a34ede00e1957040d1240466a3c4d",
+      "sha1": "034d1ab811f586b8f4fbd7ea2b6edec2ed45b84e",
+      "size": "119041",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "0ddbebec",
+      "md5": "353f10f692e8d92013fc8995e32598e3",
+      "sha1": "1de4de253c3019d570ac03e507357144e49f068c",
+      "size": "121531",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "8fd843ae",
+      "md5": "2126181e6a6aa25db91edda5c71814a5",
+      "sha1": "46412114982da0f2d10294f18b42913f611ff6b9",
+      "size": "471796",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "8508f50f",
+      "md5": "c02d3515509523e3cb1ae3e050ff4100",
+      "sha1": "ce20ce4e58ba26dccdc898d2c48525a2b35a1985",
+      "size": "78372",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "f3f38548",
+      "md5": "0b1bac5e0478c90b30ce2d6abb2c257d",
+      "sha1": "e125bde6d64bb8b55f14d48fe8808cbdf498d4fc",
+      "size": "201417",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "6611a7ae",
+      "md5": "4a096940afd1a8d29fc3d87c8c4e6fe1",
+      "sha1": "16b2894c86408f0a862a51ec310172f06431f0d2",
+      "size": "30469",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "a808de74",
+      "md5": "3374b16f47485be7d8736ed45996e7eb",
+      "sha1": "6380378c17c299ae63b5896c51ae7e8a2b95a7b5",
+      "size": "161348",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "4cec7569",
+      "md5": "07063d147220e6f6a0248fbfeb90f9f0",
+      "sha1": "b856ed7617e3494768b20c21b5be18e2018ff532",
+      "size": "408611",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "cc96accd",
+      "md5": "ff723a86dd0f9108182b539a66b712f4",
+      "sha1": "2fb8000dce9a34c8ec52fbd68de81fdf2043afb1",
+      "size": "168234",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=mixrbv1(cn)",
+      "region": "cn",
+      "crc": "af951bd1",
+      "md5": "0a5da7f72df2e7759ad2cda3216cfcb9",
+      "sha1": "ea24e466cd621742988c070cf1d7f146260813af",
+      "size": "425900",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=mixrbv2(cn)",
+      "region": "cn",
+      "crc": "9e436f0b",
+      "md5": "1e61d9862f238420125f9dc2a84dae83",
+      "sha1": "bf37a5687e39e0e2172cd898c98507747569fdc2",
+      "size": "674532",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "9e436f0b",
+      "md5": "1e61d9862f238420125f9dc2a84dae83",
+      "sha1": "bf37a5687e39e0e2172cd898c98507747569fdc2",
+      "size": "674532",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=127823&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "9e436f0b",
+      "md5": "1e61d9862f238420125f9dc2a84dae83",
+      "sha1": "bf37a5687e39e0e2172cd898c98507747569fdc2",
+      "size": "674532",
+      "format": "png"
+    },
+    {
+      "id": "22762",
+      "parent": "famille",
+      "subparent": "Yu-Gi-Oh!",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=22762&media=figurine",
+      "crc": "d88e4e70",
+      "md5": "6e20ce0dbc41cf750d3af933d28a781d",
+      "sha1": "7593a8472906f09c25dfb09966ecfd2214ad4066",
+      "size": "198415",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "466438",
+      "romsize": "2097168",
+      "romfilename": "0046 Game King (Chinese version).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5DCDD73B",
+      "rommd5": "3070EF1EB17FBEE5329A8A67E07DF82D",
+      "romsha1": "BA4D335E8085B57F9D262300F7C7AE76AB971F68",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "36958",
+      "langues": {
+        "langues_id": [
+          "2620"
+        ],
+        "langues_shortname": [
+          "zh"
+        ],
+        "langues_en": [
+          "Chinese"
+        ],
+        "langues_fr": [
+          "Chinois"
+        ],
+        "langues_de": [
+          "Chinesisch"
+        ],
+        "langues_es": [
+          "Chino"
+        ],
+        "langues_it": [
+          "Cinese"
+        ],
+        "langues_pt": [
+          "Chinês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "56"
+        ],
+        "regions_shortname": [
+          "cn"
+        ],
+        "regions_en": [
+          "China"
+        ],
+        "regions_fr": [
+          "Chine"
+        ],
+        "regions_de": [
+          "China"
+        ],
+        "regions_es": [
+          "China"
+        ],
+        "regions_it": [
+          "Cina"
+        ],
+        "regions_pt": [
+          "China"
+        ]
+      }
+    }
+  ]
+}

@@ -18,6 +18,12 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
     private NoIntroHandler noIntroHandler;
 
     @Autowired
+    private SSHandler ssHandler;
+
+    @Autowired
+    private FileContextHandler fileContextHandler;
+
+    @Autowired
     private MatchHandler matchHandler;
 
     @Autowired
@@ -49,6 +55,10 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
         var platformContext = platformContextInitializer.handle(platform);
         wikiHandler.handle(platformContext);
         noIntroHandler.handle(platformContext);
+        ssHandler.handle(platformContext);
+        fileContextHandler.handle(platformContext);
+
+
         matchHandler.handle(platformContext);
         moveHandler.handle(platformContext);
         renameHandler.handle(platformContext);

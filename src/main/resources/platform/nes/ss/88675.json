@@ -1,0 +1,943 @@
+{
+  "id": "88675",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Sukeban Deka 3"
+    },
+    {
+      "region": "jp",
+      "text": "Sukeban Deka III"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "2895",
+    "text": "Toei Animation"
+  },
+  "developpeur": {
+    "id": "8831",
+    "text": "Shouei"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Yui Kazama, a delinquent schoolgirl, is taken in by the government and forced to fight crime to redeem herself. She is given the codename &quot;Saki Asamiya&quot; and a metal yo-yo that doubled as a badge and made to infiltrate high schools around Japan to investigate and stop criminal activities."
+    },
+    {
+      "langue": "fr",
+      "text": "Yui Kazama, une écolière délinquante, est prise en charge par le gouvernement et forcée de combattre le crime pour se racheter. Elle reçoit le nom de code &quot;Saki Asamiya&quot; et un yo-yo en métal qui a doublé comme un insigne et fait pour infiltrer les lycées du Japon pour enquêter et arrêter les activités criminelles."
+    },
+    {
+      "langue": "de",
+      "text": "Yui Kazama, eine kriminelle Schülerin, wird von der Regierung aufgenommen und gezwungen, Verbrechen zu bekämpfen, um sich zu erlösen. Sie erhält den Codenamen &quot;Saki Asamiya&quot; und ein Metall-Jo-Jo, das sich als Abzeichen verdoppelte und dazu gebracht wurde, Gymnasien in ganz Japan zu infiltrieren, um kriminelle Aktivitäten zu untersuchen und zu stoppen."
+    },
+    {
+      "langue": "es",
+      "text": "Yui Kazama, una alumna delincuente, es tomada por el gobierno y obligada a luchar contra el crimen para redimirse. Se le da el nombre en clave &quot;Saki Asamiya&quot; y un yo-yo de metal oculto como una medalla y se hizo para infiltrarse en las escuelas secundarias de todo Japón para investigar y detener las actividades delictivas."
+    },
+    {
+      "langue": "it",
+      "text": "Yui Kazama, una studentessa delinquente, viene accolta dal governo e costretta a combattere il crimine per riscattarsi. Le viene dato il nome in codice &quot;Saki Asamiya&quot; e uno yo-yo di metallo che fungeva anche da distintivo e fatto infiltrare nelle scuole superiori del Giappone per indagare e fermare le attività criminali."
+    },
+    {
+      "langue": "pt",
+      "text": "Yui Kazama, uma estudante delinquente, é acolhida pelo governo e forçada a lutar contra o crime para se redimir. Ela recebeu o codinome &quot;Saki Asamiya&quot; e um ioiô de metal que dobrou como um distintivo e foi feito para se infiltrar em escolas de ensino médio em todo o Japão para investigar e impedir atividades criminosas."
+    }
+  ],
+  "dates": [
+    {
+      "region": "asi",
+      "text": "1988-01-22"
+    },
+    {
+      "region": "jp",
+      "text": "1988-01-22"
+    }
+  ],
+  "genres": [
+    {
+      "id": "1",
+      "nomcourt": "0107",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Beat'em Up"
+        },
+        {
+          "langue": "fr",
+          "text": "Beat'em All"
+        },
+        {
+          "langue": "de",
+          "text": "Beat'em Up"
+        },
+        {
+          "langue": "es",
+          "text": "Beat'em Up"
+        },
+        {
+          "langue": "it",
+          "text": "Beat'em All"
+        },
+        {
+          "langue": "pt",
+          "text": "Briga de rua"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "13e3aa31",
+      "md5": "705cbfd236a459c809a7071545cb66d1",
+      "sha1": "4951a409298b3e2e6a35163d78cd41458082c7e3",
+      "size": "5728",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=ss(jp)",
+      "region": "jp",
+      "crc": "96b11f3f",
+      "md5": "9a599576d7575a87a7ab4f9ecd6bb626",
+      "sha1": "9ba79b2750634a11e5787e5366d8df2638621af9",
+      "size": "2100",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=video",
+      "crc": "92e953ca",
+      "md5": "c2c5fa455482ada163ec3f42c69837b3",
+      "sha1": "3cd0708ba4eec00dd1701b12ba6181be2383bdce",
+      "size": "7050130",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=video-normalized",
+      "crc": "300991b0",
+      "md5": "3dde0a05196fdfd4e79ba06c62035289",
+      "sha1": "b2d00f927b8eeedbcffd121526230730ed73a5ef",
+      "size": "2508510",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=steamgrid",
+      "crc": "87223445",
+      "md5": "e94d9c9c2de8bf81a349519dcbf51a02",
+      "sha1": "f621ccbe8db8183bfe84f221d11fd089c66af462",
+      "size": "36194",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=wheel(jp)",
+      "region": "jp",
+      "crc": "f6b255bb",
+      "md5": "47e6f63da90afd5b31f5f3c5178873a5",
+      "sha1": "da0d48b5d973f3358872b21924e81915dce37416",
+      "size": "51811",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "40fc27ce",
+      "md5": "0e7d98ba877ff630748445ff58ee4d41",
+      "sha1": "f10c35f457f989c29e76a618a3711073b81f58a0",
+      "size": "112062",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "7b73006f",
+      "md5": "3dd309c8d015b429810965f2ccb2befe",
+      "sha1": "3fb0b5ea102f3d968a73f280fd2762ab7cffd267",
+      "size": "112422",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "a3ebf53d",
+      "md5": "38143aa50bafe4aa50a6222cebb38b6d",
+      "sha1": "d1c04457b57b41b6e77387bfdd0838dbb480623f",
+      "size": "497137",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "63e588cc",
+      "md5": "58de233b373a40d7476a34fa319cbb7c",
+      "sha1": "ec857e9a4388c568cef4a194d930d647b31a0792",
+      "size": "80940",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "157a4c3f",
+      "md5": "7f7e9d5c1906d374c972417f40598ee0",
+      "sha1": "86237a1e45f247ab6b75a10f6df2aeb120e66f0b",
+      "size": "604932",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "9532ca6e",
+      "md5": "2054a6f597f3c28b3c495dc663505e27",
+      "sha1": "28529fad1dfeb53f8d4c7788fe419f2fe73e45f4",
+      "size": "129381",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "9b3bf00f",
+      "md5": "692331fd0bb5bbfcb1c1df105e515115",
+      "sha1": "fbf8f5abe99229252edd6dc07d45821ec3e529d2",
+      "size": "51838",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "5067c744",
+      "md5": "41dd8c248f48771fcc63b07a4f702c92",
+      "sha1": "d4d9347afcfe7ca517ac6cadded59b44b225931a",
+      "size": "24023",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "3e415549",
+      "md5": "7dc757ba31946a1dec4f2b87acf006d1",
+      "sha1": "fdc82436edea98ced55a0fb450e48b9e44955563",
+      "size": "360106",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "078aa998",
+      "md5": "7420ee84eccad20b6fcbeb9cdba84bd2",
+      "sha1": "133006b71d9dde14f1d05c9644cc7a87cabfbdf2",
+      "size": "172955",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "c6124bbb",
+      "md5": "7f0b408ae32ba88ecfc211f920c3e38f",
+      "sha1": "29b8ff772f77347ed92ee21bfa502536733f130f",
+      "size": "1073332",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "aea6e23b",
+      "md5": "304b99b750bc5a3ec88e9ca529a1a90c",
+      "sha1": "28726671ac90003b8cd5036e141fca859e7c51fc",
+      "size": "342933",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "a6d3ca28",
+      "md5": "35228c13ed7610495bf1d90d3e39b247",
+      "sha1": "588f314338dca307bc7740fa06a7c2215070348a",
+      "size": "295330",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "a35c960c",
+      "md5": "afba59916f95acaf16cec5898b5c9983",
+      "sha1": "294e9e64020a262dacb15dfded476c5711133100",
+      "size": "155164",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=manuel(jp)",
+      "region": "jp",
+      "crc": "55ca7741",
+      "md5": "d0b19bc3d15b7cca8ceb4a5da3110284",
+      "sha1": "7832595c9bbf9601de6a0e2110719e4b85cb8d8e",
+      "size": "1833990",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "8c86bdae",
+      "md5": "1715a156cf498e30175a7a7d21657383",
+      "sha1": "18d56abed55032dcb3f32ee29ba6239a2bd4f10b",
+      "size": "300017",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "7fcfb08b",
+      "md5": "97fb77ce6c50f140cd6d8e9b208201fc",
+      "sha1": "00e6f21ea0d84e7191aa463943b7ec14f6ecee27",
+      "size": "338871",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "912dd58a",
+      "md5": "cd48c1228b205a54594fcfeda63dbf38",
+      "sha1": "19c760687d09fe63c0106de06e8d2681da47a37d",
+      "size": "430091",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "82ba3999",
+      "md5": "786df25249b73fbbab6cc9667bcabc9e",
+      "sha1": "1ef354fd1b187eeb639ee5f0be139590f57beb4a",
+      "size": "360783",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "912dd58a",
+      "md5": "cd48c1228b205a54594fcfeda63dbf38",
+      "sha1": "19c760687d09fe63c0106de06e8d2681da47a37d",
+      "size": "430091",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "1c17c16a",
+      "md5": "a834d616e8391c072327dc27cfe987ab",
+      "sha1": "a6bc4aef232bf5a3c8c5d306523db03964b4ba62",
+      "size": "699877",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "56a8727f",
+      "md5": "1a82a064a4af2bdfbb3669150da0622b",
+      "sha1": "5e39571ab35da5526952de79a16b8609e04ca02e",
+      "size": "636431",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88675&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "1c17c16a",
+      "md5": "a834d616e8391c072327dc27cfe987ab",
+      "sha1": "a6bc4aef232bf5a3c8c5d306523db03964b4ba62",
+      "size": "699877",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2895&media=wheel",
+      "crc": "25cdcc89",
+      "md5": "f2e79efa62f1dfe2599c87245c4a2a44",
+      "sha1": "7c0ba405fc99f2cdf28ca71586c4971ba06bd27e",
+      "size": "54663",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "1",
+      "parent": "genre",
+      "subparent": "Beat'em All",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=1&media=pictoliste",
+      "crc": "151e4161",
+      "md5": "00cb0cb4842e9aba77214ca54b713d0b",
+      "sha1": "95b8ef111b7e5be0c1750123da620e76523dec62",
+      "size": "1126",
+      "format": "png"
+    },
+    {
+      "id": "1",
+      "parent": "genre",
+      "subparent": "Beat'em All",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=1&media=logo-monochrome",
+      "crc": "3974c2c4",
+      "md5": "19fa1571415cc4d60d321d1c42dd45b5",
+      "sha1": "27a372f24bbf11f0a7050bfea0bbcab612935244",
+      "size": "9003",
+      "format": "png"
+    },
+    {
+      "id": "1",
+      "parent": "genre",
+      "subparent": "Beat'em All",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=1&media=logo-monochrome-svg",
+      "crc": "ccb72604",
+      "md5": "a3cce15fcad1ab4329a718a6b0d27d7e",
+      "sha1": "1de1e8426d307e4cc56b909ffe353813822278e3",
+      "size": "2918",
+      "format": "svg"
+    },
+    {
+      "id": "1",
+      "parent": "genre",
+      "subparent": "Beat'em All",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=1&media=background",
+      "crc": "76efc81b",
+      "md5": "c110398f549f2cc0e3203275655943e1",
+      "sha1": "e11e67f962b414d3bdfcc1afe285bab4135c6d1b",
+      "size": "161306",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "13436",
+      "romsize": "64766",
+      "romfilename": "Sukeban Deka III (Japan) (T).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "81C8B6B0",
+      "rommd5": "80149ECDC8C2A5E1200F03ADCA4D2837",
+      "romsha1": "69DFFC45315EAEA92E27E4DF4AD2C4E6F09CA89F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "47830",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "137405",
+      "romsize": "131088",
+      "romfilename": "Sukeban Deka III (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C1715CD6",
+      "rommd5": "B78E86E3853B046E421B48F1C2B9CB70",
+      "romsha1": "03FAEDE37A225940EB1E4B31C3D988741AF3307C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "34077",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "757817",
+      "romsize": "131088",
+      "romfilename": "Sukeban Deka III (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FEC242B9",
+      "rommd5": "8799BBDC5C5D72B3FB7953032433EF9A",
+      "romsha1": "DA2B5AD83CD106307041909E8C1A21EB9282719F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "29931",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "745580",
+      "romsize": "131088",
+      "romfilename": "Sukeban Deka 3 (J).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "EB3677F6",
+      "rommd5": "BA158617C4AE5E12E2F0CB08B24B41FC",
+      "romsha1": "8513B665A71DB41A48A6C8AE67430609EDBA7298",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "25726",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1144350",
+      "romsize": "131088",
+      "romfilename": "Sukeban Deka III (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "a6483aec",
+      "rommd5": "a57052f63c88d4582cbfd02474f7d4ee",
+      "romsha1": "3961b090f603b7d8347fc1a6ad5aacecb7ccb2c7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19563",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "537373",
+      "romsize": "64749",
+      "romfilename": "Sukeban Keiji III.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3224A52C",
+      "rommd5": "94580AF2CDBEFA46A3AFA897FC0BB8BC",
+      "romsha1": "D79D01D058692C7B61F14247444D679673DD0400",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18478"
+    },
+    {
+      "id": "604431",
+      "romsize": "131088",
+      "romfilename": "Sukeban Deka III (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "318FE530",
+      "rommd5": "DECE575037F66547EABA92907BCB23F1",
+      "romsha1": "ADAD790C05899DA35596EE52A93903B331D7B305",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "13323",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174601",
+      "romsize": "131072",
+      "romfilename": "Sukeban Deka III (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "02863604",
+      "rommd5": "9FB722B5758C0C65C911840432920A2A",
+      "romsha1": "94B874EC112829801C899E6E9E509885ABC3D520",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1692",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "115100",
+      "romsize": "64741",
+      "romfilename": "Sukeban Deka III (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B874E497",
+      "rommd5": "79637B0117CC83A1CECFD7E87DA4086E",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "993",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1416491",
+      "romsize": "131088",
+      "romfilename": "Delinquent Girl Detective III (Japan) [T-En by MrRichard999 v0.95] [n].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "69059D65",
+      "rommd5": "A1822479FE79117C6A2F4D025A883BA2",
+      "romsha1": "031F10D508974E009DC1DB9E185E40FB85D26CA7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "128"
+    }
+  ]
+}

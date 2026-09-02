@@ -1,0 +1,926 @@
+{
+  "id": "1270",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Super Mario Bros. - The Lost Levels"
+    },
+    {
+      "region": "us",
+      "text": "Super Mario Bros. : The Lost Levels"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "286",
+    "text": "Nintendo"
+  },
+  "developpeur": {
+    "id": "286",
+    "text": "Nintendo"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "note": {
+    "text": "16"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "The Lost Levels is similar to Super Mario Bros, with players controlling Mario or Luigi to rescue Princess Peach from Bowser. It adds a greater level of difficulty and Luigi controls slightly differently from Mario, with reduced ground friction and increased jump height. The Lost Levels also introduces obstacles such as poison mushroom power-ups, counterproductive level warps, and mid-air wind gusts. It has 32 levels across eight worlds and 20 bonus levels."
+    },
+    {
+      "langue": "fr",
+      "text": "Première suite à Super Mario Bros., Super Mario Bros.: The Lost Levels est très semblable visuellement ainsi qu'au niveau du gameplay à son prédécesseur mais propose une difficulté bien plus élevée. Considérant cela, Nintendo décide de ne pas sortir le jeu en Amérique du Nord et en Europe durant la période de commercialisation de la Nintendo Entertainment System. The Lost Levels est le premier jeu dans lequel Luigi court moins vite et a une distance de freinage plus importante mais saute plus haut que Mario, traits qui lui seront attribués dans les futurs jeux de la franchise Mario."
+    },
+    {
+      "langue": "de",
+      "text": "Super Mario Bros. : The Lost Levels (in Japan auch als Super Mario Bros. 2 bekannt) wurde 1986 für das Famicom Disk System veröffentlicht. Es wurde von Nintendo R & D4 entwickelt.\r\nDie erste Fortsetzung von &quot;Super Mario Bros.&quot;, &quot;Super Mario Bros.: The Lost Levels&quot;, ist optisch und vom Gameplay her seinem Vorgänger sehr ähnlich, bietet aber einen deutlich höheren Schwierigkeitsgrad. Vor diesem Hintergrund beschließt Nintendo, das Spiel während des Vermarktungszeitraums des Nintendo Entertainment Systems nicht in Nordamerika und Europa zu veröffentlichen. The Lost Levels ist das erste Spiel, in dem Luigi langsamer läuft und einen längeren Bremsweg hat, aber höher springt als Mario, Eigenschaften, die ihm in zukünftigen Spielen der Mario-Reihe zugeschrieben werden."
+    },
+    {
+      "langue": "es",
+      "text": "Super Mario Bros. : The Lost Levels (también conocido como Super Mario Bros. 2 en Japón) se lanzó en Famicom Disk System en 1986. Está desarrollado por Nintendo R & D4.\nLa secuela de estreno de Super Mario Bros., Super Mario Bros.: The Lost Levels es muy similar visualmente y en términos de juego a su predecesora, pero ofrece una dificultad mucho mayor. Teniendo en cuenta esto, Nintendo decide no lanzar el juego en Norteamérica y Europa durante el período de comercialización de Nintendo Entertainment System. The Lost Levels es el primer juego en el que Luigi corre más lento y tiene una mayor distancia de frenado, pero salta más alto que Mario, rasgos que se le atribuirán en los juegos futuros de la franquicia de Mario."
+    },
+    {
+      "langue": "it",
+      "text": "The Lost Levels è simile a Super Mario Bros., con i giocatori che controllano Mario o Luigi per salvare la Principessa Peach da Bowser. Aggiunge un livello di difficoltà maggiore e Luigi si controlla in modo leggermente diverso da Mario, con un attrito ridotto al suolo e un'altezza di salto maggiore. The Lost Levels introduce anche ostacoli come i potenziamenti dei funghi velenosi, controproducenti deformazioni di livello e raffiche di vento a mezz'aria. Include 32 livelli distribuiti in otto mondi e 20 livelli bonus."
+    },
+    {
+      "langue": "pt",
+      "text": "Super Mario Bros .: The Lost Levels é um videogame de plataforma com rolagem lateral de 1986, desenvolvido e publicado pela Nintendo como a primeira sequência de seu grande sucesso de 1985, Super Mario Bros. Esta é a conversão de carrinho de Conversão FDS para NES."
+    }
+  ],
+  "classifications": [
+    {
+      "type": "JV",
+      "text": "+3 ans"
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1986-06-03"
+    }
+  ],
+  "genres": [
+    {
+      "id": "7",
+      "nomcourt": "0101",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma"
+        }
+      ]
+    },
+    {
+      "id": "2915",
+      "nomcourt": "0101",
+      "principale": "0",
+      "parentid": "7",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Platform / Run & Jump"
+        },
+        {
+          "langue": "fr",
+          "text": "Plateforme / Run & Jump"
+        },
+        {
+          "langue": "de",
+          "text": "Plattform / Jump 'n' Run"
+        },
+        {
+          "langue": "es",
+          "text": "Plataformas / Corre y Salta"
+        },
+        {
+          "langue": "it",
+          "text": "Piattaforma / Corri e Salta"
+        },
+        {
+          "langue": "pt",
+          "text": "Plataforma / Corre e Pula"
+        }
+      ]
+    }
+  ],
+  "modes": [
+    {
+      "id": "4",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Single-player"
+        },
+        {
+          "langue": "fr",
+          "text": "Jouable en solo"
+        },
+        {
+          "langue": "de",
+          "text": "Einzelspieler"
+        },
+        {
+          "langue": "es",
+          "text": "Jugador individual"
+        },
+        {
+          "langue": "it",
+          "text": "Giocatore singolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogador individual"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "20444",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Super Mario Bros"
+        }
+      ]
+    },
+    {
+      "id": "20261",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Mario"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "langue": "fr",
+      "titre": "Les mondes A-B-C-D (The Lost Levels)",
+      "description": "Pour accéder aux mondes A, B, C et D, qui sont composés de 4 niveaux chacun, vous devez terminer 8 fois le jeu d'affilée. Attention, ces mondes &quot;bonus&quot; sont nettement plus difficiles que les 8 premiers mondes.\n"
+    },
+    {
+      "langue": "fr",
+      "titre": "Accéder à la Warp Zone du monde 4 (The Lost Levels)",
+      "description": "Voici comment accéder à la Warp Zone du monde 4, située au monde 1-2 :\n\nÀ la fin du monde 1-2, avant de sortir des souterrains, vous verrez un petit passage plus haut. Traversez-le et entrez dans le premier tuyau que vous verrez. Après avoir passé quelques obstacles, un mur de briques se dressera devant vous avec un passage de 1 bloc de haut. Le passage contient une surface d'eau (vous mourrez si vous tombez dedans) de 1 bloc. Pour traverser ce passage, vous devez vous faire toucher par un ennemi de façon à devenir petit. En courant rapidement, vous pourrez traverser cette surface. Vous arriverez devant un autre mur de briques, que vous ne pourrez pas traverser. Tenez-vous au bord de l'eau et sautez : un bloc caché apparaîtra. Grimpez sur ce bloc et rendez-vous au bord de ce dernier puis sautez. Un second bloc caché apparaîtra. Ainsi, vous pourrez passer le mur par en haut. Vous voilà arrivé à la Warp Zone qui mène au monde 4.\n"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "7449eecb",
+      "md5": "c4a86271c507e9ad4342f60e54765d75",
+      "sha1": "aeab84b24e3d2bef481ff7c41ccdabed69d0b059",
+      "size": "20373",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=ss(wor)",
+      "region": "wor",
+      "crc": "ceb98c74",
+      "md5": "3ca64766c04f6693c499e4ed6d3ad721",
+      "sha1": "c43cb75edee480342dffb640a86f4602bbe039f9",
+      "size": "1825",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=fanart",
+      "crc": "4e24e9e1",
+      "md5": "f655581db8da83a14821eb92ec2e2585",
+      "sha1": "67d11b98b2fee6c640b42788839e028242c54c11",
+      "size": "740145",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=video",
+      "crc": "911fa8cd",
+      "md5": "7fe09be899cc4d5a37e65d713766a4df",
+      "sha1": "03b311921da31e4fe17e95299f54bf196076d43d",
+      "size": "6163906",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=video-normalized",
+      "crc": "72298670",
+      "md5": "dc9762b9f1596488eacde4819a4f9cc4",
+      "sha1": "0f2a95ce8047e0cd645fd4950682810138066925",
+      "size": "2175919",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=steamgrid",
+      "crc": "e31b31cc",
+      "md5": "c378469fda0f126dac9ce15048eaab3c",
+      "sha1": "112212306288d09505a49c67940c4c2a127f621f",
+      "size": "23070",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=wheel(wor)",
+      "region": "wor",
+      "crc": "388340df",
+      "md5": "4bf8e51035595ceaf1bfee00f3284261",
+      "sha1": "8776607230da55405e1029b70d4619b6a6fcf20b",
+      "size": "24844",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "696757b0",
+      "md5": "8d285050d9bb4eb68d7f7c49a3f612b1",
+      "sha1": "63bafd66e77b5a807ec0aa3c8498fe0e156fc12a",
+      "size": "86497",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "5c27d782",
+      "md5": "71ab0222a4709da3f25ad82996fe33f2",
+      "sha1": "788b556459b4a046465943d77d45d519503c0db3",
+      "size": "88068",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "8dee1545",
+      "md5": "6ff711762de2430adeea7e838bed4ab2",
+      "sha1": "183946014bcc4339f2bd4eb7fafae17a46adba6b",
+      "size": "435373",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "b852479a",
+      "md5": "5b76b632ceb2ff31739da67a930209ef",
+      "sha1": "9b3a79fb0853662218dce15056731e4ab8cbdd23",
+      "size": "69357",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "65185be6",
+      "md5": "df674c52c063e192c6a8f9f414d5844f",
+      "sha1": "3d8c246e2582269e49e2f07f0758c2ae2dfb58a3",
+      "size": "128968",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=box-2D(wor)",
+      "region": "wor",
+      "crc": "e12f16e1",
+      "md5": "8f50ddb67ea62928b05de4700a3f71c5",
+      "sha1": "c700822302f5c0f2893294113ca36ccd28f0fb3e",
+      "size": "288381",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "54081cae",
+      "md5": "f77ecafd68e997dedfe90b0592baec1f",
+      "sha1": "3cc81b459729e972923a8e5764f17b91324d13b2",
+      "size": "33091",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=box-2D-side(wor)",
+      "region": "wor",
+      "crc": "f22598cd",
+      "md5": "82cff2d9512287ce8110895d9f366335",
+      "sha1": "d3d7df70edd2666f319c3ece732df78d5ba6a56e",
+      "size": "57133",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "128e2a7f",
+      "md5": "2a070ee5c79956a609e3724366f2d8f4",
+      "sha1": "43a082b780828a939a1888ac27b157b7c9a676c1",
+      "size": "177740",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=box-2D-back(wor)",
+      "region": "wor",
+      "crc": "bfb07844",
+      "md5": "41e2e8bfb5de5424296f94d99fe4e51e",
+      "sha1": "9856b566df5b660781d5f318e9a312ae83054f15",
+      "size": "381975",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "a7a7eab3",
+      "md5": "470675b12aa296d1c7ac20569eb5845a",
+      "sha1": "659425c78a59f5a28e7bc31efaee6e2d3b3be0d9",
+      "size": "355481",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=box-texture(wor)",
+      "region": "wor",
+      "crc": "f918786b",
+      "md5": "5dd1e34769590b165484e1e83d3a186d",
+      "sha1": "a42839dc4e179a02eafd1c0cfd836c2ac7df38e2",
+      "size": "406753",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "bddc95d4",
+      "md5": "5ece19acaeac7f76f52982cad3989262",
+      "sha1": "ef664c9d38e795d26c5a8614eb27e2d411ee806f",
+      "size": "131074",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=box-3D(wor)",
+      "region": "wor",
+      "crc": "d58bc9ba",
+      "md5": "58a0ccc284c2b198744f6500b9d83d10",
+      "sha1": "de9761960c918ebcc49bc7af636baa3e9ef46418",
+      "size": "252808",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=support-texture(wor)",
+      "region": "wor",
+      "crc": "4913ee6c",
+      "md5": "4b9273c14c24d991af9bba17567aa6b2",
+      "sha1": "84f64cbded411d2278a8af075b386ffd90a81e05",
+      "size": "334888",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=support-2D(wor)",
+      "region": "wor",
+      "crc": "36c8df53",
+      "md5": "4a21b41f9caa0431b3945b82b5c2b6fb",
+      "sha1": "60b79442b2cbc31e077e9ab2229e8afd664694ef",
+      "size": "256873",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "1b5ce93e",
+      "md5": "a5c45798bb2cb66e8f4eb4655e97e891",
+      "sha1": "e6c77305492aefed9a0ae2162217709e948a9a4b",
+      "size": "300187",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "be28c851",
+      "md5": "2f77794fb7fe1df5343fb44b36f28917",
+      "sha1": "5c97d34da4ac188ce185e03d42d66ef1389d8bd4",
+      "size": "360292",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=mixrbv2(nl)",
+      "region": "nl",
+      "crc": "70fb8eca",
+      "md5": "7a4d415bf1756aac81ed20934c841f68",
+      "sha1": "42218a282eb3ac1135b7da9389453829b6aeb36d",
+      "size": "519072",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "c8510510",
+      "md5": "6320c94e4763af6119aad7a03c7dd281",
+      "sha1": "c8919136310b0b412bef9c64bf1ee620e03e7d76",
+      "size": "459246",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "70fb8eca",
+      "md5": "7a4d415bf1756aac81ed20934c841f68",
+      "sha1": "42218a282eb3ac1135b7da9389453829b6aeb36d",
+      "size": "519072",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1270&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "70fb8eca",
+      "md5": "7a4d415bf1756aac81ed20934c841f68",
+      "sha1": "42218a282eb3ac1135b7da9389453829b6aeb36d",
+      "size": "519072",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=logo-monochrome",
+      "crc": "95dac55f",
+      "md5": "1a6af8c61e2b478c66f13a76035c4178",
+      "sha1": "333417fda7f11b21cdbfe53c5b549d31f387e7e8",
+      "size": "3342",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=wheel",
+      "crc": "d0666824",
+      "md5": "f132730b36526f594b4480fd905684cf",
+      "sha1": "2ba2d8412bceaaa973ae7f0bf41d08edf5e5a369",
+      "size": "27698",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=logo-monochrome",
+      "crc": "95dac55f",
+      "md5": "1a6af8c61e2b478c66f13a76035c4178",
+      "sha1": "333417fda7f11b21cdbfe53c5b549d31f387e7e8",
+      "size": "3342",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=286&media=wheel",
+      "crc": "d0666824",
+      "md5": "f132730b36526f594b4480fd905684cf",
+      "sha1": "2ba2d8412bceaaa973ae7f0bf41d08edf5e5a369",
+      "size": "27698",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3555&media=pictoliste",
+      "crc": "912e565f",
+      "md5": "e1848a91d9e085224b8ccf11b8b4bacc",
+      "sha1": "34379c7b3106f9076d2b9388e291a53f1e2f42c1",
+      "size": "1341",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "JV",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3408&media=pictoliste",
+      "crc": "826e8eda",
+      "md5": "876375b7e92cd795cd00bb230e9d0dfd",
+      "sha1": "bc3ded9745166360b27215cb2eedea1d7fdf811e",
+      "size": "502",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=pictoliste",
+      "crc": "d8329f23",
+      "md5": "ada4054a77e20edada97225e5c316116",
+      "sha1": "cfadf96438bde8ae1a8c3c52c85dd6768ba9b4c8",
+      "size": "855",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome",
+      "crc": "0f88a1ba",
+      "md5": "e8c818f5f59d48642afea18e5c545c15",
+      "sha1": "ef3857055eaae13785d2cab692edf9454b544be3",
+      "size": "9142",
+      "format": "png"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=logo-monochrome-svg",
+      "crc": "fa797dda",
+      "md5": "73a61640b94904834fdbfc7e043150e0",
+      "sha1": "3e5fe422339961df30bd70aa83e43671a1badce4",
+      "size": "4755",
+      "format": "svg"
+    },
+    {
+      "id": "7",
+      "parent": "genre",
+      "subparent": "Plateforme",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=7&media=background",
+      "crc": "3d578fbf",
+      "md5": "62dbdbe08a5765fae2630d06e0f0ea38",
+      "sha1": "354ef394870af26f443863a29c846a07a20f47a0",
+      "size": "161158",
+      "format": "jpg"
+    },
+    {
+      "id": "2915",
+      "parent": "genre",
+      "subparent": "Plateforme / Run & Jump",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2915&media=pictoliste",
+      "crc": "2ff6989e",
+      "md5": "11ebfe3b2f55537a13428e16bb93af61",
+      "sha1": "79f02cb0550561936936c74052f08136b35d91d8",
+      "size": "18099",
+      "format": "png"
+    },
+    {
+      "id": "2915",
+      "parent": "genre",
+      "subparent": "Plateforme / Run & Jump",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2915&media=logo-monochrome",
+      "crc": "2686c093",
+      "md5": "9da37be446c4e8186247ea437fbfd813",
+      "sha1": "89a677f905873a40a70f49266a84efbf66607cec",
+      "size": "16080",
+      "format": "png"
+    },
+    {
+      "id": "2915",
+      "parent": "genre",
+      "subparent": "Plateforme / Run & Jump",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2915&media=logo-monochrome-svg",
+      "crc": "c290d17a",
+      "md5": "b815cf255dc0c5aeaaed112a75452d61",
+      "sha1": "ef69008369983181e20c31816ebacf62c872bd74",
+      "size": "1957",
+      "format": "svg"
+    },
+    {
+      "id": "20444",
+      "parent": "famille",
+      "subparent": "Super Mario Bros",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20444&media=figurine",
+      "crc": "eb7d6364",
+      "md5": "f027d35dd8dd13a49185a2d684c1490e",
+      "sha1": "be88e232c3dc05e7dd463434affc2297e0295cb7",
+      "size": "264763",
+      "format": "png"
+    },
+    {
+      "id": "20261",
+      "parent": "famille",
+      "subparent": "Mario",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=20261&media=figurine",
+      "crc": "2d9448e9",
+      "md5": "2e06f3615cc5d6c66cf719dc9fd05b35",
+      "sha1": "44865168e49dfaab888603d8b432c5892c4d0e4b",
+      "size": "217670",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "482403",
+      "romsize": "73744",
+      "romfilename": "Super Mario Bros 2 (Lost Levels) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "EE708827",
+      "rommd5": "57CF5DE00C3736919576CB804B985F57",
+      "romsha1": "E1A0F76486B153541D9E043DFD8A3C98AC206CA7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "57855"
+    },
+    {
+      "id": "563367",
+      "romsize": "45350",
+      "romfilename": "Super Mario Bros 2 (Lost Levels) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9FE11B72",
+      "rommd5": "A75886F90261426A9EEB45DF675DAE39",
+      "romsha1": "F0F4F96C8156DDBB81FF9C16C6C26A97095BB585",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5261",
+      "hacktypes": {
+        "hacktypes_id": [
+          "20316"
+        ],
+        "hacktypes_fr": [
+          "FDS to cart conversion"
+        ]
+      }
+    },
+    {
+      "id": "1237667",
+      "romsize": "42828",
+      "romfilename": "Super Mario Bros. 2 - The Lost Levels (USA) (Unl).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "99C2FD92",
+      "rommd5": "4B7B84920E4E6E90EF9F5D193B3B361F",
+      "romsha1": "04AFB87E6B94957AF69EFEED2A86C7EA04E3A9AD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3788",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1246382",
+      "romsize": "45312",
+      "romfilename": "Super Mario Bros 2 - Lost Levels (Unl) [T-Rus Cool-Spot].zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "85B30E90",
+      "rommd5": "A67DCB8705089BFC98B10B2601F680FD",
+      "romsha1": "42574F93885E2D6D28BCE74D49D9021BF67EC6A4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1391",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "130"
+        ],
+        "regions_shortname": [
+          "nl"
+        ],
+        "regions_en": [
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Holanda"
+        ],
+        "regions_it": [
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "537646",
+      "romsize": "31831",
+      "romfilename": "Strange Mario Bros - The Lost Levels.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E0FA0737",
+      "rommd5": "01BD172E77112A916A774D4D0BF7CECC",
+      "romsha1": "CEF5F62DCC73921E301D5FC1CC3A239EA178C619",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "242"
+    },
+    {
+      "id": "1440206",
+      "romsize": "73744",
+      "romfilename": "Super Mario Bros - Lost Levels.zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "86EE8CF5",
+      "rommd5": "519C2490146602D026EAA9CF3666B2B6",
+      "romsha1": "E60179FB4B556C39D9C6C487AF247D789B6B4045",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "117"
+    }
+  ]
+}

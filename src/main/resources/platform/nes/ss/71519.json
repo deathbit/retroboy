@@ -1,0 +1,1039 @@
+{
+  "id": "71519",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Star Luster"
+    },
+    {
+      "region": "jp",
+      "text": "Star Luster"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "6595",
+    "text": "Namcot"
+  },
+  "developpeur": {
+    "id": "68",
+    "text": "Namco"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "In Star Luster, the player controls Dan Heinick, a pilot of the starfighter Gaia. He is tasked with having to fight the evil being Battura and its minions, who are bent on controlling the entire universe.The game is played from an inside the cockpit view."
+    },
+    {
+      "langue": "fr",
+      "text": "Dans Star Luster, le joueur incarne Dan Heinick, pilote du chasseur stellaire Gaia. Sa mission est de combattre l'être maléfique Battura et ses sbires, qui cherchent à conquérir l'univers. Le jeu se déroule en vue à la première personne, depuis l'intérieur du cockpit."
+    },
+    {
+      "langue": "de",
+      "text": "In Star Lustre steuert der Spieler Dan Heinick, einen Piloten des Sternenjägers Gaia. Seine Aufgabe ist es, gegen das böse Wesen Battura und seine Schergen zu kämpfen, die darauf aus sind, das gesamte Universum zu kontrollieren. Das Spiel wird aus der Sicht des Cockpits gespielt."
+    },
+    {
+      "langue": "es",
+      "text": "En Star Luster, el jugador controla a Dan Heinick, un piloto de caza estelar de Gaia. Tiene la tarea de luchar contra el malvado Battura y sus secuaces, que controlan todo el universo. El juego es jugado desde el interior de la vista de la cabina."
+    },
+    {
+      "langue": "it",
+      "text": "In Star Luster, il giocatore controlla Dan Heinick, un pilota del caccia stellare Gaia. Ha il compito di combattere l'essere malvagio Battura e i suoi tirapiedi, che sono decisi a controllare l'intero universo. Il gioco si gioca da una visuale dall'interno della cabina di pilotaggio."
+    },
+    {
+      "langue": "pt",
+      "text": "Em Star Luster, o jogador controla Dan Heinick, um piloto do caça estelar Gaia. Ele tem a tarefa de lutar contra o malévolo Battura e seus asseclas, que pretendem controlar todo o universo. O jogo é jogado de dentro da visão interna da cabine."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1985-12-06"
+    }
+  ],
+  "genres": [
+    {
+      "id": "40",
+      "nomcourt": "0400",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Simulation"
+        },
+        {
+          "langue": "fr",
+          "text": "Simulation"
+        },
+        {
+          "langue": "de",
+          "text": "Simulation"
+        },
+        {
+          "langue": "es",
+          "text": "Simulación"
+        },
+        {
+          "langue": "it",
+          "text": "Simulazione"
+        },
+        {
+          "langue": "pt",
+          "text": "Simulação"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "77393c56",
+      "md5": "455b066032f5dde858a01ff6e30b1c34",
+      "sha1": "d4f0e73405140f23b31e604eae3247cb0f94836c",
+      "size": "2416",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=ss(jp)",
+      "region": "jp",
+      "crc": "43ddb6bc",
+      "md5": "db7b3c81ac94cdfdc3b4048c93739103",
+      "sha1": "29f51a009f055b1e372097410c4b78d8fc27de02",
+      "size": "3264",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=video",
+      "crc": "52fe4c73",
+      "md5": "1047773f02c4244295d136f3f862f4bf",
+      "sha1": "4a5eb1c2d9f9c3e27e9071f6f3f83bcf5cc0ea0c",
+      "size": "1937223",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=video-normalized",
+      "crc": "3b3e3990",
+      "md5": "661959087f32397132ed9c4f870f814a",
+      "sha1": "5bca108148d4eb8c0c2eaa6ad68aa55f614a475f",
+      "size": "886130",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=steamgrid",
+      "crc": "0e19630a",
+      "md5": "6472ddb09f1b00cdf9207b983f0de8f4",
+      "sha1": "7f3db0882713e22e0e734e1f65abc2452ad9eea1",
+      "size": "26548",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=wheel(jp)",
+      "region": "jp",
+      "crc": "2acfe664",
+      "md5": "adbaba1052e8bc87b69ce33ea148b553",
+      "sha1": "7b0d00a2c9aad8ef982a22c44d89b8d9fe9e352e",
+      "size": "106674",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "7fe08e7a",
+      "md5": "229464b48a43e5449143861be5d56f87",
+      "sha1": "8e662d4dad0222ef4018bdd2b4d423334998f054",
+      "size": "120832",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "fcc9adc0",
+      "md5": "508aee535b8ad388bb16226b9fa1849b",
+      "sha1": "df17660e9ae1a89cd65955e1c9e278556d3f97bf",
+      "size": "121837",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "dba87517",
+      "md5": "4847c9156101195b4d234fefef2ad88f",
+      "sha1": "c32990e984705e708c96ef6f3b75693bbb79046b",
+      "size": "481037",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "bb5f7957",
+      "md5": "04732af40a7a1916403e00a7a86d3fd0",
+      "sha1": "e9be1889893c344e50b291286e2fd6e80dd48b2b",
+      "size": "77793",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "1a9d2cdc",
+      "md5": "d3f937baaed0a3c8875d1daaff6c087e",
+      "sha1": "d4ce93df8d22c8cb9d73f7fd577f99c4d9df3adc",
+      "size": "748639",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "fbaccac7",
+      "md5": "eb7a87b4d2037a5592bcf01dd159af9c",
+      "sha1": "87a77cfacaed4614d59ea0c02503a7c1bb383902",
+      "size": "126162",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "fcedc982",
+      "md5": "4bde2e36980d75ebbf7fddacb26c731c",
+      "sha1": "d4d6990bb24e00dca22a4eb89d1a80509015509d",
+      "size": "37377",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "f02a59df",
+      "md5": "45a3a5e14c7ec675f1c2f2370d1d1091",
+      "sha1": "f469ed2e165a883991d09e119ea73c255a79c9e4",
+      "size": "30337",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "6b5ccb0f",
+      "md5": "bce0fba2d29fd54c5e06bb9cf8c84a27",
+      "sha1": "bc48449f1ded250e7c679a9acd9eccd93028aaef",
+      "size": "828827",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "9aea1fb0",
+      "md5": "9682d356e3c370892ad434f68401dc00",
+      "sha1": "c91850f428886a626a32373034dd3750dd43bed8",
+      "size": "133282",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "56bd67f7",
+      "md5": "3313c3fa3c220bbd3d1e797e972ec722",
+      "sha1": "32921b21f8052059f847bd49b7e9bd0aadbb09f2",
+      "size": "1553980",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "fb3156b9",
+      "md5": "77abac2799c41669691bf00c8a269242",
+      "sha1": "797fad368e71fbf31c04d30d860af9bc586e83fd",
+      "size": "304124",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "617730e6",
+      "md5": "2c07af8531fffd7383f9b4efe618301c",
+      "sha1": "d6557b278fd028de3aa6e33fe07d3b8207cbdb7b",
+      "size": "313652",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "71b3c972",
+      "md5": "b03846d965c82398361e023e817aa4dd",
+      "sha1": "8631fe7892babf023c49e9d8d32e8896999e5209",
+      "size": "110399",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=manuel(jp)",
+      "region": "jp",
+      "crc": "d7e11fa2",
+      "md5": "da8e4853914c0635eb200151331ccc7f",
+      "sha1": "1d2b189414890543db99a22867a39b646fc76b00",
+      "size": "538218",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "91a05111",
+      "md5": "377768d13a0382ac993cfb90a3535eaa",
+      "sha1": "5b77a97f5d607d93342be96d18eae554d6c1b7ce",
+      "size": "330550",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "640872ea",
+      "md5": "21ffe1fed4e171dfc7caa280760061dd",
+      "sha1": "c85382f82e2d95b3436e17b353d07d449d2833c4",
+      "size": "324309",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "4ec496cb",
+      "md5": "d15a023b635c640bb01de4bc9a856b4d",
+      "sha1": "b789a5575541800f7f4a6e90a656dd45098bc538",
+      "size": "301873",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "76adb948",
+      "md5": "78c76265788eed426470447b38c85cbb",
+      "sha1": "7079763b371841f2c22694d1c9049004f3639abf",
+      "size": "203270",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "4ec496cb",
+      "md5": "d15a023b635c640bb01de4bc9a856b4d",
+      "sha1": "b789a5575541800f7f4a6e90a656dd45098bc538",
+      "size": "301873",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "21d40f24",
+      "md5": "f84a708efcefaa27f2e0f509ee31fe17",
+      "sha1": "8533898058715d6829c046413930007683124f11",
+      "size": "461099",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "406d69a3",
+      "md5": "95505c73bf318f6bc217696b26315ab9",
+      "sha1": "a2926c2fdabb5faa6338c890750e3bd3f457a255",
+      "size": "365495",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=71519&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "21d40f24",
+      "md5": "f84a708efcefaa27f2e0f509ee31fe17",
+      "sha1": "8533898058715d6829c046413930007683124f11",
+      "size": "461099",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=6595&media=logo-monochrome",
+      "crc": "61e6995e",
+      "md5": "a9f3e5b1e0128850d5f51ea85fa91c59",
+      "sha1": "881ac51f61f6c6c327f753d344ba55989ef42d42",
+      "size": "3566",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=6595&media=wheel",
+      "crc": "a058b955",
+      "md5": "8a60dd888f5bfc9b57eb92625deb82a6",
+      "sha1": "56be60f724fbaa4d141e04da8dd17a41bc097b5d",
+      "size": "8104",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=68&media=logo-monochrome",
+      "crc": "13e44082",
+      "md5": "6fac8e786e162ecf1fa4d1aa7800598d",
+      "sha1": "90ee2bfd6395415d879044be35fb3bf0c8cc876e",
+      "size": "3694",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=68&media=wheel",
+      "crc": "f69d13c4",
+      "md5": "795fc8ef819a74ba016af046345c433b",
+      "sha1": "d7e18276667f92174a406863e1933039a6cf9814",
+      "size": "22074",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "40",
+      "parent": "genre",
+      "subparent": "Simulation",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=40&media=pictoliste",
+      "crc": "ffc215a2",
+      "md5": "26940639f4e64adf7fd70966bd081bdc",
+      "sha1": "e63d885b8cf5fe0f640e317d06b21659b037ec26",
+      "size": "1080",
+      "format": "png"
+    },
+    {
+      "id": "40",
+      "parent": "genre",
+      "subparent": "Simulation",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=40&media=logo-monochrome",
+      "crc": "75056a91",
+      "md5": "232f99773e586eab48b49376fc0cf7c2",
+      "sha1": "2447c4380f9fcd9690cc3e98f96f97d2d7f5082a",
+      "size": "2165",
+      "format": "png"
+    },
+    {
+      "id": "40",
+      "parent": "genre",
+      "subparent": "Simulation",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=40&media=logo-monochrome-svg",
+      "crc": "dd0aba31",
+      "md5": "0f3aa19cfc63cb7f8c15bbece9b9fe01",
+      "sha1": "bfb572b2783c5ef7751853961684e874a72aa042",
+      "size": "2291",
+      "format": "svg"
+    },
+    {
+      "id": "40",
+      "parent": "genre",
+      "subparent": "Simulation",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=40&media=background",
+      "crc": "8bd938ca",
+      "md5": "b469f3091c032688350e0db4277d205d",
+      "sha1": "6ce4c8720d41150fd6a4bfd893884810150e2112",
+      "size": "301353",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "137368",
+      "romsize": "40976",
+      "romfilename": "Star Luster (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "D8604B5A",
+      "rommd5": "45A98FDE2AC84D888309B5CDC3482296",
+      "romsha1": "F42013DBDE88A838A6777C6CEE0C897307B686DD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "113373",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "13424",
+      "romsize": "23812",
+      "romfilename": "Star Luster (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B829AE3E",
+      "rommd5": "64865D44DF97D38351FD66AB5BF8F4A0",
+      "romsha1": "C08343D44E4832A1A7B34CC66E8C9A3E265CD7EE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "74596",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "615223",
+      "romsize": "49168",
+      "romfilename": "Star Luster (VS).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3C8EB075",
+      "rommd5": "F447E64237F3317F3EDFAB8D25A28B8D",
+      "romsha1": "B5E31D6EE850AAFFBE05AC188B7B9824A2090F06",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18863"
+    },
+    {
+      "id": "537396",
+      "romsize": "24841",
+      "romfilename": "VS Star Luster.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B2B3413B",
+      "rommd5": "293CC904C7816B8C743542DBF3F25DC4",
+      "romsha1": "AA7CF924E609331D744346FA07B5AE039F8B9E5C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "16608"
+    },
+    {
+      "id": "1144170",
+      "romsize": "40976",
+      "romfilename": "Star Luster (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "457885c4",
+      "rommd5": "0cd981a0a7f666e616268e0a5ecab3d3",
+      "romsha1": "bab50a33472f3c7b3f18341a790787e0d559209e",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "14109",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1144176",
+      "romsize": "40976",
+      "romfilename": "Star Luster (Japan) (Namcot Collection).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "04558809",
+      "rommd5": "79990937318f1cc1c9b9681236a7a4dc",
+      "romsha1": "16da74384b07e6b6d4abad4ec5eb1795f997d2d4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10106",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1079476",
+      "romsize": "40960",
+      "romfilename": "Star Luster (Japan) (Namcot Collection).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "6790630b",
+      "rommd5": "408423d59e46dd07871f243623f44c9b",
+      "romsha1": "7f45e2a95280cf7169d2e23a0ac422d23cf54446",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6530",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1144179",
+      "romsize": "40976",
+      "romfilename": "Star Luster (Japan) (Namco Anthology 1).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7d3e8781",
+      "rommd5": "ae91f884a2c28ddeccc8c96d84b51708",
+      "romsha1": "6b8948bf27510f2d9c37cbe9a01c9603e16e0963",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6304",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1144173",
+      "romsize": "40976",
+      "romfilename": "Star Luster (J) (VC) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3f186b0d",
+      "rommd5": "ede2ca04dbf94ed08c46120e31f489fb",
+      "romsha1": "52cd6e65736dbf83b426b1f9355a8bacd4044f40",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5077",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "931190",
+      "romsize": "40960",
+      "romfilename": "Star Luster (Japan) (Virtual Console).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5CDD800F",
+      "rommd5": "B50657267D67C5F46FD77737B0D5BDD5",
+      "romsha1": "E3B99C2A0AC8ADFC919476788DAD31985CC3CDA4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4936",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174564",
+      "romsize": "40960",
+      "romfilename": "Star Luster (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "26BD6EC6",
+      "rommd5": "69A18F44736E7160D34F3A610F3A9C3C",
+      "romsha1": "FEB3013505143AD926E5307ACF2F2EC177E18D4F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2036",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "115063",
+      "romsize": "23790",
+      "romfilename": "Star Luster (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F6237A95",
+      "rommd5": "3226096884A7EAF08612354073E409E2",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "159",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    }
+  ]
+}

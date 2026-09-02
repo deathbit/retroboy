@@ -1,0 +1,956 @@
+{
+  "id": "88657",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Shinsenden"
+    },
+    {
+      "region": "jp",
+      "text": "Shinsenden"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "63088",
+    "text": "Irem Corporation"
+  },
+  "developpeur": {
+    "id": "485",
+    "text": "Tamtex"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "note": {
+    "text": "11"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Shinsenden is an RPG from Tamtex and Irem for the Famicom and features an Eastern mysticism setting with monks and creatures from Chinese/Japanese folklore. The story of the game concerns a monk that goes training with his partner, Raichi, and discovers an injured time-traveller which eventually leads to Raichi getting abducted and the hero chasing after her kidnappers."
+    },
+    {
+      "langue": "fr",
+      "text": "Shinsenden est un RPG de Tamtex et Irem pour la Famicom et propose un décor de mysticisme oriental avec des moines et des créatures du folklore chinois / japonais. L'histoire du jeu concerne un moine qui s'entraîne avec son partenaire, Raichi, et découvre un voyageur de temps blessé qui conduit finalement Raichi à être enlevé et le héros poursuivant ses ravisseurs."
+    },
+    {
+      "langue": "de",
+      "text": "Shinsenden ist ein Rollenspiel von Tamtex und Irem für das Famicom und bietet eine östliche Mystikkulisse mit Mönchen und Kreaturen aus der chinesischen/japanischen Folklore. Die Geschichte des Spiels handelt von einem Mönch, der mit seinem Partner Raichi trainieren geht und einen verletzten Zeitreisenden entdeckt, was schließlich dazu führt, dass Raichi entführt wird und die Heldin ihren Entführern nachjagt."
+    },
+    {
+      "langue": "es",
+      "text": "Shinsenden es un juego de rol de Tamtex e Irem para el Famicom y presenta un entorno de misticismo oriental con monjes y criaturas del folclore chino / japonés. La historia del juego se refiere a un monje que va entrenando con su compañero, Raichi, y descubre a un viajero del tiempo herido que eventualmente lleva a Raichi a ser secuestrado y al héroe persiguiendo a sus secuestradores."
+    },
+    {
+      "langue": "it",
+      "text": "Shinsenden è un gioco di ruolo di Tamtex e Irem per Famicom e presenta un'ambientazione mistica orientale con monaci e creature del folklore cinese/giapponese. La storia del gioco riguarda un monaco che si allena con il suo partner, Raichi, e scopre un viaggiatore nel tempo ferito che alla fine porta Raichi a essere rapito e l'eroe a inseguire i suoi rapitori."
+    },
+    {
+      "langue": "pt",
+      "text": "Shinsenden é um jogo de RPG, desenvolvido pela Tamtex e publicado pela Irem, lançado no Japão em 1989.\nRPG da Tamtex e Irem para a Famicom e apresenta um cenário de misticismo oriental com monges e criaturas do folclore chinês / japonês. A história do jogo diz respeito a um monge que treina com seu parceiro, Raichi, e descobre um viajante do tempo ferido que eventualmente leva Raichi a ser raptado e o herói perseguindo seus sequestradores."
+    }
+  ],
+  "dates": [
+    {
+      "region": "jp",
+      "text": "1989-12-15"
+    }
+  ],
+  "genres": [
+    {
+      "id": "8",
+      "nomcourt": "0300",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Role Playing Game"
+        },
+        {
+          "langue": "fr",
+          "text": "Jeu de rôles"
+        },
+        {
+          "langue": "de",
+          "text": "Rollenspiele"
+        },
+        {
+          "langue": "es",
+          "text": "Juego de Rol"
+        },
+        {
+          "langue": "it",
+          "text": "Gioco di Ruolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogos de RPG"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "5b5f57a2",
+      "md5": "9154914ea42d5b0b310a5b05ef5e7b1a",
+      "sha1": "f7a48aeceb4389d8c5712aeabcf9833e8290cc19",
+      "size": "2632",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=ss(jp)",
+      "region": "jp",
+      "crc": "749fc87d",
+      "md5": "69291bc76bacccc3afe43862dd595022",
+      "sha1": "b0913deece9f9d7a3a13479edf27ec28d421a910",
+      "size": "21050",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=video",
+      "crc": "12546a00",
+      "md5": "f4a9dab0aeb578541f477c231e4eb71b",
+      "sha1": "8be10f8423b4b18ffed74f7b7fd746a25b7ebc8e",
+      "size": "2835383",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=video-normalized",
+      "crc": "a5d3aca8",
+      "md5": "e2646e8a46386396fb654439a11e9a9c",
+      "sha1": "64f5009b3a862ccdcb84c5915401773bb318c0a4",
+      "size": "1073973",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=steamgrid",
+      "crc": "b7dc4a88",
+      "md5": "8c299a339ff967e5cfea5190ceba470e",
+      "sha1": "e8b1e8a478c0fc10e07062ec12c75611a08beb50",
+      "size": "31212",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=wheel(jp)",
+      "region": "jp",
+      "crc": "8fd3beb4",
+      "md5": "d6eb85a3bc842efb16a62029ca9d6955",
+      "sha1": "de09d6e5f3edfc9beb234fd17a51300586f9588e",
+      "size": "44190",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "dc3db8ff",
+      "md5": "2eb9b4c4877a1b6ee0246921559cd151",
+      "sha1": "f071e906f45b8ed47dbd328fdebbcf3277119efe",
+      "size": "114594",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "c9f1e9c7",
+      "md5": "9cab3dfb084c1bd2660cdea8d14c892b",
+      "sha1": "1f20b9655f6afb732459b87c9c013c06edbc06e6",
+      "size": "115090",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "72f92bee",
+      "md5": "77f759d8cd86a0a6bb88e35fdb9e8929",
+      "sha1": "889962a4ebad5a06cc0aebe335bc9ca8e8e8e968",
+      "size": "478986",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "a4a76e8f",
+      "md5": "be32a3416c595f5482e2e5940c629351",
+      "sha1": "df357e1d4266b884cadd969348de14f92dbbcc5e",
+      "size": "75882",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "39e7a7c2",
+      "md5": "f874cf6d3a7e64b33f48680855767b98",
+      "sha1": "fe8a271b195ebad9cec54ce4e3a72e14815839f8",
+      "size": "225715",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "04e6a853",
+      "md5": "07e76d598105b4854c8f1846921326a2",
+      "sha1": "899a41539c9a5272b1d2b29195149dcaf9119f93",
+      "size": "287141",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "325f574a",
+      "md5": "e7bc805287ec2ca0c34a7fcdb429d9e0",
+      "sha1": "46e66caa4bbace9a1dd88b81d71bb5c13b1f4379",
+      "size": "23419",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "aa9ed823",
+      "md5": "d1b4534726ceb4b08ed56e6b9116cb78",
+      "sha1": "4a2971aaebe7d66ecb278c75dfe1e6619ddf2e1b",
+      "size": "21062",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "e83fbbeb",
+      "md5": "af2cd5185aae163d18164d7a1697b030",
+      "sha1": "8d109a89997ef4e26e76abb2f6df457cfee16f99",
+      "size": "432063",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "1f584119",
+      "md5": "f592a4ee41f6695358189687e0113e0c",
+      "sha1": "a538268aa75db75138f8bdfcf8b8c4cc09af978b",
+      "size": "175387",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "7183f5b7",
+      "md5": "51bb3c6ba3d2b6fcf1fb7d742d946fff",
+      "sha1": "0ae9d632e56a966093346a5f0abb13f01af5811a",
+      "size": "692354",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "5280aa93",
+      "md5": "d064bcd1568e0f169d306ec80a3cf0b7",
+      "sha1": "f8a783b2dc713a0d6d410b7ce2489f61ce48e502",
+      "size": "508922",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "f54adf21",
+      "md5": "cc478df72f75964e4493d087419ea8ff",
+      "sha1": "6ea1ba45cbcd694110d0b9b9216a895925161b7a",
+      "size": "170145",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "566f86cc",
+      "md5": "2cd24effbae9530f6acdce2f7548abaa",
+      "sha1": "0c307d9ea83b66fe91db22248c071453daa902ec",
+      "size": "158822",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=manuel(jp)",
+      "region": "jp",
+      "crc": "55e81344",
+      "md5": "0e79eac289becbb4f955eb705a41b260",
+      "sha1": "65ea1ced275b86aeeb7aaac5e17ace9e54e7fb70",
+      "size": "1595211",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "c48c7806",
+      "md5": "9e350aaa54df08a642bb74b87ea7f85b",
+      "sha1": "4e68dba7e932c3ad26aa46a58efc83b3845c2c0c",
+      "size": "293369",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "593f0ddf",
+      "md5": "673a1f33143c0dee495f6c1fd2f51b97",
+      "sha1": "1252559f18d27fcd34e15093c371955fa0136b01",
+      "size": "304714",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "493d461b",
+      "md5": "7fddcf319835eca696364826ec0f46eb",
+      "sha1": "54a029b1f0f18701bfad20a02c254019b3129fc4",
+      "size": "485545",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "96f3f832",
+      "md5": "f607d623c3aae7bce1dda3c90e46827c",
+      "sha1": "2d16fe694e00c5947d2d0b249927cd3f38f872e3",
+      "size": "479866",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "493d461b",
+      "md5": "7fddcf319835eca696364826ec0f46eb",
+      "sha1": "54a029b1f0f18701bfad20a02c254019b3129fc4",
+      "size": "485545",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "a375d5b4",
+      "md5": "692b1de6861a8481160621ff1c299830",
+      "sha1": "1a6e2b707daf33b482b2be81665048309e230a2c",
+      "size": "783818",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "4a994cdc",
+      "md5": "1ef95576788e617231d2b9b3d02fa5ad",
+      "sha1": "2c3f9d89ed65643785821ae22011a95f5f35290b",
+      "size": "777923",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88657&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "a375d5b4",
+      "md5": "692b1de6861a8481160621ff1c299830",
+      "sha1": "1a6e2b707daf33b482b2be81665048309e230a2c",
+      "size": "783818",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=63088&media=wheel",
+      "crc": "bf16352d",
+      "md5": "9d46088cbb6b686dd0130a430a1a1105",
+      "sha1": "6c515e9e1c06d2d47a019944fecf1bb5755cec85",
+      "size": "4382",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3550&media=pictoliste",
+      "crc": "545d32d3",
+      "md5": "d7761d949c52acdc50b87bbfee117b2a",
+      "sha1": "4ac9f10b4ea1ef10e9d5b312235fe807a13dc1cf",
+      "size": "344",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=pictoliste",
+      "crc": "95641466",
+      "md5": "794cfd972f1fc80058ac4a3b48644c49",
+      "sha1": "065a70a4f3307442d52de0927234ab023e94fa99",
+      "size": "997",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome",
+      "crc": "99338559",
+      "md5": "6d99859437bd123f6dede69b6866b4f4",
+      "sha1": "1b1963a801d9801b0ad107f8a15ef9acf5541bcb",
+      "size": "11154",
+      "format": "png"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=logo-monochrome-svg",
+      "crc": "9659d140",
+      "md5": "071309467ec61ec2b037f89af26780cd",
+      "sha1": "dbf9fad14dfc4a4239585b4aae80a9edaf6d4ae3",
+      "size": "2418",
+      "format": "svg"
+    },
+    {
+      "id": "8",
+      "parent": "genre",
+      "subparent": "Jeu de rôles",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=8&media=background",
+      "crc": "10d4d476",
+      "md5": "3eb9bd04afa99e6bddcdca913ee8d53b",
+      "sha1": "e35ce257c961fcfaca398e9dbab607bbd8bf2aa6",
+      "size": "353085",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "13370",
+      "romsize": "135191",
+      "romfilename": "Shinsenden.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "15425527",
+      "rommd5": "8F68C3F0A8708A1BC8CE0A4293A3AC5A",
+      "romsha1": "23B42A057B2FBB2E858B6319DB882FE9E765864C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "103063",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "137249",
+      "romsize": "262160",
+      "romfilename": "Shinsenden (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DEEC9482",
+      "rommd5": "531B97C3D48AADCEC39E93C9369F6122",
+      "romsha1": "706CF5478659F3CAAE163D8F500BB796D950CCD8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "78384",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "387443",
+      "romsize": "262160",
+      "romfilename": "Shinsenden (J) [T Eng].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "4EE57CE9",
+      "rommd5": "2754340AA1341B81B100F1920D09F705",
+      "romsha1": "7F4A703DE5584024FDAA6D1DFFEE10BBAB75CC4C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "42703",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1236110",
+      "romsize": "524304",
+      "romfilename": "Shinsenden (Japan) (T).zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "a0b8da25",
+      "rommd5": "b51ee221653ebae5df47a40dcf8b9793",
+      "romsha1": "3d327d9d35568d70e7aa3a7ceacdb0e62db0f457",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "21411",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1143537",
+      "romsize": "262160",
+      "romfilename": "Shinsenden (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "f4dbc87d",
+      "rommd5": "93586577d4ff5a52f3c5e0ab3d157753",
+      "romsha1": "7bed195dc5dcf9cb0d9faa04be8bfd875f7f62c2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "18385",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "114941",
+      "romsize": "135169",
+      "romfilename": "Shinsenden (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "7CE28FDF",
+      "rommd5": "1A1DA15CBF07E6AF5ED718358D15DF3D",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9841",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "595873",
+      "romsize": "135150",
+      "romfilename": "Shinsenden (J) [T Eng].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "30B26CA9",
+      "rommd5": "D2DCFA5476BC3F5CB1054BCEBB2561FC",
+      "romsha1": "46EC31B8599CE89B5B7F0F4511FA193358F8D55B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3102",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "174443",
+      "romsize": "262144",
+      "romfilename": "Shinsenden (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BB435255",
+      "rommd5": "DC05EF8B9CA822729A0446F85F52DA13",
+      "romsha1": "1D7F39341CB0CF7DB0B6B1B18365D583735D7316",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2568",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1414499",
+      "romsize": "148250",
+      "romfilename": "Shinsenden - The Legend of Immortals (Japan) [T-En by Aishsha v1.00] [n].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "77ece162",
+      "rommd5": "d21e6bcfee83c2b863e1f15df954dd92",
+      "romsha1": "d9cf41f4a9ad6b711337f3b1c934c849c231326e",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    }
+  ]
+}

@@ -14,8 +14,10 @@ import java.util.Set;
 public class FileContext {
     private String fileName;
     private String fullName;
+    private Set<String> aliasNames;
     private String namePart;
     private String tagPart;
     private Set<String> tags;
     private String extension;
+    private String sha1;
 }

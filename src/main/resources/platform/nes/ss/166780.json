@@ -1,0 +1,568 @@
+{
+  "id": "166780",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Super Painter"
+    },
+    {
+      "region": "wor",
+      "text": "Super Painter"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "67895",
+    "text": "Mega Cat Studios"
+  },
+  "developpeur": {
+    "id": "23275",
+    "text": "RetroSouls"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Trapped in a colorless world, armed with a paintbrush - there's only one thing to do! As Super Painter, you'll have to fill in all the missing color from the walls and ledges of 25 charming stages. Watch out for enemies and pits to the bottom, and don't box yourself in - when you're done painting, you'll have to race to the magic door to the next level. It's platform puzzling at its finest!"
+    },
+    {
+      "langue": "de",
+      "text": "Gefangen in einer farblosen Welt, mit einem Pinsel bewaffnet, gibt es nur eine Sache zu tun! Als Supermaler müssen Sie alle fehlenden Farben an den Wänden und Regalen von 25 charmanten Bühnen ausfüllen. Hüten Sie sich vor Feinden und Brunnen bis auf den Grund, und schließen Sie sich nicht ein: Wenn Sie mit dem Malen fertig sind, müssen Sie zum magischen Tor rennen, um zum nächsten Level zu gelangen. Es ist eine verwirrende Plattform vom Feinsten!"
+    },
+    {
+      "langue": "es",
+      "text": "Atrapado en un mundo incoloro, armado con un pincel, ¡solo hay una cosa que hacer! Como super pintor, tendrás que rellenar todos los colores que faltan en las paredes y repisas de 25 encantadores escenarios. Cuidado con los enemigos y los pozos hasta el fondo, y no te encierres: cuando hayas terminado de pintar, tendrás que correr hacia la puerta mágica para pasar al siguiente nivel. ¡Es una plataforma desconcertante en su máxima expresión!"
+    },
+    {
+      "langue": "it",
+      "text": "Intrappolato in un mondo incolore, armato di un pennello, c'è solo una cosa da fare! Come super pittore, dovrai riempire tutti i colori mancanti sulle pareti e sugli scaffali di 25 scene affascinanti. Fai attenzione ai nemici e ai pozzi fino in fondo, e non rinchiuderti: quando hai finito di dipingere, dovrai correre alla porta magica per passare al livello successivo. È un platform sconcertante al suo meglio!"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "b0066733",
+      "md5": "dc15034ed2dd843645414b813b61a68a",
+      "sha1": "074e4424a9ff40c6424e3d706dae8a303be3c2d0",
+      "size": "2464",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=ss(wor)",
+      "region": "wor",
+      "crc": "2599d79a",
+      "md5": "6b9a27ad61bf3af25f44e56bd55d9b65",
+      "sha1": "c84cc0eafb2745602bbe9be9e3245a46167b3a57",
+      "size": "3187",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=video",
+      "crc": "9b7f77ef",
+      "md5": "b0281158e15789a21880b53830d2d984",
+      "sha1": "34b5f4a7d375a332cfa3a98e77960711855722fc",
+      "size": "7987091",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=video-normalized",
+      "crc": "a9ef99a3",
+      "md5": "a43d062128496a73326a8888748179d9",
+      "sha1": "a0e2a0804ffc3ee8f046281986b0acad21d448fe",
+      "size": "860301",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=steamgrid",
+      "crc": "270ba5d5",
+      "md5": "e27a372ba76473d030f9f4beb8ae9519",
+      "sha1": "3895af6a375376fb7f78fc2f567836d14b42351c",
+      "size": "30406",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=wheel(wor)",
+      "region": "wor",
+      "crc": "a5c0b7c8",
+      "md5": "088c19e05cbc4ca10146c5aa0f9018ea",
+      "sha1": "dc15ecfea772b27acb756a191e603e590b235ecf",
+      "size": "5316",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "eb9b11c1",
+      "md5": "8a13e72bf3392c983ea43168ba64e2d7",
+      "sha1": "2551397a5740bc5d25f3da9acab21cd85985a4d9",
+      "size": "76469",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "17f89b4b",
+      "md5": "a23fd9978378f8e1ab92e399f9a23528",
+      "sha1": "202987db1c45465b93fcf5e39d62569b6ce1abac",
+      "size": "77895",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "4f0ad67f",
+      "md5": "0009b641b909341b4e04166291db6418",
+      "sha1": "7351ca5ca151c19f7c04627e20d4596c00da596c",
+      "size": "427087",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "f5feda02",
+      "md5": "49cc24fd9ecc34fee6aaca0124de8a5d",
+      "sha1": "e8781ec0c817ccf43fe72729a0ff8213a86c7059",
+      "size": "64759",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "d7603478",
+      "md5": "a7c53699eb902e880a7ae13b5d689ac1",
+      "sha1": "452e2a9273266925f95fbe5c260e204bba3884d2",
+      "size": "125700",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=box-2D(wor)",
+      "region": "wor",
+      "crc": "99782727",
+      "md5": "3abf655449cb300a841c04f4c7c12913",
+      "sha1": "3539dd8bfd968684a1a8ac2d10aab20744d7c909",
+      "size": "191803",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "9aaa3166",
+      "md5": "c4e7e23d6eca399eb470452c442e6d9a",
+      "sha1": "e7f0f1efe790de4d969e804a2f997214d00c8b41",
+      "size": "20415",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=box-2D-side(wor)",
+      "region": "wor",
+      "crc": "47f4e478",
+      "md5": "c15d72e1b3db5a71b65b5c29ec733a90",
+      "sha1": "05aa44d37f528fe1f89c0cbd759c529b6cad33f6",
+      "size": "27688",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "a16172ac",
+      "md5": "c4d8103b6f402f3b7ea84af117be0438",
+      "sha1": "0c7014c1b67c4ba3a832e85395133cdf0ab5e1a9",
+      "size": "137641",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=box-2D-back(wor)",
+      "region": "wor",
+      "crc": "f66a58e8",
+      "md5": "23214ba7c2a8f1c9059df460bbdcee0b",
+      "sha1": "ddc84dd94250dba79f2f78db9a05e7dfb55c4e56",
+      "size": "252549",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "7da05a85",
+      "md5": "3ed7d17c578785effab50e63eb65e13c",
+      "sha1": "65594c97465fd7d0b96633b93567528fc8557741",
+      "size": "297429",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=box-texture(wor)",
+      "region": "wor",
+      "crc": "4bdb605d",
+      "md5": "7b404bf41d02f4e0e69ab1e25dada0e2",
+      "sha1": "fb1eed57d22f204efe0a8c56d52b835bde6a86e1",
+      "size": "439109",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "284c0228",
+      "md5": "7ea631182d95e20dfdbe3ffdf854ef86",
+      "sha1": "16d512cf6226906ee78921127d0fc7c9c0a4a114",
+      "size": "133425",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=box-3D(wor)",
+      "region": "wor",
+      "crc": "6a08f6ca",
+      "md5": "f902274b2aaa410cf683bf0b9d89754d",
+      "sha1": "687453dbae87a233b7155339e821fe0ccac6bcf3",
+      "size": "147705",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=manuel(wor)",
+      "region": "wor",
+      "crc": "99ac8551",
+      "md5": "8e5a85311116f31cfe20a9415663d994",
+      "sha1": "9883300be26757a664c8957120aeb34673d8d472",
+      "size": "919136",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=support-texture(wor)",
+      "region": "wor",
+      "crc": "6a98c8d0",
+      "md5": "35b23423833df49e1b712ed3da4a5acb",
+      "sha1": "2f5ff89931474f0128c70564e7cba2a3cf2de266",
+      "size": "154141",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=support-2D(wor)",
+      "region": "wor",
+      "crc": "70b26b65",
+      "md5": "95e86a1f8bc9055c43b06546e766328b",
+      "sha1": "4e036a7fd4b2b1a86e11b23f504f9851bdb93478",
+      "size": "172158",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=bezel-16-9(wor)",
+      "region": "wor",
+      "crc": "1b368c87",
+      "md5": "6f6721841da7ae8d655f47e5bc57e16d",
+      "sha1": "6ba669b68de1142c2b5dcea552c5f8703e8c8a5c",
+      "size": "408285",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "1b09ead5",
+      "md5": "abea1f0497a33ed2c09abdc4b86eff0b",
+      "sha1": "0caf719367f8734eefdaa3486a22371572b85307",
+      "size": "285354",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "550199bd",
+      "md5": "1ac62828d99e6370ab053f800ccd87cd",
+      "sha1": "a82c1d4ebfa3a9be7fc3a2960a03b51b1cf6a49f",
+      "size": "294380",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "517ffab3",
+      "md5": "d58f8e6c5b09989df752ffa04bd384de",
+      "sha1": "0af5511645f00b946ce2fae152fab9305bbd9c21",
+      "size": "477861",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "badf7352",
+      "md5": "34587fea43377923a080f80b06068556",
+      "sha1": "243a74fd4aa1a4c0b2dc4392786b0e1afd4d57d4",
+      "size": "488522",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166780&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "badf7352",
+      "md5": "34587fea43377923a080f80b06068556",
+      "sha1": "243a74fd4aa1a4c0b2dc4392786b0e1afd4d57d4",
+      "size": "488522",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=67895&media=wheel",
+      "crc": "4853d114",
+      "md5": "1c9c49afb2cae6f5ef8c5cc83d0da3c8",
+      "sha1": "4f4c9b8fbfb4e5a39a6e3547b8c5592382fd7d9f",
+      "size": "124377",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "821168",
+      "romsize": "40976",
+      "romfilename": "Super Painter.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5D483272",
+      "rommd5": "27287E3077BB5415FDE3AD163E185127",
+      "romsha1": "2C6CF372707D3FE5234C05E2D2DE539CE2AC47D8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "23280",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "757521",
+      "romsize": "18847",
+      "romfilename": "Super Painter (World) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8C3A0872",
+      "rommd5": "D55F161469C786F4761F74E26DBABED3",
+      "romsha1": "9B51F5A3A92343FDC3C6624F81612F4F6E04C269",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5845",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "1144575",
+      "romsize": "40976",
+      "romfilename": "Super Painter (World) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "57459d1b",
+      "rommd5": "e3bc8c96673a7ec3144b96fa269c229d",
+      "romsha1": "ae4972bc081382600bdf03970e7667fdfe26a759",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5719"
+    },
+    {
+      "id": "1079512",
+      "romsize": "40960",
+      "romfilename": "Super Painter (World) (Aftermarket) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "ba3a28ac",
+      "rommd5": "b0e3185475d1ac10b1ebd82d2da93d06",
+      "romsha1": "59a5067395c249c2fd0b89d6bf48dea55a39b0ac",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3232"
+    },
+    {
+      "id": "1144578",
+      "romsize": "40976",
+      "romfilename": "Super Painter (USA) (Aftermarket) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8b0b83c0",
+      "rommd5": "db8c24c64deeae6a252835d1e1464993",
+      "romsha1": "95ad3b9d28cd15186933ae1e4ef2679e12ba0a43",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1577",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    }
+  ]
+}

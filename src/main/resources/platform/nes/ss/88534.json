@@ -1,0 +1,588 @@
+{
+  "id": "88534",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Taiwan Mahjong 2"
+    },
+    {
+      "region": "tw",
+      "text": "Taiwan Mahjong 2"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "564",
+    "text": "Sachen"
+  },
+  "developpeur": {
+    "id": "27219",
+    "text": "Thin Chen Enterprise"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Taiwan Mahjong II, aka Bonus Tiles Mahjong is an unlicensed mahjong game, developed by Thin Chen and published by Sachen in 1992."
+    },
+    {
+      "langue": "fr",
+      "text": "Taiwan Mahjong II, également connu sous le nom de Bonus Tiles Mahjong, est un jeu de mahjong non officiel, développé par Thin Chen et publié par Sachen en 1992."
+    },
+    {
+      "langue": "de",
+      "text": "Taiwan Mahjong II, auch bekannt als Bonus Tiles Mahjong, ist ein nicht lizenziertes Mahjong-Spiel, das von Thin Chen entwickelt und 1992 von Sachen veröffentlicht wurde."
+    },
+    {
+      "langue": "es",
+      "text": "Taiwan Mahjong II, también conocido como Bonus Tiles Mahjong es un juego de mahjong sin licencia, desarrollado por Thin Chen y publicado por Sachen en 1992."
+    },
+    {
+      "langue": "it",
+      "text": "Taiwan Mahjong II, alias Bonus Tiles Mahjong è un gioco di mahjong senza licenza, sviluppato da Thin Chen e pubblicato da Sachen nel 1992."
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=sstitle(tw)",
+      "region": "tw",
+      "crc": "f4820cfd",
+      "md5": "05794876a4bff099691a925529737ec1",
+      "sha1": "8211f58a6a5942c9f4ba16cc05bc53aa90fee5c6",
+      "size": "6934",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=ss(tw)",
+      "region": "tw",
+      "crc": "61555dbf",
+      "md5": "1ac5ab657245af0dfb9ed3cb42bcb249",
+      "sha1": "64a73a9bcfbc579c8d839785fc9b6bccdc75e6bb",
+      "size": "1545",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=video",
+      "crc": "85bd2995",
+      "md5": "8ac3f624b2b5533b4393a96827413d34",
+      "sha1": "f25aec9d8b29ffef36e843a378535979bb535fc4",
+      "size": "2841207",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=video-normalized",
+      "crc": "10e7aae4",
+      "md5": "022dcec2d4c4e35365ed08f17fd2a2dd",
+      "sha1": "8556fe91bc9b5c73444253bb40ef29584c6232bf",
+      "size": "1047385",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=steamgrid",
+      "crc": "eedbecfe",
+      "md5": "310809269d5f2b21915da86c08f8507f",
+      "sha1": "0f038759600a30ea9e4af63775015c7881d4100e",
+      "size": "26365",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=wheel(tw)",
+      "region": "tw",
+      "crc": "94edc1ad",
+      "md5": "ffe993d9f049d2e57109c0b2c84b5a28",
+      "sha1": "86bb3b534078af51247f8179cdceb0175194a8f3",
+      "size": "115102",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=wheel-carbon(tw)",
+      "region": "tw",
+      "crc": "58d5c981",
+      "md5": "b8478df72de79f6dcdc0c477db0ce71f",
+      "sha1": "3f32808d4740b859aa542ae897b00b89f15167ab",
+      "size": "145211",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=wheel-steel(tw)",
+      "region": "tw",
+      "crc": "7998acd7",
+      "md5": "2974e32a0ebe652b00f3f8772bafab39",
+      "sha1": "71c763fb71238cf1acd894a70dbb7f76be2a5ac5",
+      "size": "146939",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=screenmarquee(tw)",
+      "region": "tw",
+      "crc": "992e2b46",
+      "md5": "73d8e3575eb491ceee686f2433da7596",
+      "sha1": "81c160917b07909bff2d42ac4fdeb22c250745bb",
+      "size": "518417",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=screenmarqueesmall(tw)",
+      "region": "tw",
+      "crc": "9477fbce",
+      "md5": "90ca79b638e0729dfbafe0f91cedd78d",
+      "sha1": "a6377c2e7dbbd45de4ea9c3d7fc2478ca0b229ab",
+      "size": "88428",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "5ec4ea91",
+      "md5": "1bac4f39e10949789785e6378c1a1944",
+      "sha1": "843c88086df3d58be45ec21d556a95b202f58344",
+      "size": "80207",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=box-2D(tw)",
+      "region": "tw",
+      "crc": "b4560851",
+      "md5": "3aa33cc906f48436e1a0da6dc78a863d",
+      "sha1": "413199abfe3824eb5af39ca6e72434fe28f8d387",
+      "size": "506956",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "6289a2a8",
+      "md5": "7893a9c7760f803487a7acab6f2f3622",
+      "sha1": "d9187054d65b603153e9f9e35f07f203bc4605da",
+      "size": "27285",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=box-2D-side(tw)",
+      "region": "tw",
+      "crc": "a6225316",
+      "md5": "e953cc434a7d9faf2c640d5d458e840a",
+      "sha1": "b678a1d9b76a7d7b88d00e24572947459028b34f",
+      "size": "27055",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "e9b9809d",
+      "md5": "b07a78d8cc10fc49b48dbee89ec7e3b8",
+      "sha1": "a37e7dd97024d98dee6983eb6ae36dcff4bbfaa7",
+      "size": "126316",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=box-2D-back(tw)",
+      "region": "tw",
+      "crc": "4ecfe058",
+      "md5": "4c491f0887c0d27b43cc829493cb410a",
+      "sha1": "79ed77f65e2c6302d1b33665d8c0f9a87085ae19",
+      "size": "358633",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "bce72b26",
+      "md5": "ecc8f218e78c1049ec68ef69730f1c4c",
+      "sha1": "18153eda3c8e662cccd13763c0520418abb8f74d",
+      "size": "241396",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=box-texture(tw)",
+      "region": "tw",
+      "crc": "405101be",
+      "md5": "5def48484cac9a6869f7f5c980c9afb5",
+      "sha1": "daeed6e312176b9d2f04ecc2b88e80c4c6082af0",
+      "size": "926951",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "72a91e2e",
+      "md5": "dad7757ef29d8715cab7d8052044e4e9",
+      "sha1": "078f38a2d69f9495771c2d93457d534b1a53cbca",
+      "size": "105385",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=box-3D(tw)",
+      "region": "tw",
+      "crc": "adcf9422",
+      "md5": "7ce57fe10ee74ee6acce76822bd5620f",
+      "sha1": "168721187af37bd467abf998255449f92296eb71",
+      "size": "230014",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "6c3fcce6",
+      "md5": "8326d397310ad503973b0babfc0f3170",
+      "sha1": "dea96bda316131fd51470861d84aa0ec90b61b15",
+      "size": "352364",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "456e49e8",
+      "md5": "57441d7b4ad951a4556e1f9908ddaaaf",
+      "sha1": "b4e59735a8a4f4b9f0f3b591a55114b56eb208ac",
+      "size": "292722",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=mixrbv2(asi)",
+      "region": "asi",
+      "crc": "095c2474",
+      "md5": "13a0a2e884be33934a951eba9f08061f",
+      "sha1": "d51ff9893e583ef2dbe453e895d6bf426c0f4f33",
+      "size": "463981",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88534&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "095c2474",
+      "md5": "13a0a2e884be33934a951eba9f08061f",
+      "sha1": "d51ff9893e583ef2dbe453e895d6bf426c0f4f33",
+      "size": "463981",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=564&media=logo-monochrome",
+      "crc": "1a8369dc",
+      "md5": "3874aa4a0e49531e2c4c39a5e37bcf0f",
+      "sha1": "6a5cf33b05f27c84782582335375a0bf3d4a83ee",
+      "size": "11144",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=564&media=wheel",
+      "crc": "d53c8f4e",
+      "md5": "5687b70430eaa898f429f4cdf656763c",
+      "sha1": "c1f7ea47b95b6c04f26fa8af2ee861fb9b49f4bc",
+      "size": "9718",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "137494",
+      "romsize": "49168",
+      "romfilename": "Taiwan Mahjong 2 (Sachen) [!].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "71BFEC8A",
+      "rommd5": "23C991112D65AA6B2BC2FF234FDB333E",
+      "romsha1": "17A70C2F63B7A1708D5BF1F90B807A439743076B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "87205",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "13486",
+      "romsize": "30304",
+      "romfilename": "Taiwan Mahjong 2 (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "20563319",
+      "rommd5": "329973DBE636C2931497F43D042487CA",
+      "romsha1": "0D4DF4B887DA236EACA1D978B832A042FE7DE464",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "23336",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "174695",
+      "romsize": "49152",
+      "romfilename": "Taiwan Mahjong 2 (Asia) (Ja) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0775DC68",
+      "rommd5": "48ADBB1891336C4ED42A7D06F79A1BA4",
+      "romsha1": "723CC5026F9DCC452D2099C9CC8BDB4BD3F166BA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12101",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "1144785",
+      "romsize": "49168",
+      "romfilename": "Taiwan Mahjong 2 (Asia) (Ja) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5f24ab68",
+      "rommd5": "1ff95023e4a1d333ca286bf2875decf2",
+      "romsha1": "51f0b5e8206e9ef795aa61519792bd97b5e43f63",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11497",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "595916",
+      "romsize": "30451",
+      "romfilename": "Taiwan Mahjong 2 (Sachen) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A9493486",
+      "rommd5": "132A6B57B2724B2BDEF7B3D3E1C9A672",
+      "romsha1": "DF6C142C0A4197EB6C93AD24B02E50602ABA52A7",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3609"
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "id": "422625",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Tactus"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "developpeur": {
+    "id": "64021",
+    "text": "zeta0134"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "A rhythm-based dungeon crawler for original NES and FamiCom. Explore mysterious ruins, find powerful weapons, and slay to the beat. Maps and enemy placement are randomized each time you play, so no two runs are quite the same."
+    },
+    {
+      "langue": "de",
+      "text": "Ein rhythmusbasierter Dungeon-Crawler für Original-NES und FamiCom. Erkunden Sie mysteriöse Ruinen, finden Sie mächtige Waffen und töten Sie im Takt. Karten und feindliche Platzierung werden jedes Mal randomisiert, wenn Sie spielen, so dass keine zwei Läufe ganz gleich sind."
+    }
+  ],
+  "dates": [
+    {
+      "region": "wor",
+      "text": "2022"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "c1dd88ba",
+      "md5": "ce09eb1d572534b227412a8f71c91980",
+      "sha1": "c434f6c38bf073577e46b2c06b9808b478b97e08",
+      "size": "36923",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=ss(wor)",
+      "region": "wor",
+      "crc": "8fb5925e",
+      "md5": "84167c0b992fa45df6b3db643ab87b83",
+      "sha1": "171f3b9e3ffe6652280bb98f14f31129d34f7501",
+      "size": "79590",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=video",
+      "crc": "4003d104",
+      "md5": "3714ce9e93119b606577380e7cf10557",
+      "sha1": "00f8885e4467efef3911e4e98cd7a4f233ff8d63",
+      "size": "1230573",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=video-normalized",
+      "crc": "c44a9dc9",
+      "md5": "7042bc275754bf959ed50611f112af0d",
+      "sha1": "d29d45fa9f1c55cc37764575257dc58e941be615",
+      "size": "438179",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=steamgrid",
+      "crc": "ed5eab48",
+      "md5": "c0113f17b2fb2ef57575038836d2e1e6",
+      "sha1": "d50850a5cb21bbe61a447ff8f9c94c811cfb6ba0",
+      "size": "25613",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel-hd",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=wheel-hd(wor)",
+      "region": "wor",
+      "crc": "f812cafd",
+      "md5": "0f5e96e6d49440fd40d533a4906aba14",
+      "sha1": "408f4c9b2884fffa6ed38c68c27aa4bc7b5342b4",
+      "size": "3524",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "d4a65bdf",
+      "md5": "07319397f2717eaec30b56c4cefe852b",
+      "sha1": "ab32e5e070c70c214caa2a6a05f369d54d3d8e87",
+      "size": "72546",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "e6656729",
+      "md5": "cd6d16cfe7e729d90d53f4043a43bfa4",
+      "sha1": "f2813db0c8c46d772ccb9af4ecde8fe2706785fb",
+      "size": "74036",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "d33a7ad5",
+      "md5": "10e0440b2ba6716f5326c79ccfc5c7e2",
+      "sha1": "25490a09224112d7f85cdff0beb3926463faf2ac",
+      "size": "391939",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "85185d66",
+      "md5": "912828ca9a7812d8c7cb99d9b57c6312",
+      "sha1": "d882b4a8434ae7ded7d8fb2b64d9f1f7167d6f6a",
+      "size": "58762",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "49f6284b",
+      "md5": "8103ca1f6d8e3de87fcaa5997b10fcba",
+      "sha1": "16d7423836ad2b62659c3af1063033cec1fd8852",
+      "size": "187051",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "85eb4878",
+      "md5": "51259dd5038f0066d7c62eb15cf5e58f",
+      "sha1": "9837285cff1714ed9ebe2fb9dc0d5f2f9d623366",
+      "size": "27583",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "0ea54884",
+      "md5": "bf8d8c8dd98e58ede27543bde2c83728",
+      "sha1": "ce53948f6b7cf26eb55bfe545369a7751c79aa53",
+      "size": "135143",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "3d509e63",
+      "md5": "02af8db35df5dd243cc83fdfa61ff499",
+      "sha1": "69cdd339ee969f3ddd547031c931d53645a523b4",
+      "size": "360132",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "ea96628c",
+      "md5": "2b392314cc29ed23deaf36cb39a36628",
+      "sha1": "39a8eaf2cf0e3f47f980eaf613fbce27d8b3cbfe",
+      "size": "137427",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "e147d6c6",
+      "md5": "c86675ad8715f0eadda2952851aae544",
+      "sha1": "f7cfe74b26820254c1d2c3e647c7eb2806f2e0e7",
+      "size": "355457",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "e147d6c6",
+      "md5": "c86675ad8715f0eadda2952851aae544",
+      "sha1": "f7cfe74b26820254c1d2c3e647c7eb2806f2e0e7",
+      "size": "355457",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "3a351163",
+      "md5": "8d24ba6df80b90165dc0c78ed9ce63f3",
+      "sha1": "16e942fa00ec2f6222cf45c7a42ae05b9a319d27",
+      "size": "476809",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=422625&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "3a351163",
+      "md5": "8d24ba6df80b90165dc0c78ed9ce63f3",
+      "sha1": "16e942fa00ec2f6222cf45c7a42ae05b9a319d27",
+      "size": "476809",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1144749",
+      "romsize": "65552",
+      "romfilename": "tactus.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "162ee13a",
+      "rommd5": "6db91d81c270f7096e83874d975c05c9",
+      "romsha1": "c38ab62e267ca22ee52cf724401e9eeff08bce27",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "9748"
+    }
+  ]
+}

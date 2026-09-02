@@ -1,0 +1,391 @@
+{
+  "id": "166763",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Escape From Pong"
+    },
+    {
+      "region": "wor",
+      "text": "Escape From Pong"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "developpeur": {
+    "id": "34666",
+    "text": "Adam Gashlin"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Escape from Pong is a very small NES game which introduces the concept of playing Pong from the ball's point of view. Your mission is to escape from 13 difficult levels, despite the paddle trying to beat you at every turn. Escape from Pong was written for the 2003 MiniGame Compo and submitted to the 1K category, meaning it could have a maximum of 1K data, code, and graphics."
+    },
+    {
+      "langue": "fr",
+      "text": "Escape from Pong est un tout petit jeu NES qui introduit le concept de jouer au Pong du point de vue de la balle. Votre mission est d'échapper à 13 niveaux difficiles, malgré la raquette qui tente de vous battre à chaque tour. Escape from Pong a été écrit pour le MiniGame Compo 2003 et soumis à la catégorie 1K, ce qui signifie qu'il pourrait avoir un maximum de 1K données, code et graphiques."
+    },
+    {
+      "langue": "de",
+      "text": "Escape from Pong ist ein sehr kleines NES-Spiel, das das Konzept des Spielens von Pong aus der Sicht des Balls vorstellt. Ihre Mission ist es, 13 schwierigen Levels zu entkommen, obwohl das Paddel versucht, Sie an jeder Runde zu schlagen. Escape from Pong wurde für die MiniGame Compo 2003 geschrieben und in die 1K-Kategorie eingereicht, was bedeutet, dass es maximal 1K-Daten, Code und Grafiken enthalten könnte."
+    },
+    {
+      "langue": "es",
+      "text": "Escape from Pong es un juego de NES muy pequeño que introduce el concepto de jugar Pong desde el punto de vista de la pelota.  Tu misión es escapar de 13 niveles difíciles, a pesar de que la paleta intenta vencerte en cada turno.  Escape from Pong se programó para el MiniGame Compo de 2003 y se envió a la categoría 1K, lo que significa que podría tener un máximo de 1K de datos, código y gráficos."
+    },
+    {
+      "langue": "it",
+      "text": "Escape from Pong è un gioco per NES molto piccolo che introduce il concetto di giocare a Pong dal punto di vista della palla. La tua missione è fuggire da 13 livelli difficili, nonostante la pagaia cerchi di batterti ad ogni turno. Escape from Pong è stato scritto per il MiniGame Compo del 2003 e inviato alla categoria 1K, il che significa che potrebbe avere un massimo di 1K di dati, codice e grafica."
+    },
+    {
+      "langue": "pt",
+      "text": "Escape from Pong é um jogo de NES muito pequeno que introduz o conceito de jogar Pong do ponto de vista da bola. Sua missão é escapar de 13 níveis desafiadores, apesar da raquete tentando vencê-lo a cada rodada. Escape from Pong foi escrito para o MiniGame Compo 2003 e submetido à categoria 1K, o que significa que pode ter no máximo 1K de dados, código e gráficos."
+    }
+  ],
+  "modes": [
+    {
+      "id": "4",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Single-player"
+        },
+        {
+          "langue": "fr",
+          "text": "Jouable en solo"
+        },
+        {
+          "langue": "de",
+          "text": "Einzelspieler"
+        },
+        {
+          "langue": "es",
+          "text": "Jugador individual"
+        },
+        {
+          "langue": "it",
+          "text": "Giocatore singolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogador individual"
+        }
+      ]
+    }
+  ],
+  "styles": [
+    {
+      "id": "27620",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Minimalist"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=ss(wor)",
+      "region": "wor",
+      "crc": "78ac3db1",
+      "md5": "8f62090fcb3c5fc2315fef58af12ced7",
+      "sha1": "a98c14c53358991c37020d270e3430cad764e422",
+      "size": "700",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=video",
+      "crc": "5bdd1d46",
+      "md5": "2d1d4101fbdf10a38a22a9ee0202c698",
+      "sha1": "66dd629afc5b402bd02c93d96d42ec010971fd11",
+      "size": "1060964",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=video-normalized",
+      "crc": "347815cb",
+      "md5": "735f1e1619bf72d72bce9fc50b9cfdae",
+      "sha1": "ccb5a28337580076fa9d65a749a7563445fe48a8",
+      "size": "314965",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=steamgrid",
+      "crc": "17852c84",
+      "md5": "6358dfbf22d296ec349d32af4a11e79f",
+      "sha1": "e9683d037ac2b4a8cb452463fde272bd0a25f950",
+      "size": "23670",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=wheel(wor)",
+      "region": "wor",
+      "crc": "2e58106f",
+      "md5": "6d7238f82d191f7cf8d7c2217b76ea2e",
+      "sha1": "c2004b6ad6f35ed5b1db53ffdd2a574bf787e3ac",
+      "size": "34797",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "cc46ce9e",
+      "md5": "4cd32f14301908760ee6e7809dc7bb6d",
+      "sha1": "fda1eff45a0b5c678d6900d7e2754743739d62c4",
+      "size": "96709",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "b5cb6c14",
+      "md5": "3d7cec022be8416df8ce11a1d89fbc2d",
+      "sha1": "3ca806219931f2ef7e735cadbf0b6da3a79a0069",
+      "size": "96461",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "53829df5",
+      "md5": "34c1a4beb8d2016bb4a1b8012edb0cf3",
+      "sha1": "344e1097f12eb42ff2197578e8146835c58d5fdc",
+      "size": "485647",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "1dda9932",
+      "md5": "84e58617b871202af13d0096b9315d46",
+      "sha1": "36719b65007ca08f8020559622e8f2ff28b280f9",
+      "size": "74941",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "6003bc19",
+      "md5": "3548abb1ebd50ff086c171a5279ef89b",
+      "sha1": "babd7bde27ad2c9174a70f8999b4c0fd5e0c25e9",
+      "size": "20250",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "afc891aa",
+      "md5": "01ddff76fcc76708faca46015e66d56c",
+      "sha1": "9d49c3a5a3e3639be5ae08f2f6436c14c1a72600",
+      "size": "89797",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "0b814fef",
+      "md5": "cd2f9758dc949a558b7e80d32e42c8bb",
+      "sha1": "86a5a1a198998b4274f56254ab786abf83c0c67c",
+      "size": "196361",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "8b9b0a10",
+      "md5": "d1a46f3d00295a21e8c547be7ecd6e8a",
+      "sha1": "230c5b08929d665f83bfbb8ef3882a46e43d0752",
+      "size": "80408",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "3709031c",
+      "md5": "0edd79572699f1882982512588937054",
+      "sha1": "d277a543796887ea416f2c1ee02bf42abb94ceba",
+      "size": "115357",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "3709031c",
+      "md5": "0edd79572699f1882982512588937054",
+      "sha1": "d277a543796887ea416f2c1ee02bf42abb94ceba",
+      "size": "115357",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "5ecc33d3",
+      "md5": "f34a645850cf3ad467e680b2ac613f80",
+      "sha1": "a86480198849829fac6c276ee3e05b1bbd7f0a87",
+      "size": "232581",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=166763&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "5ecc33d3",
+      "md5": "f34a645850cf3ad467e680b2ac613f80",
+      "sha1": "a86480198849829fac6c276ee3e05b1bbd7f0a87",
+      "size": "232581",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "758544",
+      "romsize": "16400",
+      "romfilename": "Escape From Pong Rev 2 (PD).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "709821E2",
+      "rommd5": "7ECFF897D2ACC30BC7E0F5FA73CD1DB1",
+      "romsha1": "48A58286BAED02300B739325CC1BF26218C8D7CA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9514",
+      "regions": {
+        "regions_id": [
+          "57"
+        ],
+        "regions_shortname": [
+          "wor"
+        ],
+        "regions_en": [
+          "World"
+        ],
+        "regions_fr": [
+          "Monde"
+        ],
+        "regions_de": [
+          "World"
+        ],
+        "regions_es": [
+          "Mundo"
+        ],
+        "regions_it": [
+          "Mondo"
+        ],
+        "regions_pt": [
+          "Mundo"
+        ]
+      }
+    },
+    {
+      "id": "1432433",
+      "romsize": "16400",
+      "romfilename": "Escape From Pong Rev 4bw by Adam Gashlin (PD).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "B84640F2",
+      "rommd5": "8EDE47A125D0B60B0075D4D237F0B362",
+      "romsha1": "DD7AD22BE8B798571A457A11504E55ED62DB67C3",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1444244",
+      "romsize": "16400",
+      "romfilename": "Escape From Pong Rev 4 By Adam Gashlin (PD).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "BDCD4637",
+      "rommd5": "30D6816D514E2C2B366C8B2E6C819CE1",
+      "romsha1": "9F08AAD2FCFD558897E56FF8FEEBBA845AB72300",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    }
+  ]
+}

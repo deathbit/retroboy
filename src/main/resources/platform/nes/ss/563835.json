@@ -1,0 +1,108 @@
+{
+  "id": "563835",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Splatterworld - Rick To Kyoufu No Daiou"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=563835&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "89610823",
+      "md5": "d5678eadf8e355923f5ba506e0a92df5",
+      "sha1": "d79f894c1b83473f609b6a6480f13591d06b100e",
+      "size": "3517",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=563835&media=ss(wor)",
+      "region": "wor",
+      "crc": "ca7868dc",
+      "md5": "eaac965b7cf2842f889a2d3c5ae93d5b",
+      "sha1": "ecf9f1e2a3d185802eb176a3b1ea4d213145e4d5",
+      "size": "9863",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=563835&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "95b4cafc",
+      "md5": "b5a2b75cc4b22277b86227cecf0c5b96",
+      "sha1": "17f0b0afb51efcfa4718f0cbd2923d4d53a3fe12",
+      "size": "313242",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=563835&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "d7675869",
+      "md5": "5b8ae943751348d5544168cc3ec842c7",
+      "sha1": "99bc4f258639eb1e29ca34ad94fe89b3d2668e61",
+      "size": "431523",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1483101",
+      "romsize": "786448",
+      "romfilename": "Splatterworld (English V1 0).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "6AB9E947",
+      "rommd5": "0F6F34E942F9F96F9EAC7BFF51D53D5E",
+      "romsha1": "332904D3A6CD8AB825F74970E001C78AC958325B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    },
+    {
+      "id": "1465035",
+      "romsize": "524304",
+      "romfilename": "Splatterworld - Rick to Kyoufu no Daiou (Japan) (Proto).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "CB9EF0BA",
+      "rommd5": "E0229519009256F8F26FC09B577758BF",
+      "romsha1": "F422F625BC69925B6DDBAAAA3A24631F1F659837",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    }
+  ]
+}

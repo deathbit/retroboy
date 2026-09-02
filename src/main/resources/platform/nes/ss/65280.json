@@ -1,0 +1,957 @@
+{
+  "id": "65280",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Av Kyuukyoku Mahjong 2"
+    },
+    {
+      "region": "jp",
+      "text": "AV Jiu Ji Ma Jiang II"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "19955",
+    "text": "Ge De Industry"
+  },
+  "developpeur": {
+    "id": "19954",
+    "text": "Hummer Team"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "AV Jiu Ji Ma Jiang II, also known as AV Kyuukyoku Mahjong 2 is an adult versus Mahjong game."
+    },
+    {
+      "langue": "fr",
+      "text": "AV Jiu Ji Ma Jiang II, également connu sous le nom de AV Kyuukyoku Mahjong 2, est un jeu de Mahjong réservé aux adultes."
+    },
+    {
+      "langue": "de",
+      "text": "AV Jiu Ji Ma Jiang II, auch bekannt als AV Kyuukyoku Mahjong 2, ist ein Mahjong-Spiel nur für Erwachsene."
+    },
+    {
+      "langue": "es",
+      "text": "AV Jiu Ji Ma Jiang II, también conocido como AV Kyuukyoku Mahjong 2 es un juego para adultos de Mahjong vs."
+    },
+    {
+      "langue": "it",
+      "text": "AV Jiu Ji Ma Jiang II, noto anche come AV Kyuukyoku Mahjong 2, è un gioco Mahjong per soli adulti."
+    },
+    {
+      "langue": "pt",
+      "text": "AV Jiu Ji Ma Jiang II, também conhecido como AV Kyuukyoku Mahjong 2, é um jogo de Mahjong apenas para adultos.\n\n"
+    }
+  ],
+  "dates": [
+    {
+      "region": "asi",
+      "text": "1995"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2872",
+      "nomcourt": "0E00",
+      "principale": "0",
+      "parentid": "320",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Casino / Cards"
+        },
+        {
+          "langue": "fr",
+          "text": "Casino / Cartes"
+        },
+        {
+          "langue": "de",
+          "text": "Casino / Karten"
+        },
+        {
+          "langue": "es",
+          "text": "Casino / Cartas"
+        },
+        {
+          "langue": "it",
+          "text": "Casinò / Carte"
+        },
+        {
+          "langue": "pt",
+          "text": "Cassino / Cartas"
+        }
+      ]
+    },
+    {
+      "id": "320",
+      "nomcourt": "0E00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Casino"
+        },
+        {
+          "langue": "fr",
+          "text": "Casino"
+        },
+        {
+          "langue": "de",
+          "text": "Casino"
+        },
+        {
+          "langue": "es",
+          "text": "Casino"
+        },
+        {
+          "langue": "it",
+          "text": "Casinò"
+        },
+        {
+          "langue": "pt",
+          "text": "Cassino"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "8523a819",
+      "md5": "9fa0d36046628b71cbc3c2db0931659d",
+      "sha1": "42a50490c6ca69c6222d55438cb9f8fc2d07ede9",
+      "size": "5238",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=ss(jp)",
+      "region": "jp",
+      "crc": "c49e2855",
+      "md5": "e0231e201b6330ba0275646a22e2e957",
+      "sha1": "1dd9c287f17d42519d95e403b9fbd7a4d8cf1e74",
+      "size": "7676",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=video",
+      "crc": "a669d095",
+      "md5": "b247629b7264ee0844bcdff12c505876",
+      "sha1": "6cfa144838868c771abb962aad83470e2747e12a",
+      "size": "962189",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=video-normalized",
+      "crc": "776c88df",
+      "md5": "2721eb40ac50273f29cb84e68d4bf229",
+      "sha1": "b4bed37bad076dc6977a2ea84490a88f83dcadd5",
+      "size": "570448",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=steamgrid",
+      "crc": "71ac9ec2",
+      "md5": "d2b522ed26a00ec2f29c71be16de9b66",
+      "sha1": "bff27c185a9c0396a68046b8502bf375c74a8de6",
+      "size": "26591",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=wheel(jp)",
+      "region": "jp",
+      "crc": "e420a984",
+      "md5": "b264b56d97f82c31cfa8026c8e19ba64",
+      "sha1": "43d6133540cfdfd98c565c452838bcf6ef27a74f",
+      "size": "51231",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "481c9a52",
+      "md5": "d0b5b545f961495ab86822c2c88cfb8a",
+      "sha1": "bc1b11420fc4a50a855fef6b1b228be627eaa1ce",
+      "size": "118526",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "a6f0a506",
+      "md5": "5544a4aa3cbf35ce5eeb865d72da1266",
+      "sha1": "1237a25c45216e64b59ea030b360cd9322756a2a",
+      "size": "119697",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "f81bf320",
+      "md5": "7de5c162cb7e15f7a67c18a6c4e33cc6",
+      "sha1": "662580d0dad455bcba8968e176c60b7eb235870b",
+      "size": "497916",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "94dec7d2",
+      "md5": "344b66ad4629cfb35affaafad0ff59e6",
+      "sha1": "6f7d39d13a9d72d2cebcc12656610a5d82284a11",
+      "size": "80333",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "1011a07b",
+      "md5": "146e06bf87eea08b1a8b2e4063f39d36",
+      "sha1": "3fa6d9d0499923f2419dac4be01934ac805409f6",
+      "size": "719478",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "be471356",
+      "md5": "d77243d70a4ea08fa6a579ee87997248",
+      "sha1": "faa179ed5b37c4255f830089f0981f79bf1137a3",
+      "size": "75956",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "03da2fbe",
+      "md5": "db366c06f08b76c556fc2770593d2293",
+      "sha1": "a33615e3ecb5286fa08632be59a7a7ff0898f2a0",
+      "size": "28561",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "a4fe77f9",
+      "md5": "8b91701009f58077700400cb4b4111a8",
+      "sha1": "b65979427326e9ce14e70a9f38525d3d35cad814",
+      "size": "18314",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "800fe3b7",
+      "md5": "f8b8dd6773970f3e1a0157721fed100d",
+      "sha1": "5e48368427e5eb0709d69693590ff962f9406989",
+      "size": "2829",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "610ef51b",
+      "md5": "a621a7c7f92f190d40956fd261c7caf9",
+      "sha1": "5ce6c78e4d5a0dc1683ca4784d8143a082e6b0d0",
+      "size": "123100",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "9af36420",
+      "md5": "3c69d2068aebaaf5e941d92ae28afe6f",
+      "sha1": "5bb1afcab8356b32db1696542efbdf6329709fa1",
+      "size": "772894",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "9da35149",
+      "md5": "f7d79c47aae3f828460137055cc9b011",
+      "sha1": "3156e4b80e4cb23365473b150250449b9fc25779",
+      "size": "229086",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "141238f9",
+      "md5": "eaec83727df9266a4329a25300f1fffd",
+      "sha1": "c1a596521fa7d66293bdd6be476175fe2a072979",
+      "size": "331769",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "6b2d8a94",
+      "md5": "6760be197adee8251367389515aedf77",
+      "sha1": "d6f4880b8c3ec5fe31ae706b66a461fc69fa571b",
+      "size": "107840",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "00b2549c",
+      "md5": "4211157a0286b82a84078cfaa1ad1429",
+      "sha1": "b406fa67075c3825b6cc1e2588eef012a251db51",
+      "size": "285067",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "0b927b60",
+      "md5": "7c4d568b501ff63882edbe88393f3b50",
+      "sha1": "24b1dd58af97fa783d1eb9b005ca7169a5187b09",
+      "size": "279649",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "a87a4e1e",
+      "md5": "87b97f76fac6e5c872b5f8c51d68c66c",
+      "sha1": "d38e16943ff53affdc4db6d20d465e0b8da9dd62",
+      "size": "382755",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=mixrbv2(asi)",
+      "region": "asi",
+      "crc": "62d8747c",
+      "md5": "cce21c287547ea478311003273c0616e",
+      "sha1": "5693a3790510070c28ce43e629f4872ef164cab9",
+      "size": "591484",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=65280&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "62d8747c",
+      "md5": "cce21c287547ea478311003273c0616e",
+      "sha1": "5693a3790510070c28ce43e629f4872ef164cab9",
+      "size": "591484",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=19955&media=wheel",
+      "crc": "e767deb1",
+      "md5": "5d54a0fea3e37beb4ceeb051a9d89b9f",
+      "sha1": "1e2599b48c18249e3992ce9ceb7eb16b81a7ec0b",
+      "size": "24814",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "2872",
+      "parent": "genre",
+      "subparent": "Casino / Cartes",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2872&media=pictoliste",
+      "crc": "635d98b7",
+      "md5": "aafce83d81abac94ba274692aeb993cc",
+      "sha1": "94cb6583a4c13f6177337ec6883d7a4875659ec9",
+      "size": "18633",
+      "format": "png"
+    },
+    {
+      "id": "2872",
+      "parent": "genre",
+      "subparent": "Casino / Cartes",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2872&media=logo-monochrome",
+      "crc": "1bee4e72",
+      "md5": "b25b634e7fe9e3b599d8bad4004bd74c",
+      "sha1": "5f86e509bfd2274e76b2a7159583ce147aa9e249",
+      "size": "70063",
+      "format": "png"
+    },
+    {
+      "id": "2872",
+      "parent": "genre",
+      "subparent": "Casino / Cartes",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2872&media=logo-monochrome-svg",
+      "crc": "5d01d124",
+      "md5": "410b2a9d178b53eee9f2d392bb13650c",
+      "sha1": "9b479d2615724a4bab1b323d30ea4629a66cb55f",
+      "size": "5134",
+      "format": "svg"
+    },
+    {
+      "id": "2872",
+      "parent": "genre",
+      "subparent": "Casino / Cartes",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2872&media=background",
+      "crc": "fe01498e",
+      "md5": "c93ddec3b81175739af1dd1a58e9dabd",
+      "sha1": "bed07894923bccf1cf7aaf1743e6aa5b4b9274d6",
+      "size": "184177",
+      "format": "jpg"
+    },
+    {
+      "id": "320",
+      "parent": "genre",
+      "subparent": "Casino",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=320&media=pictoliste",
+      "crc": "629e7dbc",
+      "md5": "8977f871ffbdf3787b92cd1512d9d9ee",
+      "sha1": "28631be81e1ba2bd85c5500365cf89ad3c5bab70",
+      "size": "1057",
+      "format": "png"
+    },
+    {
+      "id": "320",
+      "parent": "genre",
+      "subparent": "Casino",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=320&media=logo-monochrome",
+      "crc": "42eae6d4",
+      "md5": "dc351fece8aa56a787115056ea52e479",
+      "sha1": "4cd025426203620b69769fc1ffec6642c41862dc",
+      "size": "8425",
+      "format": "png"
+    },
+    {
+      "id": "320",
+      "parent": "genre",
+      "subparent": "Casino",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=320&media=logo-monochrome-svg",
+      "crc": "1c0e9db2",
+      "md5": "b6847704b1a189fd4a9818dc1ddfb91a",
+      "sha1": "14f0eedf77b67983dc709214f8231f531e66eaeb",
+      "size": "3067",
+      "format": "svg"
+    },
+    {
+      "id": "320",
+      "parent": "genre",
+      "subparent": "Casino",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=320&media=background",
+      "crc": "f5ca5938",
+      "md5": "795b56d1edfcc04ad5235bf56753b96d",
+      "sha1": "2822f50ccab3777540bf504f0a40ba5d56ee8525",
+      "size": "377758",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135381",
+      "romsize": "262160",
+      "romfilename": "AV Kyuukyoku Mahjong 2 (Asia) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "92168B6E",
+      "rommd5": "8FDA92C560E6CAA491B4D4A5D40CB984",
+      "romsha1": "2FE24EDE58EDD401B7FCF4D162B4C34589D01AFE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "38850",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "12373",
+      "romsize": "89964",
+      "romfilename": "AV Kyuukyoku Mahjong 2 (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B4E4F2EB",
+      "rommd5": "F67DDDB8BF1D629C24DD47D78209A29F",
+      "romsha1": "F030F7E809B8ABC99159B9088E48C9771084A06D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "23036",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "1134237",
+      "romsize": "262160",
+      "romfilename": "AV Kyuukyoku Mahjong 2 (Asia) (Ja) (Ka Sheng) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "033c61c6",
+      "rommd5": "21ae882bceec4a64a428a3575b9c667f",
+      "romsha1": "f632874be99c4e81257ca88f086a15cb154fcada",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9547",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "172531",
+      "romsize": "262144",
+      "romfilename": "AV Kyuukyoku Mahjong 2 (Asia) (Ja) (Ka Sheng) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "77DA06CF",
+      "rommd5": "A435CB272D776CDDAF3E5CA8749EB719",
+      "romsha1": "9ECB8FA3FF30C77D4F0CC7BF44CB2B33E2F3F004",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8898",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "877905",
+      "romsize": "262144",
+      "romfilename": "AV Kyuukyoku Mahjong 2 (Asia) (Ja) (Ge De) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2C4C9356",
+      "rommd5": "43B6246A6FE933E3EE7736A1053D5EE2",
+      "romsha1": "0B980C8F139CC968D4F76C15968DD90A3292719E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8249",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      }
+    },
+    {
+      "id": "1134240",
+      "romsize": "262160",
+      "romfilename": "AV Kyuukyoku Mahjong 2 (Asia) (Ja) (Ge De) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "46a8ae96",
+      "rommd5": "355af7afa1e46ad787769b8c8eedc281",
+      "romsha1": "5f112f3656978d222eba245c6128e5eaf849ed29",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5805",
+      "langues": {
+        "langues_id": [
+          "73"
+        ],
+        "langues_shortname": [
+          "ja"
+        ],
+        "langues_en": [
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Japonais"
+        ],
+        "langues_de": [
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Japonés"
+        ],
+        "langues_it": [
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "880691",
+      "romsize": "90749",
+      "romfilename": "AV Jiu Ji Ma Jiang 2.7z",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3DF5A1E5",
+      "rommd5": "5B26987C928DC76318249219A7909796",
+      "romsha1": "8642D5727C6BA3CAEA49D602B64CCCB1B324E3C1",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3731"
+    },
+    {
+      "id": "113018",
+      "romsize": "89942",
+      "romfilename": "AV Kyuukyoku Mahjong 2 (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "50289269",
+      "rommd5": "A6059C0B8D8FD65ED5EFA5B7D4611C48",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "54",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    }
+  ]
+}

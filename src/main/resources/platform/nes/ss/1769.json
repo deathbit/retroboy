@@ -1,0 +1,1806 @@
+{
+  "id": "1769",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Black Bass, The"
+    },
+    {
+      "region": "us",
+      "text": "The Black Bass"
+    },
+    {
+      "region": "jp",
+      "text": "The Black Bass II"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "415",
+    "text": "Hot-B"
+  },
+  "developpeur": {
+    "id": "2868",
+    "text": "Another"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "note": {
+    "text": "14"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "In The Black Bass you are an angular in a Black Bass fishing tournament. In this tournament, you start out on Lake Amanda as a rating C class angular in 200th position. You must find a good position on the lake to fish as the size, type (fish types: Black Bass, Brown Trout, Rainbow Trout, and Pike), quantity of fish, and obstacles vary depending on were you are on the lake. Once you selected your ideal location, you cast out the lure using a power meter and as you slowly reel it back in. You must try to attract the interested fish by wiggling the lure in the water and if the fish grabs the lure you must reel the fish back in making sure that the line does not snap as well as avoiding any obstacles in the way.\n\nTo help you have many lures to choose from (more been unlocked as you progress though the game) as well as a guide to tell you how good you currently selected location is. You have one day in game time to catch the biggest Black Bass you can find as at the end of the day the average weight of you caught Black Bass improves or reduces you rating as well overall position. Your rating determines how far you progress in the tournament unlocking new lakes (lakes: Lake Amada, Japan Lake, Lake More, San Lake)."
+    },
+    {
+      "langue": "fr",
+      "text": "The Black Bass est un jeu de pêche sur NES. Vous débutez votre carrière en bas de l'échelle et devrez progresser petit à petit vers les sommets de la discipline. Au fur à mesure de vos exploits, vous débloquerez du nouveau matériel et accéderez à de nouveaux coins de pêche. 5 catégories de poissons attendent de mordre à votre hameçon."
+    },
+    {
+      "langue": "de",
+      "text": "In The Black Bass nimmst du als Angler an einem Schwarzbarsch-Angelturnier teil. Bei diesem Turnier startest du auf dem Amandasee als Angler der Klasse C auf Platz 200. Du musst eine gute Position auf dem See zum Angeln finden, da Größe, Art (Fischarten: Schwarzbarsch, Bachforelle, Regenbogenforelle und Hecht), Anzahl der Fische und Hindernisse je nach Position auf dem See variieren. Sobald du den idealen Standort ausgewählt hast, wirf den Köder mit Hilfe eines Kraftmessers aus und ziehe ihn langsam wieder ein. Du musst versuchen, den interessierten Fisch anzulocken, indem du mit dem Köder im Wasser zappeln lässt. Wenn der Fisch den Köder schnappt, musst du ihn wieder einholen und dabei darauf achten, dass die Schnur nicht reißt und keine Hindernisse im Weg sind."
+    },
+    {
+      "langue": "es",
+      "text": "Juego de pesca en el que hay que capturar el máximo número posible de peces desde el atardecer al anochecer, pudiendo utilizar diferentes tipos de cebos para mejorar tus posibilidades, más allá de tus propios reflejos con la &quot;caña&quot;."
+    },
+    {
+      "langue": "it",
+      "text": "In The Black Bass sei un angolare in un torneo di pesca Black Bass. In questo torneo, inizi sul Lago Amanda come angolare di classe C in 200a posizione. Devi trovare una buona posizione sul lago per pescare in quanto le dimensioni, il tipo (tipi di pesce: Black Bass, Trota fario, Trota iridea e Luccio), la quantità di pesce e gli ostacoli variano a seconda di dove ti trovi sul lago. Una volta selezionata la posizione ideale, scacci l'esca usando un misuratore di potenza e mentre la riavvolgi lentamente indietro. Devi cercare di attirare il pesce interessato agitando l'esca nell'acqua e se il pesce afferra l'esca devi avvolgere il pesce torna ad assicurarsi che la lenza non si spezzi oltre ad evitare eventuali ostacoli sul percorso."
+    },
+    {
+      "langue": "pt",
+      "text": "O boato é verdade de que eles abrirão o Torneio Internacional de Pesca de Pescadores com 200 pescadores profissionais selecionados no seu NES. A sombra do peixe aparece das profundezas do lago. Este é um jogo de simulação real entre homem e peixe. O BLACK BASS torna realidade uma competição de sonhos de fantasia. O Black Bass vai pular e tentar se esconder no fundo das árvores nos quatro lagos diferentes. Agora o torneio está pronto para começar!"
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1989-09-01"
+    },
+    {
+      "region": "jp",
+      "text": "1988-10-01"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2895",
+      "nomcourt": "0403",
+      "principale": "0",
+      "parentid": "2648",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Fishing"
+        },
+        {
+          "langue": "fr",
+          "text": "Peche"
+        },
+        {
+          "langue": "de",
+          "text": "Angeln"
+        },
+        {
+          "langue": "es",
+          "text": "Pesca"
+        },
+        {
+          "langue": "it",
+          "text": "Pesca"
+        },
+        {
+          "langue": "pt",
+          "text": "Pesca"
+        }
+      ]
+    },
+    {
+      "id": "2648",
+      "nomcourt": "0403",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Hunting and Fishing"
+        },
+        {
+          "langue": "fr",
+          "text": "Chasse et Peche"
+        },
+        {
+          "langue": "de",
+          "text": "Jagen und Angeln"
+        },
+        {
+          "langue": "es",
+          "text": "Caza y Pesca"
+        },
+        {
+          "langue": "it",
+          "text": "Caccia e Pesca"
+        },
+        {
+          "langue": "pt",
+          "text": "Caça e Pesca"
+        }
+      ]
+    },
+    {
+      "id": "685",
+      "nomcourt": "0600",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Sports"
+        },
+        {
+          "langue": "fr",
+          "text": "Sport"
+        },
+        {
+          "langue": "de",
+          "text": "Sport"
+        },
+        {
+          "langue": "es",
+          "text": "Deportes"
+        },
+        {
+          "langue": "it",
+          "text": "Sport"
+        },
+        {
+          "langue": "pt",
+          "text": "Esporte"
+        }
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "langue": "fr",
+      "titre": "Plus de poissons",
+      "description": "Entrez HBMAX comme nom pour attraper plus de poissons.\n"
+    },
+    {
+      "langue": "fr",
+      "titre": "Classe B",
+      "description": "Entrez TSVWDEDODIBPUYGC comme mot de passe.\n"
+    },
+    {
+      "langue": "fr",
+      "titre": "San Lac",
+      "description": "Entrez 0YHEXZ0TZXHNTMUQ comme mot de passe.\n"
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=sstitle(jp)",
+      "region": "jp",
+      "crc": "7db3d4eb",
+      "md5": "50a0757c5e3e0aa80b3d30496bb5d42f",
+      "sha1": "4058a5783487942d68220f3a9b8f998bf311828e",
+      "size": "24870",
+      "format": "jpg"
+    },
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=sstitle(us)",
+      "region": "us",
+      "crc": "d92e4205",
+      "md5": "a4f145aeb56971ec90fee13940ba976e",
+      "sha1": "b7bde10c59e50a8ce327eae51f7b40d7586da4a8",
+      "size": "3384",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=ss(wor)",
+      "region": "wor",
+      "crc": "addab0b4",
+      "md5": "3622c20bcfb6dbae69ead80fe4b92cf7",
+      "sha1": "e7bedd8ca6deeea426b3cd2726ba5a46784cca45",
+      "size": "611",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=fanart",
+      "crc": "cd781371",
+      "md5": "68055bac27ff508bdcc441e3691e1c98",
+      "sha1": "b3c5c8750f6c5b8261f718e3d56c40208b15f3b3",
+      "size": "450519",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=video",
+      "crc": "1437f443",
+      "md5": "2143e74c6e79bcb03f527cd22d6aa259",
+      "sha1": "79476a6276ba094da85a7d5f821c5bb944999f47",
+      "size": "2480003",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=video-normalized",
+      "crc": "e66c69a6",
+      "md5": "3779f7507126f3ef0d41d7d9ff954b98",
+      "sha1": "f893fb18c2f6f569769012c80f2d4b057d67b456",
+      "size": "592638",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=steamgrid",
+      "crc": "353e7f3a",
+      "md5": "643a83b6a783bef8c6d5fb3d0994b184",
+      "sha1": "cc989d1c34aed55fe56e0c734ce1b0d39cfc26f1",
+      "size": "22687",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=wheel(us)",
+      "region": "us",
+      "crc": "6d26b319",
+      "md5": "2d45a669d0eb87a43b8bbb08d7500ede",
+      "sha1": "aa00a4768833287f3e7eb61340f15e270c441f0b",
+      "size": "90524",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=wheel-carbon(us)",
+      "region": "us",
+      "crc": "c60996d3",
+      "md5": "a948c2592d622e9d23a497710b3b3597",
+      "sha1": "500b50626fe7cb6a07b29e429c6f2173d4b9d3d9",
+      "size": "116839",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=wheel-steel(us)",
+      "region": "us",
+      "crc": "bcde7cd2",
+      "md5": "b287436a0f670febc800717b398eecba",
+      "sha1": "3603e209581e8ab9285896be5b0fd838a53fc01c",
+      "size": "117838",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=screenmarquee(us)",
+      "region": "us",
+      "crc": "ca3c3f1b",
+      "md5": "a182299096975726163c908ffbf2ee54",
+      "sha1": "3bf3d442ec0f57e1f4e5b7f6be0a2fb8c4178489",
+      "size": "493487",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=screenmarqueesmall(us)",
+      "region": "us",
+      "crc": "c9981001",
+      "md5": "3d6b8ab288eb12ff1988f4d63fbdee40",
+      "sha1": "2d300e31bf43087786e23b99b1e5e032987cc795",
+      "size": "78033",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "819f68ce",
+      "md5": "45665f58300027d06440f50943b30d70",
+      "sha1": "931d4a259228551638bd515049d053df5ff7c902",
+      "size": "593222",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=box-2D(us)",
+      "region": "us",
+      "crc": "2ca37764",
+      "md5": "0a57b8d8570a10517d6f967080d16223",
+      "sha1": "cc5ed396551610d36d7eab73c2073562ab879630",
+      "size": "467708",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "b3cb81db",
+      "md5": "93e4a4f9127aae137683d7f9ceb36fd4",
+      "sha1": "c80428961c5ada57cab3041f45f2722dc986843c",
+      "size": "125612",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "4c92d2ad",
+      "md5": "4cabf4ba9aaab867ec28b33858c003ce",
+      "sha1": "ce90273bf8b2ab0d6bedf3275f68f47364335c81",
+      "size": "62322",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "c6faf6b4",
+      "md5": "45198fc69e1c73795962d63f4bc5e675",
+      "sha1": "ef4702e18ebf7aeb35563c23ee5ac5b63fb1c167",
+      "size": "529100",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "35cba5de",
+      "md5": "eb18d6b6ea0bd0ebf270c814b006d787",
+      "sha1": "206cf493ef673d5d9380a42c36542f6763bf91b2",
+      "size": "396942",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "426ee9a7",
+      "md5": "999c1dfb1cac0d6021444fc585719d0a",
+      "sha1": "aec14508b699bddf2aa6c0d2784dd225fec957d9",
+      "size": "1345581",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=box-texture(us)",
+      "region": "us",
+      "crc": "338baa03",
+      "md5": "57d8af6ab5b89ff59cfd45449d395358",
+      "sha1": "0a6c5178031c363844a5425bb1bf24b32dbd0b68",
+      "size": "858341",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "f0913582",
+      "md5": "d89b8e573900e6ab36fd3b0850c63775",
+      "sha1": "ba3e738d284bb2ad8f6dcc5bfa2d9b6a95a0a11f",
+      "size": "337571",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=box-3D(us)",
+      "region": "us",
+      "crc": "06ddf952",
+      "md5": "bdad7453b5bf1c5dd3db49db92b2e3ef",
+      "sha1": "8277c5d44073285664f84132bef7944298be2410",
+      "size": "235831",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=manuel(jp)",
+      "region": "jp",
+      "crc": "67adf389",
+      "md5": "ad003434cff9e922de89556e88e94460",
+      "sha1": "022e2b3d4258f5a09527a1af4dec094e432e48c6",
+      "size": "1185870",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=manuel(us)",
+      "region": "us",
+      "crc": "3ab47e6e",
+      "md5": "84dfbc8157e53b8efac36ceefaadbadc",
+      "sha1": "105add66b7ee13bb174dbcc4c31f4543e218fe5e",
+      "size": "1329305",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "3e69cd98",
+      "md5": "0fdb91e3fc458b40f1c5f9117fc41fbd",
+      "sha1": "2ad05414ff785a388ba015e8467eef3b8b037d22",
+      "size": "289875",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=support-texture(us)",
+      "region": "us",
+      "crc": "304edc27",
+      "md5": "ba7495fcc932f2d75b4c95753da2be94",
+      "sha1": "51ae9d0c17ab8f79d15b244c6933717bc069166c",
+      "size": "447909",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "50841a86",
+      "md5": "cd9f763da4de3964fc69ec4bcc222b50",
+      "sha1": "4e614de7cc0a832e64a8ff7c675be92cadc79ac9",
+      "size": "318331",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=support-2D(us)",
+      "region": "us",
+      "crc": "05a6a81a",
+      "md5": "b7493cf09cc55ff9ef6bad3ef0f80948",
+      "sha1": "0dff222007d59f557c39d244ebe590149a82b0bb",
+      "size": "345021",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "0860be84",
+      "md5": "46eb3b0a168ead81428638a76fb444eb",
+      "sha1": "020c9709db08a45b4ec820dea8681d188627fb0a",
+      "size": "243077",
+      "format": "png"
+    },
+    {
+      "type": "themehb",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaFichierJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=themehb",
+      "crc": "9eb962f5",
+      "md5": "4afa6fa875d417e1631a06cdf4780616",
+      "sha1": "1d099a750c2b36ea38fb636137ea803b21d1bd08",
+      "size": "5079066",
+      "format": "zip"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "740aa75a",
+      "md5": "7e4608090bfc82753800a64da8ea389c",
+      "sha1": "b646b03d2dde1a6dc793913d7826c8291fdec7ec",
+      "size": "410862",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "b059e887",
+      "md5": "c84618bad77068b9350364a22a0e64e1",
+      "sha1": "bb7634ab8abd42ce5c9c7023ba53a6ae7eccdfee",
+      "size": "354462",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "b059e887",
+      "md5": "c84618bad77068b9350364a22a0e64e1",
+      "sha1": "bb7634ab8abd42ce5c9c7023ba53a6ae7eccdfee",
+      "size": "354462",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "8bcd1f0a",
+      "md5": "32a4154e27db72201dc17ea5a44111d7",
+      "sha1": "e1ee3f4b485720929e8f3e3f5f44ebf5b0969447",
+      "size": "571449",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "ed68bb70",
+      "md5": "e6de5520be01d87cbd711a21db99e82a",
+      "sha1": "9598d0aa2349e8a3f282cec9c2105fa752f1ea36",
+      "size": "510659",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1769&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "ed68bb70",
+      "md5": "e6de5520be01d87cbd711a21db99e82a",
+      "sha1": "9598d0aa2349e8a3f282cec9c2105fa752f1ea36",
+      "size": "510659",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=415&media=logo-monochrome",
+      "crc": "84c6c41d",
+      "md5": "d00831960ac5ccd3a3d81ebb8df95d72",
+      "sha1": "eebb2c34b352e4a2a56628f7f59ff6e140cb5f81",
+      "size": "18711",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=415&media=wheel",
+      "crc": "e368aafb",
+      "md5": "1265fb12dd97b0b56d6087ff8f4265cb",
+      "sha1": "1a2211829d2ba5cb0e91f780800f9829580c9e25",
+      "size": "22247",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3553&media=pictoliste",
+      "crc": "612df705",
+      "md5": "6ee8a25c785597ef3035b7139189482a",
+      "sha1": "570ad57ff7c5643595c1a2148bacc373f326cffe",
+      "size": "840",
+      "format": "png"
+    },
+    {
+      "id": "2895",
+      "parent": "genre",
+      "subparent": "Peche",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2895&media=pictoliste",
+      "crc": "569c8213",
+      "md5": "065f1c0c644b5202b391c3abc2bf2466",
+      "sha1": "6ed44f7f04ede4909bdcba6c354bf0b825e360c9",
+      "size": "18452",
+      "format": "png"
+    },
+    {
+      "id": "2895",
+      "parent": "genre",
+      "subparent": "Peche",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2895&media=logo-monochrome",
+      "crc": "f450533b",
+      "md5": "09e0f62d06a0eeaf9382f73851d8dac0",
+      "sha1": "69321afd02790cf9547b48d12bc6746cd4207c5c",
+      "size": "17636",
+      "format": "png"
+    },
+    {
+      "id": "2895",
+      "parent": "genre",
+      "subparent": "Peche",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2895&media=logo-monochrome-svg",
+      "crc": "38eafe43",
+      "md5": "1fbadfb8577adfb4ab9ce678a05d063c",
+      "sha1": "5333b145e8b20d7fd3f014cd71e18ed22ee2ad1f",
+      "size": "2403",
+      "format": "svg"
+    },
+    {
+      "id": "2895",
+      "parent": "genre",
+      "subparent": "Peche",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2895&media=background",
+      "crc": "dd31167d",
+      "md5": "d803e2b267bdb67e511aed74dcc4f0bd",
+      "sha1": "270ca453dd2bbd88a28c4d3f67fc744985bb6bbb",
+      "size": "175569",
+      "format": "jpg"
+    },
+    {
+      "id": "2648",
+      "parent": "genre",
+      "subparent": "Chasse et Peche",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2648&media=pictoliste",
+      "crc": "53e7b7c8",
+      "md5": "bbddead34786efcc10a77eb19ffb02ff",
+      "sha1": "72b232b4641d5ac30bc856b611ebfbdb43235ec7",
+      "size": "1023",
+      "format": "png"
+    },
+    {
+      "id": "2648",
+      "parent": "genre",
+      "subparent": "Chasse et Peche",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2648&media=logo-monochrome",
+      "crc": "208d054b",
+      "md5": "254d8d5de79523b703141fe26be021c8",
+      "sha1": "d7534220590683908e8efe26bd97bdec292e36a4",
+      "size": "13725",
+      "format": "png"
+    },
+    {
+      "id": "2648",
+      "parent": "genre",
+      "subparent": "Chasse et Peche",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2648&media=logo-monochrome-svg",
+      "crc": "706064ac",
+      "md5": "ed64f3031e0d1be810c951030b7697bd",
+      "sha1": "4fd06c25074b98c25585b7c2c4e4973cd4f76c9e",
+      "size": "3787",
+      "format": "svg"
+    },
+    {
+      "id": "2648",
+      "parent": "genre",
+      "subparent": "Chasse et Peche",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2648&media=background",
+      "crc": "d8f2db87",
+      "md5": "9ceae60604a2b3f3cdb4fce9a5f387e8",
+      "sha1": "30824f787e01476e85e5663f51dfb99625114063",
+      "size": "153095",
+      "format": "jpg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=pictoliste",
+      "crc": "d78916a1",
+      "md5": "bc6a0e39e08701c118cbaf0c7c5a0700",
+      "sha1": "2d6d74fbd9ddcd31ac1dabe48f8ddcb047e07d0c",
+      "size": "1093",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome",
+      "crc": "6a963ad9",
+      "md5": "6daf840fab2d205bda9bad4ff16f4c95",
+      "sha1": "f5e795233a8013aa0d992e197d56d09a63513403",
+      "size": "18286",
+      "format": "png"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=logo-monochrome-svg",
+      "crc": "328c7db2",
+      "md5": "4298fc7c8887c1b97cec6ee0b5d72433",
+      "sha1": "8f59a9ec18c48a7246c3b13e19c6c5857bc95513",
+      "size": "4269",
+      "format": "svg"
+    },
+    {
+      "id": "685",
+      "parent": "genre",
+      "subparent": "Sport",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=685&media=background",
+      "crc": "a3265ffe",
+      "md5": "65308af4ddc9782f6717f000eea7f28a",
+      "sha1": "bccce8f0defa7c25313eb5ced7cdf71555c5a85d",
+      "size": "185482",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135510",
+      "romsize": "131088",
+      "romfilename": "Black Bass, The (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2E069E5F",
+      "rommd5": "9D87DD1E48B89D6166326A370990177F",
+      "romsha1": "652071746EBB937028B2FE6760D7D469FED463D6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "298225",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "2270",
+      "romsize": "46963",
+      "romfilename": "Black Bass, The (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3871B731",
+      "rommd5": "B2CD1B4D4E73B8E08EBE5F28438FD1F8",
+      "romsha1": "86393AE8745716BFA366B40E9FB3090FFF4A73DC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "119300",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "519372",
+      "romsize": "131088",
+      "romfilename": "Black Bass USA, The (U).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "27755E27",
+      "rommd5": "B92FBAFCA65AEB8EE0915E5A50E99F83",
+      "romsha1": "CF9B7095CDF800C8AF7717D09B8AB0E0F2632995",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "78741",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "135508",
+      "romsize": "131088",
+      "romfilename": "Black Bass II, The (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5A514495",
+      "rommd5": "7D1B6EA779B3BF92423285530C7F7372",
+      "romsha1": "E034DAE6CADDE4A22B4A3FBC09A3C1A3861D0CBD",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "60601",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1134798",
+      "romsize": "131088",
+      "romfilename": "Black Bass, The (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "b9c14183",
+      "rommd5": "a3958e6f69a5f71a8219fc57c41e62d6",
+      "romsha1": "ecc9fc8131a04fd36b49d659180ee50ace27c2ff",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "39421",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "2271",
+      "romsize": "62710",
+      "romfilename": "Black Bass, The (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "904322B9",
+      "rommd5": "69E1815FA1F8D80A865166776ECD5060",
+      "romsha1": "26A9D3B13C6BECBF590698A62563FDFAAAC04F93",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "35891",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "466947",
+      "romsize": "61350",
+      "romfilename": "Black Bass USA The (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "735F5A28",
+      "rommd5": "B29CE275E4687D6AB443606DF1F34136",
+      "romsha1": "F5B3FB18495C12414A8B4D544073C9E7832709F0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "33279",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "12432",
+      "romsize": "63965",
+      "romfilename": "Black Bass II, The (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "874F25DD",
+      "rommd5": "88FEC25570CE567DD698494E5B6C95BB",
+      "romsha1": "D31879DF00EF3E09227ABABC78DE3E5228B2B544",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "22561",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "523321",
+      "romsize": "62845",
+      "romfilename": "Black Bass USA, The (U) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C41B1850",
+      "rommd5": "69ECE7E0AC5CEAB1F6834A7FF4ED4145",
+      "romsha1": "31A9F6A1CBC2E124882117E985ABE5CB7EBAFB39",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12281",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "543714",
+      "romsize": "62986",
+      "romfilename": "Black Bass.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "2E354910",
+      "rommd5": "91015A334255956CF088B134B36A686D",
+      "romsha1": "FD1EAE971623F40D55B8471FCD35AAF017F694F6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11285"
+    },
+    {
+      "id": "821154",
+      "romsize": "62696",
+      "romfilename": "Black Bass USA.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "619B6BC4",
+      "rommd5": "D3ECB34F633CE2D76DADD7B5EDEA75E7",
+      "romsha1": "B993B6CD98DBB8FED5C0505300CE2E131E8C7CA6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10794"
+    },
+    {
+      "id": "472757",
+      "romsize": "63054",
+      "romfilename": "Black Bass, The (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5D635B00",
+      "rommd5": "3A9D2D316C38C892C9F997FAEC632ED4",
+      "romsha1": "8A649ED2995762D40C1E4551116B8FA7C1DD6D41",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "7565",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1134795",
+      "romsize": "131088",
+      "romfilename": "Black Bass II, The (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3d6822af",
+      "rommd5": "96c937850b4e78d77e954c130a5f298a",
+      "romsha1": "7b06b14d6401014f9499a49c9c2e651acbba6a56",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6600",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "528643",
+      "romsize": "63008",
+      "romfilename": "Black Bass USA, The (U).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "A6349CE4",
+      "rommd5": "4E1B8D7807DC05DB6D72468EA9ABEEDF",
+      "romsha1": "637B9E07DCA7F1BEE392978BE2508B6A9FB38B86",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "4354",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "172655",
+      "romsize": "131072",
+      "romfilename": "Black Bass, The (USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1D0F4D6B",
+      "rommd5": "D02150FA6F56149CC42F30CADA691DCF",
+      "romsha1": "9C3BCD2BF8224B158B6FF2E47B67CDA66CB4AC39",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3200",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "172654",
+      "romsize": "131072",
+      "romfilename": "Black Bass II, The (Japan).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "99A62E47",
+      "rommd5": "340B36684D70918D03A859A80265DB91",
+      "romsha1": "7A7A71A08B19D3357AC59187EB108887831752B4",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2096",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "482341",
+      "romsize": "62845",
+      "romfilename": "Black Bass, The (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8171D73E",
+      "rommd5": "FEB5707034574CC301D27254BE91F304",
+      "romsha1": "41A6EE7EAB163329248BC05978F7851629F32A25",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "305",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "568773",
+      "romsize": "62881",
+      "romfilename": "Black Bass, The (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FD6BC0C5",
+      "rommd5": "2BCB95F2AB43C032AF74860445915F3E",
+      "romsha1": "09224F13FF8F07C348E5C2B8F1CE56EEFD139075",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "289",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "113149",
+      "romsize": "62688",
+      "romfilename": "Black Bass, The (USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E5C30B4E",
+      "rommd5": "D2BAC9E6A83DB2E7DD9106D0A17EE23B",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "104",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "113147",
+      "romsize": "63943",
+      "romfilename": "Black Bass II, The (Japan).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C545AC3E",
+      "rommd5": "C470061A8D53CA127073412EA633938A",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "64",
+      "regions": {
+        "regions_id": [
+          "47"
+        ],
+        "regions_shortname": [
+          "jp"
+        ],
+        "regions_en": [
+          "Japan"
+        ],
+        "regions_fr": [
+          "Japon"
+        ],
+        "regions_de": [
+          "Japan"
+        ],
+        "regions_es": [
+          "Japón"
+        ],
+        "regions_it": [
+          "Giappone"
+        ],
+        "regions_pt": [
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1423052",
+      "romsize": "131088",
+      "romfilename": "Black Bass 2, The (J) [a1].nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "553db009",
+      "rommd5": "91ef8711d8c2f5d432855f1d66e24073",
+      "romsha1": "d2564fb68ac0d53a1fcaea356e4d275602844d7b",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "12"
+    }
+  ]
+}

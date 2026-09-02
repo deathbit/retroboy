@@ -1,0 +1,894 @@
+{
+  "id": "88647",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "Secret Ties"
+    },
+    {
+      "region": "us",
+      "text": "Secret Ties"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "2792",
+    "text": "Vic Tokai"
+  },
+  "developpeur": {
+    "id": "2792",
+    "text": "Vic Tokai"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "Secret Ties is a planned video game adaptation of Master Thief Sugar, a manga created by Takao Saito, who also made Golgo 13. Game was finished but never released.\r\nmusic is good! it plays much like Ninja Gaidan. Very fast pace. You can climb walls, jump kick, punch, A lot of fun.\r\n"
+    },
+    {
+      "langue": "fr",
+      "text": "Secret Ties est un projet d'adaptation en jeu vidéo de Master Thief Sugar, un manga créé par Takao Saito, qui a également réalisé Golgo 13. Le jeu a été terminé, mais n'est jamais sorti. Le jeu ressemble beaucoup à Ninja Gaidan. Le rythme est très rapide. Vous pouvez grimper aux murs, sauter, donner des coups de pied, des coups de poing, beaucoup de plaisir. C'est très amusant !"
+    },
+    {
+      "langue": "de",
+      "text": "Secret Ties ist eine geplante Videospieladaption von Master Thief Sugar, einem Manga von Takao Saito, der auch Golgo 13 entwickelt hat. Das Spiel wurde fertiggestellt, aber nie veröffentlicht. Die Musik ist gut! Es spielt sich ähnlich wie Ninja Gaidan - sehr schnelles Tempo. Man kann Wände hochklettern, springen, kicken, schlagen - eine Menge Spaß!"
+    },
+    {
+      "langue": "es",
+      "text": "Secret Ties es una adaptación de Master Thief Sugar, un manga creado por Takao Saito, que también creó Golgo 13. El juego se terminó pero nunca se lanzó. La musica es buena Se juega mucho como Ninja Gaidan. Ritmo muy rápido. Puedes escalar paredes, saltar patadas, puñetazos, mucha diversión."
+    },
+    {
+      "langue": "it",
+      "text": "Secret Ties è un adattamento per videogiochi pianificato di Master Thief Sugar, un manga creato da Takao Saito, che ha anche realizzato Golgo 13. Il gioco è stato terminato ma mai pubblicato.\r\nla musica è buona! suona in modo molto simile a Ninja Gaidan. Ritmo molto veloce. Puoi scalare muri, saltare calci, pugni, molto divertente."
+    },
+    {
+      "langue": "pt",
+      "text": "Secret Ties é uma adaptação planejada de um videogame de Master Thief Sugar, um mangá criado por Takao Saito, que também fez o Golgo 13. O jogo terminou, mas nunca foi lançado.\r\na música é boa! Ele joga muito como Ninja Gaidan. Ritmo muito rápido. Você pode escalar paredes, chute de pulo, soco, muita diversão."
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1992"
+    }
+  ],
+  "genres": [
+    {
+      "id": "13",
+      "nomcourt": "0200",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Adventure"
+        },
+        {
+          "langue": "fr",
+          "text": "Aventure"
+        },
+        {
+          "langue": "de",
+          "text": "Abenteuer"
+        },
+        {
+          "langue": "es",
+          "text": "Aventura"
+        },
+        {
+          "langue": "it",
+          "text": "Avventura"
+        },
+        {
+          "langue": "pt",
+          "text": "Aventura"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=sstitle(us)",
+      "region": "us",
+      "crc": "1b8a9612",
+      "md5": "aef6c5dbe7b6507fc5955f14d644d83e",
+      "sha1": "51dcd531747e6ef3a1ef43d3a58e100fabc96cbe",
+      "size": "12993",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=ss(us)",
+      "region": "us",
+      "crc": "500ffab6",
+      "md5": "4b3bc6dfab4cad87bc42a279d5f64c21",
+      "sha1": "0f4adc4528bc9456c7bd0769d4157df2e553c5b4",
+      "size": "65693",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=fanart",
+      "crc": "a30768cf",
+      "md5": "f05d87c48e17825f38633cb3fcf7a6cf",
+      "sha1": "dc3e695bbbb97f19098a442f364f85bcad582e2f",
+      "size": "166749",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=video",
+      "crc": "dd37904f",
+      "md5": "bd7248a3e02068c293be51322b395420",
+      "sha1": "6196c7e4c27646b8f2eadd493edea0a16fe5d701",
+      "size": "2224007",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=video-normalized",
+      "crc": "4e242cdb",
+      "md5": "e2ca6181d0553d50088cdff6b55eeee2",
+      "sha1": "f8f1ea81655a2bec49ce7749b7995194d87d1e49",
+      "size": "1451581",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=steamgrid",
+      "crc": "261e3290",
+      "md5": "a91b7e8807f449aa2ec57f0643d04519",
+      "sha1": "2843d7bebe9a7be76f6883b4e302388865a6ef3b",
+      "size": "31230",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=wheel(us)",
+      "region": "us",
+      "crc": "d3287134",
+      "md5": "c7017750dd3229182344f9aff64a776e",
+      "sha1": "68f6d93c8771035d5ee1c9e0494ecf19e1bbedaf",
+      "size": "73840",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=wheel-carbon(us)",
+      "region": "us",
+      "crc": "f5e77797",
+      "md5": "7f3df4af442bd228add66267d1f8e3e6",
+      "sha1": "e57587edf1c9992eb0f19c3c59533a189d721bf6",
+      "size": "112153",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=wheel-steel(us)",
+      "region": "us",
+      "crc": "90c39c34",
+      "md5": "5b677fb833ed61b1cba3b989cf9a2f02",
+      "sha1": "c9bd72c6571f3e47f98fff558d9430da9e63b371",
+      "size": "112722",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=screenmarquee(us)",
+      "region": "us",
+      "crc": "2daceb9f",
+      "md5": "9c8a3888651b94963bb9f3e3b0bdf4e8",
+      "sha1": "191554570852c3e8656f1ea89cd9b4cc219cf812",
+      "size": "464771",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=screenmarqueesmall(us)",
+      "region": "us",
+      "crc": "fe6412b6",
+      "md5": "fb1488c1e7dd86b163fea19a14807dd3",
+      "sha1": "90c380d3e4f90be20ad51dc063d86f4490d1acf1",
+      "size": "70903",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "99372168",
+      "md5": "840fc1c31f56079e3f198bc242c5d3a7",
+      "sha1": "a9686883d91469c65e59cede0467ca7853a71c6c",
+      "size": "234999",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=box-2D(us)",
+      "region": "us",
+      "crc": "20675658",
+      "md5": "010d42cd78222f441a339d6e63e910ef",
+      "sha1": "7966e1be322cdc0b8a991328b01cfb06a2567625",
+      "size": "456577",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=box-2D(wor)",
+      "region": "wor",
+      "crc": "74e13bd3",
+      "md5": "d45b479190372d3c6070c9a293155501",
+      "sha1": "32fe39c6254faab4b8e739a6e62564ef0d522474",
+      "size": "256860",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "36101979",
+      "md5": "07ec30cdb24f053a228766e36756d994",
+      "sha1": "35106ca0ceaffe1fad129d558ea93114614d5ad0",
+      "size": "20416",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "c169c2a9",
+      "md5": "326e2e4cb2dd9dce3c8a95d9c081c19a",
+      "sha1": "eae4e839940515cdbb4c56f15b21ed069d5cbea9",
+      "size": "12839",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=box-2D-side(wor)",
+      "region": "wor",
+      "crc": "295a5c6a",
+      "md5": "c5a81b426a855ab336e05431d2d91f59",
+      "sha1": "3a1390cd027f8ec5a425fd8f2c340750bfaa7212",
+      "size": "7853",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "01ee17f7",
+      "md5": "927d3d17913ffe04112cae8647b59427",
+      "sha1": "2fcfb62ed68835b3a022d51c8c3e2c739fff5009",
+      "size": "175630",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "31a6c060",
+      "md5": "c7d7ec007267a97cc3fc866d0d754f8a",
+      "sha1": "8c20efd224bc01eb16022dd239e817c46a0c405d",
+      "size": "258069",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=box-2D-back(wor)",
+      "region": "wor",
+      "crc": "548145ef",
+      "md5": "0fe0732de0b8d1d9acb8437fc98e4479",
+      "sha1": "9a254f6f8d7cb76271ddd74ec172d44de8c8496b",
+      "size": "220186",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "497c6518",
+      "md5": "9987de0921911f2b6c242e2f44c830a5",
+      "sha1": "b6a0275fd7780a47fe15e0ef37542837e6963770",
+      "size": "449363",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=box-texture(us)",
+      "region": "us",
+      "crc": "bae4b2a6",
+      "md5": "f66225276a833469a549c44194573aaa",
+      "sha1": "e2e59eda8028b2baaebc908d6278c61a7e50bada",
+      "size": "825858",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=box-texture(wor)",
+      "region": "wor",
+      "crc": "30af20e0",
+      "md5": "bdd094ebf006ee2ac48f9d24b9fdfa6e",
+      "sha1": "d0c51ecd780ba783a4a8af8a858dae56cc40c997",
+      "size": "460770",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "251da798",
+      "md5": "bd5d65d6514fd9cd476fe351674281d0",
+      "sha1": "01850848b43222864b0a7c4f1dcdf76a50c1b68c",
+      "size": "161898",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=box-3D(us)",
+      "region": "us",
+      "crc": "2537b8bc",
+      "md5": "7dacd7b817749aa16433756902194a6c",
+      "sha1": "d4f9ef66a35eabf72e5e94b129db076a0ede5f50",
+      "size": "246267",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=box-3D(wor)",
+      "region": "wor",
+      "crc": "67a3ba23",
+      "md5": "32f2db46046342650924d84f640248fa",
+      "sha1": "0cf9db6380d9bae60d46a4372bc44fd22774e91e",
+      "size": "178785",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=support-texture(us)",
+      "region": "us",
+      "crc": "66dedbe1",
+      "md5": "ab2b7f118e93666767dab89b28ea752a",
+      "sha1": "e5708f0616e6584c61a818c9a7f4254f5c3f6b2d",
+      "size": "282580",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=support-2D(us)",
+      "region": "us",
+      "crc": "298e5849",
+      "md5": "4c0c1f7fba6be51d28e6f797578f93ed",
+      "sha1": "22622f3317d0e5021ed3fe7daea82005c494051d",
+      "size": "228806",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1406",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=bezel-16-9(us)",
+      "region": "us",
+      "crc": "f14d7a29",
+      "md5": "2c3f86286a35aae8d2f7975553d10d85",
+      "sha1": "a7ea83bb25f975083204537e4159b64a4ed40585",
+      "size": "220641",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "baa51d83",
+      "md5": "ba5a48df5dbea1910f71ed0eb40531a6",
+      "sha1": "a76ede3d91346431140db1833c8ed50072785df1",
+      "size": "442618",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "65cbf5f0",
+      "md5": "15244d7ec81829f6584295fc45434f31",
+      "sha1": "432b8bd44bd2f3a3dcc6a5b246b74b36ca27849f",
+      "size": "486807",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "e83f353d",
+      "md5": "53f82a0284de23adb1f61e0e47f44897",
+      "sha1": "0210dae61fd0eecddb12a175db49db9e45332c90",
+      "size": "458754",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "1d8fda51",
+      "md5": "92952720874efe5ac9013679400f4dca",
+      "sha1": "3101b107502c48095c5c06f5c4bab1fc74054906",
+      "size": "710962",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "a4ea6d58",
+      "md5": "ed2143878d9b9c2ab35dc9297a54cd9f",
+      "sha1": "de0c82632439d245b69ed448b6db9d64dfeea819",
+      "size": "754216",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=88647&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "62ff75ac",
+      "md5": "d0004e6f400931acd8ae0a2936e28818",
+      "sha1": "4b923f3d23d25128635949b926f804e9e25b20a6",
+      "size": "728241",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2792&media=logo-monochrome",
+      "crc": "03da61ce",
+      "md5": "71c7f2389ccdb1f3a375e7a542ae6529",
+      "sha1": "7d2c594629429730ca8f6e1a9f046a7853d350ac",
+      "size": "12148",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2792&media=wheel",
+      "crc": "00a6dcc6",
+      "md5": "59535627e467a301254e2b7655f049c6",
+      "sha1": "9a004b799e9acbac28399033804e6d7017416df8",
+      "size": "15844",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2792&media=logo-monochrome",
+      "crc": "03da61ce",
+      "md5": "71c7f2389ccdb1f3a375e7a542ae6529",
+      "sha1": "7d2c594629429730ca8f6e1a9f046a7853d350ac",
+      "size": "12148",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "developpeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=2792&media=wheel",
+      "crc": "00a6dcc6",
+      "md5": "59535627e467a301254e2b7655f049c6",
+      "sha1": "9a004b799e9acbac28399033804e6d7017416df8",
+      "size": "15844",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=pictoliste",
+      "crc": "8110c97e",
+      "md5": "3ae29e736d50a81e950bc09995eef920",
+      "sha1": "684567ae8537e5394d8335cfbcdbe65336b63042",
+      "size": "908",
+      "format": "png"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=logo-monochrome",
+      "crc": "7d6f79cd",
+      "md5": "29fe47711b1700461adb943b75e243c6",
+      "sha1": "7ff3b47680c560229f2c79b04e36633945f1076b",
+      "size": "9191",
+      "format": "png"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=logo-monochrome-svg",
+      "crc": "5da7342f",
+      "md5": "c6c487d7b83f59704d60dc3db9aeb738",
+      "sha1": "99eb7921f5b9df09c257df3eee61f97f786e4a89",
+      "size": "4852",
+      "format": "svg"
+    },
+    {
+      "id": "13",
+      "parent": "genre",
+      "subparent": "Aventure",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=13&media=background",
+      "crc": "b7f54e2e",
+      "md5": "5c9ff45078054d25bb6fc33154c1be54",
+      "sha1": "3fbc535b5792ae9152e00219e8b84fee41f945ee",
+      "size": "275320",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "137204",
+      "romsize": "262160",
+      "romfilename": "Secret Ties (USA) (Proto).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "9E131010",
+      "rommd5": "F13A9AB225112C6D257128771EB97F2C",
+      "romsha1": "A660792F0F05B84ED76B21FCB2B2586F239CF023",
+      "beta": "0",
+      "demo": "0",
+      "proto": "1",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "233835",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "13344",
+      "romsize": "169195",
+      "romfilename": "Secret Ties (USA) (Proto).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3DEA0EE5",
+      "rommd5": "E6E3E5AAD8503CE679777E120386DDBC",
+      "romsha1": "41CFF210EF9B126DA035532F040FD8C4926C8357",
+      "beta": "0",
+      "demo": "0",
+      "proto": "1",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "82213",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "544328",
+      "romsize": "169690",
+      "romfilename": "Secret Ties.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8485206E",
+      "rommd5": "F90066FAF331B1FFFE664BF7AF3487BA",
+      "romsha1": "CB5190A18E335759564581ACC8C44583E9B107C8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "21963"
+    },
+    {
+      "id": "1143363",
+      "romsize": "262160",
+      "romfilename": "Secret Ties (USA) (Proto).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0f39fab8",
+      "rommd5": "dd52d1d693570d7c1367a0d87df155fa",
+      "romsha1": "faecc26f785739b8407fd30dc792e9246f2e3e9c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "19295",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "594626",
+      "romsize": "169434",
+      "romfilename": "Secret Ties (U) (Prototype).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "850015D2",
+      "rommd5": "1D04F5AAAC9257FFD47E06F898B74045",
+      "romsha1": "5F50511C52CA9E333783B12B3B08029D79731BEA",
+      "beta": "0",
+      "demo": "0",
+      "proto": "1",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "10249",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "174397",
+      "romsize": "262144",
+      "romfilename": "Secret Ties (USA) (Proto).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "B4801882",
+      "rommd5": "B1BE5852FC442BF021C4E0C8B9313383",
+      "romsha1": "B10594E7CBB7CE95BD57667E2DB62CC9B4810432",
+      "beta": "0",
+      "demo": "0",
+      "proto": "1",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2707",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "114895",
+      "romsize": "169173",
+      "romfilename": "Secret Ties (USA) (Proto).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "0EF1B821",
+      "rommd5": "A62B1E17A5AA56CBE25F5DF45615E191",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "1",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "175",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    }
+  ]
+}

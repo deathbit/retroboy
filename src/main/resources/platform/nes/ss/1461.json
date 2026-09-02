@@ -1,0 +1,2269 @@
+{
+  "id": "1461",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "1942"
+    },
+    {
+      "region": "us",
+      "text": "1942"
+    },
+    {
+      "region": "jp",
+      "text": "1942"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "31",
+    "text": "Capcom"
+  },
+  "developpeur": {
+    "id": "2896",
+    "text": "Micronics"
+  },
+  "joueurs": {
+    "text": "1-2"
+  },
+  "note": {
+    "text": "11"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "A conversion of the arcade game, 1942 is a vertically scrolling shooter for one or two players. The year is 1942, and you are a daring fighter pilot &quot;Super Ace&quot;. You begin and end each of the numerous levels on an aircraft carrier and then fly your plane into battle against the enemy over both sea and land. After destroying certain plane formations you can collect several different power ups to increase your fire power and chances of survival."
+    },
+    {
+      "langue": "fr",
+      "text": "Un shoot'em up qui vous place aux commandes d'un avion américain face aux flottes japonaises. A chaque début de niveau vous décollez de votre porte-avions pour survoler terres et mers en vue de détruire des formations entières d'avions ennemis, cela vous permettant d'acquérir des bonus pour vos armes."
+    },
+    {
+      "langue": "de",
+      "text": "Ein Umbau des Arcade-Spiels von 1942 ist ein vertikal scrollender Shooter für ein oder zwei Spieler. \r\n\r\nWir schreiben das Jahr 1942 und Sie sind ein mutiger Kampfpilot &quot;Super Ace&quot;. \r\nSie beginnen und beenden jedes der zahlreichen Level auf einem Flugzeugträger und fliegen dann mit Ihrem Flugzeug über Meer und Land in den Kampf gegen den Feind. \r\nNachdem Sie bestimmte Flugzeugformationen zerstört haben, können Sie verschiedene Power-Ups sammeln, um Ihre Feuerkraft und Überlebenschancen zu erhöhen."
+    },
+    {
+      "langue": "es",
+      "text": "1942 es shoot 'em up desarrollado por Capcom que fue lanzado para máquinas recreativas en 1984. Fue el primer juego de la serie 19XX. La serie siguió posteriormente con &quot;1943: The Battle of Midway&quot;.\r\n1942 se ambienta en la Guerra del Pacífico, que enfrentó a los Estados Unidos con Japón durante la Segunda Guerra Mundial.\r\nPilotas un P-38 Lightning del ejército americano y tienes que derribar un máximo de aviones enemigos decididos a acabar con tu incursión. Tu objetivo final, tras atravesar varias localizaciones a lo largo de 32 intensos niveles, es llegar a Okinawa para asestar un golpe mortal a la moral del Imperio del Sol Naciente."
+    },
+    {
+      "langue": "it",
+      "text": "Una conversione del gioco arcade, 1942 è uno sparatutto a scorrimento verticale per uno o due giocatori. L'anno è il 1942 e tu sei un audace pilota di caccia &quot;Super Ace&quot;. Inizi e finisci ciascuno dei numerosi livelli su una portaerei e poi fai volare il tuo aereo in battaglia contro il nemico sia in mare che in terra. Dopo aver distrutto alcune formazioni aeree, puoi raccogliere diversi potenziamenti per aumentare la tua potenza di fuoco e le possibilità di sopravvivenza."
+    },
+    {
+      "langue": "pt",
+      "text": "Uma conversão do jogo de arcade, 1942 é um shooter de rolagem vertical para um ou dois jogadores. O ano é 1942 e você é um ousado piloto de caça &quot;Super Ace&quot;. Você começa e termina cada um dos vários níveis em um porta-aviões e, em seguida, decola para a batalha sobre terra e mar. Depois de destruir certas formações de aviões inimigos, você pode coletar diferentes power-ups para aumentar seu poder de fogo e suas chances de sobrevivência."
+    }
+  ],
+  "classifications": [
+    {
+      "type": "ESRB",
+      "text": "E"
+    }
+  ],
+  "dates": [
+    {
+      "region": "us",
+      "text": "1986-11-01"
+    },
+    {
+      "region": "jp",
+      "text": "1985-12-11"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2851",
+      "nomcourt": "0104",
+      "principale": "0",
+      "parentid": "79",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shoot'em Up / Vertical"
+        },
+        {
+          "langue": "fr",
+          "text": "Shoot'em up / Vertical"
+        },
+        {
+          "langue": "de",
+          "text": "Shoot'em Up / Vertikal"
+        },
+        {
+          "langue": "es",
+          "text": "Shoot'em Up / Vertical"
+        },
+        {
+          "langue": "it",
+          "text": "Shoot'em Up / Verticale"
+        },
+        {
+          "langue": "pt",
+          "text": "Shoot'em Up / Vertical"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "nomcourt": "0104",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "fr",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "de",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "es",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "it",
+          "text": "Shoot'em Up"
+        },
+        {
+          "langue": "pt",
+          "text": "Shoot'em Up"
+        }
+      ]
+    }
+  ],
+  "modes": [
+    {
+      "id": "4",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Single-player"
+        },
+        {
+          "langue": "fr",
+          "text": "Jouable en solo"
+        },
+        {
+          "langue": "de",
+          "text": "Einzelspieler"
+        },
+        {
+          "langue": "es",
+          "text": "Jugador individual"
+        },
+        {
+          "langue": "it",
+          "text": "Giocatore singolo"
+        },
+        {
+          "langue": "pt",
+          "text": "Jogador individual"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "nomcourt": "",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Local Multiplayer"
+        },
+        {
+          "langue": "fr",
+          "text": "Multi en local"
+        },
+        {
+          "langue": "de",
+          "text": "Lokaler Multiplayer"
+        },
+        {
+          "langue": "es",
+          "text": "Multijugador local"
+        },
+        {
+          "langue": "it",
+          "text": "Multigiocatore locale"
+        },
+        {
+          "langue": "pt",
+          "text": "Multijogador local"
+        }
+      ]
+    }
+  ],
+  "familles": [
+    {
+      "id": "3955",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "194X"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "68a40f62",
+      "md5": "4f033ad84cc7181fd2f5ea8a1eef3e4b",
+      "sha1": "b9f96462013ec24632cb9e6f69adfe15bb5c6e44",
+      "size": "1923",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=ss(wor)",
+      "region": "wor",
+      "crc": "69bd2e8c",
+      "md5": "5f2f307f06db0d408a73e68fe4fb78d5",
+      "sha1": "cf2fc2ffeb70a44fe870a208628c949eb7bea511",
+      "size": "2863",
+      "format": "png"
+    },
+    {
+      "type": "fanart",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=fanart",
+      "crc": "ee1d0a6d",
+      "md5": "4a9aedf2fb43a67297da7e46867537e6",
+      "sha1": "aae75dcf1b350d2a2938bbc2b72e99ea349ba079",
+      "size": "988588",
+      "format": "jpg"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=video",
+      "crc": "af42efb9",
+      "md5": "35a2033b58da77584457cfb8972c99da",
+      "sha1": "078030c8f97d09c242f98eed854935cf8fe35a0b",
+      "size": "2974133",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=video-normalized",
+      "crc": "26c9f776",
+      "md5": "44e9c4a9eaf5b3a679253d2aa18aea95",
+      "sha1": "5f4bfd9cefb3b189db0cc0b37fbae2f4f409e116",
+      "size": "2027571",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=steamgrid",
+      "crc": "eab6fc63",
+      "md5": "87e332fdde3dcfe6a4ef9a4b4a1e30b9",
+      "sha1": "4db2d3ede7e6231bfafddf7c1f4611042bd7dc3c",
+      "size": "28418",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=wheel(jp)",
+      "region": "jp",
+      "crc": "a0a7d8b3",
+      "md5": "b43e3e555e9bffeaaa241b4d8a85ad71",
+      "sha1": "46d9bf27e2c9c40d6e08b0eb5f54c02bf315c75b",
+      "size": "60525",
+      "format": "png"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=wheel(us)",
+      "region": "us",
+      "crc": "eb154df6",
+      "md5": "5cb24c2dcef3bf4a997fadad9c6c19b4",
+      "sha1": "85cd6f30768ce70a8caf9f2df9f23ed1fe7c94bd",
+      "size": "78861",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=wheel-carbon(jp)",
+      "region": "jp",
+      "crc": "6b781ba5",
+      "md5": "e4c7cbdf7087bbe8ca56a4ba82b88ddc",
+      "sha1": "47adab18dff91fdff77c916438912631bccf31d4",
+      "size": "105751",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=wheel-carbon(us)",
+      "region": "us",
+      "crc": "6f30d70e",
+      "md5": "75acc59a670581ea005c8b08e9d6e7d1",
+      "sha1": "5b679de6d82f2f17da97ba8ad6f1def7a741314c",
+      "size": "113320",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=wheel-steel(jp)",
+      "region": "jp",
+      "crc": "3980754d",
+      "md5": "97ac3cda82c84c2c2fed9ec3fe5b517e",
+      "sha1": "eadad2df388e079d78748ac2c8d0e25224697653",
+      "size": "107061",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=wheel-steel(us)",
+      "region": "us",
+      "crc": "3dbcb764",
+      "md5": "f4710ab2d2f72f3c3e67851286294f62",
+      "sha1": "ad5c248054b9435a7ae99548a51517dec89cfd90",
+      "size": "115219",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=screenmarquee(jp)",
+      "region": "jp",
+      "crc": "e0a62ac1",
+      "md5": "8ecca94891f1a4363295d3f006f511a2",
+      "sha1": "8e598db3c34d76253713dbfdb98d38bbed2991d9",
+      "size": "464637",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=screenmarquee(us)",
+      "region": "us",
+      "crc": "2bc1e8d1",
+      "md5": "647ac8716b192720c34e1c4889aa72b3",
+      "sha1": "ea15f0b0237fb0a6322ed6a23bf3638ad2eea64d",
+      "size": "455690",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=screenmarqueesmall(jp)",
+      "region": "jp",
+      "crc": "b3cb9439",
+      "md5": "94749a46acbd0742697ad9899286cc36",
+      "sha1": "4a9fcbf534994a5c6f8f03b3ac2a2b9044c7d287",
+      "size": "72993",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=screenmarqueesmall(us)",
+      "region": "us",
+      "crc": "8b00349f",
+      "md5": "a1aeb4ded64ec703ca889e83cc200b8c",
+      "sha1": "2067361b3d880b2bf55c1ea21e42a9b1a3d0a314",
+      "size": "70630",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=box-2D(jp)",
+      "region": "jp",
+      "crc": "c3054891",
+      "md5": "51d98e89c66bc8aa81f83ed64548b90b",
+      "sha1": "19a6b9225987c337946687f18efd0f453a0da041",
+      "size": "623748",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=box-2D(ss)",
+      "region": "ss",
+      "crc": "ffbfe586",
+      "md5": "ccb4640da8f90c5718d7a4d8a461e613",
+      "sha1": "dec49749c350572ca99349e54f1e292c69c38494",
+      "size": "184279",
+      "format": "png"
+    },
+    {
+      "type": "box-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=box-2D(us)",
+      "region": "us",
+      "crc": "a143bfa8",
+      "md5": "2c75d325f7f3ff40afaa54648ff92420",
+      "sha1": "4988fc628846673414ed7408668b9093e17cde77",
+      "size": "487320",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=box-2D-side(jp)",
+      "region": "jp",
+      "crc": "0b554341",
+      "md5": "9c404ebc3223669722966f609e3ae902",
+      "sha1": "2dd5fa066b3501855574b0a6f172eb9d50368ccd",
+      "size": "104653",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=box-2D-side(ss)",
+      "region": "ss",
+      "crc": "e3747e93",
+      "md5": "d72908beec45cf2db970a916e47d0248",
+      "sha1": "6587e0882c7d69234bd8b28e73284ed57a9235b2",
+      "size": "24883",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-side",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=box-2D-side(us)",
+      "region": "us",
+      "crc": "c540f639",
+      "md5": "c26bbffecba61daf21b52d51ad4b97f6",
+      "sha1": "486228a532c9d22c983dfceeee3cc6e8d83a223a",
+      "size": "69844",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=box-2D-back(jp)",
+      "region": "jp",
+      "crc": "b710ca74",
+      "md5": "850b6f18ef11365d702715d59eaa181e",
+      "sha1": "793a633f77b5e21663f842b30733408231c4581a",
+      "size": "624530",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=box-2D-back(ss)",
+      "region": "ss",
+      "crc": "ad23cfc4",
+      "md5": "1fdfcb4700d1a1c40340e28d65a70ec4",
+      "sha1": "03b1677f9b389d37cbace5a801f84f42f211ea26",
+      "size": "160537",
+      "format": "png"
+    },
+    {
+      "type": "box-2D-back",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=box-2D-back(us)",
+      "region": "us",
+      "crc": "8ebb8fcc",
+      "md5": "b1ec641a19ce44974b06041192bdfdae",
+      "sha1": "7ec36966bd897755122f16fea7e481b4cb450b19",
+      "size": "359841",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=box-texture(jp)",
+      "region": "jp",
+      "crc": "0d957499",
+      "md5": "726d50a64a592612cd82b8476a416fb0",
+      "sha1": "bf89db4af51a705cbc70869af4463d39227030f4",
+      "size": "1368604",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=box-texture(ss)",
+      "region": "ss",
+      "crc": "da5bec3b",
+      "md5": "c9f575a704a3a63b245745e068194886",
+      "sha1": "0d26d7eb86e85072916d528adebc43c5483e4ec6",
+      "size": "397707",
+      "format": "png"
+    },
+    {
+      "type": "box-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=box-texture(us)",
+      "region": "us",
+      "crc": "46cf96e2",
+      "md5": "6085b6ddd2d548287b5c83d85b44fe5c",
+      "sha1": "f1536b12f6913ca9a79d6730393d489cc3dd037b",
+      "size": "950221",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=box-3D(jp)",
+      "region": "jp",
+      "crc": "fb68b033",
+      "md5": "5b269695dff51fc14c0406c1dacaeb84",
+      "sha1": "920920713a0597e1000f397eb951002c54fafeac",
+      "size": "333227",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=box-3D(ss)",
+      "region": "ss",
+      "crc": "6288ccc3",
+      "md5": "f13685234b3470b37c30e1fe0c758fcb",
+      "sha1": "a00d8c792fe6bc004e7c718de03d5c1a1bc10f57",
+      "size": "182638",
+      "format": "png"
+    },
+    {
+      "type": "box-3D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=box-3D(us)",
+      "region": "us",
+      "crc": "ea425ce9",
+      "md5": "4f8449bfd5e6614d812fc9553eeec437",
+      "sha1": "0ccd2eeea655307c4779ba46ed8d42d448b86c2d",
+      "size": "266328",
+      "format": "png"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=manuel(jp)",
+      "region": "jp",
+      "crc": "a457d701",
+      "md5": "1427781c91f3dc0f041d75ff28a92ac6",
+      "sha1": "820232af4680d3d9a41cc07122c5e9534d6fb5fb",
+      "size": "1382550",
+      "format": "pdf"
+    },
+    {
+      "type": "manuel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaManuelJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=manuel(us)",
+      "region": "us",
+      "crc": "d56600d4",
+      "md5": "df923c4facafba1ff2c81a517e553bad",
+      "sha1": "c25ac7257bacb96d0ffac7db54d238f8f7bea9ab",
+      "size": "828395",
+      "format": "pdf"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "81331599",
+      "md5": "ebaf3f747c9d8e06f4bd760c037978ed",
+      "sha1": "fe791b66038eed324b2982d63d1e022cf7a6e001",
+      "size": "289701",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=support-texture(us)",
+      "region": "us",
+      "crc": "6f28d3b9",
+      "md5": "202f1b905634e536784ed74aaf6e90cb",
+      "sha1": "532b99cec9c4c0d6f5efe8ce3d067ea3a1810a4c",
+      "size": "367135",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=support-texture(us)",
+      "region": "eu",
+      "crc": "6f28d3b9",
+      "md5": "202f1b905634e536784ed74aaf6e90cb",
+      "sha1": "532b99cec9c4c0d6f5efe8ce3d067ea3a1810a4c",
+      "size": "367135",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "d0c946d1",
+      "md5": "128b75236f62b35d54b782f3b727af1f",
+      "sha1": "64fbb385c5b6ff240b3aecf24ea339da0aada4fa",
+      "size": "329815",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=support-2D(us)",
+      "region": "us",
+      "crc": "ffdbd23e",
+      "md5": "c86ac0b0fd67ec920801e128699230d3",
+      "sha1": "eaab240c3304a1d9ac7864e4d8868bfcc41d175e",
+      "size": "361381",
+      "format": "png"
+    },
+    {
+      "type": "bezel-16-9",
+      "parent": "jeu",
+      "posx": "259",
+      "posy": "2",
+      "posw": "1405",
+      "posh": "1075",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=bezel-16-9(wor)",
+      "region": "wor",
+      "crc": "5f9393a2",
+      "md5": "99aeb8edc232a9e6316aa70bcf8f4372",
+      "sha1": "81672a6ffa825a475cd00894a0d97163aac19b5b",
+      "size": "120754",
+      "format": "png"
+    },
+    {
+      "type": "themehb",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaFichierJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=themehb",
+      "crc": "7d512b34",
+      "md5": "d42fa9909339b22d7036efdf46f21224",
+      "sha1": "56dbe53ceb9ea7c27465e40896e55728cea08624",
+      "size": "733135",
+      "format": "zip"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=mixrbv1(jp)",
+      "region": "jp",
+      "crc": "f91ddbd5",
+      "md5": "33b1b09ea8619f91766c982a2dca55e0",
+      "sha1": "48ae69cb191e69f1d9c94185e801ce50178dbb53",
+      "size": "587152",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=mixrbv1(ss)",
+      "region": "ss",
+      "crc": "607025b0",
+      "md5": "acebff848955ba881a5484e278ec199a",
+      "sha1": "3daf96e791a59f01260d3bd4ffa33c8d21ba6a71",
+      "size": "507841",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=mixrbv1(us)",
+      "region": "us",
+      "crc": "55828d2f",
+      "md5": "8c6899e184925f3cd201d4b98d4e7131",
+      "sha1": "11c6e73bac6460fc17da2c76ab95bd98f6777f57",
+      "size": "554186",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "55828d2f",
+      "md5": "8c6899e184925f3cd201d4b98d4e7131",
+      "sha1": "11c6e73bac6460fc17da2c76ab95bd98f6777f57",
+      "size": "554186",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "6737a368",
+      "md5": "f34ce62fa9d5efa2c6c858868681b9ba",
+      "sha1": "763fcc180d9e1b6977b7983d54dfbed0f1b612cf",
+      "size": "838632",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=mixrbv2(ss)",
+      "region": "ss",
+      "crc": "abb7f4db",
+      "md5": "df0ab5d0026486f2bce5eaf86d466838",
+      "sha1": "646634887b7b38eab7942e306333336088d62656",
+      "size": "736683",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=mixrbv2(us)",
+      "region": "us",
+      "crc": "f7f349b4",
+      "md5": "a4ec9befeeb14d7d4f587418176c5e8a",
+      "sha1": "3e09fb149dd3c721d397a704b45c9ff3e21af73f",
+      "size": "784368",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=1461&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "f7f349b4",
+      "md5": "a4ec9befeeb14d7d4f587418176c5e8a",
+      "sha1": "3e09fb149dd3c721d397a704b45c9ff3e21af73f",
+      "size": "784368",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=31&media=logo-monochrome",
+      "crc": "56d95cb2",
+      "md5": "cc8dd6b38b8e19d1331d2d1d20669a04",
+      "sha1": "5e8e820d8eb8822db4c7c8b422f180824489e45c",
+      "size": "3273",
+      "format": "png"
+    },
+    {
+      "type": "pictocouleur",
+      "parent": "editeur",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaCompagnie.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&companyid=31&media=wheel",
+      "crc": "2bb72fc7",
+      "md5": "b679d5b9e5b3f51bcec8429317403cca",
+      "sha1": "9cee04c83c288e53053cf0c9ab9edacbc21e6de6",
+      "size": "62878",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3304&media=pictoliste",
+      "crc": "0abdc9bf",
+      "md5": "05057bd8fcfe368b23628ba314e94df0",
+      "sha1": "6d9b48053c720498ece35d0029621b7d25010d3b",
+      "size": "449",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3550&media=pictoliste",
+      "crc": "545d32d3",
+      "md5": "d7761d949c52acdc50b87bbfee117b2a",
+      "sha1": "4ac9f10b4ea1ef10e9d5b312235fe807a13dc1cf",
+      "size": "344",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=pictoliste",
+      "crc": "cafca3d7",
+      "md5": "51bfa81c19838bc679411a7b6f4053e2",
+      "sha1": "92253cf472ed8e71780c29ddeb6c6e260325ce1f",
+      "size": "593",
+      "format": "png"
+    },
+    {
+      "type": "pictomonochrome",
+      "parent": "classification",
+      "subparent": "ESRB",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3653&media=logo-monochrome",
+      "crc": "e4f09f59",
+      "md5": "031f5b008fd851f56fea852bf9f95126",
+      "sha1": "8160d583dde154dcbd717217182d2b310e756e92",
+      "size": "10670",
+      "format": "png"
+    },
+    {
+      "id": "2851",
+      "parent": "genre",
+      "subparent": "Shoot'em up / Vertical",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2851&media=pictoliste",
+      "crc": "9c00d7a8",
+      "md5": "dbd75ba0db99aaf2e1d67cc48e6726ab",
+      "sha1": "1c576a324bfaaed85f03a50f2bacc04adeec55c3",
+      "size": "18416",
+      "format": "png"
+    },
+    {
+      "id": "2851",
+      "parent": "genre",
+      "subparent": "Shoot'em up / Vertical",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2851&media=logo-monochrome",
+      "crc": "e19dade7",
+      "md5": "0afcb25a34ac1921a5d0fd64a62c7c54",
+      "sha1": "a1e09d691a44556694fca1542a41ed38df203ebf",
+      "size": "15685",
+      "format": "png"
+    },
+    {
+      "id": "2851",
+      "parent": "genre",
+      "subparent": "Shoot'em up / Vertical",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2851&media=logo-monochrome-svg",
+      "crc": "dbe4b264",
+      "md5": "7af78e308327c111f2e1aeb051b47111",
+      "sha1": "c4b766cfdd728e73f6613bc8f66601fe13d1974a",
+      "size": "2866",
+      "format": "svg"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=pictoliste",
+      "crc": "9746a0d4",
+      "md5": "818adff397e9fa2d57dda2bcf78264f3",
+      "sha1": "c0a1b5b73edc5bed64549be9ea87b8d63cd5dbd4",
+      "size": "801",
+      "format": "png"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=logo-monochrome",
+      "crc": "dd5fe4a2",
+      "md5": "c68fd2d841216a7731ab359f27c83253",
+      "sha1": "a72048fdf61cf38f02c67cdef772745050354773",
+      "size": "4753",
+      "format": "png"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=logo-monochrome-svg",
+      "crc": "cfcb4073",
+      "md5": "04b04e406dbe7fa283310d319b206485",
+      "sha1": "47dd7fbeff5af8dbf486031b966857d8c9e4f416",
+      "size": "1681",
+      "format": "svg"
+    },
+    {
+      "id": "79",
+      "parent": "genre",
+      "subparent": "Shoot'em Up",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=79&media=background",
+      "crc": "f14aae18",
+      "md5": "73879fae56ae9f80579a8381b60886f3",
+      "sha1": "3f3ff926bfb2fc1849397ae0334613cbee48ee68",
+      "size": "174160",
+      "format": "jpg"
+    },
+    {
+      "id": "3955",
+      "parent": "famille",
+      "subparent": "194X",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3955&media=figurine",
+      "crc": "40a9e02d",
+      "md5": "efddb11489cc3a426b1b97d562583061",
+      "sha1": "c84fbcdfcb129f5adfc962e83131c02d61ca530d",
+      "size": "251797",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135243",
+      "romsize": "40976",
+      "romfilename": "1942 (Japan, USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "E9CF747F",
+      "rommd5": "4F90905FD77C1C9456BD5DFE1CEDDC34",
+      "romsha1": "DFB068F72E9EB44E8DBDB181C235DA6CCF6FB4BC",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "147404",
+      "langues": {
+        "langues_id": [
+          "68",
+          "73"
+        ],
+        "langues_shortname": [
+          "en",
+          "ja"
+        ],
+        "langues_en": [
+          "English",
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Anglais",
+          "Japonais"
+        ],
+        "langues_de": [
+          "Englisch",
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Inglés",
+          "Japonés"
+        ],
+        "langues_it": [
+          "Inglese",
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Inglês",
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "2002",
+      "romsize": "25668",
+      "romfilename": "1942 (Japan, USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "8690CEA4",
+      "rommd5": "CCA9D77A463F761CAB23D0DEB170167A",
+      "romsha1": "0D265E7D96B60DC51CB0B38E7967C0E727509275",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "60594",
+      "langues": {
+        "langues_id": [
+          "68",
+          "73"
+        ],
+        "langues_shortname": [
+          "en",
+          "ja"
+        ],
+        "langues_en": [
+          "English",
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Anglais",
+          "Japonais"
+        ],
+        "langues_de": [
+          "Englisch",
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Inglés",
+          "Japonés"
+        ],
+        "langues_it": [
+          "Inglese",
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Inglês",
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "1133163",
+      "romsize": "40976",
+      "romfilename": "1942 (Japan, USA) (En).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "74d7bae1",
+      "rommd5": "073f7e6bd3da86bd1e1d5e3abf525d7e",
+      "romsha1": "1fc8410c271441b313ad4b382fbe9dcd9eefb6cb",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "32416",
+      "langues": {
+        "langues_id": [
+          "68"
+        ],
+        "langues_shortname": [
+          "en"
+        ],
+        "langues_en": [
+          "English"
+        ],
+        "langues_fr": [
+          "Anglais"
+        ],
+        "langues_de": [
+          "Englisch"
+        ],
+        "langues_es": [
+          "Inglés"
+        ],
+        "langues_it": [
+          "Inglese"
+        ],
+        "langues_pt": [
+          "Inglês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "540825",
+      "romsize": "40976",
+      "romfilename": "1942.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "42C89DB5",
+      "rommd5": "12228DA19C67D56B49C4B77828761700",
+      "romsha1": "B06F395364F459DF18B0C9084424A3C3C021304C",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "27499"
+    },
+    {
+      "id": "1248818",
+      "romsize": "40976",
+      "romfilename": "186 Battle of Midway1942.nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "EC20099A",
+      "rommd5": "494277B22464E79F9C663294B48C1408",
+      "romsha1": "076E8FF63B2DE4C0DD76EDB0377BFCC148EF3792",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "23133"
+    },
+    {
+      "id": "406912",
+      "romsize": "40976",
+      "romfilename": "1942.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3ABDA483",
+      "rommd5": "248BDC0EC62B50198E77F0A8A0FFB798",
+      "romsha1": "3D9DC619D266F1A8F6B60806FD003B2F67D3709A",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "17283"
+    },
+    {
+      "id": "528291",
+      "romsize": "25762",
+      "romfilename": "1942.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C38C9939",
+      "rommd5": "749DF7E58E2E5BD9EB59BC4FEED51798",
+      "romsha1": "8439C88A5C79DAFE0A9851B959847E464EB6B3B2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "16393"
+    },
+    {
+      "id": "646307",
+      "romsize": "40976",
+      "romfilename": "1942 (JU) [p1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "84CFA453",
+      "rommd5": "3CDCFDE06778F636EE8D03A1E6F7635F",
+      "romsha1": "7A573AD43F135EFEBBCF13F481C5176FD2474561",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "11693",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "1164741",
+      "romsize": "25810",
+      "romfilename": "1942.zip",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "2FBF582C",
+      "rommd5": "7D10F5A5883F332B912FD18AD16F6396",
+      "romsha1": "C350E7B5D0E887A05DEDDDEDABF5F72C0F28C3BE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "8214"
+    },
+    {
+      "id": "575966",
+      "romsize": "40976",
+      "romfilename": "1942 [NES] [Roms Nintendo en Español] ESP.nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "5047B4D2",
+      "rommd5": "21F93D7DA78B1567AE931EDF1D865387",
+      "romsha1": "A19BC5D294266D8AAA8EEE938EB0B9EC4771CBE5",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "6435",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "520634",
+      "romsize": "25207",
+      "romfilename": "1942 (JU).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "ADAF2DB0",
+      "rommd5": "78CE81E8DCC30FBC23556AF1F136C5F5",
+      "romsha1": "AE4E2E766BA3F2E6683CE88D691558F9C11A862F",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6404",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "572443",
+      "romsize": "49168",
+      "romfilename": "1942 (PC10).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "BE787290",
+      "rommd5": "F582C19B228282A2228DBA0C6E24809B",
+      "romsha1": "9093D1EADEB422534AB5BAC752460D573D87AA2B",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "6168"
+    },
+    {
+      "id": "543647",
+      "romsize": "25205",
+      "romfilename": "1942.zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "1AC42425",
+      "rommd5": "438E2A69C44C88812B724F5CA2EDC908",
+      "romsha1": "0563FA03E4E2A274462F9D76A4BD35F3EE16CB12",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5601"
+    },
+    {
+      "id": "472325",
+      "romsize": "25817",
+      "romfilename": "1942 (Japan, USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "78AF224F",
+      "rommd5": "68543FFA0CD2AF437907FD66A8B6FCAA",
+      "romsha1": "F0DF6D1BA799C3D45850EE69A86A5847B4963A52",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "5376",
+      "langues": {
+        "langues_id": [
+          "68",
+          "73"
+        ],
+        "langues_shortname": [
+          "en",
+          "ja"
+        ],
+        "langues_en": [
+          "English",
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Anglais",
+          "Japonais"
+        ],
+        "langues_de": [
+          "Englisch",
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Inglés",
+          "Japonés"
+        ],
+        "langues_it": [
+          "Inglese",
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Inglês",
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "526737",
+      "romsize": "40976",
+      "romfilename": "1942 (Patch FR).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "FDFC90D7",
+      "rommd5": "D1DBEE883C86A0F312D62AA05F671645",
+      "romsha1": "FBD60F424B9EC219029B13A88AEC5E0C0A95F240",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "1",
+      "gamelink": "0",
+      "nbscrap": "4396",
+      "langues": {
+        "langues_id": [
+          "69"
+        ],
+        "langues_shortname": [
+          "fr"
+        ],
+        "langues_en": [
+          "French"
+        ],
+        "langues_fr": [
+          "Français"
+        ],
+        "langues_de": [
+          "Französisch"
+        ],
+        "langues_es": [
+          "Francés"
+        ],
+        "langues_it": [
+          "Francese"
+        ],
+        "langues_pt": [
+          "Francês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "112876",
+      "romsize": "25646",
+      "romfilename": "1942 (Japan, USA).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "DEE14B5D",
+      "rommd5": "660D087F5ECBF87B222E7D42FA49B7F7",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3970",
+      "langues": {
+        "langues_id": [
+          "68",
+          "73"
+        ],
+        "langues_shortname": [
+          "en",
+          "ja"
+        ],
+        "langues_en": [
+          "English",
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Anglais",
+          "Japonais"
+        ],
+        "langues_de": [
+          "Englisch",
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Inglés",
+          "Japonés"
+        ],
+        "langues_it": [
+          "Inglese",
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Inglês",
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "523223",
+      "romsize": "25765",
+      "romfilename": "1942 (U) [!].zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "227698AC",
+      "rommd5": "65BEB32FA3BB7E888B60457BAC5E8815",
+      "romsha1": "E013BA6ED2D6CE53587FA2A31AF0AB394947A98E",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "1",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "3788",
+      "langues": {
+        "langues_id": [
+          "3830"
+        ],
+        "langues_shortname": [
+          "sk"
+        ],
+        "langues_en": [
+          "Slovak"
+        ],
+        "langues_fr": [
+          "Slovaque"
+        ],
+        "langues_de": [
+          "Slowakisch"
+        ],
+        "langues_es": [
+          "Eslovaco"
+        ],
+        "langues_it": [
+          "Slovacco"
+        ],
+        "langues_pt": [
+          "Eslovaco"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "172388",
+      "romsize": "40960",
+      "romfilename": "1942 (Japan, USA) (En).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "171251E3",
+      "rommd5": "0B66FDF88964235C434DAFF62837AF60",
+      "romsha1": "7F57EACE7CADA7C36412A50F2299231B304527A8",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "2780",
+      "langues": {
+        "langues_id": [
+          "68",
+          "73"
+        ],
+        "langues_shortname": [
+          "en",
+          "ja"
+        ],
+        "langues_en": [
+          "English",
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Anglais",
+          "Japonais"
+        ],
+        "langues_de": [
+          "Englisch",
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Inglés",
+          "Japonés"
+        ],
+        "langues_it": [
+          "Inglese",
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Inglês",
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "577451",
+      "romsize": "41104",
+      "romfilename": "1942 (JU) [o2].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "169D7206",
+      "rommd5": "A675570BF79BBF49ED4F9769D122D152",
+      "romsha1": "C03D4DBB619C19D2DC003DDE0BBCFF0FA5A975D2",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1476",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "577450",
+      "romsize": "41103",
+      "romfilename": "1942 (JU) [o1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "F9681FB0",
+      "rommd5": "2D8863AAE3EF06BEF9D8B6DD08F69769",
+      "romsha1": "5D143E5C5A2C3D25A74AD033F06725A0C294F8D0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1378",
+      "regions": {
+        "regions_id": [
+          "46"
+        ],
+        "regions_shortname": [
+          "us"
+        ],
+        "regions_en": [
+          "USA"
+        ],
+        "regions_fr": [
+          "USA"
+        ],
+        "regions_de": [
+          "USA"
+        ],
+        "regions_es": [
+          "USA"
+        ],
+        "regions_it": [
+          "USA"
+        ],
+        "regions_pt": [
+          "EUA"
+        ]
+      }
+    },
+    {
+      "id": "537694",
+      "romsize": "25548",
+      "romfilename": "1919 (Hard).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "724A1D72",
+      "rommd5": "4B2E5DB6263601439745FF5C961618CA",
+      "romsha1": "B8DAFA702825A1F5406B782930652561AD24497D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "574"
+    },
+    {
+      "id": "478818",
+      "romsize": "25777",
+      "romfilename": "1942 (Japan, USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "CDB86FB2",
+      "rommd5": "121AECD2C5FD8288E07B5B7CBE7CC078",
+      "romsha1": "982A8766237EA040EC047B85D8E4F123A1F56E7D",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "398",
+      "langues": {
+        "langues_id": [
+          "68",
+          "73"
+        ],
+        "langues_shortname": [
+          "en",
+          "ja"
+        ],
+        "langues_en": [
+          "English",
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Anglais",
+          "Japonais"
+        ],
+        "langues_de": [
+          "Englisch",
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Inglés",
+          "Japonés"
+        ],
+        "langues_it": [
+          "Inglese",
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Inglês",
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "310617",
+      "romsize": "25823",
+      "romfilename": "1942 (Patch FR).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "373F81E7",
+      "rommd5": "7DAD5954F4FA7FADEE7A0D02E60FC095",
+      "romsha1": "C9D4BFF8BFF7EF4FF6F4C4AA6ABF0C892A008E95",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "344",
+      "langues": {
+        "langues_id": [
+          "69"
+        ],
+        "langues_shortname": [
+          "fr"
+        ],
+        "langues_en": [
+          "French"
+        ],
+        "langues_fr": [
+          "Français"
+        ],
+        "langues_de": [
+          "Französisch"
+        ],
+        "langues_es": [
+          "Francés"
+        ],
+        "langues_it": [
+          "Francese"
+        ],
+        "langues_pt": [
+          "Francês"
+        ]
+      }
+    },
+    {
+      "id": "565745",
+      "romsize": "25832",
+      "romfilename": "1942 (Japan, USA).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3D64629C",
+      "rommd5": "3E53B0B54E32C7EC7E191D2556BEB34E",
+      "romsha1": "A25EA9F39BF0C5E26B091A94CDAB093095285918",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "344",
+      "langues": {
+        "langues_id": [
+          "68",
+          "73"
+        ],
+        "langues_shortname": [
+          "en",
+          "ja"
+        ],
+        "langues_en": [
+          "English",
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Anglais",
+          "Japonais"
+        ],
+        "langues_de": [
+          "Englisch",
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Inglés",
+          "Japonés"
+        ],
+        "langues_it": [
+          "Inglese",
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Inglês",
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "46",
+          "47"
+        ],
+        "regions_shortname": [
+          "us",
+          "jp"
+        ],
+        "regions_en": [
+          "USA",
+          "Japan"
+        ],
+        "regions_fr": [
+          "USA",
+          "Japon"
+        ],
+        "regions_de": [
+          "USA",
+          "Japan"
+        ],
+        "regions_es": [
+          "USA",
+          "Japón"
+        ],
+        "regions_it": [
+          "USA",
+          "Giappone"
+        ],
+        "regions_pt": [
+          "EUA",
+          "Japão"
+        ]
+      }
+    },
+    {
+      "id": "537695",
+      "romsize": "25551",
+      "romfilename": "1919 (Normal).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3284F55B",
+      "rommd5": "2C418000774E4F2E6E5FE318E97C8895",
+      "romsha1": "1167E9EB0BBF9EF27E66CF743C783B6E85AC62E0",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "91"
+    }
+  ]
+}

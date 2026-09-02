@@ -1,0 +1,784 @@
+{
+  "id": "44472",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "3 In 1 Supergun"
+    },
+    {
+      "region": "asi",
+      "text": "3 in 1 Supergun"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "editeur": {
+    "id": "10691",
+    "text": "Micro Genius"
+  },
+  "developpeur": {
+    "id": "10692",
+    "text": "TXC"
+  },
+  "joueurs": {
+    "text": "1"
+  },
+  "note": {
+    "text": "10"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "synopsis": [
+    {
+      "langue": "en",
+      "text": "3 in 1 Supergun is a compilation of light gun games, developed by Chengdu Tai Jing Da Dong Computer Co and published by Micro Genius, which was released in Asia and Italy in 1993.\r\n\r\n\r\n\r\nThis multicart contains three games, of which require a zapper to play. Oddly, all 3 games start up with a menu reading &quot;Gun Fighter&quot; on the top and with the option of selecting 3 difficulties.\r\n\r\n\r\n\r\nAt least two versions of this multicart are known to exist, with the other version(s) fixing the spelling of &quot;Clown&quot; on the menu and adding 3 (non-zapper) games; one dumped variant adds F15 City War, Poke Block and Volleyball."
+    },
+    {
+      "langue": "fr",
+      "text": "3 in 1 Supergun est une compilation de 3 jeux de tirs. Cette compilation contient donc trois jeux qui exigent le zapper pour y jouer."
+    },
+    {
+      "langue": "de",
+      "text": "3 in 1 Supergun ist eine Zusammenstellung von Light Gun-Spielen, die von Chengdu Tai Jing Da Dong Computer Co. entwickelt und von Micro Genius 1993 in Asien und Italien veröffentlicht wurde.\r\n\r\nDieser Multicart enthält drei Spiele, für die ein Zapper erforderlich ist. \r\nSeltsamerweise beginnen alle 3 Spiele mit einem Menü mit der Aufschrift &quot;Gun Fighter&quot; oben und der Option, 3 Schwierigkeitsgrade auszuwählen.\r\n\r\n\r\nEs ist bekannt, dass mindestens zwei Versionen dieses Multicarts existieren, wobei die anderen Versionen die Schreibweise von &quot;Clown&quot; im Menü korrigieren und 3 Spiele (ohne Zapper) hinzufügen. \r\nEine abgeworfene Variante fügt F15 City War, Poke Block und Volleyball hinzu.\r\n"
+    },
+    {
+      "langue": "es",
+      "text": "3 en 1 Supergun es una compilación de juegos de armas ligeras, desarrollada por Chengdu Tai Jing Da Dong Computer Co y publicada por Micro Genius, que se lanzó en Asia e Italia en 1993. Este multicartucho contiene tres juegos, de los cuales se requiere un zapper para jugar. Curiosamente, los 3 juegos comienzan con un menú que se lee &quot;Gun Fighter&quot; en la parte superior y con la opción de seleccionar 3 dificultades. Se sabe que existen al menos dos versiones de este multicart, con la otra versión (es) que corrige la ortografía de &quot;Payaso&quot; en el menú y agrega 3 juegos (que no son zapper); Una variante descargada agrega F15 City War, Poke Block y Voleibol."
+    },
+    {
+      "langue": "it",
+      "text": "3 in 1 Supergun è una compilation di giochi di armi leggere, sviluppata da Chengdu Tai Jing Da Dong Computer Co e pubblicata da Micro Genius, che è stata rilasciata in Asia e in Italia nel 1993. Questa multi-cartuccia contiene tre giochi, di cui una versione separata è zapper necessario per giocare. È interessante notare che tutti e 3 i giochi iniziano con un menu che recita &quot;Gun Fighter&quot; in alto e con l'opzione per selezionare 3 difficoltà."
+    },
+    {
+      "langue": "pt",
+      "text": "Este multicart contém três jogos de tiro, dos quais requerem uma Zapper para jogar. Estranhamente, todos os 3 jogos começam com um menu que diz &quot;Gun Fighter&quot; no topo e com a opção de selecionar 3 dificuldades."
+    }
+  ],
+  "dates": [
+    {
+      "region": "asi",
+      "text": "1989"
+    }
+  ],
+  "genres": [
+    {
+      "id": "2646",
+      "nomcourt": "0100",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Shooter"
+        },
+        {
+          "langue": "fr",
+          "text": "Tir"
+        },
+        {
+          "langue": "de",
+          "text": "Shooter"
+        },
+        {
+          "langue": "es",
+          "text": "Disparos"
+        },
+        {
+          "langue": "it",
+          "text": "Sparo"
+        },
+        {
+          "langue": "pt",
+          "text": "Tiro"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "nomcourt": "0F00",
+      "principale": "1",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "en",
+          "text": "Compilation"
+        },
+        {
+          "langue": "fr",
+          "text": "Compilation"
+        },
+        {
+          "langue": "de",
+          "text": "Sammlung"
+        },
+        {
+          "langue": "es",
+          "text": "Compilación"
+        },
+        {
+          "langue": "it",
+          "text": "Compilation"
+        },
+        {
+          "langue": "pt",
+          "text": "Compilação"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "type": "sstitle",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=sstitle(wor)",
+      "region": "wor",
+      "crc": "22f03653",
+      "md5": "af54cd00d64b57e0d7848db305f9b4a5",
+      "sha1": "8970f99bff8e558a400a3619b66d975b5e1c8195",
+      "size": "3221",
+      "format": "png"
+    },
+    {
+      "type": "ss",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=ss(wor)",
+      "region": "wor",
+      "crc": "d1c74863",
+      "md5": "9285ad1fc956b4b7d10de513e8035774",
+      "sha1": "5798b6c96bf12edcf61c9ee125f54773be2bb784",
+      "size": "4138",
+      "format": "png"
+    },
+    {
+      "type": "video",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=video",
+      "crc": "33576f77",
+      "md5": "882abfaeb0a99757c07c351ec6dc5099",
+      "sha1": "ea289c7bdb01db9b3c4e5522f2006af3e6153108",
+      "size": "2541916",
+      "format": "mp4"
+    },
+    {
+      "type": "video-normalized",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaVideoJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=video-normalized",
+      "crc": "7d9405e9",
+      "md5": "d53d6d5f2c3999e8f703236fe6fac3b7",
+      "sha1": "af49fa8b90a4d0e2c8e3c70e820af6da3e81a24e",
+      "size": "912361",
+      "format": "mp4"
+    },
+    {
+      "type": "steamgrid",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=steamgrid",
+      "crc": "20cce284",
+      "md5": "386701f5474f0e51e95655be86b456cd",
+      "sha1": "34a11eb24dc5b6a345581a58ef3ed61e4d585e03",
+      "size": "27982",
+      "format": "jpg"
+    },
+    {
+      "type": "wheel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=wheel(wor)",
+      "region": "wor",
+      "crc": "3400619d",
+      "md5": "af0c5aaa5f6056d0ea7d2e67df310c43",
+      "sha1": "59489f32475307b59ab38f11923ca7b3ece51dfe",
+      "size": "42087",
+      "format": "png"
+    },
+    {
+      "type": "wheel-carbon",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=wheel-carbon(wor)",
+      "region": "wor",
+      "crc": "6eec0d20",
+      "md5": "f7fa275cfd9fc16af071b8da86eccaf2",
+      "sha1": "bfb3e13019bc5733587f84020f2f180e412506b0",
+      "size": "118632",
+      "format": "png"
+    },
+    {
+      "type": "wheel-steel",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=wheel-steel(wor)",
+      "region": "wor",
+      "crc": "740265ef",
+      "md5": "a5d61c922c66da24f872ed7f9c22c110",
+      "sha1": "0d0147b6d7adab0c6fe20ec0da6b22a12f368d90",
+      "size": "120197",
+      "format": "png"
+    },
+    {
+      "type": "screenmarquee",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=screenmarquee(wor)",
+      "region": "wor",
+      "crc": "05b15037",
+      "md5": "e40a1d62a186ee5b3516e8cc1a838fa9",
+      "sha1": "ad043d36447c227992b57bbf8d9bc15fcb91c4f5",
+      "size": "496609",
+      "format": "png"
+    },
+    {
+      "type": "screenmarqueesmall",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=screenmarqueesmall(wor)",
+      "region": "wor",
+      "crc": "983451c9",
+      "md5": "39d3a9e1579f797a649a687855b22847",
+      "sha1": "a26c4ca0d4c738e64a684427e9d37b6e74d1ef25",
+      "size": "79224",
+      "format": "png"
+    },
+    {
+      "type": "support-texture",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=support-texture(jp)",
+      "region": "jp",
+      "crc": "72edefb2",
+      "md5": "fed41a1fb2bbcddd266dbd64bb287cd8",
+      "sha1": "2a89442eeb8ca673badb81147dbe8a7322f3a3b3",
+      "size": "186964",
+      "format": "png"
+    },
+    {
+      "type": "support-2D",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=support-2D(jp)",
+      "region": "jp",
+      "crc": "0c4634bc",
+      "md5": "cb1aed4327c7fe21040151def749e7a9",
+      "sha1": "de80ec7aa4bfb94be697ef769d18180d20a91b74",
+      "size": "231342",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv1",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=mixrbv1(wor)",
+      "region": "wor",
+      "crc": "b25708c8",
+      "md5": "0bc111c4dcd2a032cc56f8c6e4761bd4",
+      "sha1": "1a7b3faa5f17bed2fafa96be0667db85f2496460",
+      "size": "275846",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=mixrbv2(asi)",
+      "region": "asi",
+      "crc": "ddd4676c",
+      "md5": "c1b513d78e473906e60c3c182875d2e6",
+      "sha1": "d7f8ddc85f226748e7d991c5302646370f1f36c8",
+      "size": "525278",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=mixrbv2(jp)",
+      "region": "jp",
+      "crc": "ddd4676c",
+      "md5": "c1b513d78e473906e60c3c182875d2e6",
+      "sha1": "d7f8ddc85f226748e7d991c5302646370f1f36c8",
+      "size": "525278",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=mixrbv2(nl)",
+      "region": "nl",
+      "crc": "ddd4676c",
+      "md5": "c1b513d78e473906e60c3c182875d2e6",
+      "sha1": "d7f8ddc85f226748e7d991c5302646370f1f36c8",
+      "size": "525278",
+      "format": "png"
+    },
+    {
+      "type": "mixrbv2",
+      "parent": "jeu",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaJeu.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&systemeid=3&jeuid=44472&media=mixrbv2(wor)",
+      "region": "wor",
+      "crc": "ddd4676c",
+      "md5": "c1b513d78e473906e60c3c182875d2e6",
+      "sha1": "d7f8ddc85f226748e7d991c5302646370f1f36c8",
+      "size": "525278",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "joueurs",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3309&media=pictoliste",
+      "crc": "78f736ef",
+      "md5": "1251549320ccb8c3e7e977b775df9eb4",
+      "sha1": "5a1adbf62ecb2271d239bbc8fbd17532996de31c",
+      "size": "316",
+      "format": "png"
+    },
+    {
+      "type": "pictoliste",
+      "parent": "note",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3549&media=pictoliste",
+      "crc": "3f323ede",
+      "md5": "ee94c442647fcb83b712d089de6a8686",
+      "sha1": "e484bfad29cfb587d5d73a2c9123aab37e541ec0",
+      "size": "384",
+      "format": "png"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=pictoliste",
+      "crc": "d0b14f40",
+      "md5": "155763c889de6d44fd58cd36bdfce80b",
+      "sha1": "840cb4d69672c4b48a9b9f418272010fb2b4557c",
+      "size": "872",
+      "format": "png"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=logo-monochrome",
+      "crc": "c0ab2a94",
+      "md5": "3eace7ca43a0827467c8a3d6b0ddf0c1",
+      "sha1": "5f305f34bfb22c84a8de9c35cfe3d05d1384e54b",
+      "size": "6023",
+      "format": "png"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=logo-monochrome-svg",
+      "crc": "cef80344",
+      "md5": "606c10f20d34b3433e0dd13d6d77cfd1",
+      "sha1": "99456edd47eec57be1e185340d2a1e19d193441e",
+      "size": "2427",
+      "format": "svg"
+    },
+    {
+      "id": "2646",
+      "parent": "genre",
+      "subparent": "Tir",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=2646&media=background",
+      "crc": "cd744d4b",
+      "md5": "b794d0d78d93cf5bb0f613cd8f8118aa",
+      "sha1": "e20ebf0b23b455ba64af8231a73555d8512fb73d",
+      "size": "211172",
+      "format": "jpg"
+    },
+    {
+      "id": "34",
+      "parent": "genre",
+      "subparent": "Compilation",
+      "type": "pictoliste",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=34&media=pictoliste",
+      "crc": "c0889b9a",
+      "md5": "2b6b7722985e14a75dc767bbb216545d",
+      "sha1": "edca6abd210c3335d7ee4974c5c7b236a63ca6b0",
+      "size": "990",
+      "format": "png"
+    },
+    {
+      "id": "34",
+      "parent": "genre",
+      "subparent": "Compilation",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=34&media=logo-monochrome",
+      "crc": "c96ce933",
+      "md5": "ec2d7f044ed8209fa5dd04eb41b892aa",
+      "sha1": "2d4f70fa03fc335432bdc655e5739e8ee36ec532",
+      "size": "4794",
+      "format": "png"
+    },
+    {
+      "id": "34",
+      "parent": "genre",
+      "subparent": "Compilation",
+      "type": "pictomonochrome",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=34&media=logo-monochrome-svg",
+      "crc": "3b4a3302",
+      "md5": "b9394ff190f542c06b667dbeb0b30c57",
+      "sha1": "4d439faac00eefe8e9ecd03a2aa868892e29a295",
+      "size": "2460",
+      "format": "svg"
+    },
+    {
+      "id": "34",
+      "parent": "genre",
+      "subparent": "Compilation",
+      "type": "background",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=34&media=background",
+      "crc": "ef60c505",
+      "md5": "ca6f5eef564020ff118989610769c82b",
+      "sha1": "2b6dae5059b235ab38917df2a7c2a8d8d7abe54f",
+      "size": "308462",
+      "format": "jpg"
+    }
+  ],
+  "roms": [
+    {
+      "id": "135249",
+      "romsize": "65552",
+      "romfilename": "3 in 1 Supergun (Asia) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "3B95BC4E",
+      "rommd5": "1BDEB2A534447CB18B32FE4BB136F09C",
+      "romsha1": "385D82B41049CACC4EC9CD2CEC2259E962F7E6CE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "28365",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "12326",
+      "romsize": "30292",
+      "romfilename": "3 in 1 Supergun (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "02BA13CF",
+      "rommd5": "EC05AB9F838789CAFE7D9A45421C57FC",
+      "romsha1": "5E00F205B2ED97A5E2807D1494820744DEF3CAD6",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "27565",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "1133319",
+      "romsize": "65552",
+      "romfilename": "3 in 1 Supergun (Asia) (Ja) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "95c187bf",
+      "rommd5": "dc8f557c3ad3e3a01e61621b2a454427",
+      "romsha1": "3ba6c41705af949e961e2f22fd7b2cd6a589f84c",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "9024",
+      "langues": {
+        "langues_id": [
+          "68",
+          "73"
+        ],
+        "langues_shortname": [
+          "en",
+          "ja"
+        ],
+        "langues_en": [
+          "English",
+          "Japanese"
+        ],
+        "langues_fr": [
+          "Anglais",
+          "Japonais"
+        ],
+        "langues_de": [
+          "Englisch",
+          "Japanisch"
+        ],
+        "langues_es": [
+          "Inglés",
+          "Japonés"
+        ],
+        "langues_it": [
+          "Inglese",
+          "Giapponese"
+        ],
+        "langues_pt": [
+          "Inglês",
+          "Japonês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "588553",
+      "romsize": "57360",
+      "romfilename": "3-in-1 Supergun (Unl) [b1].nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "C8BC564A",
+      "rommd5": "8EF9938997DE097EA314D3E750BED8A7",
+      "romsha1": "4DE0EDA2887F97B04021CE0D78BA1A6C6B4E4B26",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "1356",
+      "langues": {
+        "langues_id": [
+          "76"
+        ],
+        "langues_shortname": [
+          "nl"
+        ],
+        "langues_en": [
+          "Dutch"
+        ],
+        "langues_fr": [
+          "Néerlandais"
+        ],
+        "langues_de": [
+          "Holländisch"
+        ],
+        "langues_es": [
+          "Holandés"
+        ],
+        "langues_it": [
+          "Olandese"
+        ],
+        "langues_pt": [
+          "Holandês"
+        ]
+      },
+      "regions": {
+        "regions_id": [
+          "130"
+        ],
+        "regions_shortname": [
+          "nl"
+        ],
+        "regions_en": [
+          "Netherlands"
+        ],
+        "regions_fr": [
+          "Pays-Bas"
+        ],
+        "regions_de": [
+          "Niederlande"
+        ],
+        "regions_es": [
+          "Holanda"
+        ],
+        "regions_it": [
+          "Olanda"
+        ],
+        "regions_pt": [
+          "Holanda"
+        ]
+      }
+    },
+    {
+      "id": "172396",
+      "romsize": "65536",
+      "romfilename": "3 in 1 Supergun (Asia) (Unl).nes",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "74BEA652",
+      "rommd5": "B14F1367D9F27F114F296BD2452737AC",
+      "romsha1": "EBCFAE8EE711098B97ED6E1CF428AF0FCA8E2BBE",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "778",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    },
+    {
+      "id": "112883",
+      "romsize": "30270",
+      "romfilename": "3 in 1 Supergun (Asia) (Unl).zip",
+      "romnumsupport": "1",
+      "romtotalsupport": "1",
+      "romcloneof": "0",
+      "romcrc": "512FEBCC",
+      "rommd5": "5766798CEA8A5F05B8D26ED34BC6634F",
+      "romsha1": "",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "1",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "95",
+      "regions": {
+        "regions_id": [
+          "114"
+        ],
+        "regions_shortname": [
+          "asi"
+        ],
+        "regions_en": [
+          "Asia"
+        ],
+        "regions_fr": [
+          "Asie"
+        ],
+        "regions_de": [
+          "Asien"
+        ],
+        "regions_es": [
+          "Asia"
+        ],
+        "regions_it": [
+          "Asia"
+        ],
+        "regions_pt": [
+          "Ásia"
+        ]
+      }
+    }
+  ]
+}

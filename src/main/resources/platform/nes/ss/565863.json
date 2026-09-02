@@ -1,0 +1,68 @@
+{
+  "id": "565863",
+  "notgame": "false",
+  "noms": [
+    {
+      "region": "ss",
+      "text": "MM5 - New Year 2025"
+    }
+  ],
+  "systeme": {
+    "id": "3",
+    "text": "NES"
+  },
+  "topstaff": "0",
+  "rotation": "0",
+  "familles": [
+    {
+      "id": "3907",
+      "nomcourt": "",
+      "principale": "0",
+      "parentid": "0",
+      "noms": [
+        {
+          "langue": "fr",
+          "text": "Mega Man"
+        }
+      ]
+    }
+  ],
+  "medias": [
+    {
+      "id": "3907",
+      "parent": "famille",
+      "subparent": "Mega Man",
+      "type": "figurine",
+      "url": "https://neoclone.screenscraper.fr/api2/mediaGroup.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&ssid=zjkiki&sspassword=zjkiki225&groupid=3907&media=figurine",
+      "crc": "661d98a7",
+      "md5": "b9cfe23c8e48576dcf19fbfd8eba7c35",
+      "sha1": "33121d2f87ade8d20b45351886af52da20682dbe",
+      "size": "238572",
+      "format": "png"
+    }
+  ],
+  "roms": [
+    {
+      "id": "1472568",
+      "romsize": "524304",
+      "romfilename": "MM5 - New Year 2025 (p12n) (Puresabe) (Hack).nes",
+      "romnumsupport": "0",
+      "romtotalsupport": "0",
+      "romcloneof": "0",
+      "romcrc": "08E07382",
+      "rommd5": "33D111B91390573696AE809F7EB60C80",
+      "romsha1": "F6BA21524413E31ED007A4A7494B09E94A0C5A92",
+      "beta": "0",
+      "demo": "0",
+      "proto": "0",
+      "trad": "0",
+      "hack": "0",
+      "unl": "0",
+      "alt": "0",
+      "best": "0",
+      "retroachievement": "0",
+      "gamelink": "0",
+      "nbscrap": "0"
+    }
+  ]
+}
