@@ -2,6 +2,7 @@ package com.github.deathbit.retroboy.platform.impl;
 
 import com.github.deathbit.retroboy.domain.FileContext;
 import com.github.deathbit.retroboy.domain.FinalGame;
+import com.github.deathbit.retroboy.domain.MatchResult;
 import com.github.deathbit.retroboy.domain.MediaCompletionRate;
 import com.github.deathbit.retroboy.domain.PlatformContext;
 import com.github.deathbit.retroboy.enums.MediaAssetType;
@@ -14,6 +15,7 @@ import java.io.UncheckedIOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.Comparator;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -31,7 +33,7 @@ public class DebugReportHandler {
         content.append(System.lineSeparator());
         appendFileContexts(content, platformContext.getFileContexts());
         appendFinalGames(content, platformContext.getFinalGameMapByArea());
-        appendRenameResults(content, platformContext.getRenameResultByArea());
+        appendRenameResults(content, platformContext.getMatchResults());
         appendMediaCompletionRates(content, platformContext.getMediaCompletionRateMap());
         appendMissingMediaResults(content, platformContext.getFinalGameMapByArea());
         appendGameMappings(content, platformContext.getFinalGameMapByArea());
@@ -86,7 +88,8 @@ public class DebugReportHandler {
         });
     }
 
-    private void appendRenameResults(StringBuilder content, Map<String, Map<String, String>> renameResultByArea) {
+    private void appendRenameResults(StringBuilder content, List<MatchResult> matchResults) {
+        var renameResultByArea = aggregateRenameResultsByArea(matchResults);
         renameResultByArea.forEach((area, renameResults) -> {
             content.append("重命名结果 - ").append(area).append(" - ").append(renameResults.size()).append("：")
                     .append(System.lineSeparator());
@@ -96,6 +99,18 @@ public class DebugReportHandler {
                             .append(System.lineSeparator()));
             content.append(System.lineSeparator());
         });
+    }
+
+    private Map<String, Map<String, String>> aggregateRenameResultsByArea(List<MatchResult> matchResults) {
+        var renameResultByArea = new LinkedHashMap<String, Map<String, String>>();
+        for (var matchResult : matchResults == null ? List.<MatchResult>of() : matchResults) {
+            if (matchResult.getRenameResultByArea() == null) {
+                continue;
+            }
+            matchResult.getRenameResultByArea().forEach((area, renameResults) ->
+                    renameResultByArea.computeIfAbsent(area, ignored -> new LinkedHashMap<>()).putAll(renameResults));
+        }
+        return renameResultByArea;
     }
 
     private void appendMediaCompletionRates(StringBuilder content,

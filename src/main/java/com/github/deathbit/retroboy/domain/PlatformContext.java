@@ -32,7 +32,6 @@ public class PlatformContext {
 
     private List<MatchResult> matchResults;
 
-    private Map<String, Map<String, String>> renameResultByArea;
 
     private Map<String, Map<String, FinalGame>> finalGameMapByArea;
 

@@ -1,5 +1,6 @@
 package com.github.deathbit.retroboy.domain.gamepackage;
 
+import com.github.deathbit.retroboy.domain.SSMedia;
 import com.github.deathbit.retroboy.domain.game.SSGame;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -22,4 +23,6 @@ public class SSGamePackage implements GamePackage {
     private String genre;
     private String player;
     private List<String> sha1s;
+    private Map<String, List<SSMedia>> mediaByType;
+    private Map<String, List<SSMedia>> mediaByRegion;
 }

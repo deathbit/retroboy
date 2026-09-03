@@ -2,6 +2,7 @@ package com.github.deathbit.retroboy.platform.impl;
 
 import com.github.deathbit.retroboy.domain.PlatformContext;
 import com.github.deathbit.retroboy.domain.ProgressBar;
+import com.github.deathbit.retroboy.domain.SSMedia;
 import com.github.deathbit.retroboy.domain.game.SSGame;
 import com.github.deathbit.retroboy.domain.gamepackage.SSGamePackage;
 import com.google.gson.Gson;
@@ -47,6 +48,7 @@ public class SSHandler {
             Map.entry("au", "AUS"),
             Map.entry("bg", "BGR"),
             Map.entry("br", "BRA"),
+            Map.entry("c", "UNKNOWN"),
             Map.entry("ca", "CAN"),
             Map.entry("cl", "CHL"),
             Map.entry("cn", "CHN"),
@@ -288,17 +290,71 @@ public class SSHandler {
         if (ssGameByArea.isEmpty()) {
             return null;
         }
+        var medias = buildMedias(jeu);
 
         return SSGamePackage.builder()
                 .id(packageId)
                 .ssGameByArea(ssGameByArea)
-                .developer(getNestedString(jeu, "developpeur", "text"))
-                .publisher(getNestedString(jeu, "editeur", "text"))
-                .description(findTextByLanguage(getArray(jeu, "synopsis"), "en"))
+                .developer(getNestedText(jeu, "developpeur"))
+                .publisher(getNestedText(jeu, "editeur"))
+                .description(findEnglishText(getArray(jeu, "synopsis")))
                 .genre(findGenre(jeu))
-                .player(getNestedString(jeu, "joueurs", "text"))
+                .player(getNestedText(jeu, "joueurs"))
                 .sha1s(buildSha1s(jeu))
+                .mediaByType(buildMediaByType(medias))
+                .mediaByRegion(buildMediaByRegion(medias))
                 .build();
+    }
+
+    private List<SSMedia> buildMedias(JsonObject jeu) {
+        var medias = new ArrayList<SSMedia>();
+        for (var mediaElement : getArray(jeu, "medias")) {
+            if (!mediaElement.isJsonObject()) {
+                continue;
+            }
+
+            var mediaObject = mediaElement.getAsJsonObject();
+            var type = getString(mediaObject, "type");
+            if (type == null || type.isBlank()) {
+                continue;
+            }
+
+            medias.add(SSMedia.builder()
+                    .type(type.trim())
+                    .parent(getString(mediaObject, "parent"))
+                    .url(getString(mediaObject, "url"))
+                    .region(getString(mediaObject, "region"))
+                    .crc(getString(mediaObject, "crc"))
+                    .md5(getString(mediaObject, "md5"))
+                    .sha1(getString(mediaObject, "sha1"))
+                    .size(getString(mediaObject, "size"))
+                    .format(getString(mediaObject, "format"))
+                    .build());
+        }
+        return medias;
+    }
+
+    private Map<String, List<SSMedia>> buildMediaByType(List<SSMedia> medias) {
+        var mediaByType = new LinkedHashMap<String, List<SSMedia>>();
+        for (var media : medias) {
+            mediaByType.computeIfAbsent(media.getType(), ignored -> new ArrayList<>()).add(media);
+        }
+        return mediaByType;
+    }
+
+    private Map<String, List<SSMedia>> buildMediaByRegion(List<SSMedia> medias) {
+        var mediaByRegion = new LinkedHashMap<String, List<SSMedia>>();
+        for (var media : medias) {
+            mediaByRegion.computeIfAbsent(mapMediaRegionToArea(media.getRegion()), ignored -> new ArrayList<>()).add(media);
+        }
+        return mediaByRegion;
+    }
+
+    private String mapMediaRegionToArea(String region) {
+        if (region == null || region.isBlank()) {
+            return "UNKNOWN";
+        }
+        return mapRegionToArea(region.trim().toLowerCase(Locale.ROOT));
     }
 
     private Map<String, SSGame> buildSSGameByArea(String packageId, JsonObject jeu) {
@@ -349,7 +405,7 @@ public class SSHandler {
         if (genres.isEmpty() || !genres.get(0).isJsonObject()) {
             return null;
         }
-        return findTextByLanguage(getArray(genres.get(0).getAsJsonObject(), "noms"), "en");
+        return findEnglishText(getArray(genres.get(0).getAsJsonObject(), "noms"));
     }
 
     private List<String> buildSha1s(JsonObject jeu) {
@@ -371,13 +427,13 @@ public class SSHandler {
     }
 
 
-    private String findTextByLanguage(JsonArray array, String language) {
+    private String findEnglishText(JsonArray array) {
         for (var element : array) {
             if (!element.isJsonObject()) {
                 continue;
             }
             var object = element.getAsJsonObject();
-            if (language.equals(getString(object, "langue"))) {
+            if ("en".equals(getString(object, "langue"))) {
                 return getString(object, "text");
             }
         }
@@ -399,11 +455,11 @@ public class SSHandler {
         return object.getAsJsonArray(memberName);
     }
 
-    private String getNestedString(JsonObject object, String objectName, String memberName) {
+    private String getNestedText(JsonObject object, String objectName) {
         if (!object.has(objectName) || !object.get(objectName).isJsonObject()) {
             return null;
         }
-        return getString(object.getAsJsonObject(objectName), memberName);
+        return getString(object.getAsJsonObject(objectName), "text");
     }
 
     private String getString(JsonObject object, String memberName) {

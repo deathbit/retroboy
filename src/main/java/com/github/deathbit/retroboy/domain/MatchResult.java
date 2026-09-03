@@ -17,7 +17,7 @@ import java.util.Map;
 public class MatchResult {
     private WikiGamePackage wikiGamePackage;
     private NoIntroGamePackage noIntroGamePackage;
-    private Map<String, MatchPairForGame> matchPairForGameByArea;
     private Map<String, FileContext> fileContextByArea;
     private Map<String, SSGamePackage> ssGamePackageByArea;
+    private Map<String, Map<String, String>> renameResultByArea;
 }

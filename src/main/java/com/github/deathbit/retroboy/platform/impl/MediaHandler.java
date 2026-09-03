@@ -32,8 +32,15 @@ public class MediaHandler {
     }
 
     private void validateRenameResults(PlatformContext platformContext) {
-        if (platformContext.getRenameResultByArea() == null || platformContext.getRenameResultByArea().isEmpty()) {
-            throw new IllegalStateException("renameResultByArea is empty, run RenameHandler before MediaHandler");
+        if (platformContext.getMatchResults() == null || platformContext.getMatchResults().isEmpty()) {
+            throw new IllegalStateException("matchResults is empty, run MatchHandler before MediaHandler");
+        }
+        for (var matchResult : platformContext.getMatchResults()) {
+            var hasMatchedFiles = matchResult.getFileContextByArea() != null && !matchResult.getFileContextByArea().isEmpty();
+            var hasRenameResults = matchResult.getRenameResultByArea() != null && !matchResult.getRenameResultByArea().isEmpty();
+            if (hasMatchedFiles && !hasRenameResults) {
+                throw new IllegalStateException("MatchResult.renameResultByArea is empty, run RenameHandler before MediaHandler");
+            }
         }
         if (platformContext.getFinalGameMapByArea() == null || platformContext.getFinalGameMapByArea().isEmpty()) {
             throw new IllegalStateException("finalGameMapByArea is empty, run RenameHandler before MediaHandler");
@@ -44,8 +51,8 @@ public class MediaHandler {
             PlatformContext platformContext) {
         var mediaCompletionRateMap = new LinkedHashMap<String, Map<MediaAssetType, MediaCompletionRate>>();
         platformContext.getFinalGameMapByArea().forEach((area, finalGameMap) -> {
-            var mediaAssetRateMap = new EnumMap<MediaAssetType, MediaCompletionRate>(MediaAssetType.class);
-            var completedCountByType = new EnumMap<MediaAssetType, Integer>(MediaAssetType.class);
+            Map<MediaAssetType, MediaCompletionRate> mediaAssetRateMap = new EnumMap<>(MediaAssetType.class);
+            Map<MediaAssetType, Integer> completedCountByType = new EnumMap<>(MediaAssetType.class);
             for (var mediaAssetType : MediaAssetType.values()) {
                 completedCountByType.put(mediaAssetType, 0);
             }
@@ -56,7 +63,7 @@ public class MediaHandler {
                 for (var mediaAssetType : MediaAssetType.values()) {
                     if (existsMediaFile(platformContext, mediaAssetType, mediaAreaDirectoryName, finalGame.getFinalRomName())) {
                         mediaBitmap = MediaBitmapUtils.withMedia(mediaBitmap, mediaAssetType);
-                        completedCountByType.compute(mediaAssetType, (ignored, count) -> count + 1);
+                        completedCountByType.compute(mediaAssetType, (ignored, count) -> count == null ? 1 : count + 1);
                     }
                 }
                 finalGame.setMediaBitMap(mediaBitmap);
