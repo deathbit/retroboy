@@ -34,7 +34,7 @@ import java.util.Map;
 @Component
 public class SSHandler {
 
-    private static final String API_URL_TEMPLATE = "https://api.screenscraper.fr/api2/jeuInfos.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&output=json&ssid=zjkiki&sspassword=zjkiki225&gameid=%s";
+    private static final String API_URL_TEMPLATE = "https://api.screenscraper.fr/api2/jeuInfos.php?devid=muldjord&devpassword=uWu5VRc9QDVMPpD8&softname=skyscraper3.20.3&output=json&ssid=%s&sspassword=zjkiki225&gameid=%s";
     private static final Duration REQUEST_TIMEOUT = Duration.ofSeconds(60);
     private static final Gson GSON = new GsonBuilder()
             .setPrettyPrinting()
@@ -106,7 +106,7 @@ public class SSHandler {
             var gameId = gameIds.get(i);
             var outputPath = outputDirectory.resolve(gameId + ".json");
             if (!Files.exists(outputPath)) {
-                fetchAndSaveGame(gameId, outputPath);
+                fetchAndSaveGame(platformContext, gameId, outputPath);
             }
             var ssGamePackage = readGamePackage(outputPath);
             if (ssGamePackage != null) {
@@ -256,9 +256,11 @@ public class SSHandler {
         return fields;
     }
 
-    private void fetchAndSaveGame(String gameId, Path outputPath) throws Exception {
+    private void fetchAndSaveGame(PlatformContext platformContext, String gameId, Path outputPath) throws Exception {
         var request = HttpRequest.newBuilder()
-                .uri(URI.create(API_URL_TEMPLATE.formatted(URLEncoder.encode(gameId, StandardCharsets.UTF_8))))
+                .uri(URI.create(API_URL_TEMPLATE.formatted(
+                        URLEncoder.encode(configuredSsid(platformContext), StandardCharsets.UTF_8),
+                        URLEncoder.encode(gameId, StandardCharsets.UTF_8))))
                 .timeout(REQUEST_TIMEOUT)
                 .GET()
                 .build();
@@ -290,11 +292,14 @@ public class SSHandler {
         if (ssGameByArea.isEmpty()) {
             return null;
         }
+        var releaseDateByArea = buildReleaseDateByArea(jeu, ssGameByArea);
+        applyReleaseDateByArea(ssGameByArea, releaseDateByArea);
         var medias = buildMedias(jeu);
 
         return SSGamePackage.builder()
                 .id(packageId)
                 .ssGameByArea(ssGameByArea)
+                .releaseDateByArea(releaseDateByArea)
                 .developer(getNestedText(jeu, "developpeur"))
                 .publisher(getNestedText(jeu, "editeur"))
                 .description(findEnglishText(getArray(jeu, "synopsis")))
@@ -350,15 +355,23 @@ public class SSHandler {
         return mediaByRegion;
     }
 
-    private String mapMediaRegionToArea(String region) {
+    static String mapMediaRegionToArea(String region) {
         if (region == null || region.isBlank()) {
             return "UNKNOWN";
         }
         return mapRegionToArea(region.trim().toLowerCase(Locale.ROOT));
     }
 
+    static String configuredSsid(PlatformContext platformContext) {
+        if (platformContext.getGlobalConfig() == null
+                || platformContext.getGlobalConfig().getSsid() == null
+                || platformContext.getGlobalConfig().getSsid().isBlank()) {
+            throw new IllegalStateException("globalConfig.ssid is empty");
+        }
+        return platformContext.getGlobalConfig().getSsid();
+    }
+
     private Map<String, SSGame> buildSSGameByArea(String packageId, JsonObject jeu) {
-        var releaseDateByArea = buildReleaseDateByArea(jeu);
         var ssGameByArea = new LinkedHashMap<String, SSGame>();
         for (var nom : getArray(jeu, "noms")) {
             if (!nom.isJsonObject()) {
@@ -375,7 +388,6 @@ public class SSHandler {
                     .packageId(packageId)
                     .area(area)
                     .title(getString(nomObject, "text"))
-                    .releaseDate(releaseDateByArea.get(area))
                     .build());
             if (existing != null) {
                 throw new IllegalStateException("ScreenScraper游戏地区重复: packageId=%s, area=%s".formatted(packageId, area));
@@ -384,7 +396,7 @@ public class SSHandler {
         return ssGameByArea;
     }
 
-    private Map<String, String> buildReleaseDateByArea(JsonObject jeu) {
+    private Map<String, String> buildReleaseDateByArea(JsonObject jeu, Map<String, SSGame> ssGameByArea) {
         var releaseDateByArea = new LinkedHashMap<String, String>();
         for (var date : getArray(jeu, "dates")) {
             if (!date.isJsonObject()) {
@@ -395,9 +407,21 @@ public class SSHandler {
             if (region == null || "ss".equals(region)) {
                 continue;
             }
-            releaseDateByArea.put(mapRegionToArea(region), getString(dateObject, "text"));
+            var area = mapRegionToArea(region);
+            if (ssGameByArea.containsKey(area)) {
+                releaseDateByArea.put(area, getString(dateObject, "text"));
+            }
         }
         return releaseDateByArea;
+    }
+
+    private void applyReleaseDateByArea(Map<String, SSGame> ssGameByArea, Map<String, String> releaseDateByArea) {
+        releaseDateByArea.forEach((area, releaseDate) -> {
+            var ssGame = ssGameByArea.get(area);
+            if (ssGame != null) {
+                ssGame.setReleaseDate(releaseDate);
+            }
+        });
     }
 
     private String findGenre(JsonObject jeu) {
@@ -440,7 +464,7 @@ public class SSHandler {
         return null;
     }
 
-    private String mapRegionToArea(String region) {
+    private static String mapRegionToArea(String region) {
         var area = REGION_AREA_MAPPING.get(region);
         if (area == null) {
             throw new IllegalStateException("未知ScreenScraper地区: " + region);

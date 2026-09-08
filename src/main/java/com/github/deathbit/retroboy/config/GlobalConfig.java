@@ -17,6 +17,7 @@ public class GlobalConfig {
     private String raHome;
     private String resHome;
     private String repo;
+    private String ssid;
     private Author author;
     private String esdeVersion;
     private String raVersion;

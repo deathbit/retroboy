@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class ProgressBar {
-    private static final long DEFAULT_REFRESH_INTERVAL_MILLIS = 100L;
+    private static final long DEFAULT_REFRESH_INTERVAL_MILLIS = 1000L;
 
     private String mainTaskName;
     private Integer taskIndex;

@@ -34,6 +34,10 @@ public class PlatformPackTaskConfig {
      */
     private List<String> renameOptions;
     /**
+     * 已知损坏媒体列表，可配置绝对路径或相对 ES-DE 平台媒体目录的路径
+     */
+    private List<Path> brokenMediaList;
+    /**
      * 文件上下文别名映射，格式："sourceFullName -> aliasFullName"
      */
     private List<String> fileContextMappingList;
@@ -49,6 +53,10 @@ public class PlatformPackTaskConfig {
      * ScreenScraper game ID → SHA1 的删除映射，格式："gameId - SHA1"
      */
     private List<String> sha1MappingRemoveList;
+    /**
+     * ScreenScraper game ID + area → release date 的补充映射，格式："gameId.area - releaseDate"
+     */
+    private List<String> releaseDateConfig;
     /**
      * 允许各地区匹配到不同 ScreenScraper 包的 wiki 包 ID 集合
      */

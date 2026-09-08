@@ -17,6 +17,7 @@ import java.util.Map;
 public class SSGamePackage implements GamePackage {
     private String id;
     private Map<String, SSGame> ssGameByArea;
+    private Map<String, String> releaseDateByArea;
     private String developer;
     private String publisher;
     private String description;

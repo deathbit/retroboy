@@ -55,11 +55,9 @@ public final class PathUtils {
                     .resolve("downloaded_media")
                     .resolve(ruleContext.getPlatform().getName());
 
-    // 示例：D:\retroboy-resources\platform\nes\gamelists\nes\gamelist.xml
+    // 示例：D:\retroboy-resources\platform\nes\gamelist.xml
     public static final PathSupplier PLATFORM_GAMELIST_XML =
             ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
-                    .resolve("gamelists")
-                    .resolve(ruleContext.getPlatform().getName())
                     .resolve("gamelist.xml");
 
     // 示例：D:\retroboy-resources\platform\nes\wiki

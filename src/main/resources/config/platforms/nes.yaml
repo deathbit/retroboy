@@ -18,6 +18,54 @@ platformPackTaskConfigMap:
       - "Star Wars (Japan) (Namco).nes -> Star Wars (Namco).nes"
       - "Star Wars (Japan) (Victor).nes -> Star Wars (Victor).nes"
       - "Mario Bros. (Europe) (PAL-MC-0, Classic Series).nes -> Mario Bros. Classic Series.nes"
+    brokenMediaList:
+      - 'backcovers\NES-FC - JPN\A Ressha de Ikou.png'
+      - 'backcovers\NES-FC - JPN\Aoki Ookami to Shiroki Mejika - Genchou Hishi.png'
+      - 'backcovers\NES-FC - JPN\Bakushou!! Ai no Gekijou.png'
+      - 'backcovers\NES-FC - JPN\Baseball Fighter.png'
+      - 'backcovers\NES-FC - JPN\Championship Bowling.png'
+      - 'backcovers\NES-FC - JPN\Chuugoku Janshi Story - Tonfuu.png'
+      - 'backcovers\NES-FC - JPN\Double Dragon.png'
+      - 'backcovers\NES-FC - JPN\Dragon Fighter.png'
+      - 'backcovers\NES-FC - JPN\DuckTales 2.png'
+      - 'backcovers\NES-FC - JPN\F-1 Sensation.png'
+      - 'backcovers\NES-FC - JPN\Ferrari.png'
+      - 'backcovers\NES-FC - JPN\Genpei Touma Den - Computer Boardgame.png'
+      - 'backcovers\NES-FC - JPN\Gun Sight.png'
+      - 'backcovers\NES-FC - JPN\Gyromite.png'
+      - 'backcovers\NES-FC - JPN\Ide Yousuke Meijin no Jissen Mahjong II.png'
+      - 'backcovers\NES-FC - JPN\Isaki Shuugorou no Keiba Hisshou Gaku.png'
+      - 'backcovers\NES-FC - JPN\Karaoke Studio Senyou Cassette - Top Hit 20 Vol. 2.png'
+      - 'backcovers\NES-FC - JPN\Karnov.png'
+      - 'backcovers\NES-FC - JPN\Konamic Sports in Seoul.png'
+      - 'backcovers\NES-FC - JPN\Koushien.png'
+      - 'backcovers\NES-FC - JPN\Magical Taruruuto-kun - Fantastic World!!.png'
+      - 'backcovers\NES-FC - JPN\Metal Flame - Psy Buster.png'
+      - 'backcovers\NES-FC - JPN\Monopoly.png'
+      - 'backcovers\NES-FC - JPN\Nantettatte!! Baseball + Nantettatte!! Baseball - Ko-Game Cassette - OB All Star Hen.png'
+      - 'backcovers\NES-FC - JPN\New Ghostbusters II.png'
+      - 'backcovers\NES-FC - JPN\New York Nyankies.png'
+      - 'backcovers\NES-FC - JPN\Ninja Crusaders - Ryuuga.png'
+      - 'backcovers\NES-FC - JPN\Oeka Kids - Anpanman to Oekaki Shiyou!!.png'
+      - 'backcovers\NES-FC - JPN\Over Horizon.png'
+      - 'backcovers\NES-FC - JPN\Pachinko Daisakusen.png'
+      - 'backcovers\NES-FC - JPN\Pachi-Slot Adventure 2 - Sorotta-kun no Pachi-Slot Tanteidan.png'
+      - 'backcovers\NES-FC - JPN\Project Q.png'
+      - 'backcovers\NES-FC - JPN\Seiryaku Simulation - Inbou no Wakusei - Shancara.png'
+      - 'backcovers\NES-FC - JPN\Star Wars - The Empire Strikes Back.png'
+      - 'backcovers\NES-FC - JPN\Star Wars (Victor).png'
+      - 'backcovers\NES-FC - JPN\Super Mogura Tataki!! - Pokkun Mogurar.png'
+      - 'backcovers\NES-FC - JPN\Tanigawa Kouji no Shougi Shinan III.png'
+      - 'backcovers\NES-FC - JPN\The Blue Marlin.png'
+      - 'backcovers\NES-FC - JPN\The Jetsons - Cogswell''s Caper.png'
+      - 'backcovers\NES-FC - JPN\The Untouchables.png'
+      - 'backcovers\NES-FC - JPN\Tsuru Pika Hagemaru - Mezase! Tsuru Seko no Akashi.png'
+      - 'backcovers\NES-FC - JPN\Twin Eagle.png'
+      - 'backcovers\NES-FC - JPN\U.S. Championship V''Ball.png'
+      - 'backcovers\NES-FC - JPN\Ultraman Club 3 - Matamata Shutsugeki!! Ultra Kyoudai.png'
+      - 'backcovers\NES-FC - JPN\Viva! Las Vegas.png'
+      - 'backcovers\NES-FC - JPN\Yamamura Misa Suspense Series - Kyoto Zai-Tech Satsujin Jiken.png'
+      - 'backcovers\NES-FC - JPN\Yousei Monogatari - Rod Land.png'
     fileContextMappingList:
       - "Star Luster (Japan) -> Star Luster (Japan) (En)"
       - "Route-16 Turbo (Japan) -> Route-16 Turbo (Japan) (En) (Rev 1)"
@@ -145,11 +193,15 @@ platformPackTaskConfigMap:
       - "1543 - C56E4327C097B5E592541655A298782494A1BAD2"
       - "1296 - 50F5F0A4B143C98391A1BAE8FB7C15BEE32A078A"
       - "18906 - 468673CE79BF003B11BB8AD450FAF98437A49B63"
+      - "71422 - 264B98A4F5849DA9976E5B48FC4386A4B6C3375D"
+      - "416431 - 578BC2D91DB7C71FABAEB9624B89253EA742C64F"
     sha1MappingRemoveList:
       - "1311 - 1F375158543EF16B651B177BA606081FACCF2B4D"
       - "1295 - C56E4327C097B5E592541655A298782494A1BAD2"
       - "1253 - 50F5F0A4B143C98391A1BAE8FB7C15BEE32A078A"
       - "1945 - 468673CE79BF003B11BB8AD450FAF98437A49B63"
+      - "1433 - 264B98A4F5849DA9976E5B48FC4386A4B6C3375D"
+      - "18665 - 578BC2D91DB7C71FABAEB9624B89253EA742C64F"
     allowDifferentSSGamePackageWikiIds:
       - "0234"
       - "0645"
@@ -158,3 +210,37 @@ platformPackTaskConfigMap:
       - "1114"
       - "1140"
       - "0945"
+    releaseDateConfig:
+      - "1640.JPN - 1991-06-28"
+      - "1427.EUR - 1989"
+      - "1649.GER - 1992-12-06"
+      - "1766.EUR - 1986-09-01"
+      - "1762.AUS - 1991"
+      - "1956.EUR - 1988"
+      - "1864.EUR - 1992-11-29"
+      - "18665.JPN - 1987-07-20"
+      - "1880.EUR - 1991"
+      - "1753.EUR - 1992-11-15"
+      - "1356.USA - 1985-10-18"
+      - "1276.EUR - 1987-02-15"
+      - "1773.EUR - 1990-05-18"
+      - "1867.UK - 1990"
+      - "1585.FRA - 1991"
+      - "18829.JPN - 1991-03-26"
+      - "18837.AUS - 1990"
+      - "1497.AUS - 1992"
+      - "1413.EUR - 1993-09-23"
+      - "18751.AUS - 1992"
+      - "1793.EUR - 1991-10-24"
+      - "1793.USA - 1990-09"
+      - "18855.USA - 1989-01"
+      - "18858.USA - 1992-02"
+      - "1592.GER - 1992"
+      - "1738.EUR - 1992"
+      - "18768.USA - 1990-03"
+      - "18780.USA - 1985-10-18"
+      - "1479.EUR - 1991"
+      - "1860.EUR - 1993"
+      - "1990.SWE - 1992-09-24"
+      - "1807.EUR - 1992"
+      - "88577.JPN - 1991-02-28"

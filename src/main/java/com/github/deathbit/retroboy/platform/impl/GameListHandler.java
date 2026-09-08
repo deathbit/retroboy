@@ -1,28 +1,23 @@
 package com.github.deathbit.retroboy.platform.impl;
 
 import com.github.deathbit.retroboy.component.FileComponent;
+import com.github.deathbit.retroboy.domain.MatchResult;
 import com.github.deathbit.retroboy.domain.PathPair;
 import com.github.deathbit.retroboy.domain.PlatformContext;
+import com.github.deathbit.retroboy.domain.gamepackage.SSGamePackage;
 import com.github.deathbit.retroboy.util.PathUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.xml.sax.SAXException;
 
-import java.io.IOException;
-import java.nio.file.Path;
-import java.util.HashMap;
-import java.util.Map;
-import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.OutputKeys;
-import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
 @Component
 public class GameListHandler {
@@ -30,132 +25,148 @@ public class GameListHandler {
     @Autowired
     private FileComponent fileComponent;
 
-    public void handle(PlatformContext platformContext) {
-        var targetPath = PathUtils.ESDE_PLATFORM_GAMELIST.get(platformContext);
-        fileComponent.copyPath(PathPair.builder().sourcePath(PathUtils.PLATFORM_GAMELIST_XML.get(platformContext))
-                                       .targetPath(targetPath).build());
-        var gameListPath = PathUtils.ESDE_PLATFORM_GAMELIST_XML.get(platformContext);
-        validateGameDescriptions(gameListPath);
-        validateUniqueGameNames(gameListPath);
-        updateGameNames(gameListPath);
+    public void handle(PlatformContext platformContext) throws Exception {
+        var gamelistXml = PathUtils.PLATFORM_GAMELIST_XML.get(platformContext);
+        fileComponent.deletePath(gamelistXml);
+        Files.createDirectories(gamelistXml.getParent());
+        writeGameList(platformContext, gamelistXml);
+        fileComponent.copyPath(PathPair.builder()
+                                       .sourcePath(gamelistXml)
+                                       .targetPath(PathUtils.ESDE_PLATFORM_GAMELIST.get(platformContext))
+                                       .build());
     }
 
-    private void validateGameDescriptions(Path gameListPath) {
-        var document = parseGameList(gameListPath);
-        var gameNodes = document.getElementsByTagName("game");
-        for (int i = 0; i < gameNodes.getLength(); i++) {
-            var gameElement = (Element) gameNodes.item(i);
-            var gamePath = getGamePath(gameElement);
-            var descriptionNodes = gameElement.getElementsByTagName("desc");
-            if (descriptionNodes.getLength() == 0 || descriptionNodes.item(0).getTextContent().isBlank()) {
-                throw new IllegalArgumentException("gamelist.xml 中游戏缺少 desc: path=" + gamePath);
+    private void writeGameList(PlatformContext platformContext, Path gamelistXml) throws Exception {
+        if (platformContext.getMatchResults() == null || platformContext.getMatchResults().isEmpty()) {
+            throw new IllegalStateException("matchResults is empty, run MatchHandler before GameListHandler");
+        }
+
+        var document = DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();
+        var gameList = document.createElement("gameList");
+        document.appendChild(gameList);
+
+        for (var matchResult : platformContext.getMatchResults()) {
+            appendGames(platformContext, document, gameList, matchResult);
+        }
+
+        var transformer = TransformerFactory.newInstance().newTransformer();
+        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+        transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+        transformer.setOutputProperty(OutputKeys.STANDALONE, "no");
+        transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
+        transformer.transform(new DOMSource(document), new StreamResult(gamelistXml.toFile()));
+    }
+
+    private void appendGames(PlatformContext platformContext,
+                             Document document,
+                             Element gameList,
+                             MatchResult matchResult) {
+        if (matchResult.getFileContextByArea() == null || matchResult.getFileContextByArea().isEmpty()) {
+            return;
+        }
+        if (matchResult.getRenameResultByArea() == null || matchResult.getRenameResultByArea().isEmpty()) {
+            throw new IllegalStateException("renameResultByArea is empty, run RenameHandler before GameListHandler");
+        }
+
+        for (var entry : matchResult.getFileContextByArea().entrySet()) {
+            var area = entry.getKey();
+            var fileContext = entry.getValue();
+            var renameResult = matchResult.getRenameResultByArea().get(area);
+            if (renameResult == null) {
+                throw new IllegalStateException("Rename result not found for area: " + area);
             }
-        }
-    }
 
-    private void validateUniqueGameNames(Path gameListPath) {
-        var document = parseGameList(gameListPath);
-        var gameNodes = document.getElementsByTagName("game");
-        var gamePathByAreaAndName = new HashMap<String, Map<String, String>>();
-        for (int i = 0; i < gameNodes.getLength(); i++) {
-            var gameElement = (Element) gameNodes.item(i);
-            var gamePath = getGamePath(gameElement);
-            validateUniqueGameName(gamePathByAreaAndName, gamePath, fileNameWithoutExtension(gamePath));
-        }
-    }
-
-    private void updateGameNames(Path gameListPath) {
-        var document = parseGameList(gameListPath);
-        var gameNodes = document.getElementsByTagName("game");
-        for (int i = 0; i < gameNodes.getLength(); i++) {
-            var gameElement = (Element) gameNodes.item(i);
-            var gameName = fileNameWithoutExtension(getGamePath(gameElement));
-            var nameNodes = gameElement.getElementsByTagName("name");
-            if (nameNodes.getLength() > 0) {
-                nameNodes.item(0).setTextContent(gameName);
-            } else {
-                var nameElement = document.createElement("name");
-                nameElement.setTextContent(gameName);
-                gameElement.appendChild(nameElement);
+            var finalRomName = renameResult.get(fileContext.getFileName());
+            if (finalRomName == null || finalRomName.isBlank()) {
+                throw new IllegalStateException("Rename result not found for area=%s, file=%s"
+                        .formatted(area, fileContext.getFileName()));
             }
-        }
 
-        try {
-            removeBlankTextNodes(document);
-            var transformerFactory = TransformerFactory.newInstance();
-            transformerFactory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-            var transformer = transformerFactory.newTransformer();
-            transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
-            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-            transformer.transform(new DOMSource(document), new StreamResult(gameListPath.toFile()));
-        } catch (TransformerException e) {
-            throw new RuntimeException("Failed to write gamelist.xml: " + gameListPath, e);
+            var ssGamePackage = requireSSGamePackage(matchResult, area);
+            appendGame(platformContext, document, gameList, area, finalRomName, fileContext.getExtension(), ssGamePackage);
         }
     }
 
-    private Document parseGameList(Path gameListPath) {
-        try {
-            var documentBuilderFactory = DocumentBuilderFactory.newInstance();
-            documentBuilderFactory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-            return documentBuilderFactory.newDocumentBuilder().parse(gameListPath.toFile());
-        } catch (ParserConfigurationException | SAXException | IOException e) {
-            throw new RuntimeException("Failed to read gamelist.xml: " + gameListPath, e);
-        }
+    private void appendGame(PlatformContext platformContext,
+                            Document document,
+                            Element gameList,
+                            String area,
+                            String finalRomName,
+                            String extension,
+                            SSGamePackage ssGamePackage) {
+        var game = document.createElement("game");
+        gameList.appendChild(game);
+
+        appendTextElement(document, game, "path",
+                "./" + PathUtils.esdeAreaDirectoryName(platformContext, area) + "/" + finalRomName + extension);
+        appendTextElement(document, game, "name", finalRomName);
+        appendTextElement(document, game, "desc", ssGamePackage.getDescription());
+        appendTextElement(document, game, "rating", "0");
+        appendTextElement(document, game, "releasedate", formatReleaseDate(getReleaseDate(ssGamePackage, area)));
+        appendTextElement(document, game, "developer", ssGamePackage.getDeveloper());
+        appendTextElement(document, game, "publisher", ssGamePackage.getPublisher());
+        appendTextElement(document, game, "genre", ssGamePackage.getGenre());
+        appendTextElement(document, game, "players", ssGamePackage.getPlayer());
     }
 
-    private String getGamePath(Element gameElement) {
-        var pathNodes = gameElement.getElementsByTagName("path");
-        if (pathNodes.getLength() == 0 || pathNodes.item(0).getTextContent().isBlank()) {
-            throw new IllegalArgumentException("gamelist.xml 中存在缺少 path 的 game 节点");
+    private String getReleaseDate(SSGamePackage ssGamePackage, String area) {
+        if (ssGamePackage.getReleaseDateByArea() == null) {
+            throw new IllegalStateException("SSGamePackage.releaseDateByArea is empty: ssPackageId=%s, area=%s"
+                    .formatted(ssGamePackage.getId(), area));
         }
-        return pathNodes.item(0).getTextContent().trim();
+        var releaseDate = ssGamePackage.getReleaseDateByArea().get(area);
+        if (releaseDate == null || releaseDate.isBlank()) {
+            throw new IllegalStateException("SSGamePackage.releaseDateByArea missing: ssPackageId=%s, area=%s"
+                    .formatted(ssGamePackage.getId(), area));
+        }
+        return releaseDate;
     }
 
-    private void validateUniqueGameName(Map<String, Map<String, String>> gamePathByAreaAndName,
-                                        String gamePath,
-                                        String gameName) {
-        var area = extractArea(gamePath);
-        var gamePathByName = gamePathByAreaAndName.computeIfAbsent(area, ignored -> new HashMap<>());
-        var existingGamePath = gamePathByName.putIfAbsent(gameName, gamePath);
-        if (existingGamePath != null) {
-            throw new IllegalArgumentException(
-                    "gamelist.xml 中存在重复游戏名称: area=%s, name=%s, path1=%s, path2=%s"
-                            .formatted(area, gameName, existingGamePath, gamePath));
+    private SSGamePackage requireSSGamePackage(MatchResult matchResult, String area) {
+        var ssGamePackageByArea = matchResult.getSsGamePackageByArea();
+        if (ssGamePackageByArea == null || ssGamePackageByArea.isEmpty()) {
+            throw new IllegalStateException("SSGamePackage not found for area: " + area);
         }
+
+        var ssGamePackage = ssGamePackageByArea.get(area);
+        if (ssGamePackage == null) {
+            ssGamePackage = ssGamePackageByArea.values().stream()
+                    .filter(candidate -> candidate != null
+                            && candidate.getSsGameByArea() != null
+                            && candidate.getSsGameByArea().containsKey(area))
+                    .findFirst()
+                    .orElse(null);
+        }
+        if (ssGamePackage == null) {
+            throw new IllegalStateException("SSGamePackage not found for area: " + area);
+        }
+        return ssGamePackage;
     }
 
-    private String extractArea(String gamePath) {
-        var normalizedPath = gamePath.replace('\\', '/');
-        var fileNameSeparator = normalizedPath.lastIndexOf('/');
-        if (fileNameSeparator <= 0) {
-            throw new IllegalArgumentException("gamelist.xml 中游戏 path 缺少地区目录: path=" + gamePath);
+    private void appendTextElement(Document document, Element parent, String name, String value) {
+        if (value == null || value.isBlank()) {
+            return;
         }
-        var directoryPath = normalizedPath.substring(0, fileNameSeparator);
-        var directoryName = directoryPath.substring(directoryPath.lastIndexOf('/') + 1);
-        var areaSeparator = directoryName.lastIndexOf(" - ");
-        if (areaSeparator == -1 || areaSeparator + 3 == directoryName.length()) {
-            throw new IllegalArgumentException("gamelist.xml 中游戏 path 地区目录格式错误: path=" + gamePath);
-        }
-        return directoryName.substring(areaSeparator + 3);
+        var element = document.createElement(name);
+        element.appendChild(document.createTextNode(value));
+        parent.appendChild(element);
     }
 
-    private String fileNameWithoutExtension(String path) {
-        var normalizedPath = path.trim().replace('\\', '/');
-        var fileName = normalizedPath.substring(normalizedPath.lastIndexOf('/') + 1);
-        var dotIndex = fileName.lastIndexOf('.');
-        return dotIndex > 0 ? fileName.substring(0, dotIndex) : fileName;
-    }
-
-    private void removeBlankTextNodes(Node node) {
-        var child = node.getFirstChild();
-        while (child != null) {
-            var next = child.getNextSibling();
-            if (child.getNodeType() == Node.TEXT_NODE && child.getTextContent().isBlank()) {
-                node.removeChild(child);
-            } else {
-                removeBlankTextNodes(child);
-            }
-            child = next;
+    private String formatReleaseDate(String releaseDate) {
+        if (releaseDate == null || releaseDate.isBlank()) {
+            return null;
         }
+
+        var digits = releaseDate.replaceAll("\\D", "");
+        if (digits.length() >= 8) {
+            return digits.substring(0, 8) + "T000000";
+        }
+        if (digits.length() == 6) {
+            return digits + "01T000000";
+        }
+        if (digits.length() == 4) {
+            return digits + "0101T000000";
+        }
+        return null;
     }
 }

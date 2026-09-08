@@ -27,6 +27,12 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
     private MatchHandler matchHandler;
 
     @Autowired
+    private MatchPostProcessorHandler matchPostProcessorHandler;
+
+    @Autowired
+    private MediaDownloaderHandler mediaDownloaderHandler;
+
+    @Autowired
     private MoveHandler moveHandler;
 
     @Autowired
@@ -57,17 +63,23 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
         noIntroHandler.handle(platformContext);
         ssHandler.handle(platformContext);
         fileContextHandler.handle(platformContext);
-        // matchHandler.handle(platformContext);
-        // moveHandler.handle(platformContext);
-        // renameHandler.handle(platformContext);
-
-        System.out.println();
-
-
+        matchHandler.handle(platformContext);
+        matchPostProcessorHandler.handle(platformContext);
+        mediaDownloaderHandler.handle(platformContext);
+        moveHandler.handle(platformContext);
+        renameHandler.handle(platformContext);
         gameListHandler.handle(platformContext);
         mediaHandler.handle(platformContext);
         coreHandler.handle(platformContext);
         debugReportHandler.handle(platformContext);
+
+        System.out.println();
+
+
+
+
+
+
         releaseReportHandler.handle(platformContext);
         releaseHandler.handle(platformContext);
         System.out.println();
