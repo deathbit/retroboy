@@ -67,7 +67,7 @@ public class MediaDownloaderHandler {
 
     private List<DownloadItem> buildDownloadItems(PlatformContext platformContext) {
         if (platformContext.getMatchResults() == null || platformContext.getMatchResults().isEmpty()) {
-            throw new IllegalStateException("matchResults is empty, run MatchHandler before MediaDownloaderHandler");
+            throw new IllegalStateException("matchResults is empty, run FileContextToSSGamePackageMatchHandler before MediaDownloaderHandler");
         }
 
         var downloadItems = new ArrayList<DownloadItem>();

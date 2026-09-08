@@ -116,7 +116,51 @@ public class SSHandler {
         }
         pb.finishTaskAndClose();
         applySha1Mapping(platformContext, ssGamePackages);
+        removeDuplicateSha1s(ssGamePackages);
         platformContext.setSsGamePackages(ssGamePackages);
+    }
+
+    private void removeDuplicateSha1s(List<SSGamePackage> ssGamePackages) {
+        if (ssGamePackages == null || ssGamePackages.isEmpty()) {
+            return;
+        }
+
+        var ssGamePackagesBySha1 = new LinkedHashMap<String, List<SSGamePackage>>();
+        for (var ssGamePackage : ssGamePackages) {
+            if (ssGamePackage == null || ssGamePackage.getSha1s() == null) {
+                continue;
+            }
+
+            var packageSha1s = new LinkedHashSet<String>();
+            for (var sha1 : ssGamePackage.getSha1s()) {
+                if (sha1 == null || sha1.isBlank()) {
+                    continue;
+                }
+                packageSha1s.add(normalizeSha1(sha1));
+            }
+            for (var sha1 : packageSha1s) {
+                ssGamePackagesBySha1.computeIfAbsent(sha1, ignored -> new ArrayList<>()).add(ssGamePackage);
+            }
+        }
+
+        var duplicateSha1s = new LinkedHashSet<String>();
+        ssGamePackagesBySha1.forEach((sha1, packages) -> {
+            if (packages.size() > 1) {
+                duplicateSha1s.add(sha1);
+            }
+        });
+        if (duplicateSha1s.isEmpty()) {
+            return;
+        }
+
+        for (var ssGamePackage : ssGamePackages) {
+            if (ssGamePackage == null || ssGamePackage.getSha1s() == null) {
+                continue;
+            }
+            ssGamePackage.getSha1s().removeIf(sha1 -> sha1 != null
+                    && !sha1.isBlank()
+                    && duplicateSha1s.contains(normalizeSha1(sha1)));
+        }
     }
 
     private void applySha1Mapping(PlatformContext platformContext, List<SSGamePackage> ssGamePackages) {
@@ -289,9 +333,6 @@ public class SSHandler {
         }
 
         var ssGameByArea = buildSSGameByArea(packageId, jeu);
-        if (ssGameByArea.isEmpty()) {
-            return null;
-        }
         var releaseDateByArea = buildReleaseDateByArea(jeu, ssGameByArea);
         applyReleaseDateByArea(ssGameByArea, releaseDateByArea);
         var medias = buildMedias(jeu);

@@ -120,7 +120,7 @@ public class MediaHandler {
     private List<CopyItem> buildCopyItems(PlatformContext platformContext,
                                           Map<String, Map<String, FinalGame>> finalGameMapByArea) {
         if (platformContext.getMatchResults() == null || platformContext.getMatchResults().isEmpty()) {
-            throw new IllegalStateException("matchResults is empty, run MatchHandler before MediaHandler");
+            throw new IllegalStateException("matchResults is empty, run FileContextToSSGamePackageMatchHandler before MediaHandler");
         }
 
         var copyItems = new ArrayList<CopyItem>();

@@ -24,7 +24,13 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
     private FileContextHandler fileContextHandler;
 
     @Autowired
-    private MatchHandler matchHandler;
+    private WikiGamePackageToNoIntroGamePackageMatchHandler wikiGamePackageToNoIntroGamePackageMatchHandler;
+
+    @Autowired
+    private NoIntroGamePackageToFileContextMatchHandler noIntroGamePackageToFileContextMatchHandler;
+
+    @Autowired
+    private FileContextToSSGamePackageMatchHandler fileContextToSSGamePackageMatchHandler;
 
     @Autowired
     private MatchPostProcessorHandler matchPostProcessorHandler;
@@ -63,7 +69,9 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
         noIntroHandler.handle(platformContext);
         ssHandler.handle(platformContext);
         fileContextHandler.handle(platformContext);
-        matchHandler.handle(platformContext);
+        wikiGamePackageToNoIntroGamePackageMatchHandler.handle(platformContext);
+        noIntroGamePackageToFileContextMatchHandler.handle(platformContext);
+        fileContextToSSGamePackageMatchHandler.handle(platformContext);
         matchPostProcessorHandler.handle(platformContext);
         mediaDownloaderHandler.handle(platformContext);
         moveHandler.handle(platformContext);

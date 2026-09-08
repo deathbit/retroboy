@@ -11,13 +11,13 @@ import org.springframework.stereotype.Component;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
+import java.nio.file.Files;
+import java.nio.file.Path;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-import java.nio.file.Files;
-import java.nio.file.Path;
 
 @Component
 public class GameListHandler {
@@ -38,7 +38,7 @@ public class GameListHandler {
 
     private void writeGameList(PlatformContext platformContext, Path gamelistXml) throws Exception {
         if (platformContext.getMatchResults() == null || platformContext.getMatchResults().isEmpty()) {
-            throw new IllegalStateException("matchResults is empty, run MatchHandler before GameListHandler");
+            throw new IllegalStateException("matchResults is empty, run FileContextToSSGamePackageMatchHandler before GameListHandler");
         }
 
         var document = DocumentBuilderFactory.newInstance().newDocumentBuilder().newDocument();

@@ -23,7 +23,7 @@ public class MatchPostProcessorHandler {
 
     public void handle(PlatformContext platformContext) {
         if (platformContext.getMatchResults() == null || platformContext.getMatchResults().isEmpty()) {
-            throw new IllegalStateException("matchResults is empty, run MatchHandler before MatchPostProcessorHandler");
+            throw new IllegalStateException("matchResults is empty, run FileContextToSSGamePackageMatchHandler before MatchPostProcessorHandler");
         }
 
         var releaseDateConfig = parseReleaseDateConfig(platformContext);
