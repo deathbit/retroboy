@@ -14,45 +14,36 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
-import java.io.UncheckedIOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.EnumMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.ThreadLocalRandom;
 
 /*
  * 媒体匹配策略：
  *
+ * 通用地区规则：
+ *   JPN：JPN > WOR > SS > USA > EUR > 任一其它地区
+ *   USA：USA > WOR > EUR > SS > 除 JPN 任一其它地区 > JPN
+ *   其它：本身地区 > EUR > WOR > USA > SS > 除 JPN 任一其它地区 > JPN
+ *
  * fanart、video：
- *   只匹配 NULL 地区。
- *
- * manuel：
- *   JPN：JPN
- *   USA：USA > WOR
- *   其它：本身地区 > EUR > WOR > USA
- *
- * box-2D、box-2D-back、box-3D：
- *   JPN：JPN > SS
- *   USA：USA > WOR > SS
- *   其它：本身地区 > EUR > WOR > SS
+ *   不使用地区规则，只要存在该类型媒体就使用。
  *
  * support-2D：
- *   JPN：JPN
- *   USA：USA > WOR
- *   其它：本身地区 > EUR > WOR > 除了 USA 和 JPN 以外的任一地区 > USA
- *
- * ss、sstitle、wheel：
- *   JPN：JPN > WOR > USA > EUR > 任意其它地区
- *   USA：USA > WOR > EUR > JPN > 任意其它地区
- *   其它：本身地区 > EUR > WOR > USA > JPN > 任意其它地区
+ *   JPN 只匹配 JPN 地区媒体。
  *
  * marquees：
- *   先按 wheel 执行 ss/sstitle/wheel 规则；未命中时再按 wheel-hd 执行同样规则。
+ *   先匹配 wheel，未命中时再匹配 wheel-hd。
  */
 @Component
 public class MediaHandler {
@@ -85,7 +76,6 @@ public class MediaHandler {
         }
         pb.finishTaskAndClose();
 
-        deleteBrokenMedia(platformContext);
         platformContext.setMediaCompletionRateMap(populateMediaBitmapsAndBuildCompletionRates(platformContext, finalGameMapByArea));
     }
 
@@ -118,14 +108,15 @@ public class MediaHandler {
     }
 
     private List<CopyItem> buildCopyItems(PlatformContext platformContext,
-                                          Map<String, Map<String, FinalGame>> finalGameMapByArea) {
+                                          Map<String, Map<String, FinalGame>> finalGameMapByArea) throws IOException {
         if (platformContext.getMatchResults() == null || platformContext.getMatchResults().isEmpty()) {
             throw new IllegalStateException("matchResults is empty, run FileContextToSSGamePackageMatchHandler before MediaHandler");
         }
 
+        var mediaCatalog = buildMediaCatalog(platformContext);
         var copyItems = new ArrayList<CopyItem>();
         for (var matchResult : platformContext.getMatchResults()) {
-            collectCopyItems(platformContext, matchResult, finalGameMapByArea, copyItems);
+            collectCopyItems(platformContext, matchResult, finalGameMapByArea, mediaCatalog, copyItems);
         }
         return copyItems;
     }
@@ -133,6 +124,7 @@ public class MediaHandler {
     private void collectCopyItems(PlatformContext platformContext,
                                   MatchResult matchResult,
                                   Map<String, Map<String, FinalGame>> finalGameMapByArea,
+                                  MediaCatalog mediaCatalog,
                                   List<CopyItem> copyItems) {
         if (matchResult.getFileContextByArea() == null || matchResult.getFileContextByArea().isEmpty()) {
             return;
@@ -157,7 +149,7 @@ public class MediaHandler {
 
             validateFinalGame(finalGameMapByArea, area, finalRomName);
             var ssGamePackage = requireSSGamePackage(matchResult, area);
-            collectCopyItems(platformContext, area, finalRomName, ssGamePackage, copyItems);
+            collectCopyItems(platformContext, area, finalRomName, ssGamePackage, mediaCatalog, copyItems);
         }
     }
 
@@ -203,221 +195,325 @@ public class MediaHandler {
                                   String area,
                                   String finalRomName,
                                   SSGamePackage ssGamePackage,
+                                  MediaCatalog mediaCatalog,
                                   List<CopyItem> copyItems) {
         SOURCE_MEDIA_SPECS.forEach((mediaAssetType, spec) -> {
-            var sourceMedia = findSourceMedia(platformContext, ssGamePackage.getId(), area, mediaAssetType, spec);
-            var targetPath = PathUtils.esdeMedia(
+            var candidates = mediaCatalog.mediaByPackageIdAndType()
+                    .getOrDefault(ssGamePackage.getId(), Map.of())
+                    .getOrDefault(mediaAssetType, List.of());
+            var sourceMedia = selectSourceMedia(
                     platformContext,
+                    candidates,
+                    area,
                     mediaAssetType,
-                    PathUtils.esdeAreaDirectoryName(platformContext, area),
+                    spec,
                     finalRomName,
-                    sourceMedia.extension());
+                    mediaCatalog.brokenMediaTargets());
+            if (sourceMedia == null) {
+                return;
+            }
+
+            var targetPath = mediaTargetPath(platformContext, area, finalRomName, mediaAssetType, sourceMedia.extension());
             copyItems.add(new CopyItem(sourceMedia.path(), targetPath));
         });
     }
 
-    private SourceMedia findSourceMedia(PlatformContext platformContext,
-                                        String packageId,
-                                        String area,
-                                        MediaAssetType mediaAssetType,
-                                        SourceMediaSpec spec) {
-        var sourceDirectory = PathUtils.PLATFORM_RESOURCE_ROOT.get(platformContext)
-                .resolve("ss")
-                .resolve(packageId);
-        var region = spec.areaSpecific() ? area : "NULL";
+    private MediaCatalog buildMediaCatalog(PlatformContext platformContext) throws IOException {
+        var brokenMediaTargets = buildBrokenMediaTargets(platformContext);
+        var brokenSourceMediaPaths = buildBrokenSourceMediaPaths(platformContext);
+        var mediaByPackageIdAndType = new LinkedHashMap<String, Map<MediaAssetType, List<SourceMedia>>>();
+        scanSourceMediaRoot(platformContext, "ss", 0, true, brokenSourceMediaPaths, mediaByPackageIdAndType);
+        scanSourceMediaRoot(platformContext, "ss_manual", 1, false, brokenSourceMediaPaths, mediaByPackageIdAndType);
 
-        SourceMedia firstSourceMedia = null;
-        for (var ssMediaType : spec.ssMediaTypes()) {
-            var sourceMedia = findSourceMedia(sourceDirectory, packageId, region, mediaAssetType, ssMediaType);
-            if (firstSourceMedia == null) {
-                firstSourceMedia = sourceMedia;
-            }
-            if (Files.exists(sourceMedia.path())) {
-                return sourceMedia;
-            }
-
-            for (var fallbackRegion : fallbackRegions(mediaAssetType, region)) {
-                if (fallbackRegion.equals(region)) {
-                    continue;
-                }
-                var fallbackSourceMedia = findSourceMedia(sourceDirectory, packageId, fallbackRegion, mediaAssetType, ssMediaType);
-                if (Files.exists(fallbackSourceMedia.path())) {
-                    return fallbackSourceMedia;
-                }
-            }
-
-            if (usesAnyRegionFallback(mediaAssetType)) {
-                var anyRegionSourceMedia = findAnyRegionSourceMedia(sourceDirectory, packageId, mediaAssetType, ssMediaType, List.of());
-                if (anyRegionSourceMedia != null) {
-                    return anyRegionSourceMedia;
-                }
-            }
-
-            if (usesPhysicalMediaExtraFallback(mediaAssetType, region)) {
-                var anyRegionSourceMedia = findAnyRegionSourceMedia(
-                        sourceDirectory,
-                        packageId,
-                        mediaAssetType,
-                        ssMediaType,
-                        List.of(USA_REGION, JAPAN_REGION));
-                if (anyRegionSourceMedia != null) {
-                    return anyRegionSourceMedia;
-                }
-
-                var usaSourceMedia = findSourceMedia(sourceDirectory, packageId, USA_REGION, mediaAssetType, ssMediaType);
-                if (Files.exists(usaSourceMedia.path())) {
-                    return usaSourceMedia;
-                }
+        for (var mediaByType : mediaByPackageIdAndType.values()) {
+            for (var entry : mediaByType.entrySet()) {
+                entry.getValue().sort(sourceMediaComparator(entry.getKey()));
             }
         }
-        return firstSourceMedia;
+        return new MediaCatalog(mediaByPackageIdAndType, brokenMediaTargets);
     }
 
-    private SourceMedia findSourceMedia(Path sourceDirectory,
-                                        String packageId,
-                                        String region,
-                                        MediaAssetType mediaAssetType,
-                                        String ssMediaType) {
-        var fileNameWithoutExtension = String.join("_", packageId, ssMediaType, region)
-                .toUpperCase(Locale.ROOT);
-        var primarySource = sourceDirectory.resolve(fileNameWithoutExtension + "." + mediaAssetType.getPrimaryExtension());
-        if (mediaAssetType.getFallbackExtension() == null || Files.exists(primarySource)) {
-            return new SourceMedia(primarySource, mediaAssetType.getPrimaryExtension());
-        }
-        return new SourceMedia(
-                sourceDirectory.resolve(fileNameWithoutExtension + "." + mediaAssetType.getFallbackExtension()),
-                mediaAssetType.getFallbackExtension());
-    }
-
-    private SourceMedia findAnyRegionSourceMedia(Path sourceDirectory,
-                                                 String packageId,
-                                                 MediaAssetType mediaAssetType,
-                                                 String ssMediaType,
-                                                 List<String> excludedRegions) {
-        if (Files.notExists(sourceDirectory)) {
-            return null;
-        }
-
-        var fileNamePrefix = (packageId + "_" + ssMediaType + "_").toUpperCase(Locale.ROOT);
-        try (var stream = Files.list(sourceDirectory)) {
-            var candidates = stream.filter(Files::isRegularFile)
-                    .map(Path::getFileName)
-                    .map(Path::toString)
-                    .filter(fileName -> isAnyRegionSourceMedia(fileName, fileNamePrefix, mediaAssetType, excludedRegions))
-                    .toList();
-            if (candidates.isEmpty()) {
-                return null;
-            }
-
-            var fileName = candidates.get(ThreadLocalRandom.current().nextInt(candidates.size()));
-            return new SourceMedia(sourceDirectory.resolve(fileName), extension(fileName));
-        } catch (IOException e) {
-            throw new UncheckedIOException(e);
-        }
-    }
-
-    private boolean isAnyRegionSourceMedia(String fileName,
-                                           String fileNamePrefix,
-                                           MediaAssetType mediaAssetType,
-                                           List<String> excludedRegions) {
-        var normalizedFileName = fileName.toUpperCase(Locale.ROOT);
-        return normalizedFileName.startsWith(fileNamePrefix)
-                && hasSupportedExtension(normalizedFileName, mediaAssetType)
-                && !excludedRegions.contains(region(fileName, fileNamePrefix));
-    }
-
-    private boolean hasSupportedExtension(String normalizedFileName, MediaAssetType mediaAssetType) {
-        if (normalizedFileName.endsWith("." + mediaAssetType.getPrimaryExtension().toUpperCase(Locale.ROOT))) {
-            return true;
-        }
-
-        var fallbackExtension = mediaAssetType.getFallbackExtension();
-        return fallbackExtension != null
-                && normalizedFileName.endsWith("." + fallbackExtension.toUpperCase(Locale.ROOT));
-    }
-
-    private String extension(String fileName) {
-        var dotIndex = fileName.lastIndexOf('.');
-        if (dotIndex == -1 || dotIndex == fileName.length() - 1) {
-            throw new IllegalStateException("Media file extension not found: " + fileName);
-        }
-        return fileName.substring(dotIndex + 1);
-    }
-
-    private String region(String fileName, String fileNamePrefix) {
-        var dotIndex = fileName.lastIndexOf('.');
-        if (dotIndex == -1) {
-            throw new IllegalStateException("Media file extension not found: " + fileName);
-        }
-        return fileName.substring(fileNamePrefix.length(), dotIndex).toUpperCase(Locale.ROOT);
-    }
-
-    private boolean usesAnyRegionFallback(MediaAssetType mediaAssetType) {
-        return mediaAssetType == MediaAssetType.SCREENSHOT
-                || mediaAssetType == MediaAssetType.TITLE_SCREEN
-                || mediaAssetType == MediaAssetType.MARQUEE;
-    }
-
-    private boolean usesPhysicalMediaExtraFallback(MediaAssetType mediaAssetType, String region) {
-        return mediaAssetType == MediaAssetType.PHYSICAL_MEDIA
-                && !JAPAN_REGION.equals(region)
-                && !USA_REGION.equals(region);
-    }
-
-    private List<String> fallbackRegions(MediaAssetType mediaAssetType, String region) {
-        return switch (mediaAssetType) {
-            case MANUAL -> manualFallbackRegions(region);
-            case PHYSICAL_MEDIA -> physicalMediaFallbackRegions(region);
-            case THREE_D_BOX, BACK_COVER, COVER -> boxFallbackRegions(region);
-            case SCREENSHOT, TITLE_SCREEN, MARQUEE -> imageFallbackRegions(region);
-            case FANART, MIX_IMAGE, VIDEO -> List.of();
-        };
-    }
-
-    private List<String> manualFallbackRegions(String region) {
-        return switch (region) {
-            case JAPAN_REGION -> List.of();
-            case USA_REGION -> List.of(WORLD_REGION);
-            default -> List.of(EUROPE_REGION, WORLD_REGION, USA_REGION);
-        };
-    }
-
-    private List<String> physicalMediaFallbackRegions(String region) {
-        return switch (region) {
-            case JAPAN_REGION -> List.of();
-            case USA_REGION -> List.of(WORLD_REGION);
-            default -> List.of(EUROPE_REGION, WORLD_REGION);
-        };
-    }
-
-    private List<String> boxFallbackRegions(String region) {
-        return switch (region) {
-            case JAPAN_REGION -> List.of(SPECIAL_REGION);
-            case USA_REGION -> List.of(WORLD_REGION, SPECIAL_REGION);
-            default -> List.of(EUROPE_REGION, WORLD_REGION, SPECIAL_REGION);
-        };
-    }
-
-    private List<String> imageFallbackRegions(String region) {
-        return switch (region) {
-            case JAPAN_REGION -> List.of(WORLD_REGION, USA_REGION, EUROPE_REGION);
-            case USA_REGION -> List.of(WORLD_REGION, EUROPE_REGION, JAPAN_REGION);
-            default -> List.of(EUROPE_REGION, WORLD_REGION, USA_REGION, JAPAN_REGION);
-        };
-    }
-
-    private void deleteBrokenMedia(PlatformContext platformContext) {
+    private Set<Path> buildBrokenMediaTargets(PlatformContext platformContext) {
         var brokenMediaList = platformContext.getPlatformPackTaskConfig().getBrokenMediaList();
         if (brokenMediaList == null || brokenMediaList.isEmpty()) {
-            return;
+            return Set.of();
         }
 
+        var brokenMediaTargets = new HashSet<Path>();
         for (var brokenMedia : brokenMediaList) {
             var path = brokenMedia.isAbsolute()
                     ? brokenMedia
                     : PathUtils.ESDE_PLATFORM_MEDIA.get(platformContext).resolve(brokenMedia);
-            fileComponent.deletePath(path);
+            brokenMediaTargets.add(normalizedPath(path));
         }
+        return brokenMediaTargets;
+    }
+
+    private Set<Path> buildBrokenSourceMediaPaths(PlatformContext platformContext) {
+        var brokenMediaList = platformContext.getPlatformPackTaskConfig().getBrokenMediaList();
+        if (brokenMediaList == null || brokenMediaList.isEmpty()) {
+            return Set.of();
+        }
+
+        var sourceMediaRoot = PathUtils.PLATFORM_RESOURCE_ROOT.get(platformContext).resolve("ss");
+        var brokenSourceMediaPaths = new HashSet<Path>();
+        for (var brokenMedia : brokenMediaList) {
+            brokenSourceMediaPaths.add(normalizedPath(brokenMedia.isAbsolute()
+                    ? brokenMedia
+                    : sourceMediaRoot.resolve(brokenMedia)));
+        }
+        return brokenSourceMediaPaths;
+    }
+
+    private void scanSourceMediaRoot(PlatformContext platformContext,
+                                     String sourceRootName,
+                                     int sourceRootRank,
+                                     boolean primarySourceRoot,
+                                     Set<Path> brokenSourceMediaPaths,
+                                     Map<String, Map<MediaAssetType, List<SourceMedia>>> mediaByPackageIdAndType)
+            throws IOException {
+        var sourceRoot = PathUtils.PLATFORM_RESOURCE_ROOT.get(platformContext).resolve(sourceRootName);
+        if (Files.notExists(sourceRoot)) {
+            return;
+        }
+
+        try (var packageDirectories = Files.list(sourceRoot)) {
+            for (var packageDirectory : packageDirectories.filter(Files::isDirectory).toList()) {
+                scanPackageMediaDirectory(
+                        packageDirectory,
+                        sourceRootRank,
+                        primarySourceRoot,
+                        brokenSourceMediaPaths,
+                        mediaByPackageIdAndType);
+            }
+        }
+    }
+
+    private void scanPackageMediaDirectory(Path packageDirectory,
+                                           int sourceRootRank,
+                                           boolean primarySourceRoot,
+                                           Set<Path> brokenSourceMediaPaths,
+                                           Map<String, Map<MediaAssetType, List<SourceMedia>>> mediaByPackageIdAndType)
+            throws IOException {
+        var packageId = packageDirectory.getFileName().toString();
+        try (var files = Files.list(packageDirectory)) {
+            for (var path : files.filter(Files::isRegularFile).toList()) {
+                if (brokenSourceMediaPaths.contains(normalizedPath(path))) {
+                    continue;
+                }
+
+                var sourceMedia = parseSourceMedia(packageId, path, sourceRootRank, primarySourceRoot);
+                if (sourceMedia == null) {
+                    continue;
+                }
+
+                mediaByPackageIdAndType
+                        .computeIfAbsent(packageId, ignored -> new EnumMap<>(MediaAssetType.class))
+                        .computeIfAbsent(sourceMedia.mediaAssetType(), ignored -> new ArrayList<>())
+                        .add(sourceMedia);
+            }
+        }
+    }
+
+    private SourceMedia parseSourceMedia(String packageId, Path path, int sourceRootRank, boolean primarySourceRoot) {
+        var fileName = path.getFileName().toString();
+        var dotIndex = fileName.lastIndexOf('.');
+        if (dotIndex == -1 || dotIndex == fileName.length() - 1) {
+            return null;
+        }
+
+        var extension = fileName.substring(dotIndex + 1).toLowerCase(Locale.ROOT);
+        var nameWithoutExtension = fileName.substring(0, dotIndex);
+        var prefix = packageId + "_";
+        if (!nameWithoutExtension.toUpperCase(Locale.ROOT).startsWith(prefix.toUpperCase(Locale.ROOT))) {
+            return null;
+        }
+
+        var mediaTypeAndRegion = nameWithoutExtension.substring(prefix.length());
+        var regionSeparatorIndex = mediaTypeAndRegion.lastIndexOf('_');
+        if (regionSeparatorIndex == -1 || regionSeparatorIndex == mediaTypeAndRegion.length() - 1) {
+            return null;
+        }
+
+        var ssMediaType = mediaTypeAndRegion.substring(0, regionSeparatorIndex);
+        var mediaAssetType = mediaAssetType(ssMediaType);
+        if (mediaAssetType == null || !supportsExtension(extension, mediaAssetType)) {
+            return null;
+        }
+
+        return new SourceMedia(
+                path,
+                extension,
+                mediaTypeAndRegion.substring(regionSeparatorIndex + 1).toUpperCase(Locale.ROOT),
+                mediaAssetType,
+                sourceMediaTypeRank(mediaAssetType, ssMediaType),
+                sourceRootRank,
+                primarySourceRoot);
+    }
+
+    private MediaAssetType mediaAssetType(String ssMediaType) {
+        for (var entry : SOURCE_MEDIA_SPECS.entrySet()) {
+            for (var candidate : entry.getValue().ssMediaTypes()) {
+                if (candidate.equalsIgnoreCase(ssMediaType)) {
+                    return entry.getKey();
+                }
+            }
+        }
+        return null;
+    }
+
+    private int sourceMediaTypeRank(MediaAssetType mediaAssetType, String ssMediaType) {
+        var ssMediaTypes = SOURCE_MEDIA_SPECS.get(mediaAssetType).ssMediaTypes();
+        for (int i = 0; i < ssMediaTypes.size(); i++) {
+            if (ssMediaTypes.get(i).equalsIgnoreCase(ssMediaType)) {
+                return i;
+            }
+        }
+        return ssMediaTypes.size();
+    }
+
+    private boolean supportsExtension(String extension, MediaAssetType mediaAssetType) {
+        return mediaAssetType.getPrimaryExtension().equalsIgnoreCase(extension)
+                || mediaAssetType.getFallbackExtension() != null
+                && mediaAssetType.getFallbackExtension().equalsIgnoreCase(extension);
+    }
+
+    private Comparator<SourceMedia> sourceMediaComparator(MediaAssetType mediaAssetType) {
+        return Comparator.comparingInt(SourceMedia::sourceMediaTypeRank)
+                .thenComparingInt(SourceMedia::sourceRootRank)
+                .thenComparingInt(sourceMedia -> extensionRank(sourceMedia, mediaAssetType))
+                .thenComparing(sourceMedia -> sourceMedia.path().toString());
+    }
+
+    private int extensionRank(SourceMedia sourceMedia, MediaAssetType mediaAssetType) {
+        return mediaAssetType.getPrimaryExtension().equalsIgnoreCase(sourceMedia.extension()) ? 0 : 1;
+    }
+
+    private SourceMedia selectSourceMedia(PlatformContext platformContext,
+                                          List<SourceMedia> candidates,
+                                          String area,
+                                          MediaAssetType mediaAssetType,
+                                          SourceMediaSpec spec,
+                                          String finalRomName,
+                                          Set<Path> brokenMediaTargets) {
+        if (mediaAssetType == MediaAssetType.PHYSICAL_MEDIA && JAPAN_REGION.equals(area)) {
+            var japanCandidates = candidates.stream()
+                    .filter(sourceMedia -> JAPAN_REGION.equals(sourceMedia.region()))
+                    .toList();
+            var sourceMedia = japanCandidates.isEmpty() ? null : japanCandidates.get(0);
+            if (sourceMedia == null || !sourceMedia.primarySourceRoot()) {
+                return sourceMedia;
+            }
+
+            var targetPath = mediaTargetPath(platformContext, area, finalRomName, mediaAssetType, sourceMedia.extension());
+            if (!brokenMediaTargets.contains(normalizedPath(targetPath))) {
+                return sourceMedia;
+            }
+            return japanCandidates.stream()
+                    .filter(candidate -> !normalizedPath(candidate.path()).equals(normalizedPath(sourceMedia.path())))
+                    .findFirst()
+                    .orElse(null);
+        }
+
+        var sourceMedia = selectSourceMedia(candidates, area, spec, Set.of());
+        if (sourceMedia == null || !sourceMedia.primarySourceRoot()) {
+            return sourceMedia;
+        }
+
+        var targetPath = mediaTargetPath(platformContext, area, finalRomName, mediaAssetType, sourceMedia.extension());
+        if (!brokenMediaTargets.contains(normalizedPath(targetPath))) {
+            return sourceMedia;
+        }
+        return selectSourceMedia(candidates, area, spec, Set.of(normalizedPath(sourceMedia.path())));
+    }
+
+    private SourceMedia selectSourceMedia(List<SourceMedia> candidates,
+                                          String area,
+                                          SourceMediaSpec spec,
+                                          Set<Path> excludedSourcePaths) {
+        var availableCandidates = candidates.stream()
+                .filter(sourceMedia -> !excludedSourcePaths.contains(normalizedPath(sourceMedia.path())))
+                .toList();
+        if (availableCandidates.isEmpty()) {
+            return null;
+        }
+        if (!spec.areaSpecific()) {
+            return availableCandidates.get(0);
+        }
+
+        var priorityRegions = priorityRegions(area);
+        for (var region : priorityRegions) {
+            var sourceMedia = findFirstSourceMediaByRegion(availableCandidates, region);
+            if (sourceMedia != null) {
+                return sourceMedia;
+            }
+        }
+
+        var arbitraryRegionCandidates = availableCandidates.stream()
+                .filter(sourceMedia -> !JAPAN_REGION.equals(sourceMedia.region()))
+                .filter(sourceMedia -> !priorityRegions.contains(sourceMedia.region()))
+                .toList();
+        if (arbitraryRegionCandidates.isEmpty()) {
+            return findFirstSourceMediaByRegion(availableCandidates, JAPAN_REGION);
+        }
+        return arbitraryRegionCandidates.get(ThreadLocalRandom.current().nextInt(arbitraryRegionCandidates.size()));
+    }
+
+    private List<String> priorityRegions(String area) {
+        var regions = new ArrayList<String>();
+        switch (area) {
+            case JAPAN_REGION -> {
+                addRegion(regions, JAPAN_REGION);
+                addRegion(regions, WORLD_REGION);
+                addRegion(regions, SPECIAL_REGION);
+                addRegion(regions, USA_REGION);
+                addRegion(regions, EUROPE_REGION);
+            }
+            case USA_REGION -> {
+                addRegion(regions, USA_REGION);
+                addRegion(regions, WORLD_REGION);
+                addRegion(regions, EUROPE_REGION);
+                addRegion(regions, SPECIAL_REGION);
+            }
+            default -> {
+                addRegion(regions, area);
+                addRegion(regions, EUROPE_REGION);
+                addRegion(regions, WORLD_REGION);
+                addRegion(regions, USA_REGION);
+                addRegion(regions, SPECIAL_REGION);
+            }
+        }
+        return regions;
+    }
+
+    private void addRegion(List<String> regions, String region) {
+        if (!regions.contains(region)) {
+            regions.add(region);
+        }
+    }
+
+    private SourceMedia findFirstSourceMediaByRegion(List<SourceMedia> sourceMediaList, String region) {
+        return sourceMediaList.stream()
+                .filter(sourceMedia -> region.equals(sourceMedia.region()))
+                .findFirst()
+                .orElse(null);
+    }
+
+    private Path mediaTargetPath(PlatformContext platformContext,
+                                 String area,
+                                 String finalRomName,
+                                 MediaAssetType mediaAssetType,
+                                 String extension) {
+        return PathUtils.esdeMedia(
+                platformContext,
+                mediaAssetType,
+                PathUtils.esdeAreaDirectoryName(platformContext, area),
+                finalRomName,
+                extension);
+    }
+
+    private Path normalizedPath(Path path) {
+        return path.toAbsolutePath().normalize();
     }
 
     private Map<String, Map<MediaAssetType, MediaCompletionRate>> populateMediaBitmapsAndBuildCompletionRates(
@@ -480,7 +576,17 @@ public class MediaHandler {
         }
     }
 
-    private record SourceMedia(Path path, String extension) {
+    private record MediaCatalog(Map<String, Map<MediaAssetType, List<SourceMedia>>> mediaByPackageIdAndType,
+                                Set<Path> brokenMediaTargets) {
+    }
+
+    private record SourceMedia(Path path,
+                               String extension,
+                               String region,
+                               MediaAssetType mediaAssetType,
+                               int sourceMediaTypeRank,
+                               int sourceRootRank,
+                               boolean primarySourceRoot) {
     }
 
     private record CopyItem(Path sourcePath, Path targetPath) {
