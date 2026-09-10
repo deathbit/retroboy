@@ -51,6 +51,9 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
     private MediaHandler mediaHandler;
 
     @Autowired
+    private MappedAreaOutputHandler mappedAreaOutputHandler;
+
+    @Autowired
     private CoreHandler coreHandler;
 
     @Autowired
@@ -78,6 +81,7 @@ public class DefaultPlatformPackHandler implements PlatformPackHandler {
         renameHandler.handle(platformContext);
         gameListHandler.handle(platformContext);
         mediaHandler.handle(platformContext);
+        mappedAreaOutputHandler.handle(platformContext);
         coreHandler.handle(platformContext);
         debugReportHandler.handle(platformContext);
 

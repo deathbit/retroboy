@@ -37,6 +37,7 @@ public class FileContextToSSGamePackageMatchHandler {
         var ssGamePackagesBySha1 = buildSSGamePackagesBySha1(platformContext.getSsGamePackages());
         var areaMapping = getPlatformProcessor(platformContext).gameDBToWikiDBAreaMapping(
             buildGameAreas(platformContext.getNoIntroGamePackages()), buildWikiAreas(platformContext.getWikiGamePackages()));
+        var matchedSSGamePackageDetailsByArea = new LinkedHashMap<String, Map<String, Map<String, Object>>>();
 
         for (var matchResult : matchResults) {
             var fileContextByArea = requireFileContextByArea(matchResult);
@@ -58,18 +59,62 @@ public class FileContextToSSGamePackageMatchHandler {
                     throw new RuntimeException("MatchResult 缺少对应 FileContext: wikiPackageId=%s, gamePackageId=%s, gameArea=%s"
                         .formatted(matchResult.getWikiGamePackage().getId(), matchResult.getNoIntroGamePackage().getId(), noIntroArea));
                 }
+                var matchPairForGame = MatchPairForGame.builder()
+                                                       .wikiGame(wikiGame)
+                                                       .noIntroGame(noIntroGame)
+                                                       .build();
                 var ssGamePackage = requireSingleSSGamePackage(ssGamePackagesBySha1, fileContext, noIntroArea, noIntroGame.getTitle());
+                validateUniqueSSGamePackageSha1Match(
+                    matchedSSGamePackageDetailsByArea,
+                    matchResult,
+                    noIntroArea,
+                    matchPairForGame,
+                    fileContext,
+                    ssGamePackage
+                );
 
-                matchPairForGameByArea.put(noIntroArea, MatchPairForGame.builder()
-                                                                        .wikiGame(wikiGame)
-                                                                        .noIntroGame(noIntroGame)
-                                                                        .build());
+                matchPairForGameByArea.put(noIntroArea, matchPairForGame);
                 ssGamePackageByArea.put(noIntroArea, ssGamePackage);
             }
 
             validateSingleSSGamePackageByArea(platformContext, matchResult, matchPairForGameByArea, fileContextByArea, ssGamePackageByArea);
             matchResult.setSsGamePackageByArea(ssGamePackageByArea);
         }
+    }
+
+    private void validateUniqueSSGamePackageSha1Match(
+        Map<String, Map<String, Map<String, Object>>> matchedSSGamePackageDetailsByArea,
+        MatchResult matchResult,
+        String area,
+        MatchPairForGame matchPairForGame,
+        FileContext fileContext,
+        SSGamePackage ssGamePackage
+    ) {
+        var ssPackageId = ssGamePackage.getId();
+        var matchedDetailsByPackageId = matchedSSGamePackageDetailsByArea.computeIfAbsent(area, ignored -> new LinkedHashMap<>());
+        var currentDetail = buildSSGamePackageConflictDetail(matchPairForGame, fileContext, ssGamePackage);
+        currentDetail.put("wikiPackageId", matchResult.getWikiGamePackage().getId());
+        currentDetail.put("gamePackageId", matchResult.getNoIntroGamePackage().getId());
+
+        var existingDetail = matchedDetailsByPackageId.putIfAbsent(ssPackageId, currentDetail);
+        if (existingDetail != null) {
+            throw new RuntimeException("SSGamePackage SHA1 repeated match conflict:\n"
+                + buildRepeatedSSGamePackageMatchConflictJson(area, ssPackageId, existingDetail, currentDetail));
+        }
+    }
+
+    private String buildRepeatedSSGamePackageMatchConflictJson(
+        String area,
+        String ssPackageId,
+        Map<String, Object> existingDetail,
+        Map<String, Object> currentDetail
+    ) {
+        var report = new LinkedHashMap<String, Object>();
+        report.put("area", area);
+        report.put("ssPackageId", ssPackageId);
+        report.put("existingMatch", existingDetail);
+        report.put("currentMatch", currentDetail);
+        return GSON.toJson(report);
     }
 
     private List<MatchResult> requireMatchResults(PlatformContext platformContext) {
@@ -228,4 +273,3 @@ public class FileContextToSSGamePackageMatchHandler {
         return platformProcessor;
     }
 }
-

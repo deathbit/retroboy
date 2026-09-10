@@ -4,6 +4,7 @@ import com.github.deathbit.retroboy.component.FileComponent;
 import com.github.deathbit.retroboy.domain.FinalGame;
 import com.github.deathbit.retroboy.domain.MatchResult;
 import com.github.deathbit.retroboy.domain.MediaCompletionRate;
+import com.github.deathbit.retroboy.domain.PathPair;
 import com.github.deathbit.retroboy.domain.PlatformContext;
 import com.github.deathbit.retroboy.domain.ProgressBar;
 import com.github.deathbit.retroboy.domain.gamepackage.SSGamePackage;
@@ -76,7 +77,24 @@ public class MediaHandler {
         }
         pb.finishTaskAndClose();
 
+        copyMixImagesIfExists(platformContext);
         platformContext.setMediaCompletionRateMap(populateMediaBitmapsAndBuildCompletionRates(platformContext, finalGameMapByArea));
+    }
+
+    private void copyMixImagesIfExists(PlatformContext platformContext) {
+        var sourcePath = PathUtils.PLATFORM_RESOURCE_ROOT.get(platformContext)
+                .resolve(MediaAssetType.MIX_IMAGE.getDirectoryName());
+        if (Files.notExists(sourcePath)) {
+            return;
+        }
+        if (!Files.isDirectory(sourcePath)) {
+            throw new IllegalStateException("miximages source path is not a directory: " + sourcePath);
+        }
+
+        fileComponent.copyPath(PathPair.builder()
+                .sourcePath(sourcePath)
+                .targetPath(PathUtils.ESDE_PLATFORM_MEDIA.get(platformContext))
+                .build());
     }
 
     private static Map<MediaAssetType, SourceMediaSpec> buildSourceMediaSpecs() {
