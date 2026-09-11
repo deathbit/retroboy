@@ -10,7 +10,7 @@ public final class PathUtils {
     private PathUtils() {
     }
 
-    // 示例：D:\retroboy-resources
+    // 默认 res 相对于运行工作目录；IDEA 中应将 Working directory 设置为项目根目录。
     public static final PathSupplier RESOURCES_HOME =
             ruleContext -> Path.of(ruleContext.getGlobalConfig().getResHome());
 
@@ -22,72 +22,35 @@ public final class PathUtils {
     public static final PathSupplier RETROARCH_HOME =
             ruleContext -> Path.of(ruleContext.getGlobalConfig().getRaHome());
 
-    // 示例：D:\retroboy-resources\platform\nes
+    // 示例：res/platform/nes
     public static final PathSupplier PLATFORM_RESOURCE_ROOT =
             ruleContext -> RESOURCES_HOME.get(ruleContext)
                     .resolve("platform")
                     .resolve(ruleContext.getPlatform().getName());
 
-    // 示例：D:\retroboy-resources\platform\nes\roms
+    // 示例：res/platform/nes/roms
     public static final PathSupplier PLATFORM_ROMS =
             ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
                     .resolve("roms");
 
-    // 示例：D:\retroboy-resources\platform\nes\dat\nes.dat
-    public static final PathSupplier PLATFORM_DAT =
-            ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
-                    .resolve("dat")
-                    .resolve(ruleContext.getPlatform().getName() + ".dat");
-
-    // 示例：D:\retroboy-resources\platform\nes\nes_db.xml
-    public static final PathSupplier PLATFORM_GAME_DB =
-            ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
-                    .resolve(ruleContext.getPlatform().getName() + "_db.xml");
-
-    // 示例：D:\retroboy-resources\platform\nes\core_config
+    // 示例：res/platform/nes/core_config
     public static final PathSupplier PLATFORM_CORE_CONFIG =
             ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
                     .resolve("core_config");
 
-    // 示例：D:\retroboy-resources\platform\nes\downloaded_media\nes
-    public static final PathSupplier PLATFORM_DOWNLOADED_MEDIA =
-            ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
-                    .resolve("downloaded_media")
-                    .resolve(ruleContext.getPlatform().getName());
-
-    // 示例：D:\retroboy-resources\platform\nes\gamelist.xml
+    // 示例：res/platform/nes/gamelist.xml
     public static final PathSupplier PLATFORM_GAMELIST_XML =
             ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
                     .resolve("gamelist.xml");
 
-    // 示例：D:\retroboy-resources\platform\nes\wiki
-    public static final PathSupplier PLATFORM_WIKI_ROOT =
-            ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
-                    .resolve("wiki");
-
-    // 示例：D:\retroboy-resources\platform\nes\wiki\NES-ROM.txt
-    public static final PathSupplier PLATFORM_ROM_WIKI =
-            ruleContext -> PLATFORM_WIKI_ROOT.get(ruleContext)
-                    .resolve(ruleContext.getPlatform().name() + "-ROM.txt");
-
-    // 示例：D:\retroboy-resources\platform\nes\wiki\NES-WIKI-ROM.txt
-    public static final PathSupplier PLATFORM_WIKI_ROM_MAPPING =
-            ruleContext -> PLATFORM_WIKI_ROOT.get(ruleContext)
-                    .resolve(ruleContext.getPlatform().name() + "-WIKI-ROM.txt");
-
-    // 示例：D:\retroboy-resources\platform\nes\report
-    public static final PathSupplier PLATFORM_REPORT_ROOT =
-            ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
-                    .resolve("report");
-
-    // 示例：D:\retroboy-resources\platform\nes\report\调试信息-NES.txt
+    // 示例：res/platform/nes/调试信息-NES.txt
     public static final PathSupplier DEBUG_REPORT =
-            ruleContext -> PLATFORM_REPORT_ROOT.get(ruleContext)
+            ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
                     .resolve("调试信息-" + ruleContext.getPlatform().name() + ".txt");
 
-    // 示例：D:\retroboy-resources\platform\nes\report\使用说明-NES.txt
+    // 示例：res/platform/nes/使用说明-NES.txt
     public static final PathSupplier RELEASE_REPORT =
-            ruleContext -> PLATFORM_REPORT_ROOT.get(ruleContext)
+            ruleContext -> PLATFORM_RESOURCE_ROOT.get(ruleContext)
                     .resolve("使用说明-" + ruleContext.getPlatform().name() + ".txt");
 
     // 示例：D:\ES-DE\ROMs
@@ -135,7 +98,7 @@ public final class PathUtils {
             ruleContext -> RETROARCH_HOME.get(ruleContext)
                     .resolve("config");
 
-    // 示例：D:\retroboy-resources\release\NES.zip
+    // 示例：res/release/NES.zip
     public static final PathSupplier RELEASE_ZIP =
             ruleContext -> RESOURCES_HOME.get(ruleContext)
                     .resolve("release")

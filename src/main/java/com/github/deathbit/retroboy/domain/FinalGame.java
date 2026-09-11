@@ -14,13 +14,9 @@ import lombok.NoArgsConstructor;
 public class FinalGame {
     private String finalRomName;
     private String originRomName;
-    private String wikiArea;
     private String wikiName;
-    private String gameArea;
-    private String gameName;
     private WikiGame wikiGame;
     private NoIntroGame noIntroGame;
     private FileContext fileContext;
-    private String ssName;
     private int mediaBitMap;
 }

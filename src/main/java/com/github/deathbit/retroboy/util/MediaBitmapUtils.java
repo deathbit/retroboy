@@ -15,13 +15,6 @@ public final class MediaBitmapUtils {
     }
 
     /**
-     * Returns a bitmap with the asset type marked as absent.
-     */
-    public static int withoutMedia(int mediaBitmap, MediaAssetType mediaAssetType) {
-        return mediaBitmap & ~mediaAssetType.getBitMask();
-    }
-
-    /**
      * A set bit means the media asset exists.
      */
     public static boolean hasMedia(int mediaBitmap, MediaAssetType mediaAssetType) {
@@ -32,4 +25,3 @@ public final class MediaBitmapUtils {
         return !hasMedia(mediaBitmap, mediaAssetType);
     }
 }
-

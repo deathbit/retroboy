@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class WikiGame implements Game {
+public class WikiGame {
     private String id;
     private String packageId;
     private String title;

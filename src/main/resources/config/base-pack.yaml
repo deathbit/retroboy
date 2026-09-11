@@ -5,18 +5,18 @@ deleteAllTaskConfig:
 setUpESDEBaseTaskConfig:
   taskName: '设置ES-DE基础包'
   enabled: true
-  pathPair: { sourcePath: 'D:\resources\base\ES-DE', targetPath: 'D:\' }
+  pathPair: { sourcePath: '${globalConfig.resHome}/base/ES-DE', targetPath: 'D:\' }
 setUpESDEUpdateTaskConfig:
   taskName: '设置ES-DE升级包'
   enabled: true
   deletePaths: [ 'D:\ES-DE\ES-DE\themes', 'D:\ES-DE\ROMs' ]
   pathPairs:
-    - { sourcePath: 'D:\resources\base\ES-DE-Update\themes', targetPath: 'D:\ES-DE\ES-DE' }
-    - { sourcePath: 'D:\resources\base\ES-DE-Update\ROMs', targetPath: 'D:\ES-DE' }
+    - { sourcePath: '${globalConfig.resHome}/base/ES-DE-Update/themes', targetPath: 'D:\ES-DE\ES-DE' }
+    - { sourcePath: '${globalConfig.resHome}/base/ES-DE-Update/ROMs', targetPath: 'D:\ES-DE' }
 setUpRetroArchBaseTaskConfig:
   taskName: '设置RetroArch基础包'
   enabled: true
-  pathPair: { sourcePath: 'D:\resources\base\RetroArch-Win64', targetPath: 'D:\ES-DE\Emulators' }
+  pathPair: { sourcePath: '${globalConfig.resHome}/base/RetroArch-Win64', targetPath: 'D:\ES-DE\Emulators' }
 setUpRetroArchUpdateTaskConfig:
   taskName: '设置RetroArch升级包'
   enabled: true
@@ -31,16 +31,16 @@ setUpRetroArchUpdateTaskConfig:
     - 'D:\ES-DE\Emulators\RetroArch-Win64\shaders'
     - 'D:\ES-DE\Emulators\RetroArch-Win64\system'
   pathPairs:
-    - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\assets', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
-    - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\autoconfig', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
-    - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\cheats', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
-    - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\cores', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
-    - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\database', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
-    - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\info', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
-    - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\overlays', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
-    - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\shaders', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
-    - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\system', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
-    - { sourcePath: 'D:\resources\base\RetroArch-Win64-Update\retroarch.cfg', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+    - { sourcePath: '${globalConfig.resHome}/base/RetroArch-Win64-Update/assets', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+    - { sourcePath: '${globalConfig.resHome}/base/RetroArch-Win64-Update/autoconfig', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+    - { sourcePath: '${globalConfig.resHome}/base/RetroArch-Win64-Update/cheats', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+    - { sourcePath: '${globalConfig.resHome}/base/RetroArch-Win64-Update/cores', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+    - { sourcePath: '${globalConfig.resHome}/base/RetroArch-Win64-Update/database', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+    - { sourcePath: '${globalConfig.resHome}/base/RetroArch-Win64-Update/info', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+    - { sourcePath: '${globalConfig.resHome}/base/RetroArch-Win64-Update/overlays', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+    - { sourcePath: '${globalConfig.resHome}/base/RetroArch-Win64-Update/shaders', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+    - { sourcePath: '${globalConfig.resHome}/base/RetroArch-Win64-Update/system', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
+    - { sourcePath: '${globalConfig.resHome}/base/RetroArch-Win64-Update/retroarch.cfg', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64' }
 setUpRetroArchDefaultConfigTaskConfig:
   taskName: '设置RetroArch默认配置'
   enabled: true
@@ -51,15 +51,15 @@ setUpRetroArchFixChineseFontTaskConfig:
   taskName: '修复RetroArch中文字体'
   enabled: true
   deletePath: 'D:\ES-DE\Emulators\RetroArch-Win64\assets\pkg\chinese-fallback-font.ttf'
-  pathPair: { sourcePath: 'D:\resources\base\RetroArch-Win64-FixChineseFont\chinese-fallback-font.ttf', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\assets\pkg' }
+  pathPair: { sourcePath: '${globalConfig.resHome}/base/RetroArch-Win64-FixChineseFont/chinese-fallback-font.ttf', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\assets\pkg' }
   configPair: { key: 'video_font_path', value: ':\assets\pkg\chinese-fallback-font.ttf' }
 setUpRetroArchMegaBezelShaderTaskConfig:
   taskName: '设置RetroArch着色器'
   enabled: true
   pathPairs:
-    - { sourcePath: 'D:\resources\base\RetroArch-Win64-MegaBezelShader\Mega_Bezel_Packs', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\shaders' }
-    - { sourcePath: 'D:\resources\base\RetroArch-Win64-MegaBezelShader\global.slangp', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\config' }
-    - { sourcePath: 'D:\resources\base\RetroArch-Win64-MegaBezelShader\retroarch.slangp', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\shaders' }
+    - { sourcePath: '${globalConfig.resHome}/base/RetroArch-Win64-MegaBezelShader/Mega_Bezel_Packs', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\shaders' }
+    - { sourcePath: '${globalConfig.resHome}/base/RetroArch-Win64-MegaBezelShader/global.slangp', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\config' }
+    - { sourcePath: '${globalConfig.resHome}/base/RetroArch-Win64-MegaBezelShader/retroarch.slangp', targetPath: 'D:\ES-DE\Emulators\RetroArch-Win64\shaders' }
   configPairs:
     - { key: 'aspect_ratio_index', value: '24' }
     - { key: 'video_allow_rotate', value: 'false' }
@@ -70,7 +70,7 @@ setUpRetroArchMegaBezelShaderTaskConfig:
 basePackReleaseReportTaskConfig:
   taskName: '生成基础包说明文档'
   enabled: true
-  targetPath: 'D:\resources\base\使用说明-基础包.txt'
+  targetPath: '${globalConfig.resHome}/base/使用说明-基础包.txt'
   basePackVersion: '1.0'
   releaseNotes:
     - version: '1.0'
@@ -83,8 +83,8 @@ basePackReleaseReportTaskConfig:
 basePackReleaseTaskConfig:
   taskName: '发布基础包'
   enabled: false
-  targetPath: 'D:\resources\release\BASE.zip'
+  targetPath: '${globalConfig.resHome}/release/BASE.zip'
   rootFilePaths:
-    - 'D:\resources\base\使用说明-基础包.txt'
-    - 'D:\resources\微信赞赏码.png'
-    - 'D:\resources\支付宝收款码.jpg'
+    - '${globalConfig.resHome}/base/使用说明-基础包.txt'
+    - '${globalConfig.resHome}/微信赞赏码.png'
+    - '${globalConfig.resHome}/支付宝收款码.jpg'

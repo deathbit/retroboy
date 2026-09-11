@@ -1,7 +1,6 @@
 package com.github.deathbit.retroboy.config;
 
 import com.github.deathbit.retroboy.domain.ReleaseNote;
-import com.github.deathbit.retroboy.enums.Platform;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,12 +15,9 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PlatformPackTaskConfig {
-    private Platform platform;
     private String version;
     private boolean enabled;
-    private boolean manualStep;
     private boolean release;
-    private boolean usePal;
     private String core;
     private String platformAlt;
     private String wiki;

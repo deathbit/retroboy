@@ -14,7 +14,7 @@ import java.util.Map;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class SSGamePackage implements GamePackage {
+public class SSGamePackage {
     private String id;
     private Map<String, SSGame> ssGameByArea;
     private Map<String, String> releaseDateByArea;

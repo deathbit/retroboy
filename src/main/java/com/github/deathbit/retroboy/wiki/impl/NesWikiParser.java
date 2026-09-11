@@ -4,16 +4,17 @@ import com.github.deathbit.retroboy.domain.PlatformContext;
 import com.github.deathbit.retroboy.domain.game.WikiGame;
 import com.github.deathbit.retroboy.domain.gamepackage.WikiGamePackage;
 import com.github.deathbit.retroboy.enums.Platform;
+import com.github.deathbit.retroboy.util.PathUtils;
 import com.github.deathbit.retroboy.wiki.WikiParser;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.TextNode;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -22,7 +23,7 @@ import java.util.Map;
 @Component
 public class NesWikiParser implements WikiParser {
 
-    private static final String WIKI_RESOURCE_PATH = "platform/nes/nes_wiki.html";
+    private static final String WIKI_FILE_NAME = "nes_wiki.html";
     private static final Gson GSON = new Gson();
 
     @Override
@@ -32,8 +33,8 @@ public class NesWikiParser implements WikiParser {
 
     @Override
     public List<WikiGamePackage> parseWiki(PlatformContext platformContext) throws Exception {
-        var resource = new ClassPathResource(WIKI_RESOURCE_PATH);
-        var html = resource.getContentAsString(StandardCharsets.UTF_8);
+        var wikiPath = PathUtils.PLATFORM_RESOURCE_ROOT.get(platformContext).resolve(WIKI_FILE_NAME);
+        var html = Files.readString(wikiPath, StandardCharsets.UTF_8);
         var document = Jsoup.parse(html);
 
         var rawList = new ArrayList<Map<String, WikiGame>>();

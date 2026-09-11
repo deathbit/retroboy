@@ -1,13 +1,10 @@
 platformPackTaskConfigMap:
   NES:
-    platform: 'NES'
     version: '1.0'
     enabled: true
-    manualStep: false
     release: false
     core: 'Mesen'
     platformAlt: 'FC'
-    usePal: true
     coreConfigs: [ 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.opt', 'D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\Mesen.slangp' ]
     wiki: 'https://en.wikipedia.org/wiki/List_of_Nintendo_Entertainment_System_games'
     releaseNotes:

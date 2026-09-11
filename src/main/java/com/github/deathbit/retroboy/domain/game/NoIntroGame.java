@@ -11,7 +11,7 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class NoIntroGame implements Game {
+public class NoIntroGame {
     private String id;
     private String packageId;
     private List<String> areas;

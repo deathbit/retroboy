@@ -14,6 +14,7 @@ import com.github.deathbit.retroboy.match.strategy.FuzzyRatioMatchStrategy;
 import com.github.deathbit.retroboy.match.strategy.NoSpaceMatchStrategy;
 import com.github.deathbit.retroboy.match.strategy.PartialExactMatchStrategy;
 import com.github.deathbit.retroboy.processor.PlatformProcessor;
+import com.github.deathbit.retroboy.util.PathUtils;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +22,6 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.EnumMap;
 import java.util.LinkedHashMap;
@@ -182,8 +182,6 @@ public class WikiGamePackageToNoIntroGamePackageMatchHandler {
         List<WikiGamePackage> mismatchWikiGamePackages,
         List<NoIntroGamePackage> unusedNoIntroGamePackages
     ) {
-        var platform = platformContext.getPlatform().getName();
-
         var report = new LinkedHashMap<String, Object>();
         for (var level : MatchLevel.values()) {
             var pairs = matchPairsByLevel.getOrDefault(level, List.of());
@@ -192,7 +190,7 @@ public class WikiGamePackageToNoIntroGamePackageMatchHandler {
         report.put("mismatchWikiDBPackages", buildWikiPackageReport(mismatchWikiGamePackages));
         report.put("unusedGameDBPackages", buildGamePackageReport(unusedNoIntroGamePackages));
 
-        var outputPath = Path.of("src/main/resources/platform/" + platform + "/" + platform + "_wiki_db.json");
+        var outputPath = PathUtils.PLATFORM_RESOURCE_ROOT.get(platformContext).resolve("match.json");
         try {
             Files.writeString(outputPath, GSON.toJson(report));
         } catch (IOException e) {
@@ -324,4 +322,3 @@ public class WikiGamePackageToNoIntroGamePackageMatchHandler {
         return platformProcessor;
     }
 }
-

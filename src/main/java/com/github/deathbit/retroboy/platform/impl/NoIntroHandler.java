@@ -6,15 +6,15 @@ import com.github.deathbit.retroboy.domain.game.NoIntroGame;
 import com.github.deathbit.retroboy.domain.gamepackage.NoIntroGamePackage;
 import com.github.deathbit.retroboy.enums.Platform;
 import com.github.deathbit.retroboy.processor.PlatformProcessor;
+import com.github.deathbit.retroboy.util.PathUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 import org.w3c.dom.Element;
 import org.xml.sax.InputSource;
 
-import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
@@ -36,7 +36,7 @@ public class NoIntroHandler {
     private Map<Platform, PlatformProcessor> platformProcessorMap;
 
     public void handle(PlatformContext platformContext) throws Exception {
-        var noIntroGames = parseGameDBList(platformContext.getPlatform().getName());
+        var noIntroGames = parseGameDBList(platformContext);
         var noIntroGameByTitle = noIntroGames.stream()
                                              .collect(Collectors.toMap(NoIntroGame::getTitle, game -> game));
         getPlatformProcessor(platformContext).preProcessGameDB(noIntroGameByTitle);
@@ -98,11 +98,16 @@ public class NoIntroHandler {
         platformContext.setNoIntroGamePackages(gameDBPackages);
     }
 
-    private List<NoIntroGame> parseGameDBList(String platformName) throws Exception {
+    private List<NoIntroGame> parseGameDBList(PlatformContext platformContext) throws Exception {
         ProgressBar pb = new ProgressBar("解析游戏");
         var gameDBList = new ArrayList<NoIntroGame>();
-        var gameDBResource = new ClassPathResource("platform/%s/%s_db.xml".formatted(platformName, platformName));
-        var content = readResourceAsString(gameDBResource)
+        var platformName = platformContext.getPlatform().getName();
+        var gameDBPath = PathUtils.PLATFORM_RESOURCE_ROOT.get(platformContext)
+                                  .resolve(platformName + "_no_intro.xml");
+        if (!Files.exists(gameDBPath)) {
+            throw new IllegalArgumentException("游戏库资源不存在: " + gameDBPath);
+        }
+        var content = Files.readString(gameDBPath, StandardCharsets.UTF_8)
             .replaceFirst("^\\s*<\\?xml[^?]*\\?>", "");
         var document = createDocumentBuilderFactory()
             .newDocumentBuilder()
@@ -123,21 +128,6 @@ public class NoIntroHandler {
         }
         pb.finishTaskAndClose();
         return gameDBList;
-    }
-
-    private String readResourceAsString(ClassPathResource resource) throws Exception {
-        if (!resource.exists()) {
-            throw new IllegalArgumentException("游戏库资源不存在: " + resource.getPath());
-        }
-        try (var reader = new InputStreamReader(resource.getInputStream(), StandardCharsets.UTF_8)) {
-            var content = new StringBuilder();
-            var buffer = new char[8192];
-            int read;
-            while ((read = reader.read(buffer)) != -1) {
-                content.append(buffer, 0, read);
-            }
-            return content.toString();
-        }
     }
 
     private NoIntroGame buildGameDB(String title, Element archiveElement) {

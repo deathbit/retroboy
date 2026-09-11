@@ -29,12 +29,4 @@ public enum MediaAssetType {
         this.primaryExtension = primaryExtension;
         this.fallbackExtension = fallbackExtension;
     }
-
-    public static int allMissingBitmap() {
-        int bitmap = 0;
-        for (var mediaAssetType : values()) {
-            bitmap |= mediaAssetType.getBitMask();
-        }
-        return bitmap;
-    }
 }

@@ -14,7 +14,7 @@ RetroBoy 是一个面向复古游戏合集制作的自动化整理工具，用�
 - 支持修复 RetroArch 中文字体乱码问题。
 - 支持预配置 MegaBezel CRT 着色器，提供怀旧显示效果。
 - 按平台和地区自动筛选 ROM，目标是支持全部主流复古游戏平台，目前已完成 `NES` 平台和 `JPN`、`USA`、`EUR` 三个地区。
-- 基于 DAT 授权清单、全局白名单、全局/平台/地区黑名单、坏档标记、最高修订版本和地区规则筛选游戏。
+- 基于 No-Intro 游戏数据库、平台修正和地区黑白名单筛选游戏。
 - 支持按地区复制 ROM，并统一重命名为更适合前端显示的文件名称。
 - 支持维护 Wiki 条目与最终 ROM 名称的映射关系。
 - 支持复制并检查封面、盒背、3D 盒图、截图、标题图、视频、说明书等媒体素材。
@@ -73,13 +73,13 @@ retroboy/
 基础包最终可以发布为带版本号的压缩包：
 
 ```text
-{resourcesHomePath}/release/BASE_{basePackVersion}.zip
+{resHome}/release/BASE_{basePackVersion}.zip
 ```
 
 例如：
 
 ```text
-D:\resources\release\BASE_1.0.zip
+res/release/BASE_1.0.zip
 ```
 
 ### 平台包
@@ -100,13 +100,13 @@ D:\resources\release\BASE_1.0.zip
 平台包最终可以发布为带版本号的压缩包：
 
 ```text
-{resourcesHomePath}/release/{Platform}_{version}.zip
+{resHome}/release/{Platform}_{version}.zip
 ```
 
 例如：
 
 ```text
-D:\resources\release\NES_1.0.zip
+res/release/NES_1.0.zip
 ```
 
 ## 运行流程
@@ -121,8 +121,8 @@ D:\resources\release\NES_1.0.zip
 
 ```yaml
 globalConfig:
-  enableBasePackHandler: true
-  enablePlatformPackHandler: true
+  enableBase: true
+  enablePlatform: true
 ```
 
 ### 基础包构建流程
@@ -146,64 +146,43 @@ globalConfig:
 
 平台包流程由 `DefaultPlatformPackHandler` 串联执行：
 
-1. `PlatformContextInitializer`：初始化平台上下文。
-   - 读取平台配置。
-   - 解析 DAT 文件中的授权游戏清单。
-   - 扫描资源目录中的 ROM 文件。
-   - 拆分 ROM 文件名、标签、扩展名等信息。
-2. `RuleEngineHandler`：按地区执行 ROM 筛选规则。
-3. `MoveHandler`：把通过筛选的 ROM 复制到 ES-DE 的平台地区目录。
-4. `RenameHandler`：按规则重命名 ROM，并生成 ROM 名称清单。
-5. `WikiMatcherHandler`：读取人工维护的 Wiki-ROM 映射文件，建立 Wiki 条目与 ROM 的关系。
-6. `MediaHandler`：复制媒体素材，并检查每个游戏缺失哪些媒体资源。
-7. `GameListHandler`：复制并更新 ES-DE 的 `gamelist.xml`。
-8. `CoreHandler`：复制平台对应的 RetroArch 核心配置。
-9. `DebugReportHandler`：生成调试报告。
-10. `ReleaseReportHandler`：生成面向最终用户的使用说明。
-11. `ReleaseHandler`：在开启发布开关时生成平台 ZIP 包。
+1. `PlatformContextInitializer`：按平台配置 Map 的键初始化平台上下文。
+2. `WikiHandler`、`NoIntroHandler`、`SSHandler`：读取 Wiki、No-Intro 和 ScreenScraper 数据。
+3. `FileContextHandler`：扫描 ROM，解析文件名和 SHA1，并应用文件别名映射。
+4. 三个匹配 Handler：依次关联 Wiki 包、No-Intro 包、ROM 文件和 ScreenScraper 包。
+5. `MatchPostProcessorHandler`：补充并校验发行日期。
+6. `MediaDownloaderHandler`：下载缺失的 ScreenScraper 媒体。
+7. `MoveHandler`、`RenameHandler`：复制 ROM 并应用重命名规则。
+8. `GameListHandler`、`MediaHandler`：生成 gamelist、复制媒体并统计完整率。
+9. `MappedAreaOutputHandler`、`CoreHandler`：整理输出地区目录并复制核心配置。
+10. `DebugReportHandler`、`ReleaseReportHandler`：生成调试报告和使用说明。
+11. `ReleaseHandler`：在 `release: true` 时生成平台 ZIP 包。
 
-其中第 5 步之后的流程受平台配置中的 `manualStep` 控制：
-
-```yaml
-platformPackTaskConfigMap:
-  NES:
-    manualStep: true
-```
-
-如果 `manualStep` 为 `false`，程序只会完成规则筛选、复制和重命名，适合先生成中间清单，再人工整理 Wiki 映射和媒体素材。
+平台 `enabled: true` 时执行完整处理链；`release` 只控制最后的 ZIP 发布，不跳过媒体、gamelist 和报告处理。
 
 ## ROM 筛选规则
 
-规则定义位于 `rule/Rules.java`。当前平台按地区使用以下基础规则组合：
+筛选逻辑位于 `NoIntroHandler`，数据来自 classpath 下的 `platform/{platformName}/{platformName}_db.xml`，不读取外部 DAT 文件。
 
-- `JPN`：基础规则 + Japan 或 World 版本
-- `USA`：基础规则 + USA 或 World 版本
-- `EUR`：基础规则 + Europe 或 World 版本
+- 先应用 `PlatformProcessor.preProcessGameDB()` 的平台修正。
+- 保留 `licensed`、`bios`、`devstatus`、`physical` 均为空且 `regparent` 含 `PARENT` 的条目。
+- 按 `regparent` 中的地区分类，先排除 `areaGameBlackList`，再接受 `areaGameWhiteList`。
+- 其余条目保留基础地区 `USA`、`JPN`、`EUR` 或 `clone` 为 `P` 的根条目。
 
-基础规则包括：
-
-- 必须存在于 DAT 授权清单中，或命中全局 ROM 白名单。
-- 排除文件名中包含 `[b]` 的坏档。
-- 排除全局标签黑名单中的版本。
-- 排除平台标签黑名单中的版本。
-- 排除平台文件名黑名单中的 ROM。
-- 排除地区文件名黑名单中的 ROM。
-- 同名 ROM 存在多个 `Rev` 修订时，只保留最高修订版本。
-
-欧洲地区还支持 PAL 备用地区逻辑。当平台配置 `usePal: true` 时，如果没有同名 `Europe` ROM，可以按优先级从 `France`、`Australia`、`Germany`、`Spain`、`Sweden` 等 PAL 地区中选择备用版本。
+NES 的 Wiki 地区映射由 `NesPlatformProcessor` 决定：`JPN`、`USA` 保持不变，其他游戏地区映射为 `PAL`；它不是可开关的备用 ROM 筛选步骤。
 
 ## 资源目录约定
 
-默认配置中的资源根目录是：
+默认配置中的资源根目录是项目根目录下的 `res`：
 
 ```text
-D:\resources
+res
 ```
 
 资源根目录还会放置发布包根目录附加文件，例如：
 
 ```text
-resources/
+res/
 ├── 微信赞赏码.png
 └── 支付宝收款码.jpg
 ```
@@ -211,7 +190,7 @@ resources/
 基础包资源目录约定如下：
 
 ```text
-resources/
+res/
 └── base/
   ├── 使用说明-基础包.txt                    # 基础包说明文档，由 BASE_PACK_RELEASE_REPORT_TASK 生成
   ├── ES-DE/                              # ES-DE 基础包
@@ -241,32 +220,15 @@ resources/
 平台资源目录以 NES 平台为例，约定如下：
 
 ```text
-resources/
+res/
 └── platform/
   └── nes/
-    ├── dat/
-    │   └── nes.dat
     ├── roms/
     │   └── *.nes
-    ├── wiki/
-    │   ├── NES-ROM.txt
-    │   └── NES-WIKI-ROM.txt
-    ├── downloaded_media/
-    │   └── nes/
-    │       ├── 3dboxes/
-    │       ├── backcovers/
-    │       ├── covers/
-    │       ├── fanart/
-    │       ├── manuals/
-    │       ├── marquees/
-    │       ├── miximages/
-    │       ├── physicalmedia/
-    │       ├── screenshots/
-    │       ├── titlescreens/
-    │       └── videos/
-    ├── gamelists/
-    │   └── nes/
-    │       └── gamelist.xml
+    ├── ss/
+    │   └── {ScreenScraper包ID}/             # 下载的媒体文件
+    ├── miximages/                          # 可选的组合预览图
+    ├── gamelist.xml
     ├── core_config/
     │   └── Mesen/
     └── report/
@@ -274,7 +236,11 @@ resources/
       └── 使用说明-NES.txt
 ```
 
-> 注意：代码中当前大量路径使用 Windows 风格反斜杠，例如 `D:\ES-DE`。如需在 macOS 或 Linux 上实际构建资源包，需要同步调整配置和部分路径拼接逻辑。
+资源目录由 `src/main/resources/config/global.yaml` 中的 `globalConfig.resHome` 统一配置，基础包路径通过 `${globalConfig.resHome}` 引用它。配置中的资源子路径使用 `/`，Java 使用 `Path` / `resolve` 解析，兼容 Windows 和 macOS。
+
+在 IDEA 的 Run/Debug Configurations 中，将 **Working directory** 设置为 `$PROJECT_DIR$`；命令行运行时也应先进入项目根目录。`res` 已被 `.gitignore` 忽略，换电脑时需要单独同步其内容。建议在 IDEA 中将 `res` 标记为 **Mark Directory as → Excluded**，避免索引大量资源文件。
+
+> 目标安装目录仍为 `D:\ES-DE`，RetroArch 目标目录也保持不变。macOS 可以开发和读取项目内资源，但不能直接访问 Windows 的 D 盘；当前默认配置的完整安装、复制和发布流程仍需在 Windows 执行。
 
 ## 主要配置说明
 
@@ -288,15 +254,14 @@ src/main/resources/application.yaml
 
 ```yaml
 globalConfig:
-  enableBasePackHandler: true
-  enablePlatformPackHandler: true
-  esdeHomePath: 'D:\ES-DE'
-  retroarchHomePath: 'D:\ES-DE\Emulators\RetroArch-Win64'
-  resourcesHomePath: 'D:\resources'
+  enableBase: true
+  enablePlatform: true
+  esdeHome: 'D:\ES-DE'
+  raHome: 'D:\ES-DE\Emulators\RetroArch-Win64'
+  resHome: 'res'
   repo: 'https://github.com/deathbit/retroboy'
-  basePackVersion: '1.0'
   esdeVersion: '3.4.1'
-  retroarchVersion: '1.22.2'
+  raVersion: '1.22.2'
   baiduPan: 'https://pan.baidu.com/s/1FsRW8323Ga_XI142mA-0xQ?pwd=4fva'
   qqGroup: '1021421949'
   feedbackEmail: '809730879@qq.com'
@@ -312,7 +277,6 @@ globalConfig:
 | `raHome` | RetroArch 目标目录 |
 | `resHome` | 原始资源、报告和发布包根目录 |
 | `repo` | 项目仓库地址，会写入使用说明 |
-| `basePackVersion` | 基础包版本，会写入使用说明 |
 | `esdeVersion` | ES-DE 版本，会写入使用说明 |
 | `raVersion` | RetroArch 版本，会写入使用说明 |
 | `baiduPan` | 基础包网盘地址，会写入使用说明 |
@@ -327,7 +291,8 @@ globalConfig:
 basePackReleaseReportTaskConfig:
   taskName: '生成基础包说明文档'
   enabled: true
-  targetPath: 'D:\resources\base\使用说明-基础包.txt'
+  targetPath: '${globalConfig.resHome}/base/使用说明-基础包.txt'
+  basePackVersion: '1.0'
   releaseNotes:
     - version: '1.0'
       date: '1991-02-25'
@@ -337,11 +302,11 @@ basePackReleaseReportTaskConfig:
 basePackReleaseTaskConfig:
   taskName: '发布基础包'
   enabled: true
-  targetPath: 'D:\resources\release\BASE.zip'
+  targetPath: '${globalConfig.resHome}/release/BASE.zip'
   rootFilePaths:
-    - 'D:\resources\base\使用说明-基础包.txt'
-    - 'D:\resources\微信赞赏码.png'
-    - 'D:\resources\支付宝收款码.jpg'
+    - '${globalConfig.resHome}/base/使用说明-基础包.txt'
+    - '${globalConfig.resHome}/微信赞赏码.png'
+    - '${globalConfig.resHome}/支付宝收款码.jpg'
 ```
 
 `targetPath` 可以保持为 `BASE.zip`，发布时会自动按 `basePackVersion` 输出为 `BASE_1.0.zip`。`rootFilePaths` 中的文件会按文件名放入压缩包根目录。
@@ -353,13 +318,10 @@ basePackReleaseTaskConfig:
 ```yaml
 platformPackTaskConfigMap:
   NES:
-    platform: 'NES'
     version: '1.0'
     enabled: true
-    manualStep: true
     release: false
     core: 'Mesen'
-    usePal: true
     wiki: 'https://en.wikipedia.org/wiki/List_of_Nintendo_Entertainment_System_games'
 ```
 
@@ -367,59 +329,26 @@ platformPackTaskConfigMap:
 
 | 字段 | 说明 |
 | --- | --- |
-| `platform` | 平台枚举，目前为 `NES` |
 | `version` | 平台包版本 |
 | `enabled` | 是否构建该平台 |
-| `manualStep` | 是否进入 Wiki、媒体、gamelist、报告和发布等后续步骤 |
 | `release` | 是否生成平台 ZIP 包 |
 | `core` | 默认 RetroArch 核心配置目录名，例如 `Mesen` |
-| `usePal` | 欧洲地区是否启用 PAL 备用地区规则 |
 | `coreConfigs` | 发布平台包时额外打包的核心配置文件 |
 | `wiki` | 对应平台的 Wikipedia 游戏列表地址 |
 | `releaseNotes` | 平台包版本更新记录，会写入使用说明 |
-| `areaConfigs` | 各地区配置，例如地区文件名黑名单 |
-| `tagBlackList` | 平台级标签黑名单 |
-| `fileNameBlackList` | 平台级文件名黑名单 |
+| `areaGameBlackList` | 排除指定地区的 No-Intro 游戏，格式为 `地区 - 游戏标题` |
+| `areaGameWhiteList` | 补充指定地区的 No-Intro 游戏，格式同上 |
 | `renameOptions` | 指定 ROM 的手动重命名规则 |
 
-## Wiki 映射文件
+平台由 Map 的键（例如 `NES`）确定，无需在条目中重复指定。
 
-平台包流程会先由 `RenameHandler` 生成 ROM 名称清单：
+## Wiki 包映射
 
-```text
-{resourcesHomePath}\platform\{platformName}\wiki\{Platform}-ROM.txt
-```
+`WikiGamePackageToNoIntroGamePackageMatchHandler` 依次执行完整匹配、部分匹配、去空格匹配、模糊匹配，最后应用平台配置中的 `packageMappingList` 直接映射。
 
-例如：
+`packageMappingList` 的每个条目格式为 `wikiId -> gameId`。两端 ID 必须存在于前面各层尚未匹配的包中，且不能重复。`noFuzzyRatioMatch` 可指定跳过模糊匹配、留给直接映射处理的 Wiki 包 ID。
 
-```text
-D:\resources\platform\nes\wiki\NES-ROM.txt
-```
-
-随后需要维护 Wiki 条目到最终 ROM 名称的映射文件：
-
-```text
-{resourcesHomePath}\platform\{platformName}\wiki\{Platform}-WIKI-ROM.txt
-```
-
-格式示例：
-
-```text
-JPN(2):
-Example Wiki Game A || Example Final Name A
-Example Wiki Game B || Example Final Name B
-
-USA(1):
-Example Wiki Game C || Example Final Name C
-```
-
-格式规则：
-
-- 地区标题格式为 `AREA(count):`，例如 `JPN(100):`。
-- 每一行映射格式为 `维基百科条目 || 最终名称`。
-- `count` 必须与该地区实际映射行数一致。
-- 最终名称必须能在重命名结果中找到。
-- 如果 Wiki 条目暂时无法匹配 ROM，可以使用 `=====` 作为占位。
+匹配报告写入 `res/platform/{platformName}/match.json`。它是生成物，不是输入；删除后会在下一次执行匹配阶段时重新生成。存在未匹配 Wiki 包或未使用 No-Intro 包时，程序会写出报告并终止，便于修正映射。
 
 ## 媒体素材
 
@@ -439,17 +368,13 @@ Example Wiki Game C || Example Final Name C
 | 10 | `titlescreens` | `png` | `jpg` |
 | 11 | `videos` | `mp4` | 无 |
 
-媒体文件按以下方式匹配：
+ScreenScraper 媒体下载到以下目录，再由 `MediaHandler` 按类型、地区和扩展名选择并复制到 ES-DE：
 
 ```text
-downloaded_media/{platformName}/{mediaType}/{Platform}-{Area}/{finalName}.{extension}
+{resHome}/platform/{platformName}/ss/{ScreenScraper包ID}/
 ```
 
-例如：
-
-```text
-downloaded_media/nes/3dboxes/NES-USA/Gun Nac.png
-```
+ES-DE 输出媒体位于 `{esdeHome}/ES-DE/downloaded_media/{platformName}`。可选的组合预览图从 `{resHome}/platform/{platformName}/miximages` 复制。
 
 报告中的媒体状态使用：
 
@@ -478,14 +403,14 @@ D:\ES-DE\Emulators\RetroArch-Win64\config\Mesen\...
 基础包流程会生成：
 
 ```text
-D:\resources\base\使用说明-基础包.txt
+res/base/使用说明-基础包.txt
 ```
 
 平台包流程会生成：
 
 ```text
-D:\resources\platform\nes\report\调试信息-NES.txt
-D:\resources\platform\nes\report\使用说明-NES.txt
+res/platform/nes/调试信息-NES.txt
+res/platform/nes/使用说明-NES.txt
 ```
 
 调试报告包括：
@@ -518,8 +443,8 @@ D:\resources\platform\nes\report\使用说明-NES.txt
 当对应发布开关开启时，会生成：
 
 ```text
-D:\resources\release\BASE_1.0.zip
-D:\resources\release\NES_1.0.zip
+res/release/BASE_1.0.zip
+res/release/NES_1.0.zip
 ```
 
 基础包发布包根目录会额外包含基础包说明文档、微信赞赏码和支付宝收款码。平台包发布包根目录会额外包含微信赞赏码、支付宝收款码、平台调试报告和平台使用说明。
@@ -528,7 +453,7 @@ D:\resources\release\NES_1.0.zip
 
 ### 1. 准备环境
 
-确认已安装 JDK 17，并准备好 ES-DE、RetroArch、ROM、DAT、媒体素材、gamelist 和核心配置等资源。
+确认已安装 JDK 17，并准备好 ES-DE、RetroArch、ROM、媒体素材和核心配置等资源。保留 `src/main/resources/platform` 下的游戏数据库、Wiki HTML、ScreenScraper CSV 和 JSON 缓存，它们仍是程序输入。
 
 ### 2. 修改配置
 
@@ -544,7 +469,7 @@ src/main/resources/application.yaml
 - `esdeHome`
 - `raHome`
 - 基础包各任务的 `sourcePath` / `targetPath`
-- 平台包的 `enabled`、`manualStep`、`release`
+- 平台包的 `enabled`、`release`
 - 平台黑名单、地区黑名单、重命名规则和更新记录
 
 ### 3. 构建或运行项目
@@ -577,8 +502,8 @@ java -jar target/retroboy-0.0.1-SNAPSHOT.jar
 1. 在 `globalConfig` 中设置：
 
 ```yaml
-enableBasePackHandler: true
-enablePlatformPackHandler: false
+enableBase: true
+enablePlatform: false
 ```
 
 2. 检查各基础包任务路径和 `enabled`。
@@ -590,36 +515,27 @@ enablePlatformPackHandler: false
 1. 在 `globalConfig` 中设置：
 
 ```yaml
-enableBasePackHandler: false
-enablePlatformPackHandler: true
+enableBase: false
+enablePlatform: true
 ```
 
 2. 在平台配置中先设置：
 
 ```yaml
 enabled: true
-manualStep: false
 release: false
 ```
 
-3. 运行程序，生成通过筛选并重命名后的 ROM 和 `{Platform}-ROM.txt`。
-4. 根据 `{Platform}-ROM.txt` 和 Wikipedia 清单维护 `{Platform}-WIKI-ROM.txt`。
-5. 准备媒体素材和 `gamelist.xml`。
-6. 再设置：
-
-```yaml
-manualStep: true
-release: false
-```
-
-7. 运行程序，检查调试报告和使用说明。
-8. 确认无误后设置：
+3. 准备原始 ROM 和核心配置，确认游戏数据库、Wiki HTML 及 ScreenScraper 列表和缓存齐全。
+4. 运行完整平台流程；如果匹配阶段报错，根据报告修正 `packageMappingList` 等配置后重新运行。
+5. 检查生成的 ROM、媒体、gamelist、调试报告和使用说明。
+6. 确认无误后设置：
 
 ```yaml
 release: true
 ```
 
-9. 再次运行程序生成平台发布包。
+7. 再次运行程序生成平台发布包。
 
 ## 最终用户安装说明摘要
 
@@ -646,8 +562,8 @@ D:\ES-DE\ROMs\nes
 
 1. 在 `Platform` 枚举中增加平台值。
 2. 在 `application.yaml` 的 `platformPackTaskConfigMap` 中增加平台配置。
-3. 准备平台资源目录：DAT、ROM、Wiki 映射、媒体素材、gamelist、核心配置。
-4. 根据平台需要调整或扩展规则。
+3. 准备平台资源目录：游戏数据库、Wiki HTML、ScreenScraper 列表、ROM、媒体素材和核心配置。
+4. 实现对应的 `WikiParser`、`PlatformProcessor`，并配置需要的包映射。
 5. 运行平台包流程并检查调试报告。
 6. 确认无误后开启发布。
 
@@ -657,8 +573,8 @@ D:\ES-DE\ROMs\nes
 - 建议先使用测试目录验证流程，再对正式资源目录执行。
 - `deleteAllTaskConfig.enabled` 为 `true` 时会删除配置中的目标目录，请谨慎使用。
 - 平台包发布开关 `release` 默认为是否实际生成 ZIP 的关键控制项。
-- `manualStep` 为 `false` 时不会生成媒体检查、gamelist、报告和发布包。
-- Wiki 映射文件的地区数量必须与实际条目数量一致，否则程序会抛出异常。
+- `release: false` 只关闭 ZIP 发布，其他处理步骤仍会执行。
+- Wiki 包直接映射的 ID 必须存在且未被前面的匹配层使用，否则程序会抛出异常。
 - 当前路径配置主要面向 Windows，跨平台运行前需要额外适配路径。
 
 ## 捐助本项目

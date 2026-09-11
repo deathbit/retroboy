@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class SSGame implements Game{
+public class SSGame {
     private String id;
     private String packageId;
     private String area;

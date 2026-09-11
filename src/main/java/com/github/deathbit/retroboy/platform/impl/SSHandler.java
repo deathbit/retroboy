@@ -5,16 +5,15 @@ import com.github.deathbit.retroboy.domain.ProgressBar;
 import com.github.deathbit.retroboy.domain.SSMedia;
 import com.github.deathbit.retroboy.domain.game.SSGame;
 import com.github.deathbit.retroboy.domain.gamepackage.SSGamePackage;
+import com.github.deathbit.retroboy.util.PathUtils;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 
-import java.io.InputStreamReader;
 import java.net.URI;
 import java.net.URLEncoder;
 import java.net.http.HttpClient;
@@ -95,8 +94,9 @@ public class SSHandler {
 
     public void handle(PlatformContext platformContext) throws Exception {
         var platformName = platformContext.getPlatform().getName();
-        var gameIds = readGameIds(platformName);
-        var outputDirectory = Path.of("src/main/resources/platform/%s/ss".formatted(platformName));
+        var platformResourceRoot = PathUtils.PLATFORM_RESOURCE_ROOT.get(platformContext);
+        var gameIds = readGameIds(platformResourceRoot.resolve(platformName + "_ss.csv"));
+        var outputDirectory = platformResourceRoot.resolve("ss_meta");
         Files.createDirectories(outputDirectory);
 
         var ssGamePackages = new ArrayList<SSGamePackage>();
@@ -246,32 +246,23 @@ public class SSHandler {
         return ssGamePackage;
     }
 
-    private List<String> readGameIds(String platformName) throws Exception {
-        var ssResource = new ClassPathResource("platform/%s/%s_ss.csv".formatted(platformName, platformName));
-        if (!ssResource.exists()) {
-            throw new IllegalArgumentException("ScreenScraper游戏列表资源不存在: " + ssResource.getPath());
+    private List<String> readGameIds(Path ssResource) throws Exception {
+        if (!Files.exists(ssResource)) {
+            throw new IllegalArgumentException("ScreenScraper游戏列表资源不存在: " + ssResource);
         }
 
         var gameIds = new ArrayList<String>();
-        try (var reader = new InputStreamReader(ssResource.getInputStream(), StandardCharsets.UTF_8)) {
-            var csv = new StringBuilder();
-            var buffer = new char[8192];
-            int read;
-            while ((read = reader.read(buffer)) != -1) {
-                csv.append(buffer, 0, read);
+        var lines = Files.readString(ssResource, StandardCharsets.UTF_8).split("\\R");
+        for (int i = 1; i < lines.length; i++) {
+            var line = lines[i].trim();
+            if (line.isEmpty()) {
+                continue;
             }
-            var lines = csv.toString().split("\\R");
-            for (int i = 1; i < lines.length; i++) {
-                var line = lines[i].trim();
-                if (line.isEmpty()) {
-                    continue;
-                }
-                var fields = parseCsvLine(line);
-                if (fields.isEmpty() || fields.get(0).isBlank()) {
-                    throw new IllegalArgumentException("ScreenScraper游戏列表第%s行缺少Game ID: %s".formatted(i + 1, line));
-                }
-                gameIds.add(fields.get(0).trim());
+            var fields = parseCsvLine(line);
+            if (fields.isEmpty() || fields.get(0).isBlank()) {
+                throw new IllegalArgumentException("ScreenScraper游戏列表第%s行缺少Game ID: %s".formatted(i + 1, line));
             }
+            gameIds.add(fields.get(0).trim());
         }
         return gameIds;
     }

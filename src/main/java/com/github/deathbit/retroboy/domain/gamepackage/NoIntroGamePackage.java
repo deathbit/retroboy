@@ -12,7 +12,7 @@ import java.util.Map;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class NoIntroGamePackage implements GamePackage {
+public class NoIntroGamePackage {
     private String id;
     private Map<String, NoIntroGame> noIntroGameByArea;
 }

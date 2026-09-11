@@ -12,7 +12,7 @@ import java.util.Map;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class WikiGamePackage implements GamePackage {
+public class WikiGamePackage {
     private String id;
     private Map<String, WikiGame> wikiGameByArea;
 }

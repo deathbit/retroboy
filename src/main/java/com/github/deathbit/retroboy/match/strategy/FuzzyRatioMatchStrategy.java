@@ -2,7 +2,6 @@ package com.github.deathbit.retroboy.match.strategy;
 
 import com.github.deathbit.retroboy.domain.FuzzyAreaResult;
 import com.github.deathbit.retroboy.domain.FuzzyCandidate;
-import com.github.deathbit.retroboy.domain.FuzzyMatchDetail;
 import com.github.deathbit.retroboy.domain.gamepackage.NoIntroGamePackage;
 import com.github.deathbit.retroboy.domain.MatchPairForPackage;
 import com.github.deathbit.retroboy.domain.gamepackage.WikiGamePackage;
@@ -27,24 +26,15 @@ import java.util.stream.Collectors;
  * 匹配逻辑：
  * <ol>
  *   <li>对每个 wiki area，分别与所有候选 game 包中同 area 的 matchName 计算 WeightedRatio。</li>
- *   <li>各 area 取得分最高的 TOP1（需 ≥ 90 分），记录 TOP5 供审计。</li>
+ *   <li>各 area 取得分最高的 TOP1（需 ≥ 90 分）。</li>
  *   <li>收集所有得分 ≥ 90 的 TOP1 候选：若它们全部指向同一个 GameDBPackage，则认为匹配成功。</li>
  *   <li>已匹配的包从候选池移除，不再参与后续计算。</li>
  * </ol>
- * <p>
- * 无论是否匹配成功，每个 wiki 包的中间计算过程均记录在 {@link FuzzyMatchDetail} 中，
- * 可通过 {@link #getFuzzyMatchDetails()} 获取。
  */
 public class FuzzyRatioMatchStrategy extends AbstractMatchStrategy {
 
     private static final int SCORE_THRESHOLD = 90;
     private static final int TOP_N = 5;
-
-    private final List<FuzzyMatchDetail> fuzzyMatchDetails = new ArrayList<>();
-
-    public List<FuzzyMatchDetail> getFuzzyMatchDetails() {
-        return fuzzyMatchDetails;
-    }
 
     @Override
     public MatchLevel level() {
@@ -55,8 +45,6 @@ public class FuzzyRatioMatchStrategy extends AbstractMatchStrategy {
     public List<MatchPairForPackage> match(List<WikiGamePackage> wikiPackages,
                                            List<NoIntroGamePackage> gamePackages,
                                            Map<String, String> areaMapping) {
-        fuzzyMatchDetails.clear();
-
         var usedGame = new boolean[gamePackages.size()];
         var pairs = new ArrayList<MatchPairForPackage>();
         var toRemoveWiki = new boolean[wikiPackages.size()];
@@ -80,12 +68,6 @@ public class FuzzyRatioMatchStrategy extends AbstractMatchStrategy {
             if (matched != null) {
                 matchedIdx = gamePackages.indexOf(matched);
             }
-
-            fuzzyMatchDetails.add(FuzzyMatchDetail.builder()
-                    .wikiGamePackage(wikiPkg)
-                    .areaResults(areaResults)
-                    .matchedNoIntroGamePackage(matched)
-                    .build());
 
             if (matched != null && matchedIdx >= 0) {
                 pairs.add(buildPair(wikiPkg, matched));
